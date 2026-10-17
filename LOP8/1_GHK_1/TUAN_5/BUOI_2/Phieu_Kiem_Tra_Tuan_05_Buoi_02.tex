@@ -1,0 +1,524 @@
+% !TEX program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.2mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1mm}%
+}
+
+% Câu trắc nghiệm 2 dòng: mỗi dòng 2 đáp án (dành cho câu có đáp án dài)
+\newcommand{\cauTNB}[6]{% \cauTNB{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{1mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Hình bình hành - Hình chữ nhật \& Rút gọn biểu thức} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTNB{1}{Trong các khẳng định sau về hình bình hành, khẳng định nào \textbf{sai}?}{Các cạnh đối bằng nhau.}{Các góc đối bằng nhau.}{Hai đường chéo vuông góc với nhau.}{Hai đường chéo cắt nhau tại trung điểm mỗi đường.}
+
+\cauTNB{2}{Tứ giác nào sau đây là hình bình hành?}{Tứ giác có hai cạnh đối bằng nhau.}{Tứ giác có hai đường chéo bằng nhau.}{Tứ giác có các cặp cạnh đối song song.}{Tứ giác có hai góc đối bằng nhau.}
+
+\cauTNB{3}{Khẳng định nào sau đây là \textbf{đúng} về hình chữ nhật?}{Hai đường chéo vuông góc với nhau.}{Hai đường chéo bằng nhau và cắt nhau tại trung điểm.}{Mỗi đường chéo là phân giác của một góc.}{Bốn cạnh bằng nhau.}
+
+\cauTNB{4}{Hình bình hành $ABCD$ trở thành hình chữ nhật khi:}{Có hai cạnh kề bằng nhau.}{Có hai đường chéo vuông góc với nhau.}{Có một góc vuông.}{Có một đường chéo là phân giác của một góc.}
+
+\cauTN{5}{Tam giác $ABC$ vuông tại $A$ có $BC = 10\text{ cm}$. Trung tuyến $AM$ ứng với cạnh huyền có độ dài là:}{$10\text{ cm}$}{$5\text{ cm}$}{$20\text{ cm}$}{$2{,}5\text{ cm}$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$A = (x - 2)(x + 2) - (x - 3)^2$} & 
+\oBaiTap[7]{b)}{$B = (2x + 1)^2 - 4x(x - 1)$} \\
+\hline
+\oBaiTap[7]{c)}{$C = (x + 3)^2 - (x - 2)(x + 2) - 6x$} & 
+\oBaiTap[7]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x - 1)(x^2 + x + 1) - (x + 2)(x^2 - 2x + 4) + 9$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$(x - 3)^2 - (x - 2)(x + 2) = 1$} & 
+\oBaiTap[9]{b)}{$(2x + 1)^2 - 4x(x + 2) = -7$} \\
+\hline
+\oBaiTap[9]{c)}{$(x + 2)^2 - (x - 1)^2 = 9$} & 
+\oBaiTap[9]{d)}{$(2x - 1)(2x + 1) - 4x(x - 1) = 7$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán hình học (Dấu hiệu nhận biết hình chữ nhật):}\par
+\vspace{0.3mm}
+Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh huyền $BC$. Kẻ $MD \perp AB$ tại $D$ và $ME \perp AC$ tại $E$.\par
+\vspace{0.2mm}
+\textbf{a) (1,25 điểm)} Chứng minh tứ giác $ADME$ là hình chữ nhật.\par
+\vspace{0.2mm}
+\textbf{b) (1,25 điểm)} Chứng minh $DE = AM$. Cho biết $AB = 6\text{ cm}, AC = 8\text{ cm}$, tính độ dài đoạn thẳng $DE$.\par
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{11}
+&
+\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Hình bình hành - Hình chữ nhật \& Rút gọn biểu thức} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTNB{1}{Trong hình bình hành, hai đường chéo có tính chất nào sau đây?}{Bằng nhau.}{Vuông góc với nhau.}{Cắt nhau tại trung điểm của mỗi đường.}{Là đường phân giác của các góc.}
+
+\cauTNB{2}{Khẳng định nào sau đây \textbf{không phải} là dấu hiệu nhận biết hình bình hành?}{Tứ giác có các cạnh đối bằng nhau.}{Tứ giác có hai đường chéo bằng nhau.}{Tứ giác có các góc đối bằng nhau.}{Tứ giác có hai đường chéo cắt nhau tại trung điểm.}
+
+\cauTNB{3}{Cho hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$. Khẳng định nào sau đây \textbf{sai}?}{$AC = BD$.}{$OA = OB = OC = OD$.}{$AC \perp BD$.}{$\widehat{A} = \widehat{B} = \widehat{C} = \widehat{D} = 90^\circ$.}
+
+\cauTNB{4}{Dấu hiệu nào sau đây chứng minh một hình bình hành là hình chữ nhật?}{Hình bình hành có hai đường chéo bằng nhau.}{Hình bình hành có hai đường chéo vuông góc.}{Hình bình hành có hai cạnh kề bằng nhau.}{Hình bình hành có một đường chéo là tia phân giác.}
+
+\cauTN{5}{Tam giác $ABC$ vuông tại $A$ có trung tuyến $AM = 6{,}5\text{ cm}$. Độ dài cạnh huyền $BC$ là:}{$6{,}5\text{ cm}$}{$13\text{ cm}$}{$3{,}25\text{ cm}$}{$12\text{ cm}$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$A = (x - 3)(x + 3) - (x - 2)^2$} & 
+\oBaiTap[7]{b)}{$B = (2x - 1)^2 - 4x(x + 1)$} \\
+\hline
+\oBaiTap[7]{c)}{$C = (x + 2)^2 - (x - 3)(x + 3) - 4x$} & 
+\oBaiTap[7]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x + 1)(x^2 - x + 1) - (x - 2)(x^2 + 2x + 4) - 9$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$(x - 4)^2 - (x - 3)(x + 3) = 1$} & 
+\oBaiTap[9]{b)}{$(2x - 1)^2 - 4x(x - 2) = 17$} \\
+\hline
+\oBaiTap[9]{c)}{$(x + 3)^2 - (x - 2)^2 = 15$} & 
+\oBaiTap[9]{d)}{$(2x - 3)(2x + 3) - 4x(x - 2) = 7$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán hình học (Dấu hiệu nhận biết hình chữ nhật):}\par
+\vspace{0.3mm}
+Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh huyền $BC$. Kẻ $MD \perp AB$ tại $D$ và $ME \perp AC$ tại $E$.\par
+\vspace{0.2mm}
+\textbf{a) (1,25 điểm)} Chứng minh tứ giác $ADME$ là hình chữ nhật.\par
+\vspace{0.2mm}
+\textbf{b) (1,25 điểm)} Chứng minh $DE = AM$. Cho biết $AB = 5\text{ cm}, AC = 12\text{ cm}$, tính độ dài đoạn thẳng $DE$.\par
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{11}
+&
+\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Hình bình hành - Hình chữ nhật \& Rút gọn biểu thức} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTN{1}{Cho hình bình hành $ABCD$ có $\widehat{A} = 70^\circ$. Số đo góc $C$ là:}{$\widehat{C} = 70^\circ$}{$\widehat{C} = 110^\circ$}{$\widehat{C} = 180^\circ$}{$\widehat{C} = 20^\circ$}
+
+\cauTNB{2}{Tứ giác $ABCD$ có hai đường chéo cắt nhau tại $O$. Tứ giác $ABCD$ là hình bình hành khi:}{$OA = OB$ và $OC = OD$.}{$OA = OC$ và $OB = OD$.}{$AC = BD$.}{$AC \perp BD$.}
+
+\cauTN{3}{Tứ giác có ba góc vuông là:}{Hình thang cân.}{Hình bình hành.}{Hình chữ nhật.}{Hình thoi.}
+
+\cauTNB{4}{Hình thang cân $ABCD$ ($AB // CD$) trở thành hình chữ nhật khi:}{Có hai cạnh bên bằng nhau.}{Có hai đường chéo bằng nhau.}{Có một góc vuông.}{Có hai góc kề một đáy bằng nhau.}
+
+\cauTN{5}{Hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$. Biết $OA = 6\text{ cm}$, độ dài đường chéo $BD$ là:}{$3\text{ cm}$}{$6\text{ cm}$}{$12\text{ cm}$}{$24\text{ cm}$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$A = (x - 4)(x + 4) - (x - 1)^2$} & 
+\oBaiTap[7]{b)}{$B = (3x + 1)^2 - 9x(x - 1)$} \\
+\hline
+\oBaiTap[7]{c)}{$C = (x + 4)^2 - (x - 1)(x + 1) - 8x$} & 
+\oBaiTap[7]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x - 2)(x^2 + 2x + 4) - (x + 1)(x^2 - x + 1) + 9$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$(x - 2)^2 - (x - 1)(x + 1) = -3$} & 
+\oBaiTap[9]{b)}{$(3x + 1)^2 - 9x(x + 1) = -5$} \\
+\hline
+\oBaiTap[9]{c)}{$(x + 4)^2 - (x - 1)^2 = 25$} & 
+\oBaiTap[9]{d)}{$(3x - 1)(3x + 1) - 9x(x - 1) = 8$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán hình học (Dấu hiệu nhận biết hình chữ nhật):}\par
+\vspace{0.3mm}
+Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh huyền $BC$. Kẻ $MD \perp AB$ tại $D$ và $ME \perp AC$ tại $E$.\par
+\vspace{0.2mm}
+\textbf{a) (1,25 điểm)} Chứng minh tứ giác $ADME$ là hình chữ nhật.\par
+\vspace{0.2mm}
+\textbf{b) (1,25 điểm)} Chứng minh $DE = AM$. Cho biết $AB = 9\text{ cm}, AC = 12\text{ cm}$, tính độ dài đoạn thẳng $DE$.\par
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{11}
+&
+\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Hình bình hành - Hình chữ nhật \& Rút gọn biểu thức} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTN{1}{Cho hình bình hành $ABCD$ có $\widehat{A} = 110^\circ$. Số đo góc $B$ là:}{$\widehat{B} = 110^\circ$}{$\widehat{B} = 70^\circ$}{$\widehat{B} = 55^\circ$}{$\widehat{B} = 90^\circ$}
+
+\cauTN{2}{Tứ giác có hai cạnh đối song song và bằng nhau là:}{Hình chữ nhật.}{Hình thang cân.}{Hình bình hành.}{Hình vuông.}
+
+\cauTNB{3}{Khẳng định nào sau đây là \textbf{sai} khi nói về hình chữ nhật?}{Hình chữ nhật có bốn góc vuông.}{Hình chữ nhật có hai đường chéo bằng nhau.}{Giao điểm hai đường chéo cách đều bốn đỉnh.}{Hai đường chéo vuông góc với nhau.}
+
+\cauTNB{4}{Cho hình bình hành $ABCD$. Để $ABCD$ là hình chữ nhật thì cần thêm điều kiện nào?}{$AC \perp BD$}{$AB = BC$}{$AC = BD$}{$AB // CD$}
+
+\cauTN{5}{Tam giác $ABC$ vuông tại $A$ có $AB = 8\text{ cm}, AC = 15\text{ cm}$. Trung tuyến $AM$ ứng với cạnh huyền có độ dài là:}{$17\text{ cm}$}{$7\text{ cm}$}{$8{,}5\text{ cm}$}{$9\text{ cm}$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$A = (x - 5)(x + 5) - (x - 2)^2$} & 
+\oBaiTap[7]{b)}{$B = (3x - 1)^2 - 9x(x + 1)$} \\
+\hline
+\oBaiTap[7]{c)}{$C = (x + 5)^2 - (x - 2)(x + 2) - 10x$} & 
+\oBaiTap[7]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x + 2)(x^2 - 2x + 4) - (x - 1)(x^2 + x + 1) - 9$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$(x - 5)^2 - (x - 4)(x + 4) = 1$} & 
+\oBaiTap[9]{b)}{$(3x - 1)^2 - 9x(x - 1) = 7$} \\
+\hline
+\oBaiTap[9]{c)}{$(x + 5)^2 - (x - 2)^2 = 35$} & 
+\oBaiTap[9]{d)}{$(3x - 2)(3x + 2) - 9x(x - 1) = 5$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán hình học (Dấu hiệu nhận biết hình chữ nhật):}\par
+\vspace{0.3mm}
+Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh huyền $BC$. Kẻ $MD \perp AB$ tại $D$ và $ME \perp AC$ tại $E$.\par
+\vspace{0.2mm}
+\textbf{a) (1,25 điểm)} Chứng minh tứ giác $ADME$ là hình chữ nhật.\par
+\vspace{0.2mm}
+\textbf{b) (1,25 điểm)} Chứng minh $DE = AM$. Cho biết $AB = 8\text{ cm}, AC = 15\text{ cm}$, tính độ dài đoạn thẳng $DE$.\par
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{11}
+&
+\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\end{document}

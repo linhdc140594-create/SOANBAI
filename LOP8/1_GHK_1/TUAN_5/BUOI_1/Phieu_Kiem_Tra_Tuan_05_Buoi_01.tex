@@ -1,0 +1,528 @@
+% !TEX program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 20.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.2mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1mm}%
+}
+
+% Câu trắc nghiệm 2 dòng: mỗi dòng 2 đáp án (dành cho câu có đáp án dài)
+\newcommand{\cauTNB}[6]{% \cauTNB{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{1mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Tổng và hiệu của hai lập phương} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTNB{1}{Khẳng định nào dưới đây là đúng về hằng đẳng thức tổng hai lập phương?}{$(A+B)^3 = A^3 + B^3$}{$A^3 + B^3 = (A+B)(A^2 - AB + B^2)$}{$A^3 + B^3 = (A+B)(A^2 + AB + B^2)$}{$A^3 + B^3 = (A-B)(A^2 + AB + B^2)$}
+
+\cauTN{2}{Khai triển tích $(x + 2)(x^2 - 2x + 4)$ ta được kết quả là:}{$x^3 - 8$}{$x^3 + 8$}{$x^3 + 4$}{$(x + 2)^3$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $(x - 3)(x^2 + 3x + \dots) = x^3 - 27$.}{$3$}{$6$}{$9$}{$-9$}
+
+\cauTN{4}{Biểu thức nào sau đây là ``bình phương thiếu của một tổng'' của $x$ và $2$?}{$x^2 + 4x + 4$}{$x^2 - 2x + 4$}{$x^2 + 2x + 4$}{$x^2 - 4x + 4$}
+
+\cauTN{5}{Giá trị của biểu thức $M = (x + 1)(x^2 - x + 1) - x^3$ bằng:}{$-1$}{$0$}{$2x^3 + 1$}{$1$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$A = (x + 2)(x^2 - 2x + 4) - (x - 2)(x^2 + 2x + 4)$} & 
+\oBaiTap[9]{b)}{$B = (2x - 1)(4x^2 + 2x + 1) - 4x(2x^2 - 1)$} \\
+\hline
+\oBaiTap[9]{c)}{$C = (x + 1)^3 - (x - 1)(x^2 + x + 1) - 3x(x + 1)$} & 
+\oBaiTap[8]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x - 3)(x^2 + 3x + 9) - (x + 1)(x^2 - x + 1) + 28$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$ và tính giá trị biểu thức:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[13]{a)}{Tìm số thực $x$, biết:\par
+$(x - 1)(x^2 + x + 1) - x(x - 2)(x + 2) = 15$.} & 
+\oBaiTap[12]{b)}{Rút gọn rồi tính giá trị của biểu thức:\par
+$P = (x + 3)(x^2 - 3x + 9) - (x - 1)(x^2 + x + 1) - 2x$\par
+tại $x = 10$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.3mm}
+\textbf{a) (1,5 điểm)} Một chi tiết máy bằng thép đặc có dạng hình lập phương lớn với độ dài cạnh $a = x + 2$ (cm). Để giảm bớt khối lượng mà vẫn giữ nguyên độ chịu lực, kỹ sư khoét rỗng một phần hình lập phương bên trong có độ dài cạnh $b = x - 2$ (cm).\par
+1) Hãy viết biểu thức biểu thị thể tích thép thực tế còn lại $V = a^3 - b^3$ theo $x$ và rút gọn biểu thức đó.\par
+2) Khi $x = 6\text{ cm}$, hãy tính chính xác thể tích thép còn lại của chi tiết máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\vspace{1.2mm}
+\textbf{b) (1,0 điểm)} Cho hai số thực $a, b$ thỏa mãn $a + b = 5$ và $ab = 6$. Hãy tính giá trị của biểu thức $M = a^3 + b^3$ mà không cần tìm giá trị cụ thể của $a$ và $b$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Tổng và hiệu của hai lập phương} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTNB{1}{Khẳng định nào dưới đây là đúng về hằng đẳng thức hiệu hai lập phương?}{$A^3 - B^3 = (A - B)(A^2 - AB + B^2)$}{$A^3 - B^3 = (A - B)(A^2 + AB + B^2)$}{$(A - B)^3 = A^3 - B^3$}{$A^3 - B^3 = (A + B)(A^2 - AB + B^2)$}
+
+\cauTN{2}{Khai triển tích $(x - 2)(x^2 + 2x + 4)$ ta được kết quả là:}{$x^3 - 8$}{$x^3 + 8$}{$x^3 - 4$}{$(x - 2)^3$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $(x + 3)(x^2 - 3x + \dots) = x^3 + 27$.}{$-9$}{$6$}{$3$}{$9$}
+
+\cauTN{4}{Biểu thức nào sau đây là ``bình phương thiếu của một hiệu'' của $x$ và $3$?}{$x^2 - 6x + 9$}{$x^2 - 3x + 9$}{$x^2 + 3x + 9$}{$x^2 + 6x + 9$}
+
+\cauTN{5}{Giá trị của biểu thức $M = (x - 1)(x^2 + x + 1) - x^3$ bằng:}{$1$}{$0$}{$-1$}{$-2$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$A = (x + 3)(x^2 - 3x + 9) - (x - 3)(x^2 + 3x + 9)$} & 
+\oBaiTap[9]{b)}{$B = (2x + 1)(4x^2 - 2x + 1) - 4x(2x^2 + 1)$} \\
+\hline
+\oBaiTap[9]{c)}{$C = (x - 1)^3 - (x + 1)(x^2 - x + 1) + 3x(x - 1)$} & 
+\oBaiTap[8]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x - 2)(x^2 + 2x + 4) - (x + 2)(x^2 - 2x + 4) + 16$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$ và tính giá trị biểu thức:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[13]{a)}{Tìm số thực $x$, biết:\par
+$(x + 1)(x^2 - x + 1) - x(x - 3)(x + 3) = 28$.} & 
+\oBaiTap[12]{b)}{Rút gọn rồi tính giá trị của biểu thức:\par
+$P = (x + 2)(x^2 - 2x + 4) - (x - 2)(x^2 + 2x + 4) - 3x$\par
+tại $x = 4$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.3mm}
+\textbf{a) (1,5 điểm)} Một chi tiết máy bằng thép đặc có dạng hình lập phương lớn với độ dài cạnh $a = x + 3$ (cm). Để giảm bớt khối lượng mà vẫn giữ nguyên độ chịu lực, kỹ sư khoét rỗng một phần hình lập phương bên trong có độ dài cạnh $b = x - 3$ (cm).\par
+1) Hãy viết biểu thức biểu thị thể tích thép thực tế còn lại $V = a^3 - b^3$ theo $x$ và rút gọn biểu thức đó.\par
+2) Khi $x = 5\text{ cm}$, hãy tính chính xác thể tích thép còn lại của chi tiết máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\vspace{1.2mm}
+\textbf{b) (1,0 điểm)} Cho hai số thực $a, b$ thỏa mãn $a + b = 4$ và $ab = 3$. Hãy tính giá trị của biểu thức $M = a^3 + b^3$ mà không cần tìm giá trị cụ thể của $a$ và $b$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Tổng và hiệu của hai lập phương} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTNB{1}{Khẳng định nào dưới đây là \textbf{sai}?}{$A^3 + B^3 = (A+B)(A^2 - AB + B^2)$}{$A^3 - B^3 = (A-B)(A^2 + AB + B^2)$}{$(A - B)^3 = A^3 - B^3$}{$A^2 - B^2 = (A-B)(A+B)$}
+
+\cauTN{2}{Khai triển tích $(x + 3)(x^2 - 3x + 9)$ ta được kết quả là:}{$x^3 + 27$}{$x^3 - 27$}{$x^3 + 9$}{$(x + 3)^3$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $(2x - 1)(4x^2 + \dots + 1) = 8x^3 - 1$.}{$4x$}{$2x$}{$-2x$}{$x$}
+
+\cauTN{4}{Biểu thức nào sau đây là ``bình phương thiếu của một tổng'' của $2x$ và $1$?}{$4x^2 + 4x + 1$}{$4x^2 - 2x + 1$}{$4x^2 + 1$}{$4x^2 + 2x + 1$}
+
+\cauTN{5}{Giá trị của biểu thức $M = x^3 - (x - 2)(x^2 + 2x + 4)$ bằng:}{$-8$}{$8$}{$0$}{$16$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$A = (x + 1)(x^2 - x + 1) - (x - 1)(x^2 + x + 1)$} & 
+\oBaiTap[9]{b)}{$B = (3x - 1)(9x^2 + 3x + 1) - 9x(3x^2 - 1)$} \\
+\hline
+\oBaiTap[9]{c)}{$C = (x + 2)^3 - (x - 2)(x^2 + 2x + 4) - 6x(x + 2)$} & 
+\oBaiTap[8]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x - 1)(x^2 + x + 1) - (x + 2)(x^2 - 2x + 4) + 9$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$ và tính giá trị biểu thức:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[13]{a)}{Tìm số thực $x$, biết:\par
+$(x - 2)(x^2 + 2x + 4) - x(x - 1)(x + 1) = 1$.} & 
+\oBaiTap[12]{b)}{Rút gọn rồi tính giá trị của biểu thức:\par
+$P = (x + 1)(x^2 - x + 1) - (x - 3)(x^2 + 3x + 9) - 2x$\par
+tại $x = 12$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.3mm}
+\textbf{a) (1,5 điểm)} Một chi tiết máy bằng đồng đặc có dạng hình lập phương lớn với độ dài cạnh $a = x + 1$ (cm). Để giảm bớt khối lượng mà vẫn giữ nguyên độ chịu lực, kỹ sư khoét rỗng một phần hình lập phương bên trong có độ dài cạnh $b = x - 1$ (cm).\par
+1) Hãy viết biểu thức biểu thị thể tích đồng thực tế còn lại $V = a^3 - b^3$ theo $x$ và rút gọn biểu thức đó.\par
+2) Khi $x = 8\text{ cm}$, hãy tính chính xác thể tích đồng còn lại của chi tiết máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\vspace{1.2mm}
+\textbf{b) (1,0 điểm)} Cho hai số thực $a, b$ thỏa mãn $a + b = 6$ và $ab = 8$. Hãy tính giá trị của biểu thức $M = a^3 + b^3$ mà không cần tìm giá trị cụ thể của $a$ và $b$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Tổng và hiệu của hai lập phương} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+\cauTNB{1}{Đa thức $x^3 + 64$ được viết dưới dạng tích là:}{$(x + 4)(x^2 - 4x + 16)$}{$(x + 4)(x^2 + 4x + 16)$}{$(x + 4)(x^2 - 8x + 16)$}{$(x - 4)(x^2 + 4x + 16)$}
+
+\cauTN{2}{Khai triển tích $(x - 4)(x^2 + 4x + 16)$ ta được kết quả là:}{$x^3 + 64$}{$x^3 - 16$}{$x^3 - 64$}{$(x - 4)^3$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $(x + 4)(x^2 - 4x + \dots) = x^3 + 64$.}{$4$}{$16$}{$8$}{$-16$}
+
+\cauTN{4}{Biểu thức nào sau đây là ``bình phương thiếu của một hiệu'' của $2x$ và $1$?}{$4x^2 - 2x + 1$}{$4x^2 - 4x + 1$}{$4x^2 + 2x + 1$}{$4x^2 + 1$}
+
+\cauTN{5}{Giá trị của biểu thức $M = x^3 - (x + 2)(x^2 - 2x + 4)$ bằng:}{$8$}{$0$}{$-4$}{$-8$}
+
+\vspace{1.0mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[9]{a)}{$A = (x + 4)(x^2 - 4x + 16) - (x - 4)(x^2 + 4x + 16)$} & 
+\oBaiTap[9]{b)}{$B = (3x + 1)(9x^2 - 3x + 1) - 9x(3x^2 + 1)$} \\
+\hline
+\oBaiTap[9]{c)}{$C = (x - 2)^3 - (x + 2)(x^2 - 2x + 4) + 6x(x - 2)$} & 
+\oBaiTap[8]{d)}{Chứng minh giá trị của $D$ không phụ thuộc vào $x$:\par $D = (x - 4)(x^2 + 4x + 16) - (x + 1)(x^2 - x + 1) + 65$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$ và tính giá trị biểu thức:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[13]{a)}{Tìm số thực $x$, biết:\par
+$(x + 2)(x^2 - 2x + 4) - x(x - 2)(x + 2) = 20$.} & 
+\oBaiTap[12]{b)}{Rút gọn rồi tính giá trị của biểu thức:\par
+$P = (x + 4)(x^2 - 4x + 16) - (x - 1)(x^2 + x + 1) - 5x$\par
+tại $x = 10$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.3mm}
+\textbf{a) (1,5 điểm)} Một chi tiết máy bằng nhôm đặc có dạng hình lập phương lớn với độ dài cạnh $a = x + 2$ (cm). Để giảm bớt khối lượng mà vẫn giữ nguyên độ chịu lực, kỹ sư khoét rỗng một phần hình lập phương bên trong có độ dài cạnh $b = x - 2$ (cm).\par
+1) Hãy viết biểu thức biểu thị thể tích nhôm thực tế còn lại $V = a^3 - b^3$ theo $x$ và rút gọn biểu thức đó.\par
+2) Khi $x = 7\text{ cm}$, hãy tính chính xác thể tích nhôm còn lại của chi tiết máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\vspace{1.2mm}
+\textbf{b) (1,0 điểm)} Cho hai số thực $a, b$ thỏa mãn $a + b = 7$ và $ab = 10$. Hãy tính giá trị của biểu thức $M = a^3 + b^3$ mà không cần tìm giá trị cụ thể của $a$ và $b$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\end{document}

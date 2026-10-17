@@ -1,0 +1,566 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.5cm, bottom=0.5cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 6.7mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.0pt%
+  \vspace{1.2mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][8]{%
+  \vspace{1.2mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Số thập phân hữu hạn và vô hạn tuần hoàn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?}{$\dfrac{7}{16}$}{$\dfrac{1}{3}$}{$\dfrac{5}{6}$}{$\dfrac{7}{15}$}
+
+\cauTN{2}{Phân số nào viết được dưới dạng số thập phân vô hạn tuần hoàn?}{$\dfrac{3}{4}$}{$\dfrac{2}{3}$}{$\dfrac{7}{20}$}{$\dfrac{9}{25}$}
+
+\cauTN{3}{Chu kì của số thập phân vô hạn tuần hoàn $2{,}15353\dots = 2{,}1(53)$ là:}{$153$}{$53$}{$15$}{$3$}
+
+\cauTN{4}{Số thập phân vô hạn tuần hoàn $0{,}666\dots$ được viết gọn là:}{$0{,}(6)$}{$0{,}6$}{$0{,}66$}{$0{,}(06)$}
+
+\cauTN{5}{Số thập phân vô hạn tuần hoàn $0{,}(1)$ bằng phân số nào sau đây?}{$\dfrac{1}{10}$}{$\dfrac{1}{99}$}{$\dfrac{1}{9}$}{$\dfrac{1}{3}$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $0{,}45 + \dfrac{11}{20} - \dfrac{3}{4}$} & 
+\oBaiTap[7]{b)}{Tính: $\dfrac{7}{12} \cdot 1{,}(3) + \dfrac{5}{12} \cdot 1{,}(3) - \dfrac{1}{3}$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $0{,}(7) + \dfrac{2}{9} - \left(0{,}25 + \dfrac{3}{4}\right)$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{5}{6} : \left[0{,}75 - \left(\dfrac{1}{2} - 0{,}(3)\right)\right]$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$x - 0{,}75 = \dfrac{1}{2}$} & 
+\oBaiTap[7]{b)}{$\dfrac{2}{3} \cdot x + 0{,}(6) = \dfrac{4}{3}$} \\
+\hline
+\oBaiTap[7]{c)}{$1{,}(2) - \left(x - \dfrac{1}{3}\right) = \dfrac{5}{9}$} & 
+\oBaiTap[7]{d)}{$0{,}(3) \cdot x^2 - \dfrac{1}{12} = \dfrac{1}{4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bạn An đi siêu thị mua hàng với hóa đơn tổng cộng là $164\,800$ đồng. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Nếu thanh toán bằng tiền mặt, siêu thị có quy định làm tròn đến hàng nghìn gần nhất. Hỏi bạn An phải trả bao nhiêu tiền mặt? \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Nếu thanh toán qua ví điện tử, bạn An được giảm giá $10\%$ trên tổng hóa đơn. Tính số tiền An phải trả qua ví điện tử (làm tròn đến hàng nghìn). Bạn An nên chọn cách thanh toán nào để tiết kiệm hơn và tiết kiệm được bao nhiêu tiền? \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Số thập phân hữu hạn và vô hạn tuần hoàn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phân số nào sau đây viết được dưới dạng số thập phân vô hạn tuần hoàn?}{$\dfrac{3}{8}$}{$\dfrac{5}{11}$}{$\dfrac{7}{25}$}{$\dfrac{9}{20}$}
+
+\cauTN{2}{Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?}{$\dfrac{1}{6}$}{$\dfrac{4}{9}$}{$\dfrac{13}{40}$}{$\dfrac{2}{15}$}
+
+\cauTN{3}{Chu kì của số thập phân vô hạn tuần hoàn $-1{,}2(34)$ là:}{$234$}{$34$}{$2$}{$4$}
+
+\cauTN{4}{Số thập phân $0{,}75$ viết dưới dạng phân số tối giản là:}{$\dfrac{75}{100}$}{$\dfrac{15}{20}$}{$\dfrac{3}{4}$}{$\dfrac{4}{5}$}
+
+\cauTN{5}{Số thập phân vô hạn tuần hoàn $0{,}(45)$ bằng phân số tối giản nào?}{$\dfrac{45}{99}$}{$\dfrac{5}{11}$}{$\dfrac{9}{20}$}{$\dfrac{45}{100}$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $0{,}35 + \dfrac{13}{20} - \dfrac{1}{2}$} & 
+\oBaiTap[7]{b)}{Tính: $\dfrac{8}{15} \cdot 1{,}(6) + \dfrac{7}{15} \cdot 1{,}(6) - \dfrac{2}{3}$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $0{,}(8) + \dfrac{1}{9} - \left(0{,}4 + \dfrac{3}{5}\right)$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{7}{12} : \left[0{,}5 - \left(\dfrac{1}{3} - 0{,}(1)\right)\right]$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$x - 0{,}25 = \dfrac{3}{4}$} & 
+\oBaiTap[7]{b)}{$\dfrac{3}{4} \cdot x + 0{,}(3) = \dfrac{13}{12}$} \\
+\hline
+\oBaiTap[7]{c)}{$1{,}(4) - \left(x - \dfrac{2}{3}\right) = \dfrac{7}{9}$} & 
+\oBaiTap[7]{d)}{$0{,}(6) \cdot x^2 - \dfrac{1}{6} = \dfrac{1}{2}$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bạn Bình đi nhà sách mua đồ dùng học tập với hóa đơn tổng cộng là $186\,400$ đồng. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Nếu thanh toán bằng tiền mặt, nhà sách làm tròn số tiền đến hàng nghìn gần nhất. Hỏi bạn Bình phải trả bao nhiêu tiền mặt? \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Nếu thanh toán bằng thẻ thành viên, Bình được giảm giá $10\%$ trên tổng hóa đơn. Tính số tiền Bình phải trả qua thẻ (làm tròn đến hàng nghìn). Bạn Bình nên chọn cách thanh toán nào để tiết kiệm hơn và tiết kiệm được bao nhiêu tiền? \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Số thập phân hữu hạn và vô hạn tuần hoàn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?}{$\dfrac{9}{50}$}{$\dfrac{7}{12}$}{$\dfrac{4}{21}$}{$\dfrac{5}{14}$}
+
+\cauTN{2}{Phân số nào viết được dưới dạng số thập phân vô hạn tuần hoàn?}{$\dfrac{7}{8}$}{$\dfrac{11}{25}$}{$\dfrac{5}{18}$}{$\dfrac{3}{20}$}
+
+\cauTN{3}{Chu kì của số thập phân vô hạn tuần hoàn $3{,}5(123)$ là:}{$5123$}{$123$}{$5$}{$23$}
+
+\cauTN{4}{Số thập phân $0{,}(3)$ bằng phân số tối giản nào sau đây?}{$\dfrac{3}{10}$}{$\dfrac{1}{3}$}{$\dfrac{3}{99}$}{$\dfrac{1}{30}$}
+
+\cauTN{5}{Làm tròn số $5{,}6749$ đến chữ số thập phân thứ hai được kết quả:}{$5{,}67$}{$5{,}68$}{$5{,}7$}{$5{,}675$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $0{,}65 + \dfrac{7}{20} - \dfrac{2}{5}$} & 
+\oBaiTap[7]{b)}{Tính: $\dfrac{9}{14} \cdot 2{,}(3) + \dfrac{5}{14} \cdot 2{,}(3) - \dfrac{1}{3}$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $0{,}(5) + \dfrac{4}{9} - \left(0{,}125 + \dfrac{7}{8}\right)$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{3}{4} : \left[0{,}8 - \left(\dfrac{2}{5} - 0{,}(2)\right)\right]$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$x - 0{,}6 = \dfrac{2}{5}$} & 
+\oBaiTap[7]{b)}{$\dfrac{4}{5} \cdot x + 0{,}(4) = \dfrac{16}{15}$} \\
+\hline
+\oBaiTap[7]{c)}{$1{,}(5) - \left(x - \dfrac{4}{9}\right) = \dfrac{8}{9}$} & 
+\oBaiTap[7]{d)}{$0{,}(2) \cdot x^2 - \dfrac{1}{18} = \dfrac{1}{6}$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bạn Cúc mua thực phẩm tại siêu thị với hóa đơn thanh toán là $215\,700$ đồng. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Nếu trả bằng tiền mặt, siêu thị làm tròn đến hàng nghìn gần nhất. Bạn Cúc phải trả bao nhiêu tiền? \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Nếu quét mã thanh toán ngân hàng, Cúc được hoàn tiền $10\%$ tổng hóa đơn (làm tròn số tiền thực trả đến hàng nghìn). Cúc nên thanh toán bằng hình thức nào để tiết kiệm hơn và tiết kiệm bao nhiêu tiền? \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Số thập phân hữu hạn và vô hạn tuần hoàn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phân số nào sau đây viết được dưới dạng số thập phân vô hạn tuần hoàn?}{$\dfrac{11}{20}$}{$\dfrac{7}{18}$}{$\dfrac{21}{50}$}{$\dfrac{9}{40}$}
+
+\cauTN{2}{Phân số nào sau đây viết được dưới dạng số thập phân hữu hạn?}{$\dfrac{5}{12}$}{$\dfrac{11}{32}$}{$\dfrac{8}{15}$}{$\dfrac{7}{30}$}
+
+\cauTN{3}{Chu kì của số thập phân vô hạn tuần hoàn $0{,}0(12)$ là:}{$012$}{$12$}{$0$}{$2$}
+
+\cauTN{4}{Số thập phân $0{,}(6)$ bằng phân số nào sau đây?}{$\dfrac{6}{10}$}{$\dfrac{2}{3}$}{$\dfrac{6}{100}$}{$\dfrac{1}{6}$}
+
+\cauTN{5}{Làm tròn số $12{,}345$ đến hàng đơn vị được kết quả là:}{$12$}{$12{,}3$}{$13$}{$12{,}35$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $0{,}55 + \dfrac{9}{20} - \dfrac{3}{5}$} & 
+\oBaiTap[7]{b)}{Tính: $\dfrac{11}{18} \cdot 1{,}(6) + \dfrac{7}{18} \cdot 1{,}(6) - \dfrac{1}{3}$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $0{,}(4) + \dfrac{5}{9} - \left(0{,}375 + \dfrac{5}{8}\right)$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{5}{8} : \left[0{,}6 - \left(\dfrac{1}{2} - 0{,}(1)\right)\right]$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$x - 0{,}4 = \dfrac{3}{5}$} & 
+\oBaiTap[7]{b)}{$\dfrac{5}{6} \cdot x + 0{,}(5) = \dfrac{25}{18}$} \\
+\hline
+\oBaiTap[7]{c)}{$1{,}(7) - \left(x - \dfrac{5}{9}\right) = \dfrac{7}{9}$} & 
+\oBaiTap[7]{d)}{$0{,}(5) \cdot x^2 - \dfrac{1}{9} = \dfrac{4}{9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bạn Dũng đi nhà sách mua truyện với tổng hóa đơn là $173\,600$ đồng. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Nếu trả tiền mặt, nhà sách làm tròn số tiền đến hàng nghìn gần nhất. Hỏi bạn Dũng phải trả bao nhiêu tiền mặt? \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Nếu trả bằng ví điện tử, Dũng được voucher giảm $10\%$ tổng hóa đơn. Tính số tiền Dũng trả qua ví (làm tròn đến hàng nghìn). Dũng nên chọn hình thức nào để tiết kiệm hơn và tiết kiệm được bao nhiêu tiền? \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\end{document}

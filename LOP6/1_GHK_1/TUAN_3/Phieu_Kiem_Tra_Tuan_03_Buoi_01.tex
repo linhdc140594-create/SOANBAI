@@ -1,0 +1,575 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{0.8mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 4 đáp án dàn hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1.5mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phép nhân và phép chia số tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Trong phép chia có dư $a = b \cdot q + r$ ($b \ne 0$), số dư $r$ thỏa mãn:}{$0 \le r < b$}{$0 < r \le b$}{$r > b$}{$r = b$}
+
+\cauTN{2}{Tính chất phân phối của phép nhân đối với phép cộng là:}{$a(b + c) = ab + ac$}{$a(b + c) = ab + c$}{$a(b + c) = a + bc$}{$a(b + c) = ab \cdot ac$}
+
+\cauTN{3}{Kết quả của phép tính nhẩm $25 \cdot 36 \cdot 4$ là:}{$3\,600$}{$360$}{$36\,000$}{$1\,800$}
+
+\cauTN{4}{Số dư trong phép chia $127 : 5$ là:}{$2$}{$1$}{$3$}{$4$}
+
+\cauTN{5}{Khẳng định nào sau đây là \textbf{đúng}?}{$a \cdot 1 = a$}{$a \cdot 0 = a$}{$a : 0 = 0$}{$0 : a = a$ ($a \ne 0$)}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{$A = 25 \cdot 48 \cdot 4$} & 
+\oBaiTap[17]{b)}{$B = 135 \cdot 68 + 135 \cdot 32$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$14 \cdot (x - 6) = 112$} & 
+\oBaiTap[14]{b)}{$(3x + 12) : 5 = 9$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bác Ba muốn lát gạch cho một sân vườn hình chữ nhật có chiều dài $12\text{ m}$ và chiều rộng $8\text{ m}$. Bác sử dụng các viên gạch hình vuông có cạnh $40\text{ cm}$ để lát kín sân (coi mạch vữa không đáng kể).\par
+\textbf{a) (1,25 điểm)} Hãy tính diện tích của sân vườn đó theo đơn vị mét vuông ($\text{m}^2$).\par
+\textbf{b) (1,25 điểm)} Hỏi Bác Ba cần sử dụng bao nhiêu viên gạch như thế để lát kín toàn bộ sân vườn?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phép nhân và phép chia số tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Trong phép chia có dư $m = n \cdot q + r$ ($n \ne 0$), số dư lớn nhất có thể nhận là:}{$n - 1$}{$n$}{$n + 1$}{$q$}
+
+\cauTN{2}{Tính chất phân phối của phép nhân đối với phép trừ là:}{$a(b - c) = ab - ac$}{$a(b - c) = ab - c$}{$a(b - c) = a - bc$}{$a(b - c) = ab \cdot ac$}
+
+\cauTN{3}{Kết quả của phép tính nhẩm $125 \cdot 28 \cdot 8$ là:}{$28\,000$}{$2\,800$}{$280$}{$14\,000$}
+
+\cauTN{4}{Số dư trong phép chia $149 : 6$ là:}{$5$}{$3$}{$2$}{$1$}
+
+\cauTN{5}{Với số tự nhiên $x \ne 0$, khẳng định nào sau đây là \textbf{đúng}?}{$0 : x = 0$}{$x \cdot 0 = x$}{$x : 1 = 1$}{$x : 0 = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{$A = 125 \cdot 37 \cdot 8$} & 
+\oBaiTap[17]{b)}{$B = 246 \cdot 74 + 246 \cdot 26$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$16 \cdot (x - 7) = 144$} & 
+\oBaiTap[14]{b)}{$(4x + 16) : 6 = 10$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bác An muốn lát gạch cho một sân chơi hình chữ nhật có chiều dài $15\text{ m}$ và chiều rộng $6\text{ m}$. Bác sử dụng các viên gạch hình vuông có cạnh $50\text{ cm}$ để lát kín sân (coi mạch vữa không đáng kể).\par
+\textbf{a) (1,25 điểm)} Hãy tính diện tích của sân chơi đó theo đơn vị mét vuông ($\text{m}^2$).\par
+\textbf{b) (1,25 điểm)} Hỏi Bác An cần sử dụng bao nhiêu viên gạch như thế để lát kín toàn bộ sân chơi?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phép nhân và phép chia số tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Một số tự nhiên khi chia cho $8$ có thể có bao nhiêu số dư khác nhau?}{$8$}{$7$}{$9$}{$6$}
+
+\cauTN{2}{Trong phép chia hết $a : b = q$ ($b \ne 0$), số dư bằng:}{$0$}{$1$}{$b$}{$q$}
+
+\cauTN{3}{Kết quả của phép tính nhẩm $50 \cdot 46 \cdot 2$ là:}{$4\,600$}{$460$}{$9\,200$}{$2\,300$}
+
+\cauTN{4}{Số dư trong phép chia $187 : 7$ là:}{$5$}{$4$}{$3$}{$2$}
+
+\cauTN{5}{Tích $45 \cdot 99$ bằng với biểu thức nào sau đây?}{$45 \cdot 100 - 45$}{$45 \cdot 100 - 1$}{$45 \cdot 90 + 9$}{$45 \cdot 100 + 45$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{$A = 50 \cdot 63 \cdot 2$} & 
+\oBaiTap[17]{b)}{$B = 318 \cdot 57 + 318 \cdot 43$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$18 \cdot (x - 9) = 162$} & 
+\oBaiTap[14]{b)}{$(2x + 18) : 4 = 11$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bác Nam muốn lát gạch cho một khoảng sân hình chữ nhật có chiều dài $16\text{ m}$ và chiều rộng $9\text{ m}$. Bác sử dụng các viên gạch hình vuông có cạnh $60\text{ cm}$ để lát kín sân (coi mạch vữa không đáng kể).\par
+\textbf{a) (1,25 điểm)} Hãy tính diện tích của khoảng sân đó theo đơn vị mét vuông ($\text{m}^2$).\par
+\textbf{b) (1,25 điểm)} Hỏi Bác Nam cần sử dụng bao nhiêu viên gạch như thế để lát kín toàn bộ khoảng sân?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phép nhân và phép chia số tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Trong phép chia $x : 9 = 15$ (dư $4$), giá trị của $x$ là:}{$139$}{$135$}{$140$}{$144$}
+
+\cauTN{2}{Tích của một số tự nhiên bất kỳ với số $0$ luôn bằng:}{$0$}{Chính số đó}{$1$}{Không xác định}
+
+\cauTN{3}{Kết quả của phép tính nhẩm $250 \cdot 34 \cdot 4$ là:}{$34\,000$}{$3\,400$}{$340$}{$17\,000$}
+
+\cauTN{4}{Số dư trong phép chia $215 : 9$ là:}{$8$}{$5$}{$7$}{$6$}
+
+\cauTN{5}{Tích $28 \cdot 101$ bằng với biểu thức nào sau đây?}{$28 \cdot 100 + 28$}{$28 \cdot 100 + 1$}{$28 \cdot 100 - 28$}{$28 \cdot 10 + 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{$A = 250 \cdot 59 \cdot 4$} & 
+\oBaiTap[17]{b)}{$B = 425 \cdot 83 + 425 \cdot 17$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$15 \cdot (x - 5) = 135$} & 
+\oBaiTap[14]{b)}{$(5x + 25) : 7 = 10$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bác Hùng muốn lát gạch cho một sân thượng hình chữ nhật có chiều dài $14\text{ m}$ và chiều rộng $10\text{ m}$. Bác sử dụng các viên gạch hình vuông có cạnh $50\text{ cm}$ để lát kín sân (coi mạch vữa không đáng kể).\par
+\textbf{a) (1,25 điểm)} Hãy tính diện tích của sân thượng đó theo đơn vị mét vuông ($\text{m}^2$).\par
+\textbf{b) (1,25 điểm)} Hỏi Bác Hùng cần sử dụng bao nhiêu viên gạch như thế để lát kín toàn bộ sân thượng?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\end{document}

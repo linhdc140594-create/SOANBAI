@@ -1,0 +1,138 @@
+Chào bạn, dưới đây là bộ tài liệu hoàn chỉnh cho **CÂU 4 (2,5 ĐIỂM) - HÌNH HỌC TÍNH GÓC GÃY KHÚC** dành cho 4 mã đề (101, 102, 103, 104). Nội dung được biên soạn chuẩn theo định hướng phát triển năng lực của SGK Kết nối tri thức với cuộc sống, bám sát barem điểm siêu chi tiết mà bạn yêu cầu.
+
+---
+
+### PHẦN 1: NỘI DUNG ĐỀ BÀI (Dành cho phiếu in)
+
+**MÃ ĐỀ 101**
+**Câu 4 (2,5 điểm).** Cho hình vẽ bên, biết hai tia $Ax$ và $By$ cùng hướng và song song với nhau ($Ax \parallel By$). Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tạo thành đường gấp khúc $A-O-B$. Biết số đo góc $\widehat{xAO} = 40^\circ$ và $\widehat{yBO} = 50^\circ$.
+a) (1,25 điểm) Kẻ qua $O$ tia $Oz$ song song với tia $Ax$ (tia $Oz$ nằm trong góc $AOB$, cùng hướng với tia $Ax$). Chứng minh rằng tia $Oz$ cũng song song với tia $By$.
+b) (1,25 điểm) Chỉ ra các cặp góc so le trong tạo bởi tia $Oz$ với các tia $Ax$ và $By$. Từ đó tính số đo của góc $\widehat{AOB}$.
+
+**MÃ ĐỀ 102**
+**Câu 4 (2,5 điểm).** Cho hình vẽ bên, biết hai tia $Ax$ và $By$ cùng hướng và song song với nhau ($Ax \parallel By$). Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tạo thành đường gấp khúc $A-O-B$. Biết số đo góc $\widehat{xAO} = 35^\circ$ và $\widehat{yBO} = 55^\circ$.
+a) (1,25 điểm) Kẻ qua $O$ tia $Oz$ song song với tia $Ax$ (tia $Oz$ nằm trong góc $AOB$, cùng hướng với tia $Ax$). Chứng minh rằng tia $Oz$ cũng song song với tia $By$.
+b) (1,25 điểm) Chỉ ra các cặp góc so le trong tạo bởi tia $Oz$ với các tia $Ax$ và $By$. Từ đó tính số đo của góc $\widehat{AOB}$.
+
+**MÃ ĐỀ 103**
+**Câu 4 (2,5 điểm).** Cho hình vẽ bên, biết hai tia $Ax$ và $By$ cùng hướng và song song với nhau ($Ax \parallel By$). Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tạo thành đường gấp khúc $A-O-B$. Biết số đo góc $\widehat{xAO} = 45^\circ$ và $\widehat{yBO} = 65^\circ$.
+a) (1,25 điểm) Kẻ qua $O$ tia $Oz$ song song với tia $Ax$ (tia $Oz$ nằm trong góc $AOB$, cùng hướng với tia $Ax$). Chứng minh rằng tia $Oz$ cũng song song với tia $By$.
+b) (1,25 điểm) Chỉ ra các cặp góc so le trong tạo bởi tia $Oz$ với các tia $Ax$ và $By$. Từ đó tính số đo của góc $\widehat{AOB}$.
+
+**MÃ ĐỀ 104**
+**Câu 4 (2,5 điểm).** Cho hình vẽ bên, biết hai tia $Ax$ và $By$ cùng hướng và song song với nhau ($Ax \parallel By$). Lấy điểm $O$ nằm giữa hai đường thẳng sao cho tạo thành đường gấp khúc $A-O-B$. Biết số đo góc $\widehat{xAO} = 50^\circ$ và $\widehat{yBO} = 60^\circ$.
+a) (1,25 điểm) Kẻ qua $O$ tia $Oz$ song song với tia $Ax$ (tia $Oz$ nằm trong góc $AOB$, cùng hướng với tia $Ax$). Chứng minh rằng tia $Oz$ cũng song song với tia $By$.
+b) (1,25 điểm) Chỉ ra các cặp góc so le trong tạo bởi tia $Oz$ với các tia $Ax$ và $By$. Từ đó tính số đo của góc $\widehat{AOB}$.
+
+---
+
+### PHẦN 2: ĐÁP ÁN VÀ BAREM CHẤM ĐIỂM CHI TIẾT
+
+*(Lưu ý cho GV: Học sinh phải tự vẽ thêm tia $Oz$ vào hình làm bài. Barem chung áp dụng cho cả 4 mã đề, chỉ khác nhau ở số đo góc tính toán).*
+
+| Ý | Nội dung trình bày | Điểm |
+| :--- | :--- | :--- |
+| **a** | **(1,25 điểm) Chứng minh tia $Oz \parallel By$** | |
+| | - Nêu lập luận: Kẻ qua $O$ tia $Oz \parallel Ax$ (tia $Oz$ nằm trong góc $AOB$). | 0,25đ |
+| | - Ta có: $Ax \parallel By$ (giả thiết) <br> - Mà $Oz \parallel Ax$ (theo cách dựng) | 0,5đ |
+| | - Suy ra $Oz \parallel By$ (Tính chất: Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì song song với nhau). | 0,5đ |
+| **b** | **(1,25 điểm) Tính số đo góc $\widehat{AOB}$** | |
+| | - Vì $Ax \parallel Oz$ nên $\widehat{AOz} = \widehat{xAO}$ (hai góc so le trong). <br> $\Rightarrow \widehat{AOz} = \dots$ *(Mã 101: $40^\circ$; Mã 102: $35^\circ$; Mã 103: $45^\circ$; Mã 104: $50^\circ$)* | 0,625đ |
+| | - Vì $By \parallel Oz$ nên $\widehat{BOz} = \widehat{yBO}$ (hai góc so le trong). <br> $\Rightarrow \widehat{BOz} = \dots$ *(Mã 101: $50^\circ$; Mã 102: $55^\circ$; Mã 103: $65^\circ$; Mã 104: $60^\circ$)* | 0,375đ |
+| | - Vì tia $Oz$ nằm trong góc $AOB$ (tia $Oz$ nằm giữa hai tia $OA$ và $OB$) nên: <br> $\widehat{AOB} = \widehat{AOz} + \widehat{BOz}$ <br> - Thay số và tính kết quả: <br> + **Mã 101:** $\widehat{AOB} = 40^\circ + 50^\circ = 90^\circ$ <br> + **Mã 102:** $\widehat{AOB} = 35^\circ + 55^\circ = 90^\circ$ <br> + **Mã 103:** $\widehat{AOB} = 45^\circ + 65^\circ = 110^\circ$ <br> + **Mã 104:** $\widehat{AOB} = 50^\circ + 60^\circ = 110^\circ$ | 0,25đ |
+
+---
+
+### PHẦN 3: MÃ TIKZ CHUẨN MỰC (Dành cho GV chèn vào file TeX)
+
+*Yêu cầu biên dịch: Cần khai báo `\usetikzlibrary{intersections}` trên phần preamble của file LaTeX.*
+*Hình vẽ được tối ưu hóa scale=0.8, đảm bảo chiều ngang ~4.5cm, chiều cao ~3.5cm, không vẽ sẵn tia Oz, số đo hiển thị rõ ràng không đè nét.*
+
+**1. MÃ TIKZ CHO MÃ ĐỀ 101 ($40^\circ$ và $50^\circ$)**
+```latex
+\begin{tikzpicture}[scale=0.8, line join=round, line cap=round, >=stealth]
+    \coordinate (A) at (0,3);
+    \coordinate (B) at (0,0);
+    % Vẽ tia Ax, By
+    \draw[thick, ->] (A) -- ++(4.5,0) node[right] {$x$};
+    \draw[thick, ->] (B) -- ++(4.5,0) node[right] {$y$};
+    % Xác định điểm O bằng giao điểm
+    \path[name path=lineA] (A) -- ++(-40:5);
+    \path[name path=lineB] (B) -- ++(50:5);
+    \path [name intersections={of=lineA and lineB, by=O}];
+    % Vẽ đường gấp khúc A-O-B
+    \draw[thick] (A) -- (O) -- (B);
+    % Ký hiệu điểm
+    \fill (A) circle (2pt) node[above left] {$A$};
+    \fill (B) circle (2pt) node[below left] {$B$};
+    \fill (O) circle (2pt) node[right] {$O$};
+    % Đánh dấu góc và ghi số đo
+    \draw (A) ++(0.7,0) arc (0:-40:0.7);
+    \path (A) ++(-20:1.15) node[font=\small] {$40^\circ$};
+    \draw (B) ++(0.8,0) arc (0:50:0.8);
+    \path (B) ++(25:1.3) node[font=\small] {$50^\circ$};
+\end{tikzpicture}
+```
+
+**2. MÃ TIKZ CHO MÃ ĐỀ 102 ($35^\circ$ và $55^\circ$)**
+```latex
+\begin{tikzpicture}[scale=0.8, line join=round, line cap=round, >=stealth]
+    \coordinate (A) at (0,3);
+    \coordinate (B) at (0,0);
+    \draw[thick, ->] (A) -- ++(4.5,0) node[right] {$x$};
+    \draw[thick, ->] (B) -- ++(4.5,0) node[right] {$y$};
+    \path[name path=lineA] (A) -- ++(-35:5);
+    \path[name path=lineB] (B) -- ++(55:5);
+    \path [name intersections={of=lineA and lineB, by=O}];
+    \draw[thick] (A) -- (O) -- (B);
+    \fill (A) circle (2pt) node[above left] {$A$};
+    \fill (B) circle (2pt) node[below left] {$B$};
+    \fill (O) circle (2pt) node[right] {$O$};
+    \draw (A) ++(0.7,0) arc (0:-35:0.7);
+    \path (A) ++(-17.5:1.15) node[font=\small] {$35^\circ$};
+    \draw (B) ++(0.8,0) arc (0:55:0.8);
+    \path (B) ++(27.5:1.3) node[font=\small] {$55^\circ$};
+\end{tikzpicture}
+```
+
+**3. MÃ TIKZ CHO MÃ ĐỀ 103 ($45^\circ$ và $65^\circ$)**
+```latex
+\begin{tikzpicture}[scale=0.8, line join=round, line cap=round, >=stealth]
+    \coordinate (A) at (0,3);
+    \coordinate (B) at (0,0);
+    \draw[thick, ->] (A) -- ++(4.5,0) node[right] {$x$};
+    \draw[thick, ->] (B) -- ++(4.5,0) node[right] {$y$};
+    \path[name path=lineA] (A) -- ++(-45:5);
+    \path[name path=lineB] (B) -- ++(65:5);
+    \path [name intersections={of=lineA and lineB, by=O}];
+    \draw[thick] (A) -- (O) -- (B);
+    \fill (A) circle (2pt) node[above left] {$A$};
+    \fill (B) circle (2pt) node[below left] {$B$};
+    \fill (O) circle (2pt) node[right] {$O$};
+    \draw (A) ++(0.7,0) arc (0:-45:0.7);
+    \path (A) ++(-22.5:1.15) node[font=\small] {$45^\circ$};
+    \draw (B) ++(0.8,0) arc (0:65:0.8);
+    \path (B) ++(32.5:1.3) node[font=\small] {$65^\circ$};
+\end{tikzpicture}
+```
+
+**4. MÃ TIKZ CHO MÃ ĐỀ 104 ($50^\circ$ và $60^\circ$)**
+```latex
+\begin{tikzpicture}[scale=0.8, line join=round, line cap=round, >=stealth]
+    \coordinate (A) at (0,3);
+    \coordinate (B) at (0,0);
+    \draw[thick, ->] (A) -- ++(4.5,0) node[right] {$x$};
+    \draw[thick, ->] (B) -- ++(4.5,0) node[right] {$y$};
+    \path[name path=lineA] (A) -- ++(-50:5);
+    \path[name path=lineB] (B) -- ++(60:5);
+    \path [name intersections={of=lineA and lineB, by=O}];
+    \draw[thick] (A) -- (O) -- (B);
+    \fill (A) circle (2pt) node[above left] {$A$};
+    \fill (B) circle (2pt) node[below left] {$B$};
+    \fill (O) circle (2pt) node[right] {$O$};
+    \draw (A) ++(0.7,0) arc (0:-50:0.7);
+    \path (A) ++(-25:1.15) node[font=\small] {$50^\circ$};
+    \draw (B) ++(0.8,0) arc (0:60:0.8);
+    \path (B) ++(30:1.3) node[font=\small] {$60^\circ$};
+\end{tikzpicture}
+```

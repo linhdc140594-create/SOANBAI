@@ -1,0 +1,216 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage[top=0.65cm, bottom=0.65cm, left=0.75cm, right=0.75cm]{geometry}
+
+\tcbuselibrary{skins,breakable}
+
+% Định nghĩa màu sắc sư phạm
+\definecolor{mainblue}{RGB}{16, 68, 120}
+\definecolor{subblue}{RGB}{240, 246, 253}
+\definecolor{accentred}{RGB}{185, 40, 35}
+
+% Khung lý thuyết
+\newtcolorbox{lythuyetbox}[1][]{
+  colback=subblue,
+  colframe=mainblue,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily,
+  title={#1},
+  arc=1.5mm,
+  boxrule=0.8pt,
+  left=3mm, right=3mm, top=1.8mm, bottom=1.8mm
+}
+
+\setlength{\parskip}{0pt}
+\setlength{\columnsep}{6mm}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% TRANG 1/2: LÝ THUYẾT & PHẦN ĐỀ BÀI (KHÔNG DÙNG BẢNG - CỰC KỲ THOÁNG MẮT)
+% =============================================================================
+\begin{center}
+  {\bfseries\large\color{mainblue} CHUYÊN ĐỀ BÀI GIẢNG: BIẾN ĐỔI VÀ RÚT GỌN BIỂU THỨC CHỨA CĂN}\\[1mm]
+  {\bfseries\color{accentred} BỘ 10 Ý RÈN LUYỆN TƯƠNG TỰ CÂU 12 (ÔN THI GIỮA HỌC KỲ 1 - TOÁN 9)}
+\end{center}
+
+\vspace{-1.5mm}
+\noindent{\color{mainblue}\rule{\linewidth}{1.0pt}}
+\vspace{1.0mm}
+
+% ------------------- MỤC I: LÝ THUYẾT TRỌNG TÂM -----------------------------
+\begin{lythuyetbox}[I. KIẾN THỨC VÀ KỸ NĂNG CỐT LÕI (TRỌNG TÂM CÂU 12 - 2,5 ĐIỂM)]
+\begin{enumerate}[leftmargin=*,itemsep=1.0pt]
+  \item \textbf{Hai hằng đẳng thức then chốt:}
+  \begin{itemize}[itemsep=0pt]
+    \item Đặt nhân tử chung đưa về tích: $x - a\sqrt{x} = \sqrt{x}(\sqrt{x} - a)$ và $x + a\sqrt{x} = \sqrt{x}(\sqrt{x} + a)$ ($x > 0$).
+    \item Hiệu hai bình phương: $x - a^2 = (\sqrt{x} - a)(\sqrt{x} + a)$ ($x \ge 0$).
+  \end{itemize}
+  \item \textbf{Cộng / trừ phân thức liên hợp:} 
+  $\dfrac{1}{\sqrt{x} - a} + \dfrac{1}{\sqrt{x} + a} = \dfrac{2\sqrt{x}}{x - a^2}$; \quad 
+  $\dfrac{1}{\sqrt{x} - a} - \dfrac{1}{\sqrt{x} + a} = \dfrac{2a}{x - a^2}$.
+  \item \textbf{Kỹ năng tránh bẫy đổi dấu:} Khi gặp mẫu $a\sqrt{x} - x$, đổi dấu thành $-(x - a\sqrt{x}) = -\sqrt{x}(\sqrt{x} - a)$ trước khi quy đồng.
+  \item \textbf{Quy trình 4 bước làm bài tự luận đạt điểm tối đa:}\par\vspace{0.4mm}
+  \centerline{\small\textbf{Bước 1:} Phân tích mẫu tìm MTC $\longrightarrow$ \textbf{Bước 2:} Quy đồng mẫu thức}
+  \centerline{\small$\longrightarrow$ \textbf{Bước 3:} Rút gọn tử và mẫu $\longrightarrow$ \textbf{Bước 4:} Viết câu kết luận}
+\end{enumerate}
+\end{lythuyetbox}
+
+\vspace{1.5mm}
+
+% ------------------- MỤC II: PHẦN ĐỀ BÀI (KHÔNG DÙNG BẢNG) -------------------
+\noindent{\large\textbf{\color{mainblue}II. PHẦN ĐỀ BÀI: 10 Ý RÈN LUYỆN TƯƠNG TỰ CÂU 12}}
+\vspace{0.8mm}
+
+\begin{multicols}{2}
+\noindent\textbf{\color{accentred}$\blacktriangleright$ NHÓM 1: Tương tự Câu 12a ($1{,}25$ điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Ý 1.} Cho $x > 0, x \ne 1$. Rút gọn biểu thức:
+$$A_1 = \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}}$$
+
+\noindent\textbf{Ý 2.} Cho $x > 0, x \ne 36$. Rút gọn biểu thức:
+$$A_2 = \dfrac{\sqrt{x}}{\sqrt{x} - 6} - \dfrac{36}{x - 6\sqrt{x}}$$
+
+\noindent\textbf{Ý 3.} Cho $x > 0, x \ne 49$. Rút gọn biểu thức:
+$$A_3 = \dfrac{\sqrt{x}}{\sqrt{x} - 7} - \dfrac{49}{x - 7\sqrt{x}}$$
+
+\noindent\textbf{Ý 4.} Cho $x > 0, x \ne 9$. Rút gọn biểu thức:
+$$A_4 = \dfrac{\sqrt{x}}{\sqrt{x} - 3} + \dfrac{9}{3\sqrt{x} - x}$$
+
+\noindent\textbf{Ý 5.} Cho $x > 0, x \ne 4$. Rút gọn biểu thức:
+$$A_5 = \dfrac{\sqrt{x}}{\sqrt{x} - 2} - \dfrac{2\sqrt{x}}{x - 2\sqrt{x}}$$
+
+\columnbreak
+
+\noindent\textbf{\color{accentred}$\blacktriangleright$ NHÓM 2: Tương tự Câu 12b ($1{,}25$ điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Ý 6.} Cho $x > 0, x \ne 25$. Rút gọn biểu thức:
+$$B_1 = \left(\dfrac{1}{\sqrt{x} - 5} + \dfrac{1}{\sqrt{x} + 5}\right) \cdot \dfrac{x - 25}{2\sqrt{x}}$$
+
+\noindent\textbf{Ý 7.} Cho $x > 0, x \ne 1$. Rút gọn biểu thức:
+$$B_2 = \left(\dfrac{1}{\sqrt{x} - 1} + \dfrac{1}{\sqrt{x} + 1}\right) \cdot \dfrac{x - 1}{\sqrt{x}}$$
+
+\noindent\textbf{Ý 8.} Cho $x > 0, x \ne 9$. Rút gọn biểu thức:
+$$B_3 = \left(\dfrac{1}{\sqrt{x} - 3} - \dfrac{1}{\sqrt{x} + 3}\right) \cdot \dfrac{x - 9}{6}$$
+
+\noindent\textbf{Ý 9.} Cho $x > 0, x \ne 4$. Rút gọn biểu thức:
+$$B_4 = \left(\dfrac{1}{\sqrt{x} - 2} + \dfrac{1}{\sqrt{x} + 2}\right) : \dfrac{2\sqrt{x}}{x - 4}$$
+
+\noindent\textbf{Ý 10.} Cho $x > 0, x \ne 4$. Rút gọn biểu thức:
+$$B_5 = \left(\dfrac{\sqrt{x}}{\sqrt{x} - 2} - \dfrac{\sqrt{x}}{\sqrt{x} + 2}\right) \cdot \dfrac{x - 4}{4\sqrt{x}}$$
+
+\end{multicols}
+
+\newpage
+% =============================================================================
+% TRANG 2/2: HƯỚNG DẪN GIẢI CHI TIẾT & BAREM ĐIỂM
+% =============================================================================
+\begin{center}
+  {\bfseries\large\color{mainblue} III. HƯỚNG DẪN GIẢI CHI TIẾT VÀ BAREM ĐIỂM 10 Ý BÀI TẬP}
+\end{center}
+
+\vspace{-1.5mm}
+\noindent{\color{mainblue}\rule{\linewidth}{1.0pt}}
+\vspace{1.0mm}
+
+\begingroup
+\small
+\begin{multicols}{2}
+\noindent\textbf{\color{accentred}$\blacktriangleright$ LỜI GIẢI NHÓM 1 (Ý 1 $\to$ Ý 5)}
+\vspace{1mm}
+
+\noindent\textbf{Ý 1 (1,25 điểm).} MTC: $\sqrt{x}(\sqrt{x}-1)$.
+\begin{align*}
+A_1 &= \dfrac{\sqrt{x} \cdot \sqrt{x} - 1}{\sqrt{x}(\sqrt{x}-1)} = \dfrac{x - 1}{\sqrt{x}(\sqrt{x}-1)} \\
+&= \dfrac{(\sqrt{x}-1)(\sqrt{x}+1)}{\sqrt{x}(\sqrt{x}-1)} = \dfrac{\sqrt{x}+1}{\sqrt{x}}.
+\end{align*}
+\textit{Kết luận:} Với $x > 0, x \ne 1$ thì $A_1 = \dfrac{\sqrt{x}+1}{\sqrt{x}}$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 2 (1,25 điểm).} MTC: $\sqrt{x}(\sqrt{x}-6)$.
+\begin{align*}
+A_2 &= \dfrac{\sqrt{x} \cdot \sqrt{x} - 36}{\sqrt{x}(\sqrt{x}-6)} = \dfrac{x - 36}{\sqrt{x}(\sqrt{x}-6)} \\
+&= \dfrac{(\sqrt{x}-6)(\sqrt{x}+6)}{\sqrt{x}(\sqrt{x}-6)} = \dfrac{\sqrt{x}+6}{\sqrt{x}}.
+\end{align*}
+\textit{Kết luận:} Với $x > 0, x \ne 36$ thì $A_2 = \dfrac{\sqrt{x}+6}{\sqrt{x}}$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 3 (1,25 điểm).} MTC: $\sqrt{x}(\sqrt{x}-7)$.
+\begin{align*}
+A_3 &= \dfrac{x - 49}{\sqrt{x}(\sqrt{x}-7)} = \dfrac{(\sqrt{x}-7)(\sqrt{x}+7)}{\sqrt{x}(\sqrt{x}-7)} \\
+&= \dfrac{\sqrt{x}+7}{\sqrt{x}}.
+\end{align*}
+\textit{Kết luận:} Với $x > 0, x \ne 49$ thì $A_3 = \dfrac{\sqrt{x}+7}{\sqrt{x}}$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 4 (1,25 điểm).} Đổi dấu: $\dfrac{9}{3\sqrt{x}-x} = -\dfrac{9}{\sqrt{x}(\sqrt{x}-3)}$.
+\begin{align*}
+A_4 &= \dfrac{\sqrt{x}}{\sqrt{x}-3} - \dfrac{9}{\sqrt{x}(\sqrt{x}-3)} = \dfrac{x - 9}{\sqrt{x}(\sqrt{x}-3)} \\
+&= \dfrac{(\sqrt{x}-3)(\sqrt{x}+3)}{\sqrt{x}(\sqrt{x}-3)} = \dfrac{\sqrt{x}+3}{\sqrt{x}}.
+\end{align*}
+\textit{Kết luận:} Với $x > 0, x \ne 9$ thì $A_4 = \dfrac{\sqrt{x}+3}{\sqrt{x}}$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 5 (1,25 điểm).} MTC: $\sqrt{x}(\sqrt{x}-2)$.
+\begin{align*}
+A_5 &= \dfrac{\sqrt{x} \cdot \sqrt{x} - 2\sqrt{x}}{\sqrt{x}(\sqrt{x}-2)} = \dfrac{x - 2\sqrt{x}}{\sqrt{x}(\sqrt{x}-2)} \\
+&= \dfrac{\sqrt{x}(\sqrt{x}-2)}{\sqrt{x}(\sqrt{x}-2)} = 1.
+\end{align*}
+\textit{Kết luận:} Với $x > 0, x \ne 4$ thì $A_5 = 1$.
+
+\columnbreak
+
+\noindent\textbf{\color{accentred}$\blacktriangleright$ LỜI GIẢI NHÓM 2 (Ý 6 $\to$ Ý 10)}
+\vspace{1mm}
+
+\noindent\textbf{Ý 6 (1,25 điểm).} Quy đồng trong ngoặc:
+$$\dfrac{1}{\sqrt{x}-5} + \dfrac{1}{\sqrt{x}+5} = \dfrac{2\sqrt{x}}{x-25}.$$
+$$\Rightarrow B_1 = \dfrac{2\sqrt{x}}{x-25} \cdot \dfrac{x-25}{2\sqrt{x}} = 1.$$
+\textit{Kết luận:} Với $x > 0, x \ne 25$ thì $B_1 = 1$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 7 (1,25 điểm).} Biến đổi trong ngoặc:
+$$\dfrac{1}{\sqrt{x}-1} + \dfrac{1}{\sqrt{x}+1} = \dfrac{2\sqrt{x}}{x-1}.$$
+$$\Rightarrow B_2 = \dfrac{2\sqrt{x}}{x-1} \cdot \dfrac{x-1}{\sqrt{x}} = 2.$$
+\textit{Kết luận:} Với $x > 0, x \ne 1$ thì $B_2 = 2$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 8 (1,25 điểm).} Bỏ ngoặc tử số:
+$$\dfrac{1}{\sqrt{x}-3} - \dfrac{1}{\sqrt{x}+3} = \dfrac{(\sqrt{x}+3)-(\sqrt{x}-3)}{x-9} = \dfrac{6}{x-9}.$$
+$$\Rightarrow B_3 = \dfrac{6}{x-9} \cdot \dfrac{x-9}{6} = 1.$$
+\textit{Kết luận:} Với $x > 0, x \ne 9$ thì $B_3 = 1$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 9 (1,25 điểm).} Biến đổi trong ngoặc:
+$$\dfrac{1}{\sqrt{x}-2} + \dfrac{1}{\sqrt{x}+2} = \dfrac{2\sqrt{x}}{x-4}.$$
+$$B_4 = \dfrac{2\sqrt{x}}{x-4} : \dfrac{2\sqrt{x}}{x-4} = \dfrac{2\sqrt{x}}{x-4} \cdot \dfrac{x-4}{2\sqrt{x}} = 1.$$
+\textit{Kết luận:} Với $x > 0, x \ne 4$ thì $B_4 = 1$.
+
+\vspace{1mm}
+\noindent\textbf{Ý 10 (1,25 điểm).} Quy đồng trong ngoặc:
+$$\dfrac{\sqrt{x}(\sqrt{x}+2) - \sqrt{x}(\sqrt{x}-2)}{x-4} = \dfrac{4\sqrt{x}}{x-4}.$$
+$$\Rightarrow B_5 = \dfrac{4\sqrt{x}}{x-4} \cdot \dfrac{x-4}{4\sqrt{x}} = 1.$$
+\textit{Kết luận:} Với $x > 0, x \ne 4$ thì $B_5 = 1$.
+
+\end{multicols}
+\endgroup
+
+\vspace{1mm}
+\noindent
+\begin{tcolorbox}[colback=yellow!10,colframe=orange!80!black,title=\textbf{3 LƯU Ý SƯ PHẠM QUAN TRỌNG ĐỂ HỌC SINH ĐẠT ĐIỂM TỐI ĐA (2,5 ĐIỂM)},arc=1.2mm,boxrule=0.6pt,top=0.8mm,bottom=0.8mm]
+\small
+1. \textbf{Tránh quên ngoặc khi trừ tử:} Khi viết $-(\sqrt{x}-a)$, bắt buộc giữ dấu ngoặc trước khi phá ngoặc để không bị sai dấu.\\
+2. \textbf{Luôn viết câu kết luận:} Cuối mỗi ý phải có câu kết luận: \textit{"Vậy với $x > 0, x \ne \dots$ thì biểu thức bằng $\dots$"}.\\
+3. \textbf{Kiểm tra bằng máy tính (CASIO):} Gán $x = 10$ hoặc $x = 16$ vào biểu thức ban đầu và biểu thức rút gọn để so sánh kết quả.
+\end{tcolorbox}
+
+\end{document}

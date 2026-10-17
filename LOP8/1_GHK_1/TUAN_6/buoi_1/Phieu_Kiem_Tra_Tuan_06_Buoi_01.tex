@@ -1,0 +1,468 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 6.5mm rộng rãi vừa vặn)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 1 (0,25 điểm).} Bậc của đơn thức $5x^3 y^2 z$ là: \shortans{6}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bậc của đa thức $P = 2x^4 y - 3x^2 y^3 + x - 5$ là: \shortans{5}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $x^2 - 2xy + y^2$ tại $x = 12, y = 2$ bằng: \shortans{100}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điền số thích hợp vào chỗ trống: $(x + 4)^2 = x^2 + 8x + \boxed{\dots}$ \shortans{16}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tính nhanh giá trị của biểu thức $52^2 - 48^2 = $ \shortans{400}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn biểu thức $(x - 2)(x^2 + 2x + 4)$ rồi tính giá trị tại $x = 3$ được: \shortans{19}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Kết quả của phép chia đơn thức $12x^5 y^3 : 4x^3 y$ là: \shortans{3x^2 y^2}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Kết quả của phép chia đa thức $(6x^3 y^2 - 9x^2 y^2) : 3x^2 y^2$ là: \shortans{2x - 3}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tứ giác $ABCD$ có $\widehat{A} = 70^\circ, \widehat{B} = 80^\circ, \widehat{C} = 110^\circ$. Số đo của góc $D$ bằng: \shortans{100^\circ}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Hình bình hành $ABCD$ có $\widehat{A} = 70^\circ$. Số đo của góc $B$ bằng: \shortans{110^\circ}\par\vspace{0.3mm}
+\vspace{0.4mm}
+
+\noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính và rút gọn biểu thức:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$2x(x - 3) - x(2x - 1)$} & 
+\oBaiTap[8]{b)}{$(x - 2)(x + 3) - x(x + 1)$} \\
+\hline
+\oBaiTap[8]{c)}{$(x + 3)^2 - (x - 2)(x + 2) - 6x$} & 
+\oBaiTap[8]{d)}{$(8x^4 y^3 - 12x^3 y^2 + 4x^2 y^2) : 4x^2 y^2$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số thực $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x(x - 2) - x^2 + 4x = 6$} & 
+\oBaiTap[5]{b)}{$(x + 1)^2 - x(x - 2) = 9$} \\
+\hline
+\oBaiTap[5]{c)}{$(x + 3)^2 - (x - 2)(x + 2) = 25$} & 
+\oBaiTap[5]{d)}{$(x - 1)(x^2 + x + 1) - x(x - 2)(x + 2) = 15$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh $BC$. Trên tia đối của tia $MA$, lấy điểm $D$ sao cho $MD = MA$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng tứ giác $ABDC$ là hình bình hành.\par
+\textbf{b) (1,25 điểm)} Chứng minh tứ giác $ABDC$ là hình chữ nhật. Cho biết $AB = 6\text{ cm}, AC = 8\text{ cm}$, hãy tính độ dài đường chéo $AD$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 6x + 14$. Chỉ ra giá trị của $x$ để $A$ đạt giá trị nhỏ nhất đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 1 (0,25 điểm).} Bậc của đơn thức $-4x^2 y^4 z$ là: \shortans{7}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bậc của đa thức $P = 3x^5 y - 4x^3 y^3 + 2y - 1$ là: \shortans{6}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $x^2 + 2xy + y^2$ tại $x = 17, y = 3$ bằng: \shortans{400}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điền số thích hợp vào chỗ trống: $(x + 5)^2 = x^2 + 10x + \boxed{\dots}$ \shortans{25}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tính nhanh giá trị của biểu thức $63^2 - 37^2 = $ \shortans{2600}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn biểu thức $(x - 3)(x^2 + 3x + 9)$ rồi tính giá trị tại $x = 4$ được: \shortans{37}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Kết quả của phép chia đơn thức $15x^6 y^4 : 3x^4 y^2$ là: \shortans{5x^2 y^2}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Kết quả của phép chia đa thức $(8x^3 y^2 - 10x^2 y^2) : 2x^2 y^2$ là: \shortans{4x - 5}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tứ giác $ABCD$ có $\widehat{A} = 65^\circ, \widehat{B} = 85^\circ, \widehat{C} = 100^\circ$. Số đo của góc $D$ bằng: \shortans{110^\circ}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Hình bình hành $ABCD$ có $\widehat{A} = 65^\circ$. Số đo của góc $B$ bằng: \shortans{115^\circ}\par\vspace{0.3mm}
+\vspace{0.4mm}
+
+\noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính và rút gọn biểu thức:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$3x(x - 2) - x(3x - 1)$} & 
+\oBaiTap[8]{b)}{$(x - 3)(x + 4) - x(x + 1)$} \\
+\hline
+\oBaiTap[8]{c)}{$(x + 4)^2 - (x - 3)(x + 3) - 8x$} & 
+\oBaiTap[8]{d)}{$(9x^4 y^3 - 15x^3 y^2 + 6x^2 y^2) : 3x^2 y^2$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số thực $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x(x - 3) - x^2 + 5x = 8$} & 
+\oBaiTap[5]{b)}{$(x + 2)^2 - x(x - 2) = 16$} \\
+\hline
+\oBaiTap[5]{c)}{$(x + 2)^2 - (x - 3)(x + 3) = 21$} & 
+\oBaiTap[5]{d)}{$(x + 1)(x^2 - x + 1) - x(x - 3)(x + 3) = 28$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh $BC$. Trên tia đối của tia $MA$, lấy điểm $D$ sao cho $MD = MA$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng tứ giác $ABDC$ là hình bình hành.\par
+\textbf{b) (1,25 điểm)} Chứng minh tứ giác $ABDC$ là hình chữ nhật. Cho biết $AB = 5\text{ cm}, AC = 12\text{ cm}$, hãy tính độ dài đường chéo $AD$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 4x + 11$. Chỉ ra giá trị của $x$ để $A$ đạt giá trị nhỏ nhất đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 1 (0,25 điểm).} Bậc của đơn thức $7x^3 y^3 z^2$ là: \shortans{8}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bậc của đa thức $P = 5x^3 y^2 - x^4 y^3 + 7x - 2$ là: \shortans{7}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $x^2 - 2xy + y^2$ tại $x = 23, y = 3$ bằng: \shortans{400}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điền số thích hợp vào chỗ trống: $(x - 6)^2 = x^2 - 12x + \boxed{\dots}$ \shortans{36}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tính nhanh giá trị của biểu thức $74^2 - 26^2 = $ \shortans{4800}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn biểu thức $(x + 2)(x^2 - 2x + 4)$ rồi tính giá trị tại $x = 3$ được: \shortans{35}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Kết quả của phép chia đơn thức $18x^5 y^4 : 6x^3 y^3$ là: \shortans{3x^2 y}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Kết quả của phép chia đa thức $(12x^3 y^2 - 8x^2 y^2) : 4x^2 y^2$ là: \shortans{3x - 2}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tứ giác $ABCD$ có $\widehat{A} = 75^\circ, \widehat{B} = 95^\circ, \widehat{C} = 110^\circ$. Số đo của góc $D$ bằng: \shortans{80^\circ}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Hình bình hành $ABCD$ có $\widehat{A} = 80^\circ$. Số đo của góc $B$ bằng: \shortans{100^\circ}\par\vspace{0.3mm}
+\vspace{0.4mm}
+
+\noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính và rút gọn biểu thức:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$4x(x - 2) - x(4x - 3)$} & 
+\oBaiTap[8]{b)}{$(x - 1)(x + 2) - x(x + 1)$} \\
+\hline
+\oBaiTap[8]{c)}{$(x + 2)^2 - (x - 4)(x + 4) - 4x$} & 
+\oBaiTap[8]{d)}{$(10x^4 y^3 - 14x^3 y^2 + 6x^2 y^2) : 2x^2 y^2$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số thực $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x(x - 4) - x^2 + 7x = 9$} & 
+\oBaiTap[5]{b)}{$(x + 1)^2 - x(x - 3) = 11$} \\
+\hline
+\oBaiTap[5]{c)}{$(x + 3)^2 - (x - 1)(x + 1) = 22$} & 
+\oBaiTap[5]{d)}{$(x - 2)(x^2 + 2x + 4) - x(x - 2)(x + 2) = 4$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh $BC$. Trên tia đối của tia $MA$, lấy điểm $D$ sao cho $MD = MA$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng tứ giác $ABDC$ là hình bình hành.\par
+\textbf{b) (1,25 điểm)} Chứng minh tứ giác $ABDC$ là hình chữ nhật. Cho biết $AB = 8\text{ cm}, AC = 15\text{ cm}$, hãy tính độ dài đường chéo $AD$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 8x + 20$. Chỉ ra giá trị của $x$ để $A$ đạt giá trị nhỏ nhất đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 1 (0,25 điểm).} Bậc của đơn thức $-2x^4 y^3 z$ là: \shortans{8}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bậc của đa thức $P = 4x^2 y^3 - 2x^5 y^2 + 3y^4 - 6$ là: \shortans{7}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $x^2 + 2xy + y^2$ tại $x = 28, y = 2$ bằng: \shortans{900}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điền số thích hợp vào chỗ trống: $(x - 7)^2 = x^2 - 14x + \boxed{\dots}$ \shortans{49}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tính nhanh giá trị của biểu thức $85^2 - 15^2 = $ \shortans{7000}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn biểu thức $(x + 1)(x^2 - x + 1)$ rồi tính giá trị tại $x = 4$ được: \shortans{65}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Kết quả của phép chia đơn thức $20x^6 y^5 : 5x^4 y^3$ là: \shortans{4x^2 y^2}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Kết quả của phép chia đa thức $(15x^3 y^2 - 10x^2 y^2) : 5x^2 y^2$ là: \shortans{3x - 2}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tứ giác $ABCD$ có $\widehat{A} = 85^\circ, \widehat{B} = 75^\circ, \widehat{C} = 120^\circ$. Số đo của góc $D$ bằng: \shortans{80^\circ}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Hình bình hành $ABCD$ có $\widehat{A} = 75^\circ$. Số đo của góc $B$ bằng: \shortans{105^\circ}\par\vspace{0.3mm}
+\vspace{0.4mm}
+
+\noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính và rút gọn biểu thức:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$2x(x - 4) - x(2x - 3)$} & 
+\oBaiTap[8]{b)}{$(x - 4)(x + 5) - x(x + 1)$} \\
+\hline
+\oBaiTap[8]{c)}{$(x + 5)^2 - (x - 2)(x + 2) - 10x$} & 
+\oBaiTap[8]{d)}{$(12x^4 y^3 - 16x^3 y^2 + 8x^2 y^2) : 4x^2 y^2$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 8 - TUẦN 06 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 06 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số thực $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x(x - 5) - x^2 + 8x = 12$} & 
+\oBaiTap[5]{b)}{$(x + 2)^2 - x(x - 1) = 19$} \\
+\hline
+\oBaiTap[5]{c)}{$(x + 2)^2 - (x - 4)(x + 4) = 32$} & 
+\oBaiTap[5]{d)}{$(x + 2)(x^2 - 2x + 4) - x(x - 2)(x + 2) = 20$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$). Gọi $M$ là trung điểm của cạnh $BC$. Trên tia đối của tia $MA$, lấy điểm $D$ sao cho $MD = MA$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng tứ giác $ABDC$ là hình bình hành.\par
+\textbf{b) (1,25 điểm)} Chứng minh tứ giác $ABDC$ là hình chữ nhật. Cho biết $AB = 9\text{ cm}, AC = 12\text{ cm}$, hãy tính độ dài đường chéo $AD$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 10x + 28$. Chỉ ra giá trị của $x$ để $A$ đạt giá trị nhỏ nhất đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+\end{document}

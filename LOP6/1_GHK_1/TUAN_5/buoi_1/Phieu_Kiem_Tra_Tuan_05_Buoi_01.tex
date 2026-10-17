@@ -1,0 +1,510 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 dòng (4 đáp án, mỗi đáp án 0.25\linewidth)
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+% Câu trắc nghiệm 2 dòng (mỗi dòng 2 đáp án, mỗi đáp án 0.5\linewidth)
+\newcommand{\cauTNB}[6]{% \cauTNB{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Bài 18: Tam giác đều, hình vuông} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \hfill \textbf{SĐT:} \makebox[4.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}
+\vspace{1mm}
+
+\cauTNB{1}{Khẳng định nào sau đây là đúng khi nói về tam giác đều?}{Có ba cạnh bằng nhau và ba góc bằng nhau.}{Có hai đường chéo bằng nhau.}{Có bốn cạnh bằng nhau.}{Có ba góc vuông.}
+
+\cauTN{2}{Hình vuông có bao nhiêu đường chéo?}{1}{2}{3}{4}
+
+\cauTN{3}{Hình lục giác đều có bao nhiêu đường chéo chính?}{2}{3}{4}{6}
+
+\cauTN{4}{Chu vi của tam giác đều có độ dài cạnh $5$ cm là:}{$10$ cm}{$15$ cm}{$20$ cm}{$25$ cm}
+
+\cauTN{5}{Một hình vuông có chu vi bằng $24$ cm. Độ dài cạnh của hình vuông đó là:}{$4$ cm}{$6$ cm}{$8$ cm}{$12$ cm}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$3^2 \cdot 5 - 2^3 \cdot 4 + 15 : 3$} & 
+\oBaiTap[8]{b)}{$45 \cdot 73 + 45 \cdot 27 - 500$} \\
+\hline
+\oBaiTap[8]{c)}{$100 : [45 - (20 - 15)^2]$} & 
+\oBaiTap[8]{d)}{$200 : \{ 40 - [12 + (6 - 4)^3] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$15 + 3 \cdot (x - 2) = 30$} & 
+\oBaiTap[6]{b)}{$50 - [30 - (x - 5)] = 40$} \\
+\hline
+\oBaiTap[6]{c)}{$2 \cdot 3^x - 14 = 40$} & 
+\oBaiTap[6]{d)}{Chu vi hình lục giác đều có cạnh $x$ (cm) bằng 42 cm.} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bác An có một mảnh vườn hình vuông với độ dài cạnh là $15$ m. Bác dự định làm hàng rào lưới thép xung quanh mảnh vườn để trồng rau.\par
+\textbf{a) (1,25 điểm)} Tính chu vi của mảnh vườn hình vuông đó.\par
+\textbf{b) (1,25 điểm)} Bác An làm hàng rào lưới thép xung quanh vườn nhưng có chừa lại một lối đi rộng $2$ m. Tính chiều dài của hàng rào lưới thép và số tiền bác An cần trả để mua lưới thép, biết giá mỗi mét lưới thép là $45\ 000$ đồng.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Bài 18: Tam giác đều, hình vuông} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \hfill \textbf{SĐT:} \makebox[4.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}
+\vspace{1mm}
+
+\cauTNB{1}{Trong tam giác đều, các cạnh có đặc điểm gì?}{Ba cạnh bằng nhau}{Hai cạnh bằng nhau}{Ba cạnh không bằng nhau}{Chỉ có hai cạnh đáy bằng nhau}
+
+\cauTN{2}{Hình vuông có bao nhiêu đường chéo bằng nhau?}{1}{2}{3}{4}
+
+\cauTN{3}{Lục giác đều có bao nhiêu đường chéo chính?}{2}{3}{4}{6}
+
+\cauTNB{4}{Một lục giác đều có độ dài một cạnh là $5$ cm. Chu vi của lục giác đều đó là:}{$20$ cm}{$25$ cm}{$30$ cm}{$35$ cm}
+
+\cauTNB{5}{Chu vi của hình vuông có cạnh dài $12$ cm là:}{$24$ cm}{$48$ cm}{$36$ cm}{$144$ cm}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$3^2 \cdot 5 - 2^3 \cdot 4 + 15$} & 
+\oBaiTap[8]{b)}{$45 \cdot 73 + 45 \cdot 27 - 500$} \\
+\hline
+\oBaiTap[8]{c)}{$120 : [50 - (35 - 15)]$} & 
+\oBaiTap[8]{d)}{$200 : \{ 60 - [15 + (7 - 2)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$15 + 3 \cdot (x - 4) = 30$} & 
+\oBaiTap[6]{b)}{$50 - [30 - (x - 2)] = 40$} \\
+\hline
+\oBaiTap[6]{c)}{$2 \cdot 3^x - 5 = 13$} & 
+\oBaiTap[6]{d)}{Chu vi hình lục giác đều có độ dài cạnh $x$ (cm) bằng $42$ cm.} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bác An có một mảnh vườn hình vuông với độ dài cạnh là $15$ m. Bác An dự định làm hàng rào bằng dây thép gai xung quanh mảnh vườn này để bảo vệ hoa màu, nhưng có chừa lại một khoảng rộng $3$ m để làm cổng ra vào.\par
+\textbf{a) (1,25 điểm)} Tính chu vi của mảnh vườn hình vuông đó.\par
+\textbf{b) (1,25 điểm)} Tính chiều dài dây thép gai cần dùng để làm hàng rào và số tiền bác An phải trả, biết giá mỗi mét dây thép gai là $25 000$ đồng.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Bài 18: Tam giác đều, hình vuông} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \hfill \textbf{SĐT:} \makebox[4.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}
+\vspace{1mm}
+
+\cauTNB{1}{Khẳng định nào sau đây là đúng khi nói về tam giác đều?}{Có 3 cạnh bằng nhau và 3 góc bằng nhau.}{Có 3 cạnh bằng nhau và 2 góc bằng nhau.}{Có 2 cạnh bằng nhau và 3 góc bằng nhau.}{Chỉ có 3 cạnh bằng nhau, các góc không bằng nhau.}
+
+\cauTN{2}{Hình vuông có bao nhiêu đường chéo bằng nhau?}{1}{2}{3}{4}
+
+\cauTN{3}{Lục giác đều có bao nhiêu đường chéo chính?}{2}{3}{4}{6}
+
+\cauTN{4}{Chu vi của một tam giác đều có độ dài cạnh $5\text{ cm}$ là:}{$10\text{ cm}$}{$15\text{ cm}$}{$20\text{ cm}$}{$25\text{ cm}$}
+
+\cauTNB{5}{Một bồn hoa hình lục giác đều được ghép từ 6 tam giác đều có cạnh $4\text{ m}$. Độ dài đường chéo chính của bồn hoa đó là:}{$4\text{ m}$}{$8\text{ m}$}{$12\text{ m}$}{$16\text{ m}$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$3^3 \cdot 2 - 5^2 + 12 : 4$} & 
+\oBaiTap[8]{b)}{$45 \cdot 63 + 45 \cdot 37 - 500$} \\
+\hline
+\oBaiTap[8]{c)}{$120 : [50 - (30 - 10)]$} & 
+\oBaiTap[8]{d)}{$100 : \{ 39 - [10 + (5 - 2)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$15 + 3(x - 2) = 30$} & 
+\oBaiTap[6]{b)}{$50 - [30 - (x - 5)] = 40$} \\
+\hline
+\oBaiTap[6]{c)}{$2 \cdot 3^x - 4 = 14$} & 
+\oBaiTap[6]{d)}{Chu vi hình vuông có độ dài cạnh $x\text{ (cm)}$ bằng $24\text{ cm}$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Nhà trường dự định làm một bồn hoa hình lục giác đều được ghép từ 6 tam giác đều, mỗi tam giác đều có độ dài cạnh là $2\text{ m}$. Xung quanh bồn hoa sẽ được làm viền gạch trang trí.\par
+\textbf{a) (1,25 điểm)} Tính chu vi của bồn hoa hình lục giác đều đó.\par
+\textbf{b) (1,25 điểm)} Nhà trường muốn dùng gạch làm viền xung quanh bồn hoa, nhưng chừa lại $1\text{ m}$ để làm lối đi chăm sóc hoa. Biết chi phí để làm mỗi mét viền gạch là $150\text{ 000}$ đồng. Tính chiều dài phần viền gạch và tổng số tiền cần chi trả để làm viền gạch.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Bài 18: Tam giác đều, hình vuông} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên học sinh:} \hfill \textbf{SĐT:} \makebox[4.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}
+\vspace{1mm}
+
+\cauTNB{1}{Trong tam giác đều, khẳng định nào sau đây là đúng?}{Ba góc bằng nhau và bằng $60^\circ$.}{Ba góc bằng nhau và bằng $90^\circ$.}{Có hai đường chéo bằng nhau.}{Có bốn cạnh bằng nhau.}
+
+\cauTN{2}{Hình vuông có cạnh là $5\text{ cm}$. Chu vi của hình vuông đó là:}{$25\text{ cm}$}{$20\text{ cm}$}{$10\text{ cm}$}{$15\text{ cm}$}
+
+\cauTN{3}{Hình lục giác đều có bao nhiêu đường chéo chính?}{$2$}{$3$}{$4$}{$6$}
+
+\cauTNB{4}{Khẳng định nào sau đây sai khi nói về hình lục giác đều?}{Có $6$ đỉnh.}{Có $6$ góc bằng nhau.}{Có $6$ cạnh bằng nhau.}{Có $4$ đường chéo chính bằng nhau.}
+
+\cauTN{5}{Một tam giác đều có chu vi là $24\text{ cm}$. Độ dài một cạnh của tam giác đó là:}{$8\text{ cm}$}{$6\text{ cm}$}{$12\text{ cm}$}{$4\text{ cm}$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$3^2 \cdot 5 - 2^3 \cdot 2 + 15 : 3$} & 
+\oBaiTap[8]{b)}{$45 \cdot 63 + 45 \cdot 37 - 500$} \\
+\hline
+\oBaiTap[8]{c)}{$120 : [54 - (50 - 2^3)]$} & 
+\oBaiTap[8]{d)}{$200 : \{ 40 - [4 + (5 - 1)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$15 + 3(x - 2) = 30$} & 
+\oBaiTap[6]{b)}{$50 - [30 - (x - 5)] = 40$} \\
+\hline
+\oBaiTap[6]{c)}{$2 \cdot 3^x - 4 = 50$} & 
+\oBaiTap[6]{d)}{Chu vi hình vuông có cạnh $x\text{ (cm)}$ bằng $36\text{ cm}$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một khu vui chơi bãi cát dành cho trẻ em được thiết kế có dạng hình lục giác đều với độ dài mỗi cạnh là $4\text{ m}$. Ban quản lý dự định lắp các thanh xốp bảo vệ dọc theo các cạnh của bãi cát, chỉ chừa lại một lối vào rộng $2\text{ m}$.\par
+\textbf{a) (1,25 điểm)} Tính chu vi của khu vui chơi bãi cát hình lục giác đều đó.\par
+\textbf{b) (1,25 điểm)} Tính chiều dài thanh xốp cần lắp và tổng số tiền để mua thanh xốp, biết giá mỗi mét thanh xốp là $50\,000$ đồng.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\end{document}

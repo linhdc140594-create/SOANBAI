@@ -1,0 +1,287 @@
+Chào bạn, dưới đây là bộ đề thi và đáp án chi tiết cho **PHẦN I (Trắc nghiệm), CÂU 2 và CÂU 3 (Tự luận)** thuộc Phiếu kiểm tra định kỳ Toán 7 (Tuần 5 - Buổi 02) theo đúng ma trận và yêu cầu chuẩn chương trình GDPT 2018 (Sách Kết nối tri thức). 
+
+Tôi đã thiết kế số liệu đẹp, phân loại tốt và trình bày bằng cú pháp LaTeX chuyên nghiệp.
+
+---
+
+# PHẦN 1: NỘI DUNG ĐỀ KIỂM TRA (4 MÃ ĐỀ)
+
+## MÃ ĐỀ 101
+**PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)**
+\cauTN{Theo quy tắc làm tròn số, nếu chữ số đầu tiên trong các chữ số bị bỏ đi nhỏ hơn 5 thì ta làm gì với chữ số cuối cùng của bộ phận giữ lại?}
+{Giữ nguyên chữ số cuối cùng của bộ phận giữ lại.}
+{Cộng thêm 1 vào chữ số cuối cùng của bộ phận giữ lại.}
+{Trừ đi 1 ở chữ số cuối cùng của bộ phận giữ lại.}
+{Thay chữ số cuối cùng bằng chữ số 0.}
+
+\cauTN{Làm tròn số $\pi \approx 3,14159...$ đến hàng phần trăm ta được kết quả là:}
+{3,1}
+{3,15}
+{3,14}
+{3,142}
+
+\cauTN{Cho số $a = 12345,67$. Làm tròn số $a$ với độ chính xác $d = 50$ ta được kết quả là:}
+{12300}
+{12350}
+{12346}
+{12000}
+
+\cauTN{Nếu đường thẳng $c$ cắt hai đường thẳng song song $a$ và $b$ thì hai góc so le trong:}
+{Bù nhau.}
+{Bằng nhau.}
+{Kề bù.}
+{Phụ nhau.}
+
+\cauTN{Cho đường thẳng $c$ cắt hai đường thẳng phân biệt $a, b$. Dấu hiệu nào sau đây nhận biết $a \parallel b$?}
+{Hai góc so le trong bù nhau.}
+{Hai góc đồng vị phụ nhau.}
+{Hai góc trong cùng phía bằng nhau.}
+{Hai góc so le trong bằng nhau.}
+
+**PHẦN II. TỰ LUẬN (CÂU 2 VÀ CÂU 3)**
+\oBaiTap[6]{
+**Câu 2 (2,5 điểm).** Thực hiện phép tính và làm tròn số theo yêu cầu:
+a) Tính và làm tròn kết quả đến hàng đơn vị: $A = \sqrt{36} + 4,28$
+b) Tính và làm tròn kết quả đến hàng phần mười: $B = \frac{5}{3} + 2,4$
+c) Tính và làm tròn kết quả với độ chính xác $d = 0,05$: $C = 3,14 \cdot 2,5$
+d) Tính và làm tròn kết quả đến chữ số thập phân thứ hai: $D = \sqrt{\frac{16}{9}} - |-1,234|$
+}{}
+
+\oBaiTap[6]{
+**Câu 3 (2,5 điểm).** Tìm số thực $x, y$ biết:
+a) $\sqrt{x} = 5$
+b) $\sqrt{x - 2} = 3$
+c) $|2x - 1| = 5$
+d) $|x - 3| + (y + 1)^2 = 0$
+}{}
+
+---
+
+## MÃ ĐỀ 102
+**PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)**
+\cauTN{Theo quy tắc làm tròn số, nếu chữ số đầu tiên trong các chữ số bị bỏ đi lớn hơn hoặc bằng 5 thì ta làm gì với chữ số cuối cùng của bộ phận giữ lại?}
+{Giữ nguyên chữ số cuối cùng của bộ phận giữ lại.}
+{Thay chữ số cuối cùng bằng chữ số 0.}
+{Cộng thêm 1 vào chữ số cuối cùng của bộ phận giữ lại.}
+{Trừ đi 1 ở chữ số cuối cùng của bộ phận giữ lại.}
+
+\cauTN{Làm tròn số $\sqrt{2} \approx 1,41421...$ đến hàng phần nghìn ta được kết quả là:}
+{1,41}
+{1,414}
+{1,415}
+{1,4142}
+
+\cauTN{Cho số $b = 12,3456$. Làm tròn số $b$ với độ chính xác $d = 0,005$ ta được kết quả là:}
+{12,3}
+{12,35}
+{12,34}
+{12,346}
+
+\cauTN{Nếu đường thẳng $c$ cắt hai đường thẳng song song $m$ và $n$ thì hai góc đồng vị:}
+{Bằng nhau.}
+{Bù nhau.}
+{Kề bù.}
+{Phụ nhau.}
+
+\cauTN{Cho đường thẳng $c$ cắt hai đường thẳng phân biệt $x, y$. Dấu hiệu nào sau đây nhận biết $x \parallel y$?}
+{Hai góc so le trong bù nhau.}
+{Hai góc đồng vị bằng nhau.}
+{Hai góc trong cùng phía bằng nhau.}
+{Hai góc đồng vị phụ nhau.}
+
+**PHẦN II. TỰ LUẬN (CÂU 2 VÀ CÂU 3)**
+\oBaiTap[6]{
+**Câu 2 (2,5 điểm).** Thực hiện phép tính và làm tròn số theo yêu cầu:
+a) Tính và làm tròn kết quả đến hàng đơn vị: $A = \sqrt{49} - 3,75$
+b) Tính và làm tròn kết quả đến hàng phần mười: $B = \frac{7}{6} + 1,2$
+c) Tính và làm tròn kết quả với độ chính xác $d = 0,005$: $C = 4,25 \cdot 1,4$
+d) Tính và làm tròn kết quả đến chữ số thập phân thứ hai: $D = \sqrt{\frac{25}{16}} + |-2,567|$
+}{}
+
+\oBaiTap[6]{
+**Câu 3 (2,5 điểm).** Tìm số thực $x, y$ biết:
+a) $\sqrt{x} = 6$
+b) $\sqrt{x + 1} = 4$
+c) $|3x + 2| = 7$
+d) $|x + 2| + (y - 4)^2 = 0$
+}{}
+
+---
+
+## MÃ ĐỀ 103
+**PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)**
+\cauTN{Khi làm tròn số nguyên, nếu chữ số đầu tiên bị bỏ đi nhỏ hơn 5 thì các chữ số bị bỏ đi được thay thế bằng:}
+{Các chữ số 0.}
+{Các chữ số 1.}
+{Giữ nguyên không thay đổi.}
+{Bỏ đi hoàn toàn không viết gì thêm.}
+
+\cauTN{Làm tròn số $\sqrt{3} \approx 1,73205...$ đến hàng phần trăm ta được kết quả là:}
+{1,7}
+{1,74}
+{1,732}
+{1,73}
+
+\cauTN{Cho số $c = 98765$. Làm tròn số $c$ với độ chính xác $d = 500$ ta được kết quả là:}
+{98000}
+{99000}
+{98700}
+{98800}
+
+\cauTN{Nếu đường thẳng $c$ cắt hai đường thẳng song song $p$ và $q$ thì hai góc trong cùng phía:}
+{Bằng nhau.}
+{Phụ nhau.}
+{Bù nhau (tổng bằng $180^\circ$).}
+{Kề bù.}
+
+\cauTN{Cho ba đường thẳng phân biệt $a, b, c$. Nếu $a \perp c$ và $b \perp c$ thì kết luận nào sau đây đúng?}
+{$a \parallel b$.}
+{$a \perp b$.}
+{$a$ cắt $b$.}
+{$a \equiv b$.}
+
+**PHẦN II. TỰ LUẬN (CÂU 2 VÀ CÂU 3)**
+\oBaiTap[6]{
+**Câu 2 (2,5 điểm).** Thực hiện phép tính và làm tròn số theo yêu cầu:
+a) Tính và làm tròn kết quả đến hàng đơn vị: $A = \sqrt{64} + 5,62$
+b) Tính và làm tròn kết quả đến hàng phần mười: $B = \frac{8}{3} - 1,5$
+c) Tính và làm tròn kết quả với độ chính xác $d = 0,05$: $C = 5,12 \cdot 3,5$
+d) Tính và làm tròn kết quả đến chữ số thập phân thứ hai: $D = \sqrt{\frac{9}{4}} - |-3,456|$
+}{}
+
+\oBaiTap[6]{
+**Câu 3 (2,5 điểm).** Tìm số thực $x, y$ biết:
+a) $\sqrt{x} = 7$
+b) $\sqrt{x - 3} = 2$
+c) $|2x + 3| = 9$
+d) $|x - 5| + (y + 2)^2 = 0$
+}{}
+
+---
+
+## MÃ ĐỀ 104
+**PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)**
+\cauTN{Khi làm tròn số nguyên, nếu chữ số đầu tiên bị bỏ đi lớn hơn hoặc bằng 5 thì ta cộng thêm 1 vào chữ số giữ lại cuối cùng, đồng thời các chữ số bị bỏ đi được:}
+{Thay bằng các chữ số 0.}
+{Bỏ đi hoàn toàn.}
+{Giữ nguyên.}
+{Thay bằng các chữ số 5.}
+
+\cauTN{Làm tròn số cơ số e ($e \approx 2,71828...$) đến hàng phần mười ta được kết quả là:}
+{2,8}
+{2,7}
+{2,72}
+{2,71}
+
+\cauTN{Cho số $m = 45,678$. Làm tròn số $m$ với độ chính xác $d = 0,05$ ta được kết quả là:}
+{45,6}
+{45,7}
+{45,68}
+{46,0}
+
+\cauTN{Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong có tính chất gì?}
+{Bù nhau.}
+{Phụ nhau.}
+{Kề bù.}
+{Bằng nhau.}
+
+\cauTN{Cho đường thẳng $c$ cắt hai đường thẳng phân biệt $u, v$. Dấu hiệu nào sau đây nhận biết $u \parallel v$?}
+{Hai góc trong cùng phía bù nhau.}
+{Hai góc so le trong bù nhau.}
+{Hai góc đồng vị bù nhau.}
+{Hai góc trong cùng phía bằng nhau.}
+
+**PHẦN II. TỰ LUẬN (CÂU 2 VÀ CÂU 3)**
+\oBaiTap[6]{
+**Câu 2 (2,5 điểm).** Thực hiện phép tính và làm tròn số theo yêu cầu:
+a) Tính và làm tròn kết quả đến hàng đơn vị: $A = \sqrt{81} - 6,81$
+b) Tính và làm tròn kết quả đến hàng phần mười: $B = \frac{11}{6} + 3,1$
+c) Tính và làm tròn kết quả với độ chính xác $d = 0,005$: $C = 2,45 \cdot 4,2$
+d) Tính và làm tròn kết quả đến chữ số thập phân thứ hai: $D = \sqrt{\frac{36}{25}} + |-1,789|$
+}{}
+
+\oBaiTap[6]{
+**Câu 3 (2,5 điểm).** Tìm số thực $x, y$ biết:
+a) $\sqrt{x} = 8$
+b) $\sqrt{x + 2} = 5$
+c) $|3x - 1| = 8$
+d) $|x + 4| + (y - 3)^2 = 0$
+}{}
+
+---
+---
+
+# PHẦN 2: ĐÁP ÁN VÀ BAREM CHẤM ĐIỂM CHI TIẾT
+
+## 1. ĐÁP ÁN PHẦN I - TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm)
+| Câu | Mã 101 | Mã 102 | Mã 103 | Mã 104 |
+|:---:|:---:|:---:|:---:|:---:|
+| 1 | A | C | A | A |
+| 2 | C | B | D | B |
+| 3 | A | B | B | B |
+| 4 | B | A | C | D |
+| 5 | D | B | A | A |
+
+---
+
+## 2. HƯỚNG DẪN CHẤM PHẦN II - TỰ LUẬN
+*(Lưu ý: Barem chia nhỏ tới 0,125 điểm để giáo viên dễ dàng định lượng. Tổng mỗi ý là 0,625 điểm. Học sinh làm cách khác đúng vẫn cho điểm tối đa).*
+
+### CÂU 2 (2,5 điểm) - THỰC HIỆN PHÉP TÍNH VÀ LÀM TRÒN
+**MÃ ĐỀ 101**
+*   **a) (0,625đ):** $A = 6 + 4,28$ (0,25đ) $= 10,28$ (0,25đ). Làm tròn đến hàng đơn vị: $A \approx 10$ (0,125đ).
+*   **b) (0,625đ):** $B = 1,666... + 2,4$ (0,25đ) $= 4,066...$ (0,25đ). Làm tròn đến hàng phần mười: $B \approx 4,1$ (0,125đ).
+*   **c) (0,625đ):** $d=0,05 \Rightarrow$ làm tròn đến hàng phần mười (0,125đ). $C = 7,85$ (0,25đ) $\approx 7,9$ (0,25đ).
+*   **d) (0,625đ):** $D = \frac{4}{3} - 1,234 \approx 1,333... - 1,234$ (0,25đ) $= 0,099...$ (0,25đ). Làm tròn chữ số TP thứ hai: $D \approx 0,10$ (0,125đ).
+
+**MÃ ĐỀ 102**
+*   **a) (0,625đ):** $A = 7 - 3,75$ (0,25đ) $= 3,25$ (0,25đ). Làm tròn đến hàng đơn vị: $A \approx 3$ (0,125đ).
+*   **b) (0,625đ):** $B = 1,166... + 1,2$ (0,25đ) $= 2,366...$ (0,25đ). Làm tròn đến hàng phần mười: $B \approx 2,4$ (0,125đ).
+*   **c) (0,625đ):** $d=0,005 \Rightarrow$ làm tròn đến hàng phần trăm (0,125đ). $C = 5,95$ (0,25đ) $\approx 5,95$ (0,25đ). *(Ghi chú: Kết quả đúng bằng 5,95 nên làm tròn vẫn là 5,95).*
+*   **d) (0,625đ):** $D = 1,25 + 2,567$ (0,25đ) $= 3,817$ (0,25đ). Làm tròn chữ số TP thứ hai: $D \approx 3,82$ (0,125đ).
+
+**MÃ ĐỀ 103**
+*   **a) (0,625đ):** $A = 8 + 5,62$ (0,25đ) $= 13,62$ (0,25đ). Làm tròn đến hàng đơn vị: $A \approx 14$ (0,125đ).
+*   **b) (0,625đ):** $B = 2,666... - 1,5$ (0,25đ) $= 1,166...$ (0,25đ). Làm tròn đến hàng phần mười: $B \approx 1,2$ (0,125đ).
+*   **c) (0,625đ):** $d=0,05 \Rightarrow$ làm tròn đến hàng phần mười (0,125đ). $C = 17,92$ (0,25đ) $\approx 17,9$ (0,25đ).
+*   **d) (0,625đ):** $D = 1,5 - 3,456$ (0,25đ) $= -1,956$ (0,25đ). Làm tròn chữ số TP thứ hai: $D \approx -1,96$ (0,125đ).
+
+**MÃ ĐỀ 104**
+*   **a) (0,625đ):** $A = 9 - 6,81$ (0,25đ) $= 2,19$ (0,25đ). Làm tròn đến hàng đơn vị: $A \approx 2$ (0,125đ).
+*   **b) (0,625đ):** $B = 1,833... + 3,1$ (0,25đ) $= 4,933...$ (0,25đ). Làm tròn đến hàng phần mười: $B \approx 4,9$ (0,125đ).
+*   **c) (0,625đ):** $d=0,005 \Rightarrow$ làm tròn đến hàng phần trăm (0,125đ). $C = 10,29$ (0,25đ) $\approx 10,29$ (0,25đ).
+*   **d) (0,625đ):** $D = 1,2 + 1,789$ (0,25đ) $= 2,989$ (0,25đ). Làm tròn chữ số TP thứ hai: $D \approx 2,99$ (0,125đ).
+
+---
+
+### CÂU 3 (2,5 điểm) - TÌM SỐ THỰC X, Y
+*(Học sinh quên điều kiện ở câu a, b trừ 0,125 điểm mỗi câu)*
+
+**MÃ ĐỀ 101**
+*   **a) (0,625đ):** ĐK: $x \ge 0$ (0,125đ). Từ $\sqrt{x} = 5 \Rightarrow x = 5^2$ (0,25đ) $\Rightarrow x = 25$ (TM) (0,25đ). 
+*   **b) (0,625đ):** ĐK: $x \ge 2$ (0,125đ). $\sqrt{x - 2} = 3 \Rightarrow x - 2 = 9$ (0,25đ) $\Rightarrow x = 11$ (TM) (0,25đ).
+*   **c) (0,625đ):** TH1: $2x - 1 = 5 \Rightarrow x = 3$ (0,25đ). TH2: $2x - 1 = -5 \Rightarrow x = -2$ (0,25đ). Kết luận: $x \in \{3; -2\}$ (0,125đ).
+*   **d) (0,625đ):** Lập luận: Vì $|x - 3| \ge 0$ và $(y + 1)^2 \ge 0$ với mọi $x, y$ (0,25đ). 
+    Do đó $|x - 3| + (y + 1)^2 = 0$ khi và chỉ khi $x - 3 = 0$ và $y + 1 = 0$ (0,25đ). 
+    $\Rightarrow x = 3; y = -1$ (0,125đ).
+
+**MÃ ĐỀ 102**
+*   **a) (0,625đ):** ĐK: $x \ge 0$ (0,125đ). $\Rightarrow x = 6^2$ (0,25đ) $\Rightarrow x = 36$ (TM) (0,25đ). 
+*   **b) (0,625đ):** ĐK: $x \ge -1$ (0,125đ). $\Rightarrow x + 1 = 16$ (0,25đ) $\Rightarrow x = 15$ (TM) (0,25đ).
+*   **c) (0,625đ):** TH1: $3x + 2 = 7 \Rightarrow x = \frac{5}{3}$ (0,25đ). TH2: $3x + 2 = -7 \Rightarrow x = -3$ (0,25đ). Kết luận: $x \in \{\frac{5}{3}; -3\}$ (0,125đ).
+*   **d) (0,625đ):** Lập luận: $|x + 2| \ge 0$ và $(y - 4)^2 \ge 0$ $\forall x, y$ (0,25đ). 
+    Dấu "=" xảy ra $\Leftrightarrow x + 2 = 0$ và $y - 4 = 0$ (0,25đ) $\Rightarrow x = -2; y = 4$ (0,125đ).
+
+**MÃ ĐỀ 103**
+*   **a) (0,625đ):** ĐK: $x \ge 0$ (0,125đ). $\Rightarrow x = 7^2$ (0,25đ) $\Rightarrow x = 49$ (TM) (0,25đ). 
+*   **b) (0,625đ):** ĐK: $x \ge 3$ (0,125đ). $\Rightarrow x - 3 = 4$ (0,25đ) $\Rightarrow x = 7$ (TM) (0,25đ).
+*   **c) (0,625đ):** TH1: $2x + 3 = 9 \Rightarrow x = 3$ (0,25đ). TH2: $2x + 3 = -9 \Rightarrow x = -6$ (0,25đ). Kết luận: $x \in \{3; -6\}$ (0,125đ).
+*   **d) (0,625đ):** Lập luận: $|x - 5| \ge 0$ và $(y + 2)^2 \ge 0$ $\forall x, y$ (0,25đ). 
+    Dấu "=" xảy ra $\Leftrightarrow x - 5 = 0$ và $y + 2 = 0$ (0,25đ) $\Rightarrow x = 5; y = -2$ (0,125đ).
+
+**MÃ ĐỀ 104**
+*   **a) (0,625đ):** ĐK: $x \ge 0$ (0,125đ). $\Rightarrow x = 8^2$ (0,25đ) $\Rightarrow x = 64$ (TM) (0,25đ). 
+*   **b) (0,625đ):** ĐK: $x \ge -2$ (0,125đ). $\Rightarrow x + 2 = 25$ (0,25đ) $\Rightarrow x = 23$ (TM) (0,25đ).
+*   **c) (0,625đ):** TH1: $3x - 1 = 8 \Rightarrow x = 3$ (0,25đ). TH2: $3x - 1 = -8 \Rightarrow x = -\frac{7}{3}$ (0,25đ). Kết luận: $x \in \{3; -\frac{7}{3}\}$ (0,125đ).
+*   **d) (0,625đ):** Lập luận: $|x + 4| \ge 0$ và $(y - 3)^2 \ge 0$ $\forall x, y$ (0,25đ). 
+    Dấu "=" xảy ra $\Leftrightarrow x + 4 = 0$ và $y - 3 = 0$ (0,25đ) $\Rightarrow x = -4; y = 3$ (0,125đ).

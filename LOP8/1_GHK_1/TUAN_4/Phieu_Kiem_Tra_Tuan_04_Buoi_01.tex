@@ -1,0 +1,628 @@
+% !TEX program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{0.8mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 4 đáp án dàn hàng ngang (cho các đáp án ngắn)
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1.5mm}%
+}
+
+% Câu trắc nghiệm 2 dòng (mỗi dòng 2 đáp án, chống lỗi đè chữ khi biểu thức dài)
+\newcommand{\cauTNHaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{1.5mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Hiệu hai bình phương. Bình phương một tổng hoặc hiệu} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTNHaiDong{1}{Hằng đẳng thức bình phương của một tổng là:}{$(A+B)^2 = A^2 + 2AB + B^2$}{$(A+B)^2 = A^2 - 2AB + B^2$}{$(A+B)^2 = A^2 + B^2$}{$(A+B)^2 = A^2 + AB + B^2$}
+
+\cauTN{2}{Khai triển hằng đẳng thức $(2x - 1)^2$ ta được kết quả là:}{$4x^2 - 1$}{$4x^2 - 2x + 1$}{$4x^2 - 4x + 1$}{$2x^2 - 4x + 1$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $x^2 - 8x + \dots = (x - 4)^2$.}{$4$}{$8$}{$16$}{$64$}
+
+\cauTN{4}{Tính nhanh giá trị của biểu thức $53^2 - 47^2$ ta được kết quả là:}{$600$}{$60$}{$100$}{$36$}
+
+\cauTN{5}{Khẳng định nào dưới đây là \textbf{sai}?}{$(x - y)^2 = (y - x)^2$}{$(-x - y)^2 = (x + y)^2$}{$x^2 - y^2 = (x - y)(x + y)$}{$(x + y)^2 = x^2 + y^2$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$A = (x + 3)^2 + (x - 3)^2$} & 
+\oBaiTap[6]{b)}{$B = (2x + 3y)^2 - (2x - 3y)^2$} \\
+\hline
+\oBaiTap[6]{c)}{$C = (2x - 1)^2 - 4x(x - 2)$} & 
+\oBaiTap[6]{d)}{$D = (3x - 2)(3x + 2) - (3x - 1)^2 + 6x$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn và tìm $x$:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[10]{a)}{Rút gọn và tính giá trị biểu thức:\par
+$P = x^2 - 10x + 25$\par
+tại $x = 105$.} & 
+\oBaiTap[10]{b)}{Tìm số thực $x$, biết:\par
+$(x + 4)^2 - (x - 2)(x + 2) = 36$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{a) (1,5 điểm)} Một sân trường hình vuông có độ dài cạnh ban đầu là $x$ (mét). Nhà trường quy hoạch mở rộng sân chơi bằng cách tăng mỗi cạnh thêm $3\text{ m}$.\par
+1) Hãy viết biểu thức biểu thị diện tích tăng thêm $\Delta S$ của sân trường theo $x$.\par
+2) Biết diện tích phần sân tăng thêm là $57\text{ m}^2$, hãy tính độ dài cạnh ban đầu $x$ của sân trường.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\vspace{1mm}
+\textbf{b) (1,0 điểm)} Chứng minh rằng biểu thức $A = x^2 - 6x + 11$ luôn nhận giá trị dương với mọi số thực $x$. Tìm giá trị nhỏ nhất của biểu thức $A$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Hiệu hai bình phương. Bình phương một tổng hoặc hiệu} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTNHaiDong{1}{Hằng đẳng thức hiệu hai bình phương là:}{$A^2 - B^2 = (A - B)(A + B)$}{$A^2 - B^2 = (A - B)^2$}{$A^2 - B^2 = (A + B)^2$}{$A^2 - B^2 = A^2 - 2AB + B^2$}
+
+\cauTN{2}{Khai triển hằng đẳng thức $(3x - 1)^2$ ta được kết quả là:}{$9x^2 - 1$}{$9x^2 - 6x + 1$}{$9x^2 - 3x + 1$}{$3x^2 - 6x + 1$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $x^2 + 10x + \dots = (x + 5)^2$.}{$10$}{$20$}{$25$}{$5$}
+
+\cauTN{4}{Tính nhanh giá trị của biểu thức $65^2 - 35^2$ ta được kết quả là:}{$3000$}{$900$}{$1000$}{$300$}
+
+\cauTN{5}{Khẳng định nào dưới đây là \textbf{sai}?}{$(a - b)^2 = (b - a)^2$}{$-(a - b)^2 = -(b - a)^2$}{$(a - b)^2 = a^2 - b^2$}{$(-a - b)^2 = (a + b)^2$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$A = (x + 4)^2 + (x - 4)^2$} & 
+\oBaiTap[6]{b)}{$B = (3x + 2y)^2 - (3x - 2y)^2$} \\
+\hline
+\oBaiTap[6]{c)}{$C = (3x - 1)^2 - 9x(x - 1)$} & 
+\oBaiTap[6]{d)}{$D = (2x - 3)(2x + 3) - (2x - 1)^2 + 4x$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn và tìm $x$:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[10]{a)}{Rút gọn và tính giá trị biểu thức:\par
+$P = x^2 - 8x + 16$\par
+tại $x = 104$.} & 
+\oBaiTap[10]{b)}{Tìm số thực $x$, biết:\par
+$(x + 3)^2 - (x - 4)(x + 4) = 43$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{a) (1,5 điểm)} Một sân chơi hình vuông có độ dài cạnh ban đầu là $x$ (mét). Người ta mở rộng sân chơi bằng cách tăng mỗi cạnh thêm $2\text{ m}$.\par
+1) Hãy viết biểu thức biểu thị diện tích tăng thêm $\Delta S$ của sân chơi theo $x$.\par
+2) Biết diện tích phần sân tăng thêm là $44\text{ m}^2$, hãy tính độ dài cạnh ban đầu $x$ của sân chơi.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\vspace{1mm}
+\textbf{b) (1,0 điểm)} Chứng minh rằng biểu thức $A = x^2 - 8x + 20$ luôn nhận giá trị dương với mọi số thực $x$. Tìm giá trị nhỏ nhất của biểu thức $A$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Hiệu hai bình phương. Bình phương một tổng hoặc hiệu} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTNHaiDong{1}{Hằng đẳng thức bình phương của một hiệu là:}{$(A-B)^2 = A^2 - 2AB + B^2$}{$(A-B)^2 = A^2 + 2AB + B^2$}{$(A-B)^2 = A^2 - B^2$}{$(A-B)^2 = A^2 - AB + B^2$}
+
+\cauTN{2}{Khai triển hằng đẳng thức $(2x + 3)^2$ ta được kết quả là:}{$4x^2 + 9$}{$4x^2 + 6x + 9$}{$4x^2 + 12x + 9$}{$2x^2 + 12x + 9$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $x^2 - 12x + \dots = (x - 6)^2$.}{$12$}{$24$}{$36$}{$6$}
+
+\cauTN{4}{Tính nhanh giá trị của biểu thức $75^2 - 25^2$ ta được kết quả là:}{$5000$}{$2500$}{$500$}{$1000$}
+
+\cauTN{5}{Khẳng định nào dưới đây là \textbf{sai}?}{$(x + 2y)^2 = x^2 + 4xy + 4y^2$}{$(x - 2y)^2 = x^2 - 4y^2$}{$(x - 2y)(x + 2y) = x^2 - 4y^2$}{$(-x + 2y)^2 = (2y - x)^2$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$A = (x + 5)^2 + (x - 5)^2$} & 
+\oBaiTap[6]{b)}{$B = (2x + 5y)^2 - (2x - 5y)^2$} \\
+\hline
+\oBaiTap[6]{c)}{$C = (2x - 3)^2 - 4x(x - 3)$} & 
+\oBaiTap[6]{d)}{$D = (4x - 1)(4x + 1) - (4x - 2)^2 + 8x$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn và tìm $x$:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[10]{a)}{Rút gọn và tính giá trị biểu thức:\par
+$P = x^2 - 12x + 36$\par
+tại $x = 106$.} & 
+\oBaiTap[10]{b)}{Tìm số thực $x$, biết:\par
+$(x + 5)^2 - (x - 1)(x + 1) = 56$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{a) (1,5 điểm)} Một khu vườn hình vuông có độ dài cạnh ban đầu là $x$ (mét). Người ta mở rộng khu vườn bằng cách tăng mỗi cạnh thêm $4\text{ m}$.\par
+1) Hãy viết biểu thức biểu thị diện tích tăng thêm $\Delta S$ của khu vườn theo $x$.\par
+2) Biết diện tích phần vườn tăng thêm là $80\text{ m}^2$, hãy tính độ dài cạnh ban đầu $x$ của khu vườn.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\vspace{1mm}
+\textbf{b) (1,0 điểm)} Chứng minh rằng biểu thức $A = x^2 - 10x + 29$ luôn nhận giá trị dương với mọi số thực $x$. Tìm giá trị nhỏ nhất của biểu thức $A$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Hiệu hai bình phương. Bình phương một tổng hoặc hiệu} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTNHaiDong{1}{Khai triển hằng đẳng thức hiệu hai bình phương $(2x - y)(2x + y)$ là:}{$4x^2 - y^2$}{$2x^2 - y^2$}{$4x^2 + y^2$}{$4x^2 - 4xy + y^2$}
+
+\cauTN{2}{Khai triển hằng đẳng thức $(3x + 1)^2$ ta được kết quả là:}{$9x^2 + 1$}{$9x^2 + 6x + 1$}{$9x^2 + 3x + 1$}{$3x^2 + 6x + 1$}
+
+\cauTN{3}{Chọn biểu thức thích hợp điền vào chỗ trống: $x^2 - 4x + \dots = (x - 2)^2$.}{$2$}{$4$}{$8$}{$16$}
+
+\cauTN{4}{Tính nhanh giá trị của biểu thức $85^2 - 15^2$ ta được kết quả là:}{$7000$}{$4900$}{$700$}{$1000$}
+
+\cauTN{5}{Khẳng định nào dưới đây là \textbf{sai}?}{$(2a - b)^2 = (b - 2a)^2$}{$4a^2 - b^2 = (2a - b)(2a + b)$}{$(2a + b)^2 = 4a^2 + b^2$}{$(-2a - b)^2 = (2a + b)^2$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Rút gọn các biểu thức sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$A = (x + 2)^2 + (x - 2)^2$} & 
+\oBaiTap[6]{b)}{$B = (3x + 4y)^2 - (3x - 4y)^2$} \\
+\hline
+\oBaiTap[6]{c)}{$C = (3x - 2)^2 - 9x(x - 2)$} & 
+\oBaiTap[6]{d)}{$D = (2x - 1)(2x + 1) - (2x - 3)^2 + 4x$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 8 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 8 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn và tìm $x$:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[10]{a)}{Rút gọn và tính giá trị biểu thức:\par
+$P = x^2 - 6x + 9$\par
+tại $x = 103$.} & 
+\oBaiTap[10]{b)}{Tìm số thực $x$, biết:\par
+$(x + 2)^2 - (x - 3)(x + 3) = 25$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế và nâng cao:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{a) (1,5 điểm)} Một khoảng sân hình vuông có độ dài cạnh ban đầu là $x$ (mét). Người ta mở rộng sân bằng cách tăng mỗi cạnh thêm $3\text{ m}$.\par
+1) Hãy viết biểu thức biểu thị diện tích tăng thêm $\Delta S$ của sân theo $x$.\par
+2) Biết diện tích phần sân tăng thêm là $69\text{ m}^2$, hãy tính độ dài cạnh ban đầu $x$ của sân.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{7}
+\vspace{1mm}
+\textbf{b) (1,0 điểm)} Chứng minh rằng biểu thức $A = x^2 - 4x + 9$ luôn nhận giá trị dương với mọi số thực $x$. Tìm giá trị nhỏ nhất của biểu thức $A$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{6}
+\\ \hline
+\end{tabularx}
+
+\end{document}

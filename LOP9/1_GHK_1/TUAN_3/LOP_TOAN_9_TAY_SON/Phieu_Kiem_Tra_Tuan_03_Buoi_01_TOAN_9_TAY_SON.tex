@@ -1,0 +1,3812 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{0.8mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 4 đáp án dàn hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1.5mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Quốc Bảo} \hfill \textbf{Mã HS:} \texttt{QUOCBAO2803} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Quốc Bảo} \hfill \textbf{Mã HS:} \texttt{QUOCBAO2803} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phan Gia Bảo} \hfill \textbf{Mã HS:} \texttt{GIABAO1909} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phan Gia Bảo} \hfill \textbf{Mã HS:} \texttt{GIABAO1909} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trần Quốc Bảo} \hfill \textbf{Mã HS:} \texttt{QUOCBAO1710} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trần Quốc Bảo} \hfill \textbf{Mã HS:} \texttt{QUOCBAO1710} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thị Minh Châu} \hfill \textbf{Mã HS:} \texttt{MINHCHAU0106} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thị Minh Châu} \hfill \textbf{Mã HS:} \texttt{MINHCHAU0106} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Trần Minh Châu} \hfill \textbf{Mã HS:} \texttt{MINHCHAU0102} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Trần Minh Châu} \hfill \textbf{Mã HS:} \texttt{MINHCHAU0102} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Lê Trần Khánh Chi} \hfill \textbf{Mã HS:} \texttt{KHANHCHI1209} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Lê Trần Khánh Chi} \hfill \textbf{Mã HS:} \texttt{KHANHCHI1209} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thị Ngọc Diệp} \hfill \textbf{Mã HS:} \texttt{NGOCDIEP2212} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thị Ngọc Diệp} \hfill \textbf{Mã HS:} \texttt{NGOCDIEP2212} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phan Hải Đăng} \hfill \textbf{Mã HS:} \texttt{HAIDANG1008} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phan Hải Đăng} \hfill \textbf{Mã HS:} \texttt{HAIDANG1008} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phạm Minh Đức} \hfill \textbf{Mã HS:} \texttt{MINHDUC1811} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phạm Minh Đức} \hfill \textbf{Mã HS:} \texttt{MINHDUC1811} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Bùi Thị Khánh Hoài} \hfill \textbf{Mã HS:} \texttt{KHANHHOAI0201} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Bùi Thị Khánh Hoài} \hfill \textbf{Mã HS:} \texttt{KHANHHOAI0201} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trần Huy Hoàng} \hfill \textbf{Mã HS:} \texttt{HUYHOANG2709} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trần Huy Hoàng} \hfill \textbf{Mã HS:} \texttt{HUYHOANG2709} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Khánh Huyền} \hfill \textbf{Mã HS:} \texttt{KHANHHUYEN1111} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Khánh Huyền} \hfill \textbf{Mã HS:} \texttt{KHANHHUYEN1111} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Võ Gia Huy} \hfill \textbf{Mã HS:} \texttt{GIAHUY1808} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Võ Gia Huy} \hfill \textbf{Mã HS:} \texttt{GIAHUY1808} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Đào Khánh Hưng} \hfill \textbf{Mã HS:} \texttt{KHANHHUNG1504} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Đào Khánh Hưng} \hfill \textbf{Mã HS:} \texttt{KHANHHUNG1504} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Khánh Hưng} \hfill \textbf{Mã HS:} \texttt{KHANHHUNG1705} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Khánh Hưng} \hfill \textbf{Mã HS:} \texttt{KHANHHUNG1705} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phan Duy Khánh} \hfill \textbf{Mã HS:} \texttt{DUYKHANH0110} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phan Duy Khánh} \hfill \textbf{Mã HS:} \texttt{DUYKHANH0110} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Ngọc Linh} \hfill \textbf{Mã HS:} \texttt{NGOCLINH2605} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Ngọc Linh} \hfill \textbf{Mã HS:} \texttt{NGOCLINH2605} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Hồ Hoàng Nhật Long} \hfill \textbf{Mã HS:} \texttt{NHATLONG2408} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Hồ Hoàng Nhật Long} \hfill \textbf{Mã HS:} \texttt{NHATLONG2408} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Bảo Long} \hfill \textbf{Mã HS:} \texttt{BAOLONG2410} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Bảo Long} \hfill \textbf{Mã HS:} \texttt{BAOLONG2410} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trần Bá Đức Long} \hfill \textbf{Mã HS:} \texttt{DUCLONG0703} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trần Bá Đức Long} \hfill \textbf{Mã HS:} \texttt{DUCLONG0703} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Hồ Hà My} \hfill \textbf{Mã HS:} \texttt{HAMY1011} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Hồ Hà My} \hfill \textbf{Mã HS:} \texttt{HAMY1011} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trịnh Minh Ngọc} \hfill \textbf{Mã HS:} \texttt{MINHNGOC2301} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trịnh Minh Ngọc} \hfill \textbf{Mã HS:} \texttt{MINHNGOC2301} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Phúc Nguyên} \hfill \textbf{Mã HS:} \texttt{PHUCNGUYEN2507} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Phúc Nguyên} \hfill \textbf{Mã HS:} \texttt{PHUCNGUYEN2507} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Đặng Minh Phương} \hfill \textbf{Mã HS:} \texttt{MINHPHUONG0312} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Đặng Minh Phương} \hfill \textbf{Mã HS:} \texttt{MINHPHUONG0312} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Hà Khánh Phương} \hfill \textbf{Mã HS:} \texttt{KHANHPHUONG1910} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x - 3)(2x + 4) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x + 2}{x - 5} = 0$ là:}{$x \neq -2$}{$x \neq 5$}{$x > 5$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 1)^2 - 4 = 0$ có tập nghiệm là:}{$S = \{1; -3\}$}{$S = \{3; -1\}$}{$S = \{1\}$}{$S = \{-3\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{2}{x} - \dfrac{3}{x + 1} = 1$ là:}{$x \neq 0$}{$x \neq -1$}{$x \neq 0$ và $x \neq -1$}{$x \neq 1$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{3x - 2}{x + 1} = 2$ là:}{$x = 4$}{$x = 0$}{$x = -4$}{$x = 3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 3)(x + 1) + (x + 1)(x - 4) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 6x + 9 - 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Hà Khánh Phương} \hfill \textbf{Mã HS:} \texttt{KHANHPHUONG1910} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x - 2} = \dfrac{2x + 3}{x + 1}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{16}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô dự định đi từ địa điểm $A$ đến địa điểm $B$ trên quãng đường dài $120\text{ km}$ với vận tốc không đổi. Trên thực tế, sau khi đi được một nửa quãng đường, ô tô đã tăng vận tốc thêm $10\text{ km/h}$ trên nửa quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $18\text{ phút}$ (tức $\dfrac{3}{10}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trần Sang} \hfill \textbf{Mã HS:} \texttt{TRANSANG2311} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(x + 4)(2x - 6) = 0$ là:}{$x = 4$ hoặc $x = -3$}{$x = -4$ hoặc $x = 3$}{$x = -4$ hoặc $x = -3$}{$x = 4$ hoặc $x = 3$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{x - 3}{x + 4} = 0$ là:}{$x \neq 3$}{$x \neq -4$}{$x > -4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 2)^2 - 9 = 0$ có tập nghiệm là:}{$S = \{5; -1\}$}{$S = \{1; -5\}$}{$S = \{5\}$}{$S = \{-1\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{3}{x} + \dfrac{1}{x - 2} = 2$ là:}{$x \neq 0$ và $x \neq 2$}{$x \neq 0$}{$x \neq 2$}{$x \neq -2$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{4x - 1}{x + 2} = 3$ là:}{$x = 7$}{$x = -7$}{$x = 5$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 5) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 8x + 16 - 3(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trần Sang} \hfill \textbf{Mã HS:} \texttt{TRANSANG2311} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x + 1}{x - 1} = \dfrac{2x - 3}{x - 3}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 3}{x - 3} - \dfrac{x - 3}{x + 3} = \dfrac{24}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $150\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại, do đó đã đến $B$ sớm hơn dự định $15\text{ phút}$ (tức $\dfrac{1}{4}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thu Thảo} \hfill \textbf{Mã HS:} \texttt{THUTHAO1409} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(2x - 8)(x + 5) = 0$ là:}{$x = 4$ hoặc $x = -5$}{$x = -4$ hoặc $x = 5$}{$x = 4$ hoặc $x = 5$}{$x = -4$ hoặc $x = -5$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{2x + 3}{x - 4} = 0$ là:}{$x \neq -\dfrac{3}{2}$}{$x \neq 4$}{$x > 4$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x + 3)^2 - 16 = 0$ có tập nghiệm là:}{$S = \{1; -7\}$}{$S = \{7; -1\}$}{$S = \{1\}$}{$S = \{-7\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{1}{x} + \dfrac{2}{x - 3} = 4$ là:}{$x \neq 0$ và $x \neq 3$}{$x \neq 0$}{$x \neq 3$}{$x \neq -3$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{5x - 3}{x + 1} = 3$ là:}{$x = 3$}{$x = -3$}{$x = 2$}{$x = 0$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(2x - 5)(x + 3) + (x + 3)(x - 1) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 10x + 25 - 2(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thu Thảo} \hfill \textbf{Mã HS:} \texttt{THUTHAO1409} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 3}{x - 1} = \dfrac{2x + 1}{x + 2}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 1}{x - 1} - \dfrac{x - 1}{x + 1} = \dfrac{8}{x^2 - 1}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một người đi xe máy từ địa điểm $A$ đến địa điểm $B$ dài $120\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, người đó tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $30\text{ phút}$ (tức $\dfrac{1}{2}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của người đi xe máy.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 01} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Phương trình quy về phương trình bậc nhất một ẩn} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Võ Quang Vinh} \hfill \textbf{Mã HS:} \texttt{QUANGVINH1709} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nghiệm của phương trình $(3x - 9)(x + 2) = 0$ là:}{$x = 3$ hoặc $x = -2$}{$x = -3$ hoặc $x = 2$}{$x = 3$ hoặc $x = 2$}{$x = -3$ hoặc $x = -2$}
+
+\cauTN{2}{Điều kiện xác định của phương trình $\dfrac{3x - 1}{x + 6} = 0$ là:}{$x \neq -6$}{$x \neq \dfrac{1}{3}$}{$x > -6$}{$x \neq 0$}
+
+\cauTN{3}{Phương trình $(x - 1)^2 - 25 = 0$ có tập nghiệm là:}{$S = \{6; -4\}$}{$S = \{-6; 4\}$}{$S = \{6\}$}{$S = \{-4\}$}
+
+\cauTN{4}{Điều kiện xác định của phương trình $\dfrac{5}{x} - \dfrac{2}{x - 4} = 3$ là:}{$x \neq 0$ và $x \neq 4$}{$x \neq 0$}{$x \neq 4$}{$x \neq -4$}
+
+\cauTN{5}{Nghiệm của phương trình $\dfrac{6x - 5}{x + 1} = 4$ là:}{$x = \dfrac{9}{2}$}{$x = -\dfrac{9}{2}$}{$x = 3$}{$x = 1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a)}{$(3x - 4)(x + 1) + (x + 1)(x - 2) = 0$} & 
+\oBaiTap[15]{b)}{$x^2 - 12x + 36 - 5(x - 6) = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 01: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 01} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Võ Quang Vinh} \hfill \textbf{Mã HS:} \texttt{QUANGVINH1709} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các phương trình chứa ẩn ở mẫu sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$\dfrac{2x - 1}{x + 1} = \dfrac{2x + 5}{x + 5}$} & 
+\oBaiTap[14]{b)}{$\dfrac{x + 2}{x - 2} - \dfrac{x - 2}{x + 2} = \dfrac{8}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một ô tô đi từ địa điểm $A$ đến địa điểm $B$ dài $160\text{ km}$ với vận tốc dự định. Sau khi đi được một nửa quãng đường, ô tô tăng vận tốc thêm $10\text{ km/h}$ trên quãng đường còn lại nên đã đến $B$ sớm hơn dự định $24\text{ phút}$ (tức $\dfrac{2}{5}\text{ giờ}$). Hãy tính vận tốc dự định ban đầu của chiếc ô tô đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+
+
+\end{document}

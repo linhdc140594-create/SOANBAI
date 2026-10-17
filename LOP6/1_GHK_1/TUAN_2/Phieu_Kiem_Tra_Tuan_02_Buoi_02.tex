@@ -1,0 +1,319 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+% Giảm lề tối đa tận dụng diện tích giấy (chuẩn máy in laser/photo)
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][7]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 2 - BUỔI 2: MÃ ĐỀ 101 =============
+% #############################################################################
+
+% -------------------- TRANG 1 (MÃ ĐỀ 101): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{BÀI 4: CỘNG VÀ TRỪ SỐ TỰ NHIÊN (TUẦN 2 - BUỔI 2)} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT} \tabularnewline
+\hline
+\rule{0pt}{2.2cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Trong phép tính $a + b = c$, các số $a$ và $b$ được gọi là:}{Số bị trừ}{Hiệu}{Số hạng}{Tổng}
+
+\cauTN{2}{Điều kiện để thực hiện được phép trừ $a - b$ trong tập hợp số tự nhiên là:}{$a < b$}{$a \le b$}{$a \ge b$}{$a > b$}
+
+\cauTN{3}{Tính chất $a + b = b + a$ thể hiện tính chất nào của phép cộng?}{Kết hợp}{Giao hoán}{Phân phối}{Cộng với số 0}
+
+\cauTN{4}{Kết quả của phép tính nhẩm $138 + 262$ là:}{$390$}{$400$}{$410$}{$300$}
+
+\cauTN{5}{Khẳng định nào sau đây là \textbf{sai}?}{$a + 0 = a$}{$a - 0 = a$}{$a - a = 0$}{$0 - a = a$}
+
+\cauTN{6}{Quy tắc nào sau đây biểu diễn phép trừ một tổng: $a - (b + c) = $}{$a - b + c$}{$a - b - c$}{$a + b - c$}{$a + b + c$}
+
+\cauTN{7}{Tìm số tự nhiên $x$, biết $x + 45 = 100$:}{$x = 45$}{$x = 55$}{$x = 65$}{$x = 145$}
+
+\cauTN{8}{Tìm số tự nhiên $x$, biết $120 - x = 35$:}{$x = 85$}{$x = 95$}{$x = 155$}{$x = 75$}
+
+\cauTN{9}{Tổng của $5$ số tự nhiên liên tiếp bắt đầu từ $1$ là:}{$10$}{$15$}{$20$}{$12$}
+
+\cauTN{10}{Biết $(x - 12) + 20 = 50$, giá trị của $x$ là:}{$x = 42$}{$x = 38$}{$x = 18$}{$x = 62$}
+
+\cauTN{11}{Buổi sáng bán $120\text{ kg}$ gạo, buổi chiều bán nhiều hơn sáng $30\text{ kg}$. Cả ngày bán được:}{$150\text{ kg}$}{$270\text{ kg}$}{$240\text{ kg}$}{$300\text{ kg}$}
+
+\cauTN{12}{Tính nhanh tổng $19 + 28 + 81 + 72$ ta được kết quả là:}{$200$}{$190$}{$210$}{$180$}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 101): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). Tính bằng cách hợp lý (nếu có thể):}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$135 + 360 + 65 + 40$} & 
+\oBaiTap[7]{b)}{$472 - (172 + 89)$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$x + 235 = 450 - 65$} & 
+\oBaiTap[7]{b)}{$185 - (x - 15) = 90$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Mẹ Lan đi siêu thị mua: $1$ bao gạo giá $185\,000$ đồng, $2$ vỉ trứng gà giá $65\,000$ đồng và $1$ chai dầu ăn giá $50\,000$ đồng. Mẹ Lan đưa cho nhân viên thu ngân một tờ tiền mệnh giá $500\,000$ đồng. Hỏi nhân viên thu ngân phải trả lại mẹ Lan bao nhiêu tiền thừa?
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 2 - BUỔI 2: MÃ ĐỀ 102 =============
+% #############################################################################
+
+% -------------------- TRANG 3 (MÃ ĐỀ 102): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{BÀI 4: CỘNG VÀ TRỪ SỐ TỰ NHIÊN (TUẦN 2 - BUỔI 2)} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT} \tabularnewline
+\hline
+\rule{0pt}{2.2cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Trong phép tính $m - n = p$, số $n$ được gọi là:}{Số bị trừ}{Số trừ}{Hiệu}{Số hạng}
+
+\cauTN{2}{Phép trừ nào sau đây \textbf{không} thực hiện được trong tập hợp số tự nhiên $\mathbb{N}$?}{$15 - 8$}{$20 - 20$}{$7 - 12$}{$100 - 99$}
+
+\cauTN{3}{Tính chất $(a + b) + c = a + (b + c)$ thể hiện tính chất nào của phép cộng?}{Giao hoán}{Kết hợp}{Cộng với số 0}{Phân phối}
+
+\cauTN{4}{Kết quả của phép tính nhẩm $245 + 155$ là:}{$400$}{$390$}{$410$}{$300$}
+
+\cauTN{5}{Khẳng định nào sau đây là \textbf{đúng}?}{$x - x = x$}{$x + 0 = 0$}{$x - 0 = x$}{$0 - x = x$}
+
+\cauTN{6}{Quy tắc nào sau đây biểu diễn phép trừ một tổng: $m - (n + p) = $}{$m - n + p$}{$m + n - p$}{$m - n - p$}{$m + n + p$}
+
+\cauTN{7}{Tìm số tự nhiên $y$, biết $y + 35 = 90$:}{$y = 45$}{$y = 55$}{$y = 65$}{$y = 125$}
+
+\cauTN{8}{Tìm số tự nhiên $y$, biết $150 - y = 45$:}{$y = 95$}{$y = 105$}{$y = 115$}{$y = 195$}
+
+\cauTN{9}{Tổng của $5$ số tự nhiên liên tiếp bắt đầu từ $0$ là:}{$10$}{$15$}{$5$}{$20$}
+
+\cauTN{10}{Biết $(x - 15) + 30 = 70$, giá trị của $x$ là:}{$x = 55$}{$x = 25$}{$x = 85$}{$x = 45$}
+
+\cauTN{11}{Buổi sáng mượn $110$ cuốn sách, buổi chiều mượn nhiều hơn sáng $25$ cuốn. Cả ngày mượn được:}{$135\text{ cuốn}$}{$245\text{ cuốn}$}{$220\text{ cuốn}$}{$235\text{ cuốn}$}
+
+\cauTN{12}{Tính nhanh tổng $26 + 37 + 74 + 63$ ta được kết quả là:}{$190$}{$200$}{$210$}{$180$}
+
+\newpage
+% -------------------- TRANG 4 (MÃ ĐỀ 102): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). Tính bằng cách hợp lý (nếu có thể):}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$142 + 250 + 58 + 50$} & 
+\oBaiTap[7]{b)}{$563 - (163 + 78)$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$x + 145 = 380 - 75$} & 
+\oBaiTap[7]{b)}{$195 - (x - 25) = 80$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Bác An đi nhà sách mua: $1$ bộ sách giáo khoa giá $195\,000$ đồng, $2$ tập vở ô ly giá $75\,000$ đồng và $1$ hộp bút sáp màu giá $40\,000$ đồng. Bác An đưa cho nhân viên thu ngân một tờ tiền mệnh giá $500\,000$ đồng. Hỏi nhân viên thu ngân phải trả lại bác An bao nhiêu tiền thừa?
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\end{document}

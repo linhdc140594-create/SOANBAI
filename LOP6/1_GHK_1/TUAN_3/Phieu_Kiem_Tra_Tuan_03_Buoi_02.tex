@@ -1,0 +1,575 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{0.8mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 4 đáp án dàn hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1.5mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Lũy thừa với số mũ tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Trong biểu thức lũy thừa $a^n$, số $a$ được gọi là:}{Cơ số}{Số mũ}{Tích}{Thừa số}
+
+\cauTN{2}{Tích $4 \cdot 4 \cdot 4 \cdot 4 \cdot 4$ được viết dưới dạng lũy thừa là:}{$4^5$}{$5^4$}{$4^4$}{$20$}
+
+\cauTN{3}{Giá trị của lũy thừa $3^4$ bằng:}{$81$}{$12$}{$27$}{$64$}
+
+\cauTN{4}{Kết quả phép tính $5^6 : 5^2$ viết dưới dạng một lũy thừa là:}{$5^4$}{$5^3$}{$5^8$}{$1^4$}
+
+\cauTN{5}{Quy ước với số tự nhiên $a \ne 0$, ta có $a^0$ bằng:}{$1$}{$0$}{$a$}{Không xác định}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thu gọn và tính giá trị lũy thừa:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{Viết kết quả dưới dạng một lũy thừa: $2^3 \cdot 2^4 \cdot 2$ và $7^9 : 7^6$.} & 
+\oBaiTap[17]{b)}{Thực hiện phép tính: $B = 3^3 \cdot 4 - 2^4 \cdot 5 + 2026^0$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$2^x = 64$ và $(x - 3)^3 = 8$} & 
+\oBaiTap[14]{b)}{$2 \cdot 3^x + 3^x = 81$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Trong một thí nghiệm khoa học, một tế bào vi khuẩn cứ sau $20$ phút lại phân chia thành $2$ tế bào mới. Giả sử ban đầu trong đĩa nuôi cấy có $1$ tế bào vi khuẩn.\\
+a) Sau $2$ giờ tế bào đó đã trải qua bao nhiêu lần phân chia?\\
+b) Hãy viết số lượng tế bào nhận được sau $2$ giờ dưới dạng một lũy thừa của $2$ và tính giá trị cụ thể của số tế bào đó.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{17}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Lũy thừa với số mũ tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Trong biểu thức lũy thừa $a^n$, số $n$ được gọi là:}{Số mũ}{Cơ số}{Lũy thừa}{Thừa số}
+
+\cauTN{2}{Tích $6 \cdot 6 \cdot 6 \cdot 6$ được viết dưới dạng lũy thừa là:}{$6^4$}{$4^6$}{$6^3$}{$24$}
+
+\cauTN{3}{Giá trị của lũy thừa $2^6$ bằng:}{$64$}{$32$}{$12$}{$128$}
+
+\cauTN{4}{Kết quả phép tính $4^3 \cdot 4^5$ viết dưới dạng một lũy thừa là:}{$4^8$}{$4^{15}$}{$16^8$}{$4^2$}
+
+\cauTN{5}{Viết số $100\,000$ dưới dạng lũy thừa của cơ số $10$ là:}{$10^5$}{$10^4$}{$10^6$}{$5^{10}$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thu gọn và tính giá trị lũy thừa:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{Viết kết quả dưới dạng một lũy thừa: $3^4 \cdot 3^2 \cdot 3$ và $6^8 : 6^5$.} & 
+\oBaiTap[17]{b)}{Thực hiện phép tính: $B = 2^4 \cdot 3 - 5^2 \cdot 1 + 2025^0$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$3^x = 243$ và $(x - 2)^3 = 27$} & 
+\oBaiTap[14]{b)}{$4 \cdot 2^x + 2^x = 160$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một bạn học sinh chia sẻ một bài học bổ ích cho $3$ người bạn trên mạng. Cứ sau $15$ phút, mỗi người nhận lại chia sẻ tiếp cho $3$ người khác, và quá trình cứ tiếp diễn như vậy.\\
+a) Sau $1$ giờ, đã có bao nhiêu vòng chia sẻ bài học diễn ra?\\
+b) Hãy viết số người nhận được bài học ở vòng chia sẻ thứ tư dưới dạng lũy thừa của $3$ và tính giá trị cụ thể.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{17}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Lũy thừa với số mũ tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Với số tự nhiên $a$, quy ước $a^1$ bằng:}{$a$}{$1$}{$0$}{$a^0$}
+
+\cauTN{2}{Tích $7 \cdot 7 \cdot 7$ được viết dưới dạng lũy thừa là:}{$7^3$}{$3^7$}{$21$}{$7^2$}
+
+\cauTN{3}{Giá trị của lũy thừa $5^3$ bằng:}{$125$}{$25$}{$15$}{$625$}
+
+\cauTN{4}{Kết quả phép tính $9^7 : 9^4$ viết dưới dạng một lũy thừa là:}{$9^3$}{$9^{11}$}{$1^3$}{$9^4$}
+
+\cauTN{5}{Khẳng định nào sau đây là \textbf{sai}?}{$2^3 = 6$}{$3^2 = 9$}{$10^2 = 100$}{$4^2 = 16$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thu gọn và tính giá trị lũy thừa:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{Viết kết quả dưới dạng một lũy thừa: $5^2 \cdot 5^3 \cdot 5$ và $8^{10} : 8^7$.} & 
+\oBaiTap[17]{b)}{Thực hiện phép tính: $B = 4^2 \cdot 5 - 2^3 \cdot 6 + 2027^0$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$5^x = 125$ và $(x - 1)^3 = 64$} & 
+\oBaiTap[14]{b)}{$3 \cdot 5^x + 2 \cdot 5^x = 625$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một loài vi khuẩn đặc biệt cứ sau $30$ phút lại phân chia nhân đôi một lần. Ban đầu trong một ống nghiệm có đúng $1$ vi khuẩn.\\
+a) Sau $3$ giờ đã có bao nhiêu lần phân chia nhân đôi xảy ra?\\
+b) Hãy viết số lượng vi khuẩn có trong ống nghiệm sau $3$ giờ dưới dạng một lũy thừa của $2$ và tính giá trị cụ thể.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{17}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Lũy thừa với số mũ tự nhiên} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2.5mm]{0pt}{8mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Khi nhân hai lũy thừa cùng cơ số $a^m \cdot a^n$ ($a \ne 0$), ta:}{Giữ nguyên cơ số và cộng các số mũ}{Nhân các cơ số và cộng các số mũ}{Giữ nguyên cơ số và nhân các số mũ}{Cộng các cơ số và nhân các số mũ}
+
+\cauTN{2}{Tích $10 \cdot 10 \cdot 10 \cdot 10$ được viết dưới dạng lũy thừa là:}{$10^4$}{$4^{10}$}{$40$}{$10^3$}
+
+\cauTN{3}{Giá trị của lũy thừa $4^3$ bằng:}{$64$}{$12$}{$16$}{$256$}
+
+\cauTN{4}{Kết quả phép tính $2^5 \cdot 2^4$ viết dưới dạng một lũy thừa là:}{$2^9$}{$2^{20}$}{$4^9$}{$2^1$}
+
+\cauTN{5}{Số nào sau đây viết được dưới dạng bình phương của một số tự nhiên?}{$49$}{$15$}{$28$}{$32$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thu gọn và tính giá trị lũy thừa:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[17]{a)}{Viết kết quả dưới dạng một lũy thừa: $2^4 \cdot 2^5 \cdot 2$ và $9^8 : 9^5$.} & 
+\oBaiTap[17]{b)}{Thực hiện phép tính: $B = 5^2 \cdot 3 - 3^3 \cdot 2 + 2028^0$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên học sinh:} \dotfill \quad \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$2^x = 128$ và $(x - 4)^3 = 27$} & 
+\oBaiTap[14]{b)}{$5 \cdot 4^x + 4^x = 384$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Để chuẩn bị cuộc thi tìm mật mã, ban tổ chức thiết lập một cây thư mục máy tính gồm $4$ thư mục lớn. Trong mỗi thư mục lớn có $4$ thư mục con. Trong mỗi thư mục con lại chứa $4$ tệp mật mã.\\
+a) Viết tổng số tệp mật mã dưới dạng một lũy thừa của $4$.\\
+b) Tính giá trị cụ thể xem có tất cả bao nhiêu tệp mật mã trong cây thư mục trên.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{17}
+\\ \hline
+\end{tabularx}
+
+\end{document}

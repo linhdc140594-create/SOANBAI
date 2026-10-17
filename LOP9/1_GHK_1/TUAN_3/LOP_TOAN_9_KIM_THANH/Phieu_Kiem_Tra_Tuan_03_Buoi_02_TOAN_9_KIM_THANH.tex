@@ -1,0 +1,2198 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{0.8mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 4 đáp án dàn hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1.5mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trần Hà Anh} \hfill \textbf{Mã HS:} \texttt{HAANH0412} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$2x - 5 = 0$}{$0x + 3 = 0$}{$x^2 - 4 = 0$}{$\dfrac{2}{x} - 1 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x - 12 = 0$ là:}{$-4$}{$4$}{$9$}{$\dfrac{1}{4}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 2)(2x + 6) = 0$ là:}{$S = \{-2; 3\}$}{$S = \{2; 3\}$}{$S = \{2; -3\}$}{$S = \{-2; -3\}$}
+
+\cauTN{4}{Phương trình $x(x - 7) = 0$ có các nghiệm là:}{$x = 7$}{$x = 0$ hoặc $x = -7$}{$x = -7$}{$x = 0$ hoặc $x = 7$}
+
+\cauTN{5}{Phương trình $(m - 2)x + 3 = 0$ là phương trình bậc nhất một ẩn khi:}{$m \neq 2$}{$m = 2$}{$m \neq 0$}{$m \neq -3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 1)(x + 3) + (x + 3)(x - 5) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 2)^2 - 9 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trần Hà Anh} \hfill \textbf{Mã HS:} \texttt{HAANH0412} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x + y = 7 \\ 3x - 2y = 7 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 1) + (y + 1) = 5 \\ 3(x - 1) - 2(y + 1) = 4 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng may một số áo theo kế hoạch. Theo kế hoạch, cả hai tổ phải may tổng cộng $700$ chiếc áo. Khi thực hiện, do cải tiến kỹ thuật, tổ I đã làm vượt mức $15\%$, tổ II làm vượt mức $20\%$ so với kế hoạch, vì vậy cả hai tổ đã may được tất cả $820$ chiếc áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu chiếc áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Hoài Băng} \hfill \textbf{Mã HS:} \texttt{HOAIBANG2012} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$x^2 + 2x = 0$}{$3x + 1 = 0$}{$0x - 7 = 0$}{$\dfrac{1}{x + 2} = 3$}
+
+\cauTN{2}{Nghiệm của phương trình $2x + 10 = 0$ là:}{$5$}{$-5$}{$-8$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 3)(2x - 8) = 0$ là:}{$S = \{3; -4\}$}{$S = \{-3; 4\}$}{$S = \{3; 4\}$}{$S = \{-3; -4\}$}
+
+\cauTN{4}{Phương trình $x(x + 5) = 0$ có các nghiệm là:}{$x = 5$}{$x = -5$}{$x = 0$ hoặc $x = 5$}{$x = 0$ hoặc $x = -5$}
+
+\cauTN{5}{Phương trình $(m + 3)x - 5 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -3$}{$m \neq -3$}{$m \neq 3$}{$m \neq 5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 3)^2 - 16 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Hoài Băng} \hfill \textbf{Mã HS:} \texttt{HOAIBANG2012} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x + y = 8 \\ 2x - 3y = 9 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 3(x - 1) + (y + 2) = 7 \\ 2(x - 1) - 3(y + 2) = -10 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng sản xuất một lô chi tiết máy. Theo kế hoạch, cả hai tổ phải sản xuất tổng cộng $800$ chi tiết máy. Khi thực hiện, tổ I làm vượt mức $10\%$, tổ II làm vượt mức $15\%$ so với kế hoạch, do đó cả hai tổ đã sản xuất được tất cả $900$ chi tiết máy. Hỏi theo kế hoạch ban đầu, mỗi tổ phải sản xuất bao nhiêu chi tiết máy?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Viết Duy} \hfill \textbf{Mã HS:} \texttt{VIETDUY2112} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$0x + 9 = 0$}{$x^2 - 1 = 0$}{$-4x + 8 = 0$}{$\dfrac{3}{x} = 5$}
+
+\cauTN{2}{Nghiệm của phương trình $4x - 20 = 0$ là:}{$-5$}{$16$}{$5$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 5)(3x + 6) = 0$ là:}{$S = \{5; 2\}$}{$S = \{-5; -2\}$}{$S = \{5; -2\}$}{$S = \{-5; 2\}$}
+
+\cauTN{4}{Phương trình $x(x - 9) = 0$ có các nghiệm là:}{$x = -9$}{$x = 0$ hoặc $x = 9$}{$x = 0$ hoặc $x = -9$}{$x = 9$}
+
+\cauTN{5}{Phương trình $(m - 4)x + 1 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = 4$}{$m \neq 0$}{$m \neq 4$}{$m \neq -1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 3)(x + 4) + (x + 4)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 4)^2 - 25 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Viết Duy} \hfill \textbf{Mã HS:} \texttt{VIETDUY2112} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x - y = 5 \\ 3x + 2y = 11 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} (x + 1) + 2(y - 1) = 5 \\ 2(x + 1) - 3(y - 1) = 3 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ may được giao kế hoạch sản xuất tổng cộng $600$ bộ quần áo bảo hộ. Khi thực hiện, tổ I đã làm vượt mức $18\%$, tổ II làm vượt mức $12\%$ so với kế hoạch, do đó cả hai tổ đã may được tất cả $696$ bộ quần áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu bộ quần áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phan Bảo Đan} \hfill \textbf{Mã HS:} \texttt{BAODAN1903} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$\dfrac{5}{x - 1} = 2$}{$x^3 - x = 0$}{$0x - 4 = 0$}{$5x - 10 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x + 15 = 0$ là:}{$5$}{$12$}{$-3$}{$-5$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 4)(3x - 9) = 0$ là:}{$S = \{4; -3\}$}{$S = \{-4; 3\}$}{$S = \{4; 3\}$}{$S = \{-4; -3\}$}
+
+\cauTN{4}{Phương trình $x(x + 6) = 0$ có các nghiệm là:}{$x = 6$}{$x = 0$ hoặc $x = 6$}{$x = -6$}{$x = 0$ hoặc $x = -6$}
+
+\cauTN{5}{Phương trình $(m + 5)x - 2 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -5$}{$m \neq 5$}{$m \neq 0$}{$m \neq -5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 1)(x + 3) + (x + 3)(x - 7) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 5)^2 - 36 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phan Bảo Đan} \hfill \textbf{Mã HS:} \texttt{BAODAN1903} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x - y = 7 \\ 2x + 3y = 12 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 2) + 3(y + 1) = 7 \\ (x - 2) - 2(y + 1) = 0 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai đội công nhân được giao đúc tổng cộng $750$ sản phẩm cơ khí theo kế hoạch. Trong quá trình sản xuất, đội I vượt mức $12\%$, đội II vượt mức $16\%$ so với kế hoạch, vì vậy cả hai đội đã làm được tất cả $854$ sản phẩm. Hỏi theo kế hoạch ban đầu, mỗi đội phải làm bao nhiêu sản phẩm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Vương Tiến Đan} \hfill \textbf{Mã HS:} \texttt{TIENDAN2104} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$2x - 5 = 0$}{$0x + 3 = 0$}{$x^2 - 4 = 0$}{$\dfrac{2}{x} - 1 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x - 12 = 0$ là:}{$-4$}{$4$}{$9$}{$\dfrac{1}{4}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 2)(2x + 6) = 0$ là:}{$S = \{-2; 3\}$}{$S = \{2; 3\}$}{$S = \{2; -3\}$}{$S = \{-2; -3\}$}
+
+\cauTN{4}{Phương trình $x(x - 7) = 0$ có các nghiệm là:}{$x = 7$}{$x = 0$ hoặc $x = -7$}{$x = -7$}{$x = 0$ hoặc $x = 7$}
+
+\cauTN{5}{Phương trình $(m - 2)x + 3 = 0$ là phương trình bậc nhất một ẩn khi:}{$m \neq 2$}{$m = 2$}{$m \neq 0$}{$m \neq -3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 1)(x + 3) + (x + 3)(x - 5) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 2)^2 - 9 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Vương Tiến Đan} \hfill \textbf{Mã HS:} \texttt{TIENDAN2104} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x + y = 7 \\ 3x - 2y = 7 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 1) + (y + 1) = 5 \\ 3(x - 1) - 2(y + 1) = 4 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng may một số áo theo kế hoạch. Theo kế hoạch, cả hai tổ phải may tổng cộng $700$ chiếc áo. Khi thực hiện, do cải tiến kỹ thuật, tổ I đã làm vượt mức $15\%$, tổ II làm vượt mức $20\%$ so với kế hoạch, vì vậy cả hai tổ đã may được tất cả $820$ chiếc áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu chiếc áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phan Việt Hoàng} \hfill \textbf{Mã HS:} \texttt{VIETHOANG1205} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$x^2 + 2x = 0$}{$3x + 1 = 0$}{$0x - 7 = 0$}{$\dfrac{1}{x + 2} = 3$}
+
+\cauTN{2}{Nghiệm của phương trình $2x + 10 = 0$ là:}{$5$}{$-5$}{$-8$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 3)(2x - 8) = 0$ là:}{$S = \{3; -4\}$}{$S = \{-3; 4\}$}{$S = \{3; 4\}$}{$S = \{-3; -4\}$}
+
+\cauTN{4}{Phương trình $x(x + 5) = 0$ có các nghiệm là:}{$x = 5$}{$x = -5$}{$x = 0$ hoặc $x = 5$}{$x = 0$ hoặc $x = -5$}
+
+\cauTN{5}{Phương trình $(m + 3)x - 5 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -3$}{$m \neq -3$}{$m \neq 3$}{$m \neq 5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 3)^2 - 16 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phan Việt Hoàng} \hfill \textbf{Mã HS:} \texttt{VIETHOANG1205} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x + y = 8 \\ 2x - 3y = 9 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 3(x - 1) + (y + 2) = 7 \\ 2(x - 1) - 3(y + 2) = -10 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng sản xuất một lô chi tiết máy. Theo kế hoạch, cả hai tổ phải sản xuất tổng cộng $800$ chi tiết máy. Khi thực hiện, tổ I làm vượt mức $10\%$, tổ II làm vượt mức $15\%$ so với kế hoạch, do đó cả hai tổ đã sản xuất được tất cả $900$ chi tiết máy. Hỏi theo kế hoạch ban đầu, mỗi tổ phải sản xuất bao nhiêu chi tiết máy?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phan Hiếu Khang} \hfill \textbf{Mã HS:} \texttt{HIEUKHANG2306} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$0x + 9 = 0$}{$x^2 - 1 = 0$}{$-4x + 8 = 0$}{$\dfrac{3}{x} = 5$}
+
+\cauTN{2}{Nghiệm của phương trình $4x - 20 = 0$ là:}{$-5$}{$16$}{$5$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 5)(3x + 6) = 0$ là:}{$S = \{5; 2\}$}{$S = \{-5; -2\}$}{$S = \{5; -2\}$}{$S = \{-5; 2\}$}
+
+\cauTN{4}{Phương trình $x(x - 9) = 0$ có các nghiệm là:}{$x = -9$}{$x = 0$ hoặc $x = 9$}{$x = 0$ hoặc $x = -9$}{$x = 9$}
+
+\cauTN{5}{Phương trình $(m - 4)x + 1 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = 4$}{$m \neq 0$}{$m \neq 4$}{$m \neq -1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 3)(x + 4) + (x + 4)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 4)^2 - 25 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phan Hiếu Khang} \hfill \textbf{Mã HS:} \texttt{HIEUKHANG2306} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x - y = 5 \\ 3x + 2y = 11 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} (x + 1) + 2(y - 1) = 5 \\ 2(x + 1) - 3(y - 1) = 3 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ may được giao kế hoạch sản xuất tổng cộng $600$ bộ quần áo bảo hộ. Khi thực hiện, tổ I đã làm vượt mức $18\%$, tổ II làm vượt mức $12\%$ so với kế hoạch, do đó cả hai tổ đã may được tất cả $696$ bộ quần áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu bộ quần áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Lê Nguyên Khoa} \hfill \textbf{Mã HS:} \texttt{NGUYENKHOA2003} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$\dfrac{5}{x - 1} = 2$}{$x^3 - x = 0$}{$0x - 4 = 0$}{$5x - 10 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x + 15 = 0$ là:}{$5$}{$12$}{$-3$}{$-5$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 4)(3x - 9) = 0$ là:}{$S = \{4; -3\}$}{$S = \{-4; 3\}$}{$S = \{4; 3\}$}{$S = \{-4; -3\}$}
+
+\cauTN{4}{Phương trình $x(x + 6) = 0$ có các nghiệm là:}{$x = 6$}{$x = 0$ hoặc $x = 6$}{$x = -6$}{$x = 0$ hoặc $x = -6$}
+
+\cauTN{5}{Phương trình $(m + 5)x - 2 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -5$}{$m \neq 5$}{$m \neq 0$}{$m \neq -5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 1)(x + 3) + (x + 3)(x - 7) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 5)^2 - 36 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Lê Nguyên Khoa} \hfill \textbf{Mã HS:} \texttt{NGUYENKHOA2003} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x - y = 7 \\ 2x + 3y = 12 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 2) + 3(y + 1) = 7 \\ (x - 2) - 2(y + 1) = 0 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai đội công nhân được giao đúc tổng cộng $750$ sản phẩm cơ khí theo kế hoạch. Trong quá trình sản xuất, đội I vượt mức $12\%$, đội II vượt mức $16\%$ so với kế hoạch, vì vậy cả hai đội đã làm được tất cả $854$ sản phẩm. Hỏi theo kế hoạch ban đầu, mỗi đội phải làm bao nhiêu sản phẩm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Lê Bảo Long} \hfill \textbf{Mã HS:} \texttt{BAOLONG2705} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$2x - 5 = 0$}{$0x + 3 = 0$}{$x^2 - 4 = 0$}{$\dfrac{2}{x} - 1 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x - 12 = 0$ là:}{$-4$}{$4$}{$9$}{$\dfrac{1}{4}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 2)(2x + 6) = 0$ là:}{$S = \{-2; 3\}$}{$S = \{2; 3\}$}{$S = \{2; -3\}$}{$S = \{-2; -3\}$}
+
+\cauTN{4}{Phương trình $x(x - 7) = 0$ có các nghiệm là:}{$x = 7$}{$x = 0$ hoặc $x = -7$}{$x = -7$}{$x = 0$ hoặc $x = 7$}
+
+\cauTN{5}{Phương trình $(m - 2)x + 3 = 0$ là phương trình bậc nhất một ẩn khi:}{$m \neq 2$}{$m = 2$}{$m \neq 0$}{$m \neq -3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 1)(x + 3) + (x + 3)(x - 5) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 2)^2 - 9 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Lê Bảo Long} \hfill \textbf{Mã HS:} \texttt{BAOLONG2705} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x + y = 7 \\ 3x - 2y = 7 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 1) + (y + 1) = 5 \\ 3(x - 1) - 2(y + 1) = 4 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng may một số áo theo kế hoạch. Theo kế hoạch, cả hai tổ phải may tổng cộng $700$ chiếc áo. Khi thực hiện, do cải tiến kỹ thuật, tổ I đã làm vượt mức $15\%$, tổ II làm vượt mức $20\%$ so với kế hoạch, vì vậy cả hai tổ đã may được tất cả $820$ chiếc áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu chiếc áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Phạm Hải Long} \hfill \textbf{Mã HS:} \texttt{HAILONG1910} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$x^2 + 2x = 0$}{$3x + 1 = 0$}{$0x - 7 = 0$}{$\dfrac{1}{x + 2} = 3$}
+
+\cauTN{2}{Nghiệm của phương trình $2x + 10 = 0$ là:}{$5$}{$-5$}{$-8$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 3)(2x - 8) = 0$ là:}{$S = \{3; -4\}$}{$S = \{-3; 4\}$}{$S = \{3; 4\}$}{$S = \{-3; -4\}$}
+
+\cauTN{4}{Phương trình $x(x + 5) = 0$ có các nghiệm là:}{$x = 5$}{$x = -5$}{$x = 0$ hoặc $x = 5$}{$x = 0$ hoặc $x = -5$}
+
+\cauTN{5}{Phương trình $(m + 3)x - 5 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -3$}{$m \neq -3$}{$m \neq 3$}{$m \neq 5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 3)^2 - 16 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Phạm Hải Long} \hfill \textbf{Mã HS:} \texttt{HAILONG1910} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x + y = 8 \\ 2x - 3y = 9 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 3(x - 1) + (y + 2) = 7 \\ 2(x - 1) - 3(y + 2) = -10 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng sản xuất một lô chi tiết máy. Theo kế hoạch, cả hai tổ phải sản xuất tổng cộng $800$ chi tiết máy. Khi thực hiện, tổ I làm vượt mức $10\%$, tổ II làm vượt mức $15\%$ so với kế hoạch, do đó cả hai tổ đã sản xuất được tất cả $900$ chi tiết máy. Hỏi theo kế hoạch ban đầu, mỗi tổ phải sản xuất bao nhiêu chi tiết máy?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Trương A Na} \hfill \textbf{Mã HS:} \texttt{ANA1310} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$0x + 9 = 0$}{$x^2 - 1 = 0$}{$-4x + 8 = 0$}{$\dfrac{3}{x} = 5$}
+
+\cauTN{2}{Nghiệm của phương trình $4x - 20 = 0$ là:}{$-5$}{$16$}{$5$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 5)(3x + 6) = 0$ là:}{$S = \{5; 2\}$}{$S = \{-5; -2\}$}{$S = \{5; -2\}$}{$S = \{-5; 2\}$}
+
+\cauTN{4}{Phương trình $x(x - 9) = 0$ có các nghiệm là:}{$x = -9$}{$x = 0$ hoặc $x = 9$}{$x = 0$ hoặc $x = -9$}{$x = 9$}
+
+\cauTN{5}{Phương trình $(m - 4)x + 1 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = 4$}{$m \neq 0$}{$m \neq 4$}{$m \neq -1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 3)(x + 4) + (x + 4)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 4)^2 - 25 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Trương A Na} \hfill \textbf{Mã HS:} \texttt{ANA1310} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x - y = 5 \\ 3x + 2y = 11 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} (x + 1) + 2(y - 1) = 5 \\ 2(x + 1) - 3(y - 1) = 3 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ may được giao kế hoạch sản xuất tổng cộng $600$ bộ quần áo bảo hộ. Khi thực hiện, tổ I đã làm vượt mức $18\%$, tổ II làm vượt mức $12\%$ so với kế hoạch, do đó cả hai tổ đã may được tất cả $696$ bộ quần áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu bộ quần áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thị Yến Như} \hfill \textbf{Mã HS:} \texttt{YENNHU0201} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$\dfrac{5}{x - 1} = 2$}{$x^3 - x = 0$}{$0x - 4 = 0$}{$5x - 10 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x + 15 = 0$ là:}{$5$}{$12$}{$-3$}{$-5$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 4)(3x - 9) = 0$ là:}{$S = \{4; -3\}$}{$S = \{-4; 3\}$}{$S = \{4; 3\}$}{$S = \{-4; -3\}$}
+
+\cauTN{4}{Phương trình $x(x + 6) = 0$ có các nghiệm là:}{$x = 6$}{$x = 0$ hoặc $x = 6$}{$x = -6$}{$x = 0$ hoặc $x = -6$}
+
+\cauTN{5}{Phương trình $(m + 5)x - 2 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -5$}{$m \neq 5$}{$m \neq 0$}{$m \neq -5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 1)(x + 3) + (x + 3)(x - 7) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 5)^2 - 36 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Thị Yến Như} \hfill \textbf{Mã HS:} \texttt{YENNHU0201} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x - y = 7 \\ 2x + 3y = 12 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 2) + 3(y + 1) = 7 \\ (x - 2) - 2(y + 1) = 0 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai đội công nhân được giao đúc tổng cộng $750$ sản phẩm cơ khí theo kế hoạch. Trong quá trình sản xuất, đội I vượt mức $12\%$, đội II vượt mức $16\%$ so với kế hoạch, vì vậy cả hai đội đã làm được tất cả $854$ sản phẩm. Hỏi theo kế hoạch ban đầu, mỗi đội phải làm bao nhiêu sản phẩm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+
+\newpage
+
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT TRƯỚC (TRANG 1) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 101} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Lê Khánh Thy} \hfill \textbf{Mã HS:} \texttt{KHANHTHY1905} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$2x - 5 = 0$}{$0x + 3 = 0$}{$x^2 - 4 = 0$}{$\dfrac{2}{x} - 1 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x - 12 = 0$ là:}{$-4$}{$4$}{$9$}{$\dfrac{1}{4}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 2)(2x + 6) = 0$ là:}{$S = \{-2; 3\}$}{$S = \{2; 3\}$}{$S = \{2; -3\}$}{$S = \{-2; -3\}$}
+
+\cauTN{4}{Phương trình $x(x - 7) = 0$ có các nghiệm là:}{$x = 7$}{$x = 0$ hoặc $x = -7$}{$x = -7$}{$x = 0$ hoặc $x = 7$}
+
+\cauTN{5}{Phương trình $(m - 2)x + 3 = 0$ là phương trình bậc nhất một ẩn khi:}{$m \neq 2$}{$m = 2$}{$m \neq 0$}{$m \neq -3$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 1)(x + 3) + (x + 3)(x - 5) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 2)^2 - 9 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 101 ============
+% ========================= MẶT SAU (TRANG 2) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Lê Khánh Thy} \hfill \textbf{Mã HS:} \texttt{KHANHTHY1905} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x + y = 7 \\ 3x - 2y = 7 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 1) + (y + 1) = 5 \\ 3(x - 1) - 2(y + 1) = 4 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng may một số áo theo kế hoạch. Theo kế hoạch, cả hai tổ phải may tổng cộng $700$ chiếc áo. Khi thực hiện, do cải tiến kỹ thuật, tổ I đã làm vượt mức $15\%$, tổ II làm vượt mức $20\%$ so với kế hoạch, vì vậy cả hai tổ đã may được tất cả $820$ chiếc áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu chiếc áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT TRƯỚC (TRANG 3) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 102} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Trịnh Bảo Trâm} \hfill \textbf{Mã HS:} \texttt{BAOTRAM2411} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$x^2 + 2x = 0$}{$3x + 1 = 0$}{$0x - 7 = 0$}{$\dfrac{1}{x + 2} = 3$}
+
+\cauTN{2}{Nghiệm của phương trình $2x + 10 = 0$ là:}{$5$}{$-5$}{$-8$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 3)(2x - 8) = 0$ là:}{$S = \{3; -4\}$}{$S = \{-3; 4\}$}{$S = \{3; 4\}$}{$S = \{-3; -4\}$}
+
+\cauTN{4}{Phương trình $x(x + 5) = 0$ có các nghiệm là:}{$x = 5$}{$x = -5$}{$x = 0$ hoặc $x = 5$}{$x = 0$ hoặc $x = -5$}
+
+\cauTN{5}{Phương trình $(m + 3)x - 5 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -3$}{$m \neq -3$}{$m \neq 3$}{$m \neq 5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 2)(x + 2) + (x + 2)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 3)^2 - 16 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 102 ============
+% ========================= MẶT SAU (TRANG 4) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Trịnh Bảo Trâm} \hfill \textbf{Mã HS:} \texttt{BAOTRAM2411} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x + y = 8 \\ 2x - 3y = 9 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 3(x - 1) + (y + 2) = 7 \\ 2(x - 1) - 3(y + 2) = -10 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ công nhân cùng sản xuất một lô chi tiết máy. Theo kế hoạch, cả hai tổ phải sản xuất tổng cộng $800$ chi tiết máy. Khi thực hiện, tổ I làm vượt mức $10\%$, tổ II làm vượt mức $15\%$ so với kế hoạch, do đó cả hai tổ đã sản xuất được tất cả $900$ chi tiết máy. Hỏi theo kế hoạch ban đầu, mỗi tổ phải sản xuất bao nhiêu chi tiết máy?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT TRƯỚC (TRANG 5) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 103} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Nhật Vy} \hfill \textbf{Mã HS:} \texttt{NHATVY1311} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$0x + 9 = 0$}{$x^2 - 1 = 0$}{$-4x + 8 = 0$}{$\dfrac{3}{x} = 5$}
+
+\cauTN{2}{Nghiệm của phương trình $4x - 20 = 0$ là:}{$-5$}{$16$}{$5$}{$\dfrac{1}{5}$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x - 5)(3x + 6) = 0$ là:}{$S = \{5; 2\}$}{$S = \{-5; -2\}$}{$S = \{5; -2\}$}{$S = \{-5; 2\}$}
+
+\cauTN{4}{Phương trình $x(x - 9) = 0$ có các nghiệm là:}{$x = -9$}{$x = 0$ hoặc $x = 9$}{$x = 0$ hoặc $x = -9$}{$x = 9$}
+
+\cauTN{5}{Phương trình $(m - 4)x + 1 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = 4$}{$m \neq 0$}{$m \neq 4$}{$m \neq -1$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(2x - 3)(x + 4) + (x + 4)(x - 6) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 4)^2 - 25 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 103 ============
+% ========================= MẶT SAU (TRANG 6) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Nguyễn Nhật Vy} \hfill \textbf{Mã HS:} \texttt{NHATVY1311} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 2x - y = 5 \\ 3x + 2y = 11 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} (x + 1) + 2(y - 1) = 5 \\ 2(x + 1) - 3(y - 1) = 3 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai tổ may được giao kế hoạch sản xuất tổng cộng $600$ bộ quần áo bảo hộ. Khi thực hiện, tổ I đã làm vượt mức $18\%$, tổ II làm vượt mức $12\%$ so với kế hoạch, do đó cả hai tổ đã may được tất cả $696$ bộ quần áo. Hỏi theo kế hoạch ban đầu, mỗi tổ phải may bao nhiêu bộ quần áo?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT TRƯỚC (TRANG 7) ===============================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 03 - BUỔI 02} & \textbf{Mã đề: 104} \\
+\textit{Chủ đề: Ôn tập Phương trình và Hệ phương trình} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \textbf{\large Lê Chí Vỹ} \hfill \textbf{Mã HS:} \texttt{CHIVY1701} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Phương trình nào sau đây là phương trình bậc nhất một ẩn?}{$\dfrac{5}{x - 1} = 2$}{$x^3 - x = 0$}{$0x - 4 = 0$}{$5x - 10 = 0$}
+
+\cauTN{2}{Nghiệm của phương trình $3x + 15 = 0$ là:}{$5$}{$12$}{$-3$}{$-5$}
+
+\cauTN{3}{Tập nghiệm của phương trình $(x + 4)(3x - 9) = 0$ là:}{$S = \{4; -3\}$}{$S = \{-4; 3\}$}{$S = \{4; 3\}$}{$S = \{-4; -3\}$}
+
+\cauTN{4}{Phương trình $x(x + 6) = 0$ có các nghiệm là:}{$x = 6$}{$x = 0$ hoặc $x = 6$}{$x = -6$}{$x = 0$ hoặc $x = -6$}
+
+\cauTN{5}{Phương trình $(m + 5)x - 2 = 0$ là phương trình bậc nhất một ẩn khi:}{$m = -5$}{$m \neq 5$}{$m \neq 0$}{$m \neq -5$}
+
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$(3x - 1)(x + 3) + (x + 3)(x - 7) = 0$} & 
+\oBaiTap[14]{b)}{$(x - 5)^2 - 36 = 0$} \\
+\hline
+\end{tabularx}
+
+
+\newpage
+
+% #############################################################################
+% ========================= TOÁN 9 - TUẦN 03 - BUỔI 02: MÃ ĐỀ 104 ============
+% ========================= MẶT SAU (TRANG 8) =================================
+% #############################################################################
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 03 BUỔI 02} & \textbf{Mã đề: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-2mm]{0pt}{7mm}\textbf{Họ và tên:} \textbf{\large Lê Chí Vỹ} \hfill \textbf{Mã HS:} \texttt{CHIVY1701} \quad \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[11]{a)}{$\begin{cases} 3x - y = 7 \\ 2x + 3y = 12 \end{cases}$} & 
+\oBaiTap[11]{b)}{$\begin{cases} 2(x - 2) + 3(y + 1) = 7 \\ (x - 2) - 2(y + 1) = 0 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế về năng suất và sản phẩm:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Hai đội công nhân được giao đúc tổng cộng $750$ sản phẩm cơ khí theo kế hoạch. Trong quá trình sản xuất, đội I vượt mức $12\%$, đội II vượt mức $16\%$ so với kế hoạch, vì vậy cả hai đội đã làm được tất cả $854$ sản phẩm. Hỏi theo kế hoạch ban đầu, mỗi đội phải làm bao nhiêu sản phẩm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{13}
+\\ \hline
+\end{tabularx}
+
+
+
+\end{document}

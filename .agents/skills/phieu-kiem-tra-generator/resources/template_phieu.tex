@@ -1,0 +1,166 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 20.5pt = ~7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 dòng (4 đáp án, mỗi đáp án 0.25\linewidth)
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+% Câu trắc nghiệm 2 dòng (mỗi dòng 2 đáp án, mỗi đáp án 0.5\linewidth)
+\newcommand{\cauTNB}[6]{% \cauTNB{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% MỖI MÃ ĐỀ GỒM ĐÚNG 2 TRANG: MẶT TRƯỚC (TRANG 1/2) VÀ MẶT SAU (TRANG 2/2)
+% =============================================================================
+
+% ------------------------- MẶT TRƯỚC (TRANG 1/2) -----------------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN <K> - TUẦN <X> - BUỔI <Y>} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: <TÊN BÀI HỌC>} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+% Ô ĐIỂM SỐ & LỜI NHẬN XÉT: BẮT BUỘC \rule{0pt}{1.8cm}
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+% TUYỆT ĐỐI KHÔNG ĐẶT BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+
+% 5 câu trắc nghiệm
+\cauTN{1}{Đề bài...}{A}{B}{C}{D}
+\cauTN{2}{Đề bài...}{A}{B}{C}{D}
+\cauTN{3}{Đề bài...}{A}{B}{C}{D}
+\cauTN{4}{Đề bài...}{A}{B}{C}{D}
+\cauTN{5}{Đề bài...}{A}{B}{C}{D}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+% Tự luận Câu 1: Dùng \oBaiTap[16] cho bảng 1x2 để lấp đầy sát đáy trang 1
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} ax + by = c \\ dx + ey = f \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} mx + ny = p \\ qx + ry = s \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+
+% ------------------------- MẶT SAU (TRANG 2/2) ------------------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN <K> TUẦN <X> BUỔI <Y>} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn các biểu thức phân thức chứa căn sau:}
+\vspace{0.8mm}
+
+% Tự luận Câu 2: Tối thiểu \oBaiTap[14]
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$A = \dots$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne \dots$)}} & 
+\oBaiTap[14]{b)}{$B = \dots$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne \dots$)}} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+% Tự luận Câu 3: Tối thiểu \dongke{15} để lấp đầy sát đáy trang 2
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Đề bài bài toán thực tế...\par
+\vspace{0.5mm}
+$a)$ Câu hỏi ý a...\par
+$b)$ Câu hỏi ý b...\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% LẶP LẠI CHO CÁC MÃ ĐỀ TIẾP THEO (102, 103, 104)
+
+\end{document}

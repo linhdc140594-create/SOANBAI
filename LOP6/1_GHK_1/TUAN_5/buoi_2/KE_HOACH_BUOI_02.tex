@@ -1,0 +1,316 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage{tikz}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[top=1.3cm, bottom=1.3cm, left=1.5cm, right=1.5cm, headheight=18pt]{geometry}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2pt}
+
+% Bảng màu thiết kế chuyên nghiệp
+\definecolor{brandblue}{RGB}{16, 55, 92}
+\definecolor{brandcyan}{RGB}{20, 110, 150}
+\definecolor{accentgreen}{RGB}{20, 110, 60}
+\definecolor{darkgray}{RGB}{45, 55, 72}
+\definecolor{lightgray}{RGB}{246, 248, 252}
+\definecolor{bordergray}{RGB}{205, 218, 230}
+\definecolor{boxheader}{RGB}{235, 243, 252}
+
+% Header và Footer
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.7pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{brandblue}\leaders\hrule height \headrulewidth\hfill}}
+\fancyhead[L]{\small\color{brandblue}\textbf{1\_GHK\_1: KẾ HOẠCH BUỔI 02 (TUẦN 05)}}
+\fancyhead[R]{\small\color{brandcyan}\textbf{Lớp Toán Thầy Lĩnh --- loptoanthaylinh.vn}}
+\fancyfoot[C]{\small\color{darkgray}\textbf{Trang \thepage}}
+
+% Macro tiêu đề phần có viền màu sắc
+\newcommand{\customSection}[1]{%
+  \vspace{1.5mm}%
+  \noindent%
+  \begin{tikzpicture}
+    \node[fill=brandblue, text=white, font=\bfseries\normalsize, rounded corners=2pt, inner xsep=7pt, inner ysep=2.5pt] {#1};
+  \end{tikzpicture}%
+  \vspace{0.8mm}\par%
+}
+
+\newcommand{\customSubSection}[1]{%
+  \vspace{1.2mm}%
+  \noindent{\color{brandcyan}\bfseries\normalsize $\blacktriangleright$ #1}\par\vspace{0.4mm}%
+}
+
+\begin{document}
+
+% ==================== BANNER TIÊU ĐỀ CHÍNH ====================
+\noindent
+\begin{tikzpicture}
+  \node[draw=brandblue, line width=1.2pt, fill=lightgray, rounded corners=4pt, inner sep=6pt, text width=0.97\linewidth] {
+    \begin{center}
+      {\large\bfseries\color{brandblue} HỆ THỐNG PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 --- CHIẾN DỊCH 1\_GHK\_1}\\[0.8mm]
+      {\Large\bfseries\color{brandcyan} KẾ HOẠCH NỘI DUNG VÀ THI CÔNG CHI TIẾT --- BUỔI 02 (TUẦN 05)}\\[1mm]
+      {\normalsize\bfseries Trọng tâm: Dấu hiệu chia hết (2, 3, 5, 9) --- Tìm ƯCLN --- Các hình tứ giác đã học}\\[0.8mm]
+      \small\color{darkgray}
+      \textbf{Đơn vị biên soạn:} Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn) \quad $\bullet$ \quad \textbf{Thời lượng:} 45 phút / 10,0 điểm\\[0.2mm]
+      \textbf{Quy cách xuất bản:} 1 tờ A4 in 2 mặt (8 trang PDF / 4 mã đề hoán vị: 101, 102, 103, 104)
+    \end{center}
+  };
+\end{tikzpicture}
+
+\vspace{0.5mm}
+
+% ==================== PHẦN I ====================
+\customSection{I. MỤC TIÊU SƯ PHẠM VÀ CHUẨN ĐẦU RA (THEO YÊU CẦU ĐIỀU CHỈNH)}
+
+Buổi 02 (Tuần 05) được thiết kế kết hợp đồng bộ giữa \textbf{Số học trọng điểm} và \textbf{Hình học trực quan thực tế}, tạo nền tảng vững chắc cho học sinh trước kỳ thi Giữa Kỳ 1:
+
+\begin{itemize}[leftmargin=1.3em, itemsep=0.8pt]
+  \item \textbf{1. Phần I. Trắc nghiệm (2,5 điểm - 5 câu): Tính chất \& Dấu hiệu chia hết cho 2, 3, 5, 9:}
+  \begin{itemize}[itemsep=0.3pt]
+    \item \textbf{Dấu hiệu tận cùng:} Nhận biết số chia hết cho 2 ($0, 2, 4, 6, 8$) và cho 5 ($0, 5$); số chia hết cho cả 2 và 5 (tận cùng bằng $0$).
+    \item \textbf{Dấu hiệu tổng chữ số:} Nhận biết số chia hết cho 3 và cho 9; định lý then chốt: \textit{Mọi số chia hết cho 9 đều chia hết cho 3}.
+    \item \textbf{Kỹ năng tìm chữ số $*$, $x$:} Điền chữ số thích hợp vào số $\overline{ab*}$ để số đó chia hết cho 3, 9 hoặc cả 2 và 5.
+    \item \textbf{Tính chất chia hết của tổng/hiệu:} Vận dụng $a \ \vdots \ m, b \ \vdots \ m \implies (a \pm b) \ \vdots \ m$ và nhận diện khẳng định đúng/sai.
+  \end{itemize}
+
+  \item \textbf{2. Phần II. Tự luận - Câu 1 (2,5 điểm): Kỹ năng thực hiện phép tính:}
+  \begin{itemize}[itemsep=0.3pt]
+    \item Tính trực tiếp có lũy thừa; Tính nhanh đặt thừa số chung tạo các số tròn trăm ($100$).
+    \item Biểu thức chứa ngoặc vuông $[ ]$ và biểu thức lồng cả 3 tầng ngoặc $\{ \ [ \ ( \ ) \ ] \ \}$.
+  \end{itemize}
+
+  \item \textbf{3. Phần II. Tự luận - Câu 2 (2,5 điểm): Tìm số tự nhiên $x$ (Tích hợp 2 ý ƯCLN):}
+  \begin{itemize}[itemsep=0.3pt]
+    \item \textbf{Ý a (0,625đ):} Phương trình bậc nhất cơ bản có ngoặc đơn: $a + b(x - c) = d$.
+    \item \textbf{Ý b (0,625đ):} Phương trình chứa số mũ lũy thừa: $a \cdot 2^x - b = c$ hoặc $a \cdot 3^x - b = c$.
+    \item \textbf{Ý c (0,625đ) - Dạng ƯCLN 1:} Tìm số tự nhiên $x$ \textbf{lớn nhất} thỏa mãn $a \ \vdots \ x$ và $b \ \vdots \ x$ $\implies x = \text{ƯCLN}(a, b)$.
+    \item \textbf{Ý d (0,625đ) - Dạng ƯCLN 2:} Tìm số tự nhiên $x$ thỏa mãn $a \ \vdots \ x, b \ \vdots \ x$ và có điều kiện khoảng $x > k$ $\implies x \in \text{ƯC}(a, b) = \text{Ư}(\text{ƯCLN}(a, b))$.
+  \end{itemize}
+
+  \item \textbf{4. Phần II. Tự luận - Câu 3 (2,5 điểm): Toán thực tế Hình học Tứ giác (Bài 19):}
+  \begin{itemize}[itemsep=0.3pt]
+    \item Ứng dụng chu vi hình chữ nhật, hình thoi: làm hàng rào lưới thép B40, dây thép gai, viền dải đèn LED, nẹp gioăng cao su, tính chiều dài vật tư chừa lối đi và nhân đơn giá thành tiền.
+  \end{itemize}
+\end{itemize}
+
+\vspace{0.8mm}
+
+% ==================== PHẦN II ====================
+\customSection{II. QUY CÁCH KỸ THUẬT PHIẾU KIỂM TRA (1 TỜ A4 IN 2 MẶT)}
+
+Mỗi mã đề được thiết kế chuẩn mực in vừa vặn trong \textbf{đúng 2 trang A4} (1 tờ 2 mặt):
+\begin{itemize}[leftmargin=1.3em, itemsep=0.8pt]
+  \item \textbf{Mặt trước (Trang 1/2):} Tiêu đề $\to$ Họ tên, Mã HS $\to$ Điểm số, Lời phê $\to$ Bảng trắc nghiệm $\to$ 5 câu Trắc nghiệm (2,5đ) $\to$ Câu 1 Tính toán (2,5đ - 4 ô).
+  \item \textbf{Mặt sau (Trang 2/2):} Câu 2 Tìm $x$ (2,5đ - 4 ý chia 2 cột) $\to$ Câu 3 Toán thực tế (2,5đ) $\to$ \textbf{14 dòng kẻ chấm mờ} (\texttt{\textbackslash dongke\{14\}}).
+  \item Toàn bộ 4 mã đề $101, 102, 103, 104$ được quản lý trong 1 file PDF gồm \textbf{đúng 8 trang in A4 hoàn hảo}.
+\end{itemize}
+
+\newpage
+
+% ==================== PHẦN III ====================
+\customSection{III. MA TRẬN PHÂN PHỐI 4 MÃ ĐỀ HOÁN VỊ TƯƠNG ĐƯƠNG}
+
+\noindent
+\begingroup
+\footnotesize
+\renewcommand{\arraystretch}{1.28}
+\begin{tabularx}{\linewidth}{|c|p{3.1cm}|X|X|X|X|}
+\hline
+\rowcolor{brandblue}
+\color{white}\textbf{Câu} & \color{white}\textbf{Dạng toán} & \color{white}\textbf{Mã đề 101} & \color{white}\textbf{Mã đề 102} & \color{white}\textbf{Mã đề 103} & \color{white}\textbf{Mã đề 104} \\
+\hline
+\rowcolor{lightgray}\multicolumn{6}{|l|}{\textbf{PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 ĐIỂM - MỖI CÂU 0,5 ĐIỂM)}} \\
+\hline
+\textbf{TN 1} & Chia hết cho 2 và 5 & Số $\vdots$ cả 2 và 5 ($230$) & $\vdots \ 2$ nhưng $\not\vdots \ 5$ ($274$) & $\vdots \ 5$ nhưng $\not\vdots \ 2$ ($375$) & Tận cùng $0, 2, 4, 6, 8 \to \vdots \ 2$ \\
+\hline
+\textbf{TN 2} & Chia hết cho 3 và 9 & Số $\vdots \ 3$ ($357$) & Số $\vdots$ cả 3 và 9 ($234$) & Số $\not\vdots \ 3$ ($418$) & Số $\vdots \ 9$ thì $\vdots \ 3$ \\
+\hline
+\textbf{TN 3} & Điền chữ số $*$ & $\overline{35*} \ \vdots \ 9 \implies * = 1$ & $\overline{4*7} \ \vdots \ 3 \implies * = 1$ & $\overline{58*} \ \vdots \ 2, 5 \implies * = 0$ & $\overline{7*5} \ \vdots \ 9 \implies * = 6$ \\
+\hline
+\textbf{TN 4} & Tính chất chia hết tổng & Sai: $(a+b) \ \vdots \ 6 \implies a,b \ \vdots \ 6$ & $14+21+35 \ \vdots \ 7$ & $24+36+x \ \vdots \ 6 \implies x \ \vdots \ 6$ & Hiệu $64 - 24 \ \vdots \ 8$ \\
+\hline
+\textbf{TN 5} & Nhận diện phối hợp & Số $\vdots$ cả 2, 3, 5, 9 ($540$) & Tận cùng 0, tổng $\vdots \ 3 \implies \vdots \ 2, 3, 5$ & Số $\vdots \ 9$ trong dãy ($342$) & Số nhỏ nhất 3 chữ số khác nhau $\vdots \ 2, 5$ ($120$) \\
+\hline
+\rowcolor{lightgray}\multicolumn{6}{|l|}{\textbf{PHẦN II. TỰ LUẬN - CÂU 1. THỰC HIỆN PHÉP TÍNH (2,5 ĐIỂM - MỖI Ý 0,625 ĐIỂM)}} \\
+\hline
+\textbf{C1.a} & Tính trực tiếp + lũy thừa & $38 + 24 \cdot 2 - 2^4 = \mathbf{70}$ & $42 + 25 \cdot 2 - 3^3 = \mathbf{65}$ & $45 + 18 \cdot 3 - 2^5 = \mathbf{67}$ & $56 + 15 \cdot 3 - 3^3 = \mathbf{74}$ \\
+\hline
+\textbf{C1.b} & Đặt thừa số chung ($100$) & $43 \cdot 100 - 800 = \mathbf{3500}$ & $37 \cdot 100 - 700 = \mathbf{3000}$ & $52 \cdot 100 - 1200 = \mathbf{4000}$ & $64 \cdot 100 - 1400 = \mathbf{5000}$ \\
+\hline
+\textbf{C1.c} & Phối hợp ngoặc vuông & $120 : [54 - 34] = \mathbf{6}$ & $140 : [54 - 34] = \mathbf{7}$ & $180 : [60 - 30] = \mathbf{6}$ & $200 : [55 - 30] = \mathbf{8}$ \\
+\hline
+\textbf{C1.d} & Lồng 3 tầng ngoặc & $240 : \{180 - 100\} = \mathbf{3}$ & $320 : \{180 - 100\} = \mathbf{4}$ & $400 : \{210 - 110\} = \mathbf{4}$ & $500 : \{220 - 120\} = \mathbf{5}$ \\
+\hline
+\rowcolor{lightgray}\multicolumn{6}{|l|}{\textbf{PHẦN II. TỰ LUẬN - CÂU 2. TÌM SỐ TỰ NHIÊN $x$ (2,5 ĐIỂM - MỖI Ý 0,625 ĐIỂM)}} \\
+\hline
+\textbf{C2.a} & Bậc 1 có ngoặc đơn & $24 + 3(x - 2) = 45 \implies \mathbf{x = 9}$ & $35 + 4(x - 3) = 67 \implies \mathbf{x = 11}$ & $28 + 5(x - 4) = 73 \implies \mathbf{x = 13}$ & $36 + 6(x - 5) = 84 \implies \mathbf{x = 13}$ \\
+\hline
+\textbf{C2.b} & Phương trình lũy thừa & $2 \cdot 3^x - 14 = 40 \implies \mathbf{x = 3}$ & $3 \cdot 2^x - 7 = 41 \implies \mathbf{x = 4}$ & $5 \cdot 2^x - 12 = 68 \implies \mathbf{x = 4}$ & $4 \cdot 3^x - 22 = 86 \implies \mathbf{x = 3}$ \\
+\hline
+\textbf{C2.c} & \textbf{Tìm $x$ lớn nhất (ƯCLN)} & $48, 72 \ \vdots \ x \implies \mathbf{x = 24}$ & $56, 84 \ \vdots \ x \implies \mathbf{x = 28}$ & $54, 90 \ \vdots \ x \implies \mathbf{x = 18}$ & $64, 96 \ \vdots \ x \implies \mathbf{x = 32}$ \\
+\hline
+\textbf{C2.d} & \textbf{Tìm $x \in \text{ƯC}$ ($x > k$)} & $60, 84 \ \vdots \ x, x > 6 \implies \mathbf{x = 12}$ & $70, 105 \ \vdots \ x, x > 10 \implies \mathbf{x = 35}$ & $45, 75 \ \vdots \ x, x > 5 \implies \mathbf{x = 15}$ & $40, 60 \ \vdots \ x, x > 10 \implies \mathbf{x = 20}$ \\
+\hline
+\rowcolor{lightgray}\multicolumn{6}{|l|}{\textbf{PHẦN II. TỰ LUẬN - CÂU 3. TOÁN THỰC TẾ TỨ GIÁC (2,5 ĐIỂM - MỖI Ý 1,25 ĐIỂM)}} \\
+\hline
+\textbf{C3} & Thực tế Bài 19 & Vườn chữ nhật $18 \times 12\text{ m}$, trừ cổng $2\text{ m}$, rào B40 giá $80\,000\text{ đ/m}$ & Vườn chữ nhật $20 \times 15\text{ m}$, trừ cổng $3\text{ m}$, rào gai giá $60\,000\text{ đ/m}$ & Khung nhôm $160 \times 120\text{ cm}$, nẹp gioăng giá $45\,000\text{ đ/m}$ & Biển thoi cạnh $2{,}5\text{ m}$, viền LED giá $115\,000\text{ đ/m}$ \\
+\hline
+\end{tabularx}
+\endgroup
+
+\newpage
+
+% ==================== PHẦN IV ====================
+\customSection{IV. CHI TIẾT NỘI DUNG VÀ ĐÁP ÁN 4 MÃ ĐỀ}
+
+% -------- MÃ ĐỀ 101 --------
+\customSubSection{1. Chi tiết Mã đề 101}
+\textbf{Phần I. Trắc nghiệm (2,5đ):}
+\textbf{1. B} ($230$) \quad $\bullet$ \quad
+\textbf{2. C} ($357$ có $3+5+7=15 \ \vdots \ 3$) \quad $\bullet$ \quad
+\textbf{3. A} ($* = 1$) \quad $\bullet$ \quad
+\textbf{4. C} (Khẳng định sai: $(a+b) \ \vdots \ 6 \implies a,b \ \vdots \ 6$) \quad $\bullet$ \quad
+\textbf{5. D} ($540$).
+
+\textbf{Phần II. Tự luận (7,5đ):}
+\begin{itemize}[leftmargin=1.3em, itemsep=1.2pt]
+  \item \textbf{Câu 1 (2,5đ):}
+    $a) \ 38 + 24 \cdot 2 - 2^4 = 38 + 48 - 16 = \mathbf{70}$. \quad
+    $b) \ 43 \cdot 78 + 43 \cdot 22 - 800 = 43 \cdot 100 - 800 = \mathbf{3500}$.\\
+    $c) \ 120 : [54 - (50 - 2^3 \cdot 2)] = 120 : [54 - 34] = 120 : 20 = \mathbf{6}$. \quad
+    $d) \ 240 : \{180 - [75 + (8 - 3)^2]\} = 240 : 80 = \mathbf{3}$.
+  \item \textbf{Câu 2 (2,5đ):}
+    $a) \ 24 + 3(x - 2) = 45 \implies 3(x - 2) = 21 \implies x - 2 = 7 \implies \mathbf{x = 9}$.\\
+    $b) \ 2 \cdot 3^x - 14 = 40 \implies 2 \cdot 3^x = 54 \implies 3^x = 27 = 3^3 \implies \mathbf{x = 3}$.\\
+    $c)$ Vì $48 \ \vdots \ x, 72 \ \vdots \ x$ và $x$ lớn nhất nên $x = \text{ƯCLN}(48, 72)$. Ta có $48 = 2^4 \cdot 3; \ 72 = 2^3 \cdot 3^2 \implies \mathbf{x = 2^3 \cdot 3 = 24}$.\\
+    $d)$ Vì $60 \ \vdots \ x, 84 \ \vdots \ x \implies x \in \text{ƯC}(60, 84)$. Có $60 = 2^2 \cdot 3 \cdot 5; \ 84 = 2^2 \cdot 3 \cdot 7 \implies \text{ƯCLN} = 12 \implies \text{ƯC} = \{1, 2, 3, 4, 6, 12\}$. Vì $x > 6 \implies \mathbf{x = 12}$.
+  \item \textbf{Câu 3 (2,5đ):} Bác Hùng có khu đất hình chữ nhật dài $18\text{ m}$, rộng $12\text{ m}$, rào B40 chừa cổng $2\text{ m}$.\\
+    $a)$ Chu vi khu đất: $C = 2 \cdot (18 + 12) = \mathbf{60\text{ m}}$.\\
+    $b)$ Chiều dài lưới thép: $60 - 2 = \mathbf{58\text{ m}}$. Số tiền: $58 \times 80\,000 = \mathbf{4\,640\,000\text{ đồng}}$.
+\end{itemize}
+
+\vspace{1mm}
+
+% -------- MÃ ĐỀ 102 --------
+\customSubSection{2. Chi tiết Mã đề 102}
+\textbf{Phần I. Trắc nghiệm (2,5đ):}
+\textbf{1. B} ($274$) \quad $\bullet$ \quad
+\textbf{2. B} ($234$) \quad $\bullet$ \quad
+\textbf{3. A} ($* = 1$) \quad $\bullet$ \quad
+\textbf{4. A} ($14+21+35 \ \vdots \ 7$) \quad $\bullet$ \quad
+\textbf{5. C} (Chia hết cho cả 2, 3 và 5).
+
+\textbf{Phần II. Tự luận (7,5đ):}
+\begin{itemize}[leftmargin=1.3em, itemsep=1.2pt]
+  \item \textbf{Câu 1 (2,5đ):}
+    $a) \ 42 + 25 \cdot 2 - 3^3 = 42 + 50 - 27 = \mathbf{65}$. \quad
+    $b) \ 37 \cdot 64 + 37 \cdot 36 - 700 = 37 \cdot 100 - 700 = \mathbf{3000}$.\\
+    $c) \ 140 : [54 - (50 - 2^4)] = 140 : [54 - 34] = 140 : 20 = \mathbf{7}$. \quad
+    $d) \ 320 : \{180 - [75 + (11 - 6)^2]\} = 320 : 80 = \mathbf{4}$.
+  \item \textbf{Câu 2 (2,5đ):}
+    $a) \ 35 + 4(x - 3) = 67 \implies 4(x - 3) = 32 \implies x - 3 = 8 \implies \mathbf{x = 11}$.\\
+    $b) \ 3 \cdot 2^x - 7 = 41 \implies 3 \cdot 2^x = 48 \implies 2^x = 16 = 2^4 \implies \mathbf{x = 4}$.\\
+    $c)$ $56 \ \vdots \ x, 84 \ \vdots \ x$ và $x$ lớn nhất $\implies x = \text{ƯCLN}(56, 84) = \mathbf{28}$ (vì $56 = 2^3 \cdot 7; \ 84 = 2^2 \cdot 3 \cdot 7$).\\
+    $d)$ $70 \ \vdots \ x, 105 \ \vdots \ x \implies x \in \text{ƯC}(70, 105)$. Có $\text{ƯCLN}(70, 105) = 35 \implies \text{ƯC} = \{1, 5, 7, 35\}$. Vì $x > 10 \implies \mathbf{x = 35}$.
+  \item \textbf{Câu 3 (2,5đ):} Vườn rau hình chữ nhật dài $20\text{ m}$, rộng $15\text{ m}$, để lối đi $3\text{ m}$, giá thép gai $60\,000\text{ đ/m}$.\\
+    $a)$ Chu vi vườn: $C = 2 \cdot (20 + 15) = \mathbf{70\text{ m}}$.\\
+    $b)$ Chiều dài dây thép gai: $70 - 3 = \mathbf{67\text{ m}}$. Số tiền: $67 \times 60\,000 = \mathbf{4\,020\,000\text{ đồng}}$.
+\end{itemize}
+
+\newpage
+
+% -------- MÃ ĐỀ 103 --------
+\customSubSection{3. Chi tiết Mã đề 103}
+\textbf{Phần I. Trắc nghiệm (2,5đ):}
+\textbf{1. B} ($375$) \quad $\bullet$ \quad
+\textbf{2. D} ($418$) \quad $\bullet$ \quad
+\textbf{3. A} ($* = 0$) \quad $\bullet$ \quad
+\textbf{4. B} ($x \ \vdots \ 6$) \quad $\bullet$ \quad
+\textbf{5. A} ($342$).
+
+\textbf{Phần II. Tự luận (7,5đ):}
+\begin{itemize}[leftmargin=1.3em, itemsep=1.2pt]
+  \item \textbf{Câu 1 (2,5đ):}
+    $a) \ 45 + 18 \cdot 3 - 2^5 = 45 + 54 - 32 = \mathbf{67}$. \quad
+    $b) \ 52 \cdot 73 + 52 \cdot 27 - 1200 = 52 \cdot 100 - 1200 = \mathbf{4000}$.\\
+    $c) \ 180 : [60 - (46 - 2^4)] = 180 : [60 - 30] = 180 : 30 = \mathbf{6}$. \quad
+    $d) \ 400 : \{210 - [85 + (9 - 4)^2]\} = 400 : 100 = \mathbf{4}$.
+  \item \textbf{Câu 2 (2,5đ):}
+    $a) \ 28 + 5(x - 4) = 73 \implies 5(x - 4) = 45 \implies x - 4 = 9 \implies \mathbf{x = 13}$.\\
+    $b) \ 5 \cdot 2^x - 12 = 68 \implies 5 \cdot 2^x = 80 \implies 2^x = 16 = 2^4 \implies \mathbf{x = 4}$.\\
+    $c)$ $54 \ \vdots \ x, 90 \ \vdots \ x$ và $x$ lớn nhất $\implies x = \text{ƯCLN}(54, 90) = \mathbf{18}$ (vì $54 = 2 \cdot 3^3; \ 90 = 2 \cdot 3^2 \cdot 5$).\\
+    $d)$ $45 \ \vdots \ x, 75 \ \vdots \ x \implies x \in \text{ƯC}(45, 75)$. Có $\text{ƯCLN} = 15 \implies \text{ƯC} = \{1, 3, 5, 15\}$. Vì $x > 5 \implies \mathbf{x = 15}$.
+  \item \textbf{Câu 3 (2,5đ):} Khung cửa nhôm kính hình chữ nhật dài $160\text{ cm}$, rộng $120\text{ cm}$, nẹp gioăng giá $45\,000\text{ đ/m}$.\\
+    $a)$ Chu vi khung cửa: $C = 2 \cdot (160 + 120) = 560\text{ cm} = \mathbf{5{,}6\text{ m}}$.\\
+    $b)$ Tổng chi phí: $5{,}6 \times 45\,000 = \mathbf{252\,000\text{ đồng}}$.
+\end{itemize}
+
+\vspace{1mm}
+
+% -------- MÃ ĐỀ 104 --------
+\customSubSection{4. Chi tiết Mã đề 104}
+\textbf{Phần I. Trắc nghiệm (2,5đ):}
+\textbf{1. C} (Chia hết cho 2) \quad $\bullet$ \quad
+\textbf{2. B} (Số chia hết cho 9 thì chia hết cho 3) \quad $\bullet$ \quad
+\textbf{3. C} ($* = 6$) \quad $\bullet$ \quad
+\textbf{4. A} ($64 - 24 \ \vdots \ 8$) \quad $\bullet$ \quad
+\textbf{5. B} ($120$).
+
+\textbf{Phần II. Tự luận (7,5đ):}
+\begin{itemize}[leftmargin=1.3em, itemsep=1.2pt]
+  \item \textbf{Câu 1 (2,5đ):}
+    $a) \ 56 + 15 \cdot 3 - 3^3 = 56 + 45 - 27 = \mathbf{74}$. \quad
+    $b) \ 64 \cdot 82 + 64 \cdot 18 - 1400 = 64 \cdot 100 - 1400 = \mathbf{5000}$.\\
+    $c) \ 200 : [55 - (46 - 2^4)] = 200 : [55 - 30] = 200 : 25 = \mathbf{8}$. \quad
+    $d) \ 500 : \{220 - [95 + (8 - 3)^2]\} = 500 : 100 = \mathbf{5}$.
+  \item \textbf{Câu 2 (2,5đ):}
+    $a) \ 36 + 6(x - 5) = 84 \implies 6(x - 5) = 48 \implies x - 5 = 8 \implies \mathbf{x = 13}$.\\
+    $b) \ 4 \cdot 3^x - 22 = 86 \implies 4 \cdot 3^x = 108 \implies 3^x = 27 = 3^3 \implies \mathbf{x = 3}$.\\
+    $c)$ $64 \ \vdots \ x, 96 \ \vdots \ x$ và $x$ lớn nhất $\implies x = \text{ƯCLN}(64, 96) = \mathbf{32}$ (vì $64 = 2^6; \ 96 = 2^5 \cdot 3$).\\
+    $d)$ $40 \ \vdots \ x, 60 \ \vdots \ x \implies x \in \text{ƯC}(40, 60)$. Có $\text{ƯCLN} = 20 \implies \text{ƯC} = \{1, 2, 4, 5, 10, 20\}$. Vì $x > 10 \implies \mathbf{x = 20}$.
+  \item \textbf{Câu 3 (2,5đ):} Biển hiệu quảng cáo hình thoi có độ dài cạnh $2{,}5\text{ m}$, lắp dải đèn LED giá $115\,000\text{ đ/m}$.\\
+    $a)$ Chu vi biển quảng cáo: $C = 4 \times 2{,}5 = \mathbf{10\text{ m}}$.\\
+    $b)$ Chi phí lắp đèn LED: $10 \times 115\,000 = \mathbf{1\,150\,000\text{ đồng}}$.
+\end{itemize}
+
+\newpage
+
+% ==================== PHẦN V ====================
+\customSection{V. HƯỚNG DẪN CHẤM BAREM CHI TIẾT 2 DẠNG BÀI ƯCLN}
+
+\noindent
+\begin{tikzpicture}
+  \node[draw=brandcyan, fill=boxheader, rounded corners=4pt, inner sep=8pt, text width=0.965\linewidth] {
+    {\large\bfseries\color{brandblue}Quy tắc phân bổ thang điểm chấm thi cho Câu 2 ý c và d (0,625 điểm / ý):}\\[1.5mm]
+    \textbf{1. Ý c: Dạng tìm số tự nhiên $x$ lớn nhất ($x = \text{ƯCLN}(a, b)$):}
+    \begin{itemize}[leftmargin=1.4em, itemsep=1.5pt]
+      \item Lập luận lý do vì $a \ \vdots \ x, b \ \vdots \ x$ và $x$ lớn nhất nên $x = \text{ƯCLN}(a, b)$: \textbf{0,125 điểm}.
+      \item Phân tích chính xác hai số $a, b$ ra thừa số nguyên tố: \textbf{0,250 điểm}.
+      \item Chọn đúng các thừa số nguyên tố chung với số mũ nhỏ nhất và tính ra kết quả $x$: \textbf{0,250 điểm}.
+    \end{itemize}
+    \vspace{0.8mm}
+    \textbf{2. Ý d: Dạng tìm số tự nhiên $x \in \text{ƯC}(a, b)$ thỏa mãn điều kiện $x > k$:}
+    \begin{itemize}[leftmargin=1.4em, itemsep=1.5pt]
+      \item Lập luận lý do vì $a \ \vdots \ x$ và $b \ \vdots \ x$ nên $x \in \text{ƯC}(a, b)$: \textbf{0,125 điểm}.
+      \item Tìm $\text{ƯCLN}(a, b) = d$ thông qua phân tích thừa số nguyên tố: \textbf{0,250 điểm}.
+      \item Liệt kê tập hợp các ước chung $\text{ƯC}(a, b) = \text{Ư}(d)$ và kết hợp điều kiện $x > k$ để kết luận số $x$: \textbf{0,250 điểm}.
+    \end{itemize}
+  };
+\end{tikzpicture}
+
+\vspace{2.5mm}
+
+% ==================== PHẦN VI ====================
+\customSection{VI. LỘ TRÌNH THI CÔNG KỸ THUẬT TIẾP THEO}
+
+\begin{enumerate}[leftmargin=1.4em, itemsep=2.5pt]
+  \item \textbf{Lập trình Generator Python (\texttt{generate\_tuan5\_buoi2.py}):} Tự động nạp dữ liệu chuẩn xác của 4 mã đề đã được phê duyệt ở trên và xuất ra mã nguồn \texttt{Phieu\_Kiem\_Tra\_Tuan\_05\_Buoi\_02.tex}.
+  \item \textbf{Biên dịch LaTeX ra PDF chính thức (\texttt{Phieu\_Kiem\_Tra\_Tuan\_05\_Buoi\_02.pdf}):} Tiến hành biên dịch 2 lần bằng \texttt{pdflatex} để kiểm tra tính toàn vẹn của layout, căn chỉnh dòng kẻ chấm và đảm bảo xuất xưởng đúng 8 trang A4 chuẩn in ấn.
+  \item \textbf{Hoàn thiện Barem chấm thi (\texttt{DAP\_AN\_VA\_THANG\_DIEM\_BUOI\_02.md}):} Cung cấp bảng đáp án trắc nghiệm đối chiếu nhanh cho 4 mã đề và lời giải sư phạm từng bước cho giáo viên chấm bài.
+\end{enumerate}
+
+\end{document}

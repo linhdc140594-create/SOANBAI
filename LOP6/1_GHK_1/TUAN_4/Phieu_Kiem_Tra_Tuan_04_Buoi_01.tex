@@ -1,0 +1,592 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Thứ tự thực hiện các phép tính} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Câu 1.} Thứ tự đúng khi thực hiện phép tính không có dấu ngoặc là:\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{A.} Nhân, chia $\to$ Lũy thừa $\to$ Cộng, trừ}%
+\makebox[0.5\linewidth][l]{\textbf{B.} Lũy thừa $\to$ Nhân, chia $\to$ Cộng, trừ}\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{C.} Lũy thừa $\to$ Cộng, trừ $\to$ Nhân, chia}%
+\makebox[0.5\linewidth][l]{\textbf{D.} Cộng, trừ $\to$ Nhân, chia $\to$ Lũy thừa}\par\vspace{0.8mm}%
+
+\cauTN{2}{Thứ tự đúng khi thực hiện phép tính có các loại dấu ngoặc là:}{$\{ \} \to [ ] \to ( )$}{$[ ] \to ( ) \to \{ \}$}{$( ) \to \{ \} \to [ ]$}{$( ) \to [ ] \to \{ \}$}
+
+\cauTN{3}{Kết quả của phép tính $20 - 2 \cdot 3 + 4$ là:}{$18$}{$58$}{$10$}{$14$}
+
+\cauTN{4}{Giá trị của biểu thức $5 \cdot 2^2 - 18 : 3^2$ là:}{$16$}{$22$}{$18$}{$20$}
+
+\cauTN{5}{Giá trị của biểu thức $100 : [20 + (15 - 10)]$ là:}{$5$}{$4$}{$10$}{$2$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$45 + 15 : 3 - 2^3$} & 
+\oBaiTap[6]{b)}{$36 \cdot 45 + 36 \cdot 55 - 600$} \\
+\hline
+\oBaiTap[6]{c)}{$120 : [54 - (50 - 2^3 \cdot 2)]$} & 
+\oBaiTap[6]{d)}{$160 : \{ 170 - [65 + (8 - 3)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$25 + 3(x - 2) = 40$} & 
+\oBaiTap[6]{b)}{$120 - [45 - (x - 5)] = 85$} \\
+\hline
+\oBaiTap[6]{c)}{$3 \cdot 2^x - 5 = 19$} & 
+\oBaiTap[6]{d)}{$2(x + 7) - 3^3 = 11$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn An đi nhà sách mua: $5$ quyển vở giá $12\,000$ đồng/quyển, $3$ cây bút bi giá $6\,000$ đồng/cây và $1$ hộp bút sáp màu giá $35\,000$ đồng. Nhà sách có chính sách giảm giá $15\,000$ đồng cho hóa đơn mua hàng có tổng giá trị từ $100\,000$ đồng trở lên.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền bạn An phải trả.\par
+\textbf{b) (1,25 điểm)} Tính cụ thể số tiền bạn An phải trả cho nhà sách sau khi được giảm giá.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Thứ tự thực hiện các phép tính} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Câu 1.} Khi biểu thức chỉ có các phép tính cộng và trừ (hoặc chỉ nhân và chia), ta thực hiện:\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{A.} Từ phải sang trái}%
+\makebox[0.5\linewidth][l]{\textbf{B.} Thực hiện phép trừ trước}\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{C.} Từ trái sang phải}%
+\makebox[0.5\linewidth][l]{\textbf{D.} Tùy ý chọn phép tính nào trước}\par\vspace{0.8mm}%
+
+\cauTN{2}{Dấu ngoặc nào được ưu tiên thực hiện đầu tiên trong biểu thức có nhiều ngoặc?}{$( )$}{$[ ]$}{$\{ \}$}{Tùy ý dấu ngoặc}
+
+\cauTN{3}{Kết quả của phép tính $30 - 3 \cdot 4 + 2$ là:}{$110$}{$16$}{$24$}{$20$}
+
+\cauTN{4}{Giá trị của biểu thức $4 \cdot 3^2 - 32 : 2^3$ là:}{$36$}{$32$}{$30$}{$28$}
+
+\cauTN{5}{Giá trị của biểu thức $120 : [30 + (20 - 10)]$ là:}{$4$}{$6$}{$3$}{$5$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$55 + 24 : 4 - 3^2$} & 
+\oBaiTap[6]{b)}{$45 \cdot 37 + 45 \cdot 63 - 500$} \\
+\hline
+\oBaiTap[6]{c)}{$140 : [50 - (40 - 3^2 \cdot 2)]$} & 
+\oBaiTap[6]{d)}{$240 : \{ 200 - [95 + (8 - 3)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$35 + 4(x - 3) = 55$} & 
+\oBaiTap[6]{b)}{$130 - [55 - (x - 8)] = 90$} \\
+\hline
+\oBaiTap[6]{c)}{$2 \cdot 3^x - 5 = 49$} & 
+\oBaiTap[6]{d)}{$3(x + 5) - 2^4 = 23$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn Bình đi nhà sách mua: $4$ cuốn truyện giá $18\,000$ đồng/cuốn, $2$ chiếc compa giá $15\,000$ đồng/chiếc và $1$ thước kẻ giá $8\,000$ đồng. Cửa hàng đang có voucher giảm giá $10\,000$ đồng cho hóa đơn mua hàng từ $100\,000$ đồng trở lên.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền bạn Bình phải trả.\par
+\textbf{b) (1,25 điểm)} Tính cụ thể số tiền bạn Bình phải trả cho nhà sách sau khi dùng voucher.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Thứ tự thực hiện các phép tính} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Câu 1.} Khi thực hiện phép tính trong biểu thức không có dấu ngoặc, thứ tự nào sau đây là đúng?\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{A.} Nhân, chia $\to$ Cộng, trừ $\to$ Lũy thừa}%
+\makebox[0.5\linewidth][l]{\textbf{B.} Cộng, trừ $\to$ Nhân, chia $\to$ Lũy thừa}\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{C.} Lũy thừa $\to$ Cộng, trừ $\to$ Nhân, chia}%
+\makebox[0.5\linewidth][l]{\textbf{D.} Lũy thừa $\to$ Nhân, chia $\to$ Cộng, trừ}\par\vspace{0.8mm}%
+
+\cauTN{2}{Dấu ngoặc nào được thực hiện cuối cùng trong biểu thức có nhiều loại ngoặc?}{$\{ \}$}{$( )$}{$[ ]$}{Tùy ý thứ tự}
+
+\cauTN{3}{Kết quả của phép tính $40 - 4 \cdot 6 + 5$ là:}{$221$}{$21$}{$15$}{$29$}
+
+\cauTN{4}{Giá trị của biểu thức $6 \cdot 2^3 - 27 : 3^2$ là:}{$42$}{$41$}{$45$}{$51$}
+
+\cauTN{5}{Giá trị của biểu thức $150 : [25 + (15 - 10)]$ là:}{$10$}{$6$}{$3$}{$5$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$65 + 18 : 2 - 2^4$} & 
+\oBaiTap[6]{b)}{$54 \cdot 38 + 54 \cdot 62 - 400$} \\
+\hline
+\oBaiTap[6]{c)}{$160 : [58 - (42 - 2^3 \cdot 2)]$} & 
+\oBaiTap[6]{d)}{$320 : \{ 180 - [75 + (11 - 6)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$45 + 3(x - 4) = 66$} & 
+\oBaiTap[6]{b)}{$150 - [60 - (x - 6)] = 110$} \\
+\hline
+\oBaiTap[6]{c)}{$4 \cdot 3^x - 7 = 101$} & 
+\oBaiTap[6]{d)}{$5(x + 4) - 2^5 = 38$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn Cúc đi nhà sách mua: $6$ quyển vở giá $10\,000$ đồng/quyển, $4$ cây bút gel giá $5\,000$ đồng/cây và $1$ bộ compa - êke giá $25\,000$ đồng. Nhà sách có chính sách giảm giá $15\,000$ đồng cho hóa đơn mua hàng có tổng giá trị từ $100\,000$ đồng trở lên.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền bạn Cúc phải trả.\par
+\textbf{b) (1,25 điểm)} Tính cụ thể số tiền bạn Cúc phải trả cho nhà sách sau khi được giảm giá.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Thứ tự thực hiện các phép tính} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Câu 1.} Khi thực hiện phép tính trong một biểu thức có các dấu ngoặc, thứ tự thực hiện đúng là:\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{A.} $( ) \to [ ] \to \{ \}$}%
+\makebox[0.5\linewidth][l]{\textbf{B.} $[ ] \to ( ) \to \{ \}$}\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{C.} $\{ \} \to [ ] \to ( )$}%
+\makebox[0.5\linewidth][l]{\textbf{D.} $( ) \to \{ \} \to [ ]$}\par\vspace{0.8mm}%
+
+\cauTN{2}{Khi biểu thức chỉ có phép tính nhân và chia, ta thực hiện theo thứ tự:}{Từ phải sang trái}{Từ trái sang phải}{Nhân trước, chia sau}{Chia trước, nhân sau}
+
+\cauTN{3}{Kết quả của phép tính $50 - 5 \cdot 4 + 8$ là:}{$188$}{$22$}{$38$}{$42$}
+
+\cauTN{4}{Giá trị của biểu thức $3 \cdot 4^2 - 40 : 2^3$ là:}{$41$}{$43$}{$38$}{$45$}
+
+\cauTN{5}{Giá trị của biểu thức $200 : [35 + (20 - 5)]$ là:}{$4$}{$5$}{$10$}{$8$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$75 + 32 : 8 - 2^3$} & 
+\oBaiTap[6]{b)}{$28 \cdot 64 + 36 \cdot 28 - 800$} \\
+\hline
+\oBaiTap[6]{c)}{$210 : [48 - (50 - 2^4 \cdot 2)]$} & 
+\oBaiTap[6]{d)}{$300 : \{ 220 - [95 + (7 - 2)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$50 + 4(x - 5) = 74$} & 
+\oBaiTap[6]{b)}{$160 - [70 - (x - 10)] = 120$} \\
+\hline
+\oBaiTap[6]{c)}{$5 \cdot 2^x - 12 = 28$} & 
+\oBaiTap[6]{d)}{$4(x + 6) - 5^2 = 27$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn Dũng đi nhà sách mua: $3$ cuốn sổ tay giá $25\,000$ đồng/cuốn, $5$ cây bút bi mực tím giá $6\,000$ đồng/cây và $1$ hộp gôm tẩy giá $15\,000$ đồng. Nhà sách có voucher giảm giá $20\,000$ đồng cho hóa đơn mua hàng có tổng giá trị từ $100\,000$ đồng trở lên.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền bạn Dũng phải trả.\par
+\textbf{b) (1,25 điểm)} Tính cụ thể số tiền bạn Dũng phải trả cho nhà sách sau khi dùng voucher.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\end{document}

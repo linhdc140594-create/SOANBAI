@@ -1,0 +1,319 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+% Giảm lề tối đa tận dụng diện tích giấy (chuẩn máy in laser/photo)
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][7]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 1 - BUỔI 2: MÃ ĐỀ 101 =============
+% #############################################################################
+
+% -------------------- TRANG 1 (MÃ ĐỀ 101): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{BÀI 2: CÁCH GHI SỐ TỰ NHIÊN (TUẦN 1 - BUỔI 2)} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT} \tabularnewline
+\hline
+\rule{0pt}{2.2cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Số La Mã $\text{XIV}$ có giá trị trong hệ thập phân là:}{$16$}{$14$}{$15$}{$19$}
+
+\cauTN{2}{Số $29$ được biểu diễn bằng chữ số La Mã là:}{$\text{XXIX}$}{$\text{XXVII}$}{$\text{XXXI}$}{$\text{XIX}$}
+
+\cauTN{3}{Trong số $54\,823$, chữ số 4 có giá trị là:}{$400$}{$40$}{$40\,000$}{$4\,000$}
+
+\cauTN{4}{Biểu diễn số $\overline{abc}$ trong hệ thập phân là:}{$a + b + c$}{$10a + b + c$}{$100a + 10b + c$}{$1000a + 100b + c$}
+
+\cauTN{5}{Số liền trước của số $1\,000$ là:}{$1\,001$}{$999$}{$990$}{$900$}
+
+\cauTN{6}{Số tự nhiên nhỏ nhất có ba chữ số khác nhau là:}{$100$}{$102$}{$123$}{$101$}
+
+\cauTN{7}{Dùng ba chữ số $0; 3; 5$ viết được bao nhiêu số tự nhiên có hai chữ số khác nhau?}{$4$}{$6$}{$3$}{$5$}
+
+\cauTN{8}{Số La Mã $\text{XXVI}$ có giá trị là:}{$24$}{$26$}{$27$}{$29$}
+
+\cauTN{9}{Số liền sau của số tự nhiên lớn nhất có 3 chữ số là:}{$1\,000$}{$998$}{$1\,001$}{$999$}
+
+\cauTN{10}{Biểu diễn số $\overline{ab}$ trong hệ thập phân là:}{$a + b$}{$10a + b$}{$a \cdot b$}{$10b + a$}
+
+\cauTN{11}{Số tự nhiên lớn nhất có bốn chữ số khác nhau là:}{$9\,999$}{$9\,876$}{$9\,867$}{$9\,786$}
+
+\cauTN{12}{Đồng hồ số La Mã có kim ngắn chỉ vào số $\text{IX}$ nghĩa là lúc:}{$11\text{ giờ}$}{$9\text{ giờ}$}{$4\text{ giờ}$}{$6\text{ giờ}$}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 101): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). Chuyển đổi hệ ghi số:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Viết các số sau bằng chữ số La Mã: $16; 24; 28$. Viết giá trị hệ thập phân của các số La Mã: $\text{XVIII}; \text{XXV}; \text{XXIX}$.} & 
+\oBaiTap[7]{b)}{Từ các chữ số $0; 2; 5; 7$, hãy viết số tự nhiên lớn nhất và số tự nhiên nhỏ nhất có bốn chữ số khác nhau.} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Cấu tạo số và Tìm số:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Phân tích các số sau thành tổng giá trị các chữ số của nó: $3\,746$ và $\overline{a8b}$.} & 
+\oBaiTap[7]{b)}{Tìm một số tự nhiên có hai chữ số, biết rằng nếu viết thêm chữ số $2$ vào bên trái số đó thì được số mới gấp $6$ lần số ban đầu.} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Để đánh số trang một cuốn sách dày $120$ trang (từ trang $1$ đến trang $120$), người ta phải dùng tất cả bao nhiêu chữ số?
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 1 - BUỔI 2: MÃ ĐỀ 102 =============
+% #############################################################################
+
+% -------------------- TRANG 3 (MÃ ĐỀ 102): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{BÀI 2: CÁCH GHI SỐ TỰ NHIÊN (TUẦN 1 - BUỔI 2)} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT} \tabularnewline
+\hline
+\rule{0pt}{2.2cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Số La Mã $\text{XVI}$ có giá trị trong hệ thập phân là:}{$14$}{$16$}{$17$}{$19$}
+
+\cauTN{2}{Số $24$ được biểu diễn bằng chữ số La Mã là:}{$\text{XXVI}$}{$\text{XXIV}$}{$\text{XXIX}$}{$\text{XIV}$}
+
+\cauTN{3}{Trong số $73\,561$, chữ số 3 có giá trị là:}{$300$}{$3\,000$}{$30\,000$}{$30$}
+
+\cauTN{4}{Biểu diễn số $\overline{xy}$ trong hệ thập phân là:}{$x + y$}{$x \cdot y$}{$10x + y$}{$10y + x$}
+
+\cauTN{5}{Số liền sau của số $999$ là:}{$998$}{$1\,000$}{$1\,001$}{$1\,100$}
+
+\cauTN{6}{Số tự nhiên lớn nhất có ba chữ số khác nhau là:}{$999$}{$987$}{$978$}{$897$}
+
+\cauTN{7}{Dùng ba chữ số $0; 2; 7$ viết được bao nhiêu số tự nhiên có hai chữ số khác nhau?}{$4$}{$6$}{$3$}{$5$}
+
+\cauTN{8}{Số La Mã $\text{XIX}$ có giá trị là:}{$21$}{$19$}{$18$}{$11$}
+
+\cauTN{9}{Số liền trước của số tự nhiên nhỏ nhất có 3 chữ số là:}{$99$}{$100$}{$101$}{$90$}
+
+\cauTN{10}{Biểu diễn số $\overline{mnp}$ trong hệ thập phân là:}{$100m + 10n + p$}{$m + n + p$}{$10m + n + p$}{$1000m + n + p$}
+
+\cauTN{11}{Số tự nhiên nhỏ nhất có bốn chữ số khác nhau là:}{$1\,000$}{$1\,023$}{$1\,234$}{$1\,012$}
+
+\cauTN{12}{Đồng hồ số La Mã có kim ngắn chỉ vào số $\text{IV}$ nghĩa là lúc:}{$6\text{ giờ}$}{$4\text{ giờ}$}{$9\text{ giờ}$}{$5\text{ giờ}$}
+
+\newpage
+% -------------------- TRANG 4 (MÃ ĐỀ 102): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). Chuyển đổi hệ ghi số:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Viết các số sau bằng chữ số La Mã: $17; 26; 29$. Viết giá trị hệ thập phân của các số La Mã: $\text{XIV}; \text{XXIV}; \text{XXVII}$.} & 
+\oBaiTap[7]{b)}{Từ các chữ số $0; 1; 4; 8$, hãy viết số tự nhiên lớn nhất và số tự nhiên nhỏ nhất có bốn chữ số khác nhau.} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Cấu tạo số và Tìm số:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Phân tích các số sau thành tổng giá trị các chữ số của nó: $4\,582$ và $\overline{x5y}$.} & 
+\oBaiTap[7]{b)}{Tìm một số tự nhiên có hai chữ số, biết rằng nếu viết thêm chữ số $3$ vào bên trái số đó thì được số mới gấp $5$ lần số ban đầu.} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Để đánh số trang một cuốn truyện dày $115$ trang (từ trang $1$ đến trang $115$), người ta phải dùng tất cả bao nhiêu chữ số?
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\end{document}

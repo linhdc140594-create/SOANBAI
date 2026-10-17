@@ -1,0 +1,567 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 25 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Bài 32: Điểm và đường thẳng} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nội dung câu hỏi trắc nghiệm số 1 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{2}{Nội dung câu hỏi trắc nghiệm số 2 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{3}{Nội dung câu hỏi trắc nghiệm số 3 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{4}{Nội dung câu hỏi trắc nghiệm số 4 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{5}{Nội dung câu hỏi trắc nghiệm số 5 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 25 BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Nội dung bài toán thực tế đang được cập nhật. Học sinh tóm tắt đề và trình bày bài giải chi tiết bên dưới.\par
+\textbf{a) (1,25 điểm)} Câu hỏi ý a...\par
+\textbf{b) (1,25 điểm)} Câu hỏi ý b...\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 25 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Bài 32: Điểm và đường thẳng} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nội dung câu hỏi trắc nghiệm số 1 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{2}{Nội dung câu hỏi trắc nghiệm số 2 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{3}{Nội dung câu hỏi trắc nghiệm số 3 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{4}{Nội dung câu hỏi trắc nghiệm số 4 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{5}{Nội dung câu hỏi trắc nghiệm số 5 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 25 BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Nội dung bài toán thực tế đang được cập nhật. Học sinh tóm tắt đề và trình bày bài giải chi tiết bên dưới.\par
+\textbf{a) (1,25 điểm)} Câu hỏi ý a...\par
+\textbf{b) (1,25 điểm)} Câu hỏi ý b...\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 25 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Bài 32: Điểm và đường thẳng} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nội dung câu hỏi trắc nghiệm số 1 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{2}{Nội dung câu hỏi trắc nghiệm số 2 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{3}{Nội dung câu hỏi trắc nghiệm số 3 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{4}{Nội dung câu hỏi trắc nghiệm số 4 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{5}{Nội dung câu hỏi trắc nghiệm số 5 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 25 BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Nội dung bài toán thực tế đang được cập nhật. Học sinh tóm tắt đề và trình bày bài giải chi tiết bên dưới.\par
+\textbf{a) (1,25 điểm)} Câu hỏi ý a...\par
+\textbf{b) (1,25 điểm)} Câu hỏi ý b...\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 25 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Bài 32: Điểm và đường thẳng} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Nội dung câu hỏi trắc nghiệm số 1 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{2}{Nội dung câu hỏi trắc nghiệm số 2 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{3}{Nội dung câu hỏi trắc nghiệm số 3 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{4}{Nội dung câu hỏi trắc nghiệm số 4 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\cauTN{5}{Nội dung câu hỏi trắc nghiệm số 5 đang được biên soạn...}{Phương án A}{Phương án B}{Phương án C}{Phương án D}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 25 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 25 BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{Nội dung ý a đang được cập nhật} & 
+\oBaiTap[6]{b)}{Nội dung ý b đang được cập nhật} \\
+\hline
+\oBaiTap[6]{c)}{Nội dung ý c đang được cập nhật} & 
+\oBaiTap[6]{d)}{Nội dung ý d đang được cập nhật} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Nội dung bài toán thực tế đang được cập nhật. Học sinh tóm tắt đề và trình bày bài giải chi tiết bên dưới.\par
+\textbf{a) (1,25 điểm)} Câu hỏi ý a...\par
+\textbf{b) (1,25 điểm)} Câu hỏi ý b...\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\end{document}

@@ -1,0 +1,566 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.5cm, bottom=0.5cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 6.7mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.0pt%
+  \vspace{1.2mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][8]{%
+  \vspace{1.2mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Số vô tỉ. Căn bậc hai số học} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Số nào sau đây là số vô tỉ?}{$\sqrt{2}$}{$\dfrac{2}{3}$}{$-3{,}5$}{$\sqrt{4}$}
+
+\cauTN{2}{Căn bậc hai số học của $49$ là:}{$-7$}{$7$}{$\pm 7$}{$2401$}
+
+\cauTN{3}{Khẳng định nào sau đây là \textbf{đúng}?}{$\sqrt{9} = \pm 3$}{$\sqrt{9} = -3$}{$\sqrt{9} = 3$}{$\sqrt{-9} = 3$}
+
+\cauTN{4}{Tìm số thực không âm $x$, biết $\sqrt{x} = 5$:}{$x = \sqrt{5}$}{$x = 10$}{$x = 25$}{$x = \pm 25$}
+
+\cauTN{5}{So sánh $\sqrt{15}$ và $4$:}{$\sqrt{15} < 4$}{$\sqrt{15} > 4$}{$\sqrt{15} = 4$}{Không so sánh được}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $\sqrt{25} + \sqrt{81} - \sqrt{0{,}04} \cdot \sqrt{100}$} & 
+\oBaiTap[7]{b)}{Tính: $3 \cdot \sqrt{\dfrac{16}{9}} - 2 \cdot \sqrt{0{,}25} + (\sqrt{5})^2$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $\dfrac{2}{3} \cdot \sqrt{36} - \dfrac{3}{4} \cdot \sqrt{\dfrac{16}{9}} + \sqrt{0{,}49}$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{\sqrt{64} - 2 \cdot \sqrt{9}}{\sqrt{0{,}09} + 0{,}2}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$\sqrt{x} = \dfrac{3}{2}$} & 
+\oBaiTap[7]{b)}{$2 \cdot \sqrt{x} - 3 = 7$} \\
+\hline
+\oBaiTap[7]{c)}{$x^2 = \dfrac{25}{49}$} & 
+\oBaiTap[7]{d)}{$\sqrt{2x + 1} - 1 = 4$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bác An có một mảnh đất trồng rau hình vuông có diện tích là $144\text{ m}^2$. Bác dự định làm hàng rào lưới thép bao quanh mảnh đất đó, chỉ để lại một cổng ra vào rộng $2\text{ m}$. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Tính độ dài một cạnh của mảnh đất hình vuông đó. \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Tính tổng chiều dài lưới thép bác An cần mua để làm hàng rào. Biết mỗi mét lưới thép có giá $65\,000$ đồng, hỏi bác An phải trả bao nhiêu tiền mua lưới thép? \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Số vô tỉ. Căn bậc hai số học} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Số nào sau đây \textbf{không phải} là số vô tỉ?}{$\sqrt{3}$}{$\pi$}{$\sqrt{9}$}{$\sqrt{7}$}
+
+\cauTN{2}{Căn bậc hai số học của $64$ là:}{$8$}{$-8$}{$\pm 8$}{$16$}
+
+\cauTN{3}{Khẳng định nào sau đây là \textbf{sai}?}{$\sqrt{16} = 4$}{$\sqrt{0} = 0$}{$\sqrt{(-4)^2} = 4$}{$\sqrt{16} = -4$}
+
+\cauTN{4}{Tìm số thực không âm $x$, biết $\sqrt{x} = 6$:}{$x = 12$}{$x = 36$}{$x = \sqrt{6}$}{$x = \pm 36$}
+
+\cauTN{5}{So sánh $\sqrt{10}$ và $3$:}{$\sqrt{10} < 3$}{$\sqrt{10} = 3$}{$\sqrt{10} > 3$}{Không so sánh được}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $\sqrt{36} + \sqrt{121} - \sqrt{0{,}09} \cdot \sqrt{400}$} & 
+\oBaiTap[7]{b)}{Tính: $4 \cdot \sqrt{\dfrac{25}{16}} - 3 \cdot \sqrt{0{,}36} + (\sqrt{7})^2$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $\dfrac{1}{2} \cdot \sqrt{49} - \dfrac{2}{5} \cdot \sqrt{\dfrac{25}{4}} + \sqrt{0{,}81}$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{\sqrt{100} - 3 \cdot \sqrt{4}}{\sqrt{0{,}25} + 0{,}5}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$\sqrt{x} = \dfrac{4}{5}$} & 
+\oBaiTap[7]{b)}{$2 \cdot \sqrt{x} - 1 = 9$} \\
+\hline
+\oBaiTap[7]{c)}{$x^2 = \dfrac{16}{81}$} & 
+\oBaiTap[7]{d)}{$\sqrt{3x + 1} - 2 = 3$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bác Bình có một mảnh đất hình vuông có diện tích $196\text{ m}^2$. Bác dự định làm một hàng rào bằng lưới thép bao quanh mảnh đất đó, chỉ chừa lại một lối đi vào rộng $2\text{ m}$. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Tính độ dài một cạnh của mảnh đất hình vuông đó. \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Tính tổng chiều dài lưới thép bác Bình cần mua để rào xung quanh mảnh đất. Biết giá mỗi mét lưới thép là $60\,000$ đồng, tính tổng số tiền bác Bình cần chuẩn bị. \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Số vô tỉ. Căn bậc hai số học} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Số nào sau đây là số vô tỉ?}{$\sqrt{5}$}{$\sqrt{16}$}{$\dfrac{3}{7}$}{$-0{,}75$}
+
+\cauTN{2}{Căn bậc hai số học của $81$ là:}{$-9$}{$\pm 9$}{$9$}{$6561$}
+
+\cauTN{3}{Khẳng định nào sau đây là \textbf{đúng}?}{$\sqrt{25} = 5$}{$\sqrt{25} = -5$}{$\sqrt{25} = \pm 5$}{$\sqrt{-25} = 5$}
+
+\cauTN{4}{Tìm số thực không âm $x$, biết $\sqrt{x} = 7$:}{$x = 14$}{$x = 49$}{$x = \sqrt{7}$}{$x = \pm 49$}
+
+\cauTN{5}{So sánh $\sqrt{24}$ và $5$:}{$\sqrt{24} < 5$}{$\sqrt{24} > 5$}{$\sqrt{24} = 5$}{Không so sánh được}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $\sqrt{64} + \sqrt{169} - \sqrt{0{,}16} \cdot \sqrt{9}$} & 
+\oBaiTap[7]{b)}{Tính: $5 \cdot \sqrt{\dfrac{36}{25}} - 4 \cdot \sqrt{0{,}49} + (\sqrt{6})^2$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $\dfrac{3}{8} \cdot \sqrt{64} - \dfrac{5}{3} \cdot \sqrt{\dfrac{9}{25}} + \sqrt{1{,}96}$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{\sqrt{121} - 2 \cdot \sqrt{16}}{\sqrt{0{,}36} + 0{,}4}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$\sqrt{x} = \dfrac{5}{6}$} & 
+\oBaiTap[7]{b)}{$4 \cdot \sqrt{x} - 3 = 17$} \\
+\hline
+\oBaiTap[7]{c)}{$x^2 = \dfrac{36}{121}$} & 
+\oBaiTap[7]{d)}{$\sqrt{2x + 7} - 1 = 4$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bác Cường có một khu vườn hình vuông có diện tích $225\text{ m}^2$. Bác dự định làm hàng rào lưới thép bao quanh khu vườn, chỉ chừa lại một cổng ra vào rộng $3\text{ m}$. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Tính độ dài một cạnh của khu vườn hình vuông đó. \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Tính tổng chiều dài lưới thép bác Cường cần mua để rào xung quanh khu vườn. Biết giá mỗi mét lưới thép là $70\,000$ đồng, tính tổng số tiền bác Cường cần chuẩn bị. \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\newpage
+
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Số vô tỉ. Căn bậc hai số học} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.0cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Số nào sau đây \textbf{không phải} là số vô tỉ?}{$\sqrt{7}$}{$\sqrt{25}$}{$\sqrt{10}$}{$\pi$}
+
+\cauTN{2}{Căn bậc hai số học của $100$ là:}{$10$}{$-10$}{$\pm 10$}{$10000$}
+
+\cauTN{3}{Khẳng định nào sau đây là \textbf{đúng}?}{$\sqrt{36} = 6$}{$\sqrt{36} = -6$}{$\sqrt{-36} = 6$}{$\sqrt{36} = \pm 6$}
+
+\cauTN{4}{Tìm số thực không âm $x$, biết $\sqrt{x} = 8$:}{$x = 16$}{$x = \sqrt{8}$}{$x = 64$}{$x = \pm 64$}
+
+\cauTN{5}{So sánh $\sqrt{35}$ và $6$:}{$\sqrt{35} < 6$}{$\sqrt{35} > 6$}{$\sqrt{35} = 6$}{Không so sánh được}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 2 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tính: $\sqrt{81} + \sqrt{196} - \sqrt{0{,}25} \cdot \sqrt{16}$} & 
+\oBaiTap[7]{b)}{Tính: $6 \cdot \sqrt{\dfrac{49}{36}} - 5 \cdot \sqrt{0{,}64} + (\sqrt{8})^2$} \\
+\hline
+\oBaiTap[7]{c)}{Tính: $\dfrac{5}{6} \cdot \sqrt{36} - \dfrac{7}{2} \cdot \sqrt{\dfrac{4}{49}} + \sqrt{2{,}25}$} & 
+\oBaiTap[7]{d)}{Tính: $\dfrac{\sqrt{144} - 3 \cdot \sqrt{9}}{\sqrt{0{,}49} + 0{,}3}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 7 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 7 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$\sqrt{x} = \dfrac{2}{3}$} & 
+\oBaiTap[7]{b)}{$5 \cdot \sqrt{x} - 4 = 16$} \\
+\hline
+\oBaiTap[7]{c)}{$x^2 = \dfrac{9}{64}$} & 
+\oBaiTap[7]{d)}{$\sqrt{4x + 1} - 2 = 5$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 4 (2,5 điểm). Bài toán thực tế:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+Bác Dũng có một sân chơi hình vuông có diện tích $256\text{ m}^2$. Bác dự định làm một hàng rào bảo vệ bao quanh sân chơi, chỉ chừa lại một lối đi rộng $3\text{ m}$. \par\vspace{0.8mm}
+\textbf{a) (1,25 điểm)} Tính độ dài một cạnh của sân chơi hình vuông đó. \par\vspace{0.8mm}
+\textbf{b) (1,25 điểm)} Tính tổng chiều dài hàng rào bác Dũng cần thi công. Biết chi phí mỗi mét hàng rào là $50\,000$ đồng, tính tổng số tiền bác Dũng cần chuẩn bị. \par\vspace{1.5mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\
+\hline
+\end{tabularx}
+
+\end{document}

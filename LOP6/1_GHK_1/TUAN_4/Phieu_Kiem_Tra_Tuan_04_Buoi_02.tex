@@ -1,0 +1,580 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Tổng ôn tập Chương I (Số tự nhiên)} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Câu 1.} Cho tập hợp $A = \{x \in \mathbb{N} \mid 10 < x \le 16 \text{ và } x \text{ là số chẵn}\}$. Viết tập hợp $A$ bằng cách liệt kê phần tử:\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{A.} $A = \{10; 12; 14; 16\}$}%
+\makebox[0.5\linewidth][l]{\textbf{B.} $A = \{11; 12; 13; 14; 15; 16\}$}\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{C.} $A = \{12; 14; 16\}$}%
+\makebox[0.5\linewidth][l]{\textbf{D.} $A = \{12; 14\}$}\par\vspace{0.8mm}%
+
+\cauTN{2}{Kết quả của phép tính $5^7 : 5^3$ viết dưới dạng một lũy thừa là:}{$5^4$}{$5^{10}$}{$1^4$}{$5^{21}$}
+
+\cauTN{3}{Trong các số sau, số nào chia hết cho cả $2$; $3$; $5$ và $9$?}{$150$}{$190$}{$245$}{$180$}
+
+\cauTN{4}{Giá trị của biểu thức $100 - 2 \cdot 3^2$ là:}{$94$}{$82$}{$64$}{$294$}
+
+\cauTN{5}{Tìm số tự nhiên $x$, biết: $2x + 5 = 15$.}{$x = 10$}{$x = 7$}{$x = 5$}{$x = 4$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$27 \cdot 75 + 25 \cdot 27 - 150$} & 
+\oBaiTap[6]{b)}{$5 \cdot 2^3 + [100 - (15 - 5)^2]$} \\
+\hline
+\oBaiTap[6]{c)}{$200 : [117 - (23 - 6)]$} & 
+\oBaiTap[6]{d)}{$200 : \{ 150 - [25 + (10 - 5)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$15 + 2(x - 3) = 25$} & 
+\oBaiTap[6]{b)}{$100 - [50 - (x - 5)] = 60$} \\
+\hline
+\oBaiTap[6]{c)}{$2 \cdot 3^x + 1 = 55$} & 
+\oBaiTap[6]{d)}{$5(x + 12) - 4^2 = 84$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn An đi nhà sách mua: $5$ quyển vở giá $8\,000$ đồng/quyển và $3$ chiếc bút bi giá $5\,000$ đồng/chiếc. Khi thanh toán, An đưa cho cô thu ngân một tờ tiền mệnh giá $100\,000$ đồng.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền cô thu ngân phải trả lại cho bạn An.\par
+\textbf{b) (1,25 điểm)} Tính cụ thể số tiền bạn An nhận lại từ cô thu ngân.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Tổng ôn tập Chương I (Số tự nhiên)} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Số La Mã $\text{XIX}$ có giá trị trong hệ thập phân là:}{$21$}{$19$}{$11$}{$29$}
+
+\cauTN{2}{Kết quả của phép tính $3^2 \cdot 3^5$ viết dưới dạng một lũy thừa là:}{$3^{10}$}{$9^7$}{$3^3$}{$3^7$}
+
+\cauTN{3}{Trong các số sau: $2$; $9$; $15$; $21$, số nào là số nguyên tố?}{$2$}{$9$}{$15$}{$21$}
+
+\cauTN{4}{Giá trị của biểu thức $50 + 3 \cdot 2^3$ là:}{$56$}{$64$}{$74$}{$62$}
+
+\cauTN{5}{Tìm số tự nhiên $x$, biết $x$ là ước chung của $24$ và $36$, đồng thời $x > 10$.}{$x = 24$}{$x = 12$}{$x = 36$}{$x = 18$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$48 \cdot 65 + 35 \cdot 48 - 2400$} & 
+\oBaiTap[6]{b)}{$3^2 \cdot 10 - [130 - (12 - 4)^2]$} \\
+\hline
+\oBaiTap[6]{c)}{$420 : [160 - (21 - 1)]$} & 
+\oBaiTap[6]{d)}{$500 : \{ 360 - [160 + (25 - 5 \cdot 3)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$20 + 3(x + 1) = 44$} & 
+\oBaiTap[6]{b)}{$200 - [80 - (x + 2)] = 130$} \\
+\hline
+\oBaiTap[6]{c)}{$5 \cdot 2^x - 10 = 30$} & 
+\oBaiTap[6]{d)}{$7(x - 9) - 2^3 = 20$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Mẹ cho bạn Bình $200\,000$ đồng để đi mua đồ dùng học tập chuẩn bị cho năm học mới. Bình mua $10$ quyển vở giá $7\,000$ đồng/quyển, $2$ chiếc bút bi giá $5\,000$ đồng/chiếc và một bộ thước kẻ giá $15\,000$ đồng.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền bạn Bình đã chi tiêu để mua số đồ dùng trên.\par
+\textbf{b) (1,25 điểm)} Sau khi mua sắm, bạn Bình còn lại bao nhiêu tiền mang về cho mẹ?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Tổng ôn tập Chương I (Số tự nhiên)} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\noindent\textbf{Câu 1.} Cho tập hợp $M = \{x \in \mathbb{N} \mid 10 \le x < 15\}$. Cách viết nào sau đây đúng?\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{A.} $M = \{11; 12; 13; 14\}$}%
+\makebox[0.5\linewidth][l]{\textbf{B.} $M = \{10; 11; 12; 13; 14; 15\}$}\par\vspace{0.4mm}%
+\noindent%
+\makebox[0.5\linewidth][l]{\textbf{C.} $M = \{10; 12; 14\}$}%
+\makebox[0.5\linewidth][l]{\textbf{D.} $M = \{10; 11; 12; 13; 14\}$}\par\vspace{0.8mm}%
+
+\cauTN{2}{Kết quả của phép tính $3^8 : 3^2$ viết dưới dạng một lũy thừa là:}{$3^4$}{$3^6$}{$1^6$}{$3^{10}$}
+
+\cauTN{3}{Trong các số sau, số nào chia hết cho cả $2$; $3$; $5$ và $9$?}{$543$}{$545$}{$540$}{$504$}
+
+\cauTN{4}{Giá trị của biểu thức $50 - 4 \cdot 2^3$ là:}{$18$}{$376$}{$42$}{$34$}
+
+\cauTN{5}{Tìm số tự nhiên $x$, biết: $3x - 10 = 20$.}{$x = 30$}{$x = 5$}{$x = 10$}{$x = 9$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$36 \cdot 48 + 52 \cdot 36 - 600$} & 
+\oBaiTap[6]{b)}{$10 \cdot 3^2 + [150 - (20 - 10)^2]$} \\
+\hline
+\oBaiTap[6]{c)}{$420 : [180 - (50 - 10)]$} & 
+\oBaiTap[6]{d)}{$480 : \{ 300 - [80 + (15 - 5)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$25 + 3(x - 8) = 49$} & 
+\oBaiTap[6]{b)}{$200 - [70 - (x + 10)] = 150$} \\
+\hline
+\oBaiTap[6]{c)}{$3 \cdot 2^x - 1 = 47$} & 
+\oBaiTap[6]{d)}{$7(x + 10) - 5^2 = 115$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn Cúc đi nhà sách mua một số đồ dùng học tập: $5$ cây bút dạ quang giá $8\,000$ đồng/cây, $10$ quyển vở kẻ ngang giá $12\,000$ đồng/quyển và $1$ hộp bút giá $35\,000$ đồng. Khi thanh toán, Cúc đưa cho cô thu ngân $2$ tờ tiền mệnh giá $100\,000$ đồng và $1$ tờ tiền mệnh giá $50\,000$ đồng.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện số tiền cô thu ngân phải trả lại cho bạn Cúc.\par
+\textbf{b) (1,25 điểm)} Tính cụ thể số tiền bạn Cúc nhận lại từ cô thu ngân.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 04 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Tổng ôn tập Chương I (Số tự nhiên)} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{|c|*{5}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} \\
+\hline
+\textbf{Đáp án} & & & & & \\
+\hline
+\end{tabularx}
+\endgroup
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)}
+\vspace{1mm}
+
+\cauTN{1}{Cho tập hợp $A = \{2; 4; 6; 8\}$. Khẳng định nào sau đây đúng?}{$6 \in A$}{$\{6\} \in A$}{$5 \in A$}{$8 \notin A$}
+
+\cauTN{2}{Kết quả của phép tính $7^4 \cdot 7^2$ viết dưới dạng một lũy thừa là:}{$7^8$}{$49^6$}{$7^6$}{$14^6$}
+
+\cauTN{3}{Trong các số sau, số nào chia hết cho $3$ nhưng không chia hết cho $9$?}{$189$}{$123$}{$207$}{$333$}
+
+\cauTN{4}{Giá trị của biểu thức $120 - 5 \cdot 4^2$ là:}{$100$}{$111$}{$80$}{$40$}
+
+\cauTN{5}{Tìm số tự nhiên $x$, biết: $50 - 2x = 30$.}{$x = 10$}{$x = 20$}{$x = 40$}{$x = 5$}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$58 \cdot 64 + 36 \cdot 58 - 800$} & 
+\oBaiTap[6]{b)}{$7 \cdot 5^2 + [200 - (18 - 8)^2]$} \\
+\hline
+\oBaiTap[6]{c)}{$540 : [320 - (70 - 20)]$} & 
+\oBaiTap[6]{d)}{$920 : \{ 450 - [120 + (20 - 10)^2] \}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 6 - TUẦN 04 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 6 TUẦN 04 BUỔI 02} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm số tự nhiên $x$, biết:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$30 + 5(x - 2) = 60$} & 
+\oBaiTap[6]{b)}{$300 - [150 - (x - 20)] = 200$} \\
+\hline
+\oBaiTap[6]{c)}{$5 \cdot 3^x + 2 = 137$} & 
+\oBaiTap[6]{d)}{$9(x + 5) - 6^2 = 99$} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Bạn Dũng được giao nhiệm vụ đi mua quà tặng cho các bạn học sinh có hoàn cảnh khó khăn của lớp. Dũng mua $15$ hộp bút chì màu giá $25\,000$ đồng/hộp và $15$ chiếc cặp sách giá $95\,000$ đồng/chiếc.\par
+\textbf{a) (1,25 điểm)} Hãy viết một biểu thức số thể hiện tổng số tiền bạn Dũng phải trả (sử dụng tính chất phân phối).\par
+\textbf{b) (1,25 điểm)} Tính cụ thể tổng số tiền bạn Dũng đã chi để mua số quà tặng trên.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\end{document}

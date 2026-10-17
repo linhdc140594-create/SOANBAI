@@ -1,0 +1,451 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 20.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.5mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng (dành cho Câu 1 Trang 1)
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.2mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 dòng: 4 đáp án dàn hàng ngang
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.3mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm 2 dòng: mỗi dòng 2 đáp án (dành cho câu có đáp án dài)
+\newcommand{\cauTNB}[6]{% \cauTNB{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.3mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.3mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình - Giải tam giác vuông - Lập hệ thực tế} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{0.8mm}
+\cauTN{1}{Cho tam giác $ABC$ vuông tại $A$. Khẳng định nào sau đây đúng?}{$AC = BC \cdot \sin B$}{$AC = BC \cdot \cos B$}{$AC = AB \cdot \sin B$}{$AC = BC \cdot \tan B$}
+\cauTN{2}{Cho tam giác $ABC$ vuông tại $A$, có $BC = 10\text{ cm}$ và $\widehat{B} = 30^\circ$. Độ dài cạnh $AC$ bằng:}{$5\sqrt{3}\text{ cm}$}{$5\text{ cm}$}{$10\sqrt{3}\text{ cm}$}{$20\text{ cm}$}
+\cauTN{3}{Cho tam giác $ABC$ vuông tại $A$, có $AB = 6\text{ cm}$ và $\cos B = 0{,}6$. Độ dài cạnh huyền $BC$ bằng:}{$3{,}6\text{ cm}$}{$10\text{ cm}$}{$8\text{ cm}$}{$12\text{ cm}$}
+\cauTN{4}{Cho tam giác $ABC$ vuông tại $A$, có $AB = 5\text{ cm}$ và $\widehat{B} = 45^\circ$. Độ dài cạnh $AC$ bằng:}{$5\sqrt{2}\text{ cm}$}{$5\text{ cm}$}{$10\text{ cm}$}{$2{,}5\text{ cm}$}
+\cauTN{5}{Một chiếc thang dài $4\text{ m}$ tựa vào tường, tạo với mặt đất góc $60^\circ$. Khoảng cách từ chân thang đến tường là:}{$2\text{ m}$}{$2\sqrt{3}\text{ m}$}{$4\sqrt{3}\text{ m}$}{$8\text{ m}$}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 3x - 2y = 7 \\ 2x + 3y = 9 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 2x + 3y = 7 \\ 3x - 2y = 4 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải tam giác vuông:} Cho tam giác $ABC$ vuông tại $A$, biết cạnh $AB = 6\text{ cm}$ và $\cos B = \dfrac{3}{5}$.\par
+\vspace{0.4mm}
+$a)$ Tính độ dài cạnh huyền $BC$ và cạnh góc vuông $AC$.\par
+\vspace{0.3mm}
+$b)$ Kẻ đường cao $AH$ vuông góc với $BC$ ($H \in BC$). Tính độ dài đoạn thẳng $AH$ và đoạn thẳng $BH$.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{13} & \dongke{13} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế lập hệ phương trình:} Nhân dịp khai giảng năm học mới, bạn Nam đến nhà sách mua một chiếc cặp sách và một bộ dụng cụ học tập với tổng giá niêm yết là $300\,000$ đồng. Do có chương trình khuyến mãi, nhà sách giảm giá $10\%$ cho chiếc cặp sách và giảm giá $20\%$ cho bộ dụng cụ học tập, vì vậy bạn Nam chỉ phải trả tổng cộng $258\,000$ đồng. Tính giá tiền niêm yết ban đầu của chiếc cặp sách và bộ dụng cụ học tập.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{16} & \dongke{16} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình - Giải tam giác vuông - Lập hệ thực tế} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{0.8mm}
+\cauTN{1}{Cho tam giác $ABC$ vuông tại $A$. Khẳng định nào sau đây đúng?}{$AB = BC \cdot \sin B$}{$AB = BC \cdot \cos B$}{$AB = AC \cdot \cos B$}{$AB = BC \cdot \cot B$}
+\cauTN{2}{Cho tam giác $ABC$ vuông tại $A$, có $BC = 12\text{ cm}$ và $\widehat{C} = 60^\circ$. Độ dài cạnh $AC$ bằng:}{$6\text{ cm}$}{$6\sqrt{3}\text{ cm}$}{$4\sqrt{3}\text{ cm}$}{$24\text{ cm}$}
+\cauTN{3}{Cho tam giác $ABC$ vuông tại $A$, có $AC = 8\text{ cm}$ và $\sin B = 0{,}8$. Độ dài cạnh huyền $BC$ bằng:}{$10\text{ cm}$}{$6{,}4\text{ cm}$}{$6\text{ cm}$}{$16\text{ cm}$}
+\cauTN{4}{Cho tam giác $ABC$ vuông tại $A$, có $AB = 4\text{ cm}$ và $\tan B = 1{,}5$. Độ dài cạnh $AC$ bằng:}{$6\text{ cm}$}{$\dfrac{8}{3}\text{ cm}$}{$5\text{ cm}$}{$8\text{ cm}$}
+\cauTN{5}{Một chiếc thang dài $5\text{ m}$ tựa vào tường, chân thang cách tường $2{,}5\text{ m}$. Góc tạo bởi thang và mặt đất là:}{$30^\circ$}{$60^\circ$}{$45^\circ$}{$75^\circ$}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 2x - 3y = 1 \\ 3x + 2y = 8 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 3x + 2y = 11 \\ 2x - 3y = 3 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải tam giác vuông:} Cho tam giác $ABC$ vuông tại $A$, biết cạnh $AC = 12\text{ cm}$ và $\sin B = \dfrac{3}{5}$.\par
+\vspace{0.4mm}
+$a)$ Tính độ dài cạnh huyền $BC$ và cạnh góc vuông $AB$.\par
+\vspace{0.3mm}
+$b)$ Kẻ đường cao $AH$ vuông góc với $BC$ ($H \in BC$). Tính độ dài đoạn thẳng $AH$ và diện tích tam giác $ABC$.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{13} & \dongke{13} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế lập hệ phương trình:} Nhân dịp năm học mới, bạn Bình mua một chiếc áo đồng phục và một đôi giày thể thao với tổng giá niêm yết là $500\,000$ đồng. Cửa hàng giảm giá $15\%$ cho chiếc áo đồng phục và giảm giá $10\%$ cho đôi giày thể thao, do đó bạn Bình chỉ phải trả tổng cộng $435\,000$ đồng. Tính giá tiền niêm yết ban đầu của mỗi sản phẩm.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{16} & \dongke{16} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình - Giải tam giác vuông - Lập hệ thực tế} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{0.8mm}
+\cauTN{1}{Cho tam giác $ABC$ vuông tại $A$. Khẳng định nào sau đây SAI?}{$AC = BC \cdot \sin B$}{$AB = BC \cdot \cos B$}{$AC = AB \cdot \cot B$}{$AC = AB \cdot \tan B$}
+\cauTN{2}{Cho tam giác $ABC$ vuông tại $A$, có $BC = 8\text{ cm}$ và $\widehat{B} = 60^\circ$. Độ dài cạnh $AB$ bằng:}{$4\sqrt{3}\text{ cm}$}{$4\text{ cm}$}{$8\sqrt{3}\text{ cm}$}{$16\text{ cm}$}
+\cauTN{3}{Cho tam giác $ABC$ vuông tại $A$, có $AB = 9\text{ cm}$ và $\cos B = \dfrac{3}{5}$. Độ dài cạnh huyền $BC$ bằng:}{$5{,}4\text{ cm}$}{$12\text{ cm}$}{$15\text{ cm}$}{$25\text{ cm}$}
+\cauTN{4}{Cho tam giác $ABC$ vuông tại $A$, có $AB = 6\text{ cm}$ và $\widehat{B} = 45^\circ$. Độ dài cạnh $AC$ bằng:}{$6\sqrt{2}\text{ cm}$}{$6\text{ cm}$}{$3\text{ cm}$}{$12\text{ cm}$}
+\cauTN{5}{Một cột cờ cao $7\text{ m}$ có bóng trên mặt đất dài $7\text{ m}$. Góc tạo bởi tia nắng và mặt đất là:}{$45^\circ$}{$30^\circ$}{$60^\circ$}{$50^\circ$}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 3x + 4y = 10 \\ 2x - 3y = 1 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 2x + 3y = 5 \\ 3x - 2y = 1 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải tam giác vuông:} Cho tam giác $ABC$ vuông tại $A$, biết cạnh $AB = 5\text{ cm}$ và $\tan B = \dfrac{12}{5}$.\par
+\vspace{0.4mm}
+$a)$ Tính độ dài cạnh góc vuông $AC$ và cạnh huyền $BC$.\par
+\vspace{0.3mm}
+$b)$ Kẻ đường cao $AH$ vuông góc với $BC$ ($H \in BC$). Tính độ dài đoạn thẳng $AH$ và tỉ số lượng giác $\sin C$.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{13} & \dongke{13} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế lập hệ phương trình:} Để chuẩn bị góc học tập, bạn Hoa mua một chiếc máy tính cầm tay và một chiếc đèn bàn học với tổng giá niêm yết là $600\,000$ đồng. Nhân dịp khuyến mãi, cửa hàng giảm giá $20\%$ cho máy tính cầm tay và giảm giá $10\%$ cho chiếc đèn bàn, nên bạn Hoa chỉ phải trả tổng cộng $510\,000$ đồng. Tính giá tiền niêm yết ban đầu của mỗi mặt hàng.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{16} & \dongke{16} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình - Giải tam giác vuông - Lập hệ thực tế} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{0.8mm}
+\cauTN{1}{Cho tam giác $ABC$ vuông tại $A$. Khẳng định nào sau đây đúng?}{$AC = AB \cdot \cot B$}{$AB = AC \cdot \tan B$}{$AC = AB \cdot \tan B$}{$AC = BC \cdot \cos B$}
+\cauTN{2}{Cho tam giác $ABC$ vuông tại $A$, có $BC = 14\text{ cm}$ và $\widehat{B} = 30^\circ$. Độ dài cạnh $AC$ bằng:}{$7\sqrt{3}\text{ cm}$}{$14\sqrt{3}\text{ cm}$}{$7\text{ cm}$}{$28\text{ cm}$}
+\cauTN{3}{Cho tam giác $ABC$ vuông tại $A$, có $AC = 12\text{ cm}$ và $\sin B = \dfrac{3}{5}$. Độ dài cạnh huyền $BC$ bằng:}{$7{,}2\text{ cm}$}{$20\text{ cm}$}{$16\text{ cm}$}{$25\text{ cm}$}
+\cauTN{4}{Cho tam giác $ABC$ vuông tại $A$, có $AB = 8\text{ cm}$ và $\tan B = 0{,}75$. Độ dài cạnh $AC$ bằng:}{$10\text{ cm}$}{$8\text{ cm}$}{$6\text{ cm}$}{$4\text{ cm}$}
+\cauTN{5}{Một chiếc thang dài $6\text{ m}$ tựa vào tường, tạo với mặt đất góc $60^\circ$. Khoảng cách từ chân thang đến tường là:}{$3\sqrt{3}\text{ m}$}{$6\sqrt{3}\text{ m}$}{$3\text{ m}$}{$12\text{ m}$}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 4x - 3y = 5 \\ 3x + 2y = 8 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 3x - 2y = 2 \\ 2x + 3y = 10 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 02: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 02} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Giải tam giác vuông:} Cho tam giác $ABC$ vuông tại $A$, biết cạnh huyền $BC = 15\text{ cm}$ và $\cos B = \dfrac{4}{5}$.\par
+\vspace{0.4mm}
+$a)$ Tính độ dài hai cạnh góc vuông $AB$ và $AC$.\par
+\vspace{0.3mm}
+$b)$ Kẻ đường cao $AH$ vuông góc với $BC$ ($H \in BC$). Tính độ dài đoạn thẳng $AH$ và diện tích tam giác $ABC$.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{13} & \dongke{13} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế lập hệ phương trình:} Bạn Minh mua một chiếc ba lô và một chiếc mũ bảo hiểm với tổng giá niêm yết là $400\,000$ đồng. Cửa hàng giảm giá $10\%$ cho chiếc ba lô và giảm giá $15\%$ cho chiếc mũ bảo hiểm, nên bạn Minh chỉ phải trả tổng cộng $352\,000$ đồng. Tính giá tiền niêm yết ban đầu của mỗi mặt hàng.\par
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\dongke{16} & \dongke{16} \\
+\hline
+\end{tabularx}
+
+\end{document}

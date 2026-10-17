@@ -1,0 +1,323 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+% Giảm lề tối đa tận dụng diện tích giấy (chuẩn máy in laser/photo)
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][7]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 2 - BUỔI 1: MÃ ĐỀ 101 =============
+% #############################################################################
+
+% -------------------- TRANG 1 (MÃ ĐỀ 101): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{BÀI 3: THỨ TỰ SỐ TỰ NHIÊN (TUẦN 2 - BUỔI 1)} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT} \tabularnewline
+\hline
+\rule{0pt}{2.2cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Trên tia số nằm ngang, nếu $a < b$ thì điểm $a$ nằm ở:}{Bên phải điểm $b$}{Bên trái điểm $b$}{Trùng điểm $b$}{Phía trên điểm $b$}
+
+\cauTN{2}{Khẳng định nào sau đây là \textbf{sai}?}{$2\,024 > 2\,023$}{$10\,000 > 9\,999$}{$54\,321 < 54\,312$}{$102 < 120$}
+
+\cauTN{3}{Trong các số $4\,567; 4\,576; 4\,765; 4\,675$, số lớn nhất là:}{$4\,567$}{$4\,576$}{$4\,765$}{$4\,675$}
+
+\cauTN{4}{Kí hiệu $x \le 6$ có nghĩa là:}{$x < 6$}{$x = 6$}{$x < 6$ hoặc $x = 6$}{$x > 6$ hoặc $x = 6$}
+
+\cauTN{5}{Tập hợp các số tự nhiên $x$ thoả mãn $3 < x \le 7$ là:}{$\{3; 4; 5; 6\}$}{$\{4; 5; 6; 7\}$}{$\{3; 4; 5; 6; 7\}$}{$\{4; 5; 6\}$}
+
+\cauTN{6}{Chữ số thích hợp điền vào dấu $*$ để $3*5 < 315$ là:}{$0$}{$1$}{$2$}{$3$}
+
+\cauTN{7}{Cho biết $m > n$ và $n > p$. Khẳng định nào chắc chắn đúng?}{$m < p$}{$m > p$}{$m = p$}{$n < p$}
+
+\cauTN{8}{Số tự nhiên liền sau số lớn nhất có ba chữ số là:}{$998$}{$1\,000$}{$999$}{$1\,001$}
+
+\cauTN{9}{Số liền trước của số tự nhiên $a + 2$ (với $a \in \mathbb{N}$) là:}{$a + 3$}{$a + 1$}{$a$}{$a - 1$}
+
+\cauTN{10}{Tập hợp $A = \{x \in \mathbb{N} \mid 15 \le x \le 25\}$ có số phần tử là:}{$10$}{$11$}{$9$}{$12$}
+
+\cauTN{11}{Sắp xếp các số $12; 0; 8; 25; 19$ theo thứ tự giảm dần là:}{$0; 8; 12; 19; 25$}{$25; 19; 12; 8; 0$}{$25; 19; 8; 12; 0$}{$0; 25; 19; 12; 8$}
+
+\cauTN{12}{Có bao nhiêu số tự nhiên $x$ thỏa mãn $198 \le x < 203$?}{$4$}{$5$}{$6$}{$7$}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 101): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). So sánh và Viết tập hợp:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Cho các số sau: $3\,205; 3\,052; 3\,520; 3\,025; 3\,250$. Hãy sắp xếp các số đã cho theo thứ tự từ bé đến lớn.} & 
+\oBaiTap[7]{b)}{Viết tập hợp $M = \{x \in \mathbb{N} \mid 14 \le x < 20\}$ bằng cách liệt kê các phần tử. Tập hợp $M$ có bao nhiêu phần tử?} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Điền chữ số và Tìm số tự nhiên:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tìm chữ số thích hợp thay cho dấu $*$ để được khẳng định đúng: $5*3 > 583$ và $43* < 432$.} & 
+\oBaiTap[7]{b)}{Tìm số tự nhiên có hai chữ số $\overline{ab}$, biết rằng $20 < \overline{ab} < 35$ và chữ số hàng đơn vị lớn hơn chữ số hàng chục $3$ đơn vị.} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Bảng sau cho biết độ cao của các đỉnh núi: Fansipan ($3\,143\text{ m}$), Pu Si Lung ($3\,083\text{ m}$), Pu Ta Leng ($3\,049\text{ m}$), Bạch Mộc Lương Tử ($3\,046\text{ m}$).\\
+a) Sắp xếp tên các đỉnh núi theo thứ tự độ cao giảm dần.\\
+b) Tính độ chênh lệch chiều cao giữa đỉnh núi cao nhất và thấp nhất trong các đỉnh núi trên.
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ========================= TOÁN 6 - TUẦN 2 - BUỔI 1: MÃ ĐỀ 102 =============
+% #############################################################################
+
+% -------------------- TRANG 3 (MÃ ĐỀ 102): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{BÀI 3: THỨ TỰ SỐ TỰ NHIÊN (TUẦN 2 - BUỔI 1)} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT} \tabularnewline
+\hline
+\rule{0pt}{2.2cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Trên tia số nằm ngang, nếu $x > y$ thì điểm $x$ nằm ở:}{Bên trái điểm $y$}{Bên phải điểm $y$}{Trùng điểm $y$}{Phía dưới điểm $y$}
+
+\cauTN{2}{Khẳng định nào sau đây là \textbf{sai}?}{$3\,025 > 3\,024$}{$9\,998 < 10\,000$}{$76\,543 < 76\,534$}{$230 > 203$}
+
+\cauTN{3}{Trong các số $6\,789; 6\,879; 6\,798; 6\,897$, số nhỏ nhất là:}{$6\,789$}{$6\,879$}{$6\,798$}{$6\,897$}
+
+\cauTN{4}{Kí hiệu $a \ge 8$ có nghĩa là:}{$a > 8$}{$a = 8$}{$a > 8$ hoặc $a = 8$}{$a < 8$ hoặc $a = 8$}
+
+\cauTN{5}{Tập hợp các số tự nhiên $y$ thoả mãn $5 \le y < 9$ là:}{$\{5; 6; 7; 8\}$}{$\{6; 7; 8; 9\}$}{$\{5; 6; 7; 8; 9\}$}{$\{6; 7; 8\}$}
+
+\cauTN{6}{Chữ số thích hợp điền vào dấu $*$ để $7*2 > 782$ là:}{$7$}{$8$}{$9$}{$6$}
+
+\cauTN{7}{Cho biết $a < b$ và $b < c$. Khẳng định nào chắc chắn đúng?}{$a > c$}{$a < c$}{$a = c$}{$b > c$}
+
+\cauTN{8}{Số tự nhiên liền trước số nhỏ nhất có bốn chữ số là:}{$999$}{$1\,001$}{$990$}{$1\,000$}
+
+\cauTN{9}{Số liền sau của số tự nhiên $x - 1$ (với $x \in \mathbb{N}^*$) là:}{$x - 2$}{$x$}{$x + 1$}{$x + 2$}
+
+\cauTN{10}{Tập hợp $B = \{x \in \mathbb{N} \mid 20 \le x \le 32\}$ có số phần tử là:}{$12$}{$13$}{$11$}{$14$}
+
+\cauTN{11}{Sắp xếp các số $15; 3; 0; 28; 21$ theo thứ tự tăng dần là:}{$28; 21; 15; 3; 0$}{$0; 3; 15; 21; 28$}{$0; 3; 15; 28; 21$}{$3; 0; 15; 21; 28$}
+
+\cauTN{12}{Có bao nhiêu số tự nhiên $x$ thỏa mãn $299 < x \le 305$?}{$5$}{$6$}{$7$}{$4$}
+
+\newpage
+% -------------------- TRANG 4 (MÃ ĐỀ 102): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3mm]{0pt}{9.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[1.8cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). So sánh và Viết tập hợp:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Cho các số sau: $4\,306; 4\,063; 4\,630; 4\,036; 4\,360$. Hãy sắp xếp các số đã cho theo thứ tự từ bé đến lớn.} & 
+\oBaiTap[7]{b)}{Viết tập hợp $N = \{x \in \mathbb{N} \mid 23 < x \le 29\}$ bằng cách liệt kê các phần tử. Tập hợp $N$ có bao nhiêu phần tử?} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Điền chữ số và Tìm số tự nhiên:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{Tìm chữ số thích hợp thay cho dấu $*$ để được khẳng định đúng: $6*7 < 617$ và $85* > 857$.} & 
+\oBaiTap[7]{b)}{Tìm số tự nhiên có hai chữ số $\overline{xy}$, biết rằng $30 < \overline{xy} < 45$ và chữ số hàng đơn vị kém chữ số hàng chục $2$ đơn vị.} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Bảng sau cho biết diện tích các địa phương: Hà Nội ($3\,359\text{ km}^2$), TP. Hồ Chí Minh ($2\,095\text{ km}^2$), Đà Nẵng ($1\,285\text{ km}^2$), Hải Phòng ($1\,562\text{ km}^2$).\\
+a) Sắp xếp tên các tỉnh/thành phố theo thứ tự diện tích giảm dần.\\
+b) Tính độ chênh lệch diện tích giữa địa phương lớn nhất và nhỏ nhất trong các địa phương trên.
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{7}
+\\ \hline
+\end{tabularx}
+
+\end{document}

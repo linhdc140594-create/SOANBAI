@@ -1,0 +1,263 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+% Giảm lề tối đa tận dụng diện tích giấy (chuẩn máy in laser/photo)
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 7.2mm rộng rãi)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][8]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng, độ dãn câu sát gọn chuẩn mực
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ================================ MÃ ĐỀ 101 =================================
+% #############################################################################
+
+% -------------------- TRANG 1 (MÃ ĐỀ 101): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|p{5.8cm}|}
+\hline
+\textbf{BÀI KIỂM TRA: SỐ HỮU TỈ (TUẦN 1)} & \textbf{Mã đề: 101} & \textbf{Họ và tên:} \dotfill \\
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Tập hợp các số hữu tỉ được kí hiệu là:}{$\mathbb{N}$}{$\mathbb{Z}$}{$\mathbb{Q}$}{$\mathbb{R}$}
+
+\cauTN{2}{Số nào sau đây là số hữu tỉ dương?}{$-\dfrac{2}{3}$}{$\dfrac{0}{5}$}{$\dfrac{-3}{-7}$}{$-1{,}5$}
+
+\cauTN{3}{Số đối của số hữu tỉ $-\dfrac{3}{5}$ là:}{$\dfrac{3}{5}$}{$-\dfrac{3}{5}$}{$\dfrac{5}{3}$}{$-\dfrac{5}{3}$}
+
+\cauTN{4}{Khẳng định nào sau đây là \textbf{đúng}?}{$-5 \in \mathbb{N}$}{$\dfrac{2}{3} \in \mathbb{Z}$}{$-0{,}5 \in \mathbb{Q}$}{$\mathbb{Q} \subset \mathbb{Z}$}
+
+\cauTN{5}{Điểm biểu diễn số hữu tỉ $\dfrac{1}{2}$ trên trục số nằm ở:}{Bên trái số 0}{Bên phải số 0}{Trùng điểm 0}{Bên trái số $-1$}
+
+\cauTN{6}{Kết quả của phép tính $\dfrac{2}{7} + \dfrac{3}{7}$ là:}{$\dfrac{5}{14}$}{$\dfrac{5}{7}$}{$\dfrac{6}{7}$}{$\dfrac{1}{7}$}
+
+\cauTN{7}{Kết quả của phép tính $\dfrac{5}{9} - \dfrac{8}{9}$ là:}{$\dfrac{1}{3}$}{$-\dfrac{1}{3}$}{$-\dfrac{13}{9}$}{$\dfrac{3}{9}$}
+
+\cauTN{8}{Kết quả của phép nhân $-\dfrac{3}{4} \cdot \dfrac{8}{9}$ là:}{$-\dfrac{2}{3}$}{$\dfrac{2}{3}$}{$-\dfrac{24}{36}$}{$-\dfrac{6}{7}$}
+
+\cauTN{9}{Kết quả của phép chia $\dfrac{4}{5} : \left(-\dfrac{2}{15}\right)$ là:}{$6$}{$-6$}{$\dfrac{8}{75}$}{$-\dfrac{8}{75}$}
+
+\cauTN{10}{Giá trị của biểu thức $A = -1{,}2 + 3{,}5$ là:}{$-2{,}3$}{$2{,}3$}{$4{,}7$}{$-4{,}7$}
+
+\cauTN{11}{Nếu $x + \dfrac{1}{3} = \dfrac{5}{6}$ thì $x$ bằng:}{$\dfrac{1}{2}$}{$\dfrac{7}{6}$}{$-\dfrac{1}{2}$}{$\dfrac{2}{3}$}
+
+\cauTN{12}{Số hữu tỉ nghịch đảo của $-\dfrac{7}{9}$ là:}{$\dfrac{7}{9}$}{$-\dfrac{9}{7}$}{$\dfrac{9}{7}$}{$\dfrac{7}{-9}$}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 101): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|p{5.8cm}|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 101} & \textbf{Họ và tên:} \dotfill \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). Tính giá trị của biểu thức:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$A = \dfrac{-3}{8} + \dfrac{5}{12} : \dfrac{15}{4}$} & 
+\oBaiTap[8]{b)}{$B = \dfrac{7}{15} \cdot \dfrac{3}{8} + \dfrac{7}{15} \cdot \dfrac{5}{8} - \dfrac{2}{15}$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$ biết:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$x + \dfrac{3}{4} = \dfrac{1}{6}$} & 
+\oBaiTap[8]{b)}{$\dfrac{2}{3} - \left(x + \dfrac{1}{2}\right) = \dfrac{5}{6}$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Một thửa ruộng hình chữ nhật có chiều dài $\dfrac{45}{2}\text{ m}$, chiều rộng bằng $\dfrac{2}{3}$ chiều dài. Tính diện tích của thửa ruộng đó.
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% #############################################################################
+% ================================ MÃ ĐỀ 102 =================================
+% #############################################################################
+
+% -------------------- TRANG 3 (MÃ ĐỀ 102): TRẮC NGHIỆM --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|p{5.8cm}|}
+\hline
+\textbf{BÀI KIỂM TRA: SỐ HỮU TỈ (TUẦN 1)} & \textbf{Mã đề: 102} & \textbf{Họ và tên:} \dotfill \\
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{1.2mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.5}
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{3mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+\vspace{1.5mm}
+
+\cauTN{1}{Số nào sau đây là số hữu tỉ dương?}{$\dfrac{-3}{-5}$}{$-\dfrac{4}{7}$}{$\dfrac{0}{-3}$}{$-2{,}8$}
+
+\cauTN{2}{Tập hợp các số hữu tỉ được kí hiệu là:}{$\mathbb{Z}$}{$\mathbb{Q}$}{$\mathbb{N}$}{$\mathbb{R}$}
+
+\cauTN{3}{Số đối của số hữu tỉ $\dfrac{4}{7}$ là:}{$-\dfrac{4}{7}$}{$\dfrac{7}{4}$}{$-\dfrac{7}{4}$}{$\dfrac{-4}{-7}$}
+
+\cauTN{4}{Khẳng định nào sau đây là \textbf{đúng}?}{$-3 \in \mathbb{N}$}{$\dfrac{-1}{2} \in \mathbb{Z}$}{$0{,}25 \in \mathbb{Q}$}{$\mathbb{Q} \subset \mathbb{N}$}
+
+\cauTN{5}{Điểm biểu diễn số hữu tỉ $-\dfrac{3}{4}$ trên trục số nằm ở:}{Bên phải số 0}{Bên trái số 0}{Trùng điểm 0}{Bên phải số 1}
+
+\cauTN{6}{Kết quả của phép tính $\dfrac{3}{8} + \dfrac{1}{8}$ là:}{$\dfrac{1}{2}$}{$\dfrac{4}{16}$}{$\dfrac{2}{8}$}{$\dfrac{1}{4}$}
+
+\cauTN{7}{Kết quả của phép tính $\dfrac{4}{7} - \dfrac{6}{7}$ là:}{$\dfrac{2}{7}$}{$-\dfrac{2}{7}$}{$-\dfrac{10}{7}$}{$\dfrac{10}{7}$}
+
+\cauTN{8}{Kết quả của phép nhân $-\dfrac{5}{6} \cdot \dfrac{3}{10}$ là:}{$-\dfrac{1}{4}$}{$\dfrac{1}{4}$}{$-\dfrac{1}{2}$}{$-\dfrac{5}{20}$}
+
+\cauTN{9}{Kết quả của phép chia $\dfrac{3}{4} : \left(-\dfrac{9}{8}\right)$ là:}{$-\dfrac{2}{3}$}{$\dfrac{2}{3}$}{$-\dfrac{27}{32}$}{$-\dfrac{3}{2}$}
+
+\cauTN{10}{Giá trị của biểu thức $B = -2{,}4 + 5{,}1$ là:}{$2{,}7$}{$-2{,}7$}{$7{,}5$}{$-7{,}5$}
+
+\cauTN{11}{Nếu $x - \dfrac{1}{4} = \dfrac{5}{12}$ thì $x$ bằng:}{$\dfrac{2}{3}$}{$\dfrac{1}{6}$}{$-\dfrac{2}{3}$}{$\dfrac{7}{12}$}
+
+\cauTN{12}{Số hữu tỉ nghịch đảo của $-\dfrac{5}{8}$ là:}{$\dfrac{5}{8}$}{$-\dfrac{8}{5}$}{$\dfrac{8}{5}$}{$\dfrac{5}{-8}$}
+
+\newpage
+% -------------------- TRANG 4 (MÃ ĐỀ 102): TỰ LUẬN --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|p{5.8cm}|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (7,0 ĐIỂM)} & \textbf{Mã đề: 102} & \textbf{Họ và tên:} \dotfill \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 1 (2,5 điểm). Tính giá trị của biểu thức:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$A = \dfrac{-5}{9} + \dfrac{4}{15} : \dfrac{8}{5}$} & 
+\oBaiTap[8]{b)}{$B = \dfrac{8}{17} \cdot \dfrac{4}{9} + \dfrac{8}{17} \cdot \dfrac{5}{9} - \dfrac{3}{17}$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Tìm $x$ biết:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[8]{a)}{$x - \dfrac{2}{5} = \dfrac{3}{10}$} & 
+\oBaiTap[8]{b)}{$\dfrac{3}{4} - \left(x + \dfrac{1}{3}\right) = \dfrac{1}{6}$} \\
+\hline
+\end{tabularx}
+
+\vspace{3.5mm}
+
+\noindent\textbf{\large Câu 3 (2,0 điểm). Bài toán thực tế:}
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.8mm}
+Một mảnh vườn hình chữ nhật có chiều dài $\dfrac{35}{2}\text{ m}$, chiều rộng bằng $\dfrac{3}{5}$ chiều dài. Tính diện tích của mảnh vườn đó.
+\par\vspace{1.5mm}
+\noindent\textit{Bài giải:}
+\dongke{11}
+\\ \hline
+\end{tabularx}
+
+\end{document}

@@ -1,0 +1,235 @@
+```json
+{
+  "codes": {
+    "101": {
+      "mcq": [
+        {
+          "q": "Căn bậc hai số học của $49$ là",
+          "A": "$7$",
+          "B": "$-7$",
+          "C": "$\\pm 7$",
+          "D": "$49$",
+          "ans": "A"
+        },
+        {
+          "q": "Điều kiện xác định của biểu thức $\\sqrt{2x-4}$ là",
+          "A": "$x \\le 2$",
+          "B": "$x \\ge 2$",
+          "C": "$x > 2$",
+          "D": "$x < 2$",
+          "ans": "B"
+        },
+        {
+          "q": "Rút gọn biểu thức $\\sqrt{(2-\\sqrt{5})^2}$ ta được kết quả là",
+          "A": "$2-\\sqrt{5}$",
+          "B": "$-2-\\sqrt{5}$",
+          "C": "$\\sqrt{5}-2$",
+          "D": "$2+\\sqrt{5}$",
+          "ans": "C"
+        },
+        {
+          "q": "So sánh $3$ và $\\sqrt{10}$, ta có kết luận nào sau đây đúng?",
+          "A": "$3 > \\sqrt{10}$",
+          "B": "$3 = \\sqrt{10}$",
+          "C": "Không thể so sánh",
+          "D": "$3 < \\sqrt{10}$",
+          "ans": "D"
+        },
+        {
+          "q": "Cặp số nào sau đây là nghiệm của hệ phương trình $\\begin{cases} x+y=3 \\\\ 2x-y=3 \\end{cases}$?",
+          "A": "$(2; 1)$",
+          "B": "$(1; 2)$",
+          "C": "$(-2; 1)$",
+          "D": "$(2; -1)$",
+          "ans": "A"
+        }
+      ],
+      "c1": {
+        "a": "\\begin{cases} 2x + y = 5 \\\\ x - y = 1 \\end{cases}",
+        "b": "\\begin{cases} \\dfrac{2}{x} + \\dfrac{1}{y} = 3 \\\\ \\dfrac{1}{x} - \\dfrac{1}{y} = 0 \\end{cases}"
+      },
+      "c2": {
+        "a": "A = \\dfrac{2\\sqrt{x}+6}{x-9} - \\dfrac{2}{3-\\sqrt{x}} \\quad \\text{với } x \\ge 0, x \\ne 9",
+        "b": "B = \\dfrac{1}{\\sqrt{x}+2} + \\dfrac{1}{\\sqrt{x}-2} + \\dfrac{\\sqrt{x}-6}{x-4} \\quad \\text{với } x \\ge 0, x \\ne 4"
+      },
+      "c3": {
+        "text": "Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $5$ mét và diện tích bằng $150$ m$^2$.",
+        "sub_a": "Tìm chiều dài và chiều rộng ban đầu của khu vườn.",
+        "sub_b": "Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $2$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?"
+      }
+    },
+    "102": {
+      "mcq": [
+        {
+          "q": "Căn bậc hai số học của $64$ là",
+          "A": "$\\pm 8$",
+          "B": "$8$",
+          "C": "$-8$",
+          "D": "$64$",
+          "ans": "B"
+        },
+        {
+          "q": "Điều kiện xác định của biểu thức $\\sqrt{6-3x}$ là",
+          "A": "$x \\ge 2$",
+          "B": "$x > 2$",
+          "C": "$x \\le 2$",
+          "D": "$x < 2$",
+          "ans": "C"
+        },
+        {
+          "q": "Rút gọn biểu thức $\\sqrt{(3-\\sqrt{10})^2}$ ta được kết quả là",
+          "A": "$3-\\sqrt{10}$",
+          "B": "$3+\\sqrt{10}$",
+          "C": "$-3-\\sqrt{10}$",
+          "D": "$\\sqrt{10}-3$",
+          "ans": "D"
+        },
+        {
+          "q": "So sánh $2\\sqrt{3}$ và $3\\sqrt{2}$, ta có kết luận nào sau đây đúng?",
+          "A": "$2\\sqrt{3} < 3\\sqrt{2}$",
+          "B": "$2\\sqrt{3} > 3\\sqrt{2}$",
+          "C": "$2\\sqrt{3} = 3\\sqrt{2}$",
+          "D": "Không thể so sánh",
+          "ans": "A"
+        },
+        {
+          "q": "Cặp số nào sau đây là nghiệm của hệ phương trình $\\begin{cases} x-2y=0 \\\\ x+y=3 \\end{cases}$?",
+          "A": "$(1; 2)$",
+          "B": "$(2; 1)$",
+          "C": "$(-2; 1)$",
+          "D": "$(2; -1)$",
+          "ans": "B"
+        }
+      ],
+      "c1": {
+        "a": "\\begin{cases} 3x - y = 4 \\\\ x + y = 4 \\end{cases}",
+        "b": "\\begin{cases} \\dfrac{3}{x} - \\dfrac{2}{y} = 1 \\\\ \\dfrac{1}{x} + \\dfrac{2}{y} = 3 \\end{cases}"
+      },
+      "c2": {
+        "a": "A = \\dfrac{3\\sqrt{x}+12}{x-16} - \\dfrac{2}{4-\\sqrt{x}} \\quad \\text{với } x \\ge 0, x \\ne 16",
+        "b": "B = \\dfrac{2}{\\sqrt{x}+3} + \\dfrac{2}{\\sqrt{x}-3} + \\dfrac{\\sqrt{x}-15}{x-9} \\quad \\text{với } x \\ge 0, x \\ne 9"
+      },
+      "c3": {
+        "text": "Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $4$ mét và diện tích bằng $96$ m$^2$.",
+        "sub_a": "Tìm chiều dài và chiều rộng ban đầu của khu vườn.",
+        "sub_b": "Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $3$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?"
+      }
+    },
+    "103": {
+      "mcq": [
+        {
+          "q": "Căn bậc hai số học của $81$ là",
+          "A": "$-9$",
+          "B": "$\\pm 9$",
+          "C": "$9$",
+          "D": "$81$",
+          "ans": "C"
+        },
+        {
+          "q": "Điều kiện xác định của biểu thức $\\sqrt{3x-9}$ là",
+          "A": "$x \\le 3$",
+          "B": "$x < 3$",
+          "C": "$x > 3$",
+          "D": "$x \\ge 3$",
+          "ans": "D"
+        },
+        {
+          "q": "Rút gọn biểu thức $\\sqrt{(4-\\sqrt{17})^2}$ ta được kết quả là",
+          "A": "$\\sqrt{17}-4$",
+          "B": "$4-\\sqrt{17}$",
+          "C": "$4+\\sqrt{17}$",
+          "D": "$-4-\\sqrt{17}$",
+          "ans": "A"
+        },
+        {
+          "q": "So sánh $4$ và $\\sqrt{15}$, ta có kết luận nào sau đây đúng?",
+          "A": "$4 < \\sqrt{15}$",
+          "B": "$4 > \\sqrt{15}$",
+          "C": "$4 = \\sqrt{15}$",
+          "D": "Không thể so sánh",
+          "ans": "B"
+        },
+        {
+          "q": "Cặp số nào sau đây là nghiệm của hệ phương trình $\\begin{cases} 2x+y=5 \\\\ x-2y=0 \\end{cases}$?",
+          "A": "$(1; 2)$",
+          "B": "$(-2; 1)$",
+          "C": "$(2; 1)$",
+          "D": "$(2; -1)$",
+          "ans": "C"
+        }
+      ],
+      "c1": {
+        "a": "\\begin{cases} x + 2y = 7 \\\\ 2x - y = 4 \\end{cases}",
+        "b": "\\begin{cases} \\dfrac{4}{x} + \\dfrac{1}{y} = 5 \\\\ \\dfrac{2}{x} - \\dfrac{1}{y} = 1 \\end{cases}"
+      },
+      "c2": {
+        "a": "A = \\dfrac{4\\sqrt{x}+20}{x-25} - \\dfrac{3}{5-\\sqrt{x}} \\quad \\text{với } x \\ge 0, x \\ne 25",
+        "b": "B = \\dfrac{3}{\\sqrt{x}+1} + \\dfrac{3}{\\sqrt{x}-1} + \\dfrac{\\sqrt{x}-7}{x-1} \\quad \\text{với } x \\ge 0, x \\ne 1"
+      },
+      "c3": {
+        "text": "Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $6$ mét và diện tích bằng $112$ m$^2$.",
+        "sub_a": "Tìm chiều dài và chiều rộng ban đầu của khu vườn.",
+        "sub_b": "Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $4$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?"
+      }
+    },
+    "104": {
+      "mcq": [
+        {
+          "q": "Căn bậc hai số học của $36$ là",
+          "A": "$36$",
+          "B": "$-6$",
+          "C": "$\\pm 6$",
+          "D": "$6$",
+          "ans": "D"
+        },
+        {
+          "q": "Điều kiện xác định của biểu thức $\\sqrt{8-4x}$ là",
+          "A": "$x \\le 2$",
+          "B": "$x \\ge 2$",
+          "C": "$x < 2$",
+          "D": "$x > 2$",
+          "ans": "A"
+        },
+        {
+          "q": "Rút gọn biểu thức $\\sqrt{(5-\\sqrt{26})^2}$ ta được kết quả là",
+          "A": "$5-\\sqrt{26}$",
+          "B": "$\\sqrt{26}-5$",
+          "C": "$-5-\\sqrt{26}$",
+          "D": "$5+\\sqrt{26}$",
+          "ans": "B"
+        },
+        {
+          "q": "So sánh $3\\sqrt{5}$ và $4\\sqrt{3}$, ta có kết luận nào sau đây đúng?",
+          "A": "$3\\sqrt{5} > 4\\sqrt{3}$",
+          "B": "$3\\sqrt{5} = 4\\sqrt{3}$",
+          "C": "$3\\sqrt{5} < 4\\sqrt{3}$",
+          "D": "Không thể so sánh",
+          "ans": "C"
+        },
+        {
+          "q": "Cặp số nào sau đây là nghiệm của hệ phương trình $\\begin{cases} 3x-y=5 \\\\ x+y=3 \\end{cases}$?",
+          "A": "$(1; 2)$",
+          "B": "$(-2; 1)$",
+          "C": "$(2; -1)$",
+          "D": "$(2; 1)$",
+          "ans": "D"
+        }
+      ],
+      "c1": {
+        "a": "\\begin{cases} 2x - 3y = 1 \\\\ x + 3y = 14 \\end{cases}",
+        "b": "\\begin{cases} \\dfrac{1}{x} + \\dfrac{3}{y} = 4 \\\\ \\dfrac{2}{x} - \\dfrac{3}{y} = -1 \\end{cases}"
+      },
+      "c2": {
+        "a": "A = \\dfrac{5\\sqrt{x}+10}{x-4} - \\dfrac{4}{2-\\sqrt{x}} \\quad \\text{với } x \\ge 0, x \\ne 4",
+        "b": "B = \\dfrac{4}{\\sqrt{x}+4} + \\dfrac{4}{\\sqrt{x}-4} + \\dfrac{\\sqrt{x}-36}{x-16} \\quad \\text{với } x \\ge 0, x \\ne 16"
+      },
+      "c3": {
+        "text": "Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $7$ mét và diện tích bằng $144$ m$^2$.",
+        "sub_a": "Tìm chiều dài và chiều rộng ban đầu của khu vườn.",
+        "sub_b": "Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $5$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?"
+      }
+    }
+  },
+  "solutions_markdown": "## ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM CHI TIẾT\n\n### PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)\n*Mỗi câu trắc nghiệm đúng được 0,5 điểm.*\n\n| Câu | Mã 101 | Mã 102 | Mã 103 | Mã 104 |\n| :---: | :---: | :---: | :---: | :---: |\n| **1** | A | B | C | D |\n| **2** | B | C | D | A |\n| **3** | C | D | A | B |\n| **4** | D | A | B | C |\n| **5** | A | B | C | D |\n\n---\n\n### PHẦN II. TỰ LUẬN (7,5 điểm)\n\n#### **Câu 1 (2,5 điểm)**\n**a) (1,25 điểm) Giải hệ phương trình cơ bản**\n* **Mã 101:** $\\begin{cases} 2x + y = 5 \\\\ x - y = 1 \\end{cases} \\Leftrightarrow \\begin{cases} 3x = 6 \\\\ y = x - 1 \\end{cases} \\Leftrightarrow \\begin{cases} x = 2 \\\\ y = 1 \\end{cases}$. Vậy hệ có nghiệm $(x; y) = (2; 1)$.\n* **Mã 102:** $\\begin{cases} 3x - y = 4 \\\\ x + y = 4 \\end{cases} \\Leftrightarrow \\begin{cases} 4x = 8 \\\\ y = 4 - x \\end{cases} \\Leftrightarrow \\begin{cases} x = 2 \\\\ y = 2 \\end{cases}$. Vậy hệ có nghiệm $(x; y) = (2; 2)$.\n* **Mã 103:** $\\begin{cases} x + 2y = 7 \\\\ 2x - y = 4 \\end{cases} \\Leftrightarrow \\begin{cases} x + 2y = 7 \\\\ 4x - 2y = 8 \\end{cases} \\Leftrightarrow \\begin{cases} 5x = 15 \\\\ y = 2x - 4 \\end{cases} \\Leftrightarrow \\begin{cases} x = 3 \\\\ y = 2 \\end{cases}$. Vậy hệ có nghiệm $(x; y) = (3; 2)$.\n* **Mã 104:** $\\begin{cases} 2x - 3y = 1 \\\\ x + 3y = 14 \\end{cases} \\Leftrightarrow \\begin{cases} 3x = 15 \\\\ 3y = 14 - x \\end{cases} \\Leftrightarrow \\begin{cases} x = 5 \\\\ y = 3 \\end{cases}$. Vậy hệ có nghiệm $(x; y) = (5; 3)$.\n\n*Thang điểm chung câu 1a:*\n- Biến đổi đúng để triệt tiêu 1 ẩn: 0,5đ\n- Tìm được đúng 1 ẩn: 0,5đ\n- Tìm được ẩn còn lại và kết luận: 0,25đ\n\n**b) (1,25 điểm) Giải hệ phương trình đặt ẩn phụ**\n* **Mã 101:** ĐKXĐ: $x \\ne 0, y \\ne 0$. Đặt $u = \\dfrac{1}{x}, v = \\dfrac{1}{y}$. Hệ thành $\\begin{cases} 2u + v = 3 \\\\ u - v = 0 \\end{cases} \\Rightarrow 3u = 3 \\Rightarrow u = 1 \\Rightarrow v = 1$. Suy ra $x = 1, y = 1$ (TMĐK). Kết luận.\n* **Mã 102:** ĐKXĐ: $x \\ne 0, y \\ne 0$. Đặt $u = \\dfrac{1}{x}, v = \\dfrac{1}{y}$. Hệ thành $\\begin{cases} 3u - 2v = 1 \\\\ u + 2v = 3 \\end{cases} \\Rightarrow 4u = 4 \\Rightarrow u = 1 \\Rightarrow v = 1$. Suy ra $x = 1, y = 1$ (TMĐK). Kết luận.\n* **Mã 103:** ĐKXĐ: $x \\ne 0, y \\ne 0$. Đặt $u = \\dfrac{1}{x}, v = \\dfrac{1}{y}$. Hệ thành $\\begin{cases} 4u + v = 5 \\\\ 2u - v = 1 \\end{cases} \\Rightarrow 6u = 6 \\Rightarrow u = 1 \\Rightarrow v = 1$. Suy ra $x = 1, y = 1$ (TMĐK). Kết luận.\n* **Mã 104:** ĐKXĐ: $x \\ne 0, y \\ne 0$. Đặt $u = \\dfrac{1}{x}, v = \\dfrac{1}{y}$. Hệ thành $\\begin{cases} u + 3v = 4 \\\\ 2u - 3v = -1 \\end{cases} \\Rightarrow 3u = 3 \\Rightarrow u = 1 \\Rightarrow v = 1$. Suy ra $x = 1, y = 1$ (TMĐK). Kết luận.\n\n*Thang điểm chung câu 1b:*\n- Nêu ĐKXĐ đúng: 0,25đ\n- Đặt ẩn phụ và đưa về hệ mới đúng: 0,25đ\n- Giải hệ mới tìm được $u, v$: 0,25đ\n- Suy ra $x, y$ đúng: 0,25đ\n- Đối chiếu ĐK và kết luận: 0,25đ\n\n---\n\n#### **Câu 2 (2,5 điểm)**\n**a) (1,25 điểm) Rút gọn biểu thức A**\n* **Mã 101:** $A = \\dfrac{2\\sqrt{x}+6}{x-9} + \\dfrac{2}{\\sqrt{x}-3} = \\dfrac{2\\sqrt{x}+6 + 2(\\sqrt{x}+3)}{(\\sqrt{x}-3)(\\sqrt{x}+3)} = \\dfrac{4\\sqrt{x}+12}{(\\sqrt{x}-3)(\\sqrt{x}+3)} = \\dfrac{4(\\sqrt{x}+3)}{(\\sqrt{x}-3)(\\sqrt{x}+3)} = \\dfrac{4}{\\sqrt{x}-3}$.\n* **Mã 102:** $A = \\dfrac{3\\sqrt{x}+12}{x-16} + \\dfrac{2}{\\sqrt{x}-4} = \\dfrac{3\\sqrt{x}+12 + 2(\\sqrt{x}+4)}{(\\sqrt{x}-4)(\\sqrt{x}+4)} = \\dfrac{5\\sqrt{x}+20}{(\\sqrt{x}-4)(\\sqrt{x}+4)} = \\dfrac{5(\\sqrt{x}+4)}{(\\sqrt{x}-4)(\\sqrt{x}+4)} = \\dfrac{5}{\\sqrt{x}-4}$.\n* **Mã 103:** $A = \\dfrac{4\\sqrt{x}+20}{x-25} + \\dfrac{3}{\\sqrt{x}-5} = \\dfrac{4\\sqrt{x}+20 + 3(\\sqrt{x}+5)}{(\\sqrt{x}-5)(\\sqrt{x}+5)} = \\dfrac{7\\sqrt{x}+35}{(\\sqrt{x}-5)(\\sqrt{x}+5)} = \\dfrac{7(\\sqrt{x}+5)}{(\\sqrt{x}-5)(\\sqrt{x}+5)} = \\dfrac{7}{\\sqrt{x}-5}$.\n* **Mã 104:** $A = \\dfrac{5\\sqrt{x}+10}{x-4} + \\dfrac{4}{\\sqrt{x}-2} = \\dfrac{5\\sqrt{x}+10 + 4(\\sqrt{x}+2)}{(\\sqrt{x}-2)(\\sqrt{x}+2)} = \\dfrac{9\\sqrt{x}+18}{(\\sqrt{x}-2)(\\sqrt{x}+2)} = \\dfrac{9(\\sqrt{x}+2)}{(\\sqrt{x}-2)(\\sqrt{x}+2)} = \\dfrac{9}{\\sqrt{x}-2}$.\n\n*Thang điểm chung câu 2a:*\n- Đổi dấu và quy đồng mẫu thức chung đúng: 0,5đ\n- Cộng tử thức và thu gọn tử thức đúng: 0,5đ\n- Phân tích tử thành nhân tử và rút gọn ra kết quả cuối: 0,25đ\n\n**b) (1,25 điểm) Rút gọn biểu thức B**\n* **Mã 101:** $B = \\dfrac{\\sqrt{x}-2 + \\sqrt{x}+2 + \\sqrt{x}-6}{(\\sqrt{x}-2)(\\sqrt{x}+2)} = \\dfrac{3\\sqrt{x}-6}{(\\sqrt{x}-2)(\\sqrt{x}+2)} = \\dfrac{3(\\sqrt{x}-2)}{(\\sqrt{x}-2)(\\sqrt{x}+2)} = \\dfrac{3}{\\sqrt{x}+2}$.\n* **Mã 102:** $B = \\dfrac{2(\\sqrt{x}-3) + 2(\\sqrt{x}+3) + \\sqrt{x}-15}{(\\sqrt{x}-3)(\\sqrt{x}+3)} = \\dfrac{5\\sqrt{x}-15}{(\\sqrt{x}-3)(\\sqrt{x}+3)} = \\dfrac{5(\\sqrt{x}-3)}{(\\sqrt{x}-3)(\\sqrt{x}+3)} = \\dfrac{5}{\\sqrt{x}+3}$.\n* **Mã 103:** $B = \\dfrac{3(\\sqrt{x}-1) + 3(\\sqrt{x}+1) + \\sqrt{x}-7}{(\\sqrt{x}-1)(\\sqrt{x}+1)} = \\dfrac{7\\sqrt{x}-7}{(\\sqrt{x}-1)(\\sqrt{x}+1)} = \\dfrac{7(\\sqrt{x}-1)}{(\\sqrt{x}-1)(\\sqrt{x}+1)} = \\dfrac{7}{\\sqrt{x}+1}$.\n* **Mã 104:** $B = \\dfrac{4(\\sqrt{x}-4) + 4(\\sqrt{x}+4) + \\sqrt{x}-36}{(\\sqrt{x}-4)(\\sqrt{x}+4)} = \\dfrac{9\\sqrt{x}-36}{(\\sqrt{x}-4)(\\sqrt{x}+4)} = \\dfrac{9(\\sqrt{x}-4)}{(\\sqrt{x}-4)(\\sqrt{x}+4)} = \\dfrac{9}{\\sqrt{x}+4}$.\n\n*Thang điểm chung câu 2b:*\n- Quy đồng mẫu thức chung đúng: 0,5đ\n- Nhân phá ngoặc và thu gọn tử thức đúng: 0,5đ\n- Phân tích tử thành nhân tử và rút gọn ra kết quả cuối: 0,25đ\n\n---\n\n#### **Câu 3 (2,5 điểm)**\n**a) (1,5 điểm) Tìm chiều dài và chiều rộng**\n*Gọi chiều rộng khu vườn là $x$ (m), ĐK: $x > 0$. Chiều dài khu vườn là $x + d$ (m).* \n*Diện tích là $S$ nên ta có phương trình: $x(x + d) = S \\Leftrightarrow x^2 + dx - S = 0$.*\n\n* **Mã 101:** $x(x+5) = 150 \\Leftrightarrow x^2 + 5x - 150 = 0$. Giải PT được $x = 10$ (TM), $x = -15$ (Loại). Chiều rộng $10$m, chiều dài $15$m.\n* **Mã 102:** $x(x+4) = 96 \\Leftrightarrow x^2 + 4x - 96 = 0$. Giải PT được $x = 8$ (TM), $x = -12$ (Loại). Chiều rộng $8$m, chiều dài $12$m.\n* **Mã 103:** $x(x+6) = 112 \\Leftrightarrow x^2 + 6x - 112 = 0$. Giải PT được $x = 8$ (TM), $x = -14$ (Loại). Chiều rộng $8$m, chiều dài $14$m.\n* **Mã 104:** $x(x+7) = 144 \\Leftrightarrow x^2 + 7x - 144 = 0$. Giải PT được $x = 9$ (TM), $x = -16$ (Loại). Chiều rộng $9$m, chiều dài $16$m.\n\n*Thang điểm chung câu 3a:*\n- Gọi ẩn, đặt đơn vị và điều kiện đúng: 0,25đ\n- Biểu diễn chiều dài và lập phương trình đúng: 0,5đ\n- Giải phương trình ra 2 nghiệm (nhận/loại): 0,5đ\n- Kết luận chiều dài, chiều rộng: 0,25đ\n\n**b) (1,0 điểm) Tính chiều dài bờ tường**\n*Công thức: Chiều dài bờ tường = Chu vi - Chiều rộng cổng = $2 \\times (\\text{Dài} + \\text{Rộng}) - w$.*\n\n* **Mã 101:** Chu vi = $2 \\times (10 + 15) = 50$ (m). Chiều dài tường = $50 - 2 = 48$ (m).\n* **Mã 102:** Chu vi = $2 \\times (8 + 12) = 40$ (m). Chiều dài tường = $40 - 3 = 37$ (m).\n* **Mã 103:** Chu vi = $2 \\times (8 + 14) = 44$ (m). Chiều dài tường = $44 - 4 = 40$ (m).\n* **Mã 104:** Chu vi = $2 \\times (9 + 16) = 50$ (m). Chiều dài tường = $50 - 5 = 45$ (m).\n\n*Thang điểm chung câu 3b:*\n- Tính đúng chu vi khu vườn: 0,5đ\n- Trừ đi phần cổng và ra kết quả đúng: 0,5đ\n*(Học sinh có thể gộp phép tính vẫn cho điểm tối đa phần này).* \n"
+}
+```

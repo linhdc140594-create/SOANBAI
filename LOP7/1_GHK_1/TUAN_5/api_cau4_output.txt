@@ -1,0 +1,207 @@
+Chào bạn, với tư cách là một chuyên gia sư phạm Toán THCS, tôi đã thiết kế **Câu 4 (2,5 điểm)** bám sát theo đúng tinh thần của bộ sách **Kết nối tri thức với cuộc sống** (Chương 3: Góc và đường thẳng song song). 
+
+Ngôn ngữ hình học được sử dụng chuẩn mực, các bước suy luận logic phù hợp với học sinh lớp 7 ở Tuần 5. Thang điểm được chia nhỏ đến $0.25đ$ và $0.625đ$ theo đúng yêu cầu của bạn (mỗi ý $1.25đ$ chia đều cho 2 góc, mỗi góc $0.625đ$).
+
+Dưới đây là nội dung chi tiết cho 4 mã đề:
+
+---
+
+### PHẦN 1: NỘI DUNG ĐỀ KIỂM TRA (4 MÃ ĐỀ)
+
+*Quy ước đánh số góc trên hình vẽ (áp dụng chung): Góc 1 (Trên - Phải), Góc 2 (Trên - Trái), Góc 3 (Dưới - Trái), Góc 4 (Dưới - Phải).*
+
+**Mã đề 101:**
+Cho hình vẽ, biết hai đường thẳng $a$ và $b$ song song với nhau ($a \parallel b$) và bị cắt bởi cát tuyến $c$ tại hai điểm $A, B$. Cho biết số đo góc $\widehat{A_1} = 60^\circ$.
+a) (1.25đ) Tính số đo góc $\widehat{A_2}$ (kề bù với $\widehat{A_1}$) và góc $\widehat{A_3}$ (đối đỉnh với $\widehat{A_1}$).
+b) (1.25đ) Vận dụng tính chất hai đường thẳng song song, hãy tính số đo góc $\widehat{B_3}$ và góc $\widehat{B_1}$.
+
+**Mã đề 102:**
+Cho hình vẽ, biết hai đường thẳng $a$ và $b$ song song với nhau ($a \parallel b$) và bị cắt bởi cát tuyến $c$ tại hai điểm $A, B$. Cho biết số đo góc $\widehat{A_2} = 110^\circ$.
+a) (1.25đ) Tính số đo góc $\widehat{A_1}$ (kề bù với $\widehat{A_2}$) và góc $\widehat{A_4}$ (đối đỉnh với $\widehat{A_2}$).
+b) (1.25đ) Vận dụng tính chất hai đường thẳng song song, hãy tính số đo góc $\widehat{B_4}$ và góc $\widehat{B_2}$.
+
+**Mã đề 103:**
+Cho hình vẽ, biết hai đường thẳng $a$ và $b$ song song với nhau ($a \parallel b$) và bị cắt bởi cát tuyến $c$ tại hai điểm $A, B$. Cho biết số đo góc $\widehat{A_3} = 45^\circ$.
+a) (1.25đ) Tính số đo góc $\widehat{A_4}$ (kề bù với $\widehat{A_3}$) và góc $\widehat{A_1}$ (đối đỉnh với $\widehat{A_3}$).
+b) (1.25đ) Vận dụng tính chất hai đường thẳng song song, hãy tính số đo góc $\widehat{B_1}$ và góc $\widehat{B_3}$.
+
+**Mã đề 104:**
+Cho hình vẽ, biết hai đường thẳng $a$ và $b$ song song với nhau ($a \parallel b$) và bị cắt bởi cát tuyến $c$ tại hai điểm $A, B$. Cho biết số đo góc $\widehat{A_4} = 130^\circ$.
+a) (1.25đ) Tính số đo góc $\widehat{A_3}$ (kề bù với $\widehat{A_4}$) và góc $\widehat{A_2}$ (đối đỉnh với $\widehat{A_4}$).
+b) (1.25đ) Vận dụng tính chất hai đường thẳng song song, hãy tính số đo góc $\widehat{B_2}$ và góc $\widehat{B_4}$.
+
+---
+
+### PHẦN 2: ĐÁP ÁN VÀ BAREM CHẤM CHI TIẾT
+
+Cấu trúc điểm cho mỗi góc cần tính là **0.625đ** (gồm: *Nêu đúng mối quan hệ/lý luận: 0.25đ + Thay số và tính ra kết quả đúng: 0.375đ*).
+
+#### ĐÁP ÁN MÃ ĐỀ 101
+**a) (1.25đ)**
+*   Ta có $\widehat{A_1} + \widehat{A_2} = 180^\circ$ (hai góc kề bù) **(0.25đ)**
+    $\Rightarrow 60^\circ + \widehat{A_2} = 180^\circ \Rightarrow \widehat{A_2} = 180^\circ - 60^\circ = 120^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Ta có $\widehat{A_3} = \widehat{A_1}$ (hai góc đối đỉnh) **(0.25đ)**
+    $\Rightarrow \widehat{A_3} = 60^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+**b) (1.25đ)**
+*   Vì $a \parallel b$ nên $\widehat{B_3} = \widehat{A_3}$ (hai góc so le trong) **(0.25đ)**
+    $\Rightarrow \widehat{B_3} = 60^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Vì $a \parallel b$ nên $\widehat{B_1} = \widehat{A_1}$ (hai góc đồng vị) **(0.25đ)**
+    $\Rightarrow \widehat{B_1} = 60^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+#### ĐÁP ÁN MÃ ĐỀ 102
+**a) (1.25đ)**
+*   Ta có $\widehat{A_2} + \widehat{A_1} = 180^\circ$ (hai góc kề bù) **(0.25đ)**
+    $\Rightarrow 110^\circ + \widehat{A_1} = 180^\circ \Rightarrow \widehat{A_1} = 180^\circ - 110^\circ = 70^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Ta có $\widehat{A_4} = \widehat{A_2}$ (hai góc đối đỉnh) **(0.25đ)**
+    $\Rightarrow \widehat{A_4} = 110^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+**b) (1.25đ)**
+*   Vì $a \parallel b$ nên $\widehat{B_4} = \widehat{A_4}$ (hai góc so le trong) **(0.25đ)**
+    $\Rightarrow \widehat{B_4} = 110^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Vì $a \parallel b$ nên $\widehat{B_2} = \widehat{A_2}$ (hai góc đồng vị) **(0.25đ)**
+    $\Rightarrow \widehat{B_2} = 110^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+#### ĐÁP ÁN MÃ ĐỀ 103
+**a) (1.25đ)**
+*   Ta có $\widehat{A_3} + \widehat{A_4} = 180^\circ$ (hai góc kề bù) **(0.25đ)**
+    $\Rightarrow 45^\circ + \widehat{A_4} = 180^\circ \Rightarrow \widehat{A_4} = 180^\circ - 45^\circ = 135^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Ta có $\widehat{A_1} = \widehat{A_3}$ (hai góc đối đỉnh) **(0.25đ)**
+    $\Rightarrow \widehat{A_1} = 45^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+**b) (1.25đ)**
+*   Vì $a \parallel b$ nên $\widehat{B_1} = \widehat{A_1}$ (hai góc so le trong) **(0.25đ)**
+    $\Rightarrow \widehat{B_1} = 45^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Vì $a \parallel b$ nên $\widehat{B_3} = \widehat{A_3}$ (hai góc đồng vị) **(0.25đ)**
+    $\Rightarrow \widehat{B_3} = 45^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+#### ĐÁP ÁN MÃ ĐỀ 104
+**a) (1.25đ)**
+*   Ta có $\widehat{A_4} + \widehat{A_3} = 180^\circ$ (hai góc kề bù) **(0.25đ)**
+    $\Rightarrow 130^\circ + \widehat{A_3} = 180^\circ \Rightarrow \widehat{A_3} = 180^\circ - 130^\circ = 50^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Ta có $\widehat{A_2} = \widehat{A_4}$ (hai góc đối đỉnh) **(0.25đ)**
+    $\Rightarrow \widehat{A_2} = 130^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+**b) (1.25đ)**
+*   Vì $a \parallel b$ nên $\widehat{B_2} = \widehat{A_2}$ (hai góc so le trong) **(0.25đ)**
+    $\Rightarrow \widehat{B_2} = 130^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+*   Vì $a \parallel b$ nên $\widehat{B_4} = \widehat{A_4}$ (hai góc đồng vị) **(0.25đ)**
+    $\Rightarrow \widehat{B_4} = 130^\circ$ **(0.375đ)** *(Cộng: 0.625đ)*
+
+---
+
+### PHẦN 3: MÃ TIKZ VẼ HÌNH CHUẨN ĐẸP
+
+Bạn chỉ cần copy/paste đoạn mã dưới đây vào trình biên dịch LaTeX (như Overleaf hoặc TeXstudio). Hình vẽ được căn chỉnh góc cắt chính xác theo từng mã đề, có vòng cung đánh dấu góc đã cho rất trực quan.
+
+```latex
+\documentclass{article}
+\usepackage{tikz}
+\begin{document}
+
+% ================= MÃ ĐỀ 101 (Góc 60 độ) =================
+\begin{tikzpicture}[>=stealth, scale=1.2]
+    \draw[thick] (-1.5, 2) -- (3.5, 2) node[right] {$a$};
+    \draw[thick] (-1.5, 0) -- (3.5, 0) node[right] {$b$};
+    % Cát tuyến c tạo góc 60 độ
+    \draw[thick] (-0.5, -1) -- (1.5, 3) node[above] {$c$};
+    
+    \coordinate (A) at (1, 2);
+    \coordinate (B) at (0, 0);
+    
+    \fill (A) circle (1.5pt) node[above left] {$A$};
+    \fill (B) circle (1.5pt) node[below right] {$B$};
+    
+    % Ký hiệu góc A1
+    \draw (1.3, 2) arc (0:63.4:0.3);
+    \node at (1.5, 2.3) {$60^\circ$};
+    
+    % Đánh số các góc
+    \node at (1.25, 2.15) {$1$}; \node at (0.7, 2.15) {$2$};
+    \node at (0.75, 1.8) {$3$}; \node at (1.3, 1.8) {$4$};
+    
+    \node at (0.25, 0.15) {$1$}; \node at (-0.3, 0.15) {$2$};
+    \node at (-0.25, -0.2) {$3$}; \node at (0.3, -0.2) {$4$};
+\end{tikzpicture}
+\vspace{1cm}
+
+% ================= MÃ ĐỀ 102 (Góc 110 độ) =================
+\begin{tikzpicture}[>=stealth, scale=1.2]
+    \draw[thick] (-2, 2) -- (3, 2) node[right] {$a$};
+    \draw[thick] (-2, 0) -- (3, 0) node[right] {$b$};
+    % Cát tuyến c tạo góc 70 độ (để góc tù là 110)
+    \draw[thick] (-0.5, -1) -- (1, 3) node[above] {$c$};
+    
+    \coordinate (A) at (0.625, 2);
+    \coordinate (B) at (-0.125, 0);
+    
+    \fill (A) circle (1.5pt) node[above right] {$A$};
+    \fill (B) circle (1.5pt) node[below right] {$B$};
+    
+    % Ký hiệu góc A2
+    \draw (0.325, 2) arc (180:69.4:0.3);
+    \node at (0.1, 2.4) {$110^\circ$};
+    
+    % Đánh số các góc
+    \node at (0.85, 2.2) {$1$}; \node at (0.4, 2.2) {$2$};
+    \node at (0.4, 1.8) {$3$}; \node at (0.85, 1.8) {$4$};
+    
+    \node at (0.1, 0.2) {$1$}; \node at (-0.35, 0.2) {$2$};
+    \node at (-0.35, -0.2) {$3$}; \node at (0.1, -0.2) {$4$};
+\end{tikzpicture}
+\vspace{1cm}
+
+% ================= MÃ ĐỀ 103 (Góc 45 độ) =================
+\begin{tikzpicture}[>=stealth, scale=1.2]
+    \draw[thick] (-1.5, 2) -- (3.5, 2) node[right] {$a$};
+    \draw[thick] (-1.5, 0) -- (3.5, 0) node[right] {$b$};
+    % Cát tuyến c tạo góc 45 độ
+    \draw[thick] (-1, -1) -- (3, 3) node[above] {$c$};
+    
+    \coordinate (A) at (2, 2);
+    \coordinate (B) at (0, 0);
+    
+    \fill (A) circle (1.5pt) node[above left] {$A$};
+    \fill (B) circle (1.5pt) node[below right] {$B$};
+    
+    % Ký hiệu góc A3
+    \draw (1.7, 2) arc (180:225:0.3);
+    \node at (1.4, 1.7) {$45^\circ$};
+    
+    % Đánh số các góc
+    \node at (2.3, 2.15) {$1$}; \node at (1.7, 2.15) {$2$};
+    \node at (1.7, 1.85) {$3$}; \node at (2.3, 1.85) {$4$};
+    
+    \node at (0.3, 0.15) {$1$}; \node at (-0.3, 0.15) {$2$};
+    \node at (-0.3, -0.15) {$3$}; \node at (0.3, -0.15) {$4$};
+\end{tikzpicture}
+\vspace{1cm}
+
+% ================= MÃ ĐỀ 104 (Góc 130 độ) =================
+\begin{tikzpicture}[>=stealth, scale=1.2]
+    \draw[thick] (-2, 2) -- (3, 2) node[right] {$a$};
+    \draw[thick] (-2, 0) -- (3, 0) node[right] {$b$};
+    % Cát tuyến c tạo góc 50 độ
+    \draw[thick] (-0.8, -1) -- (2.5, 3) node[above] {$c$};
+    
+    \coordinate (A) at (1.67, 2);
+    \coordinate (B) at (0.03, 0);
+    
+    \fill (A) circle (1.5pt) node[above left] {$A$};
+    \fill (B) circle (1.5pt) node[above left] {$B$};
+    
+    % Ký hiệu góc A4
+    \draw (1.97, 2) arc (0:-129:0.3);
+    \node at (2.2, 1.6) {$130^\circ$};
+    
+    % Đánh số các góc
+    \node at (1.9, 2.2) {$1$}; \node at (1.4, 2.2) {$2$};
+    \node at (1.4, 1.8) {$3$}; \node at (1.9, 1.8) {$4$};
+    
+    \node at (0.25, 0.2) {$1$}; \node at (-0.25, 0.2) {$2$};
+    \node at (-0.25, -0.2) {$3$}; \node at (0.25, -0.2) {$4$};
+\end{tikzpicture}
+
+\end{document}
+```
+*Chúc thầy/cô có một tiết kiểm tra thành công và đánh giá đúng năng lực học sinh!*

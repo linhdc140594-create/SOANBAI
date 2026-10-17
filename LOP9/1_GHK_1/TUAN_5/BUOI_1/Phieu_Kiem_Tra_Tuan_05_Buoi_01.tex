@@ -1,0 +1,463 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 20.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=20.5pt%
+  \vspace{1.5mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{1mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm 1 cột: 4 đáp án dàn hàng ngang trên 1 dòng
+\newcommand{\cauTN}[6]{% \cauTN{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+% Câu trắc nghiệm 2 dòng: mỗi dòng 2 đáp án (dành cho câu có đáp án dài)
+\newcommand{\cauTNB}[6]{% \cauTNB{số câu}{đề}{A}{B}{C}{D}
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.4mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.8mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình \& Rút gọn phân thức chứa căn bậc hai} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+\cauTN{1}{Căn bậc hai số học của $49$ là}{$7$}{$-7$}{$\pm 7$}{$49$}
+\cauTN{2}{Điều kiện xác định của biểu thức $\sqrt{2x-4}$ là}{$x \le 2$}{$x \ge 2$}{$x > 2$}{$x < 2$}
+\cauTN{3}{Rút gọn biểu thức $\sqrt{(2-\sqrt{5})^2}$ ta được kết quả là}{$2-\sqrt{5}$}{$-2-\sqrt{5}$}{$\sqrt{5}-2$}{$2+\sqrt{5}$}
+\cauTNB{4}{So sánh $3$ và $\sqrt{10}$, ta có kết luận nào sau đây đúng?}{$3 > \sqrt{10}$}{$3 = \sqrt{10}$}{Không thể so sánh}{$3 < \sqrt{10}$}
+\cauTN{5}{Cặp số nào sau đây là nghiệm của hệ phương trình $\begin{cases} x+y=3 \\ 2x-y=3 \end{cases}$?}{$(2; 1)$}{$(1; 2)$}{$(-2; 1)$}{$(2; -1)$}
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 3x + 2y = 7 \\ 2x + 3y = 8 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn các biểu thức phân thức chứa căn sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$A = \dfrac{2\sqrt{x}+6}{x-9} - \dfrac{2}{3-\sqrt{x}}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 9$)}} & 
+\oBaiTap[14]{b)}{$B = \dfrac{1}{\sqrt{x}+2} + \dfrac{1}{\sqrt{x}-2} + \dfrac{\sqrt{x}-6}{x-4}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 4$)}} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế hình học khu vườn (Trích Đề 25):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $5$ mét và diện tích bằng $150$ m$^2$.\par
+\vspace{0.5mm}
+$a)$ Tìm chiều dài và chiều rộng ban đầu của khu vườn.\par
+$b)$ Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $2$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình \& Rút gọn phân thức chứa căn bậc hai} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+\cauTN{1}{Căn bậc hai số học của $64$ là}{$\pm 8$}{$8$}{$-8$}{$64$}
+\cauTN{2}{Điều kiện xác định của biểu thức $\sqrt{6-3x}$ là}{$x \ge 2$}{$x > 2$}{$x \le 2$}{$x < 2$}
+\cauTN{3}{Rút gọn biểu thức $\sqrt{(3-\sqrt{10})^2}$ ta được kết quả là}{$3-\sqrt{10}$}{$3+\sqrt{10}$}{$-3-\sqrt{10}$}{$\sqrt{10}-3$}
+\cauTNB{4}{So sánh $2\sqrt{3}$ và $3\sqrt{2}$, ta có kết luận nào sau đây đúng?}{$2\sqrt{3} < 3\sqrt{2}$}{$2\sqrt{3} > 3\sqrt{2}$}{$2\sqrt{3} = 3\sqrt{2}$}{Không thể so sánh}
+\cauTN{5}{Cặp số nào sau đây là nghiệm của hệ phương trình $\begin{cases} x-2y=0 \\ x+y=3 \end{cases}$?}{$(1; 2)$}{$(2; 1)$}{$(-2; 1)$}{$(2; -1)$}
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 3x - y = 4 \\ x + y = 4 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 2x + 3y = 7 \\ 3x + 2y = 8 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn các biểu thức phân thức chứa căn sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$A = \dfrac{3\sqrt{x}+12}{x-16} - \dfrac{2}{4-\sqrt{x}}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 16$)}} & 
+\oBaiTap[14]{b)}{$B = \dfrac{2}{\sqrt{x}+3} + \dfrac{2}{\sqrt{x}-3} + \dfrac{\sqrt{x}-15}{x-9}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 9$)}} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế hình học khu vườn (Trích Đề 25):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $4$ mét và diện tích bằng $96$ m$^2$.\par
+\vspace{0.5mm}
+$a)$ Tìm chiều dài và chiều rộng ban đầu của khu vườn.\par
+$b)$ Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $3$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình \& Rút gọn phân thức chứa căn bậc hai} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+\cauTN{1}{Căn bậc hai số học của $81$ là}{$-9$}{$\pm 9$}{$9$}{$81$}
+\cauTN{2}{Điều kiện xác định của biểu thức $\sqrt{3x-9}$ là}{$x \le 3$}{$x < 3$}{$x > 3$}{$x \ge 3$}
+\cauTN{3}{Rút gọn biểu thức $\sqrt{(4-\sqrt{17})^2}$ ta được kết quả là}{$\sqrt{17}-4$}{$4-\sqrt{17}$}{$4+\sqrt{17}$}{$-4-\sqrt{17}$}
+\cauTNB{4}{So sánh $4$ và $\sqrt{15}$, ta có kết luận nào sau đây đúng?}{$4 < \sqrt{15}$}{$4 > \sqrt{15}$}{$4 = \sqrt{15}$}{Không thể so sánh}
+\cauTN{5}{Cặp số nào sau đây là nghiệm của hệ phương trình $\begin{cases} 2x+y=5 \\ x-2y=0 \end{cases}$?}{$(1; 2)$}{$(-2; 1)$}{$(2; 1)$}{$(2; -1)$}
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} x + 2y = 7 \\ 2x - y = 4 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 3x + 4y = 10 \\ 2x + 3y = 7 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn các biểu thức phân thức chứa căn sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$A = \dfrac{4\sqrt{x}+20}{x-25} - \dfrac{3}{5-\sqrt{x}}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 25$)}} & 
+\oBaiTap[14]{b)}{$B = \dfrac{3}{\sqrt{x}+1} + \dfrac{3}{\sqrt{x}-1} + \dfrac{\sqrt{x}-7}{x-1}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 1$)}} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế hình học khu vườn (Trích Đề 25):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $6$ mét và diện tích bằng $112$ m$^2$.\par
+\vspace{0.5mm}
+$a)$ Tìm chiều dài và chiều rộng ban đầu của khu vườn.\par
+$b)$ Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $4$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 05 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\textit{Chủ đề: Hệ phương trình \& Rút gọn phân thức chứa căn bậc hai} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\rule[-3.5mm]{0pt}{10mm}\textbf{Họ và tên học sinh:} \hfill \textbf{Mã HS:} \makebox[3.5cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm)} \hfill \textit{(Khoanh tròn đáp án đúng)}\par
+\vspace{1mm}
+\cauTN{1}{Căn bậc hai số học của $36$ là}{$36$}{$-6$}{$\pm 6$}{$6$}
+\cauTN{2}{Điều kiện xác định của biểu thức $\sqrt{8-4x}$ là}{$x \le 2$}{$x \ge 2$}{$x < 2$}{$x > 2$}
+\cauTN{3}{Rút gọn biểu thức $\sqrt{(5-\sqrt{26})^2}$ ta được kết quả là}{$5-\sqrt{26}$}{$\sqrt{26}-5$}{$-5-\sqrt{26}$}{$5+\sqrt{26}$}
+\cauTNB{4}{So sánh $3\sqrt{5}$ và $4\sqrt{3}$, ta có kết luận nào sau đây đúng?}{$3\sqrt{5} > 4\sqrt{3}$}{$3\sqrt{5} = 4\sqrt{3}$}{$3\sqrt{5} < 4\sqrt{3}$}{Không thể so sánh}
+\cauTN{5}{Cặp số nào sau đây là nghiệm của hệ phương trình $\begin{cases} 3x-y=5 \\ x+y=3 \end{cases}$?}{$(1; 2)$}{$(-2; 1)$}{$(2; -1)$}{$(2; 1)$}
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,5 điểm)}
+
+\noindent\textbf{Câu 1 (2,5 điểm). Giải các hệ phương trình sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[16]{a)}{$\begin{cases} 2x - 3y = 1 \\ x + 3y = 14 \end{cases}$} & 
+\oBaiTap[16]{b)}{$\begin{cases} 4x + 3y = 11 \\ 3x + 2y = 8 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 05 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN II. TỰ LUẬN (Tiếp theo) - TOÁN 9 TUẦN 05 BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 2 (2,5 điểm). Rút gọn các biểu thức phân thức chứa căn sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[14]{a)}{$A = \dfrac{5\sqrt{x}+10}{x-4} - \dfrac{4}{2-\sqrt{x}}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 4$)}} & 
+\oBaiTap[14]{b)}{$B = \dfrac{4}{\sqrt{x}+4} + \dfrac{4}{\sqrt{x}-4} + \dfrac{\sqrt{x}-36}{x-16}$\par\vspace{0.5mm}\textit{(với $x \ge 0, x \ne 16$)}} \\
+\hline
+\end{tabularx}
+
+\vspace{2.5mm}
+
+\noindent\textbf{\large Câu 3 (2,5 điểm). Bài toán thực tế hình học khu vườn (Trích Đề 25):}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Một khu vườn hình chữ nhật có chiều dài lớn hơn chiều rộng $7$ mét và diện tích bằng $144$ m$^2$.\par
+\vspace{0.5mm}
+$a)$ Tìm chiều dài và chiều rộng ban đầu của khu vườn.\par
+$b)$ Người ta muốn xây tường rào bao quanh khu vườn và chừa một cổng đi rộng $5$ mét. Hỏi chiều dài bờ tường cần xây là bao nhiêu mét?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{15}
+\\ \hline
+\end{tabularx}
+
+\end{document}
