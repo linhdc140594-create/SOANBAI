@@ -48,7 +48,7 @@ def call_ai_api(prompt, system_prompt="You are an expert Math teacher and LaTeX 
         "Content-Type": "application/json"
     })
     
-    with urllib.request.urlopen(req, timeout=60) as resp:
+    with urllib.request.urlopen(req, timeout=120) as resp:
         res = json.loads(resp.read().decode('utf-8'))
         return res['choices'][0]['message']['content']
 

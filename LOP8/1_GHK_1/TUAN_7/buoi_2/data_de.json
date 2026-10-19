@@ -1,0 +1,263 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 07 - BUỔI 02",
+  "title_p2": "TOÁN 8 - TUẦN 07 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_07_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Kết quả của $2x(3x - 1)$ là:",
+          "$6x^2 - 2x$"
+        ],
+        [
+          "Bậc của đa thức $M = 3x^2 y^2 - 2x^3 + x^2 y^2 - 1$ là:",
+          "$4$"
+        ],
+        [
+          "Giá trị của $A = 2x^2 y + 3xy$ tại $x = 1$, $y = 2$ là:",
+          "$10$"
+        ],
+        [
+          "Khai triển $(x + 5)^2$ ta được $x^2 + \\ldots + 25$. Điền vào chỗ trống:",
+          "$10x$"
+        ],
+        [
+          "Phân tích $4x^2 - 9$ thành nhân tử được:",
+          "$(2x-3)(2x+3)$"
+        ],
+        [
+          "Phân tích đa thức $xy + x + y + 1$ thành nhân tử được:",
+          "$(x+1)(y+1)$"
+        ],
+        [
+          "Hình bình hành là tứ giác có các cạnh đối như thế nào?",
+          "song song"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có $\\widehat{A} = 110^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$110^\\circ$"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$, biết $AC = 12\\text{ cm}$. Độ dài đoạn $OA$ là:",
+          "$6\\text{ cm}$"
+        ],
+        [
+          "Một mảnh vườn hình bình hành có độ dài hai cạnh kề là $15\\text{ m}$ và $20\\text{ m}$. Chu vi mảnh vườn là:",
+          "$70\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$3x^2(2x - 1) - 2x(3x^2 - 4x)$",
+        "b": "$(x + 2)^2 - (x - 1)^2$",
+        "c": "$(20x^4 y^3 - 15x^3 y^2 + 5x^2 y) : 5x^2 y$",
+        "d": "$(x - 1)(x + 4) - x(x + 2)$"
+      },
+      "q12": {
+        "a": "$2x(x - 5) - 2x^2 = 20$",
+        "b": "$x(x - 7) + 3(x - 7) = 0$",
+        "c": "$x^2 - 9x = 0$",
+        "d": "$(x - 3)^2 - 16 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình bình hành $ABCD$. Gọi $M, N$ lần lượt là trung điểm của các cạnh $AB$ và $CD$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $AMCN$ là hình bình hành.",
+        "b": "(1,25 điểm) Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Chứng minh ba điểm $M, O, N$ thẳng hàng."
+      },
+      "q14": {
+        "de": "Cho biểu thức $A = x^2 - 8x + 2035$. Tìm giá trị nhỏ nhất của biểu thức $A$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Kết quả của $3x(2x - 3)$ là:",
+          "$6x^2 - 9x$"
+        ],
+        [
+          "Bậc của đa thức $N = 4x^3 y - 3x^2 + 2x^3 y + 5$ là:",
+          "$4$"
+        ],
+        [
+          "Giá trị của $B = 3x^2 y + 2xy$ tại $x = 1$, $y = 3$ là:",
+          "$15$"
+        ],
+        [
+          "Khai triển $(x + 6)^2$ ta được $x^2 + \\ldots + 36$. Điền vào chỗ trống:",
+          "$12x$"
+        ],
+        [
+          "Phân tích $9x^2 - 16$ thành nhân tử được:",
+          "$(3x-4)(3x+4)$"
+        ],
+        [
+          "Phân tích đa thức $xy + 2x + y + 2$ thành nhân tử được:",
+          "$(x+1)(y+2)$"
+        ],
+        [
+          "Tứ giác có các cạnh đối song song gọi là hình gì?",
+          "hình bình hành"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có $\\widehat{A} = 120^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$120^\\circ$"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$, biết $BD = 16\\text{ cm}$. Độ dài đoạn $OB$ là:",
+          "$8\\text{ cm}$"
+        ],
+        [
+          "Một mảnh vườn hình bình hành có độ dài hai cạnh kề là $12\\text{ m}$ và $18\\text{ m}$. Chu vi mảnh vườn là:",
+          "$60\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$2x^2(3x - 2) - 3x(2x^2 - 3x)$",
+        "b": "$(x + 3)^2 - (x - 2)^2$",
+        "c": "$(24x^4 y^3 - 18x^3 y^2 + 6x^2 y) : 6x^2 y$",
+        "d": "$(x - 2)(x + 5) - x(x + 1)$"
+      },
+      "q12": {
+        "a": "$3x(x - 4) - 3x^2 = 24$",
+        "b": "$x(x - 6) + 4(x - 6) = 0$",
+        "c": "$x^2 - 8x = 0$",
+        "d": "$(x - 4)^2 - 25 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình bình hành $ABCD$. Gọi $E, F$ lần lượt là trung điểm của các cạnh $AB$ và $CD$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $AECF$ là hình bình hành.",
+        "b": "(1,25 điểm) Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Chứng minh ba điểm $E, O, F$ thẳng hàng."
+      },
+      "q14": {
+        "de": "Cho biểu thức $B = x^2 - 6x + 2031$. Tìm giá trị nhỏ nhất của biểu thức $B$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Kết quả của $4x(2x - 1)$ là:",
+          "$8x^2 - 4x$"
+        ],
+        [
+          "Bậc của đa thức $P = 5x^2 y^3 - 4x^4 + x^2 y^3 - 2$ là:",
+          "$5$"
+        ],
+        [
+          "Giá trị của $C = 4x^2 y - 2xy$ tại $x = 1$, $y = 2$ là:",
+          "$4$"
+        ],
+        [
+          "Khai triển $(x + 7)^2$ ta được $x^2 + \\ldots + 49$. Điền vào chỗ trống:",
+          "$14x$"
+        ],
+        [
+          "Phân tích $16x^2 - 25$ thành nhân tử được:",
+          "$(4x-5)(4x+5)$"
+        ],
+        [
+          "Phân tích đa thức $xy + 3x + y + 3$ thành nhân tử được:",
+          "$(x+1)(y+3)$"
+        ],
+        [
+          "Tứ giác có các cạnh đối song song và bằng nhau là hình gì?",
+          "hình bình hành"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có $\\widehat{A} = 105^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$105^\\circ$"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$, biết $AC = 14\\text{ cm}$. Độ dài đoạn $OC$ là:",
+          "$7\\text{ cm}$"
+        ],
+        [
+          "Một mảnh vườn hình bình hành có độ dài hai cạnh kề là $16\\text{ m}$ và $24\\text{ m}$. Chu vi mảnh vườn là:",
+          "$80\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$4x^2(2x - 1) - 2x(4x^2 - 5x)$",
+        "b": "$(x + 4)^2 - (x - 1)^2$",
+        "c": "$(28x^4 y^3 - 21x^3 y^2 + 7x^2 y) : 7x^2 y$",
+        "d": "$(x - 3)(x + 6) - x(x + 2)$"
+      },
+      "q12": {
+        "a": "$4x(x - 3) - 4x^2 = 24$",
+        "b": "$x(x - 8) + 2(x - 8) = 0$",
+        "c": "$x^2 - 7x = 0$",
+        "d": "$(x - 2)^2 - 36 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình bình hành $MNPQ$. Gọi $E, F$ lần lượt là trung điểm của các cạnh $MN$ và $PQ$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $MEPF$ là hình bình hành.",
+        "b": "(1,25 điểm) Gọi $I$ là giao điểm của hai đường chéo $MP$ và $NQ$. Chứng minh ba điểm $E, I, F$ thẳng hàng."
+      },
+      "q14": {
+        "de": "Cho biểu thức $C = x^2 - 10x + 2048$. Tìm giá trị nhỏ nhất của biểu thức $C$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Kết quả của $5x(2x - 3)$ là:",
+          "$10x^2 - 15x$"
+        ],
+        [
+          "Bậc của đa thức $Q = 2x^4 y - 3x^3 + 3x^4 y + 7$ là:",
+          "$5$"
+        ],
+        [
+          "Giá trị của $D = 2x^2 y - 5xy$ tại $x = 1$, $y = -2$ là:",
+          "$6$"
+        ],
+        [
+          "Khai triển $(x + 8)^2$ ta được $x^2 + \\ldots + 64$. Điền vào chỗ trống:",
+          "$16x$"
+        ],
+        [
+          "Phân tích $25x^2 - 36$ thành nhân tử được:",
+          "$(5x-6)(5x+6)$"
+        ],
+        [
+          "Phân tích đa thức $xy + 4x + y + 4$ thành nhân tử được:",
+          "$(x+1)(y+4)$"
+        ],
+        [
+          "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình gì?",
+          "hình bình hành"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có $\\widehat{A} = 115^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$115^\\circ$"
+        ],
+        [
+          "Cho hình bình hành $ABCD$ có hai đường chéo cắt nhau tại $O$, biết $BD = 18\\text{ cm}$. Độ dài đoạn $OD$ là:",
+          "$9\\text{ cm}$"
+        ],
+        [
+          "Một mảnh vườn hình bình hành có độ dài hai cạnh kề là $25\\text{ m}$ và $35\\text{ m}$. Chu vi mảnh vườn là:",
+          "$120\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$3x^2(3x - 2) - x(9x^2 - 8x)$",
+        "b": "$(x + 5)^2 - (x - 2)^2$",
+        "c": "$(32x^4 y^3 - 24x^3 y^2 + 8x^2 y) : 8x^2 y$",
+        "d": "$(x - 1)(x + 6) - x(x + 3)$"
+      },
+      "q12": {
+        "a": "$5x(x - 2) - 5x^2 = 30$",
+        "b": "$x(x - 5) + 3(x - 5) = 0$",
+        "c": "$x^2 - 6x = 0$",
+        "d": "$(x - 5)^2 - 49 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình bình hành $ABCD$. Gọi $I, K$ lần lượt là trung điểm của các cạnh $AB$ và $CD$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $AICK$ là hình bình hành.",
+        "b": "(1,25 điểm) Gọi $O$ là giao điểm của hai đường chéo $AC$ và $BD$. Chứng minh ba điểm $I, O, K$ thẳng hàng."
+      },
+      "q14": {
+        "de": "Cho biểu thức $D = x^2 - 4x + 2028$. Tìm giá trị nhỏ nhất của biểu thức $D$."
+      }
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 07 - BUỔI 01",
+  "title_p2": "TOÁN 8 - TUẦN 07 - BUỔI 01",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_07_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Kết quả của $3x^2 y + 5x^2 y$ là:",
+          "$8x^2 y$"
+        ],
+        [
+          "Bậc của đa thức $A = 2x^3 y - 4xy + x^3 y + 5$ là:",
+          "$4$"
+        ],
+        [
+          "Giá trị của biểu thức $P = x^2 - 4xy$ tại $x = 2, y = -1$ là:",
+          "$12$"
+        ],
+        [
+          "Khai triển biểu thức $(x - 3)^2$ ta được $x^2 - \\ldots + 9$. Điền vào chỗ trống:",
+          "$6x$"
+        ],
+        [
+          "Khai triển $x^2 - 25$ dưới dạng tích là:",
+          "$(x-5)(x+5)$"
+        ],
+        [
+          "Phân tích đa thức $5x^2 - 10x$ thành nhân tử được:",
+          "$5x(x-2)$"
+        ],
+        [
+          "Tứ giác $ABCD$ có $AB \\parallel CD$ được gọi là hình gì?",
+          "hình thang"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 70^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$70^\\circ$"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ có đường chéo $AC = 8\\text{ cm}$. Độ dài đường chéo $BD$ là:",
+          "$8\\text{ cm}$"
+        ],
+        [
+          "Một mảnh đất hình thang có hai đáy dài $10\\text{ m}$ và $14\\text{ m}$, chiều cao $5\\text{ m}$. Diện tích mảnh đất là:",
+          "$60\\text{ m}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$2x(3x^2 - x + 4) - 6x^3$",
+        "b": "$(2x + 1)^2 - 4x(x - 2)$",
+        "c": "$(15x^3 y^2 - 10x^2 y + 5xy) : 5xy$",
+        "d": "$(x - 3)(x + 3) - (x + 2)(x - 5)$"
+      },
+      "q12": {
+        "a": "$3x(x - 2) - 3x^2 = 12$",
+        "b": "$x(x - 3) + 4(x - 3) = 0$",
+        "c": "$x^2 - 16 = 0$",
+        "d": "$(x - 1)^2 - 4 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$, $AB < CD$). Kẻ các đường cao $AH \\perp CD$ và $BK \\perp CD$ ($H, K \\in CD$).",
+        "a": "Chứng minh $\\Delta AHD = \\Delta BKC$ và suy ra $DH = CK$.",
+        "b": "Biết $AB = 6\\text{ cm}$ và $CD = 14\\text{ cm}$. Tính độ dài các đoạn thẳng $DH$ và $HC$."
+      },
+      "q14": {
+        "de": "Cho hai số thực $a, b$ thỏa mãn $a + b = 5$ và $ab = 6$. Tính giá trị của biểu thức $P = a^3 + b^3$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Kết quả của $4x^3 y + 6x^3 y$ là:",
+          "$10x^3 y$"
+        ],
+        [
+          "Bậc của đa thức $B = 3x^2 y^2 - 5x^3 + 2x^2 y^2 + 1$ là:",
+          "$4$"
+        ],
+        [
+          "Giá trị của biểu thức $Q = 2x^2 - 3xy$ tại $x = 1, y = -2$ là:",
+          "$8$"
+        ],
+        [
+          "Khai triển biểu thức $(x - 4)^2$ ta được $x^2 - \\ldots + 16$. Điền vào chỗ trống:",
+          "$8x$"
+        ],
+        [
+          "Khai triển $x^2 - 36$ dưới dạng tích là:",
+          "$(x-6)(x+6)$"
+        ],
+        [
+          "Phân tích đa thức $6x^2 - 12x$ thành nhân tử được:",
+          "$6x(x-2)$"
+        ],
+        [
+          "Hình thang là tứ giác có hai cạnh đối như thế nào với nhau?",
+          "song song"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 65^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$65^\\circ$"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ có đường chéo $AC = 10\\text{ cm}$. Độ dài đường chéo $BD$ là:",
+          "$10\\text{ cm}$"
+        ],
+        [
+          "Một mảnh đất hình thang có hai đáy dài $8\\text{ m}$ và $12\\text{ m}$, chiều cao $6\\text{ m}$. Diện tích mảnh đất là:",
+          "$60\\text{ m}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$3x(2x^2 - x + 3) - 6x^3$",
+        "b": "$(2x + 3)^2 - 4x(x - 1)$",
+        "c": "$(18x^3 y^2 - 12x^2 y + 6xy) : 6xy$",
+        "d": "$(x - 4)(x + 4) - (x + 1)(x - 6)$"
+      },
+      "q12": {
+        "a": "$4x(x - 2) - 4x^2 = 16$",
+        "b": "$x(x - 4) + 3(x - 4) = 0$",
+        "c": "$x^2 - 25 = 0$",
+        "d": "$(x - 2)^2 - 9 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$, $AB < CD$). Kẻ các đường cao $AH \\perp CD$ và $BK \\perp CD$ ($H, K \\in CD$).",
+        "a": "Chứng minh $\\Delta AHD = \\Delta BKC$ và suy ra $DH = CK$.",
+        "b": "Biết $AB = 8\\text{ cm}$ và $CD = 18\\text{ cm}$. Tính độ dài các đoạn thẳng $DH$ và $HC$."
+      },
+      "q14": {
+        "de": "Cho hai số thực $a, b$ thỏa mãn $a + b = 6$ và $ab = 8$. Tính giá trị của biểu thức $Q = a^3 + b^3$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Kết quả của $2x y^2 + 7x y^2$ là:",
+          "$9x y^2$"
+        ],
+        [
+          "Bậc của đa thức $C = 4x y^3 - 2x^2 + x y^3 - 7$ là:",
+          "$4$"
+        ],
+        [
+          "Giá trị của biểu thức $R = 3x^2 - 2xy$ tại $x = 2, y = 1$ là:",
+          "$8$"
+        ],
+        [
+          "Khai triển biểu thức $(x - 5)^2$ ta được $x^2 - \\ldots + 25$. Điền vào chỗ trống:",
+          "$10x$"
+        ],
+        [
+          "Khai triển $x^2 - 49$ dưới dạng tích là:",
+          "$(x-7)(x+7)$"
+        ],
+        [
+          "Phân tích đa thức $7x^2 - 14x$ thành nhân tử được:",
+          "$7x(x-2)$"
+        ],
+        [
+          "Tứ giác có hai cạnh đối song song gọi là:",
+          "hình thang"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 80^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$80^\\circ$"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ có đường chéo $AC = 12\\text{ cm}$. Độ dài đường chéo $BD$ là:",
+          "$12\\text{ cm}$"
+        ],
+        [
+          "Một mảnh đất hình thang có hai đáy dài $6\\text{ m}$ và $14\\text{ m}$, chiều cao $7\\text{ m}$. Diện tích mảnh đất là:",
+          "$70\\text{ m}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$4x(2x^2 - x + 2) - 8x^3$",
+        "b": "$(2x + 2)^2 - 4x(x - 3)$",
+        "c": "$(21x^3 y^2 - 14x^2 y + 7xy) : 7xy$",
+        "d": "$(x - 5)(x + 5) - (x + 3)(x - 4)$"
+      },
+      "q12": {
+        "a": "$5x(x - 2) - 5x^2 = 20$",
+        "b": "$x(x - 5) + 2(x - 5) = 0$",
+        "c": "$x^2 - 36 = 0$",
+        "d": "$(x - 3)^2 - 16 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$, $AB < CD$). Kẻ các đường cao $AH \\perp CD$ và $BK \\perp CD$ ($H, K \\in CD$).",
+        "a": "Chứng minh $\\Delta AHD = \\Delta BKC$ và suy ra $DH = CK$.",
+        "b": "Biết $AB = 4\\text{ cm}$ và $CD = 16\\text{ cm}$. Tính độ dài các đoạn thẳng $DH$ và $HC$."
+      },
+      "q14": {
+        "de": "Cho hai số thực $a, b$ thỏa mãn $a + b = 7$ và $ab = 10$. Tính giá trị của biểu thức $R = a^3 + b^3$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Kết quả của $5x^2 y^2 + 3x^2 y^2$ là:",
+          "$8x^2 y^2$"
+        ],
+        [
+          "Bậc của đa thức $D = 5x^4 y - 3x^3 + 2x^4 y + 6$ là:",
+          "$5$"
+        ],
+        [
+          "Giá trị của biểu thức $S = x^2 - 5xy$ tại $x = -1, y = 2$ là:",
+          "$11$"
+        ],
+        [
+          "Khai triển biểu thức $(x - 6)^2$ ta được $x^2 - \\ldots + 36$. Điền vào chỗ trống:",
+          "$12x$"
+        ],
+        [
+          "Khai triển $x^2 - 64$ dưới dạng tích là:",
+          "$(x-8)(x+8)$"
+        ],
+        [
+          "Phân tích đa thức $8x^2 - 16x$ thành nhân tử được:",
+          "$8x(x-2)$"
+        ],
+        [
+          "Trong hình thang $MNPQ$ ($MN \\parallel PQ$), hai đoạn thẳng $MN$ và $PQ$ gọi là:",
+          "hai đáy"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 75^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "$75^\\circ$"
+        ],
+        [
+          "Cho hình thang cân $ABCD$ có đường chéo $AC = 15\\text{ cm}$. Độ dài đường chéo $BD$ là:",
+          "$15\\text{ cm}$"
+        ],
+        [
+          "Một mảnh đất hình thang có hai đáy dài $12\\text{ m}$ và $16\\text{ m}$, chiều cao $5\\text{ m}$. Diện tích mảnh đất là:",
+          "$70\\text{ m}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$2x(4x^2 - 2x + 3) - 8x^3$",
+        "b": "$(2x + 4)^2 - 4x(x - 2)$",
+        "c": "$(24x^3 y^2 - 16x^2 y + 8xy) : 8xy$",
+        "d": "$(x - 2)(x + 2) - (x + 4)(x - 3)$"
+      },
+      "q12": {
+        "a": "$2x(x - 3) - 2x^2 = 12$",
+        "b": "$x(x - 6) + 5(x - 6) = 0$",
+        "c": "$x^2 - 49 = 0$",
+        "d": "$(x - 4)^2 - 25 = 0$"
+      },
+      "q13": {
+        "de": "Cho hình thang cân $ABCD$ ($AB \\parallel CD$, $AB < CD$). Kẻ các đường cao $AH \\perp CD$ và $BK \\perp CD$ ($H, K \\in CD$).",
+        "a": "Chứng minh $\\Delta AHD = \\Delta BKC$ và suy ra $DH = CK$.",
+        "b": "Biết $AB = 10\\text{ cm}$ và $CD = 22\\text{ cm}$. Tính độ dài các đoạn thẳng $DH$ và $HC$."
+      },
+      "q14": {
+        "de": "Cho hai số thực $a, b$ thỏa mãn $a + b = 4$ và $ab = 3$. Tính giá trị của biểu thức $S = a^3 + b^3$."
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 import os
 import subprocess
 import pypdf
+import re
 try:
     import fitz # PyMuPDF
 except ImportError:
@@ -58,8 +59,14 @@ def render_code_page(title_p1, title_p2, ma_de, q_short, q11, q12, q13, q14, ob1
             short_items_tex += f"\\noindent\\textbf{{Câu {i} (0,25 điểm).}} {item}\\par\\vspace{{0.3mm}}\n"
 
     q13_de = q13.get('de', '')
-    q13_a = q13.get('a', '')
-    q13_b = q13.get('b', '')
+    def clean_sub_q(text):
+        if not text: return ""
+        # Xóa tiền tố thừa như "a)", "b)", "(1,25 điểm)"
+        text = re.sub(r'^\s*([a-bA-B]\s*[\)\.]\s*)?(\([0-9.,]+\s*điểm\)\s*)?', '', text, flags=re.IGNORECASE).strip()
+        return text
+
+    q13_a = clean_sub_q(q13.get('a', ''))
+    q13_b = clean_sub_q(q13.get('b', ''))
     q14_de = q14.get('de', '')
 
     res = f'''% =============================================================================
