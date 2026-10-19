@@ -20,56 +20,40 @@
 ---
 
 ## 📐 II. QUY CHUẨN MA TRẬN ĐỀ THI (10 ĐIỂM / 45 PHÚT / 1 TỜ A4 IN 2 MẶT)
-* **Hình thức:** Phiếu kiểm tra in 2 mặt A4, gồm **4 mã đề hoán vị tương đương ($101, 102, 103, 104$)**.
-* **Thang điểm 10 điểm:**
-  * **Phần I (2,5 điểm):** 5 câu trắc nghiệm khách quan ($0{,}5$ đ/câu).
-  * **Câu 1 (2,5 điểm):** Hình học nền tảng - Tỉ số lượng giác ($2$ ý $a, b$ - mỗi ý $1{,}25$ đ).
-  * **Câu 2 (2,5 điểm):** Biến đổi biểu thức lượng giác & Căn thức ($2$ ý $a, b$ - mỗi ý $1{,}25$ đ).
-  * **Câu 3 (2,5 điểm):** Bài toán thực tế ứng dụng lượng giác ($1$ bài hoàn chỉnh).
+* **Hình thức:** Phiếu kiểm tra in 2 mặt A4, gồm **4 mã đề hoán vị tương đương ($101, 102, 103, 104$)**, biên dịch chính xác **8 trang PDF**.
+* **Thang điểm 10 điểm (Chuẩn đổi mới Lớp 9):**
+  * **Câu 1 đến Câu 10 (2,5 điểm):** 10 câu trả lời ngắn (`\shortans`), mỗi câu $0{,}25$ điểm.
+  * **Câu 11 (2,5 điểm - Trang 1):** Đại số tổng hợp (chia 2 cột bảng $1 \times 2$, mỗi cột `\oBaiTap[8]`):
+    * $a)$ (1,25 đ): Giải hệ hai phương trình bậc nhất hai ẩn.
+    * $b)$ (1,25 đ): Rút gọn biểu thức phân thức chứa căn bậc hai.
+  * **Câu 12 (2,5 điểm - Trang 2):** Giải bài toán bằng cách lập hệ phương trình (Khung đóng hộp, bài giải `\dongke{12}`).
+  * **Câu 13 (2,5 điểm - Trang 2):** Hình học lượng giác: Giải tam giác vuông và chứng minh đẳng thức (Khung đóng hộp, bài giải `\dongke{12}`).
+  * *(Tuyệt đối không có câu nâng cao riêng biệt, dành trọn vẹn số dòng kẻ cho học sinh trình bày bài thi vào lớp 10).*
 
 ---
 
 ## 🗺️ III. MA TRẬN CHI TIẾT TỪNG BUỔI HỌC
 
-### 📌 BUỔI 01: TỈ SỐ LƯỢNG GIÁC GÓC NHỌN TRONG TAM GIÁC VUÔNG
-
-#### 1. PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm - 5 câu)
-* **Câu 1 (Nhận biết):** Định nghĩa $\sin C$ trong tam giác $ABC$ vuông tại $A$ bằng tỉ số nào?
-* **Câu 2 (Kỹ năng tính):** Cho tam giác $ABC$ vuông tại $A$ có $AB = 3\text{ cm}, AC = 4\text{ cm}$. Khi đó $\sin C$ bằng bao nhiêu? (Chuẩn Câu 5 Đề 01 [DETHI2010](file:///d:/4.%20GitHub/SACH/LOP9/DETHI2010): $\dfrac{3}{5}$).
-* **Câu 3 (Thông hiểu):** Cho góc nhọn $\alpha$, khẳng định nào sau đây là SAI? (Kiểm tra $\sin^2\alpha + \cos^2\alpha = 1$).
-* **Câu 4 (Thông hiểu):** Cho $\alpha + \beta = 90^\circ$, khẳng định nào sau đây là đúng? (Đáp án: $\sin \alpha = \cos \beta$).
-* **Câu 5 (Kỹ năng tính):** Cho tam giác vuông có góc nhọn $\alpha = 30^\circ$, giá trị của $\cos \alpha$ bằng bao nhiêu?
-
-#### 2. PHẦN II. TỰ LUẬN (7,5 điểm)
-* **Câu 1 (2,5 điểm). Tính các tỉ số lượng giác của tam giác vuông:**
-  * Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\text{ cm}$ và $BC = 10\text{ cm}$.
-  * $a)$ (1,25đ): Tính độ dài cạnh $AC$.
-  * $b)$ (1,25đ): Tính các tỉ số lượng giác $\sin B, \cos B, \tan B, \cot B$. Từ đó suy ra các tỉ số lượng giác của góc $C$.
-* **Câu 2 (2,5 điểm). Tính giá trị biểu thức lượng giác không dùng máy tính:**
-  * $a)$ (1,25đ): $A = \sin^2 35^\circ + \sin^2 55^\circ - \tan 20^\circ \cdot \cot 20^\circ$.
-  * $b)$ (1,25đ): $B = \cos 60^\circ + \sin 30^\circ - \tan 45^\circ + \cos^2 40^\circ + \cos^2 50^\circ$.
-* **Câu 3 (2,5 điểm). Bài toán thực tế ngọn hải đăng Tiên Nữ - Ứng dụng lượng giác (Trích Đề 26 - [DETHI2010](file:///d:/4.%20GitHub/SACH/LOP9/DETHI2010)):**
-  * Ngọn hải đăng Tiên Nữ cao $22{,}1\text{ m}$ được xây dựng năm 2000 tại đảo Tiên Nữ thuộc quần đảo Trường Sa, tỉnh Khánh Hòa. Ngoài nhiệm vụ bảo đảm an toàn hàng hải trong khu vực quần đảo, ngọn hải đăng này còn là cột mốc chủ quyền thiêng liêng của Tổ quốc trên Biển Đông. Một con tàu từ xa nhìn thấy đỉnh ngọn hải đăng Tiên Nữ theo một góc nâng $\alpha = 1^\circ15'$. Hỏi con tàu cách chân ngọn hải đăng bao nhiêu mét? (Làm tròn kết quả đến chữ số thập phân thứ nhất).
+### 📌 BUỔI 01: TỔNG HỢP ÔN TẬP GHK1 - ĐẠI SỐ & HÌNH HỌC LƯỢNG GIÁC
+* **Chi tiết file kế hoạch:** [KE_HOACH_TUAN_07_BUOI_01.md](file:///d:/4.%20GitHub/PHIEU_KIEM_TRA_THCS/LOP9/1_GHK_1/TUAN_7/buoi_1/KE_HOACH_TUAN_07_BUOI_01.md)
+* **Câu 1 $\to$ 10 (2,5 đ):** 10 câu trả lời ngắn về tỉ số lượng giác $\sin, \cos, \tan$, góc phụ nhau, góc đặc biệt ($30^\circ, 45^\circ, 60^\circ$), thực tế bóng nắng/cột cờ, nghiệm phương trình bậc nhất 2 ẩn và phương trình tích.
+* **Câu 11 (2,5 đ):**
+  * $a)$ (1,25 đ): Giải hệ phương trình bậc nhất hai ẩn (cộng đại số / thế).
+  * $b)$ (1,25 đ): Rút gọn biểu thức phân thức chứa căn bậc hai dạng biến đổi nhân tử chung.
+* **Câu 12 (2,5 đ):** Giải bài toán bằng cách lập hệ phương trình (Toán thực tế mua sắm đồ dùng học tập vở và bút bi).
+* **Câu 13 (2,5 đ):**
+  * $a)$ (1,5 đ): Giải tam giác vuông khi biết 2 cạnh (tính cạnh còn lại bằng Pythagore, số đo góc nhọn và đường cao $AH$).
+  * $b)$ (1,0 đ): Kẻ $HE \perp AB, HF \perp AC$. Chứng minh đẳng thức hình học lượng giác: $AE \cdot AB = AF \cdot AC$ (hoặc $EF = AH$).
 
 ---
 
-### 📌 BUỔI 02: ÔN TẬP CĂN THỨC NÂNG CAO & ỨNG DỤNG LƯỢNG GIÁC
-
-#### 1. PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm - 5 câu)
-* **Câu 1 (Nhận biết):** Giá trị của biểu thức $\tan 45^\circ - \cot 45^\circ$ bằng bao nhiêu? (Đáp án: $0$).
-* **Câu 2 (Thông hiểu):** Cho tam giác $MNP$ vuông tại $M$, hệ thức nào sau đây đúng? ($MN = NP \cdot \sin P$).
-* **Câu 3 (Kỹ năng tính):** Cho biết $\sin \alpha = \dfrac{3}{5}$, giá trị của $\cos \alpha$ bằng bao nhiêu? (Đáp án: $\dfrac{4}{5}$).
-* **Câu 4 (Thông hiểu):** Biểu thức $\sqrt{x^2 - 4x + 4}$ với $x < 2$ rút gọn được kết quả là gì? (Đáp án: $2 - x$).
-* **Câu 5 (Vận dụng):** Giá trị của $\sin^2 10^\circ + \sin^2 20^\circ + \dots + \sin^2 80^\circ$ bằng bao nhiêu?
-
-#### 2. PHẦN II. TỰ LUẬN (7,5 điểm)
-* **Câu 1 (2,5 điểm). Rút gọn biểu thức chứa căn nâng cao (Chuẩn đề thi tuyển sinh 10):**
-  * Cho biểu thức $P = \left(\dfrac{1}{\sqrt{x} - 2} + \dfrac{1}{\sqrt{x} + 2}\right) \cdot \dfrac{x - 4}{\sqrt{x}}$ với $x > 0, x \ne 4$.
-  * $a)$ (1,25đ): Rút gọn biểu thức $P$.
-  * $b)$ (1,25đ): Tìm tất cả các giá trị của $x$ để $P = \sqrt{x} + 1$.
-* **Câu 2 (2,5 điểm). Giải tam giác vuông:**
-  * Cho tam giác $ABC$ vuông tại $A$ có góc $B = 30^\circ$ và cạnh huyền $BC = 12\text{ cm}$.
-  * $a)$ (1,25đ): Tính số đo góc $C$ và độ dài các cạnh $AB, AC$.
-  * $b)$ (1,25đ): Kẻ đường cao $AH$ của tam giác $ABC$. Tính độ dài đoạn thẳng $AH$ và $BH$.
-* **Câu 3 (2,5 điểm). Bài toán thực tế chuyển động khứ hồi trên quãng đường 90km (Trích Đề 47 - [DETHI2010](file:///d:/4.%20GitHub/SACH/LOP9/DETHI2010)):**
-  * Quãng đường $AB$ dài $90\text{ km}$. Một người đi xe máy từ $A$ đến $B$. Khi đến $B$, người đó quay trở về $A$ ngay với vận tốc lớn hơn vận tốc lúc đi là $9\text{ km/h}$. Tổng thời gian kể từ lúc bắt đầu đi từ $A$ đến lúc trở về lại $A$ là $4$ giờ $30$ phút. Tính vận tốc của xe máy lúc đi từ $A$ đến $B$.
+### 📌 BUỔI 02: TỔNG HỢP ÔN TẬP GHK1 - ĐẠI SỐ & HÌNH HỌC LƯỢNG GIÁC (BUỔI 2)
+* **Chi tiết file kế hoạch:** [KE_HOACH_TUAN_07_BUOI_02.md](file:///d:/4.%20GitHub/PHIEU_KIEM_TRA_THCS/LOP9/1_GHK_1/TUAN_7/buoi_2/KE_HOACH_TUAN_07_BUOI_02.md)
+* **Câu 1 $\to$ 10 (2,5 đ):** 10 câu trả lời ngắn về cạnh đối góc $30^\circ$, công thức $\sin^2\alpha + \cos^2\alpha = 1$, hệ thức lượng $AH = \sqrt{BH \cdot CH}$, hằng đẳng thức căn, ĐKXĐ căn thức, phương trình căn thức, thực tế thang nghiêng và tổng lượng giác phụ nhau.
+* **Câu 11 (2,5 đ):**
+  * $a)$ (1,25 đ): Giải hệ hai phương trình bậc nhất hai ẩn.
+  * $b)$ (1,25 đ): Rút gọn biểu thức phân thức chứa căn bậc hai chuẩn cấu trúc thi vào 10.
+* **Câu 12 (2,5 đ):** Giải bài toán bằng cách lập hệ phương trình (Toán thực tế chuyển động ngược chiều của 2 xe).
+* **Câu 13 (2,5 đ):**
+  * $a)$ (1,5 đ): Giải tam giác vuông khi biết cạnh huyền và góc nhọn $30^\circ$ hoặc $60^\circ$ (tính cạnh góc vuông, góc còn lại và đường cao $AH$).
+  * $b)$ (1,0 đ): Kẻ $HD \perp AB, HE \perp AC$. Chứng minh đẳng thức: $AD \cdot AB = AE \cdot AC$ (hoặc $DE = AH$).
