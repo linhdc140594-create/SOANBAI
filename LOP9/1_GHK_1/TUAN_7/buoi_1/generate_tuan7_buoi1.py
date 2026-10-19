@@ -34,6 +34,21 @@ HEADER_TEMPLATE = r"""\documentclass[12pt,a4paper]{article}
   \dongke{#1}%
 }
 
+% Định nghĩa khu vực bài làm chia 2 cột có vách ngăn mờ ở giữa
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.5mm}%
+  \noindent%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+  \hfill%
+  {\color{gray!60}\vrule}%
+  \hfill%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+}
+
 \begin{document}
 \pagestyle{empty}
 """
@@ -59,10 +74,7 @@ DATA = {
             ("a) (1,25 điểm)", r"$\begin{cases} 2x + y = 8 \\ 3x - y = 7 \end{cases}$"),
             ("b) (1,25 điểm)", r"Rút gọn với $x > 0, x \ne 4$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}-2} - \dfrac{4}{x-2\sqrt{x}}\right) : \dfrac{\sqrt{x}+2}{\sqrt{x}}$"),
         ],
-        "c12": {
-            "p1": "3", "p2": "2", "s1": "34\\,000",
-            "q1": "2", "q2": "4", "s2": "36\\,000",
-        },
+        "c12": r"Hai tổ sản xuất cùng làm chung một công việc thì sau $12$ giờ sẽ hoàn thành. Nếu tổ I làm trong $4$ giờ rồi tổ II làm tiếp trong $7$ giờ thì cả hai tổ hoàn thành được $\dfrac{1}{2}$ công việc. Hỏi nếu làm riêng thì mỗi tổ mất bao lâu để hoàn thành xong công việc?",
         "c13": {
             "gt": r"Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 6\text{ cm}, BC = 10\text{ cm}$.",
             "a": r"\textbf{a) (1,5 điểm)} Tính độ dài cạnh $AC$, số đo góc $B$ (làm tròn đến độ) và độ dài đường cao $AH$.",
@@ -86,10 +98,7 @@ DATA = {
             ("a) (1,25 điểm)", r"$\begin{cases} 3x - y = 5 \\ x + y = 7 \end{cases}$"),
             ("b) (1,25 điểm)", r"Rút gọn với $x > 0, x \ne 9$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}-3} - \dfrac{9}{x-3\sqrt{x}}\right) : \dfrac{\sqrt{x}+3}{\sqrt{x}}$"),
         ],
-        "c12": {
-            "p1": "4", "p2": "2", "s1": "42\\,000",
-            "q1": "3", "q2": "5", "s2": "49\\,000",
-        },
+        "c12": r"Hai đội công nhân cùng sửa một đoạn đường thì sau $12$ ngày sẽ hoàn thành. Nếu đội thứ nhất làm trong $3$ ngày rồi đội thứ hai làm tiếp trong $8$ ngày thì cả hai đội hoàn thành được $\dfrac{1}{2}$ đoạn đường. Hỏi nếu làm một mình thì mỗi đội mất bao lâu để hoàn thành đoạn đường đó?",
         "c13": {
             "gt": r"Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AC = 8\text{ cm}, BC = 10\text{ cm}$.",
             "a": r"\textbf{a) (1,5 điểm)} Tính độ dài cạnh $AB$, số đo góc $C$ (làm tròn đến độ) và độ dài đường cao $AH$.",
@@ -113,10 +122,7 @@ DATA = {
             ("a) (1,25 điểm)", r"$\begin{cases} 2x + y = 9 \\ x - y = 3 \end{cases}$"),
             ("b) (1,25 điểm)", r"Rút gọn với $x > 0, x \ne 1$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}-1} - \dfrac{1}{x-\sqrt{x}}\right) : \dfrac{\sqrt{x}+1}{\sqrt{x}}$"),
         ],
-        "c12": {
-            "p1": "2", "p2": "3", "s1": "31\\,000",
-            "q1": "5", "q2": "2", "s2": "50\\,000",
-        },
+        "c12": r"Hai người thợ cùng làm chung một công việc thì sau $16$ giờ sẽ hoàn thành. Nếu người thứ nhất làm trong $3$ giờ rồi người thứ hai làm tiếp trong $6$ giờ thì cả hai người làm được $\dfrac{1}{4}$ công việc. Hỏi nếu làm riêng thì mỗi người mất bao lâu để hoàn thành xong công việc?",
         "c13": {
             "gt": r"Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 5\text{ cm}, BC = 13\text{ cm}$.",
             "a": r"\textbf{a) (1,5 điểm)} Tính độ dài cạnh $AC$, số đo góc $B$ (làm tròn đến độ) và độ dài đường cao $AH$ (làm tròn đến chữ số thập phân thứ nhất).",
@@ -140,10 +146,7 @@ DATA = {
             ("a) (1,25 điểm)", r"$\begin{cases} 3x + y = 11 \\ 2x - y = 4 \end{cases}$"),
             ("b) (1,25 điểm)", r"Rút gọn với $x > 0, x \ne 16$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}-4} - \dfrac{16}{x-4\sqrt{x}}\right) : \dfrac{\sqrt{x}+4}{\sqrt{x}}$"),
         ],
-        "c12": {
-            "p1": "3", "p2": "4", "s1": "44\\,000",
-            "q1": "4", "q2": "2", "s2": "42\\,000",
-        },
+        "c12": r"Hai tổ công nhân cùng làm chung một công việc thì sau $15$ ngày sẽ hoàn thành. Nếu tổ I làm trong $3$ ngày rồi tổ II làm tiếp trong $5$ ngày thì cả hai tổ hoàn thành được $\dfrac{1}{4}$ công việc. Hỏi nếu làm một mình thì mỗi tổ mất bao lâu để hoàn thành xong công việc?",
         "c13": {
             "gt": r"Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AC = 12\text{ cm}, BC = 13\text{ cm}$.",
             "a": r"\textbf{a) (1,5 điểm)} Tính độ dài cạnh $AB$, số đo góc $C$ (làm tròn đến độ) và độ dài đường cao $AH$ (làm tròn đến chữ số thập phân thứ nhất).",
@@ -152,7 +155,7 @@ DATA = {
     }
 }
 
-def render_code(code_str, d, ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid="2.5mm"):
+def render_code(code_str, d, ob11=22, vsa="0.8mm", dk12=16, dk13=16, vspace_mid="2.2mm"):
     # Trang 1
     p1 = f"""% =============================================================================
 % ========================= TOÁN 9 - TUẦN 07 - BUỔI 01: MÃ ĐỀ {code_str} =============
@@ -201,7 +204,7 @@ def render_code(code_str, d, ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid=
 """
 
     # Trang 2
-    c12 = d['c12']
+    c12_text = d['c12']
     c13 = d['c13']
     p2 = f"""% =============================================================================
 % ========================= TOÁN 9 - TUẦN 07 - BUỔI 01: MÃ ĐỀ {code_str} =============
@@ -221,9 +224,9 @@ def render_code(code_str, d, ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid=
 \\begin{{tabularx}}{{\\linewidth}}{{|X|}}
 \\hline
 \\vspace{{0.5mm}}
-\\textbf{{Câu 12 (2,5 điểm).}} Hai bạn An và Bình cùng đến nhà sách mua đồ dùng học tập chuẩn bị cho năm học mới. Bạn An mua ${c12['p1']}$ quyển vở và ${c12['p2']}$ chiếc bút bi cùng loại hết tổng cộng ${c12['s1']}$ đồng. Bạn Bình mua ${c12['q1']}$ quyển vở và ${c12['q2']}$ chiếc bút bi cùng loại hết tổng cộng ${c12['s2']}$ đồng. Tính giá tiền của mỗi quyển vở và mỗi chiếc bút bi.\\par
+\\textbf{{Câu 12 (2,5 điểm).}} {c12_text}\\par
 \\vspace{{0.4mm}}
-\\noindent\\textit{{Bài giải:}}\\dongke{{{dk12}}}
+\\noindent\\textit{{Bài giải:}}\\dongkeHaiCot{{{dk12}}}
 \\\\ \\hline
 \\end{{tabularx}}
 
@@ -237,14 +240,14 @@ def render_code(code_str, d, ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid=
 {c13['a']}\\par
 {c13['b']}\\par
 \\vspace{{0.4mm}}
-\\noindent\\textit{{Bài giải:}}\\dongke{{{dk13}}}
+\\noindent\\textit{{Bài giải:}}\\dongkeHaiCot{{{dk13}}}
 \\\\ \\hline
 \\end{{tabularx}}
 
 """
     return p1 + p2
 
-def generate_tex(ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid="2.5mm"):
+def generate_tex(ob11=22, vsa="0.8mm", dk12=16, dk13=16, vspace_mid="2.2mm"):
     content = HEADER_TEMPLATE
     for idx, code in enumerate(["101", "102", "103", "104"]):
         content += render_code(code, DATA[code], ob11=ob11, vsa=vsa, dk12=dk12, dk13=dk13, vspace_mid=vspace_mid)
@@ -254,7 +257,7 @@ def generate_tex(ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid="2.5mm"):
     return content
 
 if __name__ == "__main__":
-    tex_code = generate_tex(ob11=22, vsa="0.8mm", dk12=16, dk13=17, vspace_mid="2.5mm")
+    tex_code = generate_tex(ob11=22, vsa="0.8mm", dk12=16, dk13=16, vspace_mid="2.2mm")
     out_path = "Phieu_Kiem_Tra_Tuan_07_Buoi_01.tex"
     with open(out_path, "w", encoding="utf-8") as f:
         f.write(tex_code)

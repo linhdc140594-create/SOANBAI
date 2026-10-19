@@ -116,32 +116,34 @@ Tuần 7 là giai đoạn trọng tâm ôn thi Giữa Học kỳ 1. Đề thi t�
 
 ---
 
-#### CÂU 13 (2,5 ĐIỂM): BÀI TOÁN HÌNH HỌC TỔNG HỢP (TIÊN ĐỀ EUCLID & GÓC GÃY KHÚC)
+#### CÂU 13 (2,5 ĐIỂM): HÌNH HỌC - HAI ĐƯỜNG THẲNG SONG SONG & TÍNH GÓC
 
-* **Bối cảnh đề bài chuẩn thi Giữa HK1 (Dạng góc gãy khúc kinh điển):**
-  Cho hình vẽ, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ nằm giữa hai tia sao cho tia $OA$ và $OB$ tạo với $Ax, By$ các góc nhọn $\widehat{xAO} = \alpha$ và $\widehat{yBO} = \beta$.
-  - **a) (1,25 điểm)** Qua điểm $O$, kẻ tia $Oz$ song song với tia $Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Chứng minh rằng tia $Oz$ cũng song song với tia $By$.
-  - **b) (1,25 điểm)** Tính số đo góc $\widehat{AOB}$.
+* **Bối cảnh đề bài chuẩn thi Giữa HK1 (Dấu hiệu nhận biết và tính chất hai đường thẳng song song):**
+  Cho hình vẽ, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = \alpha$.
+  - **a) (1,25 điểm)** Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).
+  - **b) (1,25 điểm)** Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$).
 
-* **Mã đề 101:** $\alpha = 40^\circ, \beta = 50^\circ$.
-  - a) Vì $Ax \parallel By$ mà $Oz \parallel Ax$ nên theo tính chất hai đường thẳng cùng song song với đường thẳng thứ ba, ta có $Oz \parallel By$. *(1,25đ)*
-  - b) Vì $Oz \parallel Ax$ nên $\widehat{AOz} = \widehat{xAO} = 40^\circ$ (hai góc so le trong). *(0,5đ)*
-    Vì $Oz \parallel By$ nên $\widehat{BOz} = \widehat{yBO} = 50^\circ$ (hai góc so le trong). *(0,5đ)*
-    Vì tia $Oz$ nằm giữa hai tia $OA$ và $OB$ nên:
-    $$\widehat{AOB} = \widehat{AOz} + \widehat{BOz} = 40^\circ + 50^\circ = 90^\circ$$ *(0,25đ)*
+* **Mã đề 101:** $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$.
+  - a) Ta có $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$. Mà hai góc này ở vị trí đồng vị, do đó theo dấu hiệu nhận biết hai đường thẳng song song, ta có $a \parallel b$. *(1,25đ)*
+  - b) Tại đỉnh $A$:
+    - $\widehat{A}_3 = \widehat{A}_1 = 60^\circ$ (hai góc đối đỉnh). *(0,25đ)*
+    - Vì $\widehat{A}_2$ và $\widehat{A}_1$ là hai góc kề bù nên: $\widehat{A}_2 = 180^\circ - \widehat{A}_1 = 180^\circ - 60^\circ = 120^\circ$. *(0,25đ)*
+    - $\widehat{A}_4 = \widehat{A}_2 = 120^\circ$ (hai góc đối đỉnh). *(0,25đ)*
+    Tại đỉnh $B$:
+    - Vì $a \parallel b$ nên: $\widehat{B}_3 = \widehat{A}_1 = 60^\circ$ (so le trong hoặc đối đỉnh với $\widehat{B}_1$).
+    - $\widehat{B}_2 = \widehat{A}_4 = 120^\circ$ (so le trong hoặc kề bù với $\widehat{B}_1$), $\widehat{B}_4 = \widehat{B}_2 = 120^\circ$. *(0,5đ)*
 
-* **Mã đề 102:** $\alpha = 35^\circ, \beta = 45^\circ$.
-  - a) Lập luận tương tự vì $Oz \parallel Ax$ và $Ax \parallel By \implies Oz \parallel By$.
-  - b) $\widehat{AOz} = 35^\circ$ (so le trong với $\widehat{xAO}$). $\widehat{BOz} = 45^\circ$ (so le trong với $\widehat{yBO}$).
-    $\implies \widehat{AOB} = 35^\circ + 45^\circ = 80^\circ$.
+* **Mã đề 102:** $\widehat{A}_1 = \widehat{B}_1 = 70^\circ$.
+  - a) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 70^\circ \implies a \parallel b$. *(1,25đ)*
+  - b) $\widehat{A}_3 = \widehat{B}_3 = 70^\circ$; $\widehat{A}_2 = \widehat{A}_4 = \widehat{B}_2 = \widehat{B}_4 = 180^\circ - 70^\circ = 110^\circ$. *(1,25đ)*
 
-* **Mã đề 103:** $\alpha = 45^\circ, \beta = 65^\circ$.
-  - a) Lập luận tương tự $Oz \parallel By$.
-  - b) $\widehat{AOz} = 45^\circ, \widehat{BOz} = 65^\circ \implies \widehat{AOB} = 45^\circ + 65^\circ = 110^\circ$.
+* **Mã đề 103:** $\widehat{A}_1 = \widehat{B}_1 = 50^\circ$.
+  - a) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 50^\circ \implies a \parallel b$. *(1,25đ)*
+  - b) $\widehat{A}_3 = \widehat{B}_3 = 50^\circ$; $\widehat{A}_2 = \widehat{A}_4 = \widehat{B}_2 = \widehat{B}_4 = 180^\circ - 50^\circ = 130^\circ$. *(1,25đ)*
 
-* **Mã đề 104:** $\alpha = 50^\circ, \beta = 60^\circ$.
-  - a) Lập luận tương tự $Oz \parallel By$.
-  - b) $\widehat{AOz} = 50^\circ, \widehat{BOz} = 60^\circ \implies \widehat{AOB} = 50^\circ + 60^\circ = 110^\circ$.
+* **Mã đề 104:** $\widehat{A}_1 = \widehat{B}_1 = 65^\circ$.
+  - a) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 65^\circ \implies a \parallel b$. *(1,25đ)*
+  - b) $\widehat{A}_3 = \widehat{B}_3 = 65^\circ$; $\widehat{A}_2 = \widehat{A}_4 = \widehat{B}_2 = \widehat{B}_4 = 180^\circ - 65^\circ = 115^\circ$. *(1,25đ)*
 
 ---
 

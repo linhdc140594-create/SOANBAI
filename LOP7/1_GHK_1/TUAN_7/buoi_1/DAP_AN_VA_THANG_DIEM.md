@@ -99,39 +99,42 @@
 
 ---
 
-### 🔹 CÂU 13 (2,5 ĐIỂM): BÀI TOÁN HÌNH HỌC TỔNG HỢP (TIÊN ĐỀ EUCLID & GÓC GÃY KHÚC)
+### 🔹 CÂU 13 (2,5 ĐIỂM): HÌNH HỌC - HAI ĐƯỜNG THẲNG SONG SONG & TÍNH GÓC
 
-#### Mã đề 101: $\alpha = 40^\circ, \beta = 50^\circ$
+#### Mã đề 101: $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$
 * **a) (1,25đ):**
-  * Theo đề bài, ta có $Ax \parallel By$ và $Oz \parallel Ax$. *(0,5đ)*
-  * Theo tính chất hai đường thẳng cùng song song với đường thẳng thứ ba, ta suy ra:
-    $$Oz \parallel By$$ *(0,75đ)*
+  * Ta có $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$ (theo giả thiết). *(0,5đ)*
+  * Mà hai góc $\widehat{A}_1$ và $\widehat{B}_1$ ở vị trí đồng vị. *(0,25đ)*
+  * Do đó, theo dấu hiệu nhận biết hai đường thẳng song song, ta suy ra:
+    $$a \parallel b$$ *(0,5đ)*
 * **b) (1,25đ):**
-  * Vì $Oz \parallel Ax$ nên $\widehat{AOz} = \widehat{xAO} = 40^\circ$ (hai góc so le trong). *(0,5đ)*
-  * Vì $Oz \parallel By$ nên $\widehat{BOz} = \widehat{yBO} = 50^\circ$ (hai góc so le trong). *(0,5đ)*
-  * Vì tia $Oz$ nằm giữa hai tia $OA$ và $OB$ nên:
-    $$\widehat{AOB} = \widehat{AOz} + \widehat{BOz} = 40^\circ + 50^\circ = 90^\circ$$ *(0,25đ)*
+  * *Tại đỉnh $A$:*
+    * $\widehat{A}_3 = \widehat{A}_1 = 60^\circ$ (hai góc đối đỉnh). *(0,25đ)*
+    * Vì $\widehat{A}_2$ và $\widehat{A}_1$ là hai góc kề bù nên:
+      $$\widehat{A}_2 = 180^\circ - \widehat{A}_1 = 180^\circ - 60^\circ = 120^\circ \quad (0{,}25\text{đ})$$
+    * $\widehat{A}_4 = \widehat{A}_2 = 120^\circ$ (hai góc đối đỉnh). *(0,25đ)*
+  * *Tại đỉnh $B$:*
+    * Vì $a \parallel b$ nên: $\widehat{B}_3 = \widehat{A}_1 = 60^\circ$ (hai góc so le trong hoặc đối đỉnh với $\widehat{B}_1$). *(0,25đ)*
+    * $\widehat{B}_2 = \widehat{A}_4 = 120^\circ$ (hai góc so le trong) và $\widehat{B}_4 = \widehat{B}_2 = 120^\circ$ (hai góc đối đỉnh). *(0,25đ)*
+    *(Học sinh tính đúng theo quan hệ kề bù, đối đỉnh hoặc tính chất hai đường thẳng song song đều được điểm tối đa).*
 
-#### Mã đề 102: $\alpha = 35^\circ, \beta = 45^\circ$
-* **a) (1,25đ):** Lập luận tương tự: Vì $Oz \parallel Ax$ và $Ax \parallel By \implies Oz \parallel By$. *(1,25đ)*
+#### Mã đề 102: $\widehat{A}_1 = \widehat{B}_1 = 70^\circ$
+* **a) (1,25đ):** Ta có $\widehat{A}_1 = \widehat{B}_1 = 70^\circ$, mà hai góc này ở vị trí đồng vị $\implies a \parallel b$. *(1,25đ)*
 * **b) (1,25đ):**
-  * $\widehat{AOz} = \widehat{xAO} = 35^\circ$ (hai góc so le trong). *(0,5đ)*
-  * $\widehat{BOz} = \widehat{yBO} = 45^\circ$ (hai góc so le trong). *(0,5đ)*
-  * $\widehat{AOB} = \widehat{AOz} + \widehat{BOz} = 35^\circ + 45^\circ = 80^\circ$. *(0,25đ)*
+  * Tại đỉnh $A$: $\widehat{A}_3 = \widehat{A}_1 = 70^\circ$ (đối đỉnh); $\widehat{A}_2 = \widehat{A}_4 = 180^\circ - 70^\circ = 110^\circ$. *(0,75đ)*
+  * Tại đỉnh $B$: $\widehat{B}_3 = 70^\circ$; $\widehat{B}_2 = \widehat{B}_4 = 110^\circ$. *(0,5đ)*
 
-#### Mã đề 103: $\alpha = 45^\circ, \beta = 65^\circ$
-* **a) (1,25đ):** Vì $Oz \parallel Ax$ và $Ax \parallel By \implies Oz \parallel By$. *(1,25đ)*
+#### Mã đề 103: $\widehat{A}_1 = \widehat{B}_1 = 50^\circ$
+* **a) (1,25đ):** Ta có $\widehat{A}_1 = \widehat{B}_1 = 50^\circ$, mà hai góc này ở vị trí đồng vị $\implies a \parallel b$. *(1,25đ)*
 * **b) (1,25đ):**
-  * $\widehat{AOz} = \widehat{xAO} = 45^\circ$ (so le trong). *(0,5đ)*
-  * $\widehat{BOz} = \widehat{yBO} = 65^\circ$ (so le trong). *(0,5đ)*
-  * $\widehat{AOB} = 45^\circ + 65^\circ = 110^\circ$. *(0,25đ)*
+  * Tại đỉnh $A$: $\widehat{A}_3 = \widehat{A}_1 = 50^\circ$; $\widehat{A}_2 = \widehat{A}_4 = 180^\circ - 50^\circ = 130^\circ$. *(0,75đ)*
+  * Tại đỉnh $B$: $\widehat{B}_3 = 50^\circ$; $\widehat{B}_2 = \widehat{B}_4 = 130^\circ$. *(0,5đ)*
 
-#### Mã đề 104: $\alpha = 50^\circ, \beta = 60^\circ$
-* **a) (1,25đ):** Vì $Oz \parallel Ax$ và $Ax \parallel By \implies Oz \parallel By$. *(1,25đ)*
+#### Mã đề 104: $\widehat{A}_1 = \widehat{B}_1 = 65^\circ$
+* **a) (1,25đ):** Ta có $\widehat{A}_1 = \widehat{B}_1 = 65^\circ$, mà hai góc này ở vị trí đồng vị $\implies a \parallel b$. *(1,25đ)*
 * **b) (1,25đ):**
-  * $\widehat{AOz} = \widehat{xAO} = 50^\circ$ (so le trong). *(0,5đ)*
-  * $\widehat{BOz} = \widehat{yBO} = 60^\circ$ (so le trong). *(0,5đ)*
-  * $\widehat{AOB} = 50^\circ + 60^\circ = 110^\circ$. *(0,25đ)*
+  * Tại đỉnh $A$: $\widehat{A}_3 = \widehat{A}_1 = 65^\circ$; $\widehat{A}_2 = \widehat{A}_4 = 180^\circ - 65^\circ = 115^\circ$. *(0,75đ)*
+  * Tại đỉnh $B$: $\widehat{B}_3 = 65^\circ$; $\widehat{B}_2 = \widehat{B}_4 = 115^\circ$. *(0,5đ)*
 
 ---
 

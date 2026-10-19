@@ -8,10 +8,9 @@
 \usepackage[dethi]{ex_test}
 
 \SAOPTN{widthSA=2.6,heightSA=0.62}
-
 \setlength{\parskip}{0pt}
 
-% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 6.5mm rộng rãi vừa vặn)
+% Dong ke cham mo chuan viet tay
 \newcommand{\dongke}[1]{%
   \begingroup%
   \setlength{\parskip}{0pt}%
@@ -24,7 +23,7 @@
   \endgroup%
 }
 
-% Định nghĩa ô bài tập tự luận trong bảng
+% Dinh nghia o bai tap tu luan trong bang
 \newcommand{\oBaiTap}[3][6]{%
   \vspace{1.0mm}%
   \noindent\textbf{#2} #3\par%
@@ -34,10 +33,8 @@
 \begin{document}
 \pagestyle{empty}
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 101 =============
-% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% ========================= MA DE 101 - MAT TRUOC (TRANG 1/2) =============
 % =============================================================================
-
 \noindent
 \begin{tabularx}{\linewidth}{|X|c|}
 \hline
@@ -50,123 +47,92 @@
 \noindent
 \begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
 \hline
-\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
-\hline
-\rule{0pt}{1.8cm} & \tabularnewline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{144}$ bằng bao nhiêu? \shortans{12}\par\vspace{0.5mm}
-\noindent\textbf{Câu 2 (0,25 điểm).} Giá trị của biểu thức $\vert -5{,}2\vert - \vert 3{,}2\vert$ bằng bao nhiêu? \shortans{2}\par\vspace{0.5mm}
-\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $28{,}647$ đến hàng phần mười được kết quả là: \shortans{28{,}6}\par\vspace{0.5mm}
-\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=75^\circ$. Số đo góc $\widehat{yOz}$ là: \shortans{105^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo góc $48^\circ$. Số đo góc đối đỉnh với nó là: \shortans{48^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 110^\circ$. Số đo góc $\widehat{mOt}$ là: \shortans{55^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của biểu thức $\left(-\frac{1}{3}\right)^2 + \frac{8}{9}$ bằng bao nhiêu? \shortans{1}\par\vspace{0.5mm}
-\noindent\textbf{Câu 8 (0,25 điểm).} Qua điểm $M \notin a$, có bao nhiêu đường thẳng song song với $a$? \shortans{1}\par\vspace{0.5mm}
-\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x \ge 0$, biết $\sqrt{x} = 9$. \shortans{81}\par\vspace{0.5mm}
-\noindent\textbf{Câu 10 (0,25 điểm).} Cuốn sách giá $80\,000$ đ được giảm giá $15\%$. Số tiền được giảm là: \shortans{12\,000\text{ đ}}\par\vspace{0.5mm}
-\vspace{0.6mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{144}$ bằng bao nhiêu? \shortans{$12$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính giá trị của biểu thức $\lvert -5{,}2\rvert - \lvert 3{,}2\rvert$. \shortans{$2$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $28{,}647$ đến hàng phần mười. \shortans{$28{,}6$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=75^\circ$. Tính số đo $\widehat{yOz}$. \shortans{$105^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo thành một góc có số đo $48^\circ$. Góc đối đỉnh với góc đó có số đo bằng bao nhiêu? \shortans{$48^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là tia phân giác của góc $\widehat{mOn}=110^\circ$. Tính số đo $\widehat{mOt}$. \shortans{$55^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Tính giá trị của biểu thức $\left(-\frac{1}{3}\right)^2+\frac{8}{9}$. \shortans{$1$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Qua điểm $M$ nằm ngoài đường thẳng $a$, có bao nhiêu đường thẳng song song với $a$? \shortans{$1$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x\geq 0$, biết $\sqrt{x}=9$. \shortans{$81$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Một cuốn sách có giá $80\,000$ đồng được giảm giá $15\%$. Số tiền được giảm là bao nhiêu đồng? \shortans{$12\,000$ đồng}\par\vspace{0.3mm}
 
+\vspace{0.5mm}
 \noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
-\vspace{0.8mm}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[10]{a)}{$\frac{5}{14} + \left(-\frac{7}{3}\right) + \frac{9}{14}$} & 
-\oBaiTap[10]{b)}{$\frac{7}{11} \cdot \left(-\frac{8}{15}\right) + \frac{7}{11} \cdot \left(-\frac{7}{15}\right)$} \\
+\oBaiTap[10]{a)}{$\frac{5}{14}+\left(-\frac{7}{3}\right)+\frac{9}{14}$} & \oBaiTap[10]{b)}{$\frac{7}{11}\cdot\left(-\frac{8}{15}\right)+\frac{7}{11}\cdot\left(-\frac{7}{15}\right)$} \\
 \hline
-\oBaiTap[10]{c)}{$\left(-\frac{1}{2}\right)^2 \cdot 12 - 2{,}5 \cdot 4$} & 
-\oBaiTap[10]{d)}{$\sqrt{\frac{36}{25}} - \vert -0{,}2\vert + \sqrt{49}$} \\
+\oBaiTap[10]{c)}{$\left(-\frac{1}{2}\right)^2\cdot 12-2{,}5\cdot 4$} & \oBaiTap[10]{d)}{$\sqrt{\frac{36}{25}}-\lvert -0{,}2\rvert+\sqrt{49}$} \\
 \hline
 \end{tabularx}
 
 \newpage
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 101 =============
-% ========================= MẶT SAU (TRANG 2/2) ================================
+% ========================= MA DE 101 - MAT SAU (TRANG 2/2) ==============
 % =============================================================================
-
 \noindent
-\begin{tabularx}{\linewidth}{|X|c|}
+\begin{tabularx}{\linewidth}{|X|}
 \hline
-\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\centering\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01 | Mã đề: 101 - Trang 2/2} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
-\vspace{0.8mm}
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[5]{a)}{$x - \frac{1}{4} = \frac{5}{12}$} & 
-\oBaiTap[5]{b)}{$\frac{3}{5}x + \frac{1}{2} = \frac{11}{10}$} \\
+\oBaiTap[5]{a)}{$x-\frac{1}{4}=\frac{5}{12}$} & \oBaiTap[5]{b)}{$\frac{3}{5}x+\frac{1}{2}=\frac{11}{10}$} \\
 \hline
-\oBaiTap[5]{c)}{$\left(x + \frac{1}{3}\right)^2 = \frac{16}{25}$} & 
-\oBaiTap[5]{d)}{$\vert 3x - 1\vert = 5$} \\
+\oBaiTap[5]{c)}{$\left(x+\frac{1}{3}\right)^2=\frac{16}{25}$} & \oBaiTap[5]{d)}{$\lvert 3x-1\rvert=5$} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\begin{minipage}[t]{0.70\linewidth}
-\vspace{0pt}
-\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 40^\circ$ và $\widehat{yBO} = 50^\circ$.\par\vspace{0.3mm}
-\textbf{a) (1,25 điểm)} Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.\par\vspace{0.3mm}
-\textbf{b) (1,25 điểm)} Tính số đo góc $\widehat{AOB}$.
-\end{minipage}\hfill
-\begin{minipage}[t]{0.28\linewidth}
-\vspace{0pt}\centering
-\begin{tikzpicture}[scale=0.65, >=stealth, line join=round, line cap=round]
-  \coordinate (A) at (0.2, 2.1);
-  \coordinate (B) at (0.2, 0.2);
-  \coordinate (O) at (2.2, 1.15);
-  \draw[->, thick] (A) -- (3.5, 2.1) node[right] {$x$};
-  \draw[->, thick] (B) -- (3.5, 0.2) node[right] {$y$};
-  \draw[thick] (A) -- (O) -- (B);
-  \fill (A) circle (1.5pt) node[left=1pt] {$A$};
-  \fill (B) circle (1.5pt) node[left=1pt] {$B$};
-  \fill (O) circle (1.5pt) node[right=2pt] {$O$};
-  \draw[red!80!black, thick] (A) ++(0:0.65) arc (0:-25.4:0.65);
-  \path (A) ++(-12.7:1.15) node[red!80!black, font=\footnotesize] {$ 40^\circ $};
-  \draw[blue!80!black, thick] (B) ++(0:0.65) arc (0:25.4:0.65);
-  \path (B) ++(12.7:1.15) node[blue!80!black, font=\footnotesize] {$ 50^\circ $};
-\end{tikzpicture}
-\end{minipage}\par
-\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ, đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại $A$ và $B$. Các góc tại mỗi giao điểm được đánh số $1,2,3,4$ theo cùng một chiều, trong đó $\widehat{A}_1$ và $\widehat{B}_1$ ở vị trí đồng vị. Biết $\widehat{A}_1=\widehat{B}_1=60^\circ$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng $a\parallel b$.\par
+\textbf{b) (1,25 điểm)} Tính số đo các góc $\widehat{A}_2,\widehat{A}_3,\widehat{A}_4$ và $\widehat{B}_2,\widehat{B}_3,\widehat{B}_4$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{11}
 \\ \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $A = \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^{2026}}$. Hãy so sánh $A$ với $1$.\par
-\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $A=\frac{1}{2}+\frac{1}{2^2}+\frac{1}{2^3}+\dots+\frac{1}{2^{2026}}$. Hãy so sánh $A$ với $1$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{8}
 \\ \hline
 \end{tabularx}
 
 \newpage
-
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 102 =============
-% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% ========================= MA DE 102 - MAT TRUOC (TRANG 1/2) =============
 % =============================================================================
-
 \noindent
 \begin{tabularx}{\linewidth}{|X|c|}
 \hline
@@ -179,123 +145,92 @@
 \noindent
 \begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
 \hline
-\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
-\hline
-\rule{0pt}{1.8cm} & \tabularnewline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{169}$ bằng bao nhiêu? \shortans{13}\par\vspace{0.5mm}
-\noindent\textbf{Câu 2 (0,25 điểm).} Giá trị của biểu thức $\vert -6{,}4\vert - \vert 3{,}4\vert$ bằng bao nhiêu? \shortans{3}\par\vspace{0.5mm}
-\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $37{,}482$ đến hàng phần mười được kết quả là: \shortans{37{,}5}\par\vspace{0.5mm}
-\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=55^\circ$. Số đo góc $\widehat{yOz}$ là: \shortans{125^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo góc $62^\circ$. Số đo góc đối đỉnh với nó là: \shortans{62^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 120^\circ$. Số đo góc $\widehat{mOt}$ là: \shortans{60^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của biểu thức $\left(-\frac{2}{5}\right)^2 + \frac{21}{25}$ bằng bao nhiêu? \shortans{1}\par\vspace{0.5mm}
-\noindent\textbf{Câu 8 (0,25 điểm).} Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì chúng: \shortans{\text{song song}}\par\vspace{0.5mm}
-\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x \ge 0$, biết $\sqrt{x} = 10$. \shortans{100}\par\vspace{0.5mm}
-\noindent\textbf{Câu 10 (0,25 điểm).} Chiếc ba lô giá $240\,000$ đ được giảm giá $15\%$. Số tiền được giảm là: \shortans{36\,000\text{ đ}}\par\vspace{0.5mm}
-\vspace{0.6mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{169}$ bằng bao nhiêu? \shortans{$13$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính giá trị của biểu thức $\lvert -6{,}4\rvert - \lvert 3{,}4\rvert$. \shortans{$3$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $37{,}482$ đến hàng phần mười. \shortans{$37{,}5$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=55^\circ$. Tính số đo $\widehat{yOz}$. \shortans{$125^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo thành một góc có số đo $62^\circ$. Góc đối đỉnh với góc đó có số đo bằng bao nhiêu? \shortans{$62^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là tia phân giác của góc $\widehat{mOn}=120^\circ$. Tính số đo $\widehat{mOt}$. \shortans{$60^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Tính giá trị của biểu thức $\left(-\frac{2}{5}\right)^2+\frac{21}{25}$. \shortans{$1$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì có quan hệ gì với nhau? \shortans{Song song}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x\geq 0$, biết $\sqrt{x}=10$. \shortans{$100$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Một chiếc ba lô có giá $240\,000$ đồng được giảm giá $15\%$. Số tiền được giảm là bao nhiêu đồng? \shortans{$36\,000$ đồng}\par\vspace{0.3mm}
 
+\vspace{0.5mm}
 \noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
-\vspace{0.8mm}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[10]{a)}{$\frac{4}{15} + \left(-\frac{5}{2}\right) + \frac{11}{15}$} & 
-\oBaiTap[10]{b)}{$\frac{9}{13} \cdot \left(-\frac{5}{17}\right) + \frac{9}{13} \cdot \left(-\frac{12}{17}\right)$} \\
+\oBaiTap[10]{a)}{$\frac{4}{15}+\left(-\frac{5}{2}\right)+\frac{11}{15}$} & \oBaiTap[10]{b)}{$\frac{9}{13}\cdot\left(-\frac{5}{17}\right)+\frac{9}{13}\cdot\left(-\frac{12}{17}\right)$} \\
 \hline
-\oBaiTap[10]{c)}{$\left(-\frac{1}{3}\right)^2 \cdot 18 - 3{,}5 \cdot 2$} & 
-\oBaiTap[10]{d)}{$\sqrt{\frac{64}{25}} - \vert -0{,}6\vert + \sqrt{64}$} \\
+\oBaiTap[10]{c)}{$\left(-\frac{1}{3}\right)^2\cdot 18-3{,}5\cdot 2$} & \oBaiTap[10]{d)}{$\sqrt{\frac{64}{25}}-\lvert -0{,}6\rvert+\sqrt{64}$} \\
 \hline
 \end{tabularx}
 
 \newpage
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 102 =============
-% ========================= MẶT SAU (TRANG 2/2) ================================
+% ========================= MA DE 102 - MAT SAU (TRANG 2/2) ==============
 % =============================================================================
-
 \noindent
-\begin{tabularx}{\linewidth}{|X|c|}
+\begin{tabularx}{\linewidth}{|X|}
 \hline
-\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\centering\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01 | Mã đề: 102 - Trang 2/2} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
-\vspace{0.8mm}
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[5]{a)}{$x - \frac{1}{6} = \frac{7}{18}$} & 
-\oBaiTap[5]{b)}{$\frac{4}{7}x + \frac{1}{3} = \frac{19}{21}$} \\
+\oBaiTap[5]{a)}{$x-\frac{1}{6}=\frac{7}{18}$} & \oBaiTap[5]{b)}{$\frac{4}{7}x+\frac{1}{3}=\frac{19}{21}$} \\
 \hline
-\oBaiTap[5]{c)}{$\left(x - \frac{1}{4}\right)^2 = \frac{25}{16}$} & 
-\oBaiTap[5]{d)}{$\vert 3x + 2\vert = 8$} \\
+\oBaiTap[5]{c)}{$\left(x-\frac{1}{4}\right)^2=\frac{25}{16}$} & \oBaiTap[5]{d)}{$\lvert 3x+2\rvert=8$} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\begin{minipage}[t]{0.70\linewidth}
-\vspace{0pt}
-\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 35^\circ$ và $\widehat{yBO} = 45^\circ$.\par\vspace{0.3mm}
-\textbf{a) (1,25 điểm)} Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.\par\vspace{0.3mm}
-\textbf{b) (1,25 điểm)} Tính số đo góc $\widehat{AOB}$.
-\end{minipage}\hfill
-\begin{minipage}[t]{0.28\linewidth}
-\vspace{0pt}\centering
-\begin{tikzpicture}[scale=0.65, >=stealth, line join=round, line cap=round]
-  \coordinate (A) at (0.2, 2.1);
-  \coordinate (B) at (0.2, 0.2);
-  \coordinate (O) at (2.2, 1.15);
-  \draw[->, thick] (A) -- (3.5, 2.1) node[right] {$x$};
-  \draw[->, thick] (B) -- (3.5, 0.2) node[right] {$y$};
-  \draw[thick] (A) -- (O) -- (B);
-  \fill (A) circle (1.5pt) node[left=1pt] {$A$};
-  \fill (B) circle (1.5pt) node[left=1pt] {$B$};
-  \fill (O) circle (1.5pt) node[right=2pt] {$O$};
-  \draw[red!80!black, thick] (A) ++(0:0.65) arc (0:-25.4:0.65);
-  \path (A) ++(-12.7:1.15) node[red!80!black, font=\footnotesize] {$ 35^\circ $};
-  \draw[blue!80!black, thick] (B) ++(0:0.65) arc (0:25.4:0.65);
-  \path (B) ++(12.7:1.15) node[blue!80!black, font=\footnotesize] {$ 45^\circ $};
-\end{tikzpicture}
-\end{minipage}\par
-\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ, đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại $A$ và $B$. Các góc tại mỗi giao điểm được đánh số $1,2,3,4$ theo cùng một chiều, trong đó $\widehat{A}_1$ và $\widehat{B}_1$ ở vị trí đồng vị. Biết $\widehat{A}_1=\widehat{B}_1=70^\circ$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng $a\parallel b$.\par
+\textbf{b) (1,25 điểm)} Tính số đo các góc $\widehat{A}_2,\widehat{A}_3,\widehat{A}_4$ và $\widehat{B}_2,\widehat{B}_3,\widehat{B}_4$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{11}
 \\ \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $B = \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \dots + \frac{1}{3^{2026}}$. Hãy so sánh $B$ với $\frac{1}{2}$.\par
-\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $B=\frac{1}{3}+\frac{1}{3^2}+\frac{1}{3^3}+\dots+\frac{1}{3^{2026}}$. Hãy so sánh $B$ với $\frac{1}{2}$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{8}
 \\ \hline
 \end{tabularx}
 
 \newpage
-
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 103 =============
-% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% ========================= MA DE 103 - MAT TRUOC (TRANG 1/2) =============
 % =============================================================================
-
 \noindent
 \begin{tabularx}{\linewidth}{|X|c|}
 \hline
@@ -308,123 +243,92 @@
 \noindent
 \begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
 \hline
-\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
-\hline
-\rule{0pt}{1.8cm} & \tabularnewline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{196}$ bằng bao nhiêu? \shortans{14}\par\vspace{0.5mm}
-\noindent\textbf{Câu 2 (0,25 điểm).} Giá trị của biểu thức $\vert -7{,}6\vert - \vert 3{,}6\vert$ bằng bao nhiêu? \shortans{4}\par\vspace{0.5mm}
-\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $46{,}359$ đến hàng phần mười được kết quả là: \shortans{46{,}4}\par\vspace{0.5mm}
-\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=65^\circ$. Số đo góc $\widehat{yOz}$ là: \shortans{115^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo góc $54^\circ$. Số đo góc đối đỉnh với nó là: \shortans{54^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 130^\circ$. Số đo góc $\widehat{mOt}$ là: \shortans{65^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của biểu thức $\left(-\frac{3}{5}\right)^2 + \frac{16}{25}$ bằng bao nhiêu? \shortans{1}\par\vspace{0.5mm}
-\noindent\textbf{Câu 8 (0,25 điểm).} Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì chúng: \shortans{\text{song song}}\par\vspace{0.5mm}
-\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x \ge 0$, biết $\sqrt{x} = 11$. \shortans{121}\par\vspace{0.5mm}
-\noindent\textbf{Câu 10 (0,25 điểm).} Đôi dép giá $160\,000$ đ được giảm giá $15\%$. Số tiền được giảm là: \shortans{24\,000\text{ đ}}\par\vspace{0.5mm}
-\vspace{0.6mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{196}$ bằng bao nhiêu? \shortans{$14$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính giá trị của biểu thức $\lvert -7{,}6\rvert - \lvert 3{,}6\rvert$. \shortans{$4$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $46{,}359$ đến hàng phần mười. \shortans{$46{,}4$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=65^\circ$. Tính số đo $\widehat{yOz}$. \shortans{$115^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo thành một góc có số đo $54^\circ$. Góc đối đỉnh với góc đó có số đo bằng bao nhiêu? \shortans{$54^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là tia phân giác của góc $\widehat{mOn}=130^\circ$. Tính số đo $\widehat{mOt}$. \shortans{$65^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Tính giá trị của biểu thức $\left(-\frac{3}{5}\right)^2+\frac{16}{25}$. \shortans{$1$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì có quan hệ gì với nhau? \shortans{Song song}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x\geq 0$, biết $\sqrt{x}=11$. \shortans{$121$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Một đôi dép có giá $160\,000$ đồng được giảm giá $15\%$. Số tiền được giảm là bao nhiêu đồng? \shortans{$24\,000$ đồng}\par\vspace{0.3mm}
 
+\vspace{0.5mm}
 \noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
-\vspace{0.8mm}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[10]{a)}{$\frac{7}{18} + \left(-\frac{8}{3}\right) + \frac{11}{18}$} & 
-\oBaiTap[10]{b)}{$\frac{5}{12} \cdot \left(-\frac{11}{19}\right) + \frac{5}{12} \cdot \left(-\frac{8}{19}\right)$} \\
+\oBaiTap[10]{a)}{$\frac{7}{18}+\left(-\frac{8}{3}\right)+\frac{11}{18}$} & \oBaiTap[10]{b)}{$\frac{5}{12}\cdot\left(-\frac{11}{19}\right)+\frac{5}{12}\cdot\left(-\frac{8}{19}\right)$} \\
 \hline
-\oBaiTap[10]{c)}{$\left(-\frac{1}{2}\right)^3 \cdot 16 + 1{,}5 \cdot (-4)$} & 
-\oBaiTap[10]{d)}{$\sqrt{\frac{49}{16}} - \vert -0{,}75\vert + \sqrt{81}$} \\
+\oBaiTap[10]{c)}{$\left(-\frac{1}{2}\right)^3\cdot 16+1{,}5\cdot(-4)$} & \oBaiTap[10]{d)}{$\sqrt{\frac{49}{16}}-\lvert -0{,}75\rvert+\sqrt{81}$} \\
 \hline
 \end{tabularx}
 
 \newpage
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 103 =============
-% ========================= MẶT SAU (TRANG 2/2) ================================
+% ========================= MA DE 103 - MAT SAU (TRANG 2/2) ==============
 % =============================================================================
-
 \noindent
-\begin{tabularx}{\linewidth}{|X|c|}
+\begin{tabularx}{\linewidth}{|X|}
 \hline
-\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\centering\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01 | Mã đề: 103 - Trang 2/2} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
-\vspace{0.8mm}
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[5]{a)}{$x - \frac{1}{5} = \frac{7}{20}$} & 
-\oBaiTap[5]{b)}{$\frac{5}{8}x - \frac{1}{4} = \frac{3}{8}$} \\
+\oBaiTap[5]{a)}{$x-\frac{1}{5}=\frac{7}{20}$} & \oBaiTap[5]{b)}{$\frac{5}{8}x-\frac{1}{4}=\frac{3}{8}$} \\
 \hline
-\oBaiTap[5]{c)}{$\left(x + \frac{1}{2}\right)^2 = \frac{9}{4}$} & 
-\oBaiTap[5]{d)}{$\vert 2x - 3\vert = 7$} \\
+\oBaiTap[5]{c)}{$\left(x+\frac{1}{2}\right)^2=\frac{9}{4}$} & \oBaiTap[5]{d)}{$\lvert 2x-3\rvert=7$} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\begin{minipage}[t]{0.70\linewidth}
-\vspace{0pt}
-\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 45^\circ$ và $\widehat{yBO} = 65^\circ$.\par\vspace{0.3mm}
-\textbf{a) (1,25 điểm)} Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.\par\vspace{0.3mm}
-\textbf{b) (1,25 điểm)} Tính số đo góc $\widehat{AOB}$.
-\end{minipage}\hfill
-\begin{minipage}[t]{0.28\linewidth}
-\vspace{0pt}\centering
-\begin{tikzpicture}[scale=0.65, >=stealth, line join=round, line cap=round]
-  \coordinate (A) at (0.2, 2.1);
-  \coordinate (B) at (0.2, 0.2);
-  \coordinate (O) at (2.2, 1.15);
-  \draw[->, thick] (A) -- (3.5, 2.1) node[right] {$x$};
-  \draw[->, thick] (B) -- (3.5, 0.2) node[right] {$y$};
-  \draw[thick] (A) -- (O) -- (B);
-  \fill (A) circle (1.5pt) node[left=1pt] {$A$};
-  \fill (B) circle (1.5pt) node[left=1pt] {$B$};
-  \fill (O) circle (1.5pt) node[right=2pt] {$O$};
-  \draw[red!80!black, thick] (A) ++(0:0.65) arc (0:-25.4:0.65);
-  \path (A) ++(-12.7:1.15) node[red!80!black, font=\footnotesize] {$ 45^\circ $};
-  \draw[blue!80!black, thick] (B) ++(0:0.65) arc (0:25.4:0.65);
-  \path (B) ++(12.7:1.15) node[blue!80!black, font=\footnotesize] {$ 65^\circ $};
-\end{tikzpicture}
-\end{minipage}\par
-\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ, đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại $A$ và $B$. Các góc tại mỗi giao điểm được đánh số $1,2,3,4$ theo cùng một chiều, trong đó $\widehat{A}_1$ và $\widehat{B}_1$ ở vị trí đồng vị. Biết $\widehat{A}_1=\widehat{B}_1=50^\circ$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng $a\parallel b$.\par
+\textbf{b) (1,25 điểm)} Tính số đo các góc $\widehat{A}_2,\widehat{A}_3,\widehat{A}_4$ và $\widehat{B}_2,\widehat{B}_3,\widehat{B}_4$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{11}
 \\ \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $C = \frac{1}{4} + \frac{1}{4^2} + \frac{1}{4^3} + \dots + \frac{1}{4^{2026}}$. Hãy so sánh $C$ với $\frac{1}{3}$.\par
-\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $C=\frac{1}{4}+\frac{1}{4^2}+\frac{1}{4^3}+\dots+\frac{1}{4^{2026}}$. Hãy so sánh $C$ với $\frac{1}{3}$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{8}
 \\ \hline
 \end{tabularx}
 
 \newpage
-
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 104 =============
-% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% ========================= MA DE 104 - MAT TRUOC (TRANG 1/2) =============
 % =============================================================================
-
 \noindent
 \begin{tabularx}{\linewidth}{|X|c|}
 \hline
@@ -437,116 +341,87 @@
 \noindent
 \begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
 \hline
-\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
-\hline
-\rule{0pt}{1.8cm} & \tabularnewline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{225}$ bằng bao nhiêu? \shortans{15}\par\vspace{0.5mm}
-\noindent\textbf{Câu 2 (0,25 điểm).} Giá trị của biểu thức $\vert -8{,}8\vert - \vert 3{,}8\vert$ bằng bao nhiêu? \shortans{5}\par\vspace{0.5mm}
-\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $54{,}728$ đến hàng phần mười được kết quả là: \shortans{54{,}7}\par\vspace{0.5mm}
-\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=85^\circ$. Số đo góc $\widehat{yOz}$ là: \shortans{95^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo góc $76^\circ$. Số đo góc đối đỉnh với nó là: \shortans{76^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 140^\circ$. Số đo góc $\widehat{mOt}$ là: \shortans{70^\circ}\par\vspace{0.5mm}
-\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của biểu thức $\left(-\frac{1}{4}\right)^2 + \frac{15}{16}$ bằng bao nhiêu? \shortans{1}\par\vspace{0.5mm}
-\noindent\textbf{Câu 8 (0,25 điểm).} Cho $a \parallel b$, nếu $c \perp a$ thì đường thẳng $c$ có quan hệ gì với đường thẳng $b$? \shortans{\text{vuông góc}}\par\vspace{0.5mm}
-\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x \ge 0$, biết $\sqrt{x} = 12$. \shortans{144}\par\vspace{0.5mm}
-\noindent\textbf{Câu 10 (0,25 điểm).} Chiếc áo giá $120\,000$ đ được giảm giá $15\%$. Số tiền được giảm là: \shortans{18\,000\text{ đ}}\par\vspace{0.5mm}
-\vspace{0.6mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Giá trị của $\sqrt{225}$ bằng bao nhiêu? \shortans{$15$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính giá trị của biểu thức $\lvert -8{,}8\rvert - \lvert 3{,}8\rvert$. \shortans{$5$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Làm tròn số $54{,}728$ đến hàng phần mười. \shortans{$54{,}7$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=85^\circ$. Tính số đo $\widehat{yOz}$. \shortans{$95^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Hai đường thẳng cắt nhau tạo thành một góc có số đo $76^\circ$. Góc đối đỉnh với góc đó có số đo bằng bao nhiêu? \shortans{$76^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Cho tia $Ot$ là tia phân giác của góc $\widehat{mOn}=140^\circ$. Tính số đo $\widehat{mOt}$. \shortans{$70^\circ$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Tính giá trị của biểu thức $\left(-\frac{1}{4}\right)^2+\frac{15}{16}$. \shortans{$1$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Cho $a\parallel b$ và đường thẳng $c\perp a$. Đường thẳng $c$ có quan hệ gì với đường thẳng $b$? \shortans{Vuông góc}\par\vspace{0.3mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tìm số thực $x\geq 0$, biết $\sqrt{x}=12$. \shortans{$144$}\par\vspace{0.3mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Một chiếc áo có giá $120\,000$ đồng được giảm giá $15\%$. Số tiền được giảm là bao nhiêu đồng? \shortans{$18\,000$ đồng}\par\vspace{0.3mm}
 
+\vspace{0.5mm}
 \noindent\textbf{Câu 11 (2,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
-\vspace{0.8mm}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[10]{a)}{$\frac{5}{16} + \left(-\frac{7}{2}\right) + \frac{11}{16}$} & 
-\oBaiTap[10]{b)}{$\frac{6}{17} \cdot \left(-\frac{13}{21}\right) + \frac{6}{17} \cdot \left(-\frac{8}{21}\right)$} \\
+\oBaiTap[10]{a)}{$\frac{5}{16}+\left(-\frac{7}{2}\right)+\frac{11}{16}$} & \oBaiTap[10]{b)}{$\frac{6}{17}\cdot\left(-\frac{13}{21}\right)+\frac{6}{17}\cdot\left(-\frac{8}{21}\right)$} \\
 \hline
-\oBaiTap[10]{c)}{$\left(-\frac{2}{3}\right)^2 \cdot 9 - 4{,}5 \cdot 2$} & 
-\oBaiTap[10]{d)}{$\sqrt{\frac{81}{16}} - \vert -1{,}25\vert + \sqrt{100}$} \\
+\oBaiTap[10]{c)}{$\left(-\frac{2}{3}\right)^2\cdot 9-4{,}5\cdot 2$} & \oBaiTap[10]{d)}{$\sqrt{\frac{81}{16}}-\lvert -1{,}25\rvert+\sqrt{100}$} \\
 \hline
 \end{tabularx}
 
 \newpage
 % =============================================================================
-% ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ 104 =============
-% ========================= MẶT SAU (TRANG 2/2) ================================
+% ========================= MA DE 104 - MAT SAU (TRANG 2/2) ==============
 % =============================================================================
-
 \noindent
-\begin{tabularx}{\linewidth}{|X|c|}
+\begin{tabularx}{\linewidth}{|X|}
 \hline
-\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\centering\textbf{TOÁN 7 - TUẦN 07 - BUỔI 01 | Mã đề: 104 - Trang 2/2} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
-\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
-\vspace{0.8mm}
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.5mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|X|}
 \hline
-\oBaiTap[5]{a)}{$x - \frac{1}{3} = \frac{5}{12}$} & 
-\oBaiTap[5]{b)}{$\frac{2}{5}x - \frac{1}{10} = \frac{3}{10}$} \\
+\oBaiTap[5]{a)}{$x-\frac{1}{3}=\frac{5}{12}$} & \oBaiTap[5]{b)}{$\frac{2}{5}x-\frac{1}{10}=\frac{3}{10}$} \\
 \hline
-\oBaiTap[5]{c)}{$\left(x - \frac{1}{5}\right)^2 = \frac{16}{25}$} & 
-\oBaiTap[5]{d)}{$\vert 2x + 5\vert = 9$} \\
+\oBaiTap[5]{c)}{$\left(x-\frac{1}{5}\right)^2=\frac{16}{25}$} & \oBaiTap[5]{d)}{$\lvert 2x+5\rvert=9$} \\
 \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\begin{minipage}[t]{0.70\linewidth}
-\vspace{0pt}
-\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 50^\circ$ và $\widehat{yBO} = 60^\circ$.\par\vspace{0.3mm}
-\textbf{a) (1,25 điểm)} Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.\par\vspace{0.3mm}
-\textbf{b) (1,25 điểm)} Tính số đo góc $\widehat{AOB}$.
-\end{minipage}\hfill
-\begin{minipage}[t]{0.28\linewidth}
-\vspace{0pt}\centering
-\begin{tikzpicture}[scale=0.65, >=stealth, line join=round, line cap=round]
-  \coordinate (A) at (0.2, 2.1);
-  \coordinate (B) at (0.2, 0.2);
-  \coordinate (O) at (2.2, 1.15);
-  \draw[->, thick] (A) -- (3.5, 2.1) node[right] {$x$};
-  \draw[->, thick] (B) -- (3.5, 0.2) node[right] {$y$};
-  \draw[thick] (A) -- (O) -- (B);
-  \fill (A) circle (1.5pt) node[left=1pt] {$A$};
-  \fill (B) circle (1.5pt) node[left=1pt] {$B$};
-  \fill (O) circle (1.5pt) node[right=2pt] {$O$};
-  \draw[red!80!black, thick] (A) ++(0:0.65) arc (0:-25.4:0.65);
-  \path (A) ++(-12.7:1.15) node[red!80!black, font=\footnotesize] {$ 50^\circ $};
-  \draw[blue!80!black, thick] (B) ++(0:0.65) arc (0:25.4:0.65);
-  \path (B) ++(12.7:1.15) node[blue!80!black, font=\footnotesize] {$ 60^\circ $};
-\end{tikzpicture}
-\end{minipage}\par
-\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho hình vẽ, đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại $A$ và $B$. Các góc tại mỗi giao điểm được đánh số $1,2,3,4$ theo cùng một chiều, trong đó $\widehat{A}_1$ và $\widehat{B}_1$ ở vị trí đồng vị. Biết $\widehat{A}_1=\widehat{B}_1=65^\circ$.\par
+\textbf{a) (1,25 điểm)} Chứng minh rằng $a\parallel b$.\par
+\textbf{b) (1,25 điểm)} Tính số đo các góc $\widehat{A}_2,\widehat{A}_3,\widehat{A}_4$ và $\widehat{B}_2,\widehat{B}_3,\widehat{B}_4$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{11}
 \\ \hline
 \end{tabularx}
 
-\vspace{1.5mm}
+\vspace{1.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $D = \frac{1}{5} + \frac{1}{5^2} + \frac{1}{5^3} + \dots + \frac{1}{5^{2026}}$. Hãy so sánh $D$ với $\frac{1}{4}$.\par
-\vspace{0.5mm}
+\textbf{Câu 14 (1,0 điểm).} Cho biểu thức $D=\frac{1}{5}+\frac{1}{5^2}+\frac{1}{5^3}+\dots+\frac{1}{5^{2026}}$. Hãy so sánh $D$ với $\frac{1}{4}$.\par
+\vspace{0.4mm}
 \noindent\textit{Bài giải:}\dongke{8}
 \\ \hline
 \end{tabularx}
 
 \newpage
-
 \end{document}

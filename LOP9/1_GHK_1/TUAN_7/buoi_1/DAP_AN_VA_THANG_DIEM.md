@@ -35,7 +35,7 @@
   - Kết luận: Hệ phương trình có nghiệm duy nhất $(x; y) = (3; 2)$. *(0,25đ)*
 
 * **b) (1,25 điểm)** Rút gọn với $x > 0, x \ne 4$: $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}-2} - \dfrac{4}{x-2\sqrt{x}}\right) : \dfrac{\sqrt{x}+2}{\sqrt{x}}$
-  - Biến đổi trong ngoặc: $x - 2\sqrt{x} = \sqrt{x}(\sqrt{x}-2)$ *(0,25đ)*
+  - Biến đổi mẫu thức: $x - 2\sqrt{x} = \sqrt{x}(\sqrt{x}-2)$ *(0,25đ)*
   - Quy đồng mẫu thức trong ngoặc:
     $$\dfrac{\sqrt{x} \cdot \sqrt{x} - 4}{\sqrt{x}(\sqrt{x}-2)} = \dfrac{x - 4}{\sqrt{x}(\sqrt{x}-2)} = \dfrac{(\sqrt{x}-2)(\sqrt{x}+2)}{\sqrt{x}(\sqrt{x}-2)} = \dfrac{\sqrt{x}+2}{\sqrt{x}} \quad (0{,}5\text{đ})$$
   - Thực hiện phép chia:
@@ -55,19 +55,41 @@
 
 ---
 
-### CÂU 12 (2,5 ĐIỂM). BÀI TOÁN LẬP HỆ PHƯƠNG TRÌNH
+### CÂU 12 (2,5 ĐIỂM). TOÁN THỰC TẾ LÀM CHUNG - LÀM RIÊNG (HỆ PHƯƠNG TRÌNH)
 
 #### Mã đề 101:
-* Gọi giá tiền một quyển vở là $x$ (đồng), giá tiền một chiếc bút bi là $y$ (đồng) ($x, y > 0$). *(0,5đ)*
-* Vì bạn An mua 3 quyển vở và 2 chiếc bút bi hết $34\,000$ đồng nên ta có phương trình:
-  $$3x + 2y = 34\,000 \quad (1) \quad (0{,}5\text{đ})$$
-* Vì bạn Bình mua 2 quyển vở và 4 chiếc bút bi hết $36\,000$ đồng nên ta có phương trình:
-  $$2x + 4y = 36\,000 \quad (2) \quad (0{,}5\text{đ})$$
+* Gọi thời gian tổ I làm một mình hoàn thành công việc là $x$ (giờ), thời gian tổ II làm một mình hoàn thành công việc là $y$ (giờ) ($x, y > 12$). *(0,5đ)*
+* Trong 1 giờ:
+  - Tổ I làm được $\dfrac{1}{x}$ (công việc).
+  - Tổ II làm được $\dfrac{1}{y}$ (công việc).
+  - Cả hai tổ cùng làm hoàn thành công việc sau $12$ giờ nên trong 1 giờ làm được $\dfrac{1}{12}$ công việc. Ta có phương trình:
+    $$\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{12} \quad (1) \quad (0{,}5\text{đ})$$
+* Nếu tổ I làm trong $4$ giờ rồi tổ II làm tiếp trong $7$ giờ thì hoàn thành được $\dfrac{1}{2}$ công việc, nên ta có phương trình:
+  $$\dfrac{4}{x} + \dfrac{7}{y} = \dfrac{1}{2} \quad (2) \quad (0{,}5\text{đ})$$
 * Từ (1) và (2) ta có hệ phương trình:
-  $$\begin{cases} 3x + 2y = 34\,000 \\ 2x + 4y = 36\,000 \end{cases} \Leftrightarrow \begin{cases} 6x + 4y = 68\,000 \\ 2x + 4y = 36\,000 \end{cases} \Leftrightarrow \begin{cases} 4x = 32\,000 \\ y = \dfrac{34\,000 - 3x}{2} \end{cases} \Leftrightarrow \begin{cases} x = 8\,000 \\ y = 5\,000 \end{cases} \quad (\text{TMĐK}) \quad (0{,}75\text{đ})$$
-* Kết luận: Giá tiền một quyển vở là $8\,000$ đồng; giá tiền một chiếc bút bi là $5\,000$ đồng. *(0,25đ)*
+  $$\begin{cases} \dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{12} \\ \dfrac{4}{x} + \dfrac{7}{y} = \dfrac{1}{2} \end{cases}$$
+  Đặt $u = \dfrac{1}{x}, v = \dfrac{1}{y}$ ($u, v > 0$), hệ trở thành:
+  $$\begin{cases} u + v = \dfrac{1}{12} \\ 4u + 7v = \dfrac{1}{2} \end{cases} \Leftrightarrow \begin{cases} 4u + 4v = \dfrac{1}{3} \\ 4u + 7v = \dfrac{1}{2} \end{cases} \Leftrightarrow \begin{cases} 3v = \dfrac{1}{6} \\ u = \dfrac{1}{12} - v \end{cases} \Leftrightarrow \begin{cases} v = \dfrac{1}{18} \\ u = \dfrac{1}{36} \end{cases}$$
+  Suy ra $\begin{cases} \dfrac{1}{x} = \dfrac{1}{36} \Rightarrow x = 36 \\ \dfrac{1}{y} = \dfrac{1}{18} \Rightarrow y = 18 \end{cases}$ (thỏa mãn điều kiện). *(0,75đ)*
+* Kết luận: Nếu làm một mình, tổ I mất $36$ giờ và tổ II mất $18$ giờ để hoàn thành công việc. *(0,25đ)*
 
-*(Mã 102, 103, 104 có cùng kết quả: Vở $8\,000$ đồng, Bút bi $5\,000$ đồng).*
+#### Mã đề 102:
+* Gọi thời gian đội I làm một mình xong đoạn đường là $x$ (ngày), đội II là $y$ (ngày) ($x, y > 12$).
+* Ta có hệ phương trình:
+  $$\begin{cases} \dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{12} \\ \dfrac{3}{x} + \dfrac{8}{y} = \dfrac{1}{2} \end{cases} \Leftrightarrow \begin{cases} \dfrac{1}{x} = \dfrac{1}{30} \\ \dfrac{1}{y} = \dfrac{1}{20} \end{cases} \Rightarrow \begin{cases} x = 30 \\ y = 20 \end{cases} \quad (\text{TMĐK})$$
+* Kết luận: Đội thứ nhất làm một mình mất $30$ ngày, đội thứ hai làm một mình mất $20$ ngày.
+
+#### Mã đề 103:
+* Gọi thời gian người thợ thứ nhất làm một mình xong việc là $x$ (giờ), người thứ hai là $y$ (giờ) ($x, y > 16$).
+* Ta có hệ phương trình:
+  $$\begin{cases} \dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{16} \\ \dfrac{3}{x} + \dfrac{6}{y} = \dfrac{1}{4} \end{cases} \Leftrightarrow \begin{cases} \dfrac{1}{x} = \dfrac{1}{24} \\ \dfrac{1}{y} = \dfrac{1}{48} \end{cases} \Rightarrow \begin{cases} x = 24 \\ y = 48 \end{cases} \quad (\text{TMĐK})$$
+* Kết luận: Người thứ nhất làm một mình mất $24$ giờ, người thứ hai làm một mình mất $48$ giờ.
+
+#### Mã đề 104:
+* Gọi thời gian tổ I làm một mình xong việc là $x$ (ngày), tổ II là $y$ (ngày) ($x, y > 15$).
+* Ta có hệ phương trình:
+  $$\begin{cases} \dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{15} \\ \dfrac{3}{x} + \dfrac{5}{y} = \dfrac{1}{4} \end{cases} \Leftrightarrow \begin{cases} \dfrac{1}{x} = \dfrac{1}{24} \\ \dfrac{1}{y} = \dfrac{1}{40} \end{cases} \Rightarrow \begin{cases} x = 24 \\ y = 40 \end{cases} \quad (\text{TMĐK})$$
+* Kết luận: Tổ I làm một mình mất $24$ ngày, tổ II làm một mình mất $40$ ngày.
 
 ---
 
@@ -90,13 +112,13 @@
   - Suy ra $AE \cdot AB = AF \cdot AC = AH^2$ (đpcm). *(0,25đ)*
 
 #### Mã đề 102:
-* **a) (1,5 điểm)** $AB = \sqrt{10^2 - 8^2} = 6\text{ cm}$; $\sin C = \dfrac{6}{10} = 0{,}6 \Rightarrow \widehat{C} \approx 37^\circ$; $AH = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm}$.
+* **a) (1,5 điểm)** $AB = \sqrt{10^2 - 8^2} = 6\text{ cm}$; $\sin C = \dfrac{6}{10} = 0{,}6 \Rightarrow \widehat{C} \approx 37^\circ$; $AH = 4{,}8\text{ cm}$.
 * **b) (1,0 điểm)** Tứ giác $AEHF$ có 3 góc vuông: $\widehat{EAF} = \widehat{AEH} = \widehat{AFH} = 90^\circ$ nên là hình chữ nhật. Trong hình chữ nhật, 2 đường chéo bằng nhau nên $EF = AH$ (đpcm).
 
 #### Mã đề 103:
-* **a) (1,5 điểm)** $AC = \sqrt{13^2 - 5^2} = 12\text{ cm}$; $\cos B = \dfrac{5}{13} \Rightarrow \widehat{B} \approx 67^\circ$; $AH = \dfrac{5 \cdot 12}{13} = \dfrac{60}{13} \approx 4{,}6\text{ cm}$.
+* **a) (1,5 điểm)** $AC = \sqrt{13^2 - 5^2} = 12\text{ cm}$; $\cos B = \dfrac{5}{13} \Rightarrow \widehat{B} \approx 67^\circ$; $AH = \dfrac{60}{13} \approx 4{,}6\text{ cm}$.
 * **b) (1,0 điểm)** Trong $\Delta ABH$ có $AE \cdot AB = AH^2$; trong $\Delta ACH$ có $AF \cdot AC = AH^2 \Rightarrow AE \cdot AB = AF \cdot AC$.
 
 #### Mã đề 104:
-* **a) (1,5 điểm)** $AB = \sqrt{13^2 - 12^2} = 5\text{ cm}$; $\sin C = \dfrac{5}{13} \Rightarrow \widehat{C} \approx 23^\circ$; $AH = \dfrac{5 \cdot 12}{13} \approx 4{,}6\text{ cm}$.
-* **b) (1,0 điểm)** Tứ giác $AEHF$ có 3 góc vuông nên là hình chữ nhật $\Rightarrow EF = AH$.
+* **a) (1,5 điểm)** $AB = \sqrt{13^2 - 12^2} = 5\text{ cm}$; $\sin C = \dfrac{5}{13} \Rightarrow \widehat{C} \approx 23^\circ$; $AH = \dfrac{60}{13} \approx 4{,}6\text{ cm}$.
+* **b) (1,0 điểm)** Tứ giác $AEHF$ là hình chữ nhật nên $EF = AH$ (đpcm).

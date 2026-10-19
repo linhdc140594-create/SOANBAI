@@ -31,6 +31,21 @@
   \dongke{#1}%
 }
 
+% Định nghĩa khu vực bài làm chia 2 cột có vách ngăn mờ ở giữa
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.5mm}%
+  \noindent%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+  \hfill%
+  {\color{gray!60}\vrule}%
+  \hfill%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+}
+
 \begin{document}
 \pagestyle{empty}
 % =============================================================================
@@ -98,13 +113,13 @@
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 12 (2,5 điểm).} Hai bạn An và Bình cùng đến nhà sách mua đồ dùng học tập chuẩn bị cho năm học mới. Bạn An mua $3$ quyển vở và $2$ chiếc bút bi cùng loại hết tổng cộng $34\,000$ đồng. Bạn Bình mua $2$ quyển vở và $4$ chiếc bút bi cùng loại hết tổng cộng $36\,000$ đồng. Tính giá tiền của mỗi quyển vở và mỗi chiếc bút bi.\par
+\textbf{Câu 12 (2,5 điểm).} Hai tổ sản xuất cùng làm chung một công việc thì sau $12$ giờ sẽ hoàn thành. Nếu tổ I làm trong $4$ giờ rồi tổ II làm tiếp trong $7$ giờ thì cả hai tổ hoàn thành được $\dfrac{1}{2}$ công việc. Hỏi nếu làm riêng thì mỗi tổ mất bao lâu để hoàn thành xong công việc?\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{16}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
-\vspace{2.5mm}
+\vspace{2.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
@@ -114,7 +129,7 @@
 \textbf{a) (1,5 điểm)} Tính độ dài cạnh $AC$, số đo góc $B$ (làm tròn đến độ) và độ dài đường cao $AH$.\par
 \textbf{b) (1,0 điểm)} Kẻ $HE \perp AB$ tại $E$ và $HF \perp AC$ tại $F$. Chứng minh rằng: $AE \cdot AB = AF \cdot AC$.\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{17}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
@@ -184,13 +199,13 @@
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 12 (2,5 điểm).} Hai bạn An và Bình cùng đến nhà sách mua đồ dùng học tập chuẩn bị cho năm học mới. Bạn An mua $4$ quyển vở và $2$ chiếc bút bi cùng loại hết tổng cộng $42\,000$ đồng. Bạn Bình mua $3$ quyển vở và $5$ chiếc bút bi cùng loại hết tổng cộng $49\,000$ đồng. Tính giá tiền của mỗi quyển vở và mỗi chiếc bút bi.\par
+\textbf{Câu 12 (2,5 điểm).} Hai đội công nhân cùng sửa một đoạn đường thì sau $12$ ngày sẽ hoàn thành. Nếu đội thứ nhất làm trong $3$ ngày rồi đội thứ hai làm tiếp trong $8$ ngày thì cả hai đội hoàn thành được $\dfrac{1}{2}$ đoạn đường. Hỏi nếu làm một mình thì mỗi đội mất bao lâu để hoàn thành đoạn đường đó?\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{16}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
-\vspace{2.5mm}
+\vspace{2.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
@@ -200,7 +215,7 @@
 \textbf{a) (1,5 điểm)} Tính độ dài cạnh $AB$, số đo góc $C$ (làm tròn đến độ) và độ dài đường cao $AH$.\par
 \textbf{b) (1,0 điểm)} Kẻ $HE \perp AB$ tại $E$ và $HF \perp AC$ tại $F$. Chứng minh tứ giác $AEHF$ là hình chữ nhật và suy ra $EF = AH$.\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{17}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
@@ -270,13 +285,13 @@
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 12 (2,5 điểm).} Hai bạn An và Bình cùng đến nhà sách mua đồ dùng học tập chuẩn bị cho năm học mới. Bạn An mua $2$ quyển vở và $3$ chiếc bút bi cùng loại hết tổng cộng $31\,000$ đồng. Bạn Bình mua $5$ quyển vở và $2$ chiếc bút bi cùng loại hết tổng cộng $50\,000$ đồng. Tính giá tiền của mỗi quyển vở và mỗi chiếc bút bi.\par
+\textbf{Câu 12 (2,5 điểm).} Hai người thợ cùng làm chung một công việc thì sau $16$ giờ sẽ hoàn thành. Nếu người thứ nhất làm trong $3$ giờ rồi người thứ hai làm tiếp trong $6$ giờ thì cả hai người làm được $\dfrac{1}{4}$ công việc. Hỏi nếu làm riêng thì mỗi người mất bao lâu để hoàn thành xong công việc?\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{16}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
-\vspace{2.5mm}
+\vspace{2.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
@@ -286,7 +301,7 @@
 \textbf{a) (1,5 điểm)} Tính độ dài cạnh $AC$, số đo góc $B$ (làm tròn đến độ) và độ dài đường cao $AH$ (làm tròn đến chữ số thập phân thứ nhất).\par
 \textbf{b) (1,0 điểm)} Kẻ $HE \perp AB$ tại $E$ và $HF \perp AC$ tại $F$. Chứng minh rằng: $AE \cdot AB = AF \cdot AC$.\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{17}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
@@ -356,13 +371,13 @@
 \begin{tabularx}{\linewidth}{|X|}
 \hline
 \vspace{0.5mm}
-\textbf{Câu 12 (2,5 điểm).} Hai bạn An và Bình cùng đến nhà sách mua đồ dùng học tập chuẩn bị cho năm học mới. Bạn An mua $3$ quyển vở và $4$ chiếc bút bi cùng loại hết tổng cộng $44\,000$ đồng. Bạn Bình mua $4$ quyển vở và $2$ chiếc bút bi cùng loại hết tổng cộng $42\,000$ đồng. Tính giá tiền của mỗi quyển vở và mỗi chiếc bút bi.\par
+\textbf{Câu 12 (2,5 điểm).} Hai tổ công nhân cùng làm chung một công việc thì sau $15$ ngày sẽ hoàn thành. Nếu tổ I làm trong $3$ ngày rồi tổ II làm tiếp trong $5$ ngày thì cả hai tổ hoàn thành được $\dfrac{1}{4}$ công việc. Hỏi nếu làm một mình thì mỗi tổ mất bao lâu để hoàn thành xong công việc?\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{16}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 
-\vspace{2.5mm}
+\vspace{2.2mm}
 
 \noindent
 \begin{tabularx}{\linewidth}{|X|}
@@ -372,7 +387,7 @@
 \textbf{a) (1,5 điểm)} Tính độ dài cạnh $AB$, số đo góc $C$ (làm tròn đến độ) và độ dài đường cao $AH$ (làm tròn đến chữ số thập phân thứ nhất).\par
 \textbf{b) (1,0 điểm)} Kẻ $HE \perp AB$ tại $E$ và $HF \perp AC$ tại $F$. Chứng minh tứ giác $AEHF$ là hình chữ nhật và suy ra $EF = AH$.\par
 \vspace{0.4mm}
-\noindent\textit{Bài giải:}\dongke{17}
+\noindent\textit{Bài giải:}\dongkeHaiCot{16}
 \\ \hline
 \end{tabularx}
 

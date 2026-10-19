@@ -122,28 +122,42 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\begin{{tabularx}}{{\\linewidth}}{{|X|}}
 \\hline
 \\vspace{{0.5mm}}
-\\begin{{minipage}}[t]{{0.70\\linewidth}}
+\\begin{{minipage}}[t]{{0.65\\linewidth}}
 \\vspace{{0pt}}
-\\textbf{{Câu 13 (2,5 điểm).}} {q13['de']}\\par\\vspace{{0.3mm}}
-\\textbf{{a) (1,25 điểm)}} {q13['a']}\\par\\vspace{{0.3mm}}
+\\textbf{{Câu 13 (2,5 điểm).}} {q13['de']}\\par\\vspace{{0.4mm}}
+\\textbf{{a) (1,25 điểm)}} {q13['a']}\\par\\vspace{{0.4mm}}
 \\textbf{{b) (1,25 điểm)}} {q13['b']}
 \\end{{minipage}}\\hfill
-\\begin{{minipage}}[t]{{0.28\\linewidth}}
+\\begin{{minipage}}[t]{{0.33\\linewidth}}
 \\vspace{{0pt}}\\centering
-\\begin{{tikzpicture}}[scale=0.65, >=stealth, line join=round, line cap=round]
-  \\coordinate (A) at (0.2, 2.1);
-  \\coordinate (B) at (0.2, 0.2);
-  \\coordinate (O) at (2.2, 1.15);
-  \\draw[->, thick] (A) -- (3.5, 2.1) node[right] {{$x$}};
-  \\draw[->, thick] (B) -- (3.5, 0.2) node[right] {{$y$}};
-  \\draw[thick] (A) -- (O) -- (B);
-  \\fill (A) circle (1.5pt) node[left=1pt] {{$A$}};
-  \\fill (B) circle (1.5pt) node[left=1pt] {{$B$}};
-  \\fill (O) circle (1.5pt) node[right=2pt] {{$O$}};
-  \\draw[red!80!black, thick] (A) ++(0:0.65) arc (0:-25.4:0.65);
-  \\path (A) ++(-12.7:1.15) node[red!80!black, font=\\footnotesize] {{$ {q13['alpha']} $}};
-  \\draw[blue!80!black, thick] (B) ++(0:0.65) arc (0:25.4:0.65);
-  \\path (B) ++(12.7:1.15) node[blue!80!black, font=\\footnotesize] {{$ {q13['beta']} $}};
+\\begin{{tikzpicture}}[scale=0.85, >=stealth, line join=round, line cap=round]
+  % Hai duong thang a va b
+  \\draw[thick] (0.2, 2.5) -- (4.2, 2.5) node[right=1pt] {{$a$}};
+  \\draw[thick] (0.2, 0.7) -- (4.2, 0.7) node[right=1pt] {{$b$}};
+  % Cat tuyen c
+  \\draw[thick] (0.8, -0.2) -- (2.9, 3.4) node[above=1pt] {{$c$}};
+  % Giao diem A(2.37, 2.5) va B(1.31, 0.7)
+  \\fill (2.37, 2.5) circle (1.5pt);
+  \\node[font=\\footnotesize, fill=white, inner sep=1pt] at (2.05, 3.1) {{$A$}};
+  
+  \\fill (1.31, 0.7) circle (1.5pt);
+  \\node[font=\\footnotesize, fill=white, inner sep=1pt] at (1.0, 1.3) {{$B$}};
+  
+  % Cung goc A1 va B1
+  \\draw[red!80!black, thick] (2.37, 2.5) ++(0:0.45) arc (0:59.7:0.45);
+  \\draw[red!80!black, thick] (1.31, 0.7) ++(0:0.45) arc (0:59.7:0.45);
+  
+  % So goc tai A
+  \\node[red!80!black, font=\\scriptsize] at (2.95, 2.85) {{$1$}};
+  \\node[font=\\scriptsize] at (1.75, 2.75) {{$2$}};
+  \\node[font=\\scriptsize] at (1.75, 2.25) {{$3$}};
+  \\node[font=\\scriptsize] at (2.85, 2.2) {{$4$}};
+  
+  % So goc tai B
+  \\node[red!80!black, font=\\scriptsize] at (1.9, 1.05) {{$1$}};
+  \\node[font=\\scriptsize] at (0.7, 0.95) {{$2$}};
+  \\node[font=\\scriptsize] at (0.7, 0.45) {{$3$}};
+  \\node[font=\\scriptsize] at (1.8, 0.4) {{$4$}};
 \\end{{tikzpicture}}
 \\end{{minipage}}\\par
 \\vspace{{0.5mm}}
@@ -195,11 +209,9 @@ de_data = {
             'd': r"$\vert 3x - 1\vert = 5$"
         },
         'q13': {
-            'alpha': r"40^\circ",
-            'beta': r"50^\circ",
-            'de': r"Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 40^\circ$ và $\widehat{yBO} = 50^\circ$.",
-            'a': r"Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.",
-            'b': r"Tính số đo góc $\widehat{AOB}$."
+            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$.",
+            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
+            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
         },
         'q14': {
             'de': r"Cho biểu thức $A = \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^{2026}}$. Hãy so sánh $A$ với $1$."
@@ -231,11 +243,9 @@ de_data = {
             'd': r"$\vert 3x + 2\vert = 8$"
         },
         'q13': {
-            'alpha': r"35^\circ",
-            'beta': r"45^\circ",
-            'de': r"Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 35^\circ$ và $\widehat{yBO} = 45^\circ$.",
-            'a': r"Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.",
-            'b': r"Tính số đo góc $\widehat{AOB}$."
+            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 70^\circ$.",
+            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
+            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
         },
         'q14': {
             'de': r"Cho biểu thức $B = \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \dots + \frac{1}{3^{2026}}$. Hãy so sánh $B$ với $\frac{1}{2}$."
@@ -267,11 +277,9 @@ de_data = {
             'd': r"$\vert 2x - 3\vert = 7$"
         },
         'q13': {
-            'alpha': r"45^\circ",
-            'beta': r"65^\circ",
-            'de': r"Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 45^\circ$ và $\widehat{yBO} = 65^\circ$.",
-            'a': r"Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.",
-            'b': r"Tính số đo góc $\widehat{AOB}$."
+            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 50^\circ$.",
+            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
+            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
         },
         'q14': {
             'de': r"Cho biểu thức $C = \frac{1}{4} + \frac{1}{4^2} + \frac{1}{4^3} + \dots + \frac{1}{4^{2026}}$. Hãy so sánh $C$ với $\frac{1}{3}$."
@@ -303,11 +311,9 @@ de_data = {
             'd': r"$\vert 2x + 5\vert = 9$"
         },
         'q13': {
-            'alpha': r"50^\circ",
-            'beta': r"60^\circ",
-            'de': r"Cho hình vẽ bên, biết hai tia $Ax$ và $By$ song song với nhau ($Ax \parallel By$). Điểm $O$ tạo với hai tia các góc nhọn $\widehat{xAO} = 50^\circ$ và $\widehat{yBO} = 60^\circ$.",
-            'a': r"Kẻ tia $Oz \parallel Ax$ ($Oz$ nằm trong góc $\widehat{AOB}$). Giải thích vì sao $Oz \parallel By$.",
-            'b': r"Tính số đo góc $\widehat{AOB}$."
+            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 65^\circ$.",
+            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
+            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
         },
         'q14': {
             'de': r"Cho biểu thức $D = \frac{1}{5} + \frac{1}{5^2} + \frac{1}{5^3} + \dots + \frac{1}{5^{2026}}$. Hãy so sánh $D$ với $\frac{1}{4}$."
@@ -332,7 +338,7 @@ print(f"Generated {tex_file}")
 # Biên dịch LaTeX
 print("Compiling LaTeX...")
 cmd = ["pdflatex", "-interaction=nonstopmode", "Phieu_Kiem_Tra_Tuan_07_Buoi_01.tex"]
-proc = subprocess.run(cmd, cwd=script_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+proc = subprocess.run(cmd, cwd=script_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
 pdf_file = os.path.join(script_dir, 'Phieu_Kiem_Tra_Tuan_07_Buoi_01.pdf')
 if os.path.exists(pdf_file):
@@ -351,4 +357,3 @@ if os.path.exists(pdf_file):
         print(f"WARNING: Page count is {num_pages}, expected 8 pages. Adjust spacing!")
 else:
     print("Compilation failed, PDF not found.")
-    print(proc.stdout[-500:])
