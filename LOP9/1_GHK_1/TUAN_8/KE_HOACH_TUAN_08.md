@@ -23,55 +23,41 @@
 ---
 
 ## 📐 II. QUY CHUẨN MA TRẬN ĐỀ THI (10 ĐIỂM / 45 PHÚT / 1 TỜ A4 IN 2 MẶT)
-* **Hình thức:** Phiếu kiểm tra in 2 mặt A4, gồm **4 mã đề hoán vị tương đương ($101, 102, 103, 104$)**.
-* **Thang điểm 10 điểm:**
-  * **Phần I (2,5 điểm):** 5 câu trắc nghiệm khách quan ($0{,}5$ đ/câu).
-  * **Câu 1 (2,5 điểm):** Đại số nền tảng - Rút gọn căn thức ($2$ ý $a, b$ - mỗi ý $1{,}25$ đ).
-  * **Câu 2 (2,5 điểm):** Giải hệ phương trình & Hệ thức lượng tam giác vuông ($2$ ý $a, b$ - mỗi ý $1{,}25$ đ).
-  * **Câu 3 (2,5 điểm):** Bài toán thực tế lập hệ phương trình chuẩn form đề tuyển sinh 10 ($1$ bài hoàn chỉnh).
+* **Hình thức:** Phiếu kiểm tra in 2 mặt A4, gồm **4 mã đề hoán vị tương đương ($101, 102, 103, 104$)**, biên dịch chính xác **8 trang PDF**.
+* **Thang điểm 10 điểm (Chuẩn đổi mới Lớp 9):**
+  * **Câu 1 đến Câu 10 (2,5 điểm):** 10 câu trả lời ngắn (`\shortans`), mỗi câu $0{,}25$ điểm.
+  * **Câu 11 (2,5 điểm - Trang 1):** Đại số & Rút gọn căn thức (chia 2 cột bảng $1 \times 2$, mỗi cột `\oBaiTap[22]`):
+    * **Buổi 1:** a) Giải hệ hai phương trình bậc nhất hai ẩn ($1{,}25$ đ); b) Rút gọn biểu thức phân thức chứa căn bậc hai ($1{,}25$ đ).
+    * **Buổi 2:** a) Giải hệ hai phương trình bậc nhất hai ẩn ($1{,}25$ đ); b) Rút gọn biểu thức phân thức biến $x$ chuẩn thi vào 10 ($1{,}25$ đ).
+  * **Câu 12 (2,5 điểm - Trang 2):** Giải bài toán bằng cách lập hệ phương trình (Khung đóng hộp `tabularx`, bài giải `\dongke{16}`).
+  * **Câu 13 (2,5 điểm - Trang 2):**
+    * **Buổi 1:** Hình học lượng giác: Giải tam giác vuông và chứng minh đẳng thức / hình chữ nhật (Khung đóng hộp `tabularx`, bài giải `\dongke{16}`).
+    * **Buổi 2:** Bài toán hình học: a) Tính toán các yếu tố trong tam giác vuông ($1{,}5$ đ); b) Kẻ đường vuông góc và chứng minh tam giác đồng dạng ($1{,}0$ đ) (Khung đóng hộp `tabularx`, bài giải `\dongke{18}`).
 
 ---
 
 ## 🗺️ III. MA TRẬN CHI TIẾT TỪNG BUỔI HỌC
 
 ### 📌 BUỔI 01: MỘT SỐ HỆ THỨC GIỮA CẠNH VÀ GÓC TRONG TAM GIÁC VUÔNG
-
-#### 1. PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm - 5 câu)
-* **Câu 1 (Nhận biết):** Trong tam giác $ABC$ vuông tại $A$, cạnh $b$ được tính theo công thức nào? (Đáp án: $b = a \cdot \sin B$).
-* **Câu 2 (Thông hiểu):** Trong tam giác $ABC$ vuông tại $A$, cạnh góc vuông $c$ bằng biểu thức nào? (Đáp án: $c = b \cdot \cot B$).
-* **Câu 3 (Kỹ năng tính):** Cho tam giác $ABC$ vuông tại $A$ có $BC = 10\text{ cm}$ và góc $B = 60^\circ$. Cạnh $AC$ có độ dài bằng bao nhiêu? (Đáp án: $5\sqrt{3}\text{ cm}$).
-* **Câu 4 (Thông hiểu):** Khái niệm góc nâng (góc nhìn lên) và góc hạ (góc nhìn xuống) trong các bài toán đo đạc thực tế.
-* **Câu 5 (Vận dụng):** Một cái thang dài $4\text{ m}$ dựa vào tường, chân thang cách tường $2\text{ m}$. Góc tạo bởi thang và mặt đất bằng bao nhiêu độ? (Đáp án: $60^\circ$).
-
-#### 2. PHẦN II. TỰ LUẬN (7,5 điểm)
-* **Câu 1 (2,5 điểm). Giải tam giác vuông:**
-  * Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 6\text{ cm}$ và $\widehat{B} = 40^\circ$.
-  * $a)$ (1,25đ): Giải tam giác vuông $ABC$ (tính các cạnh và góc còn lại, làm tròn cạnh đến hàng phần mười, góc đến độ).
-  * $b)$ (1,25đ): Tính độ dài đường cao $AH$ và đoạn thẳng $BH$.
-* **Câu 2 (2,5 điểm). Tính toán hình học tổng hợp:**
-  * Cho tam giác $ABC$ có $\widehat{B} = 60^\circ, \widehat{C} = 45^\circ$ và cạnh $BC = 10\text{ cm}$. Kẻ đường cao $AH$ vuông góc với $BC$ ($H \in BC$).
-  * $a)$ (1,25đ): Biểu diễn độ dài đoạn thẳng $BH$ và $CH$ theo độ dài đường cao $AH$.
-  * $b)$ (1,25đ): Tính độ dài đường cao $AH$ và diện tích tam giác $ABC$.
-* **Câu 3 (2,5 điểm). Bài toán thực tế kế hoạch trồng cây xanh (Trích Đề 42 - [DETHI2010](file:///d:/4.%20GitHub/SACH/LOP9/DETHI2010)):**
-  * Hưởng ứng phong trào trồng cây xanh vì môi trường xanh sạch đẹp, một chi đoàn thanh niên dự định trồng $400$ cây trong một thời gian quy định. Khi thực hiện, mỗi ngày chi đoàn đã trồng vượt mức kế hoạch $10$ cây. Do vậy, chi đoàn đã hoàn thành công việc sớm hơn thời gian quy định $2$ ngày. Hỏi theo kế hoạch ban đầu, mỗi ngày chi đoàn dự định trồng bao nhiêu cây?
+* **Chi tiết file kế hoạch:** [KE_HOACH_TUAN_08_BUOI_01.md](file:///d:/4.%20GitHub/PHIEU_KIEM_TRA_THCS/LOP9/1_GHK_1/TUAN_8/buoi_1/KE_HOACH_TUAN_08_BUOI_01.md)
+* **Câu 1 $\to$ 10 (2,5 đ):** 10 câu trả lời ngắn về hệ thức cạnh góc vuông theo góc đối ($b = a \cdot \sin B$), theo góc kề ($c = a \cdot \cos B$), theo tan ($b = c \cdot \tan B$), giá trị lượng giác đặc biệt ($30^\circ, 45^\circ, 60^\circ$), góc phụ nhau, góc nâng Mặt Trời, bài toán chiếc thang dựa tường, nghiệm hệ phương trình và phương trình tích.
+* **Câu 11 (2,5 đ - Trang 1):**
+  * $a)$ (1,25 đ): Giải hệ hai phương trình bậc nhất hai ẩn (cộng đại số / thế).
+  * $b)$ (1,25 đ): Rút gọn biểu thức phân thức chứa căn bậc hai dạng quy đồng nhân tử chung.
+* **Câu 12 (2,5 đ - Trang 2):** Giải bài toán bằng cách lập hệ phương trình (Toán thực tế năng suất thi đua sản xuất vượt mức kế hoạch).
+* **Câu 13 (2,5 đ - Trang 2):**
+  * $a)$ (1,5 đ): Giải tam giác vuông khi biết cạnh huyền và góc nhọn $30^\circ$ hoặc $60^\circ$ (tính các cạnh, góc còn lại và đường cao $AH$).
+  * $b)$ (1,0 đ): Kẻ đường cao, đường vuông góc và chứng minh hình chữ nhật / đẳng thức hình học lượng giác ($AD \cdot AB = AE \cdot AC$ hoặc $DE = AH$).
 
 ---
 
 ### 📌 BUỔI 02: ĐỀ THI THỬ GIỮA HỌC KỲ 1 TOÀN DIỆN (CHUẨN MA TRẬN TUYỂN SINH 10)
-
-#### 1. PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,5 điểm - 5 câu quét toàn diện GHK1)
-* **Câu 1 (Hệ hai PT):** Cặp số $(2; 1)$ là nghiệm của hệ phương trình nào sau đây?
-* **Câu 2 (Bất phương trình):** Nghiệm của bất phương trình $-2x + 6 \le 0$ là gì? (Đáp án: $x \ge 3$).
-* **Câu 3 (Căn thức - ĐKXĐ):** Biểu thức $\sqrt{3 - x}$ có nghĩa khi và chỉ khi nào? (Đáp án: $x \le 3$).
-* **Câu 4 (Căn thức - Tính toán):** Rút gọn biểu thức số $\sqrt{18} - \sqrt{8} + \sqrt{2}$ được kết quả là bao nhiêu? (Đáp án: $2\sqrt{2}$).
-* **Câu 5 (Lượng giác):** Cho tam giác vuông có hai cạnh góc vuông bằng $3\text{ cm}$ và $4\text{ cm}$. Tỉ số sin của góc đối diện với cạnh $3\text{ cm}$ bằng bao nhiêu? (Đáp án: $\frac{3}{5}$).
-
-#### 2. PHẦN II. TỰ LUẬN (7,5 điểm)
-* **Câu 1 (2,5 điểm). Rút gọn căn thức (Chuẩn cấu trúc Đề 01 [DETHI2010](file:///d:/4.%20GitHub/SACH/LOP9/DETHI2010)):**
-  * $a)$ (1,25đ): Rút gọn biểu thức số: $A = 3\sqrt{12} - 2\sqrt{27} + \sqrt{48} - \sqrt{(\sqrt{3} - 1)^2}$.
-  * $b)$ (1,25đ): Cho biểu thức $B = \left(\dfrac{\sqrt{x}}{\sqrt{x}-1} - \dfrac{1}{x-\sqrt{x}}\right) : \dfrac{\sqrt{x}+1}{x-1}$ với $x > 0, x \ne 1$. Rút gọn biểu thức $B$. (Đáp án: $B = \dfrac{x-1}{\sqrt{x}}$).
-* **Câu 2 (2,5 điểm). Giải hệ phương trình & Hệ thức lượng tam giác vuông:**
-  * $a)$ (1,25đ): Giải hệ phương trình bằng phương pháp cộng đại số: $\begin{cases} 2x - y = 6 \\ 3x + y = 14 \end{cases}$.
-  * $b)$ (1,25đ): Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $AB = 9\text{ cm}$ và $AC = 12\text{ cm}$. Tính độ dài cạnh huyền $BC$, đường cao $AH$ và số đo góc $B$ (làm tròn đến độ).
-* **Câu 3 (2,5 điểm). Bài toán thực tế đội xe chở hàng cứu trợ (Trích Đề 07 - [DETHI2010](file:///d:/4.%20GitHub/SACH/LOP9/DETHI2010)):**
-  * Một đội xe dự định chở $75$ tấn hàng để ủng hộ đồng bào miền Trung bị lũ lụt. Lúc sắp khởi hành, đội nhận được ủng hộ thêm $5$ tấn hàng nữa và đồng thời được bổ sung thêm $5$ xe cùng loại, do đó mỗi xe chở ít hơn dự định $1$ tấn hàng. Hỏi ban đầu đội xe dự định sử dụng bao nhiêu xe? (Biết mỗi xe chở khối lượng hàng như nhau).
+* **Chi tiết file kế hoạch:** [KE_HOACH_TUAN_08_BUOI_02.md](file:///d:/4.%20GitHub/PHIEU_KIEM_TRA_THCS/LOP9/1_GHK_1/TUAN_8/buoi_2/KE_HOACH_TUAN_08_BUOI_02.md)
+* **Câu 1 $\to$ 10 (2,5 đ):** 10 câu trả lời ngắn quét toàn diện GHK1: Khai căn số học, ĐKXĐ căn thức, nghiệm bất phương trình bậc nhất một ẩn, nghiệm hệ phương trình, tỉ số lượng giác góc nhọn từ tam giác Ai Cập $3-4-5$ hoặc $5-12-13$, hệ thức cạnh góc vuông $b = a \cdot \sin B$, hằng đẳng thức căn $\sqrt{(a - \sqrt{b})^2}$, tổng lượng giác phụ nhau, ứng dụng lượng giác thực tế (góc tia nắng) và phương trình căn thức.
+* **Câu 11 (2,5 đ - Trang 1): Đại số tổng hợp chuẩn cấu trúc Tuyển sinh vào 10:**
+  * $a)$ (1,25 đ): Giải hệ hai phương trình bậc nhất hai ẩn bằng phương pháp cộng đại số / thế.
+  * $b)$ (1,25 đ): Rút gọn biểu thức phân thức biến $x$ chuẩn đề thi vào 10.
+* **Câu 12 (2,5 đ - Trang 2):** Giải bài toán bằng cách lập hệ phương trình (Toán thực tế đội xe vận tải chuyên chở hàng cứu trợ - Trích Đề 07 Tuyển sinh 10).
+* **Câu 13 (2,5 đ - Trang 2): Bài toán hình học (Tính toán & Chứng minh tam giác đồng dạng):**
+  * $a)$ (1,5 đ): Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Tính cạnh huyền $BC$, đường cao $AH$ và số đo góc nhọn $B$.
+  * $b)$ (1,0 đ): Kẻ $HD \perp AB$ tại $D$ và $HE \perp AC$ tại $E$. Chứng minh $\Delta ADE \backsim \Delta ACB$.

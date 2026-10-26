@@ -1,0 +1,379 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 10\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{5\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 8\text{ cm}, \widehat{B} = 60^\circ$. Cạnh $AB =$ \shortans{4\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 6\text{ cm}, \widehat{B} = 45^\circ$. Cạnh $AC =$ \shortans{6\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 3\sqrt{3}\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{3\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Cho góc nhọn $\alpha$ có $\cos \alpha = 0{,}8$. Khi đó $\sin(90^\circ - \alpha) =$ \shortans{0{,}8}\par\vspace{0.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Giá trị của biểu thức $P = 2\sin 30^\circ + \sqrt{3}\tan 60^\circ$ bằng: \shortans{4}\par\vspace{0.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Tòa nhà cao $20\text{ m}$ đổ bóng dài $20\text{ m}$. Góc nâng Mặt Trời là: \shortans{45^\circ}\par\vspace{0.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Thang dài $4\text{ m}$ nghiêng $60^\circ$ với đất. Chân thang cách tường: \shortans{2\text{ m}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Nghiệm của hệ $\begin{cases} x + y = 7 \\ x - y = 3 \end{cases}$ là $(x; y) =$ \shortans{(5; 2)}\par\vspace{0.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nghiệm dương của phương trình $(x - 6)(x + 2) = 0$ là: \shortans{6}\par\vspace{0.6mm}
+\vspace{0.8mm}
+\noindent\textbf{Câu 11 (2,5 điểm). Đại số tổng hợp:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[22]{a) (1,25 điểm)}{$\begin{cases} 2x + y = 7 \\ 3x - y = 8 \end{cases}$} & 
+\oBaiTap[22]{b) (1,25 điểm)}{Rút gọn với $x > 0, x \ne 4$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}+2} + \dfrac{4\sqrt{x}}{x-4}\right) : \dfrac{\sqrt{x}+2}{x-4}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 101 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 12 (2,5 điểm).} Theo kế hoạch, hai tổ sản xuất phải làm được tổng cộng $700$ sản phẩm. Nhờ cải tiến kỹ thuật, tổ I đã làm vượt mức kế hoạch $15\%$, tổ II đã làm vượt mức kế hoạch $20\%$, do đó cả hai tổ đã làm được $820$ sản phẩm. Hỏi theo kế hoạch, mỗi tổ phải sản xuất bao nhiêu sản phẩm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\vspace{2.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B} = 60^\circ$ và cạnh huyền $BC = 8\text{ cm}$. Kẻ đường cao $AH$ ($H \in BC$).\par
+\textbf{a) (1,5 điểm)} Tính số đo góc $C$, độ dài các cạnh $AB, AC$ và độ dài đường cao $AH$.\par
+\textbf{b) (1,0 điểm)} Kẻ $HD \perp AB$ tại $D$ và $HE \perp AC$ tại $E$. Chứng minh tứ giác $ADHE$ là hình chữ nhật và suy ra $DE = AH$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 12\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{6\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 10\text{ cm}, \widehat{B} = 60^\circ$. Cạnh $AB =$ \shortans{5\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 8\text{ cm}, \widehat{B} = 45^\circ$. Cạnh $AC =$ \shortans{8\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 4\sqrt{3}\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{4\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Cho góc nhọn $\alpha$ có $\sin \alpha = 0{,}6$. Khi đó $\cos(90^\circ - \alpha) =$ \shortans{0{,}6}\par\vspace{0.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Giá trị của biểu thức $P = 2\cos 60^\circ + \sqrt{3}\cot 30^\circ$ bằng: \shortans{4}\par\vspace{0.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Cột cờ cao $15\text{ m}$ đổ bóng dài $15\text{ m}$. Góc nâng Mặt Trời là: \shortans{45^\circ}\par\vspace{0.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Thang dài $6\text{ m}$ nghiêng $60^\circ$ với đất. Chân thang cách tường: \shortans{3\text{ m}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Nghiệm của hệ $\begin{cases} x + y = 8 \\ x - y = 2 \end{cases}$ là $(x; y) =$ \shortans{(5; 3)}\par\vspace{0.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nghiệm dương của phương trình $(x - 7)(x + 3) = 0$ là: \shortans{7}\par\vspace{0.6mm}
+\vspace{0.8mm}
+\noindent\textbf{Câu 11 (2,5 điểm). Đại số tổng hợp:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[22]{a) (1,25 điểm)}{$\begin{cases} 3x + y = 10 \\ 2x - y = 5 \end{cases}$} & 
+\oBaiTap[22]{b) (1,25 điểm)}{Rút gọn với $x > 0, x \ne 9$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}+3} + \dfrac{6\sqrt{x}}{x-9}\right) : \dfrac{\sqrt{x}+3}{x-9}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 102 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 12 (2,5 điểm).} Theo kế hoạch, hai tổ công nhân dự định dệt tổng cộng $800$ chiếc áo len. Do thi đua, tổ I dệt vượt mức $20\%$, tổ II dệt vượt mức $15\%$, nên cả hai tổ đã dệt được $945$ chiếc áo len. Hỏi theo kế hoạch, mỗi tổ dự định dệt bao nhiêu chiếc áo len?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\vspace{2.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B} = 30^\circ$ và cạnh huyền $BC = 10\text{ cm}$. Kẻ đường cao $AH$ ($H \in BC$).\par
+\textbf{a) (1,5 điểm)} Tính số đo góc $C$, độ dài các cạnh $AC, AB$ và độ dài đường cao $AH$.\par
+\textbf{b) (1,0 điểm)} Kẻ $HD \perp AB$ tại $D$ và $HE \perp AC$ tại $E$. Chứng minh rằng: $AD \cdot AB = AE \cdot AC$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 16\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{8\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 6\text{ cm}, \widehat{B} = 60^\circ$. Cạnh $AB =$ \shortans{3\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 5\text{ cm}, \widehat{B} = 45^\circ$. Cạnh $AC =$ \shortans{5\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 5\sqrt{3}\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{5\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Cho góc nhọn $\alpha$ có $\cos \alpha = \dfrac{5}{13}$. Khi đó $\sin(90^\circ - \alpha) =$ \shortans{\dfrac{5}{13}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Giá trị của biểu thức $P = 4\sin 30^\circ - \tan 45^\circ$ bằng: \shortans{1}\par\vspace{0.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Hải đăng cao $30\text{ m}$ đổ bóng dài $30\text{ m}$. Góc nâng Mặt Trời là: \shortans{45^\circ}\par\vspace{0.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Thang dài $5\text{ m}$ nghiêng $60^\circ$ với đất. Chân thang cách tường: \shortans{2{,}5\text{ m}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Nghiệm của hệ $\begin{cases} x + y = 9 \\ x - y = 1 \end{cases}$ là $(x; y) =$ \shortans{(5; 4)}\par\vspace{0.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nghiệm dương của phương trình $(x - 8)(x + 1) = 0$ là: \shortans{8}\par\vspace{0.6mm}
+\vspace{0.8mm}
+\noindent\textbf{Câu 11 (2,5 điểm). Đại số tổng hợp:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[22]{a) (1,25 điểm)}{$\begin{cases} 2x - y = 5 \\ x + y = 4 \end{cases}$} & 
+\oBaiTap[22]{b) (1,25 điểm)}{Rút gọn với $x > 0, x \ne 1$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}+1} + \dfrac{2\sqrt{x}}{x-1}\right) : \dfrac{\sqrt{x}+1}{x-1}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 103 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 12 (2,5 điểm).} Theo kế hoạch, hai xưởng cơ khí phải đúc tổng cộng $600$ chi tiết máy. Khi thực hiện, xưởng I vượt mức $10\%$, xưởng II vượt mức $15\%$, vì thế cả hai xưởng đúc được $675$ chi tiết máy. Hỏi theo kế hoạch, mỗi xưởng phải đúc bao nhiêu chi tiết máy?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\vspace{2.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B} = 60^\circ$ và cạnh huyền $BC = 12\text{ cm}$. Kẻ đường cao $AH$ ($H \in BC$).\par
+\textbf{a) (1,5 điểm)} Tính số đo góc $C$, độ dài các cạnh $AB, AC$ và độ dài đường cao $AH$.\par
+\textbf{b) (1,0 điểm)} Kẻ $HD \perp AB$ tại $D$ và $HE \perp AC$ tại $E$. Chứng minh tứ giác $ADHE$ là hình chữ nhật và suy ra $DE = AH$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 14\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{7\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $BC = 14\text{ cm}, \widehat{B} = 60^\circ$. Cạnh $AB =$ \shortans{7\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 9\text{ cm}, \widehat{B} = 45^\circ$. Cạnh $AC =$ \shortans{9\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC$ vuông tại $A$ có $AB = 2\sqrt{3}\text{ cm}, \widehat{B} = 30^\circ$. Cạnh $AC =$ \shortans{2\text{ cm}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Cho góc nhọn $\alpha$ có $\sin \alpha = \dfrac{12}{13}$. Khi đó $\cos(90^\circ - \alpha) =$ \shortans{\dfrac{12}{13}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Giá trị của biểu thức $P = 2\cos 60^\circ + \tan 45^\circ$ bằng: \shortans{2}\par\vspace{0.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Cây cau cao $12\text{ m}$ đổ bóng dài $12\text{ m}$. Góc của tia nắng là: \shortans{45^\circ}\par\vspace{0.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Thang dài $8\text{ m}$ nghiêng $60^\circ$ với đất. Chân thang cách tường: \shortans{4\text{ m}}\par\vspace{0.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Nghiệm của hệ $\begin{cases} x + y = 6 \\ x - y = 4 \end{cases}$ là $(x; y) =$ \shortans{(5; 1)}\par\vspace{0.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nghiệm dương của phương trình $(x - 9)(x + 4) = 0$ là: \shortans{9}\par\vspace{0.6mm}
+\vspace{0.8mm}
+\noindent\textbf{Câu 11 (2,5 điểm). Đại số tổng hợp:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[22]{a) (1,25 điểm)}{$\begin{cases} x + 2y = 8 \\ 3x - 2y = 4 \end{cases}$} & 
+\oBaiTap[22]{b) (1,25 điểm)}{Rút gọn với $x > 0, x \ne 16$:\par $P = \left(\dfrac{\sqrt{x}}{\sqrt{x}+4} + \dfrac{8\sqrt{x}}{x-16}\right) : \dfrac{\sqrt{x}+4}{x-16}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOÁN 9 - TUẦN 08 - BUỔI 01: MÃ ĐỀ 104 =============
+% ========================= MẶT SAU (TRANG 2/2) ================================
+% =============================================================================
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 9 - TUẦN 08 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 12 (2,5 điểm).} Theo kế hoạch, hai lớp $9A$ và $9B$ dự định thu gom tổng cộng $500\text{ kg}$ giấy vụn. Thực tế, lớp $9A$ vượt mức $15\%$, lớp $9B$ vượt mức $10\%$, nên cả hai lớp thu gom được $560\text{ kg}$ giấy vụn. Hỏi theo kế hoạch, mỗi lớp dự định thu gom bao nhiêu ki-lô-gam giấy vụn?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\vspace{2.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 13 (2,5 điểm).} Cho tam giác $ABC$ vuông tại $A$ có $\widehat{B} = 30^\circ$ và cạnh huyền $BC = 14\text{ cm}$. Kẻ đường cao $AH$ ($H \in BC$).\par
+\textbf{a) (1,5 điểm)} Tính số đo góc $C$, độ dài các cạnh $AC, AB$ và độ dài đường cao $AH$.\par
+\textbf{b) (1,0 điểm)} Kẻ $HD \perp AB$ tại $D$ và $HE \perp AC$ tại $E$. Chứng minh rằng: $AD \cdot AB = AE \cdot AC$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{16}
+\\ \hline
+\end{tabularx}
+
+\end{document}
