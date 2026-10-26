@@ -1,0 +1,540 @@
+
+=== PAGE 41 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các phân số sau, phân số nào biểu diễn số hữu tỉ –0,5? 
+A. 1
+2 . 
+ 
+B. 
+1
+2
+−
+. 
+ 
+C. 3
+5 . 
+ 
+D. 3
+5
+−. 
+Câu 2. Điểm A biểu diễn số hữu tỉ nào? 
+ 
+A. 3.
+4  
+  
+ 
+B. 3.
+4
+  
+ 
+        C. 3.
+−
+  
+ 
+       D. 
+3
+5
+−
+. 
+Câu 3. Phép tính nào sau đây là không đúng? 
+A. 
+3 4
+12
+(
+)
+x
+x
+=
+.          
+ 
+ 
+ 
+ 
+B. 
+18
+6
+12
+:
+(
+0)
+x
+x
+x
+x
+=
+
+.   
+C. 
+2
+6
+12
+x
+x
+x
+
+=
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+4
+8
+12
+x
+x
+x
+
+=
+. 
+Câu 4. Kết quả của phép tính 
+2
+2 .
+5
+2 là 
+A. 
+10
+2 . 
+ 
+B. 23. 
+ 
+C. 25. 
+ 
+D. 27. 
+Câu 5. Một hình vuông có diện tích 
+2
+81cm . Độ dài cạnh hình vuông đó là: 
+A. 81cm . 
+ 
+B. 9cm . 
+ 
+C. 9cm
+−
+. 
+ 
+D. 
+9cm
+
+. 
+
+=== PAGE 42 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 6. Làm tròn số 1,3781 với độ chính xác 0,005được kết quả là: 
+ A. 1,37.                    B. 1,4 .                            C. 1. 
+ 
+ 
+D. 1,38. 
+Câu 7. Trong các hình sau, hình nào không phải là hình lăng trụ đứng tứ giác? 
+ 
+A. Hình 1. 
+ 
+     B. Hình 2. 
+  
+C. Hình 3. 
+ 
+     D. Hình 4 
+Câu 8. Thực hiện phép tính 
+13
+4
+18
+2024
+19
+31
+15
+31
+2025
+15
+M =
++
++
++
+−
+, ta được kết quả là: 
+A. 
+2024.
+2025
+M =
+ 
+ 
+ 
+ 
+ 
+ 
+ B. 
+2024.
+2025
+M
+−
+=
+ 
+ 
+ 
+C. 
+1.
+M =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ D. 
+0.
+M =
+ 
+Câu 9. Tia phân giác của xOm và yOn lần lượt là: 
+ 
+A. Ok và 
+.
+Ou 
+ 
+          B. Ox và 
+.
+Oy  
+C. Ou và 
+.
+Om 
+ 
+          D. Ok và 
+.
+On 
+Câu 10. Tổng ba góc trong một tam giác luôn bằng: 
+A. 90.                         
+ 
+ 
+ 
+   B. 120                         
+
+=== PAGE 43 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. 180 . 
+ 
+ 
+ 
+ 
+ 
+   D. 360 . 
+Câu 11. Hai đường thẳng xy và '
+'
+x y cắt nhau tại O . Biết 
+'
+xOx = . Ot là tia phân giác 
+của 
+'
+xOx . 
+'
+Ot là tia đối của tia Ot . Tính số đo góc '
+'
+y Ot ? 
+A. '
+'
+35
+y Ot
+
+=
+. 
+ 
+ 
+ 
+ 
+B. '
+'
+70
+y Ot =
+. 
+ 
+C. '
+'
+145
+y Ot
+
+=
+. 
+ 
+ 
+ 
+ 
+D. '
+'
+110
+y Ot
+
+=
+. 
+Câu 12. Đối với biểu thức không có ngoặc và chỉ có các phép tính: cộng, trừ, nhân, chia, 
+lũy thừa, thì thứ tự thực hiện phép tính đúng là 
+A. Lũy thừa → Nhân và chia → Cộng và trừ.  
+B. Nhân và chia → Lũy thừa → Cộng và trừ.  
+C. Cộng và trừ → Nhân và chia → Lũy thừa.  
+D. Lũy thừa → Cộng và trừ → Nhân và chia. 
+Phần II. Trắc nghiệm đúng sai  
+Câu 1. Cho biểu thức 
+2
+2
+5
+5
+1
+:
+3
+9
+3
+3
+P
+−
+
+
+
+
+= −
++
+−
+−
+
+
+
+
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+2
+3
+
+
+−
+
+
+
+
+ bằng 4
+9 . 
+b) Kết quả của phép chia 5
+5
+:
+9
+3
+
+
+−
+
+
+
+
+ bằng 
+1
+3
+−
+. 
+c) Giá trị tuyệt đối 
+1
+3
+− bằng 
+1
+3
+−
+. 
+d) Giá trị của biểu thức P bằng 
+2
+9
+−
+. 
+ 
+ 
+
+=== PAGE 44 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Cho 
+=
+ABC
+DEF với 
+6cm,
+8cm,
+10cm
+=
+=
+=
+BC
+AB
+DF
+; 
+
+53 ;
+90
+C
+B
+=
+
+=
+. Xét tính 
+đúng sai của các mệnh đề sau: 
+a) Số đo góc E bằng 53. 
+b) Độ dài cạnh 
+10cm
+AC =
+.   
+c) Độ dài cạnh 
+8cm
+EF =
+.   
+d) Tổng số đo 
+
+90
+D
+F
++
+=
+. 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tìm số hữu tỉ x , biết: 2
+1
+1
+:
+3
+3
+6
+x
++
+= −
+. 
+Câu 2.  Cho hình vẽ sau, biết 
+60
+CFE
+
+=
+ và 
+1
+120
+E
+
+=
+. Tính số đo góc FEB và chứng minh 
+/ /
+CD
+AB . 
+ 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính sau:     a) 
+ 
+ 4
+14
+ 
+12
+21
+−
++
+ ;                          b) 8 9 4
+3
+. 
+Câu 2. Tìm x: 
+a)  
+2
+5
+x
+3
+6
+−
+=
+;  
+ 
+ 
+ 
+b)  
+2
+4
+(1
+)
+.
+9
+x
+−
+=
+ 
+ 
+ 
+ 
+
+=== PAGE 45 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 3. Cho hình vẽ, biết rằng: 
+
+0
+0
+40 ;
+140 ;
+mAx
+ABt
+zt
+MN
+=
+=
+⊥
+ 
+ 
+a) Tính số đo góc mAy ? 
+b) Chứng tỏ xy // zt ? 
+c) Tia phân giác của góc xAB cắt zt tại điểm C. Tính số đo ACB ? 
+Câu 4. Cho 
+2
+2
+4
+6
+802
+1
+1
+1
+1
+1
+......
+2
+3
+3
+3
+3
+=
++
++
++
++
++
+M
+. Chứng minh rằng: 
+3
+8
+
+M
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

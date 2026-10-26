@@ -32,10 +32,9 @@ Tuần 7 là giai đoạn trọng tâm ôn thi Giữa Học kỳ 1. Đề thi t�
 | Câu | Dạng bài | Nội dung kiến thức kiểm tra (Chuẩn ma trận Giữa HK1) | Điểm | Định dạng trình bày & Dòng kẻ |
 | :---: | :---: | :--- | :---: | :--- |
 | **Câu 1 $\to$ 10** | **Trả lời ngắn** | **Bao quát toàn diện kiến thức Giữa HK1:**<br>1. Căn bậc hai số học $\sqrt{a}$<br>2. Giá trị tuyệt đối của số thực<br>3. Làm tròn số thập phân đến hàng phần mười<br>4. Tính chất hai góc kề bù<br>5. Tính chất hai góc đối đỉnh<br>6. Tính chất tia phân giác của một góc<br>7. Lũy thừa của số hữu tỉ<br>8. Tiên đề Euclid & tính chất hai đường thẳng song song<br>9. Tìm số thực $x \ge 0$ biết $\sqrt{x} = a$<br>10. Bài toán thực tế ngắn (mua hàng giảm giá %) | **2,5 đ**<br>*(0,25 đ/câu)* | Dùng `\shortans`, có ô đáp án bo góc mép phải |
-| **Câu 11** | **Tự luận (Đại số)** | **Thực hiện phép tính (hợp lý nếu có thể):**<br>- a) Quy đồng nhóm phân số cùng mẫu<br>- b) Nhân chia phối hợp, đặt thừa số chung<br>- c) Lũy thừa, số thập phân và thứ tự phép tính<br>- d) Căn bậc hai số học và giá trị tuyệt đối | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[8]` (8 dòng kẻ mờ/ô) $\to$ chạm sát mép đáy Trang 1 |
-| **Câu 12** | **Tự luận (Đại số)** | **Tìm số hữu tỉ $x$, biết:**<br>- a) Chuyển vế cơ bản: $x - \frac{a}{b} = \frac{c}{d}$<br>- b) Nhân chia có ngoặc: $\frac{a}{b}x \pm \frac{c}{d} = \frac{e}{f}$<br>- c) Phương trình lũy thừa bậc hai: $\left(x \pm \frac{a}{b}\right)^2 = \frac{c}{d}$<br>- d) Phương trình chứa giá trị tuyệt đối: $|ax + b| = c$ | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[5]` (5 dòng kẻ mờ/ô) |
-| **Câu 13** | **Tự luận (Hình học)** | **Bài toán hình học tổng hợp (Tiên đề Euclid & Góc gãy khúc):**<br>Cho $Ax \parallel By$, điểm $O$ tạo với $Ax, By$ thành góc $\widehat{xAO}$ và $\widehat{yBO}$:<br>- a) (1,25 đ) Kẻ tia $Oz \parallel Ax$, giải thích vì sao $Oz \parallel By$.<br>- b) (1,25 đ) Dùng tính chất cặp góc so le trong tính số đo góc $\widehat{AOB}$. | **2,5 đ** | Khung bảng đóng hộp, có bài giải `\dongke{11}` |
-| **Câu 14** | **Tự luận (Nâng cao)** | **Nâng cao về số hữu tỉ (Dãy số có quy luật):**<br>Cho dãy số lũy thừa có quy luật $S = \frac{1}{a} + \frac{1}{a^2} + \dots + \frac{1}{a^{2026}}$. Hãy so sánh $S$ với số hữu tỉ $\frac{1}{a-1}$. | **1,0 đ** | Khung bảng đóng hộp, có bài giải `\dongke{7}` |
+| **Câu 11** | **Tự luận (Đại số)** | **Thực hiện phép tính (hợp lý nếu có thể):**<br>- a) Quy đồng nhóm phân số cùng mẫu<br>- b) Nhân chia phối hợp, đặt thừa số chung<br>- c) Lũy thừa, số thập phân và thứ tự phép tính<br>- d) Căn bậc hai số học và giá trị tuyệt đối | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[10]` (10 dòng kẻ mờ/ô) $\to$ chạm sát mép đáy Trang 1 |
+| **Câu 12** | **Tự luận (Đại số)** | **Tìm số hữu tỉ $x$, biết:**<br>- a) Chuyển vế cơ bản: $x - \frac{a}{b} = \frac{c}{d}$<br>- b) Nhân chia có ngoặc: $\frac{a}{b}x \pm \frac{c}{d} = \frac{e}{f}$<br>- c) Phương trình lũy thừa bậc hai: $\left(x \pm \frac{a}{b}\right)^2 = \frac{c}{d}$<br>- d) Phương trình chứa giá trị tuyệt đối: $|ax + b| = c$ | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[6]` (6 dòng kẻ mờ/ô) |
+| **Câu 13** | **Tự luận (Hình học)** | **Hình học: Dấu hiệu nhận biết & tính chất hai đường thẳng song song:**<br>Cho hình vẽ sẵn, đường thẳng $c$ cắt $a$ và $b$ tại $A, B$, biết $\widehat{A}_1 = \widehat{B}_1 = \alpha$:<br>- a) (1,5 đ) Chứng minh $a \parallel b$ (dấu hiệu nhận biết 2 góc đồng vị bằng nhau).<br>- b) (2,0 đ) Tính số đo 6 góc còn lại tại đỉnh $A$ và đỉnh $B$ ($\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$). | **3,5 đ** | Khung bảng đóng hộp, hình TikZ vẽ sẵn cạnh đề bài, phần bài giải chia 2 cột `\dongkeHaiCot{18}` $\to$ kín sát mép đáy Trang 2 |
 
 ---
 
@@ -116,68 +115,40 @@ Tuần 7 là giai đoạn trọng tâm ôn thi Giữa Học kỳ 1. Đề thi t�
 
 ---
 
-#### CÂU 13 (2,5 ĐIỂM): HÌNH HỌC - HAI ĐƯỜNG THẲNG SONG SONG & TÍNH GÓC
+#### CÂU 13 (3,5 ĐIỂM): HÌNH HỌC - HAI ĐƯỜNG THẲNG SONG SONG & TÍNH GÓC
 
 * **Bối cảnh đề bài chuẩn thi Giữa HK1 (Dấu hiệu nhận biết và tính chất hai đường thẳng song song):**
-  Cho hình vẽ, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = \alpha$.
-  - **a) (1,25 điểm)** Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).
-  - **b) (1,25 điểm)** Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$).
+  Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = \alpha$.
+  - **a) (1,5 điểm)** Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).
+  - **b) (2,0 điểm)** Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$).
 
 * **Mã đề 101:** $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$.
-  - a) Ta có $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$. Mà hai góc này ở vị trí đồng vị, do đó theo dấu hiệu nhận biết hai đường thẳng song song, ta có $a \parallel b$. *(1,25đ)*
-  - b) Tại đỉnh $A$:
-    - $\widehat{A}_3 = \widehat{A}_1 = 60^\circ$ (hai góc đối đỉnh). *(0,25đ)*
-    - Vì $\widehat{A}_2$ và $\widehat{A}_1$ là hai góc kề bù nên: $\widehat{A}_2 = 180^\circ - \widehat{A}_1 = 180^\circ - 60^\circ = 120^\circ$. *(0,25đ)*
-    - $\widehat{A}_4 = \widehat{A}_2 = 120^\circ$ (hai góc đối đỉnh). *(0,25đ)*
-    Tại đỉnh $B$:
-    - Vì $a \parallel b$ nên: $\widehat{B}_3 = \widehat{A}_1 = 60^\circ$ (so le trong hoặc đối đỉnh với $\widehat{B}_1$).
-    - $\widehat{B}_2 = \widehat{A}_4 = 120^\circ$ (so le trong hoặc kề bù với $\widehat{B}_1$), $\widehat{B}_4 = \widehat{B}_2 = 120^\circ$. *(0,5đ)*
+  - a) (1,5đ) Ta có $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$ (theo giả thiết). Mà hai góc này ở vị trí đồng vị, do đó theo dấu hiệu nhận biết hai đường thẳng song song, ta có $a \parallel b$. *(1,5đ)*
+  - b) (2,0đ)
+    - Tại đỉnh $A$:
+      + $\widehat{A}_3 = \widehat{A}_1 = 60^\circ$ (hai góc đối đỉnh). *(0,35đ)*
+      + Vì $\widehat{A}_2$ và $\widehat{A}_1$ là hai góc kề bù nên: $\widehat{A}_2 = 180^\circ - \widehat{A}_1 = 180^\circ - 60^\circ = 120^\circ$. *(0,35đ)*
+      + $\widehat{A}_4 = \widehat{A}_2 = 120^\circ$ (hai góc đối đỉnh). *(0,3đ)*
+    - Tại đỉnh $B$:
+      + Vì $a \parallel b$ nên: $\widehat{B}_3 = \widehat{A}_1 = 60^\circ$ (so le trong hoặc đối đỉnh với $\widehat{B}_1$). *(0,35đ)*
+      + $\widehat{B}_2 = \widehat{A}_4 = 120^\circ$ (so le trong hoặc kề bù với $\widehat{B}_1$). *(0,35đ)*
+      + $\widehat{B}_4 = \widehat{B}_2 = 120^\circ$ (đối đỉnh). *(0,3đ)*
 
 * **Mã đề 102:** $\widehat{A}_1 = \widehat{B}_1 = 70^\circ$.
-  - a) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 70^\circ \implies a \parallel b$. *(1,25đ)*
-  - b) $\widehat{A}_3 = \widehat{B}_3 = 70^\circ$; $\widehat{A}_2 = \widehat{A}_4 = \widehat{B}_2 = \widehat{B}_4 = 180^\circ - 70^\circ = 110^\circ$. *(1,25đ)*
+  - a) (1,5đ) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 70^\circ \implies a \parallel b$. *(1,5đ)*
+  - b) (2,0đ)
+    - Tại đỉnh $A$: $\widehat{A}_3 = \widehat{A}_1 = 70^\circ$; $\widehat{A}_2 = \widehat{A}_4 = 180^\circ - 70^\circ = 110^\circ$. *(1,0đ)*
+    - Tại đỉnh $B$: $\widehat{B}_3 = 70^\circ$; $\widehat{B}_2 = \widehat{B}_4 = 110^\circ$. *(1,0đ)*
 
 * **Mã đề 103:** $\widehat{A}_1 = \widehat{B}_1 = 50^\circ$.
-  - a) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 50^\circ \implies a \parallel b$. *(1,25đ)*
-  - b) $\widehat{A}_3 = \widehat{B}_3 = 50^\circ$; $\widehat{A}_2 = \widehat{A}_4 = \widehat{B}_2 = \widehat{B}_4 = 180^\circ - 50^\circ = 130^\circ$. *(1,25đ)*
+  - a) (1,5đ) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 50^\circ \implies a \parallel b$. *(1,5đ)*
+  - b) (2,0đ)
+    - Tại đỉnh $A$: $\widehat{A}_3 = \widehat{A}_1 = 50^\circ$; $\widehat{A}_2 = \widehat{A}_4 = 180^\circ - 50^\circ = 130^\circ$. *(1,0đ)*
+    - Tại đỉnh $B$: $\widehat{B}_3 = 50^\circ$; $\widehat{B}_2 = \widehat{B}_4 = 130^\circ$. *(1,0đ)*
 
 * **Mã đề 104:** $\widehat{A}_1 = \widehat{B}_1 = 65^\circ$.
-  - a) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 65^\circ \implies a \parallel b$. *(1,25đ)*
-  - b) $\widehat{A}_3 = \widehat{B}_3 = 65^\circ$; $\widehat{A}_2 = \widehat{A}_4 = \widehat{B}_2 = \widehat{B}_4 = 180^\circ - 65^\circ = 115^\circ$. *(1,25đ)*
+  - a) (1,5đ) Hai góc đồng vị $\widehat{A}_1 = \widehat{B}_1 = 65^\circ \implies a \parallel b$. *(1,5đ)*
+  - b) (2,0đ)
+    - Tại đỉnh $A$: $\widehat{A}_3 = \widehat{A}_1 = 65^\circ$; $\widehat{A}_2 = \widehat{A}_4 = 180^\circ - 65^\circ = 115^\circ$. *(1,0đ)*
+    - Tại đỉnh $B$: $\widehat{B}_3 = 65^\circ$; $\widehat{B}_2 = \widehat{B}_4 = 115^\circ$. *(1,0đ)*
 
----
-
-#### CÂU 14 (1,0 ĐIỂM): BÀI TOÁN PHÂN LOẠI HỌC SINH GIỎI (NÂNG CAO VỀ SỐ HỮU TỈ - SO SÁNH DÃY SỐ CÓ QUY LUẬT)
-
-* **Mã đề 101:** Cho biểu thức $A = \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^{2026}}$. Hãy so sánh $A$ với $1$.
-  - *Lời giải:*
-    + Ta có: $2A = 2 \cdot \left(\frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^{2026}}\right) = 1 + \frac{1}{2} + \frac{1}{2^2} + \dots + \frac{1}{2^{2025}}$. *(0,25đ)*
-    + Lấy $2A - A$, ta được:
-      $$2A - A = \left(1 + \frac{1}{2} + \dots + \frac{1}{2^{2025}}\right) - \left(\frac{1}{2} + \frac{1}{2^2} + \dots + \frac{1}{2^{2026}}\right)$$
-      $$\implies A = 1 - \frac{1}{2^{2026}}$$ *(0,25đ)*
-    + Vì $2^{2026} > 0$ nên $\frac{1}{2^{2026}} > 0 \implies 1 - \frac{1}{2^{2026}} < 1$. *(0,25đ)*
-    + Vậy $A < 1$. *(0,25đ)*
-
-* **Mã đề 102:** Cho biểu thức $B = \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \dots + \frac{1}{3^{2026}}$. Hãy so sánh $B$ với $\frac{1}{2}$.
-  - *Lời giải:*
-    + Ta có: $3B = 3 \cdot \left(\frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \dots + \frac{1}{3^{2026}}\right) = 1 + \frac{1}{3} + \frac{1}{3^2} + \dots + \frac{1}{3^{2025}}$. *(0,25đ)*
-    + Lấy $3B - B$, ta được:
-      $$2B = \left(1 + \frac{1}{3} + \dots + \frac{1}{3^{2025}}\right) - \left(\frac{1}{3} + \frac{1}{3^2} + \dots + \frac{1}{3^{2026}}\right) = 1 - \frac{1}{3^{2026}}$$ *(0,25đ)*
-    + Suy ra: $B = \frac{1}{2} - \frac{1}{2 \cdot 3^{2026}}$. *(0,25đ)*
-    + Vì $\frac{1}{2 \cdot 3^{2026}} > 0$ nên $B < \frac{1}{2}$. Vậy $B < \frac{1}{2}$. *(0,25đ)*
-
-* **Mã đề 103:** Cho biểu thức $C = \frac{1}{4} + \frac{1}{4^2} + \frac{1}{4^3} + \dots + \frac{1}{4^{2026}}$. Hãy so sánh $C$ với $\frac{1}{3}$.
-  - *Lời giải:*
-    + Ta có: $4C = 4 \cdot \left(\frac{1}{4} + \frac{1}{4^2} + \frac{1}{4^3} + \dots + \frac{1}{4^{2026}}\right) = 1 + \frac{1}{4} + \frac{1}{4^2} + \dots + \frac{1}{4^{2025}}$. *(0,25đ)*
-    + Lấy $4C - C$, ta được:
-      $$3C = \left(1 + \frac{1}{4} + \dots + \frac{1}{4^{2025}}\right) - \left(\frac{1}{4} + \frac{1}{4^2} + \dots + \frac{1}{4^{2026}}\right) = 1 - \frac{1}{4^{2026}}$$ *(0,25đ)*
-    + Suy ra: $C = \frac{1}{3} - \frac{1}{3 \cdot 4^{2026}}$. *(0,25đ)*
-    + Vì $\frac{1}{3 \cdot 4^{2026}} > 0$ nên $C < \frac{1}{3}$. Vậy $C < \frac{1}{3}$. *(0,25đ)*
-
-* **Mã đề 104:** Cho biểu thức $D = \frac{1}{5} + \frac{1}{5^2} + \frac{1}{5^3} + \dots + \frac{1}{5^{2026}}$. Hãy so sánh $D$ với $\frac{1}{4}$.
-  - *Lời giải:*
-    + Ta có: $5D = 5 \cdot \left(\frac{1}{5} + \frac{1}{5^2} + \frac{1}{5^3} + \dots + \frac{1}{5^{2026}}\right) = 1 + \frac{1}{5} + \frac{1}{5^2} + \dots + \frac{1}{5^{2025}}$. *(0,25đ)*
-    + Lấy $5D - D$, ta được:
-      $$4D = \left(1 + \frac{1}{5} + \dots + \frac{1}{5^{2025}}\right) - \left(\frac{1}{5} + \frac{1}{5^2} + \dots + \frac{1}{5^{2026}}\right) = 1 - \frac{1}{5^{2026}}$$ *(0,25đ)*
-    + Suy ra: $D = \frac{1}{4} - \frac{1}{4 \cdot 5^{2026}}$. *(0,25đ)*
-    + Vì $\frac{1}{4 \cdot 5^{2026}} > 0$ nên $D < \frac{1}{4}$. Vậy $D < \frac{1}{4}$. *(0,25đ)*

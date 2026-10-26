@@ -1,0 +1,511 @@
+
+=== PAGE 60 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 13 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Kết quả của biểu thức 
+3
+1
+8
+4
+7
+4
+7
+1
+3
+−−
+−
+−
++
+ là: 
+A. 37
+7
+−
+.  
+ 
+B. 3
+−. 
+ 
+C. 25
+28
+−
+.  
+ 
+D. 4.
+−
+ 
+Câu 2. Kết quả phép tính 
+3
+2
+3
+−
+
+
+
+
+
+
+  là : 
+A. 6.
+9
+−
+ 
+ 
+B. 8 .
+27 
+ 
+C. 8.
+27
+−
+ 
+ 
+D. 6.
+9 
+Câu 3. Một hồ bơi có dạng hình hộp chữ nhật có các kích thước lần lượt là 15m; 10 m; 
+1,8m. Thể tích hồ bơi là 
+A. 
+3
+270
+.
+m 
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+180
+.
+m 
+C. 
+3
+240
+.
+m 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+90
+.
+m 
+ 
+ 
+ 
+Câu 4. Cho biểu thức 
+1
+12
+5
+
+
+−
+−
+
+
+
+
+ khi bỏ dấu ngoặc ta được 
+A. 
+1
+12
+5
+−
+    
+ 
+B.  
+1
+12
+5
+−
+−
+  
+ 
+C. 
+1
+12
+5
++
+      
+ 
+D.  
+1
+12
+5
+−
++
+ 
+
+
+=== PAGE 61 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 5. Quan sát trục số sau, điểm A biểu diễn số hữu tỉ nào?      
+ 
+A. 1,3. 
+ 
+         B. 4. 
+  
+C. 4
+3 . 
+ 
+         D. 4
+5 . 
+Câu 6. Cho hình vẽ dưới đây, góc xOy đối đỉnh với góc nào? 
+ 
+A. Góc ’
+’.
+x Oy 
+ 
+ 
+ 
+ 
+ 
+B. Góc 
+’.
+xOy 
+C. Góc ’
+.
+x Oy  
+ 
+ 
+ 
+ 
+ 
+D. Góc 
+.
+xOy 
+Lời giải. Hai đường thẳng xx và yy cắt nhau tại O . Tia đối của Ox là Ox, tia đối của 
+Oy là Oy. Do đó, góc đối đỉnh với xOy là 
+x Oy
+
+. 
+Đáp án đúng: A. 
+Câu 7. Qua một điểm M nằm ngoài đường thẳng a, kẻ được bao nhiêu đường thẳng song 
+song với đường thẳng a ? 
+A. Có vô số đường thẳng.  
+ 
+ 
+ 
+B. Không có đường thẳng nào.                    
+C. Có hai đường thẳng.                                            
+D. Chỉ có một đường thẳng.      
+Câu 8. Cho 
+.
+ABC
+DEF
+
+= 
+ Biết 
+0
+33
+A =
+. Khi đó: 
+A. 
+0
+33 .
+D =
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+0
+33 .
+B =
+  
+ 
+ 
+C. 
+0
+33 .
+E =
+  
+ 
+ 
+ 
+ 
+ 
+D. 
+0
+33 .
+F =
+ 
+
+
+=== PAGE 62 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 9.  Giá trị của 
+3
+−
+ bằng 
+A. 
+3.
+−
+ 
+ 
+                 B. 
+3 . 
+ 
+ 
+C. 1
+3
+. 
+ 
+                 D. 
+1 .
+3
+−
+ 
+Câu 10. Làm tròn số 1,3781 với độ chính xác 0,005 được kết quả là: 
+A. 1,37 .                     
+B. 1,4 .                            
+ C. 1.  
+ 
+     D. 1,38. 
+Câu 11. Số đỉnh của hình hộp chữ nhật là: 
+A. 6.                        
+B. 8.                      
+ 
+C. 10.                          D. 12. 
+Câu 12. Cho hình vẽ sau, biết //
+a b, 
+45
+A =
+. Số đo của 
+1
+B bằng bao nhiêu? 
+ 
+A. 145 . 
+ 
+ 
+B. 45. 
+ 
+ 
+C. 35. 
+ 
+     D. 135. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho biểu thức 
+2
+1
+3
+3
+1
+9
+:
+3
+5
+5
+2
+Q
+−
+
+
+= −
++
+−
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+1
+3
+
+
+−
+
+
+
+
+ bằng 1
+9 . 
+b) Giá trị tuyệt đối 
+3
+5
+− bằng 
+3
+5
+−
+. 
+c) Kết quả của phép tính 
+3
+3
+:
+5
+5
+−
+ bằng 1. 
+
+
+=== PAGE 63 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+d) Giá trị của biểu thức Q bằng 3
+2 . 
+Câu 2.   Quan sát hình vẽ, biết MN
+yy
+⊥
+ tại M và MN
+zz
+⊥
+ tại N ; đường thẳng xx cắt 
+yy tại A và cắt zz tại B sao cho góc 
+60
+xAy
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Hai đường thẳng yy và zz song song với nhau. 
+b) Số đo của góc yAB bằng 60. 
+c) Số đo của góc ABz bằng 120. 
+d) Hai góc y AB
+
+ và ABz là hai góc so le trong và đều có số đo bằng 120. 
+ 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho 
+0
+70
+xOy =
+,  Ot là tia phân giác của xOy . Số đo xOt bằng bao nhiêu? 
+Câu 2.  Tìm số hữu tỉ x , biết: 
+1
+1
+1
+2
+3
+2
+6
+x −
+−
+=
+. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính hợp lý nếu có): 
+a) 5
+2
+5
+5
+13
+7
+13
+7
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+
+
+; 
+ 
+b) 
+2
+1
+4
+25
+2
+2
+3
+9
+3
+
+
+−
+
+−
++ −
+
+
+
+
+. 
+ 
+
+
+=== PAGE 64 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2 (1,5 điểm). Tìm x , biết: 
+a) 3
+1
+4
+5
+x
+−
+=
+; 
+ 
+b) 
+2
+(2
+1)
+9
+x −
+= . 
+Câu 3. Cho hình vẽ, biết 
+0
+80 .
+ABI =
+ 
+ 
+ 
+a) Chứng minh:  
+/ /
+m
+n 
+b) Tính 
+cAH và mAc  
+c) Vẽ tia AE là tia phân giác của 
+cAH , tia BF là tia phân giác của ABI . Chứng minh rằng 
+/ / 
+AE
+BF . 
+Câu 4. Một cửa hàng nhập về 100 xe hơi đồ chơi với giá gốc mỗi cái 300 000 đồng. Cửa 
+hàng đã bán 65 xe với giá mỗi cái lãi 30% so với giá gốc; 35 cái xe còn lại bán lỗ 7% so 
+với giá gốc. Hỏi sau khi bán hết 100 xe hơi đồ chơi cửa hàng đó lãi hay lỗ bao nhiêu tiền? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

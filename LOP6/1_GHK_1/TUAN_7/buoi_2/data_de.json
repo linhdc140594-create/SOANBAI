@@ -1,0 +1,263 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 07 - BUỔI 02",
+  "title_p2": "TOÁN 6 - TUẦN 07 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_07_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 16 \\le x \\le 55\\}$ có bao nhiêu phần tử?",
+          "40"
+        ],
+        [
+          "Số La Mã $\\text{XIX}$ có giá trị trong hệ thập phân là bao nhiêu?",
+          "19"
+        ],
+        [
+          "Viết gọn thương $3^8 : 3^3$ dưới dạng một lũy thừa.",
+          "$3^5$"
+        ],
+        [
+          "Giá trị của biểu thức $50 - 3 \\cdot 3^2$ bằng bao nhiêu?",
+          "23"
+        ],
+        [
+          "Số dư của phép chia tổng $(36 + 180 + 22)$ cho $9$ là bao nhiêu?",
+          "4"
+        ],
+        [
+          "Tìm chữ số $x$ để số $\\overline{3x5}$ chia hết cho $9$.",
+          "1"
+        ],
+        [
+          "Trong các số $17; 21; 25; 27$, số nguyên tố là số nào?",
+          "17"
+        ],
+        [
+          "Một hình tam giác đều có bao nhiêu trục đối xứng?",
+          "3"
+        ],
+        [
+          "Một mảnh đất hình vuông có cạnh $15\\text{ m}$. Chu vi mảnh đất là:",
+          "$60\\text{ m}$"
+        ],
+        [
+          "Hình bình hành có đáy $12\\text{ cm}$, chiều cao $6\\text{ cm}$. Diện tích là:",
+          "$72\\text{ cm}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$135 - 3^2 \\cdot 4 + 2^4 \\cdot 5$",
+        "b": "$37 \\cdot 64 + 37 \\cdot 36 - 700$",
+        "c": "$200 : [66 - (19 - 15)^2]$",
+        "d": "$180 : \\{ 75 - [22 + (16 - 14)^3] \\}$"
+      },
+      "q12": {
+        "a": "$3 \\cdot x - 14 = 34$",
+        "b": "$75 - 4 \\cdot (x - 2) = 43$",
+        "c": "$4 \\cdot 3^{x-1} + 14 = 50$",
+        "d": "Tìm số tự nhiên $x$ lớn nhất, biết $36 \\vdots x$ và $54 \\vdots x$."
+      },
+      "q13": {
+        "de": "Bác Hải có một căn phòng hình chữ nhật có chiều dài $12\\text{ m}$, chiều rộng $8\\text{ m}$. Bác dự định dùng gạch men hình vuông cạnh $40\\text{ cm}$ để lát kín toàn bộ nền phòng. Giá mỗi viên gạch là $22\\ 000$ đồng.",
+        "a": "Tính chu vi và diện tích của căn phòng.",
+        "b": "Bác Hải cần dùng bao nhiêu viên gạch để lát kín nền phòng và phải trả bao nhiêu tiền mua gạch?"
+      },
+      "q14": {
+        "de": "Cho tổng $A = 2 + 2^2 + 2^3 + 2^4 + \\dots + 2^{20}$. Chứng minh rằng $A$ chia hết cho $3$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 18 \\le x \\le 67\\}$ có bao nhiêu phần tử?",
+          "50"
+        ],
+        [
+          "Số La Mã $\\text{XXIII}$ có giá trị trong hệ thập phân là bao nhiêu?",
+          "23"
+        ],
+        [
+          "Viết gọn thương $5^7 : 5^4$ dưới dạng một lũy thừa.",
+          "$5^3$"
+        ],
+        [
+          "Giá trị của biểu thức $70 - 4 \\cdot 3^2$ bằng bao nhiêu?",
+          "34"
+        ],
+        [
+          "Số dư của phép chia tổng $(45 + 270 + 32)$ cho $9$ là bao nhiêu?",
+          "5"
+        ],
+        [
+          "Tìm chữ số $x$ để số $\\overline{4x3}$ chia hết cho $9$.",
+          "2"
+        ],
+        [
+          "Trong các số $23; 33; 35; 39$, số nguyên tố là số nào?",
+          "23"
+        ],
+        [
+          "Một hình vuông có bao nhiêu trục đối xứng?",
+          "4"
+        ],
+        [
+          "Một mảnh đất hình vuông có cạnh $18\\text{ m}$. Chu vi mảnh đất là:",
+          "$72\\text{ m}$"
+        ],
+        [
+          "Hình bình hành có đáy $15\\text{ cm}$, chiều cao $8\\text{ cm}$. Diện tích là:",
+          "$120\\text{ cm}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$145 - 2^4 \\cdot 3 + 3^3 \\cdot 2$",
+        "b": "$43 \\cdot 78 + 43 \\cdot 22 - 300$",
+        "c": "$240 : [76 - (18 - 14)^2]$",
+        "d": "$220 : \\{ 85 - [22 + (17 - 15)^3] \\}$"
+      },
+      "q12": {
+        "a": "$4 \\cdot x - 17 = 39$",
+        "b": "$85 - 5 \\cdot (x - 3) = 45$",
+        "c": "$3 \\cdot 2^{x+2} + 16 = 64$",
+        "d": "Tìm số tự nhiên $x$ lớn nhất, biết $40 \\vdots x$ và $60 \\vdots x$."
+      },
+      "q13": {
+        "de": "Bác Hải có một căn phòng hình chữ nhật có chiều dài $15\\text{ m}$, chiều rộng $8\\text{ m}$. Bác dự định dùng gạch men hình vuông cạnh $50\\text{ cm}$ để lát kín toàn bộ nền phòng. Giá mỗi viên gạch là $32\\ 000$ đồng.",
+        "a": "Tính chu vi và diện tích của căn phòng.",
+        "b": "Bác Hải cần dùng bao nhiêu viên gạch để lát kín nền phòng và phải trả bao nhiêu tiền mua gạch?"
+      },
+      "q14": {
+        "de": "Cho tổng $B = 3 + 3^2 + 3^3 + 3^4 + \\dots + 3^{20}$. Chứng minh rằng $B$ chia hết cho $4$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 12 \\le x \\le 71\\}$ có bao nhiêu phần tử?",
+          "60"
+        ],
+        [
+          "Số La Mã $\\text{XXVIII}$ có giá trị trong hệ thập phân là bao nhiêu?",
+          "28"
+        ],
+        [
+          "Viết gọn thương $2^9 : 2^5$ dưới dạng một lũy thừa.",
+          "$2^4$"
+        ],
+        [
+          "Giá trị của biểu thức $80 - 2 \\cdot 4^2$ bằng bao nhiêu?",
+          "48"
+        ],
+        [
+          "Số dư của phép chia tổng $(54 + 360 + 25)$ cho $9$ là bao nhiêu?",
+          "7"
+        ],
+        [
+          "Tìm chữ số $x$ để số $\\overline{5x1}$ chia hết cho $9$.",
+          "3"
+        ],
+        [
+          "Trong các số $29; 39; 49; 51$, số nguyên tố là số nào?",
+          "29"
+        ],
+        [
+          "Một hình lục giác đều có bao nhiêu đường chéo chính?",
+          "3"
+        ],
+        [
+          "Một mảnh đất hình vuông có cạnh $25\\text{ m}$. Chu vi mảnh đất là:",
+          "$100\\text{ m}$"
+        ],
+        [
+          "Hình bình hành có đáy $14\\text{ cm}$, chiều cao $5\\text{ cm}$. Diện tích là:",
+          "$70\\text{ cm}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$165 - 4^2 \\cdot 3 + 2^5 \\cdot 2$",
+        "b": "$52 \\cdot 83 + 52 \\cdot 17 - 200$",
+        "c": "$280 : [86 - (17 - 13)^2]$",
+        "d": "$260 : \\{ 95 - [22 + (18 - 16)^3] \\}$"
+      },
+      "q12": {
+        "a": "$5 \\cdot x - 16 = 49$",
+        "b": "$95 - 6 \\cdot (x - 1) = 47$",
+        "c": "$5 \\cdot 2^{x+1} - 18 = 62$",
+        "d": "Tìm số tự nhiên $x$ lớn nhất, biết $42 \\vdots x$ và $70 \\vdots x$."
+      },
+      "q13": {
+        "de": "Bác Hải có một căn phòng hình chữ nhật có chiều dài $16\\text{ m}$, chiều rộng $9\\text{ m}$. Bác dự định dùng gạch men hình vuông cạnh $40\\text{ cm}$ để lát kín toàn bộ nền phòng. Giá mỗi viên gạch là $24\\ 000$ đồng.",
+        "a": "Tính chu vi và diện tích của căn phòng.",
+        "b": "Bác Hải cần dùng bao nhiêu viên gạch để lát kín nền phòng và phải trả bao nhiêu tiền mua gạch?"
+      },
+      "q14": {
+        "de": "Cho tổng $C = 4 + 4^2 + 4^3 + 4^4 + \\dots + 4^{20}$. Chứng minh rằng $C$ chia hết cho $5$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Tập hợp $B = \\{x \\in \\mathbb{N} \\mid 15 \\le x \\le 84\\}$ có bao nhiêu phần tử?",
+          "70"
+        ],
+        [
+          "Số La Mã $\\text{XVI}$ có giá trị trong hệ thập phân là bao nhiêu?",
+          "16"
+        ],
+        [
+          "Viết gọn thương $7^6 : 7^2$ dưới dạng một lũy thừa.",
+          "$7^4$"
+        ],
+        [
+          "Giá trị của biểu thức $90 - 3 \\cdot 4^2$ bằng bao nhiêu?",
+          "42"
+        ],
+        [
+          "Số dư của phép chia tổng $(63 + 180 + 42)$ cho $9$ là bao nhiêu?",
+          "6"
+        ],
+        [
+          "Tìm chữ số $x$ để số $\\overline{2x3}$ chia hết cho $9$.",
+          "4"
+        ],
+        [
+          "Trong các số $31; 45; 55; 57$, số nguyên tố là số nào?",
+          "31"
+        ],
+        [
+          "Một hình thoi có bao nhiêu cạnh bằng nhau?",
+          "4"
+        ],
+        [
+          "Một mảnh đất hình vuông có cạnh $16\\text{ m}$. Chu vi mảnh đất là:",
+          "$64\\text{ m}$"
+        ],
+        [
+          "Hình bình hành có đáy $16\\text{ cm}$, chiều cao $7\\text{ cm}$. Diện tích là:",
+          "$112\\text{ cm}^2$"
+        ]
+      ],
+      "q11": {
+        "a": "$185 - 5^2 \\cdot 2 + 3^2 \\cdot 6$",
+        "b": "$61 \\cdot 74 + 61 \\cdot 26 - 100$",
+        "c": "$320 : [96 - (16 - 12)^2]$",
+        "d": "$300 : \\{ 105 - [22 + (19 - 17)^3] \\}$"
+      },
+      "q12": {
+        "a": "$6 \\cdot x - 19 = 53$",
+        "b": "$90 - 7 \\cdot (x - 2) = 41$",
+        "c": "$2 \\cdot 5^{x-1} + 10 = 60$",
+        "d": "Tìm số tự nhiên $x$ lớn nhất, biết $48 \\vdots x$ và $72 \\vdots x$."
+      },
+      "q13": {
+        "de": "Bác Hải có một căn phòng hình chữ nhật có chiều dài $20\\text{ m}$, chiều rộng $9\\text{ m}$. Bác dự định dùng gạch men hình vuông cạnh $50\\text{ cm}$ để lát kín toàn bộ nền phòng. Giá mỗi viên gạch là $35\\ 000$ đồng.",
+        "a": "Tính chu vi và diện tích của căn phòng.",
+        "b": "Bác Hải cần dùng bao nhiêu viên gạch để lát kín nền phòng và phải trả bao nhiêu tiền mua gạch?"
+      },
+      "q14": {
+        "de": "Cho tổng $D = 5 + 5^2 + 5^3 + 5^4 + \\dots + 5^{20}$. Chứng minh rằng $D$ chia hết cho $6$."
+      }
+    }
+  }
+}

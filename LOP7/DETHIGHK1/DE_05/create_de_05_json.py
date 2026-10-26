@@ -1,0 +1,411 @@
+import json
+import os
+
+c4_tikz = r'''\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \draw[thick] (-2.5, 0.7) -- (2.8, 1.76) node[above=2pt] {$a$};
+  \draw[thick] (-2.5, -0.7) -- (2.8, 0.36) node[above=2pt] {$b$};
+  \draw[thick] (-1.4, 2.3) node[above left=1pt] {$c$} -- (1.2, -1.6);
+  \node[font=\footnotesize] at (-0.95, 1.4) {$1$};
+  \node[font=\footnotesize] at (-0.25, 1.5) {$2$};
+  \node[font=\footnotesize] at (-0.25, 0.8) {$3$};
+  \node[font=\footnotesize] at (-0.95, 0.8) {$4$};
+  \node[font=\small, below=6pt] at (-0.95, 0.8) {$M$};
+  \node[font=\footnotesize] at (-0.02, 0.0) {$1$};
+  \node[font=\footnotesize] at (0.68, 0.1) {$2$};
+  \node[font=\footnotesize] at (0.68, -0.6) {$3$};
+  \node[font=\footnotesize] at (-0.02, -0.6) {$4$};
+  \node[font=\small, below=6pt] at (-0.02, -0.6) {$N$};
+\end{tikzpicture}'''
+
+c6_tikz = r'''\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \coordinate (A) at (0.8, 1.3);
+  \coordinate (B) at (-0.3, -0.2);
+  \draw[thick, blue!80!black] (-2, 1.3) -- (2.5, 1.3);
+  \node[above=2pt] at (-1.3, 1.3) {$a$};
+  \draw[thick, blue!80!black] (-2, -0.2) -- (2.5, -0.2);
+  \node[above=2pt] at (-1.3, -0.2) {$b$};
+  \draw[thick, blue!80!black] (-0.85, -0.95) -- (1.35, 2.05);
+  \fill[red] (A) circle (1.8pt);
+  \fill[red] (B) circle (1.8pt);
+  \fill[gray!30] (A) -- ++(180:0.5) arc (180:233:0.5) -- cycle;
+  \draw[thick] (A) ++(180:0.5) arc (180:233:0.5);
+  \node[font=\footnotesize, left=2pt] at ($(A)+(-0.3,-0.18)$) {$65^\circ$};
+  \node[font=\footnotesize, right=2pt] at ($(B)+(0.25,0.25)$) {$x?$};
+\end{tikzpicture}'''
+
+p2c1_tikz = r'''\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \coordinate (O) at (0,0);
+  \draw[thick] (-2.8,1.3) node[above=2pt] {$x'$} -- (2.8,-1.3) node[below=2pt] {$x$};
+  \draw[thick] (-2.8,-1.3) node[below=2pt] {$y'$} -- (2.8,1.3) node[above=2pt] {$y$};
+  \fill[gray!30] (O) -- (25:0.6) arc (25:-25:0.6) -- cycle;
+  \draw[thick] (25:0.6) arc (25:-25:0.6);
+  \fill[gray!30] (O) -- (155:0.6) arc (155:205:0.6) -- cycle;
+  \draw[thick] (155:0.6) arc (155:205:0.6);
+  \node[right=5pt] at (0.5,0) {$1$};
+  \node[above=4pt] at (0,0.5) {$2$};
+  \node[left=5pt] at (-0.5,0) {$3$};
+  \node[below=8pt] at (0,-0.4) {$4$};
+  \node[below=2pt] at (O) {$O$};
+\end{tikzpicture}'''
+
+p2c2_tikz = r'''\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \coordinate (O) at (0,0);
+  \coordinate (A) at (2.4,0);
+  \coordinate (B) at ($(A)+(68:2.4)$);
+  \coordinate (C) at ($(O)+(68:3.2)$);
+  \draw[thick] (O) -- (3.8,0) node[above=2pt] {$x$};
+  \draw[thick] (O) -- ($(O)+(68:3.8)$) node[above left=1pt] {$y$};
+  \draw[thick] (A) -- ($(A)+(68:3.3)$) node[above right=1pt] {$z$};
+  \draw[thick] (C) -- (B);
+  \fill[gray!30] (O) -- (0.5,0) arc (0:68:0.5) -- cycle;
+  \draw[thick] (0.5,0) arc (0:68:0.5);
+  \node[font=\footnotesize] at (34:0.85) {$70^\circ$};
+  \fill[gray!30] (A) -- ++(0:0.5) arc (0:68:0.5) -- cycle;
+  \draw[thick] (A) ++(0:0.5) arc (0:68:0.5);
+  \node[font=\footnotesize] at ($(A)+(34:0.85)$) {$70^\circ$};
+  \fill[gray!30] (B) -- ++(147:0.45) arc (147:248:0.45) -- cycle;
+  \draw[thick] (B) ++(147:0.45) arc (147:248:0.45);
+  \node[font=\footnotesize] at ($(B)+(-0.55,-0.12)$) {$110^\circ$};
+  \node[below left=1pt] at (O) {$O$};
+  \node[below=2pt] at (A) {$A$};
+  \node[right=2pt] at (B) {$B$};
+  \node[above left=1pt] at (C) {$C$};
+\end{tikzpicture}'''
+
+p4c3_tikz = r'''\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \coordinate (A) at (0,2.6);
+  \coordinate (B) at (-2.2,0);
+  \coordinate (C) at (2.2,0);
+  \coordinate (M) at (0,0);
+  \draw[thick] (B) -- (A) -- (C) -- cycle;
+  \draw[thick] (A) -- (M);
+  \fill (A) circle (1.5pt) node[above=2pt] {$A$};
+  \fill (B) circle (1.5pt) node[below left=1pt] {$B$};
+  \fill (C) circle (1.5pt) node[below right=1pt] {$C$};
+  \fill (M) circle (1.5pt) node[below=2pt] {$M$};
+  \draw[thick] ($(B)!0.5!(A)+(-0.08,0.08)$) -- ($(B)!0.5!(A)+(0.08,-0.08)$);
+  \draw[thick] ($(C)!0.5!(A)+(-0.08,-0.08)$) -- ($(C)!0.5!(A)+(0.08,0.08)$);
+  \draw (A) ++(250:0.5) arc (250:270:0.5);
+  \draw (A) ++(270:0.5) arc (270:290:0.5);
+\end{tikzpicture}'''
+
+de_05_data = {
+  "de_so": 5,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 7",
+  "thoi_gian": "90 phút",
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho các số sau: $\\dfrac{5}{4}; 3\\dfrac{2}{5}; \\dfrac{-2}{7}; \\dfrac{0}{3}; \\dfrac{-3}{0}; \\dfrac{8}{8}; 0{,}625$. Hãy cho biết số nào không phải là số hữu tỉ?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$\\dfrac{-3}{0}$",
+        "B": "$0{,}625$",
+        "C": "$\\dfrac{-2}{7}$",
+        "D": "$3\\dfrac{2}{5}$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Số hữu tỉ là số viết được dưới dạng phân số $\\dfrac{a}{b}$ với $a, b \\in \\mathbb{Z}$ và $b \\neq 0$. Số $\\dfrac{-3}{0}$ có mẫu số bằng $0$ nên không xác định, do đó không phải là số hữu tỉ."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Kết quả của phép tính $(2{,}023)^0$ là:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$2$",
+        "B": "$0$",
+        "C": "$2{,}023$",
+        "D": "$1$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Mọi số khác $0$ khi nâng lên lũy thừa $0$ đều bằng $1$. Do đó $(2{,}023)^0 = 1$."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Với $x, y, z$ là ba số hữu tỉ bất kì, sau khi bỏ ngoặc ta được $-(x - y + z)$ bằng:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$-x + y - z$",
+        "B": "$-x - y - z$",
+        "C": "$x + y - z$",
+        "D": "$x + y + z$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Khi bỏ dấu ngoặc có dấu trừ phía trước, ta phải đổi dấu tất cả các số hạng bên trong ngoặc: $-(x - y + z) = -x + y - z$."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Cho hình vẽ sau, nếu $a \\parallel b$ thì:",
+      "hinh_tikz": c4_tikz,
+      "lua_chon": {
+        "A": "$\\widehat{M}_1 = \\widehat{N}_2$",
+        "B": "$\\widehat{M}_3 = \\widehat{N}_4$",
+        "C": "$\\widehat{M}_4 = \\widehat{N}_4$",
+        "D": "$\\widehat{M}_4 = \\widehat{N}_3$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Hai góc $\\widehat{M}_4$ và $\\widehat{N}_4$ ở vị trí đồng vị nên $\\widehat{M}_4 = \\widehat{N}_4$."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Cho biểu thức $\\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) - \\left(\\dfrac{1}{2} + \\dfrac{2}{3}\\right)$. Khi bỏ dấu ngoặc, ta được biểu thức:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$\\dfrac{1}{2} - \\dfrac{1}{3} + \\dfrac{1}{2} - \\dfrac{1}{3} - \\dfrac{1}{2} + \\dfrac{2}{3}$",
+        "B": "$\\dfrac{1}{2} - \\dfrac{1}{3} + \\dfrac{1}{2} - \\dfrac{1}{3} + \\dfrac{1}{2} - \\dfrac{2}{3}$",
+        "C": "$\\dfrac{1}{2} - \\dfrac{1}{3} + \\dfrac{1}{2} + \\dfrac{1}{3} - \\dfrac{1}{2} - \\dfrac{2}{3}$",
+        "D": "$\\dfrac{1}{2} - \\dfrac{1}{3} + \\dfrac{1}{2} - \\dfrac{1}{3} - \\dfrac{1}{2} - \\dfrac{2}{3}$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Giữ nguyên dấu các số hạng trong hai ngoặc đầu, đổi dấu các số hạng trong ngoặc thứ ba (vì phía trước có dấu trừ), ta được: $\\dfrac{1}{2} - \\dfrac{1}{3} + \\dfrac{1}{2} - \\dfrac{1}{3} - \\dfrac{1}{2} - \\dfrac{2}{3}$."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Cho $a \\parallel b$, số đo góc $x$ trên hình vẽ bằng:",
+      "hinh_tikz": c6_tikz,
+      "lua_chon": {
+        "A": "$115^\\circ$",
+        "B": "$90^\\circ$",
+        "C": "$65^\\circ$",
+        "D": "$0^\\circ$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Góc $65^\\circ$ và góc $x$ là hai góc trong cùng phía tạo bởi đường thẳng cắt hai đường thẳng song song $a$ và $b$. Tổng số đo hai góc trong cùng phía bằng $180^\\circ$: $65^\\circ + x = 180^\\circ \\Rightarrow x = 180^\\circ - 65^\\circ = 115^\\circ$."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Căn bậc hai số học của $9$ là:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$-3$",
+        "B": "$3$",
+        "C": "$\\pm 3$",
+        "D": "$81$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Căn bậc hai số học của một số $a \\ge 0$ là số không âm $\\sqrt{a}$. Vì $3 > 0$ và $3^2 = 9$ nên $\\sqrt{9} = 3$."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Trong các câu sau, câu nào không phải là định lí?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "Tổng ba góc trong một tam giác bằng $180^\\circ$",
+        "B": "Hai đường thẳng phân biệt vuông góc với cùng một đường thẳng thì song song với nhau",
+        "C": "Hai góc đối đỉnh thì bằng nhau",
+        "D": "$2 + 2 = 5$"
+      },
+      "dap_an": "D",
+      "loi_giai": "$2 + 2 = 5$ là một khẳng định sai, không phải là một định lí toán học."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Chọn đáp án đúng. Trong hình vuông:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "Hai đường chéo bằng nhau",
+        "B": "Cả 3 khẳng định còn lại đều đúng",
+        "C": "Bốn cạnh bằng nhau",
+        "D": "Bốn góc ở các đỉnh là góc vuông"
+      },
+      "dap_an": "B",
+      "loi_giai": "Trong hình vuông, bốn cạnh bằng nhau, bốn góc ở đỉnh là góc vuông và hai đường chéo bằng nhau. Do đó cả 3 khẳng định đều đúng."
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Lan viết các số La Mã như sau: XIII, XIX, VXI, XXIV. Lan viết sai số La Mã nào?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "XIII",
+        "B": "XIX",
+        "C": "VXI",
+        "D": "XXIV"
+      },
+      "dap_an": "C",
+      "loi_giai": "Số La Mã $16$ được viết là XVI, không viết là VXI. Do đó Lan viết sai số VXI."
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Cho hai tam giác $ABC$ và $DEF$ có $AB = EF, BC = FD, AC = ED$. Khi đó:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$\\Delta ABC = \\Delta DEF$",
+        "B": "$\\Delta ABC = \\Delta FDE$",
+        "C": "$\\Delta ABC = \\Delta DFE$",
+        "D": "$\\Delta ABC = \\Delta EFD$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Từ $AB = EF, BC = FD, AC = ED$, ta xác định các đỉnh tương ứng: $A \\leftrightarrow E, B \\leftrightarrow F, C \\leftrightarrow D$. Do đó $\\Delta ABC = \\Delta EFD$."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Khẳng định nào sau đây đúng?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$(-2)^8 = -2^8$",
+        "B": "$\\left(-\\dfrac{2}{3}\\right)^3 = \\dfrac{6}{9}$",
+        "C": "$[(-2)^3]^2 = -2^5$",
+        "D": "$\\left(-\\dfrac{1}{2}\\right)^4 = \\dfrac{1}{16}$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Ta có $\\left(-\\dfrac{1}{2}\\right)^4 = \\dfrac{(-1)^4}{2^4} = \\dfrac{1}{16}$."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho hai đường thẳng cắt nhau tại điểm $O$ tạo thành bốn góc $\\widehat{O}_1, \\widehat{O}_2, \\widehat{O}_3, \\widehat{O}_4$. Xét tính đúng sai của các mệnh đề sau:",
+      "hinh_tikz": p2c1_tikz,
+      "menh_de": [
+        {
+          "y": "a",
+          "noi_dung": "Hai góc $\\widehat{O}_1$ và $\\widehat{O}_3$ là hai góc đối đỉnh.",
+          "dap_an": "Đúng",
+          "loi_giai": "Hai góc $\\widehat{O}_1$ và $\\widehat{O}_3$ đối diện qua đỉnh $O$ nên là hai góc đối đỉnh."
+        },
+        {
+          "y": "b",
+          "noi_dung": "Hai góc $\\widehat{O}_2$ và $\\widehat{O}_3$ là hai góc kề bù.",
+          "dap_an": "Đúng",
+          "loi_giai": "Hai góc $\\widehat{O}_2$ và $\\widehat{O}_3$ có một cạnh chung và hai cạnh còn lại là hai tia đối nhau nên là hai góc kề bù."
+        },
+        {
+          "y": "c",
+          "noi_dung": "Hai góc $\\widehat{O}_1$ và $\\widehat{O}_3$ có tổng số đo bằng $180^\\circ$.",
+          "dap_an": "Sai",
+          "loi_giai": "Hai góc $\\widehat{O}_1$ và $\\widehat{O}_3$ đối đỉnh nên bằng nhau, tổng số đo của chúng không nhất thiết bằng $180^\\circ$."
+        },
+        {
+          "y": "d",
+          "noi_dung": "Hai góc $\\widehat{O}_2$ và $\\widehat{O}_4$ là hai góc đối đỉnh nên có số đo bằng $180^\\circ$.",
+          "dap_an": "Sai",
+          "loi_giai": "Hai góc $\\widehat{O}_2$ và $\\widehat{O}_4$ đối đỉnh nên bằng nhau, số đo của chúng nhỏ hơn $180^\\circ$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho $\\widehat{xOy} = 70^\\circ$. Trên tia $Ox$ lấy điểm $A$. Kẻ tia $Az$ sao cho $\\widehat{xAz} = 70^\\circ$. Trên tia $Az$ lấy điểm $B$, kẻ tia $Bt$ cắt $Oy$ tại $C$ sao cho $\\widehat{CBA} = 110^\\circ$. Xét tính đúng sai của các mệnh đề sau:",
+      "hinh_tikz": p2c2_tikz,
+      "menh_de": [
+        {
+          "y": "a",
+          "noi_dung": "$\\widehat{ABC}$ và $\\widehat{CBz}$ là hai góc kề bù.",
+          "dap_an": "Đúng",
+          "loi_giai": "Tia $BA$ và tia $Bz$ là hai tia đối nhau nên $\\widehat{ABC}$ và $\\widehat{CBz}$ là hai góc kề bù."
+        },
+        {
+          "y": "b",
+          "noi_dung": "$\\widehat{CBz} = 70^\\circ$.",
+          "dap_an": "Đúng",
+          "loi_giai": "Ta có $\\widehat{CBz} = 180^\\circ - \\widehat{CBA} = 180^\\circ - 110^\\circ = 70^\\circ$."
+        },
+        {
+          "y": "c",
+          "noi_dung": "$Oy$ song song với $Az$.",
+          "dap_an": "Đúng",
+          "loi_giai": "Ta có $\\widehat{xOy} = \\widehat{xAz} = 70^\\circ$. Mà hai góc này ở vị trí đồng vị nên $Oy \\parallel Az$."
+        },
+        {
+          "y": "d",
+          "noi_dung": "$\\widehat{BCO} = 110^\\circ$.",
+          "dap_an": "Sai",
+          "loi_giai": "Vì $Oy \\parallel Az$ nên $\\widehat{BCO} = \\widehat{CBz} = 70^\\circ \\neq 110^\\circ$."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Tìm số tự nhiên $x$, biết: $2^{x+3} + 2^x = 144$.",
+      "hinh_tikz": None,
+      "dap_an": "$x = 4$",
+      "loi_giai": "Ta có:\n\\[ 2^{x+3} + 2^x = 144 \\Leftrightarrow 2^x \\cdot 2^3 + 2^x = 144 \\Leftrightarrow 2^x \\cdot (8 + 1) = 144 \\Leftrightarrow 2^x \\cdot 9 = 144 \\Leftrightarrow 2^x = 16 = 2^4. \\]\nDo đó $x = 4$.\nĐáp án: $4$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho hai đường thẳng song song $a$ và $b$. Đường thẳng $c$ cắt $a$ và $b$ lần lượt tại hai điểm $A$ và $B$. Biết góc $\\widehat{A}_1$ và góc $\\widehat{B}_1$ là hai góc trong cùng phía, trong đó $\\widehat{A}_1 = 65^\\circ$. Tính số đo góc $\\widehat{B}_1$.",
+      "hinh_tikz": None,
+      "dap_an": "$\\widehat{B}_1 = 115^\\circ$",
+      "loi_giai": "Vì $a \\parallel b$ nên hai góc trong cùng phía bù nhau:\n\\[ \\widehat{A}_1 + \\widehat{B}_1 = 180^\\circ \\Rightarrow 65^\\circ + \\widehat{B}_1 = 180^\\circ \\Rightarrow \\widehat{B}_1 = 180^\\circ - 65^\\circ = 115^\\circ. \\]\nĐáp án: $115^\\circ$."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "noi_dung": "Thực hiện phép tính (Tính hợp lý nếu có thể):",
+      "hinh_tikz": None,
+      "cac_y": [
+        {
+          "y": "a",
+          "cau_hoi": "$\\dfrac{-5}{9} \\cdot \\dfrac{3}{11} + \\dfrac{-5}{9} \\cdot \\dfrac{8}{11}$",
+          "loi_giai": "Ta có:\n\\[ \\dfrac{-5}{9} \\cdot \\dfrac{3}{11} + \\dfrac{-5}{9} \\cdot \\dfrac{8}{11} = \\dfrac{-5}{9} \\left(\\dfrac{3}{11} + \\dfrac{8}{11}\\right) = \\dfrac{-5}{9} \\cdot 1 = -\\dfrac{5}{9}. \\]"
+        },
+        {
+          "y": "b",
+          "cau_hoi": "$\\left(2\\dfrac{3}{4} + 1\\dfrac{2}{7}\\right) - \\left(1\\dfrac{3}{4} - 3\\dfrac{5}{7}\\right)$",
+          "loi_giai": "Ta có:\n\\begin{align*}\n\\left(2\\dfrac{3}{4} + 1\\dfrac{2}{7}\\right) - \\left(1\\dfrac{3}{4} - 3\\dfrac{5}{7}\\right) &= 2\\dfrac{3}{4} + 1\\dfrac{2}{7} - 1\\dfrac{3}{4} + 3\\dfrac{5}{7} \\\\\n&= \\left(2\\dfrac{3}{4} - 1\\dfrac{3}{4}\\right) + \\left(1\\dfrac{2}{7} + 3\\dfrac{5}{7}\\right) \\\\\n&= 1 + 5 = 6.\n\\end{align*}"
+        },
+        {
+          "y": "c",
+          "cau_hoi": "$\\left(-\\dfrac{1}{2}\\right)^2 - \\dfrac{3}{5} \\cdot \\dfrac{10}{3} : \\sqrt{\\dfrac{16}{25}}$",
+          "loi_giai": "Ta có:\n\\[ \\dfrac{1}{4} - 2 : \\dfrac{4}{5} = \\dfrac{1}{4} - 2 \\cdot \\dfrac{5}{4} = \\dfrac{1}{4} - \\dfrac{5}{2} = \\dfrac{1 - 10}{4} = -\\dfrac{9}{4}. \\]"
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Tìm $x$ biết:",
+      "hinh_tikz": None,
+      "cac_y": [
+        {
+          "y": "a",
+          "cau_hoi": "$x + 4{,}5 = 9{,}5$",
+          "loi_giai": "Ta có: $x = 9{,}5 - 4{,}5 = 5$."
+        },
+        {
+          "y": "b",
+          "cau_hoi": "$\\dfrac{2}{5} x - \\dfrac{1}{2} = \\dfrac{3}{8}$",
+          "loi_giai": "Ta có: $\\dfrac{2}{5} x = \\dfrac{3}{8} + \\dfrac{1}{2} = \\dfrac{7}{8} \\Rightarrow x = \\dfrac{7}{8} : \\dfrac{2}{5} = \\dfrac{35}{16}$."
+        },
+        {
+          "y": "c",
+          "cau_hoi": "$|3x - 1| + \\dfrac{1}{3} = \\dfrac{1}{2}$",
+          "loi_giai": "Ta có: $|3x - 1| = \\dfrac{1}{2} - \\dfrac{1}{3} = \\dfrac{1}{6}$.\n\nTrường hợp 1: $3x - 1 = \\dfrac{1}{6} \\Rightarrow 3x = \\dfrac{7}{6} \\Rightarrow x = \\dfrac{7}{18}$.\n\nTrường hợp 2: $3x - 1 = -\\dfrac{1}{6} \\Rightarrow 3x = \\dfrac{5}{6} \\Rightarrow x = \\dfrac{5}{18}$.\n\nVậy $x \\in \\left\\{\\dfrac{7}{18}; \\dfrac{5}{18}\\right\\}$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Cho tam giác $ABC$ có $AB = AC$. Tia phân giác của góc $A$ cắt $BC$ tại $M$ ($M \\in BC$). Chứng minh rằng:",
+      "hinh_tikz": p4c3_tikz,
+      "cac_y": [
+        {
+          "y": "a",
+          "cau_hoi": "$\\Delta AMB = \\Delta AMC$",
+          "loi_giai": "Xét $\\Delta AMB$ và $\\Delta AMC$, ta có:\n\\[ \\begin{aligned} AB &= AC \\quad \\text{(theo giả thiết)}, \\\\ \\widehat{BAM} &= \\widehat{CAM} \\quad \\text{(vì $AM$ là tia phân giác của $\\widehat{BAC}$)}, \\\\ AM &\\quad \\text{là cạnh chung}. \\end{aligned} \\]\nSuy ra $\\Delta AMB = \\Delta AMC$ (c-g-c)."
+        },
+        {
+          "y": "b",
+          "cau_hoi": "$M$ là trung điểm của cạnh $BC$",
+          "loi_giai": "Vì $\\Delta AMB = \\Delta AMC$ (chứng minh trên) nên $MB = MC$ (hai cạnh tương ứng).\nMà điểm $M$ nằm giữa hai điểm $B$ và $C$ ($M \\in BC$), suy ra $M$ là trung điểm của cạnh $BC$."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Cho $A = \\dfrac{1}{2^2} + \\dfrac{1}{3^2} + \\dfrac{1}{4^2} + \\dots + \\dfrac{1}{100^2}$. Chứng minh rằng $A < 1$.",
+      "hinh_tikz": None,
+      "cac_y": [],
+      "loi_giai": "Ta có nhận xét với mọi số nguyên dương $n \\ge 2$:\n\\[ \\dfrac{1}{n^2} < \\dfrac{1}{n(n-1)} = \\dfrac{1}{n-1} - \\dfrac{1}{n}. \\]\nÁp dụng với các số hạng của $A$:\n\\begin{align*}\nA &< \\left(1 - \\dfrac{1}{2}\\right) + \\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) + \\left(\\dfrac{1}{3} - \\dfrac{1}{4}\\right) + \\dots + \\left(\\dfrac{1}{99} - \\dfrac{1}{100}\\right) \\\\\n&= 1 - \\dfrac{1}{100} = \\dfrac{99}{100}. \\end{align*}\nVì $\\dfrac{99}{100} < 1$ nên $A < 1$."
+    }
+  ]
+}
+
+target_file = r'd:\GitHub\SOANBAI-main\LOP7\DETHIGHK1\DE_05\de_05.json'
+with open(target_file, 'w', encoding='utf-8') as f:
+    json.dump(de_05_data, f, ensure_ascii=False, indent=2)
+
+print('Generated de_05.json successfully!')

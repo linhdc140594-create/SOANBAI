@@ -1,0 +1,1380 @@
+
+=== PAGE 176 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 10 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số nào dưới đây là số thập phân vô hạn tuần hoàn 
+A. 1
+2  
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0,123123.  
+ 
+C. 
+( )
+0, 3 . 
+ 
+  
+ 
+ 
+ 
+ 
+D. 0,3. 
+Lời giải.  Số 0,(3) là số thập phân vô hạn tuần hoàn với chu kỳ 3 . Đáp án đúng: C. 
+Câu 2. : Điểm A trên trục số ở hình bên biểu diễn số hữu tỉ nào   
+ 
+A. 2
+3
+−. 
+ 
+ 
+B. 1
+3 .  
+ 
+ 
+C. 2
+3 .  
+ 
+ 
+D. 4
+3 . 
+Lời giải. Đoạn đơn vị từ 0 đến 1 được chia thành 3 phần bằng nhau. Điểm A nằm ở 
+vạch chia thứ 2 theo chiều dương nên biểu diễn số hữu tỉ 2
+3 . 
+Đáp án đúng: C. 
+Câu 3. Đọc tên các tia phân giác trong hình vẽ sau. 
+
+=== PAGE 177 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+A. 
+,
+AB BE là các tia phân giác. 
+B. 
+,
+AD BC là các tia phân giác. 
+C. 
+,
+AD BE là các tia phân giác. 
+D. 
+,
+AD AB là các tia phân giác. 
+Lời giải. Ký hiệu trên hình cho thấy tia AD chia góc BAC thành hai góc bằng nhau và tia 
+BE chia góc ABC thành hai góc bằng nhau. Do đó 
+,
+AD BE là các tia phân giác. 
+Đáp án đúng: C. 
+Câu 4. Hình nào dưới đây là lăng trụ đứng tam giác? 
+A. Hình có hai đáy là tam giác và ba mặt bên là hình chữ nhật. 
+B. Hình có hai đáy là tứ giác và bốn mặt bên là hình chữ nhật. 
+C. Hình có hai đáy là hình vuông và bốn mặt bên là hình vuông. 
+D. Hình có một đáy là tam giác, một đỉnh chung. 
+Lời giải. Theo định nghĩa, hình lăng trụ đứng tam giác có hai đáy là hình tam giác và ba 
+mặt bên là các hình chữ nhật. 
+Đáp án đúng: A. 
+Câu 5. Kết quả của phép tính 
+2
+2
+5
+
+
+−
+
+
+
+
+ là:  
+A. 
+4
+25
+−
+. 
+ 
+        B. 4
+25 . 
+ 
+C.  
+2
+5
+−
+. 
+ 
+        D. 4
+10 . 
+E
+D
+A
+B
+C
+
+=== PAGE 178 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Áp dụng quy tắc tính lũy thừa của một phân số: 
+2
+2
+2
+2
+( 2)
+4
+5
+5
+25
+−
+
+
+−
+=
+=
+
+
+
+
+. 
+Đáp án đúng: B. 
+Câu 6.  Số có thể viết dưới dạng số thập phân vô hạn tuần hoàn là 
+A. 3
+24 . 
+ 
+B. 6
+25
+−
+. 
+ 
+ 
+C. 2
+15 . 
+ 
+D. 5
+8
+−
+−. 
+Lời giải. Phân số tối giản 2
+15 có mẫu số 15
+3 5
+=  chứa thừa số nguyên tố 3 khác 2 và 5 . 
+Do đó phân số này viết được dưới dạng số thập phân vô hạn tuần hoàn. 
+Đáp án đúng: C. 
+Câu 7. Giá trị của x thỏa mãn 
+3
+x =
+ là: 
+A. 
+3.
+x =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+3.
+x = −
+ 
+ 
+ 
+ 
+C. 
+3
+x = hoặc 
+3
+x = −. 
+ 
+ 
+ 
+ 
+D. 
+9.
+x =
+ 
+Lời giải.  Giá trị tuyệt đối của một số bằng 3 khi số đó bằng 3 hoặc bằng 3
+−. 
+Đáp án đúng: C. 
+Câu 8. Cho hình sau, cần thêm điều kiện gì thì AB// DC ? 
+ 
+
+=== PAGE 179 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 
+BCD
+60 .
+=
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+BCD
+120 .
+=
+ 
+C. 
+BAD
+60 .
+=
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+xAB
+60 .
+=
+ 
+Lời giải. Hai đường thẳng AB và DC cắt đường thẳng Dx . Hai góc xAB và 
+ADC nằm ở 
+vị trí đồng vị. Để 
+/ /
+AB
+DC thì hai góc đồng vị phải bằng nhau, tức là 
+
+60
+xAB
+ADC
+
+=
+=
+. 
+Đáp án đúng: D. 
+Câu 9. Hãy so sánh hai số hữu tỉ – 0,2 và 2
+5
+−. 
+A. 
+2
+0,2
+5
+−
+−
+
+. 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+0,2
+5
+−
+−
+
+. 
+ 
+ 
+C. 
+2
+0,2
+5
+−
+−
+=
+. 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+0,2
+5
+−
+−
+
+.  
+Lời giải. Đổi 2
+0,4
+5
+−= −
+. Do 0,2
+0,4
+−
+−
+ nên 
+2
+0,2
+5
+−
+−
+
+. Đáp án đúng: B. 
+Câu 10. Căn bậc hai số học của 49 là 
+A. 7.
+−
+ 
+ 
+                 B. 7. 
+ 
+C. 7
+− và 7. 
+ 
+                 D. 49.
+−
+ 
+Lời giải. Căn bậc hai số học của 49 là số không âm x thỏa mãn 
+2
+49
+x =
+. Do 7
+0
+ và 
+2
+7
+49
+=
+ nên 
+49
+7
+=
+. 
+Đáp án đúng: B. 
+Câu 11. Qua một điểm M nằm ngoài đường thẳng a, kẻ được bao nhiêu đường thẳng song 
+song với đường thẳng a ? 
+A. Có vô số đường thẳng.  
+ 
+ 
+B. Không có đường thẳng nào.              C. 
+Có hai đường thẳng.                            
+  
+D. Chỉ có một đường thẳng.      
+
+=== PAGE 180 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Theo tiên đề Euclid, qua một điểm nằm ngoài một đường thẳng chỉ có một 
+đường thẳng song song với đường thẳng đó. 
+Đáp án đúng: D. 
+Câu 12. Kết quả của phép tính  
+3
+2
+20
+15
+−
+−
++
+  là:  
+A. 1
+35
+−.                   B. 17
+60
+−
+,                      C. 5
+35
+−.                         D. 1
+60
+−’ 
+Lời giải. Quy đồng mẫu số chung 60 : 3
+2
+9
+8
+17
+20
+15
+60
+60
+60
+−
+−
+−
+−
+−
++
+=
++
+=
+. 
+Đáp án đúng: B. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+1
+3
+2
+5
+2
+4
+3
+8
+A
+
+
+
+
+= −
++
+−
++ −
+
+
+
+
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+3
+1
+2
+
+
+−
+
+
+
+
+ bằng 
+1
+8
+−
+. 
+b) Giá trị của phép tính 3
+2
+4
+3
+
+
+−
+
+
+
+
+ bằng 
+1
+2
+−
+. 
+c) Giá trị tuyệt đối 
+5
+8
+−
+ bằng 
+5
+8
+−
+. 
+d) Giá trị của biểu thức A bằng 0 . 
+Lời giải. 
+a) Đúng. Ta có 
+3
+1
+1
+1
+1
+1
+2
+2
+2
+2
+8
+
+
+
+
+
+
+−
+= −
+−
+−
+= −
+
+
+
+
+
+
+
+
+
+
+
+
+. 
+b) Đúng. Thực hiện phép nhân hai số hữu tỉ:  
+
+=== PAGE 181 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+3
+2
+3 ( 2)
+2
+1
+4
+3
+4 3
+4
+2
+−
+
+
+−
+=
+= −
+= −
+
+
+
+
+
+ 
+c) Sai. Giá trị tuyệt đối của một số luôn không âm, do đó 
+5
+5
+8
+8
+−
+=
+. 
+d) Đúng. Thay các giá trị vừa tính vào biểu thức A ta được: 
+1
+1
+5
+1
+4
+5
+1 4
+5
+0
+8
+2
+8
+8
+8
+8
+8
+A
+−−
++
+
+
+= −
++ −
++
+= −
+−
++
+=
+=
+
+
+
+
+ 
+Câu 2. Quan sát hình vẽ, hai đường thẳng xxvà yy cắt nhau tại điểm O . Biết số đo góc 
+
+45
+xOy
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Góc xOy và góc 
+x Oy
+
+ là hai góc đối đỉnh. 
+b) Số đo của góc 
+x Oy
+
+ bằng 45. 
+c) Góc xOy kề bù với góc xOy và có số đo bằng 135. 
+d) Tổng số đo của hai góc đối đỉnh xOy và 
+x Oy
+
+ bằng 180. 
+ 
+a) Đúng. Tia Ox là tia đối của tia Ox và tia Oy là tia đối của tia Oy , do đó hai góc xOy 
+và 
+x Oy
+
+ nằm đối diện nhau qua đỉnh O nên là hai góc đối đỉnh. 
+b) Đúng. Hai góc đối đỉnh thì bằng nhau, suy ra 
+
+45
+x Oy
+xOy
+
+
+=
+=
+. 
+
+=== PAGE 182 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Đúng. Hai góc xOy và xOy có chung cạnh Ox và hai cạnh 
+,
+Oy Oy là hai tia đối nhau 
+nên là hai góc kề bù. Số đo góc 
+
+180
+180
+45
+135
+xOy
+xOy
+
+
+
+
+=
+−
+=
+−
+=
+. 
+d) Sai. Tổng số đo của hai góc đối đỉnh này là: 
+
+
+45
+45
+90
+xOy
+x Oy
+
+
+
+
+
++
+=
++
+=
+ 
+Do đó khẳng định tổng bằng 180 là sai. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số hữu tỉ x , biết: 
+2
+3
+1
+4
+16
+x
+
+
+−
+=
+
+
+
+
+. 
+Lời giải. 
+Vì 
+2
+1
+1
+4
+16
+
+=
+
+
+
+
+ và 
+2
+1
+1
+4
+16
+
+
+−
+=
+
+
+
+
+ nên có 2 trường hợp: 
+• Trường hợp 1: 
+3
+1
+4
+4
+x −
+=
+ 
+1
+3
+1
+4
+4
+x =
++
+= 
+• Trường hợp 2: 
+3
+1
+4
+4
+x −
+= −
+ 
+1
+3
+2
+1
+4
+4
+4
+2
+x = −
++
+=
+=
+ 
+Đáp án: 
+1
+x = hoặc 
+1
+2
+x =
+. 
+Câu 2. Cho góc 
+140
+mOn
+
+=
+, Ot là tia phân giác của 
+mOn . Tính số đo góc kề bù với góc 
+.
+mOt 
+Lời giải: Vì Ot là tia phân giác của góc 
+mOn nên: 
+
+140
+70
+2
+2
+mOn
+mOt
+
+
+=
+=
+=
+. 
+
+=== PAGE 183 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Góc kề bù với góc mOt có số đo là:$180
+70
+110
+
+
+
+−
+=
+$Đáp án: 110. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 5
+7
+3
+:
+12
+24
+8
+
+
++ −
+
+
+
+
+; 
+b) 4 3
+4
+25
+.
+:
+1
+5 7
+7
+16
+−
+−
+−−. 
+Lời giải. 
+a) 5
+7
+3
+:
+12
+24
+8
+
+
++ −
+
+
+
+
+ 
+5
+7
+8
+12
+24
+3
+
+
+=
++ −
+
+
+
+
+
+ 
+5
+7
+12
+9
+
+
+=
++ −
+
+
+
+
+ 
+15
+28
+13
+36
+36
+36
+=
+−
+= −
+. 
+b) 4 3
+4
+25
+:
+| 1|
+5 7
+7
+16
+−
+
+−
+−−
+ 
+12
+4 5
+:
+1
+35
+7
+4
+−
+=
+−
+− 
+12
+4 4
+1
+35
+7
+5
+−
+
+
+=
+−
+
+−
+
+
+
+
+ 
+12
+16
+1
+35
+35
+
+
+=
+−−
+−
+
+
+
+
+ 
+12
+16
+1
+35
+35
+=
++
+− 
+28
+4
+1
+1
+1
+35
+5
+5
+=
+−=
+−= − 
+
+=== PAGE 184 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2.   Tìm x biết: 
+a) 
+1
+5
+2
+;
+3
+3
+x −
+=
+                             
+ 
+ 
+b) 
+2
+(2x
+3)
+25.
++
+=
+ 
+Lời giải. 
+a) 
+1
+5
+2
+3
+3
+x −
+=
+ 
+5
+1
+2
+3
+3
+x =
++
+ 
+6
+2
+3
+x =
+ 
+2
+2
+x =
+ 
+2: 2
+x =
+ 
+1
+x = 
+Vậy 
+1
+x = . 
+b) 
+2
+(2
+3)
+25
+x +
+=
+ 
+Vì 
+2
+5
+25
+=
+ và 
+2
+( 5)
+25
+−
+=
+, nên ta có hai trường hợp: 
+• Trường hợp 1: 2
+3
+5
+x +
+= 
+2
+5
+3
+x =
+− 
+2
+2
+x =
+ 
+1
+x = 
+• Trường hợp 2: 2
+3
+5
+x +
+= − 
+2
+5
+3
+x = −− 
+2
+8
+x = − 
+8:2
+x = −
+ 
+
+=== PAGE 185 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+4
+x = − 
+Vậy 
+1
+x = hoặc 
+4
+x = −. 
+Câu 3. Một hồ bơi dạng hình hộp chữ nhật có kích thước là chiều dài 12 m, chiều rộng 5 m 
+và chiều sâu 3 m. 
+a) Tính thể tích nước khi bể bơi đầy nước. 
+b) Người ta cần lát gạch bên trong lòng hồ (mặt đáy và bốn mặt xung quanh). Biết gạch 
+hình vuông có cạnh 50 cm. Hỏi cần mua ít nhất bao nhiêu viên gạch để lát bên trong lòng 
+hồ bơi? (Coi diện tích mạch vữa lát không đáng kể). 
+Lời giải. 
+a) Thể tích nước khi bể bơi đầy nước:  
+3
+12 5 3
+180 (m )
+V =
+=
+ 
+b) Số viên gạch ít nhất cần mua để lát lòng hồ: Diện tích xung quanh bên trong lòng hồ là: 
+2
+2 (12
+5) 3
+102 (m )
+xq
+S
+=
+
++
+=
+ 
+Diện tích đáy hồ là: 
+2
+12 5
+60 (m )
+d
+S =
+=
+ 
+Tổng diện tích cần lát gạch là: 
+2
+102
+60
+162 (m )
+xq
+d
+S
+S
+S
+=
++
+=
++
+=
+ 
+Đổi kích thước cạnh viên gạch: 50 cm
+0,5 m
+=
+. 
+Diện tích của một viên gạch là: 
+2
+0,5 0,5
+0,25 (m )
+gach
+S
+=
+
+=
+. 
+Số viên gạch ít nhất cần dùng là: 162:0,25
+648 (viên)
+=
+. 
+Câu 4. Cho 
+2
+2
+4
+6
+100
+1
+1
+1
+1
+1
+2
+3
+3
+3
+3
+A =
++
++
++
+++
+. Chứng minh rằng 
+3
+8
+A 
+. 
+Lời giải. Ta tách biểu thức 
+1
+4
+A
+B
+=
++
+, trong đó: 
+2
+4
+6
+100
+1
+1
+1
+1
+3
+3
+3
+3
+B =
++
++
+++
+. 
+
+=== PAGE 186 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Nhân cả hai vế của B với 
+2
+3
+9
+= : 
+2
+4
+6
+100
+1
+1
+1
+1
+9
+9
+3
+3
+3
+3
+B
+
+
+
+= 
++
++
+++
+
+
+
+
+ 
+2
+4
+98
+1
+1
+1
+9
+1
+3
+3
+3
+B
+
+= +
++
+++
+ 
+Trừ từng vế 9 B
+
+ cho B : 
+2
+4
+98
+2
+4
+6
+100
+1
+1
+1
+1
+1
+1
+1
+9
+1
+3
+3
+3
+3
+3
+3
+3
+B
+B
+
+
+
+
+
+−
+=
++
++
+++
+−
++
++
+++
+
+
+
+
+
+
+
+
+ 
+100
+1
+8
+1
+3
+B
+
+= −
+ 
+Vì 
+100
+1
+0
+3
+
+ nên 
+100
+1
+1
+1
+3
+−
+. 
+Do đó: 8
+1
+B
+
+ hay 
+1
+8
+B 
+ 
+Thay 
+1
+8
+B 
+ vào biểu thức A : 
+1
+1
+1
+4
+4
+8
+A
+B
+=
++
+
++
+ 
+2
+1
+3
+8
+8
+8
+A 
++
+=
+ 
+Vậy 
+3
+8
+A 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1337 @@
+
+=== PAGE 209 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 13 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Kết quả của biểu thức 
+3
+1
+8
+4
+7
+4
+7
+1
+3
+−−
+−
+−
++
+ là: 
+A. 37
+7
+−
+.  
+ 
+B. 3
+−. 
+ 
+C. 25
+28
+−
+.  
+ 
+D. 4.
+−
+ 
+Lời giải. Nhóm các số hạng có cùng mẫu số: 
+3
+1
+8
+1
+7
+3
+3 1
+3 1 1
+3
+4
+4
+7
+7
+7
+
+
+
+
+−−
++
++
+−
+= −−+
+= −−+ = −
+
+
+
+
+
+
+
+
+. 
+Đáp án đúng: B. 
+Câu 2. Kết quả phép tính 
+3
+2
+3
+−
+
+
+
+
+
+
+  là : 
+A. 6.
+9
+−
+ 
+ 
+B. 8 .
+27 
+ 
+C. 8.
+27
+−
+ 
+ 
+D. 6.
+9 
+Lời giải. 
+3
+3
+3
+2
+( 2)
+8
+3
+3
+27
+−
+−
+−
+
+=
+=
+
+
+
+
+. Đáp án đúng: C. 
+Câu 3. Một hồ bơi có dạng hình hộp chữ nhật có các kích thước lần lượt là 15m; 10 m; 
+1,8m. Thể tích hồ bơi là 
+A. 
+3
+270
+.
+m 
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+180
+.
+m 
+
+
+=== PAGE 210 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. 
+3
+240
+.
+m 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+90
+.
+m 
+ 
+ 
+ 
+Lời giải. Áp dụng công thức thể tích V
+a b c
+=
+: 
+3
+15 10 1,8
+270 m
+V =
+
+
+=
+. 
+Đáp án đúng: A. 
+Câu 4. Cho biểu thức 
+1
+12
+5
+
+
+−
+−
+
+
+
+
+ khi bỏ dấu ngoặc ta được 
+A. 
+1
+12
+5
+−
+    
+ 
+B.  
+1
+12
+5
+−
+−
+  
+ 
+C. 
+1
+12
+5
++
+      
+ 
+D.  
+1
+12
+5
+−
++
+ 
+Lời giải. Bỏ dấu ngoặc có dấu “−” phía trước, ta đổi dấu các số hạng bên trong ngoặc: 
+1
+1
+12
+12
+5
+5
+
+
+−
+−
+= −
++
+
+
+
+
+ 
+Đáp án đúng: D. 
+Câu 5. Quan sát trục số sau, điểm A biểu diễn số hữu tỉ nào?      
+ 
+A. 1,3. 
+ 
+         B. 4. 
+  
+C. 4
+3 . 
+ 
+         D. 4
+5 . 
+Lời giải. Đoạn đơn vị từ 0 đến 1 được chia thành 3 phần bằng nhau, mỗi phần ứng với 1.
+3
+Điểm A nằm sau điểm 1 một vạch chia: 
+1
+4
+1
+3
+3
++
+=
+. 
+Đáp án đúng: C. 
+ 
+ 
+
+
+=== PAGE 211 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 6. Cho hình vẽ dưới đây, góc xOy đối đỉnh với góc nào? 
+ 
+A. Góc ’
+’.
+x Oy 
+ 
+ 
+ 
+ 
+ 
+B. Góc 
+’.
+xOy 
+C. Góc ’
+.
+x Oy  
+ 
+ 
+ 
+ 
+ 
+D. Góc 
+.
+xOy 
+Lời giải. Hai đường thẳng xx và yy cắt nhau tại O . Tia đối của Ox là Ox, tia đối của 
+Oy là Oy. Do đó, góc đối đỉnh với xOy là 
+x Oy
+
+. 
+Đáp án đúng: A. 
+Câu 7. Qua một điểm M nằm ngoài đường thẳng a, kẻ được bao nhiêu đường thẳng song 
+song với đường thẳng a ? 
+A. Có vô số đường thẳng.  
+ 
+ 
+ 
+B. Không có đường thẳng nào.                    
+C. Có hai đường thẳng.                                            
+D. Chỉ có một đường thẳng.      
+Lời giải. Theo tiên đề Euclid, qua một điểm ở ngoài một đường thẳng chỉ có một đường 
+thẳng song song với đường thẳng đó. 
+Đáp án đúng: D. 
+Câu 8. Cho 
+.
+ABC
+DEF
+
+= 
+ Biết 
+0
+33
+A =
+. Khi đó: 
+A. 
+0
+33 .
+D =
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+0
+33 .
+B =
+  
+ 
+ 
+C. 
+0
+33 .
+E =
+  
+ 
+ 
+ 
+ 
+ 
+D. 
+0
+33 .
+F =
+ 
+Lời giải.  Do ABC
+DEF
+
+= 
+ nên các góc tương ứng bằng nhau, suy ra 
+ˆ
+ˆ
+33
+D
+A
+
+=
+=
+. 
+
+
+=== PAGE 212 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: A. 
+Câu 9.  Giá trị của 
+3
+−
+ bằng 
+A. 
+3.
+−
+ 
+ 
+                 B. 
+3 . 
+ 
+ 
+C. 1
+3
+. 
+ 
+                 D. 
+1 .
+3
+−
+ 
+Lời giải. Giá trị tuyệt đối của số âm bằng số đối của nó: |
+5 |
+5
+−
+=
+. Đáp án đúng: B. 
+Câu 10. Làm tròn số 1,3781 với độ chính xác 0,005 được kết quả là: 
+A. 1,37 .                     
+B. 1,4 .                            
+ C. 1.  
+ 
+     D. 1,38. 
+Lời giải. Độ chính xác 0,005 yêu cầu làm tròn số đến hàng phần trăm. Chữ số hàng phần 
+trăm là 7 , chữ số ngay sau nó là 8
+5
+ nên tăng 7 thêm 1 đơn vị thành 8 . Kết quả là 1,38. 
+Đáp án đúng: D. 
+Câu 11. Số đỉnh của hình hộp chữ nhật là: 
+A. 6.                        
+B. 8.                      
+ 
+C. 10.                          D. 12. 
+Lời giải. Hình hộp chữ nhật gồm 4 đỉnh ở mặt trên và 4 đỉnh ở mặt dưới, tổng cộng có 8 
+đỉnh. Đáp án đúng: B. 
+Câu 12. Cho hình vẽ sau, biết //
+a b, 
+45
+A =
+. Số đo của 
+1
+B bằng bao nhiêu? 
+ 
+A. 145 . 
+ 
+ 
+B. 45. 
+ 
+ 
+C. 35. 
+ 
+     D. 135. 
+Lời giải. Góc ˆ
+45
+A
+
+=
+ và góc 
+1ˆB nằm ở vị trí hai góc trong cùng phía (hoặc kề bù với góc 
+đồng vị 45). Vì 
+/ /
+a
+b nên 
+1ˆ
+180
+45
+135
+B
+
+
+
+=
+−
+=
+. Đáp án đúng: D. 
+
+
+=== PAGE 213 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho biểu thức 
+2
+1
+3
+3
+1
+9
+:
+3
+5
+5
+2
+Q
+−
+
+
+= −
++
+−
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+1
+3
+
+
+−
+
+
+
+
+ bằng 1
+9 . 
+b) Giá trị tuyệt đối 
+3
+5
+− bằng 
+3
+5
+−
+. 
+c) Kết quả của phép tính 
+3
+3
+:
+5
+5
+−
+ bằng 1. 
+d) Giá trị của biểu thức Q bằng 3
+2 . 
+Lời giải. 
+a) Đúng. Ta có 
+2
+1
+1
+1
+1
+3
+3
+3
+9
+
+
+
+
+
+−
+= −
+−
+=
+
+
+
+
+
+
+
+
+
+
+. 
+b) Sai. Giá trị tuyệt đối của một số luôn là một số không âm, do đó 
+3
+3
+5
+5
+−
+=
+. 
+c) Đúng. Thực hiện phép chia: 3 3
+:
+1
+5 5 = . 
+d) Đúng. Thay các kết quả vào biểu thức Q :  
+1
+1
+1
+1
+3
+9 1
+1 1
+2
+9
+2
+2
+2
+2
+Q =
++ −
+= + −
+=
+−
+=
+ 
+Câu 2.   Quan sát hình vẽ, biết MN
+yy
+⊥
+ tại M và MN
+zz
+⊥
+ tại N ; đường thẳng xx cắt 
+yy tại A và cắt zz tại B sao cho góc 
+60
+xAy
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+
+
+=== PAGE 214 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Hai đường thẳng yy và zz song song với nhau. 
+b) Số đo của góc yAB bằng 60. 
+c) Số đo của góc ABz bằng 120. 
+d) Hai góc y AB
+
+ và ABz là hai góc so le trong và đều có số đo bằng 120. 
+ 
+Lời giải. 
+a) Đúng. Hai đường thẳng phân biệt yy và zz cùng vuông góc với đường thẳng MN nên 
+chúng song song với nhau.  
+b) Đúng. Tại đỉnh A , hai góc yAB và xAy là hai góc đối đỉnh, do đó 
+
+60
+yAB
+xAy
+
+
+=
+=
+. 
+c) Sai. Vì yy
+zz
+
+
+
+ nên hai góc ở vị trí đồng vị ABz và xAy bằng nhau, suy ra 
+
+
+60
+ABz
+xAy
+
+
+
+=
+=
+. Do đó khẳng định 
+120
+ABz
+
+=
+ là sai. 
+d) Đúng. Ta có góc y AB
+
+ và góc xAy là hai góc kề bù, khi đó ta có: 
+
+
+180
+180
+60
+120
+y AB
+xAy
+
+
+
+
+
+
+=
+−
+=
+−
+=
+ 
+Do yy
+zz
+
+
+
+ nên hai góc so le trong y AB
+
+ và ABz bằng nhau, suy ra 
+
+120
+ABz
+y AB
+
+
+=
+=
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho 
+0
+70
+xOy =
+,  Ot là tia phân giác của xOy . Số đo xOt bằng bao nhiêu? 
+
+
+=== PAGE 215 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Lời giải. 
+Vì Ot là tia phân giác của góc xOy nên 
+
+2
+xOy
+xOt =
+. 
+
+70
+35
+2
+xOt
+
+
+=
+=
+, 
+Đáp án: 35. 
+Câu 2.  Tìm số hữu tỉ x , biết: 
+1
+1
+1
+2
+3
+2
+6
+x −
+−
+=
+. 
+Lời giải. 
+Ta co 
+1
+1
+1
+2
+3
+6
+2
+x −
+=
++
+ 
+1
+2
+2
+3
+3
+x −
+=
+ 
+Xét 2 trường hợp: 
+Trường hợp 1: 
+1
+2
+2
+3
+3
+x −
+=
+ 
+2
+1
+2
+1
+3
+3
+x =
++
+= 
+1
+2
+x =
+ 
+Trường hợp 2: 
+1
+2
+2
+3
+3
+x −
+= −
+ 
+2
+1
+1
+2
+3
+3
+3
+x = −
++
+= −
+ 
+
+
+=== PAGE 216 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+1
+6
+x = −
+ 
+Đáp án: 
+1
+2
+x =
+ hoặc 
+1
+6
+x = −
+. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính hợp lý nếu có): 
+a) 5
+2
+5
+5
+13
+7
+13
+7
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+
+
+; 
+ 
+b) 
+2
+1
+4
+25
+2
+2
+3
+9
+3
+
+
+−
+
+−
++ −
+
+
+
+
+. 
+Lời giải.  
+a) 5
+2
+5
+5
+13
+7
+13
+7
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+
+
+    
+5
+2
+5
+13
+7
+7
+−
+
+
+=
+−
++
+
+
+
+
+ 
+5
+7
+13
+7
+−
+
+
+=
+
+
+
+
+ 
+5
+5
+( 1)
+13
+13
+=
+−
+= −
+. 
+b) 
+2
+1
+4
+25
+2
+2
+3
+9
+3
+
+
+−
+
+−
++ −
+
+
+
+
+ 
+1 4
+5
+2
+4 3
+3
+3
+=
+
+−
++
+ 
+1
+5
+2
+3
+3
+3
+=
+−
++
+ 
+1 5
+2
+2
+3
+3
+−+
+−
+=
+=
+. 
+Câu 2 (1,5 điểm). Tìm x , biết: 
+
+
+=== PAGE 217 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 3
+1
+4
+5
+x
+−
+=
+; 
+ 
+b) 
+2
+(2
+1)
+9
+x −
+= . 
+ 
+Lời giải.  
+a) 3
+1
+4
+5
+x
+−
+=
+    
+3
+1
+4
+5
+x =
+−
+ 
+15
+4
+20
+20
+x =
+−
+ 
+11
+20
+x =
+ 
+Vậy 
+11
+20
+x =
+. 
+b) 
+2
+(2
+1)
+9
+x −
+=    
+Vì 
+23
+9
+= và 
+2
+( 3)
+9
+−
+=
+, ta xét hai trường hợp: 
+• Trường hợp 1: 2
+1
+3
+x −= 
+2
+3 1
+x =
++ 
+2
+4
+x =
+ 
+2
+x =
+ 
+• Trường hợp 2: 2
+1
+3
+x −= − 
+2
+3 1
+x = −+ 
+2
+2
+x = − 
+1
+x = − 
+Vậy 
+2
+x =
+ hoặc 
+1
+x = −. 
+
+
+=== PAGE 218 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+ 
+Câu 3. Cho hình vẽ, biết 
+0
+80 .
+ABI =
+ 
+ 
+ 
+a) Chứng minh:  
+/ /
+m
+n 
+b) Tính 
+cAH và mAc  
+c) Vẽ tia AE là tia phân giác của 
+cAH , tia BF là tia phân giác của ABI . Chứng minh rằng 
+/ / 
+AE
+BF . 
+Lời giải.  
+a) Chứng minh 
+/ /
+m
+n :   Ta có: d
+m
+⊥
+ tại H và d
+n
+⊥
+ tại I . Suy ra 
+/ /
+m
+n . 
+b) Tính 
+cAH và mAc :   Vì 
+/ /
+m
+n , nên góc 
+cAH và góc ABI là hai góc ở vị trí đồng vị. 
+Do đó: 
+
+80
+cAH
+ABI
+
+=
+=
+.  
+Mặt khác, mAc và 
+cAH là hai góc kề bù nên ta có: 
+
+
+180
+mAc
+cAH
+
++
+=
+ 
+
+80
+180
+mAc
+
+
++
+=
+ 
+
+180
+80
+100
+mAc
+
+
+
+=
+−
+=
+. 
+c) Chứng minh 
+/ /
+AE
+BF :    
+
+
+=== PAGE 219 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Vì AE là tia phân giác của 
+cAH nên 
+
+80
+40
+2
+2
+cAH
+cAE
+
+
+=
+=
+=
+. 
+Vì BF là tia phân giác của ABI nên 
+
+80
+40
+2
+2
+ABI
+ABF
+
+
+=
+=
+=
+. 
+Ta thấy 
+
+40
+cAE
+ABF
+
+=
+=
+.Mà hai góc này nằm ở vị trí đồng vị. Suy ra 
+/ /
+.
+AE
+BF 
+Câu 4. Một cửa hàng nhập về 100 xe hơi đồ chơi với giá gốc mỗi cái 300 000 đồng. Cửa 
+hàng đã bán 65 xe với giá mỗi cái lãi 30% so với giá gốc; 35 cái xe còn lại bán lỗ 7% so 
+với giá gốc. Hỏi sau khi bán hết 100 xe hơi đồ chơi cửa hàng đó lãi hay lỗ bao nhiêu tiền? 
+Lời giải.  
+Tổng số tiền vốn cửa hàng bỏ ra để nhập 100 chiếc xe là:  
+100 300000
+30000000
+
+=
+ đồng. 
+Giá bán của mỗi chiếc xe trong 65 chiếc đầu tiên là:   
+300000 (100%
+30%)
+300000 1,3
+390000
+
++
+=
+
+=
+ đồng. 
+Số tiền thu được khi bán 65 chiếc xe này là: 
+ 
+65 390000
+25350000
+
+=
+ đồng. 
+Giá bán của mỗi chiếc xe trong 35 chiếc còn lại (lỗ 7%) là:    
+ 
+300000 (100%
+7%)
+300000 0,93
+279000
+
+−
+=
+
+=
+ đồng. 
+Số tiền thu được khi bán 35 chiếc xe này là: 
+35 279000
+9765000
+
+=
+ đồng. 
+Tổng số tiền cửa hàng thu về sau khi bán hết 100 chiếc xe là: 
+25350000
+9765000
+35115000
++
+=
+ đồng. 
+Vì 35115000
+30000000
+
+ nên cửa hàng kinh doanh có lãi. Số tiền lãi cửa hàng nhận được 
+là: 35115000
+30000000
+5115000
+−
+=
+ đồng. 
+
+
+=== PAGE 220 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Vậy sau khi bán hết 100 xe hơi đồ chơi, cửa hàng đó lãi 5115000 đồng. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

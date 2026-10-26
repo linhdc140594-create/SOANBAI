@@ -1,0 +1,1377 @@
+
+--- SOL PAGE 87 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số nào sau đây là số hữu tỉ? 
+A. 
+5 .  
+B. 
+2 . 
+       C. 
+3 . 
+          D. 
+4 . 
+Lời giải. Số hữu tỉ là số viết được dưới dạng phân số a
+b (với ,
+,
+0
+a b
+b
+
+
+
+). 
+Các số 
+5, 2, 3 là số vô tỉ. 
+Ta có 
+2
+4
+2
+1
+=
+=
+ nên 
+4 là số hữu tỉ. 
+Đáp án đúng: D. 
+Câu 2. Số đối cùa 
+2
+3
+−   là: 
+A. 2.
+3                            
+     B. 3.
+2                         
+     C. 
+3.
+2
+−
+                       D. 2 .
+3
+−
+  
+Lời giải. Số đối của số hữu tỉ x là x
+−. Do đó, số đối của 2
+3
+− là 
+2
+2
+3
+3
+−
+
+
+−
+=
+
+
+
+
+. 
+Đáp án đúng: A. 
+Câu 3. Giá trị của 
+3
+−
+ bằng 
+A. 
+3.
+−
+ 
+             B. 
+3 . 
+                       C. 1
+3
+. 
+                   D. 
+1 .
+3
+−
+ 
+Lời giải. Giá trị tuyệt đối của một số âm là số đối của nó. Vì 
+3
+0
+−
+ nên 
+|
+3 |
+(
+3)
+3
+−
+= −−
+=
+. Đáp án đúng: B. 
+
+--- SOL PAGE 88 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 4. Qua một điểm M nằm ngoài đường thẳng a, kẻ được bao nhiêu đường thẳng song 
+song với đường thẳng a ? 
+A. Có vô số đường thẳng.  
+ 
+ 
+B. Không có đường thẳng nào.                    
+C. Có hai đường thẳng.                                        D. Chỉ có một đường thẳng.      
+Lời giải. Theo tiên đề Euclid về đường thẳng song song: Qua một điểm ở ngoài một 
+đường thẳng, chỉ có một đường thẳng song song với đường thẳng đó. 
+Đáp án đúng: D. 
+Câu 5. Nếu hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba, thì: 
+A. Chúng cắt nhau.                                                 
+B. Chúng trùng nhau. 
+C. Chúng cũng song song với nhau.                       
+D. Chúng vuông góc với nhau. 
+Lời giải. Hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì 
+chúng song song với nhau. 
+Đáp án đúng: C. 
+Câu 6. Trong các số sau, số nào là số hữu tỉ âm? 
+A. 0
+2
+−. 
+ 
+ 
+B. 2
+1
+−
+−. 
+ 
+ 
+C. 
+1
+2
+−
+. 
+ 
+      D. (
+)
+2 .
+3
+−−
+ 
+Lời giải.  
+0
+0
+2 =
+−
+ (không phải số hữu tỉ âm hay dương). 
+2
+2
+0
+1
+−=
+
+−
+ (số hữu tỉ dương). 
+1
+0
+2
+−
+ (số hữu tỉ âm). 
+( 2)
+2
+0
+3
+3
+−−
+=
+ (số hữu tỉ dương). 
+Đáp án đúng: C. 
+
+--- SOL PAGE 89 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Khối Rubik 4
+4
+ có hình dạng là hình lập phương có cạnh 6 cm . Thể tích của khối 
+Rubik là: 
+A. 
+2
+216 cm .  
+ 
+B. 
+3
+144 cm .  
+ 
+C. 
+2
+144 cm .  
+   D. 
+3
+216 cm . 
+Lời giải. Thể tích hình lập phương có cạnh a được tính bằng công thức: 
+3
+V
+a
+=
+. 
+Thay 
+6 cm
+a =
+ ta được: 
+3
+3
+6
+216 (cm )
+V =
+=
+. 
+Đáp án đúng: D. 
+Câu 8. Các mặt của hình lập phương là: 
+A. Hình vuông.  
+ 
+ 
+ 
+ 
+ 
+B. Tam giác đều. 
+C. Hình chữ nhật.   
+ 
+ 
+ 
+ 
+D. Hình thoi. 
+Lời giải. Hình lập phương có tất cả 6 mặt đều là các hình vuông bằng nhau. 
+Đáp án đúng: A. 
+Câu 9.  Điền cụm từ thích hợp vào chỗ trống để được khẳng định đúng:“Qua một điểm ở 
+ngoài một đường thẳng, …. đường thẳng song song với đường thẳng đó”. 
+A. Chỉ có một.              
+ 
+ 
+ 
+ 
+B. Có vô số.             
+ 
+C. Có hai.                   
+ 
+ 
+ 
+ 
+D. Không có. 
+Lời giải. Theo tiên đề Euclid, phát biểu đầy đủ là: "Qua một điểm ở ngoài một đường 
+thẳng, chỉ có một đường thẳng song song với đường thẳng đó". 
+Đáp án đúng: A. 
+Câu 10. Cho các số sau: 5
+2
+2 0 3
+8
+;3 ;
+; ; ;
+;0,625.
+4
+5
+7
+3 0
+8
+−
+−
+−
+ Hãy cho biết số nào không phải là số 
+hữu tỉ?          
+A. 3
+0 .  
+ 
+ 
+B. 0,625. 
+ 
+ 
+C. 
+2
+7
+−. 
+ 
+       D. 
+2
+3 5 . 
+
+--- SOL PAGE 90 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Số hữu tỉ có dạng a
+b với ,a b và mẫu số 
+0
+b 
+.  Ta thấy số 3
+0 có mẫu số bằng 
+0 nên không xác định, do đó không phải là số hữu tỉ. 
+Đáp án đúng: A. 
+Câu 11. Cho biểu thức 
+1
+1
+1
+1
+1
+2
+3 .
+2
+3
+2
+3
+
+
+
+
+
+
+−
++
++
+−
+−
++
+
+
+
+
+
+
+
+
+
+
+
+
+ Khi bỏ dấu ngoặc, ta được biểu thức 
+nào sau đây: 
+A. 
+1
+1
+1
+1
+1
+2
+3.
+2
+3
+2
+3
+−
++
++
+−
+−
++
+ 
+       B. 
+1
+1
+1
+1
+1
+2
+3.
+2
+3
+2
+3
+−
++
++
+−
++
+−
+ 
+ 
+C. 
+1
+1
+1
+1
+1
+2
+3.
+2
+3
+2
+3
+−
++
++
++
+−
+−
+ 
+       D. 
+1
+1
+1
+1
+1
+2
+3.
+2
+3
+2
+3
+−
++
++
+−
+−
+−
+ 
+Lời giải. Khi bỏ dấu ngoặc có dấu + đằng trước, giữ nguyên dấu các số hạng trong 
+ngoặc.Khi bỏ dấu ngoặc có dấu − đằng trước, đổi dấu tất cả các số hạng trong ngoặc. 
+Do đó: 
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+3
+1
+2
+3
+2
+3
+2
+3
+2
+3
+2
+3
+
+
+
+
+
+
+−
++
++
+−
+−
++
+= −
++
++
+−
+−
+−
+
+
+
+
+
+
+
+
+
+
+
+
+. 
+Đáp án đúng: D. 
+Câu 12.  Số đối của 1
+3
+− là: 
+A. 1
+3 .                           
+B.
+3.                         
+C. 1
+3
+−.                       D. 
+1
+3
+−
+−. 
+Lời giải. Số đối của 1
+3
+− là 
+1
+1
+3
+3
+−
+
+
+−
+=
+
+
+
+
+. Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Quan sát hình vẽ, hai đường thẳng a và b cắt nhau tại điểm O tạo thành bốn góc 
+
+1
+O , 
+2
+O , 
+3
+O , 
+4
+O . Xét tính đúng sai của các mệnh đề sau: 
+
+--- SOL PAGE 91 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+a) Góc 
+1
+O và góc 
+3
+O là hai góc đối đỉnh. 
+b) Góc 
+2
+O và góc 
+4
+O là hai góc kề bù. 
+c) Tổng số đo của góc 
+1
+O và góc 
+2
+O bằng 180. 
+d) Nếu số đo góc 
+1
+O bằng 50 thì số đo góc 
+2
+O bằng 130. 
+Lời giải. 
+a) Đúng. Hai góc 
+1
+O và góc 
+3
+O nằm ở vị trí đối đỉnh do hai đường thẳng a và b cắt nhau 
+tạo thành. 
+b) Sai. Hai góc 
+2
+O và góc 
+4
+O nằm đối diện nhau qua đỉnh O nên đây là hai góc đối đỉnh, 
+không phải là hai góc kề bù. 
+c) Đúng. Góc 
+1
+O và góc 
+2
+O là hai góc kề bù nên tổng số đo của chúng bằng 180. 
+d) Đúng. Do góc 
+1
+O và góc 
+2
+O kề bù nên số đo góc 
+2
+O bằng 180
+50
+130
+
+
+
+−
+=
+. 
+Câu 2.  Hai bạn Việt và Nam mỗi người mang 30000 đồng đi đến cửa hàng mua một cuốn 
+truyện. Cuốn truyện Conan của Việt mua đang có giá niêm yết là 20,8 nghìn đồng và đang 
+được giảm giá 5%. Cuốn truyện Doraemon của Nam mua đang có giá 21,2 nghìn đồng và 
+đang được giảm giá 6% . Do đó, Việt và Nam định góp số tiền thừa mua thêm cuốn truyện 
+nữa. Xét tính đúng sai của các mệnh đề sau: 
+a) Cuốn truyện Việt mua được giảm 1040 đồng. 
+b) Cuốn truyện Nam mua được giảm 1272 đồng. 
+
+--- SOL PAGE 92 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Sau khi giảm giá, bạn Nam cần trả ít tiền hơn bạn Việt. 
+d) Tổng số tiền còn lại của hai bạn không đủ mua cuốn truyện nào. 
+Lời giải. 
+a) Đúng. Giá niêm yết cuốn truyện Conan là 20800 đồng. Số tiền được giảm khi Việt mua 
+cuốn truyện là 20800 5%
+1040
+
+=
+ đồng. 
+b) Đúng. Giá niêm yết cuốn truyện Doraemon là 21200 đồng. Số tiền được giảm khi Nam 
+mua cuốn truyện là 21200 6%
+1272
+
+=
+ đồng. 
+c) Sai.  
+• Số tiền Việt phải trả là 20800 1040
+19760
+−
+=
+ đồng.  
+• Số tiền Nam phải trả là 21200 1272
+19928
+−
+=
+ đồng. 
+Vì 19928 đồng lớn hơn 19760 đồng nên bạn Nam phải trả nhiều tiền hơn bạn Việt. 
+d) Sai.  
+• Tiền thừa của Việt là 30000 19760
+10240
+−
+=
+ đồng. 
+• Tiền thừa của Nam là 30000 19928
+10072
+−
+=
+ đồng. 
+• Tổng số tiền còn lại của hai bạn là 10240 10072
+20312
++
+=
+ đồng. 
+Vì 20312 đồng lớn hơn giá bán 19760 đồng của cuốn Conan và 19928 đồng của cuốn 
+Doraemon nên hai bạn hoàn toàn đủ tiền mua thêm được một cuốn truyện. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Quan sát trục số sau rồi cho biết: Điểm A và điểm B biểu diễn số hữu tỉ nào? 
+ 
+
+--- SOL PAGE 93 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Mỗi đoạn đơn vị (từ 0 đến 1, từ 0 đến 1
+−,...) được chia thành 3 phần bằng nhau. 
+Do đó, mỗi vạch chia tương ứng với 1
+3 đơn vị. 
+• Điểm A: Nằm ở bên trái điểm 0 và cách điểm 0 một khoảng bằng 2 vạch chia, nên 
+điểm A biểu diễn số hữu tỉ 
+2
+3
+−
+. 
+• Điểm B: Nằm ở bên phải điểm 0 và cách điểm 0 một khoảng bằng 4 vạch chia 
+(hoặc qua điểm 1 thêm 1 vạch chia), nên điểm B biểu diễn số hữu tỉ 4
+3 (hoặc 1
+13 ). 
+Kết quả:   
+2
+3
+A = −
+; 
+4
+3
+B =
+. 
+Câu 2. Tìm số thực x , biết: 
+3
+1
+5
+15
+2
+8
+x
+
+
+−
++
+= −
+
+
+
+
+ (kết quả ghi dưới dạng số thập phân). 
+Lời giải.  Ta có: 
+3
+1
+5
+15
+2
+8
+x
+
+
+−
+= −
+−
+
+
+
+
+ 
+3
+1
+120
+5
+2
+8
+8
+x
+
+
+−
+= −
+−
+
+
+
+
+ 
+3
+1
+125
+2
+8
+x
+
+
+−
+= −
+
+
+
+
+. 
+Vì 
+3
+5
+125
+2
+8
+
+
+−
+= −
+
+
+
+
+ nên ta có: 
+1
+5
+2
+2
+x −
+= −
+ 
+5
+1
+2
+2
+x = −
++
+ 
+4
+2
+2
+x = −
+= −. 
+
+--- SOL PAGE 94 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đổi kết quả sang dạng số thập phân: 
+2
+x = − (hoặc 2,0
+−
+). 
+Đáp án: 2
+−. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (Tính nhanh nếu có thể): 
+a)    9
+1 3
+:
+8
+8 4
+−
+;
+  
+                    b)  23
+19
+27
+24
+25
+43
+25
+43
+−
++
+−
+;        
+                      
+c) 2
+17
+2
+8
+.
+.
+16
+5
+9
+5
+9
+−
+−
++
+−
+.                    
+Lời giải.  
+a) 9
+1 3
+:
+8
+8 4
+−
+ 
+9
+1 4
+8
+8 3
+=
+−
+
+ 
+9
+1
+8
+6
+=
+−
+ 
+27
+4
+23
+24
+24
+24
+=
+−
+=
+. 
+b) 23
+19
+27
+24
+25
+43
+25
+43
+−
++
+−
+ 
+23
+27
+19
+24
+25
+25
+43
+43
+
+
+
+
+=
++
+−
++
+
+
+
+
+
+
+
+
+ 
+50
+43
+25
+43
+=
+−
+ 
+2 1
+1
+=
+−= . 
+c) 2
+17
+2
+8
+16
+5
+9
+5
+9
+−
+−
+
++
+
+−
+ 
+2
+17
+2 8
+4
+5
+9
+5 9
+−
+=
+
++
+
+− 
+
+--- SOL PAGE 95 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+17
+8
+4
+5
+9
+9
+−
+
+
+=
+
++
+−
+
+
+
+
+ 
+2
+9
+4
+5
+9
+−
+
+
+=
+
+−
+
+
+
+
+ 
+2 ( 1)
+4
+5
+=
+−
+− 
+2
+20
+22
+5
+5
+5
+−
+=
+−
+= −
+. 
+Câu 2. Tìm x biết 
+ 
+a) 
+1
+1
+2
+3
+6
+−
+=
+x
+; 
+ 
+b) 
+2
+1
+16
+=
+x
+. 
+Lời giải.  
+a) 
+1
+1
+2
+3
+6
+x −
+=
+ 
+1
+13
+3
+6
+x −
+=
+ 
+13
+1
+6
+3
+x =
++
+ 
+13
+2
+6
+6
+x =
++
+ 
+15
+5
+6
+2
+x =
+=
+. 
+b) 
+2
+1
+16
+x =
+ 
+2
+2
+1
+4
+x
+
+
+= 
+
+
+
+ 
+Trường hợp 1: 
+1
+4
+x =
+. 
+
+--- SOL PAGE 96 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Trường hợp 2: 
+1
+4
+x = −
+. 
+Vậy 
+1
+1
+;
+4
+4
+x
+
+
+
+−
+
+
+
+
+ 
+Câu 3. Cho hình vẽ bên 
+a) Giải thích tại sao yy’//zz’? 
+b) Tính số đo góc ABz ? 
+Lời giải. 
+a) Ta có: yy
+c
+⊥ (tại M ); zz
+c
+⊥ (tại N ). 
+Do hai đường thẳng yy và zz cùng vuông góc với đường thẳng c nên yy
+zz
+
+
+
+ (tính chất 
+từ vuông góc đến song song). 
+b) Vì yy
+zz
+
+
+
+ nên góc xAy và góc ABz ở vị trí hai góc đồng vị: 
+
+60
+ABz
+xAy
+
+
+
+=
+=
+. 
+Lại có góc ABz và góc ABz là hai góc kề bù (cùng kề trên đường thẳng zz):
+
+
+180
+ABz
+ABz
+
+
++
+=
+ 
+
+60
+180
+ABz
+
+
++
+=
+ 
+
+180
+60
+120
+ABz
+
+
+
+=
+−
+=
+. 
+Câu 4. Cho 
+2
+2
+4
+6
+802
+1
+1
+1
+1
+1
+......
+2
+3
+3
+3
+3
+=
++
++
++
++
++
+M
+. Chứng minh rằng: 
+3
+8
+
+M
+? 
+Lời giải.  
+Đặt 
+2
+4
+6
+802
+1
+1
+1
+1
+3
+3
+3
+3
+N =
++
++
+++
+ 
+Nhân cả hai vế của N với 
+2
+3
+9
+= , ta được: 
+2
+4
+6
+802
+1
+1
+1
+1
+9
+9
+3
+3
+3
+3
+N
+
+
+= 
++
++
+++
+
+
+
+
+ 
+
+--- SOL PAGE 97 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+4
+800
+1
+1
+1
+9
+1
+3
+3
+3
+N = +
++
+++
+. 
+Lấy 9N trừ cho N , ta có: 
+2
+4
+800
+2
+4
+6
+802
+1
+1
+1
+1
+1
+1
+1
+9
+1
+3
+3
+3
+3
+3
+3
+3
+N
+N
+
+
+
+
+−
+=
++
++
+++
+−
++
++
+++
+
+
+
+
+
+
+
+
+ 
+802
+1
+8
+1
+3
+N = −
+. 
+Vì 
+802
+1
+0
+3
+ nên 8
+1
+N , suy ra 
+1
+8
+N 
+. 
+Thay N vào biểu thức M :
+2
+1
+1
+2
+4
+M
+N
+N
+=
++
+=
++
+. 
+Do 
+1
+8
+N 
+ nên: 
+1
+1
+2
+1
+3
+4
+8
+8
+8
+8
+M 
++
+=
++
+=
+. 
+Vậy 
+3
+8
+M 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

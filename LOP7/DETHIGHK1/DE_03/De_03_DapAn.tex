@@ -1,0 +1,413 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[top=1.2cm, bottom=1.2cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[loigiai]{ex_test}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 7 -- Lời giải Đề số 3}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Large ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT -- ĐỀ SỐ 3}\\
+\textit{Môn: TOÁN 7 -- Thời gian làm bài: 90 phút}
+\end{center}
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}
+
+\vspace{1mm}
+\begin{ex}
+Số đối của số $\dfrac{1}{3}$ là:
+\choice
+{$3$}
+{\True $-\dfrac{1}{3}$}
+{$\dfrac{3}{5}$}
+{$-0{,}2$}
+\loigiai{
+Số đối của số $a$ là $-a$. Do đó, số đối của $\dfrac{1}{3}$ là $-\dfrac{1}{3}$.
+}
+\end{ex}
+
+\begin{ex}
+\immini{
+Từ hình sau, góc $x'Oy'$ đối đỉnh với góc nào?
+\choice
+{\True $\widehat{xOy}$}
+{$\widehat{y'Ox}$}
+{$\widehat{x'Oy}$}
+{$\widehat{xOy'}$}
+}{
+\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \coordinate (O) at (0,0);
+  \draw[thick] (-2.6,0) node[above=2pt] {$x$} -- (2.6,0) node[below=2pt] {$x'$};
+  \draw[thick] (-2.2,-1.54) node[above left=1pt] {$y$} -- (2.2,1.54) node[above right=1pt] {$y'$};
+  \node[above=3pt] at (O) {$O$};
+\end{tikzpicture}
+}
+\loigiai{
+Ta có tia đối của tia $Ox'$ là $Ox$ và tia đối của tia $Oy'$ là $Oy$. Do đó, góc đối đỉnh với góc $\widehat{x'Oy'}$ là góc $\widehat{xOy}$.
+}
+\end{ex}
+
+\begin{ex}
+Cho bài toán $x + \dfrac{1}{2} = 5$, khi chuyển số hạng $\dfrac{1}{2}$ từ vế trái sang vế phải ta được:
+\choice
+{$x = 5 + \dfrac{1}{2}$}
+{$x = -5 + \dfrac{1}{2}$}
+{\True $x = 5 - \dfrac{1}{2}$}
+{$x = -5 - \dfrac{1}{2}$}
+\loigiai{
+Theo quy tắc chuyển vế, khi chuyển một số hạng từ vế này sang vế kia ta phải đổi dấu số hạng đó: $+\dfrac{1}{2}$ chuyển sang vế phải thành $-\dfrac{1}{2}$. Vậy $x = 5 - \dfrac{1}{2}$.
+}
+\end{ex}
+
+\begin{ex}
+Tia $Ot$ nào trong các hình dưới đây là tia phân giác của góc $\widehat{xOy}$?
+\begin{center}
+\begin{tikzpicture}[scale=0.72, line cap=round, line join=round, thick]
+  % Hình 1
+  \begin{scope}[shift={(0,0)}]
+    \coordinate (O) at (0,0);
+    \draw (O) -- (1.8,0) node[below=2pt] {$t$};
+    \draw (O) -- (60:1.8) node[above right=1pt] {$y$};
+    \draw (O) -- (120:1.8) node[above left=1pt] {$x$};
+    \node[font=\footnotesize] at (30:0.8) {$60^\circ$};
+    \node[font=\footnotesize] at (90:0.8) {$60^\circ$};
+    \node[below=3pt] at (O) {$O$};
+    \node[below=14pt] at (0.9,0) {Hình 1};
+  \end{scope}
+  % Hình 2
+  \begin{scope}[shift={(4.5,0)}]
+    \coordinate (O) at (0,0);
+    \draw (O) -- (0,1.8) node[above=2pt] {$x$};
+    \draw (O) -- (25:1.8) node[above right=1pt] {$t$};
+    \draw (O) -- (-20:1.8) node[right=2pt] {$y$};
+    \node[font=\footnotesize] at (55:0.85) {$60^\circ$};
+    \node[font=\footnotesize] at (5:0.85) {$45^\circ$};
+    \node[below=3pt] at (O) {$O$};
+    \node[below=14pt] at (0.9,0) {Hình 2};
+  \end{scope}
+  % Hình 3
+  \begin{scope}[shift={(9.2,0)}]
+    \coordinate (O) at (0,0);
+    \draw (-1.6,0) node[below=2pt] {$x$} -- (1.6,0) node[above=2pt] {$t$};
+    \draw (O) -- (116:1.8) node[above=2pt] {$y$};
+    \node[font=\footnotesize] at (55:0.8) {$116^\circ$};
+    \node[font=\footnotesize] at (145:0.8) {$64^\circ$};
+    \node[below=3pt] at (O) {$O$};
+    \node[below=14pt] at (0,0) {Hình 3};
+  \end{scope}
+  % Hình 4
+  \begin{scope}[shift={(13.8,0)}]
+    \coordinate (O) at (0,0);
+    \draw (O) -- (0,1.8) node[above=2pt] {$t$};
+    \draw (O) -- (145:1.8) node[above left=1pt] {$x$};
+    \draw (O) -- (35:1.8) node[above right=1pt] {$y$};
+    \node[font=\footnotesize] at (115:1.1) {$30^\circ$};
+    \node[font=\footnotesize] at (65:1.1) {$30^\circ$};
+    \node[below=3pt] at (O) {$O$};
+    \node[below=14pt] at (0,0) {Hình 4};
+  \end{scope}
+\end{tikzpicture}
+\end{center}
+\choice
+{Hình 1}
+{Hình 2}
+{Hình 3}
+{\True Hình 4}
+\loigiai{
+Tia phân giác $Ot$ của góc $\widehat{xOy}$ phải nằm giữa hai tia $Ox, Oy$ và tạo với hai tia này hai góc bằng nhau ($\widehat{xOt} = \widehat{yOt}$). Trong Hình 4, tia $Ot$ nằm giữa hai tia $Ox, Oy$ và $\widehat{xOt} = \widehat{yOt} = 30^\circ$ nên $Ot$ là tia phân giác của góc $\widehat{xOy}$.
+}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép tính $7^{10} : 7$ viết dưới dạng lũy thừa là:
+\choice
+{\True $7^9$}
+{$7^{11}$}
+{$7^{10}$}
+{$1^{10}$}
+\loigiai{
+Ta có: $7^{10} : 7 = 7^{10} : 7^1 = 7^{10 - 1} = 7^9$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong:
+\choice
+{\True Bằng nhau}
+{Phụ nhau}
+{Kề nhau}
+{Kề bù}
+\loigiai{
+Tính chất hai đường thẳng song song: Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Cho các số thập phân sau: $0{,}12222\dots$; $4{,}(5)$; $1{,}2184218$; $-11{,}2(312)$. Số thập phân hữu hạn là:
+\choice
+{\True $1{,}2184218$}
+{$0{,}12222\dots$}
+{$4{,}(5)$}
+{$-11{,}2(312)$}
+\loigiai{
+Số $1{,}2184218$ là số thập phân hữu hạn vì phần thập phân có hữu hạn chữ số. Các số còn lại là số thập phân vô hạn tuần hoàn.
+}
+\end{ex}
+
+\begin{ex}
+Qua một điểm ở ngoài một đường thẳng, có bao nhiêu đường thẳng song song với đường thẳng đó?
+\choice
+{Không có}
+{Có vô số}
+{Có ít nhất một}
+{\True Chỉ có một}
+\loigiai{
+Theo Tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng chỉ có một đường thẳng song song với đường thẳng đó.
+}
+\end{ex}
+
+\begin{ex}
+Số hữu tỉ $x$ thỏa mãn $x^2 = 25$ là:
+\choice
+{$625$}
+{$-5$}
+{$5$}
+{\True $5$ hoặc $-5$}
+\loigiai{
+Ta có $x^2 = 25 = (\pm 5)^2 \Rightarrow x = 5$ hoặc $x = -5$.
+}
+\end{ex}
+
+\begin{ex}
+Mô tả quy tắc chuyển vế qua đẳng thức $x - \dfrac{1}{2} = -\dfrac{5}{6}$ ta được:
+\choice
+{$x - \dfrac{5}{6} = \dfrac{1}{2}$}
+{$x = \dfrac{5}{6} + \dfrac{1}{2}$}
+{\True $x = -\dfrac{5}{6} + \dfrac{1}{2}$}
+{$x = -\dfrac{5}{6} - \dfrac{1}{2}$}
+\loigiai{
+Khi chuyển số hạng $-\dfrac{1}{2}$ từ vế trái sang vế phải, ta đổi dấu thành $+\dfrac{1}{2}$. Do đó $x = -\dfrac{5}{6} + \dfrac{1}{2}$.
+}
+\end{ex}
+
+\begin{ex}
+Cho 3 đường thẳng phân biệt $a, b, c$. Biết $a \perp b$ và $b \perp c$, khi đó:
+\choice
+{$a \perp c$}
+{$b \parallel c$}
+{$a \parallel b$}
+{\True $a \parallel c$}
+\loigiai{
+Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau: $\begin{cases} a \perp b \\ b \perp c \end{cases} \Rightarrow a \parallel c$.
+}
+\end{ex}
+
+\begin{ex}
+Căn bậc hai số học của $64$ là:
+\choice
+{$32$}
+{$8$ và $-8$}
+{$-8$}
+{\True $8$}
+\loigiai{
+Căn bậc hai số học của một số $a \ge 0$ là số không âm $x$ sao cho $x^2 = a$. Vì $8 \ge 0$ và $8^2 = 64$ nên $\sqrt{64} = 8$.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+
+\vspace{1mm}
+\begin{ex}
+\immini{
+Cho $\widehat{xOy} = 70^\circ$. Trên tia $Ox$ lấy điểm $A$. Kẻ tia $Az$ sao cho $\widehat{xAz} = 70^\circ$. Trên tia $Az$ lấy điểm $B$, kẻ tia $Bt$ cắt $Oy$ tại $C$ sao cho $\widehat{CBA} = 110^\circ$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True $\widehat{ABC}$ và $\widehat{CBz}$ là hai góc kề bù}
+{\True $\widehat{CBz} = 70^\circ$}
+{\True $Oy$ song song với $Az$}
+{$\widehat{BCO} = 110^\circ$}
+}{
+\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+  \coordinate (O) at (0,0);
+  \coordinate (A) at (2.4,0);
+  \coordinate (B) at ($(A)+(68:2.4)$);
+  \coordinate (C) at ($(O)+(68:3.2)$);
+  \draw[thick] (O) -- (3.8,0) node[above=2pt] {$x$};
+  \draw[thick] (O) -- ($(O)+(68:3.8)$) node[above left=1pt] {$y$};
+  \draw[thick] (A) -- ($(A)+(68:3.3)$) node[above right=1pt] {$z$};
+  \draw[thick] (C) -- (B);
+  \fill[gray!30] (O) -- (0.5,0) arc (0:68:0.5) -- cycle;
+  \draw[thick] (0.5,0) arc (0:68:0.5);
+  \node[font=\footnotesize] at (34:0.85) {$70^\circ$};
+  \fill[gray!30] (A) -- ++(0:0.5) arc (0:68:0.5) -- cycle;
+  \draw[thick] (A) ++(0:0.5) arc (0:68:0.5);
+  \node[font=\footnotesize] at ($(A)+(34:0.85)$) {$70^\circ$};
+  \fill[gray!30] (B) -- ++(147:0.45) arc (147:248:0.45) -- cycle;
+  \draw[thick] (B) ++(147:0.45) arc (147:248:0.45);
+  \node[font=\footnotesize] at ($(B)+(-0.55,-0.12)$) {$110^\circ$};
+  \node[below left=1pt] at (O) {$O$};
+  \node[below=2pt] at (A) {$A$};
+  \node[right=2pt] at (B) {$B$};
+  \node[above left=1pt] at (C) {$C$};
+\end{tikzpicture}
+}
+\loigiai{
+\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
+\item \textbf{a)} \textbf{Đúng}. Tia $BA$ và tia $Bz$ là hai tia đối nhau nên $\widehat{ABC}$ và $\widehat{CBz}$ là hai góc kề bù.
+\item \textbf{b)} \textbf{Đúng}. Vì $\widehat{ABC}$ và $\widehat{CBz}$ kề bù nên $\widehat{CBz} = 180^\circ - \widehat{CBA} = 180^\circ - 110^\circ = 70^\circ$.
+\item \textbf{c)} \textbf{Đúng}. Ta có $\widehat{xOy} = \widehat{xAz} = 70^\circ$. Mà hai góc này ở vị trí đồng vị nên $Oy \parallel Az$.
+\item \textbf{d)} \textbf{Sai}. Vì $Oy \parallel Az$ nên $\widehat{BCO}$ và $\widehat{CBz}$ là hai góc so le trong $\Rightarrow \widehat{BCO} = \widehat{CBz} = 70^\circ \neq 110^\circ$.
+\end{itemize}
+}
+\end{ex}
+
+\begin{ex}
+Cho biểu thức $M = \left(-\dfrac{1}{2}\right)^3 \cdot \dfrac{8}{3} + \left|-\dfrac{3}{4}\right|$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True Giá trị của lũy thừa $\left(-\dfrac{1}{2}\right)^3$ bằng $-\dfrac{1}{8}$}
+{Giá trị tuyệt đối $\left|-\dfrac{3}{4}\right|$ bằng $-\dfrac{3}{4}$}
+{Giá trị của biểu thức $M$ bằng $-\dfrac{1}{4}$}
+{Giá trị $M$ tìm được là một số hữu tỉ âm}
+\loigiai{
+\begin{itemize}[leftmargin=0.5cm, itemsep=1pt]
+\item \textbf{a)} \textbf{Đúng}. Ta có $\left(-\dfrac{1}{2}\right)^3 = \dfrac{(-1)^3}{2^3} = -\dfrac{1}{8}$.
+\item \textbf{b)} \textbf{Sai}. Theo định nghĩa giá trị tuyệt đối của số âm: $\left|-\dfrac{3}{4}\right| = \dfrac{3}{4} \neq -\dfrac{3}{4}$.
+\item \textbf{c)} \textbf{Sai}. Ta có: $M = \left(-\dfrac{1}{8}\right) \cdot \dfrac{8}{3} + \dfrac{3}{4} = -\dfrac{1}{3} + \dfrac{3}{4} = \dfrac{-4 + 9}{12} = \dfrac{5}{12} \neq -\dfrac{1}{4}$.
+\item \textbf{d)} \textbf{Sai}. Vì $M = \dfrac{5}{12} > 0$ nên $M$ là số hữu tỉ dương.
+\end{itemize}
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+
+\vspace{1mm}
+\begin{ex}
+Tìm số hữu tỉ $x$, biết: $\left(x - \dfrac{1}{3}\right)^2 = \dfrac{4}{9}$. \shortans{$x \in \left\{1; -\dfrac{1}{3}\right\}$}
+\loigiai{
+Ta có $\left(x - \dfrac{1}{3}\right)^2 = \dfrac{4}{9} = \left(\pm \dfrac{2}{3}\right)^2$.
+
+Trường hợp 1: $x - \dfrac{1}{3} = \dfrac{2}{3} \Rightarrow x = \dfrac{2}{3} + \dfrac{1}{3} = 1$.
+
+Trường hợp 2: $x - \dfrac{1}{3} = -\dfrac{2}{3} \Rightarrow x = -\dfrac{2}{3} + \dfrac{1}{3} = -\dfrac{1}{3}$.
+
+Vậy $x \in \left\{1; -\dfrac{1}{3}\right\}$.
+}
+\end{ex}
+
+\begin{ex}
+Cho hai đường thẳng $xx'$ và $yy'$ cắt nhau tại điểm $O$. Biết $\widehat{xOy} = 60^\circ$. Tính số đo góc đối đỉnh $\widehat{x'Oy'}$ và góc kề bù $\widehat{x'Oy}$ với góc $\widehat{xOy}$. \shortans{$\widehat{x'Oy'} = 60^\circ; \widehat{x'Oy} = 120^\circ$}
+\loigiai{
+Góc đối đỉnh: Vì $\widehat{x'Oy'}$ và $\widehat{xOy}$ là hai góc đối đỉnh nên:
+\[ \widehat{x'Oy'} = \widehat{xOy} = 60^\circ. \]
+Góc kề bù: Vì $\widehat{x'Oy}$ và $\widehat{xOy}$ là hai góc kề bù nên:
+\[ \widehat{x'Oy} + \widehat{xOy} = 180^\circ \Rightarrow \widehat{x'Oy} = 180^\circ - 60^\circ = 120^\circ. \]
+Đáp án: $\widehat{x'Oy'} = 60^\circ$ và $\widehat{x'Oy} = 120^\circ$.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN}
+
+\vspace{1mm}
+\begin{ex}
+Thực hiện phép tính:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1pt]
+\item $(-0{,}25) \cdot 40 + 3 + 2026^0$
+\item $\dfrac{1}{7} \cdot \dfrac{-3}{8} + \dfrac{-13}{8} \cdot \dfrac{1}{7}$
+\item $\left[ \left(\dfrac{2}{3} - \dfrac{7}{6}\right)^2 + (-2)^3 \cdot 3 \right] : 4\dfrac{3}{4} - 1$
+\end{enumerate}
+\loigiai{
+\textbf{a)} Ta có:
+\[ (-0{,}25) \cdot 40 + 3 + 2026^0 = -10 + 3 + 1 = -7 + 1 = -6. \]
+
+\textbf{b)} Ta có:
+\[ \dfrac{1}{7} \cdot \dfrac{-3}{8} + \dfrac{-13}{8} \cdot \dfrac{1}{7} = \dfrac{1}{7} \left( \dfrac{-3}{8} + \dfrac{-13}{8} \right) = \dfrac{1}{7} \cdot \left(-\dfrac{16}{8}\right) = \dfrac{1}{7} \cdot (-2) = -\dfrac{2}{7}. \]
+
+\textbf{c)} Ta có:
+\begin{align*}
+\left[ \left(\dfrac{2}{3} - \dfrac{7}{6}\right)^2 + (-2)^3 \cdot 3 \right] : 4\dfrac{3}{4} - 1 &= \left[ \left(\dfrac{4 - 7}{6}\right)^2 + (-8) \cdot 3 \right] : \dfrac{19}{4} - 1 \\
+&= \left[ \left(-\dfrac{3}{6}\right)^2 - 24 \right] \cdot \dfrac{4}{19} - 1 \\
+&= \left[ \left(-\dfrac{1}{2}\right)^2 - 24 \right] \cdot \dfrac{4}{19} - 1 \\
+&= \left( \dfrac{1}{4} - 24 \right) \cdot \dfrac{4}{19} - 1 \\
+&= -\dfrac{95}{4} \cdot \dfrac{4}{19} - 1 \\
+&= -5 - 1 = -6.
+\end{align*}
+
+}
+\end{ex}
+\vspace{2mm}
+
+\begin{ex}
+Tìm $x$ biết:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1pt]
+\item $x + 4{,}5 = 9{,}5$
+\item $\dfrac{2}{5} \cdot x - \dfrac{1}{2} = \dfrac{3}{8}$
+\item $|3x - 1| + \dfrac{1}{3} = \dfrac{1}{2}$
+\end{enumerate}
+\loigiai{
+\textbf{a)} Ta có:
+\[ x = 9{,}5 - 4{,}5 \Rightarrow x = 5. \]
+
+\textbf{b)} Ta có:
+\begin{align*}
+\dfrac{2}{5} \cdot x &= \dfrac{3}{8} + \dfrac{1}{2} = \dfrac{3}{8} + \dfrac{4}{8} = \dfrac{7}{8} \\
+x &= \dfrac{7}{8} : \dfrac{2}{5} = \dfrac{7}{8} \cdot \dfrac{5}{2} = \dfrac{35}{16}.
+\end{align*}
+
+\textbf{c)} Ta có:
+\[ |3x - 1| = \dfrac{1}{2} - \dfrac{1}{3} = \dfrac{1}{6}. \]
+Trường hợp 1:
+\[ 3x - 1 = \dfrac{1}{6} \Rightarrow 3x = \dfrac{7}{6} \Rightarrow x = \dfrac{7}{18}. \]
+Trường hợp 2:
+\[ 3x - 1 = -\dfrac{1}{6} \Rightarrow 3x = \dfrac{5}{6} \Rightarrow x = \dfrac{5}{18}. \]
+Vậy $x \in \left\{\dfrac{7}{18}; \dfrac{5}{18}\right\}$.
+
+}
+\end{ex}
+\vspace{2mm}
+
+\begin{ex}
+Hai người thợ cùng làm một công việc. Nếu làm riêng thì người thứ nhất phải mất 3 giờ, người thứ hai phải mất 5 giờ mới hoàn thành công việc. Hỏi nếu làm chung trong 45 phút thì hai người làm được mấy phần công việc?
+\loigiai{
+Đổi 45 phút = $\dfrac{45}{60}$ giờ = $\dfrac{3}{4}$ giờ.
+
+Trong 1 giờ, người thứ nhất làm được:
+\[ 1 : 3 = \dfrac{1}{3} \text{ (công việc)}. \]
+Trong 1 giờ, người thứ hai làm được:
+\[ 1 : 5 = \dfrac{1}{5} \text{ (công việc)}. \]
+Trong 1 giờ, cả hai người làm chung được:
+\[ \dfrac{1}{3} + \dfrac{1}{5} = \dfrac{8}{15} \text{ (công việc)}. \]
+Trong 45 phút ($\dfrac{3}{4}$ giờ), cả hai người làm chung được:
+\[ \dfrac{8}{15} \cdot \dfrac{3}{4} = \dfrac{2}{5} \text{ (công việc)}. \]
+
+Đáp số: $\dfrac{2}{5}$ công việc.
+}
+\end{ex}
+\vspace{2mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

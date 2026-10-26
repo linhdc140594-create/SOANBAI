@@ -1,0 +1,1333 @@
+
+=== SOL PAGE 131 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 6 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Tập hợp các số hữu tỉ được ký hiệu là: 
+A. .  
+ 
+ 
+B. .  
+ 
+ 
+C. .  
+ 
+ 
+D. . 
+Lời giải. Tập hợp các số hữu tỉ được ký hiệu bằng chữ cái . 
+Đáp án đúng: C. 
+Câu 2. Kết quả của phép tính 
+3
+9
+4
+4
+
+ bằng: 
+A. 
+6
+4 .  
+ 
+ 
+B. 
+3
+4 .  
+ 
+ 
+C. 
+12
+4 .  
+ 
+ 
+D. 
+27
+2 . 
+Lời giải.  Áp dụng quy tắc nhân hai lũy thừa cùng cơ số 
+m
+n
+m n
+a
+a
+a
++
+
+=
+: 
+3
+9
+3 9
+12
+4
+4
+4
+4
++
+
+=
+=
+.  
+Đáp án đúng: C. 
+Câu 3. Cho hình vẽ sau. Kết luận nào sau đây SAI? 
+ 
+A. 
+/ / .
+a
+b 
+ 
+ 
+B. 
+.
+c
+b
+⊥
+ 
+ 
+         C. 
+.
+c
+a
+⊥
+ 
+ 
+       D. 
+.
+a
+b
+⊥
+ 
+Lời giải. Từ hình vẽ ta thấy c
+a
+⊥
+ và c
+b
+⊥ nên B và C đúng. 
+Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì song song với nhau, 
+suy ra a b
+. Do đó A đúng. 
+
+=== SOL PAGE 132 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Khẳng định D. a
+b
+⊥
+ là SAI vì a song song với b , không vuông góc. 
+Đáp án đúng: D. 
+Câu 4. Hình hộp chữ nhật có tất cả bao nhiêu mặt? 
+A. 2 .                                  B. 4 . 
+ C. 6 .  
+ 
+ 
+D. 8. 
+Lời giải. Hình hộp chữ nhật có tổng cộng 6 mặt bao gồm 2 mặt đáy và 4 mặt bên. 
+Đáp án đúng: C. 
+Câu 5. Với a,b,c là ba số hữu tỉ bất kì, nếu a
+b
+c
+−
+= thì: 
+A. a
+b
+c.
+=
++
+  
+ 
+ 
+ 
+ 
+ 
+B. a
+b
+c.
+= −+
+ 
+C. a
+b
+c.
+=
+−
+  
+ 
+ 
+ 
+ 
+ 
+D. a
+b
+c.
+= −−
+ 
+Lời giải.Theo quy tắc chuyển vế, khi chuyển b
+− từ vế trái sang vế phải ta đổi dấu thành 
+b
++ :  
+a
+b
+c
+−
+=
+ 
+a
+b
+c
+=
++ . 
+Đáp án đúng: A. 
+Câu 6. Hãy so sánh hai số hữu tỉ – 0,2 và 2
+5
+−. 
+A. 
+2
+0,2
+5
+−
+−
+
+. 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+0,2
+5
+−
+−
+
+.  
+ 
+C. 
+2
+0,2
+5
+−
+−
+=
+.  
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+0,2
+5
+−
+−
+
+.  
+Lời giải. Chuyển phân số 2
+5
+− về dạng số thập phân: 2
+0,4
+5
+−= −
+. 
+So sánh hai số âm: 0,2
+0,4
+−
+−
+ (vì 0,2
+0,4
+
+). 
+Do đó: 
+2
+0,2
+5
+−
+−
+
+. 
+
+=== SOL PAGE 133 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: B. 
+Câu 7. Giá trị của 
+3
+−
+ bằng: 
+A. 
+3.
+−
+ 
+          B. 
+3 . 
+                  C. 1
+3
+. 
+                         D. 
+1 .
+3
+−
+ 
+Lời giải. Giá trị tuyệt đối của một số thực bất kỳ luôn không âm. Vì 
+5
+0
+−
+
+ nên |
+5 |
+5
+−
+=
+. 
+Đáp án đúng: B. 
+Câu 8. Căn bậc hai số học của 49 là 
+A. 7.
+−
+ 
+         
+              B. 7. 
+ 
+C. 7
+− và 7. 
+ 
+              D. 49.
+−
+ 
+Lời giải. Căn bậc hai số học của một số 
+0
+a 
+ là số không âm 
+a . Do 7
+0
+ và 
+2
+7
+49
+=
+ nên 
+căn bậc hai số học của 49 là 7 . 
+Đáp án đúng: B. 
+Câu 9. Trong các số sau, số nào là số vô tỉ? 
+A. 
+2
+5                     
+ 
+B. 
+3                          
+C. 
+2
+(3,5)                        
+ 
+D. 16. 
+Lời giải. 
+25
+5
+= (số hữu tỉ). 
+2
+(3,5)
+3,5
+=
+ (số hữu tỉ). 
+16
+4
+= (số hữu tỉ). 
+3
+1,73205...
+
+ là số thập phân vô hạn không tuần hoàn, do đó 3 là số vô tỉ. 
+Đáp án đúng: B. 
+
+=== SOL PAGE 134 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 10. Kết quả của phép tính  
+3
+2
+20
+15
+−
+−
++
+  là:  
+A. 1 .
+35
+−
+ 
+ 
+ 
+B. 17 .
+60
+−
+ 
+ 
+ 
+C. 5 .
+35
+−
+ 
+ 
+          D. 1 .
+60
+−
+ 
+Lời giải. Quy đồng mẫu số hai phân số với mẫu chung là 60 : 
+3
+2
+3 3
+2 4
+9
+( 8)
+17
+20
+15
+60
+60
+60
+60
+−
+−
+−
+−
+−+ −
+−
++
+=
++
+=
+=
+. 
+Đáp án đúng: B. 
+Câu 11. Cho hình vẽ sau, biết //
+a b, 
+45
+A =
+. Số đo của 
+1
+B bằng bao nhiêu? 
+ 
+A. 145. 
+ 
+ 
+B. 45. 
+ 
+ 
+C. 35. 
+ 
+         D. 135. 
+Lời giải. Dựa vào hình vẽ, góc cho trước 45 và góc 
+1ˆB ở vị trí hai góc trong cùng phía 
+(hoặc 
+1ˆB kề bù với góc đồng vị 45). 
+Do 
+/ /
+a
+b , tổng hai góc trong cùng phía bằng 180: 
+1ˆ
+180
+45
+135
+B
+
+
+
+=
+−
+=
+. 
+Đáp án đúng: D. 
+Câu 12. Điền cụm từ thích hợp vào chỗ trống: "Qua một điểm nằm ngoài đường thẳng ... 
+đường thẳng song song với đường thẳng đó". 
+A. Có vô số.   
+ 
+ 
+ 
+ 
+ 
+B. Chỉ có một. 
+ 
+
+=== SOL PAGE 135 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. Có hai. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. Có ba. 
+Lời giải. Theo tiên đề Euclid: "Qua một điểm nằm ngoài đường thẳng chỉ có một đường 
+thẳng song song với đường thẳng đó". 
+Đáp án đúng: B. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+1
+2
+4
+2
+3
+A
+
+
+=
+−
+−
+
+
+
+
+ và 
+5
+6
+B
+−
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của phép tính 1
+2
+2
+3
+
+
+−
+
+
+
+
+ bằng 
+1
+3
+−
+. 
+b) Giá trị của biểu thức A bằng 13
+12 . 
+c) Giá trị của B bằng 5
+6 . 
+d) Hiệu A
+B
+−
+ là một số hữu tỉ âm. 
+Lời giải. 
+a) Đúng. Ta thực hiện phép nhân hai số hữu tỉ: 1
+2
+1 ( 2)
+1
+2
+3
+2 3
+3
+−
+
+
+−
+=
+= −
+
+
+
+
+
+. 
+b) Đúng. Thay kết quả phép nhân vào biểu thức A :
+3
+1
+3
+1
+9
+4
+13
+4
+3
+4
+3
+12
+12
+12
+A
+
+
+=
+−−
+=
++
+=
++
+=
+
+
+
+
+. 
+c) Đúng. Giá trị tuyệt đối của một số âm là số đối của nó, do đó 
+5
+5
+6
+6
+B
+−
+=
+=
+. 
+d) Sai. Ta tính hiệu A
+B
+−
+: 
+13
+5
+13
+10
+3
+1
+12
+6
+12
+12
+12
+4
+A
+B
+−
+=
+−
+=
+−
+=
+=
+. 
+
+=== SOL PAGE 136 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Vì 1
+0
+4  nên A
+B
+−
+ là một số hữu tỉ dương. 
+Câu 2. Cho hai đường thẳng xy và zt song song với nhau. Đường thẳng mn cắt xy tại 
+M và cắt zt tại N . Biết số đo góc 
+55
+xMN
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Góc MNt và góc 
+xMN là hai góc so le trong. 
+b) Số đo góc MNt bằng 55. 
+c) Góc 
+MNz và góc 
+xMN là hai góc trong cùng phía. 
+d) Số đo góc 
+MNz bằng 135. 
+Lời giải. 
+a) Đúng. Hai góc MNt và 
+xMN nằm ở vị trí so le trong so với đường thẳng cắt mn . 
+b) Đúng. Vì xy
+zt
+
+ nên hai góc so le trong bằng nhau, suy ra 
+
+55
+MNt
+xMN
+
+=
+=
+. 
+c) Đúng. Hai góc 
+MNz và 
+xMN nằm cùng một phía đối với đường thẳng mn và ở phía 
+trong hai đường thẳng 
+,
+xy zt nên là hai góc trong cùng phía. 
+d) Sai. Vì xy
+zt
+
+ nên hai góc trong cùng phía bù nhau, tức là tổng số đo của chúng bằng 
+180. Suy ra 
+180
+55
+125
+MNz
+
+
+
+=
+−
+=
+. Do đó khẳng định 135 là sai. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số hữu tỉ x , biết: 
+1
+3
+2
+2
+x −
+=
+. 
+Lời giải. Có hai trường hợp xảy ra: 
+Trường hợp 1: 
+1
+3
+2
+2
+x −
+=
+ 
+
+=== SOL PAGE 137 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+3
+1
+2
+2
+x =
++
+ 
+2
+x =
+. 
+Trường hợp 2: 
+1
+3
+2
+2
+x −
+= −
+ 
+3
+1
+2
+2
+x = −
++
+ 
+1
+x = − 
+Đáp án: 
+2
+x =
+ hoặc 
+1
+x = −. 
+Câu 2. Cho hai đường thẳng song song m và n . Đường thẳng c cắt m và n lần lượt tại 
+A và B . Biết một góc so le trong 
+1
+50
+A
+
+=
+. Tính số đo góc đồng vị 
+1
+B với góc 
+1A . 
+Lời giải. 
+Vì 
+/ /
+m
+n nên hai góc đồng vị 
+1A và 
+1
+B có số đo bằng nhau: 
+
+1
+1
+50
+B
+A
+
+=
+=
+. 
+Đáp án: 50. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện các phép tính sau (tính hợp lý nếu có thể): 
+a) 3
+5
+1
+7
+14
+2
+−+
+−
+; 
+ 
+b)
+3
+5
+2.5
+1.5:
+5
+2
+−
+
+
+
+−
+
+
+
+
+;  
+ 
+c) 
+2
+3
+1
+3
+2
+1
+| 2
+|
+3
+8
+3
+4
+−
+−
+
+
+
+
+−
+
++ −
+
+
+
+
+
+
+
+
+. 
+Lời giải. 
+a) 3
+5
+1
+7
+14
+2
+−+
+−
+ 
+6
+5
+7
+14
+14
+14
+−
+=
++
+−
+ 
+
+=== SOL PAGE 138 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+6
+5
+7
+14
+−+ −
+=
+ 
+8
+14
+−
+=
+ 
+4
+7
+−
+=
+ 
+b) 
+3
+5
+2,5
+1,5:
+5
+2
+−
+
+
+
+−
+
+
+
+
+ 
+5
+3
+3 2
+2
+5
+2 5
+−
+
+
+=
+
+−
+
+
+
+
+
+ 
+3
+3
+2
+5
+−
+=
+−
+ 
+15
+6
+10
+10
+−
+=
+−
+ 
+21
+10
+−
+=
+. 
+c) 
+2
+3
+1
+3
+2
+1
+2
+3
+8
+3
+4
+−
+−
+
+
+
+
+−
+
++ −
+
+
+
+
+
+
+
+
+ 
+1
+3
+8
+1
+9
+8
+27
+2
+−
+−
+
+
+=
+−
+
++
+
+
+
+
+ 
+1
+1
+1
+9
+9
+2
+=
++
++
+ 
+2
+1
+9
+2
+=
++
+ 
+4
+9
+18
+18
+=
++
+13
+18
+=
+. 
+Câu 2.  
+a) Sử dụng máy tính cầm tay làm tròn số √5 đến chữ số thập phân thứ nhất. 
+
+=== SOL PAGE 139 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Tính độ dài cạnh hình vuông có diện tích bằng 
+2
+36dm . 
+Lời giải. 
+a) Ta có:
+5
+2,236...
+
+ 
+Do đó, kết quả làm tròn đến chữ số thập phân thứ nhất là:
+5
+2,2
+
+. 
+b) Gọi độ dài cạnh hình vuông là x (đơn vị: dm, 
+0
+x 
+). 
+Ta có diện tích hình vuông là:
+2
+36
+x =
+. Suy ra 
+36
+x =
+. 
+Vậy 
+6 dm
+x =
+ 
+Câu 3. Cho hình vẽ, biết 
+
+
+60 ;
+75 ;
+60
+mAB
+DBe
+ACD
+=
+
+=
+
+=
+. 
+ 
+a) Giải thích tại sao AB
+CD
+∥
+ và tính số đo CDt . 
+b) Vẽ Ax là tia phân giác 
+,
+mAB Cy là tia phân giác 
+ACD . Chứng minh 
+.
+Ax
+Cy
+∥
+ 
+Lời giải. 
+a) Ta có: 
+
+60
+mAB
+ACD
+
+=
+=
+. 
+Mà hai góc này ở vị trí đồng vị nên: AB CD
+
+. 
+Vì AB CD
+
+, ta có: 
+
+75
+BDC
+DBe
+
+=
+=
+ (hai góc so le trong). 
+Mặt khác, ta có CDt và 
+BDC là hai góc kề bù nên: 
+
+180
+CDt
+BDC
+
++
+=
+. 
+Suy ra 
+75
+180
+CDt
+
+
++
+=
+. 
+Do đó 
+180
+75
+CDt
+
+
+=
+−
+105
+=
+. 
+
+=== SOL PAGE 140 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Ta có Ax là tia phân giác của góc 
+mAB nên: 
+
+1
+2
+xAB
+mAB
+=
+1 60
+2
+
+=
+
+30
+=
+. 
+Ta có Cy là tia phân giác của góc 
+ACD nên: 
+
+1
+2
+yCA
+ACD
+=
+1 60
+2
+
+=
+
+30
+=
+. 
+Từ đó suy ra: 
+
+30
+xAB
+yCA
+
+=
+=
+. 
+Mà hai góc này ở vị trí đồng vị nên: Ax Cy
+
+. 
+Câu 4. Cho 
+2
+2
+4
+6
+802
+1
+1
+1
+1
+1
+......
+2
+3
+3
+3
+3
+=
++
++
++
++
++
+M
+. Chứng minh rằng: 
+3
+8
+
+M
+ 
+Lời giải. 
+Đặt tổng các lũy thừa của 3 là: 
+2
+4
+802
+1
+1
+1
+...
+3
+3
+3
+S =
++
++
++
+. 
+Nhân cả hai vế với 
+2
+3
+9
+= , ta có:
+2
+4
+800
+1
+1
+1
+9
+1
+...
+3
+3
+3
+S = +
++
++
++
+ 
+Trừ vế theo vế 9S
+S
+−
+, ta được: 
+802
+1
+8
+1
+3
+S = −
+. 
+Vì 
+802
+1
+0
+3
+ nên 
+802
+1
+1
+1
+3
+−
+. 
+Do đó 8
+1
+S . 
+Suy ra 
+1
+8
+S 
+. 
+Ta có biểu thức M được viết lại là:  
+2
+1
+2
+M
+S
+=
++
+ 
+1
+4
+S
+=
++
+ 
+
+=== SOL PAGE 141 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+8
+S
+=
++
+ 
+Do 
+1
+8
+S 
+, ta có:
+2
+1
+8
+8
+M 
++
+. 
+Vậy 
+3
+8
+M 
+. (điều phải chứng minh) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

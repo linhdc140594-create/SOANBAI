@@ -1,0 +1,510 @@
+
+=== TEST PAGE 11 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số đối của số 1
+3 là: 
+A. 3.  
+ 
+ 
+B. 1.
+3
+−
+ 
+ 
+ 
+C. 3.
+5  
+ 
+       D. 0,2.
+−
+ 
+Câu 2. Từ hình sau góc x’Oy’ đối đỉnh với góc nào? 
+ 
+A. 
+.
+xOy 
+ 
+  
+ 
+ 
+ 
+ 
+B. ’
+’.
+y Ox 
+C. ’
+.
+x Oy                    
+ 
+ 
+ 
+D. 
+’.
+xOy 
+Câu 3. Cho bài toán 
+1
+5
+2
++
+=
+x
+ khi chuyển số hạng 1
+2 từ vế trái sang vế phải ta được 
+A.
+1
+5
+2
+=
++
+x
+. 
+ 
+B. 
+1
+5
+2
+= −+
+x
+ . 
+ 
+C. 
+1
+5
+2
+=
+−
+x
+. 
+ 
+D. 
+1
+5
+2
+= −−
+x
+. 
+ 
+ 
+
+=== TEST PAGE 12 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 4. Tia Ot nào trong các hình dưới đây là tia phân giác của góc xOy ? 
+ 
+A. Hình 1. 
+ 
+ 
+B. Hình 2. 
+ 
+ 
+C. Hình 3. 
+ 
+     D. Hình 4. 
+Câu 5. Kết quả của phép tính 
+10
+7
+:7 viết dưới dạng lũy thừa là: 
+A. 
+9
+7 .  
+ 
+ 
+B. 
+11
+7 .  
+ 
+ 
+C. 
+10
+7 .  
+ 
+ 
+D. 
+10
+1 . 
+Câu 6. Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong 
+A. Bằng nhau. 
+ 
+              B. Phụ nhau. 
+C. Kề nhau. 
+ 
+              D. Kề bù. 
+Câu 7. Cho các số thập phân sau 0,12222...; 4,(5) ; 1,2184218 ; 11,2(312)
+−
+. Số thập phân 
+hữu hạn là: 
+A. 1,2184218 . 
+              
+ 
+ 
+B. 0,12222.... 
+          
+C. 4,(5) . 
+          
+ 
+ 
+ 
+D. 11,2(312)
+−
+. 
+Câu 8. Qua một điểm ở ngoài một đường thẳng, có bao nhiêu đường thẳng song song với 
+đường thẳng đó?           
+A. Không có.                 
+ 
+B. Có vô số.             
+C. Có ít nhất một            
+ 
+D. Chỉ có một. 
+ 
+ 
+
+=== TEST PAGE 13 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 9. Số hữu tỉ x thỏa mãn 
+2
+25
+x =
+ là 
+A. 625.  
+ 
+B. 5
+−. 
+ 
+C. 5 . 
+ 
+ 
+D. 5 hoặc 5
+−
+. 
+Câu 10. Mô tả quy tắc chuyển vế qua đẳng thức 
+1
+5
+2
+6
+−
+−+
+=
+x
+ ta được: 
+A. 
+5
+1
+6
+2
+x
+−
+−=
++
+. 
+ 
+B. 
+5
+1
+6
+2
+x =
++
+. 
+ 
+C. 
+5
+1
+6
+2
+x
+−
+=
++
+. 
+ 
+D. 
+5
+1
+6
+2
+x
+−
+=
+−
+. 
+Câu 11. Cho 3 đường thẳng phân biệt a, b, c. Biết a
+b
+⊥
+ và b
+c
+⊥, khi đó 
+A. 
+.
+a
+c
+⊥
+ 
+B. // .
+b c 
+          C. // .
+a b 
+                  D. // .
+a c 
+Câu 12. Căn bậc hai số học của 64 là : 
+A. 32.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B.  8 và 8
+−.                   
+C.  8. 
+−
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 8. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho 
+70
+xOy
+
+=
+. Trên tia Ox lấy điểm A . Kẻ tia Az sao cho 
+70
+xAz
+
+=
+. Trên tia Az lấy 
+điểm B , kẻ tia Bt cắt Oy tại C sao cho 
+110
+CBA
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+ 
+a) ABC và CBz là hai góc kề bù. 
+
+=== TEST PAGE 14 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) 
+70
+CBz
+
+=
+. 
+c) Oy song song với Az . 
+d) 
+110
+BCO
+
+=
+. 
+Câu 2. Cho biểu thức 
+3
+1
+3
+8
+2
+4
+M
+−
+
+
+= −
++
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+3
+1
+2
+
+
+−
+
+
+
+
+ bằng 
+1
+8
+−
+. 
+b) Giá trị tuyệt đối 
+3
+4
+− bằng 
+3
+4
+−
+. 
+c) Giá trị của biểu thức M bằng 
+1
+4
+−
+. 
+d) Giá trị M tìm được là một số hữu tỉ âm. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số hữu tỉ x , biết: 
+2
+1
+4
+3
+9
+x
+
+
+−
+=
+
+
+
+
+. 
+Câu 2.  Cho hai đường thẳng xx và yy cắt nhau tại điểm O . Biết 
+60
+xOy
+
+=
+. Tính số đo 
+góc đối đỉnh 
+x Oy
+
+ và góc kề bù x Oy
+
+ với góc xOy . 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) (
+)
+0
+0,25 .40 3
+2026
+−
++ +
+; 
+ 
+ 
+b) 1
+3
+13 1
+7
+8
+8
+7
+−
+−
+
++
+
+; 
+ 
+
+=== TEST PAGE 15 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) 
+(
+)
+2
+3
+2
+7
+3
+.3 : 4
+1
+2
+3
+6
+4
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+−
+
+
+. 
+Câu 2. Tìm x biết: 
+a)
+4,5
+9,5
++
+=
+x
+;                          b) 2
+1
+3
+5
+2
+8
+−
+=
+x
+;
+ 
+      
+ 
+c) 
+1
+1
+3
+1
+3
+2
+−
++
+=
+x
+. 
+Câu 3. Hai người thợ cùng làm một công việc. Nếu làm riêng thì người thứ nhất phải mất 
+3 giờ, người thứ hai phải mất 5 giờ mới hoàn thành công việc. Hỏi nếu làm chung trong 
+45 phút thì hai người làm được mấy phần công việc? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

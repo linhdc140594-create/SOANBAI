@@ -1,0 +1,445 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,arrows.meta}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[top=1.2cm, bottom=1.2cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[loigiai]{ex_test}
+\SAOPTN{widthSA=2.6,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{2pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Lời giải chi tiết -- Đề số 9}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I -- Toán 7}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+\textbf{\Large HƯỚNG DẪN CHẤM VÀ LỜI GIẢI CHI TIẾT}\\
+\vspace{1mm}
+\textbf{\large MÔN: TOÁN 7 -- ĐỀ SỐ 9}
+\end{center}
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}
+
+\vspace{1mm}
+\begin{ex}
+Trong các phân số sau, phân số nào biểu diễn số hữu tỉ $-0{,}5$?
+\choice
+{$\dfrac{1}{2}$}
+{\True $-\dfrac{1}{2}$}
+{$\dfrac{3}{5}$}
+{$-\dfrac{3}{5}$}
+\loigiai{
+Ta có: $-0{,}5 = -\dfrac{5}{10} = -\dfrac{1}{2}$.
+}
+\end{ex}
+
+\begin{ex}
+\immini{
+Quan sát trục số sau. Điểm $A$ biểu diễn số hữu tỉ nào?
+\choice
+{$\dfrac{3}{5}$}
+{$-\dfrac{3}{4}$}
+{$-3$}
+{\True $-\dfrac{3}{5}$}
+}{
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round]
+    \draw[thick, ->] (-3.8, 0) -- (3.8, 0);
+    \foreach \x in {-3.0, -2.4, -1.8, -1.2, -0.6, 0, 0.6, 1.2, 1.8, 2.4, 3.0} {
+        \draw[thick] (\x, 0.12) -- (\x, -0.12);
+    }
+    \node[below=3pt] at (0, -0.12) {$0$};
+    \node[below=3pt] at (3.0, -0.12) {$1$};
+    \filldraw[red] (-1.8, 0) circle (1.5pt) node[above=4pt, red, font=\bfseries] {$A$};
+\end{tikzpicture}
+}
+\loigiai{
+Đoạn đơn vị từ $0$ đến $1$ được chia thành $5$ phần bằng nhau, mỗi vạch chia tương ứng với $\dfrac{1}{5}$. Điểm $A$ nằm về phía bên trái điểm $0$ và cách điểm $0$ một khoảng bằng $3$ phần, nên điểm $A$ biểu diễn số hữu tỉ $-\dfrac{3}{5}$.
+}
+\end{ex}
+
+\begin{ex}
+Phép tính nào sau đây là không đúng?
+\choice
+{$(x^3)^4 = x^{12}$}
+{$x^{18} : x^6 = x^{12}$ ($x \neq 0$)}
+{\True $x^2 \cdot x^6 = x^{12}$}
+{$x^4 \cdot x^8 = x^{12}$}
+\loigiai{
+Theo quy tắc nhân hai lũy thừa cùng cơ số: $x^2 \cdot x^6 = x^{2+6} = x^8 \neq x^{12}$. Do đó phép tính $x^2 \cdot x^6 = x^{12}$ là sai.
+}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép tính $2^2 \cdot 2^5$ là:
+\choice
+{$2^{10}$}
+{$2^3$}
+{$2^5$}
+{\True $2^7$}
+\loigiai{
+Áp dụng quy tắc nhân hai lũy thừa cùng cơ số: $2^2 \cdot 2^5 = 2^{2+5} = 2^7$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có diện tích $81\text{ cm}^2$. Độ dài cạnh hình vuông đó là:
+\choice
+{$81\text{ cm}$}
+{\True $9\text{ cm}$}
+{$-9\text{ cm}$}
+{$\pm 9\text{ cm}$}
+\loigiai{
+Độ dài cạnh hình vuông là số dương $a$ thỏa mãn $a^2 = 81$. Do $9 > 0$ và $9^2 = 81$ nên $a = 9\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số $1{,}3781$ với độ chính xác $0{,}005$ được kết quả là:
+\choice
+{$1{,}37$}
+{$1{,}4$}
+{$1$}
+{\True $1{,}38$}
+\loigiai{
+Độ chính xác $0{,}005$ yêu cầu làm tròn số đến hàng phần trăm. Chữ số ở hàng phần nghìn là $8 \ge 5$, nên ta cộng $1$ vào chữ số hàng phần trăm: $1{,}3781 \approx 1{,}38$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các hình sau, hình nào không phải là hình lăng trụ đứng tứ giác?
+\begin{center}
+\includegraphics[width=10.5cm]{crops/test_p42_xref3051.png}
+\end{center}
+\choice
+{Hình 1}
+{\True Hình 2}
+{Hình 3}
+{Hình 4}
+\loigiai{
+Hình 2 có hai mặt đáy là hình tam giác nên đây là hình lăng trụ đứng tam giác, không phải là hình lăng trụ đứng tứ giác.
+}
+\end{ex}
+
+\begin{ex}
+Thực hiện phép tính $M = \dfrac{13}{31} + \dfrac{4}{15} + \dfrac{18}{31} + \dfrac{2024}{2025} - \dfrac{19}{15}$, ta được kết quả là:
+\choice
+{\True $M = \dfrac{2024}{2025}$}
+{$M = -\dfrac{2024}{2025}$}
+{$M = 1$}
+{$M = 0$}
+\loigiai{
+Nhóm các phân số có cùng mẫu số:
+\[ M = \left(\dfrac{13}{31} + \dfrac{18}{31}\right) + \left(\dfrac{4}{15} - \dfrac{19}{15}\right) + \dfrac{2024}{2025} = 1 + (-1) + \dfrac{2024}{2025} = \dfrac{2024}{2025}. \]
+}
+\end{ex}
+
+\begin{ex}
+\immini{
+Tia phân giác của $\widehat{xOm}$ và $\widehat{yOn}$ lần lượt là:
+\choice
+{\True $Ok$ và $Ou$}
+{$Ox$ và $Oy$}
+{$Ou$ và $Om$}
+{$Ok$ và $On$}
+}{
+\begin{tikzpicture}[scale=0.8, line cap=round, line join=round]
+    \coordinate (O) at (0, 0);
+    \coordinate (x) at (-2.8, 0);
+    \coordinate (y) at (2.8, 0);
+    \coordinate (k) at ({2.5*cos(150)}, {2.5*sin(150)});
+    \coordinate (m) at ({2.5*cos(120)}, {2.5*sin(120)});
+    \coordinate (n) at ({2.5*cos(60)}, {2.5*sin(60)});
+    \coordinate (u) at ({2.5*cos(30)}, {2.5*sin(30)});
+
+    \draw[thick] (-3.0, 0) -- (3.0, 0);
+    \draw[thick] (O) -- (k);
+    \draw[thick] (O) -- (m);
+    \draw[thick] (O) -- (n);
+    \draw[thick] (O) -- (u);
+
+    \node[below] at (O) {$O$};
+    \node[below left] at (-2.8, 0) {$x$};
+    \node[below right] at (2.8, 0) {$y$};
+    \node[above left] at (k) {$k$};
+    \node[above] at (m) {$m$};
+    \node[above] at (n) {$n$};
+    \node[above right] at (u) {$u$};
+
+    % Arcs for xOk and kOm
+    \draw[thick] (O) ++(180:0.6) arc (180:150:0.6);
+    \draw[thick] (O) ++(150:0.6) arc (150:120:0.6);
+    \draw[thick] ($(O)+(165:0.53)$) -- ($(O)+(165:0.67)$);
+    \draw[thick] ($(O)+(135:0.53)$) -- ($(O)+(135:0.67)$);
+
+    % Arcs for yOu and uOn
+    \draw[thick] (O) ++(0:0.6) arc (0:30:0.6);
+    \draw[thick] (O) ++(30:0.6) arc (30:60:0.6);
+    \draw[thick] ($(O)+(13:0.53)$) -- ($(O)+(13:0.67)$);
+    \draw[thick] ($(O)+(17:0.53)$) -- ($(O)+(17:0.67)$);
+    \draw[thick] ($(O)+(43:0.53)$) -- ($(O)+(43:0.67)$);
+    \draw[thick] ($(O)+(47:0.53)$) -- ($(O)+(47:0.67)$);
+\end{tikzpicture}
+}
+\loigiai{
+Ký hiệu trên hình thể hiện góc $\widehat{xOk} = \widehat{kOm}$ nên $Ok$ là tia phân giác của $\widehat{xOm}$. Ký hiệu trên hình thể hiện góc $\widehat{yOu} = \widehat{uOn}$ nên $Ou$ là tia phân giác của $\widehat{yOn}$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng ba góc trong một tam giác luôn bằng:
+\choice
+{$90^\circ$}
+{$120^\circ$}
+{\True $180^\circ$}
+{$360^\circ$}
+\loigiai{
+Theo định lí về tổng ba góc trong một tam giác, tổng ba góc của một tam giác luôn bằng $180^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường thẳng $xy$ và $x'y'$ cắt nhau tại $O$. Biết $\widehat{xOx'} = 70^\circ$. $Ot$ là tia phân giác của $\widehat{xOx'}$, $Ot'$ là tia đối của tia $Ot$. Tính số đo góc $\widehat{yOt'}$?
+\choice
+{\True $35^\circ$}
+{$70^\circ$}
+{$145^\circ$}
+{$110^\circ$}
+\loigiai{
+Do $Ot$ là tia phân giác của $\widehat{xOx'}$ nên $\widehat{xOt} = \dfrac{\widehat{xOx'}}{2} = \dfrac{70^\circ}{2} = 35^\circ$. Vì tia $Oy$ là tia đối của tia $Ox$ và tia $Ot'$ là tia đối của tia $Ot$ nên hai góc $\widehat{yOt'}$ và $\widehat{xOt}$ là hai góc đối đỉnh. Suy ra $\widehat{yOt'} = \widehat{xOt} = 35^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Đối với biểu thức không có dấu ngoặc và chỉ có các phép tính: cộng, trừ, nhân, chia, lũy thừa, thì thứ tự thực hiện phép tính đúng là:
+\choice
+{\True Lũy thừa $\to$ Nhân và chia $\to$ Cộng và trừ}
+{Nhân và chia $\to$ Lũy thừa $\to$ Cộng và trừ}
+{Cộng và trừ $\to$ Nhân và chia $\to$ Lũy thừa}
+{Lũy thừa $\to$ Cộng và trừ $\to$ Nhân và chia}
+\loigiai{
+Thứ tự ưu tiên thực hiện phép tính đúng: Lũy thừa $\to$ Nhân và chia $\to$ Cộng và trừ.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+
+\vspace{1mm}
+\begin{ex}
+Cho biểu thức $P = \left(-\dfrac{2}{3}\right)^2 + \dfrac{5}{9} : \left(-\dfrac{5}{3}\right) - \left|-\dfrac{1}{3}\right|$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True Giá trị của lũy thừa $\left(-\dfrac{2}{3}\right)^2$ bằng $\dfrac{4}{9}$}
+{\True Kết quả của phép chia $\dfrac{5}{9} : \left(-\dfrac{5}{3}\right)$ bằng $-\dfrac{1}{3}$}
+{Giá trị tuyệt đối $\left|-\dfrac{1}{3}\right|$ bằng $-\dfrac{1}{3}$}
+{\True Giá trị của biểu thức $P$ bằng $-\dfrac{2}{9}$}
+\loigiai{
+\begin{itemize}[leftmargin=0.6cm, itemsep=1pt]
+\item \textbf{a)} \textbf{Đúng}. Ta có $\left(-\dfrac{2}{3}\right)^2 = \dfrac{(-2)^2}{3^2} = \dfrac{4}{9}$.
+\item \textbf{b)} \textbf{Đúng}. Thực hiện phép chia: $\dfrac{5}{9} : \left(-\dfrac{5}{3}\right) = \dfrac{5}{9} \cdot \left(-\dfrac{3}{5}\right) = -\dfrac{3}{9} = -\dfrac{1}{3}$.
+\item \textbf{c)} \textbf{Sai}. Giá trị tuyệt đối của số âm là số đối của nó: $\left|-\dfrac{1}{3}\right| = \dfrac{1}{3} \neq -\dfrac{1}{3}$.
+\item \textbf{d)} \textbf{Đúng}. Thay các kết quả vào biểu thức $P$: $P = \dfrac{4}{9} + \left(-\dfrac{1}{3}\right) - \dfrac{1}{3} = \dfrac{4}{9} - \dfrac{6}{9} = -\dfrac{2}{9}$.
+\end{itemize}
+}
+\end{ex}
+
+\begin{ex}
+Cho $\Delta ABC = \Delta DEF$ với $AB = 8\text{ cm}, BC = 6\text{ cm}, DF = 10\text{ cm}$; $\widehat{B} = 90^\circ, \widehat{C} = 53^\circ$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{Số đo góc $E$ bằng $53^\circ$}
+{\True Độ dài cạnh $AC = 10\text{ cm}$}
+{Độ dài cạnh $EF = 8\text{ cm}$}
+{\True Tổng số đo $\widehat{D} + \widehat{F} = 90^\circ$}
+\loigiai{
+\begin{itemize}[leftmargin=0.6cm, itemsep=1pt]
+\item \textbf{a)} \textbf{Sai}. Vì $\Delta ABC = \Delta DEF$ nên hai góc tương ứng $\widehat{E} = \widehat{B} = 90^\circ \neq 53^\circ$.
+\item \textbf{b)} \textbf{Đúng}. Hai tam giác bằng nhau có các cạnh tương ứng bằng nhau: $AC = DF = 10\text{ cm}$.
+\item \textbf{c)} \textbf{Sai}. Cạnh tương ứng với cạnh $EF$ là cạnh $BC$, suy ra $EF = BC = 6\text{ cm} \neq 8\text{ cm}$.
+\item \textbf{d)} \textbf{Đúng}. Xét tam giác $DEF$ vuông tại $E$ (vì $\widehat{E} = 90^\circ$), tổng ba góc trong một tam giác bằng $180^\circ$ nên $\widehat{D} + \widehat{F} = 180^\circ - 90^\circ = 90^\circ$.
+\end{itemize}
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+
+\vspace{1mm}
+\begin{ex}
+Tìm số hữu tỉ $x$, biết: $\dfrac{2}{3} + \dfrac{1}{3} : x = -\dfrac{1}{6}$. \shortans{$-\dfrac{2}{5}$}
+\loigiai{
+Ta có:
+\[ \dfrac{1}{3} : x = -\dfrac{1}{6} - \dfrac{2}{3} = -\dfrac{5}{6} \implies x = \dfrac{1}{3} : \left(-\dfrac{5}{6}\right) = \dfrac{1}{3} \cdot \left(-\dfrac{6}{5}\right) = -\dfrac{2}{5}. \]
+
+\textbf{Đáp số:} $-\dfrac{2}{5}$
+}
+\end{ex}
+
+\begin{ex}
+\immini{
+Cho hình vẽ sau, biết $\widehat{CFE} = 60^\circ$ và $\widehat{E}_1 = 120^\circ$. Số đo của góc $\widehat{FEB}$ bằng bao nhiêu độ?
+\vspace{1mm}
+\hfill\shortans{$60^\circ$}
+}{
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round]
+    \coordinate (E) at (1.1, 0);
+    \coordinate (F) at (2.4, 1.6);
+
+    \draw[thick, blue!80!black] (-0.8, 1.6) -- (4.2, 1.6);
+    \draw[thick, blue!80!black] (-0.8, 0) -- (4.2, 0);
+
+    \filldraw[black] (-0.3, 1.6) circle (1pt) node[above=2pt] {$C$};
+    \filldraw[black] (3.8, 1.6) circle (1pt) node[above=2pt] {$D$};
+    \filldraw[black] (-0.3, 0) circle (1pt) node[below=2pt] {$A$};
+    \filldraw[black] (3.8, 0) circle (1pt) node[below=2pt] {$B$};
+
+    \draw[thick, blue!80!black] ($(E)!-0.5!(F)$) -- ($(F)!-0.5!(E)$);
+
+    \node[above left=1pt] at (E) {$E$};
+    \node[above left=1pt] at (F) {$F$};
+
+    % Angle CFE = 60 deg
+    \fill[gray!20] (F) -- ++(180:0.45) arc (180:231:0.45) -- cycle;
+    \draw[thick] (F) ++(180:0.45) arc (180:231:0.45);
+    \node[font=\footnotesize, below left=1pt] at ($(F)+(-0.35, -0.05)$) {$60^\circ$};
+
+    % Angle E1 = 120 deg
+    \fill[gray!20] (E) -- ++(0:0.45) arc (0:-129:0.45) -- cycle;
+    \draw[thick] (E) ++(0:0.45) arc (0:-129:0.45);
+    \node[font=\footnotesize, below=2pt] at ($(E)+(0.22, -0.05)$) {$1$};
+    \node[font=\footnotesize, below right=1pt] at ($(E)+(0.1, -0.35)$) {$120^\circ$};
+\end{tikzpicture}
+}
+\loigiai{
+Vì $\widehat{FEB}$ và $\widehat{E}_1$ là hai góc kề bù nên:
+\[ \widehat{FEB} + \widehat{E}_1 = 180^\circ \implies \widehat{FEB} = 180^\circ - 120^\circ = 60^\circ. \]
+(Hơn nữa, ta thấy $\widehat{CFE} = \widehat{FEB} = 60^\circ$, mà hai góc này ở vị trí so le trong nên $CD \parallel AB$).
+
+\textbf{Đáp số:} $60^\circ$
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN}
+
+\vspace{1mm}
+\begin{ex}
+Thực hiện phép tính (tính hợp lí nếu có):
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1pt]
+\item $\dfrac{-4}{12} + \dfrac{14}{21}$;
+\item $\dfrac{8}{3} \cdot \dfrac{9}{4}$.
+\end{enumerate}
+\loigiai{
+\textbf{a)} $\dfrac{-4}{12} + \dfrac{14}{21} = -\dfrac{1}{3} + \dfrac{2}{3} = \dfrac{1}{3}$.
+
+\textbf{b)} $\dfrac{8}{3} \cdot \dfrac{9}{4} = \dfrac{8 \cdot 9}{3 \cdot 4} = 2 \cdot 3 = 6$.
+}
+\end{ex}
+\vspace{2mm}
+
+\begin{ex}
+Tìm $x$, biết:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1pt]
+\item $x - \dfrac{2}{3} = \dfrac{5}{6}$;
+\item $(1 - x)^2 = \dfrac{4}{9}$.
+\end{enumerate}
+\loigiai{
+\textbf{a)} $x = \dfrac{5}{6} + \dfrac{2}{3} = \dfrac{5}{6} + \dfrac{4}{6} = \dfrac{9}{6} = \dfrac{3}{2}$.
+
+\textbf{b)} Vì $\left(\dfrac{2}{3}\right)^2 = \dfrac{4}{9}$ và $\left(-\dfrac{2}{3}\right)^2 = \dfrac{4}{9}$, ta xét hai trường hợp:
+\begin{itemize}[leftmargin=0.6cm]
+\item \textbf{Trường hợp 1:} $1 - x = \dfrac{2}{3} \implies x = 1 - \dfrac{2}{3} = \dfrac{1}{3}$.
+\item \textbf{Trường hợp 2:} $1 - x = -\dfrac{2}{3} \implies x = 1 - \left(-\dfrac{2}{3}\right) = \dfrac{5}{3}$.
+\end{itemize}
+Vậy $x \in \left\{\dfrac{1}{3}; \dfrac{5}{3}\right\}$.
+}
+\end{ex}
+\vspace{2mm}
+
+\begin{ex}
+\immini{
+Cho hình vẽ, biết rằng: $\widehat{mAx} = 40^\circ, \widehat{ABt} = 140^\circ$.
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1pt]
+\item Tính số đo góc $\widehat{mAy}$;
+\item Chứng tỏ $xy \parallel zt$;
+\item Tia phân giác của góc $\widehat{xAB}$ cắt đường thẳng $zt$ tại điểm $C$. Tính số đo $\widehat{ACB}$.
+\end{enumerate}
+}{
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round]
+    \coordinate (A) at (1.8, 1.6);
+    \coordinate (B) at (3.8, 0);
+
+    \draw[thick, blue!80!black] (-0.5, 1.6) -- (5.8, 1.6);
+    \draw[thick, blue!80!black] (-0.5, 0) -- (5.8, 0);
+
+    \node[above] at (-0.3, 1.6) {$x$};
+    \node[above] at (5.5, 1.6) {$y$};
+    \node[above] at (-0.3, 0) {$z$};
+    \node[above] at (5.5, 0) {$t$};
+
+    % Line mB
+    \draw[thick, blue!80!black] ($(A)!-0.5!(B)$) -- ($(B)!-0.4!(A)$);
+
+    \node[above right=1pt] at ($(A)!-0.5!(B)$) {$m$};
+    \filldraw[black] (A) circle (1.2pt) node[above right=2pt] {$A$};
+    \filldraw[black] (B) circle (1.2pt) node[below=3pt] {$B$};
+
+    % Angle mAx = 40 deg
+    \draw[thick] (A) ++(180:0.45) arc (180:141:0.45);
+    \node[font=\footnotesize] at ($(A)+(-0.65, 0.35)$) {$40^\circ$};
+
+    % Angle ABt = 140 deg
+    \draw[thick] (B) ++(0:0.45) arc (0:141:0.45);
+    \node[font=\footnotesize] at ($(B)+(0.55, 0.4)$) {$140^\circ$};
+\end{tikzpicture}
+}
+\loigiai{
+\textbf{a)} Vì $\widehat{mAx}$ và $\widehat{mAy}$ là hai góc kề bù nên:
+\[ \widehat{mAx} + \widehat{mAy} = 180^\circ \implies \widehat{mAy} = 180^\circ - 40^\circ = 140^\circ. \]
+
+\textbf{b)} Ta có $\widehat{mAy} = 140^\circ$ và $\widehat{ABt} = 140^\circ \implies \widehat{mAy} = \widehat{ABt} = 140^\circ$.
+Mà hai góc này ở vị trí đồng vị, do đó $xy \parallel zt$.
+
+\textbf{c)} Vì $\widehat{mAx}$ và $\widehat{xAB}$ là hai góc kề bù nên:
+\[ \widehat{xAB} = 180^\circ - \widehat{mAx} = 180^\circ - 40^\circ = 140^\circ. \]
+Vì $AC$ là tia phân giác của $\widehat{xAB}$ nên:
+\[ \widehat{xAC} = \dfrac{\widehat{xAB}}{2} = \dfrac{140^\circ}{2} = 70^\circ. \]
+Do $xy \parallel zt$ (theo câu b) nên hai góc so le trong bằng nhau:
+\[ \widehat{ACB} = \widehat{xAC} = 70^\circ. \]
+}
+\end{ex}
+\vspace{2mm}
+
+\begin{ex}
+Cho biểu thức $M = \dfrac{1}{2^2} + \dfrac{1}{3^2} + \dfrac{1}{3^4} + \dfrac{1}{3^6} + \dots + \dfrac{1}{3^{802}}$. Chứng minh rằng $M < \dfrac{3}{8}$.
+\loigiai{
+Đặt $N = \dfrac{1}{3^2} + \dfrac{1}{3^4} + \dfrac{1}{3^6} + \dots + \dfrac{1}{3^{802}}$, khi đó $M = \dfrac{1}{4} + N$.
+Nhân cả hai vế của $N$ với $3^2 = 9$:
+\[ 9N = 1 + \dfrac{1}{3^2} + \dfrac{1}{3^4} + \dots + \dfrac{1}{3^{800}}. \]
+Trừ từng vế cho $N$:
+\[ 8N = 9N - N = 1 - \dfrac{1}{3^{802}}. \]
+Vì $\dfrac{1}{3^{802}} > 0$ nên $1 - \dfrac{1}{3^{802}} < 1 \implies 8N < 1 \implies N < \dfrac{1}{8}$.
+Do đó: $M = \dfrac{1}{4} + N < \dfrac{1}{4} + \dfrac{1}{8} = \dfrac{3}{8}$. (đpcm)
+}
+\end{ex}
+\vspace{2mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

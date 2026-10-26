@@ -1,0 +1,474 @@
+
+=== TEST PAGE 35 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 8 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1.  Số nào dưới đây là số hữu tỉ dương 
+A.  3
+2
+−
+−.    
+  
+B. 2
+7
+−. 
+         
+C.  1
+3
+−.          
+ 
+D.  3
+15
+−. 
+Câu 2. Căn bậc hai số học của 64 là : 
+A. 32.                        
+ 
+ 
+ 
+ 
+B. 8 và 8
+−.                   
+C.  8.
+−
+                         
+ 
+ 
+ 
+ 
+D. 8. 
+Câu 3. Chọn đáp án đúng? 
+ 
+A. 
+1
+a
+3
+=
+. 
+ 
+B. 
+1
+a
+2 3
+=
+. 
+ 
+C. 
+2
+a
+13
+=
+. 
+ 
+D. 
+2
+a
+3
+=
+. 
+Câu 4. Trong các hình sau, hình nào có dạng là hình lăng trụ đứng tam giác? 
+       
+                 
+                
+                
+ 
+Hình 1                           Hình 2                             Hình 3                           Hình 4 
+
+=== TEST PAGE 36 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A.  Hình 1. 
+    B. Hình 2. 
+        C. Hình 3. 
+         D. Hình 4. 
+Câu 5. Hai đường thẳng AB và CD cắt nhau tại O. Góc đối đỉnh với 𝐴𝑂𝐶̂ là 
+ 
+A. 
+.
+AOC 
+ 
+ 
+B. 
+.
+AOD 
+ 
+ 
+C. 
+.
+DOB 
+ 
+       D. 
+.
+BOC 
+Câu 6. Kết quả của phép nhân 
+8
+4
+(0,25)
+(0,25)
+
+ là: 
+A. 
+12
+(0,25) .  
+ 
+B. 
+4
+(0,25) .  
+     
+C. 
+2
+(0,25) .  
+  D. 
+32
+(0,25) . 
+Câu 7. Khẳng định nào sau đây là đúng? 
+A. Nếu a là số tự nhiên thì a là số vô tỉ. 
+B. Nếu a là số hữu tỉ thì a không thể là số vô tỉ. 
+C. Số thập phân vô hạn tuần hoàn là số vô tỉ. 
+D. Số thập phân hữu hạn là số vô tỉ. 
+Câu 8. Trong các số sau, số nào là số vô tỉ? 
+A. 
+2
+5 .                                    B. 
+3.                            C. 
+2
+(3,5) .                          D. 16. 
+Câu 9.  Cho tam giác ABC có 
+0
+70
+A =
+, 
+0
+50
+B =
+ Số đo góc C là: 
+A. 60 .                         
+     B. 70 .                             C. 80 .                                 D. 90 . 
+Câu 10. Bạn Việt tiết kiệm được 105000đồng. Nhằm thực hiện thông điệp 5K (Khẩu trang 
+– Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế) chủ động phòng chống dịch 
+Covid- 19, bạn Việt đã dùng 1
+3 số tiền tiết kiệm được dùng để mua khẩu trang. Bạn Việt 
+còn bao nhiêu tiền? 
+
+=== TEST PAGE 37 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 25000 đồng. 
+ 
+ 
+ 
+ 
+ 
+B. 30000 đồng. 
+ 
+C. 35000 đồng. 
+ 
+ 
+ 
+ 
+ 
+D. 70000 đồng. 
+Câu 11. Tìm số nguyên a để 3
+3
+4
+10
+5
+a
+−
+−
+
+
+ 
+A. 
+
+
+6; 7
+a−
+−
+ . 
+ 
+ 
+ 
+ 
+ 
+B. 
+6
+a = −. 
+ 
+ 
+ 
+C. 
+7
+a = −. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+
+
+7; 8
+a−
+−
+. 
+Câu 12. Cho hình lăng trụ đứng tam giác 
+.
+ABC A B C
+. Các mặt bên của hình lăng trụ trên 
+là những hình gì? 
+ 
+A. Tam giác.  
+ 
+ 
+ 
+ 
+ 
+B. Tứ giác. 
+C. Hình chữ nhật. 
+ 
+ 
+ 
+ 
+ 
+D. Hình vuông. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai biểu thức 
+2
+1
+5
+9
+3
+2
+A
+−
+
+
+= −
+−
+
+
+
+
+ và 
+7
+1
+:
+4
+2
+B
+
+
+=
+−
+
+
+
+
+. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+1
+3
+
+
+−
+
+
+
+
+ bằng 1
+9 . 
+b) Giá trị của biểu thức A bằng 
+3
+2
+−
+. 
+
+=== TEST PAGE 38 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Kết quả của phép tính 
+7
+1
+:
+4
+2
+B
+
+
+=
+−
+
+
+
+
+ bằng 
+7
+8
+−
+. 
+d) Tổng A
+B
++
+ có giá trị bằng 5
+−. 
+Câu 2. Quan sát hình vẽ, biết 
+55
+CFE
+
+=
+ và góc 
+1
+125
+E
+
+=
+. Xét tính đúng sai của các mệnh 
+đề sau: 
+ 
+a) Góc AEF và góc 
+1
+E là hai góc đối đỉnh. 
+b) Số đo của góc FEB bằng 55. 
+c) Hai đường thẳng CD và AB song song với nhau. 
+d) Số đo của góc 
+EFD bằng 110. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính giá trị của biểu thức: 
+3
+4
+3
+2
+15
+2
+6
+5
+A
+
+=
+
+. 
+Câu 2. Cho hình vẽ sau, biết //
+a b, 
+4
+135
+A =
+. Số đo của  
+2
+B  bằng bao nhiêu độ?  
+
+=== TEST PAGE 39 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính hợp lí nếu có): 
+a) 5
+0,75;
+2 +
+  
+ 
+ 
+ 
+b) 2
+3
+9
+2
+2025;
+11
+5
+11
+5
+−+
+−
++
++
+ 
+c) 
+2026
+1 5
+1 13
+( 1)
+.
+13 18
+13 18
+13
+−
+−
+−
+
++
+
++
+ 
+Câu 2. Cho các số sau: 
+( )
+4
+3,9; 29%; 7; 0, 8 ; 
+; 3; 
+5; 
+99
+
+−
+−
+. Trong các số trên, có 
+bao nhiêu số vô tỉ? 
+Câu 3. Cho hình vẽ, biết 
+0
+80
+ABI =
+. 
+ 
+a) Chứng minh: 
+/ /
+m
+n 
+b) Tính 
+cAH và mAc  
+
+=== TEST PAGE 40 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Vẽ tia AE là tia phân giác của 
+cAH .  Tia BF là tia phân giác của ABI . Chứng minh:  
+/ / 
+AE
+BF . 
+Câu 4. Một cửa hàng nhập về 100 cái áo với giá gốc 200000 đồng/ cái. Cửa hàng đã bán 
+60 cái áo với giá mỗi cái lãi 25% so với giá gốc, 40 cái còn lại bán lỗ 10% so với giá gốc. 
+Hỏi sau khi bán hết 100 cái áo cửa hàng đó lãi hay lỗ bao nhiêu tiền? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

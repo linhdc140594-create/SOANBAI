@@ -1,7 +1,7 @@
 # ĐÁP ÁN & THANG ĐIỂM CHI TIẾT: TOÁN 7 - TUẦN 07 - BUỔI 01
 ## CHỦ ĐỀ: ĐỀ ÔN TẬP KIỂM TRA GIỮA HỌC KỲ 1 (ĐỀ SỐ 02) - TỔNG HỢP TOÀN DIỆN & TIÊN ĐỀ EUCLID
 ### Đơn vị biên soạn: Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn)
-### Thang điểm 10 | Bố cục chuẩn Gold Standard: 10 câu trả lời ngắn + 4 bài tự luận | 4 mã đề: 101, 102, 103, 104
+### Thang điểm 10 | Bố cục chuẩn Gold Standard: 10 câu trả lời ngắn + 3 bài tự luận | 4 mã đề: 101, 102, 103, 104
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 📝 II. HƯỚNG DẪN CHẤM & THANG ĐIỂM TỰ LUẬN CHI TIẾT (CÂU 11 $\to$ CÂU 14)
+## 📝 II. HƯỚNG DẪN CHẤM & THANG ĐIỂM TỰ LUẬN CHI TIẾT (CÂU 11 $\to$ CÂU 13)
 
 ### 🔹 CÂU 11 (2,0 ĐIỂM): THỰC HIỆN PHÉP TÍNH (MỖI Ý 0,5 ĐIỂM)
 

@@ -1,0 +1,1443 @@
+
+=== PAGE 221 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 14 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Phát biểu nào sau đây là đúng  
+A. 2
+3 . 
+ 
+ 
+ 
+ 
+ 
+ 
+B. 5
+−. 
+ 
+ 
+ 
+C. 5
+4
+−. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 3
+2 . 
+Lời giải. 3
+2 là phân số có dạng a
+b với ,
+,
+0
+a b
+b
+
+
+
+ nên 3
+2 . Đáp án đúng: D. 
+Câu 2. Số giá trị nguyên của x thỏa mãn 2
+1
+3
+12
+4
+x
+−
+−
+
+
+ là 
+A. 3 .  
+ 
+ 
+B. 2 .  
+ 
+ 
+C. 5 .  
+ 
+ 
+ D. 4 . 
+Lời giải. Quy đồng mẫu số các phân số về mẫu số chung là 12: 
+8
+3
+12
+12
+12
+x
+−
+−
+
+
+ 
+8
+3
+x
+−
+− 
+Vì x nên 
+{ 7; 6; 5; 4}
+x−
+−
+−
+−
+. Vậy có tất cả 4 giá trị nguyên của x . 
+Đáp án đúng: D. 
+Câu 3. Số 9 có căn bậc hai số học là: 
+A. 3 và -3. 
+ 
+ 
+B. 3.  
+ 
+ 
+C. -3.  
+ 
+ 
+D. 18. 
+Lời giải. Căn bậc hai số học của 9 là 
+9
+3
+= . 
+Đáp án đúng: B. 
+
+
+=== PAGE 222 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 4. Cho hình vẽ, biết OB là tia phân giác của 
+AOC , khi đó số đo của AOB là:  
+ 
+A. 65. 
+ 
+B. 32.  
+C. 130. 
+ 
+D. 18. 
+Lời giải. Do OB là tia phân giác của 
+AOC nên 
+
+32
+AOB
+BOC
+
+=
+=
+.  
+Đáp án đúng: B. 
+Câu 5. Kết quả của phép tính 
+2024
+2022
+1
+1
+:
+3
+3
+−
+−
+
+
+
+
+
+
+
+
+
+
+
+
+là: 
+A. 1
+3 . 
+ 
+        B. 
+1
+9
+−. 
+  
+C. 1
+9 .    
+ 
+        D. 2
+3
+−. 
+Lời giải. Áp dụng quy tắc chia hai lũy thừa cùng cơ số:  
+2024 2022
+2
+1
+1
+1
+3
+3
+9
+−
+−
+−
+
+
+
+
+=
+=
+
+
+
+
+
+
+
+
+. 
+Đáp án đúng: C. 
+Câu 6. Chọn đáp án đúng?
+ 
+A. 
+1
+a
+3
+=
+. 
+ 
+B. 
+1
+a
+2 3
+=
+. 
+ 
+ 
+C. 
+2
+a
+13
+=
+. 
+ 
+D. 
+2
+a
+3
+=
+. 
+
+
+=== PAGE 223 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Đoạn đơn vị từ 0 đến 1 trên trục số được chia thành 3 phần bằng nhau. Điểm a 
+nằm ở vạch chia thứ 2 theo chiều dương tính từ gốc 0 , do đó 
+2
+3
+a =
+. 
+Đáp án đúng: D. 
+Câu 7. Trong các số 
+9
+7
+5 0 13
+;
+;0,2;
+3
+;
+;
+5
+15
+2 8
+5
+
+
+
+ có bao nhiêu số hữu tỉ dương? 
+A. 1.                           
+B. 3.                           
+C. 2.                         
+D. 4. 
+Lời giải. Các số hữu tỉ dương là: 
+7
+7
+15
+15
+−
+=
+−
+, 0,2 và 13
+5 . Tổng cộng có 3 số hữu tỉ dương. 
+Đáp án đúng: B. 
+Câu 8. Cho 
+80
+xOy =
+. Góc đối đỉnh với xOy có số đo độ là 
+A. 50. 
+ 
+ 
+B. 80. 
+ 
+ 
+C. 100. 
+ 
+        D. 120. 
+Lời giải. Hai góc đối đỉnh thì bằng nhau nên góc đối đỉnh với xOy cũng bằng 80.  
+Đáp án đúng: B. 
+Câu 9. Các mặt của hình lập phương đều là 
+A. Hình vuông. 
+             
+ 
+ 
+ 
+B. Tam giác đều. 
+            
+C.  Hình chữ nhật.              
+ 
+ 
+ 
+D. Hình thoi. 
+Lời giải. Hình lập phương có 6 mặt đều là các hình vuông bằng nhau. Đáp án đúng: A. 
+Câu 10. Cho hình vẽ. Biết 
+
+1
+60 ,
+120
+CFE
+E
+=
+
+=
+. Cho các khẳng định sau: 
+ 
+
+
+=== PAGE 224 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+(I) 
+60 .
+BEF =
+ 
+ 
+ 
+ 
+(II) AB
+CD
+∥
+. 
+Khẳng định nào sau đây là đúng? 
+A. Chỉ (I) đúng.  
+B. Chỉ (II) đúng. 
+C. Cả (I) và (II) đều đúng. 
+D. Cả (I) và (II) đều sai. 
+Lời giải. Do 
+BEF và 
+1
+E là hai góc kề bù nên: 
+
+
+1
+180
+180
+120
+60
+BEF
+E
+
+
+
+
+=
+−
+=
+−
+=
+.  
+Suy ra khẳng định (I) đúng. 
+Nhận thấy 
+60
+CFE
+
+=
+ và 
+60
+BEF
+
+=
+ là hai góc ở vị trí so le trong bằng nhau, suy ra 
+/ /
+.
+AB
+CD 
+Suy ra khẳng định (II) đúng. 
+Vậy cả (I) và (II) đều đúng. 
+Đáp án đúng: C. 
+Câu 11. Hai đường thẳng 
+'
+xx và 
+'
+yy cắt nhau tại O . Góc đối đỉnh với 
+'
+xOy là 
+A. '
+'
+x Oy . 
+ 
+ 
+B. 'x Oy . 
+ 
+ 
+C. 
+'
+xOy . 
+ 
+      D. 'y Oy . 
+Lời giải. Tia đối của Ox là Ox, tia đối của Oy là Oy. Do đó góc đối đỉnh với xOy là 
+
+x Oy
+
+. Đáp án đúng: A. 
+Câu 12. Cho ba đường thẳng phân biệt a, b, c biết 
+và 
+. Kết luận nào đúng? 
+A. a cắt b. 
+ 
+      
+B. 
+ 
+ 
+      C. 
+.
+a
+b
+
+  
+          D. a trùng b.  
+Lời giải. Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì song 
+song với nhau, tức là 
+/ /
+a
+b . Đáp án đúng: B. 
+ 
+ 
+ 
+
+a
+c
+
+c
+b
+/ / .
+a
+b
+
+
+=== PAGE 225 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+2
+3
+5
+1
+3
+5
+6
+2
+4
+P
+
+
+
+
+=
+−
++ −
+−−
+
+
+
+
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của phép nhân 3
+5
+5
+6
+
+
+−
+
+
+
+
+ bằng 
+1
+2
+−
+. 
+b) Giá trị của lũy thừa 
+2
+1
+2
+
+
+−
+
+
+
+
+ bằng 
+1
+4
+−
+. 
+c) Giá trị tuyệt đối 
+3
+4
+−
+ bằng 3
+4 . 
+d) Giá trị của biểu thức P bằng 1
+−. 
+Lời giải. 
+a) Đúng. Thực hiện phép nhân giữa hai số hữu tỉ: 3
+5
+3 ( 5)
+15
+1
+5
+6
+5 6
+30
+2
+−
+−
+
+
+−
+=
+=
+= −
+
+
+
+
+
+ 
+b) Sai. Lũy thừa bậc chẵn của một số âm luôn cho kết quả dương: 
+2
+1
+1
+1
+1
+2
+2
+2
+4
+
+
+
+
+
+−
+= −
+−
+=
+
+
+
+
+
+
+
+
+
+
+ 
+c) Đúng. Giá trị tuyệt đối của một số không âm luôn là chính nó, do đó 
+3
+3
+4
+4
+−
+=
+. 
+d) Đúng. Thay các giá trị đã tính ở trên vào biểu thức P : 
+1
+1
+3
+2
+1
+3
+2 1 3
+4
+1
+2
+4
+4
+4
+4
+4
+4
+4
+P
+−+ −
+−
+= −
++
+−
+= −
++
+−
+=
+=
+= − 
+Câu 2. Quan sát hình vẽ, biết đường thẳng d
+m
+⊥
+ tại H , d
+n
+⊥
+ tại I ; đường thẳng c cắt 
+m tại A và cắt n tại B sao cho góc 
+80
+ABI
+
+=
+. Xét tính đúng sai của các mệnh đề sau:    
+a) Hai đường thẳng m và n song song với nhau ( m n
+). 
+b) Góc so le trong với góc ABI tại đỉnh A có số đo bằng 80. 
+
+
+=== PAGE 226 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Góc trong cùng phía với góc ABI tại đỉnh A có số đo bằng 80. 
+d) Số đo góc AHI bằng 90. 
+ 
+Lời giải. 
+a) Đúng. Vì hai đường thẳng m và n cùng vuông góc với đường thẳng d nên m n
+.    
+b) Đúng. Vì m n
+ nên hai góc ở vị trí so le trong bằng nhau, suy ra góc so le trong với góc 
+ABI tại đỉnh A có số đo đúng bằng 
+80
+ABI
+
+=
+.    
+c) Sai. Vì m n
+ nên hai góc trong cùng phía bù nhau. Góc trong cùng phía với ABI tại 
+đỉnh A có số đo là: 
+
+180
+180
+80
+100
+ABI
+
+
+
+
+−
+=
+−
+=
+ 
+Do đó phát biểu góc này bằng 80 là sai.    
+d) Đúng. Đường thẳng d
+m
+⊥
+ tại H nên góc 
+90
+AHI
+
+=
+.    
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số hữu tỉ x , biết: 3
+1
+1
+4
+2
+3
+x
+
+
+−
++
+=
+
+
+
+
+. 
+Lời giải.  
+Ta có 
+1
+3
+1
+2
+4
+3
+x +
+=
+−
+ 
+
+
+=== PAGE 227 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+1
+5
+2
+12
+x +
+=
+ 
+Tìm x : 
+5
+1
+12
+2
+x =
+−
+ 
+5
+6
+1
+12
+12
+12
+x =
+−
+= −
+ 
+Đáp án: 
+1
+12
+−
+. 
+Câu 2. Cho hình hộp chữ nhật 
+.
+ABCD A B C D
+ như hình vẽ có chiều dài 
+4 cm
+D C
+=
+, 
+chiều rộng 
+2 cm
+B C
+=
+ và chiều cao 
+3 cm
+BB=
+. Tính thể tích của hình hộp chữ nhật này.  
+ 
+Lời giải. 
+Thể tích V của hình hộp chữ nhật được tính theo công thức V
+a b h
+=
+ 
+Thay số với 
+4 cm
+a =
+, 
+2 cm
+b =
+, 
+3 cm
+h =
+: 
+3
+4 2 3
+24 (cm )
+V =
+=
+ 
+Đáp án: 
+3
+24 cm . 
+Phần IV. Tự luận 
+Câu 1. Tính giá trị các biểu thức sau (tính bằng cách hợp lý nếu có thể) 
+a) 
+2
+3
+3
+:
+7
+7
+2
+A
+−
+
+
+=
++
+
+
+
+
+.  
+ 
+ 
+b) 
+5 31
+5 2
+5
+.
+.
+2
+17 33
+17 33
+17
+B
+−
+−
+=
++
++
+. 
+c) 
+4
+9
+16
+25
+C =
++
++
++
+  
+ 
+d) 
+( )
+( )
+1
+0, 5
+1
+0, 7
+3
+D =
+−
+−
+ 
+
+
+=== PAGE 228 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải.  
+a) 
+2
+3
+3
+:
+7
+7
+2
+A
+−
+
+
+=
++
+
+
+
+
+ 
+   
+2
+3
+2
+7
+7
+3
+−
+
+
+=
++
+
+
+
+
+ 
+2
+2
+0
+7
+7
+
+
+=
++ −
+=
+
+
+
+
+. 
+b) 
+5 31
+5
+2
+5
+2
+17 33
+17 33
+17
+B
+−
+−
+=
+
++
+
++
+    
+5
+31
+2
+5
+2
+17
+33
+33
+17
+−
+
+
+
+
+=
+
++
++
++
+
+
+
+
+
+
+
+
+ 
+5
+5
+1
+2
+17
+17
+−
+=
++
++
+ 
+5
+5
+2
+17
+17
+−
+
+
+=
++
++
+
+
+
+
+ 
+0
+2
+2
+=
++
+= . 
+c) 
+4
+9
+16
+25
+C =
++
++
++
+ 
+   
+2
+3
+4
+5
+14
+=
++ +
++
+=
+ 
+d) 
+1
+0,(5) 1
+0,(7)
+3
+D =
+−
+−
+    
+Đổi các số thập phân vô hạn tuần hoàn và hỗn số sang phân số: 
+5
+7
+1
+4
+12
+0,(5)
+;
+0,(7)
+;
+1
+9
+9
+3
+3
+9
+=
+=
+=
+=
+ 
+5
+12
+7
+9
+9
+9
+D =
+−
+−
+ 
+5 12
+7
+14
+9
+9
+D
+−
+−
+=
+= −
+. 
+
+
+=== PAGE 229 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Tìm x , biết: 
+a) 
+1
+5
+2
+3
+6
+x −
+=
+;  
+ 
+    
+b) 
+2
+1
+9
+2
+25
+x
+
+
+−
+=
+
+
+
+
+. 
+Lời giải.  
+a) 
+1
+5
+2
+3
+6
+x −
+=
+    
+5
+1
+2
+6
+3
+x =
++
+ 
+5
+2
+2
+6
+6
+x =
++
+ 
+7
+2
+6
+x =
+ 
+7 : 2
+6
+x =
+ 
+7
+12
+x =
+ 
+Vậy 
+7
+12
+x =
+. 
+b) 
+2
+1
+9
+2
+25
+x
+
+
+−
+=
+
+
+
+
+    
+Vì 
+2
+3
+9
+5
+25
+
+=
+
+
+
+
+ và 
+2
+3
+9
+5
+25
+
+
+−
+=
+
+
+
+
+, nên ta xét hai trường hợp: 
+• Trường hợp 1:
+1
+3
+2
+5
+x −
+=
+ 
+3
+1
+5
+2
+x =
++
+ 
+
+
+=== PAGE 230 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+6
+5
+11
+10
+10
+10
+x =
++
+=
+ 
+• Trường hợp 2:
+1
+3
+2
+5
+x −
+= −
+ 
+3
+1
+5
+2
+x = −
++
+ 
+6
+5
+1
+10
+10
+10
+x = −
++
+= −
+ 
+Vậy 
+11
+10
+x =
+ hoặc 
+1
+10
+x = −
+. 
+Câu 3. Bể cá của quán cà phê Koi có dạng hình hộp chữ nhật có chiều dài 1,8 m, chiều 
+rộng 1,2 m và chiều cao 1,5 m.  
+ 
+a) Tính diện tích xung quanh của bể cá? 
+b) Chủ quán đã đổ nước vào bể sao cho mực nước cách miệng bể 20 cm. Vậy chủ quán 
+đã đổ vào bể bao nhiêu lít nước? (biết rằng lúc đầu bể không có nước) 
+Lời giải.   
+a) Diện tích xung quanh của bể cá:    
+2
+2 (1,8 1,2) 1,5
+2 3 1,5
+9 (m )
+xq
+S
+=
+
++
+
+=
+
+=
+. 
+b) Số lít nước chủ quán đã đổ vào bể:    
+Đổi 20 cm
+0,2 m
+=
+. 
+
+
+=== PAGE 231 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Chiều cao mực nước trong bể là:    
+1,5
+0,2
+1,3 (m)
+h =
+−
+=
+ 
+Thể tích nước đã đổ vào bể là:    
+3
+1,8 1,2 1,3
+2,808 (m )
+V =
+
+
+=
+ 
+Ta có 
+3
+3
+1 m
+1000 dm
+1000 lít
+=
+=
+. Suy ra 
+3
+2,808 m
+2808 lít
+=
+ 
+Vậy chủ quán đã đổ vào bể 2808 lít nước.    
+Câu 4. Cho hai biểu thức sau: 
+800
+60
+2500
+80
+60
+1600
+25 .16 .3
+8 .27 .5
+A =
+ và 
+2025
+3
+B =
+. Hãy so sánh A và B . 
+Lời giải.  
+Ta có: 
+800
+60
+2500
+80
+60
+1600
+25
+16
+3
+8
+27
+5
+A
+
+
+=
+
+
+ 
+Biến đổi các cơ số về dạng thừa số nguyên tố:    
+800
+2 800
+1600
+25
+(5 )
+5
+=
+=
+ 
+60
+4 60
+240
+16
+(2 )
+2
+=
+=
+    
+80
+3 80
+240
+8
+(2 )
+2
+=
+=
+    
+60
+3 60
+180
+27
+(3 )
+3
+=
+=
+    
+Thay vào biểu thức A ta được:   
+1600
+240
+2500
+240
+180
+1600
+5
+2
+3
+2
+3
+5
+A
+
+
+=
+
+
+    
+Rút gọn cả tử và mẫu cho 
+1600
+5
+ và 
+240
+2
+:    
+2500
+2500 180
+2320
+180
+3
+3
+3
+3
+A
+−
+=
+=
+=
+    
+Vì 2320
+2025
+
+ nên 
+2320
+2025
+3
+3
+
+. 
+Do đó A
+B
+
+.   

@@ -1,0 +1,1230 @@
+
+=== SOL PAGE 109 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 4 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Chọn câu trả lời đúng: Trong định lí: " Nếu một đường thẳng vuông góc với một 
+trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng kia". Ta có giả 
+thiết là: 
+A. "Nếu một đường thẳng vuông góc".        
+B. "Nó cũng vuông góc với đường thẳng kia". 
+C. "Nếu một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng 
+vuông góc với đường thẳng kia".  
+D. "Một đường thẳng vuông góc với một trong hai đường thẳng song song". 
+Lời giải. Định lí toán học có dạng "Nếu A thì B ", trong đó mệnh đề nằm sau từ "Nếu" ( A ) 
+là giả thiết, mệnh đề nằm sau từ "thì" ( B ) là kết luận.  
+Mệnh đề sau từ "Nếu" là: "một đường thẳng vuông góc với một trong hai đường thẳng song 
+song". Đáp án đúng: D. 
+Câu 2. Số nào là số vô tỉ?    
+A. 3,2. 
+ 
+B. 
+( )
+5,3 2 . 
+ 
+C. 0,6 . 
+ 
+D. 1,23427232...
+−
+ . 
+Lời giải. 3,2 và 0,6 là các số thập phân hữu hạn (số hữu tỉ). 
+5,3(2) là số thập phân vô hạn tuần hoàn (số hữu tỉ).  
+1,23427232...
+−
+ là số thập phân vô hạn không tuần hoàn, do đó là số vô tỉ. 
+
+=== SOL PAGE 110 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: D. 
+Câu 3. Số đối của số hữu tỉ 0,25
+−
+ là 
+A. 0,25.
+−
+ 
+ 
+ 
+B. 
+1.
+4
+−
+ 
+ 
+ 
+C. 4.
+−
+ 
+ 
+                   
+D. 0,25. 
+Lời giải. Số đối của số x là x
+−. Số đối của 0,25
+−
+ là ( 0,25)
+0,25
+−−
+=
+. 
+Đáp án đúng: D. 
+Câu 4. Qua một điểm ở ngoài đường thẳng, ta kẻ được bao nhiêu đường thẳng song song 
+với đường thẳng đó? 
+A. 0.  
+ 
+ 
+B. 1.   
+ 
+ 
+C. 2.   
+ 
+ 
+D. 3. 
+Lời giải. Theo tiên đề Euclid, qua một điểm nằm ngoài một đường thẳng, chỉ có duy nhất 
+1 đường thẳng song song với đường thẳng đó. Đáp án đúng: B. 
+Câu 5. Kết quả của phép tính  
+2
+5
+2 .2  là:  
+A.
+10
+ 2 .  
+         
+B. 
+3
+2 .  
+          
+C.
+5
+2 .  
+           
+D. 
+7
+2 . 
+Lời giải. Áp dụng quy tắc nhân hai lũy thừa cùng cơ số 
+m
+n
+m n
+a
+a
+a
++
+
+=
+: 
+2
+5
+2 5
+7
+2
+2
+2
+2
++
+
+=
+=
+. 
+Đáp án đúng: D. 
+Câu 6. Cho hai số hữu tỉ a và b được biểu diễn trên trục số như sau. 
+ 
+Chọn khẳng định đúng: 
+A. 
+0
+.
+b
+a
+
+
+ 
+ 
+                      B. 
+.
+b
+a
+
+ 
+ 
+C. 
+0.
+b
+a
+
+
+ 
+ 
+                      D. 
+0
+.
+b
+a
+
+
+ 
+
+=== SOL PAGE 111 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Trên trục số nằm ngang, các số nhỏ hơn nằm ở bên trái, các số lớn hơn nằm ở bên 
+phải. Do điểm b nằm bên trái điểm 0 và điểm 0 nằm bên trái điểm a , ta có: 
+0
+b
+a
+
+
+. 
+Đáp án đúng: D. 
+Câu 7. Tia phân giác của xOm và yOn lần lượt là 
+ 
+A. Ok và 
+.
+Ou 
+ 
+                     B. Ox và 
+.
+Oy 
+ 
+C. Ou và 
+.
+Om 
+ 
+                     D. Ok và 
+.
+On 
+Lời giải.  
+Tia Ok nằm giữa hai tia 
+,
+Ox Om và tạo thành hai góc bằng nhau . Suy ra Ok là tia phân 
+giác của xOm . 
+Tia Ou nằm giữa hai tia 
+,
+Oy On và tạo thành hai góc bằng nhau. Suy ra Ou là tia phân 
+giác của yOn . 
+Đáp án đúng: A. 
+Câu 8. Cho một hình lăng trụ đứng có diện tích đáy là S, chiều cao là h. Hỏi công thức tính 
+thể tích của hình lăng trụ đứng là gì? 
+A. 
+.
+V
+Sh
+=
+                   
+ 
+ 
+ 
+ 
+B.  
+1
+.
+2
+V
+Sh
+=
+                
+C. 
+2
+.
+V
+Sh
+=
+                          
+ 
+ 
+D.  
+3
+.
+V
+Sh
+=
+ 
+Lời giải. Thể tích của hình lăng trụ đứng bằng diện tích đáy nhân với chiều cao: V
+Sh
+=
+. 
+Đáp án đúng: A. 
+
+=== SOL PAGE 112 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 9. Tính 
+4
+2
+1
+3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ta được: 
+A. 
+2
+.
+1
+3
+
+
+
+
+
+
+                       
+B. 
+8
+.
+1
+3
+
+
+
+
+
+
+                           C. 
+6
+.
+1
+3
+
+
+
+
+
+
+                           D. 
+4
+.
+1
+3
+
+
+
+
+
+
+ 
+Lời giải. Áp dụng công thức lũy thừa của lũy thừa (
+)
+m
+n
+m n
+a
+a 
+=
+: 
+4
+2
+2 4
+8
+1
+1
+1
+3
+3
+3
+
+
+
+
+
+
+
+
+
+=
+=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. 
+Đáp án đúng: B. 
+Câu 10. Có bao nhiêu giá trị của 
+;
+1
+x
+x
+
+
+
+ sao cho 
+4
+0
+x
+x
+−
+=
+? 
+A. 1.  
+ 
+ 
+B. 0 .  
+ 
+ 
+C. 2 .  
+ 
+ 
+D. 3 . 
+Lời giải. Đặt nhân tử chung cho phương trình: 
+4
+0
+x
+x
+−
+=
+ 
+(
+)
+4
+0
+x
+x −
+=
+. 
+Tách phương trình thành hai trường hợp: 
+• Trường hợp 1: 
+0
+x =
+, dẫn đến 
+0
+x =
+. Giá trị này không thỏa mãn điều kiện 
+1
+x  
+nên bị loại. 
+• Trường hợp 2: 
+4
+0
+x −
+= , nghĩa là 
+4
+x =
+, tính được 
+16
+x =
+. Giá trị này thỏa mãn 
+điều kiện 
+1
+x  nên nhận. 
+Như vậy, chỉ có duy nhất 1 giá trị của x (là 
+16
+x =
+) thỏa mãn yêu cầu đề bài. 
+Đáp án đúng: A. 
+Câu 11. Cho hình vẽ sau, biết Ob là tia phân giác của aOc . Khẳng định nào sau đây đúng? 
+
+=== SOL PAGE 113 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+A. 
+90
+bOc =
+.  
+             
+ 
+ 
+ 
+B. 
+60
+bOc =
+. 
+  
+C. 
+30
+bOc =
+. 
+ 
+ 
+ 
+ 
+ 
+D. 
+120
+bOc =
+. 
+Lời giải. Vì Ob là tia phân giác của aOc nên 
+
+bOc
+aOb
+=
+. Quan sát hình vẽ ta có 
+60
+aOb
+
+=
+, 
+suy ra 
+60
+bOc
+
+=
+. Đáp án đúng: B. 
+Câu 12. Trong các số sau, số nào  là số vô tỉ? 
+ A. 5.
+−
+ 
+ 
+ 
+B. 5,7. 
+ 
+ 
+C. 7. 
+ 
+ 
+D. 5
+3 . 
+Lời giải. Xét các đáp án ta thấy:  
+• 
+5
+− là số nguyên (số hữu tỉ). 
+• 
+57
+5,7
+10
+=
+ (số hữu tỉ). 
+• 
+5
+3 (số hữu tỉ). 
+• 
+7 là căn bậc hai số học của số không chính phương 7 , biểu diễn dưới dạng số 
+thập phân vô hạn không tuần hoàn nên 
+7 là số vô tỉ. 
+Đáp án đúng: C. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho , , ,
+a b c d . Xét tính đúng sai của các mệnh đề sau: 
+a) Bỏ dấu ngoặc của biểu thức (
+)
+a
+b
+c
+−
++
+−
+ ta được kết quả a
+b
+c
+−−
++ . 
+
+=== SOL PAGE 114 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Bỏ dấu ngoặc của biểu thức 
+(
+)
+a
+b
+c
+d
+−+
+−
++
+ ta được kết quả a
+b
+c
+d
+−−
+−+
+. 
+c) Cho a
+b
+c
++
+= , áp dụng quy tắc chuyển vế ta được a
+b
+c
+= −−. 
+d) Cho 
+3
+5
+4
+a −
+= , áp dụng quy tắc chuyển vế ta được 
+3
+5
+4
+a =
++
+. 
+Lời giải. 
+a) Đúng. Khi bỏ dấu ngoặc có dấu trừ "-" phía trước, ta phải đổi dấu tất cả các số hạng 
+trong ngoặc: (
+)
+a
+b
+c
+a
+b
+c
+−
++
+−
+= −−
++ . 
+b) Sai. Khi bỏ dấu ngoặc có dấu cộng "+" phía trước, ta giữ nguyên dấu của các số hạng 
+trong ngoặc: 
+(
+)
+a
+b
+c
+d
+a
+b
+c
+d
+−+
+−+
+= −+
+−+
+. 
+c) Sai. Theo quy tắc chuyển vế, khi chuyển số hạng b từ vế trái sang vế phải ta phải đổi 
+dấu thành b
+−, kết quả đúng phải là a
+c
+b
+=
+−. 
+d) Đúng. Theo quy tắc chuyển vế, khi chuyển số hạng 
+3
+4
+−
+ từ vế trái sang vế phải ta đổi 
+dấu thành 
+3
+4
++
+, kết quả thu được là 
+3
+5
+4
+a =
++
+. 
+Câu 2.  Quan sát hình vẽ, hai đường thẳng a và b cắt nhau tại điểm O tạo thành bốn góc 
+
+
+
+1
+2
+3
+4
+,
+,
+,
+O O O O . Xét tính đúng sai của các mệnh đề sau: 
+ 
+a) Góc 
+1
+O và góc 
+3
+O là hai góc đối đỉnh. 
+b) Góc 
+2
+O và góc 
+4
+O là hai góc kề bù. 
+
+=== SOL PAGE 115 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Tổng số đo của góc 
+1
+O và góc 
+2
+O bằng 180. 
+d) Nếu số đo góc 
+1
+O bằng 60 thì số đo góc 
+4
+O bằng 120. 
+ 
+ 
+Lời giải. 
+a) Đúng. Hai góc 
+1
+O và 
+3
+O đối diện nhau qua đỉnh O , mỗi cạnh của góc này là tia đối của 
+một cạnh của góc kia nên đây là hai góc đối đỉnh. 
+b) Sai. Góc 
+2
+O và góc 
+4
+O nằm ở vị trí đối diện qua đỉnh O nên đây là hai góc đối đỉnh, 
+không phải hai góc kề bù. 
+c) Đúng. Góc 
+1
+O và góc 
+2
+O kề bù với nhau do tạo bởi hai tia đối nhau của hai đường thẳng 
+cắt nhau, vì vậy tổng số đo của chúng bằng 180. 
+d) Đúng. Do góc 
+1
+O và góc 
+4
+O là hai góc kề bù nên 
+
+4
+1
+180
+180
+60
+120
+O
+O
+
+
+
+
+=
+−
+=
+−
+=
+. 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tính hợp lý giá trị của biểu thức: 
+5 4
+5 9
+5
+9
+13
+9
+13
+9
+A
+−
+−
+=
+
++
+
++
+. 
+Lời giải. 
+5
+4
+9
+5
+9
+13
+13
+9
+A
+−
+
+
+=
+
++
++
+
+
+
+
+ 
+5
+5
+1
+9
+9
+A
+−
+=
++
+ 
+5
+5
+9
+9
+A
+−
+=
++
+ 
+0
+A = . 
+
+=== SOL PAGE 116 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án: 0 . 
+Câu 2. Cho hai góc kề bù AOB và 
+BOC , biết 
+110
+AOB
+
+=
+. Gọi OM là tia phân giác của 
+AOB . Tính số đo góc 
+BOC và 
+COM . 
+Lời giải. Vì AOB và 
+BOC là hai góc kề bù nên: 
+
+
+180
+180
+110
+70
+BOC
+AOB
+
+
+
+
+=
+−
+=
+−
+=
+. 
+Vì OM là tia phân giác của AOB nên: 
+
+
+110
+55
+2
+2
+AOB
+BOM
+
+
+=
+=
+=
+. 
+Vì tia OB nằm giữa hai tia OM và OC nên: 
+
+
+
+70
+55
+125
+COM
+BOC
+BOM
+
+
+
+=
++
+=
++
+=
+. 
+Đáp án: 
+70
+BOC
+
+=
+ và 
+125
+COM
+
+=
+. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 5
+7
+3
+:
+12
+24
+8
+
+
++ −
+
+
+
+
+; 
+b) 4 3
+4
+25
+.
+:
+1
+5 7
+7
+16
+−
+−
+−−. 
+Lời giải.  
+a) 5
+7
+3
+:
+12
+24
+8
+
+
++ −
+
+
+
+
+ 
+5
+7
+8
+12
+24
+3
+
+
+=
++ −
+
+
+
+
+
+ 
+5
+7
+12
+9
+
+
+=
++ −
+
+
+
+
+ 
+15
+28
+13
+36
+36
+36
+=
+−
+= −
+. 
+
+=== SOL PAGE 117 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) 4 3
+4
+25
+:
+| 1|
+5 7
+7
+16
+−
+
+−
+−−
+ 
+12
+4 5
+:
+1
+35
+7
+4
+−
+=
+−
+− 
+12
+4
+4
+1
+35
+7
+5
+
+
+=
+−−
+
+−
+
+
+
+
+ 
+12
+16
+1
+35
+35
+
+
+=
+−−
+−
+
+
+
+
+ 
+12
+16
+1
+35
+35
+=
++
+− 
+28
+1
+35
+=
+− 
+4
+1
+1
+5
+5
+=
+−= −. 
+Câu 2. Tìm x biết:  
+a) 3
+2
+2
+2
+5
+3
+3
+x +
+=
+; 
+ 
+ 
+ 
+b) 2.
+1
+0
+x −=
+. 
+Lời giải.  
+a) 3
+2
+2
+2
+5
+3
+3
+x +
+=
+ 
+3
+2
+8
+5
+3
+3
+x +
+=
+ 
+3
+8
+2
+5
+3
+3
+x =
+−
+ 
+3
+6
+2
+5
+3
+x =
+=
+ 
+3
+2: 5
+x =
+ 
+
+=== SOL PAGE 118 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+5
+10
+2
+.
+3
+3
+x =
+
+=
+ 
+b) 2
+1
+0
+x −=  
+Điều kiện: 
+0
+x  
+2
+1
+x = 
+1
+2
+x =
+ 
+2
+1
+2
+x
+
+
+= 
+
+
+
+ 
+1
+4
+x =
+ (Thỏa mãn điều kiện). 
+Câu 3. Một siêu thị nhập vào 250 hộp bánh với giá bán niêm yết là 120 000 đồng/hộp. Đợt 
+thứ nhất siêu thị bán được 3
+5 số hộp bánh với đúng giá niêm yết. Đợt thứ hai vì muốn kích 
+cầu tiêu dùng, siêu thị đã giảm giá 8% so với giá niêm yết ban đầu và đã bán hết số hộp 
+bánh còn lại.  
+a) Hỏi đợt thứ nhất siêu thị đã bán được bao nhiêu hộp bánh và thu về được bao nhiêu tiền? 
+b) Cả hai đợt siêu thị đã thu về được bao nhiêu tiền? 
+Lời giải.  
+a) Số hộp bánh siêu thị bán được trong đợt thứ nhất là: 
+3
+250
+150
+5
+
+=
+ hộp. 
+Số tiền siêu thị thu về trong đợt thứ nhất là:150 120000
+18000000
+
+=
+ đồng. 
+b)Số hộp bánh còn lại bán trong đợt thứ hai là: 250 150
+100
+−
+=
+ hộp. 
+Giá bán một hộp bánh ở đợt thứ hai sau khi giảm 8% là: 
+120000 (100%
+8%)
+120000 0,92
+110400
+
+−
+=
+
+=
+ đồng. 
+
+=== SOL PAGE 119 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Số tiền siêu thị thu về trong đợt thứ hai là:100 110400
+11040000
+
+=
+ đồng. 
+Tổng số tiền siêu thị thu về được sau cả hai đợt là:18000000 11040000
+29040000
++
+=
+.đồng. 
+Câu 4. Cho tam giác ABC có BA = BC. Gọi M là trung điểm của đoạn thẳng AC.  
+            Chứng minh: 
+
+ABM
+CBM
+=
+? 
+ 
+Lời giải. Xét ABM
+
+ và CBM
+
+, ta có: 
+BA
+BC
+=
+ (theo giả thiết) 
+AM
+MC
+=
+ (vì M là trung điểm của đoạn thẳng AC ). 
+BM là cạnh chung 
+Suy ra 
+ (c.c.c)
+ABM
+CBM
+=
+
+. 
+Do đó 
+
+ABM
+CBM
+=
+ (hai góc tương ứng). 
+ 
+ 
+ 
+ 
+ 
+ 

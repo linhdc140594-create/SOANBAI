@@ -1,0 +1,1518 @@
+
+=== PAGE 164 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các phân số sau, phân số nào biểu diễn số hữu tỉ –0,5? 
+A. 1
+2 . 
+ 
+B. 
+1
+2
+−
+. 
+ 
+C. 3
+5 . 
+ 
+D. 3
+5
+−. 
+Lời giải. Ta có: 
+5
+1
+0,5
+10
+2
+−
+= −
+= −
+. Đáp án đúng: B. 
+Câu 2. Điểm A biểu diễn số hữu tỉ nào? 
+ 
+A. 3.
+4  
+  
+ 
+B. 3.
+4
+  
+ 
+        C. 3.
+−
+  
+ 
+       D. 
+3
+5
+−
+. 
+Lời giải. Đoạn đơn vị từ 0 đến 1 được chia thành 5 phần bằng nhau, mỗi vạch chia tương 
+ứng với 1
+5 . Điểm A nằm về phía bên trái điểm 0 và cách điểm 0 một khoảng bằng 3 phần, 
+nên điểm A biểu diễn số hữu tỉ 
+3
+5
+−
+. 
+Đáp án đúng: D. 
+Câu 3. Phép tính nào sau đây là không đúng? 
+A. 
+3 4
+12
+(
+)
+x
+x
+=
+.          
+ 
+ 
+ 
+ 
+B. 
+18
+6
+12
+:
+(
+0)
+x
+x
+x
+x
+=
+
+.   
+C. 
+2
+6
+12
+x
+x
+x
+
+=
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+4
+8
+12
+x
+x
+x
+
+=
+. 
+
+=== PAGE 165 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Theo quy tắc nhân hai lũy thừa cùng cơ số: 
+2
+6
+2 6
+8
+x
+x
+x
+x
++
+
+=
+=
+.  Phép tính 
+2
+6
+12
+x
+x
+x
+
+=
+ 
+là sai. Đáp án đúng: C. 
+Câu 4. Kết quả của phép tính 
+2
+2 .
+5
+2 là 
+A. 
+10
+2 . 
+ 
+B. 23. 
+ 
+C. 25. 
+ 
+D. 27. 
+Lời giải. Áp dụng quy tắc nhân hai lũy thừa cùng cơ số: 
+2
+5
+2 5
+7
+2
+2
+2
+2
++
+
+=
+=
+. 
+Đáp án đúng: D. 
+Câu 5. Một hình vuông có diện tích 
+2
+81cm . Độ dài cạnh hình vuông đó là: 
+A. 81cm . 
+ 
+B. 9cm . 
+ 
+C. 9cm
+−
+. 
+ 
+D. 
+9cm
+
+. 
+Lời giải. Độ dài cạnh hình vuông là số dương a thỏa mãn 
+2
+81
+a =
+. 
+Do 9
+0
+
+ và 
+2
+9
+81
+=
+ nên 
+9 cm
+a =
+.  
+Đáp án đúng: B. 
+Câu 6. Làm tròn số 1,3781 với độ chính xác 0,005được kết quả là: 
+ A. 1,37.                    B. 1,4 .                            C. 1. 
+ 
+ 
+D. 1,38. 
+Lời giải. Độ chính xác 0,005 yêu cầu làm tròn số đến hàng phần trăm. Chữ số ở hàng 
+phần nghìn là 8
+5
+, nên ta cộng 1 vào chữ số hàng phần trăm: 1,3781
+1,38
+
+. 
+Đáp án đúng: D. 
+ 
+ 
+ 
+
+=== PAGE 166 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 7. Trong các hình sau, hình nào không phải là hình lăng trụ đứng tứ giác? 
+ 
+A. Hình 1. 
+ 
+     B. Hình 2. 
+  
+C. Hình 3. 
+ 
+     D. Hình 4 
+Lời giải. Hình 2 có hai mặt đáy là hình tam giác nên đây là hình lăng trụ đứng tam giác. 
+Đáp án đúng: B. 
+Câu 8. Thực hiện phép tính 
+13
+4
+18
+2024
+19
+31
+15
+31
+2025
+15
+M =
++
++
++
+−
+, ta được kết quả là: 
+A. 
+2024.
+2025
+M =
+ 
+ 
+ 
+ 
+ 
+ 
+ B. 
+2024.
+2025
+M
+−
+=
+ 
+ 
+ 
+C. 
+1.
+M =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ D. 
+0.
+M =
+ 
+Lời giải. Nhóm các phân số cùng mẫu số: 
+13
+18
+4
+19
+2024
+31
+31
+15
+15
+2025
+M
+
+
+
+
+=
++
++
+−
++
+
+
+
+
+
+
+
+
+ 
+31
+15
+2024
+31
+15
+2025
+M
+−
+=
++
++
+ 
+2024
+2024
+1 ( 1)
+2025
+2025
+M = + −
++
+=
+. 
+Đáp án đúng: A. 
+ 
+ 
+
+=== PAGE 167 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Câu 9. Tia phân giác của xOm và yOn lần lượt là: 
+ 
+A. Ok và 
+.
+Ou 
+ 
+          B. Ox và 
+.
+Oy  
+C. Ou và 
+.
+Om 
+ 
+          D. Ok và 
+.
+On 
+Lời giải. Ký hiệu trên hình thể hiện góc 
+
+xOk
+kOm
+=
+ nên Ok là tia phân giác của xOm . 
+Ký hiệu trên hình thể hiện góc 
+
+yOu
+uOn
+=
+ nên Ou là tia phân giác của yOn . 
+Đáp án đúng: A. 
+Câu 10. Tổng ba góc trong một tam giác luôn bằng: 
+A. 90.                         
+ 
+ 
+ 
+   B. 120                         
+C. 180 . 
+ 
+ 
+ 
+ 
+ 
+   D. 360 . 
+Lời giải. Theo định lí tổng ba góc trong một tam giác, tổng số đo ba góc luôn bằng 180. 
+Đáp án đúng: C. 
+Câu 11. Hai đường thẳng xy và '
+'
+x y cắt nhau tại O . Biết 
+'
+xOx = . Ot là tia phân giác 
+của 
+'
+xOx . 
+'
+Ot là tia đối của tia Ot . Tính số đo góc '
+'
+y Ot ? 
+A. '
+'
+35
+y Ot
+
+=
+. 
+ 
+ 
+ 
+ 
+B. '
+'
+70
+y Ot =
+. 
+ 
+C. '
+'
+145
+y Ot
+
+=
+. 
+ 
+ 
+ 
+ 
+D. '
+'
+110
+y Ot
+
+=
+. 
+
+=== PAGE 168 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Do Ot là tia phân giác của xOx nên: 
+
+
+70
+35
+2
+2
+xOx
+xOt
+
+
+
+=
+=
+=
+ 
+Vì Oy là tia đối của Ox và Ot là tia đối của Ot nên góc yOt và góc xOt là hai góc đối 
+đỉnh.Suy ra: 
+
+35
+yOt
+xOt
+
+=
+=
+. 
+Đáp án đúng: A. 
+Câu 12. Đối với biểu thức không có ngoặc và chỉ có các phép tính: cộng, trừ, nhân, chia, 
+lũy thừa, thì thứ tự thực hiện phép tính đúng là 
+A. Lũy thừa → Nhân và chia → Cộng và trừ.  
+B. Nhân và chia → Lũy thừa → Cộng và trừ.  
+C. Cộng và trừ → Nhân và chia → Lũy thừa.  
+D. Lũy thừa → Cộng và trừ → Nhân và chia. 
+Lời giải. Thứ tự ưu tiên thực hiện phép tính: Lũy thừa → Nhân và chia → Cộng và trừ. 
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+Câu 1. Cho biểu thức 
+2
+2
+5
+5
+1
+:
+3
+9
+3
+3
+P
+−
+
+
+
+
+= −
++
+−
+−
+
+
+
+
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+2
+3
+
+
+−
+
+
+
+
+ bằng 4
+9 . 
+b) Kết quả của phép chia 5
+5
+:
+9
+3
+
+
+−
+
+
+
+
+ bằng 
+1
+3
+−
+. 
+c) Giá trị tuyệt đối 
+1
+3
+− bằng 
+1
+3
+−
+. 
+
+=== PAGE 169 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+d) Giá trị của biểu thức P bằng 
+2
+9
+−
+. 
+ 
+Lời giải. 
+a) Đúng. Ta có 
+2
+2
+2
+2
+4
+3
+3
+3
+9
+
+
+
+
+
+−
+= −
+−
+=
+
+
+
+
+
+
+
+
+
+
+. 
+b) Đúng. Thực hiện phép chia hai số hữu tỉ: 5
+5
+5
+3
+3
+1
+:
+9
+3
+9
+5
+9
+3
+
+
+
+
+−
+=
+−
+= −
+= −
+
+
+
+
+
+
+
+
+. 
+c) Sai. Giá trị tuyệt đối của một số âm luôn là số đối của nó (số dương), do đó 
+1
+1
+3
+3
+−
+=
+. 
+d) Đúng. Thay các kết quả trên vào biểu thức P : 
+4
+1
+1
+4
+3
+3
+2
+9
+3
+3
+9
+9
+9
+9
+P
+
+
+=
++ −
+−
+=
+−
+−
+= −
+
+
+
+
+ 
+Câu 2. Cho 
+=
+ABC
+DEF với 
+6cm,
+8cm,
+10cm
+=
+=
+=
+BC
+AB
+DF
+; 
+
+53 ;
+90
+C
+B
+=
+
+=
+. Xét tính 
+đúng sai của các mệnh đề sau: 
+a) Số đo góc E bằng 53. 
+b) Độ dài cạnh 
+10cm
+AC =
+.   
+c) Độ dài cạnh 
+8cm
+EF =
+.   
+d) Tổng số đo 
+
+90
+D
+F
++
+=
+. 
+Lời giải.  
+a) Sai. Vì 
+ABC
+DEF
+
+= 
+ nên hai góc tương ứng ở vị trí đỉnh B và đỉnh E bằng nhau: 
+ˆ
+ˆ
+90
+E
+B
+
+=
+=
+. Do đó khẳng định ˆ
+53
+E
+
+=
+ là sai. 
+b) Đúng. Hai tam giác bằng nhau có các cạnh tương ứng bằng nhau, do đó 
+10 cm
+AC
+DF
+=
+=
+. 
+
+=== PAGE 170 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Sai. Cạnh tương ứng với cạnh EF của tam giác DEF là cạnh BC của tam giác ABC, suy 
+ra 
+6 cm
+EF
+BC
+=
+=
+. Do đó khẳng định 
+8 cm
+EF =
+ là sai. 
+d) Đúng. Xét tam giác DEF có góc vuông ˆ
+90
+E
+
+=
+, tổng ba góc trong một tam giác bằng 
+180 nên:  
+ˆ
+ˆ
+ˆ
+180
+D
+E
+F
+
++
++
+=
+ 
+ˆ
+ˆ
+180
+90
+90
+D
+F
+
+
+
++
+=
+−
+=
+ 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tìm số hữu tỉ x , biết: 2
+1
+1
+:
+3
+3
+6
+x
++
+= −
+. 
+Lời giải. 
+Ta có: 2
+1
+1
+:
+3
+3
+6
+x
++
+= −
+ 
+1
+1
+2
+:
+3
+6
+3
+x = −
+−
+ 
+1
+5
+:
+3
+6
+x = −
+ 
+1
+5
+:
+3
+6
+x
+
+
+=
+−
+
+
+
+
+ 
+1
+6
+2
+3
+5
+5
+x
+
+
+=
+−
+= −
+
+
+
+
+. 
+Đáp án: 
+2
+5
+−
+ (hoặc 0,4
+−
+). 
+Câu 2.  Cho hình vẽ sau, biết 
+60
+CFE
+
+=
+ và 
+1
+120
+E
+
+=
+. Tính số đo góc FEB và chứng minh 
+/ /
+CD
+AB . 
+
+=== PAGE 171 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Lời giải. 
+Vì góc FEB và góc 
+1
+E là hai góc kề bù nên: 
+
+
+1
+180
+FEB
+E
+
++
+=
+ 
+
+180
+120
+60
+FEB
+
+
+
+=
+−
+=
+ 
+Ta thấy 
+CFE và FEB là hai góc ở vị trí so le trong, mà 
+
+60
+CFE
+FEB
+
+=
+=
+. 
+Do đó: 
+/ /
+CD
+AB . 
+Đáp án: 
+60
+FEB
+
+=
+ và 
+/ /
+CD
+AB . 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính sau:     a) 
+ 
+ 4
+14
+ 
+12
+21
+−
++
+ ;                          b) 8 9 4
+3
+. 
+Lời giải. 
+a) 4
+14
+12
+21
+−+
+ 
+1
+2
+3
+3
+−
+=
++
+  
+1
+2
+1
+3
+3
+−+
+=
+=
+. 
+b) 8 9
+3 4
+
+ 
+8 9
+3 4
+
+=
+ 
+
+=== PAGE 172 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2 3
+6
+1 1
+
+=
+=
+
+. 
+Câu 2. Tìm x: 
+a)  
+2
+5
+x
+3
+6
+−
+=
+;  
+ 
+ 
+ 
+b)  
+2
+4
+(1
+)
+.
+9
+x
+−
+=
+ 
+Lời giải. 
+ a) 
+2
+5
+3
+6
+x −
+=
+ 
+5
+2
+6
+3
+x =
++
+ 
+5
+4
+6
+6
+x =
++
+ 
+9
+3
+6
+2
+x =
+=
+. 
+b) 
+2
+4
+(1
+)
+9
+x
+−
+=
+ 
+Vì 
+2
+2
+4
+3
+9
+
+=
+
+
+
+
+ và 
+2
+2
+4
+3
+9
+
+
+−
+=
+
+
+
+
+, ta xét hai trường hợp: 
+Trường hợp 1: 
+2
+1
+3
+x
+−
+=
+ 
+2
+1
+3
+x = −
+ 
+1
+3
+x =
+. 
+Trường hợp 2: 
+2
+1
+3
+x
+−
+= −
+ 
+2
+1
+3
+x
+
+
+= −−
+
+
+
+
+ 
+
+=== PAGE 173 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+5
+1
+3
+3
+x = +
+=
+ 
+Vậy 
+1
+5
+;
+3
+3
+x
+x
+=
+=
+. 
+ 
+ 
+Câu 3. Cho hình vẽ, biết rằng: 
+
+0
+0
+40 ;
+140 ;
+mAx
+ABt
+zt
+MN
+=
+=
+⊥
+ 
+ 
+a) Tính số đo góc mAy ? 
+b) Chứng tỏ xy // zt ? 
+c) Tia phân giác của góc xAB cắt zt tại điểm C. Tính số đo ACB ? 
+Lời giải. 
+a) Tính số đo góc mAy :Vì mAx và mAy là hai góc kề bù, nên: 
+
+
+180
+mAx
+mAy
+
++
+=
+ 
+
+40
+180
+mAy
+
+
++
+=
+ 
+
+180
+40
+140
+mAy
+
+
+
+=
+−
+=
+ 
+b) Chứng tỏ 
+/ /
+xy
+zt :  
+Ta có 
+140
+mAy
+
+=
+ và 
+140
+ABt
+
+=
+. Suy ra 
+
+140
+mAy
+ABt
+
+=
+=
+. 
+
+=== PAGE 174 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Mà hai góc này ở vị trí đồng vị, do đó 
+/ /
+xy
+zt . 
+c) Tính số đo ACB :  
+Vì mAx và xAB là hai góc kề bù, nên 
+
+180
+180
+40
+140
+xAB
+mAx
+
+
+
+
+=
+−
+=
+−
+=
+ 
+Vì AC là tia phân giác của xAB , nên: 
+
+140
+70
+2
+2
+xAB
+xAC
+
+
+=
+=
+=
+ 
+Vì 
+/ /
+xy
+zt (chứng minh ở câu b) nên 
+
+ACB
+xAC
+=
+. Suy ra 
+70
+ACB
+
+=
+ 
+Câu 4. Cho 
+2
+2
+4
+6
+802
+1
+1
+1
+1
+1
+......
+2
+3
+3
+3
+3
+=
++
++
++
++
++
+M
+. Chứng minh rằng: 
+3
+8
+
+M
+ 
+Lời giải. 
+Đặt 
+2
+1
+2
+M
+N
+=
++
+, trong đó : 
+2
+4
+6
+802
+1
+1
+1
+1
+3
+3
+3
+3
+N =
++
++
+++
+. 
+Nhân cả hai vế của N với 
+2
+3
+9
+= : 
+2
+4
+6
+802
+1
+1
+1
+1
+9
+9
+3
+3
+3
+3
+N
+
+
+
+= 
++
++
+++
+
+
+
+
+ 
+2
+4
+800
+1
+1
+1
+9
+1
+3
+3
+3
+N
+
+= +
++
+++
+ 
+Trừ từng vế 9 N
+
+ cho N : 
+2
+4
+800
+2
+4
+6
+802
+1
+1
+1
+1
+1
+1
+1
+9
+1
+3
+3
+3
+3
+3
+3
+3
+N
+N
+
+
+
+
+
+−
+=
++
++
+++
+−
++
++
+++
+
+
+
+
+
+
+
+
+ 
+802
+1
+8
+1
+3
+N
+
+= −
+. 
+Vì 
+802
+1
+0
+3
+ nên 
+802
+1
+1
+1
+3
+−
+. 
+Do đó: 8
+1
+N
+
+ hay 
+1
+8
+N 
+ 
+
+=== PAGE 175 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Thay 
+1
+8
+N 
+ vào biểu thức M : 
+1
+1
+1
+4
+4
+8
+M
+N
+=
++
+
++
+ 
+2
+1
+3
+8
+8
+8
+M 
++
+=
+ 
+Vậy 
+3
+8
+M 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

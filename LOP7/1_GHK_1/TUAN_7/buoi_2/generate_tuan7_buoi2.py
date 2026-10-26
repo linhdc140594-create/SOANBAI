@@ -1,9 +1,17 @@
 import os
+import sys
+import json
+import math
 import subprocess
 import pypdf
 import fitz  # PyMuPDF
 
-tex_template = r'''\documentclass[12pt,a4paper]{article}
+# Đảm bảo in tiếng Việt không lỗi font
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+
+tex_template_header = r'''\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{vietnam}
 \usepackage{amsmath,amssymb}
 \usepackage{tabularx}
@@ -12,11 +20,11 @@ tex_template = r'''\documentclass[12pt,a4paper]{article}
 \usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
 \usepackage[dethi]{ex_test}
 
-\SAOPTN{widthSA=2.6,heightSA=0.62}
+\SAOPTN{widthSA=3.2,heightSA=0.62}
 
 \setlength{\parskip}{0pt}
 
-% Dòng kẻ chấm mờ đều đặn chuẩn viết tay
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách dòng 18.5pt)
 \newcommand{\dongke}[1]{%
   \begingroup%
   \setlength{\parskip}{0pt}%
@@ -29,7 +37,7 @@ tex_template = r'''\documentclass[12pt,a4paper]{article}
   \endgroup%
 }
 
-% Định nghĩa ô bài tập tự luận trong bảng
+% Định nghĩa ô bài tập tự luận trong bảng 2x2
 \newcommand{\oBaiTap}[3][6]{%
   \vspace{1.0mm}%
   \noindent\textbf{#2} #3\par%
@@ -40,9 +48,59 @@ tex_template = r'''\documentclass[12pt,a4paper]{article}
 \pagestyle{empty}
 '''
 
-def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14=5):
-    alpha_val = q13['alpha']
-    beta_val = q14['beta']
+def generate_tikz(alpha_deg):
+    alpha_rad = math.radians(alpha_deg)
+    y_A = 2.3
+    y_B = 0.5
+    h = y_A - y_B  # 1.8
+    x_AB = 0.8
+    x_C = 2.5
+    x_D = x_C - h / math.tan(alpha_rad)
+    
+    # Tính tọa độ kéo dài cát tuyến c
+    dx = (x_D - x_C)
+    c_top_y = 2.85
+    c_top_x = x_C + (c_top_y - y_A) * (dx / -h)
+    c_bot_y = 0.05
+    c_bot_x = x_C + (c_bot_y - y_A) * (dx / -h)
+    
+    r_arc = 0.38
+    
+    tikz = f"""\\begin{{tikzpicture}}[scale=0.76, >=stealth, line join=round, line cap=round]
+  % Duong thang a va b
+  \\draw[thick] (0.2, {y_A:.2f}) -- (3.9, {y_A:.2f}) node[right=1pt] {{$a$}};
+  \\draw[thick] (0.2, {y_B:.2f}) -- (3.9, {y_B:.2f}) node[right=1pt] {{$b$}};
+  
+  % Doan thang vuong goc AB
+  \\draw[thick] ({x_AB:.2f}, 0.05) -- ({x_AB:.2f}, 2.85);
+  \\fill ({x_AB:.2f}, {y_A:.2f}) circle (1.5pt) node[above left] {{$A$}};
+  \\fill ({x_AB:.2f}, {y_B:.2f}) circle (1.5pt) node[below left] {{$B$}};
+  
+  % Ki hieu goc vuong tai A va B
+  \\draw ({x_AB:.2f}, {y_A - 0.22:.2f}) -- ({x_AB + 0.22:.2f}, {y_A - 0.22:.2f}) -- ({x_AB + 0.22:.2f}, {y_A:.2f});
+  \\draw ({x_AB:.2f}, {y_B + 0.22:.2f}) -- ({x_AB + 0.22:.2f}, {y_B + 0.22:.2f}) -- ({x_AB + 0.22:.2f}, {y_B:.2f});
+  
+  % Cat tuyen c (ve tu bot den top de node c o tren cung)
+  \\draw[thick] ({c_bot_x:.2f}, {c_bot_y:.2f}) -- ({c_top_x:.2f}, {c_top_y:.2f}) node[above=1pt] {{$c$}};
+  \\fill ({x_C:.2f}, {y_A:.2f}) circle (1.5pt) node[above right=1pt] {{$C$}};
+  \\fill ({x_D:.2f}, {y_B:.2f}) circle (1.5pt) node[below right=1pt] {{$D$}};
+  
+  % Cung goc C1 (goc ACD = alpha)
+  \\draw[red!80!black, thick] ({x_C:.2f}, {y_A:.2f}) ++(180:{r_arc:.2f}) arc (180:{180 + alpha_deg}:{r_arc:.2f});
+  \\node[red!80!black, font=\\scriptsize] at ({x_C - 0.42:.2f}, {y_A - 0.26:.2f}) {{$1$}};
+  
+  % Cung goc D1 (so le trong voi C1: goc giua Db phai va DC)
+  \\draw[red!80!black, thick] ({x_D:.2f}, {y_B:.2f}) ++(0:{r_arc:.2f}) arc (0:{alpha_deg}:{r_arc:.2f});
+  \\node[red!80!black, font=\\scriptsize] at ({x_D + 0.42:.2f}, {y_B + 0.24:.2f}) {{$1$}};
+  
+  % Cung goc D2 (trong cung phia voi C1: goc BDC)
+  \\draw[blue!80!black, thick] ({x_D:.2f}, {y_B:.2f}) ++({alpha_deg}:{r_arc + 0.08:.2f}) arc ({alpha_deg}:180:{r_arc + 0.08:.2f});
+  \\node[blue!80!black, font=\\scriptsize] at ({x_D - 0.36:.2f}, {y_B + 0.28:.2f}) {{$2$}};
+\\end{{tikzpicture}}"""
+    return tikz
+
+def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=8, ob12=5, dk13=11, dk14=7):
+    tikz_fig = generate_tikz(q13['angle'])
     res = f'''% =============================================================================
 % ========================= TOÁN 7 - TUẦN 07 - BUỔI 02: MÃ ĐỀ {ma_de} =============
 % ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
@@ -66,26 +124,26 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\hline
 \\end{{tabularx}}
 
-\\vspace{{1.5mm}}
+\\vspace{{1.2mm}}
 
 '''
     # 10 câu trả lời ngắn
     for idx, (text, ans) in enumerate(q_short, 1):
-        res += f'\\noindent\\textbf{{Câu {idx} (0,25 điểm).}} {text} \\shortans{{{ans}}}\\par\\vspace{{0.5mm}}\n'
+        res += f'\\noindent\\textbf{{Câu {idx} (0,25 điểm).}} {text} \\shortans{{{ans}}}\\par\\vspace{{0.35mm}}\n'
 
     res += f'''\\vspace{{0.6mm}}
 
 \\noindent\\textbf{{Câu 11 (2,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}}
-\\vspace{{0.8mm}}
+\\vspace{{0.6mm}}
 
 \\noindent
 \\begin{{tabularx}}{{\\linewidth}}{{|X|X|}}
 \\hline
-\\oBaiTap[{ob11}]{{a)}}{{{q11['a']}}} & 
-\\oBaiTap[{ob11}]{{b)}}{{{q11['b']}}} \\\\
+\\oBaiTap[{ob11}]{{a)}}{{${q11['a']}$}} & 
+\\oBaiTap[{ob11}]{{b)}}{{${q11['b']}$}} \\\\
 \\hline
-\\oBaiTap[{ob11}]{{c)}}{{{q11['c']}}} & 
-\\oBaiTap[{ob11}]{{d)}}{{{q11['d']}}} \\\\
+\\oBaiTap[{ob11}]{{c)}}{{${q11['c']}$}} & 
+\\oBaiTap[{ob11}]{{d)}}{{${q11['d']}$}} \\\\
 \\hline
 \\end{{tabularx}}
 
@@ -110,11 +168,11 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\noindent
 \\begin{{tabularx}}{{\\linewidth}}{{|X|X|}}
 \\hline
-\\oBaiTap[{ob12}]{{a)}}{{{q12['a']}}} & 
-\\oBaiTap[{ob12}]{{b)}}{{{q12['b']}}} \\\\
+\\oBaiTap[{ob12}]{{a)}}{{${q12['a']}$}} & 
+\\oBaiTap[{ob12}]{{b)}}{{${q12['b']}$}} \\\\
 \\hline
-\\oBaiTap[{ob12}]{{c)}}{{{q12['c']}}} & 
-\\oBaiTap[{ob12}]{{d)}}{{{q12['d']}}} \\\\
+\\oBaiTap[{ob12}]{{c)}}{{${q12['c']}$}} & 
+\\oBaiTap[{ob12}]{{d)}}{{${q12['d']}$}} \\\\
 \\hline
 \\end{{tabularx}}
 
@@ -124,45 +182,17 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\begin{{tabularx}}{{\\linewidth}}{{|X|}}
 \\hline
 \\vspace{{0.5mm}}
-\\begin{{minipage}}[t]{{0.65\\linewidth}}
+\\begin{{minipage}}[t]{{0.67\\linewidth}}
 \\vspace{{0pt}}
-\\textbf{{Câu 13 (2,5 điểm).}} {q13['de']}\\par\\vspace{{0.4mm}}
-\\textbf{{a) (1,25 điểm)}} {q13['a']}\\par\\vspace{{0.4mm}}
-\\textbf{{b) (1,25 điểm)}} {q13['b']}
+\\textbf{{Câu 13 (2,5 điểm).}} Cho hình vẽ bên, biết đường thẳng $a \\perp AB$ tại $A$ và $b \\perp AB$ tại $B$. Đường thẳng $c$ cắt $a$ tại $C$ và cắt $b$ tại $D$ tạo thành góc $\\widehat{{C}}_1 = {q13['angle']}^\\circ$.\\par\\vspace{{0.4mm}}
+\\textbf{{a) (1,25 điểm)}} Ghi Giả thiết (GT), Kết luận (KL) của bài toán. Chứng minh rằng $a \\parallel b$.\\par\\vspace{{0.4mm}}
+\\textbf{{b) (1,25 điểm)}} Hãy tính số đo của góc so le trong $\\widehat{{D}}_1$ và góc trong cùng phía $\\widehat{{D}}_2$ với góc $\\widehat{{C}}_1$.
 \\end{{minipage}}\\hfill
-\\begin{{minipage}}[t]{{0.33\\linewidth}}
+\\begin{{minipage}}[t]{{0.31\\linewidth}}
 \\vspace{{0pt}}\\centering
-\\begin{{tikzpicture}}[scale=0.85, >=stealth, line join=round, line cap=round]
-  % Duong thang vuong goc AB
-  \\draw[thick] (0.8, 0.3) -- (0.8, 2.9);
-  % Duong thang a di qua A
-  \\draw[thick] (0.3, 2.5) -- (4.2, 2.5) node[right=1pt] {{$a$}};
-  % Duong thang b di qua B
-  \\draw[thick] (0.3, 0.7) -- (4.2, 0.7) node[right=1pt] {{$b$}};
-  % Cat tuyen c di qua C va D (C(3.0, 2.5) va D(2.1, 0.7))
-  \\draw[thick] (3.35, 3.2) node[above=1pt] {{$c$}} -- (1.75, -0.0);
-  
-  % Giao diem A va B
-  \\fill (0.8, 2.5) circle (1.5pt) node[above left=1pt] {{$A$}};
-  \\fill (0.8, 0.7) circle (1.5pt) node[below left=1pt] {{$B$}};
-  % Ky hieu vuong goc tai A va B
-  \\draw (0.8, 2.25) -- (1.05, 2.25) -- (1.05, 2.5);
-  \\draw (0.8, 0.95) -- (1.05, 0.95) -- (1.05, 0.7);
-  
-  % Giao diem C va D
-  \\fill (3.0, 2.5) circle (1.5pt) node[above=2pt] {{$C$}};
-  \\fill (2.1, 0.7) circle (1.5pt) node[below=2pt] {{$D$}};
-  
-  % Cung goc nhon ACD (huong tu 180 do ve 243.4 do)
-  \\draw[red!80!black, thick] (3.0, 2.5) ++(180:0.45) arc (180:243.4:0.45);
-  \\node[red!80!black, font=\\scriptsize] at (2.42, 2.12) {{{alpha_val}}};
-  
-  % Cung goc D1 (so le trong voi ACD)
-  \\draw[blue!80!black, thick] (2.1, 0.7) ++(0:0.45) arc (0:63.4:0.45);
-  \\node[blue!80!black, font=\\scriptsize] at (2.68, 0.95) {{$1$}};
-\\end{{tikzpicture}}
+{tikz_fig}
 \\end{{minipage}}\\par
-\\vspace{{0.5mm}}
+\\vspace{{0.4mm}}
 \\noindent\\textit{{Bài giải:}}\\dongke{{{dk13}}}
 \\\\ \\hline
 \\end{{tabularx}}
@@ -173,250 +203,379 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\begin{{tabularx}}{{\\linewidth}}{{|X|}}
 \\hline
 \\vspace{{0.5mm}}
-\\begin{{minipage}}[t]{{0.65\\linewidth}}
-\\vspace{{0pt}}
-\\textbf{{Câu 14 (1,0 điểm).}} {q14['de']}\\par\\vspace{{0.4mm}}
-\\textbf{{a) (0,5 điểm)}} {q14['a']}\\par\\vspace{{0.4mm}}
-\\textbf{{b) (0,5 điểm)}} {q14['b']}
-\\end{{minipage}}\\hfill
-\\begin{{minipage}}[t]{{0.33\\linewidth}}
-\\vspace{{0pt}}\\centering
-\\begin{{tikzpicture}}[scale=0.75, >=stealth, line join=round, line cap=round]
-  % Duong thang vuong goc MN
-  \\draw[thick] (0.8, 0.2) -- (0.8, 2.6);
-  % Duong thang x di qua M
-  \\draw[thick] (0.3, 2.2) -- (4.0, 2.2) node[right=1pt] {{$x$}};
-  % Duong thang y di qua N
-  \\draw[thick] (0.3, 0.6) -- (4.0, 0.6) node[right=1pt] {{$y$}};
-  % Cat tuyen d di qua P va Q
-  \\draw[thick] (3.25, 2.8) node[above=1pt] {{$d$}} -- (1.65, -0.0);
-  
-  % Giao diem M va N
-  \\fill (0.8, 2.2) circle (1.5pt) node[above left=1pt] {{$M$}};
-  \\fill (0.8, 0.6) circle (1.5pt) node[below left=1pt] {{$N$}};
-  % Ky hieu vuong goc tai M va N
-  \\draw (0.8, 1.95) -- (1.05, 1.95) -- (1.05, 2.2);
-  \\draw (0.8, 0.85) -- (1.05, 0.85) -- (1.05, 0.6);
-  
-  % Giao diem P va Q
-  \\fill (2.9, 2.2) circle (1.5pt) node[above=2pt] {{$P$}};
-  \\fill (2.0, 0.6) circle (1.5pt) node[below=2pt] {{$Q$}};
-  
-  % Cung goc nhon MPQ
-  \\draw[red!80!black, thick] (2.9, 2.2) ++(180:0.45) arc (180:240.6:0.45);
-  \\node[red!80!black, font=\\scriptsize] at (2.32, 1.82) {{{beta_val}}};
-  
-  % Cung goc Q1 (so le trong voi MPQ)
-  \\draw[blue!80!black, thick] (2.0, 0.6) ++(0:0.45) arc (0:60.6:0.45);
-  \\node[blue!80!black, font=\\scriptsize] at (2.58, 0.85) {{$1$}};
-\\end{{tikzpicture}}
-\\end{{minipage}}\\par
+\\textbf{{Câu 14 (1,0 điểm).}} {q14['de']}\\par
 \\vspace{{0.4mm}}
 \\noindent\\textit{{Bài giải:}}\\dongke{{{dk14}}}
 \\\\ \\hline
 \\end{{tabularx}}
 
 \\newpage
-
 '''
     return res
 
 de_data = {
     '101': {
         'short': [
-            (r"Số đối của số hữu tỉ $-\frac{7}{12}$ bằng bao nhiêu?", r"\frac{7}{12}"),
-            (r"Giá trị của biểu thức $\left(-\frac{2}{3}\right)^3$ bằng bao nhiêu?", r"-\frac{8}{27}"),
-            (r"Giá trị của căn bậc hai số học $\sqrt{\frac{49}{81}}$ bằng bao nhiêu?", r"\frac{7}{9}"),
-            (r"Tính giá trị của biểu thức $\lvert -7{,}5\rvert + \lvert -2{,}5\rvert$.", "10"),
-            (r"Làm tròn số $15{,}374$ đến hàng phần trăm được kết quả là:", "15{,}37"),
-            (r"Cho hai góc $\widehat{aOb}$ và $\widehat{bOc}$ kề bù, biết $\widehat{aOb}=65^\circ$. Số đo góc $\widehat{bOc}$ là:", "115^\\circ"),
-            (r"Tia $Oz$ là phân giác của góc $\widehat{xOy}$. Biết $\widehat{xOz}=40^\circ$, số đo $\widehat{xOy}$ là:", "80^\\circ"),
-            (r"Một định lí gồm hai phần là Kết luận và phần nào?", r"\text{Giả thiết}"),
-            (r"Cho $a \perp c$ và $b \perp c$ ($a \ne b$). Quan hệ giữa hai đường thẳng $a$ và $b$ là:", r"\text{song song}"),
-            (r"Hộp bút giá $50\,000$ đ, giảm giá $20\%$. Số tiền người mua phải trả là:", r"40\,000\text{ đ}"),
+            ("Trong định lí: \\textit{\"Nếu một đường thẳng vuông góc với một trong hai đường thẳng song song thì nó cũng vuông góc với đường thẳng kia\"}, phần kết luận là gì?", "nó cũng vuông góc với đường thẳng kia"),
+            ("Giá trị của biểu thức $\\sqrt{121} - \\sqrt{25}$ bằng bao nhiêu?", "6"),
+            ("Giá trị của biểu thức $\\vert -4{,}7\\vert + \\vert 3{,}3\\vert$ bằng bao nhiêu?", "8"),
+            ("Làm tròn số $19{,}453$ đến hàng phần mười (chữ số thập phân thứ nhất).", "19{,}5"),
+            ("Cho hai góc $\\widehat{xOy}$ và $\\widehat{yOz}$ kề bù, biết $\\widehat{xOy} = 65^\\circ$. Số đo góc $\\widehat{yOz}$ là:", "115^\\circ"),
+            ("Cho $a \\perp c$ và $b \\perp c$. Quan hệ giữa hai đường thẳng phân biệt $a$ và $b$ là:", "song song"),
+            ("Giá trị của biểu thức $\\left(-\\frac{2}{3}\\right)^2 + \\frac{5}{9}$ bằng bao nhiêu?", "1"),
+            ("Cho tia $Oz$ là tia phân giác của $\\widehat{xOy} = 84^\\circ$. Số đo góc $\\widehat{xOz}$ là:", "42^\\circ"),
+            ("Tìm số thực $x \\ge 0$, biết $\\sqrt{x} = 8$.", "64"),
+            ("Hộp bút giá $50\\,000$ đ được giảm giá $20\\%$. Số tiền được giảm là:", "10\\,000\\text{ đ}")
         ],
         'q11': {
-            'a': r"$\frac{7}{12} + \left(-\frac{5}{6}\right) + \frac{5}{12}$",
-            'b': r"$\frac{13}{17} \cdot \left(-\frac{5}{9}\right) + \frac{13}{17} \cdot \left(-\frac{4}{9}\right)$",
-            'c': r"$\left(-\frac{1}{2}\right)^3 \cdot 8 - 1{,}25 \cdot 4$",
-            'd': r"$\sqrt{\frac{49}{16}} - \lvert -0{,}75\rvert + \sqrt{64}$"
+            'a': r"\frac{7}{15} + \left(-\frac{8}{5}\right) + \frac{8}{15}",
+            'b': r"\frac{5}{9} \cdot \left(-\frac{7}{13}\right) + \frac{5}{9} \cdot \left(-\frac{6}{13}\right)",
+            'c': r"\left(-\frac{1}{2}\right)^2 \cdot 24 - 1{,}5 \cdot 6",
+            'd': r"\sqrt{\frac{49}{25}} - \vert -0{,}4\vert + \sqrt{81}"
         },
         'q12': {
-            'a': r"$x + \frac{1}{3} = \frac{5}{6}$",
-            'b': r"$\frac{2}{3}x - \frac{1}{2} = \frac{5}{6}$",
-            'c': r"$\left(x - \frac{1}{2}\right)^2 = \frac{9}{16}$",
-            'd': r"$\lvert 2x - 1\rvert = 5$"
+            'a': r"x - \frac{1}{3} = \frac{5}{9}",
+            'b': r"\frac{2}{3}x + \frac{1}{4} = \frac{11}{12}",
+            'c': r"\left(x - \frac{1}{2}\right)^2 = \frac{9}{16}",
+            'd': r"\vert 2x - 1\vert = 7"
         },
         'q13': {
-            'alpha': r"$70^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $a$ và $b$ cùng vuông góc với đường thẳng $AB$ lần lượt tại $A$ và $B$. Đường thẳng $c$ cắt $a$ tại $C$ và cắt $b$ tại $D$ sao cho $\widehat{ACD} = 70^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo góc $\widehat{BDC}$ và góc $\widehat{D}_1$."
+            'angle': 70
         },
         'q14': {
-            'beta': r"$60^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $x$ và $y$ cùng vuông góc với đường thẳng $MN$ lần lượt tại $M$ và $N$. Đường thẳng $d$ cắt $x$ tại $P$ và cắt $y$ tại $Q$ sao cho $\widehat{MPQ} = 60^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $x$ song song với đường thẳng $y$ ($x \parallel y$).",
-            'b': r"Tính số đo góc $\widehat{NQP}$ và góc $\widehat{Q}_1$."
+            'de': r"Cho biểu thức $A = \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^{100}}$. Chứng minh rằng $A < 1$."
         }
     },
     '102': {
         'short': [
-            (r"Số đối của số hữu tỉ $-\frac{9}{14}$ bằng bao nhiêu?", r"\frac{9}{14}"),
-            (r"Giá trị của biểu thức $\left(-\frac{3}{2}\right)^3$ bằng bao nhiêu?", r"-\frac{27}{8}"),
-            (r"Giá trị của căn bậc hai số học $\sqrt{\frac{64}{121}}$ bằng bao nhiêu?", r"\frac{8}{11}"),
-            (r"Tính giá trị của biểu thức $\lvert -8{,}4\rvert + \lvert -1{,}6\rvert$.", "10"),
-            (r"Làm tròn số $24{,}682$ đến hàng phần trăm được kết quả là:", "24{,}68"),
-            (r"Cho hai góc $\widehat{aOb}$ và $\widehat{bOc}$ kề bù, biết $\widehat{aOb}=45^\circ$. Số đo góc $\widehat{bOc}$ là:", "135^\\circ"),
-            (r"Tia $Oz$ là phân giác của góc $\widehat{xOy}$. Biết $\widehat{xOz}=35^\circ$, số đo $\widehat{xOy}$ là:", "70^\\circ"),
-            (r"Trong định lí dạng ''Nếu $P$ thì $Q$'', phần $P$ được gọi là gì?", r"\text{Giả thiết}"),
-            (r"Cho $a \parallel b$. Nếu đường thẳng $c \perp a$ thì đường thẳng $c$ có quan hệ gì với $b$?", r"\text{vuông góc}"),
-            (r"Chiếc compa giá $40\,000$ đ, giảm giá $20\%$. Số tiền người mua phải trả là:", r"32\,000\text{ đ}"),
+            ("Trong định lí: \\textit{\"Nếu hai đường thẳng phân biệt cùng song song với một đường thẳng thứ ba thì chúng song song với nhau\"}, phần kết luận là gì?", "chúng song song với nhau"),
+            ("Giá trị của biểu thức $\\sqrt{144} - \\sqrt{49}$ bằng bao nhiêu?", "5"),
+            ("Giá trị của biểu thức $\\vert -5{,}6\\vert + \\vert 3{,}4\\vert$ bằng bao nhiêu?", "9"),
+            ("Làm tròn số $28{,}374$ đến hàng phần mười (chữ số thập phân thứ nhất).", "28{,}4"),
+            ("Cho hai góc $\\widehat{xOy}$ và $\\widehat{yOz}$ kề bù, biết $\\widehat{xOy} = 70^\\circ$. Số đo góc $\\widehat{yOz}$ là:", "110^\\circ"),
+            ("Cho $a \\parallel b$ và $c \\perp a$. Quan hệ giữa đường thẳng $c$ và đường thẳng $b$ là:", "vuông góc"),
+            ("Giá trị của biểu thức $\\left(-\\frac{3}{4}\\right)^2 + \\frac{7}{16}$ bằng bao nhiêu?", "1"),
+            ("Cho tia $Oz$ là tia phân giác của $\\widehat{xOy} = 76^\\circ$. Số đo góc $\\widehat{xOz}$ là:", "38^\\circ"),
+            ("Tìm số thực $x \\ge 0$, biết $\\sqrt{x} = 7$.", "49"),
+            ("Cuốn từ điển giá $150\\,000$ đ được giảm $20\\%$. Số tiền được giảm là:", "30\\,000\\text{ đ}")
         ],
         'q11': {
-            'a': r"$\frac{8}{15} + \left(-\frac{3}{4}\right) + \frac{7}{15}$",
-            'b': r"$\frac{15}{19} \cdot \left(-\frac{7}{11}\right) + \frac{15}{19} \cdot \left(-\frac{4}{11}\right)$",
-            'c': r"$\left(-\frac{1}{3}\right)^2 \cdot 27 - 2{,}5 \cdot 2$",
-            'd': r"$\sqrt{\frac{81}{25}} - \lvert -0{,}8\rvert + \sqrt{49}$"
+            'a': r"\frac{5}{18} + \left(-\frac{7}{4}\right) + \frac{13}{18}",
+            'b': r"\frac{4}{11} \cdot \left(-\frac{9}{17}\right) + \frac{4}{11} \cdot \left(-\frac{8}{17}\right)",
+            'c': r"\left(-\frac{1}{3}\right)^2 \cdot 27 - 2{,}5 \cdot 4",
+            'd': r"\sqrt{\frac{64}{25}} - \vert -0{,}6\vert + \sqrt{100}"
         },
         'q12': {
-            'a': r"$x + \frac{1}{4} = \frac{7}{8}$",
-            'b': r"$\frac{3}{4}x - \frac{1}{3} = \frac{5}{12}$",
-            'c': r"$\left(x + \frac{1}{3}\right)^2 = \frac{25}{9}$",
-            'd': r"$\lvert 2x + 1\rvert = 7$"
+            'a': r"x - \frac{1}{4} = \frac{7}{16}",
+            'b': r"\frac{3}{4}x + \frac{1}{5} = \frac{19}{20}",
+            'c': r"\left(x + \frac{1}{3}\right)^2 = \frac{25}{36}",
+            'd': r"\vert 2x + 3\vert = 9"
         },
         'q13': {
-            'alpha': r"$65^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $a$ và $b$ cùng vuông góc với đường thẳng $AB$ lần lượt tại $A$ và $B$. Đường thẳng $c$ cắt $a$ tại $C$ và cắt $b$ tại $D$ sao cho $\widehat{ACD} = 65^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo góc $\widehat{BDC}$ và góc $\widehat{D}_1$."
+            'angle': 65
         },
         'q14': {
-            'beta': r"$55^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $x$ và $y$ cùng vuông góc với đường thẳng $MN$ lần lượt tại $M$ và $N$. Đường thẳng $d$ cắt $x$ tại $P$ và cắt $y$ tại $Q$ sao cho $\widehat{MPQ} = 55^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $x$ song song với đường thẳng $y$ ($x \parallel y$).",
-            'b': r"Tính số đo góc $\widehat{NQP}$ và góc $\widehat{Q}_1$."
+            'de': r"Cho biểu thức $B = \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \dots + \frac{1}{3^{100}}$. Chứng minh rằng $B < \frac{1}{2}$."
         }
     },
     '103': {
         'short': [
-            (r"Số đối của số hữu tỉ $-\frac{8}{15}$ bằng bao nhiêu?", r"\frac{8}{15}"),
-            (r"Giá trị của biểu thức $\left(-\frac{3}{4}\right)^3$ bằng bao nhiêu?", r"-\frac{27}{64}"),
-            (r"Giá trị của căn bậc hai số học $\sqrt{\frac{36}{169}}$ bằng bao nhiêu?", r"\frac{6}{13}"),
-            (r"Tính giá trị của biểu thức $\lvert -6{,}8\rvert + \lvert -3{,}2\rvert$.", "10"),
-            (r"Làm tròn số $32{,}519$ đến hàng phần trăm được kết quả là:", "32{,}52"),
-            (r"Cho hai góc $\widehat{aOb}$ và $\widehat{bOc}$ kề bù, biết $\widehat{aOb}=50^\circ$. Số đo góc $\widehat{bOc}$ là:", "130^\\circ"),
-            (r"Tia $Oz$ là phân giác của góc $\widehat{xOy}$. Biết $\widehat{xOz}=45^\circ$, số đo $\widehat{xOy}$ là:", "90^\\circ"),
-            (r"Trong định lí dạng ''Nếu $P$ thì $Q$'', phần $Q$ được gọi là gì?", r"\text{Kết luận}"),
-            (r"Cho $a \parallel b$ và $b \parallel c$ ($a \ne c$). Quan hệ giữa hai đường thẳng $a$ và $c$ là:", r"\text{song song}"),
-            (r"Bộ thước kẻ giá $30\,000$ đ, giảm giá $20\%$. Số tiền người mua phải trả là:", r"24\,000\text{ đ}"),
+            ("Trong định lí: \\textit{\"Nếu hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau\"}, phần kết luận là gì?", "chúng song song với nhau"),
+            ("Giá trị của biểu thức $\\sqrt{169} - \\sqrt{64}$ bằng bao nhiêu?", "5"),
+            ("Giá trị của biểu thức $\\vert -6{,}8\\vert + \\vert 3{,}2\\vert$ bằng bao nhiêu?", "10"),
+            ("Làm tròn số $35{,}628$ đến hàng phần mười (chữ số thập phân thứ nhất).", "35{,}6"),
+            ("Cho hai góc $\\widehat{xOy}$ và $\\widehat{yOz}$ kề bù, biết $\\widehat{xOy} = 80^\\circ$. Số đo góc $\\widehat{yOz}$ là:", "100^\\circ"),
+            ("Cho $a \\parallel b$ và $b \\parallel c$. Quan hệ giữa hai đường thẳng phân biệt $a$ và $c$ là:", "song song"),
+            ("Giá trị của biểu thức $\\left(-\\frac{4}{5}\\right)^2 + \\frac{9}{25}$ bằng bao nhiêu?", "1"),
+            ("Cho tia $Oz$ là tia phân giác của $\\widehat{xOy} = 92^\\circ$. Số đo góc $\\widehat{xOz}$ là:", "46^\\circ"),
+            ("Tìm số thực $x \\ge 0$, biết $\\sqrt{x} = 6$.", "36"),
+            ("Bộ đồng phục giá $250\\,000$ đ được giảm $20\\%$. Số tiền được giảm là:", "50\\,000\\text{ đ}")
         ],
         'q11': {
-            'a': r"$\frac{9}{14} + \left(-\frac{2}{3}\right) + \frac{5}{14}$",
-            'b': r"$\frac{11}{23} \cdot \left(-\frac{9}{14}\right) + \frac{11}{23} \cdot \left(-\frac{5}{14}\right)$",
-            'c': r"$\left(-\frac{1}{2}\right)^2 \cdot 16 - 3{,}5 \cdot 2$",
-            'd': r"$\sqrt{\frac{25}{16}} - \lvert -0{,}25\rvert + \sqrt{100}$"
+            'a': r"\frac{8}{21} + \left(-\frac{5}{3}\right) + \frac{13}{21}",
+            'b': r"\frac{6}{13} \cdot \left(-\frac{11}{19}\right) + \frac{6}{13} \cdot \left(-\frac{8}{19}\right)",
+            'c': r"\left(-\frac{1}{2}\right)^3 \cdot 32 + 2{,}5 \cdot (-4)",
+            'd': r"\sqrt{\frac{81}{16}} - \vert -1{,}25\vert + \sqrt{64}"
         },
         'q12': {
-            'a': r"$x + \frac{1}{5} = \frac{7}{10}$",
-            'b': r"$\frac{4}{5}x - \frac{1}{2} = \frac{3}{10}$",
-            'c': r"$\left(x - \frac{1}{4}\right)^2 = \frac{9}{16}$",
-            'd': r"$\lvert 3x - 2\rvert = 7$"
+            'a': r"x - \frac{1}{5} = \frac{9}{25}",
+            'b': r"\frac{4}{5}x - \frac{1}{2} = \frac{3}{10}",
+            'c': r"\left(x - \frac{1}{4}\right)^2 = \frac{49}{64}",
+            'd': r"\vert 3x - 2\vert = 7"
         },
         'q13': {
-            'alpha': r"$75^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $a$ và $b$ cùng vuông góc với đường thẳng $AB$ lần lượt tại $A$ và $B$. Đường thẳng $c$ cắt $a$ tại $C$ và cắt $b$ tại $D$ sao cho $\widehat{ACD} = 75^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo góc $\widehat{BDC}$ và góc $\widehat{D}_1$."
+            'angle': 75
         },
         'q14': {
-            'beta': r"$50^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $x$ và $y$ cùng vuông góc với đường thẳng $MN$ lần lượt tại $M$ và $N$. Đường thẳng $d$ cắt $x$ tại $P$ và cắt $y$ tại $Q$ sao cho $\widehat{MPQ} = 50^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $x$ song song với đường thẳng $y$ ($x \parallel y$).",
-            'b': r"Tính số đo góc $\widehat{NQP}$ và góc $\widehat{Q}_1$."
+            'de': r"Cho biểu thức $C = \frac{1}{4} + \frac{1}{4^2} + \frac{1}{4^3} + \dots + \frac{1}{4^{100}}$. Chứng minh rằng $C < \frac{1}{3}$."
         }
     },
     '104': {
         'short': [
-            (r"Số đối của số hữu tỉ $-\frac{11}{16}$ bằng bao nhiêu?", r"\frac{11}{16}"),
-            (r"Giá trị của biểu thức $\left(-\frac{2}{5}\right)^3$ bằng bao nhiêu?", r"-\frac{8}{125}"),
-            (r"Giá trị của căn bậc hai số học $\sqrt{\frac{25}{144}}$ bằng bao nhiêu?", r"\frac{5}{12}"),
-            (r"Tính giá trị của biểu thức $\lvert -9{,}3\rvert + \lvert -0{,}7\rvert$.", "10"),
-            (r"Làm tròn số $41{,}736$ đến hàng phần trăm được kết quả là:", "41{,}74"),
-            (r"Cho hai góc $\widehat{aOb}$ và $\widehat{bOc}$ kề bù, biết $\widehat{aOb}=70^\circ$. Số đo góc $\widehat{bOc}$ là:", "110^\\circ"),
-            (r"Tia $Oz$ là phân giác của góc $\widehat{xOy}$. Biết $\widehat{xOz}=55^\circ$, số đo $\widehat{xOy}$ là:", "110^\\circ"),
-            (r"Lập luận từ giả thiết để suy ra kết luận của một định lí gọi là gì?", r"\text{Chứng minh định lí}"),
-            (r"Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng:", r"\text{song song}"),
-            (r"Quyển vở có giá $20\,000$ đ, được giảm giá $20\%$. Số tiền người mua phải trả là:", r"16\,000\text{ đ}"),
+            ("Trong định lí: \\textit{\"Nếu hai góc đối đỉnh thì hai góc đó bằng nhau\"}, phần kết luận là gì?", "hai góc đó bằng nhau"),
+            ("Giá trị của biểu thức $\\sqrt{196} - \\sqrt{81}$ bằng bao nhiêu?", "5"),
+            ("Giá trị của biểu thức $\\vert -7{,}5\\vert + \\vert 4{,}5\\vert$ bằng bao nhiêu?", "12"),
+            ("Làm tròn số $42{,}865$ đến hàng phần mười (chữ số thập phân thứ nhất).", "42{,}9"),
+            ("Cho hai góc $\\widehat{xOy}$ và $\\widehat{yOz}$ kề bù, biết $\\widehat{xOy} = 50^\\circ$. Số đo góc $\\widehat{yOz}$ là:", "130^\\circ"),
+            ("Hai đường thẳng $xx', yy'$ cắt nhau tại $O$. Nếu $\\widehat{xOy} = 90^\\circ$ thì góc đối đỉnh $\\widehat{x'Oy'}$ bằng:", "90^\\circ"),
+            ("Giá trị của biểu thức $\\left(-\\frac{5}{6}\\right)^2 + \\frac{11}{36}$ bằng bao nhiêu?", "1"),
+            ("Cho tia $Oz$ là tia phân giác của $\\widehat{xOy} = 104^\\circ$. Số đo góc $\\widehat{xOz}$ là:", "52^\\circ"),
+            ("Tìm số thực $x \\ge 0$, biết $\\sqrt{x} = 5$.", "25"),
+            ("Chiếc cặp sách giá $200\\,000$ đ giảm $20\\%$. Số tiền được giảm là:", "40\\,000\\text{ đ}")
         ],
         'q11': {
-            'a': r"$\frac{11}{18} + \left(-\frac{4}{5}\right) + \frac{7}{18}$",
-            'b': r"$\frac{14}{25} \cdot \left(-\frac{8}{13}\right) + \frac{14}{25} \cdot \left(-\frac{5}{13}\right)$",
-            'c': r"$\left(-\frac{2}{3}\right)^2 \cdot 18 - 1{,}5 \cdot 4$",
-            'd': r"$\sqrt{\frac{36}{25}} - \lvert -0{,}2\rvert + \sqrt{81}$"
+            'a': r"\frac{7}{20} + \left(-\frac{9}{5}\right) + \frac{13}{20}",
+            'b': r"\frac{7}{15} \cdot \left(-\frac{14}{23}\right) + \frac{7}{15} \cdot \left(-\frac{9}{23}\right)",
+            'c': r"\left(-\frac{2}{3}\right)^2 \cdot 18 - 3{,}5 \cdot 4",
+            'd': r"\sqrt{\frac{121}{25}} - \vert -1{,}2\vert + \sqrt{49}"
         },
         'q12': {
-            'a': r"$x + \frac{1}{6} = \frac{5}{12}$",
-            'b': r"$\frac{5}{6}x - \frac{1}{4} = \frac{7}{12}$",
-            'c': r"$\left(x + \frac{1}{2}\right)^2 = \frac{25}{4}$",
-            'd': r"$\lvert 3x + 1\rvert = 8$"
+            'a': r"x - \frac{1}{6} = \frac{11}{36}",
+            'b': r"\frac{5}{6}x - \frac{1}{3} = \frac{1}{2}",
+            'c': r"\left(x + \frac{1}{5}\right)^2 = \frac{36}{25}",
+            'd': r"\vert 3x + 4\vert = 10"
         },
         'q13': {
-            'alpha': r"$80^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $a$ và $b$ cùng vuông góc với đường thẳng $AB$ lần lượt tại $A$ và $B$. Đường thẳng $c$ cắt $a$ tại $C$ và cắt $b$ tại $D$ sao cho $\widehat{ACD} = 80^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo góc $\widehat{BDC}$ và góc $\widehat{D}_1$."
+            'angle': 55
         },
         'q14': {
-            'beta': r"$65^\circ$",
-            'de': r"Cho hình vẽ bên, biết hai đường thẳng $x$ và $y$ cùng vuông góc với đường thẳng $MN$ lần lượt tại $M$ và $N$. Đường thẳng $d$ cắt $x$ tại $P$ và cắt $y$ tại $Q$ sao cho $\widehat{MPQ} = 65^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $x$ song song với đường thẳng $y$ ($x \parallel y$).",
-            'b': r"Tính số đo góc $\widehat{NQP}$ và góc $\widehat{Q}_1$."
+            'de': r"Cho biểu thức $D = \frac{1}{5} + \frac{1}{5^2} + \frac{1}{5^3} + \dots + \frac{1}{5^{100}}$. Chứng minh rằng $D < \frac{1}{4}$."
         }
     }
 }
 
-full_tex = tex_template
-for ma in ['101', '102', '103', '104']:
-    d = de_data[ma]
-    full_tex += render_de(ma, d['short'], d['q11'], d['q12'], d['q13'], d['q14'], ob11=10, ob12=5, dk13=9, dk14=6)
+def build_full_tex(ob11=8, ob12=5, dk13=11, dk14=8):
+    content = tex_template_header
+    for ma_de in ['101', '102', '103', '104']:
+        d = de_data[ma_de]
+        content += render_de(ma_de, d['short'], d['q11'], d['q12'], d['q13'], d['q14'], ob11, ob12, dk13, dk14)
+    content += r'\end{document}'
+    return content
 
-full_tex += r'\end{document}' + '\n'
+def compile_pdf(tex_path, work_dir):
+    cmd = ['pdflatex', '-interaction=nonstopmode', os.path.basename(tex_path)]
+    p = subprocess.run(cmd, cwd=work_dir, capture_output=True, text=True)
+    return p.returncode == 0
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-tex_file = os.path.join(script_dir, 'Phieu_Kiem_Tra_Tuan_07_Buoi_02.tex')
-with open(tex_file, 'w', encoding='utf-8') as f:
-    f.write(full_tex)
+def get_page_count(pdf_path):
+    if not os.path.exists(pdf_path):
+        return -1
+    reader = pypdf.PdfReader(pdf_path)
+    return len(reader.pages)
 
-print(f"Generated {tex_file}")
+def export_preview_images(pdf_path, work_dir):
+    doc = fitz.open(pdf_path)
+    if len(doc) >= 2:
+        page1 = doc.load_page(0)
+        pix1 = page1.get_pixmap(dpi=150)
+        pix1.save(os.path.join(work_dir, "page_1.png"))
+        
+        page2 = doc.load_page(1)
+        pix2 = page2.get_pixmap(dpi=150)
+        pix2.save(os.path.join(work_dir, "page_2.png"))
+        print("Đã xuất ảnh xem trước: page_1.png và page_2.png")
+    doc.close()
 
-# Biên dịch LaTeX
-print("Compiling LaTeX...")
-cmd = ["pdflatex", "-interaction=nonstopmode", "Phieu_Kiem_Tra_Tuan_07_Buoi_02.tex"]
-proc = subprocess.run(cmd, cwd=script_dir, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+def export_answers_md(work_dir):
+    md_content = """# ĐÁP ÁN & THANG ĐIỂM CHI TIẾT
+## TOÁN 7 - TUẦN 07 - BUỔI 02
+### CHỦ ĐỀ: BÀI 11 - ĐỊNH LÍ VÀ CHỨNG MINH ĐỊNH LÍ (TỔNG ÔN THI GIỮA HỌC KỲ 1)
+### Đơn vị biên soạn: Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn)
 
-pdf_file = os.path.join(script_dir, 'Phieu_Kiem_Tra_Tuan_07_Buoi_02.pdf')
-if os.path.exists(pdf_file):
-    reader = pypdf.PdfReader(pdf_file)
-    num_pages = len(reader.pages)
-    print(f"PDF generated successfully: {pdf_file}")
-    print(f"Total pages: {num_pages} (Target: 8 pages)")
-    if num_pages == 8:
-        print("PERFECT: Exactly 8 pages!")
-        # Xuất ảnh trang 1 và 2 để kiểm tra giao diện
-        doc = fitz.open(pdf_file)
-        doc[0].get_pixmap(dpi=150).save(os.path.join(script_dir, 'page_1.png'))
-        doc[1].get_pixmap(dpi=150).save(os.path.join(script_dir, 'page_2.png'))
-        print("Updated page_1.png and page_2.png")
-        # Đồng bộ sang thư mục cha TUAN_7
-        import shutil
-        parent_dir = os.path.dirname(script_dir)
-        shutil.copy(tex_file, os.path.join(parent_dir, 'Phieu_Kiem_Tra_Tuan_07_Buoi_02.tex'))
-        shutil.copy(pdf_file, os.path.join(parent_dir, 'Phieu_Kiem_Tra_Tuan_07_Buoi_02.pdf'))
-        print("Synchronized tex and pdf to parent folder TUAN_7")
+---
+
+## 🎯 BẢNG ĐÁP ÁN 10 CÂU TRẢ LỜI NGẮN (2,5 ĐIỂM - MỖI CÂU 0,25 Đ)
+
+| Câu | Mã đề 101 | Mã đề 102 | Mã đề 103 | Mã đề 104 | Điểm |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **Câu 1** | nó cũng vuông góc với đường thẳng kia | chúng song song với nhau | chúng song song với nhau | hai góc đó bằng nhau | 0,25 đ |
+| **Câu 2** | $6$ | $5$ | $5$ | $5$ | 0,25 đ |
+| **Câu 3** | $8$ | $9$ | $10$ | $12$ | 0,25 đ |
+| **Câu 4** | $19{,}5$ | $28{,}4$ | $35{,}6$ | $42{,}9$ | 0,25 đ |
+| **Câu 5** | $115^\\circ$ | $110^\\circ$ | $100^\\circ$ | $130^\\circ$ | 0,25 đ |
+| **Câu 6** | song song | vuông góc | song song | $90^\\circ$ | 0,25 đ |
+| **Câu 7** | $1$ | $1$ | $1$ | $1$ | 0,25 đ |
+| **Câu 8** | $42^\\circ$ | $38^\\circ$ | $46^\\circ$ | $52^\\circ$ | 0,25 đ |
+| **Câu 9** | $64$ | $49$ | $36$ | $25$ | 0,25 đ |
+| **Câu 10** | $10\\,000\\text{ đ}$ | $30\\,000\\text{ đ}$ | $50\\,000\\text{ đ}$ | $40\\,000\\text{ đ}$ | 0,25 đ |
+
+---
+
+## 📝 BAREM CHẤM TỰ LUẬN CHI TIẾT (CÂU 11 - CÂU 14)
+
+### CÂU 11 (2,0 ĐIỂM). THỰC HIỆN PHÉP TÍNH (MỖI Ý 0,5 ĐIỂM)
+
+#### Mã đề 101:
+* **a) (0,5 đ):** $\\frac{7}{15} + \\left(-\\frac{8}{5}\\right) + \\frac{8}{15} = \\left(\\frac{7}{15} + \\frac{8}{15}\\right) - \\frac{8}{5} = 1 - \\frac{8}{5} = -\\frac{3}{5}$.
+* **b) (0,5 đ):** $\\frac{5}{9} \\cdot \\left(-\\frac{7}{13}\\right) + \\frac{5}{9} \\cdot \\left(-\\frac{6}{13}\\right) = \\frac{5}{9}\\left(-\\frac{7}{13} - \\frac{6}{13}\\right) = \\frac{5}{9} \\cdot (-1) = -\\frac{5}{9}$.
+* **c) (0,5 đ):** $\\left(-\\frac{1}{2}\\right)^2 \\cdot 24 - 1{,}5 \\cdot 6 = \\frac{1}{4} \\cdot 24 - 9 = 6 - 9 = -3$.
+* **d) (0,5 đ):** $\\sqrt{\\frac{49}{25}} - \\vert -0{,}4\\vert + \\sqrt{81} = \\frac{7}{5} - \\frac{2}{5} + 9 = 1 + 9 = 10$.
+
+#### Mã đề 102:
+* **a) (0,5 đ):** $\\frac{5}{18} + \\left(-\\frac{7}{4}\\right) + \\frac{13}{18} = \\left(\\frac{5}{18} + \\frac{13}{18}\\right) - \\frac{7}{4} = 1 - \\frac{7}{4} = -\\frac{3}{4}$.
+* **b) (0,5 đ):** $\\frac{4}{11} \\cdot \\left(-\\frac{9}{17}\\right) + \\frac{4}{11} \\cdot \\left(-\\frac{8}{17}\\right) = \\frac{4}{11}\\left(-\\frac{17}{17}\\right) = -\\frac{4}{11}$.
+* **c) (0,5 đ):** $\\left(-\\frac{1}{3}\\right)^2 \\cdot 27 - 2{,}5 \\cdot 4 = \\frac{1}{9} \\cdot 27 - 10 = 3 - 10 = -7$.
+* **d) (0,5 đ):** $\\sqrt{\\frac{64}{25}} - \\vert -0{,}6\\vert + \\sqrt{100} = \\frac{8}{5} - \\frac{3}{5} + 10 = 1 + 10 = 11$.
+
+#### Mã đề 103:
+* **a) (0,5 đ):** $\\frac{8}{21} + \\left(-\\frac{5}{3}\\right) + \\frac{13}{21} = \\left(\\frac{8}{21} + \\frac{13}{21}\\right) - \\frac{5}{3} = 1 - \\frac{5}{3} = -\\frac{2}{3}$.
+* **b) (0,5 đ):** $\\frac{6}{13} \\cdot \\left(-\\frac{11}{19}\\right) + \\frac{6}{13} \\cdot \\left(-\\frac{8}{19}\\right) = \\frac{6}{13}\\left(-\\frac{19}{19}\\right) = -\\frac{6}{13}$.
+* **c) (0,5 đ):** $\\left(-\\frac{1}{2}\\right)^3 \\cdot 32 + 2{,}5 \\cdot (-4) = -\\frac{1}{8} \\cdot 32 - 10 = -4 - 10 = -14$.
+* **d) (0,5 đ):** $\\sqrt{\\frac{81}{16}} - \\vert -1{,}25\\vert + \\sqrt{64} = \\frac{9}{4} - \\frac{5}{4} + 8 = 1 + 8 = 9$.
+
+#### Mã đề 104:
+* **a) (0,5 đ):** $\\frac{7}{20} + \\left(-\\frac{9}{5}\\right) + \\frac{13}{20} = \\left(\\frac{7}{20} + \\frac{13}{20}\\right) - \\frac{9}{5} = 1 - \\frac{9}{5} = -\\frac{4}{5}$.
+* **b) (0,5 đ):** $\\frac{7}{15} \\cdot \\left(-\\frac{14}{23}\\right) + \\frac{7}{15} \\cdot \\left(-\\frac{9}{23}\\right) = \\frac{7}{15}\\left(-\\frac{23}{23}\\right) = -\\frac{7}{15}$.
+* **c) (0,5 đ):** $\\left(-\\frac{2}{3}\\right)^2 \\cdot 18 - 3{,}5 \\cdot 4 = \\frac{4}{9} \\cdot 18 - 14 = 8 - 14 = -6$.
+* **d) (0,5 đ):** $\\sqrt{\\frac{121}{25}} - \\vert -1{,}2\\vert + \\sqrt{49} = \\frac{11}{5} - \\frac{6}{5} + 7 = 1 + 7 = 8$.
+
+---
+
+### CÂU 12 (2,0 ĐIỂM). TÌM SỐ HỮU TỈ $x$, BIẾT (MỖI Ý 0,5 ĐIỂM)
+
+#### Mã đề 101:
+* **a) (0,5 đ):** $x - \\frac{1}{3} = \\frac{5}{9} \\implies x = \\frac{5}{9} + \\frac{3}{9} = \\frac{8}{9}$.
+* **b) (0,5 đ):** $\\frac{2}{3}x + \\frac{1}{4} = \\frac{11}{12} \\implies \\frac{2}{3}x = \\frac{11}{12} - \\frac{3}{12} = \\frac{8}{12} = \\frac{2}{3} \\implies x = 1$.
+* **c) (0,5 đ):** $\\left(x - \\frac{1}{2}\\right)^2 = \\frac{9}{16} \\implies x - \\frac{1}{2} = \\pm\\frac{3}{4} \\implies x = \\frac{5}{4}$ hoặc $x = -\\frac{1}{4}$.
+* **d) (0,5 đ):** $\\vert 2x - 1\\vert = 7 \\implies 2x - 1 = 7$ hoặc $2x - 1 = -7 \\implies x = 4$ hoặc $x = -3$.
+
+#### Mã đề 102:
+* **a) (0,5 đ):** $x - \\frac{1}{4} = \\frac{7}{16} \\implies x = \\frac{7}{16} + \\frac{4}{16} = \\frac{11}{16}$.
+* **b) (0,5 đ):** $\\frac{3}{4}x + \\frac{1}{5} = \\frac{19}{20} \\implies \\frac{3}{4}x = \\frac{19}{20} - \\frac{4}{20} = \\frac{15}{20} = \\frac{3}{4} \\implies x = 1$.
+* **c) (0,5 đ):** $\\left(x + \\frac{1}{3}\\right)^2 = \\frac{25}{36} \\implies x + \\frac{1}{3} = \\pm\\frac{5}{6} \\implies x = \\frac{1}{2}$ hoặc $x = -\\frac{7}{6}$.
+* **d) (0,5 đ):** $\\vert 2x + 3\\vert = 9 \\implies 2x + 3 = 9$ hoặc $2x + 3 = -9 \\implies x = 3$ hoặc $x = -6$.
+
+#### Mã đề 103:
+* **a) (0,5 đ):** $x - \\frac{1}{5} = \\frac{9}{25} \\implies x = \\frac{9}{25} + \\frac{5}{25} = \\frac{14}{25}$.
+* **b) (0,5 đ):** $\\frac{4}{5}x - \\frac{1}{2} = \\frac{3}{10} \\implies \\frac{4}{5}x = \\frac{3}{10} + \\frac{5}{10} = \\frac{8}{10} = \\frac{4}{5} \\implies x = 1$.
+* **c) (0,5 đ):** $\\left(x - \\frac{1}{4}\\right)^2 = \\frac{49}{64} \\implies x - \\frac{1}{4} = \\pm\\frac{7}{8} \\implies x = \\frac{9}{8}$ hoặc $x = -\\frac{5}{8}$.
+* **d) (0,5 đ):** $\\vert 3x - 2\\vert = 7 \\implies 3x - 2 = 7$ hoặc $3x - 2 = -7 \\implies x = 3$ hoặc $x = -\\frac{5}{3}$.
+
+#### Mã đề 104:
+* **a) (0,5 đ):** $x - \\frac{1}{6} = \\frac{11}{36} \\implies x = \\frac{11}{36} + \\frac{6}{36} = \\frac{17}{36}$.
+* **b) (0,5 đ):** $\\frac{5}{6}x - \\frac{1}{3} = \\frac{1}{2} \\implies \\frac{5}{6}x = \\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6} \\implies x = 1$.
+* **c) (0,5 đ):** $\\left(x + \\frac{1}{5}\\right)^2 = \\frac{36}{25} \\implies x + \\frac{1}{5} = \\pm\\frac{6}{5} \\implies x = 1$ hoặc $x = -\\frac{7}{5}$.
+* **d) (0,5 đ):** $\\vert 3x + 4\\vert = 10 \\implies 3x + 4 = 10$ hoặc $3x + 4 = -10 \\implies x = 2$ hoặc $x = -\\frac{14}{3}$.
+
+---
+
+### CÂU 13 (2,5 ĐIỂM). HÌNH HỌC - ĐỊNH LÍ VÀ CHỨNG MINH ĐỊNH LÍ
+
+* **a) (1,25 điểm):**
+  - **Ghi GT, KL (0,5 đ):**
+    + **GT:** $a \\perp AB$ tại $A$; $b \\perp AB$ tại $B$; cát tuyến $c$ cắt $a, b$ tại $C, D$; $\\widehat{C}_1 = \\alpha$.
+    + **KL:** $a \\parallel b$; tính số đo $\\widehat{D}_1, \\widehat{D}_2$.
+  - **Chứng minh $a \\parallel b$ (0,75 đ):**
+    Vì $a \\perp AB$ và $b \\perp AB$ nên theo định lí *\"Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng song song với nhau\"*, ta suy ra $a \\parallel b$.
+
+* **b) (1,25 điểm): Tính số đo góc:**
+  - **Mã đề 101 ($\\widehat{C}_1 = 70^\\circ$):**
+    + Vì $a \\parallel b$ nên $\\widehat{D}_1 = \\widehat{C}_1 = 70^\\circ$ (hai góc so le trong). *(0,6đ)*
+    + Vì $\\widehat{D}_2$ và $\\widehat{C}_1$ là hai góc trong cùng phía nên $\\widehat{D}_2 + \\widehat{C}_1 = 180^\\circ \\implies \\widehat{D}_2 = 180^\\circ - 70^\\circ = 110^\\circ$. *(0,65đ)*
+  - **Mã đề 102 ($\\widehat{C}_1 = 65^\\circ$):**
+    + $\\widehat{D}_1 = \\widehat{C}_1 = 65^\\circ$ (so le trong). *(0,6đ)*
+    + $\\widehat{D}_2 = 180^\\circ - 65^\\circ = 115^\\circ$ (trong cùng phía bù nhau). *(0,65đ)*
+  - **Mã đề 103 ($\\widehat{C}_1 = 75^\\circ$):**
+    + $\\widehat{D}_1 = \\widehat{C}_1 = 75^\\circ$ (so le trong). *(0,6đ)*
+    + $\\widehat{D}_2 = 180^\\circ - 75^\\circ = 105^\\circ$ (trong cùng phía bù nhau). *(0,65đ)*
+  - **Mã đề 104 ($\\widehat{C}_1 = 55^\\circ$):**
+    + $\\widehat{D}_1 = \\widehat{C}_1 = 55^\\circ$ (so le trong). *(0,6đ)*
+    + $\\widehat{D}_2 = 180^\\circ - 55^\\circ = 125^\\circ$ (trong cùng phía bù nhau). *(0,65đ)*
+
+---
+
+### CÂU 14 (1,0 ĐIỂM). BÀI TOÁN NÂNG CAO
+
+* **Mã đề 101 ($A < 1$):**
+  - Ta có: $2A = 1 + \\frac{1}{2} + \\frac{1}{2^2} + \\dots + \\frac{1}{2^{99}}$. *(0,35đ)*
+  - Lấy $2A - A = 1 - \\frac{1}{2^{100}} \\implies A = 1 - \\frac{1}{2^{100}}$. *(0,35đ)*
+  - Vì $\\frac{1}{2^{100}} > 0$ nên $A < 1$ (đpcm). *(0,3đ)*
+
+* **Mã đề 102 ($B < \\frac{1}{2}$):**
+  - Ta có: $3B = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{99}}$. *(0,35đ)*
+  - Lấy $3B - B = 2B = 1 - \\frac{1}{3^{100}} < 1$. *(0,35đ)*
+  - Suy ra $B < \\frac{1}{2}$ (đpcm). *(0,3đ)*
+
+* **Mã đề 103 ($C < \\frac{1}{3}$):**
+  - Ta có: $4C = 1 + \\frac{1}{4} + \\frac{1}{4^2} + \\dots + \\frac{1}{4^{99}}$. *(0,35đ)*
+  - Lấy $4C - C = 3C = 1 - \\frac{1}{4^{100}} < 1$. *(0,35đ)*
+  - Suy ra $C < \\frac{1}{3}$ (đpcm). *(0,3đ)*
+
+* **Mã đề 104 ($D < \\frac{1}{4}$):**
+  - Ta có: $5D = 1 + \\frac{1}{5} + \\frac{1}{5^2} + \\dots + \\frac{1}{5^{99}}$. *(0,35đ)*
+  - Lấy $5D - D = 4D = 1 - \\frac{1}{5^{100}} < 1$. *(0,35đ)*
+  - Suy ra $D < \\frac{1}{4}$ (đpcm). *(0,3đ)*
+"""
+    with open(os.path.join(work_dir, "DAP_AN_VA_THANG_DIEM.md"), "w", encoding="utf-8") as f:
+        f.write(md_content)
+    print("Đã tạo file đáp án: DAP_AN_VA_THANG_DIEM.md")
+
+def main():
+    work_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(work_dir, "data_de.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(de_data, f, ensure_ascii=False, indent=2)
+    print("Đã lưu dữ liệu đề: data_de.json")
+    
+    tex_path = os.path.join(work_dir, "Phieu_Kiem_Tra_Tuan_07_Buoi_02.tex")
+    pdf_path = os.path.join(work_dir, "Phieu_Kiem_Tra_Tuan_07_Buoi_02.pdf")
+    
+    # Cấu hình dòng kẻ ban đầu
+    ob11 = 8
+    ob12 = 5
+    dk13 = 11
+    dk14 = 8
+    
+    tex_content = build_full_tex(ob11, ob12, dk13, dk14)
+    with open(tex_path, "w", encoding="utf-8") as f:
+        f.write(tex_content)
+    print("Đã tạo file TeX ban đầu.")
+    
+    print("Đang biên dịch PDF lần 1...")
+    success = compile_pdf(tex_path, work_dir)
+    if not success:
+        print("Lỗi biên dịch LaTeX! Đang hiển thị log...")
+        log_path = os.path.join(work_dir, "Phieu_Kiem_Tra_Tuan_07_Buoi_02.log")
+        if os.path.exists(log_path):
+            with open(log_path, "r", encoding="utf-8", errors="ignore") as lf:
+                lines = lf.readlines()
+                for line in lines[-40:]:
+                    print(line, end="")
+        return
+    
+    page_count = get_page_count(pdf_path)
+    print(f"-> Số trang sau lần biên dịch đầu tiên: {page_count} trang.")
+    
+    # Tinh chỉnh tự động nếu chưa đạt đúng 8 trang
+    # Thử điều chỉnh tham số nếu trang bị tràn hoặc thiếu
+    tuning_attempts = [
+        (8, 5, 11, 7),
+        (8, 5, 10, 7),
+        (7, 5, 10, 7),
+        (8, 5, 11, 6),
+        (9, 5, 11, 7)
+    ]
+    
+    attempt = 0
+    while page_count != 8 and attempt < len(tuning_attempts):
+        ob11, ob12, dk13, dk14 = tuning_attempts[attempt]
+        attempt += 1
+        print(f"Thử cấu hình dãn dòng {attempt}: ob11={ob11}, ob12={ob12}, dk13={dk13}, dk14={dk14}...")
+        tex_content = build_full_tex(ob11, ob12, dk13, dk14)
+        with open(tex_path, "w", encoding="utf-8") as f:
+            f.write(tex_content)
+        compile_pdf(tex_path, work_dir)
+        page_count = get_page_count(pdf_path)
+        print(f"-> Kết quả: {page_count} trang.")
+    
+    if page_count == 8:
+        print("==================================================")
+        print("CHÚC MỪNG! ĐÃ BIÊN DỊCH THÀNH CÔNG ĐÚNG CHÍNH XÁC 8 TRANG PDF!")
+        print("==================================================")
+        export_preview_images(pdf_path, work_dir)
+        export_answers_md(work_dir)
     else:
-        print(f"WARNING: Page count is {num_pages}, expected 8 pages. Adjust spacing!")
-else:
-    print("Compilation failed, PDF not found.")
-    print("Error output:")
-    print(proc.stdout[-1500:])
+        print(f"CẢNH BÁO: Số trang hiện tại là {page_count} (khác 8 trang). Cần kiểm tra lại dãn dòng!")
+
+if __name__ == '__main__':
+    main()

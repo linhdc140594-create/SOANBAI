@@ -1,0 +1,400 @@
+
+=== PAGE 51 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 11 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1.  So sánh hai số hữu tỉ 
+2
+5
+x = − và 
+3
+13
+y
+−
+=
+ ta được kết quả: 
+A. 
+.
+x
+y
+
+ 
+ 
+ 
+B. 
+.
+x
+y
+
+ 
+ 
+ 
+C. 
+.
+x
+y
+=
+ 
+ 
+       D. 
+.
+x
+y
+
+ 
+Câu 2. Tia Ot nào trong các hình dưới đây là tia phân giác của góc xOy. 
+ 
+A. Hình 1.           
+ 
+B. Hình 2.                     
+C. Hình 3.                     D. Hình 4. 
+Câu 3. Chọn câu trả lời đúng: 
+A. Hai góc đối đỉnh thì kề nhau. 
+B. Hai góc đối đỉnh thì bằng nhau.  
+ 
+C. Hai góc đối đỉnh có tổng số đo bằng 180. 
+D. Hai góc đối đỉnh có tổng số đo bằng 90. 
+Câu 4. Giá trị của biểu thức 16
+25
+−
+  là:   
+A. - 1.   
+        B. 1. 
+            C.  3. 
+          D. - 9. 
+Câu 5.  Lăng trụ đứng tam giác có: 
+A. 5 mặt, 6 đỉnh, 9 cạnh.                                                 B. 6 mặt, 6 đỉnh, 6 cạnh.  
+
+
+=== PAGE 52 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. 3 mặt, 6 đỉnh, 6 cạnh.                                                 D. 2 mặt, 6 đỉnh, 3 cạnh.  
+Câu 6. Cho hình lăng trụ đứng tam giác 
+. ’ ’ ’
+ABC A B C các mặt bên của hình trên là những 
+hình gì? 
+A. Tam giác.  
+ 
+ 
+ 
+ 
+ 
+B. Hình thoi. 
+C. Hình chữ nhật. 
+D. Hình bình hành. 
+Câu 7. Trong các số sau, số nào là số vô tỉ? 
+A. 
+2
+5                    B. 
+3                          C. 
+2
+(3,5)                   D. 16 . 
+Câu 8. Với a,b,c là ba số hữu tỉ bất kì, nếua
+b
+c
+−
+= thì 
+A. 
+.
+a
+b
+c
+=
++
+  
+ 
+  
+ 
+ 
+B. 
+.
+a
+b
+c
+= −+
+ 
+C. 
+.
+a
+b
+c
+=
+−
+  
+ 
+ 
+ 
+ 
+D. 
+.
+a
+b
+c
+= −−
+ 
+Câu 9. Điền cụm từ thích hợp vào chỗ chấm: “Một đường thẳng vuông góc với một trong 
+hai đường thẳng song song thì nó cũng … với đường thẳng kia.” 
+A. Song song. 
+ 
+ 
+ 
+ 
+B. Vuông góc. 
+ 
+ 
+C. Cắt nhau.  
+ 
+ 
+ 
+ 
+D. Trùng nhau. 
+Câu 10. Số thập phân 0,62313131.... dưới dạng thu gọn (có chu kì trong ngoặc) là 
+A. 
+(
+)
+0, 623 . 
+ 
+    B. 
+(
+)
+0, 6231 . 
+ 
+C. 
+(
+)
+0,62 31 . 
+ 
+    D. 
+(
+)
+0,623 13 . 
+Câu 11. Trong các số 
+9
+7
+5 0 13
+;
+;0,2;
+3
+;
+;
+5
+15
+2 8
+5
+
+
+
+ có bao nhiêu số hữu tỉ dương? 
+A. 1.                           
+B. 3.                           
+C. 2.                         
+D. 4. 
+Câu 12. Số đỉnh của hình hộp chữ nhật là: 
+
+
+=== PAGE 53 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 6.                        
+B.  8.                       
+C. 10.                           
+D. 12. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét tính đúng sai của các mệnh đề sau: 
+a) Tập hợp các số hữu tỉ được ký hiệu là . 
+b) Mọi số nguyên đều là số hữu tỉ. 
+c) Số đối của 2
+5
+− là 2
+5
+−. 
+d) Số 7
+0 là một số hữu tỉ. 
+Câu 2. Quan sát các hình vẽ bên dưới. Xét tính đúng sai của các mệnh đề sau: 
+ 
+a) Hình 1 là tam giác đều vì có 3 cạnh bằng nhau. 
+b) Trong Hình 2, hai cạnh a và b kề với góc vuông được gọi là hai cạnh huyền. 
+c) Hình 3 là hình chữ nhật ABCD có 4 góc ở các đỉnh đều là góc vuông. 
+d) Hình 4 là hình bình hành ABCD có hai cặp cạnh đối song song và bằng nhau. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số thực x , biết: 
+1
+1,5
+0,5
+2
+x
+−
+−
+=
+. 
+
+
+=== PAGE 54 ===
+
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Cho góc 
+80
+xOy
+
+=
+. Vẽ tia Oz nằm giữa hai tia Ox và Oy sao cho 
+30
+xOz
+
+=
+. Gọi 
+Ot là tia phân giác của zOy . Tính số đo góc xOt . 
+Phần IV. Tự luận 
+Câu 1. Tính giá trị các biểu thức sau (tính bằng cách hợp lý nếu có thể) 
+a) 
+5
+2
+2
+:
+7
+7
+5
+A
+−
+
+
+=
++
+
+
+
+
+;  
+ 
+ 
+ 
+b) 
+5 31
+5 2
+5
+.
+.
+2
+17 33
+17 33
+17
+B
+−
+−
+=
++
++
+; 
+c) 
+16
+25
+36
+49
+C =
++
++
++
+; 
+ 
+ 
+d) 
+( )
+( )
+1
+0, 5
+1
+0, 7
+3
+D =
+−
++
+. 
+Câu 2. Tìm x , biết: 
+a) 
+1
+3
+2
+4
+x +
+=
+;  
+ 
+ 
+ 
+b) 
+2
+1
+3
+3
+x −
+=
+. 
+Câu 3. Cho hình vẽ sau, trong đó Ax song song By, 
+
+
+0
+0
+0
+xAB
+40 , ABC
+105 , BCy
+65
+=
+=
+=
+. 
+ 
+a) Tính số đo góc ABy 
+b) Chứng minh rằng By song song với Cz 
+c) Kẻ BD là tia phân giác của góc CBy. Tính số đo góc BDC. 
+Câu 4. Cho 
+2
+3
+4
+2023
+2024
+1
+1
+1
+1
+1
+1
+7
+7
+7
+7
+7
+7
+A =
++
++
++
+++
++
+. Tìm x để 
+1
+6
+1
+?
+7x
+A = −
+ 
+ 
+ 

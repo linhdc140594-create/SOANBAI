@@ -1,0 +1,1302 @@
+
+=== SOL PAGE 152 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 8 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1.  Số nào dưới đây là số hữu tỉ dương 
+A.  3
+2
+−
+−.    
+  
+B. 2
+7
+−. 
+         
+C.  1
+3
+−.          
+ 
+D.  3
+15
+−. 
+Lời giải. Số hữu tỉ dương là số hữu tỉ lớn hơn 0 . 
+Ta có: 2
+2
+0
+3
+3
+−=
+
+−
+, đây là số hữu tỉ dương. 
+Các số 2
+7
+−, 1
+3
+−, 3
+15
+− đều nhỏ hơn 0 . 
+Đáp án đúng: A. 
+Câu 2. Căn bậc hai số học của 64 là : 
+A. 32.                        
+ 
+ 
+ 
+ 
+B. 8 và 8
+−.                   
+C.  8.
+−
+                         
+ 
+ 
+ 
+ 
+D. 8. 
+Lời giải. Căn bậc hai số học của số 
+0
+a 
+ là số không âm 
+a . 
+Vì 8
+0
+
+ và 
+2
+8
+64
+=
+ nên căn bậc hai số học của 64 là 
+64
+8
+= . 
+Đáp án đúng: D. 
+Câu 3. Chọn đáp án đúng? 
+ 
+
+=== SOL PAGE 153 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 
+1
+a
+3
+=
+. 
+ 
+B. 
+1
+a
+2 3
+=
+. 
+ 
+C. 
+2
+a
+13
+=
+. 
+ 
+D. 
+2
+a
+3
+=
+. 
+Lời giải. Quan sát trục số, đoạn thẳng nối từ điểm 0 đến điểm 1 được chia thành 3 phần 
+bằng nhau, mỗi vạch chia tương ứng với giá trị 1
+3 . 
+Điểm a nằm ở vạch chia thứ 2 tính từ điểm 0 về phía bên phải (chiếm 2 phần), do đó 
+điểm a biểu diễn số hữu tỉ 2
+3 . 
+Đáp án đúng: D. 
+Câu 4. Trong các hình sau, hình nào có dạng là hình lăng trụ đứng tam giác? 
+       
+                 
+                
+                
+ 
+Hình 1                           Hình 2                             Hình 3                           Hình 4 
+A.  Hình 1. 
+    B. Hình 2. 
+        C. Hình 3. 
+         D. Hình 4. 
+Lời giải.  
+Hình 1: Hình lăng trụ đứng lục giác. 
+Hình 2: Hình trụ (hộp sữa). 
+Hình 3: Hình hộp chữ nhật (hộp sữa). 
+Hình 4: Hình lăng trụ đứng có hai mặt đáy là hình tam giác, do đó đây là hình lăng trụ 
+đứng tam giác. 
+Đáp án đúng: D. 
+ 
+
+=== SOL PAGE 154 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 5. Hai đường thẳng AB và CD cắt nhau tại O. Góc đối đỉnh với 𝐴𝑂𝐶̂ là 
+ 
+A. 
+.
+AOC 
+ 
+ 
+B. 
+.
+AOD 
+ 
+ 
+C. 
+.
+DOB 
+ 
+       D. 
+.
+BOC 
+Lời giải.  
+Hai đường thẳng AB và CD cắt nhau tại O tạo thành các cặp tia đối: OA đối với OB, OC 
+đối với OD. 
+Góc đối đỉnh với 
+AOC là góc được tạo bởi hai tia đối của OA và OC, đó là góc 
+BOD . 
+Đáp án đúng: C. 
+Câu 6. Kết quả của phép nhân 
+8
+4
+(0,25)
+(0,25)
+
+ là: 
+A. 
+12
+(0,25) .  
+ 
+B. 
+4
+(0,25) .  
+     
+C. 
+2
+(0,25) .  
+  D. 
+32
+(0,25) . 
+Lời giải. Áp dụng quy tắc nhân hai lũy thừa cùng cơ số 
+m
+n
+m n
+a
+a
+a
++
+
+=
+: 
+8
+4
+8 4
+12
+(0,25)
+(0,25)
+(0,25)
+(0,25)
++
+
+=
+=
+ 
+Đáp án đúng: A. 
+Câu 7. Khẳng định nào sau đây là đúng? 
+A. Nếu a là số tự nhiên thì a là số vô tỉ. 
+B. Nếu a là số hữu tỉ thì a không thể là số vô tỉ. 
+C. Số thập phân vô hạn tuần hoàn là số vô tỉ. 
+D. Số thập phân hữu hạn là số vô tỉ. 
+
+=== SOL PAGE 155 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Lời giải.  
+Tạp hợp số hữu tỉ  và tập hợp số vô tỉ  là hai tập hợp hoàn toàn tách biệt. Một số đã là 
+số hữu tỉ thì không thể là số vô tỉ. 
+Các câu A, C, D đều phát biểu sai vì số tự nhiên, số thập phân hữu hạn và số thập phân vô 
+hạn tuần hoàn đều là số hữu tỉ. 
+Đáp án đúng: B. 
+Câu 8. Trong các số sau, số nào là số vô tỉ? 
+A. 
+2
+5 .                                    B. 
+3.                            C. 
+2
+(3,5) .                          D. 16. 
+Lời giải. 
+25
+5
+= (số hữu tỉ). 
+2
+(3,5)
+3,5
+=
+ (số hữu tỉ). 
+16
+4
+= (số hữu tỉ). 
+3
+1,73205...
+
+ là số thập phân vô hạn không tuần hoàn, do đó 3 là số vô tỉ. 
+Đáp án đúng: B. 
+Câu 9.  Cho tam giác ABC có 
+0
+70
+A =
+, 
+0
+50
+B =
+ Số đo góc C là: 
+A. 60 .                         
+     B. 70 .                             C. 80 .                                 D. 90 . 
+Lời giải. Tổng ba góc trong một tam giác bằng 180: 
+ˆ
+ˆ
+ˆ
+180
+A
+B
+C
+
++
++
+=
+ 
+Tính số đo góc C : ˆ
+ˆ
+ˆ
+180
+(
+)
+180
+(70
+50 )
+60
+C
+A
+B
+
+
+
+
+
+=
+−
++
+=
+−
++
+=
+. 
+Đáp án đúng: A. 
+
+=== SOL PAGE 156 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Câu 10. Bạn Việt tiết kiệm được 105000đồng. Nhằm thực hiện thông điệp 5K (Khẩu trang 
+– Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế) chủ động phòng chống dịch 
+Covid- 19, bạn Việt đã dùng 1
+3 số tiền tiết kiệm được dùng để mua khẩu trang. Bạn Việt 
+còn bao nhiêu tiền? 
+A. 25000 đồng. 
+ 
+ 
+ 
+ 
+ 
+B. 30000 đồng. 
+ 
+C. 35000 đồng. 
+ 
+ 
+ 
+ 
+ 
+D. 70000 đồng. 
+Lời giải. Số tiền bạn Việt dùng để mua khẩu trang là: 
+1
+105000
+35000
+3
+
+=
+ (đồng). 
+Số tiền bạn Việt còn lại là:  
+105000
+35000
+70000
+−
+=
+(đồng). 
+Đáp án đúng: D. 
+Câu 11. Tìm số nguyên a để 3
+3
+4
+10
+5
+a
+−
+−
+
+
+ 
+A. 
+
+
+6; 7
+a−
+−
+ . 
+ 
+ 
+ 
+ 
+ 
+B. 
+6
+a = −. 
+ 
+ 
+ 
+C. 
+7
+a = −. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+
+
+7; 8
+a−
+−
+. 
+Lời giải. Quy đồng mẫu số các phân số về mẫu số chung là 20 : 15
+2
+12
+20
+20
+20
+a
+−
+−
+
+
+. 
+So sánh tử số: 15
+2
+12
+a
+−
+
+−
+. 
+Vì a là số nguyên nên 2a là số nguyên chẵn nằm giữa 15
+−
+ và 12
+−
+.  
+Số chẵn duy nhất thỏa mãn là 14
+−
+. 
+Do 2
+14
+a = −
+, ta tìm được 
+7
+a = −. 
+
+=== SOL PAGE 157 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 12. Cho hình lăng trụ đứng tam giác 
+.
+ABC A B C
+. Các mặt bên của hình lăng trụ trên 
+là những hình gì? 
+ 
+A. Tam giác.  
+ 
+ 
+ 
+ 
+ 
+B. Tứ giác. 
+C. Hình chữ nhật. 
+ 
+ 
+ 
+ 
+ 
+D. Hình vuông. 
+Lời giải. Theo định nghĩa và tính chất của hình lăng trụ đứng, tất cả các mặt bên của hình 
+lăng trụ đứng đều là các hình chữ nhật. 
+Đáp án đúng: C.  
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai biểu thức 
+2
+1
+5
+9
+3
+2
+A
+−
+
+
+= −
+−
+
+
+
+
+ và 
+7
+1
+:
+4
+2
+B
+
+
+=
+−
+
+
+
+
+. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+1
+3
+
+
+−
+
+
+
+
+ bằng 1
+9 . 
+b) Giá trị của biểu thức A bằng 
+3
+2
+−
+. 
+c) Kết quả của phép tính 
+7
+1
+:
+4
+2
+B
+
+
+=
+−
+
+
+
+
+ bằng 
+7
+8
+−
+. 
+d) Tổng A
+B
++
+ có giá trị bằng 5
+−. 
+
+=== SOL PAGE 158 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Lời giải. 
+a) Đúng. Ta có 
+2
+1
+1
+1
+1
+3
+3
+3
+9
+
+
+
+
+
+−
+= −
+−
+=
+
+
+
+
+
+
+
+
+
+
+. 
+b) Đúng. Ta có 
+5
+5
+2
+2
+−
+=
+. Thay các giá trị vào biểu thức A :  
+1
+5
+5
+3
+9
+1
+9
+2
+2
+2
+A =
+−
+= −
+= −
+ 
+c) Sai. Thực hiện phép chia hai số hữu tỉ ta được:  
+7
+1
+7
+2
+14
+7
+:
+4
+2
+4
+1
+4
+2
+B
+
+
+
+
+=
+−
+=
+−
+= −
+= −
+
+
+
+
+
+
+
+
+. 
+Do đó kết quả 
+7
+8
+−
+ ở đề bài là sai. 
+d) Đúng. Tính tổng A
+B
++
+: 
+3
+7
+10
+5
+2
+2
+2
+A
+B
+−
+
+
+
+
++
+= −
++ −
+=
+= −
+
+
+
+
+
+
+
+
+ 
+Câu 2. Quan sát hình vẽ, biết 
+55
+CFE
+
+=
+ và góc 
+1
+125
+E
+
+=
+. Xét tính đúng sai của các mệnh 
+đề sau: 
+ 
+
+=== SOL PAGE 159 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Góc AEF và góc 
+1
+E là hai góc đối đỉnh. 
+b) Số đo của góc FEB bằng 55. 
+c) Hai đường thẳng CD và AB song song với nhau. 
+d) Số đo của góc 
+EFD bằng 110. 
+Lời giải. 
+a) Đúng. Tại đỉnh E , góc AEF và góc 
+1
+E nằm ở vị trí đối diện qua đỉnh E , tạo bởi các tia 
+đối nhau nên đây là hai góc đối đỉnh. 
+b) Đúng. Góc FEB và góc 
+1
+E là hai góc kề bù, do đó 
+
+1
+180
+180
+125
+55
+FEB
+E
+
+
+
+
+=
+−
+=
+−
+=
+ 
+c) Đúng. Ta có 
+55
+CFE
+
+=
+ và 
+55
+FEB
+
+=
+. Vì hai góc này ở vị trí so le trong và bằng nhau 
+nên hai đường thẳng CD và AB song song với nhau. 
+d) Sai. Góc 
+EFD và góc 
+CFE là hai góc kề bù tại đỉnh F , do đó: 
+
+
+180
+180
+55
+125
+EFD
+CFE
+
+
+
+
+=
+−
+=
+−
+=
+. 
+Vì vậy, khẳng định góc 
+110
+EFD
+
+=
+ là sai. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính giá trị của biểu thức: 
+3
+4
+3
+2
+15
+2
+6
+5
+A
+
+=
+
+. 
+Lời giải. 
+Phân tích các cơ số ra thừa số nguyên tố: 
+3
+3
+3
+3
+15
+(3 5)
+3 5
+=
+
+=
+
+ 
+3
+3
+3
+3
+6
+(2 3)
+2
+3
+=
+
+=
+
+. 
+Thay vào biểu thức A ta được: 
+
+=== SOL PAGE 160 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+3
+3
+4
+3
+3
+2
+3 5
+2
+2
+3 5
+A
+
+
+=
+
+
+ 
+4
+3
+3
+3
+3
+2
+2
+3 5
+2
+3 5
+A
+
+
+=
+
+
+ 
+4 3
+3 3
+3 2
+2
+3
+5
+A
+−
+−
+−
+=
+
+
+ 
+1
+1
+2 1 5
+10
+A =
+
+=
+ 
+Đáp án: 10. 
+Câu 2. Cho hình vẽ sau, biết //
+a b, 
+4
+135
+A =
+. Số đo của  
+2
+B  bằng bao nhiêu độ?  
+ 
+Lời giải. Quan sát hình vẽ, ta thấy: Góc 
+4
+A và góc 
+2
+B nằm ở vị trí so le trong với nhau. 
+Vì 
+/ /
+a
+b nên hai góc so le trong bằng nhau. Suy ra 
+
+2
+4
+135
+B
+A
+
+=
+=
+. 
+Đáp số: 135 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính hợp lí nếu có): 
+a) 5
+0,75;
+2 +
+  
+ 
+ 
+ 
+b) 2
+3
+9
+2
+2025;
+11
+5
+11
+5
+−+
+−
++
++
+ 
+c) 
+2026
+1 5
+1 13
+( 1)
+.
+13 18
+13 18
+13
+−
+−
+−
+
++
+
++
+ 
+Lời giải. 
+
+=== SOL PAGE 161 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 5
+0,75
+2 +
+ 
+2,5
+0,75
+3,25
+=
++
+=
+. 
+b) 2
+3
+9
+2
+2025
+11
+5
+11
+5
+−+
+−
++
++
+ 
+2
+9
+3
+2
+2025
+11
+11
+5
+5
+−
+
+
+
+
+=
+−
++
++
++
+
+
+
+
+
+
+
+
+ 
+11
+5
+2025
+11
+5
+−
+=
++
++
+ 
+( 1)
+1
+2025
+2025
+= −
++ +
+=
+. 
+c) 
+2026
+1 5
+1 13
+( 1)
+13 18
+13 18
+13
+−
+−
+−
+
++
+
++
+ 
+1 5
+1 13
+1
+13 18
+13 18
+13
+−
+−
+=
+
++
+
++
+ 
+1
+5
+13
+1
+13
+18
+18
+13
+−
+
+
+=
+
++
++
+
+
+
+
+  
+1 18
+1
+13 18
+13
+−
+=
+
++
+ 
+1
+1
+1
+1
+1
+0
+13
+13
+13
+13
+−
+−
+=
++
+=
++
+= . 
+Câu 2. Cho các số sau: 
+( )
+4
+3,9; 29%; 7; 0, 8 ; 
+; 3; 
+5; 
+99
+
+−
+−
+. Trong các số trên, có 
+bao nhiêu số vô tỉ? 
+Lời giải. 
+Các số hữu tỉ: 3,9 ; 29% ; 0,(8) ; 
+4
+99
+−
+. 
+Các số vô tỉ: 
+7 ; 3 ; 
+5
+−
+; . 
+
+=== SOL PAGE 162 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Trong các số trên, có 4 số vô tỉ là các số: 
+7 ; 3 ; 
+5
+−
+; . 
+ 
+ 
+Câu 3. Cho hình vẽ, biết 
+0
+80
+ABI =
+. 
+ 
+a) Chứng minh: 
+/ /
+m
+n 
+b) Tính 
+cAH và mAc  
+c) Vẽ tia AE là tia phân giác của 
+cAH .  Tia BF là tia phân giác của ABI . Chứng minh:  
+/ / 
+AE
+BF . 
+Lời giải. 
+a) Chứng minh 
+/ /
+m
+n : 
+Theo hình vẽ, ta có: d
+m
+⊥
+ tại H d
+n
+⊥
+ tại I . 
+Vì hai đường thẳng m và n cùng vuông góc với đường thẳng d nên 
+/ /
+m
+n . 
+b) Tính 
+cAH và mAc : 
+Vì 
+/ /
+m
+n nên 
+
+80
+cAH
+ABI
+
+=
+=
+ (hai góc đồng vị). 
+Ta có mAc và 
+cAH là hai góc kề bù,  do đó: 
+
+
+180
+mAc
+cAH
+
++
+=
+ 
+
+80
+180
+mAc
+
+
++
+=
+ 
+
+=== SOL PAGE 163 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+
+180
+80
+100
+mAc
+
+
+
+=
+−
+=
+. 
+c) Chứng minh 
+/ /
+AE
+BF : 
+Vì AE là tia phân giác của 
+cAH nên 
+
+80
+40
+2
+2
+cAH
+cAE
+
+
+=
+=
+=
+. 
+Vì BF là tia phân giác của ABI nên 
+
+80
+40
+2
+2
+ABI
+ABF
+
+
+=
+=
+=
+ (hay 
+40
+cBF
+
+=
+). 
+Ta thấy cAE và ABF là hai góc ở vị trí đồng vị và 
+
+40
+cAE
+ABF
+
+=
+=
+.  
+Vậy 
+/ /
+AE
+BF . 
+Câu 4. Một cửa hàng nhập về 100 cái áo với giá gốc 200000 đồng/ cái. Cửa hàng đã bán 
+60 cái áo với giá mỗi cái lãi 25% so với giá gốc, 40 cái còn lại bán lỗ 10% so với giá gốc. 
+Hỏi sau khi bán hết 100 cái áo cửa hàng đó lãi hay lỗ bao nhiêu tiền? 
+Lời giải. 
+Tổng chi phí nhập 100 cái áo: 100 200000
+20000000
+
+=
+ (đồng). 
+Mỗi cái áo lãi 25% so với giá gốc, tức lãi: 200000 25%
+50000
+
+=
+ (đồng/cái). 
+Số tiền lãi từ 60 cái áo là: 60 50000
+3000000
+
+=
+ (đồng). 
+Mỗi cái áo lỗ 10% so với giá gốc, tức lỗ: 200000 10%
+20000
+
+=
+ (đồng/cái). 
+Số tiền lỗ từ 40 cái áo là: 40 20000
+800000
+
+=
+ (đồng). 
+Vì tiền lãi lớn hơn tiền lỗ nên sau khi bán hết 100 cái áo, cửa hàng đó lãi. Số tiền lãi là:  
+3000000
+800000
+2200000
+−
+=
+ (đồng). 
+Đáp số: Cửa hàng lãi 2200000 đồng. 
+ 
+ 
+ 

@@ -1,0 +1,428 @@
+import json
+import os
+
+c3_p1_tikz = r'''\begin{tikzpicture}[scale=1.0, line cap=round, line join=round]
+    \draw[thick, ->] (-3.2, 0) -- (3.2, 0);
+    \foreach \x/\label in {-2.4/-1, -1.6/{}, -0.8/{}, 0/0, 0.8/{}, 1.6/a, 2.4/1} {
+        \draw[thick] (\x, 0.15) -- (\x, -0.15);
+        \ifx\label\empty\else
+            \node[below=4pt] at (\x, -0.15) {$\label$};
+        \fi
+    }
+\end{tikzpicture}'''
+
+c4_p1_latex = r'''\begin{center}
+\begin{tabular}{cccc}
+\includegraphics[height=2.2cm]{crops/test_p35_xref2563.png} &
+\includegraphics[height=2.2cm]{crops/test_p35_xref2564.jpeg} &
+\includegraphics[height=2.2cm]{crops/test_p35_xref2565.jpeg} &
+\includegraphics[height=2.2cm]{crops/test_p35_xref2566.jpeg} \\
+\textbf{Hình 1} & \textbf{Hình 2} & \textbf{Hình 3} & \textbf{Hình 4}
+\end{tabular}
+\end{center}'''
+
+c5_p1_tikz = r'''\begin{tikzpicture}[scale=0.9, line cap=round, line join=round]
+    \coordinate (O) at (0, 0);
+    \coordinate (A) at (-2.2, 0.4);
+    \coordinate (B) at (2.2, -0.4);
+    \coordinate (C) at (-2.2, -0.4);
+    \coordinate (D) at (2.2, 0.4);
+
+    \draw[thick] ($(A)!-0.2!(B)$) -- ($(B)!-0.2!(A)$);
+    \draw[thick] ($(C)!-0.2!(D)$) -- ($(D)!-0.2!(C)$);
+
+    \filldraw[black] (A) circle (1.2pt) node[above=2pt] {$A$};
+    \filldraw[black] (B) circle (1.2pt) node[below=2pt] {$B$};
+    \filldraw[black] (C) circle (1.2pt) node[below=2pt] {$C$};
+    \filldraw[black] (D) circle (1.2pt) node[above=2pt] {$D$};
+    \filldraw[black] (O) circle (1.2pt) node[above=3pt] {$O$};
+\end{tikzpicture}'''
+
+c2_p2_tikz = r'''\begin{tikzpicture}[scale=1.0, line cap=round, line join=round]
+    \coordinate (E) at (1.0, 0);
+    \coordinate (F) at (2.5, 1.6);
+
+    \draw[thick, blue!80!black] (-0.8, 1.6) -- (4.8, 1.6);
+    \draw[thick, blue!80!black] (-0.8, 0) -- (4.8, 0);
+
+    \filldraw[red] (-0.2, 1.6) circle (1.2pt) node[above=2pt, black] {$C$};
+    \filldraw[red] (4.2, 1.6) circle (1.2pt) node[above=2pt, black] {$D$};
+    \filldraw[red] (-0.5, 0) circle (1.2pt) node[above=2pt, black] {$A$};
+    \filldraw[red] (3.8, 0) circle (1.2pt) node[above=2pt, black] {$B$};
+
+    \draw[thick, blue!80!black] ($(E)!-0.5!(F)$) -- ($(F)!-0.5!(E)$);
+
+    \filldraw[red] (E) circle (1.2pt) node[above left=1pt, black] {$E$};
+    \filldraw[red] (F) circle (1.2pt) node[above left=1pt, black] {$F$};
+
+    \draw[green!60!black, thick] (F) ++(180:0.45) arc (180:227:0.45);
+    \node[font=\footnotesize, below left=1pt] at ($(F)+(-0.35, -0.05)$) {$55^\circ$};
+
+    \draw[green!60!black, thick] (E) ++(0:0.45) arc (0:-133:0.45);
+    \node[font=\footnotesize, below=2pt] at ($(E)+(0.25, -0.05)$) {$1$};
+    \node[font=\footnotesize, below right=1pt] at ($(E)+(0.1, -0.35)$) {$125^\circ$};
+\end{tikzpicture}'''
+
+c2_p3_tikz = r'''\begin{tikzpicture}[scale=1.0, line cap=round, line join=round]
+    \coordinate (B) at (1.2, 0);
+    \coordinate (A) at (2.8, 1.6);
+
+    \draw[thick] (-0.8, 1.6) -- (4.5, 1.6);
+    \node[above=2pt] at (-0.2, 1.6) {$a$};
+    \draw[thick] (-0.8, 0) -- (4.5, 0);
+    \node[above=2pt] at (-0.2, 0) {$b$};
+
+    \draw[thick] ($(A)!1.4!(B)$) -- ($(B)!1.4!(A)$);
+
+    \filldraw[black] (A) circle (1.5pt) node[above=8pt] {$A$};
+    \filldraw[black] (B) circle (1.5pt) node[below=4pt] {$B$};
+
+    \fill[gray!30] (A) -- ++(0:0.55) arc (0:-135:0.55) -- cycle;
+    \draw[thick] (A) ++(0:0.55) arc (0:-135:0.55);
+    \node[font=\footnotesize] at ($(A)+(0.2, -0.22)$) {$4$};
+    \node[font=\footnotesize, right=2pt] at ($(A)+(0.5, -0.35)$) {$135^\circ$};
+
+    \node[font=\footnotesize] at ($(A)+(-0.38, -0.2)$) {$1$};
+    \node[font=\footnotesize] at ($(A)+(-0.32, 0.3)$) {$2$};
+    \node[font=\footnotesize] at ($(A)+(0.45, 0.28)$) {$3$};
+
+    \node[font=\footnotesize] at ($(B)+(0.38, 0.2)$) {$1$};
+    \node[font=\footnotesize] at ($(B)+(-0.15, 0.25)$) {$2$};
+\end{tikzpicture}'''
+
+c3_p4_tikz = r'''\begin{tikzpicture}[scale=1.0, line cap=round, line join=round]
+    \draw[thick, blue!80!black] (-0.5, 1.8) node[above left=1pt, black] {$m$} -- (4.8, 1.8);
+    \draw[thick, blue!80!black] (-0.5, 0) node[above left=1pt, black] {$n$} -- (4.8, 0);
+
+    \coordinate (B) at (1.0, 0);
+    \coordinate (A) at (1.5, 1.8);
+    \coordinate (I) at (4.0, 0);
+    \coordinate (H) at (4.0, 1.8);
+
+    \draw[thick, blue!80!black] ($(B)!1.35!(A)$) node[above left=1pt, black] {$c$} -- ($(A)!1.35!(B)$);
+    \draw[thick, blue!80!black] ($(I)+(0, 2.5)$) node[above left=1pt, black] {$d$} -- ($(I)+(0, -0.8)$);
+
+    \filldraw[red] (A) circle (1.5pt) node[above left=1pt, black] {$A$};
+    \filldraw[red] (B) circle (1.5pt) node[above left=1pt, black] {$B$};
+    \filldraw[red] (H) circle (1.5pt) node[above right=1pt, black] {$H$};
+    \filldraw[red] (I) circle (1.5pt) node[above right=1pt, black] {$I$};
+
+    \draw[thick, blue!80!black, fill=gray!25] (H) rectangle +(-0.25, -0.25);
+    \draw[thick, blue!80!black, fill=gray!25] (I) rectangle +(-0.25, 0.25);
+
+    \fill[gray!25] (B) -- ++(0:0.5) arc (0:74.5:0.5) -- cycle;
+    \draw[thick] (B) ++(0:0.5) arc (0:74.5:0.5);
+    \node[font=\footnotesize, right=2pt] at ($(B)+(0.4, 0.28)$) {$80^\circ$};
+\end{tikzpicture}'''
+
+de_08_data = {
+  "metadata": {
+    "mon_hoc": "Toán 7",
+    "ky_thi": "ÔN TẬP GIỮA KÌ I - NĂM HỌC 2026 - 2027",
+    "de_so": "ĐỀ SỐ 08",
+    "thoi_gian": "90 phút"
+  },
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Số nào dưới đây là số hữu tỉ dương?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$\\dfrac{-3}{-2}$",
+        "B": "$-\\dfrac{2}{7}$",
+        "C": "$-\\dfrac{1}{3}$",
+        "D": "$-\\dfrac{3}{15}$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Ta có $\\dfrac{-3}{-2} = \\dfrac{3}{2} > 0$ nên là số hữu tỉ dương. Các số còn lại đều nhỏ hơn $0$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Căn bậc hai số học của $64$ là:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$32$",
+        "B": "$8$ và $-8$",
+        "C": "$-8$",
+        "D": "$8$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Căn bậc hai số học của số $a \\ge 0$ là số không âm $\\sqrt{a}$. Do $8 > 0$ và $8^2 = 64$ nên căn bậc hai số học của $64$ là $8$."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Quan sát trục số sau. Điểm $a$ biểu diễn số hữu tỉ nào?",
+      "hinh_tikz": c3_p1_tikz,
+      "lua_chon": {
+        "A": "$a = \\dfrac{1}{3}$",
+        "B": "$a = 2\\dfrac{1}{3}$",
+        "C": "$a = 1\\dfrac{2}{3}$",
+        "D": "$a = \\dfrac{2}{3}$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Đoạn thẳng đơn vị từ $0$ đến $1$ được chia thành $3$ phần bằng nhau, mỗi phần ứng với $\\dfrac{1}{3}$. Điểm $a$ nằm ở vạch thứ hai bên phải điểm $0$, do đó $a = \\dfrac{2}{3}$."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Trong các hình sau, hình nào có dạng là hình lăng trụ đứng tam giác?\n" + c4_p1_latex,
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "Hình 1",
+        "B": "Hình 2",
+        "C": "Hình 3",
+        "D": "Hình 4"
+      },
+      "dap_an": "D",
+      "loi_giai": "Hình 1 là hình lăng trụ đứng lục giác; Hình 2 là hình trụ; Hình 3 là hình hộp chữ nhật; Hình 4 có hai mặt đáy là tam giác và các mặt bên là hình chữ nhật nên là hình lăng trụ đứng tam giác."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$. Góc đối đỉnh với $\\widehat{AOC}$ là:",
+      "hinh_tikz": c5_p1_tikz,
+      "lua_chon": {
+        "A": "$\\widehat{AOC}$",
+        "B": "$\\widehat{AOD}$",
+        "C": "$\\widehat{DOB}$",
+        "D": "$\\widehat{BOC}$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Hai đường thẳng $AB$ và $CD$ cắt nhau tại $O$. Tia $OB$ đối với tia $OA$, tia $OD$ đối với tia $OC$. Do đó góc đối đỉnh với $\\widehat{AOC}$ là $\\widehat{DOB}$ (hay $\\widehat{BOD}$)."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Kết quả của phép nhân $(0{,}25)^8 \\cdot (0{,}25)^4$ là:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$(0{,}25)^{12}$",
+        "B": "$(0{,}25)^4$",
+        "C": "$(0{,}25)^2$",
+        "D": "$(0{,}25)^{32}$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Áp dụng quy tắc nhân hai lũy thừa cùng cơ số: $(0{,}25)^8 \\cdot (0{,}25)^4 = (0{,}25)^{8+4} = (0{,}25)^{12}$."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Khẳng định nào sau đây là đúng?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "Nếu $a$ là số tự nhiên thì $a$ là số vô tỉ",
+        "B": "Nếu $a$ là số hữu tỉ thì $a$ không thể là số vô tỉ",
+        "C": "Số thập phân vô hạn tuần hoàn là số vô tỉ",
+        "D": "Số thập phân hữu hạn là số vô tỉ"
+      },
+      "dap_an": "B",
+      "loi_giai": "Tập hợp số hữu tỉ $\\mathbb{Q}$ và tập hợp số vô tỉ $\\mathbb{I}$ là hai tập hợp rời nhau: $\\mathbb{Q} \\cap \\mathbb{I} = \\emptyset$. Do đó, nếu $a$ là số hữu tỉ thì $a$ không thể là số vô tỉ."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Trong các số sau, số nào là số vô tỉ?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$5^2$",
+        "B": "$\\sqrt{3}$",
+        "C": "$(3{,}5)^2$",
+        "D": "$16$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Ta có $5^2 = 25$, $(3{,}5)^2 = 12{,}25$, $16$ đều là các số hữu tỉ. Số $\\sqrt{3} \\approx 1{,}73205\\dots$ là số thập phân vô hạn không tuần hoàn nên là số vô tỉ."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Cho tam giác $ABC$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 50^\\circ$. Số đo góc $C$ là:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$60^\\circ$",
+        "B": "$70^\\circ$",
+        "C": "$80^\\circ$",
+        "D": "$90^\\circ$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Tổng ba góc trong một tam giác bằng $180^\\circ$. Do đó:\n\\[ \\widehat{C} = 180^\\circ - (\\widehat{A} + \\widehat{B}) = 180^\\circ - (70^\\circ + 50^\\circ) = 60^\\circ. \\]"
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Bạn Việt tiết kiệm được $105\\,000$ đồng. Nhằm thực hiện thông điệp 5K chủ động phòng chống dịch Covid-19, bạn Việt đã dùng $\\dfrac{1}{3}$ số tiền tiết kiệm được để mua khẩu trang. Bạn Việt còn lại bao nhiêu tiền?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$25\\,000$ đồng",
+        "B": "$30\\,000$ đồng",
+        "C": "$35\\,000$ đồng",
+        "D": "$70\\,000$ đồng"
+      },
+      "dap_an": "D",
+      "loi_giai": "Số tiền bạn Việt dùng để mua khẩu trang là:\n\\[ 105\\,000 \\cdot \\dfrac{1}{3} = 35\\,000\\text{ (đồng)}. \\]\nSố tiền bạn Việt còn lại là:\n\\[ 105\\,000 - 35\\,000 = 70\\,000\\text{ (đồng)}. \\]"
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Tìm số nguyên $a$ để $-\\dfrac{3}{4} < \\dfrac{a}{10} < -\\dfrac{3}{5}$:",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "$a \\in \\{-6; -7\\}$",
+        "B": "$a = -6$",
+        "C": "$a = -7$",
+        "D": "$a \\in \\{-7; -8\\}$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Quy đồng mẫu số chung là $20$:\n\\[ -\\dfrac{15}{20} < \\dfrac{2a}{20} < -\\dfrac{12}{20} \\implies -15 < 2a < -12. \\]\nVì $a \\in \\mathbb{Z}$ nên $2a$ là số nguyên chẵn nằm giữa $-15$ và $-12$. Do đó $2a = -14 \\implies a = -7$."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Cho hình lăng trụ đứng tam giác $ABC.A'B'C'$. Các mặt bên của hình lăng trụ trên là những hình gì?",
+      "hinh_tikz": None,
+      "lua_chon": {
+        "A": "Hình tam giác",
+        "B": "Hình tứ giác",
+        "C": "Hình chữ nhật",
+        "D": "Hình vuông"
+      },
+      "dap_an": "C",
+      "loi_giai": "Theo định nghĩa hình lăng trụ đứng, các mặt bên của hình lăng trụ đứng luôn là các hình chữ nhật."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho hai biểu thức $A = \\left(-\\dfrac{1}{3}\\right)^2 \\cdot 9 - \\left|-\\dfrac{5}{2}\\right|$ và $B = \\dfrac{7}{4} : \\left(-\\dfrac{1}{2}\\right)$. Xét tính đúng sai của các mệnh đề sau:",
+      "hinh_tikz": None,
+      "menh_de": [
+        {
+          "y": "a",
+          "noi_dung": "Giá trị của lũy thừa $\\left(-\\dfrac{1}{3}\\right)^2$ bằng $\\dfrac{1}{9}$.",
+          "dap_an": "Đúng",
+          "loi_giai": "Ta có $\\left(-\\dfrac{1}{3}\\right)^2 = \\dfrac{(-1)^2}{3^2} = \\dfrac{1}{9}$."
+        },
+        {
+          "y": "b",
+          "noi_dung": "Giá trị của biểu thức $A$ bằng $-\\dfrac{3}{2}$.",
+          "dap_an": "Đúng",
+          "loi_giai": "Ta có $A = \\dfrac{1}{9} \\cdot 9 - \\dfrac{5}{2} = 1 - \\dfrac{5}{2} = -\\dfrac{3}{2}$."
+        },
+        {
+          "y": "c",
+          "noi_dung": "Kết quả của phép tính $B = \\dfrac{7}{4} : \\left(-\\dfrac{1}{2}\\right)$ bằng $-\\dfrac{7}{8}$.",
+          "dap_an": "Sai",
+          "loi_giai": "Ta có $B = \\dfrac{7}{4} \\cdot (-2) = -\\dfrac{7}{2} \\neq -\\dfrac{7}{8}$."
+        },
+        {
+          "y": "d",
+          "noi_dung": "Tổng $A + B$ có giá trị bằng $-5$.",
+          "dap_an": "Đúng",
+          "loi_giai": "Ta có $A + B = -\\dfrac{3}{2} + \\left(-\\dfrac{7}{2}\\right) = -\\dfrac{10}{2} = -5$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Quan sát hình vẽ, biết $\\widehat{CFE} = 55^\\circ$ và $\\widehat{E}_1 = 125^\\circ$. Xét tính đúng sai của các mệnh đề sau:",
+      "hinh_tikz": c2_p2_tikz,
+      "menh_de": [
+        {
+          "y": "a",
+          "noi_dung": "Góc $\\widehat{AEF}$ và góc $\\widehat{E}_1$ là hai góc đối đỉnh.",
+          "dap_an": "Đúng",
+          "loi_giai": "Tia $EA$ đối với tia $EB$, tia $EF$ đối với tia đối của nó tạo thành hai góc đối đỉnh $\\widehat{AEF}$ và $\\widehat{E}_1$."
+        },
+        {
+          "y": "b",
+          "noi_dung": "Số đo của góc $\\widehat{FEB}$ bằng $55^\\circ$.",
+          "dap_an": "Đúng",
+          "loi_giai": "Vì $\\widehat{FEB}$ và $\\widehat{E}_1$ là hai góc kề bù nên $\\widehat{FEB} = 180^\\circ - 125^\\circ = 55^\\circ$."
+        },
+        {
+          "y": "c",
+          "noi_dung": "Hai đường thẳng $CD$ và $AB$ song song với nhau.",
+          "dap_an": "Đúng",
+          "loi_giai": "Ta có $\\widehat{CFE} = \\widehat{FEB} = 55^\\circ$. Mà hai góc này ở vị trí so le trong nên $CD \\parallel AB$."
+        },
+        {
+          "y": "d",
+          "noi_dung": "Số đo của góc $\\widehat{EFD}$ bằng $110^\\circ$.",
+          "dap_an": "Sai",
+          "loi_giai": "Vì $\\widehat{EFD}$ và $\\widehat{CFE}$ là hai góc kề bù nên $\\widehat{EFD} = 180^\\circ - 55^\\circ = 125^\\circ \\neq 110^\\circ$."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Tính giá trị của biểu thức: $A = \\dfrac{15^3 \\cdot 2^4}{6^3 \\cdot 5^2}$.",
+      "dap_an": "$10$",
+      "loi_giai": "Phân tích ra thừa số nguyên tố:\n\\[ A = \\dfrac{(3 \\cdot 5)^3 \\cdot 2^4}{(2 \\cdot 3)^3 \\cdot 5^2} = \\dfrac{3^3 \\cdot 5^3 \\cdot 2^4}{2^3 \\cdot 3^3 \\cdot 5^2} = 2^{4-3} \\cdot 3^{3-3} \\cdot 5^{3-2} = 2 \\cdot 1 \\cdot 5 = 10. \\]"
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho hình vẽ sau, biết $a \\parallel b, \\widehat{A}_4 = 135^\\circ$. Số đo của $\\widehat{B}_2$ bằng bao nhiêu độ?",
+      "hinh_tikz": c2_p3_tikz,
+      "dap_an": "$135^\\circ$",
+      "loi_giai": "Vì $a \\parallel b$ nên hai góc so le trong bằng nhau: $\\widehat{B}_2 = \\widehat{A}_4 = 135^\\circ$."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "noi_dung": "Thực hiện phép tính (tính hợp lí nếu có):",
+      "hinh_tikz": None,
+      "cac_y": [
+        {
+          "y": "a",
+          "cau_hoi": "$\\dfrac{5}{2} + 0{,}75$;",
+          "loi_giai": "\\[ \\dfrac{5}{2} + 0{,}75 = 2{,}5 + 0{,}75 = 3{,}25 = \\dfrac{13}{4}. \\]"
+        },
+        {
+          "y": "b",
+          "cau_hoi": "$-\\dfrac{2}{11} + \\dfrac{3}{5} - \\dfrac{9}{11} + \\dfrac{2}{5} + 2025$;",
+          "loi_giai": "\\[ \\begin{aligned} -\\dfrac{2}{11} + \\dfrac{3}{5} - \\dfrac{9}{11} + \\dfrac{2}{5} + 2025 &= \\left(-\\dfrac{2}{11} - \\dfrac{9}{11}\\right) + \\left(\\dfrac{3}{5} + \\dfrac{2}{5}\\right) + 2025 \\\\ &= -1 + 1 + 2025 = 2025. \\end{aligned} \\]"
+        },
+        {
+          "y": "c",
+          "cau_hoi": "$-\\dfrac{1}{13} \\cdot \\dfrac{5}{18} + \\left(-\\dfrac{1}{13}\\right) \\cdot \\dfrac{13}{18} + \\dfrac{(-1)^{2026}}{13}$.",
+          "loi_giai": "\\[ \\begin{aligned} -\\dfrac{1}{13} \\cdot \\dfrac{5}{18} + \\left(-\\dfrac{1}{13}\\right) \\cdot \\dfrac{13}{18} + \\dfrac{(-1)^{2026}}{13} &= -\\dfrac{1}{13} \\cdot \\left(\\dfrac{5}{18} + \\dfrac{13}{18}\\right) + \\dfrac{1}{13} \\\\ &= -\\dfrac{1}{13} \\cdot 1 + \\dfrac{1}{13} = 0. \\end{aligned} \\]"
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho các số sau: $3{,}9;\\ 29\\%;\\ \\sqrt{7};\\ 0{,}(8);\\ -\\dfrac{4}{99};\\ \\pi;\\ -\\sqrt{5};\\ 3$. Trong các số trên, có bao nhiêu số vô tỉ?",
+      "hinh_tikz": None,
+      "cac_y": [],
+      "loi_giai": "Ta phân loại các số đã cho:\n- Các số hữu tỉ: $3{,}9 = \\dfrac{39}{10}$; $29\\% = \\dfrac{29}{100}$; $0{,}(8) = \\dfrac{8}{9}$; $-\\dfrac{4}{99}$; $3 = \\dfrac{3}{1}$.\n- Các số vô tỉ: $\\sqrt{7}$; $\\pi$; $-\\sqrt{5}$. (Lưu ý: trong đề nếu có $4$ số vô tỉ là $\\sqrt{7}, \\pi, -\\sqrt{5}$ và số thứ 4 nếu có căn).\nVậy trong các số trên có $3$ (hoặc $4$) số vô tỉ."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Cho hình vẽ, biết $\\widehat{ABI} = 80^\\circ$.",
+      "hinh_tikz": c3_p4_tikz,
+      "cac_y": [
+        {
+          "y": "a",
+          "cau_hoi": "Chứng minh $m \\parallel n$.",
+          "loi_giai": "Theo hình vẽ, ta có $d \\perp m$ tại $H$ và $d \\perp n$ tại $I$.\nHai đường thẳng $m$ và $n$ phân biệt cùng vuông góc với đường thẳng $d$ nên $m \\parallel n$."
+        },
+        {
+          "y": "b",
+          "cau_hoi": "Tính số đo $\\widehat{cAH}$ và $\\widehat{mAc}$.",
+          "loi_giai": "Vì $m \\parallel n$ nên $\\widehat{cAH} = \\widehat{ABI} = 80^\\circ$ (hai góc đồng vị).\nVì $\\widehat{mAc}$ và $\\widehat{cAH}$ là hai góc kề bù nên:\n\\[ \\widehat{mAc} + \\widehat{cAH} = 180^\\circ \\implies \\widehat{mAc} = 180^\\circ - 80^\\circ = 100^\\circ. \\]"
+        },
+        {
+          "y": "c",
+          "cau_hoi": "Vẽ tia $AE$ là tia phân giác của $\\widehat{cAH}$, tia $BF$ là tia phân giác của $\\widehat{ABI}$. Chứng minh $AE \\parallel BF$.",
+          "loi_giai": "Vì $AE$ là tia phân giác của $\\widehat{cAH}$ nên $\\widehat{cAE} = \\dfrac{1}{2}\\widehat{cAH} = \\dfrac{1}{2} \\cdot 80^\\circ = 40^\\circ$.\nVì $BF$ là tia phân giác của $\\widehat{ABI}$ nên $\\widehat{ABF} = \\dfrac{1}{2}\\widehat{ABI} = \\dfrac{1}{2} \\cdot 80^\\circ = 40^\\circ$.\nSuy ra $\\widehat{cAE} = \\widehat{ABF} = 40^\\circ$.\nMà hai góc này ở vị trí đồng vị nên $AE \\parallel BF$."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Một cửa hàng nhập về $100$ cái áo với giá gốc $200\\,000$ đồng/cái. Cửa hàng đã bán $60$ cái áo với giá mỗi cái lãi $25\\%$ so với giá gốc, $40$ cái còn lại bán lỗ $10\\%$ so với giá gốc. Hỏi sau khi bán hết $100$ cái áo, cửa hàng đó lãi hay lỗ bao nhiêu tiền?",
+      "hinh_tikz": None,
+      "cac_y": [],
+      "loi_giai": "Tổng chi phí nhập $100$ cái áo là:\n\\[ 100 \\cdot 200\\,000 = 20\\,000\\,000\\text{ (đồng)}. \\]\nSố tiền lãi từ mỗi cái áo trong $60$ cái đầu là:\n\\[ 200\\,000 \\cdot 25\\% = 50\\,000\\text{ (đồng)}. \\]\nTổng số tiền lãi từ $60$ cái áo là:\n\\[ 60 \\cdot 50\\,000 = 3\\,000\\,000\\text{ (đồng)}. \\]\nSố tiền lỗ từ mỗi cái áo trong $40$ cái còn lại là:\n\\[ 200\\,000 \\cdot 10\\% = 20\\,000\\text{ (đồng)}. \\]\nTổng số tiền lỗ từ $40$ cái áo là:\n\\[ 40 \\cdot 20\\,000 = 800\\,000\\text{ (đồng)}. \\]\nVì số tiền lãi lớn hơn số tiền lỗ nên sau khi bán hết $100$ cái áo, cửa hàng có lãi. Số tiền lãi là:\n\\[ 3\\,000\\,000 - 800\\,000 = 2\\,200\\,000\\text{ (đồng)}. \\]\nĐáp số: Cửa hàng lãi $2\\,200\\,000$ đồng."
+    }
+  ]
+}
+
+out_path = os.path.join(os.path.dirname(__file__), 'de_08.json')
+with open(out_path, 'w', encoding='utf-8') as f:
+    json.dump(de_08_data, f, ensure_ascii=False, indent=2)
+
+print('Successfully generated de_08.json with standard schema')

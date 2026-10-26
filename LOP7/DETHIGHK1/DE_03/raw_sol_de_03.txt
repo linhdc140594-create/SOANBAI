@@ -1,0 +1,1357 @@
+
+=== SOL PAGE 98 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số đối của số 1
+3 là: 
+A. 3.  
+ 
+ 
+B. 1.
+3
+−
+ 
+ 
+ 
+C. 3.
+5  
+ 
+       D. 0,2.
+−
+ 
+Lời giải. Số đối của số a là a
+−. Do đó, số đối của 1
+3 là 
+1
+1
+3
+3
+−
+−
+=
+. 
+Đáp án đúng: B. 
+Câu 2. Từ hình sau góc x’Oy’ đối đỉnh với góc nào? 
+ 
+A. 
+.
+xOy 
+ 
+  
+ 
+ 
+ 
+ 
+B. ’
+’.
+y Ox 
+C. ’
+.
+x Oy                    
+ 
+ 
+ 
+D. 
+’.
+xOy 
+Lời giải. Ta có tia đối của Ox là Ox và tia đối của Oylà Oy . Do đó, góc đối đỉnh với 
+góc 
+x Oy
+
+ là góc xOy . 
+Đáp án đúng: A. 
+
+=== SOL PAGE 99 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 3. Cho bài toán 
+1
+5
+2
++
+=
+x
+ khi chuyển số hạng 1
+2 từ vế trái sang vế phải ta được 
+A.
+1
+5
+2
+=
++
+x
+. 
+ 
+B. 
+1
+5
+2
+= −+
+x
+ . 
+ 
+C. 
+1
+5
+2
+=
+−
+x
+. 
+ 
+D. 
+1
+5
+2
+= −−
+x
+. 
+Lời giải. Theo quy tắc chuyển vế, khi chuyển một số hạng từ vế này sang vế kia ta phải đổi 
+dấu số hạng đó: 
+1
+2
++
+ chuyển sang vế phải thành 
+1
+2
+−
+. Vậy 
+1
+5
+2
+x =
+−
+. 
+Đáp án đúng: C. 
+Câu 4. Tia Ot nào trong các hình dưới đây là tia phân giác của góc xOy ? 
+ 
+A. Hình 1. 
+ 
+ 
+B. Hình 2. 
+ 
+ 
+C. Hình 3. 
+ 
+     D. Hình 4. 
+Lời giải. Tia phân giác Ot của góc xOy phải nằm giữa hai tia 
+,
+Ox Oy và tạo với hai tia này 
+hai góc bằng nhau ( 
+
+xOt
+tOy
+=
+). 
+Ở Hình 4, tia Ot nằm giữa 
+,
+Ox Oy và 
+
+30
+xOt
+tOy
+
+=
+=
+. 
+Đáp án đúng: D. 
+Câu 5. Kết quả của phép tính 
+10
+7
+:7 viết dưới dạng lũy thừa là: 
+A. 
+9
+7 .  
+ 
+ 
+B. 
+11
+7 .  
+ 
+ 
+C. 
+10
+7 .  
+ 
+ 
+D. 
+10
+1 . 
+
+=== SOL PAGE 100 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Áp dụng quy tắc chia hai lũy thừa cùng cơ số 
+:
+m
+n
+m n
+a
+a
+a
+−
+=
+ ta được:
+10
+1
+10 1
+9
+7
+:7
+7
+7
+−
+=
+=
+. 
+Đáp án đúng: A. 
+Câu 6. Nếu một đường thẳng cắt hai đường thẳng song song thì hai góc so le trong 
+A. Bằng nhau. 
+ 
+              B. Phụ nhau. 
+C. Kề nhau. 
+ 
+              D. Kề bù. 
+Lời giải. Theo tính chất của hai đường thẳng song song, hai góc so le trong bằng nhau. 
+Đáp án đúng: A. 
+Câu 7. Cho các số thập phân sau 0,12222...; 4,(5) ; 1,2184218 ; 11,2(312)
+−
+. Số thập phân 
+hữu hạn là: 
+A. 1,2184218 . 
+              
+ 
+ 
+B. 0,12222.... 
+          
+C. 4,(5) . 
+          
+ 
+ 
+ 
+D. 11,2(312)
+−
+. 
+Lời giải. Số thập phân hữu hạn là số có phần thập phân dừng lại (chứa số lượng chữ số hữu 
+hạn sau dấu phẩy). Xét từng số ta thấy: 
+• 
+0,12222... là số thập phân vô hạn tuần hoàn. 
+• 
+4,(5)
+4,5555...
+=
+ là số thập phân vô hạn tuần hoàn. 
+• 
+11,2(312)
+11,2312312...
+−
+= −
+ là số thập phân vô hạn tuần hoàn. 
+• 
+1,2184218 có đúng 7 chữ số ở phần thập phân và kết thúc hẳn, nên đây là số thập 
+phân hữu hạn. 
+Đáp án đúng: A. 
+Câu 8. Qua một điểm ở ngoài một đường thẳng, có bao nhiêu đường thẳng song song với 
+đường thẳng đó?           
+A. Không có.                 
+ 
+B. Có vô số.             
+C. Có ít nhất một            
+ 
+D. Chỉ có một. 
+
+=== SOL PAGE 101 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Theo tiên đề Euclid: Qua một điểm ở ngoài một đường thẳng, chỉ có một đường 
+thẳng song song với đường thẳng đó. 
+Đáp án đúng: D. 
+Câu 9. Số hữu tỉ x thỏa mãn 
+2
+25
+x =
+ là 
+A. 625.  
+ 
+B. 5
+−. 
+ 
+C. 5 . 
+ 
+ 
+D. 5 hoặc 5
+−
+. 
+Lời giải. Ta có 
+2
+5
+25
+=
+ và 
+2
+( 5)
+25
+−
+=
+. Do đó 
+5
+x = hoặc 
+5
+x = −. 
+Đáp án đúng: D. 
+Câu 10. Mô tả quy tắc chuyển vế qua đẳng thức 
+1
+5
+2
+6
+−
+−+
+=
+x
+ ta được: 
+A. 
+5
+1
+6
+2
+x
+−
+−=
++
+. 
+ 
+B. 
+5
+1
+6
+2
+x =
++
+. 
+ 
+C. 
+5
+1
+6
+2
+x
+−
+=
++
+. 
+ 
+D. 
+5
+1
+6
+2
+x
+−
+=
+−
+. 
+Lời giải. Chuyển x
+− từ vế trái sang vế phải thành 
+x
++ . Chuyển 5
+6
+− từ vế phải sang vế trái 
+thành 
+5
+6
++
+ ta được:  
+1
+5
+2
+6
+x
++
+=
+ 
+5
+1
+6
+2
+x =
++
+.  
+Đáp án đúng: B. 
+Câu 11. Cho 3 đường thẳng phân biệt a, b, c. Biết a
+b
+⊥
+ và b
+c
+⊥, khi đó 
+A. 
+.
+a
+c
+⊥
+ 
+B. // .
+b c 
+          C. // .
+a b 
+                  D. // .
+a c 
+
+=== SOL PAGE 102 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Hai đường thẳng phân biệt cùng vuông góc với một đường thẳng thứ ba thì chúng 
+song song với nhau. Vì a
+b
+⊥
+ và c
+b
+⊥
+ nên a
+c
+. 
+Đáp án đúng: D. 
+Câu 12. Căn bậc hai số học của 64 là : 
+A. 32.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B.  8 và 8
+−.                   
+C.  8. 
+−
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 8. 
+Lời giải. Căn bậc hai số học của số 
+0
+a 
+ là số không âm 
+a . Vì 8
+0
+
+ và 
+2
+8
+64
+=
+ nên 
+căn bậc hai số học của 64 là 8 . 
+Đáp án đúng: D. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho 
+70
+xOy
+
+=
+. Trên tia Ox lấy điểm A . Kẻ tia Az sao cho 
+70
+xAz
+
+=
+. Trên tia Az lấy 
+điểm B , kẻ tia Bt cắt Oy tại C sao cho 
+110
+CBA
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+ 
+a) ABC và CBz là hai góc kề bù. 
+b) 
+70
+CBz
+
+=
+. 
+c) Oy song song với Az . 
+d) 
+110
+BCO
+
+=
+. 
+
+=== SOL PAGE 103 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Lời giải.  
+a) Đúng. Điểm B thuộc tia Az nên hai góc ABC và CBz có chung cạnh BC , hai cạnh 
+BA và Bz là hai tia đối nhau, do đó đây là hai góc kề bù. 
+b) Đúng. Vì ABC và CBz kề bù nên 
+
+180
+ABC
+CBz
+
++
+=
+. Suy ra 
+180
+110
+70
+CBz
+
+
+
+=
+−
+=
+. 
+c) Đúng. Ta có hai góc xOy và xAz ở vị trí đồng vị và 
+
+70
+xOy
+xAz
+
+=
+=
+, do đó Oy
+Az
+
+. 
+d) Sai. Vì Oy
+Az
+
+ nên hai góc 
+BCO và CBz là hai góc so le trong. Suy ra 
+
+70
+BCO
+CBz
+
+=
+=
+. 
+Do đó khẳng định 
+110
+BCO
+
+=
+ là sai. 
+Câu 2. Cho biểu thức 
+3
+1
+3
+8
+2
+4
+M
+−
+
+
+= −
++
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+3
+1
+2
+
+
+−
+
+
+
+
+ bằng 
+1
+8
+−
+. 
+b) Giá trị tuyệt đối 
+3
+4
+− bằng 
+3
+4
+−
+. 
+c) Giá trị của biểu thức M bằng 
+1
+4
+−
+. 
+d) Giá trị M tìm được là một số hữu tỉ âm. 
+Lời giải.  
+a) Đúng. Ta có 
+3
+1
+1
+1
+1
+1
+2
+2
+2
+2
+8
+
+
+
+
+
+
+−
+= −
+−
+−
+= −
+
+
+
+
+
+
+
+
+
+
+
+
+. 
+b) Sai. Giá trị tuyệt đối của một số âm luôn là một số dương, do đó 
+3
+3
+4
+4
+−
+=
+. 
+c) Đúng. Thay các giá trị vào biểu thức M : 
+
+=== SOL PAGE 104 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+1
+3
+3
+1
+8
+1
+8
+4
+4
+4
+M
+
+
+= −
++
+= −+
+= −
+
+
+
+
+. 
+d) Đúng. Vì 
+1
+4
+M = −
+ có dạng a
+b với ,
+,
+0
+a b
+b
+
+
+
+ và 
+1
+0
+4
+−
+ nên M là một số hữu tỉ âm. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số hữu tỉ x , biết: 
+2
+1
+4
+3
+9
+x
+
+
+−
+=
+
+
+
+
+. 
+Lời giải. Vì 
+2
+2
+4
+3
+9
+
+=
+
+
+
+
+ và 
+2
+2
+4
+3
+9
+
+
+−
+=
+
+
+
+
+ nên có 2 trường hợp: 
+Trường hợp 1: 
+1
+2
+3
+3
+x −
+=
+ 
+2
+1
+3
+3
+x =
++
+ 
+1
+x = . 
+Trường hợp 2: 
+1
+2
+3
+3
+x −
+= −
+ 
+2
+1
+3
+3
+x = −
++
+ 
+1
+3
+x = −
+. 
+Đáp án: 
+1
+x = hoặc 
+1
+3
+x = −
+. 
+Câu 2.  Cho hai đường thẳng xx và yy cắt nhau tại điểm O . Biết 
+60
+xOy
+
+=
+. Tính số đo 
+góc đối đỉnh 
+x Oy
+
+ và góc kề bù x Oy
+
+ với góc xOy . 
+Lời giải.  
+
+=== SOL PAGE 105 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Góc đối đỉnh: Vì 
+x Oy
+
+ và xOy là hai góc đối đỉnh nên: 
+
+60
+x Oy
+xOy
+
+
+=
+=
+. 
+Góc kề bù: Vì x Oy
+
+ và xOy là hai góc kề bù nên: 
+
+180
+x Oy
+xOy
+
+
++
+=
+ 
+
+180
+60
+120
+x Oy
+
+
+
+
+=
+−
+=
+. 
+Đáp án: 
+60
+x Oy
+
+
+=
+ và 
+120
+x Oy
+
+
+=
+. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) (
+)
+0
+0,25 .40 3
+2026
+−
++ +
+; 
+ 
+ 
+b) 1
+3
+13 1
+7
+8
+8
+7
+−
+−
+
++
+
+; 
+ 
+c) 
+(
+)
+2
+3
+2
+7
+3
+.3 : 4
+1
+2
+3
+6
+4
+
+
+
+
+−
++
+−
+
+
+
+
+
+
+−
+
+
+. 
+Lời giải. 
+a) 
+0
+( 0,25) 40
+3
+2026
+−
+
++ +
+ 
+10
+3 1
+= −
++ + 
+7
+1
+6
+= −+ = −. 
+b) 1
+3
+13 1
+7
+8
+8
+7
+−
+−
+
++
+
+ 
+1
+3
+13
+7
+8
+8
+−
+−
+
+
+=
+
++
+
+
+
+
+ 
+1
+16
+7
+8
+−
+
+
+=
+
+
+
+
+ 
+1
+2
+( 2)
+7
+7
+=
+−
+= −
+. 
+
+=== SOL PAGE 106 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) 
+2
+3
+2
+7
+3
+( 2)
+3 : 4
+1
+3
+6
+4
+
+
+
+
+−
++ −
+
+−
+
+
+
+
+
+
+
+
+
+
+ 
+2
+4
+7
+19
+( 8) 3 :
+1
+6
+6
+4
+
+
+
+
+=
+−
++ −
+
+−
+
+
+
+
+
+
+
+
+
+
+ 
+2
+1
+4
+( 24)
+1
+2
+19
+
+
+
+
+=
+−
++ −
+
+−
+
+
+
+
+
+
+
+
+
+
+ 
+1
+96
+4
+1
+4
+4
+19
+
+
+=
+−
+
+−
+
+
+
+
+ 
+95
+4
+1
+4
+19
+
+
+= −
+
+−
+
+
+
+
+ 
+5 1
+6
+= −−= −. 
+Câu 2. Tìm x biết: 
+a)
+4,5
+9,5
++
+=
+x
+;                          b) 2
+1
+3
+5
+2
+8
+−
+=
+x
+;
+ 
+      
+ 
+c) 
+1
+1
+3
+1
+3
+2
+−
++
+=
+x
+. 
+Lời giải. 
+a) 
+4,5
+9,5
+x +
+=
+ 
+9,5
+4,5
+x =
+−
+ 
+5
+x = . 
+b) 2
+1
+3
+5
+2
+8
+x
+−
+=
+ 
+2
+3
+1
+5
+8
+2
+x
+
+=
++
+ 
+2
+3
+4
+5
+8
+8
+x
+
+=
++
+ 
+
+=== SOL PAGE 107 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+7
+5
+8
+x
+
+=
+ 
+7 2
+:
+8 5
+x =
+ 
+7 5
+35
+8 2
+16
+x =
+
+=
+. 
+c) 
+1
+1
+|3
+1|
+3
+2
+x −
++
+=
+ 
+1
+1
+|3
+1|
+2
+3
+x −
+=
+−
+ 
+1
+|3
+1|
+6
+x −
+=
+. 
+Trường hợp 1: 
+1
+3
+1
+6
+x −=
+ 
+1
+3
+1
+6
+x =
++ 
+7
+3
+6
+x =
+ 
+7
+7
+:3
+6
+18
+x =
+=
+ 
+Trường hợp 2: 
+1
+3
+1
+6
+x −= −
+ 
+1
+3
+1
+6
+x = −
++ 
+5
+3
+6
+x =
+ 
+5
+5
+:3
+6
+18
+x =
+=
+ 
+
+=== SOL PAGE 108 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Vậy 
+7
+5
+;
+18 18
+x
+
+
+
+
+
+
+. 
+Câu 3. Hai người thợ cùng làm một công việc. Nếu làm riêng thì người thứ nhất phải mất 
+3 giờ, người thứ hai phải mất 5 giờ mới hoàn thành công việc. Hỏi nếu làm chung trong 
+45 phút thì hai người làm được mấy phần công việc? 
+Lời giải. 
+Đổi 45 phút = 45
+60 giờ = 3
+4 giờ. 
+Trong 1 giờ, người thứ nhất làm được: 
+1
+1:3
+3
+=
+ (công việc). 
+Trong 1 giờ, người thứ hai làm được:
+1
+1:5
+5
+=
+ (công việc). 
+Trong 1 giờ, cả hai người làm chung được: 1
+1
+8
+3
+5
+15
++
+=
+ (công việc). 
+Trong 45 phút ( 3
+4 giờ), cả hai người làm chung được: 8
+3
+2
+15 4
+5
+
+=
+ (công việc). 
+Đáp số: 2
+5 công việc. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

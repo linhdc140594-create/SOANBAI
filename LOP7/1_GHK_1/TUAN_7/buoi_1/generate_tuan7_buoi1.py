@@ -1,7 +1,8 @@
 import os
+import math
 import subprocess
 import pypdf
-import fitz # PyMuPDF
+import fitz
 
 tex_template = r'''\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{vietnam}
@@ -36,11 +37,107 @@ tex_template = r'''\documentclass[12pt,a4paper]{article}
   \dongke{#1}%
 }
 
+% Định nghĩa khu vực bài làm chia 2 cột có vách ngăn mờ ở giữa
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.5mm}%
+  \noindent%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+  \hfill%
+  {\color{gray!60}\vrule}%
+  \hfill%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+}
+
 \begin{document}
 \pagestyle{empty}
 '''
 
-def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14=8):
+def generate_tikz(angle_deg):
+    alpha = math.radians(angle_deg)
+    y_A = 2.45
+    y_B = 0.65
+    dy = y_A - y_B # 1.8
+    dx = dy / math.tan(alpha)
+    
+    x_mid = 1.95
+    x_B = x_mid - dx / 2
+    x_A = x_mid + dx / 2
+    
+    ext = 0.65
+    x_c_bot = x_B - ext / math.tan(alpha)
+    y_c_bot = y_B - ext
+    x_c_top = x_A + ext / math.tan(alpha)
+    y_c_top = y_A + ext
+    
+    r = 0.36
+    r1 = 0.58
+    r2 = 0.42
+    r3 = 0.42
+    r4 = 0.42
+    
+    a1_rad = alpha / 2
+    n1_A_x = x_A + r1 * math.cos(a1_rad)
+    n1_A_y = y_A + r1 * math.sin(a1_rad)
+    n1_B_x = x_B + r1 * math.cos(a1_rad)
+    n1_B_y = y_B + r1 * math.sin(a1_rad)
+    
+    a2_rad = (math.pi + alpha) / 2
+    n2_A_x = x_A + r2 * math.cos(a2_rad)
+    n2_A_y = y_A + r2 * math.sin(a2_rad)
+    n2_B_x = x_B + r2 * math.cos(a2_rad)
+    n2_B_y = y_B + r2 * math.sin(a2_rad)
+    
+    a3_rad = math.pi + alpha / 2
+    n3_A_x = x_A + r3 * math.cos(a3_rad)
+    n3_A_y = y_A + r3 * math.sin(a3_rad)
+    n3_B_x = x_B + r3 * math.cos(a3_rad)
+    n3_B_y = y_B + r3 * math.sin(a3_rad)
+    
+    a4_rad = (3 * math.pi + alpha) / 2
+    n4_A_x = x_A + r4 * math.cos(a4_rad)
+    n4_A_y = y_A + r4 * math.sin(a4_rad)
+    n4_B_x = x_B + r4 * math.cos(a4_rad)
+    n4_B_y = y_B + r4 * math.sin(a4_rad)
+    
+    # Label A and B placement: clearly to the left along line a/b so they don't look like A_2 or B_2
+    label_A_x = x_A - 0.72
+    label_A_y = y_A + 0.26
+    label_B_x = x_B - 0.72
+    label_B_y = y_B + 0.26
+    
+    tikz = f"""\\begin{{tikzpicture}}[scale=0.82, >=stealth, line join=round, line cap=round]
+  % Duong thang a va b
+  \\draw[thick] (0.2, {y_A:.2f}) -- (3.9, {y_A:.2f}) node[right=1pt] {{$a$}};
+  \\draw[thick] (0.2, {y_B:.2f}) -- (3.9, {y_B:.2f}) node[right=1pt] {{$b$}};
+  % Cat tuyen c
+  \\draw[thick] ({x_c_bot:.2f}, {y_c_bot:.2f}) -- ({x_c_top:.2f}, {y_c_top:.2f}) node[above=1pt] {{$c$}};
+  % Giao diem A va B
+  \\fill ({x_A:.2f}, {y_A:.2f}) circle (1.5pt);
+  \\node[font=\\footnotesize, fill=white, inner sep=0.5pt] at ({label_A_x:.2f}, {label_A_y:.2f}) {{$A$}};
+  \\fill ({x_B:.2f}, {y_B:.2f}) circle (1.5pt);
+  \\node[font=\\footnotesize, fill=white, inner sep=0.5pt] at ({label_B_x:.2f}, {label_B_y:.2f}) {{$B$}};
+  % Cung goc A1 va B1
+  \\draw[red!80!black, thick] ({x_A:.2f}, {y_A:.2f}) ++(0:{r:.2f}) arc (0:{angle_deg}:{r:.2f});
+  \\draw[red!80!black, thick] ({x_B:.2f}, {y_B:.2f}) ++(0:{r:.2f}) arc (0:{angle_deg}:{r:.2f});
+  % So goc tai A
+  \\node[red!80!black, font=\\scriptsize] at ({n1_A_x:.2f}, {n1_A_y:.2f}) {{$1$}};
+  \\node[font=\\scriptsize] at ({n2_A_x:.2f}, {n2_A_y:.2f}) {{$2$}};
+  \\node[font=\\scriptsize] at ({n3_A_x:.2f}, {n3_A_y:.2f}) {{$3$}};
+  \\node[font=\\scriptsize] at ({n4_A_x:.2f}, {n4_A_y:.2f}) {{$4$}};
+  % So goc tai B
+  \\node[red!80!black, font=\\scriptsize] at ({n1_B_x:.2f}, {n1_B_y:.2f}) {{$1$}};
+  \\node[font=\\scriptsize] at ({n2_B_x:.2f}, {n2_B_y:.2f}) {{$2$}};
+  \\node[font=\\scriptsize] at ({n3_B_x:.2f}, {n3_B_y:.2f}) {{$3$}};
+  \\node[font=\\scriptsize] at ({n4_B_x:.2f}, {n4_B_y:.2f}) {{$4$}};
+\\end{{tikzpicture}}"""
+    return tikz
+
+def render_de(ma_de, q_short, q11, q12, q13, ob11=10, ob12=6, dk13=18):
+    tikz_fig = generate_tikz(q13['angle'])
     res = f'''% =============================================================================
 % ========================= TOÁN 7 - TUẦN 07 - BUỔI 01: MÃ ĐỀ {ma_de} =============
 % ========================= MẶT TRƯỚC (TRANG 1/2) ==============================
@@ -100,10 +197,10 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\hline
 \\end{{tabularx}}
 
-\\vspace{{1.5mm}}
+\\vspace{{1.2mm}}
 
 \\noindent\\textbf{{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}}
-\\vspace{{0.8mm}}
+\\vspace{{0.6mm}}
 
 \\noindent
 \\begin{{tabularx}}{{\\linewidth}}{{|X|X|}}
@@ -124,56 +221,16 @@ def render_de(ma_de, q_short, q11, q12, q13, q14, ob11=10, ob12=5, dk13=11, dk14
 \\vspace{{0.5mm}}
 \\begin{{minipage}}[t]{{0.65\\linewidth}}
 \\vspace{{0pt}}
-\\textbf{{Câu 13 (2,5 điểm).}} {q13['de']}\\par\\vspace{{0.4mm}}
-\\textbf{{a) (1,25 điểm)}} {q13['a']}\\par\\vspace{{0.4mm}}
-\\textbf{{b) (1,25 điểm)}} {q13['b']}
+\\textbf{{Câu 13 (3,5 điểm).}} Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\\widehat{{A}}_1 = \\widehat{{B}}_1 = {q13['angle']}^\\circ$.\\par\\vspace{{0.4mm}}
+\\textbf{{a) (1,5 điểm)}} Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \\parallel b$).\\par\\vspace{{0.4mm}}
+\\textbf{{b) (2,0 điểm)}} Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\\widehat{{A}}_2, \\widehat{{A}}_3, \\widehat{{A}}_4$ và $\\widehat{{B}}_2, \\widehat{{B}}_3, \\widehat{{B}}_4$).
 \\end{{minipage}}\\hfill
 \\begin{{minipage}}[t]{{0.33\\linewidth}}
 \\vspace{{0pt}}\\centering
-\\begin{{tikzpicture}}[scale=0.85, >=stealth, line join=round, line cap=round]
-  % Hai duong thang a va b
-  \\draw[thick] (0.2, 2.5) -- (4.2, 2.5) node[right=1pt] {{$a$}};
-  \\draw[thick] (0.2, 0.7) -- (4.2, 0.7) node[right=1pt] {{$b$}};
-  % Cat tuyen c
-  \\draw[thick] (0.8, -0.2) -- (2.9, 3.4) node[above=1pt] {{$c$}};
-  % Giao diem A(2.37, 2.5) va B(1.31, 0.7)
-  \\fill (2.37, 2.5) circle (1.5pt);
-  \\node[font=\\footnotesize, fill=white, inner sep=1pt] at (2.05, 3.1) {{$A$}};
-  
-  \\fill (1.31, 0.7) circle (1.5pt);
-  \\node[font=\\footnotesize, fill=white, inner sep=1pt] at (1.0, 1.3) {{$B$}};
-  
-  % Cung goc A1 va B1
-  \\draw[red!80!black, thick] (2.37, 2.5) ++(0:0.45) arc (0:59.7:0.45);
-  \\draw[red!80!black, thick] (1.31, 0.7) ++(0:0.45) arc (0:59.7:0.45);
-  
-  % So goc tai A
-  \\node[red!80!black, font=\\scriptsize] at (2.95, 2.85) {{$1$}};
-  \\node[font=\\scriptsize] at (1.75, 2.75) {{$2$}};
-  \\node[font=\\scriptsize] at (1.75, 2.25) {{$3$}};
-  \\node[font=\\scriptsize] at (2.85, 2.2) {{$4$}};
-  
-  % So goc tai B
-  \\node[red!80!black, font=\\scriptsize] at (1.9, 1.05) {{$1$}};
-  \\node[font=\\scriptsize] at (0.7, 0.95) {{$2$}};
-  \\node[font=\\scriptsize] at (0.7, 0.45) {{$3$}};
-  \\node[font=\\scriptsize] at (1.8, 0.4) {{$4$}};
-\\end{{tikzpicture}}
+{tikz_fig}
 \\end{{minipage}}\\par
 \\vspace{{0.5mm}}
-\\noindent\\textit{{Bài giải:}}\\dongke{{{dk13}}}
-\\\\ \\hline
-\\end{{tabularx}}
-
-\\vspace{{1.5mm}}
-
-\\noindent
-\\begin{{tabularx}}{{\\linewidth}}{{|X|}}
-\\hline
-\\vspace{{0.5mm}}
-\\textbf{{Câu 14 (1,0 điểm).}} {q14['de']}\\par
-\\vspace{{0.5mm}}
-\\noindent\\textit{{Bài giải:}}\\dongke{{{dk14}}}
+\\noindent\\textit{{Bài giải:}}\\dongkeHaiCot{{{dk13}}}
 \\\\ \\hline
 \\end{{tabularx}}
 
@@ -189,12 +246,12 @@ de_data = {
             (r"Giá trị của biểu thức $\vert -5{,}2\vert - \vert 3{,}2\vert$ bằng bao nhiêu?", "2"),
             (r"Làm tròn số $28{,}647$ đến hàng phần mười được kết quả là:", "28{,}6"),
             (r"Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=75^\circ$. Số đo góc $\widehat{yOz}$ là:", "105^\\circ"),
-            (r"Hai đường thẳng cắt nhau tạo góc $48^\circ$. Số đo góc đối đỉnh với nó là:", "48^\\circ"),
+            (r"Hai đường thẳng cắt nhau tạo góc $48^\circ$. Góc đối đỉnh với nó có số đo:", "48^\\circ"),
             (r"Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 110^\circ$. Số đo góc $\widehat{mOt}$ là:", "55^\\circ"),
             (r"Giá trị của biểu thức $\left(-\frac{1}{3}\right)^2 + \frac{8}{9}$ bằng bao nhiêu?", "1"),
-            (r"Qua điểm $M \notin a$, có bao nhiêu đường thẳng song song với $a$?", "1"),
+            (r"Qua điểm $M \notin a$, số đường thẳng song song với $a$ là:", "1"),
             (r"Tìm số thực $x \ge 0$, biết $\sqrt{x} = 9$.", "81"),
-            (r"Cuốn sách giá $80\,000$ đ được giảm giá $15\%$. Số tiền được giảm là:", "12\,000\\text{ đ}"),
+            (r"Cuốn sách giá $80\,000$ đ giảm $15\%$. Số tiền được giảm là:", "12\,000\\text{ đ}"),
         ],
         'q11': {
             'a': r"$\frac{5}{14} + \left(-\frac{7}{3}\right) + \frac{9}{14}$",
@@ -209,12 +266,7 @@ de_data = {
             'd': r"$\vert 3x - 1\vert = 5$"
         },
         'q13': {
-            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 60^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
-        },
-        'q14': {
-            'de': r"Cho biểu thức $A = \frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \dots + \frac{1}{2^{2026}}$. Hãy so sánh $A$ với $1$."
+            'angle': 60
         }
     },
     '102': {
@@ -223,12 +275,12 @@ de_data = {
             (r"Giá trị của biểu thức $\vert -6{,}4\vert - \vert 3{,}4\vert$ bằng bao nhiêu?", "3"),
             (r"Làm tròn số $37{,}482$ đến hàng phần mười được kết quả là:", "37{,}5"),
             (r"Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=55^\circ$. Số đo góc $\widehat{yOz}$ là:", "125^\\circ"),
-            (r"Hai đường thẳng cắt nhau tạo góc $62^\circ$. Số đo góc đối đỉnh với nó là:", "62^\\circ"),
+            (r"Hai đường thẳng cắt nhau tạo góc $62^\circ$. Góc đối đỉnh với nó có số đo:", "62^\\circ"),
             (r"Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 120^\circ$. Số đo góc $\widehat{mOt}$ là:", "60^\\circ"),
             (r"Giá trị của biểu thức $\left(-\frac{2}{5}\right)^2 + \frac{21}{25}$ bằng bao nhiêu?", "1"),
-            (r"Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì chúng:", "\\text{song song}"),
+            (r"Hai đường thẳng phân biệt cùng song song với đường thẳng thứ ba thì:", "\\text{song song}"),
             (r"Tìm số thực $x \ge 0$, biết $\sqrt{x} = 10$.", "100"),
-            (r"Chiếc ba lô giá $240\,000$ đ được giảm giá $15\%$. Số tiền được giảm là:", "36\,000\\text{ đ}"),
+            (r"Chiếc ba lô giá $240\,000$ đ giảm $15\%$. Số tiền được giảm là:", "36\,000\\text{ đ}"),
         ],
         'q11': {
             'a': r"$\frac{4}{15} + \left(-\frac{5}{2}\right) + \frac{11}{15}$",
@@ -243,12 +295,7 @@ de_data = {
             'd': r"$\vert 3x + 2\vert = 8$"
         },
         'q13': {
-            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 70^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
-        },
-        'q14': {
-            'de': r"Cho biểu thức $B = \frac{1}{3} + \frac{1}{3^2} + \frac{1}{3^3} + \dots + \frac{1}{3^{2026}}$. Hãy so sánh $B$ với $\frac{1}{2}$."
+            'angle': 70
         }
     },
     '103': {
@@ -257,12 +304,12 @@ de_data = {
             (r"Giá trị của biểu thức $\vert -7{,}6\vert - \vert 3{,}6\vert$ bằng bao nhiêu?", "4"),
             (r"Làm tròn số $46{,}359$ đến hàng phần mười được kết quả là:", "46{,}4"),
             (r"Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=65^\circ$. Số đo góc $\widehat{yOz}$ là:", "115^\\circ"),
-            (r"Hai đường thẳng cắt nhau tạo góc $54^\circ$. Số đo góc đối đỉnh với nó là:", "54^\\circ"),
+            (r"Hai đường thẳng cắt nhau tạo góc $54^\circ$. Góc đối đỉnh với nó có số đo:", "54^\\circ"),
             (r"Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 130^\circ$. Số đo góc $\widehat{mOt}$ là:", "65^\\circ"),
             (r"Giá trị của biểu thức $\left(-\frac{3}{5}\right)^2 + \frac{16}{25}$ bằng bao nhiêu?", "1"),
-            (r"Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì chúng:", "\\text{song song}"),
+            (r"Hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì:", "\\text{song song}"),
             (r"Tìm số thực $x \ge 0$, biết $\sqrt{x} = 11$.", "121"),
-            (r"Đôi dép giá $160\,000$ đ được giảm giá $15\%$. Số tiền được giảm là:", "24\,000\\text{ đ}"),
+            (r"Đôi dép giá $160\,000$ đ giảm $15\%$. Số tiền được giảm là:", "24\,000\\text{ đ}"),
         ],
         'q11': {
             'a': r"$\frac{7}{18} + \left(-\frac{8}{3}\right) + \frac{11}{18}$",
@@ -277,12 +324,7 @@ de_data = {
             'd': r"$\vert 2x - 3\vert = 7$"
         },
         'q13': {
-            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 50^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
-        },
-        'q14': {
-            'de': r"Cho biểu thức $C = \frac{1}{4} + \frac{1}{4^2} + \frac{1}{4^3} + \dots + \frac{1}{4^{2026}}$. Hãy so sánh $C$ với $\frac{1}{3}$."
+            'angle': 50
         }
     },
     '104': {
@@ -291,12 +333,12 @@ de_data = {
             (r"Giá trị của biểu thức $\vert -8{,}8\vert - \vert 3{,}8\vert$ bằng bao nhiêu?", "5"),
             (r"Làm tròn số $54{,}728$ đến hàng phần mười được kết quả là:", "54{,}7"),
             (r"Cho hai góc $\widehat{xOy}$ và $\widehat{yOz}$ kề bù, biết $\widehat{xOy}=85^\circ$. Số đo góc $\widehat{yOz}$ là:", "95^\\circ"),
-            (r"Hai đường thẳng cắt nhau tạo góc $76^\circ$. Số đo góc đối đỉnh với nó là:", "76^\\circ"),
+            (r"Hai đường thẳng cắt nhau tạo góc $76^\circ$. Góc đối đỉnh với nó có số đo:", "76^\\circ"),
             (r"Cho tia $Ot$ là phân giác của góc $\widehat{mOn} = 140^\circ$. Số đo góc $\widehat{mOt}$ là:", "70^\\circ"),
             (r"Giá trị của biểu thức $\left(-\frac{1}{4}\right)^2 + \frac{15}{16}$ bằng bao nhiêu?", "1"),
-            (r"Cho $a \parallel b$, nếu $c \perp a$ thì đường thẳng $c$ có quan hệ gì với đường thẳng $b$?", "\\text{vuông góc}"),
+            (r"Cho $a \parallel b$, nếu $c \perp a$ thì đường thẳng $c$ có quan hệ gì với $b$?", "\\text{vuông góc}"),
             (r"Tìm số thực $x \ge 0$, biết $\sqrt{x} = 12$.", "144"),
-            (r"Chiếc áo giá $120\,000$ đ được giảm giá $15\%$. Số tiền được giảm là:", "18\,000\\text{ đ}"),
+            (r"Chiếc áo giá $120\,000$ đ giảm $15\%$. Số tiền được giảm là:", "18\,000\\text{ đ}"),
         ],
         'q11': {
             'a': r"$\frac{5}{16} + \left(-\frac{7}{2}\right) + \frac{11}{16}$",
@@ -311,12 +353,7 @@ de_data = {
             'd': r"$\vert 2x + 5\vert = 9$"
         },
         'q13': {
-            'de': r"Cho hình vẽ bên, biết đường thẳng $c$ cắt hai đường thẳng $a$ và $b$ lần lượt tại hai điểm $A$ và $B$, trong đó $\widehat{A}_1 = \widehat{B}_1 = 65^\circ$.",
-            'a': r"Chứng minh rằng đường thẳng $a$ song song với đường thẳng $b$ ($a \parallel b$).",
-            'b': r"Tính số đo các góc còn lại tại đỉnh $A$ và đỉnh $B$ (tức tính các góc $\widehat{A}_2, \widehat{A}_3, \widehat{A}_4$ và $\widehat{B}_2, \widehat{B}_3, \widehat{B}_4$)."
-        },
-        'q14': {
-            'de': r"Cho biểu thức $D = \frac{1}{5} + \frac{1}{5^2} + \frac{1}{5^3} + \dots + \frac{1}{5^{2026}}$. Hãy so sánh $D$ với $\frac{1}{4}$."
+            'angle': 65
         }
     }
 }
@@ -324,7 +361,7 @@ de_data = {
 full_tex = tex_template
 for ma in ['101', '102', '103', '104']:
     d = de_data[ma]
-    full_tex += render_de(ma, d['short'], d['q11'], d['q12'], d['q13'], d['q14'], ob11=10, ob12=5, dk13=11, dk14=8)
+    full_tex += render_de(ma, d['short'], d['q11'], d['q12'], d['q13'], ob11=10, ob12=6, dk13=18)
 
 full_tex += r'\end{document}' + '\n'
 
@@ -348,7 +385,6 @@ if os.path.exists(pdf_file):
     print(f"Total pages: {num_pages} (Target: 8 pages)")
     if num_pages == 8:
         print("PERFECT: Exactly 8 pages!")
-        # Xuất ảnh trang 1 và 2 để kiểm tra giao diện
         doc = fitz.open(pdf_file)
         doc[0].get_pixmap(dpi=150).save(os.path.join(script_dir, 'page_1.png'))
         doc[1].get_pixmap(dpi=150).save(os.path.join(script_dir, 'page_2.png'))

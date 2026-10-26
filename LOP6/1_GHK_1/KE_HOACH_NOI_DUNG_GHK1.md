@@ -148,4 +148,4 @@
 | [TUAN_5](file:///d:/4.%20GitHub/SACH/LOP6/PHIEU_KIEM_TRA/1_GHK_1/TUAN_5) | 🔄 Đang khởi tạo nội dung | 🔄 Đang khởi tạo | 🔄 Đã test compile | Ưu tiên số 1 hoàn thiện ngay |
 | [TUAN_6](file:///d:/4.%20GitHub/SACH/LOP6/PHIEU_KIEM_TRA/1_GHK_1/TUAN_6) | 📁 Đã có khung TeX mẫu | 📁 Đã có khung MD | Chờ biên dịch | Sẽ viết nội dung sau Tuần 5 |
 | [TUAN_7](file:///d:/4.%20GitHub/SACH/LOP6/PHIEU_KIEM_TRA/1_GHK_1/TUAN_7) | 📁 Đã có khung TeX mẫu | 📁 Đã có khung MD | Chờ biên dịch | Sẽ viết nội dung sau Tuần 6 |
-| [TUAN_8](file:///d:/4.%20GitHub/SACH/LOP6/PHIEU_KIEM_TRA/1_GHK_1/TUAN_8) | 📁 Đã có khung TeX mẫu | 📁 Đã có khung MD | Chờ biên dịch | Đề thi thử tổng hợp GHK1 |
+| [TUAN_8](file:///d:/GitHub/SOANBAI-main/LOP6/1_GHK_1/TUAN_8) | ✅ Hoàn thành 100% | ✅ Hoàn thành 100% | ✅ 8 trang chuẩn | **Đạt chuẩn kiểu mẫu 2 buổi (Mã đề 101, 102, 103, 104)** |

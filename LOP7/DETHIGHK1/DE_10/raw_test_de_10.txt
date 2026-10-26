@@ -1,0 +1,508 @@
+
+=== PAGE 46 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 10 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 7 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số nào dưới đây là số thập phân vô hạn tuần hoàn 
+A. 1
+2  
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0,123123.  
+ 
+C. 
+( )
+0, 3 . 
+ 
+  
+ 
+ 
+ 
+ 
+D. 0,3. 
+Câu 2. : Điểm A trên trục số ở hình bên biểu diễn số hữu tỉ nào   
+ 
+A. 2
+3
+−. 
+ 
+ 
+B. 1
+3 .  
+ 
+ 
+C. 2
+3 .  
+ 
+ 
+D. 4
+3 . 
+Câu 3. Đọc tên các tia phân giác trong hình vẽ sau. 
+ 
+A. 
+,
+AB BE là các tia phân giác. 
+B. 
+,
+AD BC là các tia phân giác. 
+C. 
+,
+AD BE là các tia phân giác. 
+D. 
+,
+AD AB là các tia phân giác. 
+ 
+E
+D
+A
+B
+C
+
+=== PAGE 47 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 4. Hình nào dưới đây là lăng trụ đứng tam giác? 
+A. Hình có hai đáy là tam giác và ba mặt bên là hình chữ nhật. 
+B. Hình có hai đáy là tứ giác và bốn mặt bên là hình chữ nhật. 
+C. Hình có hai đáy là hình vuông và bốn mặt bên là hình vuông. 
+D. Hình có một đáy là tam giác, một đỉnh chung. 
+Câu 5. Kết quả của phép tính 
+2
+2
+5
+
+
+−
+
+
+
+
+ là:  
+A. 
+4
+25
+−
+. 
+ 
+        B. 4
+25 . 
+ 
+C.  
+2
+5
+−
+. 
+ 
+        D. 4
+10 . 
+Câu 6.  Số có thể viết dưới dạng số thập phân vô hạn tuần hoàn là 
+A. 3
+24 . 
+ 
+B. 6
+25
+−
+. 
+ 
+ 
+C. 2
+15 . 
+ 
+D. 5
+8
+−
+−. 
+Câu 7. Giá trị của x thỏa mãn 
+3
+x =
+ là: 
+A. 
+3.
+x =
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+3.
+x = −
+ 
+ 
+ 
+ 
+C. 
+3
+x = hoặc 
+3
+x = −. 
+ 
+ 
+ 
+ 
+D. 
+9.
+x =
+ 
+Câu 8. Cho hình sau, cần thêm điều kiện gì thì AB// DC ? 
+ 
+
+=== PAGE 48 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 
+BCD
+60 .
+=
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+BCD
+120 .
+=
+ 
+C. 
+BAD
+60 .
+=
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+xAB
+60 .
+=
+ 
+Câu 9. Hãy so sánh hai số hữu tỉ – 0,2 và 2
+5
+−. 
+A. 
+2
+0,2
+5
+−
+−
+
+. 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+0,2
+5
+−
+−
+
+. 
+ 
+ 
+C. 
+2
+0,2
+5
+−
+−
+=
+. 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+0,2
+5
+−
+−
+
+.  
+Câu 10. Căn bậc hai số học của 49 là 
+A. 7.
+−
+ 
+ 
+                 B. 7. 
+ 
+C. 7
+− và 7. 
+ 
+                 D. 49.
+−
+ 
+Câu 11. Qua một điểm M nằm ngoài đường thẳng a, kẻ được bao nhiêu đường thẳng song 
+song với đường thẳng a ? 
+A. Có vô số đường thẳng.  
+ 
+ 
+B. Không có đường thẳng nào.              
+C. Có hai đường thẳng.                              
+D. Chỉ có một đường thẳng.      
+Câu 12. Kết quả của phép tính  
+3
+2
+20
+15
+−
+−
++
+  là:  
+A. 1
+35
+−.                   B. 17
+60
+−
+,                      C. 5
+35
+−.                         D. 1
+60
+−’ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+1
+3
+2
+5
+2
+4
+3
+8
+A
+
+
+
+
+= −
++
+−
++ −
+
+
+
+
+
+
+
+
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+3
+1
+2
+
+
+−
+
+
+
+
+ bằng 
+1
+8
+−
+. 
+
+=== PAGE 49 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Giá trị của phép tính 3
+2
+4
+3
+
+
+−
+
+
+
+
+ bằng 
+1
+2
+−
+. 
+c) Giá trị tuyệt đối 
+5
+8
+−
+ bằng 
+5
+8
+−
+. 
+d) Giá trị của biểu thức A bằng 0 . 
+Câu 2. Quan sát hình vẽ, hai đường thẳng xxvà yy cắt nhau tại điểm O . Biết số đo góc 
+
+45
+xOy
+
+=
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Góc xOy và góc 
+x Oy
+
+ là hai góc đối đỉnh. 
+b) Số đo của góc 
+x Oy
+
+ bằng 45. 
+c) Góc xOy kề bù với góc xOy và có số đo bằng 135. 
+d) Tổng số đo của hai góc đối đỉnh xOy và 
+x Oy
+
+ bằng 180. 
+ 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số hữu tỉ x , biết: 
+2
+3
+1
+4
+16
+x
+
+
+−
+=
+
+
+
+
+. 
+Câu 2. Cho góc 
+140
+mOn
+
+=
+, Ot là tia phân giác của 
+mOn . Tính số đo góc kề bù với góc 
+.
+mOt 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+
+=== PAGE 50 ===
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 5
+7
+3
+:
+12
+24
+8
+
+
++ −
+
+
+
+
+; 
+b) 4 3
+4
+25
+.
+:
+1
+5 7
+7
+16
+−
+−
+−−. 
+ 
+Câu 2.  Tìm x biết: 
+a) 
+1
+5
+2
+;
+3
+3
+x −
+=
+                             
+ 
+ 
+b) 
+2
+(2x
+3)
+25.
++
+=
+ 
+Câu 3. Một hồ bơi dạng hình hộp chữ nhật có kích thước là chiều dài 12 m, chiều rộng 5 m 
+và chiều sâu 3 m. 
+a) Tính thể tích nước khi bể bơi đầy nước. 
+b) Người ta cần lát gạch bên trong lòng hồ (mặt đáy và bốn mặt xung quanh). Biết gạch 
+hình vuông có cạnh 50 cm. Hỏi cần mua ít nhất bao nhiêu viên gạch để lát bên trong lòng 
+hồ bơi? (Coi diện tích mạch vữa lát không đáng kể). 
+Câu 4. Cho 
+2
+2
+4
+6
+100
+1
+1
+1
+1
+1
+2
+3
+3
+3
+3
+A =
++
++
++
+++
+. Chứng minh rằng 
+3
+8
+A 
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
