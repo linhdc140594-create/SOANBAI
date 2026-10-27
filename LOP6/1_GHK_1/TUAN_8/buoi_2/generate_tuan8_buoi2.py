@@ -11,7 +11,7 @@ tex_template = r'''\documentclass[12pt,a4paper]{article}
 \usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
 \usepackage[dethi]{ex_test}
 
-\SAOPTN{widthSA=2.8,heightSA=0.62}
+\SAOPTN{widthSA=2.7,heightSA=0.62}
 
 \setlength{\parskip}{0pt}
 
@@ -156,12 +156,12 @@ de_data = {
             (r'Số La Mã $\text{XXVI}$ có giá trị trong hệ thập phân là bao nhiêu?', '26'),
             (r'Viết gọn kết quả của phép chia $5^8 : 5^3$ dưới dạng một lũy thừa.', '5^5'),
             (r'Giá trị của biểu thức $40 + 20 : 2^2$ bằng bao nhiêu?', '45'),
-            (r'Chữ số tận cùng của một số tự nhiên chia hết cho cả $2$ và $5$ là:', '0'),
+            (r'Chữ số tận cùng của số tự nhiên chia hết cho cả $2$ và $5$ là:', '0'),
             (r'Tìm chữ số $x$ nhỏ nhất khác $0$ để số $\overline{5x2}$ chia hết cho $3$.', '2'),
             (r'Phân tích số $24$ ra thừa số nguyên tố có kết quả là gì?', r'2^3 \cdot 3'),
-            (r'Hai đường chéo của hình bình hành cắt nhau tại điểm nào của mỗi đường?', r'\text{Trung điểm}'),
+            (r'Hai đường chéo của hình bình hành cắt nhau tại:', r'\text{Trung điểm}'),
             (r'Một hình chữ nhật có chiều dài $14\text{ m}$, chiều rộng $6\text{ m}$. Chu vi là:', r'40\text{ m}'),
-            (r'Một hình bình hành có cạnh đáy $15\text{ cm}$, chiều cao tương ứng $8\text{ cm}$. Diện tích là:', r'120\text{ cm}^2'),
+            (r'Hình bình hành có độ dài đáy $15\text{ cm}$, chiều cao $8\text{ cm}$. Diện tích là:', r'120\text{ cm}^2'),
         ],
         'q11': {
             'a': r'185 - 3^2 \cdot 6 + 2^4 \cdot 3',
@@ -175,7 +175,7 @@ de_data = {
             'a': r'(x - 12) : 4 = 15',
             'b': r'120 - [45 - (x - 3)] = 85',
             'c': r'(x - 2)^3 = 27',
-            'd': r'\text{Tìm } x \text{ biết } x \ \vdots \ 12, x \ \vdots \ 18 \text{ và } 50 < x < 100',
+            'd': r'$x \ \vdots \ 12$, $x \ \vdots \ 18$ và $50 < x < 100$.',
         },
         'q13': {
             'de': r'Chi đội $6\text{A}$ có $24$ bạn nam và $36$ bạn nữ. Cô giáo chủ nhiệm muốn chia đều số nam và số nữ vào các tổ học tập sao cho số nam và số nữ ở mỗi tổ là như nhau.',
@@ -192,12 +192,12 @@ de_data = {
             (r'Số La Mã $\text{XXIII}$ có giá trị trong hệ thập phân là bao nhiêu?', '23'),
             (r'Viết gọn kết quả của phép chia $6^9 : 6^4$ dưới dạng một lũy thừa.', '6^5'),
             (r'Giá trị của biểu thức $50 + 36 : 3^2$ bằng bao nhiêu?', '54'),
-            (r'Số dư của một số có chữ số tận cùng bằng $3$ khi chia cho $5$ là bao nhiêu?', '3'),
+            (r'Số dư khi chia một số có chữ số tận cùng là $3$ cho $5$ là:', '3'),
             (r'Tìm chữ số $x$ nhỏ nhất khác $0$ để số $\overline{4x5}$ chia hết cho $3$.', '3'),
             (r'Phân tích số $36$ ra thừa số nguyên tố có kết quả là gì?', r'2^2 \cdot 3^2'),
-            (r'Hai cạnh đối diện của hình bình hành có tính chất gì về phương và độ dài?', r'\text{Song song, bằng nhau}'),
+            (r'Hai cạnh đối diện của hình bình hành có tính chất:', r'\text{Song song, bằng nhau}'),
             (r'Một hình chữ nhật có chiều dài $15\text{ m}$, chiều rộng $7\text{ m}$. Chu vi là:', r'44\text{ m}'),
-            (r'Một hình bình hành có cạnh đáy $16\text{ cm}$, chiều cao tương ứng $7\text{ cm}$. Diện tích là:', r'112\text{ cm}^2'),
+            (r'Hình bình hành có độ dài đáy $16\text{ cm}$, chiều cao $7\text{ cm}$. Diện tích là:', r'112\text{ cm}^2'),
         ],
         'q11': {
             'a': r'195 - 4^2 \cdot 4 + 3^3 \cdot 2',
@@ -211,7 +211,7 @@ de_data = {
             'a': r'(x - 15) : 5 = 14',
             'b': r'130 - [55 - (x - 4)] = 90',
             'c': r'(x - 3)^3 = 64',
-            'd': r'\text{Tìm } x \text{ biết } x \ \vdots \ 15, x \ \vdots \ 20 \text{ và } 80 < x < 150',
+            'd': r'$x \ \vdots \ 15$, $x \ \vdots \ 20$ và $80 < x < 150$.',
         },
         'q13': {
             'de': r'Chi đội $6\text{B}$ có $28$ bạn nam và $42$ bạn nữ. Cô giáo chủ nhiệm muốn chia đều số nam và số nữ vào các tổ học tập sao cho số tổ là nhiều nhất.',
@@ -228,12 +228,12 @@ de_data = {
             (r'Số La Mã $\text{XXV}$ có giá trị trong hệ thập phân là bao nhiêu?', '25'),
             (r'Viết gọn kết quả của phép chia $7^7 : 7^2$ dưới dạng một lũy thừa.', '7^5'),
             (r'Giá trị của biểu thức $60 + 48 : 2^4$ bằng bao nhiêu?', '63'),
-            (r'Số dư của một số có chữ số tận cùng bằng $7$ khi chia cho $5$ là bao nhiêu?', '2'),
+            (r'Số dư khi chia một số có chữ số tận cùng là $7$ cho $5$ là:', '2'),
             (r'Tìm chữ số $x$ nhỏ nhất khác $0$ để số $\overline{6x1}$ chia hết cho $3$.', '2'),
             (r'Phân tích số $40$ ra thừa số nguyên tố có kết quả là gì?', r'2^3 \cdot 5'),
-            (r'Hai góc đối diện của một hình bình hành có số đo như thế nào với nhau?', r'\text{Bằng nhau}'),
+            (r'Hai góc đối diện của một hình bình hành có số đo:', r'\text{Bằng nhau}'),
             (r'Một hình chữ nhật có chiều dài $16\text{ m}$, chiều rộng $8\text{ m}$. Chu vi là:', r'48\text{ m}'),
-            (r'Một hình bình hành có cạnh đáy $18\text{ cm}$, chiều cao tương ứng $6\text{ cm}$. Diện tích là:', r'108\text{ cm}^2'),
+            (r'Hình bình hành có độ dài đáy $18\text{ cm}$, chiều cao $6\text{ cm}$. Diện tích là:', r'108\text{ cm}^2'),
         ],
         'q11': {
             'a': r'175 - 2^5 \cdot 3 + 5^2 \cdot 3',
@@ -247,7 +247,7 @@ de_data = {
             'a': r'(x - 14) : 6 = 12',
             'b': r'140 - [65 - (x - 5)] = 95',
             'c': r'(x - 1)^3 = 125',
-            'd': r'\text{Tìm } x \text{ biết } x \ \vdots \ 14, x \ \vdots \ 21 \text{ và } 60 < x < 100',
+            'd': r'$x \ \vdots \ 14$, $x \ \vdots \ 21$ và $60 < x < 100$.',
         },
         'q13': {
             'de': r'Chi đội $6\text{C}$ có $32$ bạn nam và $48$ bạn nữ. Cô giáo chủ nhiệm muốn chia đều số nam và số nữ vào các nhóm sao cho số nhóm là nhiều nhất.',
@@ -264,12 +264,12 @@ de_data = {
             (r'Số La Mã $\text{XXII}$ có giá trị trong hệ thập phân là bao nhiêu?', '22'),
             (r'Viết gọn kết quả của phép chia $8^8 : 8^3$ dưới dạng một lũy thừa.', '8^5'),
             (r'Giá trị của biểu thức $70 + 75 : 5^2$ bằng bao nhiêu?', '73'),
-            (r'Số dư của một số có chữ số tận cùng bằng $8$ khi chia cho $5$ là bao nhiêu?', '3'),
+            (r'Số dư khi chia một số có chữ số tận cùng là $8$ cho $5$ là:', '3'),
             (r'Tìm chữ số $x$ nhỏ nhất khác $0$ để số $\overline{7x3}$ chia hết cho $3$.', '2'),
             (r'Phân tích số $48$ ra thừa số nguyên tố có kết quả là gì?', r'2^4 \cdot 3'),
-            (r'Hai đường chéo của một hình thoi có tính chất gì với nhau?', r'\text{Vuông góc}'),
+            (r'Hai đường chéo của một hình thoi có tính chất:', r'\text{Vuông góc}'),
             (r'Một hình chữ nhật có chiều dài $18\text{ m}$, chiều rộng $9\text{ m}$. Chu vi là:', r'54\text{ m}'),
-            (r'Một hình bình hành có cạnh đáy $20\text{ cm}$, chiều cao tương ứng $8\text{ cm}$. Diện tích là:', r'160\text{ cm}^2'),
+            (r'Hình bình hành có độ dài đáy $20\text{ cm}$, chiều cao $8\text{ cm}$. Diện tích là:', r'160\text{ cm}^2'),
         ],
         'q11': {
             'a': r'165 - 3^3 \cdot 3 + 4^3 \cdot 1',
@@ -283,7 +283,7 @@ de_data = {
             'a': r'(x - 16) : 7 = 11',
             'b': r'150 - [75 - (x - 6)] = 100',
             'c': r'(x - 4)^3 = 8',
-            'd': r'\text{Tìm } x \text{ biết } x \ \vdots \ 16, x \ \vdots \ 24 \text{ và } 70 < x < 120',
+            'd': r'$x \ \vdots \ 16$, $x \ \vdots \ 24$ và $70 < x < 120$.',
         },
         'q13': {
             'de': r'Chi đội $6\text{D}$ có $30$ bạn nam và $45$ bạn nữ. Cô giáo chủ nhiệm muốn chia đều số nam và số nữ vào các tổ học tập sao cho số tổ là nhiều nhất.',
@@ -296,7 +296,7 @@ de_data = {
     }
 }
 
-def generate_pdf(ob11=5, ob12=5, dk13=10, dk14=7):
+def generate_pdf(ob11=6, ob12=5, dk13=12, dk14=9):
     content = tex_template
     for ma_de in ['101', '102', '103', '104']:
         d = de_data[ma_de]
@@ -323,5 +323,6 @@ def generate_pdf(ob11=5, ob12=5, dk13=10, dk14=7):
         return -1
 
 if __name__ == '__main__':
-    pages = generate_pdf(ob11=5, ob12=5, dk13=10, dk14=7)
+    pages = generate_pdf(ob11=6, ob12=5, dk13=12, dk14=9)
     print(f"Final Page Count: {pages}")
+

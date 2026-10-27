@@ -1,0 +1,263 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 08 - BUỔI 02",
+  "title_p2": "TOÁN 8 - TUẦN 08 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_08_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Bậc của đơn thức $A = -3x^2 y^3 z^2$ bằng bao nhiêu?",
+          "$7$"
+        ],
+        [
+          "Bậc của đa thức $P = 4x^3 y - 3xy^2 - 4x^3 y + 2xy^2 + 5$ là:",
+          "$3$"
+        ],
+        [
+          "Giá trị của $M = 3x^2 y - 2xy$ tại $x = 1, y = -3$ là:",
+          "$-3$"
+        ],
+        [
+          "Trong khai triển $(2x + 1)^2 = 4x^2 + ax + 1$, hệ số $a$ bằng:",
+          "$4$"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $101^2 - 1$ bằng:",
+          "$10\\,200$"
+        ],
+        [
+          "Phân tích đa thức $x^2 - 6x + 9$ thành nhân tử, ta được:",
+          "$(x - 3)^2$"
+        ],
+        [
+          "Kết quả phép chia $(12x^3 y^2 - 8x^2 y) : (4x^2 y)$ là:",
+          "$3xy - 2$"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=75^\\circ, \\widehat{B}=105^\\circ, \\widehat{C}=80^\\circ$. Số đo $\\widehat{D}$ là:",
+          "$100^\\circ$"
+        ],
+        [
+          "Hình bình hành có hai đường chéo vuông góc là hình gì?",
+          "\\text{Hình thoi}"
+        ],
+        [
+          "Sân hình chữ nhật dài $12\\text{ m}$, rộng $5\\text{ m}$. Đường chéo dài:",
+          "$13\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$2x(x^2 - 3x + 1) - x^2(2x - 4)$",
+        "b": "$(2x + 3)^2 - (2x - 1)(2x + 1)$",
+        "c": "$(24x^5 y^4 - 16x^4 y^3 + 8x^3 y^2) : 8x^3 y^2$",
+        "d": "$(x - 3)(x + 4) - x(x + 1)$"
+      },
+      "q12": {
+        "a": "$3x(x - 4) - 3x^2 = 24$",
+        "b": "$2x(x - 3) + 5(x - 3) = 0$",
+        "c": "$(x - 1)^2 - 16 = 0$",
+        "d": "$x^2 - 4x + 4 = 25$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ cân tại $A$, đường trung tuyến $AM$. Gọi $N$ là trung điểm của $AC$. Lấy điểm $E$ đối xứng với $M$ qua $N$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $AMCE$ là hình chữ nhật.",
+        "b": "(1,25 điểm) Chứng minh tứ giác $ABME$ là hình bình hành."
+      },
+      "q14": {
+        "de": "Cho biểu thức $B = -x^2 + 4x + 2022$. Tìm giá trị lớn nhất của biểu thức $B$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Bậc của đơn thức $B = 4x^3 y z^4$ bằng bao nhiêu?",
+          "$8$"
+        ],
+        [
+          "Bậc của đa thức $Q = 5x^2 y^2 + 2x^3 - 5x^2 y^2 - x^3 + 8$ là:",
+          "$3$"
+        ],
+        [
+          "Giá trị của $N = 2x^2 y - 4xy$ tại $x = 1, y = -2$ là:",
+          "$4$"
+        ],
+        [
+          "Trong khai triển $(3x - 1)^2 = 9x^2 - bx + 1$, hệ số $b$ bằng:",
+          "$6$"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $201^2 - 1$ bằng:",
+          "$40\\,400$"
+        ],
+        [
+          "Phân tích đa thức $x^2 - 8x + 16$ thành nhân tử, ta được:",
+          "$(x - 4)^2$"
+        ],
+        [
+          "Kết quả phép chia $(15x^3 y^2 - 10x^2 y) : (5x^2 y)$ là:",
+          "$3xy - 2$"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=65^\\circ, \\widehat{B}=115^\\circ, \\widehat{C}=70^\\circ$. Số đo $\\widehat{D}$ là:",
+          "$110^\\circ$"
+        ],
+        [
+          "Hình bình hành có hai đường chéo bằng nhau là hình gì?",
+          "\\text{Hình chữ nhật}"
+        ],
+        [
+          "Sân hình chữ nhật dài $8\\text{ m}$, rộng $6\\text{ m}$. Đường chéo dài:",
+          "$10\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$3x(x^2 - 2x + 1) - x^2(3x - 5)$",
+        "b": "$(2x + 1)^2 - (2x - 3)(2x + 3)$",
+        "c": "$(20x^5 y^4 - 15x^4 y^3 + 5x^3 y^2) : 5x^3 y^2$",
+        "d": "$(x - 2)(x + 5) - x(x + 3)$"
+      },
+      "q12": {
+        "a": "$4x(x - 3) - 4x^2 = 24$",
+        "b": "$3x(x - 2) + 4(x - 2) = 0$",
+        "c": "$(x - 2)^2 - 25 = 0$",
+        "d": "$x^2 - 6x + 9 = 36$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ cân tại $A$, đường cao $AH$. Gọi $I$ là trung điểm của $AC$. Lấy điểm $K$ đối xứng với $H$ qua $I$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $AHCK$ là hình chữ nhật.",
+        "b": "(1,25 điểm) Chứng minh tứ giác $ABHK$ là hình bình hành."
+      },
+      "q14": {
+        "de": "Cho biểu thức $B = -x^2 + 6x + 2017$. Tìm giá trị lớn nhất của biểu thức $B$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Bậc của đơn thức $C = -5x^2 y^4 z$ bằng bao nhiêu?",
+          "$7$"
+        ],
+        [
+          "Bậc của đa thức $R = 3x^4 y - 2x^2 y + 1 - 3x^4 y + 5x^2 y$ là:",
+          "$3$"
+        ],
+        [
+          "Giá trị của $P = 4x^2 y - 3xy$ tại $x = -1, y = 2$ là:",
+          "$14$"
+        ],
+        [
+          "Trong khai triển $(2x + 3)^2 = 4x^2 + cx + 9$, hệ số $c$ bằng:",
+          "$12$"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $102^2 - 4$ bằng:",
+          "$10\\,400$"
+        ],
+        [
+          "Phân tích đa thức $x^2 + 10x + 25$ thành nhân tử, ta được:",
+          "$(x + 5)^2$"
+        ],
+        [
+          "Kết quả phép chia $(18x^4 y^2 - 12x^3 y) : (6x^3 y)$ là:",
+          "$3xy - 2$"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=80^\\circ, \\widehat{B}=100^\\circ, \\widehat{C}=95^\\circ$. Số đo $\\widehat{D}$ là:",
+          "$85^\\circ$"
+        ],
+        [
+          "Hình chữ nhật có hai cạnh kề bằng nhau là hình gì?",
+          "\\text{Hình vuông}"
+        ],
+        [
+          "Sân hình chữ nhật dài $15\\text{ m}$, rộng $8\\text{ m}$. Đường chéo dài:",
+          "$17\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$2x(x^2 - 4x + 2) - x^2(2x - 6)$",
+        "b": "$(2x + 5)^2 - (2x - 2)(2x + 2)$",
+        "c": "$(18x^5 y^4 - 12x^4 y^3 + 6x^3 y^2) : 6x^3 y^2$",
+        "d": "$(x - 4)(x + 5) - x(x + 1)$"
+      },
+      "q12": {
+        "a": "$2x(x - 5) - 2x^2 = 20$",
+        "b": "$4x(x - 4) + 3(x - 4) = 0$",
+        "c": "$(x - 3)^2 - 36 = 0$",
+        "d": "$x^2 - 8x + 16 = 49$"
+      },
+      "q13": {
+        "de": "Cho tam giác $MNP$ cân tại $M$, đường trung tuyến $MI$. Gọi $K$ là trung điểm của $MP$. Lấy điểm $E$ đối xứng với $I$ qua $K$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $MIPE$ là hình chữ nhật.",
+        "b": "(1,25 điểm) Chứng minh tứ giác $MNIE$ là hình bình hành."
+      },
+      "q14": {
+        "de": "Cho biểu thức $B = -x^2 + 8x + 2010$. Tìm giá trị lớn nhất của biểu thức $B$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Bậc của đơn thức $D = 7x^3 y^2 z^3$ bằng bao nhiêu?",
+          "$8$"
+        ],
+        [
+          "Bậc của đa thức $S = 6x y^3 - 4x^2 + 9 - 6x y^3 + x^2$ là:",
+          "$2$"
+        ],
+        [
+          "Giá trị của $Q = 2x^2 y - 5xy$ tại $x = -1, y = 3$ là:",
+          "$21$"
+        ],
+        [
+          "Trong khai triển $(3x - 2)^2 = 9x^2 - dx + 4$, hệ số $d$ bằng:",
+          "$12$"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $99^2 - 1$ bằng:",
+          "$9\\,800$"
+        ],
+        [
+          "Phân tích đa thức $x^2 + 12x + 36$ thành nhân tử, ta được:",
+          "$(x + 6)^2$"
+        ],
+        [
+          "Kết quả phép chia $(14x^3 y^3 - 7x^2 y^2) : (7x^2 y^2)$ là:",
+          "$2xy - 1$"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=70^\\circ, \\widehat{B}=110^\\circ, \\widehat{C}=90^\\circ$. Số đo $\\widehat{D}$ là:",
+          "$90^\\circ$"
+        ],
+        [
+          "Hình thoi có một góc vuông là hình gì?",
+          "\\text{Hình vuông}"
+        ],
+        [
+          "Sân hình chữ nhật dài $20\\text{ m}$, rộng $15\\text{ m}$. Đường chéo dài:",
+          "$25\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$3x(x^2 - 3x + 2) - x^2(3x - 8)$",
+        "b": "$(2x + 2)^2 - (2x - 1)(2x + 1)$",
+        "c": "$(28x^5 y^4 - 21x^4 y^3 + 7x^3 y^2) : 7x^3 y^2$",
+        "d": "$(x - 5)(x + 7) - x(x + 2)$"
+      },
+      "q12": {
+        "a": "$5x(x - 3) - 5x^2 = 30$",
+        "b": "$5x(x - 1) + 2(x - 1) = 0$",
+        "c": "$(x - 4)^2 - 49 = 0$",
+        "d": "$x^2 - 10x + 25 = 64$"
+      },
+      "q13": {
+        "de": "Cho tam giác $DEF$ cân tại $D$, đường cao $DH$. Gọi $M$ là trung điểm của $DF$. Lấy điểm $K$ đối xứng với $H$ qua $M$.",
+        "a": "(1,25 điểm) Chứng minh tứ giác $DHKF$ là hình chữ nhật.",
+        "b": "(1,25 điểm) Chứng minh tứ giác $DEHK$ là hình bình hành."
+      },
+      "q14": {
+        "de": "Cho biểu thức $B = -x^2 + 10x + 2001$. Tìm giá trị lớn nhất của biểu thức $B$."
+      }
+    }
+  }
+}
