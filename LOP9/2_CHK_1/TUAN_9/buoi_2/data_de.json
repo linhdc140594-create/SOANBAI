@@ -1,0 +1,247 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 09 - BUỔI 02",
+  "title_p2": "TOÁN 9 - TUẦN 09 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_09_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Tâm đối xứng của đường tròn $(O; R)$ là điểm nào?:",
+          "Tâm O"
+        ],
+        [
+          "Trục đối xứng của một đường tròn là đường thẳng nào?:",
+          "Mọi đường kính"
+        ],
+        [
+          "Đường kính vuông góc với một dây cung thì có tính chất gì?:",
+          "Đi qua trung điểm dây"
+        ],
+        [
+          "Cho $(O; 10\\text{ cm})$, dây $AB = 16\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "6\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 5\\text{ cm})$, khoảng cách từ tâm $O$ đến dây $CD$ là $3\\text{ cm}$. Dây $CD$ dài:",
+          "8\\text{ cm}"
+        ],
+        [
+          "Kết quả rút gọn biểu thức $\\sqrt{(3 - 2\\sqrt{2})^2}$ bằng:",
+          "3 - 2\\sqrt{2}"
+        ],
+        [
+          "Trục căn thức ở mẫu của biểu thức $\\dfrac{2}{\\sqrt{3}-1}$ được kết quả là:",
+          "\\sqrt{3}+1"
+        ],
+        [
+          "Nghiệm của phương trình $\\sqrt{x - 3} = 4$ là $x = $:",
+          "19"
+        ],
+        [
+          "Nghiệm của hệ phương trình $\\begin{cases} 2x + 3y = 7 \\\\ 2x - 3y = 1 \\end{cases}$ là $(x; y) = $:",
+          "(2; 1)"
+        ],
+        [
+          "Vòm tròn bán kính $5\\text{ m}$. Bề rộng mặt đường cách đỉnh vòm $1\\text{ m}$ là:",
+          "6\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 3(x - 1) + 2y = 5 \\\\ 2x - (y + 1) = 2 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức với $x > 0, x \\ne 1$:\\par $Q = \\left(\\dfrac{\\sqrt{x}+1}{\\sqrt{x}-1} - \\dfrac{\\sqrt{x}-1}{\\sqrt{x}+1}\\right) : \\dfrac{4\\sqrt{x}}{x-1}$\\par Rút gọn biểu thức $Q$."
+        ]
+      ],
+      "c12": "Hai ô tô khởi hành cùng một lúc từ hai tỉnh $A$ và $B$ cách nhau $180\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $2$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $10\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
+      "c13": {
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 10\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 6\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
+        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Tâm đối xứng của đường tròn $(I; R)$ là điểm nào?:",
+          "Tâm I"
+        ],
+        [
+          "Số trục đối xứng của một đường tròn là bao nhiêu?:",
+          "Vô số"
+        ],
+        [
+          "Đường kính đi qua trung điểm của một dây không đi qua tâm thì:",
+          "Vuông góc với dây"
+        ],
+        [
+          "Cho $(O; 10\\text{ cm})$, dây $AB = 12\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "8\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 5\\text{ cm})$, khoảng cách từ tâm $O$ đến dây $CD$ là $4\\text{ cm}$. Dây $CD$ dài:",
+          "6\\text{ cm}"
+        ],
+        [
+          "Kết quả rút gọn biểu thức $\\sqrt{(\\sqrt{5} - 2)^2}$ bằng:",
+          "\\sqrt{5}-2"
+        ],
+        [
+          "Trục căn thức ở mẫu của biểu thức $\\dfrac{3}{\\sqrt{5}-\\sqrt{2}}$ được kết quả là:",
+          "\\sqrt{5}+\\sqrt{2}"
+        ],
+        [
+          "Nghiệm của phương trình $\\sqrt{x - 2} = 5$ là $x = $:",
+          "27"
+        ],
+        [
+          "Nghiệm của hệ phương trình $\\begin{cases} 3x + 2y = 8 \\\\ 3x - 2y = 4 \\end{cases}$ là $(x; y) = $:",
+          "(2; 1)"
+        ],
+        [
+          "Vòm tròn bán kính $5\\text{ m}$. Bề rộng mặt đường cách đỉnh vòm $2\\text{ m}$ là:",
+          "8\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 2(x + 1) + 3y = 9 \\\\ 3x - (y + 2) = 3 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức với $x > 0, x \\ne 4$:\\par $Q = \\left(\\dfrac{\\sqrt{x}+2}{\\sqrt{x}-2} - \\dfrac{\\sqrt{x}-2}{\\sqrt{x}+2}\\right) : \\dfrac{8\\sqrt{x}}{x-4}$\\par Rút gọn biểu thức $Q$."
+        ]
+      ],
+      "c12": "Hai ô tô khởi hành cùng một lúc từ hai địa điểm $A$ và $B$ cách nhau $200\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $2$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $20\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
+      "c13": {
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 10\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 8\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
+        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Tâm đối xứng của đường tròn $(O)$ là điểm nào?:",
+          "Tâm O"
+        ],
+        [
+          "Đường thẳng nào sau đây là trục đối xứng của đường tròn?:",
+          "Đường thẳng qua tâm"
+        ],
+        [
+          "Dây lớn nhất của đường tròn đi qua điểm nào?:",
+          "Tâm"
+        ],
+        [
+          "Cho $(O; 13\\text{ cm})$, dây $AB = 24\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "5\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 13\\text{ cm})$, khoảng cách từ tâm $O$ đến dây $CD$ là $12\\text{ cm}$. Dây $CD$ dài:",
+          "10\\text{ cm}"
+        ],
+        [
+          "Kết quả rút gọn biểu thức $\\sqrt{(\\sqrt{10} - 3)^2}$ bằng:",
+          "\\sqrt{10}-3"
+        ],
+        [
+          "Trục căn thức ở mẫu của biểu thức $\\dfrac{4}{\\sqrt{5}-1}$ được kết quả là:",
+          "\\sqrt{5}+1"
+        ],
+        [
+          "Nghiệm của phương trình $\\sqrt{x - 5} = 3$ là $x = $:",
+          "14"
+        ],
+        [
+          "Nghiệm của hệ phương trình $\\begin{cases} 4x + y = 9 \\\\ 4x - y = 7 \\end{cases}$ là $(x; y) = $:",
+          "(2; 1)"
+        ],
+        [
+          "Bánh xe có bán kính $0{,}35\\text{ m}$. Chu vi bánh xe là (lấy $\\pi \\approx \\frac{22}{7}$):",
+          "2{,}2\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 2(x - 1) + y = 3 \\\\ 3x - 2(y + 1) = 2 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức với $x > 0, x \\ne 9$:\\par $Q = \\left(\\dfrac{\\sqrt{x}+3}{\\sqrt{x}-3} - \\dfrac{\\sqrt{x}-3}{\\sqrt{x}+3}\\right) : \\dfrac{12\\sqrt{x}}{x-9}$\\par Rút gọn biểu thức $Q$."
+        ]
+      ],
+      "c12": "Hai ô tô khởi hành cùng một lúc từ hai tỉnh $A$ và $B$ cách nhau $210\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $3$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $10\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
+      "c13": {
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 20\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 12\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
+        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Số tâm đối xứng của một đường tròn là bao nhiêu?:",
+          "1"
+        ],
+        [
+          "Mỗi đường kính của một đường tròn có là trục đối xứng không?:",
+          "Có"
+        ],
+        [
+          "Dây không đi qua tâm thì luôn có độ dài so với đường kính như thế nào?:",
+          "Nhỏ hơn"
+        ],
+        [
+          "Cho $(O; 15\\text{ cm})$, dây $AB = 24\\text{ cm}$. Khoảng cách từ tâm $O$ đến dây $AB$ là:",
+          "9\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 17\\text{ cm})$, khoảng cách từ tâm $O$ đến dây $CD$ là $15\\text{ cm}$. Dây $CD$ dài:",
+          "16\\text{ cm}"
+        ],
+        [
+          "Kết quả rút gọn biểu thức $\\sqrt{(4 - \\sqrt{15})^2}$ bằng:",
+          "4 - \\sqrt{15}"
+        ],
+        [
+          "Trục căn thức ở mẫu của biểu thức $\\dfrac{2}{\\sqrt{5}-\\sqrt{3}}$ được kết quả là:",
+          "\\sqrt{5}+\\sqrt{3}"
+        ],
+        [
+          "Nghiệm của phương trình $\\sqrt{x - 7} = 4$ là $x = $:",
+          "23"
+        ],
+        [
+          "Nghiệm của hệ phương trình $\\begin{cases} 5x + 2y = 12 \\\\ 5x - 2y = 8 \\end{cases}$ là $(x; y) = $:",
+          "(2; 1)"
+        ],
+        [
+          "Đĩa tròn có bán kính $14\\text{ cm}$. Chu vi đĩa tròn là (lấy $\\pi \\approx \\frac{22}{7}$):",
+          "88\\text{ cm}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 4(x - 1) + 3y = 7 \\\\ 2x - (y + 1) = 2 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức với $x > 0, x \\ne 16$:\\par $Q = \\left(\\dfrac{\\sqrt{x}+4}{\\sqrt{x}-4} - \\dfrac{\\sqrt{x}-4}{\\sqrt{x}+4}\\right) : \\dfrac{16\\sqrt{x}}{x-16}$\\par Rút gọn biểu thức $Q$."
+        ]
+      ],
+      "c12": "Hai ô tô khởi hành cùng một lúc từ hai tỉnh $A$ và $B$ cách nhau $240\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $3$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $20\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
+      "c13": {
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 20\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 16\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
+        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+      }
+    }
+  }
+}

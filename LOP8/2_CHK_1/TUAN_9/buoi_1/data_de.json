@@ -1,0 +1,271 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 09 - BUỔI 01",
+  "title_p2": "TOÁN 8 - TUẦN 09 - BUỔI 01",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_09_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Bậc của đơn thức $A = -4x^3 y^2 z^3$ là:",
+          "8"
+        ],
+        [
+          "Bậc của đa thức $P = 3x^3 y - 2xy^2 - 3x^3 y + 5xy^2 - 7$ là:",
+          "3"
+        ],
+        [
+          "Giá trị của $M = 2x^2 y - xy$ tại $x=1, y=-2$ bằng:",
+          "-2"
+        ],
+        [
+          "Cho khai triển $(x+5)^2 = x^2 + ax + 25$. Giá trị của $a$ là:",
+          "10"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $75^2 - 25^2 = $:",
+          "5\\,000"
+        ],
+        [
+          "Kết quả phép chia $(12x^3 y^2 - 8x^2 y) : (4x^2 y)$ là:",
+          "3xy - 2"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=80^\\circ, \\widehat{B}=110^\\circ, \\widehat{C}=75^\\circ$. Số đo góc $D$ là:",
+          "95^\\circ"
+        ],
+        [
+          "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C}=70^\\circ$. Số đo góc $A$ là:",
+          "110^\\circ"
+        ],
+        [
+          "Tứ giác có 2 đường chéo cắt nhau tại trung điểm mỗi đường là:",
+          "Hình bình hành"
+        ],
+        [
+          "Tam giác vuông có cạnh huyền dài $16\\text{ cm}$. Trung tuyến ứng cạnh huyền dài:",
+          "8\\text{ cm}"
+        ]
+      ],
+      "q11": {
+        "a": "$2x(3x^2 - 4x + 1)$",
+        "b": "$(x - 2)(x + 3) - x^2$",
+        "c": "$(x + 3)^2 - (x - 3)^2$",
+        "d": "$(15x^3 y^2 - 9x^2 y^3 + 6x^2 y^2) : (3x^2 y^2)$",
+        "e": "$(2x + 1)^2 - 4x(x + 1)$",
+        "f": "Cho $A = x^3 - 3x^2 + 3x - 1$. Tính giá trị của $A$ tại $x = 101$."
+      },
+      "q12": {
+        "a": "$3x(x - 2) - 3x^2 = 18$",
+        "b": "$x(x - 4) + 3(x - 4) = 0$",
+        "c": "$(x + 2)^2 - 16 = 0$",
+        "d": "$(2x - 1)^2 = 25$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$. Gọi $H$ là trung điểm của $AB$, lấy điểm $E$ đối xứng với $M$ qua $H$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $ABDC$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $AMBE$ là hình thoi."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 - 6x + 2033$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Bậc của đơn thức $B = 5x^2 y^4 z^2$ là:",
+          "8"
+        ],
+        [
+          "Bậc của đa thức $Q = 4x^2 y^2 - 5x^3 - 4x^2 y^2 + 2x^3 + 9$ là:",
+          "3"
+        ],
+        [
+          "Giá trị của $N = 3x^2 y - 2xy$ tại $x=1, y=-3$ bằng:",
+          "-3"
+        ],
+        [
+          "Cho khai triển $(x-6)^2 = x^2 - bx + 36$. Giá trị của $b$ là:",
+          "12"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $65^2 - 35^2 = $:",
+          "3\\,000"
+        ],
+        [
+          "Kết quả phép chia $(15x^4 y^3 - 10x^3 y^2) : (5x^3 y^2)$ là:",
+          "3xy - 2"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=70^\\circ, \\widehat{B}=120^\\circ, \\widehat{C}=85^\\circ$. Số đo góc $D$ là:",
+          "85^\\circ"
+        ],
+        [
+          "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C}=65^\\circ$. Số đo góc $A$ là:",
+          "115^\\circ"
+        ],
+        [
+          "Hình bình hành có một góc vuông là hình gì?:",
+          "Hình chữ nhật"
+        ],
+        [
+          "Tam giác vuông có cạnh huyền dài $20\\text{ cm}$. Trung tuyến ứng cạnh huyền dài:",
+          "10\\text{ cm}"
+        ]
+      ],
+      "q11": {
+        "a": "$3x(2x^2 - 3x + 2)$",
+        "b": "$(x - 3)(x + 4) - x^2$",
+        "c": "$(x + 4)^2 - (x - 4)^2$",
+        "d": "$(18x^4 y^2 - 12x^3 y^3 + 6x^3 y^2) : (6x^3 y^2)$",
+        "e": "$(3x + 1)^2 - 6x(x + 1) - 3x^2$",
+        "f": "Cho $B = x^3 + 3x^2 + 3x + 1$. Tính giá trị của $B$ tại $x = 99$."
+      },
+      "q12": {
+        "a": "$4x(x - 3) - 4x^2 = -24$",
+        "b": "$x(x - 5) + 2(x - 5) = 0$",
+        "c": "$(x + 3)^2 - 25 = 0$",
+        "d": "$(2x + 1)^2 = 49$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$. Gọi $K$ là trung điểm của $AC$, lấy điểm $F$ đối xứng với $M$ qua $K$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $ABDC$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $AMCF$ là hình thoi."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $B = x^2 - 8x + 2041$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Bậc của đơn thức $C = -6x^4 y z^4$ là:",
+          "9"
+        ],
+        [
+          "Bậc của đa thức $R = 5x^4 y - 3x^2 y^2 - 5x^4 y + x^2 y^2 - 1$ là:",
+          "4"
+        ],
+        [
+          "Giá trị của $P = 2xy^2 - 3xy$ tại $x=-1, y=2$ bằng:",
+          "-2"
+        ],
+        [
+          "Cho khai triển $(2x+1)^2 = 4x^2 + cx + 1$. Giá trị của $c$ là:",
+          "4"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $85^2 - 15^2 = $:",
+          "7\\,000"
+        ],
+        [
+          "Kết quả phép chia $(18x^3 y^3 - 12x^2 y^2) : (6x^2 y^2)$ là:",
+          "3xy - 2"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=65^\\circ, \\widehat{B}=115^\\circ, \\widehat{C}=90^\\circ$. Số đo góc $D$ là:",
+          "90^\\circ"
+        ],
+        [
+          "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C}=75^\\circ$. Số đo góc $A$ là:",
+          "105^\\circ"
+        ],
+        [
+          "Hình bình hành có 2 đường chéo bằng nhau là hình gì?:",
+          "Hình chữ nhật"
+        ],
+        [
+          "Tam giác vuông có cạnh huyền dài $18\\text{ cm}$. Trung tuyến ứng cạnh huyền dài:",
+          "9\\text{ cm}"
+        ]
+      ],
+      "q11": {
+        "a": "$4x(2x^2 - x + 3)$",
+        "b": "$(x - 4)(x + 5) - x^2$",
+        "c": "$(x + 5)^2 - (x - 5)^2$",
+        "d": "$(20x^3 y^3 - 15x^2 y^4 + 10x^2 y^3) : (5x^2 y^3)$",
+        "e": "$(2x - 1)^2 - 4x(x - 1)$",
+        "f": "Cho $C = x^3 - 6x^2 + 12x - 8$. Tính giá trị của $C$ tại $x = 102$."
+      },
+      "q12": {
+        "a": "$2x(x - 4) - 2x^2 = -16$",
+        "b": "$x(x - 6) + 4(x - 6) = 0$",
+        "c": "$(x + 1)^2 - 36 = 0$",
+        "d": "$(3x - 1)^2 = 64$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$. Gọi $H$ là trung điểm của $AB$, lấy điểm $E$ đối xứng với $M$ qua $H$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $ABDC$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $AMBE$ là hình thoi."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $C = x^2 - 4x + 2030$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Bậc của đơn thức $D = 3x^3 y^3 z^2$ là:",
+          "8"
+        ],
+        [
+          "Bậc của đa thức $S = 2x^3 y^2 - 4xy^3 - 2x^3 y^2 + 7xy^3 + 6$ là:",
+          "4"
+        ],
+        [
+          "Giá trị của $Q = x^2 y - 4xy$ tại $x=-2, y=1$ bằng:",
+          "12"
+        ],
+        [
+          "Cho khai triển $(3x-1)^2 = 9x^2 - dx + 1$. Giá trị của $d$ là:",
+          "6"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $55^2 - 45^2 = $:",
+          "1\\,000"
+        ],
+        [
+          "Kết quả phép chia $(14x^4 y^2 - 7x^3 y) : (7x^3 y)$ là:",
+          "2xy - 1"
+        ],
+        [
+          "Tứ giác $ABCD$ có $\\widehat{A}=85^\\circ, \\widehat{B}=105^\\circ, \\widehat{C}=70^\\circ$. Số đo góc $D$ là:",
+          "100^\\circ"
+        ],
+        [
+          "Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C}=80^\\circ$. Số đo góc $A$ là:",
+          "100^\\circ"
+        ],
+        [
+          "Tứ giác có các cạnh đối song song là hình gì?:",
+          "Hình bình hành"
+        ],
+        [
+          "Tam giác vuông có cạnh huyền dài $24\\text{ cm}$. Trung tuyến ứng cạnh huyền dài:",
+          "12\\text{ cm}"
+        ]
+      ],
+      "q11": {
+        "a": "$5x(2x^2 - 3x + 1)$",
+        "b": "$(x - 5)(x + 6) - x^2$",
+        "c": "$(x + 2)^2 - (x - 2)^2$",
+        "d": "$(24x^4 y^3 - 16x^3 y^4 + 8x^3 y^3) : (8x^3 y^3)$",
+        "e": "$(3x - 1)^2 - 9x(x - 1) - 3x$",
+        "f": "Cho $D = x^3 + 6x^2 + 12x + 8$. Tính giá trị của $D$ tại $x = 98$."
+      },
+      "q12": {
+        "a": "$5x(x - 2) - 5x^2 = -30$",
+        "b": "$x(x - 7) + 3(x - 7) = 0$",
+        "c": "$(x + 4)^2 - 49 = 0$",
+        "d": "$(3x + 2)^2 = 25$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), đường trung tuyến $AM$. Gọi $D$ là điểm đối xứng với $A$ qua $M$. Gọi $K$ là trung điểm của $AC$, lấy điểm $F$ đối xứng với $M$ qua $K$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $ABDC$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $AMCF$ là hình thoi."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $D = x^2 - 10x + 2052$."
+      }
+    }
+  }
+}

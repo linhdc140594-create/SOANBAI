@@ -1,0 +1,271 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 09 - BUỔI 02",
+  "title_p2": "TOÁN 8 - TUẦN 09 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_09_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Bậc của đơn thức $A = 5x^4 y^2 z^2$ là:",
+          "8"
+        ],
+        [
+          "Bậc của đa thức $P = 5x^2 y^2 - 3x^3 - 5x^2 y^2 + 2x^3 + 8$ là:",
+          "3"
+        ],
+        [
+          "Giá trị của $M = 3x^2 y - 2xy$ tại $x=1, y=-3$ bằng:",
+          "-3"
+        ],
+        [
+          "Cho khai triển $(x-4)(x+4) = x^2 - a$. Giá trị của $a$ là:",
+          "16"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $101^2 - 1 = $:",
+          "10\\,200"
+        ],
+        [
+          "Phân tích đa thức thành bình phương: $x^2 - 8x + 16 = $:",
+          "(x - 4)^2"
+        ],
+        [
+          "Kết quả phép chia $(15x^3 y^2 - 9x^2 y) : (3x^2 y)$ là:",
+          "5xy - 3"
+        ],
+        [
+          "Hình thoi có chu vi $28\\text{ cm}$. Độ dài mỗi cạnh của hình thoi là:",
+          "7\\text{ cm}"
+        ],
+        [
+          "Hình chữ nhật có hai đường chéo vuông góc là hình gì?:",
+          "Hình vuông"
+        ],
+        [
+          "Hình thoi có độ dài hai đường chéo là $6\\text{ m}$ và $8\\text{ m}$. Diện tích hình thoi là:",
+          "24\\text{ m}^2"
+        ]
+      ],
+      "q11": {
+        "a": "$3x(2x^2 - 5x + 3)$",
+        "b": "$(2x - 1)(x + 4) - 2x^2$",
+        "c": "$(2x - 3)^2 + (2x + 3)^2$",
+        "d": "$x^2 - xy + 3x - 3y$",
+        "e": "$x^2 - 4y^2 + 2x + 1$",
+        "f": "$x^2 - 5x + 6$"
+      },
+      "q12": {
+        "a": "$4x(x - 3) - 4x^2 = -24$",
+        "b": "$x(x - 6) + 4(x - 6) = 0$",
+        "c": "$(x - 2)^2 - 25 = 0$",
+        "d": "$(2x + 3)^2 = 49$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ cân tại $A$, đường trung tuyến $AM$. Gọi $I$ là trung điểm của $AC$. Lấy điểm $K$ đối xứng với $M$ qua $I$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $AMCK$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $ABMK$ là hình bình hành. Suy ra $AK \\parallel BC$ và $AK = MC$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = -x^2 + 6x + 2015$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Bậc của đơn thức $B = -3x^3 y^3 z^3$ là:",
+          "9"
+        ],
+        [
+          "Bậc của đa thức $Q = 4x^3 y - 2xy^2 - 4x^3 y + 5xy^2 - 1$ là:",
+          "3"
+        ],
+        [
+          "Giá trị của $N = 2x^2 y - 4xy$ tại $x=1, y=-2$ bằng:",
+          "4"
+        ],
+        [
+          "Cho khai triển $(x-5)(x+5) = x^2 - b$. Giá trị của $b$ là:",
+          "25"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $201^2 - 1 = $:",
+          "40\\,400"
+        ],
+        [
+          "Phân tích đa thức thành bình phương: $x^2 - 10x + 25 = $:",
+          "(x - 5)^2"
+        ],
+        [
+          "Kết quả phép chia $(18x^4 y^3 - 12x^3 y^2) : (6x^3 y^2)$ là:",
+          "3xy - 2"
+        ],
+        [
+          "Hình thoi có chu vi $36\\text{ cm}$. Độ dài mỗi cạnh của hình thoi là:",
+          "9\\text{ cm}"
+        ],
+        [
+          "Hình chữ nhật có hai cạnh kề bằng nhau là hình gì?:",
+          "Hình vuông"
+        ],
+        [
+          "Hình thoi có độ dài hai đường chéo là $10\\text{ m}$ và $12\\text{ m}$. Diện tích hình thoi là:",
+          "60\\text{ m}^2"
+        ]
+      ],
+      "q11": {
+        "a": "$2x(3x^2 - 4x + 5)$",
+        "b": "$(3x - 1)(x + 2) - 3x^2$",
+        "c": "$(3x - 2)^2 + (3x + 2)^2$",
+        "d": "$x^2 - xy + 4x - 4y$",
+        "e": "$x^2 - 9y^2 + 4x + 4$",
+        "f": "$x^2 - 7x + 12$"
+      },
+      "q12": {
+        "a": "$3x(x - 4) - 3x^2 = -36$",
+        "b": "$x(x - 7) + 2(x - 7) = 0$",
+        "c": "$(x - 3)^2 - 36 = 0$",
+        "d": "$(2x - 1)^2 = 49$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ cân tại $A$, đường trung tuyến $AM$. Gọi $H$ là trung điểm của $AB$. Lấy điểm $E$ đối xứng với $M$ qua $H$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $AMBE$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $ACME$ là hình bình hành. Suy ra $AE \\parallel BC$ và $AE = MB$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = -x^2 + 8x + 2009$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Bậc của đơn thức $C = 4x^5 y z^2$ là:",
+          "8"
+        ],
+        [
+          "Bậc của đa thức $R = 3x^4 y - 4x^2 y^2 - 3x^4 y + x^2 y^2 + 7$ là:",
+          "4"
+        ],
+        [
+          "Giá trị của $P = 4x^2 y - 3xy$ tại $x=-1, y=2$ bằng:",
+          "14"
+        ],
+        [
+          "Cho khai triển $(x-6)(x+6) = x^2 - c$. Giá trị của $c$ là:",
+          "36"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $102^2 - 4 = $:",
+          "10\\,400"
+        ],
+        [
+          "Phân tích đa thức thành bình phương: $x^2 + 12x + 36 = $:",
+          "(x + 6)^2"
+        ],
+        [
+          "Kết quả phép chia $(20x^3 y^3 - 15x^2 y^2) : (5x^2 y^2)$ là:",
+          "4xy - 3"
+        ],
+        [
+          "Hình thoi có chu vi $32\\text{ cm}$. Độ dài mỗi cạnh của hình thoi là:",
+          "8\\text{ cm}"
+        ],
+        [
+          "Hình thoi có một góc vuông là hình gì?:",
+          "Hình vuông"
+        ],
+        [
+          "Hình thoi có độ dài hai đường chéo là $8\\text{ m}$ và $14\\text{ m}$. Diện tích hình thoi là:",
+          "56\\text{ m}^2"
+        ]
+      ],
+      "q11": {
+        "a": "$4x(2x^2 - 3x + 4)$",
+        "b": "$(2x - 3)(x + 5) - 2x^2$",
+        "c": "$(x - 4)^2 + (x + 4)^2$",
+        "d": "$x^2 - xy + 5x - 5y$",
+        "e": "$x^2 - 16y^2 + 6x + 9$",
+        "f": "$x^2 - 6x + 8$"
+      },
+      "q12": {
+        "a": "$5x(x - 2) - 5x^2 = -40$",
+        "b": "$x(x - 5) + 3(x - 5) = 0$",
+        "c": "$(x - 4)^2 - 49 = 0$",
+        "d": "$(2x - 3)^2 = 25$"
+      },
+      "q13": {
+        "de": "Cho tam giác $MNP$ cân tại $M$, đường trung tuyến $MI$. Gọi $K$ là trung điểm của $MP$. Lấy điểm $E$ đối xứng với $I$ qua $K$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $MIPE$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $MNIE$ là hình bình hành. Suy ra $ME \\parallel NP$ và $ME = IP$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = -x^2 + 4x + 2022$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Bậc của đơn thức $D = -6x^2 y^4 z^3$ là:",
+          "9"
+        ],
+        [
+          "Bậc của đa thức $S = 6x y^3 - 5x^2 + 9 - 6x y^3 + 2x^2$ là:",
+          "2"
+        ],
+        [
+          "Giá trị của $Q = 2x^2 y - 5xy$ tại $x=-1, y=3$ bằng:",
+          "21"
+        ],
+        [
+          "Cho khai triển $(x-7)(x+7) = x^2 - d$. Giá trị của $d$ là:",
+          "49"
+        ],
+        [
+          "Tính nhanh giá trị biểu thức $99^2 - 1 = $:",
+          "9\\,800"
+        ],
+        [
+          "Phân tích đa thức thành bình phương: $x^2 + 14x + 49 = $:",
+          "(x + 7)^2"
+        ],
+        [
+          "Kết quả phép chia $(14x^4 y^2 - 7x^2 y) : (7x^2 y)$ là:",
+          "2x^2 y - 1"
+        ],
+        [
+          "Hình thoi có chu vi $48\\text{ cm}$. Độ dài mỗi cạnh của hình thoi là:",
+          "12\\text{ cm}"
+        ],
+        [
+          "Hình thoi có hai đường chéo bằng nhau là hình gì?:",
+          "Hình vuông"
+        ],
+        [
+          "Hình thoi có độ dài hai đường chéo là $12\\text{ m}$ và $16\\text{ m}$. Diện tích hình thoi là:",
+          "96\\text{ m}^2"
+        ]
+      ],
+      "q11": {
+        "a": "$5x(2x^2 - 4x + 3)$",
+        "b": "$(3x - 2)(x + 4) - 3x^2$",
+        "c": "$(2x - 1)^2 + (2x + 1)^2$",
+        "d": "$x^2 - xy + 2x - 2y$",
+        "e": "$x^2 - 25y^2 + 8x + 16$",
+        "f": "$x^2 - 8x + 15$"
+      },
+      "q12": {
+        "a": "$2x(x - 5) - 2x^2 = -30$",
+        "b": "$x(x - 8) + 2(x - 8) = 0$",
+        "c": "$(x - 1)^2 - 64 = 0$",
+        "d": "$(3x + 1)^2 = 64$"
+      },
+      "q13": {
+        "de": "Cho tam giác $DEF$ cân tại $D$, đường trung tuyến $DI$. Gọi $H$ là trung điểm của $DE$. Lấy điểm $G$ đối xứng với $I$ qua $H$.",
+        "a": "(1,0 điểm) Chứng minh tứ giác $DIEG$ là hình chữ nhật.",
+        "b": "(1,0 điểm) Chứng minh tứ giác $DFIG$ là hình bình hành. Suy ra $DG \\parallel EF$ và $DG = IE$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = -x^2 + 10x + 2002$."
+      }
+    }
+  }
+}
