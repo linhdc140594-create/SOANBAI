@@ -153,4 +153,4 @@
 | [TUAN_5](file:///d:/4.%20GitHub/SACH/LOP8/PHIEU_KIEM_TRA/1_GHK_1/TUAN_5) | 🔄 Xong Buổi 01 (50%) | 🔄 Xong Barem B01 | ✅ 8 trang chuẩn B01 | Buổi 01: Chuẩn 8 trang 4 mã đề; Chờ làm Buổi 02 |
 | [TUAN_6](file:///d:/4.%20GitHub/SACH/LOP8/PHIEU_KIEM_TRA/1_GHK_1/TUAN_6) | 📁 Đã tạo khung mẫu | 📁 Đã tạo khung MD | Chờ biên dịch | Gắn chủ đề: Ôn Chương 2 & Tứ giác |
 | [TUAN_7](file:///d:/4.%20GitHub/SACH/LOP8/PHIEU_KIEM_TRA/1_GHK_1/TUAN_7) | 📁 Đã tạo khung mẫu | 📁 Đã tạo khung MD | Chờ biên dịch | Gắn chủ đề: Hình thang cân & Hình bình hành |
-| [TUAN_8](file:///d:/4.%20GitHub/SACH/LOP8/PHIEU_KIEM_TRA/1_GHK_1/TUAN_8) | 📁 Đã tạo khung mẫu | 📁 Đã tạo khung MD | Chờ biên dịch | Đề thi thử Giữa Học Kỳ 1 chuẩn ma trận |
+| [TUAN_8](file:///d:/4.%20GitHub/SACH/LOP8/PHIEU_KIEM_TRA/1_GHK_1/TUAN_8) | ✅ Hoàn thành 100% | ✅ Hoàn thành 100% | ✅ 8 trang chuẩn cả 2 buổi | **Đạt chuẩn kiểu mẫu (Buổi 01 & Buổi 02: 4 mã đề 101-104)** |

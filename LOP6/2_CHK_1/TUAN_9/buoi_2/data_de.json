@@ -1,0 +1,271 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 09 - BUỔI 02",
+  "title_p2": "TOÁN 6 - TUẦN 09 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_09_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Cho $A = \\{x \\in \\mathbb{N} \\mid 15 \\le x \\le 45\\}$. Số phần tử của $A$ là:",
+          "$31$"
+        ],
+        [
+          "Chữ số $x$ để số $\\overline{37x}$ chia hết cho cả 2 và 5 là:",
+          "$0$"
+        ],
+        [
+          "Chữ số $x$ để số $\\overline{2x5}$ chia hết cho 9 là:",
+          "$2$"
+        ],
+        [
+          "Trong các số $11, 15, 21, 27$, số nào là số nguyên tố?",
+          "$11$"
+        ],
+        [
+          "Tìm $ƯCLN(24, 36)$:",
+          "$12$"
+        ],
+        [
+          "Tìm $BCNN(10, 15)$:",
+          "$30$"
+        ],
+        [
+          "Phân tích số $60$ ra thừa số nguyên tố được:",
+          "$2^2 \\cdot 3 \\cdot 5$"
+        ],
+        [
+          "Chu vi hình chữ nhật có chiều dài $14\\text{ cm}$, rộng $8\\text{ cm}$ là:",
+          "$44\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình bình hành đáy $15\\text{ cm}$, chiều cao $8\\text{ cm}$ là:",
+          "$120\\text{ cm}^2$"
+        ],
+        [
+          "Có $24$ bạn nam và $18$ bạn nữ, chia nhiều nhất thành bao nhiêu tổ đều nhau?",
+          "$6\\text{ tổ}$"
+        ]
+      ],
+      "q11": {
+        "a": "$45 + 172 + 55 + 28$",
+        "b": "$28 \\cdot 76 + 28 \\cdot 34 - 28 \\cdot 10$",
+        "c": "$4^5 : 4^3 + 3 \\cdot 2^3 - 2026^0$",
+        "d": "$150 : (19 - 4) + 2^3 \\cdot 5$",
+        "e": "$180 : [43 - (12 - 7)^2]$",
+        "f": "$200 : \\{70 - [36 - (11 - 7)^2]\\}$"
+      },
+      "q12": {
+        "a": "$(x - 15) : 4 = 12$",
+        "b": "$3 \\cdot 2^x - 12 = 36$",
+        "c": "$48 \\ \\vdots \\ x, 72 \\ \\vdots \\ x$ và $10 < x < 20$",
+        "d": "$x \\ \\vdots \\ 20, x \\ \\vdots \\ 25$ và $150 < x < 250$"
+      },
+      "q13": {
+        "de": "Một trường THCS tổ chức cho học sinh khối 6 đi tham quan dã ngoại. Khi xếp học sinh lên xe 30 chỗ, xe 40 chỗ hay xe 45 chỗ đều vừa thừa ra 5 học sinh. Biết số học sinh khối 6 trong khoảng từ 700 đến 800 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(30, 40, 45)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Cho tổng $S = 2 + 2^2 + 2^3 + \\dots + 2^{60}$. Chứng minh rằng $S$ chia hết cho $7$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Cho $B = \\{x \\in \\mathbb{N} \\mid 12 \\le x \\le 52\\}$. Số phần tử của $B$ là:",
+          "$41$"
+        ],
+        [
+          "Chữ số $y$ để số $\\overline{48y}$ chia hết cho cả 2 và 5 là:",
+          "$0$"
+        ],
+        [
+          "Chữ số $x$ để số $\\overline{4x3}$ chia hết cho 9 là:",
+          "$2$"
+        ],
+        [
+          "Trong các số $13, 25, 33, 35$, số nào là số nguyên tố?",
+          "$13$"
+        ],
+        [
+          "Tìm $ƯCLN(18, 30)$:",
+          "$6$"
+        ],
+        [
+          "Tìm $BCNN(12, 16)$:",
+          "$48$"
+        ],
+        [
+          "Phân tích số $72$ ra thừa số nguyên tố được:",
+          "$2^3 \\cdot 3^2$"
+        ],
+        [
+          "Chu vi hình chữ nhật có chiều dài $16\\text{ cm}$, rộng $9\\text{ cm}$ là:",
+          "$50\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình bình hành đáy $16\\text{ cm}$, chiều cao $7\\text{ cm}$ là:",
+          "$112\\text{ cm}^2$"
+        ],
+        [
+          "Có $30$ bút và $45$ quyển vở, chia nhiều nhất thành bao nhiêu phần thưởng đều nhau?",
+          "$15\\text{ phần}$"
+        ]
+      ],
+      "q11": {
+        "a": "$36 + 185 + 64 + 15$",
+        "b": "$35 \\cdot 68 + 35 \\cdot 42 - 35 \\cdot 10$",
+        "c": "$5^5 : 5^3 + 2 \\cdot 3^2 - 2025^0$",
+        "d": "$160 : (24 - 8) + 3^3 \\cdot 2$",
+        "e": "$210 : [46 - (13 - 8)^2]$",
+        "f": "$250 : \\{70 - [36 - (12 - 8)^2]\\}$"
+      },
+      "q12": {
+        "a": "$(x - 18) : 5 = 14$",
+        "b": "$4 \\cdot 3^x - 15 = 93$",
+        "c": "$60 \\ \\vdots \\ x, 90 \\ \\vdots \\ x$ và $10 < x < 20$",
+        "d": "$x \\ \\vdots \\ 15, x \\ \\vdots \\ 25$ và $100 < x < 200$"
+      },
+      "q13": {
+        "de": "Một trường THCS tổ chức cho học sinh khối 6 đi tham quan dã ngoại. Khi xếp học sinh lên xe 24 chỗ, xe 36 chỗ hay xe 40 chỗ đều vừa thừa ra 3 học sinh. Biết số học sinh khối 6 trong khoảng từ 700 đến 800 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(24, 36, 40)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Cho tổng $A = 3 + 3^2 + 3^3 + \\dots + 3^{60}$. Chứng minh rằng $A$ chia hết cho $13$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Cho $C = \\{x \\in \\mathbb{N} \\mid 20 \\le x \\le 60\\}$. Số phần tử của $C$ là:",
+          "$41$"
+        ],
+        [
+          "Chữ số $a$ để số $\\overline{59a}$ chia hết cho cả 2 và 5 là:",
+          "$0$"
+        ],
+        [
+          "Chữ số $x$ để số $\\overline{5x1}$ chia hết cho 9 là:",
+          "$3$"
+        ],
+        [
+          "Trong các số $17, 27, 35, 49$, số nào là số nguyên tố?",
+          "$17$"
+        ],
+        [
+          "Tìm $ƯCLN(28, 42)$:",
+          "$14$"
+        ],
+        [
+          "Tìm $BCNN(15, 25)$:",
+          "$75$"
+        ],
+        [
+          "Phân tích số $90$ ra thừa số nguyên tố được:",
+          "$2 \\cdot 3^2 \\cdot 5$"
+        ],
+        [
+          "Chu vi hình chữ nhật có chiều dài $15\\text{ cm}$, rộng $7\\text{ cm}$ là:",
+          "$44\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình bình hành đáy $18\\text{ cm}$, chiều cao $6\\text{ cm}$ là:",
+          "$108\\text{ cm}^2$"
+        ],
+        [
+          "Cắt hai thanh gỗ dài $36\\text{ cm}$ và $48\\text{ cm}$ thành các đoạn dài nhất bằng nhau. Độ dài mỗi đoạn là:",
+          "$12\\text{ cm}$"
+        ]
+      ],
+      "q11": {
+        "a": "$52 + 164 + 48 + 36$",
+        "b": "$42 \\cdot 57 + 42 \\cdot 53 - 42 \\cdot 10$",
+        "c": "$3^6 : 3^3 + 4 \\cdot 2^3 - 2024^0$",
+        "d": "$140 : (21 - 7) + 4^2 \\cdot 3$",
+        "e": "$240 : [49 - (14 - 9)^2]$",
+        "f": "$300 : \\{70 - [36 - (13 - 9)^2]\\}$"
+      },
+      "q12": {
+        "a": "$(x - 16) : 3 = 15$",
+        "b": "$5 \\cdot 2^x - 17 = 63$",
+        "c": "$56 \\ \\vdots \\ x, 84 \\ \\vdots \\ x$ và $10 < x < 20$",
+        "d": "$x \\ \\vdots \\ 20, x \\ \\vdots \\ 30$ và $150 < x < 200$"
+      },
+      "q13": {
+        "de": "Một trường THCS tổ chức cho học sinh khối 6 đi tham quan dã ngoại. Khi xếp học sinh lên xe 20 chỗ, xe 25 chỗ hay xe 30 chỗ đều vừa thừa ra 4 học sinh. Biết số học sinh khối 6 trong khoảng từ 550 đến 650 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(20, 25, 30)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Cho tổng $B = 4 + 4^2 + 4^3 + \\dots + 4^{60}$. Chứng minh rằng $B$ chia hết cho $21$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Cho $D = \\{x \\in \\mathbb{N} \\mid 18 \\le x \\le 68\\}$. Số phần tử của $D$ là:",
+          "$51$"
+        ],
+        [
+          "Chữ số $b$ để số $\\overline{62b}$ chia hết cho cả 2 và 5 là:",
+          "$0$"
+        ],
+        [
+          "Chữ số $x$ để số $\\overline{6x1}$ chia hết cho 9 là:",
+          "$2$"
+        ],
+        [
+          "Trong các số $19, 21, 39, 45$, số nào là số nguyên tố?",
+          "$19$"
+        ],
+        [
+          "Tìm $ƯCLN(32, 48)$:",
+          "$16$"
+        ],
+        [
+          "Tìm $BCNN(14, 21)$:",
+          "$42$"
+        ],
+        [
+          "Phân tích số $84$ ra thừa số nguyên tố được:",
+          "$2^2 \\cdot 3 \\cdot 7$"
+        ],
+        [
+          "Chu vi hình chữ nhật có chiều dài $18\\text{ cm}$, rộng $8\\text{ cm}$ là:",
+          "$52\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình bình hành đáy $14\\text{ cm}$, chiều cao $9\\text{ cm}$ là:",
+          "$126\\text{ cm}^2$"
+        ],
+        [
+          "Có $28$ bạn nam và $42$ bạn nữ, chia nhiều nhất thành bao nhiêu nhóm đều nhau?",
+          "$14\\text{ nhóm}$"
+        ]
+      ],
+      "q11": {
+        "a": "$63 + 148 + 37 + 52$",
+        "b": "$26 \\cdot 84 + 26 \\cdot 26 - 26 \\cdot 10$",
+        "c": "$2^7 : 2^3 + 5 \\cdot 3^2 - 2023^0$",
+        "d": "$180 : (23 - 5) + 5^2 \\cdot 3$",
+        "e": "$270 : [52 - (15 - 10)^2]$",
+        "f": "$350 : \\{70 - [36 - (14 - 10)^2]\\}$"
+      },
+      "q12": {
+        "a": "$(x - 20) : 6 = 11$",
+        "b": "$2 \\cdot 5^x - 25 = 225$",
+        "c": "$64 \\ \\vdots \\ x, 96 \\ \\vdots \\ x$ và $10 < x < 20$",
+        "d": "$x \\ \\vdots \\ 18, x \\ \\vdots \\ 24$ và $100 < x < 200$"
+      },
+      "q13": {
+        "de": "Một trường THCS tổ chức cho học sinh khối 6 đi tham quan dã ngoại. Khi xếp học sinh lên xe 18 chỗ, xe 24 chỗ hay xe 30 chỗ đều vừa thừa ra 6 học sinh. Biết số học sinh khối 6 trong khoảng từ 700 đến 800 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(18, 24, 30)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Cho tổng $C = 5 + 5^2 + 5^3 + \\dots + 5^{60}$. Chứng minh rằng $C$ chia hết cho $31$."
+      }
+    }
+  }
+}

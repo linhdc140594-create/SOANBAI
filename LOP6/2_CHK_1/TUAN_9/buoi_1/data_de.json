@@ -1,0 +1,271 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 09 - BUỔI 01",
+  "title_p2": "TOÁN 6 - TUẦN 09 - BUỔI 01",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_09_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Tìm $BCNN(7, 9)$:",
+          "$63$"
+        ],
+        [
+          "Tìm $BCNN(36, 12)$:",
+          "$36$"
+        ],
+        [
+          "Cho $a = 2^3 \\cdot 3$ và $b = 2^2 \\cdot 3^2 \\cdot 5$. Giá trị $BCNN(a, b)$ là:",
+          "$360$"
+        ],
+        [
+          "Số tự nhiên nhỏ nhất khác 0 chia hết cho cả 6 và 8 là:",
+          "$24$"
+        ],
+        [
+          "Có bao nhiêu số tự nhiên khác 0 là bội chung của 4 và 6 nhỏ hơn 50?",
+          "$4$"
+        ],
+        [
+          "Mẫu số chung nhỏ nhất của $\\frac{5}{12}$ và $\\frac{7}{18}$ là:",
+          "$36$"
+        ],
+        [
+          "Biết $a \\cdot b = 180$ và $ƯCLN(a, b) = 6$. Khi đó $BCNN(a, b)$ là:",
+          "$30$"
+        ],
+        [
+          "Chu vi hình tam giác đều có cạnh dài $15\\text{ cm}$ là:",
+          "$45\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình thoi có hai đường chéo $12\\text{ cm}$ và $15\\text{ cm}$ là:",
+          "$90\\text{ cm}^2$"
+        ],
+        [
+          "An cứ 6 ngày đi bơi, Bình cứ 8 ngày đi bơi. Sau ít nhất bao nhiêu ngày hai bạn lại cùng đi bơi?",
+          "$24\\text{ ngày}$"
+        ]
+      ],
+      "q11": {
+        "a": "$38 + 147 + 62 + 53$",
+        "b": "$37 \\cdot 64 + 37 \\cdot 36$",
+        "c": "$5 \\cdot 2^3 - 18 : 3^2 + 2026^0$",
+        "d": "$160 : (25 - 9) + 4^2 \\cdot 3$",
+        "e": "$150 : [35 - (11 - 6)^2]$",
+        "f": "$120 : \\{50 - [35 - (10 - 5)^2]\\}$"
+      },
+      "q12": {
+        "a": "$3x - 14 = 31$",
+        "b": "$4(x + 5) = 48$",
+        "c": "$x \\ \\vdots \\ 12, x \\ \\vdots \\ 18$ và $x$ là số tự nhiên nhỏ nhất khác $0$",
+        "d": "$x \\ \\vdots \\ 15, x \\ \\vdots \\ 20$ và $100 < x < 150$"
+      },
+      "q13": {
+        "de": "Học sinh khối 6 của một trường THCS khi xếp hàng 12, hàng 15, hàng 18 đều vừa đủ hàng. Biết số học sinh trong khoảng từ 300 đến 400 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(12, 15, 18)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Chứng minh rằng với mọi số tự nhiên $n$, hai số $2n + 1$ và $3n + 1$ là hai số nguyên tố cùng nhau."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Tìm $BCNN(8, 9)$:",
+          "$72$"
+        ],
+        [
+          "Tìm $BCNN(48, 16)$:",
+          "$48$"
+        ],
+        [
+          "Cho $a = 2^2 \\cdot 5$ và $b = 2^3 \\cdot 3 \\cdot 5$. Giá trị $BCNN(a, b)$ là:",
+          "$120$"
+        ],
+        [
+          "Số tự nhiên nhỏ nhất khác 0 chia hết cho cả 8 và 10 là:",
+          "$40$"
+        ],
+        [
+          "Có bao nhiêu số tự nhiên khác 0 là bội chung của 6 và 8 nhỏ hơn 80?",
+          "$3$"
+        ],
+        [
+          "Mẫu số chung nhỏ nhất của $\\frac{3}{8}$ và $\\frac{5}{12}$ là:",
+          "$24$"
+        ],
+        [
+          "Biết $a \\cdot b = 240$ và $ƯCLN(a, b) = 4$. Khi đó $BCNN(a, b)$ là:",
+          "$60$"
+        ],
+        [
+          "Chu vi hình tam giác đều có cạnh dài $18\\text{ cm}$ là:",
+          "$54\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình thoi có hai đường chéo $14\\text{ cm}$ và $10\\text{ cm}$ là:",
+          "$70\\text{ cm}^2$"
+        ],
+        [
+          "Hoa cứ 4 ngày tưới hoa, Mai cứ 6 ngày tưới hoa. Sau ít nhất bao nhiêu ngày hai bạn lại cùng tưới?",
+          "$12\\text{ ngày}$"
+        ]
+      ],
+      "q11": {
+        "a": "$45 + 138 + 55 + 62$",
+        "b": "$43 \\cdot 72 + 43 \\cdot 28$",
+        "c": "$6 \\cdot 2^3 - 27 : 3^2 + 2025^0$",
+        "d": "$180 : (27 - 9) + 5^2 \\cdot 2$",
+        "e": "$180 : [45 - (12 - 7)^2]$",
+        "f": "$160 : \\{50 - [35 - (12 - 7)^2]\\}$"
+      },
+      "q12": {
+        "a": "$4x - 17 = 35$",
+        "b": "$5(x + 6) = 65$",
+        "c": "$x \\ \\vdots \\ 15, x \\ \\vdots \\ 20$ và $x$ là số tự nhiên nhỏ nhất khác $0$",
+        "d": "$x \\ \\vdots \\ 12, x \\ \\vdots \\ 15$ và $150 < x < 200$"
+      },
+      "q13": {
+        "de": "Học sinh khối 6 của một trường THCS khi xếp hàng 10, hàng 12, hàng 15 đều vừa đủ hàng. Biết số học sinh trong khoảng từ 200 đến 300 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(10, 12, 15)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Chứng minh rằng với mọi số tự nhiên $n$, hai số $3n + 2$ và $4n + 3$ là hai số nguyên tố cùng nhau."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Tìm $BCNN(7, 11)$:",
+          "$77$"
+        ],
+        [
+          "Tìm $BCNN(60, 15)$:",
+          "$60$"
+        ],
+        [
+          "Cho $a = 3^2 \\cdot 5$ và $b = 2 \\cdot 3 \\cdot 5^2$. Giá trị $BCNN(a, b)$ là:",
+          "$450$"
+        ],
+        [
+          "Số tự nhiên nhỏ nhất khác 0 chia hết cho cả 9 và 12 là:",
+          "$36$"
+        ],
+        [
+          "Có bao nhiêu số tự nhiên khác 0 là bội chung của 5 và 6 nhỏ hơn 100?",
+          "$3$"
+        ],
+        [
+          "Mẫu số chung nhỏ nhất của $\\frac{7}{15}$ và $\\frac{9}{20}$ là:",
+          "$60$"
+        ],
+        [
+          "Biết $a \\cdot b = 300$ và $ƯCLN(a, b) = 5$. Khi đó $BCNN(a, b)$ là:",
+          "$60$"
+        ],
+        [
+          "Chu vi hình tam giác đều có cạnh dài $16\\text{ cm}$ là:",
+          "$48\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình thoi có hai đường chéo $16\\text{ cm}$ và $12\\text{ cm}$ là:",
+          "$96\\text{ cm}^2$"
+        ],
+        [
+          "Tuyến xe A cứ 10 phút, tuyến B cứ 15 phút xuất bến. Sau ít nhất bao nhiêu phút hai xe cùng xuất bến?",
+          "$30\\text{ phút}$"
+        ]
+      ],
+      "q11": {
+        "a": "$34 + 156 + 66 + 44$",
+        "b": "$56 \\cdot 63 + 56 \\cdot 37$",
+        "c": "$7 \\cdot 2^3 - 36 : 3^2 + 2024^0$",
+        "d": "$140 : (26 - 12) + 3^2 \\cdot 6$",
+        "e": "$210 : [55 - (13 - 8)^2]$",
+        "f": "$200 : \\{50 - [35 - (13 - 8)^2]\\}$"
+      },
+      "q12": {
+        "a": "$5x - 19 = 46$",
+        "b": "$3(x + 8) = 45$",
+        "c": "$x \\ \\vdots \\ 14, x \\ \\vdots \\ 21$ và $x$ là số tự nhiên nhỏ nhất khác $0$",
+        "d": "$x \\ \\vdots \\ 10, x \\ \\vdots \\ 15$ và $100 < x < 140$"
+      },
+      "q13": {
+        "de": "Học sinh khối 6 của một trường THCS khi xếp hàng 12, hàng 15, hàng 20 đều vừa đủ hàng. Biết số học sinh trong khoảng từ 300 đến 400 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(12, 15, 20)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Chứng minh rằng với mọi số tự nhiên $n$, hai số $2n + 3$ và $3n + 4$ là hai số nguyên tố cùng nhau."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Tìm $BCNN(5, 13)$:",
+          "$65$"
+        ],
+        [
+          "Tìm $BCNN(72, 18)$:",
+          "$72$"
+        ],
+        [
+          "Cho $a = 2 \\cdot 3^2$ và $b = 2^2 \\cdot 3 \\cdot 7$. Giá trị $BCNN(a, b)$ là:",
+          "$252$"
+        ],
+        [
+          "Số tự nhiên nhỏ nhất khác 0 chia hết cho cả 6 và 9 là:",
+          "$18$"
+        ],
+        [
+          "Có bao nhiêu số tự nhiên khác 0 là bội chung của 4 và 10 nhỏ hơn 90?",
+          "$4$"
+        ],
+        [
+          "Mẫu số chung nhỏ nhất của $\\frac{5}{14}$ và $\\frac{3}{21}$ là:",
+          "$42$"
+        ],
+        [
+          "Biết $a \\cdot b = 360$ và $ƯCLN(a, b) = 6$. Khi đó $BCNN(a, b)$ là:",
+          "$60$"
+        ],
+        [
+          "Chu vi hình tam giác đều có cạnh dài $20\\text{ cm}$ là:",
+          "$60\\text{ cm}$"
+        ],
+        [
+          "Diện tích hình thoi có hai đường chéo $18\\text{ cm}$ và $10\\text{ cm}$ là:",
+          "$90\\text{ cm}^2$"
+        ],
+        [
+          "Đèn A cứ 12 giây, đèn B cứ 16 giây đổi màu. Sau ít nhất bao nhiêu giây hai đèn cùng đổi màu?",
+          "$48\\text{ giây}$"
+        ]
+      ],
+      "q11": {
+        "a": "$47 + 128 + 53 + 72$",
+        "b": "$48 \\cdot 54 + 48 \\cdot 46$",
+        "c": "$8 \\cdot 2^3 - 45 : 3^2 + 2023^0$",
+        "d": "$200 : (28 - 8) + 4^2 \\cdot 4$",
+        "e": "$240 : [65 - (14 - 9)^2]$",
+        "f": "$240 : \\{50 - [35 - (14 - 9)^2]\\}$"
+      },
+      "q12": {
+        "a": "$6x - 23 = 49$",
+        "b": "$6(x + 4) = 66$",
+        "c": "$x \\ \\vdots \\ 16, x \\ \\vdots \\ 24$ và $x$ là số tự nhiên nhỏ nhất khác $0$",
+        "d": "$x \\ \\vdots \\ 12, x \\ \\vdots \\ 18$ và $50 < x < 100$"
+      },
+      "q13": {
+        "de": "Học sinh khối 6 của một trường THCS khi xếp hàng 15, hàng 18, hàng 20 đều vừa đủ hàng. Biết số học sinh trong khoảng từ 300 đến 400 học sinh.",
+        "a": "(1,0 điểm) Tìm $BCNN(15, 18, 20)$.",
+        "b": "(1,0 điểm) Tính số học sinh khối 6 của trường đó."
+      },
+      "q14": {
+        "de": "Chứng minh rằng với mọi số tự nhiên $n$, hai số $4n + 3$ và $5n + 4$ là hai số nguyên tố cùng nhau."
+      }
+    }
+  }
+}

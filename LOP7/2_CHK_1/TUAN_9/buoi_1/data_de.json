@@ -1,0 +1,272 @@
+{
+  "base_filename": "Phieu_Kiem_Tra_Tuan_09_Buoi_01",
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 09 - BUỔI 01",
+  "title_p2": "TOÁN 7 - TUẦN 09 - BUỔI 01",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Số đối của số hữu tỉ $-\\dfrac{3}{5}$ là:",
+          "\\dfrac{3}{5}"
+        ],
+        [
+          "Giá trị của căn bậc hai số học $\\sqrt{64}$ bằng:",
+          "8"
+        ],
+        [
+          "Giá trị của biểu thức $|-4{,}75|$ bằng:",
+          "4{,}75"
+        ],
+        [
+          "Tổng ba góc trong một tam giác bằng bao nhiêu độ?",
+          "180^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC$ có $\\widehat{A} = 65^\\circ, \\widehat{B} = 55^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "60^\\circ"
+        ],
+        [
+          "Cho $\\Delta MNP$ vuông tại $M$, biết $\\widehat{N} = 42^\\circ$. Số đo góc $\\widehat{P}$ là:",
+          "48^\\circ"
+        ],
+        [
+          "Tam giác có ba góc tỉ lệ với $1 : 2 : 3$. Số đo góc lớn nhất là:",
+          "90^\\circ"
+        ],
+        [
+          "Tam giác $DEF$ có $\\widehat{D} = 105^\\circ$. Tam giác $DEF$ là loại tam giác gì?",
+          "\\text{Tam giác tù}"
+        ],
+        [
+          "Cho $\\Delta ABC$ vuông tại $A$, kẻ đường cao $AH$. Biết $\\widehat{B} = 50^\\circ$. Số đo góc $\\widehat{HAC}$ là:",
+          "50^\\circ"
+        ],
+        [
+          "Một chiếc thang dựa vào tường tạo với mặt đất góc $70^\\circ$. Góc giữa thang và tường là:",
+          "20^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{3}{7} + \\dfrac{5}{14} - \\dfrac{1}{2}$",
+        "b": "$\\dfrac{4}{9} \\cdot \\left(-\\dfrac{5}{7}\\right) + \\dfrac{4}{9} \\cdot \\left(-\\dfrac{2}{7}\\right)$",
+        "c": "$\\left(-\\dfrac{1}{2}\\right)^3 : \\dfrac{1}{4} + \\dfrac{3}{4} \\cdot 2$",
+        "d": "$\\sqrt{\\dfrac{25}{16}} - \\left|-\\dfrac{3}{4}\\right| + \\dfrac{1}{2}$",
+        "e": "$\\dfrac{5}{2} - \\left[\\dfrac{3}{4} + \\left(\\dfrac{1}{2}\\right)^2\\right]$",
+        "f": "$\\dfrac{2^{10} \\cdot 9^3}{4^4 \\cdot 3^7}$"
+      },
+      "q12": {
+        "a": "$x - \\dfrac{3}{5} = \\dfrac{7}{10}$",
+        "b": "$\\dfrac{2}{3}x + \\dfrac{1}{2} = \\dfrac{5}{6}$",
+        "c": "$\\left(x - \\dfrac{1}{3}\\right)^2 = \\dfrac{4}{9}$",
+        "d": "$\\left|2x - \\dfrac{1}{2}\\right| = \\dfrac{3}{2}$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), biết $\\widehat{B} = 60^\\circ$. Kẻ đường cao $AH$ ($H \\in BC$).",
+        "a": "(1,0 điểm) Tính số đo các góc $\\widehat{C}$ và $\\widehat{HAB}$.",
+        "b": "(1,0 điểm) Kẻ tia phân giác của góc $\\widehat{HAC}$ cắt cạnh $BC$ tại $D$. Chứng minh rằng tam giác $ABD$ có $\\widehat{BAD} = \\widehat{BDA}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 2026| + |x - 2|$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Số đối của số hữu tỉ $-\\dfrac{4}{9}$ là:",
+          "\\dfrac{4}{9}"
+        ],
+        [
+          "Giá trị của căn bậc hai số học $\\sqrt{49}$ bằng:",
+          "7"
+        ],
+        [
+          "Giá trị của biểu thức $|-5{,}25|$ bằng:",
+          "5{,}25"
+        ],
+        [
+          "Tổng ba góc trong một tam giác bằng bao nhiêu độ?",
+          "180^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 45^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "65^\\circ"
+        ],
+        [
+          "Cho $\\Delta MNP$ vuông tại $M$, biết $\\widehat{N} = 35^\\circ$. Số đo góc $\\widehat{P}$ là:",
+          "55^\\circ"
+        ],
+        [
+          "Tam giác có ba góc tỉ lệ với $2 : 3 : 4$. Số đo góc nhỏ nhất là:",
+          "40^\\circ"
+        ],
+        [
+          "Tam giác $GHK$ có $\\widehat{G} = 95^\\circ$. Tam giác $GHK$ là loại tam giác gì?",
+          "\\text{Tam giác tù}"
+        ],
+        [
+          "Cho $\\Delta ABC$ vuông tại $A$, kẻ đường cao $AH$. Biết $\\widehat{B} = 55^\\circ$. Số đo góc $\\widehat{HAC}$ là:",
+          "55^\\circ"
+        ],
+        [
+          "Một chiếc thang dựa vào tường tạo với mặt đất góc $65^\\circ$. Góc giữa thang và tường là:",
+          "25^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{2}{5} + \\dfrac{7}{10} - \\dfrac{1}{2}$",
+        "b": "$\\dfrac{5}{8} \\cdot \\left(-\\dfrac{4}{9}\\right) + \\dfrac{5}{8} \\cdot \\left(-\\dfrac{5}{9}\\right)$",
+        "c": "$\\left(-\\dfrac{1}{3}\\right)^2 \\cdot 9 - \\dfrac{5}{6} : \\dfrac{5}{3}$",
+        "d": "$\\sqrt{\\dfrac{36}{25}} - \\left|-\\dfrac{4}{5}\\right| + \\dfrac{3}{5}$",
+        "e": "$\\dfrac{7}{2} - \\left[\\dfrac{5}{4} + \\left(\\dfrac{1}{2}\\right)^2\\right]$",
+        "f": "$\\dfrac{3^{10} \\cdot 4^3}{9^4 \\cdot 2^7}$"
+      },
+      "q12": {
+        "a": "$x - \\dfrac{2}{3} = \\dfrac{5}{6}$",
+        "b": "$\\dfrac{3}{4}x + \\dfrac{1}{3} = \\dfrac{7}{12}$",
+        "c": "$\\left(x - \\dfrac{1}{2}\\right)^2 = \\dfrac{9}{16}$",
+        "d": "$\\left|3x - \\dfrac{1}{3}\\right| = \\dfrac{5}{3}$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), biết $\\widehat{B} = 50^\\circ$. Kẻ đường cao $AH$ ($H \\in BC$).",
+        "a": "(1,0 điểm) Tính số đo các góc $\\widehat{C}$ và $\\widehat{HAB}$.",
+        "b": "(1,0 điểm) Kẻ tia phân giác của góc $\\widehat{HAC}$ cắt cạnh $BC$ tại $D$. Chứng minh rằng tam giác $ABD$ có $\\widehat{BAD} = \\widehat{BDA}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 2025| + |x - 3|$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Số đối của số hữu tỉ $-\\dfrac{5}{8}$ là:",
+          "\\dfrac{5}{8}"
+        ],
+        [
+          "Giá trị của căn bậc hai số học $\\sqrt{100}$ bằng:",
+          "10"
+        ],
+        [
+          "Giá trị của biểu thức $|-3{,}85|$ bằng:",
+          "3{,}85"
+        ],
+        [
+          "Tổng ba góc trong một tam giác bằng bao nhiêu độ?",
+          "180^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC$ có $\\widehat{A} = 80^\\circ, \\widehat{B} = 40^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "60^\\circ"
+        ],
+        [
+          "Cho $\\Delta MNP$ vuông tại $M$, biết $\\widehat{N} = 52^\\circ$. Số đo góc $\\widehat{P}$ là:",
+          "38^\\circ"
+        ],
+        [
+          "Tam giác có ba góc tỉ lệ với $1 : 3 : 5$. Số đo góc lớn nhất là:",
+          "100^\\circ"
+        ],
+        [
+          "Tam giác $PQR$ có $\\widehat{P} = 100^\\circ$. Tam giác $PQR$ là loại tam giác gì?",
+          "\\text{Tam giác tù}"
+        ],
+        [
+          "Cho $\\Delta ABC$ vuông tại $A$, kẻ đường cao $AH$. Biết $\\widehat{B} = 40^\\circ$. Số đo góc $\\widehat{HAC}$ là:",
+          "40^\\circ"
+        ],
+        [
+          "Một chiếc thang dựa vào tường tạo với mặt đất góc $75^\\circ$. Góc giữa thang và tường là:",
+          "15^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{4}{9} + \\dfrac{5}{18} - \\dfrac{1}{3}$",
+        "b": "$\\dfrac{3}{7} \\cdot \\left(-\\dfrac{5}{11}\\right) + \\dfrac{3}{7} \\cdot \\left(-\\dfrac{6}{11}\\right)$",
+        "c": "$\\left(-\\dfrac{1}{2}\\right)^4 \\cdot 16 + \\dfrac{2}{3} : \\dfrac{4}{9}$",
+        "d": "$\\sqrt{\\dfrac{49}{36}} - \\left|-\\dfrac{5}{6}\\right| + \\dfrac{2}{3}$",
+        "e": "$\\dfrac{9}{2} - \\left[\\dfrac{7}{4} + \\left(\\dfrac{1}{2}\\right)^2\\right]$",
+        "f": "$\\dfrac{2^9 \\cdot 25^2}{10^4 \\cdot 4}$"
+      },
+      "q12": {
+        "a": "$x - \\dfrac{4}{5} = \\dfrac{3}{10}$",
+        "b": "$\\dfrac{4}{5}x + \\dfrac{1}{2} = \\dfrac{9}{10}$",
+        "c": "$\\left(x - \\dfrac{1}{4}\\right)^2 = \\dfrac{9}{16}$",
+        "d": "$\\left|2x - \\dfrac{1}{3}\\right| = \\dfrac{5}{3}$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), biết $\\widehat{B} = 54^\\circ$. Kẻ đường cao $AH$ ($H \\in BC$).",
+        "a": "(1,0 điểm) Tính số đo các góc $\\widehat{C}$ và $\\widehat{HAB}$.",
+        "b": "(1,0 điểm) Kẻ tia phân giác của góc $\\widehat{HAC}$ cắt cạnh $BC$ tại $D$. Chứng minh rằng tam giác $ABD$ có $\\widehat{BAD} = \\widehat{BDA}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 2024| + |x - 4|$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Số đối của số hữu tỉ $-\\dfrac{5}{6}$ là:",
+          "\\dfrac{5}{6}"
+        ],
+        [
+          "Giá trị của căn bậc hai số học $\\sqrt{121}$ bằng:",
+          "11"
+        ],
+        [
+          "Giá trị của biểu thức $|-7{,}15|$ bằng:",
+          "7{,}15"
+        ],
+        [
+          "Tổng ba góc trong một tam giác bằng bao nhiêu độ?",
+          "180^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC$ có $\\widehat{A} = 75^\\circ, \\widehat{B} = 35^\\circ$. Số đo góc $\\widehat{C}$ là:",
+          "70^\\circ"
+        ],
+        [
+          "Cho $\\Delta MNP$ vuông tại $M$, biết $\\widehat{N} = 48^\\circ$. Số đo góc $\\widehat{P}$ là:",
+          "42^\\circ"
+        ],
+        [
+          "Tam giác có ba góc tỉ lệ với $2 : 3 : 5$. Số đo góc lớn nhất là:",
+          "90^\\circ"
+        ],
+        [
+          "Tam giác $XYZ$ có $\\widehat{X} = 115^\\circ$. Tam giác $XYZ$ là loại tam giác gì?",
+          "\\text{Tam giác tù}"
+        ],
+        [
+          "Cho $\\Delta ABC$ vuông tại $A$, kẻ đường cao $AH$. Biết $\\widehat{B} = 65^\\circ$. Số đo góc $\\widehat{HAC}$ là:",
+          "65^\\circ"
+        ],
+        [
+          "Một chiếc thang dựa vào tường tạo với mặt đất góc $60^\\circ$. Góc giữa thang và tường là:",
+          "30^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{5}{12} + \\dfrac{7}{24} - \\dfrac{1}{4}$",
+        "b": "$\\dfrac{6}{11} \\cdot \\left(-\\dfrac{7}{13}\\right) + \\dfrac{6}{11} \\cdot \\left(-\\dfrac{6}{13}\\right)$",
+        "c": "$\\left(-\\dfrac{1}{3}\\right)^3 \\cdot 27 + \\dfrac{3}{5} : \\dfrac{3}{10}$",
+        "d": "$\\sqrt{\\dfrac{81}{49}} - \\left|-\\dfrac{5}{7}\right| + \\dfrac{3}{7}$",
+        "e": "$\\dfrac{11}{2} - \\left[\\dfrac{9}{4} + \\left(\\dfrac{1}{2}\\right)^2\\right]$",
+        "f": "$\\dfrac{5^8 \\cdot 6^3}{15^3 \\cdot 25^2}$"
+      },
+      "q12": {
+        "a": "$x - \\dfrac{5}{6} = \\dfrac{7}{12}$",
+        "b": "$\\dfrac{5}{6}x + \\dfrac{1}{4} = \\dfrac{3}{4}$",
+        "c": "$\\left(x - \\dfrac{1}{5}\\right)^2 = \\dfrac{4}{25}$",
+        "d": "$\\left|3x - \\dfrac{1}{2}\\right| = \\dfrac{5}{2}$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$ vuông tại $A$ ($AB < AC$), biết $\\widehat{B} = 64^\\circ$. Kẻ đường cao $AH$ ($H \\in BC$).",
+        "a": "(1,0 điểm) Tính số đo các góc $\\widehat{C}$ và $\\widehat{HAB}$.",
+        "b": "(1,0 điểm) Kẻ tia phân giác của góc $\\widehat{HAC}$ cắt cạnh $BC$ tại $D$. Chứng minh rằng tam giác $ABD$ có $\\widehat{BAD} = \\widehat{BDA}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 2023| + |x - 5|$."
+      }
+    }
+  }
+}
+
