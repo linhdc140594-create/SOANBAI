@@ -1,0 +1,147 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 32. Luyện tập chung hình học --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 32: LUYỆN TẬP CHUNG HÌNH HỌC}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Tổng ôn gia đình hình phẳng: góc, quan hệ vuông góc, song song, hình bình hành và hình thoi trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faListUl\ 1. Bốn loại góc và quan hệ đường thẳng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Phân loại 4 góc cốt lõi}:\\
+    --- \textbf{Góc nhọn}: Bé hơn góc vuông ($< 90^\circ$).\\
+    --- \textbf{Góc vuông}: Bằng $90^\circ$ (ê-ke kiểm tra).\\
+    --- \textbf{Góc tù}: Lớn hơn góc vuông, nhỏ hơn góc bẹt.\\
+    --- \textbf{Góc bẹt}: Bằng hai góc vuông ($180^\circ$).\\
+    $\bullet$ \textbf{Quan hệ 2 đường thẳng}:\\
+    --- \textbf{Vuông góc} ($\perp$): Cắt nhau tạo góc $90^\circ$.\\
+    --- \textbf{Song song} ($\parallel$): Không bao giờ cắt nhau.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faThLarge\ 2. Bốn tứ giác đặc biệt Lớp 4},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Hình chữ nhật}: 2 cặp cạnh đối song song và bằng nhau, \textbf{4 góc vuông}.\\
+    $\bullet$ \textbf{Hình vuông}: 4 cạnh bằng nhau, \textbf{4 góc vuông}.\\
+    $\bullet$ \textbf{Hình bình hành}: 2 cặp cạnh đối song song và bằng nhau.\\
+    $\bullet$ \textbf{Hình thoi}: 2 cặp cạnh đối song song, \textbf{4 cạnh bằng nhau}, 2 đường chéo vuông góc tại trung điểm.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: BẢN ĐỒ TIẾN HÓA CÁC TỨ GIÁC ĐẶC BIỆT LỚP 4},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.88,
+    card/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center, text width=3.8cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70}
+  ]
+    \node[card, draw=orange!85!black, fill=orange!12] (tg) at (-0.9, 0) {\textbf{TỨ GIÁC BẤT KÌ}\\Hình có 4 cạnh\\và 4 góc};
+
+    \node[card, draw=blue!75!black, fill=blue!10] (hbh) at (5.2, 0) {\textbf{HÌNH BÌNH HÀNH}\\2 cặp cạnh đối\\song song \& bằng nhau};
+
+    \node[card, draw=teal!80!black, fill=teal!12] (hcn) at (11.0, 1.15) {\textbf{HÌNH CHỮ NHẬT}\\Có thêm \textbf{4 góc vuông}\\$P = (a + b) \times 2$};
+    \node[card, draw=purple!80!black, fill=purple!12] (ht) at (11.0, -1.15) {\textbf{HÌNH THOI}\\Có thêm \textbf{4 cạnh bằng nhau}\\2 đường chéo vuông góc};
+
+    \node[card, draw=red!80!black, fill=red!15] (hv) at (16.2, 0) {\textbf{HÌNH VUÔNG}\\Vừa 4 cạnh bằng nhau\\Vừa 4 góc vuông};
+
+    \draw[arr] (tg) -- (hbh) node[pos=0.45, above=2pt, font=\tiny\bfseries]{Cạnh đối $\parallel$};
+    \draw[arr] (hbh) |- (hcn) node[pos=0.7, above left, font=\tiny\bfseries]{$+ 4$ góc vuông};
+    \draw[arr] (hbh) |- (ht) node[pos=0.7, below left, font=\tiny\bfseries]{$+ 4$ cạnh bằng};
+    \draw[arr] (hcn) -| (hv);
+    \draw[arr] (ht) -| (hv);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Quan sát hình bình hành $ABCD$ có $AB = 8\text{ cm}$, $BC = 5\text{ cm}$:\\
+    $\bullet$ Độ dài $CD = AB = \mathbf{8\text{ cm}}$.\\
+    $\bullet$ Độ dài $AD = BC = \mathbf{5\text{ cm}}$.\\
+    $\bullet$ Đoạn thẳng $AB$ song song với đoạn thẳng $CD$.\\
+    $\bullet$ Đoạn thẳng $AD$ song song với đoạn thẳng $BC$.\\
+    $\bullet$ Nếu hạ đường cao $AH \perp CD$ thì đoạn $AH$ là khoảng cách giữa 2 đáy $AB$ và $CD$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy đếm sót hình trong hình ghép}:\\
+    Khi đếm góc vuông hoặc đếm hình bình hành trong hình ghép, hãy đánh số từng mảnh đơn và đếm lần lượt: hình đơn $\rightarrow$ hình ghép đôi $\rightarrow$ hình ghép 4.\\
+    $\bullet$ \textbf{Bẫy góc bẹt}: Góc bẹt bằng 2 góc vuông ($180^\circ$), là góc tạo bởi 2 tia đối nhau thành 1 đường thẳng.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

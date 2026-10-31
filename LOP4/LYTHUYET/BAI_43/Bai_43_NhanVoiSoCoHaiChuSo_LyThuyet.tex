@@ -1,0 +1,153 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 43. Nhân với số có hai chữ số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 43: NHÂN VỚI SỐ CÓ HAI CHỮ SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Cấu trúc tích riêng thứ nhất, tích riêng thứ hai lùi 1 cột và quy trình đặt tính chuẩn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faListOl\ 1. Quy trình đặt tính 3 bước},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bước 1 (Tích riêng 1)}: Lấy chữ số \textbf{hàng đơn vị} của thừa số thứ hai nhân với thừa số thứ nhất.\\
+    $\bullet$ \textbf{Bước 2 (Tích riêng 2)}: Lấy chữ số \textbf{hàng chục} của thừa số thứ hai nhân với thừa số thứ nhất.\\
+    $\rightarrow$ \textbf{Viết lùi sang trái 1 cột} so với tích riêng 1!\\
+    $\bullet$ \textbf{Bước 3}: Cộng hai tích riêng lại (theo thẳng cột).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faQuestionCircle\ 2. Vì sao tích riêng 2 lùi 1 cột?},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Bản chất: Nhân với chữ số hàng chục là \textbf{nhân với số tròn chục}.\\
+    Ví dụ nhân với $24$ ($= 20 + 4$):\\
+    --- Tích riêng 1: nhân với $4$ đơn vị.\\
+    --- Tích riêng 2: nhân với $2$ chục ($20$).\\
+    $\bullet$ Viết lùi 1 cột chính là quy ước giản lược không cần viết chữ số $0$ ở tận cùng bên phải!
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: GIẢI PHẪU CẤU TRÚC PHÉP NHÂN $36 \times 24$},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    cbox/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=2.5pt, font=\scriptsize\bfseries, align=left, text width=8.5cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    % Bảng đặt tính
+    \node[draw=purple!85!black, fill=white, rounded corners=2mm, inner sep=5pt] (tinh) at (2.0, 0) {
+      \large
+      \begin{tabular}{r@{\,}r@{\,}r}
+        & $3$ & $6$ \\
+        $\times$ & $2$ & $4$ \\
+        \hline
+        $1$ & $4$ & $4$ \\
+        $7$ & $2$ & \\
+        \hline
+        $\mathbf{8}$ & $\mathbf{6}$ & $\mathbf{4}$
+      \end{tabular}
+    };
+
+    % Chú thích bên phải
+    \node[cbox, draw=blue!75!black, fill=blue!8] (r1) at (8.5, 1.15) {\textbf{TÍCH RIÊNG 1 ($144$):}\\$36 \times 4 = 144$ (viết thẳng hàng đơn vị)};
+    \node[cbox, draw=red!80!black, fill=red!10] (r2) at (8.5, 0.0) {\textbf{\color{red!85!black}TÍCH RIÊNG 2 ($72$ chục):}\\$36 \times 2 = 72 \rightarrow$ \textbf{LÙI SANG TRÁI 1 CỘT}};
+    \node[cbox, draw=teal!80!black, fill=teal!8] (r3) at (8.5, -1.15) {\textbf{KẾT QUẢ CUỐI CÙNG ($864$):}\\Cộng 2 tích riêng thẳng cột: $144 + 720 = 864$};
+
+    \draw[arr, draw=blue!75!black] (3.2, 0.5) -- (r1.west);
+    \draw[arr, draw=red!85!black] (3.2, 0.0) -- (r2.west);
+    \draw[arr, draw=teal!80!black] (3.2, -0.6) -- (r3.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Ví dụ}: Đặt tính rồi tính $142 \times 35$:\\
+    --- Tích riêng 1: $142 \times 5 = \mathbf{710}$.\\
+    --- Tích riêng 2: $142 \times 3 = \mathbf{426}$ (viết lùi 1 cột).\\
+    --- Cộng hai tích riêng:\\
+    \phantom{0}$710 + 4260 = \mathbf{4970}$.\\
+    $\Rightarrow \mathbf{142 \times 35 = 4970}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy quên lùi 1 cột}:\\
+    Viết tích riêng thứ hai thẳng cột với tích riêng thứ nhất: $144 + 72 = 216$ là \textbf{SAI HOÀN TOÀN} (khi đó chỉ là nhân với $4 + 2 = 6$)!\\
+    $\bullet$ \textbf{Bẫy cộng tích riêng có nhớ}:\\
+    Khi cộng hai tích riêng, nhớ cộng cẩn thận các hàng có nhớ.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

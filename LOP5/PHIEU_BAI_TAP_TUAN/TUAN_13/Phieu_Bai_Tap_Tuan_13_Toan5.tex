@@ -1,0 +1,1102 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+% =============================================================================
+% ========================= MÃ ĐỀ: 501 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 501} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Một hình tam giác có bao nhiêu đỉnh, bao nhiêu cạnh và bao nhiêu góc:}{$3$ đỉnh, $3$ cạnh, $3$ góc}{$4$ đỉnh, $4$ cạnh, $4$ góc}{$3$ đỉnh, $4$ cạnh, $3$ góc}{$3$ đỉnh, $3$ cạnh, $4$ góc}
+\cauTN{2}{Trong hình tam giác vuông, hai cạnh góc vuông chính là:}{Hai đường chéo}{Đáy và chiều cao tương ứng}{Hai cạnh đáy}{Hai cạnh huyền}
+\cauTN{3}{Công thức tính diện tích hình tam giác có độ dài đáy $a$ và chiều cao $h$ là:}{$S = (a \times h) : 2$}{$S = a \times h$}{$S = (a + h) : 2$}{$S = (a + h) \times 2$}
+\cauTN{4}{Diện tích hình tam giác có đáy $12\,\text{cm}$ và chiều cao $8\,\text{cm}$ là:}{$96\,\text{cm}^2$}{$48\,\text{cm}^2$}{$24\,\text{cm}^2$}{$40\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có độ dài hai cạnh góc vuông là $6\,\text{cm}$ và $8\,\text{cm}$ là:}{$48\,\text{cm}^2$}{$14\,\text{cm}^2$}{$24\,\text{cm}^2$}{$28\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $30\,\text{cm}^2$, chiều cao $6\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$10\,\text{cm}$}{$5\,\text{cm}$}{$15\,\text{cm}$}{$8\,\text{cm}$}
+\cauTN{7}{Hình thang là hình tứ giác có:}{Hai cặp cạnh đối diện song song}{Một cặp cạnh đối diện song song}{Bốn góc vuông}{Bốn cạnh bằng nhau}
+\cauTN{8}{Công thức tính diện tích hình thang có hai đáy $a, b$ và chiều cao $h$ là:}{$S = (a + b) \times h$}{$S = (a \times b) \times h : 2$}{$S = (a + b) \times h : 2$}{$S = a \times b : 2$}
+\cauTN{9}{Một hình thang có đáy lớn $15\,\text{cm}$, đáy bé $9\,\text{cm}$, chiều cao $8\,\text{cm}$. Diện tích hình thang đó là:}{$96\,\text{cm}^2$}{$192\,\text{cm}^2$}{$90\,\text{cm}^2$}{$108\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $60\,\text{cm}^2$, tổng độ dài hai đáy là $20\,\text{cm}$. Chiều cao hình thang là:}{$3\,\text{cm}$}{$6\,\text{cm}$}{$12\,\text{cm}$}{$8\,\text{cm}$}
+\cauTNhaiDong{11}{Một thửa ruộng hình thang có đáy lớn $40\,\text{m}$, đáy bé $25\,\text{m}$, chiều cao $20\,\text{m}$. Diện tích thửa ruộng đó là:}{$650\,\text{m}^2$}{$1\\,300\,\text{m}^2$}{$600\,\text{m}^2$}{$700\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $15\,\text{cm}$. Kéo dài đáy thêm $4\,\text{cm}$ thì diện tích tăng thêm $18\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$60\,\text{cm}^2$}{$67{,}5\,\text{cm}^2$}{$72\,\text{cm}^2$}{$54\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$45{,}8 + 27{,}65$} & 
+\oDatTinh[4]{b)}{$84{,}3 - 39{,}48$} & 
+\oDatTinh[4]{c)}{$18{,}5 \times 4{,}2$} & 
+\oDatTinh[4]{d)}{$91{,}8 : 5{,}4$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 501} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 18{,}5 = 45{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 4{,}5 = 38{,}25$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 24{,}6 = 38{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 3{,}6 = 12{,}5$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (16 \times 10) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (12 \times 9) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (18 + 12) \times 8 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 25 \times 10 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 42 m, đáy bé 28 m, chiều cao 25 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 65 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình tam giác có đáy 24 cm. Nếu kéo dài đáy thêm 6 cm thì diện tích tăng thêm 45 $\text{cm}^2$. Tính diện tích hình tam giác ban đầu.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 502 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 502} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tam giác có một góc vuông được gọi là:}{Tam giác vuông}{Tam giác nhọn}{Tam giác tù}{Tam giác đều}
+\cauTN{2}{Đoạn thẳng vuông góc kẻ từ đỉnh của tam giác xuống cạnh đáy đối diện gọi là:}{Cạnh bên}{Chiều cao}{Đường chéo}{Trung điểm}
+\cauTN{3}{Muốn tính diện tích hình tam giác, ta lấy độ dài đáy nhân với chiều cao (cùng đơn vị đo) rồi:}{Chia cho 2}{Nhân với 2}{Chia cho 4}{Giữ nguyên}
+\cauTN{4}{Diện tích hình tam giác có đáy $14\,\text{cm}$ và chiều cao $9\,\text{cm}$ là:}{$126\,\text{cm}^2$}{$63\,\text{cm}^2$}{$46\,\text{cm}^2$}{$32\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có hai cạnh góc vuông là $8\,\text{cm}$ và $10\,\text{cm}$ là:}{$80\,\text{cm}^2$}{$18\,\text{cm}^2$}{$40\,\text{cm}^2$}{$45\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $45\,\text{cm}^2$, chiều cao $9\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$10\,\text{cm}$}{$5\,\text{cm}$}{$15\,\text{cm}$}{$8\,\text{cm}$}
+\cauTN{7}{Hình thang có một cạnh bên vuông góc với hai đáy gọi là:}{Hình thang cân}{Hình thang vuông}{Hình bình hành}{Hình thoi}
+\cauTN{8}{Muốn tính diện tích hình thang ta lấy tổng độ dài hai đáy nhân với chiều cao (cùng đơn vị đo) rồi:}{Nhân với 2}{Chia cho 4}{Chia cho 2}{Giữ nguyên}
+\cauTN{9}{Một hình thang có đáy lớn $18\,\text{cm}$, đáy bé $12\,\text{cm}$, chiều cao $10\,\text{cm}$. Diện tích hình thang đó là:}{$150\,\text{cm}^2$}{$300\,\text{cm}^2$}{$140\,\text{cm}^2$}{$160\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $84\,\text{cm}^2$, tổng độ dài hai đáy là $24\,\text{cm}$. Chiều cao hình thang là:}{$3{,}5\,\text{cm}$}{$7\,\text{cm}$}{$14\,\text{cm}$}{$8\,\text{cm}$}
+\cauTNhaiDong{11}{Một mảnh đất hình thang có đáy lớn $35\,\text{m}$, đáy bé $25\,\text{m}$, chiều cao $16\,\text{m}$. Diện tích mảnh đất đó là:}{$480\,\text{m}^2$}{$960\,\text{m}^2$}{$450\,\text{m}^2$}{$500\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $20\,\text{cm}$. Kéo dài đáy thêm $5\,\text{cm}$ thì diện tích tăng thêm $30\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$100\,\text{cm}^2$}{$120\,\text{cm}^2$}{$150\,\text{cm}^2$}{$90\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$54{,}6 + 32{,}75$} & 
+\oDatTinh[4]{b)}{$92{,}4 - 47{,}65$} & 
+\oDatTinh[4]{c)}{$24{,}5 \times 3{,}6$} & 
+\oDatTinh[4]{d)}{$98{,}8 : 5{,}2$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 502} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 23{,}4 = 56{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 5{,}2 = 44{,}2$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 31{,}5 = 42{,}7$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 4{,}5 = 14$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (18 \times 12) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (14 \times 8) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (22 + 14) \times 10 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 30 \times 12 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình tam giác có độ dài đáy 56 m, chiều cao tương ứng bằng 35 m. Người ta trồng ngô trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 80 kg ngô. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ ngô?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình thang có đáy lớn 30 cm, đáy bé 18 cm và diện tích 384 $\text{cm}^2$. Tính chiều cao của hình thang.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 503 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 503} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tam giác có ba góc đều nhọn gọi là:}{Tam giác nhọn}{Tam giác vuông}{Tam giác tù}{Tam giác cân}
+\cauTN{2}{Khoảng cách vuông góc giữa hai đáy của hình thang gọi là:}{Cạnh đáy}{Chiều cao}{Đường chéo}{Cạnh bên}
+\cauTN{3}{Muốn tính diện tích tam giác ta lấy đáy nhân với chiều cao rồi:}{Chia cho 2}{Nhân với 2}{Cộng với 2}{Trừ đi 2}
+\cauTN{4}{Diện tích hình tam giác có đáy $16\,\text{cm}$ và chiều cao $7\,\text{cm}$ là:}{$112\,\text{cm}^2$}{$56\,\text{cm}^2$}{$48\,\text{cm}^2$}{$36\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có hai cạnh góc vuông là $12\,\text{cm}$ và $5\,\text{cm}$ là:}{$60\,\text{cm}^2$}{$17\,\text{cm}^2$}{$30\,\text{cm}^2$}{$35\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $48\,\text{cm}^2$, chiều cao $8\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$12\,\text{cm}$}{$6\,\text{cm}$}{$18\,\text{cm}$}{$10\,\text{cm}$}
+\cauTN{7}{Hai cạnh song song của hình thang được gọi là:}{Hai cạnh bên}{Hai cạnh đáy}{Hai đường cao}{Hai đường chéo}
+\cauTN{8}{Diện tích hình thang có đáy lớn $a$, đáy bé $b$, chiều cao $h$ tính bởi:}{$S = (a + b) \times h$}{$S = (a - b) \times h : 2$}{$S = (a + b) \times h : 2$}{$S = a \times b : 2$}
+\cauTN{9}{Một hình thang có đáy lớn $20\,\text{cm}$, đáy bé $14\,\text{cm}$, chiều cao $8\,\text{cm}$. Diện tích hình thang đó là:}{$136\,\text{cm}^2$}{$272\,\text{cm}^2$}{$140\,\text{cm}^2$}{$130\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $75\,\text{cm}^2$, tổng độ dài hai đáy là $25\,\text{cm}$. Chiều cao hình thang là:}{$3\,\text{cm}$}{$6\,\text{cm}$}{$12\,\text{cm}$}{$8\,\text{cm}$}
+\cauTNhaiDong{11}{Một thửa ruộng hình thang có đáy lớn $50\,\text{m}$, đáy bé $30\,\text{m}$, chiều cao $24\,\text{m}$. Diện tích thửa ruộng đó là:}{$960\,\text{m}^2$}{$1\\,920\,\text{m}^2$}{$900\,\text{m}^2$}{$1\\,000\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $18\,\text{cm}$. Kéo dài đáy thêm $6\,\text{cm}$ thì diện tích tăng thêm $27\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$75\,\text{cm}^2$}{$81\,\text{cm}^2$}{$90\,\text{cm}^2$}{$72\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$62{,}8 + 35{,}45$} & 
+\oDatTinh[4]{b)}{$85{,}6 - 48{,}35$} & 
+\oDatTinh[4]{c)}{$26{,}5 \times 4{,}2$} & 
+\oDatTinh[4]{d)}{$85{,}8 : 3{,}9$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 503} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 27{,}5 = 64{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}5 = 55{,}25$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 36{,}8 = 45{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 5{,}2 = 15$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (20 \times 14) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (16 \times 9) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (24 + 16) \times 12 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 35 \times 14 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 60 m, đáy bé bằng $\dfrac{2}{3}$ đáy lớn, chiều cao 30 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 70 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình tam giác có diện tích 240 $\text{cm}^2$, đáy 20 cm. Người ta kéo dài đáy thêm 5 cm. Tính diện tích hình tam giác mới.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 504 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 504} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tam giác có một góc tù gọi là:}{Tam giác tù}{Tam giác nhọn}{Tam giác vuông}{Tam giác đều}
+\cauTN{2}{Trong tam giác, mỗi đỉnh có tương ứng bao nhiêu đường cao:}{$2$ đường cao}{$1$ đường cao}{$3$ đường cao}{$4$ đường cao}
+\cauTN{3}{Nếu đáy của tam giác tăng lên gấp đôi, chiều cao giữ nguyên thì diện tích tam giác:}{Tăng gấp đôi}{Tăng gấp bốn}{Không đổi}{Giảm đi một nửa}
+\cauTN{4}{Diện tích hình tam giác có đáy $18\,\text{cm}$ và chiều cao $11\,\text{cm}$ là:}{$198\,\text{cm}^2$}{$99\,\text{cm}^2$}{$88\,\text{cm}^2$}{$72\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có hai cạnh góc vuông là $14\,\text{cm}$ và $6\,\text{cm}$ là:}{$84\,\text{cm}^2$}{$20\,\text{cm}^2$}{$42\,\text{cm}^2$}{$48\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $63\,\text{cm}^2$, chiều cao $9\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$14\,\text{cm}$}{$7\,\text{cm}$}{$21\,\text{cm}$}{$12\,\text{cm}$}
+\cauTN{7}{Đặc điểm nào đúng với hình thang vuông:}{Có $4$ góc vuông}{Có một góc vuông (cạnh bên vuông góc với 2 đáy)}{Hai đáy không song song}{Hai cạnh bên bằng nhau}
+\cauTN{8}{Muốn tính diện tích hình thang, ta lấy tổng hai đáy nhân với chiều cao rồi:}{Nhân 2}{Trừ 2}{Chia cho 2}{Giữ nguyên}
+\cauTN{9}{Một hình thang có đáy lớn $22\,\text{cm}$, đáy bé $16\,\text{cm}$, chiều cao $12\,\text{cm}$. Diện tích hình thang đó là:}{$228\,\text{cm}^2$}{$456\,\text{cm}^2$}{$220\,\text{cm}^2$}{$235\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $96\,\text{cm}^2$, tổng độ dài hai đáy là $24\,\text{cm}$. Chiều cao hình thang là:}{$4\,\text{cm}$}{$8\,\text{cm}$}{$16\,\text{cm}$}{$12\,\text{cm}$}
+\cauTNhaiDong{11}{Một mảnh đất hình thang có đáy lớn $45\,\text{m}$, đáy bé $35\,\text{m}$, chiều cao $20\,\text{m}$. Diện tích mảnh đất đó là:}{$800\,\text{m}^2$}{$1\\,600\,\text{m}^2$}{$750\,\text{m}^2$}{$850\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $24\,\text{cm}$. Kéo dài đáy thêm $6\,\text{cm}$ thì diện tích tăng thêm $36\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$120\,\text{cm}^2$}{$144\,\text{cm}^2$}{$150\,\text{cm}^2$}{$136\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$58{,}6 + 43{,}75$} & 
+\oDatTinh[4]{b)}{$94{,}5 - 56{,}48$} & 
+\oDatTinh[4]{c)}{$32{,}5 \times 3{,}4$} & 
+\oDatTinh[4]{d)}{$99{,}9 : 3{,}7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 504} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 32{,}6 = 78{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 7{,}2 = 61{,}2$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 42{,}5 = 51{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6{,}4 = 16$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (22 \times 16) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (18 \times 10) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (26 + 18) \times 14 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 40 \times 15 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình tam giác có chiều cao 24 m, độ dài đáy bằng $\dfrac{5}{4}$ chiều cao. Người ta trồng ngô trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 75 kg ngô. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ ngô?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình thang có diện tích 450 $\text{cm}^2$, đáy lớn 32 cm, đáy bé 28 cm. Người ta giảm đáy lớn đi 4 cm. Diện tích hình thang giảm đi bao nhiêu xăng-ti-mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 505 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 505} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tổng ba góc trong một hình tam giác luôn bằng:}{$180^\circ$}{$90^\circ$}{$360^\circ$}{$270^\circ$}
+\cauTN{2}{Đường cao của tam giác tù xuất phát từ đỉnh góc nhọn nằm ở:}{Bên trong tam giác}{Bên ngoài tam giác}{Trên cạnh huyền}{Trùng với đỉnh}
+\cauTN{3}{Nếu chiều cao tam giác tăng gấp đôi, đáy giữ nguyên thì diện tích tam giác:}{Tăng gấp đôi}{Tăng gấp bốn}{Không đổi}{Giảm đi một nửa}
+\cauTN{4}{Diện tích hình tam giác có đáy $20\,\text{cm}$ và chiều cao $13\,\text{cm}$ là:}{$260\,\text{cm}^2$}{$130\,\text{cm}^2$}{$120\,\text{cm}^2$}{$140\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có hai cạnh góc vuông là $15\,\text{cm}$ và $8\,\text{cm}$ là:}{$120\,\text{cm}^2$}{$23\,\text{cm}^2$}{$60\,\text{cm}^2$}{$65\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $72\,\text{cm}^2$, chiều cao $12\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$12\,\text{cm}$}{$6\,\text{cm}$}{$18\,\text{cm}$}{$10\,\text{cm}$}
+\cauTN{7}{Trong hình thang vuông, đường cao chính là:}{Đáy lớn}{Cạnh bên vuông góc với hai đáy}{Đáy bé}{Cạnh bên xiên}
+\cauTN{8}{Muốn tính diện tích hình thang, ta lấy tổng hai đáy nhân với chiều cao rồi:}{Nhân 2}{Trừ 2}{Chia cho 2}{Giữ nguyên}
+\cauTN{9}{Một hình thang có đáy lớn $25\,\text{cm}$, đáy bé $15\,\text{cm}$, chiều cao $14\,\text{cm}$. Diện tích hình thang đó là:}{$280\,\text{cm}^2$}{$560\,\text{cm}^2$}{$270\,\text{cm}^2$}{$290\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $120\,\text{cm}^2$, tổng độ dài hai đáy là $30\,\text{cm}$. Chiều cao hình thang là:}{$4\,\text{cm}$}{$8\,\text{cm}$}{$16\,\text{cm}$}{$12\,\text{cm}$}
+\cauTNhaiDong{11}{Một thửa ruộng hình thang có đáy lớn $55\,\text{m}$, đáy bé $35\,\text{m}$, chiều cao $25\,\text{m}$. Diện tích thửa ruộng đó là:}{$1\\,125\,\text{m}^2$}{$2\\,250\,\text{m}^2$}{$1\\,100\,\text{m}^2$}{$1\\,200\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $25\,\text{cm}$. Kéo dài đáy thêm $5\,\text{cm}$ thì diện tích tăng thêm $40\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$180\,\text{cm}^2$}{$200\,\text{cm}^2$}{$220\,\text{cm}^2$}{$190\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$67{,}5 + 38{,}65$} & 
+\oDatTinh[4]{b)}{$98{,}2 - 49{,}38$} & 
+\oDatTinh[4]{c)}{$35{,}4 \times 3{,}5$} & 
+\oDatTinh[4]{d)}{$108 : 4{,}5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 505} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 35{,}8 = 86{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 8{,}5 = 72{,}25$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 48{,}6 = 37{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7{,}5 = 18$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (24 \times 18) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (20 \times 12) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (28 + 20) \times 15 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 45 \times 16 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 75 m, đáy bé 45 m, chiều cao bằng trung bình cộng hai đáy. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 60 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Cho hình tam giác ABC có diện tích 180 $\text{cm}^2$, đáy BC = 24 cm. Trên BC lấy điểm M sao cho BM = 8 cm. Tính diện tích hình tam giác ABM.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 506 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 506} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tam giác có hai cạnh bằng nhau được gọi là:}{Tam giác cân}{Tam giác đều}{Tam giác vuông}{Tam giác tù}
+\cauTN{2}{Trong tam giác, đường cao tương ứng với cạnh đáy là đoạn thẳng kẻ từ đỉnh đối diện và:}{Song song với đáy}{Vuông góc với đường thẳng chứa đáy}{Đi qua trung điểm cạnh bên}{Bằng cạnh đáy}
+\cauTN{3}{Nếu cả đáy và chiều cao của tam giác đều tăng lên gấp đôi thì diện tích tam giác:}{Tăng gấp bốn}{Tăng gấp đôi}{Tăng gấp tám}{Không đổi}
+\cauTN{4}{Diện tích hình tam giác có đáy $22\,\text{cm}$ và chiều cao $15\,\text{cm}$ là:}{$330\,\text{cm}^2$}{$165\,\text{cm}^2$}{$150\,\text{cm}^2$}{$175\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có hai cạnh góc vuông là $16\,\text{cm}$ và $9\,\text{cm}$ là:}{$144\,\text{cm}^2$}{$25\,\text{cm}^2$}{$72\,\text{cm}^2$}{$75\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $80\,\text{cm}^2$, chiều cao $10\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$16\,\text{cm}$}{$8\,\text{cm}$}{$20\,\text{cm}$}{$12\,\text{cm}$}
+\cauTN{7}{Một hình thang có đáy lớn gấp đôi đáy bé, biết đáy bé là $10\,	ext{cm}$ thì đáy lớn là:}{$15\,	ext{cm}$}{$20\,	ext{cm}$}{$25\,	ext{cm}$}{$30\,	ext{cm}$}
+\cauTN{8}{Muốn tính diện tích hình thang, ta lấy tổng độ dài hai đáy nhân với chiều cao rồi chia cho:}{$3$}{$4$}{$2$}{$1$}
+\cauTN{9}{Một hình thang có đáy lớn $28\,\text{cm}$, đáy bé $18\,\text{cm}$, chiều cao $15\,\text{cm}$. Diện tích hình thang đó là:}{$345\,\text{cm}^2$}{$690\,\text{cm}^2$}{$340\,\text{cm}^2$}{$350\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $144\,\text{cm}^2$, tổng độ dài hai đáy là $36\,\text{cm}$. Chiều cao hình thang là:}{$4\,\text{cm}$}{$8\,\text{cm}$}{$16\,\text{cm}$}{$12\,\text{cm}$}
+\cauTNhaiDong{11}{Một thửa ruộng hình thang có đáy lớn $60\,\text{m}$, đáy bé $40\,\text{m}$, chiều cao $30\,\text{m}$. Diện tích thửa ruộng đó là:}{$1\\,500\,\text{m}^2$}{$3\\,000\,\text{m}^2$}{$1\\,450\,\text{m}^2$}{$1\\,550\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $30\,\text{cm}$. Kéo dài đáy thêm $6\,\text{cm}$ thì diện tích tăng thêm $45\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$210\,\text{cm}^2$}{$225\,\text{cm}^2$}{$240\,\text{cm}^2$}{$200\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$74{,}5 + 42{,}85$} & 
+\oDatTinh[4]{b)}{$102{,}4 - 58{,}75$} & 
+\oDatTinh[4]{c)}{$38{,}5 \times 3{,}6$} & 
+\oDatTinh[4]{d)}{$124{,}8 : 4{,}8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 506} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 41{,}5 = 95{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 9{,}2 = 87{,}4$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 52{,}4 = 43{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8{,}4 = 20$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (26 \times 20) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (22 \times 14) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (32 + 22) \times 16 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 50 \times 18 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình tam giác vuông có hai cạnh góc vuông dài 40 m và 30 m. Người ta trồng khoai trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 90 kg khoai. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ khoai?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình thang có đáy lớn 36 cm, đáy bé 24 cm, chiều cao 20 cm. Kéo dài đáy lớn thêm 6 cm thì diện tích hình thang tăng thêm bao nhiêu xăng-ti-mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 507 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 13)} & \textbf{MÃ ĐỀ: 507} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tam giác có ba cạnh bằng nhau được gọi là:}{Tam giác đều}{Tam giác cân}{Tam giác vuông}{Tam giác nhọn}
+\cauTN{2}{Đáy và chiều cao của tam giác dùng để tính diện tích phải:}{Bằng nhau}{Có cùng một đơn vị đo}{Khác đơn vị đo}{Tùy ý}
+\cauTN{3}{Nếu đáy của tam giác giảm đi một nửa, chiều cao giữ nguyên thì diện tích tam giác:}{Giảm đi một nửa}{Giảm đi 4 lần}{Không đổi}{Tăng gấp đôi}
+\cauTN{4}{Diện tích hình tam giác có đáy $24\,\text{cm}$ và chiều cao $16\,\text{cm}$ là:}{$384\,\text{cm}^2$}{$192\,\text{cm}^2$}{$180\,\text{cm}^2$}{$200\,\text{cm}^2$}
+\cauTN{5}{Diện tích tam giác vuông có hai cạnh góc vuông là $18\,\text{cm}$ và $10\,\text{cm}$ là:}{$180\,\text{cm}^2$}{$28\,\text{cm}^2$}{$90\,\text{cm}^2$}{$95\,\text{cm}^2$}
+\cauTN{6}{Một tam giác có diện tích $90\,\text{cm}^2$, chiều cao $12\,\text{cm}$. Độ dài đáy của tam giác đó là:}{$15\,\text{cm}$}{$7{,}5\,\text{cm}$}{$20\,\text{cm}$}{$14\,\text{cm}$}
+\cauTN{7}{Một hình thang có đáy lớn $24\,	ext{cm}$, đáy bé bằng $\dfrac{2}{3}$ đáy lớn. Đáy bé là:}{$12\,	ext{cm}$}{$16\,	ext{cm}$}{$18\,	ext{cm}$}{$20\,	ext{cm}$}
+\cauTN{8}{Tổng độ dài hai đáy của hình thang tính bởi công thức:}{$a + b = 2 \times S \times h$}{$a + b = S \times h : 2$}{$a + b = 2 \times S : h$}{$a + b = S : h$}
+\cauTN{9}{Một hình thang có đáy lớn $32\,\text{cm}$, đáy bé $20\,\text{cm}$, chiều cao $16\,\text{cm}$. Diện tích hình thang đó là:}{$416\,\text{cm}^2$}{$832\,\text{cm}^2$}{$410\,\text{cm}^2$}{$420\,\text{cm}^2$}
+\cauTN{10}{Một hình thang có diện tích $168\,\text{cm}^2$, tổng độ dài hai đáy là $42\,\text{cm}$. Chiều cao hình thang là:}{$4\,\text{cm}$}{$8\,\text{cm}$}{$16\,\text{cm}$}{$12\,\text{cm}$}
+\cauTNhaiDong{11}{Một thửa ruộng hình thang có đáy lớn $70\,\text{m}$, đáy bé $50\,\text{m}$, chiều cao $35\,\text{m}$. Diện tích thửa ruộng đó là:}{$2\\,100\,\text{m}^2$}{$4\\,200\,\text{m}^2$}{$2\\,000\,\text{m}^2$}{$2\\,200\,\text{m}^2$}
+\cauTNhaiDong{12}{Một tam giác có đáy $32\,\text{cm}$. Kéo dài đáy thêm $8\,\text{cm}$ thì diện tích tăng thêm $60\,\text{cm}^2$. Diện tích tam giác ban đầu là:}{$220\,\text{cm}^2$}{$240\,\text{cm}^2$}{$260\,\text{cm}^2$}{$200\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$81{,}6 + 49{,}75$} & 
+\oDatTinh[4]{b)}{$115{,}2 - 68{,}45$} & 
+\oDatTinh[4]{c)}{$42{,}5 \times 4{,}2$} & 
+\oDatTinh[4]{d)}{$147 : 4{,}2$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 507} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 48{,}6 = 105{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 9{,}5 = 99{,}75$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 58{,}5 = 54{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9{,}2 = 25$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (28 \times 22) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\Delta\text{ vuông}} = (24 \times 16) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $S_{\text{thang}} = (36 + 24) \times 18 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{thang}} = 60 \times 20 : 2 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 90 m, đáy bé 70 m, chiều cao 50 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 65 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình tam giác có đáy 32 cm, chiều cao 18 cm. Nếu giữ nguyên chiều cao và giảm đáy đi 8 cm thì diện tích tam giác giảm đi bao nhiêu xăng-ti-mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

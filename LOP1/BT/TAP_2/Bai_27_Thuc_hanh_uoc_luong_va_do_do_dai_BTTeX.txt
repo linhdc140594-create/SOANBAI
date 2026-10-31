@@ -1,0 +1,199 @@
+\begin{ex}
+Ước lượng chiều dài một cây bút chì mới khoảng 15 cm. Khi đo thực tế bằng thước kẻ là 14 cm. Độ lệch giữa số ước lượng và thực tế là bao nhiêu xăng-ti-mét?
+\shortans{1}
+\loigiai{
+Độ lệch: $15 - 14 = 1$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Ước lượng bề dày cuốn sách Toán 1 khoảng 1 cm. Chồng 10 cuốn sách Toán 1 như thế ước lượng dày bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Dày: $1 \times 10 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bé ước lượng chiều dài hộp bút là 20 cm, đo thực tế được 18 cm. Chiều dài thực tế kém ước lượng bao nhiêu xăng-ti-mét?
+\shortans{2}
+\loigiai{
+Kém: $20 - 18 = 2$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đo chiều dài chiếc tẩy: đầu trái ở vạch 1 cm, đầu phải ở vạch 4 cm. Chiếc tẩy dài bao nhiêu xăng-ti-mét?
+\shortans{3}
+\loigiai{
+Chiếc tẩy dài: $4 - 1 = 3$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đo chiều dài nhãn vở: đầu trái ở vạch 0 cm, đầu phải ở vạch 7 cm. Nhãn vở dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Nhãn vở dài 7 cm.
+}
+\end{ex}
+
+\begin{ex}
+Một que tăm dài 6 cm. Ghép nối 2 que tăm liên tiếp thành một đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Dài: $6 + 6 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc thước gấp gồm 5 khúc, mỗi khúc dài 20 cm. Hai khúc đầu mở thẳng ra có độ dài bao nhiêu xăng-ti-mét?
+\shortans{40}
+\loigiai{
+Độ dài 2 khúc: $20 + 20 = 40$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Ba khúc mở thẳng ra có độ dài bao nhiêu xăng-ti-mét?
+\shortans{60}
+\loigiai{
+Độ dài 3 khúc: $20 + 20 + 20 = 60$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tất cả 5 khúc mở thẳng ra dài bao nhiêu xăng-ti-mét?
+\shortans{100}
+\loigiai{
+Độ dài 5 khúc: $20 \times 5 = 100$ cm.
+}
+\end{ex}
+
+\begin{ex}
+100 xăng-ti-mét bằng bao nhiêu mét?
+\shortans{1}
+\loigiai{
+$100\text{ cm} = 1\text{ m}$.
+}
+\end{ex}
+
+\begin{ex}
+Đo bề ngang cuốn sổ tay bằng 1 gang tay học sinh khoảng 13 cm. Hai gang tay liên tiếp dài khoảng bao nhiêu xăng-ti-mét?
+\shortans{26}
+\loigiai{
+Dài: $13 + 13 = 26$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc hộp bánh hình chữ nhật có chiều dài 25 cm, chiều rộng 15 cm. Chiều dài hơn chiều rộng bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Hơn: $25 - 15 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tổng một chiều dài và một chiều rộng của hộp bánh là bao nhiêu xăng-ti-mét?
+\shortans{40}
+\loigiai{
+Tổng: $25 + 15 = 40$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cạnh của một khung tranh hình vuông dài 20 cm. Tổng độ dài hai cạnh liền nhau là bao nhiêu xăng-ti-mét?
+\shortans{40}
+\loigiai{
+Hai cạnh dài: $20 + 20 = 40$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bé cắt một đoạn băng dính dài 30 cm, sau đó dán bưu thiếp hết 10 cm. Đoạn băng dính còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{20}
+\loigiai{
+Còn lại: $30 - 10 = 20$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Nam dùng thước dây đo vòng cổ tay được 12 cm, vòng bắp tay đo được 16 cm. Vòng bắp tay lớn hơn vòng cổ tay bao nhiêu xăng-ti-mét?
+\shortans{4}
+\loigiai{
+Lớn hơn: $16 - 12 = 4$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng thứ nhất dài 14 cm, đoạn thứ hai dài 10 cm. Cả hai đoạn dài tất cả bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+Cả hai đoạn dài: $14 + 10 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Sợi dây đồng dài 50 cm, sau khi uốn thành hình tam giác thì còn thừa một đoạn dài 10 cm. Chu vi hình tam giác đó dài bao nhiêu xăng-ti-mét?
+\shortans{40}
+\loigiai{
+Chu vi: $50 - 10 = 40$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc bút chì màu chưa gọt dài 17 cm, chiếc đã gọt nhiều lần dài 11 cm. Chiếc chưa gọt dài hơn chiếc đã gọt bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+Dài hơn: $17 - 11 = 6$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $35\text{ cm} - 5\text{ cm} = \dots\text{ cm}$.
+\shortans{30}
+\loigiai{
+Ta có: $35 - 5 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $42\text{ cm} + 6\text{ cm} = \dots\text{ cm}$.
+\shortans{48}
+\loigiai{
+Ta có: $42 + 6 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $50\text{ cm} + 30\text{ cm} - 10\text{ cm} = \dots\text{ cm}$.
+\shortans{70}
+\loigiai{
+Ta có: $50 + 30 - 10 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Một cây con lúc mới trồng cao 10 cm, sau một tuần cây mọc cao thêm 4 cm. Chiều cao của cây sau một tuần là bao nhiêu xăng-ti-mét?
+\shortans{14}
+\loigiai{
+Chiều cao: $10 + 4 = 14$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tuần tiếp theo cây lại cao thêm 5 cm nữa. Chiều cao của cây lúc này là bao nhiêu xăng-ti-mét?
+\shortans{19}
+\loigiai{
+Chiều cao: $14 + 5 = 19$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Độ dài một bước chân của bạn Nam là 30 cm, bạn bước 2 bước liên tiếp được quãng đường dài bao nhiêu xăng-ti-mét?
+\shortans{60}
+\loigiai{
+Quãng đường: $30 + 30 = 60$ cm.
+}
+\end{ex}

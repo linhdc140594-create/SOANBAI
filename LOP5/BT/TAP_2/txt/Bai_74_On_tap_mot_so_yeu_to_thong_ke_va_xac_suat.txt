@@ -1,0 +1,176 @@
+=== BÀI 74: ÔN TẬP MỘT SỐ YẾU TỐ THỐNG KÊ VÀ XÁC SUẤT ===
+
+Câu 1: Bảng thống kê số học sinh giỏi của 4 lớp khối 5: 5A: 18 bạn, 5B: 20 bạn, 5C: 22 bạn, 5D: 20 bạn. Lớp có nhiều học sinh giỏi nhất có bao nhiêu bạn?
+Đáp án: [shortans]22[/shortans]
+Lời giải chi tiết:
+Lớp 5C có 22 bạn (nhiều nhất).
+
+----------------------------------------
+
+Câu 2: Ở bảng trên, tổng số học sinh giỏi của khối 5 là bao nhiêu bạn?
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+18 + 20 + 22 + 20 = 80 bạn.
+
+----------------------------------------
+
+Câu 3: Ở bảng trên, trung bình mỗi lớp có bao nhiêu học sinh giỏi?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+80 : 4 = 20 bạn.
+
+----------------------------------------
+
+Câu 4: Biểu đồ quạt tròn biểu diễn thể loại sách mượn tại thư viện: Khoa học 35\%, Văn học 40\%, Lịch sử 25\%. Tỉ số phần trăm sách Khoa học và Lịch sử cộng lại là bao nhiêu phần trăm?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+35\% + 25\% = 60\%.
+
+----------------------------------------
+
+Câu 5: Nếu có 400 lượt mượn sách ở biểu đồ trên thì số lượt mượn sách Văn học là bao nhiêu lượt?
+Đáp án: [shortans]160[/shortans]
+Lời giải chi tiết:
+400 x 40\% = 160 lượt.
+
+----------------------------------------
+
+Câu 6: Ở bài trên, số lượt mượn sách Lịch sử là bao nhiêu lượt?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+400 x 25\% = 100 lượt.
+
+----------------------------------------
+
+Câu 7: Tung một đồng xu 40 lần, có 18 lần xuất hiện mặt ngửa. Số lần xuất hiện mặt sấp là bao nhiêu lần?
+Đáp án: [shortans]22[/shortans]
+Lời giải chi tiết:
+40 - 18 = 22 lần.
+
+----------------------------------------
+
+Câu 8: Ở thực nghiệm trên, tỉ số phần trăm số lần xuất hiện mặt ngửa là bao nhiêu phần trăm?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+(18 : 40) x 100\% = 45\%.
+
+----------------------------------------
+
+Câu 9: Gieo một con xúc xắc 50 lần, xuất hiện mặt 6 chấm 12 lần. Tỉ số phần trăm số lần xuất hiện mặt 6 chấm là bao nhiêu phần trăm?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+(12 : 50) x 100\% = 24\%.
+
+----------------------------------------
+
+Câu 10: Trong hộp có 5 viên bi xanh, 3 viên bi đỏ, 2 viên bi vàng. Tổng số viên bi trong hộp là bao nhiêu viên?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+5 + 3 + 2 = 10 viên.
+
+----------------------------------------
+
+Câu 11: Ở hộp bi trên, tỉ số phần trăm số bi xanh so với tổng số bi là bao nhiêu phần trăm?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+(5 : 10) x 100\% = 50\%.
+
+----------------------------------------
+
+Câu 12: Ở hộp bi trên, tỉ số phần trăm số bi đỏ so với tổng số bi là bao nhiêu phần trăm?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+(3 : 10) x 100\% = 30\%.
+
+----------------------------------------
+
+Câu 13: Biểu đồ quạt tròn biểu diễn tỉ lệ học sinh tham gia các câu lạc bộ: Vẽ 25\%, Nhạc 30\%, Thể thao 45\%. Câu lạc bộ nào có đông học sinh nhất chiếm bao nhiêu phần trăm?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+Thể thao chiếm nhiều nhất với 45%.
+
+----------------------------------------
+
+Câu 14: Nếu có 200 học sinh tham gia ở câu trên thì câu lạc bộ Vẽ có bao nhiêu bạn?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+200 x 25\% = 50 bạn.
+
+----------------------------------------
+
+Câu 15: Thực hiện quay vòng tròn may mắn 100 lần, có 35 lần kim chỉ ô may mắn. Tỉ số phần trăm ô may mắn xuất hiện là bao nhiêu phần trăm?
+Đáp án: [shortans]35[/shortans]
+Lời giải chi tiết:
+35\%.
+
+----------------------------------------
+
+Câu 16: Bảng thống kê lượng mưa 3 tháng hè (mm): Tháng 6: 180, Tháng 7: 240, Tháng 8: 300. Trung bình mỗi tháng lượng mưa là bao nhiêu mm?
+Đáp án: [shortans]240[/shortans]
+Lời giải chi tiết:
+(180 + 240 + 300) : 3 = 720 : 3 = 240\text{ mm}.
+
+----------------------------------------
+
+Câu 17: Ở bài trên, tháng mưa nhiều nhất hơn tháng mưa ít nhất bao nhiêu mm?
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+300 - 180 = 120\text{ mm}.
+
+----------------------------------------
+
+Câu 18: Một tổ học sinh gồm 6 bạn có số điểm kiểm tra: 8, 9, 10, 8, 9, 10. Điểm trung bình của tổ là bao nhiêu điểm?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+(8 + 9 + 10 + 8 + 9 + 10) : 6 = 54 : 6 = 9 điểm.
+
+----------------------------------------
+
+Câu 19: Khảo sát ý kiến của 80 người tiêu dùng, có 64 người đánh giá tốt sản phẩm. Tỉ số phần trăm người đánh giá tốt là bao nhiêu phần trăm?
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+(64 : 80) x 100\% = 80\%.
+
+----------------------------------------
+
+Câu 20: Ở khảo sát trên, số người không đánh giá tốt là bao nhiêu người?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+80 - 64 = 16 người.
+
+----------------------------------------
+
+Câu 21: Một hình tròn trên biểu đồ quạt chia làm 3 phần: Phần A chiếm 40\%, Phần B chiếm 35\%. Phần C chiếm bao nhiêu phần trăm?
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+100\% - 40\% - 35\% = 25\%.
+
+----------------------------------------
+
+Câu 22: Gieo xúc xắc 50 lần, có 22 lần ra mặt chấm lẻ. Số lần ra mặt chấm chẵn là bao nhiêu lần?
+Đáp án: [shortans]28[/shortans]
+Lời giải chi tiết:
+50 - 22 = 28 lần.
+
+----------------------------------------
+
+Câu 23: Ở bài trên, tỉ số phần trăm ra mặt chấm chẵn là bao nhiêu phần trăm?
+Đáp án: [shortans]56[/shortans]
+Lời giải chi tiết:
+(28 : 50) x 100\% = 56\%.
+
+----------------------------------------
+
+Câu 24: Tung 1 đồng xu 10 lần, có 7 lần ngửa. Tỉ số số lần ngửa so với tổng số lần tung nhân với 10 là bao nhiêu?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+\frac{7}{10} x 10 = 7.
+
+----------------------------------------
+
+Câu 25: Số học sinh của 3 lớp 5A, 5B, 5C lần lượt là 32, 34, 36 bạn. Trung bình mỗi lớp có bao nhiêu bạn?
+Đáp án: [shortans]34[/shortans]
+Lời giải chi tiết:
+(32 + 34 + 36) : 3 = 102 : 3 = 34 bạn.
+
+----------------------------------------

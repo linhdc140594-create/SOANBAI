@@ -1,0 +1,163 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 51. Diện tích xung quanh và toàn phần hình lập phương --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 51. DIỆN TÍCH XQ VÀ TOÀN PHẦN HÌNH LẬP PHƯƠNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Công thức Sxq = a x a x 4, Stp = a x a x 6 và phương pháp tìm cạnh khi biết diện tích trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÔNG THỨC SXQ VÀ STP HÌNH LẬP PHƯƠNG ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faCube\ 1. Công thức Diện tích HLP cạnh $a$},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Vì $6$ mặt của hình lập phương đều là các \textbf{hình vuông bằng nhau cạnh $a$}:\\
+  $\bullet$ \textbf{Diện tích một mặt:} $S_{1\text{ mặt}} = a \times a$.\\
+  $\bullet$ \textbf{Diện tích xung quanh ($S_{xq}$):} Bằng diện tích $4$ mặt bên bao quanh:\\
+  \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+    {\scriptsize\bfseries\color{blue!90!black}$S_{xq} = a \times a \times 4 = S_{1\text{ mặt}} \times 4$}
+  \end{tcolorbox}
+  $\bullet$ \textbf{Diện tích toàn phần ($S_{tp}$):} Bằng diện tích cả $6$ mặt của hình lập phương:\\
+  \begin{tcolorbox}[colback=white, colframe=purple!70!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+    {\scriptsize\bfseries\color{purple!90!black}$S_{tp} = a \times a \times 6 = S_{1\text{ mặt}} \times 6$}
+  \end{tcolorbox}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: TÍNH CẠNH KHI BIẾT DIỆN TÍCH ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ 2. Tính cạnh $a$ khi biết diện tích},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Bước 1: Tìm diện tích một mặt:}\\
+    $\triangleright$ $S_{1\text{ mặt}} = S_{xq} : 4$ \quad hoặc \quad $S_{1\text{ mặt}} = S_{tp} : 6$.\\
+    \textbf{Bước 2: Tìm cạnh $a$:}\\
+    $\triangleright$ Vì $S_{1\text{ mặt}} = a \times a$, ta tìm xem số nào nhân với chính nó bằng diện tích một mặt.\\
+    \textit{VD:} $S_{xq} = 64\text{ cm}^2 \rightarrow S_{1\text{ mặt}} = 64:4 = 16\text{ cm}^2$.\\
+    Vì $4 \times 4 = 16$ nên cạnh $\mathbf{a = 4\text{ cm}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSliders\ 3. Tỉ lệ tăng cạnh và diện tích},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Nếu cạnh HLP tăng gấp \textbf{$k$ lần}:\\
+    $\bullet$ Diện tích một mặt tăng gấp \textbf{$k \times k$ lần}.\\
+    $\bullet$ $S_{xq}$ và $S_{tp}$ đều tăng gấp \textbf{$k \times k$ lần}.\\
+    \textit{VD:} Cạnh tăng $2$ lần $\rightarrow$ Diện tích tăng $2 \times 2 = \mathbf{4\text{ lần}}$.\\
+    Cạnh tăng $3$ lần $\rightarrow$ Diện tích tăng $3 \times 3 = \mathbf{9\text{ lần}}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Diện tích hình lập phương},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.75) {\faCube\ HÌNH LẬP PHƯƠNG};
+    \node[b1] (sxq) at (-4.7, -0.45) {\textbf{DIỆN TÍCH XUNG QUANH}\\[2pt]$S_{xq} = a \times a \times 4$ (Bốn mặt bên)};
+    \node[b2] (stp) at (4.7, -0.45) {\textbf{DIỆN TÍCH TOÀN PHẦN}\\[2pt]$S_{tp} = a \times a \times 6$ (Tất cả 6 mặt)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (sxq);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (stp);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: HỘP KHÔNG NẮP & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faInbox\ Hộp lập phương không có nắp},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Hộp lập phương \textbf{không có nắp} chỉ có \textbf{5 mặt}:\\
+    $\bullet$ $S_{\text{hộp không nắp}} = a \times a \times 5$.\\
+    $\bullet$ Muốn tìm cạnh: Lấy diện tích chia cho $5$ để tìm diện tích $1$ mặt.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Nhầm giữa $\times 4$ và $\times 6$: Xung quanh chỉ có $4$ mặt bên, toàn phần mới là $6$ mặt.\\
+    $\bullet$ Hộp không nắp: Tính $5$ mặt, không được nhân $6$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

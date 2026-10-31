@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $12000 \times 4 = \dots$
+\shortans{48000}
+\loigiai{
+$12000 \times 4 = 48000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15000 \times 3 = \dots$
+\shortans{45000}
+\loigiai{
+$15000 \times 3 = 45000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $24000 \times 2 = \dots$
+\shortans{48000}
+\loigiai{
+$24000 \times 2 = 48000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $68000 : 2 = \dots$
+\shortans{34000}
+\loigiai{
+$68000 : 2 = 34000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96000 : 3 = \dots$
+\shortans{32000}
+\loigiai{
+$96000 : 3 = 32000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $85000 : 5 = \dots$
+\shortans{17000}
+\loigiai{
+$85000 : 5 = 17000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $14000 \times 3 + 18000$.
+\shortans{60000}
+\loigiai{
+$42000 + 18000 = 60000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $75000 : 3 - 15000$.
+\shortans{10000}
+\loigiai{
+$25000 - 15000 = 10000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $(20000 + 30000) \times 2$.
+\shortans{100000}
+\loigiai{
+$50000 \times 2 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $(90000 - 30000) : 3$.
+\shortans{20000}
+\loigiai{
+$60000 : 3 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x \times 5 = 75000$.
+\shortans{15000}
+\loigiai{
+$x = 75000 : 5 = 15000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x : 4 = 16000$.
+\shortans{64000}
+\loigiai{
+$x = 16000 \times 4 = 64000$.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng nhập về 3 xe hàng, mỗi xe chở 14 000 kg xi măng. Cửa hàng nhập tất cả bao nhiêu ki-lô-gam xi măng?
+\shortans{42000}
+\loigiai{
+$14000 \times 3 = 42000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Có 60 000 gói mì tôm chia đều vào 5 thùng lớn. Mỗi thùng có bao nhiêu gói mì?
+\shortans{12000}
+\loigiai{
+$60000 : 5 = 12000$ gói.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh 18 000 m. Chu vi hình vuông đó là bao nhiêu mét?
+\shortans{72000}
+\loigiai{
+$18000 \times 4 = 72000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 88 000 m. Độ dài mỗi cạnh của hình vuông là bao nhiêu mét?
+\shortans{22000}
+\loigiai{
+$88000 : 4 = 22000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính số dư trong phép chia: $65004 : 5$.
+\shortans{4}
+\loigiai{
+$65004 = 5 \times 13000 + 4$, dư 4.
+}
+\end{ex}
+
+\begin{ex}
+Tìm thương trong phép chia: $84000 : 4$.
+\shortans{21000}
+\loigiai{
+$84000 : 4 = 21000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25000 \times 2 + 50000 = \dots$
+\shortans{100000}
+\loigiai{
+$50000 + 50000 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $100000 : 4 = \dots$
+\shortans{25000}
+\loigiai{
+$100000 : 4 = 25000$.
+}
+\end{ex}
+
+\begin{ex}
+Một người nuôi 4 chuồng vịt, mỗi chuồng có 11 500 con. Người đó có tất cả bao nhiêu con vịt?
+\shortans{46000}
+\loigiai{
+$11500 \times 4 = 46000$ con.
+}
+\end{ex}
+
+\begin{ex}
+Có 72 000 viên gạch lát nền chia đều vào 8 khu nhà. Mỗi khu nhà nhận được bao nhiêu viên gạch?
+\shortans{9000}
+\loigiai{
+$72000 : 8 = 9000$ viên.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15000 \times 4 - 20000 = \dots$
+\shortans{40000}
+\loigiai{
+$60000 - 20000 = 40000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $80000 : 8 \times 5 = \dots$
+\shortans{50000}
+\loigiai{
+$10000 \times 5 = 50000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $11111 \times 5 = \dots$
+\shortans{55555}
+\loigiai{
+$11111 \times 5 = 55555$.
+}
+\end{ex}

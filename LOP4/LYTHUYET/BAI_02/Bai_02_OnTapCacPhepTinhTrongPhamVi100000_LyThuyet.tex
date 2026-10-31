@@ -1,0 +1,144 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 02. Ôn tập các phép tính trong phạm vi 100 000 --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 02: ÔN TẬP CÁC PHÉP TÍNH TRONG PHẠM VI 100 000}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Quy tắc đặt tính, tính nhẩm và mối quan hệ giữa các thành phần trong 4 phép tính}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPlus\ Phép Cộng \& Phép Trừ},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặt tính thẳng cột:} Các chữ số cùng một hàng phải thẳng cột với nhau.\\
+    $\bullet$ \textbf{Thứ tự thực hiện:} Tính từ \textbf{phải sang trái}.\\
+    $\bullet$ \textbf{Phép cộng có nhớ:} Nhớ sang hàng liền kề bên trái.\\
+    $\bullet$ \textbf{Phép trừ có nhớ:} Mượn 1 ở hàng bên trái thì phải trả 1 vào số trừ ở hàng liền trước.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTimes\ Phép Nhân \& Phép Chia},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Phép nhân:} Nhân lần lượt thừa số thứ hai với từng chữ số của thừa số thứ nhất từ phải sang trái.\\
+    $\bullet$ \textbf{Phép chia:} Chia lần lượt từ \textbf{trái sang phải} (Chia $\rightarrow$ Nhân $\rightarrow$ Trừ).\\
+    $\bullet$ \textbf{Quy tắc số dư:} Số dư \textbf{luôn luôn bé hơn số chia} ($r < d$).\\
+    $\bullet$ Công thức: $\text{SBC} = \text{SC} \times \text{Thương} + \text{Số dư}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Tìm thành phần chưa biết của phép tính},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    b4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0) {\faCogs\ TÌM THÀNH PHẦN CHƯA BIẾT};
+
+    \node[b1] (n1) at (-4.8, 0.75) {\textbf{TÌM SỐ HẠNG}\\[1pt]$x = \text{Tổng} - \text{Số hạng đã biết}$};
+    \node[b2] (n2) at (4.8, 0.75) {\textbf{TÌM THỪA SỐ}\\[1pt]$x = \text{Tích} : \text{Thừa số đã biết}$};
+    \node[b3] (n3) at (-4.8, -0.75) {\textbf{SỐ BỊ TRỪ / SỐ TRỪ}\\[1pt]$\text{SBT} = \text{Hiệu} + \text{ST};\; \text{ST} = \text{SBT} - \text{Hiệu}$};
+    \node[b4] (n4) at (4.8, -0.75) {\textbf{SỐ BỊ CHIA / SỐ CHIA}\\[1pt]$\text{SBC} = \text{Thương} \times \text{SC};\; \text{SC} = \text{SBC} : \text{Thương}$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.north) |- (n1.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.north) |- (n2.west);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) |- (n3.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) |- (n4.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faFlash\ Kỹ thuật tính nhẩm siêu tốc},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cộng trừ số tròn nghìn/chục nghìn:}\\
+    Lấy phần đầu cộng trừ với nhau rồi thêm đủ số 0 vào sau.\\
+    \textit{Ví dụ:} $40\,000 + 30\,000 = 70\,000$ (4 chục nghìn + 3 chục nghìn).\\
+    $\bullet$ \textbf{Nhân chia số tròn chục/trăm/nghìn:}\\
+    \textit{Ví dụ:} $60\,000 : 3 = 20\,000$; $15\,000 \times 2 = 30\,000$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy quên chữ số 0 ở thương:}\\
+    Khi hạ một chữ số xuống mà nhỏ hơn số chia thì \textbf{bắt buộc phải viết 0 vào thương} trước khi hạ tiếp!\\
+    $\bullet$ \textbf{Bẫy quên số nhớ:}\\
+    Phép nhân có nhớ phải cộng số nhớ vào lượt nhân tiếp theo, tuyệt đối không được quên.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

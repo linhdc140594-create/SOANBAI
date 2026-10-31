@@ -1,0 +1,199 @@
+\begin{ex}
+Số gồm 8 chục và 5 đơn vị là số nào?
+\shortans{85}
+\loigiai{
+Số đó là 85.
+}
+\end{ex}
+
+\begin{ex}
+Số 94 gồm mấy chục và 4 đơn vị?
+\shortans{9}
+\loigiai{
+Số 94 gồm 9 chục.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 70 là số nào?
+\shortans{69}
+\loigiai{
+Số liền trước 70 là 69.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 89 là số nào?
+\shortans{90}
+\loigiai{
+Số liền sau 89 là 90.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có hai chữ số là số nào?
+\shortans{99}
+\loigiai{
+Số lớn nhất có 2 chữ số là 99.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có hai chữ số là số nào?
+\shortans{10}
+\loigiai{
+Số bé nhất có 2 chữ số là 10.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40 + 50$.
+\shortans{90}
+\loigiai{
+Ta có $40 + 50 = 90$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90 - 30$.
+\shortans{60}
+\loigiai{
+Ta có $90 - 30 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $32 + 24$.
+\shortans{56}
+\loigiai{
+Ta có $32 + 24 = 56$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $68 - 35$.
+\shortans{33}
+\loigiai{
+Ta có $68 - 35 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 + 4$.
+\shortans{49}
+\loigiai{
+Ta có $45 + 4 = 49$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $78 - 6$.
+\shortans{72}
+\loigiai{
+Ta có $78 - 6 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $25 + 14 - 20$.
+\shortans{19}
+\loigiai{
+Ta có $25 + 14 = 39$, rồi $39 - 20 = 19$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $87 - 45 + 12$.
+\shortans{54}
+\loigiai{
+Ta có $87 - 45 = 42$, rồi $42 + 12 = 54$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $43 + \dots = 67$.
+\shortans{24}
+\loigiai{
+Số cần điền là: $67 - 43 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $89 - \dots = 45$.
+\shortans{44}
+\loigiai{
+Số cần điền là: $89 - 45 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 1A có 34 học sinh, lớp 1B có 35 học sinh. Cả hai lớp có bao nhiêu học sinh?
+\shortans{69}
+\loigiai{
+Cả hai lớp có: $34 + 35 = 69$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Đoàn tàu chở 86 khách, đến ga có 32 khách xuống. Đoàn tàu còn lại bao nhiêu khách?
+\shortans{54}
+\loigiai{
+Đoàn tàu còn lại: $86 - 32 = 54$ khách.
+}
+\end{ex}
+
+\begin{ex}
+Vườn cây có 75 cây ăn quả, trong đó có 30 cây cam, còn lại là cây xoài. Hỏi vườn có bao nhiêu cây xoài?
+\shortans{45}
+\loigiai{
+Số cây xoài: $75 - 30 = 45$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 42 con gà và 27 con vịt. Hỏi bác nuôi tất cả bao nhiêu con gà và vịt?
+\shortans{69}
+\loigiai{
+Tổng số con: $42 + 27 = 69$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $45, 82, 39, 76$, số lớn nhất là số nào?
+\shortans{82}
+\loigiai{
+Số lớn nhất là 82.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $54, 28, 63, 19$, số bé nhất là số nào?
+\shortans{19}
+\loigiai{
+Số bé nhất là 19.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn chục có hai chữ số?
+\shortans{9}
+\loigiai{
+Có 9 số tròn chục: 10, 20, 30, ..., 90.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lớn nhất có hai chữ số và số tròn chục lớn nhất có hai chữ số là bao nhiêu?
+\shortans{9}
+\loigiai{
+Số lớn nhất có 2 chữ số là 99, tròn chục lớn nhất là 90. Hiệu: $99 - 90 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20 + 30 + 40 - 10$.
+\shortans{80}
+\loigiai{
+Ta có $20 + 30 + 40 = 90$, rồi $90 - 10 = 80$.
+}
+\end{ex}

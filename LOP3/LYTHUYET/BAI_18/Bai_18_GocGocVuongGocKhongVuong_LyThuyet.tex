@@ -1,0 +1,178 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{
+  top=12mm,
+  bottom=12mm,
+  left=14mm,
+  right=14mm,
+  footskip=6mm,
+  headheight=14pt
+}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,shapes.geometric}
+\usepackage[most]{tcolorbox}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{teal!80!black}\faBook\ \textbf{SỔ TAY KIẾN THỨC TOÁN 3}}
+\fancyhead[R]{\footnotesize\color{teal!80!black}\textbf{Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}}
+\fancyfoot[C]{\footnotesize\color{gray}-- Sổ tay kiến thức: Bài 18. Góc, góc vuông, góc không vuông --}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{teal!90!black}\faBookmark\ BÀI 18: GÓC, GÓC VUÔNG, GÓC KHÔNG VUÔNG}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Nhận biết đỉnh và cạnh của góc, kĩ thuật kiểm tra góc vuông bằng ê-ke trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckSquare\ 1. Khái niệm Góc \& Phân loại}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cấu tạo của một góc:} Gồm $1$ \textbf{đỉnh} chung và $2$ \textbf{cạnh} xuất phát từ đỉnh đó.
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Ví dụ: Góc đỉnh $O$, cạnh $OA, OB$.
+  \end{itemize}
+  \item \textbf{Hai loại góc cơ bản lớp 3:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item \textbf{Góc vuông:} Trùng khít với góc vuông của thước ê-ke.
+    \item \textbf{Góc không vuông:} Góc bé hơn góc vuông (góc nhọn) hoặc góc lớn hơn góc vuông (góc tù).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCogs\ 2. Dùng Ê-ke kiểm tra góc vuông}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Thước \textbf{ê-ke} có $1$ góc vuông và $2$ góc không vuông.
+  \item \textbf{Cách kiểm tra góc có vuông không:}
+  \begin{enumerate}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Đặt đỉnh góc vuông của ê-ke trùng với \textbf{đỉnh} của góc cần kiểm tra.
+    \item Đặt $1$ cạnh góc vuông của ê-ke trùng với \textbf{$1$ cạnh} của góc.
+    \item Nếu cạnh còn lại của góc trùng với cạnh kia của ê-ke $\implies$ \textbf{Góc vuông}.
+  \end{enumerate}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: ĐỐI CHIẾU GÓC VUÔNG VÀ GÓC KHÔNG VUÔNG}
+]
+\centering
+\begin{tikzpicture}[scale=0.9]
+  % Goc vuong
+  \coordinate (O1) at (0, 0);
+  \draw[thick, blue!80!black, ->] (O1) -- (2, 0) node[right, font=\scriptsize] {$A$};
+  \draw[thick, blue!80!black, ->] (O1) -- (0, 1.8) node[above, font=\scriptsize] {$B$};
+  \draw (0, 0.3) -- (0.3, 0.3) -- (0.3, 0);
+  \node[below, font=\scriptsize\bfseries] at (1, -0.2) {Góc vuông đỉnh $O$};
+
+  % Goc khong vuong (be hon)
+  \coordinate (O2) at (4.5, 0);
+  \draw[thick, teal!80!black, ->] (O2) -- (6.5, 0);
+  \draw[thick, teal!80!black, ->] (O2) -- (6.0, 1.5);
+  \draw (4.9, 0) arc (0:50:0.4);
+  \node[below, font=\scriptsize\bfseries] at (5.5, -0.2) {Góc bé hơn góc vuông};
+
+  % Goc khong vuong (lon hon)
+  \coordinate (O3) at (9.0, 0);
+  \draw[thick, purple!80!black, ->] (O3) -- (11.0, 0);
+  \draw[thick, purple!80!black, ->] (O3) -- (7.8, 1.3);
+  \draw (9.4, 0) arc (0:140:0.4);
+  \node[below, font=\scriptsize\bfseries] at (9.5, -0.2) {Góc lớn hơn góc vuông};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Đọc tên góc:}\\
+Góc có đỉnh là $M$, hai cạnh là $MN$ và $MP$ được gọi là: \textbf{Góc đỉnh $M$, cạnh $MN, MP$}.\\
+\textbf{2. Đếm góc vuông trong hình chữ nhật:}\\
+Hình chữ nhật $ABCD$ có đúng $\mathbf{4}$ góc vuông tại $4$ đỉnh $A, B, C, D$.\\
+\textbf{3. Kim đồng hồ tạo góc vuông:}\\
+Lúc $3$ giờ đúng hoặc $9$ giờ đúng, kim giờ và kim phút tạo thành một \textbf{góc vuông}.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy nhìn mắt thường ước lượng:}\\
+  Nhiều góc nhìn gần giống góc vuông (như $88^\circ$ hoặc $92^\circ$), học sinh nhìn mắt thường hay đoán sai. Bắt buộc phải \textbf{dùng ê-ke để kiểm tra}!
+  \item \textbf{Bẫy đọc đỉnh của góc:}\\
+  Đỉnh phải là điểm gốc chung, không được đọc nhầm đỉnh sang điểm trên cạnh.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

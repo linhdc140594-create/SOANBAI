@@ -1,0 +1,1102 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+% =============================================================================
+% ========================= MÃ ĐỀ: 501 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 501} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $4{,}25 \times 100$ là:}{$425$}{$42{,}5$}{$4\,250$}{$0{,}425$}
+\cauTN{2}{Kết quả tính nhẩm $35{,}8 \times 0{,}1$ là:}{$358$}{$3{,}58$}{$0{,}358$}{$35{,}8$}
+\cauTN{3}{Kết quả tính nhẩm $128{,}4 : 100$ là:}{$12{,}84$}{$0{,}1284$}{$1{,}284$}{$128{,}4$}
+\cauTN{4}{Kết quả tính nhẩm $4{,}6 : 0{,}1$ là:}{$46$}{$0{,}46$}{$4{,}6$}{$460$}
+\cauTN{5}{Phép tính $a \times 0{,}01$ có kết quả bằng:}{$a \times 100$}{$a : 100$}{$a : 10$}{$a \times 10$}
+\cauTN{6}{Giá trị của biểu thức $15{,}4 + 4{,}6 \times 3$ là:}{$28{,}2$}{$29$}{$29{,}2$}{$30{,}2$}
+\cauTN{7}{Giá trị của biểu thức $(24{,}8 - 6{,}4) : 4$ là:}{$4{,}6$}{$4{,}4$}{$4{,}8$}{$5{,}2$}
+\cauTN{8}{Tính thuận tiện: $12{,}5 \times 101 - 12{,}5$ có kết quả là:}{$125$}{$1\,250$}{$12\,500$}{$12{,}5$}
+\cauTN{9}{Tính nhanh: $4{,}8 \times 3{,}6 + 4{,}8 \times 6{,}4$ được kết quả là:}{$48$}{$4{,}8$}{$480$}{$54$}
+\cauTN{10}{Tìm $x$, biết: $x \times 4 + 3{,}6 = 19{,}6$. Giá trị của $x$ là:}{$3$}{$4$}{$5$}{$4{,}5$}
+\cauTNhaiDong{11}{Một ô tô trong $3\,\text{giờ}$ đi được $135{,}6\,\text{km}$. Trong $5\,\text{giờ}$ ô tô đó đi được quãng đường là:}{$226\,\text{km}$}{$220\,\text{km}$}{$230\,\text{km}$}{$216\,\text{km}$}
+\cauTNhaiDong{12}{Một người thợ làm việc trong $4\,\text{ngày}$ được trả $1\,200\,000$ đồng. Nếu làm trong $6{,}5\,\text{ngày}$ thì được trả số tiền là:}{$1\,850\,000$ đồng}{$1\,950\,000$ đồng}{$2\,050\,000$ đồng}{$1\,900\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$34{,}5 \times 2{,}4$} & 
+\oDatTinh[4]{b)}{$86{,}4 : 3{,}6$} & 
+\oDatTinh[4]{c)}{$45{,}8 + 12{,}4 \times 3$} & 
+\oDatTinh[4]{d)}{$(75{,}6 - 28{,}4) : 4$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 501} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}5 - 4{,}2 = 9{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $48 : x - 3{,}6 = 2{,}4$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 2{,}4 + 3{,}5 = 8{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 2{,}5) \times 4 = 26$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $3{,}8 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $45{,}6 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $7{,}25 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $180 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một cửa hàng nhập về 12{,}5 tạ gạo. Ngày thứ nhất cửa hàng bán được 40\% số gạo đó, ngày thứ hai bán được 65\% số gạo còn lại. Mỗi ki-lô-gam gạo cửa hàng bán với giá 18 000 đồng. Hỏi sau hai ngày, cửa hàng thu được tất cả bao nhiêu tiền bán gạo?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 12{,}5 \times 101 - 12{,}5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 502 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 502} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $6{,}48 \times 100$ là:}{$648$}{$64{,}8$}{$6\,480$}{$0{,}648$}
+\cauTN{2}{Kết quả tính nhẩm $48{,}5 \times 0{,}1$ là:}{$485$}{$4{,}85$}{$0{,}485$}{$48{,}5$}
+\cauTN{3}{Kết quả tính nhẩm $256{,}8 : 100$ là:}{$25{,}68$}{$0{,}2568$}{$2{,}568$}{$256{,}8$}
+\cauTN{4}{Kết quả tính nhẩm $7{,}2 : 0{,}1$ là:}{$72$}{$0{,}72$}{$7{,}2$}{$720$}
+\cauTN{5}{Phép tính $a : 0{,}1$ có kết quả bằng:}{$a : 10$}{$a \times 10$}{$a \times 100$}{$a : 100$}
+\cauTN{6}{Giá trị của biểu thức $18{,}6 + 5{,}4 \times 4$ là:}{$39{,}8$}{$40$}{$40{,}2$}{$41{,}2$}
+\cauTN{7}{Giá trị của biểu thức $(32{,}5 - 8{,}5) : 5$ là:}{$4{,}8$}{$4{,}6$}{$5{,}0$}{$5{,}2$}
+\cauTN{8}{Tính thuận tiện: $15{,}4 \times 101 - 15{,}4$ có kết quả là:}{$154$}{$1\,540$}{$15\,400$}{$15{,}4$}
+\cauTN{9}{Tính nhanh: $5{,}6 \times 2{,}8 + 5{,}6 \times 7{,}2$ được kết quả là:}{$56$}{$5{,}6$}{$560$}{$62$}
+\cauTN{10}{Tìm $x$, biết: $x \times 5 + 4{,}5 = 29{,}5$. Giá trị của $x$ là:}{$4$}{$5$}{$6$}{$5{,}5$}
+\cauTNhaiDong{11}{Một xe máy trong $2\,\text{giờ}$ đi được $74{,}4\,\text{km}$. Trong $4{,}5\,\text{giờ}$ xe máy đó đi được quãng đường là:}{$167{,}4\,\text{km}$}{$165\,\text{km}$}{$170\,\text{km}$}{$160{,}5\,\text{km}$}
+\cauTNhaiDong{12}{Một máy may dùng $3\,\text{m}$ vải may được $2\,\text{bộ}$ quần áo. Để may $7\,\text{bộ}$ quần áo như thế cần số mét vải là:}{$10\,\text{m}$}{$10{,}5\,\text{m}$}{$11\,\text{m}$}{$11{,}5\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$28{,}4 \times 3{,}5$} & 
+\oDatTinh[4]{b)}{$94{,}5 : 4{,}5$} & 
+\oDatTinh[4]{c)}{$52{,}6 + 14{,}5 \times 2$} & 
+\oDatTinh[4]{d)}{$(84{,}8 - 36{,}8) : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 502} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 4{,}5 - 5{,}6 = 12{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $60 : x - 4{,}2 = 3{,}8$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}2 + 4{,}6 = 9{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 3{,}5) \times 5 = 35$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $5{,}4 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $68{,}5 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $9{,}45 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $260 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bể nước hình hộp chữ nhật có chiều dài 2{,}5 m, chiều rộng 1{,}6 m và chiều cao 1{,}2 m. Người ta dùng một máy bơm có công suất 0{,}8 $\text{m}^3$ nước mỗi giờ để bơm nước vào bể. Hỏi sau 2 giờ, máy bơm được bao nhiêu mét khối nước và lượng nước trong bể chiếm bao nhiêu phần trăm thể tích bể?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 8{,}4 \times 9{,}9 + 8{,}4 \times 0{,}1$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 503 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 503} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $8{,}75 \times 100$ là:}{$875$}{$87{,}5$}{$8\,750$}{$0{,}875$}
+\cauTN{2}{Kết quả tính nhẩm $56{,}4 \times 0{,}1$ là:}{$564$}{$5{,}64$}{$0{,}564$}{$56{,}4$}
+\cauTN{3}{Kết quả tính nhẩm $345{,}6 : 100$ là:}{$34{,}56$}{$0{,}3456$}{$3{,}456$}{$345{,}6$}
+\cauTN{4}{Kết quả tính nhẩm $8{,}5 : 0{,}1$ là:}{$85$}{$0{,}85$}{$8{,}5$}{$850$}
+\cauTN{5}{Phép tính $a \times 0{,}1$ có kết quả bằng:}{$a \times 10$}{$a : 10$}{$a : 100$}{$a \times 100$}
+\cauTN{6}{Giá trị của biểu thức $24{,}5 + 6{,}5 \times 3$ là:}{$43$}{$43{,}5$}{$44$}{$44{,}5$}
+\cauTN{7}{Giá trị của biểu thức $(42{,}6 - 10{,}6) : 4$ là:}{$8$}{$7{,}8$}{$8{,}2$}{$8{,}5$}
+\cauTN{8}{Tính thuận tiện: $18{,}6 \times 101 - 18{,}6$ có kết quả là:}{$186$}{$1\,860$}{$18\,600$}{$18{,}6$}
+\cauTN{9}{Tính nhanh: $6{,}5 \times 3{,}4 + 6{,}5 \times 6{,}6$ được kết quả là:}{$65$}{$6{,}5$}{$650$}{$70$}
+\cauTN{10}{Tìm $x$, biết: $x \times 6 + 5{,}4 = 41{,}4$. Giá trị của $x$ là:}{$5$}{$6$}{$7$}{$6{,}5$}
+\cauTNhaiDong{11}{Một ô tô chở $4\,\text{chuyến}$ được $18{,}4\,\text{tấn}$ hàng. Với $7{,}5\,\text{chuyến}$ (tính theo tỉ lệ) chở được số tấn hàng là:}{$34{,}5\,\text{tấn}$}{$33\,\text{tấn}$}{$35\,\text{tấn}$}{$36\,\text{tấn}$}
+\cauTNhaiDong{12}{Mua $5\,\text{hộp}$ bánh hết $175\,000$ đồng. Mua $8{,}5\,\text{hộp}$ bánh như thế hết số tiền là:}{$290\,000$ đồng}{$297\,500$ đồng}{$305\,000$ đồng}{$285\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$36{,}5 \times 2{,}8$} & 
+\oDatTinh[4]{b)}{$98{,}4 : 4{,}1$} & 
+\oDatTinh[4]{c)}{$63{,}4 + 16{,}2 \times 3$} & 
+\oDatTinh[4]{d)}{$(92{,}4 - 36{,}4) : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 503} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 5{,}5 - 6{,}8 = 15{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $72 : x - 3{,}5 = 4{,}5$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 4{,}5 + 2{,}8 = 7{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 4{,}5) \times 6 = 45$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $7{,}6 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $82{,}4 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $12{,}6 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $350 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một xưởng may nhận may 150 bộ quần áo. Ngày đầu xưởng may được 30\% số bộ quần áo. Ngày thứ hai may được 45\% số bộ quần áo còn lại. Mỗi bộ quần áo xưởng nhận được 120 000 đồng tiền công. Hỏi sau hai ngày, xưởng thu được bao nhiêu tiền công?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 0{,}25 \times 4 \times 6{,}7$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 504 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 504} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $9{,}85 \times 100$ là:}{$985$}{$98{,}5$}{$9\,850$}{$0{,}985$}
+\cauTN{2}{Kết quả tính nhẩm $64{,}2 \times 0{,}1$ là:}{$642$}{$6{,}42$}{$0{,}642$}{$64{,}2$}
+\cauTN{3}{Kết quả tính nhẩm $482{,}5 : 100$ là:}{$48{,}25$}{$0{,}4825$}{$4{,}825$}{$482{,}5$}
+\cauTN{4}{Kết quả tính nhẩm $9{,}4 : 0{,}1$ là:}{$94$}{$0{,}94$}{$9{,}4$}{$940$}
+\cauTN{5}{Phép tính $a : 0{,}01$ có kết quả bằng:}{$a : 100$}{$a \times 100$}{$a \times 10$}{$a : 10$}
+\cauTN{6}{Giá trị của biểu thức $31{,}2 + 7{,}4 \times 4$ là:}{$60$}{$60{,}4$}{$60{,}8$}{$61{,}8$}
+\cauTN{7}{Giá trị của biểu thức $(54{,}8 - 14{,}8) : 5$ là:}{$8$}{$7{,}8$}{$8{,}2$}{$8{,}5$}
+\cauTN{8}{Tính thuận tiện: $24{,}5 \times 101 - 24{,}5$ có kết quả là:}{$245$}{$2\,450$}{$24\,500$}{$24{,}5$}
+\cauTN{9}{Tính nhanh: $7{,}4 \times 4{,}5 + 7{,}4 \times 5{,}5$ được kết quả là:}{$74$}{$7{,}4$}{$740$}{$80$}
+\cauTN{10}{Tìm $x$, biết: $x \times 7 + 6{,}3 = 48{,}3$. Giá trị của $x$ là:}{$5$}{$6$}{$7$}{$6{,}5$}
+\cauTNhaiDong{11}{Một ô tô chạy $5\,\text{giờ}$ hết $225\,\text{lít}$ xăng (xe tải lớn). Trong $8{,}5\,\text{giờ}$ chạy liên tục cần số lít xăng là:}{$382{,}5\,\text{lít}$}{$375\,\text{lít}$}{$390\,\text{lít}$}{$360\,\text{lít}$}
+\cauTNhaiDong{12}{Mua $6\,\text{bộ}$ đồ dùng học tập hết $210\,000$ đồng. Mua $9{,}5\,\text{bộ}$ như thế hết số tiền là:}{$320\,000$ đồng}{$332\,500$ đồng}{$345\,000$ đồng}{$325\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$42{,}5 \times 3{,}2$} & 
+\oDatTinh[4]{b)}{$115{,}2 : 3{,}6$} & 
+\oDatTinh[4]{c)}{$58{,}4 + 18{,}5 \times 2$} & 
+\oDatTinh[4]{d)}{$(105{,}6 - 45{,}6) : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 504} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 6{,}5 - 8{,}4 = 17{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $84 : x - 4{,}5 = 3{,}5$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 5{,}2 + 3{,}6 = 8{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 5{,}5) \times 4 = 36$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $8{,}5 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $96{,}2 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $15{,}8 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $420 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một cửa hàng bán 3{,}6 tấn gạo trong ba ngày. Ngày thứ nhất bán được 25\% số gạo. Ngày thứ hai bán được 60\% số gạo còn lại. Mỗi tấn gạo cửa hàng bán được lãi 1 200 000 đồng. Hỏi ngày thứ ba cửa hàng bán được bao nhiêu tấn gạo và tiền lãi bán gạo ngày thứ ba là bao nhiêu?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 15{,}4 \times 101 - 15{,}4$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 505 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 505} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $12{,}65 \times 100$ là:}{$1\,265$}{$126{,}5$}{$12\,650$}{$1{,}265$}
+\cauTN{2}{Kết quả tính nhẩm $78{,}6 \times 0{,}1$ là:}{$786$}{$7{,}86$}{$0{,}786$}{$78{,}6$}
+\cauTN{3}{Kết quả tính nhẩm $564{,}8 : 100$ là:}{$56{,}48$}{$0{,}5648$}{$5{,}648$}{$564{,}8$}
+\cauTN{4}{Kết quả tính nhẩm $12{,}5 : 0{,}1$ là:}{$125$}{$1{,}25$}{$12{,}5$}{$1\,250$}
+\cauTN{5}{Phép tính $a \times 0{,}1$ tương đương với phép tính nào sau đây:}{$a \times 10$}{$a : 10$}{$a + 10$}{$a - 10$}
+\cauTN{6}{Giá trị của biểu thức $35{,}6 + 8{,}2 \times 3$ là:}{$59{,}8$}{$60$}{$60{,}2$}{$61{,}2$}
+\cauTN{7}{Giá trị của biểu thức $(64{,}5 - 16{,}5) : 6$ là:}{$8$}{$7{,}8$}{$8{,}2$}{$8{,}5$}
+\cauTN{8}{Tính thuận tiện: $32{,}8 \times 101 - 32{,}8$ có kết quả là:}{$328$}{$3\,280$}{$32\,800$}{$32{,}8$}
+\cauTN{9}{Tính nhanh: $8{,}5 \times 3{,}8 + 8{,}5 \times 6{,}2$ được kết quả là:}{$85$}{$8{,}5$}{$850$}{$92$}
+\cauTN{10}{Tìm $x$, biết: $x \times 8 + 7{,}2 = 55{,}2$. Giá trị của $x$ là:}{$5$}{$6$}{$7$}{$6{,}5$}
+\cauTNhaiDong{11}{Một tổ may $6\,\text{ngày}$ may được $150\,\text{bộ}$ quần áo. Với mức làm đó, trong $9{,}5\,\text{ngày}$ tổ may được số bộ quần áo là:}{$237{,}5\,\text{bộ}$}{$230\,\text{bộ}$}{$240\,\text{bộ}$}{$225\,\text{bộ}$}
+\cauTNhaiDong{12}{Mua $8\,\text{kg}$ gạo nếp hết $200\,000$ đồng. Mua $11{,}5\,\text{kg}$ gạo nếp cùng loại hết số tiền là:}{$280\,000$ đồng}{$287\,500$ đồng}{$295\,000$ đồng}{$275\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$45{,}6 \times 2{,}5$} & 
+\oDatTinh[4]{b)}{$126 : 4{,}2$} & 
+\oDatTinh[4]{c)}{$64{,}5 + 15{,}5 \times 3$} & 
+\oDatTinh[4]{d)}{$(118{,}4 - 46{,}4) : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 505} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 7{,}5 - 9{,}6 = 20{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $96 : x - 5{,}2 = 4{,}8$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 6{,}4 + 4{,}5 = 9{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 6{,}5) \times 5 = 45$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $9{,}2 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $112{,}4 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $18{,}5 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $540 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh vườn hình chữ nhật có chiều dài 18{,}5 m và chiều rộng 12 m. Người ta trồng rau trên 70\% diện tích mảnh vườn, phần còn lại làm lối đi. Cứ mỗi mét vuông trồng rau thu hoạch được 2{,}5 kg rau, giá bán 1 kg rau là 12 000 đồng. Hỏi số rau thu hoạch được bán hết thì thu được bao nhiêu tiền?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 7{,}6 \times 9{,}9 + 7{,}6 \times 0{,}1$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 506 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 506} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $15{,}45 \times 100$ là:}{$1\,545$}{$154{,}5$}{$15\,450$}{$1{,}545$}
+\cauTN{2}{Kết quả tính nhẩm $89{,}4 \times 0{,}1$ là:}{$894$}{$8{,}94$}{$0{,}894$}{$89{,}4$}
+\cauTN{3}{Kết quả tính nhẩm $672{,}5 : 100$ là:}{$67{,}25$}{$0{,}6725$}{$6{,}725$}{$672{,}5$}
+\cauTN{4}{Kết quả tính nhẩm $16{,}8 : 0{,}1$ là:}{$168$}{$1{,}68$}{$16{,}8$}{$1\,680$}
+\cauTN{5}{Khi chia một số cho $0{,}1$ thì số đó:}{Giảm đi 10 lần}{Gấp lên 10 lần}{Không thay đổi}{Gấp lên 100 lần}
+\cauTN{6}{Giá trị của biểu thức $42{,}8 + 9{,}4 \times 3$ là:}{$70$}{$70{,}5$}{$71$}{$71{,}5$}
+\cauTN{7}{Giá trị của biểu thức $(75{,}6 - 19{,}6) : 7$ là:}{$8$}{$7{,}8$}{$8{,}2$}{$8{,}5$}
+\cauTN{8}{Tính thuận tiện: $45{,}6 \times 101 - 45{,}6$ có kết quả là:}{$456$}{$4\,560$}{$45\,600$}{$45{,}6$}
+\cauTN{9}{Tính nhanh: $9{,}2 \times 2{,}6 + 9{,}2 \times 7{,}4$ được kết quả là:}{$92$}{$9{,}2$}{$920$}{$98$}
+\cauTN{10}{Tìm $x$, biết: $x \times 9 + 8{,}5 = 71{,}5$. Giá trị của $x$ là:}{$6$}{$7$}{$8$}{$7{,}5$}
+\cauTNhaiDong{11}{Một máy bay bay $4\,\text{giờ}$ được $2\,800\,\text{km}$. Trong $6{,}5\,\text{giờ}$ bay liên tục máy bay đó bay được là:}{$4\,550\,\text{km}$}{$4\,400\,\text{km}$}{$4\,600\,\text{km}$}{$4\,500\,\text{km}$}
+\cauTNhaiDong{12}{Mua $7\,\text{kg}$ thanh long hết $175\,000$ đồng. Mua $10{,}5\,\text{kg}$ thanh long cùng loại hết số tiền là:}{$250\,000$ đồng}{$262\,500$ đồng}{$275\,000$ đồng}{$260\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$48{,}5 \times 2{,}4$} & 
+\oDatTinh[4]{b)}{$144 : 4{,}8$} & 
+\oDatTinh[4]{c)}{$72{,}8 + 16{,}5 \times 2$} & 
+\oDatTinh[4]{d)}{$(132{,}6 - 52{,}6) : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 506} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 8{,}5 - 11{,}2 = 22{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $120 : x - 6{,}4 = 5{,}6$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 7{,}5 + 5{,}4 = 10{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 7{,}5) \times 4 = 40$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $11{,}4 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $135{,}6 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $24{,}5 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $680 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một cửa hàng nhập 2{,}4 tấn đường. Ngày thứ nhất bán được 35\% số đường, ngày thứ hai bán được 50\% số đường còn lại. Mỗi ki-lô-gam đường bán ra cửa hàng lãi 2 500 đồng. Hỏi sau hai ngày, cửa hàng lãi được bao nhiêu tiền từ số đường đã bán?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 0{,}25 \times 4 \times 12{,}8$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 507 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 12)} & \textbf{MÃ ĐỀ: 507} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Kết quả tính nhẩm $18{,}35 \times 100$ là:}{$1\,835$}{$183{,}5$}{$18\,350$}{$1{,}835$}
+\cauTN{2}{Kết quả tính nhẩm $95{,}6 \times 0{,}1$ là:}{$956$}{$9{,}56$}{$0{,}956$}{$95{,}6$}
+\cauTN{3}{Kết quả tính nhẩm $784{,}2 : 100$ là:}{$78{,}42$}{$0{,}7842$}{$7{,}842$}{$784{,}2$}
+\cauTN{4}{Kết quả tính nhẩm $21{,}5 : 0{,}1$ là:}{$215$}{$2{,}15$}{$21{,}5$}{$2\,150$}
+\cauTN{5}{Khi nhân một số với $0{,}1$ thì số đó:}{Gấp lên 10 lần}{Giảm đi 10 lần}{Không thay đổi}{Giảm đi 100 lần}
+\cauTN{6}{Giá trị của biểu thức $51{,}4 + 11{,}2 \times 3$ là:}{$84$}{$84{,}5$}{$85$}{$85{,}5$}
+\cauTN{7}{Giá trị của biểu thức $(86{,}4 - 22{,}4) : 8$ là:}{$8$}{$7{,}8$}{$8{,}2$}{$8{,}5$}
+\cauTN{8}{Tính thuận tiện: $56{,}4 \times 101 - 56{,}4$ có kết quả là:}{$564$}{$5\,640$}{$56\,400$}{$56{,}4$}
+\cauTN{9}{Tính nhanh: $11{,}5 \times 3{,}7 + 11{,}5 \times 6{,}3$ được kết quả là:}{$115$}{$11{,}5$}{$1\,150$}{$120$}
+\cauTN{10}{Tìm $x$, biết: $x \times 8 + 9{,}6 = 65{,}6$. Giá trị của $x$ là:}{$6$}{$7$}{$8$}{$7{,}5$}
+\cauTNhaiDong{11}{Một xe ô tô tải chở $5\,\text{chuyến}$ được $24\,\text{tấn}$ cát. Trong $8{,}5\,\text{chuyến}$ chở được số tấn cát là:}{$40{,}8\,\text{tấn}$}{$39\,\text{tấn}$}{$41\,\text{tấn}$}{$40\,\text{tấn}$}
+\cauTNhaiDong{12}{Mua $9\,\text{m}$ rèm cửa hết $360\,000$ đồng. Mua $12{,}5\,\text{m}$ rèm cửa cùng loại hết số tiền là:}{$480\,000$ đồng}{$500\,000$ đồng}{$520\,000$ đồng}{$490\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$54{,}5 \times 2{,}8$} & 
+\oDatTinh[4]{b)}{$168 : 5{,}6$} & 
+\oDatTinh[4]{c)}{$81{,}5 + 14{,}5 \times 3$} & 
+\oDatTinh[4]{d)}{$(145{,}6 - 65{,}6) : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 12} & \textbf{MÃ ĐỀ: 507} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 9{,}5 - 12{,}5 = 25{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $144 : x - 7{,}5 = 4{,}5$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 8{,}5 + 6{,}2 = 11{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 8{,}5) \times 4 = 44$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $14{,}8 \times 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  b) $158{,}2 : 0{,}1 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  c) $32{,}5 \times 100 = \dotfill\,\dots$\par\vspace{1.4mm}
+  \noindent
+  d) $850 : 100 = \dotfill\,\dots$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một gia đình dùng hết 28{,}5 $\text{m}^3$ nước trong tháng. Giá 1 $\text{m}^3$ nước là 9 500 đồng. Ngoài ra, gia đình phải trả thêm 10\% phí bảo vệ môi trường trên tổng tiền nước. Hỏi tổng số tiền gia đình phải trả trong tháng là bao nhiêu?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 24{,}6 \times 101 - 24{,}6$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

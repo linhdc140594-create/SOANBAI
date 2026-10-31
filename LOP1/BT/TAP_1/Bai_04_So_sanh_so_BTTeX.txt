@@ -1,0 +1,199 @@
+\begin{ex}
+Trong hai số 5 và 8, số nào lớn hơn?
+\shortans{8}
+\loigiai{
+So sánh $5 < 8$, vậy số lớn hơn là 8.
+}
+\end{ex}
+
+\begin{ex}
+Trong hai số 9 và 6, số nào bé hơn?
+\shortans{6}
+\loigiai{
+So sánh $6 < 9$, vậy số bé hơn là 6.
+}
+\end{ex}
+
+\begin{ex}
+Trong hai số 10 và 7, số nào lớn hơn?
+\shortans{10}
+\loigiai{
+So sánh $10 > 7$, số lớn hơn là 10.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $3, 7, 2, 9$, số nào là số lớn nhất?
+\shortans{9}
+\loigiai{
+Số lớn nhất trong dãy là 9.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $5, 1, 8, 4$, số nào là số bé nhất?
+\shortans{1}
+\loigiai{
+Số bé nhất trong dãy là 1.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $0, 6, 2, 10, 4$, số nào là số lớn nhất?
+\shortans{10}
+\loigiai{
+Số lớn nhất trong các số đã cho là 10.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $9, 3, 5, 0, 7$, số nào là số bé nhất?
+\shortans{0}
+\loigiai{
+Số bé nhất trong các số đã cho là 0.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên lớn hơn 3 và bé hơn 8?
+\shortans{4}
+\loigiai{
+Các số thỏa mãn là: 4, 5, 6, 7. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên bé hơn 7?
+\shortans{7}
+\loigiai{
+Các số tự nhiên bé hơn 7 là: 0, 1, 2, 3, 4, 5, 6. Có 7 số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên từ 1 đến 10 lớn hơn 6?
+\shortans{4}
+\loigiai{
+Các số lớn hơn 6 là: 7, 8, 9, 10. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Điền số tự nhiên $x$ thích hợp biết: $4 < x < 6$. Giá trị của $x$ là bao nhiêu?
+\shortans{5}
+\loigiai{
+Số tự nhiên nằm giữa 4 và 6 là 5.
+}
+\end{ex}
+
+\begin{ex}
+Điền số tự nhiên $x$ thích hợp biết: $8 < x < 10$. Giá trị của $x$ là bao nhiêu?
+\shortans{9}
+\loigiai{
+Số tự nhiên nằm giữa 8 và 10 là 9.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có một chữ số là số nào?
+\shortans{9}
+\loigiai{
+Số lớn nhất có một chữ số là 9.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất trong các số tự nhiên là số nào?
+\shortans{0}
+\loigiai{
+Số tự nhiên bé nhất là 0.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp các số $4, 9, 2, 7$ theo thứ tự từ bé đến lớn, số đứng ở vị trí thứ hai là số nào?
+\shortans{4}
+\loigiai{
+Thứ tự từ bé đến lớn là: 2, 4, 7, 9. Số đứng thứ hai là 4.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp các số $8, 3, 10, 5$ theo thứ tự từ lớn đến bé, số đứng ở vị trí thứ nhất là số nào?
+\shortans{10}
+\loigiai{
+Thứ tự từ lớn đến bé là: 10, 8, 5, 3. Số thứ nhất là 10.
+}
+\end{ex}
+
+\begin{ex}
+Cho các số: $2, 6, 8, 5$. Có bao nhiêu số lớn hơn 5?
+\shortans{2}
+\loigiai{
+Các số lớn hơn 5 là 6 và 8. Có 2 số.
+}
+\end{ex}
+
+\begin{ex}
+Cho các số: $7, 1, 4, 9, 3$. Có bao nhiêu số bé hơn 5?
+\shortans{3}
+\loigiai{
+Các số bé hơn 5 là 1, 4, 3. Có 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên lớn nhất thỏa mãn: số đó nhỏ hơn 9.
+\shortans{8}
+\loigiai{
+Số tự nhiên lớn nhất nhỏ hơn 9 là 8.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên bé nhất thỏa mãn: số đó lớn hơn 6.
+\shortans{7}
+\loigiai{
+Số tự nhiên bé nhất lớn hơn 6 là 7.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có một chữ số lớn hơn 4?
+\shortans{5}
+\loigiai{
+Các số có một chữ số lớn hơn 4 là: 5, 6, 7, 8, 9. Có 5 số.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu giữa số lớn nhất có một chữ số và số bé nhất có một chữ số là bao nhiêu?
+\shortans{9}
+\loigiai{
+Số lớn nhất là 9, số bé nhất là 0. Hiệu: $9 - 0 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào vừa lớn hơn 6 vừa bé hơn 8?
+\shortans{7}
+\loigiai{
+Số tự nhiên ở giữa 6 và 8 là 7.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $1, 4, 7, 10$, có bao nhiêu số nhỏ hơn 8?
+\shortans{3}
+\loigiai{
+Các số nhỏ hơn 8 là: 1, 4, 7. Có 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $0, 3, 6, 9$, có bao nhiêu số lớn hơn 2?
+\shortans{3}
+\loigiai{
+Các số lớn hơn 2 là: 3, 6, 9. Có 3 số.
+}
+\end{ex}

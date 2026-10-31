@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $35 + 24$.
+\shortans{59}
+\loigiai{
+Ta có $35 + 24 = 59$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $68 - 45$.
+\shortans{23}
+\loigiai{
+Ta có $68 - 45 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $42 + 6$.
+\shortans{48}
+\loigiai{
+Ta có $42 + 6 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $79 - 7$.
+\shortans{72}
+\loigiai{
+Ta có $79 - 7 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $50 + 36$.
+\shortans{86}
+\loigiai{
+Ta có $50 + 36 = 86$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $94 - 40$.
+\shortans{54}
+\loigiai{
+Ta có $94 - 40 = 54$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $32 + 15 - 24$.
+\shortans{23}
+\loigiai{
+Ta có $32 + 15 = 47$, rồi $47 - 24 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $87 - 35 + 21$.
+\shortans{73}
+\loigiai{
+Ta có $87 - 35 = 52$, rồi $52 + 21 = 73$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $20 + 30 + 40$.
+\shortans{90}
+\loigiai{
+Ta có $20 + 30 = 50$, rồi $50 + 40 = 90$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $90 - 40 - 20$.
+\shortans{30}
+\loigiai{
+Ta có $90 - 40 = 50$, rồi $50 - 20 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $24 + \dots = 67$.
+\shortans{43}
+\loigiai{
+Số cần điền: $67 - 24 = 43$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $89 - \dots = 34$.
+\shortans{55}
+\loigiai{
+Số cần điền: $89 - 34 = 55$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 31 = 75$.
+\shortans{44}
+\loigiai{
+Số cần điền: $75 - 31 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 23 = 52$.
+\shortans{75}
+\loigiai{
+Số cần điền: $52 + 23 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 2A có 18 học sinh nam và 21 học sinh nữ. Hỏi lớp 2A có tất cả bao nhiêu học sinh?
+\shortans{39}
+\loigiai{
+Cả lớp có: $18 + 21 = 39$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng nhập về 78 gói bánh, đã bán được 46 gói. Cửa hàng còn lại bao nhiêu gói bánh?
+\shortans{32}
+\loigiai{
+Còn lại: $78 - 46 = 32$ gói bánh.
+}
+\end{ex}
+
+\begin{ex}
+Bác Ba thu hoạch được 54 bắp ngô nếp và 45 bắp ngô ngọt. Bác thu hoạch được tất cả bao nhiêu bắp ngô?
+\shortans{99}
+\loigiai{
+Tổng số bắp: $54 + 45 = 99$ bắp ngô.
+}
+\end{ex}
+
+\begin{ex}
+Đàn gà có 68 con, bác nông dân bán đi 25 con. Đàn gà còn lại bao nhiêu con?
+\shortans{43}
+\loigiai{
+Còn lại: $68 - 25 = 43$ con gà.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn dây thứ nhất dài 45 cm, đoạn thứ hai dài 34 cm. Cả hai đoạn dây dài bao nhiêu xăng-ti-mét?
+\shortans{79}
+\loigiai{
+Tổng chiều dài: $45 + 34 = 79$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Sợi dây đồng dài 88 cm, cắt bớt đi 35 cm. Sợi dây đồng còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{53}
+\loigiai{
+Còn lại: $88 - 35 = 53$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Số nào cộng với 32 thì được 76?
+\shortans{44}
+\loigiai{
+Số đó là: $76 - 32 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào trừ đi 25 thì được 41?
+\shortans{66}
+\loigiai{
+Số đó là: $41 + 25 = 66$.
+}
+\end{ex}
+
+\begin{ex}
+Lấy 98 trừ đi số tròn chục lớn nhất có hai chữ số thì được kết quả là bao nhiêu?
+\shortans{8}
+\loigiai{
+Số tròn chục lớn nhất có hai chữ số là 90. Hiệu: $98 - 90 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng của số bé nhất có hai chữ số và số 75.
+\shortans{85}
+\loigiai{
+Số bé nhất có hai chữ số là 10. Tổng: $10 + 75 = 85$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $45 + 13 - \dots = 20$.
+\shortans{38}
+\loigiai{
+Ta có $45 + 13 = 58$, vậy số cần điền là $58 - 20 = 38$.
+}
+\end{ex}

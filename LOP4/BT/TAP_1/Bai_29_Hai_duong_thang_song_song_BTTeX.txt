@@ -1,0 +1,199 @@
+\begin{ex}
+Hai đường thẳng song song có bao giờ cắt nhau không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Hai đường thẳng song song không bao giờ cắt nhau (0).
+}
+\end{ex}
+
+\begin{ex}
+Hai đường thẳng song song có bao nhiêu điểm chung?
+\shortans{0}
+\loigiai{
+Không có điểm chung nào (0).
+}
+\end{ex}
+
+\begin{ex}
+Trong hình chữ nhật ABCD, cạnh AB song song với cạnh nào? (Cạnh CD ghi 1, cạnh BC ghi 2).
+\shortans{1}
+\loigiai{
+Cạnh CD (1).
+}
+\end{ex}
+
+\begin{ex}
+Trong hình chữ nhật ABCD, cạnh AD song song với cạnh nào? (Cạnh BC ghi 1, cạnh CD ghi 2).
+\shortans{1}
+\loigiai{
+Cạnh BC (1).
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có mấy cặp cạnh đối diện song song với nhau?
+\shortans{2}
+\loigiai{
+Có 2 cặp cạnh đối diện song song.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có mấy cặp cạnh đối diện song song với nhau?
+\shortans{2}
+\loigiai{
+Có 2 cặp cạnh đối diện song song.
+}
+\end{ex}
+
+\begin{ex}
+Hình bình hành có mấy cặp cạnh đối diện song song với nhau?
+\shortans{2}
+\loigiai{
+Có 2 cặp cạnh đối diện song song.
+}
+\end{ex}
+
+\begin{ex}
+Hình thoi có mấy cặp cạnh đối diện song song với nhau?
+\shortans{2}
+\loigiai{
+Có 2 cặp cạnh đối diện song song.
+}
+\end{ex}
+
+\begin{ex}
+Hình thang có mấy cặp cạnh đáy song song với nhau?
+\shortans{1}
+\loigiai{
+Hình thang có 1 cặp cạnh đáy song song.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường ray xe lửa là hình ảnh của hai đường thẳng gì? (Song song ghi 1, vuông góc ghi 2).
+\shortans{1}
+\loigiai{
+Hai đường thẳng song song (1).
+}
+\end{ex}
+
+\begin{ex}
+Hai cạnh đối diện của một quyển sách giáo khoa là hình ảnh của hai đường thẳng gì? (Song song ghi 1, cắt nhau ghi 2).
+\shortans{1}
+\loigiai{
+Song song (1).
+}
+\end{ex}
+
+\begin{ex}
+Các dòng kẻ ngang trong cuốn vở ô li là hình ảnh của các đường thẳng gì? (Song song ghi 1, vuông góc ghi 2).
+\shortans{1}
+\loigiai{
+Song song (1).
+}
+\end{ex}
+
+\begin{ex}
+Qua một điểm ở ngoài một đường thẳng, có thể vẽ được bao nhiêu đường thẳng song song với đường thẳng đó?
+\shortans{1}
+\loigiai{
+Chỉ vẽ được 1 đường thẳng song song duy nhất.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai đường thẳng song song có thay đổi không? (Có thay đổi ghi 1, không đổi ghi 0).
+\shortans{0}
+\loigiai{
+Khoảng cách luôn không đổi (0).
+}
+\end{ex}
+
+\begin{ex}
+Nếu đường thẳng a song song với b, và b song song với c thì a có song song với c không? (Có ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Có song song (1).
+}
+\end{ex}
+
+\begin{ex}
+Nếu đường thẳng a vuông góc với c, và b vuông góc với c thì a và b thế nào với nhau? (Song song ghi 1, vuông góc ghi 2).
+\shortans{1}
+\loigiai{
+Song song với nhau (1).
+}
+\end{ex}
+
+\begin{ex}
+Trong hình vuông ABCD, cạnh AB có song song với cạnh BC không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Không, AB vuông góc với BC.
+}
+\end{ex}
+
+\begin{ex}
+Trong tam giác ABC, có cặp cạnh nào song song với nhau không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Tam giác không có cạnh nào song song với nhau (0).
+}
+\end{ex}
+
+\begin{ex}
+Hình lục giác đều có bao nhiêu cặp cạnh đối diện song song với nhau?
+\shortans{3}
+\loigiai{
+Có 3 cặp cạnh đối song song.
+}
+\end{ex}
+
+\begin{ex}
+Hai thanh đứng của một chiếc thang là hình ảnh của hai đường thẳng gì? (Song song ghi 1, vuông góc ghi 2).
+\shortans{1}
+\loigiai{
+Song song (1).
+}
+\end{ex}
+
+\begin{ex}
+Các bậc thang ngang của một chiếc thang có song song với nhau không? (Có ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Có song song (1).
+}
+\end{ex}
+
+\begin{ex}
+Bậc thang ngang có vuông góc với thanh đứng của thang không? (Có ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Có vuông góc (1).
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu cặp cạnh song song trong một hình chữ nhật?
+\shortans{2}
+\loigiai{
+Có 2 cặp.
+}
+\end{ex}
+
+\begin{ex}
+Hình bình hành có bao nhiêu cạnh?
+\shortans{4}
+\loigiai{
+Có 4 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình bình hành có bao nhiêu đỉnh?
+\shortans{4}
+\loigiai{
+Có 4 đỉnh.
+}
+\end{ex}

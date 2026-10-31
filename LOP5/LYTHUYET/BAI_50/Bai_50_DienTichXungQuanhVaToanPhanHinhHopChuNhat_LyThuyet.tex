@@ -1,0 +1,161 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 50. Diện tích xung quanh và toàn phần hình hộp chữ nhật --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 50. DIỆN TÍCH XQ VÀ TOÀN PHẦN HÌNH HỘP CHỮ NHẬT}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Công thức Sxq = Pđáy x h, Stp = Sxq + Sđáy x 2 và bài toán sơn hộp/thùng tôn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÔNG THỨC SXQ VÀ STP ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faCalculator\ 1. Công thức Diện tích Xung quanh và Toàn phần},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Cho hình hộp chữ nhật có chiều dài $a$, chiều rộng $b$, chiều cao $c$ (hoặc $h$):\\
+  $\bullet$ \textbf{Diện tích xung quanh ($S_{xq}$):} Bằng chu vi mặt đáy nhân với chiều cao:\\
+  \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+    {\scriptsize\bfseries\color{blue!90!black}$S_{xq} = (a + b) \times 2 \times c = P_{\text{đáy}} \times c$}
+  \end{tcolorbox}
+  $\bullet$ \textbf{Diện tích toàn phần ($S_{tp}$):} Bằng diện tích xung quanh cộng với diện tích hai mặt đáy:\\
+  \begin{tcolorbox}[colback=white, colframe=purple!70!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+    {\scriptsize\bfseries\color{purple!90!black}$S_{tp} = S_{xq} + S_{\text{đáy}} \times 2 = S_{xq} + (a \times b) \times 2$}
+  \end{tcolorbox}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN THÙNG KHÔNG NẮP ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faInbox\ 2. Bài toán thùng không có nắp},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Thùng tôn, bể cá kính \textbf{không có nắp}:\\
+    $\bullet$ Thùng chỉ có \textbf{1 mặt đáy} duy nhất (mặt đáy dưới).\\
+    \begin{tcolorbox}[colback=white, colframe=teal!75!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{teal!95!black}$S_{\text{tôn/kính}} = S_{xq} + a \times b$} \quad (\textbf{chỉ cộng 1 đáy}!)
+    \end{tcolorbox}
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPaintBrush\ 3. Bài toán quét vôi phòng học},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Sơn 4 bức tường và trần nhà (không sơn sàn):\\
+    $\triangleright$ $S_{\text{quét vôi}} = S_{xq} + S_{\text{trần}} - S_{\text{cửa}}$.\\
+    ($S_{\text{trần}} = a \times b$; $S_{\text{cửa}}$ là tổng diện tích các cửa đi và cửa sổ).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Quy trình tính diện tích hình hộp chữ nhật},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Chu vi đáy:\\$P_{\text{đáy}} = 2(a + b)$};
+    \node[b2] (n2) at (0, 0) {2. Diện tích XQ:\\$S_{xq} = P_{\text{đáy}} \times c$};
+    \node[b3] (n3) at (5.8, 0) {3. Diện tích TP:\\$S_{tp} = S_{xq} + 2ab$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TÍNH CHIỀU CAO & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Công thức tính ngược tìm chiều cao},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Biết diện tích xung quanh $S_{xq}$ và các kích thước đáy $a, b$:\\
+    \begin{tcolorbox}[colback=white, colframe=green!70!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{green!85!black}$c = S_{xq} : [(a + b) \times 2] = S_{xq} : P_{\text{đáy}}$}
+    \end{tcolorbox}
+    Chiều cao bằng diện tích xung quanh chia cho chu vi đáy.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đọc kĩ đề xem thùng \textbf{có nắp} (cộng $2$ đáy) hay \textbf{không có nắp} (chỉ cộng $1$ đáy).\\
+    $\bullet$ Bài toán sơn cả mặt trong và mặt ngoài: Phải \textbf{nhân đôi} diện tích cần sơn ($S \times 2$).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

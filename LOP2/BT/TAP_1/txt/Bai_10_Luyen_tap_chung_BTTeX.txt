@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $9 + 6$.
+\shortans{15}
+\loigiai{
+Ta có $9 + 6 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8 + 7$.
+\shortans{15}
+\loigiai{
+Ta có $8 + 7 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 + 5$.
+\shortans{12}
+\loigiai{
+Ta có $7 + 5 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6 + 6$.
+\shortans{12}
+\loigiai{
+Ta có $6 + 6 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8 + 8$.
+\shortans{16}
+\loigiai{
+Ta có $8 + 8 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 + 4$.
+\shortans{13}
+\loigiai{
+Ta có $9 + 4 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $9 + 3 + 4$.
+\shortans{16}
+\loigiai{
+Ta có $9 + 3 = 12$, rồi $12 + 4 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $8 + 4 + 3$.
+\shortans{15}
+\loigiai{
+Ta có $8 + 4 = 12$, rồi $12 + 3 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $7 + 7 + 2$.
+\shortans{16}
+\loigiai{
+Ta có $7 + 7 = 14$, rồi $14 + 2 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $6 + 5 + 4$.
+\shortans{15}
+\loigiai{
+Ta có $6 + 4 = 10$, rồi $10 + 5 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $8 + \dots = 17$.
+\shortans{9}
+\loigiai{
+Số cần điền là: $17 - 8 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $7 + \dots = 13$.
+\shortans{6}
+\loigiai{
+Số cần điền là: $13 - 7 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 9 = 14$.
+\shortans{5}
+\loigiai{
+Số cần điền là: $14 - 9 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 8 = 11$.
+\shortans{3}
+\loigiai{
+Số cần điền là: $11 - 8 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+So sánh: Kết quả của $9 + 5$ lớn hơn kết quả của $8 + 5$ bao nhiêu đơn vị?
+\shortans{1}
+\loigiai{
+Ta có $9 + 5 = 14$, $8 + 5 = 13$. Chênh lệch: $14 - 13 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có một chữ số có tổng bằng 15, biết một số là 9. Số còn lại là bao nhiêu?
+\shortans{6}
+\loigiai{
+Số còn lại là: $15 - 9 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có một chữ số có tổng bằng 17. Tích của hai số đó là bao nhiêu nếu hai số đó là 9 và 8? Tính tổng của 9 và 8.
+\shortans{17}
+\loigiai{
+Tổng là: $9 + 8 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân có 8 con gà và 9 con vịt. Hỏi bác nông dân có tất cả bao nhiêu con gà và vịt?
+\shortans{17}
+\loigiai{
+Bác có: $8 + 9 = 17$ con.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 7 cái nhãn vở hoa và 6 cái nhãn vở hoạt hình. Lan có tất cả bao nhiêu cái nhãn vở?
+\shortans{13}
+\loigiai{
+Lan có: $7 + 6 = 13$ cái nhãn vở.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 6 chiếc bút chì màu xanh và 8 chiếc bút chì màu đỏ. Trong hộp có bao nhiêu chiếc bút chì?
+\shortans{14}
+\loigiai{
+Trong hộp có: $6 + 8 = 14$ chiếc bút chì.
+}
+\end{ex}
+
+\begin{ex}
+Một người nuôi 9 con bồ câu trắng và 7 con bồ câu nâu. Người đó nuôi tất cả bao nhiêu con bồ câu?
+\shortans{16}
+\loigiai{
+Tổng số bồ câu: $9 + 7 = 16$ con.
+}
+\end{ex}
+
+\begin{ex}
+Tìm một số biết lấy số đó trừ đi 8 thì được 4.
+\shortans{12}
+\loigiai{
+Số đó là: $4 + 8 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm một số biết lấy số đó trừ đi 9 thì được 7.
+\shortans{16}
+\loigiai{
+Số đó là: $7 + 9 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 + 9 - 10$.
+\shortans{8}
+\loigiai{
+Ta có $9 + 9 = 18$, rồi $18 - 10 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8 + 6 - 5$.
+\shortans{9}
+\loigiai{
+Ta có $8 + 6 = 14$, rồi $14 - 5 = 9$.
+}
+\end{ex}

@@ -1,0 +1,147 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 16. Luyện tập chung Chủ đề 3 --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 16: LUYỆN TẬP CHUNG CHỦ ĐỀ 3}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Tổng ôn số có nhiều chữ số: Cấu tạo hàng lớp, dãy số tự nhiên, so sánh và làm tròn số trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faThList\ 1. Cấu tạo lớp \& Dãy số tự nhiên},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Hệ thống 3 lớp trong số tự nhiên:}\\
+    --- \textbf{Lớp triệu}: Hàng trăm triệu, chục triệu, triệu.\\
+    --- \textbf{Lớp nghìn}: Hàng trăm nghìn, chục nghìn, nghìn.\\
+    --- \textbf{Lớp đơn vị}: Hàng trăm, chục, đơn vị.\\
+    $\bullet$ \textbf{Cấu tạo số thập phân}: Mỗi hàng gấp 10 lần hàng liền sau.\\
+    $\bullet$ \textbf{Dãy số tự nhiên}: Bắt đầu từ 0, vô tận, 2 số liên tiếp hơn kém nhau 1; 2 số chẵn (lẻ) liên tiếp hơn kém nhau 2.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. So sánh \& Làm tròn số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{So sánh hai số:}\\
+    1. Đếm số chữ số (nhiều chữ số hơn $\rightarrow$ lớn hơn).\\
+    2. Cùng chữ số: so sánh từng hàng từ trái sang phải.\\
+    $\bullet$ \textbf{Quy tắc làm tròn số:}\\
+    Xét chữ số ngay bên phải hàng làm tròn:\\
+    --- Nếu $< 5$: Giữ nguyên hàng làm tròn.\\
+    --- Nếu $\ge 5$: Cộng 1 vào hàng làm tròn.\\
+    Thay toàn bộ các chữ số bên phải bằng chữ số 0.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HỆ THỐNG 4 TRỤ CỘT KIẾN THỨC CHỦ ĐỀ 3},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=0.92, yscale=0.82,
+    hub/.style={rectangle, rounded corners=2.5mm, draw=teal!85!black, fill=teal!15, thick, inner sep=4pt, font=\small\bfseries, align=center, text width=2.8cm},
+    card/.style={rectangle, rounded corners=2mm, thick, inner sep=3pt, font=\scriptsize, align=center, text width=4.5cm},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    \node[hub] (core) at (6.8, 0) {\faCube\ CHỦ ĐỀ 3:\\SỐ CÓ\\NHIỀU CHỮ SỐ};
+
+    \node[card, draw=blue!75!black, fill=blue!10] (p1) at (2.5, 0.75) {\textbf{1. Đọc, Viết \& Cấu tạo}\\3 lớp: Triệu, Nghìn, Đơn vị};
+    \node[card, draw=orange!80!black, fill=orange!12] (p2) at (2.5, -0.75) {\textbf{2. Dãy số tự nhiên}\\Bắt đầu từ 0; Vô tận; $+1$};
+    \node[card, draw=purple!80!black, fill=purple!10] (p3) at (11.1, 0.75) {\textbf{3. So sánh \& Thứ tự}\\Đếm số chữ số $\rightarrow$ So từng hàng};
+    \node[card, draw=green!70!black, fill=green!12] (p4) at (11.1, -0.75) {\textbf{4. Làm tròn số}\\Xét số bên phải: $< 5$ vs $\ge 5$};
+
+    \draw[arr] (core.north west) -- (p1.east);
+    \draw[arr] (core.south west) -- (p2.east);
+    \draw[arr] (core.north east) -- (p3.west);
+    \draw[arr] (core.south east) -- (p4.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Cho các chữ số $0, 3, 5, 8$. Lập:\\
+    $\bullet$ \textbf{Số chẵn lớn nhất có 4 chữ số khác nhau:}\\
+    Để lớn nhất, chọn hàng nghìn là $8$. Vì số chẵn nên chữ số tận cùng phải là $0$. Xếp giảm dần ở giữa: số cần tìm là \textbf{8530}.\\
+    $\bullet$ \textbf{Làm tròn số 8530 đến hàng nghìn:}\\
+    Chữ số hàng trăm là $5 \ge 5 \Rightarrow$ Làm tròn lên thành \textbf{9000}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy chữ số 0 ở hàng đầu:}\\
+    Chữ số $0$ \textbf{không thể} đứng ở hàng cao nhất của số tự nhiên.\\
+    $\bullet$ \textbf{Bẫy "khác nhau":}\\
+    Đọc kĩ đề có yêu cầu "các chữ số khác nhau" hay không để tránh viết $8888$ thay vì $8530$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

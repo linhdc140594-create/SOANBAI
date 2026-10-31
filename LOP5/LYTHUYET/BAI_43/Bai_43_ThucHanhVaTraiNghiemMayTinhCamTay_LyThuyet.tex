@@ -1,0 +1,155 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 43. Thực hành và trải nghiệm với máy tính cầm tay --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 43. THỰC HÀNH VÀ TRẢI NGHIỆM VỚI MÁY TÍNH CẦM TAY}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Ứng dụng máy tính giải bài toán tính lãi suất, chi tiêu gia đình và lập bảng thống kê trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BÀI TOÁN TÍNH LÃI SUẤT TIẾT KIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBank\ 1. Bài toán gửi tiền tiết kiệm ngân hàng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Gửi số tiền $M$ vào ngân hàng với lãi suất $r\%$ mỗi năm (hoặc mỗi tháng):\\
+    $\bullet$ \textbf{Tiền lãi thu được:} $\text{Tiền lãi} = M \times r : 100$.\\
+    $\bullet$ \textbf{Tổng số tiền nhận về:} $\text{Tổng} = \text{Tiền gửi} + \text{Tiền lãi}$.\\
+    \textit{VD:} Gửi $50\,000\,000$ đ với lãi suất $6\%$ một năm:\\
+    $\triangleright$ Tiền lãi $1$ năm: $50\,000\,000 \times 6 : 100 = 3\,000\,000$ đ.\\
+    $\triangleright$ Tổng số tiền rút về: $53\,000\,000$ đồng.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faShoppingCart\ 2. Bài toán hóa đơn mua sắm},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Tính thành tiền từng món:\\
+    $\text{Thành tiền} = \text{Số lượng} \times \text{Đơn giá}$.\\
+    $\bullet$ Tính tổng tiền thanh toán: Cộng thành tiền của tất cả các món.\\
+    $\bullet$ Nếu có mã giảm giá $k\%$: Trừ đi phần giảm giá: $\text{Tổng} \times (100 - k) : 100$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN KHUYẾN MÃI THỰC TẾ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faTags\ 3. Bài toán khuyến mãi giảm giá ở siêu thị},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Một đôi giày giá niêm yết $800\,000$ đồng, nhân dịp lễ được giảm giá $15\%$. Hỏi người mua phải trả bao nhiêu tiền?\\
+  $\triangleright$ \textbf{Cách 1}: Tìm số tiền được giảm: $800\,000 \times 15 : 100 = 120\,000$ đ $\rightarrow$ Tiền phải trả: $800\,000 - 120\,000 = \mathbf{680\,000\text{ đồng}}$.\\
+  $\triangleright$ \textbf{Cách 2 (Siêu nhanh)}: Giảm $15\%$ nghĩa là chỉ trả $100\% - 15\% = 85\%$ giá niêm yết $\rightarrow$ Lấy $800\,000 \times 85 : 100 = \mathbf{680\,000\text{ đồng}}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Ứng dụng toán tài chính đời sống},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {Giá niêm yết\\ban đầu (100\%)};
+    \node[b2] (n2) at (0, 0) {Giảm giá $k\%$\\Tiền giảm $= \text{Giá} \times k : 100$};
+    \node[b3] (n3) at (5.8, 0) {Giá thực trả sau giảm\\Tiền trả $= \text{Giá} - \text{Giảm}$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: QUẢN LÝ TÀI CHÍNH CÁ NHÂN & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPiggyBank\ Bài học tài chính cho học sinh},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Lên danh sách đồ cần mua trước khi đi siêu thị.\\
+    $\bullet$ Biết tính toán so sánh các gói khuyến mãi xem lựa chọn nào thực sự tiết kiệm hơn.\\
+    $\bullet$ Ghi chép chi tiêu cá nhân hàng tuần để rèn luyện thói quen tiết kiệm.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đề bài hỏi: ``Số tiền được giảm'' hay ``Số tiền phải trả''? Rất nhiều bạn tính tiền giảm xong tưởng là tiền phải trả!\\
+    $\bullet$ Lãi suất tính theo năm hay theo tháng (chú ý số tháng gửi).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

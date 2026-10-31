@@ -1,0 +1,190 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 1. Ôn tập số tự nhiên --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 01. ÔN TẬP SỐ TỰ NHIÊN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Đọc, viết số tự nhiên, các hàng và lớp, so sánh hai số và dãy số tự nhiên trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÁC HÀNG VÀ LỚP TRONG SỐ TỰ NHIÊN ---
+\noindent
+\begin{minipage}[t]{0.60\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 1. Hàng và lớp của số tự nhiên},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ba chữ số} liền nhau từ phải sang trái làm thành một lớp.\\
+    $\bullet$ \textbf{Lớp đơn vị:} Hàng đơn vị, hàng chục, hàng trăm.\\
+    $\bullet$ \textbf{Lớp nghìn:} Hàng nghìn, hàng chục nghìn, hàng trăm nghìn.\\
+    $\bullet$ \textbf{Lớp triệu:} Hàng triệu, hàng chục triệu, hàng trăm triệu.\\[1.5pt]
+    \textit{VD:} Số $35\,842\,109$: Chữ số $5$ ở \textbf{hàng triệu}, thuộc \textbf{lớp triệu}; chữ số $4$ ở \textbf{hàng chục nghìn}, thuộc \textbf{lớp nghìn}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.38\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ Bảng cấu tạo số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \scriptsize
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      \textbf{Lớp} & Triệu & Nghìn & Đ.vị \\ \hline
+      \textbf{Hàng} & Tr--Ch--Đ & Tr--Ch--Đ & Tr--Ch--Đ \\ \hline
+      \textbf{Số} & $3\ 5$ & $8\ 4\ 2$ & $1\ 0\ 9$ \\ \hline
+    \end{tabular}\\[3pt]
+    {\tiny\color{teal!90!black}\bfseries Tách từng lớp 3 chữ số để đọc dễ dàng}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: SO SÁNH VÀ ĐẶC ĐIỂM DÃY SỐ TỰ NHIÊN ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. So sánh hai số tự nhiên},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Số nào có \textbf{nhiều chữ số hơn} thì lớn hơn.\\
+    $\bullet$ Nếu số chữ số \textbf{bằng nhau}: So sánh từng cặp chữ số ở cùng một hàng từ \textbf{trái sang phải}.\\
+    \textit{VD:} $99\,999 < 100\,002$ ($5$ chữ số $< 6$ chữ số).\\
+    $78\,452 > 78\,399$ (ở hàng trăm có $4 > 3$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSortNumericAsc\ 3. Đặc điểm dãy số tự nhiên},
+    colback=orange!2!white,
+    colframe=orange!80!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Dãy số tự nhiên: $0; 1; 2; 3; 4; \dots$\\
+    $\bullet$ Số bé nhất là \textbf{0}. \textbf{Không có} số tự nhiên lớn nhất.\\
+    $\bullet$ Hai số tự nhiên liên tiếp hơn (kém) nhau \textbf{1 đơn vị}: $n$ và $n + 1$.\\
+    $\bullet$ Trên tia số: Điểm bên phải biểu diễn số lớn hơn.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY HỆ THỐNG KIẾN THỨC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy kiến thức: Bài 1. Số tự nhiên},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, drop shadow},
+    branch1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, align=center, inner sep=3.5pt},
+    branch2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, align=center, inner sep=3.5pt},
+    branch3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, align=center, inner sep=3.5pt},
+    branch4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, align=center, inner sep=3.5pt},
+    leaf/.style={font=\tiny, align=left}
+  ]
+    \node[root] (core) at (0,0) {\faBook\ SỐ TỰ NHIÊN};
+    \node[branch1] (b1) at (-4.7, 0.95) {\faThLarge\ HÀNG VÀ LỚP};
+    \node[leaf] at (-4.7, 0.25) {$\bullet$ Lớp ĐV, Nghìn, Triệu, Tỉ\\$\bullet$ Mỗi lớp gồm 3 hàng};
+    \node[branch2] (b2) at (4.7, 0.95) {\faExchange\ SO SÁNH SỐ};
+    \node[leaf] at (4.7, 0.25) {$\bullet$ Đếm số lượng chữ số\\$\bullet$ So sánh từ trái sang phải};
+    \node[branch3] (b3) at (-4.7, -0.95) {\faPencilSquareO\ ĐỌC VÀ VIẾT SỐ};
+    \node[leaf] at (-4.7, -1.65) {$\bullet$ Đọc từ hàng cao đến thấp\\$\bullet$ Ngắt theo từng lớp};
+    \node[branch4] (b4) at (4.7, -0.95) {\faListOl\ DÃY SỐ TỰ NHIÊN};
+    \node[leaf] at (4.7, -1.65) {$\bullet$ Số nhỏ nhất là $0$\\$\bullet$ Hai số liên tiếp hơn nhau $1$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) to[out=160, in=0] (b1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) to[out=20, in=180] (b2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) to[out=200, in=0] (b3);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) to[out=340, in=180] (b4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: CÔNG THỨC & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Công thức tính số lượng số hạng},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Dãy số tự nhiên cách đều khoảng cách $d$:\\
+    \begin{tcolorbox}[colback=white, colframe=green!70!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{green!85!black}$\text{Số số hạng} = \dfrac{\text{Số cuối} - \text{Số đầu}}{d} + 1$}\\[1.5pt]
+      {\scriptsize\bfseries\color{blue!85!black}$\text{Tổng dãy} = \dfrac{(\text{Số đầu} + \text{Số cuối}) \times \text{Số số hạng}}{2}$}
+    \end{tcolorbox}
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Phân biệt \textbf{chữ số} (từ $0$ đến $9$) và \textbf{giá trị của chữ số} (tùy vị trí đứng trong hàng).\\
+    $\bullet$ Khi đọc số có chữ số $0$ ở hàng chục: đọc là ``\textbf{linh}'' hoặc ``\textbf{lẻ}'' (VD: $504$: năm trăm linh bốn).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

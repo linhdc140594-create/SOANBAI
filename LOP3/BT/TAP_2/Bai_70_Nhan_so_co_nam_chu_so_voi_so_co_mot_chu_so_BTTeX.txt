@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $12341 \times 2 = \dots$
+\shortans{24682}
+\loigiai{
+$12341 \times 2 = 24682$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $21321 \times 3 = \dots$
+\shortans{63963}
+\loigiai{
+$21321 \times 3 = 63963$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10214 \times 4 = \dots$
+\shortans{40856}
+\loigiai{
+$10214 \times 4 = 40856$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $11215 \times 3 = \dots$
+\shortans{33645}
+\loigiai{
+$11215 \times 3 = 33645$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $14205 \times 2 = \dots$
+\shortans{28410}
+\loigiai{
+$14205 \times 2 = 28410$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $12150 \times 4 = \dots$
+\shortans{48600}
+\loigiai{
+$12150 \times 4 = 48600$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15000 \times 5 = \dots$
+\shortans{75000}
+\loigiai{
+$15000 \times 5 = 75000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $16000 \times 4 = \dots$
+\shortans{64000}
+\loigiai{
+$16000 \times 4 = 64000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18000 \times 5 = \dots$
+\shortans{90000}
+\loigiai{
+$18000 \times 5 = 90000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25000 \times 3 = \dots$
+\shortans{75000}
+\loigiai{
+$25000 \times 3 = 75000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20000 \times 4 = \dots$
+\shortans{80000}
+\loigiai{
+$20000 \times 4 = 80000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25000 \times 4 = \dots$
+\shortans{100000}
+\loigiai{
+$25000 \times 4 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $11111 \times 9 = \dots$
+\shortans{99999}
+\loigiai{
+$11111 \times 9 = 99999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $13250 \times 3 = \dots$
+\shortans{39750}
+\loigiai{
+$13250 \times 3 = 39750$.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi chuyến xe chở được 12 500 kg hàng. Hỏi 4 chuyến xe như thế chở được bao nhiêu ki-lô-gam hàng?
+\shortans{50000}
+\loigiai{
+$12500 \times 4 = 50000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một công ty mỗi tháng tiết kiệm được 15 000 nghìn đồng. Sau 6 tháng công ty tiết kiệm được bao nhiêu nghìn đồng?
+\shortans{90000}
+\loigiai{
+$15000 \times 6 = 90000$ nghìn đồng.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 15 000 m. Chu vi hình vuông đó là bao nhiêu mét?
+\shortans{60000}
+\loigiai{
+$15000 \times 4 = 60000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $12000 \times 3 + 24000$.
+\shortans{60000}
+\loigiai{
+$36000 + 24000 = 60000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $18000 \times 4 - 32000$.
+\shortans{40000}
+\loigiai{
+$72000 - 32000 = 40000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 3 = 14200$.
+\shortans{42600}
+\loigiai{
+$x = 14200 \times 3 = 42600$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 4 = 21000$.
+\shortans{84000}
+\loigiai{
+$x = 21000 \times 4 = 84000$.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bao xi măng nặng 50 kg. Một đoàn tàu chở 1200 bao xi măng. Tổng khối lượng xi măng là bao nhiêu ki-lô-gam?
+\shortans{60000}
+\loigiai{
+$50 \times 1200 = 60000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một huyện có 3 xã vùng cao, mỗi xã được cấp 18 000 cuốn vở. Cả 3 xã được cấp bao nhiêu cuốn vở?
+\shortans{54000}
+\loigiai{
+$18000 \times 3 = 54000$ cuốn.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10500 \times 6 = \dots$
+\shortans{63000}
+\loigiai{
+$10500 \times 6 = 63000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $16200 \times 5 = \dots$
+\shortans{81000}
+\loigiai{
+$16200 \times 5 = 81000$.
+}
+\end{ex}

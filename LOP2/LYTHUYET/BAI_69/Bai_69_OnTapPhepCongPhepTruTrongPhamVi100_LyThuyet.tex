@@ -1,0 +1,160 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 69: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Củng cố kĩ năng tính cộng trừ có nhớ trong phạm vi 100 và tìm thành phần chưa biết}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Kĩ thuật cộng, trừ có nhớ trong phạm vi 100}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bảng cộng, trừ qua 10:} Thuộc lòng các bảng cộng, trừ cơ bản ($9+5=14, 8+7=15, 13-6=7, 15-8=7\dots$).
+  \item \textbf{Phép cộng có nhớ:}\\
+  Cộng hàng đơn vị $\ge 10 \implies$ viết hàng đơn vị, \textbf{nhớ $1$} sang hàng chục.
+  \item \textbf{Phép trừ có nhớ:}\\
+  Hàng đơn vị không trừ được $\implies$ mượn $1$ chục ($10$), trừ rồi \textbf{trả $1$} vào số trừ hàng chục.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Mối quan hệ giữa các thành phần phép tính}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Trong phép cộng:}
+  $$\text{Số hạng} + \text{Số hạng} = \text{Tổng}$$
+  $$\implies \mathbf{\text{Số hạng chưa biết} = \text{Tổng} - \text{Số hạng đã biết}}$$
+  \item \textbf{Trong phép trừ:}
+  $$\text{Số bị trừ} - \text{Số trừ} = \text{Hiệu}$$
+  $$\implies \mathbf{\text{Số bị trừ} = \text{Hiệu} + \text{Số trừ}}$$
+  $$\implies \mathbf{\text{Số trừ} = \text{Số bị trừ} - \text{Hiệu}}$$
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tìm thành phần chưa biết của phép cộng và phép trừ}
+]
+\centering
+\begin{tikzpicture}[x=1.65cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (s) at (0,0.6) {Tìm SỐ HẠNG\\$= \text{Tổng} - \text{Số hạng kia}$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (sbt) at (0,-0.6) {Tìm SỐ BỊ TRỪ\\$= \text{Hiệu} + \text{Số trừ}$};
+  \node[rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!15, font=\scriptsize\bfseries] (st) at (3.5,0) {Tìm SỐ TRỪ\\$= \text{Số bị trừ} - \text{Hiệu}$};
+
+  \draw[arr, thick] (s) -| (st);
+  \draw[arr, thick] (sbt) -| (st);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Bài tập thực hành mẫu}
+]
+{\footnotesize
+\textbf{1. Đặt tính rồi tính:}\\
+- $47 + 38 = \mathbf{85}$ ($7+8=15$, nhớ $1$).\\
+- $72 - 45 = \mathbf{27}$ ($12-5=7$, nhớ $1$).\\
+- $100 - 36 = \mathbf{64}$ ($10-6=4$, $10-4=6$).\\
+\textbf{2. Tìm $x$ (hoặc số còn thiếu):}\\
+- $? + 28 = 70 \implies ? = 70 - 28 = \mathbf{42}$.\\
+- $83 - ? = 35 \implies ? = 83 - 35 = \mathbf{48}$.\\
+- $? - 19 = 46 \implies ? = 46 + 19 = \mathbf{65}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Lỗi hay nhầm công thức}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cực kì dễ nhầm:} Muốn tìm Số trừ lại lấy Hiệu cộng Số bị trừ $\to$ Sai nghiêm trọng!
+  \item Ghi nhớ: \textbf{Số bị trừ luôn là số lớn nhất} trong phép trừ.
+  \item Khi tính $100$ trừ đi một số: nhớ mượn liên tiếp từ hàng trăm sang chục và đơn vị.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

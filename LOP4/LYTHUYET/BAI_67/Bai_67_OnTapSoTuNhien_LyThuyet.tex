@@ -1,0 +1,155 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 67. Ôn tập số tự nhiên --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 67: ÔN TẬP SỐ TỰ NHIÊN}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Hệ thống hàng và lớp, so sánh, sắp xếp và làm tròn số tự nhiên trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faDatabase\ 1. Cấu tạo số, Hàng và Lớp}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Cứ $3$ hàng hợp thành $1$ lớp (từ phải sang trái):
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item \textbf{Lớp đơn vị:} Hàng đơn vị, chục, trăm.
+    \item \textbf{Lớp nghìn:} Hàng nghìn, chục nghìn, trăm nghìn.
+    \item \textbf{Lớp triệu:} Hàng triệu, chục triệu, trăm triệu.
+  \end{itemize}
+  \item \textbf{Giá trị chữ số:} Phụ thuộc vào vị trí hàng nó đứng. (Ví dụ: Chữ số 5 ở hàng chục nghìn có giá trị $50\,000$).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. So sánh và Làm tròn số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{So sánh:} Số nào có nhiều chữ số hơn thì lớn hơn. Nếu cùng số chữ số thì so sánh từng cặp từ trái sang phải.
+  \item \textbf{Quy tắc làm tròn (Xét chữ số sau hàng làm tròn):}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Nếu bé hơn 5 ($0, 1, 2, 3, 4$): \textbf{Làm tròn xuống} (giữ nguyên hàng đó, thay sau bằng $0$).
+    \item Nếu từ 5 trở lên ($5, 6, 7, 8, 9$): \textbf{Làm tròn lên} (cộng 1 vào hàng đó, thay sau bằng $0$).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: 3 LỚP SỐ TỰ NHIÊN \& BẬC THANG LÀM TRÒN}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=3pt, minimum height=0.95cm},
+  arr/.style={-{Stealth[length=2.5mm]}, thick}
+]
+  \node[box, fill=purple!12, draw=purple!80!black, text width=3.4cm] (l1) at (0, 0) {LỚP TRIỆU\\Triệu, Chục triệu,\\Trăm triệu};
+
+  \node[box, fill=blue!10, draw=blue!80!black, text width=3.4cm] (l2) at (4.7, 0) {LỚP NGHÌN\\Nghìn, Chục nghìn,\\Trăm nghìn};
+
+  \node[box, fill=teal!10, draw=teal!80!black, text width=3.4cm] (l3) at (9.4, 0) {LỚP ĐƠN VỊ\\Đơn vị, Chục,\\Trăm};
+
+  \draw[arr, purple!80!black] (l1) -- (l2);
+  \draw[arr, blue!80!black] (l2) -- (l3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Đọc và phân tích số:} $45\,208\,619$
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Đọc: \textit{Bốn mươi lăm triệu hai trăm linh tám nghìn sáu trăm mười chín}.
+  \item Chữ số $5$ thuộc hàng triệu, lớp triệu; có giá trị $5\,000\,000$.
+\end{itemize}
+\textbf{2. Làm tròn số:}
+Làm tròn $76\,824$ đến hàng nghìn $\to$ Chữ số sau là $8 \ge 5 \implies \mathbf{77\,000}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy chữ số 0 ở các hàng:}\\
+  Khi viết số có chữ số 0 ở hàng trăm/chục nghìn, học sinh hay viết thiếu làm giảm số chữ số của số tự nhiên!
+  \item \textbf{Bẫy phân biệt Số và Chữ số:}\\
+  Ví dụ số $125$: Chữ số hàng chục là $2$, nhưng số chục là $12$ chục!
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\end{document}

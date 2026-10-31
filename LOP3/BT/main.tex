@@ -1,0 +1,511 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell,venndiagram}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through}
+\usepackage{yhmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{fillbetween}
+\usepackage[tikz]{bclogo}
+\usepackage[top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm, headheight=16pt]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+
+\usepackage[dethi]{ex_test}
+\providecommand{\shortans}[1]{\par\vspace{1.5mm}\noindent\textbf{Đáp số: } \framebox[3.2cm]{\phantom{\rule{0pt}{1.8ex}}}\par\vspace{2mm}}
+
+\def\colorEX{\color{blue}}
+\everymath{\color{blue}}
+
+\usepackage{fontawesome}
+\usepackage{framed}
+\usepackage{polynom}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\color{gray} Tuyển tập Bài tập Toán 3 theo từng bài}
+\fancyhead[R]{\small\bfseries\color{blue!80!black} Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\makeatletter
+\renewcommand\thesection{\@arabic\c@section}
+\makeatother
+
+\titleformat{\section}{\centering\Large\bfseries\color{blue!80!black}}{Chủ đề~\thesection.}{1ex}{
+    \setcounter{ex}{0}
+    \MakeUppercase
+}
+\titleformat{\subsection}{\large\bfseries\color{blue!70!black}}{}{0ex}{}
+
+% KHUNG TIÊU ĐỀ PHIẾU BÀI TẬP KÈM QR CODE
+\newcommand{\TaoPhieuBaiTap}[4]{%
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{Bài #2. #3}%
+  \setcounter{ex}{0}%
+  \noindent
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=blue!85!black,
+    arc=2.5mm,
+    boxrule=1pt,
+    left=2.5mm, right=2.5mm, top=1.8mm, bottom=1.8mm
+  ]
+    \begin{minipage}[c]{0.27\textwidth}
+      \centering
+      \begin{tcolorbox}[colback=blue!8, colframe=blue!80!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm, left=1mm, right=1mm]
+        {\bfseries\color{blue!95!black}\small LỚP TOÁN THẦY LĨNH}\\[1.5pt]
+        {\scriptsize\color{blue!70!black}\faGlobe~loptoanthaylinh.vn}\\[1.5pt]
+        {\scriptsize\bfseries\color{blue!85!black}\faPhone~Hotline: 0866976878}
+      \end{tcolorbox}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.56\textwidth}
+      \centering
+      {\footnotesize\bfseries\color{blue!80!black}\MakeUppercase{#1}}\\[2pt]
+      {\large\bfseries\color{red!85!black}\MakeUppercase{BÀI #2: #3}}\\[2pt]
+      {\scriptsize\itshape Phiếu Bài Tập Luyện Tập -- Hệ Thống Bài Tập Theo Buổi}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.14\textwidth}
+      \centering
+      \qrcode[height=1.35cm]{#4}\\[2pt]
+      {\tiny\bfseries\color{blue!90!black}\faQrcode~Quét QR học}
+    \end{minipage}
+  \end{tcolorbox}
+  \vspace{2mm}
+}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+
+% =========================================================================
+% Ôn tập và bổ sung
+% =========================================================================
+\section{Ôn tập và bổ sung}
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{01}{Ôn tập các số trong phạm vi 1000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-01}
+\input{TAP_1/Bai_01_On_tap_cac_so_den_1000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{02}{Ôn tập phép cộng, phép trừ trong phạm vi 1000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-02}
+\input{TAP_1/Bai_02_On_tap_phep_cong_phep_tru_pham_vi_1000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{03}{Tìm thành phần trong phép cộng, phép trừ}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-03}
+\input{TAP_1/Bai_03_Tim_thanh_phan_trong_phep_cong_phep_tru.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{04}{Ôn tập bảng nhân 2, bảng nhân 5}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-04}
+\input{TAP_1/Bai_04_On_tap_bang_nhan_2_5_bang_chia_2_5.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{05}{Ôn tập bảng chia 2, bảng chia 5}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-05}
+\input{TAP_1/Bai_05_Bang_nhan_3_bang_chia_3.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{06}{Gấp một số lên một số lần}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-06}
+\input{TAP_1/Bai_06_Bang_nhan_4_bang_chia_4.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{07}{Giảm đi một số lần}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-07}
+\input{TAP_1/Bai_07_On_tap_hinh_hoc_va_do_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{08}{Luyện tập chung}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-08}
+\input{TAP_1/Bai_08_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Bảng nhân, bảng chia
+% =========================================================================
+\section{Bảng nhân, bảng chia}
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{09}{Bảng nhân 6, bảng chia 6}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-09}
+\input{TAP_1/Bai_09_Bang_nhan_6_bang_chia_6.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{10}{Bảng nhân 7, bảng chia 7}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-10}
+\input{TAP_1/Bai_10_Bang_nhan_7_bang_chia_7.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{11}{Bảng nhân 8, bảng chia 8}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-11}
+\input{TAP_1/Bai_11_Bang_nhan_8_bang_chia_8.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{12}{Bảng nhân 9, bảng chia 9}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-12}
+\input{TAP_1/Bai_12_Bang_nhan_9_bang_chia_9.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{13}{Tìm thành phần trong phép nhân, phép chia}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-13}
+\input{TAP_1/Bai_13_Tim_thanh_phan_trong_phep_nhan_phep_chia.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{14}{Một phần mấy (1/2, 1/3, 1/4, 1/5...)}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-14}
+\input{TAP_1/Bai_14_Mot_phan_may.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Bảng nhân, bảng chia}{15}{Luyện tập chung}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-15}
+\input{TAP_1/Bai_15_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Làm quen với hình phẳng, hình khối
+% =========================================================================
+\section{Làm quen với hình phẳng, hình khối}
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{16}{Điểm ở giữa, trung điểm của đoạn thẳng}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-16}
+\input{TAP_1/Bai_16_Diem_o_giua_trung_diem_cua_doan_thang.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{17}{Hình tròn, tâm, bán kính, đường kính}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-17}
+\input{TAP_1/Bai_17_Hinh_tron_tam_ban_kinh_duong_kinh.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{18}{Góc, góc vuông, góc không vuông}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-18}
+\input{TAP_1/Bai_18_Goc_goc_vuong_goc_khong_vuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{19}{Hình tam giác, hình tứ giác, hình chữ nhật, hình vuông}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-19}
+\input{TAP_1/Bai_19_Hinh_tam_giac_tu_giac_chu_nhat_vuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{20}{Thực hành vẽ hình và trang trí}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-20}
+\input{TAP_1/Bai_20_Thuc_hanh_ve_hinh_va_trang_tri.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{21}{Khối lập phương, khối hộp chữ nhật}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-21}
+\input{TAP_1/Bai_21_Khoi_lap_phuong_khoi_hop_chu_nhat.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{22}{Luyện tập chung hình học}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-22}
+\input{TAP_1/Bai_22_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Phép nhân, phép chia trong phạm vi 100
+% =========================================================================
+\section{Phép nhân, phép chia trong phạm vi 100}
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{23}{Nhân số có hai chữ số với số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-23}
+\input{TAP_1/Bai_23_Nhan_so_co_hai_chu_so_voi_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{24}{Gấp một số lên nhiều lần}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-24}
+\input{TAP_1/Bai_24_Gap_mot_so_len_mot_so_lan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{25}{Phép chia hết và phép chia có dư}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-25}
+\input{TAP_1/Bai_25_Phep_chia_het_phep_chia_co_du.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{26}{Chia số có hai chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-26}
+\input{TAP_1/Bai_26_Chia_so_co_hai_chu_so_cho_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{27}{Giảm một số đi nhiều lần}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-27}
+\input{TAP_1/Bai_27_Giam_mot_so_di_mot_so_lan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{28}{Bài toán giải bằng hai bước tính}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-28}
+\input{TAP_1/Bai_28_Bai_toan_giai_bang_hai_buoc_tinh.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{29}{Luyện tập chung phép tính}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-29}
+\input{TAP_1/Bai_29_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ
+% =========================================================================
+\section{Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{30}{Mi-li-mét}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-30}
+\input{TAP_1/Bai_30_Mi_li_met.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{31}{Gam}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-31}
+\input{TAP_1/Bai_31_Gam.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{32}{Mi-li-lít}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-32}
+\input{TAP_1/Bai_32_Mi_li_lit.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{33}{Nhiệt độ. Đơn vị đo nhiệt độ}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-33}
+\input{TAP_1/Bai_33_Nhiet_do_don_vi_do_nhiet_do.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{34}{Thực hành trải nghiệm đơn vị đo}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-34}
+\input{TAP_1/Bai_34_Thuc_hanh_trai_nghiem_don_vi_do.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{35}{Luyện tập chung đo lường}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-35}
+\input{TAP_1/Bai_35_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Phép nhân, phép chia trong phạm vi 1 000
+% =========================================================================
+\section{Phép nhân, phép chia trong phạm vi 1 000}
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{36}{Nhân số có ba chữ số với số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-36}
+\input{TAP_1/Bai_36_Nhan_so_co_ba_chu_so_voi_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{37}{Chia số có ba chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-37}
+\input{TAP_1/Bai_37_Chia_so_co_ba_chu_so_cho_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{38}{Biểu thức số. Tính giá trị của biểu thức số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-38}
+\input{TAP_1/Bai_38_Bieu_thuc_so_tinh_gia_tri_bieu_thuc_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{39}{So sánh số lớn gấp mấy lần số bé}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-39}
+\input{TAP_1/Bai_39_So_sanh_so_lon_gap_may_lan_so_be.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{40}{Luyện tập chung biểu thức}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-40}
+\input{TAP_1/Bai_40_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Ôn tập học kì 1
+% =========================================================================
+\section{Ôn tập học kì 1}
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Ôn tập học kì 1}{41}{Ôn tập phép nhân, phép chia trong phạm vi 1000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-41}
+\input{TAP_1/Bai_41_On_tap_phep_nhan_phep_chia_100_1000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Ôn tập học kì 1}{42}{Ôn tập biểu thức số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-42}
+\input{TAP_1/Bai_42_On_tap_bieu_thuc_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Ôn tập học kì 1}{43}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-43}
+\input{TAP_1/Bai_43_On_tap_hinh_hoc_va_do_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Ôn tập học kì 1}{44}{Ôn tập chung học kì 1}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-44}
+\input{TAP_1/Bai_44_On_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Các số đến 10 000
+% =========================================================================
+\section{Các số đến 10 000}
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Các số đến 10 000}{45}{Các số có bốn chữ số. Số 10 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-45}
+\input{TAP_2/Bai_45_Cac_so_co_bon_chu_so_so_10000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Các số đến 10 000}{46}{So sánh các số trong phạm vi 10 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-46}
+\input{TAP_2/Bai_46_So_sanh_cac_so_trong_pham_vi_10000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Các số đến 10 000}{47}{Làm quen với chữ số La Mã}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-47}
+\input{TAP_2/Bai_47_Lam_quen_voi_chu_so_la_ma.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Các số đến 10 000}{48}{Làm tròn số đến hàng chục, hàng trăm}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-48}
+\input{TAP_2/Bai_48_Lam_tron_so_den_hang_chuc_hang_tram.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Các số đến 10 000}{49}{Luyện tập chung số có bốn chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-49}
+\input{TAP_2/Bai_49_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Chu vi, diện tích một số hình phẳng
+% =========================================================================
+\section{Chu vi, diện tích một số hình phẳng}
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{50}{Chu vi hình tam giác, tứ giác, hình chữ nhật, hình vuông}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-50}
+\input{TAP_2/Bai_50_Chu_vi_hinh_tam_giac_tu_giac_chu_nhat_vuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{51}{Diện tích của một hình. Xăng-ti-mét vuông}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-51}
+\input{TAP_2/Bai_51_Dien_tich_cua_mot_hinh_xang_ti_met_vuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{52}{Diện tích hình chữ nhật, diện tích hình vuông}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-52}
+\input{TAP_2/Bai_52_Dien_tich_hinh_chu_nhat_dien_tich_hinh_vuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{53}{Luyện tập chung chu vi và diện tích}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-53}
+\input{TAP_2/Bai_53_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Cộng, trừ, nhân, chia trong phạm vi 10 000
+% =========================================================================
+\section{Cộng, trừ, nhân, chia trong phạm vi 10 000}
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{54}{Phép cộng trong phạm vi 10 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-54}
+\input{TAP_2/Bai_54_Phep_cong_trong_pham_vi_10000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{55}{Phép trừ trong phạm vi 10 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-55}
+\input{TAP_2/Bai_55_Phep_tru_trong_pham_vi_10000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{56}{Nhân số có bốn chữ số với số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-56}
+\input{TAP_2/Bai_56_Nhan_so_co_bon_chu_so_voi_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{57}{Chia số có bốn chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-57}
+\input{TAP_2/Bai_57_Chia_so_co_bon_chu_so_cho_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{58}{Luyện tập chung phép tính 10 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-58}
+\input{TAP_2/Bai_58_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Các số đến 100 000
+% =========================================================================
+\section{Các số đến 100 000}
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Các số đến 100 000}{59}{Các số có năm chữ số. Số 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-59}
+\input{TAP_2/Bai_59_Cac_so_co_nam_chu_so_so_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Các số đến 100 000}{60}{So sánh các số trong phạm vi 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-60}
+\input{TAP_2/Bai_60_So_sanh_cac_so_trong_pham_vi_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Các số đến 100 000}{61}{Làm tròn số đến hàng nghìn, hàng chục nghìn}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-61}
+\input{TAP_2/Bai_61_Lam_tron_so_den_hang_nghin_hang_chuc_nghin.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Các số đến 100 000}{62}{Luyện tập chung số có năm chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-62}
+\input{TAP_2/Bai_62_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Cộng, trừ trong phạm vi 100 000
+% =========================================================================
+\section{Cộng, trừ trong phạm vi 100 000}
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Cộng, trừ trong phạm vi 100 000}{63}{Phép cộng trong phạm vi 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-63}
+\input{TAP_2/Bai_63_Phep_cong_trong_pham_vi_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Cộng, trừ trong phạm vi 100 000}{64}{Phép trừ trong phạm vi 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-64}
+\input{TAP_2/Bai_64_Phep_tru_trong_pham_vi_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Cộng, trừ trong phạm vi 100 000}{65}{Luyện tập chung cộng trừ 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-65}
+\input{TAP_2/Bai_65_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Xem đồng hồ. tháng -- năm. tiền việt nam
+% =========================================================================
+\section{Xem đồng hồ. tháng -- năm. tiền việt nam}
+
+\TaoPhieuBaiTap{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{66}{Xem đồng hồ}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-66}
+\input{TAP_2/Bai_66_Xem_dong_ho_thang_nam.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{67}{Tháng -- Năm}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-67}
+\input{TAP_2/Bai_67_Thuc_hanh_xem_dong_ho_xem_lich.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{68}{Tiền Việt Nam}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-68}
+\input{TAP_2/Bai_68_Tien_viet_nam.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{69}{Luyện tập chung thời gian và tiền tệ}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-69}
+\input{TAP_2/Bai_69_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Nhân, chia trong phạm vi 100 000
+% =========================================================================
+\section{Nhân, chia trong phạm vi 100 000}
+
+\TaoPhieuBaiTap{Chủ đề 14 -- Nhân, chia trong phạm vi 100 000}{70}{Nhân số có năm chữ số với số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-70}
+\input{TAP_2/Bai_70_Nhan_so_co_nam_chu_so_voi_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 14 -- Nhân, chia trong phạm vi 100 000}{71}{Chia số có năm chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-71}
+\input{TAP_2/Bai_71_Chia_so_co_nam_chu_so_cho_so_co_mot_chu_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 14 -- Nhân, chia trong phạm vi 100 000}{72}{Luyện tập chung nhân chia 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-72}
+\input{TAP_2/Bai_72_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Làm quen với yếu tố thống kê, xác suất
+% =========================================================================
+\section{Làm quen với yếu tố thống kê, xác suất}
+
+\TaoPhieuBaiTap{Chủ đề 15 -- Làm quen với yếu tố thống kê, xác suất}{73}{Thu thập, phân loại, ghi chép số liệu}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-73}
+\input{TAP_2/Bai_73_Thu_thap_phan_loai_ghi_chep_so_lieu_bang_so_lieu.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 15 -- Làm quen với yếu tố thống kê, xác suất}{74}{Khả năng xảy ra của một sự kiện}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-74}
+\input{TAP_2/Bai_74_Kha_nang_xay_ra_cua_mot_su_kien.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 15 -- Làm quen với yếu tố thống kê, xác suất}{75}{Thực hành trải nghiệm thống kê}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-75}
+\input{TAP_2/Bai_75_Thuc_hanh_trai_nghiem_thong_ke.tex}
+\newpage
+
+
+% =========================================================================
+% Ôn tập cuối năm
+% =========================================================================
+\section{Ôn tập cuối năm}
+
+\TaoPhieuBaiTap{Chủ đề 16 -- Ôn tập cuối năm}{76}{Ôn tập các số trong phạm vi 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-76}
+\input{TAP_2/Bai_76_On_tap_cac_so_pham_vi_10000_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 16 -- Ôn tập cuối năm}{77}{Ôn tập phép cộng, phép trừ trong phạm vi 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-77}
+\input{TAP_2/Bai_77_On_tap_phep_cong_phep_tru_pham_vi_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 16 -- Ôn tập cuối năm}{78}{Ôn tập phép nhân, phép chia trong phạm vi 100 000}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-78}
+\input{TAP_2/Bai_78_On_tap_phep_nhan_phep_chia_pham_vi_100000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 16 -- Ôn tập cuối năm}{79}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-79}
+\input{TAP_2/Bai_79_On_tap_hinh_hoc_va_do_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 16 -- Ôn tập cuối năm}{80}{Ôn tập bảng số liệu và khả năng xảy ra}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-80}
+\input{TAP_2/Bai_80_On_tap_bang_so_lieu_kha_nang_xay_ra.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 16 -- Ôn tập cuối năm}{81}{Ôn tập chung cuối năm}{https://loptoanthaylinh.vn/bai-tap/toan-3/bai-81}
+\input{TAP_2/Bai_81_On_tap_chung.tex}
+\newpage
+
+\end{document}

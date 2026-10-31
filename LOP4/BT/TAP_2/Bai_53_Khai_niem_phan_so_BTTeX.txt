@@ -1,0 +1,199 @@
+\begin{ex}
+Phân số $\frac{3}{5}$ có tử số là bao nhiêu?
+\shortans{3}
+\loigiai{
+Tử số là 3.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{3}{5}$ có mẫu số là bao nhiêu?
+\shortans{5}
+\loigiai{
+Mẫu số là 5.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{7}{12}$ có tử số là bao nhiêu?
+\shortans{7}
+\loigiai{
+Tử số là 7.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{7}{12}$ có mẫu số là bao nhiêu?
+\shortans{12}
+\loigiai{
+Mẫu số là 12.
+}
+\end{ex}
+
+\begin{ex}
+Mẫu số của một phân số có thể bằng 0 không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Mẫu số luôn phải khác 0 (0).
+}
+\end{ex}
+
+\begin{ex}
+Chia một hình tròn thành 6 phần bằng nhau, tô màu 5 phần. Phân số chỉ phần đã tô màu là bao nhiêu?
+\shortans{5/6}
+\loigiai{
+Phân số là $\frac{5}{6}$.
+}
+\end{ex}
+
+\begin{ex}
+Chia một đoạn thẳng thành 8 phần bằng nhau, lấy 3 phần. Phân số chỉ số phần đã lấy là bao nhiêu?
+\shortans{3/8}
+\loigiai{
+Phân số là $\frac{3}{8}$.
+}
+\end{ex}
+
+\begin{ex}
+Một rổ có 10 quả cam, trong đó có 7 quả chín. Phân số chỉ số quả cam chín trong rổ là bao nhiêu?
+\shortans{7/10}
+\loigiai{
+Phân số là $\frac{7}{10}$.
+}
+\end{ex}
+
+\begin{ex}
+Một lớp có 35 học sinh, trong đó có 18 bạn nữ. Phân số chỉ số bạn nữ so với cả lớp là bao nhiêu?
+\shortans{18/35}
+\loigiai{
+Phân số là $\frac{18}{35}$.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần có 7 ngày. Phân số chỉ 4 ngày trong tuần là bao nhiêu?
+\shortans{4/7}
+\loigiai{
+Phân số là $\frac{4}{7}$.
+}
+\end{ex}
+
+\begin{ex}
+Một giờ có 60 phút. Phân số chỉ 25 phút so với 1 giờ (viết dưới dạng phân số tối giản) là bao nhiêu?
+\shortans{5/12}
+\loigiai{
+$\frac{25}{60} = \frac{5}{12}$.
+}
+\end{ex}
+
+\begin{ex}
+Chia cái bánh thành 4 phần bằng nhau, bé ăn 1 phần. Phân số chỉ phần bánh bé đã ăn là bao nhiêu?
+\shortans{1/4}
+\loigiai{
+Phân số là $\frac{1}{4}$.
+}
+\end{ex}
+
+\begin{ex}
+Phần bánh còn lại trong bài toán trên là bao nhiêu?
+\shortans{3/4}
+\loigiai{
+$1 - \frac{1}{4} = \frac{3}{4}$.
+}
+\end{ex}
+
+\begin{ex}
+Tử số của phân số viết ở trên hay dưới gạch ngang? (Trên ghi 1, dưới ghi 2).
+\shortans{1}
+\loigiai{
+Tử số viết ở trên gạch ngang (1).
+}
+\end{ex}
+
+\begin{ex}
+Mẫu số của phân số viết ở trên hay dưới gạch ngang? (Trên ghi 1, dưới ghi 2).
+\shortans{2}
+\loigiai{
+Mẫu số viết ở dưới gạch ngang (2).
+}
+\end{ex}
+
+\begin{ex}
+Phân số chỉ số phần đã tô màu của hình vuông chia thành 9 ô vuông nhỏ bằng nhau, đã tô 4 ô là bao nhiêu?
+\shortans{4/9}
+\loigiai{
+Phân số là $\frac{4}{9}$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số chỉ phần chưa tô màu trong bài toán trên là bao nhiêu?
+\shortans{5/9}
+\loigiai{
+Phân số là $\frac{5}{9}$.
+}
+\end{ex}
+
+\begin{ex}
+Một đàn gà có 15 con, trong đó có 8 con gà mái. Phân số chỉ số gà trống là bao nhiêu?
+\shortans{7/15}
+\loigiai{
+Số gà trống là $15 - 8 = 7$ con. Phân số là $\frac{7}{15}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết thương của phép chia $5 : 8$ dưới dạng phân số.
+\shortans{5/8}
+\loigiai{
+Thương là $\frac{5}{8}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết thương của phép chia $3 : 7$ dưới dạng phân số.
+\shortans{3/7}
+\loigiai{
+Thương là $\frac{3}{7}$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số có tử số bằng mẫu số thì có giá trị bằng bao nhiêu?
+\shortans{1}
+\loigiai{
+Giá trị bằng 1.
+}
+\end{ex}
+
+\begin{ex}
+Phân số có tử số bé hơn mẫu số thì bé hơn hay lớn hơn 1? (Bé hơn 1 ghi 0, lớn hơn 1 ghi 1).
+\shortans{0}
+\loigiai{
+Bé hơn 1 (0).
+}
+\end{ex}
+
+\begin{ex}
+Phân số có tử số lớn hơn mẫu số thì lớn hơn hay bé hơn 1? (Lớn hơn 1 ghi 1, bé hơn 1 ghi 0).
+\shortans{1}
+\loigiai{
+Lớn hơn 1 (1).
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{0}{8}$ có giá trị bằng bao nhiêu?
+\shortans{0}
+\loigiai{
+$\frac{0}{8} = 0$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu phân số có mẫu số bằng 5 và tử số bé hơn 5 (tử số lớn hơn 0)?
+\shortans{4}
+\loigiai{
+Các phân số: $\frac{1}{5}, \frac{2}{5}, \frac{3}{5}, \frac{4}{5}$ (có 4 phân số).
+}
+\end{ex}

@@ -1,0 +1,157 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 59. Vận tốc của một chuyển động đều --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 59. VẬN TỐC CỦA MỘT CHUYỂN ĐỘNG ĐỀU}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Ý nghĩa vận tốc, công thức v = s : t, các đơn vị km/h, m/s và kỹ thuật đổi đơn vị vận tốc trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: KHÁI NIỆM & CÔNG THỨC VẬN TỐC ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTachometer\ 1. Khái niệm và công thức Vận tốc},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Vận tốc}: Là quãng đường đi được trong \textbf{một đơn vị thời gian} (1 giờ, 1 phút hoặc 1 giây).\\
+    $\bullet$ Vận tốc biểu thị mức độ \textbf{nhanh hay chậm} của chuyển động.\\
+    \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+      {\scriptsize\bfseries\color{blue!90!black}$v = s : t$} \quad (Vận tốc $=$ Quãng đường $:$ Thời gian)
+    \end{tcolorbox}
+    Trong đó: $s$ là quãng đường, $t$ là thời gian, $v$ là vận tốc.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faFlagCheckered\ 2. Các đơn vị vận tốc},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{$\text{km/giờ}$ (km/h)}: Nếu $s$ theo $\text{km}$, $t$ theo $\text{giờ}$. (Ô tô, xe máy, máy bay).\\
+    $\bullet$ \textbf{$\text{m/giây}$ (m/s)}: Nếu $s$ theo $\text{m}$, $t$ theo $\text{giây}$. (Gió thổi, người chạy, âm thanh).\\
+    $\bullet$ \textbf{$\text{m/phút}$}: Nếu $s$ theo $\text{m}$, $t$ theo $\text{phút}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: KỸ THUẬT ĐỔI ĐƠN VỊ VẬN TỐC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faExchange\ 3. Quy tắc chuyển đổi giữa $\text{km/h}$ và $\text{m/s}$},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  $1\text{ km/giờ} = \dfrac{1\,000\text{ m}}{3\,600\text{ giây}} = \dfrac{1}{3,6}\text{ m/giây}$. Do đó:\\
+  \begin{tcolorbox}[colback=white, colframe=purple!70!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+    {\scriptsize\bfseries\color{purple!90!black}$\text{Từ m/giây} \longrightarrow \text{km/giờ: \textbf{Nhân với 3,6}}$ \qquad | \qquad $\text{Từ km/giờ} \longrightarrow \text{m/giây: \textbf{Chia cho 3,6}}$}
+  \end{tcolorbox}
+  \textit{VD:} $10\text{ m/s} = 10 \times 3,6 = \mathbf{36\text{ km/h}}$ \quad | \quad $54\text{ km/h} = 54 : 3,6 = \mathbf{15\text{ m/s}}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Tam giác công thức chuyển động đều},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=red!15, draw=red!70!black, text=red!90!black, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (s) at (0, 1.1) {QUÃNG ĐƯỜNG: $s = v \times t$};
+    \node[b2] (v) at (-4.5, -0.6) {VẬN TỐC: $v = s : t$};
+    \node[b3] (t) at (4.5, -0.6) {THỜI GIAN: $t = s : v$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (s) -- (v);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (s) -- (t);
+    \draw[teal!85!black, thick, <->] (v) -- (t);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: VÍ DỤ TÍNH TOÁN & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Ví dụ tính vận tốc chuẩn},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Một ô tô đi được quãng đường $135\text{ km}$ hết $2\text{ giờ } 30\text{ phút}$. Tính vận tốc của ô tô theo $\text{km/h}$:\\
+    $\triangleright$ \textbf{Bước 1}: Đổi thời gian ra giờ: $2\text{h } 30\text{p} = 2,5\text{ giờ}$.\\
+    $\triangleright$ \textbf{Bước 2}: Vận tốc là: $v = 135 : 2,5 = \mathbf{54\text{ km/giờ}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lỗi không đổi thời gian}: Lấy $135 : 2,3$ hoặc lấy $135 : 2$ rồi cộng $30$ $\rightarrow$ Sai hoàn toàn! Bắt buộc phải đổi thời gian ra số thập phân hoặc phân số của giờ.\\
+    $\bullet$ Đơn vị vận tốc phải đi liền với đơn vị quãng đường và thời gian ($\text{km/h}, \text{m/s}$).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

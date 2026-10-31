@@ -1,0 +1,199 @@
+\begin{ex}
+Đổi: $1\text{ kg} = \dots\text{ g}$. Điền số thích hợp.
+\shortans{1000}
+\loigiai{
+$1\text{ kg} = 1000\text{ g}$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $350\text{ g} + 250\text{ g} = \dots\text{ g}$. Điền số thích hợp.
+\shortans{600}
+\loigiai{
+$350 + 250 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $800\text{ g} - 450\text{ g} = \dots\text{ g}$. Điền số thích hợp.
+\shortans{350}
+\loigiai{
+$800 - 450 = 350$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $120\text{ g} \times 3 = \dots\text{ g}$. Điền số thích hợp.
+\shortans{360}
+\loigiai{
+$120 \times 3 = 360$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $500\text{ g} : 5 = \dots\text{ g}$. Điền số thích hợp.
+\shortans{100}
+\loigiai{
+$500 : 5 = 100$.
+}
+\end{ex}
+
+\begin{ex}
+Một quả táo cân nặng 180 g, một quả cam cân nặng 220 g. Cả quả táo và quả cam cân nặng bao nhiêu gam?
+\shortans{400}
+\loigiai{
+$180 + 220 = 400$ g.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp sữa bột cân nặng 900 g, trong đó vỏ hộp nặng 100 g. Hỏi sữa trong hộp nặng bao nhiêu gam?
+\shortans{800}
+\loigiai{
+$900 - 100 = 800$ g.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi gói bánh cân nặng 150 g. Hỏi 4 gói bánh như thế cân nặng bao nhiêu gam?
+\shortans{600}
+\loigiai{
+$150 \times 4 = 600$ g.
+}
+\end{ex}
+
+\begin{ex}
+Một gói bột ngọt cân nặng 450 g. Người ta đã dùng 200 g. Hỏi gói bột ngọt còn lại bao nhiêu gam?
+\shortans{250}
+\loigiai{
+$450 - 200 = 250$ g.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 1 kg đường và đã dùng 350 g để làm bánh. Hỏi mẹ còn lại bao nhiêu gam đường?
+\shortans{650}
+\loigiai{
+$1000 - 350 = 650$ g.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 gói trà nặng như nhau, tổng cân nặng là 500 g. Hỏi mỗi gói trà cân nặng bao nhiêu gam?
+\shortans{100}
+\loigiai{
+$500 : 5 = 100$ g.
+}
+\end{ex}
+
+\begin{ex}
+Một gói mì tôm nặng 85 g. Hỏi 2 gói mì tôm như thế nặng bao nhiêu gam?
+\shortans{170}
+\loigiai{
+$85 \times 2 = 170$ g.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $250\text{ g} \times 2 + 100\text{ g} = \dots\text{ g}$.
+\shortans{600}
+\loigiai{
+$500 + 100 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000\text{ g} - 400\text{ g} : 2 = \dots\text{ g}$.
+\shortans{800}
+\loigiai{
+$1000 - 200 = 800$.
+}
+\end{ex}
+
+\begin{ex}
+Một con gà nặng 1800 g, một con vịt nặng 1500 g. Con gà nặng hơn con vịt bao nhiêu gam?
+\shortans{300}
+\loigiai{
+$1800 - 1500 = 300$ g.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 3 gói kẹo, mỗi gói nặng 200 g và 1 gói bánh nặng 300 g. Mẹ mua tất cả bao nhiêu gam kẹo và bánh?
+\shortans{900}
+\loigiai{
+$3 \times 200 + 300 = 900$ g.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $450\text{ g} + \dots\text{ g} = 1000\text{ g}$.
+\shortans{550}
+\loigiai{
+$1000 - 450 = 550$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $1\text{ kg} - \dots\text{ g} = 750\text{ g}$.
+\shortans{250}
+\loigiai{
+$1000 - 750 = 250$.
+}
+\end{ex}
+
+\begin{ex}
+Một quả dưa hấu nặng 2 kg 500 g. Quả dưa hấu nặng bao nhiêu gam?
+\shortans{2500}
+\loigiai{
+$2000 + 500 = 2500$ g.
+}
+\end{ex}
+
+\begin{ex}
+Có 800 g bột mì chia đều vào 4 túi. Mỗi túi đựng bao nhiêu gam bột mì?
+\shortans{200}
+\loigiai{
+$800 : 4 = 200$ g.
+}
+\end{ex}
+
+\begin{ex}
+Một gói đường nặng 500 g. Hỏi 2 gói đường như thế nặng bao nhiêu ki-lô-gam?
+\shortans{1}
+\loigiai{
+$500 \times 2 = 1000\text{ g} = 1\text{ kg}$.
+}
+\end{ex}
+
+\begin{ex}
+Một quả trứng gà nặng khoảng 50 g. Hỏi 6 quả trứng gà nặng khoảng bao nhiêu gam?
+\shortans{300}
+\loigiai{
+$50 \times 6 = 300$ g.
+}
+\end{ex}
+
+\begin{ex}
+Bác An có 700 g hạt giống, đã gieo 420 g. Bác An còn lại bao nhiêu gam hạt giống?
+\shortans{280}
+\loigiai{
+$700 - 420 = 280$ g.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $60\text{ g} \times 5 = \dots\text{ g}$.
+\shortans{300}
+\loigiai{
+$60 \times 5 = 300$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $900\text{ g} : 3 = \dots\text{ g}$.
+\shortans{300}
+\loigiai{
+$900 : 3 = 300$.
+}
+\end{ex}

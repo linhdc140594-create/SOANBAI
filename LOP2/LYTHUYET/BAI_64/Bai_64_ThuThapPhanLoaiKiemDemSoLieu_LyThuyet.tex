@@ -1,0 +1,170 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 64: THU THẬP, PHÂN LOẠI, KIỂM ĐẾM SỐ LIỆU}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Quy trình ba bước làm quen với thống kê toán học sơ cấp}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Các khái niệm ban đầu}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Thu thập:} Quan sát, tìm kiếm, tập hợp các đối tượng, sự vật cần tìm hiểu xung quanh ta.
+  \item \textbf{Phân loại:} Sắp xếp các đối tượng đã thu thập thành từng nhóm theo các tiêu chí cụ thể:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Theo hình dạng (hình tròn, vuông, tam giác...).
+    \item Theo màu sắc (xanh, đỏ, vàng...).
+    \item Theo loại (hoa, quả, con vật, phương tiện...).
+  \end{itemize}
+  \item \textbf{Kiểm đếm:} Đếm số lượng của từng nhóm đối tượng sau khi đã phân loại.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Kĩ năng ghi chép số liệu}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cách đếm tránh sót, tránh trùng:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Đếm đến đâu dùng bút chì đánh dấu gạch chéo hoặc chấm nhẹ vào hình đó.
+    \item Dùng bảng kiểm đếm: mỗi đối tượng gạch một vạch ($|$), đủ $5$ vạch tạo thành một cụm gạch chéo.
+  \end{itemize}
+  \item \textbf{Lập bảng số liệu:} Ghi tên nhóm và số lượng tương ứng vào từng cột/hàng.
+  \item \textbf{Nhận xét số liệu:} Nhóm nào nhiều nhất, nhóm nào ít nhất, nhóm nào có số lượng bằng nhau.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ quy trình 3 bước xử lí số liệu thống kê}
+]
+\centering
+\begin{tikzpicture}[x=1.65cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (b1) at (0,0) {BƯỚC 1: THU THẬP\\Quan sát đồ vật};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (b2) at (2.4,0) {BƯỚC 2: PHÂN LOẠI\\Theo tiêu chí};
+  \node[rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!15, font=\scriptsize\bfseries] (b3) at (4.8,0) {BƯỚC 3: KIỂM ĐẾM\\Ghi chép số lượng};
+
+  \draw[arr, thick] (b1) -- (b2);
+  \draw[arr, thick] (b2) -- (b3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Bảng kiểm đếm minh họa}
+]
+{\footnotesize
+Kiểm đếm các loại hoa trong vườn:\\
+\begin{tabular}{|l|l|c|}
+  \hline
+  \textbf{Loại hoa} & \textbf{Kiểm đếm} & \textbf{Số lượng} \\
+  \hline
+  Hoa hồng & $||||$ & $\mathbf{4}$ \\
+  Hoa cúc & $||||| \ ||$ & $\mathbf{7}$ \\
+  Hoa sen & $|||||$ & $\mathbf{5}$ \\
+  \hline
+\end{tabular}
+\vspace{1mm}\\
+- Hoa có nhiều nhất là: \textbf{Hoa cúc} ($7$ bông).\\
+- Hoa có ít nhất là: \textbf{Hoa hồng} ($4$ bông).\\
+- Tổng cộng có: $4 + 7 + 5 = \mathbf{16}$ bông hoa.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Lỗi thường gặp khi đếm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Đếm trùng lặp:} Một vật đếm đến hai lần do không đánh dấu.
+  \item \textbf{Bỏ sót đối tượng:} Nhìn lướt qua mắt bỏ sót những vật nằm ở góc hoặc bị che khuất.
+  \item \textbf{Phân loại sai tiêu chí:} Để lẫn đồ vật của nhóm này sang nhóm khác.
+  \item Luôn cộng tổng số lượng các nhóm xem có khớp với tổng số đối tượng ban đầu không.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

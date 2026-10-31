@@ -1,0 +1,175 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 25. Hình tam giác. Diện tích hình tam giác --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 25. HÌNH TAM GIÁC. DIỆN TÍCH HÌNH TAM GIÁC}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Cấu tạo đáy, chiều cao tương ứng, công thức tính xuôi và tính ngược diện tích tam giác trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CẤU TẠO HÌNH TAM GIÁC ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 1. Các yếu tố của hình tam giác},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Hình tam giác có \textbf{3 đỉnh, 3 cạnh, 3 góc}.\\
+    $\bullet$ \textbf{Đáy và Chiều cao:}\\
+    $\triangleright$ Chọn một cạnh làm \textbf{đáy} (độ dài $a$).\\
+    $\triangleright$ Đoạn thẳng vuông góc kẻ từ đỉnh đối diện xuống đáy gọi là \textbf{đường cao} (độ dài $h$).\\
+    $\bullet$ \textbf{Phân loại tam giác:}\\
+    $\triangleright$ Tam giác có 3 góc nhọn.\\
+    $\triangleright$ Tam giác vuông (chiều cao chính là 1 cạnh góc vuông).\\
+    $\triangleright$ Tam giác có 1 góc tù (đường cao rơi ra ngoài đáy).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ Minh họa đường cao},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \begin{tikzpicture}[scale=0.75]
+      \coordinate (A) at (1.5,1.9);
+      \coordinate (B) at (0,0);
+      \coordinate (C) at (3.2,0);
+      \coordinate (H) at (1.5,0);
+      \draw[thick, fill=teal!15] (A)--(B)--(C)--cycle;
+      \draw[dashed, red!85!black, thick] (A)--(H);
+      \draw (1.5,0.2) -- (1.7,0.2) -- (1.7,0);
+      \node[above] at (A) {\scriptsize $A$};
+      \node[left] at (B) {\scriptsize $B$};
+      \node[right] at (C) {\scriptsize $C$};
+      \node[below] at (H) {\scriptsize $H$};
+      \node[left, red!85!black] at (1.5,1) {\scriptsize $h$};
+      \node[below] at (1.6, -0.3) {\scriptsize Đáy $a = BC$};
+    \end{tikzpicture}\\[2pt]
+    {\tiny\color{teal!95!black}\bfseries Đường cao $AH$ vuông góc với cạnh đáy $BC$}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: CÔNG THỨC DIỆN TÍCH VÀ CÔNG THỨC TÍNH NGƯỢC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faCalculator\ 2. Công thức Diện tích hình tam giác (Tính xuôi \& Tính ngược)},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{p{0.32\textwidth}|p{0.32\textwidth}|p{0.32\textwidth}}
+    \textbf{TÍNH DIỆN TÍCH ($S$)} & \textbf{TÍNH CHIỀU CAO ($h$)} & \textbf{TÍNH ĐỘ DÀI ĐÁY ($a$)} \\ \hline
+    \centering\textbf{\color{purple!90!black}$S = \dfrac{a \times h}{2}$} & \centering\textbf{\color{blue!90!black}$h = \dfrac{S \times 2}{a}$} & \centering\textbf{\color{teal!90!black}$a = \dfrac{S \times 2}{h}$} \\[2pt]
+    (Đáy nhân chiều cao chia 2) & (Diện tích nhân 2 chia đáy) & (Diện tích nhân 2 chia chiều cao)
+  \end{tabular}\\[3pt]
+  $\bullet$ \textbf{Tam giác vuông:} Diện tích bằng tích độ dài hai cạnh góc vuông chia cho $2$: $S = \dfrac{a \times b}{2}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kiến thức trọng tâm Diện tích hình tam giác},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faShapes\ HÌNH TAM GIÁC};
+    \node[b1] (n1) at (-5.0, -0.45) {\textbf{ĐÁY \& CHIỀU CAO:}\\[2pt]Đáy và đường cao tương ứng\\phải vuông góc với nhau};
+    \node[b2] (n2) at (0, -0.65) {\textbf{ĐIỀU KIỆN:}\\[2pt]Cùng đơn vị đo độ dài};
+    \node[b3] (n3) at (5.0, -0.45) {\textbf{CÔNG THỨC DIỆN TÍCH:}\\[2pt]$S = (a \times h) : 2$\\(Tính ngược: nhớ nhân 2 trước)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TÍNH CHẤT TỈ SỐ DIỆN TÍCH & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Tính chất tỉ số diện tích tam giác},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Hai tam giác có \textbf{chung đáy} (hoặc đáy bằng nhau): Tỉ số diện tích bằng tỉ số chiều cao.\\
+    $\bullet$ Hai tam giác có \textbf{chung chiều cao} (hoặc chiều cao bằng nhau): Tỉ số diện tích bằng tỉ số hai đáy.\\
+    $\bullet$ Đường trung tuyến chia tam giác thành hai phần có \textbf{diện tích bằng nhau}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lỗi quên chia 2}: Học sinh rất hay lấy $a \times h$ rồi dừng lại mà quên chia cho $2$!\\
+    $\bullet$ Khi tính ngược tìm chiều cao hoặc đáy: Nhớ phải lấy \textbf{$S \times 2$} trước khi chia cho đại lượng đã biết.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

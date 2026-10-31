@@ -1,0 +1,199 @@
+\begin{ex}
+Tính giá trị của biểu thức: $125 + 45 - 70$.
+\shortans{100}
+\loigiai{
+$170 - 70 = 100$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $80 - 20 + 35$.
+\shortans{95}
+\loigiai{
+$60 + 35 = 95$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $24 \times 2 : 4$.
+\shortans{12}
+\loigiai{
+$48 : 4 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $96 : 3 \times 2$.
+\shortans{64}
+\loigiai{
+$32 \times 2 = 64$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $50 + 20 \times 3$.
+\shortans{110}
+\loigiai{
+Nhân trước cộng sau: $50 + 60 = 110$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $90 - 40 : 2$.
+\shortans{70}
+\loigiai{
+Chia trước trừ sau: $90 - 20 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $150 - 30 \times 4$.
+\shortans{30}
+\loigiai{
+$150 - 120 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $200 + 400 : 5$.
+\shortans{280}
+\loigiai{
+$200 + 80 = 280$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $(45 + 15) \times 3$.
+\shortans{180}
+\loigiai{
+Trong ngoặc trước: $60 \times 3 = 180$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $(84 - 24) : 6$.
+\shortans{10}
+\loigiai{
+Trong ngoặc trước: $60 : 6 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $120 : (2 + 4)$.
+\shortans{20}
+\loigiai{
+$120 : 6 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $40 \times (10 - 6)$.
+\shortans{160}
+\loigiai{
+$40 \times 4 = 160$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $35 + 25 \times 2 - 10$.
+\shortans{75}
+\loigiai{
+$35 + 50 - 10 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $100 - 60 : 2 + 15$.
+\shortans{85}
+\loigiai{
+$100 - 30 + 15 = 85$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $(30 + 50) : 4 + 12$.
+\shortans{32}
+\loigiai{
+$80 : 4 + 12 = 20 + 12 = 32$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $250 - (60 + 40) \times 2$.
+\shortans{50}
+\loigiai{
+$250 - 100 \times 2 = 250 - 200 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $48 : 4 + 36 : 3$.
+\shortans{24}
+\loigiai{
+$12 + 12 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $15 \times 4 - 40 : 2$.
+\shortans{40}
+\loigiai{
+$60 - 20 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $70 + 30 : (5 + 5)$.
+\shortans{73}
+\loigiai{
+$70 + 30 : 10 = 70 + 3 = 73$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $(100 - 20) : (4 + 4)$.
+\shortans{10}
+\loigiai{
+$80 : 8 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm giá trị của $A$ biết $A = 12 \times 5 + 40$.
+\shortans{100}
+\loigiai{
+$A = 60 + 40 = 100$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm giá trị của $B$ biết $B = 180 : 3 - 25$.
+\shortans{35}
+\loigiai{
+$B = 60 - 25 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $(35 + \dots) \times 2 = 100$.
+\shortans{15}
+\loigiai{
+$35 + x = 50 \Rightarrow x = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $80 - \dots : 3 = 60$.
+\shortans{60}
+\loigiai{
+$x : 3 = 20 \Rightarrow x = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $240 : 6 \times 5$.
+\shortans{200}
+\loigiai{
+$40 \times 5 = 200$.
+}
+\end{ex}

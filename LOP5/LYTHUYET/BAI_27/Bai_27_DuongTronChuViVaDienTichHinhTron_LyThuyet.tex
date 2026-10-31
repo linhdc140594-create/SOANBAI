@@ -1,0 +1,160 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 27. Đường tròn. Chu vi và diện tích hình tròn --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 27. ĐƯỜNG TRÒN. CHU VI VÀ DIỆN TÍCH HÌNH TRÒN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Bán kính r, đường kính d, số Pi (3,14), công thức Chu vi và Diện tích hình tròn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: KHÁI NIỆM ĐƯỜNG TRÒN VÀ HÌNH TRÒN ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCircleO\ 1. Đường tròn và Hình tròn},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đường tròn tâm $O$ bán kính $r$:} Đường viền bao quanh.\\
+    $\bullet$ \textbf{Hình tròn:} Gồm đường tròn và toàn bộ phần mặt phẳng nằm bên trong đường tròn đó.\\
+    $\bullet$ \textbf{Bán kính ($r$):} Đoạn thẳng nối tâm $O$ với điểm trên đường tròn.\\
+    $\bullet$ \textbf{Đường kính ($d$):} Đoạn thẳng đi qua tâm $O$ nối hai điểm trên đường tròn: \textbf{$d = 2 \times r$}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ Minh họa hình tròn},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \begin{tikzpicture}[scale=0.75]
+      \draw[fill=teal!15, draw=teal!85!black, thick] (0,0) circle (1.2cm);
+      \draw[blue!85!black, thick] (0,0) -- (1.2,0) node[midway, above, font=\tiny] {$r$};
+      \draw[red!85!black, dashed, thick] (-1.2,0) -- (0,0);
+      \filldraw (0,0) circle (1.5pt) node[below, font=\scriptsize] {$O$};
+      \node[font=\tiny\bfseries, red!85!black] at (0,-0.7) {Đường kính $d = 2r$};
+    \end{tikzpicture}\\[2pt]
+    {\tiny\color{teal!95!black}\bfseries Số $\pi \approx 3,14$ dùng cho tiểu học}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: CÔNG THỨC CHU VI VÀ DIỆN TÍCH ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faCalculator\ 2. Bảng công thức Chu vi và Diện tích hình tròn},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{p{0.48\textwidth}|p{0.48\textwidth}}
+    \textbf{CHU VI HÌNH TRÒN ($C$)} & \textbf{DIỆN TÍCH HÌNH TRÒN ($S$)} \\ \hline
+    $\bullet$ Theo đường kính: $\mathbf{C = d \times 3,14}$ & $\bullet$ Theo bán kính: $\mathbf{S = r \times r \times 3,14}$ \\
+    $\bullet$ Theo bán kính: $\mathbf{C = r \times 2 \times 3,14}$ & \textit{(Bán kính nhân bán kính rồi nhân 3,14)} \\
+    $\triangleright$ Tính ngược: $d = C : 3,14$ hoặc $r = C : 6,28$. & $\triangleright$ Tính ngược: $r \times r = S : 3,14 \rightarrow$ tìm $r$.
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Chu vi \& Diện tích hình tròn},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.75) {\faCircle\ HÌNH TRÒN};
+    \node[b1] (n1) at (-4.7, -0.45) {\textbf{CHU VI: } $C = d \times 3,14 = 2 \times r \times 3,14$\\[2pt](Độ dài bánh xe lăn $1$ vòng)};
+    \node[b2] (n2) at (4.7, -0.45) {\textbf{DIỆN TÍCH: } $S = r \times r \times 3,14$\\[2pt](Bề mặt bồn hoa, mặt đồng hồ)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n2);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TOÁN BÁNH XE LĂN & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBicycle\ Dạng toán bánh xe lăn trên đường},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Bánh xe lăn $1$ vòng đi được quãng đường bằng đúng \textbf{chu vi bánh xe}: $s_1 = C = d \times 3,14$.\\
+    $\bullet$ Khi bánh xe lăn $n$ vòng: $\text{Quãng đường } S = C \times n$.\\
+    $\bullet$ Số vòng lăn: $n = S : C$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lỗi nhầm kinh điển}: Diện tích là $r \times r \times 3,14$, rất nhiều bạn nhầm thành $r \times 2 \times 3,14$ (đó là Chu vi!).\\
+    $\bullet$ Cho đường kính $d$ mà tính diện tích: \textbf{Bắt buộc} phải tìm bán kính $r = d : 2$ trước.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

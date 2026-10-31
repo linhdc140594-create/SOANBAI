@@ -1,0 +1,601 @@
+\documentclass[14pt,a4paper,oneside]{extbook} % Dùng extbook để nhận cỡ chữ 14pt chuẩn
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell,venndiagram}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through}
+\usepackage{yhmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{fillbetween}
+\usepackage[tikz]{bclogo}
+\usepackage[top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm, headheight=16pt]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+
+\usepackage[many]{tcolorbox}
+
+% Gói ex_test (Chọn [dethi] để in đề hoặc [loigiai] để in cả lời giải)
+%\usepackage[loigiai]{ex_test}
+\usepackage[dethi]{ex_test}
+
+\def\colorEX{\color{blue}}
+
+\usepackage{fontawesome}
+\usepackage{framed}
+\usepackage{polynom}
+
+\colorlet{tcbcol@back}{tcbcolback}
+\colorlet{tcbcol@frame}{tcbcolframe}
+\newtcolorbox[auto counter]{danggg}[1]{
+	fonttitle=\bfseries\upshape,
+	colframe=blue,colback=blue!10,
+	sharp corners, breakable, 
+	title={\color{white}\faFolderO \ DẠNG~\thetcbcounter.\ #1}
+	\addcontentsline{toc}{subsection}{Dạng~\thetcbcounter. #1}
+}
+\newenvironment{dang}[1]{
+	\begin{danggg}{#1}
+		\textit{Phương pháp giải:~}
+	}{\end{danggg}}
+\newenvironment{tomtat}{
+	\begin{tcolorbox}[boxrule=1pt,arc=0mm,breakable]
+	}{\end{tcolorbox}}
+
+\newtheorem{bt}{Bài}
+\newtheorem{vd}{Ví dụ}
+\theorembodyfont{\it}
+\newtheorem{dl}{ Định lí}
+\theoremseparator{.}
+\theorembodyfont{\rm}
+\newtheorem{hq}{ Hệ quả}
+\newtheorem{tc}{ Tính chất}
+\newtheorem{dn}{ Định nghĩa}
+\theoremstyle{nonumberplain}
+\newtheorem{kn}{ Khái niệm}
+\theoremseparator{.}
+\theorembodyfont{\it}
+\usepackage{stackengine}
+\usepackage{scalerel}
+
+\newcommand\dangersign[1][2ex]{%
+	\renewcommand\stacktype{L}%
+	\scaleto{\stackon[1.3pt]{\color{red}$\triangle$}{\fontsize{4}{0}\selectfont !}}{#1}%
+}
+\renewcommand{\parallel}{\mathbin{\!\raisebox{0.25pt}/\mkern-2mu\raisebox{0.25pt}/\!}}
+\renewcommand{\backsim}{\ \mathord{\raisebox{0.025\baselineskip}{\rotatebox{90}{\fontfamily{qag}\selectfont S}}}\ }
+\theoremseparator{}
+\newtheorem{note}{{\dangersign[3ex]}}
+\newtheorem{nx}{Nhận xét.}
+\newtcolorbox{luuy}[1][]{colback=yellow!20,title={\bfseries Chú ý},#1}
+
+% Tiêu đề chương / bài
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\makeatletter
+\renewcommand\thesection{\@arabic\c@section}
+\makeatother
+
+\titleformat{\section}{\centering\Large\bfseries\color{blue!80!black}}{Chủ đề~\thesection.}{1ex}{
+	\setcounter{vd}{0}
+	\setcounter{ex}{0}
+	\setcounter{bt}{0}
+	\setcounter{dl}{0}
+	\setcounter{dn}{0}
+	\setcounter{hq}{0}
+	\setcounter{tc}{0}
+	\MakeUppercase
+}
+\titleformat{\subsection}{\large\bfseries\color{blue!70!black}}{}{0ex}{}
+\usepackage[final]{pdfpages}
+
+% Cài đặt riêng
+\def\hideboxEX{}
+\renewcommand{\boxEX}[2][15pt]{%
+	\setbox1=\hbox{#2\strut}
+	\def\sizeboxEX{#1}%
+	\ \EXbox{\hideboxEX#2\strut}\ %
+}
+
+\renewcommand\arraystretch{1.4} 
+\renewcommand{\tabcolsep}{4mm}
+
+% Dòng kẻ làm bài TikZ chuẩn 8mm
+\renewcommand{\dotlineEX}[1]{%
+  \par\vspace{2mm}%
+  \noindent%
+  \begin{tikzpicture}[x=1mm, y=1mm]%
+    \foreach \i in {1,...,#1} {%
+      \draw[gray!60, loosely dotted, line width=0.6pt] (0, -\i*8) -- (\linewidth, -\i*8);%
+    }%
+  \end{tikzpicture}%
+}
+
+% Nút Casio
+\renewcommand\boxed[1]{%
+	\tikz[baseline=(key.base)]
+	\node[%
+	draw,
+	fill=black!40,
+	drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black!90,opacity=0.75},
+	rectangle,minimum width=0.6cm,minimum height=0.6cm,
+	rounded corners=2pt,
+	inner sep=1pt,
+	line width=0.5pt,
+	font=\sffamily
+	](key) {\color{white}#1\strut}
+	;
+}
+
+\newcommand{\hoac}[1]{\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{\left\{\begin{aligned}#1\end{aligned}\right.}
+
+\pagestyle{fancy}
+\fancyhf{} % Xóa sạch toàn bộ header/footer cũ
+\fancyhead[L]{\small\itshape\color{gray} Tuyển tập Chuyên đề Vận dụng Toán 3 theo từng bài}
+\fancyhead[R]{\small\bfseries\color{blue!80!black} Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\caidat}{2}
+\newcommand{\indapan}[2]{
+	\begin{center}
+		\color{blue!50!green} \fbox{\fontfamily{qag}\bfseries\selectfont BẢNG ĐÁP ÁN}
+	\end{center}
+	{\fontfamily{lmtt}\bfseries\selectfont \inputansbox[\caidat]{#1}{#2}}
+}
+
+\everymath{\color{blue}}
+
+% -------------------------------------------------------------------------
+% KHUNG TIÊU ĐỀ PHIẾU KIỂM TRA KÈM MÃ QR CODE CHO TỪNG BÀI
+% Cú pháp: \TaoPhieuKiemTra{Chủ đề}{Số bài}{Tên bài}{Link QR thi online}
+% -------------------------------------------------------------------------
+\newcommand{\TaoPhieuKiemTra}[4]{%
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{Bài #2. #3}%
+  \noindent
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=blue!85!black,
+    arc=2.5mm,
+    boxrule=1pt,
+    left=2.5mm, right=2.5mm, top=1.8mm, bottom=1.8mm
+  ]
+    % LOGO TRUNG TÂM & HOTLINE | TIÊU ĐỀ BÀI KIỂM TRA | MÃ QR CODE
+    \begin{minipage}[c]{0.27\textwidth}
+      \centering
+      \begin{tcolorbox}[colback=blue!8, colframe=blue!80!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm, left=1mm, right=1mm]
+        {\bfseries\color{blue!95!black}\small LỚP TOÁN THẦY LĨNH}\\[1.5pt]
+        {\scriptsize\color{blue!70!black}\faGlobe~loptoanthaylinh.vn}\\[1.5pt]
+        {\scriptsize\bfseries\color{blue!85!black}\faPhone~Hotline: 0866976878}
+      \end{tcolorbox}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.56\textwidth}
+      \centering
+      {\footnotesize\bfseries\color{blue!80!black}\MakeUppercase{#1}}\\[2pt]
+      {\large\bfseries\color{red!85!black}\MakeUppercase{BÀI #2: #3}}\\[2pt]
+      {\scriptsize\itshape CHUYÊN ĐỀ VẬN DỤNG -- Thời gian làm bài: 35 phút -- Cấu trúc 3 phần chuẩn}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.14\textwidth}
+      \centering
+      \qrcode[height=1.35cm]{#4}\\[2pt]
+      {\tiny\bfseries\color{blue!90!black}\faQrcode~Quét QR thi}
+    \end{minipage}
+  \end{tcolorbox}
+  \vspace{1.5mm}
+}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG
+% =========================================================================
+\section{Ôn tập và bổ sung}
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{01}{Ôn tập các số trong phạm vi 1000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-01}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai01_OnTapCacSoDen1000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{02}{Ôn tập phép cộng, phép trừ trong phạm vi 1000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-02}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai02_OnTapPhepCongPhepTruPhamVi1000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{03}{Tìm thành phần trong phép cộng, phép trừ}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-03}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai03_TimThanhPhanTrongPhepCongPhepTru.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{04}{Ôn tập bảng nhân 2, bảng nhân 5}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-04}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai04_OnTapBangNhan25BangChia25.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{05}{Ôn tập bảng chia 2, bảng chia 5}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-05}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai05_BangNhan3BangChia3.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{06}{Gấp một số lên một số lần}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-06}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai06_BangNhan4BangChia4.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{07}{Giảm đi một số lần}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-07}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai07_OnTapHinhHocVaDoLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{08}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-08}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai08_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA
+% =========================================================================
+\section{Bảng nhân, bảng chia}
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{09}{Bảng nhân 6, bảng chia 6}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-09}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai09_BangNhan6BangChia6.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{10}{Bảng nhân 7, bảng chia 7}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-10}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai10_BangNhan7BangChia7.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{11}{Bảng nhân 8, bảng chia 8}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-11}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai11_BangNhan8BangChia8.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{12}{Bảng nhân 9, bảng chia 9}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-12}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai12_BangNhan9BangChia9.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{13}{Tìm thành phần trong phép nhân, phép chia}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-13}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai13_TimThanhPhanTrongPhepNhanPhepChia.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{14}{Một phần mấy (1/2, 1/3, 1/4, 1/5...)}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-14}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai14_MotPhanMay.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Bảng nhân, bảng chia}{15}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-15}
+\input{CHỦ ĐỀ 2 - BẢNG NHÂN, BẢNG CHIA/Chuong2_Bai15_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI
+% =========================================================================
+\section{Làm quen với hình phẳng, hình khối}
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{16}{Điểm ở giữa, trung điểm của đoạn thẳng}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-16}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai16_DiemOGiuaTrungDiemCuaDoanThang.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{17}{Hình tròn, tâm, bán kính, đường kính}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-17}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai17_HinhTronTamBanKinhDuongKinh.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{18}{Góc, góc vuông, góc không vuông}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-18}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai18_GocGocVuongGocKhongVuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{19}{Hình tam giác, hình tứ giác, hình chữ nhật, hình vuông}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-19}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai19_HinhTamGiacTuGiacChuNhatVuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{20}{Thực hành vẽ hình và trang trí}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-20}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai20_ThucHanhVeHinhVaTrangTri.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{21}{Khối lập phương, khối hộp chữ nhật}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-21}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai21_KhoiLapPhuongKhoiHopChuNhat.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Làm quen với hình phẳng, hình khối}{22}{Luyện tập chung hình học}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-22}
+\input{CHỦ ĐỀ 3 - LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI/Chuong3_Bai22_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100
+% =========================================================================
+\section{Phép nhân, phép chia trong phạm vi 100}
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{23}{Nhân số có hai chữ số với số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-23}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai23_NhanSoCoHaiChuSoVoiSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{24}{Gấp một số lên nhiều lần}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-24}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai24_GapMotSoLenMotSoLan.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{25}{Phép chia hết và phép chia có dư}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-25}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai25_PhepChiaHetPhepChiaCoDu.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{26}{Chia số có hai chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-26}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai26_ChiaSoCoHaiChuSoChoSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{27}{Giảm một số đi nhiều lần}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-27}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai27_GiamMotSoDiMotSoLan.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{28}{Bài toán giải bằng hai bước tính}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-28}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai28_BaiToanGiaiBangHaiBuocTinh.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Phép nhân, phép chia trong phạm vi 100}{29}{Luyện tập chung phép tính}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-29}
+\input{CHỦ ĐỀ 4 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 100/Chuong4_Bai29_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ
+% =========================================================================
+\section{Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{30}{Mi-li-mét}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-30}
+\input{CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ/Chuong5_Bai30_MiLiMet.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{31}{Gam}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-31}
+\input{CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ/Chuong5_Bai31_Gam.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{32}{Mi-li-lít}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-32}
+\input{CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ/Chuong5_Bai32_MiLiLit.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{33}{Nhiệt độ. Đơn vị đo nhiệt độ}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-33}
+\input{CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ/Chuong5_Bai33_NhietDoDonViDoNhietDo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{34}{Thực hành trải nghiệm đơn vị đo}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-34}
+\input{CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ/Chuong5_Bai34_ThucHanhTraiNghiemDonViDo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ}{35}{Luyện tập chung đo lường}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-35}
+\input{CHỦ ĐỀ 5 - MỘT SỐ ĐƠN VỊ ĐO ĐỘ DÀI, KHỐI LƯỢNG, DUNG TÍCH, NHIỆT ĐỘ/Chuong5_Bai35_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 6 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 1 000
+% =========================================================================
+\section{Phép nhân, phép chia trong phạm vi 1 000}
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{36}{Nhân số có ba chữ số với số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-36}
+\input{CHỦ ĐỀ 6 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 1 000/Chuong6_Bai36_NhanSoCoBaChuSoVoiSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{37}{Chia số có ba chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-37}
+\input{CHỦ ĐỀ 6 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 1 000/Chuong6_Bai37_ChiaSoCoBaChuSoChoSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{38}{Biểu thức số. Tính giá trị của biểu thức số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-38}
+\input{CHỦ ĐỀ 6 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 1 000/Chuong6_Bai38_BieuThucSoTinhGiaTriBieuThucSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{39}{So sánh số lớn gấp mấy lần số bé}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-39}
+\input{CHỦ ĐỀ 6 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 1 000/Chuong6_Bai39_SoSanhSoLonGapMayLanSoBe.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Phép nhân, phép chia trong phạm vi 1 000}{40}{Luyện tập chung biểu thức}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-40}
+\input{CHỦ ĐỀ 6 - PHÉP NHÂN, PHÉP CHIA TRONG PHẠM VI 1 000/Chuong6_Bai40_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1
+% =========================================================================
+\section{Ôn tập học kì 1}
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{41}{Ôn tập phép nhân, phép chia trong phạm vi 1000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-41}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai41_OnTapPhepNhanPhepChia100_1000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{42}{Ôn tập biểu thức số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-42}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai42_OnTapBieuThucSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{43}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-43}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai43_OnTapHinhHocVaDoLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{44}{Ôn tập chung học kì 1}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-44}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai44_OnTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 8 - CÁC SỐ ĐẾN 10 000
+% =========================================================================
+\section{Các số đến 10 000}
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Các số đến 10 000}{45}{Các số có bốn chữ số. Số 10 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-45}
+\input{CHỦ ĐỀ 8 - CÁC SỐ ĐẾN 10 000/Chuong8_Bai45_CacSoCoBonChuSoSo10000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Các số đến 10 000}{46}{So sánh các số trong phạm vi 10 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-46}
+\input{CHỦ ĐỀ 8 - CÁC SỐ ĐẾN 10 000/Chuong8_Bai46_SoSanhCacSoPhamVi10000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Các số đến 10 000}{47}{Làm quen với chữ số La Mã}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-47}
+\input{CHỦ ĐỀ 8 - CÁC SỐ ĐẾN 10 000/Chuong8_Bai47_LamQuenVoiChuSoLaMa.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Các số đến 10 000}{48}{Làm tròn số đến hàng chục, hàng trăm}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-48}
+\input{CHỦ ĐỀ 8 - CÁC SỐ ĐẾN 10 000/Chuong8_Bai48_LamTronSoDenHangChucHangTram.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Các số đến 10 000}{49}{Luyện tập chung số có bốn chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-49}
+\input{CHỦ ĐỀ 8 - CÁC SỐ ĐẾN 10 000/Chuong8_Bai49_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 9 - CHU VI, DIỆN TÍCH MỘT SỐ HÌNH PHẲNG
+% =========================================================================
+\section{Chu vi, diện tích một số hình phẳng}
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{50}{Chu vi hình tam giác, tứ giác, hình chữ nhật, hình vuông}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-50}
+\input{CHỦ ĐỀ 9 - CHU VI, DIỆN TÍCH MỘT SỐ HÌNH PHẲNG/Chuong9_Bai50_ChuViHinhTamGiacTuGiacChuNhatVuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{51}{Diện tích của một hình. Xăng-ti-mét vuông}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-51}
+\input{CHỦ ĐỀ 9 - CHU VI, DIỆN TÍCH MỘT SỐ HÌNH PHẲNG/Chuong9_Bai51_DienTichCuaMotHinhXangTiMetVuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{52}{Diện tích hình chữ nhật, diện tích hình vuông}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-52}
+\input{CHỦ ĐỀ 9 - CHU VI, DIỆN TÍCH MỘT SỐ HÌNH PHẲNG/Chuong9_Bai52_DienTichHinhChuNhatDienTichHinhVuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Chu vi, diện tích một số hình phẳng}{53}{Luyện tập chung chu vi và diện tích}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-53}
+\input{CHỦ ĐỀ 9 - CHU VI, DIỆN TÍCH MỘT SỐ HÌNH PHẲNG/Chuong9_Bai53_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 10 - CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000
+% =========================================================================
+\section{Cộng, trừ, nhân, chia trong phạm vi 10 000}
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{54}{Phép cộng trong phạm vi 10 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-54}
+\input{CHỦ ĐỀ 10 - CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000/Chuong10_Bai54_PhepCongTrongPhamVi10000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{55}{Phép trừ trong phạm vi 10 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-55}
+\input{CHỦ ĐỀ 10 - CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000/Chuong10_Bai55_PhepTruTrongPhamVi10000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{56}{Nhân số có bốn chữ số với số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-56}
+\input{CHỦ ĐỀ 10 - CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000/Chuong10_Bai56_NhanSoCoBonChuSoVoiSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{57}{Chia số có bốn chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-57}
+\input{CHỦ ĐỀ 10 - CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000/Chuong10_Bai57_ChiaSoCoBonChuSoChoSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Cộng, trừ, nhân, chia trong phạm vi 10 000}{58}{Luyện tập chung phép tính 10 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-58}
+\input{CHỦ ĐỀ 10 - CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000/Chuong10_Bai58_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 11 - CÁC SỐ ĐẾN 100 000
+% =========================================================================
+\section{Các số đến 100 000}
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Các số đến 100 000}{59}{Các số có năm chữ số. Số 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-59}
+\input{CHỦ ĐỀ 11 - CÁC SỐ ĐẾN 100 000/Chuong11_Bai59_CacSoCoNamChuSoSo100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Các số đến 100 000}{60}{So sánh các số trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-60}
+\input{CHỦ ĐỀ 11 - CÁC SỐ ĐẾN 100 000/Chuong11_Bai60_SoSanhCacSoPhamVi100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Các số đến 100 000}{61}{Làm tròn số đến hàng nghìn, hàng chục nghìn}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-61}
+\input{CHỦ ĐỀ 11 - CÁC SỐ ĐẾN 100 000/Chuong11_Bai61_LamTronSoDenHangNghinChucNghin.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Các số đến 100 000}{62}{Luyện tập chung số có năm chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-62}
+\input{CHỦ ĐỀ 11 - CÁC SỐ ĐẾN 100 000/Chuong11_Bai62_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 12 - CỘNG, TRỪ TRONG PHẠM VI 100 000
+% =========================================================================
+\section{Cộng, trừ trong phạm vi 100 000}
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Cộng, trừ trong phạm vi 100 000}{63}{Phép cộng trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-63}
+\input{CHỦ ĐỀ 12 - CỘNG, TRỪ TRONG PHẠM VI 100 000/Chuong12_Bai63_PhepCongTrongPhamVi100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Cộng, trừ trong phạm vi 100 000}{64}{Phép trừ trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-64}
+\input{CHỦ ĐỀ 12 - CỘNG, TRỪ TRONG PHẠM VI 100 000/Chuong12_Bai64_PhepTruTrongPhamVi100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Cộng, trừ trong phạm vi 100 000}{65}{Luyện tập chung cộng trừ 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-65}
+\input{CHỦ ĐỀ 12 - CỘNG, TRỪ TRONG PHẠM VI 100 000/Chuong12_Bai65_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 13 - XEM ĐỒNG HỒ. THÁNG – NĂM. TIỀN VIỆT NAM
+% =========================================================================
+\section{Xem đồng hồ. tháng -- năm. tiền việt nam}
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{66}{Xem đồng hồ}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-66}
+\input{CHỦ ĐỀ 13 - XEM ĐỒNG HỒ. THÁNG – NĂM. TIỀN VIỆT NAM/Chuong13_Bai66_XemDongHoThangNam.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{67}{Tháng -- Năm}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-67}
+\input{CHỦ ĐỀ 13 - XEM ĐỒNG HỒ. THÁNG – NĂM. TIỀN VIỆT NAM/Chuong13_Bai67_ThucHanhXemDongHoXemLich.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{68}{Tiền Việt Nam}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-68}
+\input{CHỦ ĐỀ 13 - XEM ĐỒNG HỒ. THÁNG – NĂM. TIỀN VIỆT NAM/Chuong13_Bai68_TienVietNam.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Xem đồng hồ. tháng -- năm. tiền việt nam}{69}{Luyện tập chung thời gian và tiền tệ}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-69}
+\input{CHỦ ĐỀ 13 - XEM ĐỒNG HỒ. THÁNG – NĂM. TIỀN VIỆT NAM/Chuong13_Bai69_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 14 - NHÂN, CHIA TRONG PHẠM VI 100 000
+% =========================================================================
+\section{Nhân, chia trong phạm vi 100 000}
+
+\TaoPhieuKiemTra{Chủ đề 14 -- Nhân, chia trong phạm vi 100 000}{70}{Nhân số có năm chữ số với số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-70}
+\input{CHỦ ĐỀ 14 - NHÂN, CHIA TRONG PHẠM VI 100 000/Chuong14_Bai70_NhanSoCoNamChuSoVoiSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 14 -- Nhân, chia trong phạm vi 100 000}{71}{Chia số có năm chữ số cho số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-71}
+\input{CHỦ ĐỀ 14 - NHÂN, CHIA TRONG PHẠM VI 100 000/Chuong14_Bai71_ChiaSoCoNamChuSoChoSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 14 -- Nhân, chia trong phạm vi 100 000}{72}{Luyện tập chung nhân chia 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-72}
+\input{CHỦ ĐỀ 14 - NHÂN, CHIA TRONG PHẠM VI 100 000/Chuong14_Bai72_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 15 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT
+% =========================================================================
+\section{Làm quen với yếu tố thống kê, xác suất}
+
+\TaoPhieuKiemTra{Chủ đề 15 -- Làm quen với yếu tố thống kê, xác suất}{73}{Thu thập, phân loại, ghi chép số liệu}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-73}
+\input{CHỦ ĐỀ 15 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT/Chuong15_Bai73_ThuThapPhanLoaiGhiChepSoLieuBangSoLieu.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 15 -- Làm quen với yếu tố thống kê, xác suất}{74}{Khả năng xảy ra của một sự kiện}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-74}
+\input{CHỦ ĐỀ 15 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT/Chuong15_Bai74_KhaNangXayRaCuaMotSuKien.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 15 -- Làm quen với yếu tố thống kê, xác suất}{75}{Thực hành trải nghiệm thống kê}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-75}
+\input{CHỦ ĐỀ 15 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT/Chuong15_Bai75_ThucHanhTraiNghiemThongKe.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM
+% =========================================================================
+\section{Ôn tập cuối năm}
+
+\TaoPhieuKiemTra{Chủ đề 16 -- Ôn tập cuối năm}{76}{Ôn tập các số trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-76}
+\input{CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM/Chuong16_Bai76_OnTapCacSoPhamVi10000_100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 16 -- Ôn tập cuối năm}{77}{Ôn tập phép cộng, phép trừ trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-77}
+\input{CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM/Chuong16_Bai77_OnTapPhepCongPhepTruPhamVi100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 16 -- Ôn tập cuối năm}{78}{Ôn tập phép nhân, phép chia trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-78}
+\input{CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM/Chuong16_Bai78_OnTapPhepNhanPhepChiaPhamVi100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 16 -- Ôn tập cuối năm}{79}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-79}
+\input{CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM/Chuong16_Bai79_OnTapHinhHocVaDoLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 16 -- Ôn tập cuối năm}{80}{Ôn tập bảng số liệu và khả năng xảy ra}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-80}
+\input{CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM/Chuong16_Bai80_OnTapBangSoLieuKhaNangXayRa.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 16 -- Ôn tập cuối năm}{81}{Ôn tập chung cuối năm}{https://loptoanthaylinh.vn/thi-online/toan-3/bai-81}
+\input{CHỦ ĐỀ 16 - ÔN TẬP CUỐI NĂM/Chuong16_Bai81_OnTapChung.tex}
+\newpage
+\end{document}

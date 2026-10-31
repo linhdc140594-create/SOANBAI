@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $48264 : 2 = \dots$
+\shortans{24132}
+\loigiai{
+$48264 : 2 = 24132$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $69369 : 3 = \dots$
+\shortans{23123}
+\loigiai{
+$69369 : 3 = 23123$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84488 : 4 = \dots$
+\shortans{21122}
+\loigiai{
+$84488 : 4 = 21122$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $55550 : 5 = \dots$
+\shortans{11110}
+\loigiai{
+$55550 : 5 = 11110$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $64820 : 2 = \dots$
+\shortans{32410}
+\loigiai{
+$64820 : 2 = 32410$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $75350 : 5 = \dots$
+\shortans{15070}
+\loigiai{
+$75350 : 5 = 15070$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $60000 : 3 = \dots$
+\shortans{20000}
+\loigiai{
+$60000 : 3 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $80000 : 4 = \dots$
+\shortans{20000}
+\loigiai{
+$80000 : 4 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $100000 : 2 = \dots$
+\shortans{50000}
+\loigiai{
+$100000 : 2 = 50000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $100000 : 5 = \dots$
+\shortans{20000}
+\loigiai{
+$100000 : 5 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96000 : 3 = \dots$
+\shortans{32000}
+\loigiai{
+$96000 : 3 = 32000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84000 : 6 = \dots$
+\shortans{14000}
+\loigiai{
+$84000 : 6 = 14000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $91000 : 7 = \dots$
+\shortans{13000}
+\loigiai{
+$91000 : 7 = 13000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $72000 : 8 = \dots$
+\shortans{9000}
+\loigiai{
+$72000 : 8 = 9000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $81000 : 9 = \dots$
+\shortans{9000}
+\loigiai{
+$81000 : 9 = 9000$.
+}
+\end{ex}
+
+\begin{ex}
+Có 48 000 lít dầu chia đều vào 4 bể. Mỗi bể chứa bao nhiêu lít dầu?
+\shortans{12000}
+\loigiai{
+$48000 : 4 = 12000$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn dây cáp dài 65 000 m cắt đều thành 5 đoạn. Mỗi đoạn dài bao nhiêu mét?
+\shortans{13000}
+\loigiai{
+$65000 : 5 = 13000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một nông trường thu hoạch được 72 000 kg cam và chia đều vào 6 xe tải. Mỗi xe chở bao nhiêu ki-lô-gam cam?
+\shortans{12000}
+\loigiai{
+$72000 : 6 = 12000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 4 = 48480$.
+\shortans{12120}
+\loigiai{
+$x = 48480 : 4 = 12120$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $3 \times x = 96360$.
+\shortans{32120}
+\loigiai{
+$x = 96360 : 3 = 32120$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $64000 : 4 + 14000$.
+\shortans{30000}
+\loigiai{
+$16000 + 14000 = 30000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $85000 : 5 - 7000$.
+\shortans{10000}
+\loigiai{
+$17000 - 7000 = 10000$.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh đất hình vuông có chu vi 44 800 m. Mỗi cạnh mảnh đất dài bao nhiêu mét?
+\shortans{11200}
+\loigiai{
+$44800 : 4 = 11200$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số dư trong phép chia: $50003 : 5$.
+\shortans{3}
+\loigiai{
+$50003 = 5 \times 10000 + 3$, dư 3.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $99999 : 9 = \dots$
+\shortans{11111}
+\loigiai{
+$99999 : 9 = 11111$.
+}
+\end{ex}

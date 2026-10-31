@@ -1,0 +1,199 @@
+\begin{ex}
+Số liền sau của số 999 là số nào?
+\shortans{1000}
+\loigiai{
+Số liền sau 999 là 1000.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 1000 là số nào?
+\shortans{999}
+\loigiai{
+Số liền trước 1000 là 999.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 7 trăm, 8 chục và 4 đơn vị là số nào?
+\shortans{784}
+\loigiai{
+Số đó là 784.
+}
+\end{ex}
+
+\begin{ex}
+Số 605 gồm 6 trăm và mấy đơn vị?
+\shortans{5}
+\loigiai{
+Số 605 gồm 6 trăm và 5 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Số 830 có chữ số hàng chục là bao nhiêu?
+\shortans{3}
+\loigiai{
+Chữ số hàng chục là 3.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn trăm lớn nhất có ba chữ số là số nào?
+\shortans{900}
+\loigiai{
+Số đó là 900.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn trăm bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số đó là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có ba chữ số là số nào?
+\shortans{999}
+\loigiai{
+Số đó là 999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số đó là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có ba chữ số khác nhau là số nào?
+\shortans{102}
+\loigiai{
+Số đó là 102.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có ba chữ số khác nhau là số nào?
+\shortans{987}
+\loigiai{
+Số đó là 987.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $485, 521, 498, 512$, số nào lớn nhất?
+\shortans{521}
+\loigiai{
+Số lớn nhất là 521.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $735, 762, 719, 740$, số nào bé nhất?
+\shortans{719}
+\loigiai{
+Số bé nhất là 719.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $352, 480, 299, 415$ từ bé đến lớn, số đứng ở vị trí thứ ba là số nào?
+\shortans{415}
+\loigiai{
+Thứ tự: 299, 352, 415, 480. Số thứ ba là 415.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $698, 699, \dots, 701, 702$.
+\shortans{700}
+\loigiai{
+Số còn thiếu là 700.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $850, 860, \dots, 880, 890$.
+\shortans{870}
+\loigiai{
+Số còn thiếu là 870.
+}
+\end{ex}
+
+\begin{ex}
+Số 458 viết thành tổng các trăm, chục, đơn vị: $400 + \dots + 8$. Số cần điền là bao nhiêu?
+\shortans{50}
+\loigiai{
+Số cần điền là 50.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng các chữ số của số 345.
+\shortans{12}
+\loigiai{
+Tổng: $3 + 4 + 5 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng các chữ số của số 809.
+\shortans{17}
+\loigiai{
+Tổng: $8 + 0 + 9 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên ở giữa số 599 và số 601.
+\shortans{600}
+\loigiai{
+Số ở giữa là 600.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn chục lớn hơn 250 và nhỏ hơn 300?
+\shortans{4}
+\loigiai{
+Các số: 260, 270, 280, 290. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn trăm từ 300 đến 700?
+\shortans{5}
+\loigiai{
+Các số: 300, 400, 500, 600, 700. Có 5 số.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 7 trong số 742 là bao nhiêu?
+\shortans{700}
+\loigiai{
+Chữ số 7 ở hàng trăm có giá trị là 700.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 4 trong số 742 là bao nhiêu?
+\shortans{40}
+\loigiai{
+Chữ số 4 ở hàng chục có giá trị là 40.
+}
+\end{ex}
+
+\begin{ex}
+Số 1000 có bao nhiêu chữ số 0?
+\shortans{3}
+\loigiai{
+Số 1000 có 3 chữ số 0.
+}
+\end{ex}

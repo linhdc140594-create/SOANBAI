@@ -1,0 +1,168 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{
+  top=12mm,
+  bottom=12mm,
+  left=14mm,
+  right=14mm,
+  footskip=6mm,
+  headheight=14pt
+}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,shapes.geometric}
+\usepackage[most]{tcolorbox}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{teal!80!black}\faBook\ \textbf{SỔ TAY KIẾN THỨC TOÁN 3}}
+\fancyhead[R]{\footnotesize\color{teal!80!black}\textbf{Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}}
+\fancyfoot[C]{\footnotesize\color{gray}-- Sổ tay kiến thức: Bài 25. Phép chia hết và phép chia có dư --}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{teal!90!black}\faBookmark\ BÀI 25: PHÉP CHIA HẾT VÀ PHÉP CHIA CÓ DƯ}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Định lí then chốt số dư luôn bé hơn số chia, mối quan hệ SBC = Thương x Số chia + Số dư trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faShareAlt\ 1. Phép chia hết \& Chia có dư}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Phép chia hết:} Khi chia xong, \textbf{số dư bằng 0}:
+  $$a : b = q\quad (\text{dư } 0) \implies a = b \times q$$
+  \item \textbf{Phép chia có dư:} Khi chia xong, còn lại một phần không thể chia đều tiếp:
+  $$a : b = q\quad (\text{dư } r)$$
+  \item \textbf{ĐỊNH LÍ SỐ DƯ (BẤT DI BẤT DỊCH):}
+  $$\mathbf{0 < \text{Số dư} < \text{Số chia}}$$
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Số dư lớn nhất luôn kém số chia đúng $1$ đơn vị.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 2. Công thức thử lại phép chia}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Công thức hoàn nguyên Số bị chia:}
+  $$\mathbf{\text{Số bị chia} = (\text{Thương} \times \text{Số chia}) + \text{Số dư}}$$
+  $$a = q \times b + r$$
+  \item \textbf{Ứng dụng tìm thành phần:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Tìm Số bị chia khi biết thương $q$, số chia $b$, số dư $r$: Ta lấy $(q \times b) + r$.
+    \item Ví dụ chia cho $5$: Số dư có thể là $1, 2, 3, 4$. Số dư lớn nhất là $4$.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: CÁN CÂN ĐỐI CHIẾU CHIA HẾT VÀ CHIA CÓ DƯ}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=3pt, minimum height=0.85cm},
+  arr/.style={-{Stealth[length=2.5mm]}, thick}
+]
+  \node[box, fill=teal!15, draw=teal!80!black, text width=4.5cm] (c1) at (2.4, 0) {PHÉP CHIA HẾT\\Số dư $r = 0$\\$a = b \times q$};
+  \node[box, fill=purple!15, draw=purple!80!black, text width=4.5cm] (c2) at (7.8, 0) {PHÉP CHIA CÓ DƯ\\$\mathbf{0 < r < b}$\\$a = b \times q + r$};
+
+  \draw[arr, teal!80!black] (c1) -- (c2) node[midway, above, font=\tiny\bfseries] {Còn thừa lại $r$};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Thực hiện phép chia:}\\
+$19 : 4 = \mathbf{4\text{ (dư 3)}}$ vì $4 \times 4 + 3 = 19$.\\
+$25 : 6 = \mathbf{4\text{ (dư 1)}}$ vì $4 \times 6 + 1 = 25$.\\
+\textbf{2. Tìm số dư lớn nhất:}\\
+Trong phép chia cho $7$, số dư lớn nhất có thể có là $7 - 1 = \mathbf{6}$.\\
+\textbf{3. Tìm số bị chia:}\\
+Tìm số bị chia biết số chia là $5$, thương là $8$, số dư là $3$:\\
+$\text{Số bị chia} = 8 \times 5 + 3 = \mathbf{43}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy số dư $\ge$ số chia (SAI NẶNG):}\\
+  Ví dụ tính $19 : 4 = 3\text{ dư } 7$. Số dư là $7 > 4$ (số chia) $\implies$ Phép chia chưa xong! Phải tăng thương lên $4$ ($19 : 4 = 4\text{ dư } 3$).
+  \item \textbf{Quy tắc kiểm tra nhanh:}\\
+  Luôn so sánh xem số dư có nhỏ hơn số chia không. Nếu số dư $\ge$ số chia là chắc chắn làm sai!
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

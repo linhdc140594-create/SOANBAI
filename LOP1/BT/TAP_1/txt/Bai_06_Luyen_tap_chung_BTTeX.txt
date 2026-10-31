@@ -1,0 +1,199 @@
+\begin{ex}
+Đếm từ 0 đến 10 có tất cả bao nhiêu số tự nhiên?
+\shortans{11}
+\loigiai{
+Có 11 số từ 0 đến 10 (vì $(10 - 0) + 1 = 11$).
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có một chữ số là số nào?
+\shortans{0}
+\loigiai{
+Số bé nhất có một chữ số là 0.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có một chữ số là số nào?
+\shortans{9}
+\loigiai{
+Số lớn nhất có một chữ số là 9.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 7 là số nào?
+\shortans{6}
+\loigiai{
+Số liền trước số 7 là 6.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 7 là số nào?
+\shortans{8}
+\loigiai{
+Số liền sau số 7 là 8.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $4, 8, 1, 9, 6$, số lớn nhất là số nào?
+\shortans{9}
+\loigiai{
+Số lớn nhất là 9.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $5, 2, 10, 0, 7$, số bé nhất là số nào?
+\shortans{0}
+\loigiai{
+Số bé nhất là 0.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số ở giữa số 5 và số 7.
+\shortans{6}
+\loigiai{
+Số ở giữa 5 và 7 là 6.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên lớn hơn 2 và nhỏ hơn 9?
+\shortans{6}
+\loigiai{
+Các số thỏa mãn: 3, 4, 5, 6, 7, 8. Có 6 số.
+}
+\end{ex}
+
+\begin{ex}
+Gộp 3 và 5 được mấy?
+\shortans{8}
+\loigiai{
+Gộp 3 và 5 được: $3 + 5 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Gộp 4 và 6 được mấy?
+\shortans{10}
+\loigiai{
+Gộp 4 và 6 được: $4 + 6 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tách số 9 thành 4 và mấy?
+\shortans{5}
+\loigiai{
+Vì $9 = 4 + 5$, tách 9 thành 4 và 5.
+}
+\end{ex}
+
+\begin{ex}
+Tách số 8 thành 2 và mấy?
+\shortans{6}
+\loigiai{
+Vì $8 = 2 + 6$, tách 8 thành 2 và 6.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 7 cái kẹo, mẹ cho thêm Nam 2 cái kẹo. Hỏi Nam có tất cả bao nhiêu cái kẹo?
+\shortans{9}
+\loigiai{
+Nam có: $7 + 2 = 9$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Trên cành cây có 10 con chim, 3 con bay đi. Hỏi trên cành còn lại bao nhiêu con chim?
+\shortans{7}
+\loigiai{
+Số chim còn lại: $10 - 3 = 7$ con.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 6 viên bi, An có 9 viên bi. An có nhiều hơn Bình bao nhiêu viên bi?
+\shortans{3}
+\loigiai{
+An nhiều hơn Bình: $9 - 6 = 3$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có một chữ số bé hơn 5?
+\shortans{5}
+\loigiai{
+Các số đó là: 0, 1, 2, 3, 4. Có 5 số.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $9, 3, 7, 5$ từ bé đến lớn, số đứng ở vị trí thứ ba là số nào?
+\shortans{7}
+\loigiai{
+Thứ tự: 3, 5, 7, 9. Số thứ ba là 7.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $2, 8, 10, 4$ từ lớn đến bé, số đứng ở vị trí thứ hai là số nào?
+\shortans{8}
+\loigiai{
+Thứ tự: 10, 8, 4, 2. Số thứ hai là 8.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số thích hợp điền vào chỗ chấm: $6 < \dots < 8$.
+\shortans{7}
+\loigiai{
+Số thích hợp là 7.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số thích hợp điền vào chỗ chấm: $9 < \dots \le 10$.
+\shortans{10}
+\loigiai{
+Số tự nhiên lớn hơn 9 và nhỏ hơn hoặc bằng 10 là 10.
+}
+\end{ex}
+
+\begin{ex}
+Một con chó và một con gà có tất cả bao nhiêu cái chân?
+\shortans{6}
+\loigiai{
+Chó có 4 chân, gà có 2 chân. Tổng cộng: $4 + 2 = 6$ cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Hai con mèo có tất cả bao nhiêu cái chân?
+\shortans{8}
+\loigiai{
+Mỗi con mèo có 4 chân. Hai con có: $4 + 4 = 8$ cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Một bàn tay và một bàn chân có tất cả bao nhiêu ngón?
+\shortans{10}
+\loigiai{
+Một bàn tay có 5 ngón, một bàn chân có 5 ngón. Tổng là $5 + 5 = 10$ ngón.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Em có 5 bạn trai và 5 bạn gái. Hỏi tổ Em có tất cả bao nhiêu bạn?
+\shortans{10}
+\loigiai{
+Tổ Em có: $5 + 5 = 10$ bạn.
+}
+\end{ex}

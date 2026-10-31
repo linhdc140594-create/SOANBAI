@@ -1,0 +1,199 @@
+\begin{ex}
+Tìm thừa số chưa biết $x$: $x \times 6 = 48$.
+\shortans{8}
+\loigiai{
+$x = 48 : 6 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm thừa số chưa biết $x$: $7 \times x = 56$.
+\shortans{8}
+\loigiai{
+$x = 56 : 7 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bị chia $x$: $x : 8 = 5$.
+\shortans{40}
+\loigiai{
+$x = 5 \times 8 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số chia $x$: $45 : x = 9$.
+\shortans{5}
+\loigiai{
+$x = 45 : 9 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm thừa số chưa biết trong tích có một thừa số bằng 9 và tích bằng 72.
+\shortans{8}
+\loigiai{
+$72 : 9 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bị chia biết thương là 7 và số chia là 6.
+\shortans{42}
+\loigiai{
+$7 \times 6 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số chia biết số bị chia là 63 và thương là 9.
+\shortans{7}
+\loigiai{
+$63 : 9 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $y \times 8 = 64$.
+\shortans{8}
+\loigiai{
+$y = 64 : 8 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $y : 7 = 6$.
+\shortans{42}
+\loigiai{
+$y = 6 \times 7 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $54 : y = 6$.
+\shortans{9}
+\loigiai{
+$y = 54 : 6 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Một người xếp 36 quả trứng vào các vỉ, mỗi vỉ có 6 quả. Hỏi xếp được bao nhiêu vỉ trứng?
+\shortans{6}
+\loigiai{
+$36 : 6 = 6$ vỉ.
+}
+\end{ex}
+
+\begin{ex}
+Có một số lít dầu rót đều vào 8 can, mỗi can có 4 lít. Hỏi có tất cả bao nhiêu lít dầu?
+\shortans{32}
+\loigiai{
+$4 \times 8 = 32$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Một thanh gỗ dài được cưa thành 7 đoạn, mỗi đoạn dài 5 dm. Hỏi thanh gỗ ban đầu dài bao nhiêu đề-xi-mét?
+\shortans{35}
+\loigiai{
+$5 \times 7 = 35$ dm.
+}
+\end{ex}
+
+\begin{ex}
+Có 48 học sinh chia đều thành các đội, mỗi đội có 8 học sinh. Hỏi chia được bao nhiêu đội?
+\shortans{6}
+\loigiai{
+$48 : 8 = 6$ đội.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 4 = 15 + 17$.
+\shortans{8}
+\loigiai{
+$x \times 4 = 32 \Rightarrow x = 32 : 4 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 5 = 20 - 13$.
+\shortans{35}
+\loigiai{
+$x : 5 = 7 \Rightarrow x = 7 \times 5 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $42 : x = 14 - 7$.
+\shortans{6}
+\loigiai{
+$42 : x = 7 \Rightarrow x = 42 : 7 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tích của hai số là 40, nếu một thừa số là 5 thì thừa số còn lại là bao nhiêu?
+\shortans{8}
+\loigiai{
+$40 : 5 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép chia có thương là 9 và số chia là 4. Số bị chia là bao nhiêu?
+\shortans{36}
+\loigiai{
+$9 \times 4 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Số bị chia là 56, thương là 7. Số chia là bao nhiêu?
+\shortans{8}
+\loigiai{
+$56 : 7 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $9 \times y = 30 + 33$.
+\shortans{7}
+\loigiai{
+$9 \times y = 63 \Rightarrow y = 63 : 9 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $y : 6 = 2 \times 4$.
+\shortans{48}
+\loigiai{
+$y : 6 = 8 \Rightarrow y = 8 \times 6 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu chia 24 chiếc kẹo cho một số bạn, mỗi bạn được 3 chiếc kẹo. Hỏi có bao nhiêu bạn được chia kẹo?
+\shortans{8}
+\loigiai{
+$24 : 3 = 8$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn dây thép chia đều cho 8 tổ, mỗi tổ nhận 7 mét thép. Hỏi cuộn dây dài bao nhiêu mét?
+\shortans{56}
+\loigiai{
+$7 \times 8 = 56$ m.
+}
+\end{ex}
+
+\begin{ex}
+Thương của hai số là 8, số chia là 3. Hỏi số bị chia là bao nhiêu?
+\shortans{24}
+\loigiai{
+$8 \times 3 = 24$.
+}
+\end{ex}

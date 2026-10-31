@@ -1,0 +1,199 @@
+\begin{ex}
+Hình vuông có bao nhiêu cạnh bằng nhau?
+\shortans{4}
+\loigiai{
+Hình vuông có 4 cạnh bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Hình tam giác có bao nhiêu đỉnh?
+\shortans{3}
+\loigiai{
+Hình tam giác có 3 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình tròn có bao nhiêu cạnh thẳng?
+\shortans{0}
+\loigiai{
+Hình tròn không có cạnh thẳng nào.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có bao nhiêu mặt vuông bằng nhau?
+\shortans{6}
+\loigiai{
+Khối lập phương có 6 mặt vuông bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có tất cả bao nhiêu đỉnh?
+\shortans{8}
+\loigiai{
+Khối hộp chữ nhật có 8 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có tất cả bao nhiêu cạnh?
+\shortans{12}
+\loigiai{
+Khối hộp chữ nhật có 12 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 15 cm, đoạn thẳng BC dài 4 cm. Độ dài đoạn thẳng AC ghép từ hai đoạn trên là bao nhiêu xăng-ti-mét?
+\shortans{19}
+\loigiai{
+Độ dài: $15 + 4 = 19$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng MN dài 18 cm, đoạn PQ ngắn hơn MN là 6 cm. Đoạn thẳng PQ dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Độ dài PQ: $18 - 6 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35\text{ cm} + 24\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{59}
+\loigiai{
+Ta có: $35 + 24 = 59$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $78\text{ cm} - 45\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{33}
+\loigiai{
+Ta có: $78 - 45 = 33$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ kim ngắn vào số 9, kim dài vào số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{9}
+\loigiai{
+Đồng hồ chỉ 9 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 4 giờ chiều. Kim ngắn chỉ vào số mấy?
+\shortans{4}
+\loigiai{
+Kim ngắn chỉ số 4.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Một tuần lễ có 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Ba tuần này là ngày 10, thì Thứ Ba tuần sau là ngày bao nhiêu?
+\shortans{17}
+\loigiai{
+Thứ Ba tuần sau là: $10 + 7 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu que tính bằng nhau để xếp được 1 hình vuông?
+\shortans{4}
+\loigiai{
+Cần 4 que tính.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu que tính bằng nhau để xếp được 1 hình tam giác?
+\shortans{3}
+\loigiai{
+Cần 3 que tính.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 7 que tính bằng nhau để xếp thành 3 hình tam giác liền nhau chung cạnh. Cần bao nhiêu que tính?
+\shortans{7}
+\loigiai{
+Số que tính là 7.
+}
+\end{ex}
+
+\begin{ex}
+Một cây gậy dài 80 cm, cưa bớt đi 30 cm. Cây gậy còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{50}
+\loigiai{
+Còn lại: $80 - 30 = 50$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một băng giấy dài 50 cm, băng giấy thứ hai dài 40 cm. Cả hai băng giấy dài bao nhiêu xăng-ti-mét?
+\shortans{90}
+\loigiai{
+Cả hai băng giấy dài: $50 + 40 = 90$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Một ngày có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Hai khối lập phương rời nhau có tổng số mặt là bao nhiêu?
+\shortans{12}
+\loigiai{
+Hai khối có: $6 + 6 = 12$ mặt.
+}
+\end{ex}
+
+\begin{ex}
+Hai khối lập phương rời nhau có tổng số đỉnh là bao nhiêu?
+\shortans{16}
+\loigiai{
+Hai khối có: $8 + 8 = 16$ đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Sáu thì ngày mai là Thứ mấy?
+\shortans{7}
+\loigiai{
+Sau Thứ Sáu là Thứ Bảy.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20\text{ cm} + 30\text{ cm} + 40\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{90}
+\loigiai{
+Ta có: $20 + 30 + 40 = 90$ cm.
+}
+\end{ex}

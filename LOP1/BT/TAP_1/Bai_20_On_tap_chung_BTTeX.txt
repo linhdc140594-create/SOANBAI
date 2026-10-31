@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $3 + 6$.
+\shortans{9}
+\loigiai{
+Ta có $3 + 6 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $10 - 8$.
+\shortans{2}
+\loigiai{
+Ta có $10 - 8 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $4 + 5 - 3$.
+\shortans{6}
+\loigiai{
+Ta có $4 + 5 = 9$, rồi $9 - 3 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $10 - 4 - 2$.
+\shortans{4}
+\loigiai{
+Ta có $10 - 4 = 6$, rồi $6 - 2 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $2 + 7 - 0$.
+\shortans{9}
+\loigiai{
+Ta có $2 + 7 = 9$, rồi $9 - 0 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào lớn nhất trong các số: $7, 2, 9, 4, 10$?
+\shortans{10}
+\loigiai{
+Số lớn nhất là 10.
+}
+\end{ex}
+
+\begin{ex}
+Số nào bé nhất trong các số: $5, 0, 8, 1, 6$?
+\shortans{0}
+\loigiai{
+Số bé nhất là 0.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số lớn nhất có một chữ số là số nào?
+\shortans{10}
+\loigiai{
+Số lớn nhất có 1 chữ số là 9. Số liền sau là 10.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số bé nhất có hai chữ số là số nào?
+\shortans{9}
+\loigiai{
+Số bé nhất có hai chữ số là 10. Số liền trước là 9.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $8 + \dots = 10$.
+\shortans{2}
+\loigiai{
+Số cần điền là: $10 - 8 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $9 - \dots = 5$.
+\shortans{4}
+\loigiai{
+Số cần điền là: $9 - 5 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $3 + 4 = \dots - 2$.
+\shortans{9}
+\loigiai{
+Vế trái: $3 + 4 = 7$. Số cần điền là $7 + 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có bao nhiêu mặt phẳng bằng nhau?
+\shortans{6}
+\loigiai{
+Có 6 mặt bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có bao nhiêu cạnh bằng nhau?
+\shortans{4}
+\loigiai{
+Hình vuông có 4 cạnh bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Một con bò có 4 chân, hai con bò có bao nhiêu cái chân?
+\shortans{8}
+\loigiai{
+Hai con bò có: $4 + 4 = 8$ cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Một con gà có 2 chân, 4 con gà có tất cả bao nhiêu cái chân?
+\shortans{8}
+\loigiai{
+Bốn con gà có: $2 + 2 + 2 + 2 = 8$ cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua về 10 quả trứng, mẹ đã dùng 6 quả để làm bánh. Hỏi mẹ còn lại bao nhiêu quả trứng?
+\shortans{4}
+\loigiai{
+Mẹ còn lại: $10 - 6 = 4$ quả trứng.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 5 bông hoa, Mai có 4 bông hoa. Cả hai bạn đem tặng cô giáo 7 bông hoa. Hỏi hai bạn còn lại bao nhiêu bông hoa?
+\shortans{2}
+\loigiai{
+Hai bạn có $5 + 4 = 9$ bông hoa. Còn lại: $9 - 7 = 2$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Trong bãi cỏ có 6 chú ngựa nâu và 3 chú ngựa trắng. Hỏi đàn ngựa có tất cả bao nhiêu con?
+\shortans{9}
+\loigiai{
+Đàn ngựa có tất cả: $6 + 3 = 9$ con.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 10 con cừu, bác bán đi 5 con cừu. Bác còn lại bao nhiêu con cừu?
+\shortans{5}
+\loigiai{
+Bác còn lại: $10 - 5 = 5$ con cừu.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên nhỏ hơn 8?
+\shortans{8}
+\loigiai{
+Các số tự nhiên nhỏ hơn 8 là: 0, 1, 2, 3, 4, 5, 6, 7. Có 8 số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có một chữ số lớn hơn 6?
+\shortans{3}
+\loigiai{
+Các số là: 7, 8, 9. Có 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có tổng bằng 10, biết số thứ nhất bằng 4. Số thứ hai là bao nhiêu?
+\shortans{6}
+\loigiai{
+Số thứ hai là: $10 - 4 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có hiệu bằng 3, biết số bị trừ là 9. Số trừ là bao nhiêu?
+\shortans{6}
+\loigiai{
+Số trừ là: $9 - 3 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $10 - 1 - 2 - 3 - 4$.
+\shortans{0}
+\loigiai{
+Ta có: $10 - 1 = 9$, $9 - 2 = 7$, $7 - 3 = 4$, $4 - 4 = 0$.
+}
+\end{ex}

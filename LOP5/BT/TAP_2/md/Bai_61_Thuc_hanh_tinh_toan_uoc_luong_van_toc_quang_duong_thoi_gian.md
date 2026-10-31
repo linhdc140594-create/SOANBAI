@@ -1,0 +1,157 @@
+# Bài 61: Thực hành tính toán và ước lượng vận tốc, quãng đường, thời gian
+
+## PHẦN I. ĐỀ BÀI (NGÂN HÀNG CÂU HỎI ĐIỀN ĐÁP SỐ)
+
+**Câu 1.** Hai người xuất phát cùng lúc từ $A$ và $B$ cách nhau $120\text{ km}$, đi ngược chiều nhau. Vận tốc người thứ nhất là $30\text{ km/h}$, người thứ hai là $10\text{ km/h}$. Sau mấy giờ hai người gặp nhau?
+
+**Câu 2.** Quãng đường $AB$ dài $180\text{ km}$. Hai ô tô đi ngược chiều nhau: xe từ $A$ đi $50\text{ km/h}$, xe từ $B$ đi $40\text{ km/h}$. Sau mấy giờ hai xe gặp nhau?
+
+**Câu 3.** Ở câu trên, điểm gặp nhau cách $A$ bao nhiêu ki-lô-mét?
+
+**Câu 4.** Hai người đi xe máy khởi hành cùng lúc từ hai địa điểm cách nhau $150\text{ km}$ đi ngược chiều và gặp nhau sau $2$ giờ. Tổng vận tốc của hai người là bao nhiêu km/h?
+
+**Câu 5.** Một người đi xe đạp khởi hành từ $A$ với vận tốc $12\text{ km/h}$. Sau $2$ giờ, một xe máy cũng đi từ $A$ đuổi theo với vận tốc $36\text{ km/h}$. Sau mấy giờ xe máy đuổi kịp xe đạp?
+
+**Câu 6.** Một ca nô có vận tốc thực khi nước yên lặng là $25\text{ km/h}$, vận tốc dòng nước là $3\text{ km/h}$. Vận tốc ca nô khi xuôi dòng là bao nhiêu km/h?
+
+**Câu 7.** Ở câu trên, vận tốc ca nô khi ngược dòng là bao nhiêu km/h?
+
+**Câu 8.** Một con thuyền đi xuôi dòng quãng đường $40\text{ km}$ với vận tốc $20\text{ km/h}$. Thời gian thuyền đi hết bao nhiêu giờ?
+
+**Câu 9.** Hai thành phố cách nhau $240\text{ km}$. Một ô tô đi từ $A$ đến $B$ với vận tốc $60\text{ km/h}$, đồng thời một ô tô đi từ $B$ đến $A$ với vận tốc $40\text{ km/h}$. Sau bao nhiêu phút hai xe gặp nhau?
+
+**Câu 10.** Hai xe đạp khởi hành cùng lúc từ cùng một điểm đi cùng chiều: xe thứ nhất đi $15\text{ km/h}$, xe thứ hai đi $11\text{ km/h}$. Sau $2$ giờ hai xe cách nhau bao nhiêu ki-lô-mét?
+
+**Câu 11.** Một tàu thủy xuôi dòng với vận tốc $28\text{ km/h}$ và ngược dòng với vận tốc $22\text{ km/h}$. Vận tốc của dòng nước là bao nhiêu km/h?
+
+**Câu 12.** Ở câu trên, vận tốc thực của tàu thủy khi nước yên lặng là bao nhiêu km/h?
+
+**Câu 13.** Đoạn đường sắt dài $300\text{ m}$. Một đoàn tàu dài $200\text{ m}$ chạy qua đoạn đường đó với vận tốc $20\text{ m/s}$. Thời gian tàu chạy qua hết bao nhiêu giây?
+
+**Câu 14.** Một ô tô đi quãng đường $120\text{ km}$. Nửa quãng đường đầu đi với vận tốc $60\text{ km/h}$, nửa quãng đường sau đi $40\text{ km/h}$. Tổng thời gian đi hết bao nhiêu phút?
+
+**Câu 15.** Một người đi bộ $1$ vòng hồ dài $1\,200\text{ m}$ hết $15$ phút. Vận tốc đi bộ là bao nhiêu m/phút?
+
+**Câu 16.** Một xe tải và một xe máy cùng đi từ $A$ đến $B$. Xe máy đi $40\text{ km/h}$, xe tải đi $50\text{ km/h}$. Sau $3$ giờ xe tải đi trước xe máy bao nhiêu ki-lô-mét?
+
+**Câu 17.** Hai thị trấn $A$ và $B$ cách nhau $64\text{ km}$. Một người đi xe đạp từ $A$ lúc $7\text{ giờ}$ với vận tốc $16\text{ km/h}$. Người đó đến $B$ lúc mấy giờ?
+
+**Câu 18.** Một máy bay dự kiến bay từ Hà Nội đến TP Hồ Chí Minh dài $1\,200\text{ km}$ với vận tốc $600\text{ km/h}$. Chuyến bay bay hết bao nhiêu giờ?
+
+**Câu 19.** Ước lượng vận tốc người đi bộ bình thường khoảng $4\text{ km/h}$. Để đi $12\text{ km}$ người đó cần bao nhiêu giờ?
+
+**Câu 20.** Một cano đi từ bến $A$ đến bến $B$ cách nhau $36\text{ km}$ xuôi dòng mất $1{,}5$ giờ. Vận tốc dòng nước là $4\text{ km/h}$. Vận tốc thực của ca nô là bao nhiêu km/h?
+
+**Câu 21.** Ở câu trên, vận tốc ngược dòng của ca nô là bao nhiêu km/h?
+
+**Câu 22.** Hai người cùng đi từ hai đầu một cây cầu dài $450\text{ m}$ ngược chiều nhau. Người thứ nhất đi $2\text{ m/s}$, người thứ hai đi $1\text{ m/s}$. Sau bao nhiêu giây hai người gặp nhau?
+
+**Câu 23.** Một ô tô đi từ Hà Nội về Nam Định với vận tốc $60\text{ km/h}$ hết $1\text{ giờ } 30\text{ phút}$. Quãng đường dài bao nhiêu ki-lô-mét?
+
+**Câu 24.** Bác An chạy bộ quanh sân vận động có chu vi $400\text{ m}$. Bác chạy $5$ vòng hết $10$ phút. Vận tốc của bác An là bao nhiêu m/phút?
+
+**Câu 25.** Một con thỏ chạy với vận tốc $15\text{ m/s}$. Để chạy $300\text{ m}$ thỏ cần bao nhiêu giây?
+
+---
+
+## PHẦN II. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+
+### Câu 1
+- **Đáp số:** `3`
+- **Lời giải:** Tổng vận tốc: $30 + 10 = 40\text{ km/h}$. Thời gian gặp: $120 : 40 = 3\text{ giờ}$.
+
+### Câu 2
+- **Đáp số:** `2`
+- **Lời giải:** Tổng vận tốc: $50 + 40 = 90\text{ km/h}$. Thời gian gặp: $180 : 90 = 2\text{ giờ}$.
+
+### Câu 3
+- **Đáp số:** `100`
+- **Lời giải:** $50 \times 2 = 100\text{ km}$.
+
+### Câu 4
+- **Đáp số:** `75`
+- **Lời giải:** $150 : 2 = 75\text{ km/h}$.
+
+### Câu 5
+- **Đáp số:** `1`
+- **Lời giải:** Khoảng cách lúc xe máy xuất phát: $12 \times 2 = 24\text{ km}$. Hiệu vận tốc: $36 - 12 = 24\text{ km/h}$. Thời gian đuổi kịp: $24 : 24 = 1\text{ giờ}$.
+
+### Câu 6
+- **Đáp số:** `28`
+- **Lời giải:** $25 + 3 = 28\text{ km/h}$.
+
+### Câu 7
+- **Đáp số:** `22`
+- **Lời giải:** $25 - 3 = 22\text{ km/h}$.
+
+### Câu 8
+- **Đáp số:** `2`
+- **Lời giải:** $40 : 20 = 2\text{ giờ}$.
+
+### Câu 9
+- **Đáp số:** `144`
+- **Lời giải:** Tổng vận tốc: $100\text{ km/h}$. Thời gian gặp: $240 : 100 = 2{,}4\text{ giờ} = 144$ phút.
+
+### Câu 10
+- **Đáp số:** `8`
+- **Lời giải:** Mỗi giờ cách nhau $15 - 11 = 4\text{ km}$. Sau 2 giờ cách $4 \times 2 = 8\text{ km}$.
+
+### Câu 11
+- **Đáp số:** `3`
+- **Lời giải:** $(28 - 22) : 2 = 3\text{ km/h}$.
+
+### Câu 12
+- **Đáp số:** `25`
+- **Lời giải:** $(28 + 22) : 2 = 25\text{ km/h}$.
+
+### Câu 13
+- **Đáp số:** `25`
+- **Lời giải:** Quãng đường đi: $300 + 200 = 500\text{ m}$. Thời gian: $500 : 20 = 25\text{ giây}$.
+
+### Câu 14
+- **Đáp số:** `150`
+- **Lời giải:** Thời gian đầu: $60 : 60 = 1$ giờ; thời gian sau: $60 : 40 = 1{,}5$ giờ. Tổng $2{,}5\text{ giờ} = 150$ phút.
+
+### Câu 15
+- **Đáp số:** `80`
+- **Lời giải:** $1\,200 : 15 = 80\text{ m/phút}$.
+
+### Câu 16
+- **Đáp số:** `30`
+- **Lời giải:** $(50 - 40) \times 3 = 30\text{ km}$.
+
+### Câu 17
+- **Đáp số:** `11`
+- **Lời giải:** Thời gian đi: $64 : 16 = 4\text{ giờ}$. Đến nơi lúc $7 + 4 = 11\text{ giờ}$.
+
+### Câu 18
+- **Đáp số:** `2`
+- **Lời giải:** $1\,200 : 600 = 2\text{ giờ}$.
+
+### Câu 19
+- **Đáp số:** `3`
+- **Lời giải:** $12 : 4 = 3\text{ giờ}$.
+
+### Câu 20
+- **Đáp số:** `20`
+- **Lời giải:** Vận tốc xuôi: $36 : 1{,}5 = 24\text{ km/h}$. Vận tốc thực: $24 - 4 = 20\text{ km/h}$.
+
+### Câu 21
+- **Đáp số:** `16`
+- **Lời giải:** $20 - 4 = 16\text{ km/h}$.
+
+### Câu 22
+- **Đáp số:** `150`
+- **Lời giải:** Tổng vận tốc: $3\text{ m/s}$. Thời gian: $450 : 3 = 150\text{ giây}$.
+
+### Câu 23
+- **Đáp số:** `90`
+- **Lời giải:** $60 \times 1{,}5 = 90\text{ km}$.
+
+### Câu 24
+- **Đáp số:** `200`
+- **Lời giải:** Quãng đường: $400 \times 5 = 2\,000\text{ m}$. Vận tốc: $2\,000 : 10 = 200\text{ m/phút}$.
+
+### Câu 25
+- **Đáp số:** `20`
+- **Lời giải:** $300 : 15 = 20\text{ giây}$.

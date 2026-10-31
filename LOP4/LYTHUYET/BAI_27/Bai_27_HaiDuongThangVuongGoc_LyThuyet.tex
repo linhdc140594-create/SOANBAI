@@ -1,0 +1,154 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 27. Hai đường thẳng vuông góc --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 27: HAI ĐƯỜNG THẲNG VUÔNG GÓC}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Khái niệm góc vuông tạo bởi hai đường thẳng cắt nhau, cách kiểm tra bằng ê-ke trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCompass\ 1. Khái niệm hai đường thẳng vuông góc},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Khi hai đường thẳng cắt nhau tạo thành \textbf{bốn góc vuông} thì hai đường thẳng đó gọi là \textbf{hai đường thẳng vuông góc}.\\
+    $\bullet$ Kí hiệu: $a \perp b$ (đọc là đường thẳng $a$ vuông góc với đường thẳng $b$).\\
+    $\bullet$ \textbf{Hình ảnh thực tế}:\\
+    --- Hai mép liền kề của bảng đen, quyển sách.\\
+    --- Khung cửa sổ, góc gạch lát nền nhà.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCrop\ 2. Kiểm tra bằng thước ê-ke},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Để kiểm tra hai đường thẳng có vuông góc hay không, ta dùng \textbf{thước ê-ke}:\\
+    $\bullet$ \textbf{Bước 1:} Đặt đỉnh góc vuông của ê-ke trùng với giao điểm của hai đường thẳng.\\
+    $\bullet$ \textbf{Bước 2:} Đặt một cạnh góc vuông của ê-ke trùng với một đường thẳng.\\
+    $\bullet$ \textbf{Bước 3:} Nếu cạnh góc vuông còn lại của ê-ke trùng với đường thẳng kia thì \textbf{hai đường thẳng đó vuông góc}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HÌNH HỌC TRỰC QUAN HAI ĐƯỜNG THẲNG VUÔNG GÓC},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    box/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    % Vẽ 2 đường thẳng vuông góc
+    \draw[thick, blue!85!black] (1, 0) -- (6, 0) node[right, font=\small\bfseries] {$m$};
+    \draw[thick, blue!85!black] (3.5, -1.5) -- (3.5, 1.5) node[above, font=\small\bfseries] {$n$};
+    \node[below left, font=\scriptsize\bfseries] at (3.5, 0) {$O$};
+
+    % Kí hiệu góc vuông tại 4 góc
+    \draw[thick, red!80!black] (3.5, 0.3) -- (3.8, 0.3) -- (3.8, 0);
+    \draw[thick, red!80!black] (3.5, 0.3) -- (3.2, 0.3) -- (3.2, 0);
+    \draw[thick, red!80!black] (3.5, -0.3) -- (3.8, -0.3) -- (3.8, 0);
+    \draw[thick, red!80!black] (3.5, -0.3) -- (3.2, -0.3) -- (3.2, 0);
+
+    % Chú thích góc
+    \node[font=\tiny\bfseries\color{red!80!black}] at (4.3, 0.6) {Góc 1: $90^\circ$};
+    \node[font=\tiny\bfseries\color{red!80!black}] at (2.7, 0.6) {Góc 2: $90^\circ$};
+    \node[font=\tiny\bfseries\color{red!80!black}] at (4.3, -0.6) {Góc 3: $90^\circ$};
+    \node[font=\tiny\bfseries\color{red!80!black}] at (2.7, -0.6) {Góc 4: $90^\circ$};
+
+    % Khối quy tắc bên phải
+    \node[box, text width=7.5cm, draw=blue!75!black, fill=blue!8] (r1) at (11.5, 0.7) {\textbf{\color{blue!85!black}\faCheckSquare\ DẤU HIỆU CỐT LÕI}\\Cắt nhau tại điểm $O$ tạo thành \textbf{4 góc vuông}\\$m \perp n$ tại điểm $O$};
+    \node[box, text width=7.5cm, draw=teal!80!black, fill=teal!8] (r2) at (11.5, -0.7) {\textbf{\color{teal!85!black}\faCrop\ DỤNG CỤ ĐO \& VẼ: THƯỚC Ê-KE}\\Đỉnh góc vuông ê-ke $\rightarrow$ trùng điểm $O$\\2 cạnh góc vuông ê-ke $\rightarrow$ trùng 2 đường thẳng};
+
+    \draw[arr] (5.2, 0.3) -- (r1.west);
+    \draw[arr] (5.2, -0.3) -- (r2.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Trong hình chữ nhật $ABCD$:\\
+    $\bullet$ Đoạn thẳng $AB$ vuông góc với đoạn thẳng $BC$ (tại đỉnh $B$).\\
+    $\bullet$ Đoạn thẳng $BC$ vuông góc với đoạn thẳng $CD$ (tại đỉnh $C$).\\
+    $\bullet$ Đoạn thẳng $CD$ vuông góc với đoạn thẳng $DA$ (tại đỉnh $D$).\\
+    $\bullet$ Đoạn thẳng $DA$ vuông góc với đoạn thẳng $AB$ (tại đỉnh $A$).\\
+    $\Rightarrow$ Hình chữ nhật có \textbf{4 cặp cạnh vuông góc} với nhau.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy cắt nhau nhưng không vuông góc:}\\
+    Hai đường thẳng cắt nhau tạo thành góc nhọn và góc tù thì \textbf{không vuông góc}. Bắt buộc phải có góc vuông $90^\circ$.\\
+    $\bullet$ \textbf{Bẫy nhìn bằng mắt thường:}\\
+    Luôn phải dùng \textbf{ê-ke} để kiểm tra, không đoán mò bằng mắt!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

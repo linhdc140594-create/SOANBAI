@@ -1,0 +1,169 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{arr/.style={-{Stealth[scale=0.8]}}}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 06. Luyện tập chung --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 06: LUYỆN TẬP CHUNG}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Đại tổng kết kiến thức Chủ đề 1: Số đến 100, tia số, phép tính và hơn kém nhau trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Trụ cột kiến thức cốt lõi}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Số học:} Đọc, viết số đến 100; phân tích $a0 + b$; so sánh số chục trước rồi đến đơn vị.
+  \item \textbf{Tia số:} Chiều tăng từ trái qua phải; số liền trước bớt 1, số liền sau thêm 1.
+  \item \textbf{Thành phần phép tính:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Phép cộng: $\text{Số hạng} + \text{Số hạng} = \text{Tổng}$.
+    \item Phép trừ: $\text{Số bị trừ} - \text{Số trừ} = \text{Hiệu}$.
+  \end{itemize}
+  \item \textbf{Bài toán chênh lệch:} Hơn/kém nhau bao nhiêu $\implies$ Luôn lấy $\text{Số lớn} - \text{Số bé}$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Kĩ năng tổng hợp}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{So sánh hai vế biểu thức:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Bước 1: Tính kết quả của từng vế.
+    \item Bước 2: So sánh hai kết quả tìm được.
+  \end{itemize}
+  \item \textbf{Tìm chữ số thích hợp:} Dựa vào hàng đơn vị trước rồi suy ra hàng chục.
+  \item \textbf{Giải toán 1 bước:} Đọc kĩ bài toán để xác định phép tính phù hợp (gộp lại $\to$ cộng; bớt đi hoặc tìm chênh lệch $\to$ trừ).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy 4 nhánh: Tổng kết Chủ đề 1 (Ôn tập và bổ sung)}
+]
+\centering
+\begin{tikzpicture}[
+  node distance=0.8cm,
+  box/.style={rectangle, rounded corners=2pt, draw=violet!70!black, fill=violet!10, text width=2.4cm, align=center, font=\scriptsize\bfseries, inner sep=3pt},
+  branch/.style={rectangle, rounded corners=2pt, draw=#1!80!black, fill=#1!10, text width=2.3cm, align=center, font=\scriptsize, inner sep=2.5pt},
+  arr/.style={-{Stealth[scale=0.8]}, thick, #1!80!black}
+]
+  \node[box] (root) {CHỦ ĐỀ 1\\ÔN TẬP \& BỔ SUNG};
+  \node[branch=teal, above left=0.3cm and 0.4cm of root] (b1) {\textbf{SỐ ĐẾN 100}\\Đọc, viết, so sánh\\Cấu tạo: $a0 + b$};
+  \node[branch=orange, above right=0.3cm and 0.4cm of root] (b2) {\textbf{TIA SỐ}\\Gốc 0, tăng dần\\Trước (-1) / Sau (+1)};
+  \node[branch=green, below left=0.3cm and 0.4cm of root] (b3) {\textbf{THÀNH PHẦN}\\Số hạng - Tổng\\Số bị trừ - Số trừ - Hiệu};
+  \node[branch=purple, below right=0.3cm and 0.4cm of root] (b4) {\textbf{HƠN KÉM NHAU}\\Phần chênh lệch\\$=$ Số lớn $-$ Số bé};
+
+  \draw[arr=teal] (root) -- (b1);
+  \draw[arr=orange] (root) -- (b2);
+  \draw[arr=green] (root) -- (b3);
+  \draw[arr=purple] (root) -- (b4);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Điền dấu ($>, <, =$):}\\
+So sánh: $35 + 14 \dots 50$.\\
+Vế trái: $35 + 14 = 49$.\\
+Vì $49 < 50$ nên: $35 + 14 < 50$.
+\textbf{2. Bài toán lời văn:}\\
+Lớp 2A có $35$ học sinh, lớp 2B có $32$ học sinh. Hỏi lớp 2A nhiều hơn lớp 2B bao nhiêu học sinh?\\
+\textit{Bài giải:}\\
+Lớp 2A nhiều hơn lớp 2B số học sinh là:
+$$35 - 32 = 3\text{ (học sinh)}$$
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy so sánh biểu thức chưa tính:}\\
+  Tuyệt đối không đoán mò, phải tính giá trị hai vế ra nháp rồi mới điền dấu.
+  \item \textbf{Bẫy số liền trước số tròn chục:}\\
+  Số liền trước của $50$ là $49$, số liền trước của $70$ là $69$.
+  \item Luôn viết đáp số kèm theo đơn vị đo trong ngoặc.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

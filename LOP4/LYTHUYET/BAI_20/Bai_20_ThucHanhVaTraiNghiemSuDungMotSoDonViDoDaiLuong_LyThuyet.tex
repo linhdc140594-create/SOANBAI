@@ -1,0 +1,151 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 20. Thực hành và trải nghiệm sử dụng một số đơn vị đo đại lượng --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 20: THỰC HÀNH VÀ TRẢI NGHIỆM ĐƠN VỊ ĐO ĐẠI LƯỢNG}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Kĩ năng ước lượng, lựa chọn đơn vị đo thực tế và sử dụng dụng cụ đo chính xác trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. Lựa chọn đơn vị đo phù hợp},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Tùy theo độ lớn của đối tượng thực tế để chọn đơn vị:\\
+    $\bullet$ \textbf{Khối lượng}:\\
+    --- Quả trứng, gói bánh: dùng \textbf{gam (g)}.\\
+    --- Con gà, bao gạo, túi hoa quả: dùng \textbf{kg}.\\
+    --- Con lợn, con bò: dùng \textbf{tạ, yến}.\\
+    --- Xe chở hàng, con voi: dùng \textbf{tấn}.\\
+    $\bullet$ \textbf{Diện tích}:\\
+    --- Con tem, móng tay: dùng \textbf{$\text{mm}^2$ hoặc $\text{cm}^2$}.\\
+    --- Bìa sách, mặt bàn học: dùng \textbf{$\text{dm}^2$}.\\
+    --- Nền phòng học, sân trường, thửa ruộng: dùng \textbf{$\text{m}^2$}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faWrench\ 2. Kĩ năng ước lượng \& Đo đạc},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Quy trình thực hành 3 bước}:\\
+    1. \textbf{Quan sát}: Nhận định kích thước, khối lượng.\\
+    2. \textbf{Ước lượng}: Đưa ra dự đoán gần đúng nhất.\\
+    3. \textbf{Đo thực tế}: Dùng dụng cụ đo để kiểm chứng.\\
+    $\bullet$ \textbf{Dụng cụ đo tương ứng}:\\
+    --- Khối lượng: Cân đồng hồ, cân điện tử, cân bàn.\\
+    --- Diện tích: Đo độ dài các cạnh bằng thước cuộn rồi áp dụng công thức hình học.\\
+    --- Thời gian: Đồng hồ bấm giây (đo chính xác đến từng giây trong chạy thi, bơi lội).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: MA TRẬN ỨNG DỤNG ĐẠI LƯỢNG TRONG ĐỜI SỐNG},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=0.88, yscale=0.82,
+    hub/.style={rectangle, rounded corners=2.5mm, draw=teal!85!black, fill=teal!15, thick, inner sep=4pt, font=\footnotesize\bfseries, align=center},
+    card1/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3pt, font=\scriptsize, align=center, text width=3.9cm},
+    card2/.style={rectangle, rounded corners=2mm, draw=orange!80!black, fill=orange!12, thick, inner sep=3pt, font=\scriptsize, align=center, text width=3.9cm},
+    card3/.style={rectangle, rounded corners=2mm, draw=purple!80!black, fill=purple!10, thick, inner sep=3pt, font=\scriptsize, align=center, text width=3.9cm},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    \node[hub] (core) at (7, 1.25) {\faCompass\ BỘ BA ĐẠI LƯỢNG ĐO THỰC HÀNH};
+
+    \node[card1] (c1) at (2.4, -0.65) {\textbf{\color{blue!80!black}\faBalanceScale\ KHỐI LƯỢNG}\\Nhẹ $\rightarrow$ Nặng: g, kg, yến, tạ, tấn\\Dụng cụ: Cân bàn, cân điện tử};
+    \node[card2] (c2) at (7.0, -0.65) {\textbf{\color{orange!80!black}\faThLarge\ DIỆN TÍCH}\\Bé $\rightarrow$ Lớn: $\text{mm}^2, \text{cm}^2, \text{dm}^2, \text{m}^2$\\Dụng cụ: Thước kẻ, thước dây};
+    \node[card3] (c3) at (11.6, -0.65) {\textbf{\color{purple!80!black}\faClockO\ THỜI GIAN}\\Ngắn $\rightarrow$ Dài: Giây, phút, giờ, thế kỉ\\Dụng cụ: Đồng hồ bấm giây};
+
+    \draw[arr] (core.south) -- ++(0,-0.2) -| (c1.north);
+    \draw[arr] (core.south) -- (c2.north);
+    \draw[arr] (core.south) -- ++(0,-0.2) -| (c3.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Điền đơn vị thích hợp vào chỗ chấm:\\
+    $\bullet$ Khối lượng một con bò sữa khoảng: $5$ \textbf{tạ} (hoặc $500$ \textbf{kg}).\\
+    $\bullet$ Diện tích nền một phòng học khoảng: $50$ \textbf{$\text{m}^2$}.\\
+    $\bullet$ Thời gian học sinh chạy cự li 60 mét khoảng: $10$ \textbf{giây}.\\
+    $\bullet$ Diện tích một chiếc tem thư khoảng: $600$ \textbf{$\text{mm}^2$} (hoặc $6\text{ cm}^2$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy nhầm bậc độ lớn:}\\
+    Ví dụ phòng học rộng $50\text{ dm}^2$ là \textbf{sai} (vì $50\text{ dm}^2$ chỉ bằng nửa mét vuông, chỉ là cái bàn nhỏ). Phải là $50\text{ m}^2$.\\
+    $\bullet$ \textbf{Bẫy đơn vị đo thời gian:}\\
+    Chạy thể dục cự li ngắn tính bằng \textbf{giây}, không thể là phút hay giờ.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

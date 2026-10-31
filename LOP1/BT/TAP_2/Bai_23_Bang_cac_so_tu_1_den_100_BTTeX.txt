@@ -1,0 +1,199 @@
+\begin{ex}
+Trong bảng các số từ 1 đến 100, có tất cả bao nhiêu số tự nhiên?
+\shortans{100}
+\loigiai{
+Có tất cả 100 số.
+}
+\end{ex}
+
+\begin{ex}
+Số nhỏ nhất trong bảng các số từ 1 đến 100 là số nào?
+\shortans{1}
+\loigiai{
+Số nhỏ nhất là 1.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất trong bảng các số từ 1 đến 100 là số nào?
+\shortans{100}
+\loigiai{
+Số lớn nhất là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 là số có mấy chữ số?
+\shortans{3}
+\loigiai{
+Số 100 có 3 chữ số.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số bé nhất có 3 chữ số là 100.
+}
+\end{ex}
+
+\begin{ex}
+Trong bảng các số từ 1 đến 100, có bao nhiêu số tròn chục?
+\shortans{10}
+\loigiai{
+Các số tròn chục gồm: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100. Có 10 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong bảng các số từ 1 đến 100, có bao nhiêu số có một chữ số?
+\shortans{9}
+\loigiai{
+Từ 1 đến 9 có 9 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong bảng các số từ 1 đến 100, có bao nhiêu số có hai chữ số?
+\shortans{90}
+\loigiai{
+Từ 10 đến 99 có $99 - 10 + 1 = 90$ số.
+}
+\end{ex}
+
+\begin{ex}
+Trong bảng các số từ 1 đến 100, có bao nhiêu số có ba chữ số?
+\shortans{1}
+\loigiai{
+Chỉ có duy nhất số 100 là số có ba chữ số.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số liền sau của số 99 trong bảng các số.
+\shortans{100}
+\loigiai{
+Số liền sau của 99 là 100.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số liền trước của số 100 trong bảng các số.
+\shortans{99}
+\loigiai{
+Số liền trước của 100 là 99.
+}
+\end{ex}
+
+\begin{ex}
+Các số có hai chữ số giống nhau trong bảng từ 1 đến 100 là: 11, 22, 33, 44, 55, 66, 77, 88, 99. Hỏi có tất cả bao nhiêu số như vậy?
+\shortans{9}
+\loigiai{
+Có tất cả 9 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong hàng ngang thứ hai của bảng (các số từ 11 đến 20), có bao nhiêu số?
+\shortans{10}
+\loigiai{
+Có 10 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong cột tận cùng bằng chữ số 5 (5, 15, 25, ..., 95), có bao nhiêu số có hai chữ số?
+\shortans{9}
+\loigiai{
+Có 9 số có hai chữ số (15, 25, 35, 45, 55, 65, 75, 85, 95).
+}
+\end{ex}
+
+\begin{ex}
+Số đứng ngay dưới số 34 trong bảng các số (hơn số 34 là 10 đơn vị) là số nào?
+\shortans{44}
+\loigiai{
+Số đứng dưới 34 là $34 + 10 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Số đứng ngay trên số 67 trong bảng các số (kém số 67 là 10 đơn vị) là số nào?
+\shortans{57}
+\loigiai{
+Số đứng trên 67 là $67 - 10 = 57$.
+}
+\end{ex}
+
+\begin{ex}
+Số đứng ngay bên phải số 78 trong bảng các số là số nào?
+\shortans{79}
+\loigiai{
+Số đứng bên phải là số liền sau: 79.
+}
+\end{ex}
+
+\begin{ex}
+Số đứng ngay bên trái số 50 trong bảng các số là số nào?
+\shortans{49}
+\loigiai{
+Số đứng bên trái là số liền trước: 49.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có chữ số tận cùng bằng 0 trong dãy từ 1 đến 100?
+\shortans{10}
+\loigiai{
+Các số tận cùng bằng 0: 10, 20, 30, ..., 100. Có 10 số.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có hai chữ số khác nhau là số nào?
+\shortans{98}
+\loigiai{
+Số lớn nhất có 2 chữ số khác nhau là 98.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có hai chữ số khác nhau là số nào?
+\shortans{10}
+\loigiai{
+Số bé nhất có 2 chữ số khác nhau là 10.
+}
+\end{ex}
+
+\begin{ex}
+Đếm xuôi cách 5 đơn vị: $5, 10, 15, 20, \dots, 35$. Số đứng ngay sau số 20 là số nào?
+\shortans{25}
+\loigiai{
+Số tiếp theo là $20 + 5 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Đếm xuôi cách 10 đơn vị: $10, 20, 30, \dots, 80$. Số đứng ngay sau số 40 là số nào?
+\shortans{50}
+\loigiai{
+Số tiếp theo là $40 + 10 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số từ 1 đến 100, có bao nhiêu số có chữ số hàng đơn vị bằng 0?
+\shortans{10}
+\loigiai{
+Có 10 số tròn chục từ 10 đến 100.
+}
+\end{ex}
+
+\begin{ex}
+Số đứng liền sau số 89 là số nào?
+\shortans{90}
+\loigiai{
+Số liền sau 89 là 90.
+}
+\end{ex}

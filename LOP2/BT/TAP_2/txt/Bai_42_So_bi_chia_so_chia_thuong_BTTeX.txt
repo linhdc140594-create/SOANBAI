@@ -1,0 +1,199 @@
+\begin{ex}
+Trong phép chia $12 : 2 = 6$, số 6 được gọi là gì? Tính thương của 12 và 2.
+\shortans{6}
+\loigiai{
+Thương là 6.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép chia $20 : 5 = 4$, số bị chia bằng bao nhiêu?
+\shortans{20}
+\loigiai{
+Số bị chia là 20.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép chia $35 : 5 = 7$, số chia bằng bao nhiêu?
+\shortans{5}
+\loigiai{
+Số chia là 5.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị chia là 16, số chia là 2. Tính thương.
+\shortans{8}
+\loigiai{
+Thương: $16 : 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị chia là 40, số chia là 5. Tính thương.
+\shortans{8}
+\loigiai{
+Thương: $40 : 5 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị chia là 18, số chia là 2. Tính thương.
+\shortans{9}
+\loigiai{
+Thương: $18 : 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị chia là 45, số chia là 5. Tính thương.
+\shortans{9}
+\loigiai{
+Thương: $45 : 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Biết thương là 7, số chia là 2. Tìm số bị chia.
+\shortans{14}
+\loigiai{
+Số bị chia: $7 \times 2 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Biết thương là 6, số chia là 5. Tìm số bị chia.
+\shortans{30}
+\loigiai{
+Số bị chia: $6 \times 5 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Biết thương là 9, số chia là 2. Tìm số bị chia.
+\shortans{18}
+\loigiai{
+Số bị chia: $9 \times 2 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Biết thương là 8, số chia là 5. Tìm số bị chia.
+\shortans{40}
+\loigiai{
+Số bị chia: $8 \times 5 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị chia là 10, thương là 5. Tìm số chia.
+\shortans{2}
+\loigiai{
+Số chia: $10 : 5 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị chia là 25, thương là 5. Tìm số chia.
+\shortans{5}
+\loigiai{
+Số chia: $25 : 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $16 : 2 + 15$.
+\shortans{23}
+\loigiai{
+Ta có $16 : 2 = 8$, rồi $8 + 15 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $30 : 5 + 24$.
+\shortans{30}
+\loigiai{
+Ta có $30 : 5 = 6$, rồi $6 + 24 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $14 : 2 \times 3$.
+\shortans{21}
+\loigiai{
+Ta có $14 : 2 = 7$, rồi $7 \times 3 = 21$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $40 : 5 \times 2$.
+\shortans{16}
+\loigiai{
+Ta có $40 : 5 = 8$, rồi $8 \times 2 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $18 : \dots = 9$.
+\shortans{2}
+\loigiai{
+Số cần điền là: $18 : 9 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $35 : \dots = 7$.
+\shortans{5}
+\loigiai{
+Số cần điền là: $35 : 7 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 2 = 8$.
+\shortans{16}
+\loigiai{
+Số cần điền là: $8 \times 2 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 5 = 9$.
+\shortans{45}
+\loigiai{
+Số cần điền là: $9 \times 5 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Trong một phép chia có số chia là 2, thương là số lớn nhất có một chữ số. Số bị chia là bao nhiêu?
+\shortans{18}
+\loigiai{
+Số lớn nhất có 1 chữ số là 9. Số bị chia: $9 \times 2 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Trong một phép chia có số chia là 5, thương là số chẵn lớn nhất có một chữ số. Số bị chia là bao nhiêu?
+\shortans{40}
+\loigiai{
+Số chẵn lớn nhất có 1 chữ số là 8. Số bị chia: $8 \times 5 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Một số chia cho 2 thì được 10. Lấy số đó trừ đi 5 thì được bao nhiêu?
+\shortans{15}
+\loigiai{
+Số đó là: $10 \times 2 = 20$. Hiệu: $20 - 5 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $50 : 5 - 2$.
+\shortans{8}
+\loigiai{
+Ta có $50 : 5 = 10$, rồi $10 - 2 = 8$.
+}
+\end{ex}

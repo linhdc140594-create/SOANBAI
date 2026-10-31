@@ -1,0 +1,159 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 57. Cộng, trừ số đo thời gian --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 57. CỘNG, TRỪ SỐ ĐO THỜI GIAN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Kỹ thuật đặt tính thẳng cột theo đơn vị, chuyển đổi khi cộng nhớ hoặc trừ mượn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC CỘNG VÀ TRỪ THỜI GIAN ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPlus\ 1. Phép cộng số đo thời gian},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặt tính}: Đặt thẳng cột theo từng loại đơn vị thời gian (giờ thẳng giờ, phút thẳng phút).\\
+    $\bullet$ \textbf{Thực hiện cộng}: Cộng riêng từng loại đơn vị từ phải sang trái.\\
+    $\bullet$ \textbf{Chuyển đổi (NẾU CẦN)}: Nếu số đo ở đơn vị phút/giây $\ge 60$, ta đổi sang đơn vị lớn hơn liền kề.\\
+    \textit{VD:} $2\text{h } 45\text{p} + 3\text{h } 30\text{p} = 5\text{h } 75\text{p} = \mathbf{6\text{h } 15\text{p}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faMinus\ 2. Phép trừ số đo thời gian},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặt tính}: Thẳng cột theo từng loại đơn vị.\\
+    $\bullet$ \textbf{Đổi mượn (NẾU CẦN)}: Nếu số đo ở đơn vị bé của số bị trừ nhỏ hơn số trừ, ta \textbf{mượn 1 đơn vị lớn đổi thành 60 đơn vị bé}.\\
+    \textit{VD:} $5\text{ giờ } 15\text{ phút} - 2\text{ giờ } 40\text{ phút}$:\\
+    Đổi: $5\text{h } 15\text{p} = 4\text{h } 75\text{p}$.\\
+    Trừ: $4\text{h } 75\text{p} - 2\text{h } 40\text{p} = \mathbf{2\text{ giờ } 35\text{ phút}}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN THỜI ĐIỂM & THỜI GIAN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faClockO\ 3. Phân biệt Thời điểm và Khoảng thời gian},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{ll}
+    $\bullet$ \textbf{Thời điểm:} Một mốc thời gian cụ thể (VD: Xe xuất phát lúc $7\text{ giờ } 15\text{ phút}$).\\
+    $\bullet$ \textbf{Thời gian làm bài / đi đường:} Khoảng cách giữa hai thời điểm (VD: Đi hết $2\text{ giờ}$).\\
+    \begin{tcolorbox}[colback=white, colframe=purple!70!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{purple!90!black}$\text{Thời gian đến nơi} = \text{Thời điểm khởi hành} + \text{Thời gian đi} + \text{Thời gian nghỉ}$}\\[1.5pt]
+      {\scriptsize\bfseries\color{blue!85!black}$\text{Thời gian đi} = \text{Thời điểm đến} - \text{Thời điểm khởi hành} - \text{Thời gian nghỉ}$}
+    \end{tcolorbox}
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kỹ thuật mượn / nhớ số đo thời gian},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b1] (cong) at (-4.8, 0) {\textbf{PHÉP CỘNG THỜI GIAN}\\[2pt]Nếu phần phút/giây $\ge 60$:\\$\longrightarrow$ Đổi sang đơn vị lớn hơn};
+    \node[b2] (tru) at (4.8, 0) {\textbf{PHÉP TRỪ THỜI GIAN}\\[2pt]Nếu không đủ trừ đơn vị bé:\\$\longrightarrow$ Mượn $1$ đơn vị lớn $= 60$};
+
+    \draw[teal!85!black, very thick, <->] (cong) -- (tru);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Đổi đơn vị trước khi trừ},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Trừ số đo có ngày và giờ:\\
+    $3\text{ ngày } 8\text{ giờ} - 1\text{ ngày } 14\text{ giờ}$:\\
+    $\triangleright$ Vì $8 < 14$, mượn $1$ ngày $= 24$ giờ:\\
+    \quad $3\text{ ngày } 8\text{ giờ} = 2\text{ ngày } 32\text{ giờ}$.\\
+    $\triangleright$ Trừ: $2\text{ ngày } 32\text{ giờ} - 1\text{ ngày } 14\text{ giờ} = \mathbf{1\text{ ngày } 18\text{ giờ}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Mượn $1$ giờ là mượn \textbf{60 phút}, không phải mượn $10$ như số thập phân!\\
+    $\bullet$ Mượn $1$ ngày là mượn \textbf{24 giờ}, không phải $60$ hay $10$.\\
+    $\bullet$ Bài toán chuyển động: Quên trừ thời gian nghỉ dọc đường khi tính thời gian đi.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,144 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 41. Nhân, chia với 10, 100, 1000... --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 41: NHÂN, CHIA VỚI 10, 100, 1000...}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Quy tắc thêm, bớt chữ số 0 và ứng dụng tính nhẩm nhanh siêu tốc trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPlusCircle\ 1. Nhân với 10, 100, 1000...},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Khi nhân một số tự nhiên với $10, 100, 1000...$ ta chỉ việc \textbf{viết thêm một, hai, ba... chữ số 0} vào bên phải số đó.\\
+    $\bullet$ \textbf{Ví dụ}:
+    \par
+    --- $48 \times 10 = \mathbf{480}$ (thêm $1$ chữ số $0$).\\
+    --- $48 \times 100 = \mathbf{4800}$ (thêm $2$ chữ số $0$).\\
+    --- $48 \times 1000 = \mathbf{48\,000}$ (thêm $3$ chữ số $0$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faMinusCircle\ 2. Chia cho 10, 100, 1000...},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Khi chia một số tròn chục, tròn trăm, tròn nghìn... cho $10, 100, 1000...$ ta chỉ việc \textbf{bỏ bớt đi một, hai, ba... chữ số 0} ở bên phải số đó.\\
+    $\bullet$ \textbf{Ví dụ}:
+    \par
+    --- $520 : 10 = \mathbf{52}$ (bớt $1$ chữ số $0$).\\
+    --- $5200 : 100 = \mathbf{52}$ (bớt $2$ chữ số $0$).\\
+    --- $52\,000 : 1000 = \mathbf{52}$ (bớt $3$ chữ số $0$).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: NGUYÊN TẮC THÊM / BỚT CHỮ SỐ 0 HAI CHIỀU},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    cnode/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    % Node trung tâm
+    \node[cnode, draw=purple!80!black, fill=purple!12, text width=3.6cm] (center) at (0, 0) {\Large\textbf{SỐ TỰ NHIÊN $A$}\\[1mm]\footnotesize Không cần đặt tính};
+
+    % Nhánh nhân bên phải
+    \node[cnode, draw=blue!75!black, fill=blue!8, text width=5.8cm] (mul) at (5.8, 0.8) {\textbf{\color{blue!85!black}\faPlusSquare\ PHÉP NHÂN: VIẾT THÊM CHỮ SỐ 0}\\$\times 10 \rightarrow$ Thêm 1 số 0 ($A\mathbf{0}$)\\$\times 100 \rightarrow$ Thêm 2 số 0 ($A\mathbf{00}$)\\$\times 1000 \rightarrow$ Thêm 3 số 0 ($A\mathbf{000}$)};
+
+    % Nhánh chia bên phải
+    \node[cnode, draw=teal!80!black, fill=teal!8, text width=5.8cm] (div) at (5.8, -0.8) {\textbf{\color{teal!85!black}\faMinusSquare\ PHÉP CHIA: BỚT ĐI CHỮ SỐ 0}\\$: 10 \rightarrow$ Bớt 1 số 0 tận cùng\\$: 100 \rightarrow$ Bớt 2 số 0 tận cùng\\$: 1000 \rightarrow$ Bớt 3 số 0 tận cùng};
+
+    \draw[arr] (center.east) |- (mul.west);
+    \draw[arr] (center.east) |- (div.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Ứng dụng nhân chia với số tròn chục}:\\
+    $\bullet$ $230 \times 20 = (23 \times 2) \times (10 \times 10) = 46 \times 100 = \mathbf{4600}$.\\
+    (Lấy $23 \times 2 = 46$, đếm có 2 số 0 $\rightarrow$ thêm vào thành $4600$).\\
+    $\bullet$ $8400 : 40 = (8400 : 10) : 4 = 840 : 4 = \mathbf{210}$.\\
+    (Cùng bớt 1 số 0 ở cả số bị chia và số chia $\rightarrow 840 : 4 = 210$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy đuôi 5 tạo thêm số 0}:\\
+    Ví dụ: $50 \times 40 = 2000$ (học sinh hay viết $200$ vì đếm có 2 số 0). Nhớ: $5 \times 4 = 20$ vốn đã có sẵn một chữ số 0!\\
+    $\bullet$ \textbf{Bẫy chia có dư}:\\
+    $354 : 10 = 35$ \textbf{dư 4} (chữ số hàng đơn vị chính là số dư khi chia cho 10).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,161 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 40. Bảng nhân 5 --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 40: BẢNG NHÂN 5}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Hình thành và ghi nhớ bảng cửu chương nhân 5; quy luật đếm thêm 5 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Bảng nhân 5 chuẩn mực}
+]
+{\footnotesize
+\begin{tabular}{l@{\quad}l}
+  $5 \times 1 = \mathbf{5}$ & $5 \times 6 = \mathbf{30}$ \\
+  $5 \times 2 = \mathbf{10}$ & $5 \times 7 = \mathbf{35}$ \\
+  $5 \times 3 = \mathbf{15}$ & $5 \times 8 = \mathbf{40}$ \\
+  $5 \times 4 = \mathbf{20}$ & $5 \times 9 = \mathbf{45}$ \\
+  $5 \times 5 = \mathbf{25}$ & $5 \times 10 = \mathbf{50}$
+\end{tabular}
+\vspace{1mm}
+\begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Thừa số thứ nhất đều là $5$.
+  \item \textbf{Đặc điểm dãy tích:} Các số chỉ tận cùng bằng chữ số \textbf{0} hoặc \textbf{5}.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Quy luật đếm thêm 5}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Trong bảng nhân 5, tích liền sau luôn \textbf{hơn tích liền trước 5 đơn vị}.
+  $$\text{Tích sau} = \text{Tích trước} + 5$$
+  \item \textbf{Liên hệ thực tế:}\\
+  - Mỗi bàn tay có $5$ ngón tay.\\
+  - Khoảng cách giữa các số trên mặt đồng hồ ứng với $5$ phút ($5 \times 1 = 5$ phút, $5 \times 6 = 30$ phút).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy: Bậc thang dãy tích Bảng nhân 5}
+]
+\centering
+\begin{tikzpicture}[x=0.9cm, y=0.6cm]
+  \foreach \i/\val in {1/5, 2/10, 3/15, 4/20, 5/25, 6/30, 7/35, 8/40, 9/45, 10/50} {
+    \node[circle, draw=teal!80!black, fill=teal!15, inner sep=2pt, font=\tiny\bfseries] at (\i*1.1, 0) {\val};
+    \ifnum\i<10
+      \draw[->, thick, orange!80!black] (\i*1.1+0.3, 0.2) to[bend left=40] node[above, font=\tiny] {+5} (\i*1.1+0.8, 0.2);
+    \fi
+  }
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Tính nhẩm:}\\
+$5 \times 3 = \mathbf{15}$; $5 \times 6 = \mathbf{30}$; $5 \times 8 = \mathbf{40}$.
+\textbf{2. Bài toán lời văn:}\\
+Mỗi ngôi sao có $5$ cánh. Hỏi $6$ ngôi sao như thế có tất cả bao nhiêu cánh?\\
+\textit{Bài giải:}\\
+$6$ ngôi sao có tất cả số cánh là:
+$$5 \times 6 = 30\text{ (cánh)}$$
+Đáp số: $30$ cánh sao.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Nhận dạng nhanh chữ số tận cùng:}\\
+  Nếu nhân với số chẵn ($2, 4, 6, 8, 10$) $\to$ tận cùng là \textbf{0}.\\
+  Nếu nhân với số lẻ ($1, 3, 5, 7, 9$) $\to$ tận cùng là \textbf{5}.
+  \item Không bao giờ có kết quả tận cùng là $1, 2, 3, 4, 6, 7, 8, 9$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

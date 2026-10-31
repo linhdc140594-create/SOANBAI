@@ -1,0 +1,199 @@
+\begin{ex}
+Lớp đơn vị gồm mấy hàng?
+\shortans{3}
+\loigiai{
+Gồm 3 hàng: đơn vị, chục, trăm.
+}
+\end{ex}
+
+\begin{ex}
+Lớp nghìn gồm mấy hàng?
+\shortans{3}
+\loigiai{
+Gồm 3 hàng: nghìn, chục nghìn, trăm nghìn.
+}
+\end{ex}
+
+\begin{ex}
+Lớp triệu gồm mấy hàng?
+\shortans{3}
+\loigiai{
+Gồm 3 hàng: triệu, chục triệu, trăm triệu.
+}
+\end{ex}
+
+\begin{ex}
+Trong số 548 213, chữ số 8 thuộc hàng nào? (Hàng nghìn ghi 1, hàng trăm ghi 2).
+\shortans{1}
+\loigiai{
+Hàng nghìn.
+}
+\end{ex}
+
+\begin{ex}
+Trong số 548 213, các chữ số thuộc lớp nghìn là 5, 4 và chữ số nào?
+\shortans{8}
+\loigiai{
+Chữ số 8.
+}
+\end{ex}
+
+\begin{ex}
+Trong số 729 456, các chữ số thuộc lớp đơn vị gồm 4, 5 và chữ số nào?
+\shortans{6}
+\loigiai{
+Chữ số 6.
+}
+\end{ex}
+
+\begin{ex}
+Số 635 412 có chữ số hàng chục nghìn là bao nhiêu?
+\shortans{3}
+\loigiai{
+Chữ số hàng chục nghìn là 3.
+}
+\end{ex}
+
+\begin{ex}
+Số 810 524 có chữ số hàng trăm nghìn là bao nhiêu?
+\shortans{8}
+\loigiai{
+Chữ số hàng trăm nghìn là 8.
+}
+\end{ex}
+
+\begin{ex}
+Số 354 089 có chữ số 0 thuộc hàng nào? (Hàng trăm ghi 1, hàng chục ghi 2).
+\shortans{1}
+\loigiai{
+Hàng trăm.
+}
+\end{ex}
+
+\begin{ex}
+Số 902 345 có chữ số 0 thuộc lớp nào? (Lớp nghìn ghi 1, lớp đơn vị ghi 2).
+\shortans{1}
+\loigiai{
+Lớp nghìn.
+}
+\end{ex}
+
+\begin{ex}
+Chữ số 7 trong số 715 423 có giá trị là bao nhiêu?
+\shortans{700000}
+\loigiai{
+Giá trị là 700 000.
+}
+\end{ex}
+
+\begin{ex}
+Chữ số 4 trong số 342 516 có giá trị là bao nhiêu?
+\shortans{40000}
+\loigiai{
+Giá trị là 40 000.
+}
+\end{ex}
+
+\begin{ex}
+Chữ số 5 trong số 825 341 có giá trị là bao nhiêu?
+\shortans{5000}
+\loigiai{
+Giá trị là 5000.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 6 trăm nghìn và 5 đơn vị viết là gì?
+\shortans{600005}
+\loigiai{
+Số đó là 600005.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 3 trăm nghìn, 4 nghìn và 2 chục viết là gì?
+\shortans{304020}
+\loigiai{
+Số đó là 304020.
+}
+\end{ex}
+
+\begin{ex}
+Tổng giá trị các chữ số thuộc lớp nghìn của số 123 456 là bao nhiêu?
+\shortans{123000}
+\loigiai{
+$100000 + 20000 + 3000 = 123000$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng giá trị các chữ số thuộc lớp đơn vị của số 456 789 là bao nhiêu?
+\shortans{789}
+\loigiai{
+$700 + 80 + 9 = 789$.
+}
+\end{ex}
+
+\begin{ex}
+Một số có chữ số hàng trăm nghìn là 5, hàng chục nghìn là 0, hàng nghìn là 0, hàng trăm là 2, hàng chục là 0, hàng đơn vị là 8. Số đó là số nào?
+\shortans{500208}
+\loigiai{
+Số đó là 500208.
+}
+\end{ex}
+
+\begin{ex}
+Trong số 852 147, chữ số 2 thuộc hàng nào?
+\shortans{2}
+\loigiai{
+Hàng nghìn (ghi số 2 nếu hỏi giá trị hàng là 2000: giá trị chữ số 2 là 2000).
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 2 trong số 852 147 là bao nhiêu?
+\shortans{2000}
+\loigiai{
+Giá trị là 2000.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 8 trong số 852 147 gấp mấy lần giá trị của chữ số 1 trong số đó?
+\shortans{8000}
+\loigiai{
+800 000 gấp 100 là $800000 : 100 = 8000$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Lớp nào đứng liền trước lớp đơn vị (tính từ phải sang trái)? (Lớp nghìn ghi 1, lớp triệu ghi 2).
+\shortans{1}
+\loigiai{
+Lớp nghìn.
+}
+\end{ex}
+
+\begin{ex}
+Lớp nào đứng liền sau lớp nghìn (tính từ phải sang trái)? (Lớp triệu ghi 1, lớp tỉ ghi 2).
+\shortans{1}
+\loigiai{
+Lớp triệu.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu hàng trong 2 lớp (lớp đơn vị và lớp nghìn)?
+\shortans{6}
+\loigiai{
+$3 + 3 = 6$ hàng.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu hàng trong 3 lớp (lớp đơn vị, lớp nghìn và lớp triệu)?
+\shortans{9}
+\loigiai{
+$3 \times 3 = 9$ hàng.
+}
+\end{ex}

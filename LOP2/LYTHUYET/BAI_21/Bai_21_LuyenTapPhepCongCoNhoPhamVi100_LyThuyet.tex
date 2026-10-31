@@ -1,0 +1,162 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 21. Luyện tập phép cộng có nhớ trong phạm vi 100 --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 21: LUYỆN TẬP PHÉP CỘNG CÓ NHỚ TRONG PHẠM VI 100}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Rèn luyện kĩ năng đặt tính, tính nhẩm nhanh và giải toán lời văn phép cộng có nhớ trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Tổng hợp các dạng phép cộng có nhớ}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Dạng 1: Cộng ra số tròn chục}\\
+  $26 + 4 = 30$; $35 + 15 = 50$.
+  \item \textbf{Dạng 2: Số có 2 chữ số + Số có 1 chữ số}\\
+  $48 + 6 = 54$; $75 + 8 = 83$.
+  \item \textbf{Dạng 3: Số có 2 chữ số + Số có 2 chữ số}\\
+  $38 + 27 = 65$; $49 + 36 = 85$.
+  \item \textbf{Khẩu quyết:}\\
+  "Cộng đơn vị trước $\to$ Nhớ sang chục $\to$ Cộng chục thêm nhớ".
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Kĩ năng tính nhanh và so sánh}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Tính chất giao hoán và kết hợp:}\\
+  Đổi chỗ các số hạng để nhóm tròn chục:\\
+  $25 + 18 + 5 = (25 + 5) + 18 = 30 + 18 = 48$.
+  \item \textbf{So sánh hai tổng:}\\
+  - Nếu tính được ra số: tính hai vế rồi so sánh.\\
+  - Nếu có chung một số hạng: số hạng kia lớn hơn thì tổng lớn hơn ($28 + 15 > 28 + 12$).
+  \item \textbf{Tìm số hạng chưa biết dạng nhẩm.}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy: Bản đồ các dạng cộng có nhớ phạm vi 100}
+]
+\centering
+\begin{tikzpicture}[x=1.3cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!20, font=\scriptsize\bfseries] (c) at (0,0) {PHÉP CỘNG\\CÓ NHỚ $\le 100$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize, left=1cm of c] (d1) {CỘNG TRÒN CHỤC\\$26 + 4 = 30$\\$36 + 24 = 60$};
+  \node[rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!15, font=\scriptsize, above right=0.1cm and 0.8cm of c] (d2) {CỘNG VỚI 1 CHỮ SỐ\\$48 + 5 = 53$};
+  \node[rectangle, rounded corners=2pt, draw=green!80!black, fill=green!15, font=\scriptsize, below right=0.1cm and 0.8cm of c] (d3) {CỘNG HAI SỐ 2 CHỮ SỐ\\$47 + 25 = 72$};
+
+  \draw[arr, thick, teal!80!black, <-] (d1) -- (c);
+  \draw[arr, thick, orange!80!black, ->] (c) -- (d2);
+  \draw[arr, thick, green!80!black, ->] (c) -- (d3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Tính giá trị biểu thức:}\\
+$38 + 24 + 6 = 38 + (24 + 6) = 38 + 30 = \mathbf{68}$.
+\textbf{2. Bài toán có lời văn:}\\
+Vườn nhà bác Ba có $48$ cây cam, bác trồng thêm $25$ cây cam nữa. Hỏi vườn nhà bác Ba có tất cả bao nhiêu cây cam?\\
+\textit{Bài giải:}\\
+Vườn nhà bác Ba có tất cả số cây cam là:
+$$48 + 25 = 73\text{ (cây cam)}$$
+Đáp số: $73$ cây cam.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cộng dãy 3 số:}\\
+  Quan sát xem có 2 số nào cộng lại thành số tròn chục thì gộp trước để tính vừa nhanh vừa không nhầm.
+  \item Kiểm tra lại bằng cách trừ: Tổng trừ số hạng này phải ra đúng số hạng kia.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

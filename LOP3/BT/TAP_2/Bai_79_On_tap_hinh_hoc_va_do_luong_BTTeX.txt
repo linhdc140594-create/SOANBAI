@@ -1,0 +1,199 @@
+\begin{ex}
+Một hình vuông có cạnh dài 8 cm. Chu vi của hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{32}
+\loigiai{
+$8 \times 4 = 32$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 8 cm. Diện tích của hình vuông đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{64}
+\loigiai{
+$8 \times 8 = 64\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 12 cm, chiều rộng 7 cm. Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{38}
+\loigiai{
+$(12 + 7) \times 2 = 38$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 12 cm, chiều rộng 7 cm. Diện tích hình chữ nhật đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{84}
+\loigiai{
+$12 \times 7 = 84\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tròn có bán kính 8 cm. Đường kính của hình tròn đó là bao nhiêu xăng-ti-mét?
+\shortans{16}
+\loigiai{
+$8 \times 2 = 16$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tròn có đường kính 20 cm. Bán kính của hình tròn đó là bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+$20 : 2 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có bao nhiêu mặt?
+\shortans{6}
+\loigiai{
+Có 6 mặt.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có bao nhiêu đỉnh?
+\shortans{8}
+\loigiai{
+Có 8 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có bao nhiêu cạnh?
+\shortans{12}
+\loigiai{
+Có 12 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: $5\text{ m } 8\text{ cm} = \dots\text{ cm}$.
+\shortans{508}
+\loigiai{
+$500 + 8 = 508$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: $3\text{ km} = \dots\text{ m}$.
+\shortans{3000}
+\loigiai{
+$3\text{ km} = 3000\text{ m}$.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: $1\text{ kg} = \dots\text{ g}$.
+\shortans{1000}
+\loigiai{
+$1\text{ kg} = 1000\text{ g}$.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: $1\text{ l} = \dots\text{ ml}$.
+\shortans{1000}
+\loigiai{
+$1\text{ l} = 1000\text{ ml}$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 40 cm. Cạnh của hình vuông đó dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+$40 : 4 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có diện tích $49\text{ cm}^2$. Cạnh của hình vuông đó dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Vì $7 \times 7 = 49$ nên cạnh là 7 cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có diện tích $60\text{ cm}^2$, chiều rộng 5 cm. Chiều dài hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+$60 : 5 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ sôi của nước ở điều kiện chuẩn là bao nhiêu độ C?
+\shortans{100}
+\loigiai{
+$100^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ nước đá đang tan là bao nhiêu độ C?
+\shortans{0}
+\loigiai{
+$0^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Một gói bánh nặng 250 g, 4 gói bánh như thế nặng bao nhiêu gam?
+\shortans{1000}
+\loigiai{
+$250 \times 4 = 1000$ g.
+}
+\end{ex}
+
+\begin{ex}
+Chai dầu có 750 ml, dùng hết 250 ml. Chai dầu còn lại bao nhiêu mi-li-lít?
+\shortans{500}
+\loigiai{
+$750 - 250 = 500$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 18 cm, M là trung điểm của AB. Độ dài đoạn AM là bao nhiêu xăng-ti-mét?
+\shortans{9}
+\loigiai{
+$18 : 2 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một góc vuông có số đo là bao nhiêu độ?
+\shortans{90}
+\loigiai{
+Góc vuông bằng $90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình tam giác đều cạnh 15 cm là bao nhiêu xăng-ti-mét?
+\shortans{45}
+\loigiai{
+$15 \times 3 = 45$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình tứ giác có 4 cạnh đều bằng 12 cm là bao nhiêu xăng-ti-mét?
+\shortans{48}
+\loigiai{
+$12 \times 4 = 48$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có chiều dài 20 m, rộng 10 m. Diện tích mảnh vườn là bao nhiêu mét vuông?
+\shortans{200}
+\loigiai{
+$20 \times 10 = 200\text{ m}^2$.
+}
+\end{ex}

@@ -1,0 +1,165 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{teal}\faBook\ SỔ TAY KIẾN THỨC TOÁN 3}
+\fancyhead[R]{\small\bfseries\color{teal}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 72. Luyện tập chung: Phép nhân và phép chia phạm vi 100 000 --}
+
+\definecolor{primary}{HTML}{005F73}
+\definecolor{secondary}{HTML}{0A9396}
+\definecolor{accent}{HTML}{EE9B00}
+\definecolor{danger}{HTML}{AE2012}
+\definecolor{boxbg}{HTML}{F4F6F8}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,
+  colframe=primary,
+  arc=3mm,
+  boxrule=1.2pt,
+  left=4mm, right=4mm, top=2.5mm, bottom=2.5mm,
+  drop shadow=black!10!white
+]
+  \centering
+  {\Large\bfseries\color{primary}\faBookmark\ BÀI 72: LUYỆN TẬP CHUNG: NHÂN CHIA PHẠM VI 100 000}\\[1.5mm]
+  {\small\itshape\color{black!75}Đại tổng kết đặt tính nhân chia số có 5 chữ số, tính giá trị biểu thức và giải bài toán rút về đơn vị trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCalculator\ 1. Kĩ thuật nhân chia 5 chữ số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Nhân số có 5 chữ số: nhân phải sang trái, cộng số nhớ vào hàng liền kề.
+  \item Chia số có 5 chữ số: chia trái sang phải, không được quên chữ số $0$ ở thương khi số bị chia bé hơn số chia.
+  \item Tính nhẩm tròn chục nghìn:
+  $$30\,000 \times 3 = 90\,000 \qquad 80\,000 : 2 = 40\,000$$
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Bài toán giải bằng 2 bước tính}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bài toán Rút về đơn vị:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Bước 1: Tìm giá trị của $1$ đơn vị (Làm phép \textbf{CHIA}).
+    \item Bước 2: Tìm giá trị của nhiều đơn vị đó (Làm phép \textbf{NHÂN}).
+  \end{itemize}
+  \item \textbf{Thứ tự thực hiện biểu thức số:}
+  $$\text{Ngoặc trước} \to \text{Nhân / Chia} \to \text{Cộng / Trừ}$$
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HAI BƯỚC BÀI TOÁN RÚT VỀ ĐƠN VỊ}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=2.5pt, minimum height=0.75cm},
+  arr/.style={-{Stealth[length=2mm]}, thick}
+]
+  \node[box, fill=purple!15, draw=purple!80!black, text width=3.2cm] (r1) at (0, 0) {ĐỀ BÀI CHO\\Giá trị của $n$ phần bằng nhau};
+  \node[box, fill=teal!15, draw=teal!80!black, text width=3.4cm] (r2) at (4.6, 0) {BƯỚC 1: RÚT VỀ $1$ ĐƠN VỊ\\Lấy tổng chia cho $n$\\($A : n \implies$ Giá trị $1$ phần)};
+  \node[box, fill=orange!15, draw=orange!80!black, text width=3.2cm] (r3) at (9.4, 0) {BƯỚC 2: TÍNH $k$ PHẦN\\Lấy giá trị $1$ phần $\times k$\\Đáp số bài toán};
+
+  \draw[arr, purple!80!black] (r1) -- (r2);
+  \draw[arr, teal!80!black] (r2) -- (r3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Bài toán Rút về đơn vị:}\\
+Mua $4$ quyển vở cùng loại hết $24\,000$ đồng. Hỏi mua $7$ quyển vở như thế hết bao nhiêu tiền?\\
+\textbf{Bài giải chuẩn:}\\
+Giá tiền $1$ quyển vở là:
+$$24\,000 : 4 = 6000\text{ (đồng)}$$
+Mua $7$ quyển vở như thế hết số tiền là:
+$$6000 \times 7 = \mathbf{42\,000}\text{ (đồng)}$$
+\phantom{Bài giải: }\textbf{Đáp số:} $42\,000$ đồng.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy làm phép nhân trước phép chia trong bài toán rút về đơn vị:}\\
+  Không thể lấy $24\,000 \times 7$ rồi mới chia $4$ vì phép tính số lớn rất dễ nhầm lẫn. Luôn tìm giá trị của \textbf{$1$ đơn vị} trước bằng phép chia!
+  \item Ghi đúng tên đơn vị trong ngoặc (đồng, quyển, kg...).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

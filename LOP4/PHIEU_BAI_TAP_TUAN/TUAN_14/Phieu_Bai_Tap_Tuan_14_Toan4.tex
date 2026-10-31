@@ -1,0 +1,1109 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 401 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 401} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Hai đường thẳng vuông góc với nhau tạo thành bao nhiêu góc vuông?}{$1$ góc vuông}{$2$ góc vuông}{$3$ góc vuông}{$4$ góc vuông}
+\cauTN{2}{Để kiểm tra hai đường thẳng có vuông góc với nhau hay không, ta dùng dụng cụ nào?}{Thước thẳng}{Thước ê-ke}{Com-pa}{Thước đo độ}
+\cauTN{3}{Góc nào sau đây bé hơn góc vuông?}{Góc nhọn}{Góc tù}{Góc bẹt}{Góc vuông}
+\cauTN{4}{Góc nào sau đây lớn hơn góc vuông và bé hơn góc bẹt?}{Góc nhọn}{Góc tù}{Góc vuông}{Không có góc nào}
+\cauTN{5}{Góc bẹt bằng bao nhiêu góc vuông?}{$1$ góc vuông}{$2$ góc vuông}{$3$ góc vuông}{$4$ góc vuông}
+\cauTN{6}{Trong hình chữ nhật $ABCD$, cạnh $AB$ vuông góc với những cạnh nào?}{$BC$ và $AD$}{$BC$ và $CD$}{$AD$ và $CD$}{$CD$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $4\,\text{tấn}\,250\,\text{kg} = \dots\,\text{kg}$ là:}{$425$}{$4\,250$}{$40\,250$}{$42\,500$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $8\,\text{m}^2\,35\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$835$}{$8\,035$}{$8\,350$}{$88$}
+\cauTN{9}{Khoảng thời gian $3\,\text{phút}\,40\,\text{giây}$ bằng bao nhiêu giây?}{$200\,\text{giây}$}{$220\,\text{giây}$}{$240\,\text{giây}$}{$260\,\text{giây}$}
+\cauTN{10}{Hình chữ nhật có bao nhiêu góc vuông?}{$2$ góc vuông}{$3$ góc vuông}{$4$ góc vuông}{$6$ góc vuông}
+\cauTNhaiDong{11}{Tổng của hai số là $90$, hiệu là $20$. Số lớn là:}{$50$}{$55$}{$60$}{$65$}
+\cauTNhaiDong{12}{Một mảnh vườn hình chữ nhật có nửa chu vi $45\,\text{m}$, chiều dài hơn chiều rộng $9\,\text{m}$. Chiều rộng là:}{$18\,\text{m}$}{$27\,\text{m}$}{$36\,\text{m}$}{$15\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$354\,628 + 278\,394$} & 
+\oDatTinh[4]{b)}{$742\,530 - 368\,745$} & 
+\oDatTinh[4]{c)}{$15\,246 \times 5$} & 
+\oDatTinh[4]{d)}{$48\,736 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 401} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 35\,480 = 82\,160$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $93\,400 - x = 45\,720$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 46\,350 = 67\,890$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7 = 13\,452$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $5\,\text{tấn}\,640\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $7\,\text{m}^2\,45\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $6\,\text{thế kỉ}\,30\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{phút}\,15\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bánh xe đạp có đường kính 0{,}65 m. Hỏi khi bánh xe lăn trên mặt đất được 200 vòng thì xe đi được quãng đường dài bao nhiêu mét?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 10 cm, hình tròn nội tiếp có đường kính 10 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 402 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 402} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Khi hai đường thẳng vuông góc với nhau, chúng cắt nhau tạo thành:}{$4$ góc nhọn}{$4$ góc tù}{$4$ góc vuông}{$2$ góc vuông và $2$ góc nhọn}
+\cauTN{2}{Dụng cụ nào được dùng phổ biến để vẽ đường thẳng vuông góc?}{Thước ê-ke}{Thước dây}{Thước mét}{Com-pa}
+\cauTN{3}{Góc có số đo lớn hơn góc vuông và nhỏ hơn góc bẹt là:}{Góc nhọn}{Góc tù}{Góc bẹt}{Góc vuông}
+\cauTN{4}{Góc có hai cạnh nằm trên một đường thẳng gọi là:}{Góc vuông}{Góc nhọn}{Góc bẹt}{Góc tù}
+\cauTN{5}{Góc nhọn luôn có số đo:}{Bé hơn góc vuông}{Lớn hơn góc vuông}{Bằng góc vuông}{Bằng góc bẹt}
+\cauTN{6}{Trong hình vuông $MNPQ$, cạnh $MN$ vuông góc với cạnh nào?}{$NP$ và $QM$}{$NP$ và $PQ$}{$PQ$ và $QM$}{$PQ$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $6\,\text{tấn}\,45\,\text{kg} = \dots\,\text{kg}$ là:}{$645$}{$6\,045$}{$6\,450$}{$64\,500$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $9\,\text{m}^2\,24\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$924$}{$9\,024$}{$9\,240$}{$96$}
+\cauTN{9}{Khoảng thời gian $4\,\text{phút}\,25\,\text{giây}$ bằng bao nhiêu giây?}{$245\,\text{giây}$}{$265\,\text{giây}$}{$275\,\text{giây}$}{$285\,\text{giây}$}
+\cauTN{10}{Tam giác vuông là tam giác có bao nhiêu góc vuông?}{$1$ góc vuông}{$2$ góc vuông}{$3$ góc vuông}{$0$ góc vuông}
+\cauTNhaiDong{11}{Tổng của hai số là $110$, hiệu là $30$. Số bé là:}{$35$}{$40$}{$45$}{$50$}
+\cauTNhaiDong{12}{Một mảnh đất hình chữ nhật có chu vi $120\,\text{m}$, chiều dài hơn chiều rộng $14\,\text{m}$. Chiều dài là:}{$37\,\text{m}$}{$23\,\text{m}$}{$42\,\text{m}$}{$45\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$462\,735 + 289\,486$} & 
+\oDatTinh[4]{b)}{$853\,420 - 467\,855$} & 
+\oDatTinh[4]{c)}{$16\,345 \times 4$} & 
+\oDatTinh[4]{d)}{$54\,635 : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 402} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 42\,560 = 89\,340$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $95\,600 - x = 48\,350$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 53\,480 = 74\,650$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 14\,235$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $7\,\text{tấn}\,380\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $8\,\text{m}^2\,62\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $5\,\text{thế kỉ}\,40\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $3\,\text{phút}\,50\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bồn hoa hình tròn có bán kính 1{,}5 m. Người ta trồng hoa trên toàn bộ mặt bồn. Hỏi diện tích bồn hoa là bao nhiêu mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 8 cm, hình tròn nội tiếp có đường kính 8 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 403 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 403} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Hai đường thẳng cắt nhau và trong các góc tạo thành có một góc vuông thì:}{Ba góc còn lại cũng là góc vuông}{Ba góc còn lại là góc nhọn}{Ba góc còn lại là góc tù}{Không kết luận được}
+\cauTN{2}{Góc đỉnh $O$, cạnh $OA, OB$ vuông góc với nhau thì gọi là:}{Góc tù}{Góc vuông}{Góc nhọn}{Góc bẹt}
+\cauTN{3}{Trong các góc sau, góc nào là góc tù?}{Góc $60^\circ$}{Góc $90^\circ$}{Góc $120^\circ$}{Góc $180^\circ$}
+\cauTN{4}{Góc bẹt có đỉnh $O$, hai cạnh $Ox$ và $Oy$ tạo thành một:}{Đường tròn}{Đường gấp khúc}{Đường thẳng}{Góc vuông}
+\cauTN{5}{Góc nhọn có đỉnh $O$ là góc:}{Nhỏ hơn $90^\circ$}{Bằng $90^\circ$}{Lớn hơn $90^\circ$}{Bằng $180^\circ$}
+\cauTN{6}{Trong hình chữ nhật $ABCD$, cặp đoạn thẳng nào sau đây vuông góc với nhau?}{$AB$ và $CD$}{$AD$ và $BC$}{$AB$ và $BC$}{$AC$ và $BD$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $7\,\text{tấn}\,60\,\text{kg} = \dots\,\text{kg}$ là:}{$760$}{$7\,060$}{$7\,600$}{$76\,000$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $6\,\text{m}^2\,53\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$653$}{$6\,053$}{$6\,530$}{$68$}
+\cauTN{9}{Khoảng thời gian $5\,\text{phút}\,15\,\text{giây}$ bằng bao nhiêu giây?}{$300\,\text{giây}$}{$315\,\text{giây}$}{$325\,\text{giây}$}{$335\,\text{giây}$}
+\cauTN{10}{Hình vuông có bao nhiêu cặp cạnh vuông góc với nhau?}{$2$ cặp}{$3$ cặp}{$4$ cặp}{$5$ cặp}
+\cauTNhaiDong{11}{Tổng hai số là $140$, hiệu hai số là $40$. Số lớn là:}{$80$}{$90$}{$100$}{$70$}
+\cauTNhaiDong{12}{Một mảnh đất hình chữ nhật có nửa chu vi $50\,\text{m}$, chiều dài hơn chiều rộng $12\,\text{m}$. Chiều rộng là:}{$19\,\text{m}$}{$31\,\text{m}$}{$25\,\text{m}$}{$18\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$534\,820 + 296\,475$} & 
+\oDatTinh[4]{b)}{$915\,200 - 478\,635$} & 
+\oDatTinh[4]{c)}{$17\,452 \times 5$} & 
+\oDatTinh[4]{d)}{$67\,856 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 403} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 48\,370 = 95\,210$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $96\,400 - x = 49\,520$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 57\,420 = 86\,390$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6 = 16\,348$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $8\,\text{tấn}\,450\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $7\,\text{m}^2\,75\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $7\,\text{thế kỉ}\,20\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{phút}\,35\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Miệng giếng nước là một hình tròn có đường kính 1{,}2 m. Người ta xây thành giếng rộng 0{,}3 m bao quanh miệng giếng. Tính diện tích của thành giếng đó.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vành khuyên có bán kính ngoài 6 cm, bán kính trong 4 cm. Diện tích $S = S_{\text{ngoài}} - S_{\text{trong}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 404 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 404} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Hai đường thẳng vuông góc với nhau là hai đường thẳng:}{Không bao giờ cắt nhau}{Cắt nhau và tạo thành các góc vuông}{Cắt nhau và tạo thành các góc nhọn}{Song song với nhau}
+\cauTN{2}{Khi đặt góc vuông của thước ê-ke trùng khít với một góc, góc đó là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{3}{Hình tứ giác có $4$ góc vuông là hình gì?}{Hình bình hành}{Hình thoi}{Hình chữ nhật}{Hình thang}
+\cauTN{4}{Góc tạo bởi hai kim đồng hồ lúc $9$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{5}{Góc tạo bởi hai kim đồng hồ lúc $6$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{6}{Góc tạo bởi hai kim đồng hồ lúc $2$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $5\,\text{tấn}\,95\,\text{kg} = \dots\,\text{kg}$ là:}{$595$}{$5\,095$}{$5\,950$}{$59\,500$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $8\,\text{m}^2\,46\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$846$}{$8\,046$}{$8\,460$}{$89$}
+\cauTN{9}{Khoảng thời gian $6\,\text{phút}\,10\,\text{giây}$ bằng bao nhiêu giây?}{$360\,\text{giây}$}{$370\,\text{giây}$}{$380\,\text{giây}$}{$390\,\text{giây}$}
+\cauTN{10}{Hình chữ nhật có bao nhiêu cặp cạnh vuông góc?}{$2$ cặp}{$3$ cặp}{$4$ cặp}{$1$ cặp}
+\cauTNhaiDong{11}{Tổng hai số là $160$, hiệu hai số là $50$. Số bé là:}{$50$}{$55$}{$60$}{$65$}
+\cauTNhaiDong{12}{Một mảnh đất hình chữ nhật có chu vi $140\,\text{m}$, chiều dài hơn chiều rộng $16\,\text{m}$. Chiều dài là:}{$43\,\text{m}$}{$27\,\text{m}$}{$45\,\text{m}$}{$50\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$625\,480 + 287\,695$} & 
+\oDatTinh[4]{b)}{$834\,210 - 478\,562$} & 
+\oDatTinh[4]{c)}{$18\,342 \times 5$} & 
+\oDatTinh[4]{d)}{$59\,472 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 404} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 54\,280 = 98\,160$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $97\,500 - x = 51\,380$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 48\,650 = 76\,490$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9 = 15\,246$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $9\,\text{tấn}\,260\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $6\,\text{m}^2\,84\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $8\,\text{thế kỉ}\,15\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{phút}\,25\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bánh xe ô tô có bán kính 0{,}4 m. Hỏi khi bánh xe lăn được 500 vòng thì ô tô đi được quãng đường dài bao nhiêu mét?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 12 cm, hình tròn nội tiếp có đường kính 12 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 405 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 405} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Hai đường thẳng vuông góc là hai đường thẳng cắt nhau tạo thành bao nhiêu góc vuông?}{$1$}{$2$}{$3$}{$4$}
+\cauTN{2}{Góc tạo bởi hai kim đồng hồ lúc $3$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{3}{Góc tạo bởi hai kim đồng hồ lúc $4$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{4}{Góc lớn hơn góc vuông nhưng nhỏ hơn góc bẹt là:}{Góc tù}{Góc nhọn}{Góc vuông}{Góc bẹt}
+\cauTN{5}{Góc nhỏ hơn góc vuông là:}{Góc nhọn}{Góc tù}{Góc bẹt}{Góc vuông}
+\cauTN{6}{Trong hình vuông $ABCD$, đường chéo $AC$ và $BD$ vuông góc với nhau tại điểm nào?}{Điểm $A$}{Điểm $B$}{Giao điểm của hai đường chéo}{Điểm $C$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $6\,\text{tấn}\,85\,\text{kg} = \dots\,\text{kg}$ là:}{$685$}{$6\,085$}{$6\,850$}{$68\,500$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $9\,\text{m}^2\,38\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$938$}{$9\,038$}{$9\,380$}{$97$}
+\cauTN{9}{Khoảng thời gian $4\,\text{phút}\,50\,\text{giây}$ bằng bao nhiêu giây?}{$270\,\text{giây}$}{$290\,\text{giây}$}{$300\,\text{giây}$}{$310\,\text{giây}$}
+\cauTN{10}{Một tam giác có thể có nhiều nhất bao nhiêu góc vuông?}{$1$ góc vuông}{$2$ góc vuông}{$3$ góc vuông}{$0$ góc vuông}
+\cauTNhaiDong{11}{Tổng hai số là $180$, hiệu hai số là $60$. Số lớn là:}{$110$}{$120$}{$130$}{$100$}
+\cauTNhaiDong{12}{Một khu đất hình chữ nhật có chu vi $160\,\text{m}$, chiều dài hơn chiều rộng $20\,\text{m}$. Chiều rộng là:}{$30\,\text{m}$}{$50\,\text{m}$}{$25\,\text{m}$}{$40\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$548\,620 + 375\,894$} & 
+\oDatTinh[4]{b)}{$852\,140 - 486\,725$} & 
+\oDatTinh[4]{c)}{$19\,246 \times 4$} & 
+\oDatTinh[4]{d)}{$64\,872 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 405} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 52\,460 = 97\,350$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $98\,300 - x = 52\,640$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 56\,380 = 84\,290$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7 = 17\,348$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $7\,\text{tấn}\,540\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $8\,\text{m}^2\,65\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $6\,\text{thế kỉ}\,50\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{phút}\,40\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bồn hoa hình tròn có chu vi 12{,}56 m. Người ta trồng hoa trên toàn bộ mặt bồn. Tính diện tích bồn hoa đó.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vành khuyên có bán kính ngoài 5 cm, bán kính trong 3 cm. Diện tích $S = S_{\text{ngoài}} - S_{\text{trong}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 406 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 406} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Để vẽ đường thẳng đi qua điểm $A$ và vuông góc với đường thẳng $a$, ta dùng dụng cụ:}{Ê-ke và thước thẳng}{Com-pa}{Thước đo góc}{Thước dây}
+\cauTN{2}{Hai cạnh của hình chữ nhật có chung đỉnh thì:}{Song song với nhau}{Vuông góc với nhau}{Trùng nhau}{Không cắt nhau}
+\cauTN{3}{Góc đỉnh $O$ tạo bởi hai cạnh vuông góc là góc:}{Nhọn}{Tù}{Vuông}{Bẹt}
+\cauTN{4}{Góc nào sau đây có số đo bằng hai lần góc vuông?}{Góc vuông}{Góc tù}{Góc bẹt}{Góc nhọn}
+\cauTN{5}{Góc nào sau đây có số đo bằng một nửa góc bẹt?}{Góc nhọn}{Góc vuông}{Góc tù}{Góc tròn}
+\cauTN{6}{Góc tạo bởi hai kim đồng hồ lúc $1$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $8\,\text{tấn}\,70\,\text{kg} = \dots\,\text{kg}$ là:}{$870$}{$8\,070$}{$8\,700$}{$87\,000$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $7\,\text{m}^2\,68\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$768$}{$7\,068$}{$7\,680$}{$79$}
+\cauTN{9}{Khoảng thời gian $3\,\text{phút}\,55\,\text{giây}$ bằng bao nhiêu giây?}{$225\,\text{giây}$}{$235\,\text{giây}$}{$245\,\text{giây}$}{$255\,\text{giây}$}
+\cauTN{10}{Trong một hình vuông có tất cả bao nhiêu góc vuông?}{$2$ góc vuông}{$3$ góc vuông}{$4$ góc vuông}{$8$ góc vuông}
+\cauTNhaiDong{11}{Tổng của hai số là $210$, hiệu là $50$. Số bé là:}{$75$}{$80$}{$85$}{$90$}
+\cauTNhaiDong{12}{Một mảnh đất hình chữ nhật có chu vi $180\,\text{m}$, chiều dài hơn chiều rộng $24\,\text{m}$. Chiều dài là:}{$57\,\text{m}$}{$33\,\text{m}$}{$60\,\text{m}$}{$45\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$635\,740 + 286\,895$} & 
+\oDatTinh[4]{b)}{$924\,300 - 548\,765$} & 
+\oDatTinh[4]{c)}{$15\,648 \times 6$} & 
+\oDatTinh[4]{d)}{$74\,652 : 9$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 406} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 47\,380 = 96\,240$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $97\,400 - x = 53\,680$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 64\,250 = 78\,690$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 18\,246$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $6\,\text{tấn}\,840\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $9\,\text{m}^2\,52\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $7\,\text{thế kỉ}\,45\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{phút}\,45\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bánh xe có đường kính 0{,}5 m. Hỏi bánh xe phải lăn bao nhiêu vòng để đi được quãng đường dài 314 m?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 20 cm, hình tròn nội tiếp có đường kính 20 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 407 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 14)} & \textbf{MÃ ĐỀ: 407} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Hai cạnh của ê-ke tạo thành một góc gì?}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{2}{Góc có số đo lớn hơn góc vuông là:}{Góc nhọn}{Góc tù}{Góc bẹt}{Góc tù hoặc góc bẹt}
+\cauTN{3}{Góc tạo bởi hai cạnh liên tiếp của bàn học hình chữ nhật là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{4}{Góc tạo bởi hai kim đồng hồ lúc $5$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{5}{Góc tạo bởi hai kim đồng hồ lúc $11$ giờ đúng là:}{Góc nhọn}{Góc vuông}{Góc tù}{Góc bẹt}
+\cauTN{6}{Trong hình chữ nhật $MNPQ$, cạnh $MN$ vuông góc với:}{$NP$ và $QM$}{$NP$ và $PQ$}{$PQ$}{$QM$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $9\,\text{tấn}\,50\,\text{kg} = \dots\,\text{kg}$ là:}{$950$}{$9\,050$}{$9\,500$}{$95\,000$}
+\cauTN{8}{Số thích hợp điền vào chỗ chấm $8\,\text{m}^2\,72\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$872$}{$8\,072$}{$8\,720$}{$89$}
+\cauTN{9}{Khoảng thời gian $5\,\text{phút}\,50\,\text{giây}$ bằng bao nhiêu giây?}{$330\,\text{giây}$}{$350\,\text{giây}$}{$360\,\text{giây}$}{$370\,\text{giây}$}
+\cauTN{10}{Một tam giác có thể có nhiều nhất bao nhiêu góc nhọn?}{$1$}{$2$}{$3$}{$4$}
+\cauTNhaiDong{11}{Tổng hai số là $250$, hiệu hai số là $70$. Số lớn là:}{$150$}{$160$}{$170$}{$180$}
+\cauTNhaiDong{12}{Một mảnh đất hình chữ nhật có chu vi $200\,\text{m}$, chiều dài hơn chiều rộng $26\,\text{m}$. Chiều rộng là:}{$37\,\text{m}$}{$63\,\text{m}$}{$35\,\text{m}$}{$40\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$718\,650 + 198\,745$} & 
+\oDatTinh[4]{b)}{$935\,400 - 468\,725$} & 
+\oDatTinh[4]{c)}{$16\,548 \times 5$} & 
+\oDatTinh[4]{d)}{$85\,644 : 9$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 407} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 56\,390 = 98\,140$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $98\,500 - x = 54\,720$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 58\,470 = 85\,690$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9 = 16\,425$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $8\,\text{tấn}\,650\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $7\,\text{m}^2\,94\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $5\,\text{thế kỉ}\,75\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $6\,\text{phút}\,15\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một giếng nước hình tròn có bán kính 0{,}8 m. Người ta xây thành giếng rộng 0{,}4 m bao quanh miệng giếng. Tính diện tích của thành giếng.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vành khuyên có bán kính ngoài 10 cm, bán kính trong 6 cm. Diện tích $S = S_{\text{ngoài}} - S_{\text{trong}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

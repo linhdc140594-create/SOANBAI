@@ -1,0 +1,199 @@
+\begin{ex}
+Tính nhanh: $35 \times 12 + 35 \times 88$.
+\shortans{3500}
+\loigiai{
+$35 \times (12 + 88) = 35 \times 100 = 3500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $48 \times 23 + 48 \times 77$.
+\shortans{4800}
+\loigiai{
+$48 \times (23 + 77) = 48 \times 100 = 4800$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $64 \times 35 + 64 \times 65$.
+\shortans{6400}
+\loigiai{
+$64 \times (35 + 65) = 64 \times 100 = 6400$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $125 \times 67 + 125 \times 33$.
+\shortans{12500}
+\loigiai{
+$125 \times 100 = 12500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $250 \times 18 + 250 \times 82$.
+\shortans{25000}
+\loigiai{
+$250 \times 100 = 25000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $73 \times 145 - 73 \times 45$.
+\shortans{7300}
+\loigiai{
+$73 \times (145 - 45) = 73 \times 100 = 7300$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $85 \times 128 - 85 \times 28$.
+\shortans{8500}
+\loigiai{
+$85 \times 100 = 8500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $136 \times 75 + 136 \times 25$.
+\shortans{13600}
+\loigiai{
+$136 \times 100 = 13600$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $45 \times 99 + 45$.
+\shortans{4500}
+\loigiai{
+$45 \times (99 + 1) = 45 \times 100 = 4500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $82 \times 101 - 82$.
+\shortans{8200}
+\loigiai{
+$82 \times (101 - 1) = 82 \times 100 = 8200$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $28 \times 11$.
+\shortans{308}
+\loigiai{
+$28 \times (10 + 1) = 280 + 28 = 308$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $35 \times 101$.
+\shortans{3535}
+\loigiai{
+$35 \times (100 + 1) = 3500 + 35 = 3535$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $42 \times 99$.
+\shortans{4158}
+\loigiai{
+$42 \times (100 - 1) = 4200 - 42 = 4158$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $15 \times 18 + 15 \times 82$.
+\shortans{1500}
+\loigiai{
+$15 \times 100 = 1500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $27 \times 46 + 27 \times 54$.
+\shortans{2700}
+\loigiai{
+$27 \times 100 = 2700$.
+}
+\end{ex}
+
+\begin{ex}
+Biểu thức $a \times (b + c) = a \times b + a \times c$ thể hiện tính chất gì? (Phân phối ghi 1, kết hợp ghi 2).
+\shortans{1}
+\loigiai{
+Tính chất phân phối của phép nhân với phép cộng (1).
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $12 \times 35 + 12 \times 65$.
+\shortans{1200}
+\loigiai{
+$12 \times 100 = 1200$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $54 \times 115 - 54 \times 15$.
+\shortans{5400}
+\loigiai{
+$54 \times 100 = 5400$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $68 \times 9 + 68$.
+\shortans{680}
+\loigiai{
+$68 \times 10 = 680$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $95 \times 11 - 95$.
+\shortans{950}
+\loigiai{
+$95 \times 10 = 950$.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng bán 15 kg gạo nếp và 85 kg gạo tẻ cùng giá 25 nghìn đồng một ki-lô-gam. Tổng số tiền thu được là bao nhiêu nghìn đồng?
+\shortans{2500}
+\loigiai{
+$25 \times (15 + 85) = 25 \times 100 = 2500$ nghìn đồng.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều rộng 25 cm, chia thành hai phần có chiều dài lần lượt là 32 cm và 68 cm. Diện tích cả hình là bao nhiêu xăng-ti-mét vuông?
+\shortans{2500}
+\loigiai{
+$25 \times (32 + 68) = 2500\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $75 \times 14 + 75 \times 86$.
+\shortans{7500}
+\loigiai{
+$75 \times 100 = 7500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $150 \times 23 + 150 \times 77$.
+\shortans{15000}
+\loigiai{
+$150 \times 100 = 15000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $99 \times 45 + 45$.
+\shortans{4500}
+\loigiai{
+$100 \times 45 = 4500$.
+}
+\end{ex}

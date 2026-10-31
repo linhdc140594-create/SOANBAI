@@ -1,0 +1,176 @@
+=== BÀI 67: LUYỆN TẬP CHUNG ===
+
+Câu 1: Thống kê điểm số của 8 bạn: 7, 8, 9, 8, 10, 8, 9, 5. Số học sinh đạt điểm 8 là bao nhiêu bạn?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Có 3 bạn điểm 8.
+
+----------------------------------------
+
+Câu 2: Ở bảng trên, hiệu giữa điểm số lớn nhất và nhỏ nhất là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+10 - 5 = 5.
+
+----------------------------------------
+
+Câu 3: Biểu đồ quạt tròn biểu diễn 3 môn thể thao: Bóng đá 50\%, Cầu lông 30\%, Bơi lội 20\%. Có 120 học sinh tham gia. Số bạn thích Bơi lội là bao nhiêu bạn?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+120 x 20\% = 24 bạn.
+
+----------------------------------------
+
+Câu 4: Ở trường trên, số bạn thích Bóng đá là bao nhiêu bạn?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+120 x 50\% = 60 bạn.
+
+----------------------------------------
+
+Câu 5: Ở trường trên, số bạn thích Cầu lông là bao nhiêu bạn?
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+120 x 30\% = 36 bạn.
+
+----------------------------------------
+
+Câu 6: Tung đồng xu 50 lần, có 28 lần mặt sấp. Số lần mặt ngửa xuất hiện là bao nhiêu lần?
+Đáp án: [shortans]22[/shortans]
+Lời giải chi tiết:
+50 - 28 = 22 lần.
+
+----------------------------------------
+
+Câu 7: Ở thực nghiệm trên, tỉ số phần trăm số lần xuất hiện mặt ngửa là bao nhiêu phần trăm?
+Đáp án: [shortans]44[/shortans]
+Lời giải chi tiết:
+(22 : 50) x 100\% = 44\%.
+
+----------------------------------------
+
+Câu 8: Gieo một con xúc xắc 25 lần, mặt 1 chấm xuất hiện 5 lần. Tỉ số phần trăm xuất hiện mặt 1 chấm là bao nhiêu phần trăm?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+(5 : 25) x 100\% = 20\%.
+
+----------------------------------------
+
+Câu 9: Trong một hộp có 10 viên bi đỏ và 15 viên bi xanh. Tỉ số số bi xanh so với tổng số bi khi rút gọn có mẫu số là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+\frac{15}{25} = \frac{3}{5}. Mẫu số là 5.
+
+----------------------------------------
+
+Câu 10: Ở hộp bi trên, tỉ số phần trăm số bi đỏ so với tổng số bi là bao nhiêu phần trăm?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+(10 : 25) x 100\% = 40\%.
+
+----------------------------------------
+
+Câu 11: Một bảng số liệu có 5 giá trị: 12, 14, 16, 18, 20. Trung bình cộng của 5 giá trị này là bao nhiêu?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+(12 + 14 + 16 + 18 + 20) : 5 = 80 : 5 = 16.
+
+----------------------------------------
+
+Câu 12: Bảng phân phối điểm kiểm tra có 2 bạn điểm 10, 5 bạn điểm 9, 3 bạn điểm 8. Tổng số bạn tham gia kiểm tra là bao nhiêu?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+2 + 5 + 3 = 10 bạn.
+
+----------------------------------------
+
+Câu 13: Biểu đồ quạt tròn chia làm 5 phần bằng nhau. Mỗi phần tương ứng bao nhiêu phần trăm?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+100\% : 5 = 20\%.
+
+----------------------------------------
+
+Câu 14: Một xạ thủ bắn 20 phát đạn, có 18 phát trúng mục tiêu. Tỉ số phần trăm bắn trúng là bao nhiêu phần trăm?
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+(18 : 20) x 100\% = 90\%.
+
+----------------------------------------
+
+Câu 15: Ở bài xạ thủ trên, có bao nhiêu phát trượt mục tiêu?
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+20 - 18 = 2 phát.
+
+----------------------------------------
+
+Câu 16: Điều tra mức độ hài lòng của 200 khách hàng: Rất hài lòng 40\%, Hài lòng 50\%, Không hài lòng 10\%. Số người rất hài lòng là bao nhiêu người?
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+200 x 40\% = 80 người.
+
+----------------------------------------
+
+Câu 17: Ở cuộc khảo sát trên, số người không hài lòng là bao nhiêu người?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+200 x 10\% = 20 người.
+
+----------------------------------------
+
+Câu 18: Lấy ngẫu nhiên một quả bóng trong hộp 40 lần, có 16 lần bóng màu vàng. Tỉ số phần trăm bóng màu vàng là bao nhiêu phần trăm?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+(16 : 40) x 100\% = 40\%.
+
+----------------------------------------
+
+Câu 19: Chi tiêu ăn uống của một gia đình chiếm 50\% tổng thu nhập. Nếu tháng đó dành 10 triệu đồng cho ăn uống thì tổng thu nhập là bao nhiêu triệu đồng?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+10 : 50\% = 20 triệu đồng.
+
+----------------------------------------
+
+Câu 20: Gieo xúc xắc 100 lần có 48 lần ra mặt số chẵn. Tỉ số phần trăm ra mặt số lẻ là bao nhiêu phần trăm?
+Đáp án: [shortans]52[/shortans]
+Lời giải chi tiết:
+100 - 48 = 52\%.
+
+----------------------------------------
+
+Câu 21: Một trường tiểu học có 500 học sinh. Biểu đồ quạt cho biết tỉ lệ học sinh nữ là 52\%. Số học sinh nữ là bao nhiêu bạn?
+Đáp án: [shortans]260[/shortans]
+Lời giải chi tiết:
+500 x 52\% = 260 bạn.
+
+----------------------------------------
+
+Câu 22: Ở trường trên, số học sinh nam là bao nhiêu bạn?
+Đáp án: [shortans]240[/shortans]
+Lời giải chi tiết:
+500 - 260 = 240 bạn.
+
+----------------------------------------
+
+Câu 23: Số bạn nam ít hơn số bạn nữ bao nhiêu bạn?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+260 - 240 = 20 bạn.
+
+----------------------------------------
+
+Câu 24: Một tổ công nhân có 4 người làm được số sản phẩm: 25, 30, 35, 30. Trung bình mỗi người làm được bao nhiêu sản phẩm?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+(25 + 30 + 35 + 30) : 4 = 120 : 4 = 30 sản phẩm.
+
+----------------------------------------
+
+Câu 25: Rút một con bài trong bộ bài tây 50 lần, có 12 lần rút được quân cơ. Tỉ số phần trăm số lần rút được quân cơ là bao nhiêu phần trăm?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+(12 : 50) x 100\% = 24\%.
+
+----------------------------------------

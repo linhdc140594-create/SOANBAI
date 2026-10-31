@@ -1,0 +1,199 @@
+\begin{ex}
+Trong sân có: 5 con gà trống, 8 con gà mái và 4 con vịt. Có tất cả bao nhiêu con gà?
+\shortans{13}
+\loigiai{
+Số con gà là: $5 + 8 = 13$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trong sân có tất cả bao nhiêu con gia cầm (gà và vịt)?
+\shortans{17}
+\loigiai{
+Có tất cả: $5 + 8 + 4 = 17$ con.
+}
+\end{ex}
+
+\begin{ex}
+Số gà mái nhiều hơn số gà trống bao nhiêu con?
+\shortans{3}
+\loigiai{
+Nhiều hơn: $8 - 5 = 3$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp bút của An có: 6 bút bi xanh, 4 bút bi đỏ và 2 bút chì. Có tất cả bao nhiêu chiếc bút bi?
+\shortans{10}
+\loigiai{
+Số bút bi: $6 + 4 = 10$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Hộp bút của An có tất cả bao nhiêu chiếc bút?
+\shortans{12}
+\loigiai{
+Có tất cả: $6 + 4 + 2 = 12$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Một rổ quả có: 10 quả cam, 8 quả táo và 6 quả xoài. Hỏi có tất cả bao nhiêu quả trong rổ?
+\shortans{24}
+\loigiai{
+Có tất cả: $10 + 8 + 6 = 24$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Trong rổ quả trên, số cam nhiều hơn số xoài bao nhiêu quả?
+\shortans{4}
+\loigiai{
+Nhiều hơn: $10 - 6 = 4$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm số học sinh thích các môn thể thao của tổ Một: Bóng đá có 5 bạn, Cầu lông có 3 bạn, Bơi lội có 4 bạn. Có bao nhiêu bạn thích bóng đá hoặc cầu lông?
+\shortans{8}
+\loigiai{
+Có: $5 + 3 = 8$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Một có tất cả bao nhiêu bạn tham gia khảo sát?
+\shortans{12}
+\loigiai{
+Có: $5 + 3 + 4 = 12$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Môn thể thao nào được nhiều bạn thích nhất? Số bạn thích môn đó là bao nhiêu?
+\shortans{5}
+\loigiai{
+Bóng đá nhiều bạn thích nhất với 5 bạn.
+}
+\end{ex}
+
+\begin{ex}
+Môn thể thao nào ít bạn thích nhất? Số bạn thích môn đó là bao nhiêu?
+\shortans{3}
+\loigiai{
+Cầu lông ít bạn thích nhất với 3 bạn.
+}
+\end{ex}
+
+\begin{ex}
+Trong bể cá có: 7 con cá vàng, 5 con cá bảy màu và 3 con cá lau kính. Có tất cả bao nhiêu con cá trong bể?
+\shortans{15}
+\loigiai{
+Có: $7 + 5 + 3 = 15$ con cá.
+}
+\end{ex}
+
+\begin{ex}
+Số cá vàng nhiều hơn số cá lau kính bao nhiêu con?
+\shortans{4}
+\loigiai{
+Nhiều hơn: $7 - 3 = 4$ con.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm phương tiện giao thông đi qua cổng trường trong 5 phút: 12 xe máy, 4 xe ô tô con và 6 xe đạp. Có tất cả bao nhiêu phương tiện đã đi qua?
+\shortans{22}
+\loigiai{
+Có: $12 + 4 + 6 = 22$ phương tiện.
+}
+\end{ex}
+
+\begin{ex}
+Số xe máy nhiều hơn số xe ô tô con bao nhiêu chiếc?
+\shortans{8}
+\loigiai{
+Nhiều hơn: $12 - 4 = 8$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Trong vườn có: 15 cây hoa hồng, 12 cây hoa cúc và 8 cây hoa đồng tiền. Có tất cả bao nhiêu cây hoa trong vườn?
+\shortans{35}
+\loigiai{
+Có: $15 + 12 + 8 = 35$ cây hoa.
+}
+\end{ex}
+
+\begin{ex}
+Số hoa hồng nhiều hơn số hoa đồng tiền bao nhiêu cây?
+\shortans{7}
+\loigiai{
+Nhiều hơn: $15 - 8 = 7$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Quan sát giá sách lớp học: có 20 cuốn truyện tranh, 15 cuốn sách Toán, 10 cuốn sách Tiếng Việt. Có tất cả bao nhiêu cuốn sách giáo khoa (Toán và Tiếng Việt)?
+\shortans{25}
+\loigiai{
+Có: $15 + 10 = 25$ cuốn sách giáo khoa.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số sách và truyện trên giá là bao nhiêu cuốn?
+\shortans{45}
+\loigiai{
+Có: $20 + 15 + 10 = 45$ cuốn.
+}
+\end{ex}
+
+\begin{ex}
+Khảo sát thời tiết trong tháng 4: có 18 ngày nắng, 8 ngày mưa và 4 ngày râm mát. Có bao nhiêu ngày không mưa trong tháng 4?
+\shortans{22}
+\loigiai{
+Có: $18 + 4 = 22$ ngày không mưa.
+}
+\end{ex}
+
+\begin{ex}
+Số ngày nắng nhiều hơn số ngày mưa bao nhiêu ngày?
+\shortans{10}
+\loigiai{
+Nhiều hơn: $18 - 8 = 10$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Trong đĩa hoa quả có: 4 quả chuối, 6 quả mận, 8 quả dâu tây. Tổng số quả là bao nhiêu?
+\shortans{18}
+\loigiai{
+Có: $4 + 6 + 8 = 18$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu loại quả trong đĩa hoa quả trên?
+\shortans{3}
+\loigiai{
+Có 3 loại quả: chuối, mận, dâu tây.
+}
+\end{ex}
+
+\begin{ex}
+Số dâu tây gấp mấy lần số quả chuối?
+\shortans{2}
+\loigiai{
+Gấp: $8 : 4 = 2$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ăn hết 3 quả mận thì đĩa còn lại bao nhiêu quả?
+\shortans{15}
+\loigiai{
+Còn lại: $18 - 3 = 15$ quả.
+}
+\end{ex}

@@ -1,0 +1,147 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 42. Tính chất phân phối của phép nhân đối với phép cộng --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 42: TÍNH CHẤT PHÂN PHỐI CỦA PHÉP NHÂN ĐỐI VỚI PHÉP CỘNG}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Nhân một số với một tổng, nhân một số với một hiệu và kĩ thuật đặt thừa số chung trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faFolderOpen\ 1. Chiều xuôi: Khai triển tổng, hiệu},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Nhân một số với một tổng}:
+    \begin{center}
+      $\mathbf{a \times (b + c) = a \times b + a \times c}$
+    \end{center}
+    Lấy số đó nhân với từng số hạng của tổng, rồi cộng các kết quả lại.\\
+    $\bullet$ \textbf{Nhân một số với một hiệu}:
+    \begin{center}
+      $\mathbf{a \times (b - c) = a \times b - a \times c}$ \quad ($b > c$)
+    \end{center}
+    Lấy số đó nhân với số bị trừ và số trừ, rồi trừ hai kết quả.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 2. Chiều ngược: Đặt thừa số chung},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Quy tắc đặt thừa số chung}:
+    \begin{center}
+      $\mathbf{a \times b + a \times c = a \times (b + c)}$\\
+      $\mathbf{a \times b - a \times c = a \times (b - c)}$
+    \end{center}
+    $\bullet$ \textbf{Bí quyết "Ẩn thừa số 1"}:
+    \begin{center}
+      $\mathbf{a \times b + a = a \times b + a \times 1 = a \times (b + 1)}$
+    \end{center}
+    Ví dụ: $45 \times 99 + 45 = 45 \times (99 + 1) = 45 \times 100 = 4500$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: MÔ HÌNH PHÂN PHỐI 2 CHIỀU THUẬN -- NGHỊCH},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    cbox/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center, text width=5.0cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    \node[cbox, draw=blue!75!black, fill=blue!10] (left) at (0, 0) {\textbf{\color{blue!85!black}DẠNG TÍCH CÓ NGOẶC}\\$a \times (b + c)$\\$a \times (b - c)$};
+    \node[cbox, draw=teal!80!black, fill=teal!10] (right) at (8.5, 0) {\textbf{\color{teal!85!black}DẠNG TỔNG / HIỆU CÁC TÍCH}\\$a \times b + a \times c$\\$a \times b - a \times c$};
+
+    \draw[arr, draw=orange!85!black] ($(left.east)+(0, 0.4)$) -- node[above=1pt, font=\tiny\bfseries\color{orange!85!black}]{Khai triển nhân vào} ($(right.west)+(0, 0.4)$);
+    \draw[arr, draw=purple!85!black] ($(right.west)+(0, -0.4)$) -- node[below=1pt, font=\tiny\bfseries\color{purple!85!black}]{Đặt thừa số chung $a$} ($(left.east)+(0, -0.4)$);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Tính bằng cách thuận tiện nhất}:\\
+    $\bullet$ $A = 36 \times 47 + 36 \times 53$\\
+    $A = 36 \times (47 + 53) = 36 \times 100 = \mathbf{3600}$.\\[1mm]
+    $\bullet$ $B = 125 \times 48 - 125 \times 40$\\
+    $B = 125 \times (48 - 40) = 125 \times 8 = \mathbf{1000}$.\\[1mm]
+    $\bullet$ $C = 27 \times 99 + 27 = 27 \times (99 + 1) = \mathbf{2700}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy quên thừa số 1}:\\
+    Gặp biểu thức $a \times 99 + a$, nhiều học sinh viết $a \times 99$ (bỏ quên số $a$ lẻ). Nhớ rằng $a = a \times 1$!\\
+    $\bullet$ \textbf{Bẫy dấu trong ngoặc}:\\
+    Khi đặt thừa số chung ở phép trừ: $a \times b - a \times c = a \times (b - c)$, chú ý dấu bên trong là dấu trừ!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

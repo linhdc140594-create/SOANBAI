@@ -1,0 +1,144 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 35. Ôn tập hình học --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 35: ÔN TẬP HÌNH HỌC}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Hệ thống hóa toàn bộ kiến thức góc, đường thẳng song song, vuông góc, hình bình hành và hình thoi trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCompass\ 1. Góc và quan hệ vuông góc, song song},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đơn vị đo góc: Độ ($^\circ$)}.\\
+    --- Góc nhọn $< 90^\circ$; Góc vuông $= 90^\circ$;\\
+    --- Góc tù: $90^\circ < \alpha < 180^\circ$; Góc bẹt $= 180^\circ$.\\
+    $\bullet$ \textbf{Hai đường thẳng vuông góc ($\perp$)}: Cắt nhau tạo thành 4 góc vuông.\\
+    $\bullet$ \textbf{Hai đường thẳng song song ($\parallel$)}: Không bao giờ cắt nhau, khoảng cách giữa chúng không đổi.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCube\ 2. Phân loại các tứ giác đặc biệt},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Hình bình hành}:\\
+    --- Có 2 cặp cạnh đối diện song song và bằng nhau.\\
+    --- 2 góc đối diện bằng nhau.\\
+    $\bullet$ \textbf{Hình thoi}:\\
+    --- Có 2 cặp cạnh đối diện song song.\\
+    --- \textbf{4 cạnh bằng nhau}.\\
+    --- \textbf{2 đường chéo vuông góc} với nhau và cắt nhau tại trung điểm của mỗi đường.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HỆ THỐNG HÓA HÌNH HỌC PHẲNG HỌC KÌ 1},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    node distance=1.2cm,
+    box/.style={rectangle, rounded corners=2mm, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70}
+  ]
+    % 3 Nhánh lớn
+    \node[box, draw=blue!75!black, fill=blue!10, text width=4.8cm] (n1) at (0, 0) {\textbf{1. CÁC LOẠI GÓC}\\Nhọn ($<90^\circ$) $<$ Vuông ($90^\circ$)\\$<$ Tù ($90^\circ \rightarrow 180^\circ$) $<$ Bẹt ($180^\circ$)};
+
+    \node[box, draw=orange!80!black, fill=orange!10, text width=4.8cm] (n2) at (5.8, 0) {\textbf{2. QUAN HỆ ĐƯỜNG THẲNG}\\Vuông góc ($\perp$): Cắt nhau $90^\circ$\\Song song ($\parallel$): Không cắt nhau\\Cùng vuông góc $\Rightarrow$ Song song};
+
+    \node[box, draw=teal!80!black, fill=teal!10, text width=4.8cm] (n3) at (11.6, 0) {\textbf{3. TỨ GIÁC ĐẶC BIỆT}\\Hình chữ nhật: 4 góc vuông\\Hình vuông: 4 góc vuông + 4 cạnh =\\Hình bình hành \& Hình thoi};
+
+    \draw[thick, dashed, gray!60] (2.9, 0.9) -- (2.9, -0.9);
+    \draw[thick, dashed, gray!60] (8.7, 0.9) -- (8.7, -0.9);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Cho hình thoi $ABCD$ có hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Điền Đ (đúng) hoặc S (sai):\\
+    $\bullet$ $AB$ song song với $CD$: \textbf{Đ} (2 cạnh đối song song).\\
+    $\bullet$ $AC$ vuông góc với $BD$: \textbf{Đ} (2 đường chéo vuông góc).\\
+    $\bullet$ $AC = BD$: \textbf{S} (2 đường chéo hình thoi không bằng nhau, chỉ bằng nhau khi là hình vuông).\\
+    $\bullet$ $OA = OC$: \textbf{Đ} ($O$ là trung điểm $AC$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy hai đường chéo}:\\
+    --- Đường chéo hình chữ nhật: Bằng nhau, \textbf{không vuông góc}.\\
+    --- Đường chéo hình thoi: \textbf{Vuông góc}, thường không bằng nhau.\\
+    --- Đường chéo hình vuông: Vừa bằng nhau, \textbf{vừa vuông góc}!\\
+    Nắm chắc tính chất này để không mất điểm trắc nghiệm!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

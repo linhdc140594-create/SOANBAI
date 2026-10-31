@@ -1,0 +1,199 @@
+\begin{ex}
+Đơn vị đo góc thường dùng là gì? (Độ ghi 1, mét ghi 2).
+\shortans{1}
+\loigiai{
+Đơn vị đo góc là độ ($^\circ$).
+}
+\end{ex}
+
+\begin{ex}
+Góc vuông có số đo bằng bao nhiêu độ?
+\shortans{90}
+\loigiai{
+Góc vuông có số đo bằng $90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc bẹt có số đo bằng bao nhiêu độ?
+\shortans{180}
+\loigiai{
+Góc bẹt có số đo bằng $180^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Dụng cụ nào thường dùng để đo số đo của một góc? (Thước đo góc ghi 1, compa ghi 2).
+\shortans{1}
+\loigiai{
+Thước đo góc (thước đo độ).
+}
+\end{ex}
+
+\begin{ex}
+Một nửa góc vuông có số đo bằng bao nhiêu độ?
+\shortans{45}
+\loigiai{
+$90 : 2 = 45^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc bẹt có số đo gấp mấy lần góc vuông?
+\shortans{2}
+\loigiai{
+$180 : 90 = 2$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 3 giờ đúng có số đo bao nhiêu độ?
+\shortans{90}
+\loigiai{
+Lúc 3 giờ đúng tạo thành góc vuông $90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 6 giờ đúng có số đo bao nhiêu độ?
+\shortans{180}
+\loigiai{
+Lúc 6 giờ đúng tạo thành góc bẹt $180^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 9 giờ đúng có số đo bao nhiêu độ?
+\shortans{90}
+\loigiai{
+Lúc 9 giờ đúng tạo thành góc vuông $90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 12 giờ đúng có số đo bao nhiêu độ?
+\shortans{0}
+\loigiai{
+Hai kim trùng nhau tạo thành góc $0^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi góc nhọn của một chiếc ê-ke cân có số đo bằng bao nhiêu độ?
+\shortans{45}
+\loigiai{
+Hai góc nhọn của ê-ke vuông cân bằng $45^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Trong tam giác đều, mỗi góc có số đo bằng bao nhiêu độ?
+\shortans{60}
+\loigiai{
+Mỗi góc trong tam giác đều bằng $60^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số đo của hai góc vuông là bao nhiêu độ?
+\shortans{180}
+\loigiai{
+$90 + 90 = 180^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số đo của 4 góc vuông trong một hình chữ nhật là bao nhiêu độ?
+\shortans{360}
+\loigiai{
+$90 \times 4 = 360^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc có số đo lớn hơn $0^\circ$ và bé hơn $90^\circ$ gọi là góc gì? (Góc nhọn ghi 1, góc tù ghi 2).
+\shortans{1}
+\loigiai{
+Góc nhọn.
+}
+\end{ex}
+
+\begin{ex}
+Góc có số đo lớn hơn $90^\circ$ và bé hơn $180^\circ$ gọi là góc gì? (Góc nhọn ghi 1, góc tù ghi 2).
+\shortans{2}
+\loigiai{
+Góc tù.
+}
+\end{ex}
+
+\begin{ex}
+Một góc có số đo $60^\circ$, nếu tăng thêm $30^\circ$ thì trở thành góc gì? (Góc vuông ghi 1, góc bẹt ghi 2).
+\shortans{1}
+\loigiai{
+$60 + 30 = 90^\circ$ là góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một góc có số đo $120^\circ$, thêm bao nhiêu độ nữa thì bằng góc bẹt?
+\shortans{60}
+\loigiai{
+$180 - 120 = 60^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Một góc vuông bị chia thành hai góc, trong đó một góc có số đo $35^\circ$. Góc còn lại có số đo bao nhiêu độ?
+\shortans{55}
+\loigiai{
+$90 - 35 = 55^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Một góc bẹt bị chia thành hai góc, trong đó một góc có số đo $110^\circ$. Góc còn lại có số đo bao nhiêu độ?
+\shortans{70}
+\loigiai{
+$180 - 110 = 70^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Kim phút quay được một phần tư vòng tròn quanh mặt đồng hồ thì tạo thành một góc bao nhiêu độ?
+\shortans{90}
+\loigiai{
+Một phần tư vòng là góc $90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Kim phút quay được nửa vòng tròn quanh mặt đồng hồ thì quét một góc bao nhiêu độ?
+\shortans{180}
+\loigiai{
+Nửa vòng là góc bẹt $180^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Kim giờ quay từ 1 giờ đến 2 giờ thì quét một góc bao nhiêu độ?
+\shortans{30}
+\loigiai{
+$360 : 12 = 30^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 2 giờ đúng, góc tạo bởi kim giờ và kim phút có số đo bao nhiêu độ?
+\shortans{60}
+\loigiai{
+$30 \times 2 = 60^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 4 giờ đúng, góc tạo bởi kim giờ và kim phút có số đo bao nhiêu độ?
+\shortans{120}
+\loigiai{
+$30 \times 4 = 120^\circ$.
+}
+\end{ex}

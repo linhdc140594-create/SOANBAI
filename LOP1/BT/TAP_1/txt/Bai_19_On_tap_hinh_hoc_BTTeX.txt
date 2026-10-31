@@ -1,0 +1,199 @@
+\begin{ex}
+Hình tam giác có bao nhiêu cạnh?
+\shortans{3}
+\loigiai{
+Hình tam giác có 3 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có bao nhiêu cạnh bằng nhau?
+\shortans{4}
+\loigiai{
+Hình vuông có 4 cạnh bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình tròn có bao nhiêu đỉnh?
+\shortans{0}
+\loigiai{
+Hình tròn không có đỉnh nào.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có tất cả bao nhiêu mặt?
+\shortans{6}
+\loigiai{
+Khối lập phương có 6 mặt bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có tất cả bao nhiêu đỉnh?
+\shortans{8}
+\loigiai{
+Khối hộp chữ nhật có 8 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có tất cả bao nhiêu cạnh?
+\shortans{12}
+\loigiai{
+Khối hộp chữ nhật có 12 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu cạnh trong 2 hình tam giác rời nhau?
+\shortans{6}
+\loigiai{
+Mỗi tam giác có 3 cạnh, hai hình có: $3 + 3 = 6$ cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu góc vuông trong 2 hình chữ nhật rời nhau?
+\shortans{8}
+\loigiai{
+Mỗi hình chữ nhật có 4 góc vuông, hai hình có: $4 + 4 = 8$ góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu que tính bằng nhau để xếp được một hình vuông?
+\shortans{4}
+\loigiai{
+Cần 4 que tính.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu que tính bằng nhau để xếp được một hình tam giác?
+\shortans{3}
+\loigiai{
+Cần 3 que tính.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 5 que tính bằng nhau xếp được 2 hình tam giác chung nhau một cạnh. Đúng hay sai? Số que tính là bao nhiêu?
+\shortans{5}
+\loigiai{
+Số que tính là 5.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc thước kẻ thẳng hình chữ nhật có mấy cạnh?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Một mặt của khối lập phương là hình gì có 4 cạnh bằng nhau? Số cạnh của mặt đó là bao nhiêu?
+\shortans{4}
+\loigiai{
+Mặt khối lập phương là hình vuông có 4 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Có 4 hình tròn, 3 hình tam giác và 2 hình vuông. Hỏi có tất cả bao nhiêu hình phẳng?
+\shortans{9}
+\loigiai{
+Có tất cả: $4 + 3 + 2 = 9$ hình phẳng.
+}
+\end{ex}
+
+\begin{ex}
+Trong các hình trên, số hình tròn nhiều hơn số hình vuông bao nhiêu hình?
+\shortans{2}
+\loigiai{
+Nhiều hơn: $4 - 2 = 2$ hình.
+}
+\end{ex}
+
+\begin{ex}
+Trong một bức tranh rô-bốt có: 1 khối lập phương làm đầu, 1 khối hộp chữ nhật làm thân, 4 khối hộp chữ nhật làm chân và tay. Có tất cả bao nhiêu khối hộp chữ nhật?
+\shortans{5}
+\loigiai{
+Số khối hộp chữ nhật là: $1 + 4 = 5$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Bức tranh rô-bốt đó có bao nhiêu khối lập phương?
+\shortans{1}
+\loigiai{
+Có 1 khối lập phương làm đầu.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số khối hình làm nên chú rô-bốt đó là bao nhiêu?
+\shortans{6}
+\loigiai{
+Tổng số khối hình là: $5 + 1 = 6$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có độ dài mỗi cạnh là 2 cm. Tính tổng độ dài 4 cạnh của hình vuông đó (đơn vị cm).
+\shortans{8}
+\loigiai{
+Tổng độ dài: $2 + 2 + 2 + 2 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có độ dài 3 cạnh lần lượt là 2 cm, 3 cm, 4 cm. Tổng độ dài 3 cạnh là bao nhiêu cm?
+\shortans{9}
+\loigiai{
+Tổng độ dài: $2 + 3 + 4 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây đồng dài 10 cm được uốn thành một hình tam giác có tổng độ dài các cạnh là 7 cm. Đoạn dây còn thừa dài bao nhiêu xăng-ti-mét?
+\shortans{3}
+\loigiai{
+Đoạn dây thừa: $10 - 7 = 3$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Có 7 khối lập phương nhỏ, Nam lấy 4 khối để xếp thành một cái cột. Nam còn lại bao nhiêu khối lập phương nhỏ?
+\shortans{3}
+\loigiai{
+Nam còn lại: $7 - 4 = 3$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Một bàn học hình chữ nhật có bao nhiêu góc?
+\shortans{4}
+\loigiai{
+Mặt bàn hình chữ nhật có 4 góc.
+}
+\end{ex}
+
+\begin{ex}
+Một tấm biển báo dừng lại hình bát giác có 8 cạnh. Một tấm biển báo hình tam giác có 3 cạnh. Hai biển báo có tất cả bao nhiêu cạnh?
+\shortans{11}
+\loigiai{
+Hai biển báo có: $8 + 3 = 11$ cạnh.
+}
+\end{ex}

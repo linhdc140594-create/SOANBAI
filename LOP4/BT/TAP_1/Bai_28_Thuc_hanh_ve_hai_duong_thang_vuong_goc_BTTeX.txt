@@ -1,0 +1,199 @@
+\begin{ex}
+Để vẽ đường thẳng vuông góc với đường thẳng cho trước, ta dùng dụng cụ nào? (Ê-ke ghi 1, compa ghi 2).
+\shortans{1}
+\loigiai{
+Dùng ê-ke (1).
+}
+\end{ex}
+
+\begin{ex}
+Qua một điểm M nằm trên đường thẳng d, vẽ được bao nhiêu đường thẳng vuông góc với d?
+\shortans{1}
+\loigiai{
+Vẽ được 1 đường thẳng.
+}
+\end{ex}
+
+\begin{ex}
+Qua một điểm A nằm ngoài đường thẳng d, vẽ được bao nhiêu đường thẳng vuông góc với d?
+\shortans{1}
+\loigiai{
+Chỉ vẽ được 1 đường thẳng.
+}
+\end{ex}
+
+\begin{ex}
+Khi vẽ đường thẳng đi qua điểm A và vuông góc với d, một cạnh góc vuông của ê-ke phải trùng với đường thẳng nào?
+\shortans{1}
+\loigiai{
+Trùng với đường thẳng d (ghi 1).
+}
+\end{ex}
+
+\begin{ex}
+Cạnh góc vuông còn lại của ê-ke phải đi qua điểm nào?
+\shortans{1}
+\loigiai{
+Đi qua điểm đã cho (ghi 1).
+}
+\end{ex}
+
+\begin{ex}
+Hai đường thẳng cùng vuông góc với một đường thẳng thứ ba thì chúng thế nào với nhau? (Song song ghi 1, cắt nhau ghi 2).
+\shortans{1}
+\loigiai{
+Song song với nhau (1).
+}
+\end{ex}
+
+\begin{ex}
+Vẽ hình vuông ABCD có cạnh 5 cm. Cần vẽ bao nhiêu góc vuông bằng ê-ke?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Vẽ hình chữ nhật MNPQ có chiều dài 6 cm, rộng 4 cm. Cần vẽ bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng vuông góc kẻ từ một điểm đến một đường thẳng gọi là đoạn gì? (Đoạn vuông góc ghi 1, đoạn xiên ghi 2).
+\shortans{1}
+\loigiai{
+Đoạn vuông góc.
+}
+\end{ex}
+
+\begin{ex}
+Trong các đoạn thẳng nối từ một điểm ngoài đường thẳng đến đường thẳng đó, đoạn thẳng nào ngắn nhất? (Đoạn vuông góc ghi 1, đoạn xiên ghi 2).
+\shortans{1}
+\loigiai{
+Đoạn vuông góc ngắn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Vẽ đường cao AH của tam giác ABC. AH vuông góc với cạnh nào của tam giác ABC? (Cạnh BC ghi 1, cạnh AB ghi 2).
+\shortans{1}
+\loigiai{
+Cạnh đáy BC (1).
+}
+\end{ex}
+
+\begin{ex}
+Tam giác nhọn có bao nhiêu đường cao?
+\shortans{3}
+\loigiai{
+Có 3 đường cao.
+}
+\end{ex}
+
+\begin{ex}
+Trong tam giác vuông, hai cạnh góc vuông có chính là hai đường cao không? (Phải ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Phải (1).
+}
+\end{ex}
+
+\begin{ex}
+Vẽ 2 đường thẳng vuông góc trên giấy kẻ ô vuông, chúng đi qua các đường kẻ ô vuông. Góc tạo thành bằng bao nhiêu độ?
+\shortans{90}
+\loigiai{
+$90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có chiều dài 8 cm, rộng 5 cm. Chu vi của nó là bao nhiêu xăng-ti-mét?
+\shortans{26}
+\loigiai{
+$(8 + 5) \times 2 = 26$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có chiều dài 8 cm, rộng 5 cm. Diện tích của nó là bao nhiêu xăng-ti-mét vuông?
+\shortans{40}
+\loigiai{
+$8 \times 5 = 40\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có cạnh 7 cm. Chu vi hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{28}
+\loigiai{
+$7 \times 4 = 28$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có cạnh 7 cm. Diện tích hình vuông đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{49}
+\loigiai{
+$7 \times 7 = 49\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Vẽ đường thẳng vuông góc chia một góc bẹt thành mấy góc vuông?
+\shortans{2}
+\loigiai{
+Thành 2 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Vẽ hai đường thẳng vuông góc cắt nhau tại O. Có bao nhiêu góc vuông đỉnh O?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Ê-ke có mấy cạnh góc vuông?
+\shortans{2}
+\loigiai{
+Có 2 cạnh góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Góc giữa 2 cạnh góc vuông của ê-ke bằng bao nhiêu độ?
+\shortans{90}
+\loigiai{
+$90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Vẽ tam giác vuông có 2 cạnh góc vuông là 3 cm và 4 cm. Diện tích tam giác đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{6}
+\loigiai{
+$3 \times 4 : 2 = 6\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Vẽ tam giác vuông có 2 cạnh góc vuông là 6 cm và 8 cm. Diện tích tam giác đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{24}
+\loigiai{
+$6 \times 8 : 2 = 24\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Dùng ê-ke kiểm tra góc tạo bởi hai mép bàn học, góc đó là bao nhiêu độ?
+\shortans{90}
+\loigiai{
+$90^\circ$.
+}
+\end{ex}

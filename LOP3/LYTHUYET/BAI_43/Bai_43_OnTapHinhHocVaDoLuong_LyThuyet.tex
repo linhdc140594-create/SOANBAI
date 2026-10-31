@@ -1,0 +1,165 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{teal}\faBook\ SỔ TAY KIẾN THỨC TOÁN 3}
+\fancyhead[R]{\small\bfseries\color{teal}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 43. Ôn tập hình học và đo lường --}
+
+\definecolor{primary}{HTML}{005F73}
+\definecolor{secondary}{HTML}{0A9396}
+\definecolor{accent}{HTML}{EE9B00}
+\definecolor{danger}{HTML}{AE2012}
+\definecolor{boxbg}{HTML}{F4F6F8}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,
+  colframe=primary,
+  arc=3mm,
+  boxrule=1.2pt,
+  left=4mm, right=4mm, top=2.5mm, bottom=2.5mm,
+  drop shadow=black!10!white
+]
+  \centering
+  {\Large\bfseries\color{primary}\faBookmark\ BÀI 43: ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG}\\[1.5mm]
+  {\small\itshape\color{black!75}Ôn tập học kì 1: Điểm, đoạn thẳng, hình tròn, góc vuông, khối hộp, khối lập phương và bảng đơn vị đo trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckSquare\ 1. Trọng tâm Hình học HK1}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Trung điểm đoạn thẳng:} $M$ ở giữa $A, B$ và $MA = MB = AB : 2$.
+  \item \textbf{Hình tròn $(O; R)$:} Đường kính $d = 2 \times R$, đi qua tâm $O$.
+  \item \textbf{Góc vuông:} Kiểm tra bằng ê-ke.
+  \item \textbf{Hình chữ nhật \& Hình vuông:} Có $4$ góc vuông; hình vuông có $4$ cạnh bằng nhau.
+  \item \textbf{Khối hộp chữ nhật \& Lập phương:} Đều có $8$ đỉnh, $12$ cạnh, $6$ mặt.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. Trọng tâm Đo lường HK1}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Độ dài (mm):} $1\text{ cm} = 10\text{ mm}$; $1\text{ m} = 1000\text{ mm}$.
+  \item \textbf{Khối lượng (g):} $1\text{ kg} = 1000\text{ g}$.
+  \item \textbf{Dung tích (ml):} $1\ l = 1000\text{ ml}$.
+  \item \textbf{Nhiệt độ ($^\circ\text{C}$):} Nước đá $0^\circ\text{C}$; nước sôi $100^\circ\text{C}$; thân nhiệt bình thường $37^\circ\text{C}$.
+  \item Thực hiện phép tính phải cùng đơn vị đo và ghi kèm tên đơn vị.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: ĐỐI CHIẾU HÌNH HỌC VÀ ĐO LƯỜNG}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=2.5pt, minimum height=0.75cm},
+  arr/.style={-{Stealth[length=2mm]}, thick}
+]
+  \node[box, fill=purple!15, draw=purple!80!black, text width=2.6cm] (g1) at (0, 0) {HÌNH HỌC PHẲNG\\Trung điểm\\Hình tròn, góc vuông\\Chữ nhật, vuông};
+  \node[box, fill=teal!15, draw=teal!80!black, text width=2.6cm] (g2) at (3.5, 0) {HÌNH KHỐI 3D\\Lập phương \& Hộp\\$6$ mặt, $8$ đỉnh\\$12$ cạnh};
+  \node[box, fill=blue!12, draw=blue!80!black, text width=2.6cm] (g3) at (7.0, 0) {ĐƠN VỊ ĐO LƯỜNG\\$mm, cm, dm, m, km$\\$g, kg \quad ml, l$\\Nhiệt độ $^\circ\text{C}$};
+  \node[box, fill=orange!15, draw=orange!80!black, text width=2.6cm] (g4) at (10.5, 0) {ỨNG DỤNG ĐO\\Đọc thước, cân\\Đọc ca đong, nhiệt kế\\kèm tên đơn vị};
+
+  \draw[arr, purple!80!black] (g1) -- (g2);
+  \draw[arr, blue!80!black] (g2) -- (g3);
+  \draw[arr, orange!80!black] (g3) -- (g4);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Đoạn thẳng và hình tròn:}\\
+Đoạn thẳng $AB = 12\text{ cm}$. $O$ là trung điểm của $AB$. Bán kính đường tròn tâm $O$ đi qua $A$ là:\\
+$R = 12 : 2 = \mathbf{6\text{ cm}}$.\\
+\textbf{2. Đổi và tính đơn vị:}\\
+$1\text{ kg } 500\text{ g} - 700\text{ g} = 1500\text{ g} - 700\text{ g} = \mathbf{800\text{ g}}$.\\
+$1\ l - 400\text{ ml} = 1000\text{ ml} - 400\text{ ml} = \mathbf{600\text{ ml}}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy phân biệt điểm ở giữa và trung điểm:}\\
+  Điểm ở giữa chỉ cần nằm giữa hai điểm. Để là \textbf{trung điểm} thì phải cách đều hai đầu mút ($MA = MB$)!
+  \item \textbf{Bẫy khối lập phương và khối hộp:}\\
+  Khối lập phương có các mặt là hình vuông; khối hộp chữ nhật có các mặt là hình chữ nhật.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

@@ -1,0 +1,199 @@
+\begin{ex}
+Một người có bao nhiêu cánh tay? (Gồm tay trái và tay phải)
+\shortans{2}
+\loigiai{
+Một người có 2 cánh tay.
+}
+\end{ex}
+
+\begin{ex}
+Em đang đứng quay mặt về phía trước. Phía sau lưng em có 3 bạn học sinh, phía trước mặt em có 4 bạn học sinh. Hỏi cả phía trước và phía sau em có tất cả bao nhiêu bạn?
+\shortans{7}
+\loigiai{
+Có tất cả: $3 + 4 = 7$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Trên kệ sách có hai tầng. Tầng trên có 5 quyển truyện, tầng dưới có 4 quyển truyện. Hỏi cả hai tầng có tất cả bao nhiêu quyển truyện?
+\shortans{9}
+\loigiai{
+Cả hai tầng có: $5 + 4 = 9$ quyển truyện.
+}
+\end{ex}
+
+\begin{ex}
+Trong đĩa hoa quả: bên trái có 3 quả táo, bên phải có 5 quả lê, ở giữa có 1 quả cam. Hỏi có tất cả bao nhiêu quả trong đĩa?
+\shortans{9}
+\loigiai{
+Có tất cả: $3 + 5 + 1 = 9$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Một đàn chim bay trên bầu trời, 4 con bay bên phải, 6 con bay bên trái. Hỏi đàn chim có tất cả bao nhiêu con?
+\shortans{10}
+\loigiai{
+Đàn chim có tất cả: $4 + 6 = 10$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trong hàng dọc, bạn Nam đứng thứ 4 tính từ đầu hàng lên. Hỏi trước bạn Nam có bao nhiêu bạn học sinh?
+\shortans{3}
+\loigiai{
+Trước bạn Nam có 3 bạn (vị trí 1, 2, 3).
+}
+\end{ex}
+
+\begin{ex}
+Một hàng có 7 bạn xếp hàng. Bạn An đứng chính giữa hàng. Hỏi bạn An đứng ở vị trí thứ mấy trong hàng?
+\shortans{4}
+\loigiai{
+Vị trí chính giữa của hàng 7 người là vị trí thứ 4 (trước có 3 bạn, sau có 3 bạn).
+}
+\end{ex}
+
+\begin{ex}
+Bạn Bình đứng thứ 3 từ trái sang, đứng thứ 5 từ phải sang trong một bức ảnh chụp chung. Hỏi bức ảnh đó có bao nhiêu bạn? Tính tổng: $(3 - 1) + 1 + (5 - 1)$.
+\shortans{7}
+\loigiai{
+Bên trái có 2 bạn, Bình là 1, bên phải có 4 bạn. Tổng số bạn: $2 + 1 + 4 = 7$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Trong một chiếc tủ có 3 ngăn: ngăn trên cùng có 2 cái mũ, ngăn giữa có 3 cái mũ, ngăn dưới cùng có 4 cái mũ. Hỏi chiếc tủ có tất cả bao nhiêu cái mũ?
+\shortans{9}
+\loigiai{
+Có tất cả: $2 + 3 + 4 = 9$ cái mũ.
+}
+\end{ex}
+
+\begin{ex}
+Trên cành cây cao có 6 chú chim, cành cây thấp có 3 chú chim. Hỏi cành cây cao nhiều hơn cành cây thấp bao nhiêu chú chim?
+\shortans{3}
+\loigiai{
+Nhiều hơn: $6 - 3 = 3$ chú chim.
+}
+\end{ex}
+
+\begin{ex}
+Một chú mèo ngồi ở giữa hai chiếc giỏ. Giỏ bên trái có 4 con cá, giỏ bên phải có 6 con cá. Hỏi hai chiếc giỏ có tất cả bao nhiêu con cá?
+\shortans{10}
+\loigiai{
+Cả hai giỏ có: $4 + 6 = 10$ con cá.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Lan cầm trên tay phải 3 bông hoa, cầm trên tay trái 4 bông hoa. Hỏi bạn Lan cầm tất cả bao nhiêu bông hoa?
+\shortans{7}
+\loigiai{
+Lan cầm: $3 + 4 = 7$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Có 10 bạn học sinh đứng thành hàng ngang. Tính từ trái sang phải, bạn thứ 6 bước lên phía trước 1 bước. Hỏi còn lại bao nhiêu bạn đứng nguyên ở hàng cũ?
+\shortans{9}
+\loigiai{
+Còn lại: $10 - 1 = 9$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Bên trong chuồng có 8 chú cừu, bên ngoài chuồng có 2 chú cừu. Hỏi có tất cả bao nhiêu chú cừu?
+\shortans{10}
+\loigiai{
+Có tất cả: $8 + 2 = 10$ chú cừu.
+}
+\end{ex}
+
+\begin{ex}
+Trên bàn có 7 cái chén, dưới gầm bàn có 2 cái chén. Hỏi có tất cả bao nhiêu cái chén?
+\shortans{9}
+\loigiai{
+Có tất cả: $7 + 2 = 9$ cái chén.
+}
+\end{ex}
+
+\begin{ex}
+Bên trong túi áo của Nam có 5 viên kẹo, bên ngoài bàn có 3 viên kẹo. Hỏi có tất cả bao nhiêu viên kẹo?
+\shortans{8}
+\loigiai{
+Có tất cả: $5 + 3 = 8$ viên kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Trong rổ có 6 quả cà chua, 2 quả để ở bên ngoài rổ. Hỏi tổng số quả cà chua là bao nhiêu?
+\shortans{8}
+\loigiai{
+Tổng số quả: $6 + 2 = 8$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Một đứng thành một hàng dọc gồm 8 bạn. Bạn đứng đầu hàng và bạn đứng cuối hàng bước ra ngoài. Hỏi trong hàng còn lại bao nhiêu bạn?
+\shortans{6}
+\loigiai{
+Còn lại: $8 - 2 = 6$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Một con đường có hai bên lề đường. Bên trái trồng 5 cây bàng, bên phải trồng 5 cây phượng. Hỏi hai bên lề đường trồng tất cả bao nhiêu cây?
+\shortans{10}
+\loigiai{
+Hai bên trồng tất cả: $5 + 5 = 10$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc cầu thang có 10 bậc. Bạn Mai đang đứng ở bậc thứ 4, bạn Mai đi lên thêm 3 bậc nữa. Hỏi Mai đang đứng ở bậc thứ mấy?
+\shortans{7}
+\loigiai{
+Mai đang đứng ở bậc: $4 + 3 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Tuấn đang đứng ở bậc thứ 9, Tuấn bước lùi xuống 4 bậc. Hỏi Tuấn đang đứng ở bậc thứ mấy?
+\shortans{5}
+\loigiai{
+Tuấn đang đứng ở bậc: $9 - 4 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Trên giá sách, phía trên cuốn sách Toán có 3 cuốn vở, phía dưới cuốn sách Toán có 4 cuốn truyện. Hỏi trên giá sách đó có tất cả bao nhiêu quyển (tính cả cuốn sách Toán)?
+\shortans{8}
+\loigiai{
+Có tất cả: $3 + 1 + 4 = 8$ quyển.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 10 viên bi. Lấy ra để ở phía ngoài hộp 4 viên bi. Hỏi trong hộp còn lại bao nhiêu viên bi?
+\shortans{6}
+\loigiai{
+Trong hộp còn lại: $10 - 4 = 6$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Một con thỏ đứng giữa vườn hoa. Phía trước có 2 bông hoa đỏ, phía sau có 3 bông hoa vàng, phía bên phải có 4 bông hoa cúc. Hỏi xung quanh chú thỏ có bao nhiêu bông hoa?
+\shortans{9}
+\loigiai{
+Có tất cả: $2 + 3 + 4 = 9$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 chiếc xe ô tô xếp thành một hàng dọc: xe thứ nhất, xe thứ hai, xe thứ ba, xe thứ tư, xe thứ năm. Hỏi có bao nhiêu chiếc xe đứng trước chiếc xe thứ tư?
+\shortans{3}
+\loigiai{
+Có 3 chiếc xe đứng trước xe thứ tư (xe 1, 2, 3).
+}
+\end{ex}

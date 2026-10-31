@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $2 \times 8 = \dots$
+\shortans{16}
+\loigiai{
+$2 \times 8 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 7 = \dots$
+\shortans{35}
+\loigiai{
+$5 \times 7 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18 : 2 = \dots$
+\shortans{9}
+\loigiai{
+$18 : 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 : 5 = \dots$
+\shortans{9}
+\loigiai{
+$45 : 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 9 + 15 = \dots$
+\shortans{33}
+\loigiai{
+$2 \times 9 + 15 = 18 + 15 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 8 - 18 = \dots$
+\shortans{22}
+\loigiai{
+$5 \times 8 - 18 = 40 - 18 = 22$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20 : 2 + 35 = \dots$
+\shortans{45}
+\loigiai{
+$10 + 35 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $50 : 5 - 6 = \dots$
+\shortans{4}
+\loigiai{
+$10 - 6 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi đôi đũa có 2 chiếc đũa. Hỏi 9 đôi đũa có bao nhiêu chiếc đũa?
+\shortans{18}
+\loigiai{
+$2 \times 9 = 18$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Có 16 học sinh chia đều thành 2 nhóm. Hỏi mỗi nhóm có bao nhiêu học sinh?
+\shortans{8}
+\loigiai{
+$16 : 2 = 8$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi tuần lễ mẹ đi làm 5 ngày. Hỏi trong 6 tuần lễ mẹ đi làm tất cả bao nhiêu ngày?
+\shortans{30}
+\loigiai{
+$5 \times 6 = 30$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Có 35 lít dầu chia đều vào các can, mỗi can chứa 5 lít. Hỏi rót được bao nhiêu can dầu?
+\shortans{7}
+\loigiai{
+$35 : 5 = 7$ can.
+}
+\end{ex}
+
+\begin{ex}
+Có 20 cái kẹo chia đều cho 5 bạn. Hỏi mỗi bạn được mấy cái kẹo?
+\shortans{4}
+\loigiai{
+$20 : 5 = 4$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $2 \times \dots = 14$.
+\shortans{7}
+\loigiai{
+$14 : 2 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $5 \times \dots = 40$.
+\shortans{8}
+\loigiai{
+$40 : 5 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 2 = 6$.
+\shortans{12}
+\loigiai{
+$6 \times 2 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 5 = 5$.
+\shortans{25}
+\loigiai{
+$5 \times 5 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 3A có 5 tổ, mỗi tổ có 6 bạn. Hỏi lớp 3A có bao nhiêu bạn?
+\shortans{30}
+\loigiai{
+$5 \times 6 = 30$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bàn học có 2 học sinh ngồi. Có tất cả 10 bàn học. Hỏi có bao nhiêu học sinh ngồi?
+\shortans{20}
+\loigiai{
+$2 \times 10 = 20$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 6 : 2 = \dots$
+\shortans{6}
+\loigiai{
+$12 : 2 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 4 : 2 = \dots$
+\shortans{10}
+\loigiai{
+$20 : 2 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Một con gà có 2 chân. Hỏi 8 con gà có tất cả bao nhiêu chân?
+\shortans{16}
+\loigiai{
+$2 \times 8 = 16$ chân.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bàn tay có 5 ngón tay. Hỏi 2 bàn tay có bao nhiêu ngón tay?
+\shortans{10}
+\loigiai{
+$5 \times 2 = 10$ ngón tay.
+}
+\end{ex}
+
+\begin{ex}
+Có 14 quả cam xếp đều vào 2 đĩa. Hỏi mỗi đĩa có bao nhiêu quả cam?
+\shortans{7}
+\loigiai{
+$14 : 2 = 7$ quả cam.
+}
+\end{ex}
+
+\begin{ex}
+Có 30 bông hoa cắm đều vào 5 lọ. Hỏi mỗi lọ có bao nhiêu bông hoa?
+\shortans{6}
+\loigiai{
+$30 : 5 = 6$ bông hoa.
+}
+\end{ex}

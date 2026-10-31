@@ -1,0 +1,166 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 26. Hình thang. Diện tích hình thang --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 26. HÌNH THANG. DIỆN TÍCH HÌNH THANG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Đặc điểm hai đáy song song, chiều cao, bài thơ diện tích và công thức tính ngược trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: KHÁI NIỆM & HÌNH VẼ HÌNH THANG ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 1. Đặc điểm của hình thang},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Hình thang là tứ giác có \textbf{một cặp cạnh đối diện song song} (gọi là hai đáy).\\
+    $\triangleright$ Đáy lớn độ dài $a$; Đáy bé độ dài $b$.\\
+    $\triangleright$ Hai cạnh còn lại gọi là hai \textbf{cạnh bên}.\\
+    $\bullet$ \textbf{Chiều cao ($h$):} Là khoảng cách vuông góc giữa hai đường thẳng chứa hai đáy.\\
+    $\bullet$ \textbf{Hình thang vuông:} Có một cạnh bên vuông góc với hai đáy (cạnh đó chính là chiều cao).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ Minh họa hình thang},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \begin{tikzpicture}[scale=0.72]
+      \coordinate (A) at (0.8,1.6);
+      \coordinate (B) at (2.4,1.6);
+      \coordinate (C) at (3.4,0);
+      \coordinate (D) at (0,0);
+      \coordinate (H) at (0.8,0);
+      \draw[thick, fill=teal!15] (A)--(B)--(C)--(D)--cycle;
+      \draw[dashed, red!85!black, thick] (A)--(H);
+      \draw (0.8,0.2) -- (1,0.2) -- (1,0);
+      \node[above] at (1.6,1.6) {\scriptsize Đáy bé $b$};
+      \node[below] at (1.7,-0.2) {\scriptsize Đáy lớn $a$};
+      \node[left, red!85!black] at (0.8,0.8) {\scriptsize $h$};
+    \end{tikzpicture}\\[2pt]
+    {\tiny\color{teal!95!black}\bfseries Đáy bé $\parallel$ Đáy lớn; $h$ vuông góc 2 đáy}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: BÀI THƠ VÀ CÔNG THỨC DIỆN TÍCH ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faCalculator\ 2. Công thức Diện tích hình thang (Bài thơ kinh điển)},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \textit{``Muốn tính diện tích hình thang -- Đáy lớn đáy bé ta đem cộng vào -- Thế rồi nhân với chiều cao -- Chia đôi lấy nửa thế nào cũng ra!''}\\
+  \begin{tabular}{p{0.32\textwidth}|p{0.32\textwidth}|p{0.32\textwidth}}
+    \centering\textbf{\color{purple!90!black}$S = \dfrac{(a + b) \times h}{2}$} & \centering\textbf{\color{blue!90!black}$h = \dfrac{S \times 2}{a + b}$} & \centering\textbf{\color{teal!90!black}$a + b = \dfrac{S \times 2}{h}$} \\[2pt]
+    (Tính diện tích) & (Tính chiều cao) & (Tính tổng hai đáy)
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Giải toán diện tích hình thang},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Đồng nhất đơn vị đo\\Của $a, b$ và $h$};
+    \node[b2] (n2) at (0, 0) {2. Cộng hai đáy: $(a + b)$\\Nhân với chiều cao $h$};
+    \node[b3] (n3) at (5.8, 0) {3. Chia cho 2\\$\rightarrow$ Kết quả diện tích $S$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: DẠNG TOÁN MỞ RỘNG ĐÁY & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExpandArrowsAlt\ Dạng toán tăng thêm độ dài đáy},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Khi mở rộng đáy lớn thêm $d$ mét thì diện tích tăng thêm $\Delta S$:\\
+    $\bullet$ Phần tăng thêm chính là \textbf{hình tam giác} có đáy là $d$ và chiều cao bằng chiều cao hình thang!\\
+    $\bullet$ Chiều cao hình thang: $h = \dfrac{\Delta S \times 2}{d}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Quên ngoặc đơn: Lấy $a + b \times h : 2$ theo thứ tự là làm nhân trước rồi mới cộng $\rightarrow$ \textbf{SAI}. Bắt buộc phải cộng $(a+b)$ trước.\\
+    $\bullet$ Quên chia đôi kết quả.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

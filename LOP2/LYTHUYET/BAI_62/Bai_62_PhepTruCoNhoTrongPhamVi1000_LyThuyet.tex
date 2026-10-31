@@ -1,0 +1,173 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 62: PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1000}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Kĩ thuật mượn và trả nhớ sang hàng chục hoặc hàng trăm khi trừ}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy tắc trừ có nhớ}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Khi trừ một hàng mà chữ số của số bị trừ nhỏ hơn chữ số của số trừ (không trừ được):
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Ta \textbf{mượn 1} ở hàng liền kề bên trái (thành $10$ đơn vị của hàng hiện tại).
+    \item Thực hiện trừ, rồi \textbf{trả 1} (thêm 1) vào chữ số hàng tiếp theo của số trừ.
+  \end{itemize}
+  \item \textbf{Khẩu quyết cốt lõi:} \textit{"Mượn ở đâu thì phải trả vào số trừ ở hàng bên cạnh"}.
+  \item Trong chương trình Toán lớp 2, trừ có nhớ \textbf{không quá 1 lần}.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Hai trường hợp có nhớ điển hình}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Trường hợp 1: Nhớ sang hàng chục}\\
+  Ví dụ: $542 - 217$:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item $2$ không trừ được $7$, lấy $12 - 7 = \mathbf{5}$, viết $5$ \textbf{nhớ $1$}.
+    \item $1$ thêm $1$ là $2$; $4 - 2 = \mathbf{2}$, viết $2$.
+    \item $5 - 2 = \mathbf{3}$, viết $3$.
+    \item Kết quả: $\mathbf{542 - 217 = 325}$.
+  \end{itemize}
+  \item \textbf{Trường hợp 2: Nhớ sang hàng trăm}\\
+  Ví dụ: $635 - 281$:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item $5 - 1 = \mathbf{4}$, viết $4$.
+    \item $3$ không trừ được $8$, lấy $13 - 8 = \mathbf{5}$, viết $5$ \textbf{nhớ $1$}.
+    \item $2$ thêm $1$ là $3$; $6 - 3 = \mathbf{3}$, viết $3$.
+    \item Kết quả: $\mathbf{635 - 281 = 354}$.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ quy trình mượn và trả 1 khi thực hiện trừ có nhớ}
+]
+\centering
+\begin{tikzpicture}[x=1.65cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (m) at (0,0) {HÀNG HIỆN TẠI\\Không trừ được\\$\implies$ Lấy $10 + \dots$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (t) at (2.5,0) {TRỪ VÀ NHỚ\\Ghi kết quả\\Nhớ $1$};
+  \node[rectangle, rounded corners=2pt, draw=green!70!black, fill=green!15, font=\scriptsize\bfseries] (r) at (5.0,0) {HÀNG BÊN CẠNH\\Thêm $1$ vào số trừ\\rồi mới thực hiện trừ};
+
+  \draw[arr, thick] (m) -- (t);
+  \draw[arr, thick, red!85!black] (t) -- node[above, font=\tiny\bfseries] {Trả 1} (r);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành đặt tính}
+]
+{\footnotesize
+\textbf{Đặt tính rồi tính:}\\
+\begin{tabular}{r@{\,}c@{\,}lcr@{\,}c@{\,}l}
+  & $653$ & & & & $718$ & \\
+$-$ & $328$ & & &$-$ & $462$ & \\
+\cline{1-3}\cline{5-7}
+  & $\mathbf{325}$ & & & & $\mathbf{256}$ &
+\end{tabular}
+\vspace{1mm}\\
+- $3$ không trừ được $8$, $13 - 8 = 5$, nhớ $1$; $2$ thêm $1$ là $3$; $5 - 3 = \mathbf{2}$; $6 - 3 = \mathbf{3}$.\\
+- $8 - 2 = \mathbf{6}$; $1$ không trừ được $6$, $11 - 6 = 5$, nhớ $1$; $4$ thêm $1$ là $5$; $7 - 5 = \mathbf{2}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Lỗi quên trả nhớ tai hại}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Lỗi thường gặp nhất:} Mượn $1$ ở hàng đơn vị nhưng sang hàng chục quên không thêm $1$ vào số trừ $\implies$ kết quả bị sai lớn hơn $10$ đơn vị.
+  \item \textbf{Lỗi lấy số dưới trừ số trên:} Khi thấy $2$ và $7$ ở hàng đơn vị, học sinh tự ý lấy $7 - 2 = 5$ là \textbf{hoàn toàn sai}!
+  \item Phải lấy $12 - 7 = 5$ (mượn 1 chục).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

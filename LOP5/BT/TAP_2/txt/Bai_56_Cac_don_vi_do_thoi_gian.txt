@@ -1,0 +1,176 @@
+=== BÀI 56: CÁC ĐƠN VỊ ĐO THỜI GIAN ===
+
+Câu 1: Một thế kỉ bằng bao nhiêu năm?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+1 thế kỉ = 100 năm.
+
+----------------------------------------
+
+Câu 2: Năm 2024 thuộc thế kỉ thứ bao nhiêu?
+Đáp án: [shortans]21[/shortans]
+Lời giải chi tiết:
+Năm 2024 thuộc thế kỉ XXI (21).
+
+----------------------------------------
+
+Câu 3: Năm nhuận có bao nhiêu ngày?
+Đáp án: [shortans]366[/shortans]
+Lời giải chi tiết:
+Năm nhuận có 366 ngày (tháng 2 có 29 ngày).
+
+----------------------------------------
+
+Câu 4: Năm không nhuận có bao nhiêu ngày?
+Đáp án: [shortans]365[/shortans]
+Lời giải chi tiết:
+Năm thông thường có 365 ngày.
+
+----------------------------------------
+
+Câu 5: Tháng 7 có bao nhiêu ngày?
+Đáp án: [shortans]31[/shortans]
+Lời giải chi tiết:
+Tháng 7 có 31 ngày.
+
+----------------------------------------
+
+Câu 6: Tháng 4 có bao nhiêu ngày?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Tháng 4 có 30 ngày.
+
+----------------------------------------
+
+Câu 7: Một tuần lễ có bao nhiêu giờ?
+Đáp án: [shortans]168[/shortans]
+Lời giải chi tiết:
+7 x 24 = 168 giờ.
+
+----------------------------------------
+
+Câu 8: Một ngày có bao nhiêu phút?
+Đáp án: [shortans]1440[/shortans]
+Lời giải chi tiết:
+24 x 60 = 1 440 phút.
+
+----------------------------------------
+
+Câu 9: Một giờ có bao nhiêu giây?
+Đáp án: [shortans]3600[/shortans]
+Lời giải chi tiết:
+60 x 60 = 3 600 giây.
+
+----------------------------------------
+
+Câu 10: Đổi 3 ngày ra giờ được bao nhiêu giờ?
+Đáp án: [shortans]72[/shortans]
+Lời giải chi tiết:
+3 x 24 = 72 giờ.
+
+----------------------------------------
+
+Câu 11: Đổi 2{,}5 giờ ra phút được bao nhiêu phút?
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+2{,}5 x 60 = 150 phút.
+
+----------------------------------------
+
+Câu 12: Đổi 0{,}75 giờ ra phút được bao nhiêu phút?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+0{,}75 x 60 = 45 phút.
+
+----------------------------------------
+
+Câu 13: Đổi 1{,}2 phút ra giây được bao nhiêu giây?
+Đáp án: [shortans]72[/shortans]
+Lời giải chi tiết:
+1{,}2 x 60 = 72 giây.
+
+----------------------------------------
+
+Câu 14: Đổi \frac{3}{4} giờ ra phút được bao nhiêu phút?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+\frac{3}{4} x 60 = 45 phút.
+
+----------------------------------------
+
+Câu 15: Đổi \frac{1}{5} giờ ra phút được bao nhiêu phút?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+\frac{1}{5} x 60 = 12 phút.
+
+----------------------------------------
+
+Câu 16: Đổi 2 thế kỉ rưỡi (2{,}5 thế kỉ) ra năm được bao nhiêu năm?
+Đáp án: [shortans]250[/shortans]
+Lời giải chi tiết:
+2{,}5 x 100 = 250 năm.
+
+----------------------------------------
+
+Câu 17: Bác Hồ sinh năm 1890. Năm đó thuộc thế kỉ thứ bao nhiêu?
+Đáp án: [shortans]19[/shortans]
+Lời giải chi tiết:
+Năm 1890 thuộc thế kỉ XIX (19).
+
+----------------------------------------
+
+Câu 18: Chiến thắng Điện Biên Phủ năm 1954 thuộc thế kỉ thứ bao nhiêu?
+Đáp án: [shortans]19[/shortans]
+Lời giải chi tiết:
+Năm 1954 thuộc thế kỉ XIX (19).
+
+----------------------------------------
+
+Câu 19: Đổi 180 phút ra giờ được bao nhiêu giờ?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+180 : 60 = 3 giờ.
+
+----------------------------------------
+
+Câu 20: Đổi 300 giây ra phút được bao nhiêu phút?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+300 : 60 = 5 phút.
+
+----------------------------------------
+
+Câu 21: Đổi 36 tháng ra năm được bao nhiêu năm?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+36 : 12 = 3 năm.
+
+----------------------------------------
+
+Câu 22: Trong một năm dương lịch có bao nhiêu tháng có 31 ngày?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+Có 7 tháng: 1, 3, 5, 7, 8, 10, 12.
+
+----------------------------------------
+
+Câu 23: Trong một năm dương lịch có bao nhiêu tháng có đúng 30 ngày?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Có 4 tháng: 4, 6, 9, 11.
+
+----------------------------------------
+
+Câu 24: Một tiết học kéo dài 40 phút. Ba tiết học như thế kéo dài bao nhiêu phút?
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+40 x 3 = 120 phút.
+
+----------------------------------------
+
+Câu 25: Đổi 1 ngày 6 giờ ra giờ được bao nhiêu giờ?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+24 + 6 = 30 giờ.
+
+----------------------------------------

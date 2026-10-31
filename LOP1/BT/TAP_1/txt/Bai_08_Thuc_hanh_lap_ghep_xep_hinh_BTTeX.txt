@@ -1,0 +1,199 @@
+\begin{ex}
+Dùng 2 hình tam giác giống nhau ghép sát vào nhau (chung một cạnh huyền), ta có thể ghép được một hình vuông. Hỏi cần bao nhiêu hình tam giác để ghép được 1 hình vuông đó?
+\shortans{2}
+\loigiai{
+Cần 2 hình tam giác vuông cân ghép lại.
+}
+\end{ex}
+
+\begin{ex}
+Muốn ghép được 3 hình vuông như vậy thì cần tất cả bao nhiêu hình tam giác?
+\shortans{6}
+\loigiai{
+Cần số hình tam giác là: $2 + 2 + 2 = 6$ hình.
+}
+\end{ex}
+
+\begin{ex}
+Có 4 que tính có độ dài bằng nhau. Xếp được nhiều nhất bao nhiêu hình vuông?
+\shortans{1}
+\loigiai{
+4 que tính xếp được 1 hình vuông.
+}
+\end{ex}
+
+\begin{ex}
+Có 6 que tính bằng nhau. Xếp được nhiều nhất bao nhiêu hình tam giác rời nhau?
+\shortans{2}
+\loigiai{
+Mỗi tam giác cần 3 que tính. Có 6 que thì xếp được: $6 : 3 = 2$ hình tam giác rời nhau.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 3 que tính bằng nhau xếp được 1 hình tam giác. Muốn xếp thêm 1 hình tam giác nữa chung 1 cạnh với hình tam giác ban đầu, ta cần thêm bao nhiêu que tính?
+\shortans{2}
+\loigiai{
+Chung 1 cạnh nên chỉ cần thêm 2 que tính nữa.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 que tính bằng nhau. Ta có thể xếp được một hình gồm 2 hình tam giác dính liền chung 1 cạnh. Đúng hay sai? Số que tính là bao nhiêu?
+\shortans{5}
+\loigiai{
+Xếp được 2 tam giác chung cạnh từ đúng 5 que tính. Đáp số là 5.
+}
+\end{ex}
+
+\begin{ex}
+Một bức tranh ghép con cá gồm: 1 hình tam giác to (thân), 1 hình tam giác nhỏ (đuôi) và 2 hình tam giác bé (vây). Hỏi có tất cả bao nhiêu hình tam giác trong bức tranh con cá?
+\shortans{4}
+\loigiai{
+Tổng số hình tam giác: $1 + 1 + 2 = 4$ hình.
+}
+\end{ex}
+
+\begin{ex}
+Một bức tranh bông hoa gồm: 1 hình tròn làm nhụy hoa và 5 hình tròn nhỏ làm cánh hoa. Hỏi bức tranh đó có tất cả bao nhiêu hình tròn?
+\shortans{6}
+\loigiai{
+Tổng số hình tròn: $1 + 5 = 6$ hình tròn.
+}
+\end{ex}
+
+\begin{ex}
+Để xếp được một hàng rào gồm 4 hình vuông liền nhau, hình vuông thứ nhất cần 4 que tính, 3 hình vuông tiếp theo mỗi hình cần thêm 3 que tính. Cần tất cả bao nhiêu que tính để xếp 2 hình vuông liền nhau?
+\shortans{7}
+\loigiai{
+Hình thứ nhất cần 4 que, hình thứ hai thêm 3 que. Tổng: $4 + 3 = 7$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Lan dùng 8 que tính để xếp thành 2 hình vuông rời nhau. Hỏi mỗi hình vuông Lan dùng bao nhiêu que tính?
+\shortans{4}
+\loigiai{
+Mỗi hình vuông dùng 4 que tính.
+}
+\end{ex}
+
+\begin{ex}
+An có 10 que tính, An dùng 6 que để xếp 2 hình tam giác rời nhau. Hỏi An còn lại bao nhiêu que tính?
+\shortans{4}
+\loigiai{
+An còn lại: $10 - 6 = 4$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 4 hình vuông nhỏ bằng nhau ghép lại cạnh nhau thành một hình vuông lớn. Cần bao nhiêu hình vuông nhỏ?
+\shortans{4}
+\loigiai{
+Cần 4 hình vuông nhỏ (xếp thành 2 hàng, mỗi hàng 2 hình).
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật được ghép từ 3 hình vuông nhỏ đặt cạnh nhau thành một hàng ngang. Hỏi có bao nhiêu hình vuông nhỏ?
+\shortans{3}
+\loigiai{
+Có 3 hình vuông nhỏ.
+}
+\end{ex}
+
+\begin{ex}
+Mai dùng các khối hình phẳng để xếp một chú rô-bốt: đầu là 1 hình vuông, thân là 1 hình chữ nhật, hai tay là 2 hình chữ nhật, hai chân là 2 hình chữ nhật. Hỏi có bao nhiêu hình chữ nhật được dùng?
+\shortans{5}
+\loigiai{
+Thân (1) + hai tay (2) + hai chân (2) = 5 hình chữ nhật.
+}
+\end{ex}
+
+\begin{ex}
+Chú rô-bốt đó có bao nhiêu hình vuông làm đầu?
+\shortans{1}
+\loigiai{
+Có 1 hình vuông làm đầu.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số hình chữ nhật và hình vuông làm chú rô-bốt đó là bao nhiêu?
+\shortans{6}
+\loigiai{
+Tổng số là: $5 + 1 = 6$ hình.
+}
+\end{ex}
+
+\begin{ex}
+Xếp 7 que tính thành hình chữ số nào trong các số tự nhiên từ 0 đến 9 trên đồng hồ điện tử? (Chữ số 8 gồm 7 đoạn vạch). Số đoạn vạch của chữ số 8 là bao nhiêu?
+\shortans{7}
+\loigiai{
+Chữ số 8 trên đồng hồ điện tử gồm 7 đoạn vạch que tính. Đáp số là 7.
+}
+\end{ex}
+
+\begin{ex}
+Chữ số 7 trên đồng hồ điện tử gồm bao nhiêu que tính (đoạn vạch)?
+\shortans{3}
+\loigiai{
+Chữ số 7 gồm 3 đoạn vạch (1 ngang trên, 2 dọc phải).
+}
+\end{ex}
+
+\begin{ex}
+Chữ số 1 trên đồng hồ điện tử gồm bao nhiêu đoạn vạch que tính?
+\shortans{2}
+\loigiai{
+Chữ số 1 gồm 2 đoạn vạch thẳng đứng.
+}
+\end{ex}
+
+\begin{ex}
+Chữ số 4 trên đồng hồ điện tử gồm bao nhiêu đoạn vạch que tính?
+\shortans{4}
+\loigiai{
+Chữ số 4 gồm 4 đoạn vạch.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu hình vuông trong hình gồm 1 hình vuông to chia thành 4 hình vuông nhỏ bên trong?
+\shortans{5}
+\loigiai{
+Gồm 4 hình vuông nhỏ và 1 hình vuông to bao ngoài. Tổng cộng có: $4 + 1 = 5$ hình vuông.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu hình tam giác trong hình gồm 1 tam giác to bị chia đôi bởi một đường kẻ từ đỉnh xuống đáy?
+\shortans{3}
+\loigiai{
+Gồm 2 tam giác nhỏ bên trong và 1 tam giác to bên ngoài. Tổng cộng là 3 hình tam giác.
+}
+\end{ex}
+
+\begin{ex}
+Có 9 que tính bằng nhau, xếp được nhiều nhất bao nhiêu hình tam giác rời nhau?
+\shortans{3}
+\loigiai{
+Mỗi hình tam giác cần 3 que tính. Xếp được: $9 : 3 = 3$ hình tam giác.
+}
+\end{ex}
+
+\begin{ex}
+Cần bao nhiêu que tính bằng nhau để xếp được một hình ngôi sao 5 cánh đơn giản từ 5 tam giác gắn vào ngũ giác (mỗi cánh 2 que)?
+\shortans{10}
+\loigiai{
+5 cánh sao, mỗi cánh cần 2 que tính ngoài: $5 \times 2 = 10$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Tuấn có 7 miếng ghép hình, bạn đã dùng 5 miếng để ghép thành chiếc ô tô. Tuấn còn lại bao nhiêu miếng ghép?
+\shortans{2}
+\loigiai{
+Tuấn còn lại: $7 - 5 = 2$ miếng ghép.
+}
+\end{ex}

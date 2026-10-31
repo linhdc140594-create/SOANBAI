@@ -1,0 +1,199 @@
+\begin{ex}
+Đổi: $1\text{ l} = \dots\text{ ml}$. Điền số thích hợp.
+\shortans{1000}
+\loigiai{
+$1\text{ l} = 1000\text{ ml}$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $250\text{ ml} + 150\text{ ml} = \dots\text{ ml}$.
+\shortans{400}
+\loigiai{
+$250 + 150 = 400$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $750\text{ ml} - 300\text{ ml} = \dots\text{ ml}$.
+\shortans{450}
+\loigiai{
+$750 - 300 = 450$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $120\text{ ml} \times 4 = \dots\text{ ml}$.
+\shortans{480}
+\loigiai{
+$120 \times 4 = 480$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $600\text{ ml} : 3 = \dots\text{ ml}$.
+\shortans{200}
+\loigiai{
+$600 : 3 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Một chai nước khoáng có dung tích 500 ml. Hỏi 2 chai nước như thế có tất cả bao nhiêu mi-li-lít nước?
+\shortans{1000}
+\loigiai{
+$500 \times 2 = 1000$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp sữa chua chứa 100 ml sữa. Hỏi 6 hộp sữa chua như thế chứa tất cả bao nhiêu mi-li-lít?
+\shortans{600}
+\loigiai{
+$100 \times 6 = 600$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Một bình chứa 1 lít nước, người ta đã rót ra 350 ml. Hỏi trong bình còn lại bao nhiêu mi-li-lít nước?
+\shortans{650}
+\loigiai{
+$1000 - 350 = 650$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Một thìa si-rô ho chứa 5 ml thuốc. Bác sĩ chỉ định uống mỗi ngày 3 thìa. Hỏi mỗi ngày bé uống bao nhiêu mi-li-lít si-rô?
+\shortans{15}
+\loigiai{
+$5 \times 3 = 15$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Một bình nước có 800 ml nước. Rót đều vào 4 cốc nước. Hỏi mỗi cốc có bao nhiêu mi-li-lít nước?
+\shortans{200}
+\loigiai{
+$800 : 4 = 200$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $350\text{ ml} + 650\text{ ml} = \dots\text{ ml}$.
+\shortans{1000}
+\loigiai{
+$350 + 650 = 1000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000\text{ ml} - 450\text{ ml} = \dots\text{ ml}$.
+\shortans{550}
+\loigiai{
+$1000 - 450 = 550$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $400\text{ ml} + \dots\text{ ml} = 1000\text{ ml}$.
+\shortans{600}
+\loigiai{
+$1000 - 400 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Một ca chứa 300 ml nước, thêm vào ca 250 ml nước nữa. Trong ca có bao nhiêu mi-li-lít nước?
+\shortans{550}
+\loigiai{
+$300 + 250 = 550$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Một chai mật ong có 750 ml. Mẹ dùng hết 250 ml để làm thuốc. Trong chai còn lại bao nhiêu mi-li-lít mật ong?
+\shortans{500}
+\loigiai{
+$750 - 250 = 500$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi ngày bạn Nam uống 4 cốc nước, mỗi cốc chứa 250 ml. Hỏi mỗi ngày Nam uống bao nhiêu mi-li-lít nước?
+\shortans{1000}
+\loigiai{
+$4 \times 250 = 1000$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Một lọ thuốc nhỏ mắt có dung tích 10 ml. Hỏi 5 lọ thuốc như thế có dung tích bao nhiêu mi-li-lít?
+\shortans{50}
+\loigiai{
+$10 \times 5 = 50$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Người ta rót 900 ml nước trái cây vào 9 chiếc cốc bằng nhau. Mỗi chiếc cốc chứa bao nhiêu mi-li-lít nước trái cây?
+\shortans{100}
+\loigiai{
+$900 : 9 = 100$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Trong bình có 500 ml nước, rót thêm vào 200 ml nước nữa rồi chia đều vào 7 cốc. Mỗi cốc có bao nhiêu mi-li-lít nước?
+\shortans{100}
+\loigiai{
+Tổng lượng nước: $500 + 200 = 700$ ml. Mỗi cốc: $700 : 7 = 100$ ml.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $150\text{ ml} \times 5 = \dots\text{ ml}$.
+\shortans{750}
+\loigiai{
+$150 \times 5 = 750$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $450\text{ ml} : 9 = \dots\text{ ml}$.
+\shortans{50}
+\loigiai{
+$450 : 9 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Một chai dầu ăn có dung tích 1 lít. Rót ra một can nhỏ 200 ml và một bát nhỏ 50 ml. Trong chai còn lại bao nhiêu mi-li-lít?
+\shortans{750}
+\loigiai{
+$1000 - (200 + 50) = 750$ ml.
+}
+\end{ex}
+
+\begin{ex}
+2 chai nước khoáng mỗi chai 500 ml tương đương với bao nhiêu lít nước?
+\shortans{1}
+\loigiai{
+$500 \times 2 = 1000\text{ ml} = 1\text{ l}$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $80\text{ ml} \times 6 = \dots\text{ ml}$.
+\shortans{480}
+\loigiai{
+$80 \times 6 = 480$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $360\text{ ml} : 4 = \dots\text{ ml}$.
+\shortans{90}
+\loigiai{
+$360 : 4 = 90$.
+}
+\end{ex}

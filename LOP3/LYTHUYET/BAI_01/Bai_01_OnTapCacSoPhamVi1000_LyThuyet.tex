@@ -1,0 +1,171 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{
+  top=12mm,
+  bottom=12mm,
+  left=14mm,
+  right=14mm,
+  footskip=6mm,
+  headheight=14pt
+}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,shapes.geometric}
+\usepackage[most]{tcolorbox}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{teal!80!black}\faBook\ \textbf{SỔ TAY KIẾN THỨC TOÁN 3}}
+\fancyhead[R]{\footnotesize\color{teal!80!black}\textbf{Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}}
+\fancyfoot[C]{\footnotesize\color{gray}-- Sổ tay kiến thức: Bài 01. Ôn tập các số trong phạm vi 1000 --}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{teal!90!black}\faBookmark\ BÀI 01: ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Cấu tạo số, đọc viết số có 3 chữ số, phân tích hàng trăm, chục, đơn vị trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faDatabase\ 1. Cấu tạo số \& Phân tích số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Số có 3 chữ số gồm 3 hàng: \textbf{Trăm, Chục, Đơn vị}.
+  \item \textbf{Phân tích cấu tạo số:}
+  $$\overline{abc} = a \times 100 + b \times 10 + c$$
+  \textit{Ví dụ:} $547 = 500 + 40 + 7$.
+  \item \textbf{Đọc viết số đặc biệt:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Hàng chục là $0$: Đọc là \textbf{"linh"} (VD: $305$: \textit{ba trăm linh năm}).
+    \item Chữ số $5$ tận cùng: Đọc là \textbf{"lăm"} khi hàng chục $\ge 1$ (VD: $215$: \textit{hai trăm mười lăm}).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. So sánh \& Thứ tự các số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Số chữ số:} Số nào có nhiều chữ số hơn thì lớn hơn (Số có 3 chữ số $>$ Số có 2 chữ số).
+  \item \textbf{Cùng số chữ số:} So sánh từng cặp chữ số cùng hàng từ \textbf{trái sang phải} (Hàng trăm $\to$ Hàng chục $\to$ Hàng đơn vị).
+  \item \textbf{Số liền trước - liền sau:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Số liền trước của $A$: $A - 1$.
+    \item Số liền sau của $A$: $A + 1$.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: CẤU TẠO SỐ \& TIA SỐ TRONG PHẠM VI 1000}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=3pt, minimum height=0.85cm},
+  arr/.style={-{Stealth[length=2.5mm]}, thick}
+]
+  \node[box, fill=purple!12, draw=purple!80!black, text width=3.2cm] (b1) at (0, 0) {HÀNG TRĂM ($a$)\\$a \times 100$};
+  \node[box, fill=blue!10, draw=blue!80!black, text width=3.2cm] (b2) at (4.7, 0) {HÀNG CHỤC ($b$)\\$b \times 10$};
+  \node[box, fill=teal!10, draw=teal!80!black, text width=3.2cm] (b3) at (9.4, 0) {HÀNG ĐƠN VỊ ($c$)\\$c$ đơn vị};
+
+  \draw[arr, purple!80!black] (b1) -- (b2);
+  \draw[arr, blue!80!black] (b2) -- (b3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Viết số thành tổng:}\\
+$685 = 600 + 80 + 5$.\\
+$407 = 400 + 7$ (hàng chục bằng $0$).\\
+\textbf{2. So sánh và sắp xếp:}\\
+So sánh $475$ và $482$: Hàng trăm cùng là $4$, hàng chục có $7 < 8 \implies \mathbf{475 < 482}$.\\
+\textbf{3. Số liền trước - liền sau:}\\
+Số liền trước của $800$ là $\mathbf{799}$.\\
+Số liền sau của $800$ là $\mathbf{801}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy số liền trước của số tròn trăm:}\\
+  Liền trước của $500$ là $499$ (trừ 1), rất nhiều bạn nhầm thành $400$ hay $490$!
+  \item \textbf{Bẫy viết số khuyết hàng chục:}\\
+  "Bốn trăm linh tám" phải viết là $\mathbf{408}$, không được viết là $48$ (thiếu số $0$).
+  \item \textbf{Bẫy chữ số "lăm" và "năm":}\\
+  $305$: Đọc là "ba trăm linh năm". Nhưng $315$: Đọc là "ba trăm mười lăm".
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

@@ -1,0 +1,176 @@
+=== BÀI 28: THỰC HÀNH VÀ TRẢI NGHIỆM ĐO, VẼ, LẮP GHÉP TẠO HÌNH ===
+
+Câu 1: Ghép hai hình tam giác vuông cân bằng nhau có cạnh góc vuông 6\text{ cm} thành một hình vuông. Diện tích hình vuông đó là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+Diện tích hình vuông là 6 x 6 = 36\text{ cm}^2.
+
+----------------------------------------
+
+Câu 2: Ghép hai hình tam giác đều có cạnh 10\text{ cm} lại với nhau để được một hình thoi. Chu vi của hình thoi đó là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Chu vi hình thoi là 10 x 4 = 40\text{ cm}.
+
+----------------------------------------
+
+Câu 3: Một hình chữ nhật có kích thước 8\text{ cm} x 4\text{ cm}. Người ta cắt dọc theo đường nối trung điểm hai cạnh dài để được hai hình vuông. Chu vi mỗi hình vuông là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+Mỗi hình vuông có cạnh 4 cm. Chu vi là 4 x 4 = 16\text{ cm}.
+
+----------------------------------------
+
+Câu 4: Người ta ghép 6 hình tam giác đều cạnh 5\text{ cm} thành một hình lục giác đều. Chu vi hình lục giác đều đó là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Chu vi là 5 x 6 = 30\text{ cm}.
+
+----------------------------------------
+
+Câu 5: Dùng 4 viên gạch hình vuông cạnh 20\text{ cm} để ghép thành một hình vuông lớn hơn. Diện tích hình vuông lớn là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]1600[/shortans]
+Lời giải chi tiết:
+Cạnh hình vuông lớn là 40\text{ cm}. Diện tích là 40 x 40 = 1 600\text{ cm}^2.
+
+----------------------------------------
+
+Câu 6: Cắt một hình vuông có diện tích 64\text{ cm}^2 thành 4 hình tam giác bằng nhau. Diện tích mỗi hình tam giác là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+64 : 4 = 16\text{ cm}^2.
+
+----------------------------------------
+
+Câu 7: Một tấm bìa hình vuông cạnh 10\text{ cm}. Người ta cắt bốn góc bốn hình vuông nhỏ cạnh 2\text{ cm}. Diện tích phần bìa còn lại là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]84[/shortans]
+Lời giải chi tiết:
+Diện tích hình vuông lớn là 100. Bốn hình vuông nhỏ là 4 x 4 = 16. Còn lại 100 - 16 = 84\text{ cm}^2.
+
+----------------------------------------
+
+Câu 8: Người ta dùng các que tính dài 5\text{ cm} để xếp thành một hình thoi có cạnh là 2 que tính. Chu vi hình thoi đó là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Cạnh hình thoi là 5 x 2 = 10\text{ cm}. Chu vi là 10 x 4 = 40\text{ cm}.
+
+----------------------------------------
+
+Câu 9: Dùng một sợi dây thép dài 48\text{ cm} để uốn thành một hình vuông. Diện tích hình vuông tạo thành là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]144[/shortans]
+Lời giải chi tiết:
+Cạnh hình vuông là 48 : 4 = 12\text{ cm}. Diện tích là 12 x 12 = 144\text{ cm}^2.
+
+----------------------------------------
+
+Câu 10: Dùng một sợi dây thép dài 48\text{ cm} để uốn thành một hình tam giác đều. Độ dài mỗi cạnh của tam giác đều là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+Cạnh là 48 : 3 = 16\text{ cm}.
+
+----------------------------------------
+
+Câu 11: Một hình chữ nhật được ghép từ 3 hình vuông bằng nhau, chu vi của mỗi hình vuông là 20\text{ cm}. Diện tích hình chữ nhật là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+Cạnh hình vuông là 20 : 4 = 5\text{ cm}. Diện tích 1 hình vuông là 25. 3 hình vuông là 25 x 3 = 75\text{ cm}^2.
+
+----------------------------------------
+
+Câu 12: Một mảnh giấy hình tròn bán kính 10\text{ cm} được gập đôi hai lần tạo thành 4 phần bằng nhau. Diện tích mỗi phần là bao nhiêu xăng-ti-mét vuông? (Lấy \pi = 3{,}14, làm tròn đến hàng đơn vị).
+Đáp án: [shortans]79[/shortans]
+Lời giải chi tiết:
+Diện tích hình tròn là 314. Mỗi phần là 314 : 4 = 78{,}5\text{ cm}^2. Làm tròn đến hàng đơn vị được 79.
+
+----------------------------------------
+
+Câu 13: Cắt một hình chữ nhật có kích thước 10\text{ cm} x 6\text{ cm} thành các hình vuông nhỏ cạnh 2\text{ cm}. Cắt được tất cả bao nhiêu hình vuông?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Diện tích lớn là 60. Diện tích hình vuông là 4. Số hình là 60 : 4 = 15.
+
+----------------------------------------
+
+Câu 14: Cần ít nhất bao nhiêu hình tam giác đều bằng nhau để ghép thành một hình tam giác đều lớn hơn?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Cần ít nhất 4 hình tam giác đều nhỏ.
+
+----------------------------------------
+
+Câu 15: Cần ít nhất bao nhiêu hình vuông bằng nhau để ghép thành một hình vuông lớn hơn?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Cần ít nhất 4 hình vuông nhỏ.
+
+----------------------------------------
+
+Câu 16: Một hình chữ nhật có chiều dài gấp 3 lần chiều rộng và được chia thành 3 hình vuông bằng nhau có tổng diện tích là 108\text{ cm}^2. Cạnh của mỗi hình vuông là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+Diện tích mỗi hình vuông là 108 : 3 = 36\text{ cm}^2. Cạnh là 6\text{ cm}.
+
+----------------------------------------
+
+Câu 17: Ở câu trên, chu vi của hình chữ nhật ban đầu là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]48[/shortans]
+Lời giải chi tiết:
+Chiều rộng là 6 cm, chiều dài là 18 cm. Chu vi là (18 + 6) x 2 = 48\text{ cm}.
+
+----------------------------------------
+
+Câu 18: Người ta xếp 8 khối lập phương nhỏ cạnh 1\text{ cm} thành một khối lập phương lớn. Thể tích khối lập phương lớn là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Thể tích là 8\text{ cm}^3.
+
+----------------------------------------
+
+Câu 19: Ở câu trên, cạnh của khối lập phương lớn là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+Cạnh khối lập phương lớn là 2 cm.
+
+----------------------------------------
+
+Câu 20: Cần bao nhiêu que tính bằng nhau để xếp thành một hình hộp chữ nhật (khung hình)?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Hình hộp chữ nhật có 12 cạnh, cần 12 que tính.
+
+----------------------------------------
+
+Câu 21: Một ngôi sao 5 cánh được ghép từ 5 hình tam giác cân bằng nhau xung quanh một ngũ giác đều. Biết diện tích mỗi tam giác cân là 8\text{ cm}^2 và diện tích ngũ giác đều là 20\text{ cm}^2. Tổng diện tích ngôi sao là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Tổng diện tích là 20 + 5 x 8 = 20 + 40 = 60\text{ cm}^2.
+
+----------------------------------------
+
+Câu 22: Một tờ giấy hình vuông cạnh 20\text{ cm}. Người ta cắt một hình tròn có bán kính lớn nhất từ tờ giấy này. Bán kính của hình tròn cắt được là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Bán kính lớn nhất bằng nửa cạnh hình vuông: 20 : 2 = 10\text{ cm}.
+
+----------------------------------------
+
+Câu 23: Ở câu trên, diện tích phần giấy bị cắt bỏ đi là bao nhiêu xăng-ti-mét vuông? (Lấy \pi = 3{,}14).
+Đáp án: [shortans]86[/shortans]
+Lời giải chi tiết:
+Diện tích hình vuông là 20 x 20 = 400\text{ cm}^2. Diện tích hình tròn là 314\text{ cm}^2. Phần bỏ đi là 400 - 314 = 86\text{ cm}^2.
+
+----------------------------------------
+
+Câu 24: Vẽ một đường tròn có chu vi 18{,}84\text{ cm}. Bán kính của đường tròn đó là bao nhiêu xăng-ti-mét? (Lấy \pi = 3{,}14).
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Bán kính là 18{,}84 : (2 x 3{,}14) = 3\text{ cm}.
+
+----------------------------------------
+
+Câu 25: Một khung dây hình tam giác đều có cạnh 8\text{ cm}. Uốn khung dây này thành một hình chữ nhật có chiều rộng 3\text{ cm}. Chiều dài hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Chu vi là 8 x 3 = 24\text{ cm}. Nửa chu vi là 12 cm. Chiều dài là 12 - 3 = 9\text{ cm}.
+
+----------------------------------------

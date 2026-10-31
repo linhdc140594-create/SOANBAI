@@ -1,0 +1,157 @@
+# Bài 19: Phép cộng số thập phân
+
+## PHẦN I. ĐỀ BÀI (NGÂN HÀNG CÂU HỎI ĐIỀN ĐÁP SỐ)
+
+**Câu 1.** Tính kết quả: $14{,}5 + 25{,}5$.
+
+**Câu 2.** Tính kết quả: $38{,}2 + 61{,}8$.
+
+**Câu 3.** Tính tổng $23{,}45 + 16{,}55$.
+
+**Câu 4.** Tính tổng $125{,}3 + 74{,}7$.
+
+**Câu 5.** Tính nhanh: $15{,}8 + 24{,}2 + 10$.
+
+**Câu 6.** Tính nhanh bằng cách hợp lí: $12{,}5 + 34{,}7 + 7{,}5 + 5{,}3$.
+
+**Câu 7.** Tính nhanh: $4{,}85 + 7{,}2 + 5{,}15 + 2{,}8$.
+
+**Câu 8.** Tìm số tự nhiên $x$ biết: $x - 14{,}5 = 25{,}5$.
+
+**Câu 9.** Tìm $x$ biết: $x - 38{,}25 = 11{,}75$.
+
+**Câu 10.** Một người thợ dệt ngày thứ nhất dệt được $28{,}4\text{ m}$ vải, ngày thứ hai dệt được $31{,}6\text{ m}$ vải. Cả hai ngày người đó dệt được bao nhiêu mét vải?
+
+**Câu 11.** Một bao gạo cân nặng $45{,}5\text{ kg}$, một bao ngô cân nặng $34{,}5\text{ kg}$. Cả hai bao cân nặng bao nhiêu ki-lô-gam?
+
+**Câu 12.** Một hình tam giác có độ dài ba cạnh lần lượt là $4{,}5\text{ cm}; 5{,}5\text{ cm}$ và $6\text{ cm}$. Chu vi hình tam giác đó là bao nhiêu xăng-ti-mét?
+
+**Câu 13.** Một sợi dây dài $12{,}5\text{ m}$, người ta nối thêm một đoạn dây dài $7{,}5\text{ m}$. Chiều dài sợi dây sau khi nối là bao nhiêu mét?
+
+**Câu 14.** Tìm số tự nhiên $a$ biết: $a = 15{,}7 + 24{,}3$.
+
+**Câu 15.** Một thùng dầu chứa $18{,}25$ lít dầu, người ta đổ thêm vào thùng $11{,}75$ lít dầu. Hỏi trong thùng có tất cả bao nhiêu lít dầu?
+
+**Câu 16.** Tính giá trị biểu thức: $3{,}25 + 4{,}75 + 12$.
+
+**Câu 17.** Tổng của ba số là $45$. Biết số thứ nhất là $12{,}4$, số thứ hai là $17{,}6$. Số thứ ba là bao nhiêu?
+
+**Câu 18.** Tính: $0{,}5 + 1{,}5 + 2{,}5 + 3{,}5 + 4{,}5 + 5{,}5$.
+
+**Câu 19.** Một cửa hàng buổi sáng bán được $120{,}5\text{ kg}$ gạo, buổi chiều bán được $129{,}5\text{ kg}$ gạo. Cả ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
+
+**Câu 20.** Một mảnh vườn hình chữ nhật có chiều rộng $14{,}5\text{ m}$, chiều dài hơn chiều rộng $5\text{ m}$. Nửa chu vi mảnh vườn là bao nhiêu mét?
+
+**Câu 21.** Tìm chữ số $x$ để tổng $12{,}x + 15{,}4$ có chữ số tận cùng của phần thập phân là 0.
+
+**Câu 22.** Tính tổng của số thập phân lớn nhất có một chữ số ở phần thập phân bé hơn 10 với số thập phân bé nhất có một chữ số ở phần thập phân lớn hơn 0: $9{,}9 + 0{,}1$.
+
+**Câu 23.** Một can nước ngọt có khối lượng vỏ là $0{,}5\text{ kg}$, lượng nước ngọt bên trong nặng $9{,}5\text{ kg}$. Tổng khối lượng cả can là bao nhiêu ki-lô-gam?
+
+**Câu 24.** Tính nhanh giá trị biểu thức: $2{,}4 + 7{,}6 + 3{,}8 + 6{,}2 + 5$.
+
+**Câu 25.** Khi thực hiện phép cộng một số tự nhiên với một số thập phân có một chữ số ở phần thập phân, một bạn quên dấu phẩy nên được kết quả là $183$. Biết số thập phân có chữ số hàng phần mười là $3$. Số tự nhiên đó là bao nhiêu?
+
+---
+
+## PHẦN II. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+
+### Câu 1
+- **Đáp số:** `40`
+- **Lời giải:** $14{,}5 + 25{,}5 = 40$.
+
+### Câu 2
+- **Đáp số:** `100`
+- **Lời giải:** $38{,}2 + 61{,}8 = 100$.
+
+### Câu 3
+- **Đáp số:** `40`
+- **Lời giải:** $23{,}45 + 16{,}55 = 40$.
+
+### Câu 4
+- **Đáp số:** `200`
+- **Lời giải:** $125{,}3 + 74{,}7 = 200$.
+
+### Câu 5
+- **Đáp số:** `50`
+- **Lời giải:** $(15{,}8 + 24{,}2) + 10 = 40 + 10 = 50$.
+
+### Câu 6
+- **Đáp số:** `60`
+- **Lời giải:** $(12{,}5 + 7{,}5) + (34{,}7 + 5{,}3) = 20 + 40 = 60$.
+
+### Câu 7
+- **Đáp số:** `20`
+- **Lời giải:** $(4{,}85 + 5{,}15) + (7{,}2 + 2{,}8) = 10 + 10 = 20$.
+
+### Câu 8
+- **Đáp số:** `40`
+- **Lời giải:** $x = 25{,}5 + 14{,}5 = 40$.
+
+### Câu 9
+- **Đáp số:** `50`
+- **Lời giải:** $x = 11{,}75 + 38{,}25 = 50$.
+
+### Câu 10
+- **Đáp số:** `60`
+- **Lời giải:** Cả hai ngày dệt được: $28{,}4 + 31{,}6 = 60\text{ m}$.
+
+### Câu 11
+- **Đáp số:** `80`
+- **Lời giải:** Cả hai bao nặng: $45{,}5 + 34{,}5 = 80\text{ kg}$.
+
+### Câu 12
+- **Đáp số:** `16`
+- **Lời giải:** Chu vi là: $4{,}5 + 5{,}5 + 6 = 16\text{ cm}$.
+
+### Câu 13
+- **Đáp số:** `20`
+- **Lời giải:** Chiều dài mới là $12{,}5 + 7{,}5 = 20\text{ m}$.
+
+### Câu 14
+- **Đáp số:** `40`
+- **Lời giải:** $a = 15{,}7 + 24{,}3 = 40$.
+
+### Câu 15
+- **Đáp số:** `30`
+- **Lời giải:** Trong thùng có: $18{,}25 + 11{,}75 = 30$ lít.
+
+### Câu 16
+- **Đáp số:** `20`
+- **Lời giải:** $(3{,}25 + 4{,}75) + 12 = 8 + 12 = 20$.
+
+### Câu 17
+- **Đáp số:** `15`
+- **Lời giải:** Tổng hai số đầu là $12{,}4 + 17{,}6 = 30$. Số thứ ba là $45 - 30 = 15$.
+
+### Câu 18
+- **Đáp số:** `18`
+- **Lời giải:** $(0{,}5 + 5{,}5) + (1{,}5 + 4{,}5) + (2{,}5 + 3{,}5) = 6 + 6 + 6 = 18$.
+
+### Câu 19
+- **Đáp số:** `250`
+- **Lời giải:** $120{,}5 + 129{,}5 = 250\text{ kg}$.
+
+### Câu 20
+- **Đáp số:** `34`
+- **Lời giải:** Chiều dài là $14{,}5 + 5 = 19{,}5\text{ m}$. Nửa chu vi là $14{,}5 + 19{,}5 = 34\text{ m}$.
+
+### Câu 21
+- **Đáp số:** `6`
+- **Lời giải:** Để $x + 4 = 10$ thì $x = 6$.
+
+### Câu 22
+- **Đáp số:** `10`
+- **Lời giải:** $9{,}9 + 0{,}1 = 10$.
+
+### Câu 23
+- **Đáp số:** `10`
+- **Lời giải:** $0{,}5 + 9{,}5 = 10\text{ kg}$.
+
+### Câu 24
+- **Đáp số:** `25`
+- **Lời giải:** $(2{,}4 + 7{,}6) + (3{,}8 + 6{,}2) + 5 = 10 + 10 + 5 = 25$.
+
+### Câu 25
+- **Đáp số:** `150`
+- **Lời giải:** Số thập phân là $3{,}3$ quên dấu phẩy thành 33. Số tự nhiên là $183 - 33 = 150$.

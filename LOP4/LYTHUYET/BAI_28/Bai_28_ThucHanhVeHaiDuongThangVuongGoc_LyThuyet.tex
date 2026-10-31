@@ -1,0 +1,151 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 28. Thực hành vẽ hai đường thẳng vuông góc --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 28: THỰC HÀNH VẼ HAI ĐƯỜNG THẲNG VUÔNG GÓC}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Kĩ năng sử dụng thước ê-ke vẽ đường thẳng vuông góc qua 1 điểm và vẽ đường cao của tam giác trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencil\ 1. Vẽ đường thẳng vuông góc qua 1 điểm},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Cho đường thẳng $AB$ và điểm $O$:\\
+    $\bullet$ \textbf{Trường hợp 1: Điểm $O$ nằm trên $AB$}\\
+    1. Đặt đỉnh góc vuông ê-ke trùng với $O$, một cạnh góc vuông ê-ke trùng với $AB$.\\
+    2. Vẽ đường thẳng theo cạnh góc vuông kia của ê-ke $\rightarrow$ được đường thẳng vuông góc với $AB$ tại $O$.\\[1mm]
+    $\bullet$ \textbf{Trường hợp 2: Điểm $O$ ở ngoài $AB$}\\
+    Đặt 1 cạnh góc vuông ê-ke trùng $AB$, \textbf{trượt ê-ke} sao cho cạnh góc vuông kia gặp điểm $O$. Kẻ đường thẳng qua $O$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCrop\ 2. Ứng dụng: Vẽ đường cao tam giác},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Định nghĩa}: Đoạn thẳng kẻ từ một đỉnh và \textbf{vuông góc} với cạnh đối diện gọi là \textbf{đường cao} của tam giác.\\
+    $\bullet$ \textbf{Các bước vẽ đường cao $AH$ hạ từ đỉnh $A$ xuống đáy $BC$}:\\
+    1. Đặt một cạnh góc vuông của ê-ke trùng với cạnh đáy $BC$.\\
+    2. Trượt ê-ke sao cho cạnh góc vuông còn lại chạm vào đỉnh $A$.\\
+    3. Kẻ đoạn thẳng từ $A$ đến $BC$, chân đường vuông góc là điểm $H$ ($AH \perp BC$).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: QUY TRÌNH THỰC HÀNH VẼ ĐƯỜNG VUÔNG GÓC VÀ ĐƯỜNG CAO},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    stepb/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=2pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    % Hình minh họa tam giác và đường cao
+    \coordinate (B) at (0.5, -0.8);
+    \coordinate (C) at (4.5, -0.8);
+    \coordinate (A) at (2.2, 1.2);
+    \coordinate (H) at (2.2, -0.8);
+
+    \draw[thick, blue!80!black] (A) -- (B) -- (C) -- cycle;
+    \draw[thick, dashed, red!80!black] (A) -- (H) node[midway, left, font=\scriptsize\bfseries\color{red!85!black}]{Đường cao $AH$};
+    \draw[thick, red!80!black] (2.2, -0.55) -- (2.45, -0.55) -- (2.45, -0.8);
+
+    \filldraw[black] (A) circle (1.5pt) node[above, font=\scriptsize\bfseries] {$A$};
+    \filldraw[black] (B) circle (1.5pt) node[below left, font=\scriptsize\bfseries] {$B$};
+    \filldraw[black] (C) circle (1.5pt) node[below right, font=\scriptsize\bfseries] {$C$};
+    \filldraw[black] (H) circle (1.5pt) node[below, font=\scriptsize\bfseries] {$H$};
+
+    % Các bước thực hành bên phải
+    \node[stepb, draw=blue!75!black, fill=blue!8, text width=9.5cm] (s1) at (10.5, 1.35) {\textbf{BƯỚC 1: ĐẶT CẠNH GÓC VUÔNG}\\Đặt 1 cạnh góc vuông ê-ke trùng khít cạnh đáy $BC$};
+    \node[stepb, draw=orange!80!black, fill=orange!10, text width=9.5cm] (s2) at (10.5, 0.0) {\textbf{BƯỚC 2: TRƯỢT THƯỚC ĐẾN ĐỈNH}\\Trượt ê-ke dọc theo đáy $BC$ cho đến khi cạnh vuông kia gặp đỉnh $A$};
+    \node[stepb, draw=teal!80!black, fill=teal!10, text width=9.5cm] (s3) at (10.5, -1.35) {\textbf{BƯỚC 3: KẺ ĐOẠN THẲNG}\\Vạch bút từ $A$ vuông góc xuống $BC$ tại $H$, đánh dấu góc vuông};
+
+    \draw[arr] (s1) -- (s2);
+    \draw[arr] (s2) -- (s3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Cho đoạn thẳng $MN = 6\text{ cm}$. Vẽ đường thẳng $d$ vuông góc với $MN$ tại trung điểm $I$ của $MN$:\\
+    $\bullet$ \textbf{Bước 1}: Xác định trung điểm $I$: $MI = IN = 3\text{ cm}$.\\
+    $\bullet$ \textbf{Bước 2}: Đặt đỉnh góc vuông ê-ke tại $I$, cạnh ê-ke trùng $MN$.\\
+    $\bullet$ \textbf{Bước 3}: Kẻ đường thẳng theo cạnh còn lại của ê-ke $\rightarrow$ được đường thẳng $d \perp MN$ tại $I$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy trượt mép ê-ke}: Khi trượt ê-ke dọc theo cạnh đáy, mép thước phải luôn \textbf{áp sát mép đường thẳng}, không được để hở khe hay xô lệch góc vuông.\\
+    $\bullet$ \textbf{Bẫy đường cao tam giác vuông}: Hai cạnh góc vuông của tam giác vuông chính là 2 đường cao!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,199 @@
+\begin{ex}
+Một hình vuông có cạnh 7 cm. Chu vi hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{28}
+\loigiai{
+$7 \times 4 = 28$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh 7 cm. Diện tích hình vuông đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{49}
+\loigiai{
+$7 \times 7 = 49\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 11 cm, chiều rộng 6 cm. Chu vi của nó là bao nhiêu xăng-ti-mét?
+\shortans{34}
+\loigiai{
+$(11 + 6) \times 2 = 34$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 11 cm, chiều rộng 6 cm. Diện tích của nó là bao nhiêu xăng-ti-mét vuông?
+\shortans{66}
+\loigiai{
+$11 \times 6 = 66\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác đều có chu vi 36 cm. Cạnh của hình tam giác đó dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+$36 : 3 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có 4 cạnh đều bằng 9 cm. Chu vi tứ giác đó là bao nhiêu xăng-ti-mét?
+\shortans{36}
+\loigiai{
+$9 \times 4 = 36$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có diện tích bằng diện tích hình chữ nhật dài 8 cm, rộng 2 cm. Cạnh của hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{4}
+\loigiai{
+Diện tích chữ nhật = $8 \times 2 = 16\text{ cm}^2$. Cạnh hình vuông = 4 cm vì $4 \times 4 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi bằng chu vi hình chữ nhật dài 10 cm, rộng 6 cm. Cạnh hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Chu vi chữ nhật = $(10 + 6) \times 2 = 32$ cm. Cạnh hình vuông = $32 : 4 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45\text{ cm}^2 + 55\text{ cm}^2 = \dots\text{ cm}^2$.
+\shortans{100}
+\loigiai{
+$45 + 55 = 100$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $120\text{ cm}^2 - 45\text{ cm}^2 = \dots\text{ cm}^2$.
+\shortans{75}
+\loigiai{
+$120 - 45 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25\text{ cm}^2 \times 3 = \dots\text{ cm}^2$.
+\shortans{75}
+\loigiai{
+$25 \times 3 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96\text{ cm}^2 : 4 = \dots\text{ cm}^2$.
+\shortans{24}
+\loigiai{
+$96 : 4 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Một tấm thảm hình vuông có cạnh 3 m. Chu vi tấm thảm đó là bao nhiêu mét?
+\shortans{12}
+\loigiai{
+$3 \times 4 = 12$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một sân bóng chuyền hình chữ nhật dài 18 m, rộng 9 m. Chu vi sân bóng chuyền là bao nhiêu mét?
+\shortans{54}
+\loigiai{
+$(18 + 9) \times 2 = 54$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chu vi 40 cm, chiều rộng là 8 cm. Diện tích hình chữ nhật đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{96}
+\loigiai{
+Nửa chu vi = 20 cm; dài = $20 - 8 = 12$ cm. Diện tích = $12 \times 8 = 96\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 44 cm. Cạnh của nó dài bao nhiêu xăng-ti-mét?
+\shortans{11}
+\loigiai{
+$44 : 4 = 11$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh 11 cm. Diện tích của nó là bao nhiêu xăng-ti-mét vuông?
+\shortans{121}
+\loigiai{
+$11 \times 11 = 121\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Nửa chu vi hình chữ nhật là 24 cm, chiều dài gấp 3 lần chiều rộng. Chiều rộng hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+Tổng số phần: $1 + 3 = 4$ phần. Chiều rộng = $24 : 4 = 6$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có diện tích $72\text{ cm}^2$, chiều dài 9 cm. Chiều rộng hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+$72 : 9 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cạnh của hình vuông là 5 cm. Nếu tăng cạnh thêm 3 cm thì diện tích tăng thêm bao nhiêu xăng-ti-mét vuông?
+\shortans{39}
+\loigiai{
+Cạnh mới = 8 cm. Diện tích mới = $8 \times 8 = 64\text{ cm}^2$. Tăng thêm: $64 - 25 = 39\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một bức tranh hình vuông có diện tích $81\text{ cm}^2$. Chu vi bức tranh đó là bao nhiêu xăng-ti-mét?
+\shortans{36}
+\loigiai{
+Cạnh = 9 cm. Chu vi = $9 \times 4 = 36$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một khu đất hình chữ nhật có chiều dài 25 m, chiều rộng 12 m. Chu vi khu đất đó là bao nhiêu mét?
+\shortans{74}
+\loigiai{
+$(25 + 12) \times 2 = 74$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có nửa chu vi là 18 cm, chiều dài hơn chiều rộng 4 cm. Chiều dài là bao nhiêu xăng-ti-mét?
+\shortans{11}
+\loigiai{
+Chiều dài = $(18 + 4) : 2 = 11$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có nửa chu vi là 18 cm, chiều dài hơn chiều rộng 4 cm. Diện tích của nó là bao nhiêu xăng-ti-mét vuông?
+\shortans{77}
+\loigiai{
+Dài = 11 cm, rộng = 7 cm. Diện tích = $11 \times 7 = 77\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15\text{ cm}^2 \times 6 = \dots\text{ cm}^2$.
+\shortans{90}
+\loigiai{
+$15 \times 6 = 90$.
+}
+\end{ex}

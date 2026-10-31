@@ -1,0 +1,554 @@
+\documentclass[14pt,a4paper,oneside]{extbook} % Dùng extbook để nhận cỡ chữ 14pt chuẩn
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell,venndiagram}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through}
+\usepackage{yhmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{fillbetween}
+\usepackage[tikz]{bclogo}
+\usepackage[top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm, headheight=16pt]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+
+\usepackage[many]{tcolorbox}
+
+% Gói ex_test (Chọn [dethi] để in đề hoặc [loigiai] để in cả lời giải)
+%\usepackage[loigiai]{ex_test}
+\usepackage[dethi]{ex_test}
+
+\def\colorEX{\color{blue}}
+
+\usepackage{fontawesome}
+\usepackage{framed}
+\usepackage{polynom}
+
+\colorlet{tcbcol@back}{tcbcolback}
+\colorlet{tcbcol@frame}{tcbcolframe}
+\newtcolorbox[auto counter]{danggg}[1]{
+	fonttitle=\bfseries\upshape,
+	colframe=blue,colback=blue!10,
+	sharp corners, breakable, 
+	title={\color{white}\faFolderO \ DẠNG~\thetcbcounter.\ #1}
+	\addcontentsline{toc}{subsection}{Dạng~\thetcbcounter. #1}
+}
+\newenvironment{dang}[1]{
+	\begin{danggg}{#1}
+		\textit{Phương pháp giải:~}
+	}{\end{danggg}}
+\newenvironment{tomtat}{
+	\begin{tcolorbox}[boxrule=1pt,arc=0mm,breakable]
+	}{\end{tcolorbox}}
+
+\newtheorem{bt}{Bài}
+\newtheorem{vd}{Ví dụ}
+\theorembodyfont{\it}
+\newtheorem{dl}{ Định lí}
+\theoremseparator{.}
+\theorembodyfont{\rm}
+\newtheorem{hq}{ Hệ quả}
+\newtheorem{tc}{ Tính chất}
+\newtheorem{dn}{ Định nghĩa}
+\theoremstyle{nonumberplain}
+\newtheorem{kn}{ Khái niệm}
+\theoremseparator{.}
+\theorembodyfont{\it}
+\usepackage{stackengine}
+\usepackage{scalerel}
+
+\newcommand\dangersign[1][2ex]{%
+	\renewcommand\stacktype{L}%
+	\scaleto{\stackon[1.3pt]{\color{red}$\triangle$}{\fontsize{4}{0}\selectfont !}}{#1}%
+}
+\renewcommand{\parallel}{\mathbin{\!\raisebox{0.25pt}/\mkern-2mu\raisebox{0.25pt}/\!}}
+\renewcommand{\backsim}{\ \mathord{\raisebox{0.025\baselineskip}{\rotatebox{90}{\fontfamily{qag}\selectfont S}}}\ }
+\theoremseparator{}
+\newtheorem{note}{{\dangersign[3ex]}}
+\newtheorem{nx}{Nhận xét.}
+\newtcolorbox{luuy}[1][]{colback=yellow!20,title={\bfseries Chú ý},#1}
+
+% Tiêu đề chương / bài
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\makeatletter
+\renewcommand\thesection{\@arabic\c@section}
+\makeatother
+
+\titleformat{\section}{\centering\Large\bfseries\color{blue!80!black}}{Chủ đề~\thesection.}{1ex}{
+	\setcounter{vd}{0}
+	\setcounter{ex}{0}
+	\setcounter{bt}{0}
+	\setcounter{dl}{0}
+	\setcounter{dn}{0}
+	\setcounter{hq}{0}
+	\setcounter{tc}{0}
+	\MakeUppercase
+}
+\titleformat{\subsection}{\large\bfseries\color{blue!70!black}}{}{0ex}{}
+\usepackage[final]{pdfpages}
+
+% Cài đặt riêng
+\def\hideboxEX{}
+\renewcommand{\boxEX}[2][15pt]{%
+	\setbox1=\hbox{#2\strut}
+	\def\sizeboxEX{#1}%
+	\ \EXbox{\hideboxEX#2\strut}\ %
+}
+
+\renewcommand\arraystretch{1.4} 
+\renewcommand{\tabcolsep}{4mm}
+
+% Dòng kẻ làm bài TikZ chuẩn 8mm
+\renewcommand{\dotlineEX}[1]{%
+  \par\vspace{2mm}%
+  \noindent%
+  \begin{tikzpicture}[x=1mm, y=1mm]%
+    \foreach \i in {1,...,#1} {%
+      \draw[gray!60, loosely dotted, line width=0.6pt] (0, -\i*8) -- (\linewidth, -\i*8);%
+    }%
+  \end{tikzpicture}%
+}
+
+% Nút Casio
+\renewcommand\boxed[1]{%
+	\tikz[baseline=(key.base)]
+	\node[%
+	draw,
+	fill=black!40,
+	drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black!90,opacity=0.75},
+	rectangle,minimum width=0.6cm,minimum height=0.6cm,
+	rounded corners=2pt,
+	inner sep=1pt,
+	line width=0.5pt,
+	font=\sffamily
+	](key) {\color{white}#1\strut}
+	;
+}
+
+\newcommand{\hoac}[1]{\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{\left\{\begin{aligned}#1\end{aligned}\right.}
+
+\pagestyle{fancy}
+\fancyhf{} % Xóa sạch toàn bộ header/footer cũ
+\fancyhead[L]{\footnotesize\itshape\color{gray} Chuyên đề Vận dụng Toán 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!80!black} Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\caidat}{2}
+\newcommand{\indapan}[2]{
+	\begin{center}
+		\color{blue!50!green} \fbox{\fontfamily{qag}\bfseries\selectfont BẢNG ĐÁP ÁN}
+	\end{center}
+	{\fontfamily{lmtt}\bfseries\selectfont \inputansbox[\caidat]{#1}{#2}}
+}
+
+\everymath{\color{blue}}
+
+% -------------------------------------------------------------------------
+% KHUNG TIÊU ĐỀ PHIẾU KIỂM TRA KÈM MÃ QR CODE CHO TỪNG BÀI
+% Cú pháp: \TaoPhieuKiemTra{Chủ đề}{Số bài}{Tên bài}{Link QR thi online}
+% -------------------------------------------------------------------------
+\newcommand{\TaoPhieuKiemTra}[4]{%
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{Bài #2. #3}%
+  \noindent
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=blue!85!black,
+    arc=2.5mm,
+    boxrule=1pt,
+    left=2.5mm, right=2.5mm, top=1.8mm, bottom=1.8mm
+  ]
+    % LOGO TRUNG TÂM & HOTLINE | TIÊU ĐỀ BÀI KIỂM TRA | MÃ QR CODE
+    \begin{minipage}[c]{0.27\textwidth}
+      \centering
+      \begin{tcolorbox}[colback=blue!8, colframe=blue!80!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm, left=1mm, right=1mm]
+        {\bfseries\color{blue!95!black}\small LỚP TOÁN THẦY LĨNH}\\[1.5pt]
+        {\scriptsize\color{blue!70!black}\faGlobe~loptoanthaylinh.vn}\\[1.5pt]
+        {\scriptsize\bfseries\color{blue!85!black}\faPhone~Hotline: 0866976878}
+      \end{tcolorbox}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.56\textwidth}
+      \centering
+      {\footnotesize\bfseries\color{blue!80!black}\MakeUppercase{#1}}\\[2pt]
+      {\large\bfseries\color{red!85!black}\MakeUppercase{BÀI #2: #3}}\\[2pt]
+      {\scriptsize\itshape CHUYÊN ĐỀ VẬN DỤNG -- Thời gian làm bài: 35 phút -- Cấu trúc 3 phần chuẩn}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.14\textwidth}
+      \centering
+      \qrcode[height=1.35cm]{#4}\\[2pt]
+      {\tiny\bfseries\color{blue!90!black}\faQrcode~Quét QR thi}
+    \end{minipage}
+  \end{tcolorbox}
+  \vspace{1.5mm}
+}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG
+% =========================================================================
+\section{Ôn tập và bổ sung}
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{01}{Ôn tập các số đến 100 000}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-01}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai01_OnTapCacSoDen100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{02}{Ôn tập các phép tính trong phạm vi 100 000}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-02}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai02_OnTapCacPhepTinhTrongPhamVi100000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{03}{Số chẵn, số lẻ}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-03}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai03_SoChanSoLe.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{04}{Biểu thức chứa chữ}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-04}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai04_BieuThucChuaChu.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{05}{Giải bài toán có ba bước tính}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-05}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai05_GiaiBaiToanCoBaBuocTinh.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Ôn tập và bổ sung}{06}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-06}
+\input{CHỦ ĐỀ 1 - ÔN TẬP VÀ BỔ SUNG/Chuong1_Bai06_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 2 - GÓC VÀ ĐƠN VỊ ĐO GÓC
+% =========================================================================
+\section{Góc và đơn vị đo góc}
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Góc và đơn vị đo góc}{07}{Đo góc, đơn vị đo góc: Độ}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-07}
+\input{CHỦ ĐỀ 2 - GÓC VÀ ĐƠN VỊ ĐO GÓC/Chuong2_Bai07_DoGocDonViDoGoc.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Góc và đơn vị đo góc}{08}{Góc nhọn, góc tù, góc bẹt}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-08}
+\input{CHỦ ĐỀ 2 - GÓC VÀ ĐƠN VỊ ĐO GÓC/Chuong2_Bai08_GocNhonGocTuGocBet.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Góc và đơn vị đo góc}{09}{Luyện tập chung về góc}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-09}
+\input{CHỦ ĐỀ 2 - GÓC VÀ ĐƠN VỊ ĐO GÓC/Chuong2_Bai09_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ
+% =========================================================================
+\section{Số có nhiều chữ số}
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{10}{Số có sáu chữ số. Số 1 000 000}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-10}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai10_SoCoSauChuSoSo1000000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{11}{Hàng và lớp}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-11}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai11_HangVaLop.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{12}{Các số trong phạm vi lớp triệu}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-12}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai12_CacSoTrongPhamViLopTrieu.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{13}{Làm tròn số đến hàng trăm nghìn}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-13}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai13_LamTronSoDenHangTramNghin.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{14}{So sánh các số có nhiều chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-14}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai14_SoSanhCacSoCoNhieuChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{15}{Làm quen với dãy số tự nhiên}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-15}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai15_LamQuenVoiDaySoTuNhien.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Số có nhiều chữ số}{16}{Luyện tập chung số tự nhiên}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-16}
+\input{CHỦ ĐỀ 3 - SỐ CÓ NHIỀU CHỮ SỐ/Chuong3_Bai16_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 4 - MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG
+% =========================================================================
+\section{Một số đơn vị đo đại lượng}
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Một số đơn vị đo đại lượng}{17}{Yến, tạ, tấn}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-17}
+\input{CHỦ ĐỀ 4 - MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG/Chuong4_Bai17_YenTaTan.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Một số đơn vị đo đại lượng}{18}{Đề-xi-mét vuông, mét vuông, mi-li-mét vuông}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-18}
+\input{CHỦ ĐỀ 4 - MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG/Chuong4_Bai18_DeXiMetVuongMetVuongMiLiMetVuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Một số đơn vị đo đại lượng}{19}{Giây, thế kỉ}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-19}
+\input{CHỦ ĐỀ 4 - MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG/Chuong4_Bai19_GiayTheKi.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Một số đơn vị đo đại lượng}{20}{Thực hành trải nghiệm đơn vị đo đại lượng}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-20}
+\input{CHỦ ĐỀ 4 - MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG/Chuong4_Bai20_ThucHanhTraiNghiemDonViDoDaiLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Một số đơn vị đo đại lượng}{21}{Luyện tập chung đại lượng}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-21}
+\input{CHỦ ĐỀ 4 - MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG/Chuong4_Bai21_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 5 - PHÉP CỘNG VÀ PHÉP TRỪ
+% =========================================================================
+\section{Phép cộng và phép trừ}
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Phép cộng và phép trừ}{22}{Phép cộng các số có nhiều chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-22}
+\input{CHỦ ĐỀ 5 - PHÉP CỘNG VÀ PHÉP TRỪ/Chuong5_Bai22_PhepCongCacSoCoNhieuChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Phép cộng và phép trừ}{23}{Phép trừ các số có nhiều chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-23}
+\input{CHỦ ĐỀ 5 - PHÉP CỘNG VÀ PHÉP TRỪ/Chuong5_Bai23_PhepTruCacSoCoNhieuChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Phép cộng và phép trừ}{24}{Tính chất giao hoán, kết hợp của phép cộng}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-24}
+\input{CHỦ ĐỀ 5 - PHÉP CỘNG VÀ PHÉP TRỪ/Chuong5_Bai24_TinhChatGiaoHoanKetHopPhepCong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Phép cộng và phép trừ}{25}{Tìm hai số khi biết tổng và hiệu của hai số đó}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-25}
+\input{CHỦ ĐỀ 5 - PHÉP CỘNG VÀ PHÉP TRỪ/Chuong5_Bai25_TimHaiSoKhiBietTongVaHieu.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Phép cộng và phép trừ}{26}{Luyện tập chung phép cộng trừ}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-26}
+\input{CHỦ ĐỀ 5 - PHÉP CỘNG VÀ PHÉP TRỪ/Chuong5_Bai26_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG
+% =========================================================================
+\section{Đường thẳng vuông góc. đường thẳng song song}
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Đường thẳng vuông góc. đường thẳng song song}{27}{Hai đường thẳng vuông góc}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-27}
+\input{CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG/Chuong6_Bai27_HaiDuongThangVuongGoc.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Đường thẳng vuông góc. đường thẳng song song}{28}{Thực hành vẽ hai đường thẳng vuông góc}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-28}
+\input{CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG/Chuong6_Bai28_ThucHanhVeHaiDuongThangVuongGoc.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Đường thẳng vuông góc. đường thẳng song song}{29}{Hai đường thẳng song song}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-29}
+\input{CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG/Chuong6_Bai29_HaiDuongThangSongSong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Đường thẳng vuông góc. đường thẳng song song}{30}{Thực hành vẽ hai đường thẳng song song}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-30}
+\input{CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG/Chuong6_Bai30_ThucHanhVeHaiDuongThangSongSong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Đường thẳng vuông góc. đường thẳng song song}{31}{Hình bình hành, hình thoi}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-31}
+\input{CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG/Chuong6_Bai31_HinhBinhHanhHinhThoi.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Đường thẳng vuông góc. đường thẳng song song}{32}{Luyện tập chung hình học}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-32}
+\input{CHỦ ĐỀ 6 - ĐƯỜNG THẲNG VUÔNG GÓC. ĐƯỜNG THẲNG SONG SONG/Chuong6_Bai32_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1
+% =========================================================================
+\section{Ôn tập học kì 1}
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{33}{Ôn tập các số đến lớp triệu}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-33}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai33_OnTapCacSoDenLopTrieu.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{34}{Ôn tập phép cộng, phép trừ}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-34}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai34_OnTapPhepCongPhepTru.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{35}{Ôn tập hình học}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-35}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai35_OnTapHinhHoc.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{36}{Ôn tập đo lường}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-36}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai36_OnTapDoLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Ôn tập học kì 1}{37}{Ôn tập chung học kì 1}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-37}
+\input{CHỦ ĐỀ 7 - ÔN TẬP HỌC KÌ 1/Chuong7_Bai37_OnTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA
+% =========================================================================
+\section{Phép nhân và phép chia}
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{38}{Nhân với số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-38}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai38_NhanVoiSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{39}{Chia cho số có một chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-39}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai39_ChiaChoSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{40}{Tính chất giao hoán, kết hợp của phép nhân}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-40}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai40_TinhChatGiaoHoanKetHopPhepNhan.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{41}{Nhân, chia với 10, 100, 1000...}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-41}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai41_NhanChiaVoi10_100_1000.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{42}{Tính chất phân phối của phép nhân đối với phép cộng}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-42}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai42_TinhChatPhanPhoiPhepNhanVoiPhepCong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{43}{Nhân với số có hai chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-43}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai43_NhanVoiSoCoHaiChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{44}{Chia cho số có hai chữ số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-44}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai44_ChiaChoSoCoHaiChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{45}{Thực hành ước lượng trong tính toán}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-45}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai45_ThucHanhUocLuongTrongTinhToan.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{46}{Tìm số trung bình cộng}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-46}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai46_TimSoTrungBinhCong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{47}{Bài toán liên quan đến rút về đơn vị}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-47}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai47_BaiToanLienQuanDenRutVeDonVi.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép nhân và phép chia}{48}{Luyện tập chung phép nhân chia}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-48}
+\input{CHỦ ĐỀ 8 - PHÉP NHÂN VÀ PHÉP CHIA/Chuong8_Bai48_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 9 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC XUẤT
+% =========================================================================
+\section{Làm quen với yếu tố thống kê, xác xuất}
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Làm quen với yếu tố thống kê, xác xuất}{49}{Dãy số liệu thống kê}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-49}
+\input{CHỦ ĐỀ 9 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC XUẤT/Chuong9_Bai49_DaySoLieuThongKe.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Làm quen với yếu tố thống kê, xác xuất}{50}{Biểu đồ cột}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-50}
+\input{CHỦ ĐỀ 9 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC XUẤT/Chuong9_Bai50_BieuDoCot.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Làm quen với yếu tố thống kê, xác xuất}{51}{Số lần xuất hiện của một sự kiện}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-51}
+\input{CHỦ ĐỀ 9 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC XUẤT/Chuong9_Bai51_SoLanXuatHienCuaSuKien.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Làm quen với yếu tố thống kê, xác xuất}{52}{Luyện tập chung thống kê, xác suất}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-52}
+\input{CHỦ ĐỀ 9 - LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC XUẤT/Chuong9_Bai52_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 10 - PHÂN SỐ
+% =========================================================================
+\section{Phân số}
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{53}{Khái niệm phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-53}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai53_KhainiemPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{54}{Phân số và phép chia số tự nhiên}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-54}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai54_PhansoVaPhepChiaSoTuNhien.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{55}{Tính chất cơ bản của phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-55}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai55_TinhChatCoBanCuaPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{56}{Rút gọn phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-56}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai56_RutGonPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{57}{Quy đồng mẫu số các phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-57}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai57_QuyDongMauSoCacPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{58}{So sánh hai phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-58}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai58_SoSanhHaiPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Phân số}{59}{Luyện tập chung phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-59}
+\input{CHỦ ĐỀ 10 - PHÂN SỐ/Chuong10_Bai59_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 11 - PHÉP CỘNG, PHÉP TRỪ PHÂN SỐ
+% =========================================================================
+\section{Phép cộng, phép trừ phân số}
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Phép cộng, phép trừ phân số}{60}{Phép cộng phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-60}
+\input{CHỦ ĐỀ 11 - PHÉP CỘNG, PHÉP TRỪ PHÂN SỐ/Chuong11_Bai60_PhepCongPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Phép cộng, phép trừ phân số}{61}{Phép trừ phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-61}
+\input{CHỦ ĐỀ 11 - PHÉP CỘNG, PHÉP TRỪ PHÂN SỐ/Chuong11_Bai61_PhepTruPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 11 -- Phép cộng, phép trừ phân số}{62}{Luyện tập chung cộng trừ phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-62}
+\input{CHỦ ĐỀ 11 - PHÉP CỘNG, PHÉP TRỪ PHÂN SỐ/Chuong11_Bai62_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 12 - PHÉP NHÂN, PHÉP CHIA PHÂN SỐ
+% =========================================================================
+\section{Phép nhân, phép chia phân số}
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Phép nhân, phép chia phân số}{63}{Phép nhân phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-63}
+\input{CHỦ ĐỀ 12 - PHÉP NHÂN, PHÉP CHIA PHÂN SỐ/Chuong12_Bai63_PhepNhanPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Phép nhân, phép chia phân số}{64}{Phép chia phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-64}
+\input{CHỦ ĐỀ 12 - PHÉP NHÂN, PHÉP CHIA PHÂN SỐ/Chuong12_Bai64_PhepChiaPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Phép nhân, phép chia phân số}{65}{Tìm phân số của một số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-65}
+\input{CHỦ ĐỀ 12 - PHÉP NHÂN, PHÉP CHIA PHÂN SỐ/Chuong12_Bai65_TimPhansoCuaMotSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 12 -- Phép nhân, phép chia phân số}{66}{Luyện tập chung nhân chia phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-66}
+\input{CHỦ ĐỀ 12 - PHÉP NHÂN, PHÉP CHIA PHÂN SỐ/Chuong12_Bai66_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM
+% =========================================================================
+\section{Ôn tập cuối năm}
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{67}{Ôn tập số tự nhiên}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-67}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai67_OnTapSoTuNhien.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{68}{Ôn tập các phép tính với số tự nhiên}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-68}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai68_OnTapPhepTinhVoiSoTuNhien.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{69}{Ôn tập phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-69}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai69_OnTapPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{70}{Ôn tập các phép tính với phân số}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-70}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai70_OnTapPhepTinhVoiPhanso.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{71}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-71}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai71_OnTapHinhHocVaDoLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{72}{Ôn tập thống kê và xác suất}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-72}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai72_OnTapThongKeXacSuat.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 13 -- Ôn tập cuối năm}{73}{Ôn tập chung cuối năm}{https://loptoanthaylinh.vn/thi-online/toan-4-cd/bai-73}
+\input{CHỦ ĐỀ 13 - ÔN TẬP CUỐI NĂM/Chuong13_Bai73_OnTapChung.tex}
+\newpage
+\end{document}

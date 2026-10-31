@@ -1,0 +1,199 @@
+\begin{ex}
+Trong giờ ra chơi, kiểm đếm số bạn chơi các trò: Nhảy dây có 8 bạn, Đá cầu có 6 bạn, Đọc sách có 5 bạn. Có tất cả bao nhiêu bạn tham gia các trò chơi?
+\shortans{19}
+\loigiai{
+Có tất cả: $8 + 6 + 5 = 19$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn chơi nhảy dây nhiều hơn số bạn chơi đá cầu bao nhiêu bạn?
+\shortans{2}
+\loigiai{
+Nhiều hơn: $8 - 6 = 2$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn chơi nhảy dây nhiều hơn số bạn đọc sách bao nhiêu bạn?
+\shortans{3}
+\loigiai{
+Nhiều hơn: $8 - 5 = 3$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm số cây trồng trong vườn trường: Cây phượng có 6 cây, Cây bàng có 4 cây, Cây bằng lăng có 5 cây. Có bao nhiêu cây bóng mát (phượng và bàng)?
+\shortans{10}
+\loigiai{
+Có: $6 + 4 = 10$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Vườn trường có tất cả bao nhiêu cây?
+\shortans{15}
+\loigiai{
+Có tất cả: $6 + 4 + 5 = 15$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Khảo sát bữa sáng của 25 bạn học sinh: 10 bạn ăn bánh mì, 8 bạn ăn xôi, còn lại ăn phở. Có bao nhiêu bạn ăn phở?
+\shortans{7}
+\loigiai{
+Số bạn ăn phở: $25 - 10 - 8 = 7$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn ăn bánh mì nhiều hơn số bạn ăn xôi bao nhiêu bạn?
+\shortans{2}
+\loigiai{
+Nhiều hơn: $10 - 8 = 2$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm dụng cụ học tập trong cặp của Lan: 5 quyển vở, 3 cuốn sách giáo khoa, 2 cuốn truyện tranh. Có tất cả bao nhiêu cuốn sách và vở?
+\shortans{10}
+\loigiai{
+Có tất cả: $5 + 3 + 2 = 10$ cuốn.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 4 chiếc bút chì, 2 chiếc bút mực và 1 chiếc thước kẻ. Lan có bao nhiêu chiếc bút các loại?
+\shortans{6}
+\loigiai{
+Số bút: $4 + 2 = 6$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Thống kê số điểm 10 môn Toán của tổ Hai trong tuần: Thứ Hai được 4 điểm 10, Thứ Ba được 5 điểm 10, Thứ Tư được 3 điểm 10, Thứ Năm được 6 điểm 10, Thứ Sáu được 7 điểm 10. Cả tuần tổ Hai đạt được bao nhiêu điểm 10?
+\shortans{25}
+\loigiai{
+Tổng số điểm 10: $4 + 5 + 3 + 6 + 7 = 25$ điểm 10.
+}
+\end{ex}
+
+\begin{ex}
+Ngày nào đạt được nhiều điểm 10 nhất? Số điểm 10 ngày đó là bao nhiêu?
+\shortans{7}
+\loigiai{
+Thứ Sáu nhiều nhất với 7 điểm 10.
+}
+\end{ex}
+
+\begin{ex}
+Ngày nào đạt ít điểm 10 nhất? Số điểm 10 ngày đó là bao nhiêu?
+\shortans{3}
+\loigiai{
+Thứ Tư ít nhất với 3 điểm 10.
+}
+\end{ex}
+
+\begin{ex}
+Chênh lệch giữa ngày đạt nhiều điểm 10 nhất và ít điểm 10 nhất là bao nhiêu điểm?
+\shortans{4}
+\loigiai{
+Chênh lệch: $7 - 3 = 4$ điểm.
+}
+\end{ex}
+
+\begin{ex}
+Thống kê số thú cưng nuôi tại nhà của 20 bạn: 8 bạn nuôi chó, 7 bạn nuôi mèo, 3 bạn nuôi chim, 2 bạn nuôi cá cảnh. Có bao nhiêu bạn nuôi chó hoặc mèo?
+\shortans{15}
+\loigiai{
+Có: $8 + 7 = 15$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn nuôi mèo nhiều hơn số bạn nuôi chim bao nhiêu bạn?
+\shortans{4}
+\loigiai{
+Nhiều hơn: $7 - 3 = 4$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu bạn nuôi chim hoặc cá cảnh?
+\shortans{5}
+\loigiai{
+Có: $3 + 2 = 5$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm các loại rác tái chế gom được: 15 vỏ lon nhôm, 20 chai nhựa và 10 tờ bìa carton. Có tất cả bao nhiêu đồ vật tái chế gom được?
+\shortans{45}
+\loigiai{
+Có tất cả: $15 + 20 + 10 = 45$ đồ vật.
+}
+\end{ex}
+
+\begin{ex}
+Số chai nhựa nhiều hơn số vỏ lon bao nhiêu chiếc?
+\shortans{5}
+\loigiai{
+Nhiều hơn: $20 - 15 = 5$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Trong tủ thuốc gia đình có: 4 vỉ thuốc cảm, 3 cuộn băng gạc, 2 lọ thuốc ho. Có tất cả bao nhiêu đồ dùng y tế?
+\shortans{9}
+\loigiai{
+Có tất cả: $4 + 3 + 2 = 9$ đồ dùng.
+}
+\end{ex}
+
+\begin{ex}
+Khảo sát mùa yêu thích của 30 bạn: 12 bạn thích mùa hè, 8 bạn thích mùa thu, 6 bạn thích mùa xuân, còn lại thích mùa đông. Có bao nhiêu bạn thích mùa đông?
+\shortans{4}
+\loigiai{
+Số bạn thích mùa đông: $30 - 12 - 8 - 6 = 4$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn thích mùa hè nhiều hơn mùa thu bao nhiêu bạn?
+\shortans{4}
+\loigiai{
+Nhiều hơn: $12 - 8 = 4$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn thích mùa xuân nhiều hơn mùa đông bao nhiêu bạn?
+\shortans{2}
+\loigiai{
+Nhiều hơn: $6 - 4 = 2$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Trong vườn có 3 tổ chim: tổ 1 có 4 con non, tổ 2 có 3 con non, tổ 3 có 5 con non. Cả 3 tổ có bao nhiêu con chim non?
+\shortans{12}
+\loigiai{
+Có: $4 + 3 + 5 = 12$ con chim non.
+}
+\end{ex}
+
+\begin{ex}
+Tổ chim đông con nhất có bao nhiêu con non?
+\shortans{5}
+\loigiai{
+Tổ 3 đông nhất có 5 con non.
+}
+\end{ex}
+
+\begin{ex}
+Tổ chim ít con nhất có bao nhiêu con non?
+\shortans{3}
+\loigiai{
+Tổ 2 ít nhất có 3 con non.
+}
+\end{ex}

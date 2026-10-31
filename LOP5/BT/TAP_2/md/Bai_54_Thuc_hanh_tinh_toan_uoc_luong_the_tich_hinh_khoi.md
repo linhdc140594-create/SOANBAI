@@ -1,0 +1,157 @@
+# Bài 54: Thực hành tính toán ước lượng thể tích hình khối
+
+## PHẦN I. ĐỀ BÀI (NGÂN HÀNG CÂU HỎI ĐIỀN ĐÁP SỐ)
+
+**Câu 1.** Một bể cá hình hộp chữ nhật có chiều dài $3\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 2.** Một bể cá hình hộp chữ nhật có chiều dài $4\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 3.** Một bể cá hình hộp chữ nhật có chiều dài $5\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 4.** Một bể cá hình hộp chữ nhật có chiều dài $6\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 5.** Một bể cá hình hộp chữ nhật có chiều dài $7\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 6.** Một bể cá hình hộp chữ nhật có chiều dài $8\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 7.** Một bể cá hình hộp chữ nhật có chiều dài $9\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 8.** Một bể cá hình hộp chữ nhật có chiều dài $10\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 9.** Một bể cá hình hộp chữ nhật có chiều dài $11\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 10.** Một bể cá hình hộp chữ nhật có chiều dài $12\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 11.** Một bể cá hình hộp chữ nhật có chiều dài $13\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 12.** Một bể cá hình hộp chữ nhật có chiều dài $14\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 13.** Một bể cá hình hộp chữ nhật có chiều dài $15\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 14.** Một bể cá hình hộp chữ nhật có chiều dài $16\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 15.** Một bể cá hình hộp chữ nhật có chiều dài $17\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 16.** Một bể cá hình hộp chữ nhật có chiều dài $18\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 17.** Một bể cá hình hộp chữ nhật có chiều dài $19\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 18.** Một bể cá hình hộp chữ nhật có chiều dài $20\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 19.** Một bể cá hình hộp chữ nhật có chiều dài $21\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 20.** Một bể cá hình hộp chữ nhật có chiều dài $22\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 21.** Một bể cá hình hộp chữ nhật có chiều dài $23\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 22.** Một bể cá hình hộp chữ nhật có chiều dài $24\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 23.** Một bể cá hình hộp chữ nhật có chiều dài $25\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 24.** Một bể cá hình hộp chữ nhật có chiều dài $26\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+**Câu 25.** Một bể cá hình hộp chữ nhật có chiều dài $27\text{ dm}$, chiều rộng $2\text{ dm}$ và mực nước cao $1\text{ dm}$. Thể tích nước trong bể là bao nhiêu lít (biết $1\text{ dm}^3 = 1\text{ l}$)?
+
+---
+
+## PHẦN II. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+
+### Câu 1
+- **Đáp số:** `6`
+- **Lời giải:** Thể tích là: 3 x 2 x 1 = 6 dm3 = 6 lít.
+
+### Câu 2
+- **Đáp số:** `8`
+- **Lời giải:** Thể tích là: 4 x 2 x 1 = 8 dm3 = 8 lít.
+
+### Câu 3
+- **Đáp số:** `10`
+- **Lời giải:** Thể tích là: 5 x 2 x 1 = 10 dm3 = 10 lít.
+
+### Câu 4
+- **Đáp số:** `12`
+- **Lời giải:** Thể tích là: 6 x 2 x 1 = 12 dm3 = 12 lít.
+
+### Câu 5
+- **Đáp số:** `14`
+- **Lời giải:** Thể tích là: 7 x 2 x 1 = 14 dm3 = 14 lít.
+
+### Câu 6
+- **Đáp số:** `16`
+- **Lời giải:** Thể tích là: 8 x 2 x 1 = 16 dm3 = 16 lít.
+
+### Câu 7
+- **Đáp số:** `18`
+- **Lời giải:** Thể tích là: 9 x 2 x 1 = 18 dm3 = 18 lít.
+
+### Câu 8
+- **Đáp số:** `20`
+- **Lời giải:** Thể tích là: 10 x 2 x 1 = 20 dm3 = 20 lít.
+
+### Câu 9
+- **Đáp số:** `22`
+- **Lời giải:** Thể tích là: 11 x 2 x 1 = 22 dm3 = 22 lít.
+
+### Câu 10
+- **Đáp số:** `24`
+- **Lời giải:** Thể tích là: 12 x 2 x 1 = 24 dm3 = 24 lít.
+
+### Câu 11
+- **Đáp số:** `26`
+- **Lời giải:** Thể tích là: 13 x 2 x 1 = 26 dm3 = 26 lít.
+
+### Câu 12
+- **Đáp số:** `28`
+- **Lời giải:** Thể tích là: 14 x 2 x 1 = 28 dm3 = 28 lít.
+
+### Câu 13
+- **Đáp số:** `30`
+- **Lời giải:** Thể tích là: 15 x 2 x 1 = 30 dm3 = 30 lít.
+
+### Câu 14
+- **Đáp số:** `32`
+- **Lời giải:** Thể tích là: 16 x 2 x 1 = 32 dm3 = 32 lít.
+
+### Câu 15
+- **Đáp số:** `34`
+- **Lời giải:** Thể tích là: 17 x 2 x 1 = 34 dm3 = 34 lít.
+
+### Câu 16
+- **Đáp số:** `36`
+- **Lời giải:** Thể tích là: 18 x 2 x 1 = 36 dm3 = 36 lít.
+
+### Câu 17
+- **Đáp số:** `38`
+- **Lời giải:** Thể tích là: 19 x 2 x 1 = 38 dm3 = 38 lít.
+
+### Câu 18
+- **Đáp số:** `40`
+- **Lời giải:** Thể tích là: 20 x 2 x 1 = 40 dm3 = 40 lít.
+
+### Câu 19
+- **Đáp số:** `42`
+- **Lời giải:** Thể tích là: 21 x 2 x 1 = 42 dm3 = 42 lít.
+
+### Câu 20
+- **Đáp số:** `44`
+- **Lời giải:** Thể tích là: 22 x 2 x 1 = 44 dm3 = 44 lít.
+
+### Câu 21
+- **Đáp số:** `46`
+- **Lời giải:** Thể tích là: 23 x 2 x 1 = 46 dm3 = 46 lít.
+
+### Câu 22
+- **Đáp số:** `48`
+- **Lời giải:** Thể tích là: 24 x 2 x 1 = 48 dm3 = 48 lít.
+
+### Câu 23
+- **Đáp số:** `50`
+- **Lời giải:** Thể tích là: 25 x 2 x 1 = 50 dm3 = 50 lít.
+
+### Câu 24
+- **Đáp số:** `52`
+- **Lời giải:** Thể tích là: 26 x 2 x 1 = 52 dm3 = 52 lít.
+
+### Câu 25
+- **Đáp số:** `54`
+- **Lời giải:** Thể tích là: 27 x 2 x 1 = 54 dm3 = 54 lít.

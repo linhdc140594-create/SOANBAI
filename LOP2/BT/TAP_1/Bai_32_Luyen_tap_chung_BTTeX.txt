@@ -1,0 +1,199 @@
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Có 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một năm có bao nhiêu tháng?
+\shortans{12}
+\loigiai{
+Có 12 tháng.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một giờ có bao nhiêu phút?
+\shortans{60}
+\loigiai{
+Có 60 phút.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 6 giờ 30 phút sáng, kim dài chỉ vào số mấy?
+\shortans{6}
+\loigiai{
+Kim dài chỉ số 6.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 3 giờ 15 phút chiều, kim dài chỉ vào số mấy?
+\shortans{3}
+\loigiai{
+Kim dài chỉ số 3.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 9 giờ đúng tối, kim ngắn chỉ vào số mấy?
+\shortans{9}
+\loigiai{
+Kim ngắn chỉ số 9.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 10 có bao nhiêu ngày?
+\shortans{31}
+\loigiai{
+Tháng 10 có 31 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 9 có bao nhiêu ngày?
+\shortans{30}
+\loigiai{
+Tháng 9 có 30 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 12 có bao nhiêu ngày?
+\shortans{31}
+\loigiai{
+Tháng 12 có 31 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 12 là Thứ Tư, thì ngày 19 cùng tháng đó là Thứ mấy?
+\shortans{4}
+\loigiai{
+Cách 7 ngày vẫn là Thứ Tư.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 25 là Chủ Nhật, thì ngày 18 cùng tháng đó (trước 1 tuần) là ngày gì? (Chủ Nhật). Khoảng cách giữa 2 ngày là bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Khoảng cách là 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Hôm nay là Thứ Sáu ngày 10. Thứ Sáu tuần sau là ngày bao nhiêu?
+\shortans{17}
+\loigiai{
+Ngày đó là: $10 + 7 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Hôm nay là Thứ Hai ngày 20. Thứ Hai tuần trước là ngày bao nhiêu?
+\shortans{13}
+\loigiai{
+Ngày đó là: $20 - 7 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+15 giờ bằng mấy giờ chiều?
+\shortans{3}
+\loigiai{
+15 giờ là 3 giờ chiều.
+}
+\end{ex}
+
+\begin{ex}
+20 giờ bằng mấy giờ tối?
+\shortans{8}
+\loigiai{
+20 giờ là 8 giờ tối.
+}
+\end{ex}
+
+\begin{ex}
+17 giờ bằng mấy giờ chiều?
+\shortans{5}
+\loigiai{
+17 giờ là 5 giờ chiều.
+}
+\end{ex}
+
+\begin{ex}
+Từ 9 giờ sáng đến 2 giờ chiều (14 giờ) có bao nhiêu giờ?
+\shortans{5}
+\loigiai{
+Có: $14 - 9 = 5$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bác bảo vệ trực từ 22 giờ đêm đến 6 giờ sáng hôm sau. Bác trực trong bao nhiêu giờ?
+\shortans{8}
+\loigiai{
+Từ 22h đến 24h là 2h, từ 0h đến 6h là 6h. Tổng cộng: $2 + 6 = 8$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một trận bóng đá bắt đầu lúc 15 giờ và kết thúc lúc 17 giờ. Trận đấu kéo dài bao nhiêu giờ?
+\shortans{2}
+\loigiai{
+Kéo dài: $17 - 15 = 2$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 4 có 30 ngày. Nếu đã qua 20 ngày thì tháng 4 còn lại bao nhiêu ngày?
+\shortans{10}
+\loigiai{
+Còn lại: $30 - 20 = 10$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Trong 3 tuần lễ có tất cả bao nhiêu ngày?
+\shortans{21}
+\loigiai{
+Ba tuần có: $7 \times 3 = 21$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Kim phút quay được 1 vòng và thêm nửa vòng nữa là bao nhiêu phút?
+\shortans{90}
+\loigiai{
+Ta có: $60 + 30 = 90$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Thời gian nghỉ hè từ ngày 1 tháng 6 đến hết ngày 31 tháng 7. Tháng 6 có 30 ngày, tháng 7 có 31 ngày. Kỳ nghỉ hè kéo dài bao nhiêu ngày?
+\shortans{61}
+\loigiai{
+Kéo dài: $30 + 31 = 61$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một con tàu đi trên biển trong 1 tuần lễ và 5 ngày. Con tàu đã đi tất cả bao nhiêu ngày?
+\shortans{12}
+\loigiai{
+Tất cả: $7 + 5 = 12$ ngày.
+}
+\end{ex}

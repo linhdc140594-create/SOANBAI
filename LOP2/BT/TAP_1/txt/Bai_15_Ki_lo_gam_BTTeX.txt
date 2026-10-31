@@ -1,0 +1,199 @@
+\begin{ex}
+Ki-lô-gam được viết tắt bằng mấy chữ cái trong bảng chữ cái tiếng Anh? (viết tắt là kg).
+\shortans{2}
+\loigiai{
+Viết tắt là kg, gồm 2 chữ cái k và g.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5\text{ kg} + 3\text{ kg}$. Kết quả là bao nhiêu ki-lô-gam?
+\shortans{8}
+\loigiai{
+Ta có: $5 + 3 = 8$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $14\text{ kg} + 5\text{ kg}$. Kết quả là bao nhiêu ki-lô-gam?
+\shortans{19}
+\loigiai{
+Ta có: $14 + 5 = 19$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $26\text{ kg} + 12\text{ kg}$. Kết quả là bao nhiêu ki-lô-gam?
+\shortans{38}
+\loigiai{
+Ta có: $26 + 12 = 38$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45\text{ kg} - 20\text{ kg}$. Kết quả là bao nhiêu ki-lô-gam?
+\shortans{25}
+\loigiai{
+Ta có: $45 - 20 = 25$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18\text{ kg} - 9\text{ kg}$. Kết quả là bao nhiêu ki-lô-gam?
+\shortans{9}
+\loigiai{
+Ta có: $18 - 9 = 9$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35\text{ kg} - 15\text{ kg}$. Kết quả là bao nhiêu ki-lô-gam?
+\shortans{20}
+\loigiai{
+Ta có: $35 - 15 = 20$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $12\text{ kg} + 8\text{ kg} - 5\text{ kg}$.
+\shortans{15}
+\loigiai{
+Ta có $12 + 8 = 20$, rồi $20 - 5 = 15$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $25\text{ kg} - 10\text{ kg} + 7\text{ kg}$.
+\shortans{22}
+\loigiai{
+Ta có $25 - 10 = 15$, rồi $15 + 7 = 22$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Trên đĩa cân thăng bằng: đĩa bên trái có quả dưa hấu, đĩa bên phải có 2 quả cân loại 2 kg và 1 quả cân loại 1 kg. Quả dưa hấu nặng bao nhiêu ki-lô-gam?
+\shortans{5}
+\loigiai{
+Quả dưa nặng: $2 + 2 + 1 = 5$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Đĩa bên trái có một túi bột mì và quả cân 1 kg, đĩa bên phải có quả cân 5 kg. Hai đĩa cân thăng bằng. Túi bột mì nặng bao nhiêu ki-lô-gam?
+\shortans{4}
+\loigiai{
+Túi bột mì nặng: $5 - 1 = 4$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo to nặng 25 kg, bao gạo nhỏ nặng 15 kg. Cả hai bao gạo nặng bao nhiêu ki-lô-gam?
+\shortans{40}
+\loigiai{
+Cả hai bao nặng: $25 + 15 = 40$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo to nặng hơn bao gạo nhỏ bao nhiêu ki-lô-gam?
+\shortans{10}
+\loigiai{
+Nặng hơn: $25 - 15 = 10$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Con ngỗng nặng 6 kg, con vịt nặng 2 kg. Con ngỗng nặng hơn con vịt bao nhiêu ki-lô-gam?
+\shortans{4}
+\loigiai{
+Nặng hơn: $6 - 2 = 4$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Con ngỗng và con vịt nặng tất cả bao nhiêu ki-lô-gam?
+\shortans{8}
+\loigiai{
+Cả hai con nặng: $6 + 2 = 8$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Con chó nặng 12 kg, con mèo nặng 4 kg. Con chó nặng hơn con mèo bao nhiêu ki-lô-gam?
+\shortans{8}
+\loigiai{
+Con chó nặng hơn: $12 - 4 = 8$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua về 18 kg gạo, gia đình đã ăn hết 9 kg gạo. Còn lại bao nhiêu ki-lô-gam gạo?
+\shortans{9}
+\loigiai{
+Còn lại: $18 - 9 = 9$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một thùng cam nặng 32 kg, người ta lấy ra 10 kg cam. Thùng cam còn lại nặng bao nhiêu ki-lô-gam?
+\shortans{22}
+\loigiai{
+Còn lại: $32 - 10 = 22$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $17\text{ kg} + \dots\text{ kg} = 25\text{ kg}$.
+\shortans{8}
+\loigiai{
+Số cần điền là: $25 - 17 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $48\text{ kg} - \dots\text{ kg} = 23\text{ kg}$.
+\shortans{25}
+\loigiai{
+Số cần điền là: $48 - 23 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots\text{ kg} + 15\text{ kg} = 39\text{ kg}$.
+\shortans{24}
+\loigiai{
+Số cần điền là: $39 - 15 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Bé Nam cân nặng 23 kg, bé Mai cân nặng 21 kg. Cả hai bạn cân nặng tất cả bao nhiêu ki-lô-gam?
+\shortans{44}
+\loigiai{
+Cả hai bạn nặng: $23 + 21 = 44$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một con cừu mẹ nặng 35 kg, cừu con nặng 12 kg. Cừu mẹ nặng hơn cừu con bao nhiêu ki-lô-gam?
+\shortans{23}
+\loigiai{
+Nặng hơn: $35 - 12 = 23$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân thu hoạch được 50 kg bí đỏ, bác đã bán đi 30 kg. Bác còn lại bao nhiêu ki-lô-gam bí đỏ?
+\shortans{20}
+\loigiai{
+Còn lại: $50 - 30 = 20$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Có 3 gói kẹo: gói thứ nhất nặng 2 kg, gói thứ hai nặng 3 kg, gói thứ ba nặng 4 kg. Ba gói nặng tất cả bao nhiêu ki-lô-gam?
+\shortans{9}
+\loigiai{
+Cả ba gói nặng: $2 + 3 + 4 = 9$ kg.
+}
+\end{ex}

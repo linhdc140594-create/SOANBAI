@@ -1,0 +1,158 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 20. Phép trừ số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 20. PHÉP TRỪ SỐ THẬP PHÂN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Quy tắc đặt tính thẳng cột, mượn nhớ và kỹ thuật thêm số 0 ở số bị trừ trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC TRỪ SỐ THẬP PHÂN ---
+\noindent
+\begin{minipage}[t]{0.58\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy tắc trừ hai số thập phân},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Bước 1: Đặt tính thẳng hàng}\\
+    $\bullet$ Viết số trừ dưới số bị trừ sao cho các chữ số ở cùng một hàng thẳng cột với nhau; \textbf{dấu phẩy thẳng cột với dấu phẩy}.\\[2pt]
+    \textbf{Bước 2: Cân bằng chữ số thập phân (NẾU CẦN)}\\
+    $\bullet$ Nếu số chữ số phần thập phân của số bị trừ ít hơn số trừ, ta có thể \textbf{viết thêm chữ số 0} vào bên phải để dễ trừ.\\[2pt]
+    \textbf{Bước 3: Trừ như số tự nhiên và hạ dấu phẩy}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.40\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencil\ Minh họa thêm số 0},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \small
+    \begin{tabular}{r@{\,}l}
+      $45$&${,}00$ \quad \textit{(thêm $00$)} \\
+      $-$ \quad $12$&${,}75$ \\ \hline
+      $32$&${,}25$
+    \end{tabular}\\[3pt]
+    {\tiny\color{teal!95!black}\bfseries Coi $45 = 45,00$ để mượn trừ chính xác}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: TÍNH CHẤT TRỪ MỘT TỔNG, MỘT HIỆU ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faBolt\ 2. Tính chất giúp tính nhanh phép trừ},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  $\bullet$ \textbf{Trừ một tổng:} $a - (b + c) = a - b - c = a - c - b$.\\
+  \textit{VD:} $25,8 - (5,8 + 3,4) = 25,8 - 5,8 - 3,4 = 20 - 3,4 = 16,6$.\\
+  $\bullet$ \textbf{Trừ một hiệu:} $a - (b - c) = a - b + c$.\\
+  $\bullet$ \textbf{Một tổng trừ một số:} $(a + b) - c = a - c + b = a + (b - c)$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Quy trình trừ số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Đặt tính thẳng phẩy\\(Thêm số 0 nếu thiếu)};
+    \node[b2] (n2) at (0, 0) {2. Trừ từ phải sang trái\\Nhớ trả sang hàng sau};
+    \node[b3] (n3) at (5.8, 0) {3. Hạ dấu phẩy ở hiệu\\Thẳng hàng dấu phẩy trên};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TÌM X PHÉP TRỪ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ Tìm thành phần chưa biết trong phép trừ},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tìm số bị trừ $x$}: $x - b = c \Rightarrow x = c + b$.\\
+    $\bullet$ \textbf{Tìm số trừ $x$}: $a - x = c \Rightarrow x = a - c$.\\
+    \textit{Lưu ý:} Số bị trừ là số lớn nhất trong phép trừ, muốn tìm nó phải làm phép \textbf{cộng}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lỗi quên thêm số 0}: Khi tính $8 - 3,25$, học sinh hay hạ $25$ xuống thành $5,25$ (SAI). Phải lấy $8,00 - 3,25 = 4,75$.\\
+    $\bullet$ Quên trả $1$ sau khi đã mượn hàng trước.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

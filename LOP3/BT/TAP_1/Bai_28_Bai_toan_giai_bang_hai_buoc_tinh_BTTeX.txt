@@ -1,0 +1,199 @@
+\begin{ex}
+Hàng trên có 8 bông hoa, hàng dưới có nhiều hơn hàng trên 4 bông hoa. Hỏi cả hai hàng có bao nhiêu bông hoa?
+\shortans{20}
+\loigiai{
+Hàng dưới: $8 + 4 = 12$ bông. Cả hai hàng: $8 + 12 = 20$ bông.
+}
+\end{ex}
+
+\begin{ex}
+Ngăn trên có 15 quyển sách, ngăn dưới có nhiều hơn ngăn trên 7 quyển sách. Hỏi cả hai ngăn có bao nhiêu quyển sách?
+\shortans{37}
+\loigiai{
+Ngăn dưới: $15 + 7 = 22$ quyển. Cả hai ngăn: $15 + 22 = 37$ quyển.
+}
+\end{ex}
+
+\begin{ex}
+Thùng thứ nhất có 30 lít dầu, thùng thứ hai có ít hơn thùng thứ nhất 8 lít dầu. Hỏi cả hai thùng có bao nhiêu lít dầu?
+\shortans{52}
+\loigiai{
+Thùng thứ hai: $30 - 8 = 22$ lít. Cả hai thùng: $30 + 22 = 52$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Mai gấp được 14 con hạc, bạn Lan gấp được ít hơn bạn Mai 5 con hạc. Hỏi cả hai bạn gấp được bao nhiêu con hạc?
+\shortans{23}
+\loigiai{
+Lan gấp: $14 - 5 = 9$ con. Cả hai bạn: $14 + 9 = 23$ con.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo to nặng 45 kg, bao gạo bé nhẹ hơn bao gạo to 15 kg. Hỏi cả hai bao nặng bao nhiêu ki-lô-gam?
+\shortans{75}
+\loigiai{
+Bao bé: $45 - 15 = 30$ kg. Cả hai bao: $45 + 30 = 75$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Đội Một trồng được 35 cây, đội Hai trồng được gấp 2 lần đội Một. Hỏi cả hai đội trồng được bao nhiêu cây?
+\shortans{105}
+\loigiai{
+Đội Hai: $35 \times 2 = 70$ cây. Cả hai đội: $35 + 70 = 105$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Buổi sáng cửa hàng bán được 12 chiếc xe đạp, buổi chiều bán được số xe gấp 3 lần buổi sáng. Hỏi cả ngày cửa hàng bán được bao nhiêu chiếc xe đạp?
+\shortans{48}
+\loigiai{
+Buổi chiều: $12 \times 3 = 36$ chiếc. Cả ngày: $12 + 36 = 48$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Một con vịt nặng 2 kg, một con ngỗng nặng gấp 3 lần con vịt. Hỏi cả con vịt và con ngỗng nặng bao nhiêu ki-lô-gam?
+\shortans{8}
+\loigiai{
+Con ngỗng: $2 \times 3 = 6$ kg. Cả hai con: $2 + 6 = 8$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 3A có 18 học sinh nữ, số học sinh nam bằng số học sinh nữ giảm đi 2 lần. Hỏi lớp 3A có tất cả bao nhiêu học sinh?
+\shortans{27}
+\loigiai{
+Học sinh nam: $18 : 2 = 9$ bạn. Tổng số học sinh: $18 + 9 = 27$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Thùng to đựng 40 lít nước ngọt, thùng nhỏ đựng số lít nước ngọt bằng thùng to giảm đi 4 lần. Hỏi cả hai thùng đựng bao nhiêu lít nước ngọt?
+\shortans{50}
+\loigiai{
+Thùng nhỏ: $40 : 4 = 10$ lít. Cả hai thùng: $40 + 10 = 50$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 5 hộp bánh, mỗi hộp có 4 chiếc bánh. Mẹ mua thêm 6 chiếc bánh rời. Hỏi mẹ đã mua tất cả bao nhiêu chiếc bánh?
+\shortans{26}
+\loigiai{
+Số bánh trong hộp: $5 \times 4 = 20$ chiếc. Tổng số bánh: $20 + 6 = 26$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Có 6 can dầu, mỗi can chứa 5 lít dầu. Người ta đã dùng hết 12 lít dầu. Hỏi còn lại bao nhiêu lít dầu?
+\shortans{18}
+\loigiai{
+Tổng số dầu ban đầu: $6 \times 5 = 30$ lít. Còn lại: $30 - 12 = 18$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn vải dài 50 m. Người ta may 6 bộ quần áo, mỗi bộ hết 3 m vải. Hỏi cuộn vải còn lại bao nhiêu mét?
+\shortans{32}
+\loigiai{
+Đã dùng: $6 \times 3 = 18$ m. Còn lại: $50 - 18 = 32$ m.
+}
+\end{ex}
+
+\begin{ex}
+Cô giáo có 35 quyển vở, cô thưởng cho 6 bạn, mỗi bạn 4 quyển. Hỏi cô giáo còn lại bao nhiêu quyển vở?
+\shortans{11}
+\loigiai{
+Đã thưởng: $6 \times 4 = 24$ quyển. Còn lại: $35 - 24 = 11$ quyển.
+}
+\end{ex}
+
+\begin{ex}
+Bạn An có 4 phong kẹo, mỗi phong có 8 chiếc kẹo. An cho em 10 chiếc kẹo. Hỏi An còn lại bao nhiêu chiếc kẹo?
+\shortans{22}
+\loigiai{
+Tổng số kẹo: $4 \times 8 = 32$ chiếc. Còn lại: $32 - 10 = 22$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Có 3 tổ, mỗi tổ có 8 bạn học sinh. Sau đó có thêm 4 bạn chuyển vào. Hỏi có tất cả bao nhiêu bạn học sinh?
+\shortans{28}
+\loigiai{
+Ban đầu: $3 \times 8 = 24$ bạn. Sau đó: $24 + 4 = 28$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 2 túi táo, mỗi túi có 9 quả táo. Mẹ biếu bà 8 quả. Hỏi mẹ còn lại bao nhiêu quả táo?
+\shortans{10}
+\loigiai{
+Tổng số táo: $2 \times 9 = 18$ quả. Còn lại: $18 - 8 = 10$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng nhập về 4 bao gạo, mỗi bao nặng 20 kg. Cửa hàng đã bán được 35 kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam gạo?
+\shortans{45}
+\loigiai{
+Tổng số gạo: $4 \times 20 = 80$ kg. Còn lại: $80 - 35 = 45$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 15 viên bi xanh và 25 viên bi đỏ. Nam chia đều tất cả số bi đó vào 5 túi. Hỏi mỗi túi có bao nhiêu viên bi?
+\shortans{8}
+\loigiai{
+Tổng số bi: $15 + 25 = 40$ viên. Mỗi túi: $40 : 5 = 8$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Có 18 bạn nam và 14 bạn nữ cùng xếp đều thành 4 hàng. Hỏi mỗi hàng có bao nhiêu bạn?
+\shortans{8}
+\loigiai{
+Tổng số bạn: $18 + 14 = 32$ bạn. Mỗi hàng: $32 : 4 = 8$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Một người thu được 42 quả dừa ở cây thứ nhất và 30 quả ở cây thứ hai. Người đó đem tất cả xếp đều vào 8 sọt. Hỏi mỗi sọt có bao nhiêu quả dừa?
+\shortans{9}
+\loigiai{
+Tổng số dừa: $42 + 30 = 72$ quả. Mỗi sọt: $72 : 8 = 9$ quả dừa.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ có 45 kg thóc nếp và 27 kg thóc tẻ. Mẹ chia đều vào 8 bao. Hỏi mỗi bao có bao nhiêu ki-lô-gam thóc?
+\shortans{9}
+\loigiai{
+Tổng số thóc: $45 + 27 = 72$ kg. Mỗi bao: $72 : 8 = 9$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Khối 3 có 2 lớp, lớp 3A có 32 học sinh, lớp 3B có 28 học sinh. Tất cả các học sinh xếp đều thành 6 hàng. Hỏi mỗi hàng có bao nhiêu học sinh?
+\shortans{10}
+\loigiai{
+Tổng số học sinh: $32 + 28 = 60$ học sinh. Mỗi hàng: $60 : 6 = 10$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có chiều rộng 6 m, chiều dài gấp 3 lần chiều rộng. Chu vi mảnh vườn đó là bao nhiêu mét?
+\shortans{48}
+\loigiai{
+Chiều dài: $6 \times 3 = 18$ m. Chu vi: $(18 + 6) \times 2 = 48$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 6 cm. Người ta tăng mỗi cạnh thêm 3 cm. Chu vi hình vuông mới là bao nhiêu xăng-ti-mét?
+\shortans{36}
+\loigiai{
+Cạnh mới: $6 + 3 = 9$ cm. Chu vi mới: $9 \times 4 = 36$ cm.
+}
+\end{ex}

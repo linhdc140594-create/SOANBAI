@@ -1,0 +1,199 @@
+\begin{ex}
+Lan có 9 bông hoa, Mai có nhiều hơn Lan 4 bông hoa. Hỏi Mai có bao nhiêu bông hoa?
+\shortans{13}
+\loigiai{
+Mai có: $9 + 4 = 13$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Hùng có 8 viên bi, Dũng có nhiều hơn Hùng 7 viên bi. Hỏi Dũng có bao nhiêu viên bi?
+\shortans{15}
+\loigiai{
+Dũng có: $8 + 7 = 15$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 2A có 16 bạn nữ, số bạn nam ít hơn số bạn nữ 3 bạn. Hỏi lớp 2A có bao nhiêu bạn nam?
+\shortans{13}
+\loigiai{
+Số bạn nam: $16 - 3 = 13$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Vườn nhà bác An có 14 cây bưởi, số cây cam ít hơn số cây bưởi là 6 cây. Hỏi vườn nhà bác An có bao nhiêu cây cam?
+\shortans{8}
+\loigiai{
+Số cây cam: $14 - 6 = 8$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 15 quyển truyện, Nam có ít hơn Bình 7 quyển truyện. Hỏi Nam có bao nhiêu quyển truyện?
+\shortans{8}
+\loigiai{
+Nam có: $15 - 7 = 8$ quyển truyện.
+}
+\end{ex}
+
+\begin{ex}
+Năm nay anh 13 tuổi, em ít hơn anh 5 tuổi. Hỏi năm nay em bao nhiêu tuổi?
+\shortans{8}
+\loigiai{
+Tuổi em là: $13 - 5 = 8$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Một gấp được 9 chiếc thuyền, tổ Hai gấp được nhiều hơn tổ Một 6 chiếc thuyền. Hỏi tổ Hai gấp được bao nhiêu chiếc thuyền?
+\shortans{15}
+\loigiai{
+Tổ Hai gấp được: $9 + 6 = 15$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Một cây cau cao 11 mét, cây ổi thấp hơn cây cau 4 mét. Hỏi cây ổi cao bao nhiêu mét?
+\shortans{7}
+\loigiai{
+Cây ổi cao: $11 - 4 = 7$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 8 cm, đoạn thẳng CD dài hơn đoạn thẳng AB là 6 cm. Hỏi đoạn thẳng CD dài bao nhiêu xăng-ti-mét?
+\shortans{14}
+\loigiai{
+Đoạn CD dài: $8 + 6 = 14$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng MN dài 15 cm, đoạn thẳng PQ ngắn hơn đoạn thẳng MN là 8 cm. Hỏi đoạn thẳng PQ dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Đoạn PQ dài: $15 - 8 = 7$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Thùng to đựng 18 lít nước, thùng nhỏ đựng ít hơn thùng to 9 lít nước. Hỏi thùng nhỏ đựng bao nhiêu lít nước?
+\shortans{9}
+\loigiai{
+Thùng nhỏ đựng: $18 - 9 = 9$ lít nước.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo nặng 17 kg, bao ngô nhẹ hơn bao gạo 8 kg. Hỏi bao ngô nặng bao nhiêu ki-lô-gam?
+\shortans{9}
+\loigiai{
+Bao ngô nặng: $17 - 8 = 9$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ mộc cưa thanh gỗ thứ nhất dài 12 dm, thanh gỗ thứ hai ngắn hơn thanh thứ nhất 5 dm. Hỏi thanh gỗ thứ hai dài bao nhiêu đề-xi-mét?
+\shortans{7}
+\loigiai{
+Thanh thứ hai dài: $12 - 5 = 7$ dm.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 7 quả táo, mẹ mua số quả cam nhiều hơn số quả táo là 8 quả. Hỏi mẹ mua bao nhiêu quả cam?
+\shortans{15}
+\loigiai{
+Mẹ mua số cam là: $7 + 8 = 15$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Buổi sáng cửa hàng bán được 9 chiếc cặp, buổi chiều bán được nhiều hơn buổi sáng 5 chiếc cặp. Buổi chiều bán được bao nhiêu chiếc cặp?
+\shortans{14}
+\loigiai{
+Buổi chiều bán được: $9 + 5 = 14$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng ngày thứ nhất bán được 16 bao gạo, ngày thứ hai bán được ít hơn ngày thứ nhất 7 bao gạo. Hỏi ngày thứ hai bán được bao nhiêu bao gạo?
+\shortans{9}
+\loigiai{
+Ngày thứ hai bán: $16 - 7 = 9$ bao gạo.
+}
+\end{ex}
+
+\begin{ex}
+Hà có 14 cái bút chì màu, Mai có ít hơn Hà 6 cái bút chì màu. Hỏi Mai có bao nhiêu cái bút chì màu?
+\shortans{8}
+\loigiai{
+Mai có: $14 - 6 = 8$ cái bút chì màu.
+}
+\end{ex}
+
+\begin{ex}
+An có 8 chiếc tem thư, Bình có nhiều hơn An 9 chiếc tem thư. Hỏi Bình có bao nhiêu chiếc tem thư?
+\shortans{17}
+\loigiai{
+Bình có: $8 + 9 = 17$ chiếc tem thư.
+}
+\end{ex}
+
+\begin{ex}
+Ngăn sách trên có 13 quyển sách, ngăn dưới có ít hơn ngăn trên 5 quyển sách. Hỏi ngăn dưới có bao nhiêu quyển sách?
+\shortans{8}
+\loigiai{
+Ngăn dưới có: $13 - 5 = 8$ quyển sách.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Việt có 11 viên bi, bạn Nam có nhiều hơn bạn Việt 7 viên bi. Hỏi bạn Nam có bao nhiêu viên bi?
+\shortans{18}
+\loigiai{
+Nam có: $11 + 7 = 18$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Chị hái được 15 bông hoa, em hái được ít hơn chị 6 bông hoa. Hỏi em hái được bao nhiêu bông hoa?
+\shortans{9}
+\loigiai{
+Em hái được: $15 - 6 = 9$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Đàn vịt có 16 con, đàn gà ít hơn đàn vịt 9 con. Hỏi đàn gà có bao nhiêu con?
+\shortans{7}
+\loigiai{
+Đàn gà có: $16 - 9 = 7$ con.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 8 con cừu, số con dê nhiều hơn số con cừu là 8 con. Hỏi bác có bao nhiêu con dê?
+\shortans{16}
+\loigiai{
+Bác có: $8 + 8 = 16$ con dê.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc thước kẻ dài 17 cm, chiếc bút bi ngắn hơn thước kẻ 5 cm. Chiếc bút bi dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Chiếc bút bi dài: $17 - 5 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một quyển truyện có 18 chương, quyển sách thứ hai có ít hơn quyển truyện 9 chương. Quyển sách thứ hai có bao nhiêu chương?
+\shortans{9}
+\loigiai{
+Quyển thứ hai có: $18 - 9 = 9$ chương.
+}
+\end{ex}

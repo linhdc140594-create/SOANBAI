@@ -1,0 +1,176 @@
+=== BÀI 15: KI-LÔ-MÉT VUÔNG. HÉC-TA ===
+
+Câu 1: Một ki-lô-mét vuông bằng bao nhiêu héc-ta?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+1\text{ km}^2 = 100\text{ ha}.
+
+----------------------------------------
+
+Câu 2: Một héc-ta bằng bao nhiêu mét vuông?
+Đáp án: [shortans]10000[/shortans]
+Lời giải chi tiết:
+1\text{ ha} = 10 000\text{ m}^2.
+
+----------------------------------------
+
+Câu 3: Đổi 5\text{ km}^2 thành bao nhiêu héc-ta?
+Đáp án: [shortans]500[/shortans]
+Lời giải chi tiết:
+5\text{ km}^2 = 5 x 100 = 500\text{ ha}.
+
+----------------------------------------
+
+Câu 4: Đổi 12\text{ ha} thành bao nhiêu mét vuông?
+Đáp án: [shortans]120000[/shortans]
+Lời giải chi tiết:
+12\text{ ha} = 12 x 10 000 = 120 000\text{ m}^2.
+
+----------------------------------------
+
+Câu 5: Đổi 400\text{ ha} thành bao nhiêu ki-lô-mét vuông?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+400\text{ ha} = 400 : 100 = 4\text{ km}^2.
+
+----------------------------------------
+
+Câu 6: Đổi 80 000\text{ m}^2 thành bao nhiêu héc-ta?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+80 000\text{ m}^2 = 80 000 : 10 000 = 8\text{ ha}.
+
+----------------------------------------
+
+Câu 7: Đổi 3\text{ km}^2\text{ } 25\text{ ha} thành bao nhiêu héc-ta?
+Đáp án: [shortans]325[/shortans]
+Lời giải chi tiết:
+3\text{ km}^2 = 300\text{ ha}. Do đó 3\text{ km}^2\text{ } 25\text{ ha} = 325\text{ ha}.
+
+----------------------------------------
+
+Câu 8: Đổi 2\text{ ha } 500\text{ m}^2 thành bao nhiêu mét vuông?
+Đáp án: [shortans]20500[/shortans]
+Lời giải chi tiết:
+2\text{ ha} = 20 000\text{ m}^2. Do đó 2\text{ ha } 500\text{ m}^2 = 20 500\text{ m}^2.
+
+----------------------------------------
+
+Câu 9: Một khu rừng hình chữ nhật có chiều dài 3\text{ km}, chiều rộng 2\text{ km}. Diện tích khu rừng đó là bao nhiêu héc-ta?
+Đáp án: [shortans]600[/shortans]
+Lời giải chi tiết:
+Diện tích là 3 x 2 = 6\text{ km}^2 = 600\text{ ha}.
+
+----------------------------------------
+
+Câu 10: Một nông trường hình chữ nhật có chiều dài 500\text{ m}, chiều rộng 400\text{ m}. Diện tích nông trường đó là bao nhiêu héc-ta?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Diện tích là 500 x 400 = 200 000\text{ m}^2 = 200 000 : 10 000 = 20\text{ ha}.
+
+----------------------------------------
+
+Câu 11: Một hồ nước hình vuông có cạnh dài 1 000\text{ m}. Diện tích hồ nước đó là bao nhiêu ki-lô-mét vuông?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+1 000\text{ m} = 1\text{ km}. Diện tích là 1 x 1 = 1\text{ km}^2.
+
+----------------------------------------
+
+Câu 12: Một cánh đồng lúa có diện tích 5\text{ ha}. Người ta đã gặt được \frac{2}{5} diện tích. Hỏi diện tích lúa còn lại chưa gặt là bao nhiêu héc-ta?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Diện tích còn lại là: 5 x (1 - \frac{2}{5}) = 5 x \frac{3}{5} = 3\text{ ha}.
+
+----------------------------------------
+
+Câu 13: Một khu công nghiệp có diện tích 150\text{ ha}. Trong đó diện tích xây dựng nhà xưởng chiếm \frac{2}{3} diện tích. Diện tích xây dựng nhà xưởng là bao nhiêu héc-ta?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Diện tích nhà xưởng là: 150 x \frac{2}{3} = 100\text{ ha}.
+
+----------------------------------------
+
+Câu 14: Người ta cấy lúa trên một thửa ruộng rộng 2\text{ ha}. Trung bình mỗi héc-ta thu hoạch được 60\text{ tạ} thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Tổng số thóc là: 60 x 2 = 120\text{ tạ} = 12\text{ tấn}.
+
+----------------------------------------
+
+Câu 15: Một khu sinh thái rộng 2\text{ km}^2. Người ta dành \frac{1}{4} diện tích để làm hồ nước. Diện tích hồ nước là bao nhiêu héc-ta?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+2\text{ km}^2 = 200\text{ ha}. Diện tích hồ nước là 200 x \frac{1}{4} = 50\text{ ha}.
+
+----------------------------------------
+
+Câu 16: Diện tích nước Việt Nam khoảng 331 212\text{ km}^2. Chữ số hàng trăm nghìn của số này là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Chữ số ở hàng trăm nghìn là 3.
+
+----------------------------------------
+
+Câu 17: Đổi 0{,}5\text{ km}^2 thành bao nhiêu héc-ta?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+0{,}5\text{ km}^2 = 0{,}5 x 100 = 50\text{ ha}.
+
+----------------------------------------
+
+Câu 18: Đổi 0{,}25\text{ ha} thành bao nhiêu mét vuông?
+Đáp án: [shortans]2500[/shortans]
+Lời giải chi tiết:
+0{,}25\text{ ha} = 0{,}25 x 10 000 = 2 500\text{ m}^2.
+
+----------------------------------------
+
+Câu 19: Một mảnh đất hình chữ nhật có chu vi 1 400\text{ m}, chiều rộng bằng \frac{3}{4} chiều dài. Diện tích mảnh đất là bao nhiêu héc-ta?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Nửa chu vi là 700\text{ m}. Chiều dài là 700 : (3 + 4) x 4 = 400\text{ m}. Chiều rộng là 300\text{ m}. Diện tích là 400 x 300 = 120 000\text{ m}^2 = 12\text{ ha}.
+
+----------------------------------------
+
+Câu 20: Một trang trại nuôi bò có diện tích cỏ là 40\text{ ha}. Mỗi héc-ta cỏ đủ nuôi 5 con bò. Trang trại đó nuôi được bao nhiêu con bò?
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+Số con bò nuôi được là: 40 x 5 = 200 (con).
+
+----------------------------------------
+
+Câu 21: Đổi 1 500 000\text{ m}^2 thành bao nhiêu héc-ta?
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+1 500 000 : 10 000 = 150\text{ ha}.
+
+----------------------------------------
+
+Câu 22: Đổi 7\text{ km}^2 thành bao nhiêu mét vuông? (Điền số nghìn mét vuông).
+Đáp án: [shortans]7000[/shortans]
+Lời giải chi tiết:
+7\text{ km}^2 = 7 000 000\text{ m}^2 = 7 000 nghìn mét vuông.
+
+----------------------------------------
+
+Câu 23: Một cánh rừng có diện tích 8\text{ km}^2. Sau một vụ trồng cây diện tích tăng thêm 50\text{ ha}. Tổng diện tích rừng lúc này là bao nhiêu héc-ta?
+Đáp án: [shortans]850[/shortans]
+Lời giải chi tiết:
+8\text{ km}^2 = 800\text{ ha}. Tổng diện tích là 800 + 50 = 850\text{ ha}.
+
+----------------------------------------
+
+Câu 24: So sánh 2\text{ km}^2 và 250\text{ ha}. Số đo lớn hơn nhiều hơn số đo bé bao nhiêu héc-ta?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+2\text{ km}^2 = 200\text{ ha}. Vì 250\text{ ha} > 200\text{ ha} nên hiệu là 250 - 200 = 50\text{ ha}.
+
+----------------------------------------
+
+Câu 25: Một công viên hình chữ nhật dài 800\text{ m}, rộng 500\text{ m}. Diện tích công viên là bao nhiêu héc-ta?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Diện tích là 800 x 500 = 400 000\text{ m}^2 = 40\text{ ha}.
+
+----------------------------------------

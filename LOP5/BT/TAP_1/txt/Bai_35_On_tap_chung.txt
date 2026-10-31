@@ -1,0 +1,176 @@
+=== BÀI 35: ÔN TẬP CHUNG ===
+
+Câu 1: Số lớn nhất có 6 chữ số khác nhau là 987 654. Chữ số hàng trăm nghìn là bao nhiêu?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Chữ số là 9.
+
+----------------------------------------
+
+Câu 2: Tính: 145 000 + 55 000. Kết quả là bao nhiêu nghìn?
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+145 + 55 = 200 nghìn.
+
+----------------------------------------
+
+Câu 3: Rút gọn phân số \frac{36}{48} về tối giản. Tổng tử số và mẫu số là bao nhiêu?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+\frac{36}{48} = \frac{3}{4}. Tổng là 3 + 4 = 7.
+
+----------------------------------------
+
+Câu 4: Viết số thập phân gồm 8 đơn vị và 5 phần trăm là 8{,}05. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]0[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 0.
+
+----------------------------------------
+
+Câu 5: Tính kết quả: 23{,}5 + 16{,}5.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+23{,}5 + 16{,}5 = 40.
+
+----------------------------------------
+
+Câu 6: Tính kết quả: 60 - 24{,}8 - 15{,}2.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+60 - 40 = 20.
+
+----------------------------------------
+
+Câu 7: Tính kết quả: 2{,}5 x 16.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+2{,}5 x 16 = 40.
+
+----------------------------------------
+
+Câu 8: Tính kết quả: 48 : 1{,}2.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+48 : 1{,}2 = 40.
+
+----------------------------------------
+
+Câu 9: Một hình tam giác có đáy 15\text{ cm}, chiều cao 8\text{ cm}. Diện tích là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+(15 x 8) : 2 = 60\text{ cm}^2.
+
+----------------------------------------
+
+Câu 10: Một hình thang có hai đáy là 14\text{ m} và 10\text{ m}, chiều cao 5\text{ m}. Diện tích là bao nhiêu mét vuông?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+(14 + 10) x 5 : 2 = 60\text{ m}^2.
+
+----------------------------------------
+
+Câu 11: Một hình tròn có bán kính 10\text{ cm}. Chu vi là bao nhiêu phần mười xăng-ti-mét? (Lấy \pi = 3{,}14, chu vi nhân 10).
+Đáp án: [shortans]628[/shortans]
+Lời giải chi tiết:
+Chu vi 62{,}8\text{ cm}. Nhân 10 được 628.
+
+----------------------------------------
+
+Câu 12: Một hình tròn có bán kính 10\text{ cm}. Diện tích là bao nhiêu xăng-ti-mét vuông? (Lấy \pi = 3{,}14).
+Đáp án: [shortans]314[/shortans]
+Lời giải chi tiết:
+3{,}14 x 100 = 314\text{ cm}^2.
+
+----------------------------------------
+
+Câu 13: Đổi 3\text{ km}^2 thành bao nhiêu héc-ta?
+Đáp án: [shortans]300[/shortans]
+Lời giải chi tiết:
+3 x 100 = 300\text{ ha}.
+
+----------------------------------------
+
+Câu 14: Đổi 5\text{ ha} thành bao nhiêu nghìn mét vuông?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+50 000\text{ m}^2 = 50 nghìn mét vuông.
+
+----------------------------------------
+
+Câu 15: Làm tròn số 48{,}75 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]49[/shortans]
+Lời giải chi tiết:
+Làm tròn lên thành 49.
+
+----------------------------------------
+
+Câu 16: Tìm x biết: x x 1{,}5 = 45.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+x = 45 : 1{,}5 = 30.
+
+----------------------------------------
+
+Câu 17: Tìm x biết: x : 2{,}5 = 12.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+x = 12 x 2{,}5 = 30.
+
+----------------------------------------
+
+Câu 18: Tính nhanh: 4{,}8 x 25 + 4{,}8 x 75.
+Đáp án: [shortans]480[/shortans]
+Lời giải chi tiết:
+4{,}8 x 100 = 480.
+
+----------------------------------------
+
+Câu 19: Một ô tô đi được 180\text{ km} trong 4 giờ. Vận tốc ô tô là bao nhiêu km/h?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+180 : 4 = 45\text{ km/h}.
+
+----------------------------------------
+
+Câu 20: Một mảnh đất hình chữ nhật có chiều dài 25\text{ m}, chiều rộng 16\text{ m}. Diện tích mảnh đất là bao nhiêu mét vuông?
+Đáp án: [shortans]400[/shortans]
+Lời giải chi tiết:
+25 x 16 = 400\text{ m}^2.
+
+----------------------------------------
+
+Câu 21: Mua 5 quyển vở hết 40 000 đồng. Mua 12 quyển vở như thế hết bao nhiêu nghìn đồng?
+Đáp án: [shortans]96[/shortans]
+Lời giải chi tiết:
+1 quyển giá 8 nghìn. 12 quyển hết 8 x 12 = 96 nghìn đồng.
+
+----------------------------------------
+
+Câu 22: Hai số có tổng là 100 và hiệu là 20. Số lớn là bao nhiêu?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+(100 + 20) : 2 = 60.
+
+----------------------------------------
+
+Câu 23: Ở câu trên, số bé là bao nhiêu?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+100 - 60 = 40.
+
+----------------------------------------
+
+Câu 24: Tính giá trị biểu thức: 125 x 8 - 450 : 0{,}9.
+Đáp án: [shortans]500[/shortans]
+Lời giải chi tiết:
+1 000 - 500 = 500.
+
+----------------------------------------
+
+Câu 25: Tìm số tự nhiên bé nhất có ba chữ số chia hết cho cả 2, 3, 5 và 9.
+Đáp án: [shortans]180[/shortans]
+Lời giải chi tiết:
+Chia hết cho 2 và 5 tận cùng là 0. Chia hết cho 9 tổng chữ số chia hết cho 9. Số bé nhất là 180.
+
+----------------------------------------

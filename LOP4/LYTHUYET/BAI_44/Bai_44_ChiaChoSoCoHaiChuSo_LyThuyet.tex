@@ -1,0 +1,142 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 44. Chia cho số có hai chữ số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 44: CHIA CHO SỐ CÓ HAI CHỮ SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Thuật toán ước lượng thương thông minh bằng làm tròn chục và kĩ thuật kiểm soát số dư trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCompass\ 1. Quy trình lấy chữ số để chia},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lượt chia đầu tiên}:
+    \par
+    --- Lấy \textbf{2 chữ số} của số bị chia.\\
+    --- Nếu 2 chữ số đó $< \text{số chia}$ thì phải lấy sang \textbf{3 chữ số}.
+    $\bullet$ \textbf{Các lượt chia tiếp theo}: Mỗi lần chỉ \textbf{hạ đúng 1 chữ số}.\\
+    $\bullet$ Mỗi lượt chia thực hiện 3 bước: \textbf{Chia (ước lượng) $\rightarrow$ Nhân $\rightarrow$ Trừ}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ 2. Mẹo nhẩm ước lượng thương},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Làm tròn số chia về tròn chục}:
+    \par
+    --- Số chia tận cùng $1, 2, 3 \rightarrow$ làm tròn lùi (ví dụ $32 \rightarrow 30$).\\
+    --- Số chia tận cùng $7, 8, 9 \rightarrow$ làm tròn tiến (ví dụ $38 \rightarrow 40$).
+    $\bullet$ \textbf{Bỏ chữ số hàng đơn vị để nhẩm}:\\
+    Ví dụ $92 : 32$: Lấy $9 : 3 = 3$. Thử: $32 \times 3 = 96 > 92$ (thương 3 bị to) $\rightarrow$ Lấy thương là $\mathbf{2}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: TIẾN TRÌNH ƯỚC LƯỢNG \& ĐIỀU CHỈNH THƯƠNG},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.88,
+    card/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center, text width=3.8cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    \node[card, draw=blue!75!black, fill=blue!10] (b1) at (0, 0) {\textbf{BƯỚC 1: LÀM TRÒN}\\Làm tròn số chia về\\số tròn chục gần nhất};
+    \node[card, draw=orange!85!black, fill=orange!10] (b2) at (4.8, 0) {\textbf{BƯỚC 2: NHẨM THƯƠNG}\\Bỏ chữ số cuối, lấy phần\\còn lại chia cho hàng chục};
+    \node[card, draw=teal!80!black, fill=teal!10] (b3) at (9.6, 0) {\textbf{BƯỚC 3: THỬ LẠI}\\Lấy thương nhẩm được\\nhân với số chia ban đầu};
+    \node[card, draw=purple!80!black, fill=purple!10] (b4) at (14.4, 0) {\textbf{BƯỚC 4: ĐIỀU CHỈNH}\\Nếu tích $>$ Bị chia: Giảm 1\\Nếu dư $\ge$ Số chia: Tăng 1};
+
+    \draw[arr] (b1) -- (b2);
+    \draw[arr] (b2) -- (b3);
+    \draw[arr] (b3) -- (b4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Ví dụ}: Đặt tính rồi tính $812 : 28$:\\
+    --- Lượt 1: Lấy $81$; $81 : 28 \approx 80 : 30 \rightarrow$ Nhẩm thương $2$.\\
+    Nhân thử: $2 \times 28 = 56$; $81 - 56 = \mathbf{25}$ ($25 < 28$ đúng).\\
+    --- Lượt 2: Hạ $2$ được $252$; $252 : 28 \approx 250 : 30 \rightarrow$ Nhẩm thương $9$.\\
+    Nhân thử: $9 \times 28 = 252$; $252 - 252 = \mathbf{0}$.\\
+    $\Rightarrow \mathbf{812 : 28 = 29}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy số dư lớn hơn số chia}:\\
+    Ví dụ ở lượt chia được số dư 30 mà số chia là 28 $\rightarrow$ Thương bị thiếu 1 đơn vị, phải tăng thương lên!\\
+    $\bullet$ \textbf{Bẫy lấy thiếu chữ số lượt đầu}:\\
+    Chia cho số có 2 chữ số thì lượt đầu ít nhất phải lấy 2 chữ số.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

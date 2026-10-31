@@ -1,0 +1,132 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 74. Ôn tập thống kê và xác suất --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 74. ÔN TẬP THỐNG KÊ VÀ XÁC SUẤT}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Kĩ năng phân tích bảng số liệu, biểu đồ quạt tròn và xác suất thực nghiệm chuẩn bị thi trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BẢNG SỐ LIỆU VÀ BIỂU ĐỒ QUẠT ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTable\ 1. Đọc và phân tích số liệu},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đọc tiêu đề, xác định rõ các dòng, cột và đơn vị đo tương ứng.\\
+    $\bullet$ Tìm thành phần trên biểu đồ quạt: $A = T \times p\%$.\\
+    $\bullet$ Tính tổng và so sánh tỉ lệ chênh lệch giữa các nhóm.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCubes\ 2. Xác suất thực nghiệm},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tỉ số số lần lặp lại:} $\text{Tỉ số} = \frac{m}{n}$ ($m$ lần xảy ra trên tổng số $n$ lần thử).\\
+    $\bullet$ \textbf{Quy luật số lớn:} Thử càng nhiều lần thì xác suất thực nghiệm càng gần với xác suất lý thuyết.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Ôn tập toàn diện Thống kê \& Xác suất},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faPieChart\ THỐNG KÊ \& XÁC SUẤT};
+    \node[b1] (n1) at (-4.8, -0.45) {\textbf{XỬ LÝ SỐ LIỆU THỐNG KÊ}\\[2pt]Đọc bảng số liệu $\rightarrow$ Phân tích biểu đồ\\Tính số lượng thành phần: $A = T \times p\%$\\Tìm tỉ lệ phần trăm: $p\% = (A : T) \times 100\%$};
+    \node[b2] (n2) at (4.8, -0.45) {\textbf{XÁC SUẤT THỰC NGHIỆM}\\[2pt]$\text{Tỉ số} = \frac{\text{Số lần xuất hiện } m}{\text{Tổng số lần thực nghiệm } n}$\\Dự đoán số lần xuất hiện ở quy mô lớn hơn\\Đưa ra quyết định và nhận xét hợp lý};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n2);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: KỸ NĂNG DỰ ĐOÁN & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLineChart\ Kỹ năng dự đoán xu thế số liệu},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Dựa vào tỉ số thực nghiệm đã có để nhân với quy mô khảo sát mới.\\
+    $\bullet$ Luôn nêu kèm cụm từ \textbf{``khoảng''} hoặc \textbf{``dự đoán''} vì đây là xác suất thực nghiệm, có thể có sai số ngẫu nhiên.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy phân số chưa tối giản:} Khi làm trắc nghiệm tỉ số xác suất, luôn kiểm tra xem kết quả đã được rút gọn tối giản chưa!\\
+    $\bullet$ Nhầm lẫn giữa số lần thử và số lần biến cố xảy ra.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

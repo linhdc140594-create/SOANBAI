@@ -1,0 +1,160 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 8. Ôn tập hình học và đo lường --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 08. ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Chu vi, diện tích các hình đã học & Bảng đơn vị đo độ dài, khối lượng trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÔNG THỨC HÌNH HỌC PHẲNG ĐÃ HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faShapes\ 1. Bảng tổng hợp Chu vi và Diện tích các hình phẳng},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+]
+  \scriptsize
+  \centering
+  \begin{tabular}{|l|c|c|l|}
+    \hline
+    \textbf{Tên hình} & \textbf{Chu vi ($P$)} & \textbf{Diện tích ($S$)} & \textbf{Chú thích các đại lượng} \\ \hline
+    \textbf{Hình vuông} & $P = a \times 4$ & $S = a \times a$ & $a$ là độ dài cạnh hình vuông \\ \hline
+    \textbf{Hình chữ nhật} & $P = (a + b) \times 2$ & $S = a \times b$ & $a$: chiều dài, $b$: chiều rộng \\ \hline
+    \textbf{Hình bình hành} & $P = (a + b) \times 2$ & $S = a \times h$ & $a$: độ dài đáy, $h$: chiều cao tương ứng \\ \hline
+    \textbf{Hình thoi} & $P = a \times 4$ & $S = \dfrac{m \times n}{2}$ & $m, n$: độ dài hai đường chéo \\ \hline
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: BẢNG ĐƠN VỊ ĐO ĐỘ DÀI VÀ KHỐI LƯỢNG ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faRuler\ 2. Bảng đơn vị đo độ dài},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.8mm, right=1.8mm
+  ]
+    \scriptsize
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+      \hline
+      km & hm & dam & \textbf{m} & dm & cm & mm \\ \hline
+      $10$ & $10$ & $10$ & \textbf{1} & $\frac{1}{10}$ & $\frac{1}{100}$ & $\frac{1}{1000}$ \\ \hline
+    \end{tabular}\\[3pt]
+    $\bullet$ Hai đơn vị liền kề gấp/kém nhau \textbf{10 lần}.\\
+    $\bullet$ $1\text{ km} = 1\,000\text{ m}$; $1\text{ m} = 100\text{ cm} = 1\,000\text{ mm}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 3. Bảng đơn vị đo khối lượng},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.8mm, right=1.8mm
+  ]
+    \scriptsize
+    \begin{tabular}{|c|c|c|c|c|c|c|}
+      \hline
+      tấn & tạ & yến & \textbf{kg} & hg & dag & g \\ \hline
+      $10$ & $10$ & $10$ & \textbf{1} & $\frac{1}{10}$ & $\frac{1}{100}$ & $\frac{1}{1000}$ \\ \hline
+    \end{tabular}\\[3pt]
+    $\bullet$ Hai đơn vị liền kề gấp/kém nhau \textbf{10 lần}.\\
+    $\bullet$ $1\text{ tấn} = 10\text{ tạ} = 1\,000\text{ kg}$; $1\text{ tạ} = 100\text{ kg}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ QUY TẮC ĐỔI ĐƠN VỊ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Quy tắc đổi đơn vị đo},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (left) at (-4.8, 0) {\textbf{Đơn vị LỚN $\longrightarrow$ Đơn vị BÉ}\\[2pt](\textbf{Nhân} với $10, 100, 1\,000\dots$)};
+    \node[b2] (right) at (4.8, 0) {\textbf{Đơn vị BÉ $\longrightarrow$ Đơn vị LỚN}\\[2pt](\textbf{Chia} cho $10, 100, 1\,000\dots$)};
+    \draw[teal!85!black, very thick, <->] (left) -- (right);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: LƯU Ý ĐỒNG NHẤT ĐƠN VỊ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationCircle\ Nguyên tắc vàng: Cùng đơn vị đo},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Trước khi tính Chu vi hoặc Diện tích, các kích thước \textbf{bắt buộc phải cùng một đơn vị đo}.\\
+    \textit{VD:} Chiều dài $2\text{ m}$, chiều rộng $15\text{ dm}$ $\rightarrow$ Phải đổi $2\text{ m} = 20\text{ dm}$ rồi mới tính: $S = 20 \times 15 = 300\text{ dm}^2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Diện tích hình thoi: Phải \textbf{chia cho 2} ($S = \dfrac{m \times n}{2}$), học sinh rất hay quên chia $2$!\\
+    $\bullet$ Nửa chu vi hình chữ nhật chính là: $\text{Dài} + \text{Rộng} = P : 2$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

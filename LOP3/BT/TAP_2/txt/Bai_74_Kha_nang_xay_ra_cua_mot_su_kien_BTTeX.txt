@@ -1,0 +1,199 @@
+\begin{ex}
+Gieo một con xúc xắc 6 mặt (từ 1 đến 6 chấm). Có thể xuất hiện mặt 7 chấm không? (Có ghi 1, Không ghi 0).
+\shortans{0}
+\loigiai{
+Xúc xắc chỉ có từ 1 đến 6 chấm nên không thể có 7 chấm.
+}
+\end{ex}
+
+\begin{ex}
+Gieo một đồng xu có hai mặt Sấp (S) và Ngửa (N). Có bao nhiêu khả năng có thể xảy ra về mặt xuất hiện?
+\shortans{2}
+\loigiai{
+Có 2 khả năng: mặt Sấp hoặc mặt Ngửa.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp chỉ có 5 viên bi đỏ. Lấy ngẫu nhiên 1 viên bi thì chắc chắn lấy được bi màu gì? (Bi đỏ ghi 1, Bi xanh ghi 2).
+\shortans{1}
+\loigiai{
+Chắc chắn lấy được bi đỏ.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 3 viên bi đỏ và 3 viên bi xanh. Lấy ngẫu nhiên 1 viên bi, có thể lấy được viên bi vàng không? (Có ghi 1, Không thể ghi 0).
+\shortans{0}
+\loigiai{
+Không thể lấy được bi vàng.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 4 viên bi xanh và 2 viên bi đỏ. Sự kiện 'Lấy được viên bi xanh' là: (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{2}
+\loigiai{
+Có thể lấy được bi xanh (hoặc bi đỏ).
+}
+\end{ex}
+
+\begin{ex}
+Mặt trời mọc ở hướng Đông vào mỗi sáng là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{1}
+\loigiai{
+Chắc chắn xảy ra.
+}
+\end{ex}
+
+\begin{ex}
+Một con cá biết bay trên trời như chim là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{3}
+\loigiai{
+Không thể xảy ra.
+}
+\end{ex}
+
+\begin{ex}
+Ngày mai trời có mưa là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{2}
+\loigiai{
+Có thể xảy ra.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp có 10 chiếc kẹo, trong đó có 10 chiếc kẹo cam. Lấy ngẫu nhiên 1 chiếc kẹo thì chắc chắn lấy được kẹo gì? (Kẹo cam ghi 1, kẹo dâu ghi 2).
+\shortans{1}
+\loigiai{
+Chắc chắn là kẹo cam.
+}
+\end{ex}
+
+\begin{ex}
+Tung một con xúc xắc, sự kiện 'Số chấm xuất hiện nhỏ hơn 7' là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{1}
+\loigiai{
+Chắc chắn, vì xúc xắc có từ 1 đến 6 chấm (đều < 7).
+}
+\end{ex}
+
+\begin{ex}
+Tung một con xúc xắc, sự kiện 'Số chấm xuất hiện bằng 0' là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{3}
+\loigiai{
+Không thể, xúc xắc không có mặt 0 chấm.
+}
+\end{ex}
+
+\begin{ex}
+Tung một con xúc xắc, sự kiện 'Số chấm xuất hiện là số chẵn' là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{2}
+\loigiai{
+Có thể xảy ra (mặt 2, 4, hoặc 6).
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu mặt là số chẵn trên một con xúc xắc 6 mặt?
+\shortans{3}
+\loigiai{
+Có 3 mặt chẵn: 2, 4, 6.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu mặt là số lẻ trên một con xúc xắc 6 mặt?
+\shortans{3}
+\loigiai{
+Có 3 mặt lẻ: 1, 3, 5.
+}
+\end{ex}
+
+\begin{ex}
+Trong túi có 5 quả bóng xanh và 5 quả bóng đỏ. Không nhìn vào túi, phải lấy ra ít nhất bao nhiêu quả bóng để chắc chắn có ít nhất 1 quả bóng đỏ?
+\shortans{6}
+\loigiai{
+Trường hợp xấu nhất lấy phải 5 quả bóng xanh, cần lấy quả thứ 6 để chắc chắn có bóng đỏ.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 4 viên bi vàng và 6 viên bi đỏ. Cần lấy ra ít nhất bao nhiêu viên bi để chắc chắn có ít nhất 1 viên bi vàng?
+\shortans{7}
+\loigiai{
+Trường hợp xấu nhất lấy hết 6 viên bi đỏ, lấy thêm 1 viên nữa: $6 + 1 = 7$ viên.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 10 viên bi xanh. Lấy ra 2 viên bi thì có thể có viên bi đỏ nào không? (Có ghi 1, Không ghi 0).
+\shortans{0}
+\loigiai{
+Không thể có bi đỏ.
+}
+\end{ex}
+
+\begin{ex}
+Quay một vòng quay chia thành 4 phần bằng nhau có ghi số 1, 2, 3, 4. Có bao nhiêu khả năng mũi tên dừng lại ở một ô số?
+\shortans{4}
+\loigiai{
+Có 4 khả năng.
+}
+\end{ex}
+
+\begin{ex}
+Vòng quay có 4 số: 1, 2, 3, 4. Mũi tên có thể chỉ vào số 5 không? (Có ghi 1, Không ghi 0).
+\shortans{0}
+\loigiai{
+Không thể chỉ vào số 5.
+}
+\end{ex}
+
+\begin{ex}
+Rút ngẫu nhiên một tấm thẻ từ tập thẻ đánh số từ 1 đến 10. Có thể rút được thẻ ghi số 8 không? (Có ghi 1, Không ghi 0).
+\shortans{1}
+\loigiai{
+Có thể rút được thẻ số 8.
+}
+\end{ex}
+
+\begin{ex}
+Rút ngẫu nhiên một thẻ từ tập thẻ từ 1 đến 10. Sự kiện rút được thẻ số 12 là sự kiện gì? (Chắc chắn ghi 1, Có thể ghi 2, Không thể ghi 3).
+\shortans{3}
+\loigiai{
+Không thể xảy ra.
+}
+\end{ex}
+
+\begin{ex}
+Rút ngẫu nhiên một thẻ từ 1 đến 10. Có bao nhiêu thẻ mang số chẵn?
+\shortans{5}
+\loigiai{
+Các số 2, 4, 6, 8, 10 (5 thẻ).
+}
+\end{ex}
+
+\begin{ex}
+Rút ngẫu nhiên một thẻ từ 1 đến 10. Có bao nhiêu thẻ mang số lẻ?
+\shortans{5}
+\loigiai{
+Các số 1, 3, 5, 7, 9 (5 thẻ).
+}
+\end{ex}
+
+\begin{ex}
+Bạn Nam tung đồng xu 10 lần thì số lần mặt Ngửa xuất hiện có thể lớn hơn 10 không? (Có ghi 1, Không ghi 0).
+\shortans{0}
+\loigiai{
+Tung 10 lần thì tối đa chỉ có 10 lần ngửa.
+}
+\end{ex}
+
+\begin{ex}
+Hai bạn chơi oẳn tù tì. Trong một ván chơi có mấy kết quả có thể xảy ra đối với bạn thứ nhất? (Thắng, thua, hòa).
+\shortans{3}
+\loigiai{
+Có 3 kết quả: Thắng, Thua hoặc Hòa.
+}
+\end{ex}

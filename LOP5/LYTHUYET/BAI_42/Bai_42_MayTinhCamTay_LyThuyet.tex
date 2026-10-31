@@ -1,0 +1,155 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 42. Máy tính cầm tay --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 42. MÁY TÍNH CẦM TAY}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Làm quen các phím bấm cơ bản ON/C, CE, các phép tính, dấu phẩy và giải toán trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÁC PHÍM CHỨC NĂNG CƠ BẢN ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKeyboardO\ 1. Các phím chức năng trên máy tính cầm tay},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{ON / C (hoặc AC):} Bật máy và xóa sạch màn hình.\\
+    $\bullet$ \textbf{CE:} Xóa số vừa nhập gần nhất (khi bấm nhầm).\\
+    $\bullet$ \textbf{Phím số từ $0$ đến $9$:} Dùng nhập các chữ số.\\
+    $\bullet$ \textbf{Phím dấu chấm (.)}: Dùng nhập \textbf{dấu phẩy} của số thập phân trên màn hình.\\
+    $\bullet$ \textbf{Các phím phép tính:} $+ \quad - \quad \times \quad \div$ (hoặc $/$).\\
+    $\bullet$ \textbf{Phím bằng ($=$):} Hiện kết quả tính toán.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ Màn hình hiển thị},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \begin{tcolorbox}[colback=black!85, colframe=black, arc=1.5mm, halign=right, top=2mm, bottom=2mm]
+      {\fontfamily{lmtt}\bfseries\color{green!85!white}\large 125.8}
+    \end{tcolorbox}
+    {\tiny\color{teal!95!black}\bfseries Dấu chấm trên màn hình chính là dấu phẩy STP}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: THAO TÁC BẤM PHÍM CHUẨN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faHandPointerO\ 2. Quy trình thực hiện các phép tính cơ bản},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \textbf{Phép tính cộng trừ nhân chia:}\\
+  $\triangleright$ Nhập số thứ nhất $\rightarrow$ Nhấn phím phép tính ($+, -, \times, \div$) $\rightarrow$ Nhập số thứ hai $\rightarrow$ Nhấn phím $=$.\\
+  \textit{VD tính $25,4 \times 3,6$}: Bấm lần lượt: \fbox{2} \fbox{5} \fbox{.} \fbox{4} \fbox{$\times$} \fbox{3} \fbox{.} \fbox{6} \fbox{$=$} $\rightarrow$ Màn hình hiện: $\mathbf{91.44}$.\\[2pt]
+  \textbf{Tính tỉ số phần trăm:} Nhập số $A$ $\rightarrow$ Bấm $\div$ $\rightarrow$ Nhập số $B$ $\rightarrow$ Bấm phím \fbox{\%} (máy tính tự nhân $100$ và hiện tỉ số phần trăm).
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kỹ năng sử dụng máy tính cầm tay},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {Bật máy: \fbox{ON/C}\\Màn hình về 0};
+    \node[b2] (n2) at (0, 0) {Nhập số và phép tính\\Dấu phẩy bấm phím \fbox{.}};
+    \node[b3] (n3) at (5.8, 0) {Bấm \fbox{=}\\Đọc \& Ghi kết quả};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: VAI TRÒ HỖ TRỢ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Sử dụng máy tính như một công cụ hỗ trợ},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Dùng kiểm tra lại đáp án sau khi đã tính nhẩm/đặt tính tay.\\
+    $\bullet$ Giúp giải quyết nhanh các bài toán có số liệu lớn trong đời sống thực tế (doanh số, dân số, tiền gửi ngân hàng).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Máy tính đơn giản học sinh thường không có quy tắc nhân chia trước, cộng trừ sau $\rightarrow$ Phải bấm đúng thứ tự ưu tiên từng bước!\\
+    $\bullet$ Dấu chấm trên máy tính là dấu phẩy thập phân của Việt Nam.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

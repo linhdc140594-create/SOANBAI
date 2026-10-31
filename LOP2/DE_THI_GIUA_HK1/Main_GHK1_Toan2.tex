@@ -1,0 +1,114 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz,tkz-tab}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.6cm, right=1.6cm, headheight=18pt]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{tabularx,colortbl}
+\usepackage{multicol}
+
+% Goi ex_test (dethi de in de hoc sinh, loigiai de in kem loi giai)
+\usepackage[loigiai]{ex_test}
+
+\def\colorEX{\color{blue}}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\color{gray} Đề kiểm tra Giữa học kì 1 -- Môn Toán 2}
+\fancyhead[R]{\small\bfseries\color{blue!80!black} Lớp Toán Thầy Lĩnh}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\everymath{\color{blue}}
+
+% =============================================================================
+% KHUNG TIEU DE VA BANG DANH GIA CHUAN: DIEM SO | NHAN XET | MA QR LOI GIAI
+% =============================================================================
+\newcommand{\TaoPhieuKiemTra}[1]{%
+  \refstepcounter{section}%
+  \addcontentsline{toc}{section}{Đề số #1 -- Đề kiểm tra giữa học kì 1}%
+  \begin{center}
+    {\bfseries\LARGE\color{red!85!black} ĐỀ KIỂM TRA GIỮA HỌC KÌ 1}\\[4pt]
+    {\bfseries\large\color{blue!85!black} MÔN: TOÁN -- LỚP 2 (ĐỀ SỐ #1)}\\[3pt]
+    {\itshape\small Thời gian: 40 phút (Không kể phát đề)}
+  \end{center}
+  \par\vspace{1mm}
+  \noindent
+  \renewcommand{\arraystretch}{1.15}
+  \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{2.6cm}|X|>{\centering\arraybackslash}p{3.2cm}|}
+    \hline
+    \rowcolor{blue!8}
+    \textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} & \textbf{MÃ QR LỜI GIẢI} \tabularnewline
+    \hline
+    \rule{0pt}{2.2cm} & & 
+    \IfFileExists{QR_De_#1.png}{%
+      \begin{tikzpicture}[baseline=(qr.center)]
+        \node (qr) [align=center, inner sep=0pt] {
+          \includegraphics[width=1.85cm,height=1.85cm]{QR_De_#1.png}\\[2pt]
+          {\fontsize{6pt}{7pt}\bfseries\selectfont\color{blue!80!black} QUÉT XEM LỜI GIẢI}
+        };
+      \end{tikzpicture}%
+    }{%
+      \begin{tikzpicture}[baseline=(qr.center)]
+        \node (qr) [draw=gray!50, dashed, rounded corners=2pt, minimum width=2.1cm, minimum height=2.1cm, align=center, inner sep=1pt] {
+          {\fontsize{13pt}{13pt}\selectfont\color{gray!50}\faQrcode}\\[2pt]
+          {\fontsize{6.5pt}{7.5pt}\bfseries\selectfont\color{gray!70} DÁN MÃ QR}\\[1pt]
+          {\fontsize{5.5pt}{6.5pt}\selectfont\color{gray!60} (Google Drive)}
+        };
+      \end{tikzpicture}%
+    } \tabularnewline
+    \hline
+  \end{tabularx}
+  \par\vspace{3mm}
+}
+
+\newtheorem{bt}{\faEdit~Bài}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+\input{De_01.tex}
+\newpage
+\input{De_02.tex}
+\newpage
+\input{De_03.tex}
+\newpage
+\input{De_04.tex}
+\newpage
+\input{De_05.tex}
+\newpage
+\input{De_06.tex}
+\newpage
+\input{De_07.tex}
+\newpage
+\input{De_08.tex}
+\newpage
+\input{De_09.tex}
+\newpage
+\input{De_10.tex}
+\newpage
+\input{De_11.tex}
+\newpage
+\input{De_12.tex}
+\newpage
+\input{De_13.tex}
+\newpage
+\input{De_14.tex}
+\newpage
+\input{De_15.tex}
+\newpage
+\input{De_16.tex}
+\newpage
+\input{De_17.tex}
+\newpage
+\input{De_18.tex}
+\newpage
+\input{De_19.tex}
+\newpage
+\input{De_20.tex}
+\newpage
+\end{document}

@@ -1,0 +1,1109 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 401 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 401} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Công thức tìm số lớn khi biết tổng và hiệu của hai số là:}{$(\text{Tổng} - \text{Hiệu}) : 2$}{$(\text{Tổng} + \text{Hiệu}) : 2$}{$(\text{Tổng} + \text{Hiệu}) \times 2$}{$\text{Tổng} : 2 + \text{Hiệu}$}
+\cauTN{2}{Công thức tìm số bé khi biết tổng và hiệu của hai số là:}{$(\text{Tổng} - \text{Hiệu}) : 2$}{$(\text{Tổng} + \text{Hiệu}) : 2$}{$\text{Tổng} - \text{Hiệu}$}{$(\text{Tổng} - \text{Hiệu}) \times 2$}
+\cauTN{3}{Tổng của hai số là $100$, hiệu của hai số là $20$. Số lớn là:}{$50$}{$60$}{$40$}{$70$}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $5\,\text{tấn}\,80\,\text{kg} = \dots\,\text{kg}$ là:}{$580$}{$5\,080$}{$5\,800$}{$58\,000$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $7\,\text{m}^2\,15\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$715$}{$7\,015$}{$7\,150$}{$76$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{4}$ giờ bằng bao nhiêu phút?}{$10$ phút}{$15$ phút}{$20$ phút}{$25$ phút}
+\cauTN{7}{Hai số chẵn liên tiếp có tổng bằng $54$. Hai số đó là:}{$26$ và $28$}{$25$ và $29$}{$24$ và $30$}{$27$ và $27$}
+\cauTN{8}{Mẹ hơn con $26$ tuổi, tổng số tuổi của hai mẹ con là $42$ tuổi. Tuổi của con là:}{$6$ tuổi}{$8$ tuổi}{$10$ tuổi}{$16$ tuổi}
+\cauTN{9}{Một mảnh đất hình chữ nhật có nửa chu vi là $60\,\text{m}$, chiều dài hơn chiều rộng $12\,\text{m}$. Chiều dài mảnh đất là:}{$24\,\text{m}$}{$36\,\text{m}$}{$48\,\text{m}$}{$30\,\text{m}$}
+\cauTN{10}{Làm tròn số $458\,620$ đến hàng trăm nghìn ta được số:}{$400\,000$}{$460\,000$}{$500\,000$}{$450\,000$}
+\cauTNhaiDong{11}{Hiệu giữa số lớn nhất có 5 chữ số và số bé nhất có 5 chữ số giống nhau là:}{$88\,888$}{$89\,999$}{$90\,000$}{$88\,889$}
+\cauTNhaiDong{12}{Hai lớp 4A và 4B quyên góp được $150$ quyển vở, trong đó lớp 4A quyên góp nhiều hơn lớp 4B là $20$ quyển. Lớp 4A quyên góp được:}{$65$ quyển}{$85$ quyển}{$75$ quyển}{$90$ quyển}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$456\,728 + 278\,546$} & 
+\oDatTinh[4]{b)}{$852\,410 - 367\,855$} & 
+\oDatTinh[4]{c)}{$14\,256 \times 6$} & 
+\oDatTinh[4]{d)}{$58\,485 : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 401} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 25\,480 = 71\,260$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $84\,200 - x = 37\,450$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 38\,520 = 56\,790$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 12\,450$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $6\,\text{tấn}\,450\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $9\,\text{m}^2\,36\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $5\,\text{thế kỉ}\,24\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $3\,\text{phút}\,45\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 42 m, đáy bé 28 m, chiều cao 25 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 65 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình tam giác có đáy 24 cm. Nếu kéo dài đáy thêm 6 cm thì diện tích tăng thêm 45 $\text{cm}^2$. Tính diện tích hình tam giác ban đầu.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 402 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 402} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Muốn tìm số lớn trong bài toán tổng - hiệu ta thực hiện:}{Lấy tổng cộng hiệu rồi chia cho 2}{Lấy tổng trừ hiệu rồi chia cho 2}{Lấy tổng cộng hiệu}{Lấy tổng nhân hiệu}
+\cauTN{2}{Muốn tìm số bé trong bài toán tổng - hiệu ta thực hiện:}{Lấy số lớn cộng hiệu}{Lấy tổng trừ hiệu rồi chia cho 2}{Lấy tổng cộng hiệu rồi chia cho 2}{Lấy tổng chia cho hiệu}
+\cauTN{3}{Tổng của hai số là $80$, hiệu của hai số là $16$. Số bé là:}{$32$}{$48$}{$36$}{$40$}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $7\,\text{tấn}\,90\,\text{kg} = \dots\,\text{kg}$ là:}{$790$}{$7\,090$}{$7\,900$}{$79\,000$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $8\,\text{m}^2\,25\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$825$}{$8\,025$}{$8\,250$}{$87$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{3}$ giờ bằng bao nhiêu phút?}{$15$ phút}{$20$ phút}{$25$ phút}{$30$ phút}
+\cauTN{7}{Hai số lẻ liên tiếp có tổng bằng $64$. Hai số đó là:}{$31$ và $33$}{$30$ và $34$}{$29$ và $35$}{$32$ và $32$}
+\cauTN{8}{Bố hơn con $28$ tuổi. Tổng số tuổi của hai bố con hiện nay là $46$ tuổi. Tuổi con là:}{$7$ tuổi}{$9$ tuổi}{$10$ tuổi}{$12$ tuổi}
+\cauTN{9}{Một mảnh vườn hình chữ nhật có nửa chu vi là $80\,\text{m}$, chiều dài hơn chiều rộng $20\,\text{m}$. Chiều rộng là:}{$30\,\text{m}$}{$50\,\text{m}$}{$25\,\text{m}$}{$40\,\text{m}$}
+\cauTN{10}{Làm tròn số $647\,350$ đến hàng trăm nghìn ta được số:}{$600\,000$}{$700\,000$}{$650\,000$}{$640\,000$}
+\cauTNhaiDong{11}{Giá trị của biểu thức $a + b$ với $a = 34\,500$ và $b = 45\,500$ là:}{$79\,000$}{$80\,000$}{$81\,000$}{$70\,000$}
+\cauTNhaiDong{12}{Hai thùng chứa tất cả $120\,\text{lít}$ dầu, thùng thứ nhất có nhiều hơn thùng thứ hai $24\,\text{lít}$. Thùng thứ hai chứa:}{$48\,\text{lít}$}{$72\,\text{lít}$}{$50\,\text{lít}$}{$46\,\text{lít}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$528\,640 + 194\,785$} & 
+\oDatTinh[4]{b)}{$745\,320 - 289\,674$} & 
+\oDatTinh[4]{c)}{$16\,348 \times 5$} & 
+\oDatTinh[4]{d)}{$63\,855 : 9$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 402} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 36\,520 = 84\,160$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $91\,300 - x = 46\,250$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 45\,380 = 67\,910$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7 = 14\,236$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $8\,\text{tấn}\,360\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $7\,\text{m}^2\,48\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $6\,\text{thế kỉ}\,15\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{phút}\,20\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình tam giác có độ dài đáy 56 m, chiều cao tương ứng bằng 35 m. Người ta trồng ngô trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 80 kg ngô. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ ngô?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình thang có đáy lớn 30 cm, đáy bé 18 cm và diện tích 384 $\text{cm}^2$. Tính chiều cao của hình thang.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 403 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 403} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Biết tổng hai số là $S$ và hiệu hai số là $H$. Biểu thức tìm số bé là:}{$(S - H) : 2$}{$(S + H) : 2$}{$S - H$}{$S + H$}
+\cauTN{2}{Biết tổng hai số là $S$ và hiệu hai số là $H$. Biểu thức tìm số lớn là:}{$(S + H) : 2$}{$(S - H) : 2$}{$S : 2 + H$}{$S + H$}
+\cauTN{3}{Hai số có tổng là $120$, hiệu là $30$. Số lớn là:}{$70$}{$75$}{$80$}{$85$}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $4\,\text{tấn}\,65\,\text{kg} = \dots\,\text{kg}$ là:}{$465$}{$4\,065$}{$4\,650$}{$46\,500$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $6\,\text{m}^2\,42\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$642$}{$6\,042$}{$6\,420$}{$66$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{5}$ giờ bằng bao nhiêu phút?}{$10$ phút}{$12$ phút}{$15$ phút}{$20$ phút}
+\cauTN{7}{Hai số chẵn liên tiếp có tổng bằng $74$. Hai số đó là:}{$36$ và $38$}{$35$ và $39$}{$34$ và $40$}{$37$ và $37$}
+\cauTN{8}{Hai anh em có tổng số tuổi là $24$ tuổi. Anh hơn em $6$ tuổi. Tuổi của anh là:}{$13$ tuổi}{$14$ tuổi}{$15$ tuổi}{$16$ tuổi}
+\cauTN{9}{Một mảnh đất hình chữ nhật có chu vi $100\,\text{m}$, chiều dài hơn chiều rộng $10\,\text{m}$. Chiều dài là:}{$25\,\text{m}$}{$30\,\text{m}$}{$35\,\text{m}$}{$40\,\text{m}$}
+\cauTN{10}{Làm tròn số $784\,290$ đến hàng trăm nghìn ta được số:}{$700\,000$}{$800\,000$}{$780\,000$}{$790\,000$}
+\cauTNhaiDong{11}{Số lớn nhất có 6 chữ số khác nhau kết thúc bằng chữ số 0 là:}{$987\,650$}{$987\,640$}{$999\,990$}{$986\,750$}
+\cauTNhaiDong{12}{Hai bao đường cân nặng tất cả $90\,\text{kg}$, bao thứ nhất nặng hơn bao thứ hai $16\,\text{kg}$. Bao thứ hai nặng:}{$37\,\text{kg}$}{$53\,\text{kg}$}{$35\,\text{kg}$}{$40\,\text{kg}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$634\,528 + 278\,694$} & 
+\oDatTinh[4]{b)}{$924\,310 - 458\,765$} & 
+\oDatTinh[4]{c)}{$15\,428 \times 6$} & 
+\oDatTinh[4]{d)}{$74\,632 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 403} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 42\,390 = 95\,140$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $95\,400 - x = 48\,730$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 56\,240 = 78\,390$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6 = 15\,348$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $7\,\text{tấn}\,520\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $9\,\text{m}^2\,64\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $4\,\text{thế kỉ}\,50\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{phút}\,30\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 60 m, đáy bé bằng $\dfrac{2}{3}$ đáy lớn, chiều cao 30 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 70 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình tam giác có diện tích 240 $\text{cm}^2$, đáy 20 cm. Người ta kéo dài đáy thêm 5 cm. Tính diện tích hình tam giác mới.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 404 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 404} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Nếu biết số lớn và hiệu, ta tìm số bé bằng cách:}{Lấy số lớn cộng hiệu}{Lấy số lớn trừ hiệu}{Lấy hiệu trừ số lớn}{Lấy số lớn chia hiệu}
+\cauTN{2}{Nếu biết số bé và hiệu, ta tìm số lớn bằng cách:}{Lấy số bé trừ hiệu}{Lấy số bé cộng hiệu}{Lấy hiệu chia số bé}{Lấy số bé nhân 2}
+\cauTN{3}{Tổng của hai số là $150$, hiệu của hai số là $40$. Số bé là:}{$50$}{$55$}{$60$}{$95$}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $6\,\text{tấn}\,75\,\text{kg} = \dots\,\text{kg}$ là:}{$675$}{$6\,075$}{$6\,750$}{$67\,500$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $5\,\text{m}^2\,86\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$586$}{$5\,086$}{$5\,860$}{$59$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{6}$ giờ bằng bao nhiêu phút?}{$8$ phút}{$10$ phút}{$12$ phút}{$15$ phút}
+\cauTN{7}{Hai số lẻ liên tiếp có tổng bằng $88$. Hai số đó là:}{$43$ và $45$}{$42$ và $46$}{$41$ và $47$}{$44$ và $44$}
+\cauTN{8}{Chị hơn em $5$ tuổi. Tổng số tuổi của hai chị em là $19$ tuổi. Tuổi của em là:}{$6$ tuổi}{$7$ tuổi}{$8$ tuổi}{$12$ tuổi}
+\cauTN{9}{Một mảnh đất hình chữ nhật có chu vi $120\,\text{m}$, chiều dài hơn chiều rộng $16\,\text{m}$. Chiều rộng là:}{$22\,\text{m}$}{$38\,\text{m}$}{$25\,\text{m}$}{$30\,\text{m}$}
+\cauTN{10}{Làm tròn số $891\,500$ đến hàng trăm nghìn ta được số:}{$800\,000$}{$900\,000$}{$890\,000$}{$1\,000\,000$}
+\cauTNhaiDong{11}{Số tự nhiên liền sau số $999\,999$ là:}{$999\,998$}{$1\,000\,000$}{$1\,000\,001$}{$100\,000$}
+\cauTNhaiDong{12}{Hai tổ công nhân dệt được $240$ chiếc áo, tổ 1 dệt nhiều hơn tổ 2 là $30$ chiếc. Tổ 1 dệt được:}{$105$ chiếc}{$135$ chiếc}{$140$ chiếc}{$120$ chiếc}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$478\,635 + 386\,489$} & 
+\oDatTinh[4]{b)}{$865\,420 - 478\,695$} & 
+\oDatTinh[4]{c)}{$17\,345 \times 5$} & 
+\oDatTinh[4]{d)}{$56\,952 : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 404} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 45\,670 = 98\,240$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $96\,200 - x = 53\,480$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 63\,480 = 85\,720$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9 = 12\,345$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $9\,\text{tấn}\,180\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $8\,\text{m}^2\,75\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $7\,\text{thế kỉ}\,30\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{phút}\,50\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình tam giác có chiều cao 24 m, độ dài đáy bằng $\dfrac{5}{4}$ chiều cao. Người ta trồng ngô trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 75 kg ngô. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ ngô?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình thang có diện tích 450 $\text{cm}^2$, đáy lớn 32 cm, đáy bé 28 cm. Người ta giảm đáy lớn đi 4 cm. Diện tích hình thang giảm đi bao nhiêu xăng-ti-mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 405 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 405} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Trong bài toán tổng - hiệu, hiệu hai số bằng:}{Số lớn trừ Số bé}{Số lớn cộng Số bé}{Số bé trừ Số lớn}{Tổng chia cho 2}
+\cauTN{2}{Tổng hai số bằng $200$, hiệu hai số bằng $50$. Số lớn là:}{$100$}{$125$}{$75$}{$150$}
+\cauTN{3}{Tổng hai số bằng $160$, hiệu hai số bằng $40$. Số bé là:}{$50$}{$60$}{$70$}{$80$}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $8\,\text{tấn}\,45\,\text{kg} = \dots\,\text{kg}$ là:}{$845$}{$8\,045$}{$8\,450$}{$84\,500$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $9\,\text{m}^2\,53\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$953$}{$9\,053$}{$9\,530$}{$98$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{10}$ giờ bằng bao nhiêu phút?}{$4$ phút}{$5$ phút}{$6$ phút}{$10$ phút}
+\cauTN{7}{Hai số chẵn liên tiếp có tổng bằng $98$. Hai số đó là:}{$48$ và $50$}{$47$ và $51$}{$46$ và $52$}{$49$ và $49$}
+\cauTN{8}{Mẹ hơn con $30$ tuổi. Tổng số tuổi hai mẹ con là $48$ tuổi. Tuổi mẹ là:}{$35$ tuổi}{$39$ tuổi}{$40$ tuổi}{$42$ tuổi}
+\cauTN{9}{Một khu vườn hình chữ nhật có chu vi $160\,\text{m}$, chiều dài hơn chiều rộng $24\,\text{m}$. Chiều dài là:}{$48\,\text{m}$}{$52\,\text{m}$}{$56\,\text{m}$}{$60\,\text{m}$}
+\cauTN{10}{Làm tròn số $726\,400$ đến hàng trăm nghìn ta được số:}{$700\,000$}{$730\,000$}{$800\,000$}{$720\,000$}
+\cauTNhaiDong{11}{Giá trị của biểu thức $m - n$ với $m = 84\,000, n = 36\,000$ là:}{$46\,000$}{$48\,000$}{$50\,000$}{$52\,000$}
+\cauTNhaiDong{12}{Một cửa hàng bán được tất cả $180\,\text{kg}$ gạo tẻ và gạo nếp, trong đó gạo tẻ nhiều hơn gạo nếp là $40\,\text{kg}$. Gạo nếp bán được là:}{$70\,\text{kg}$}{$110\,\text{kg}$}{$60\,\text{kg}$}{$80\,\text{kg}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$564\,820 + 287\,395$} & 
+\oDatTinh[4]{b)}{$912\,400 - 456\,825$} & 
+\oDatTinh[4]{c)}{$18\,245 \times 4$} & 
+\oDatTinh[4]{d)}{$65\,436 : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 405} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 52\,380 = 97\,450$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $94\,500 - x = 48\,620$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 47\,650 = 86\,390$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 16\,425$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $5\,\text{tấn}\,640\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $7\,\text{m}^2\,82\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $8\,\text{thế kỉ}\,20\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{phút}\,45\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 75 m, đáy bé 45 m, chiều cao bằng trung bình cộng hai đáy. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 60 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Cho hình tam giác ABC có diện tích 180 $\text{cm}^2$, đáy BC = 24 cm. Trên BC lấy điểm M sao cho BM = 8 cm. Tính diện tích hình tam giác ABM.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 406 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 406} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Biết tổng và hiệu của hai số, cách tìm số lớn là:}{Tổng trừ hiệu chia 2}{Tổng cộng hiệu chia 2}{Tổng nhân hiệu}{Tổng chia hiệu}
+\cauTN{2}{Hai số có tổng bằng $240$ và hiệu bằng $60$. Số bé là:}{$80$}{$90$}{$100$}{$150$}
+\cauTN{3}{Hai số có tổng bằng $180$ và hiệu bằng $20$. Số lớn là:}{$90$}{$100$}{$110$}{$80$}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $4\,\text{tấn}\,95\,\text{kg} = \dots\,\text{kg}$ là:}{$495$}{$4\,095$}{$4\,950$}{$49\,500$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $6\,\text{m}^2\,68\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$668$}{$6\,068$}{$6\,680$}{$69$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{12}$ giờ bằng bao nhiêu phút?}{$4$ phút}{$5$ phút}{$6$ phút}{$8$ phút}
+\cauTN{7}{Hai số lẻ liên tiếp có tổng bằng $104$. Hai số đó là:}{$51$ và $53$}{$50$ và $54$}{$49$ và $55$}{$52$ và $52$}
+\cauTN{8}{Bố hơn con $32$ tuổi. Tổng tuổi bố và con là $52$ tuổi. Tuổi con là:}{$8$ tuổi}{$10$ tuổi}{$12$ tuổi}{$14$ tuổi}
+\cauTN{9}{Một mảnh đất hình chữ nhật có nửa chu vi $75\,\text{m}$, chiều dài hơn chiều rộng $15\,\text{m}$. Chiều rộng là:}{$30\,\text{m}$}{$45\,\text{m}$}{$25\,\text{m}$}{$35\,\text{m}$}
+\cauTN{10}{Làm tròn số $845\,700$ đến hàng trăm nghìn ta được số:}{$800\,000$}{$900\,000$}{$850\,000$}{$840\,000$}
+\cauTNhaiDong{11}{Hiệu giữa số bé nhất có 6 chữ số khác nhau và số lớn nhất có 5 chữ số là:}{$2\,346$}{$2\,345$}{$2\,347$}{$1\,000$}
+\cauTNhaiDong{12}{Hai kho thóc có tất cả $320\,\text{tấn}$ thóc, kho thứ nhất nhiều hơn kho thứ hai $40\,\text{tấn}$. Kho thứ hai có:}{$140\,\text{tấn}$}{$180\,\text{tấn}$}{$130\,\text{tấn}$}{$150\,\text{tấn}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$647\,350 + 286\,795$} & 
+\oDatTinh[4]{b)}{$843\,200 - 378\,654$} & 
+\oDatTinh[4]{c)}{$16\,425 \times 5$} & 
+\oDatTinh[4]{d)}{$73\,647 : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 406} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 48\,350 = 96\,210$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $97\,200 - x = 52\,470$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 54\,280 = 79\,460$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7 = 18\,246$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $6\,\text{tấn}\,720\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $8\,\text{m}^2\,56\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $5\,\text{thế kỉ}\,60\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $6\,\text{phút}\,20\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình tam giác vuông có hai cạnh góc vuông dài 40 m và 30 m. Người ta trồng khoai trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 90 kg khoai. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ khoai?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình thang có đáy lớn 36 cm, đáy bé 24 cm, chiều cao 20 cm. Kéo dài đáy lớn thêm 6 cm thì diện tích hình thang tăng thêm bao nhiêu xăng-ti-mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 407 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 13)} & \textbf{MÃ ĐỀ: 407} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Hai số có tổng bằng $300$ và hiệu bằng $80$. Số lớn là:}{$180$}{$190$}{$200$}{$110$}
+\cauTN{2}{Hai số có tổng bằng $250$ và hiệu bằng $50$. Số bé là:}{$90$}{$100$}{$110$}{$150$}
+\cauTN{3}{Tổng của hai số lẻ liên tiếp luôn là một số:}{Lẻ}{Chẵn}{Chia hết cho 5}{Có tận cùng là 0}
+\cauTN{4}{Số thích hợp điền vào chỗ chấm $9\,\text{tấn}\,60\,\text{kg} = \dots\,\text{kg}$ là:}{$960$}{$9\,060$}{$9\,600$}{$96\,000$}
+\cauTN{5}{Số thích hợp điền vào chỗ chấm $7\,\text{m}^2\,74\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$774$}{$7\,074$}{$7\,740$}{$78$}
+\cauTN{6}{Khoảng thời gian $\dfrac{1}{2}$ giờ bằng bao nhiêu phút?}{$20$ phút}{$30$ phút}{$40$ phút}{$45$ phút}
+\cauTN{7}{Hai số chẵn liên tiếp có tổng bằng $114$. Hai số đó là:}{$56$ và $58$}{$55$ và $59$}{$54$ và $60$}{$57$ và $57$}
+\cauTN{8}{Mẹ hơn con $24$ tuổi. Bốn năm nữa tổng số tuổi của hai mẹ con là $52$ tuổi. Hiệu số tuổi của hai mẹ con bốn năm nữa là:}{$24$ tuổi}{$28$ tuổi}{$20$ tuổi}{$32$ tuổi}
+\cauTN{9}{Một mảnh đất hình chữ nhật có chu vi $160\,\text{m}$, chiều dài hơn chiều rộng $20\,\text{m}$. Chiều dài là:}{$40\,\text{m}$}{$50\,\text{m}$}{$60\,\text{m}$}{$30\,\text{m}$}
+\cauTN{10}{Làm tròn số $954\,800$ đến hàng trăm nghìn ta được số:}{$900\,000$}{$950\,000$}{$1\,000\,000$}{$960\,000$}
+\cauTNhaiDong{11}{Giá trị của biểu thức $a \times 4$ với $a = 15\,000$ là:}{$50\,000$}{$60\,000$}{$70\,000$}{$80\,000$}
+\cauTNhaiDong{12}{Hai đội trồng rừng được $500$ cây, đội Một trồng nhiều hơn đội Hai $60$ cây. Đội Một trồng được:}{$220$ cây}{$280$ cây}{$260$ cây}{$300$ cây}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$718\,450 + 195\,684$} & 
+\oDatTinh[4]{b)}{$856\,300 - 489\,745$} & 
+\oDatTinh[4]{c)}{$19\,348 \times 5$} & 
+\oDatTinh[4]{d)}{$68\,544 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 13} & \textbf{MÃ ĐỀ: 407} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 57\,420 = 98\,350$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $98\,300 - x = 54\,720$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 65\,390 = 78\,460$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 17\,352$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $7\,\text{tấn}\,850\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  b) $9\,\text{m}^2\,45\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $6\,\text{thế kỉ}\,40\,\text{năm} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{phút}\,50\,\text{giây} = \dotfill\,\text{giây}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình thang có đáy lớn 90 m, đáy bé 70 m, chiều cao 50 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 $\text{m}^2$ thu hoạch được 65 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hình tam giác có đáy 32 cm, chiều cao 18 cm. Nếu giữ nguyên chiều cao và giảm đáy đi 8 cm thì diện tích tam giác giảm đi bao nhiêu xăng-ti-mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

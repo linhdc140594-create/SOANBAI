@@ -1,0 +1,199 @@
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Hình vuông có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Dụng cụ nào trong các dụng cụ học tập thường dùng để kiểm tra góc vuông? (Nếu là ê ke ghi 1, compa ghi 2).
+\shortans{1}
+\loigiai{
+Ê-ke dùng để kiểm tra góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Kim giờ và kim phút của đồng hồ tạo thành một góc vuông lúc mấy giờ đúng vào buổi sáng?
+\shortans{9}
+\loigiai{
+Lúc 3 giờ hoặc 9 giờ tạo thành góc vuông. Lúc 9 giờ hoặc 3 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 3 giờ đúng, góc tạo bởi kim giờ và kim phút là góc gì? (Góc vuông ghi 1, góc không vuông ghi 0).
+\shortans{1}
+\loigiai{
+Lúc 3 giờ đúng góc tạo bởi 2 kim là góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 6 giờ đúng, góc tạo bởi kim giờ và kim phút có phải là góc vuông không? (Phải ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Lúc 6 giờ đúng góc bẹt (không vuông).
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác vuông có bao nhiêu góc vuông?
+\shortans{1}
+\loigiai{
+Hình tam giác vuông có đúng 1 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có nhiều nhất bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Một hình tứ giác có thể có nhiều nhất 4 góc vuông (như hình chữ nhật).
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có nhiều nhất bao nhiêu góc vuông?
+\shortans{1}
+\loigiai{
+Hình tam giác chỉ có nhiều nhất 1 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Tờ giấy hình chữ nhật có 4 góc. Cắt đi 1 góc thì tờ giấy mới có bao nhiêu góc?
+\shortans{5}
+\loigiai{
+Khi cắt 1 góc của tờ giấy hình chữ nhật ta được hình ngũ giác có 5 góc.
+}
+\end{ex}
+
+\begin{ex}
+Một góc gồm có một đỉnh và mấy cạnh?
+\shortans{2}
+\loigiai{
+Một góc gồm 1 đỉnh và 2 cạnh xuất phát từ đỉnh đó.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi mặt bàn học hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có 4 góc vuông, 2 hình chữ nhật có tất cả bao nhiêu góc vuông?
+\shortans{8}
+\loigiai{
+$4 \times 2 = 8$ góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Trong hình vuông ABCD, có bao nhiêu góc vuông đỉnh A?
+\shortans{1}
+\loigiai{
+Tại đỉnh A có đúng 1 góc vuông của hình vuông.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 9 giờ đúng, góc tạo bởi kim giờ và kim phút là góc gì? (Góc vuông ghi 1, không vuông ghi 0).
+\shortans{1}
+\loigiai{
+Lúc 9 giờ đúng là góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình tam giác có 3 góc, trong đó có 1 góc vuông thì có mấy góc không vuông?
+\shortans{2}
+\loigiai{
+$3 - 1 = 2$ góc không vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật bị cắt mất một góc vuông ở một đỉnh thì còn lại bao nhiêu góc vuông ban đầu?
+\shortans{3}
+\loigiai{
+$4 - 1 = 3$ góc vuông ban đầu còn lại.
+}
+\end{ex}
+
+\begin{ex}
+Khung cửa sổ hình chữ nhật có mấy góc vuông?
+\shortans{4}
+\loigiai{
+Khung cửa sổ hình chữ nhật có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi chiếc ê-ke có bao nhiêu góc vuông?
+\shortans{1}
+\loigiai{
+Một chiếc ê-ke có đúng 1 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+3 chiếc ê-ke có tất cả bao nhiêu góc vuông?
+\shortans{3}
+\loigiai{
+$1 \times 3 = 3$ góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai cạnh liên tiếp của quyển vở ô li là góc gì? (Góc vuông ghi 1, không vuông ghi 0).
+\shortans{1}
+\loigiai{
+Góc của quyển vở là góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có 4 đỉnh. Mỗi đỉnh tạo thành bao nhiêu góc vuông?
+\shortans{1}
+\loigiai{
+Mỗi đỉnh tạo thành 1 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 12 giờ đúng. Góc tạo bởi hai kim có phải là góc vuông không? (Phải ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Lúc 12 giờ hai kim trùng nhau, góc không vuông (góc 0 độ).
+}
+\end{ex}
+
+\begin{ex}
+Hình ngũ giác có 5 góc. Nếu có 2 góc vuông thì có bao nhiêu góc không vuông?
+\shortans{3}
+\loigiai{
+$5 - 2 = 3$ góc không vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc khăn quàng đỏ hình tam giác có 1 góc tù và 2 góc nhọn. Có góc vuông nào không? (Có ghi số lượng góc vuông).
+\shortans{0}
+\loigiai{
+Chiếc khăn quàng đỏ không có góc vuông nào.
+}
+\end{ex}

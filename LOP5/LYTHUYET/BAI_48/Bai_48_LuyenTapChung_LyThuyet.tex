@@ -1,0 +1,158 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 48. Luyện tập chung đơn vị đo thể tích --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 48. LUYỆN TẬP CHUNG ĐƠN VỊ ĐO THỂ TÍCH (CHỦ ĐỀ 8)}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Kỹ năng thành thạo đổi đơn vị thể tích sang số thập phân, so sánh và giải toán bể nước trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BẢNG SO SÁNH BA HỆ ĐƠN VỊ ĐO LƯỜNG ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faTable\ 1. Bảng so sánh bước nhảy giữa 3 hệ đơn vị đo lường},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+]
+  \scriptsize
+  \centering
+  \begin{tabular}{|l|c|c|l|}
+    \hline
+    \textbf{Hệ đo lường} & \textbf{Hai đơn vị liền kề} & \textbf{Số chữ số mỗi cột} & \textbf{Ví dụ minh họa} \\ \hline
+    \textbf{Độ dài} & Gấp/kém \textbf{10 lần} & \textbf{1 chữ số} & $3\text{ m } 5\text{ dm} = 3,5\text{ m}$ \\ \hline
+    \textbf{Diện tích} & Gấp/kém \textbf{100 lần} & \textbf{2 chữ số} & $3\text{ m}^2\ 5\text{ dm}^2 = 3,05\text{ m}^2$ \\ \hline
+    \textbf{Thể tích} & Gấp/kém \textbf{1 000 lần} & \textbf{3 chữ số} & $3\text{ m}^3\ 5\text{ dm}^3 = 3,005\text{ m}^3$ \\ \hline
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: KỸ NĂNG SO SÁNH VÀ TÍNH TOÁN VỚI SỐ ĐO THỂ TÍCH ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. So sánh các số đo thể tích},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    So sánh $2\text{ m}^3\ 15\text{ dm}^3$ và $2,15\text{ m}^3$:\\
+    $\triangleright$ Cách 1: Đổi ra $\text{dm}^3$:\\
+    \quad $2\text{ m}^3\ 15\text{ dm}^3 = 2\,015\text{ dm}^3$.\\
+    \quad $2,15\text{ m}^3 = 2\,150\text{ dm}^3$.\\
+    Vì $2\,015 < 2\,150$ nên $2\text{ m}^3\ 15\text{ dm}^3 < 2,15\text{ m}^3$.\\
+    $\triangleright$ Cách 2: Đổi ra $\text{m}^3$: $2,015\text{ m}^3 < 2,15\text{ m}^3$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 3. Phép tính với số đo thể tích},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Cộng, trừ, nhân, chia như các số thập phân thông thường kèm tên đơn vị.\\
+    \textit{VD:} $25,4\text{ m}^3 + 12,8\text{ m}^3 = 38,2\text{ m}^3$.\\
+    $4,5\text{ dm}^3 \times 4 = 18\text{ dm}^3$.\\
+    $12\text{ cm}^3 : 5 = 2,4\text{ cm}^3$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kỹ thuật đổi số đo thể tích},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b1] (n1) at (-4.8, 0) {\textbf{ĐƠN VỊ LỚN $\rightarrow$ BÉ: Nhân $1\,000$}\\[2pt]Dịch dấu phẩy sang \textbf{phải} 3 hàng};
+    \node[b2] (n2) at (4.8, 0) {\textbf{ĐƠN VỊ BÉ $\rightarrow$ LỚN: Chia $1\,000$}\\[2pt]Dịch dấu phẩy sang \textbf{trái} 3 hàng};
+
+    \draw[teal!85!black, very thick, <->] (n1) -- (n2);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: QUY TẮC BỂ NƯỚC & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTint\ Cầu nối thần kỳ: $\text{dm}^3$ và Lít},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Trong các bài toán bể chứa nước:\\
+    $\bullet$ Đổi các kích thước (dài, rộng, cao) ra đơn vị \textbf{$\text{dm}$}.\\
+    $\bullet$ Khi đó thể tích tính ra theo $\text{dm}^3$ chính là \textbf{số lít nước} luôn ($1\text{ dm}^3 = 1\text{ lít}$)!\\
+    Không cần mất công đổi lằng nhằng ở bước cuối.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Viết thiếu chữ số $0$ khi đổi sang $\text{m}^3$: Hàng $\text{dm}^3$ phải đủ $3$ chữ số thập phân.\\
+    $\bullet$ Khác nhau giữa số mũ $2$ (diện tích) và số mũ $3$ (thể tích).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

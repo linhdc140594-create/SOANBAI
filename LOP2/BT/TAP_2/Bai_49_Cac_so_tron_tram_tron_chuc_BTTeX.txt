@@ -1,0 +1,199 @@
+\begin{ex}
+Số tròn trăm liền sau số 200 là số nào?
+\shortans{300}
+\loigiai{
+Số tròn trăm liền sau 200 là 300.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn trăm liền trước số 600 là số nào?
+\shortans{500}
+\loigiai{
+Số tròn trăm liền trước 600 là 500.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn trăm lớn nhất có ba chữ số là số nào?
+\shortans{900}
+\loigiai{
+Số đó là 900.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn trăm bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số đó là 100.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn trăm có ba chữ số? (100, 200, ..., 900).
+\shortans{9}
+\loigiai{
+Có đúng 9 số.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $200 + 300$.
+\shortans{500}
+\loigiai{
+Ta có $200 + 300 = 500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $400 + 500$.
+\shortans{900}
+\loigiai{
+Ta có $400 + 500 = 900$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $700 - 200$.
+\shortans{500}
+\loigiai{
+Ta có $700 - 200 = 500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $900 - 600$.
+\shortans{300}
+\loigiai{
+Ta có $900 - 600 = 300$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000 - 400$.
+\shortans{600}
+\loigiai{
+Ta có $1000 - 400 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $300 + 400 - 200$.
+\shortans{500}
+\loigiai{
+Ta có $300 + 400 = 700$, rồi $700 - 200 = 500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $800 - 500 + 400$.
+\shortans{700}
+\loigiai{
+Ta có $800 - 500 = 300$, rồi $300 + 400 = 700$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $1000 - 300 - 200$.
+\shortans{500}
+\loigiai{
+Ta có $1000 - 300 = 700$, rồi $700 - 200 = 500$.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục liền sau số 140 là số nào?
+\shortans{150}
+\loigiai{
+Số tròn chục liền sau 140 là 150.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục liền trước số 280 là số nào?
+\shortans{270}
+\loigiai{
+Số tròn chục liền trước 280 là 270.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $400 + \dots = 700$.
+\shortans{300}
+\loigiai{
+Số cần điền: $700 - 400 = 300$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $800 - \dots = 300$.
+\shortans{500}
+\loigiai{
+Số cần điền: $800 - 300 = 500$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 500 = 1000$.
+\shortans{500}
+\loigiai{
+Số cần điền: $1000 - 500 = 500$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 200 = 600$.
+\shortans{800}
+\loigiai{
+Số cần điền: $600 + 200 = 800$.
+}
+\end{ex}
+
+\begin{ex}
+Khối lớp Hai có 200 học sinh, khối lớp Ba có 300 học sinh. Cả hai khối có bao nhiêu học sinh?
+\shortans{500}
+\loigiai{
+Cả hai khối có: $200 + 300 = 500$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng buổi sáng bán được 400 kg gạo, buổi chiều bán được 500 kg gạo. Cả ngày cửa hàng bán được bao nhiêu ki-lô-gam gạo?
+\shortans{900}
+\loigiai{
+Cả ngày bán được: $400 + 500 = 900$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Kho thóc có 800 bao thóc, người ta chuyển đi 300 bao thóc. Trong kho còn lại bao nhiêu bao thóc?
+\shortans{500}
+\loigiai{
+Trong kho còn lại: $800 - 300 = 500$ bao.
+}
+\end{ex}
+
+\begin{ex}
+Vườn cây có 600 cây ăn quả, trong đó có 200 cây cam, còn lại là cây xoài. Vườn có bao nhiêu cây xoài?
+\shortans{400}
+\loigiai{
+Số cây xoài: $600 - 200 = 400$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của số tròn trăm lớn nhất có ba chữ số và số tròn trăm bé nhất có ba chữ số là bao nhiêu?
+\shortans{1000}
+\loigiai{
+Tổng: $900 + 100 = 1000$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số tròn trăm lớn nhất có ba chữ số và số tròn trăm bé nhất có ba chữ số là bao nhiêu?
+\shortans{800}
+\loigiai{
+Hiệu: $900 - 100 = 800$.
+}
+\end{ex}

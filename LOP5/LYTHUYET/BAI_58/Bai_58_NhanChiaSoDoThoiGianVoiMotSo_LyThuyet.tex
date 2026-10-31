@@ -1,0 +1,157 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 58. Nhân, chia số đo thời gian với một số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 58. NHÂN, CHIA SỐ ĐO THỜI GIAN VỚI MỘT SỐ}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Quy tắc nhân từng đơn vị, kỹ thuật chia từng cấp và đổi phần dư sang đơn vị bé trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC NHÂN VÀ CHIA THỜI GIAN ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTimes\ 1. Nhân số đo thời gian với một số},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đặt tính và nhân từng loại đơn vị từ phải sang trái như nhân số tự nhiên.\\
+    $\bullet$ Nếu kết quả đơn vị bé $\ge 60$, \textbf{đổi sang đơn vị lớn hơn liền kề}.\\
+    \textit{VD:} $1\text{ giờ } 25\text{ phút} \times 3$:\\
+    $1\text{h} \times 3 = 3\text{h}$; $25\text{p} \times 3 = 75\text{p}$.\\
+    Đổi $75\text{p} = 1\text{h } 15\text{p} \rightarrow$ Kết quả: $\mathbf{4\text{ giờ } 15\text{ phút}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faDivide\ 2. Chia số đo thời gian cho một số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Chia từ \textbf{đơn vị lớn đến đơn vị bé}.\\
+    $\bullet$ Nếu phép chia ở đơn vị lớn còn dư: Ta \textbf{đổi số dư sang đơn vị bé hơn liền kề}, cộng vào số đo đơn vị bé rồi chia tiếp.\\
+    \textit{VD:} $7\text{ giờ } 40\text{ phút} : 4$:\\
+    $7\text{h} : 4 = 1\text{h}$ (dư $3\text{h}$).\\
+    Đổi $3\text{h} = 180\text{p} + 40\text{p} = 220\text{p}$.\\
+    $220\text{p} : 4 = 55\text{p} \rightarrow$ Kết quả: $\mathbf{1\text{h } 55\text{p}}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN NĂNG SUẤT THỜI GIAN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faWrench\ 3. Bài toán năng suất lao động theo thời gian},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Một người thợ làm $1$ sản phẩm hết $1\text{ giờ } 15\text{ phút}$. Hỏi người đó làm $4$ sản phẩm như thế hết bao nhiêu thời gian?\\
+  $\triangleright$ Thời gian làm $4$ sản phẩm là: $1\text{ giờ } 15\text{ phút} \times 4 = 4\text{ giờ } 60\text{ phút} = \mathbf{5\text{ giờ}}$.\\[2pt]
+  Người đó làm $3$ chi tiết máy hết $5\text{ giờ } 15\text{ phút}$. Hỏi trung bình làm $1$ chi tiết hết bao lâu?\\
+  $\triangleright$ Thời gian làm $1$ chi tiết là: $5\text{ giờ } 15\text{ phút} : 3 = \mathbf{1\text{ giờ } 45\text{ phút}}$ (vì $5\text{h} : 3 = 1\text{h}$ dư $2\text{h} = 120\text{p}$; $135\text{p} : 3 = 45\text{p}$).
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Thuật toán Chia số đo thời gian},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Chia đơn vị lớn\\Tìm thương và Số dư};
+    \node[b2] (n2) at (0, 0) {2. Đổi số dư sang đơn vị bé\\Cộng gộp vào số đơn vị bé};
+    \node[b3] (n3) at (5.8, 0) {3. Chia tiếp cho số chia\\Ghi kết quả đơn vị bé};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: KỸ THUẬT ĐỔI PHÂN SỐ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Cách đổi ra phân số hoặc số thập phân rồi chia},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Nếu số đo thời gian đổi đẹp sang số thập phân:\\
+    $\bullet$ $2\text{ giờ } 30\text{ phút} : 5 = 2,5\text{ giờ} : 5 = 0,5\text{ giờ} = 30\text{ phút}$.\\
+    $\bullet$ $1\text{ giờ } 15\text{ phút} \times 6 = 1,25\text{ giờ} \times 6 = 7,5\text{ giờ} = 7\text{ giờ } 30\text{ phút}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Trong phép chia, khi còn dư ở đơn vị giờ: Quên \textbf{nhân 60} trước khi cộng với số phút cũ!\\
+    $\bullet$ Nhân thời gian: Quên đổi sang đơn vị lớn khi phút $\ge 60$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

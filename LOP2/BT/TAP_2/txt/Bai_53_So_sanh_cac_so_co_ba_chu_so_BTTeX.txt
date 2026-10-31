@@ -1,0 +1,199 @@
+\begin{ex}
+Trong hai số 345 và 435, số nào lớn hơn?
+\shortans{435}
+\loigiai{
+So sánh hàng trăm $4 > 3$ nên $435 > 345$.
+}
+\end{ex}
+
+\begin{ex}
+Trong hai số 562 và 581, số nào bé hơn?
+\shortans{562}
+\loigiai{
+Cùng hàng trăm là 5, so sánh hàng chục $6 < 8$ nên số bé hơn là 562.
+}
+\end{ex}
+
+\begin{ex}
+Trong hai số 748 và 743, số nào lớn hơn?
+\shortans{748}
+\loigiai{
+Cùng hàng trăm và chục, so sánh hàng đơn vị $8 > 3$ nên số lớn hơn là 748.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $452, 618, 389, 524$, số nào lớn nhất?
+\shortans{618}
+\loigiai{
+Số có hàng trăm lớn nhất là 618.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $735, 719, 782, 706$, số nào bé nhất?
+\shortans{706}
+\loigiai{
+Số có hàng chục bé nhất là 706.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $831, 839, 834, 830$, số nào lớn nhất?
+\shortans{839}
+\loigiai{
+Số có hàng đơn vị lớn nhất là 839.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên lớn hơn 245 và bé hơn 250?
+\shortans{4}
+\loigiai{
+Các số: 246, 247, 248, 249. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $324, 185, 460, 279$ từ bé đến lớn, số đứng ở vị trí thứ hai là số nào?
+\shortans{279}
+\loigiai{
+Thứ tự: 185, 279, 324, 460. Số thứ hai là 279.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $672, 815, 549, 730$ từ lớn đến bé, số đứng ở vị trí thứ ba là số nào?
+\shortans{672}
+\loigiai{
+Thứ tự: 815, 730, 672, 549. Số thứ ba là 672.
+}
+\end{ex}
+
+\begin{ex}
+Điền số tự nhiên thích hợp: $518 < \dots < 520$.
+\shortans{519}
+\loigiai{
+Số ở giữa là 519.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số lớn nhất trong các số: $908, 899, 910, 890$.
+\shortans{910}
+\loigiai{
+Số lớn nhất là 910.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bé nhất trong các số: $654, 645, 564, 546$.
+\shortans{546}
+\loigiai{
+Số bé nhất là 546.
+}
+\end{ex}
+
+\begin{ex}
+Số 500 lớn hơn số 450 bao nhiêu đơn vị?
+\shortans{50}
+\loigiai{
+Lớn hơn: $500 - 450 = 50$ đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Số 780 bé hơn số 800 bao nhiêu đơn vị?
+\shortans{20}
+\loigiai{
+Bé hơn: $800 - 780 = 20$ đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $320, 450, 290, 510$, có bao nhiêu số lớn hơn 400?
+\shortans{2}
+\loigiai{
+Các số lớn hơn 400 là 450 và 510 (2 số).
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $610, 580, 720, 690$, có bao nhiêu số bé hơn 700?
+\shortans{3}
+\loigiai{
+Các số bé hơn 700 là 610, 580, 690 (3 số).
+}
+\end{ex}
+
+\begin{ex}
+Trường Tiểu học A có 485 học sinh, trường Tiểu học B có 512 học sinh. Trường B nhiều hơn trường A bao nhiêu học sinh?
+\shortans{27}
+\loigiai{
+Nhiều hơn: $512 - 485 = 27$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn đường thứ nhất dài 350 m, đoạn thứ hai dài 420 m. Đoạn thứ hai dài hơn đoạn thứ nhất bao nhiêu mét?
+\shortans{70}
+\loigiai{
+Dài hơn: $420 - 350 = 70$ m.
+}
+\end{ex}
+
+\begin{ex}
+Kho thóc thứ nhất có 650 bao, kho thứ hai có 600 bao. Kho thứ nhất nhiều hơn kho thứ hai bao nhiêu bao thóc?
+\shortans{50}
+\loigiai{
+Nhiều hơn: $650 - 600 = 50$ bao.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số liền trước của số bé nhất có ba chữ số khác nhau (số đó là 102).
+\shortans{101}
+\loigiai{
+Số bé nhất có ba chữ số khác nhau là 102. Số liền trước là 101.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số liền sau của số lớn nhất có ba chữ số (số đó là 999).
+\shortans{1000}
+\loigiai{
+Số liền sau là 1000.
+}
+\end{ex}
+
+\begin{ex}
+So sánh: $300 + 40$ và $300 + 50$. Hiệu của hai tổng là bao nhiêu?
+\shortans{10}
+\loigiai{
+Hiệu: $350 - 340 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+So sánh: $500 + 80 + 2$ và $500 + 70 + 9$. Hai số này hơn kém nhau bao nhiêu đơn vị?
+\shortans{3}
+\loigiai{
+Số thứ nhất là 582, số thứ hai là 579. Hơn kém: $582 - 579 = 3$ đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Cho 3 chữ số 2, 5, 8. Viết được số lớn nhất có ba chữ số khác nhau từ 3 chữ số này là số nào?
+\shortans{852}
+\loigiai{
+Số lớn nhất là 852.
+}
+\end{ex}
+
+\begin{ex}
+Viết được số bé nhất có ba chữ số khác nhau từ 3 chữ số 2, 5, 8 là số nào?
+\shortans{258}
+\loigiai{
+Số bé nhất là 258.
+}
+\end{ex}

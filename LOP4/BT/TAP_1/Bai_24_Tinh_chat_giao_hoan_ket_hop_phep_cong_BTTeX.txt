@@ -1,0 +1,199 @@
+\begin{ex}
+Tính nhanh: $45 + 87 + 55$.
+\shortans{187}
+\loigiai{
+$(45 + 55) + 87 = 100 + 87 = 187$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $128 + 49 + 72$.
+\shortans{249}
+\loigiai{
+$(128 + 72) + 49 = 200 + 49 = 249$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $235 + 168 + 65$.
+\shortans{468}
+\loigiai{
+$(235 + 65) + 168 = 300 + 168 = 468$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $340 + 280 + 160$.
+\shortans{780}
+\loigiai{
+$(340 + 160) + 280 = 500 + 280 = 780$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $1250 + 3400 + 750$.
+\shortans{5400}
+\loigiai{
+$(1250 + 750) + 3400 = 2000 + 3400 = 5400$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $4500 + 1800 + 5500$.
+\shortans{11800}
+\loigiai{
+$(4500 + 5500) + 1800 = 10000 + 1800 = 11800$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $25000 + 38000 + 75000$.
+\shortans{138000}
+\loigiai{
+$(25000 + 75000) + 38000 = 100000 + 38000 = 138000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $64000 + 19000 + 36000$.
+\shortans{119000}
+\loigiai{
+$(64000 + 36000) + 19000 = 100000 + 19000 = 119000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $15 + 25 + 35 + 45$.
+\shortans{120}
+\loigiai{
+$(15 + 45) + (25 + 35) = 60 + 60 = 120$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $11 + 22 + 89 + 78$.
+\shortans{200}
+\loigiai{
+$(11 + 89) + (22 + 78) = 100 + 100 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $125 + 250 + 375 + 250$.
+\shortans{1000}
+\loigiai{
+$(125 + 375) + (250 + 250) = 500 + 500 = 1000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$.
+\shortans{45}
+\loigiai{
+$(1+9)+(2+8)+(3+7)+(4+6)+5 = 40 + 5 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $a + 25 = 25 + \dots$ (Với $a=100$, số cần điền là bao nhiêu?).
+\shortans{100}
+\loigiai{
+Tính chất giao hoán: $a + 25 = 25 + a = 100$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu $a + b = 150$ thì $b + a$ bằng bao nhiêu?
+\shortans{150}
+\loigiai{
+Tính chất giao hoán: $b + a = a + b = 150$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $96 + 78 + 4$.
+\shortans{178}
+\loigiai{
+$(96 + 4) + 78 = 100 + 78 = 178$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $67 + 125 + 33$.
+\shortans{225}
+\loigiai{
+$(67 + 33) + 125 = 100 + 125 = 225$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $148 + 265 + 52$.
+\shortans{465}
+\loigiai{
+$(148 + 52) + 265 = 200 + 265 = 465$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $350 + 490 + 650$.
+\shortans{1490}
+\loigiai{
+$(350 + 650) + 490 = 1000 + 490 = 1490$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $1200 + 4500 + 8800$.
+\shortans{14500}
+\loigiai{
+$(1200 + 8800) + 4500 = 10000 + 4500 = 14500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $24000 + 53000 + 76000$.
+\shortans{153000}
+\loigiai{
+$(24000 + 76000) + 53000 = 100000 + 53000 = 153000$.
+}
+\end{ex}
+
+\begin{ex}
+Biểu thức $(a + b) + c = a + (b + c)$ thể hiện tính chất gì của phép cộng? (Giao hoán ghi 1, kết hợp ghi 2).
+\shortans{2}
+\loigiai{
+Tính chất kết hợp (2).
+}
+\end{ex}
+
+\begin{ex}
+Biểu thức $a + b = b + a$ thể hiện tính chất gì của phép cộng? (Giao hoán ghi 1, kết hợp ghi 2).
+\shortans{1}
+\loigiai{
+Tính chất giao hoán (1).
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $50 + 50 + 50 + 50$.
+\shortans{200}
+\loigiai{
+$50 \times 4 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $18 + 27 + 82 + 73$.
+\shortans{200}
+\loigiai{
+$(18 + 82) + (27 + 73) = 100 + 100 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $250 + 180 + 750 + 820$.
+\shortans{2000}
+\loigiai{
+$(250 + 750) + (180 + 820) = 1000 + 1000 = 2000$.
+}
+\end{ex}

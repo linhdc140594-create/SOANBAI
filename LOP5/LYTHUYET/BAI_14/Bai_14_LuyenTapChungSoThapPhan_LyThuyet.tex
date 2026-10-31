@@ -1,0 +1,162 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 14. Luyện tập chung số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 14. LUYỆN TẬP CHUNG SỐ THẬP PHÂN (CHỦ ĐỀ 2)}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Tổng hợp cấu tạo, so sánh, viết số đo và làm tròn số thập phân trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: TỔNG KẾT BẢNG HÀNG SỐ THẬP PHÂN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faTable\ 1. Bảng tổng kết đầy đủ các hàng của số thập phân},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+]
+  \scriptsize
+  \centering
+  \begin{tabular}{|c|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{3}{|c|}{\textbf{Phần nguyên}} & \multirow{2}{*}{\textbf{Phẩy}} & \multicolumn{3}{c|}{\textbf{Phần thập phân}} \\ \cline{1-3} \cline{5-7}
+    \textbf{Hàng trăm} & \textbf{Hàng chục} & \textbf{Hàng đơn vị} & & \textbf{Hàng phần mười} & \textbf{Hàng phần trăm} & \textbf{Hàng phần nghìn} \\ \hline
+    $100$ & $10$ & $1$ & \textbf{,} & $\dfrac{1}{10} = 0,1$ & $\dfrac{1}{100} = 0,01$ & $\dfrac{1}{1000} = 0,001$ \\ \hline
+  \end{tabular}\\[3pt]
+  {\tiny\color{blue!85!black}\bfseries Mỗi đơn vị của một hàng gấp 10 lần đơn vị của hàng liền sau nó, và bằng $\frac{1}{10}$ đơn vị hàng liền trước}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: BỐN KỸ NĂNG CỐT LÕI ---
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ 2. Chuyển đổi số đo đại lượng},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Độ dài (10):} $3\text{ m } 4\text{ dm} = 3,4\text{ m}$; $5\text{ m } 8\text{ cm} = 5,08\text{ m}$.\\
+    $\bullet$ \textbf{Khối lượng (1000):} $2\text{ kg } 50\text{ g} = 2,05\text{ kg}$.\\
+    $\bullet$ \textbf{Diện tích (100):} $4\text{ m}^2\ 7\text{ dm}^2 = 4,07\text{ m}^2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 3. So sánh \& Xếp thứ tự},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ So phần nguyên trước: $12,3 > 9,899$.\\
+    $\bullet$ Phần nguyên bằng nhau $\rightarrow$ so phần mười, phần trăm\dots: $5,24 < 5,3$ (vì $2 < 3$).\\
+    $\bullet$ Thêm các chữ số $0$ vào tận cùng để bằng chữ số thập phân rồi so sánh.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TỔNG KẾT CHỦ ĐỀ 2 ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy toàn diện: Chủ đề 2 -- Số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0,0) {\faBook\ SỐ THẬP PHÂN};
+    \node[b1] (n1) at (-4.9, 0.8) {\textbf{CẤU TẠO:}\\[1.5pt]Phần nguyên , Thập phân};
+    \node[b2] (n2) at (4.9, 0.8) {\textbf{SO SÁNH:}\\[1.5pt]Nguyên trước $\rightarrow$ Thập phân sau};
+    \node[b3] (n3) at (-4.9, -0.8) {\textbf{ĐỔI ĐƠN VỊ:}\\[1.5pt]Mẫu thập phân $10, 100\dots$};
+    \node[b4] (n4) at (4.9, -0.8) {\textbf{LÀM TRÒN:}\\[1.5pt]Xét chữ số ngay bên phải};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -- (n1.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -- (n2.west);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -- (n3.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -- (n4.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TỔNG KẾT LỖI SAI KINH ĐIỂN ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBullhorn\ 3 sai lầm học sinh hay mắc nhất},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $1.$ Bỏ bớt chữ số $0$ ở giữa: $4,05 \neq 4,5$.\\
+    $2.$ Nghĩ số có nhiều chữ số thập phân hơn là lớn hơn ($0,123 < 0,5$).\\
+    $3.$ Quên viết số $0$ khi đổi số đo có 2 đơn vị ($5\text{ m } 4\text{ cm} = 5,04\text{ m}$, không phải $5,4\text{ m}$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đề bài: ``Số thập phân gồm $5$ đơn vị, $3$ phần trăm viết là:'': Nhớ hàng phần mười không có thì phải viết chữ số \textbf{0}: $5,03$.\\
+    $\bullet$ Luôn kiểm tra lại số chữ số thập phân tương ứng với mẫu số thập phân ($10, 100, 1000$).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

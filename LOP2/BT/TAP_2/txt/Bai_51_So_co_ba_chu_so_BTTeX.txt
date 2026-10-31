@@ -1,0 +1,199 @@
+\begin{ex}
+Số gồm 2 trăm, 3 chục và 5 đơn vị là số nào?
+\shortans{235}
+\loigiai{
+Số đó là 235.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 4 trăm, 8 chục và 1 đơn vị là số nào?
+\shortans{481}
+\loigiai{
+Số đó là 481.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 5 trăm, 0 chục và 7 đơn vị là số nào?
+\shortans{507}
+\loigiai{
+Số đó là 507.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 6 trăm, 4 chục và 0 đơn vị là số nào?
+\shortans{640}
+\loigiai{
+Số đó là 640.
+}
+\end{ex}
+
+\begin{ex}
+Số 358 có chữ số hàng trăm là bao nhiêu?
+\shortans{3}
+\loigiai{
+Chữ số hàng trăm là 3.
+}
+\end{ex}
+
+\begin{ex}
+Số 724 có chữ số hàng chục là bao nhiêu?
+\shortans{2}
+\loigiai{
+Chữ số hàng chục là 2.
+}
+\end{ex}
+
+\begin{ex}
+Số 896 có chữ số hàng đơn vị là bao nhiêu?
+\shortans{6}
+\loigiai{
+Chữ số hàng đơn vị là 6.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 123 là số nào?
+\shortans{124}
+\loigiai{
+Số liền sau 123 là 124.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 259 là số nào?
+\shortans{260}
+\loigiai{
+Số liền sau 259 là 260.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 399 là số nào?
+\shortans{400}
+\loigiai{
+Số liền sau 399 là 400.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 450 là số nào?
+\shortans{449}
+\loigiai{
+Số liền trước 450 là 449.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 600 là số nào?
+\shortans{599}
+\loigiai{
+Số liền trước 600 là 599.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 811 là số nào?
+\shortans{810}
+\loigiai{
+Số liền trước 811 là 810.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số bé nhất có ba chữ số là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có ba chữ số là số nào?
+\shortans{999}
+\loigiai{
+Số lớn nhất có ba chữ số là 999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có ba chữ số khác nhau là số nào?
+\shortans{102}
+\loigiai{
+Số bé nhất có ba chữ số khác nhau là 102.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có ba chữ số khác nhau là số nào?
+\shortans{987}
+\loigiai{
+Số lớn nhất có ba chữ số khác nhau là 987.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 9 trăm, 9 chục và 9 đơn vị là số nào?
+\shortans{999}
+\loigiai{
+Số đó là 999.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $345, 346, \dots, 348, 349$.
+\shortans{347}
+\loigiai{
+Số còn thiếu là 347.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $578, 579, \dots, 581$.
+\shortans{580}
+\loigiai{
+Số còn thiếu là 580.
+}
+\end{ex}
+
+\begin{ex}
+Từ 100 đến 110 có tất cả bao nhiêu số tự nhiên?
+\shortans{11}
+\loigiai{
+Có $(110 - 100) + 1 = 11$ số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có ba chữ số giống nhau? (111, 222, ..., 999).
+\shortans{9}
+\loigiai{
+Có đúng 9 số.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng các chữ số của số 243.
+\shortans{9}
+\loigiai{
+Tổng là: $2 + 4 + 3 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng các chữ số của số 512.
+\shortans{8}
+\loigiai{
+Tổng là: $5 + 1 + 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số ở giữa hai số 789 và 791.
+\shortans{790}
+\loigiai{
+Số ở giữa là 790.
+}
+\end{ex}

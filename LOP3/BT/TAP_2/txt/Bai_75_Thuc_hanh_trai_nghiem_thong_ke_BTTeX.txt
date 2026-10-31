@@ -1,0 +1,199 @@
+\begin{ex}
+Kiểm đếm số xe đi qua cổng trường trong 10 phút: 12 xe đạp, 25 xe máy, 8 xe ô tô. Có bao nhiêu xe máy đi qua?
+\shortans{25}
+\loigiai{
+Có 25 xe máy.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số xe các loại đi qua cổng trường trong 10 phút trên là bao nhiêu xe?
+\shortans{45}
+\loigiai{
+$12 + 25 + 8 = 45$ xe.
+}
+\end{ex}
+
+\begin{ex}
+Loại phương tiện nào đi qua ít nhất? (Xe đạp ghi 1, xe máy ghi 2, ô tô ghi 3).
+\shortans{3}
+\loigiai{
+Ô tô có 8 xe (ít nhất).
+}
+\end{ex}
+
+\begin{ex}
+Xe máy nhiều hơn xe đạp bao nhiêu chiếc?
+\shortans{13}
+\loigiai{
+$25 - 12 = 13$ xe.
+}
+\end{ex}
+
+\begin{ex}
+Một nhóm học sinh đo chiều cao của 4 bạn: An: 132 cm, Bình: 135 cm, Cường: 130 cm, Dũng: 138 cm. Bạn cao nhất cao bao nhiêu xăng-ti-mét?
+\shortans{138}
+\loigiai{
+Dũng cao nhất: 138 cm.
+}
+\end{ex}
+
+\begin{ex}
+Bạn thấp nhất cao bao nhiêu xăng-ti-mét?
+\shortans{130}
+\loigiai{
+Cường thấp nhất: 130 cm.
+}
+\end{ex}
+
+\begin{ex}
+Bạn cao nhất cao hơn bạn thấp nhất bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+$138 - 130 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Trong 4 bạn trên, có bao nhiêu bạn có chiều cao từ 132 cm trở lên?
+\shortans{3}
+\loigiai{
+An (132), Bình (135), Dũng (138): có 3 bạn.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm số lượng hoa quả mẹ mua: 10 quả cam, 15 quả quýt, 5 quả xoài. Quýt nhiều hơn xoài bao nhiêu quả?
+\shortans{10}
+\loigiai{
+$15 - 5 = 10$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số quả mẹ mua là bao nhiêu quả?
+\shortans{30}
+\loigiai{
+$10 + 15 + 5 = 30$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tung đồng xu 20 lần, thấy có 12 lần xuất hiện mặt Ngửa. Hỏi có bao nhiêu lần xuất hiện mặt Sấp?
+\shortans{8}
+\loigiai{
+$20 - 12 = 8$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Gieo xúc xắc 30 lần, thấy có 6 lần xuất hiện mặt 6 chấm. Số lần xuất hiện các mặt còn lại là bao nhiêu lần?
+\shortans{24}
+\loigiai{
+$30 - 6 = 24$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Bảng điểm kiểm tra môn Toán của tổ 1: có 3 điểm 10, 4 điểm 9, 2 điểm 8, 1 điểm 7. Tổ 1 có bao nhiêu học sinh?
+\shortans{10}
+\loigiai{
+$3 + 4 + 2 + 1 = 10$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu bạn đạt điểm 9 trở lên trong tổ 1?
+\shortans{7}
+\loigiai{
+$3 + 4 = 7$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Điểm số có nhiều bạn đạt được nhất là điểm mấy?
+\shortans{9}
+\loigiai{
+Điểm 9 có 4 bạn đạt (nhiều nhất).
+}
+\end{ex}
+
+\begin{ex}
+Điểm số có ít bạn đạt được nhất là điểm mấy?
+\shortans{7}
+\loigiai{
+Điểm 7 chỉ có 1 bạn đạt.
+}
+\end{ex}
+
+\begin{ex}
+Theo dõi số ngày mưa trong tháng 7 ở một địa phương: có 12 ngày mưa. Hỏi có bao nhiêu ngày không mưa trong tháng 7?
+\shortans{19}
+\loigiai{
+Tháng 7 có 31 ngày: $31 - 12 = 19$ ngày không mưa.
+}
+\end{ex}
+
+\begin{ex}
+Số lượng sách các môn trong tủ sách lớp: Toán: 45 cuốn, Tiếng Việt: 50 cuốn, Tự nhiên và Xã hội: 30 cuốn. Tổng số sách là bao nhiêu cuốn?
+\shortans{125}
+\loigiai{
+$45 + 50 + 30 = 125$ cuốn.
+}
+\end{ex}
+
+\begin{ex}
+Sách Tiếng Việt nhiều hơn sách Tự nhiên và Xã hội bao nhiêu cuốn?
+\shortans{20}
+\loigiai{
+$50 - 30 = 20$ cuốn.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 8 viên kẹo đỏ và 12 viên kẹo xanh. Lấy ra ngẫu nhiên 1 viên kẹo, có thể lấy được kẹo màu vàng không? (Có ghi 1, Không ghi 0).
+\shortans{0}
+\loigiai{
+Không thể có kẹo vàng.
+}
+\end{ex}
+
+\begin{ex}
+Tung con xúc xắc 1 lần, khả năng xuất hiện mặt có số chấm lớn hơn 6 là mấy? (Ghi 0 nếu không thể, ghi 1 nếu chắc chắn).
+\shortans{0}
+\loigiai{
+Không thể có mặt lớn hơn 6.
+}
+\end{ex}
+
+\begin{ex}
+Một bình chứa 5 quả cầu đỏ, 5 quả cầu xanh. Cần lấy ít nhất mấy quả cầu để chắc chắn có quả cầu xanh?
+\shortans{6}
+\loigiai{
+$5 + 1 = 6$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Đo nhiệt độ lúc 12 giờ trưa trong 3 ngày liên tiếp ghi được: $32^\circ$C, $35^\circ$C, $33^\circ$C. Nhiệt độ cao nhất trong 3 ngày là bao nhiêu độ C?
+\shortans{35}
+\loigiai{
+$35^\circ$C là cao nhất.
+}
+\end{ex}
+
+\begin{ex}
+Chênh lệch giữa ngày nóng nhất và ngày mát nhất trong 3 ngày đó là bao nhiêu độ C?
+\shortans{3}
+\loigiai{
+$35 - 32 = 3^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Theo bảng số liệu rác thải nhựa thu gom được: Khối 3: 40 kg, Khối 4: 55 kg, Khối 5: 65 kg. Khối 5 thu gom nhiều hơn Khối 3 bao nhiêu ki-lô-gam?
+\shortans{25}
+\loigiai{
+$65 - 40 = 25$ kg.
+}
+\end{ex}

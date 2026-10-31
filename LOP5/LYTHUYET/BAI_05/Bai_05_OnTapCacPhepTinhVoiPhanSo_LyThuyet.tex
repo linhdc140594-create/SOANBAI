@@ -1,0 +1,158 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 5. Ôn tập các phép tính với phân số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 05. ÔN TẬP CÁC PHÉP TÍNH VỚI PHÂN SỐ}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Bốn phép tính Cộng, Trừ, Nhân, Chia phân số và tính chất kết hợp, phân phối trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CỘNG VÀ TRỪ PHÂN SỐ ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPlusSquare\ 1. Cộng và trừ phân số},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cùng mẫu số:} Cộng (hoặc trừ) tử số với nhau, giữ nguyên mẫu số:\\
+    \quad $\dfrac{a}{m} + \dfrac{b}{m} = \dfrac{a + b}{m}$ \quad | \quad $\dfrac{a}{m} - \dfrac{b}{m} = \dfrac{a - b}{m}$.\\[2pt]
+    $\bullet$ \textbf{Khác mẫu số:} \textbf{Quy đồng} mẫu số hai phân số rồi cộng hoặc trừ như cùng mẫu.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTimesCircle\ 2. Nhân và chia phân số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Nhân hai phân số:} Lấy tử nhân tử, mẫu nhân mẫu:\\
+    \quad $\dfrac{a}{b} \times \dfrac{c}{d} = \dfrac{a \times c}{b \times d}$.\\[2pt]
+    $\bullet$ \textbf{Chia hai phân số:} Lấy phân số thứ nhất nhân với phân số thứ hai \textbf{đảo ngược}:\\
+    \quad $\dfrac{a}{b} : \dfrac{c}{d} = \dfrac{a}{b} \times \dfrac{d}{c} = \dfrac{a \times d}{b \times c}$ ($c \neq 0$).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: TÍNH CHẤT TÍNH NHANH VỚI PHÂN SỐ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faStar\ 3. Các tính chất tính nhanh với phân số},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  $\bullet$ \textbf{Giao hoán \& Kết hợp:} $\dfrac{a}{b} + \dfrac{c}{d} = \dfrac{c}{d} + \dfrac{a}{b}$ \quad | \quad $\left(\dfrac{a}{b} \times \dfrac{c}{d}\right) \times \dfrac{p}{q} = \dfrac{a}{b} \times \left(\dfrac{c}{d} \times \dfrac{p}{q}\right)$.\\
+  $\bullet$ \textbf{Nhân một số với một tổng/hiệu:} $\dfrac{a}{b} \times \left(\dfrac{c}{d} \pm \dfrac{p}{q}\right) = \dfrac{a}{b} \times \dfrac{c}{d} \pm \dfrac{a}{b} \times \dfrac{p}{q}$.\\
+  \textit{VD tính nhanh:} $\dfrac{4}{7} \times \dfrac{3}{5} + \dfrac{4}{7} \times \dfrac{2}{5} = \dfrac{4}{7} \times \left(\dfrac{3}{5} + \dfrac{2}{5}\right) = \dfrac{4}{7} \times 1 = \dfrac{4}{7}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Bốn phép tính phân số},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=red!12, draw=red!75!black, text=red!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0,0) {\faCalculator\ PHÉP TÍNH PHÂN SỐ};
+    \node[b1] (n1) at (-4.9, 0.75) {\textbf{CỘNG:}\\[1.5pt]Quy đồng $\rightarrow$ cộng tử};
+    \node[b2] (n2) at (-4.9, -0.75) {\textbf{TRỪ:}\\[1.5pt]Quy đồng $\rightarrow$ trừ tử};
+    \node[b3] (n3) at (4.9, 0.75) {\textbf{NHÂN:}\\[1.5pt]Tử $\times$ Tử, Mẫu $\times$ Mẫu};
+    \node[b4] (n4) at (4.9, -0.75) {\textbf{CHIA:}\\[1.5pt]Nhân với phân số đảo ngược};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -- (n1.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -- (n2.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -- (n3.west);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -- (n4.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: KỸ THUẬT TRIỆT TIÊU & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Mẹo triệt tiêu khi nhân phân số},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Trước khi nhân các tử số và mẫu số, hãy tách thành thừa số và \textbf{triệt tiêu rút gọn trước}:\\
+    \textit{VD:} $\dfrac{5 \times 9 \times 7}{7 \times 15 \times 3} = \dfrac{5 \times (3 \times 3) \times 7}{7 \times (5 \times 3) \times 3} = 1$.\\
+    Tránh nhân to rồi mới rút gọn, rất dễ sai sót!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lỗi cộng mẫu:} Học sinh hay lấy cả tử cộng tử, mẫu cộng mẫu ($\dfrac{1}{2} + \dfrac{1}{3} \neq \dfrac{2}{5}$)!\\
+    $\bullet$ Kết quả cuối cùng của mọi phép tính phân số luôn phải \textbf{rút gọn về phân số tối giản}.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

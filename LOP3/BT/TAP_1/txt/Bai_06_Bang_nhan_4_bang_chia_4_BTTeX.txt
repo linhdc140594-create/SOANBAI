@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $4 \times 3 = \dots$
+\shortans{12}
+\loigiai{
+$4 \times 3 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 \times 6 = \dots$
+\shortans{24}
+\loigiai{
+$4 \times 6 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 \times 8 = \dots$
+\shortans{32}
+\loigiai{
+$4 \times 8 = 32$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 \times 9 = \dots$
+\shortans{36}
+\loigiai{
+$4 \times 9 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $16 : 4 = \dots$
+\shortans{4}
+\loigiai{
+$16 : 4 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $28 : 4 = \dots$
+\shortans{7}
+\loigiai{
+$28 : 4 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $36 : 4 = \dots$
+\shortans{9}
+\loigiai{
+$36 : 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40 : 4 = \dots$
+\shortans{10}
+\loigiai{
+$40 : 4 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $4 \times 7 + 25$.
+\shortans{53}
+\loigiai{
+$4 \times 7 + 25 = 28 + 25 = 53$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $4 \times 5 - 12$.
+\shortans{8}
+\loigiai{
+$4 \times 5 - 12 = 20 - 12 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $32 : 4 + 19$.
+\shortans{27}
+\loigiai{
+$8 + 19 = 27$.
+}
+\end{ex}
+
+\begin{ex}
+Một con bàn học có 4 chân. Hỏi 7 cái bàn như thế có bao nhiêu cái chân?
+\shortans{28}
+\loigiai{
+$4 \times 7 = 28$ chân.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có 4 cạnh bằng nhau. Nếu mỗi cạnh dài 6 cm thì tổng độ dài 4 cạnh của hình vuông là bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+$4 \times 6 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Có 32 học sinh xếp đều thành 4 hàng. Hỏi mỗi hàng có bao nhiêu học sinh?
+\shortans{8}
+\loigiai{
+$32 : 4 = 8$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Có 20 cái bánh chia đều vào 4 hộp. Hỏi mỗi hộp có bao nhiêu cái bánh?
+\shortans{5}
+\loigiai{
+$20 : 4 = 5$ cái bánh.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $4 \times \dots = 20$.
+\shortans{5}
+\loigiai{
+$20 : 4 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $4 \times \dots = 32$.
+\shortans{8}
+\loigiai{
+$32 : 4 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 4 = 6$.
+\shortans{24}
+\loigiai{
+$6 \times 4 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 4 = 9$.
+\shortans{36}
+\loigiai{
+$9 \times 4 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Một ô tô con có 4 bánh xe. Hỏi 9 ô tô con như thế có tất cả bao nhiêu bánh xe?
+\shortans{36}
+\loigiai{
+$4 \times 9 = 36$ bánh xe.
+}
+\end{ex}
+
+\begin{ex}
+Có 24 quả cam chia đều cho 4 người. Hỏi mỗi người được mấy quả cam?
+\shortans{6}
+\loigiai{
+$24 : 4 = 6$ quả cam.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 4 = 28$.
+\shortans{7}
+\loigiai{
+$x = 28 : 4 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 4 = 5$.
+\shortans{20}
+\loigiai{
+$x = 5 \times 4 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 \times 4 : 2 = \dots$
+\shortans{8}
+\loigiai{
+$16 : 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40 : 4 \times 3 = \dots$
+\shortans{30}
+\loigiai{
+$10 \times 3 = 30$.
+}
+\end{ex}

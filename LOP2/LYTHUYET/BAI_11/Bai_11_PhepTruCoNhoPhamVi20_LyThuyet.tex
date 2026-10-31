@@ -1,0 +1,172 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{arr/.style={-{Stealth[scale=0.8]}}}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 11. Phép trừ có nhớ trong phạm vi 20 --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 11: PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 20}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Phương pháp trừ qua 10: Trừ để được 10 rồi trừ số còn lại trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Cách 1: Trừ để được 10 rồi trừ tiếp}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Quy tắc:} Tách số trừ thành hai phần: phần thứ nhất để trừ số bị trừ vừa vặn bằng \textbf{10}, sau đó lấy $10$ trừ tiếp phần thứ hai.
+  \item \textbf{Ví dụ minh họa $12 - 5$:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Tách $5 = 2 + 3$.
+    \item Lấy $12 - 2 = 10$.
+    \item Lấy $10 - 3 = \mathbf{7}$.
+  \end{itemize}
+  $\implies 12 - 5 = \mathbf{7}$.
+  \item \textbf{Khái quát:} $1a - b = (1a - a) - (b - a) = 10 - (b - a)$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Cách 2: Lấy 10 trừ đi rồi cộng lại}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Quy tắc:} Tách số bị trừ thành $10$ và phần đơn vị. Lấy $10$ trừ đi số trừ, rồi cộng kết quả với phần đơn vị.
+  \item \textbf{Ví dụ minh họa $12 - 5$:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Tách $12 = 10 + 2$.
+    \item Lấy $10 - 5 = 5$.
+    \item Lấy $5 + 2 = \mathbf{7}$.
+  \end{itemize}
+  $\implies 12 - 5 = \mathbf{7}$.
+  \item Cả 2 cách đều cho kết quả chuẩn mực, học sinh chọn cách nhẩm thuận tay nhất.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy tách số trong phép trừ qua 10}
+]
+\centering
+\begin{tikzpicture}[x=1.2cm, y=0.9cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\footnotesize\bfseries] (sbt) at (0,0) {$13$};
+  \node[font=\footnotesize\bfseries] at (0.9,0) {$-$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\footnotesize\bfseries] (st) at (1.8,0) {$5$};
+
+  \node[circle, draw=orange!80!black, fill=orange!20, inner sep=2pt, font=\scriptsize\bfseries] (t1) at (1.3,-1) {$3$};
+  \node[circle, draw=orange!80!black, fill=orange!20, inner sep=2pt, font=\scriptsize\bfseries] (t2) at (2.3,-1) {$2$};
+
+  \draw[->, thick, teal!70!black] (st) -- (t1);
+  \draw[->, thick, teal!70!black] (st) -- (t2);
+
+  \draw[arr, thick, violet!80!black, ->] (sbt) to[bend right=25] node[below, font=\tiny\bfseries] {$13 - 3 = 10$} (t1);
+  \node[rectangle, rounded corners=2pt, draw=green!80!black, fill=green!15, font=\scriptsize\bfseries] at (4.8,-0.5) {
+    $10 - 2 = \mathbf{8}$
+  };
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Tính nhẩm nhanh:}\\
+\begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+  \item $11 - 4 = (11 - 1) - 3 = 10 - 3 = \mathbf{7}$.
+  \item $14 - 6 = (14 - 4) - 2 = 10 - 2 = \mathbf{8}$.
+  \item $16 - 9 = (16 - 6) - 3 = 10 - 3 = \mathbf{7}$.
+  \item $15 - 8 = (15 - 5) - 3 = 10 - 3 = \mathbf{7}$.
+\end{itemize}
+\textbf{Kiểm tra bằng phép cộng:}\\
+$15 - 8 = 7$ vì $7 + 8 = 15$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy lấy chữ số lớn trừ bé ngược ngạo:}\\
+  Ví dụ $12 - 5$: Lấy $5 - 2 = 3 \implies$ ghi kết quả là 3 là \textbf{hoàn toàn sai}!
+  \item \textbf{Mẹo trừ cho 9:}\\
+  Chữ số hàng đơn vị kết quả luôn bằng \textbf{hàng đơn vị số bị trừ cộng thêm 1}.\\
+  VD: $1\mathbf{4} - 9 = \mathbf{5}$ ($4 + 1 = 5$); $1\mathbf{7} - 9 = \mathbf{8}$ ($7 + 1 = 8$).
+  \item Thuộc phép cộng tương ứng để suy ra phép trừ.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

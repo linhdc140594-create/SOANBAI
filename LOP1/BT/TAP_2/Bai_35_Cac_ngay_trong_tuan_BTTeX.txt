@@ -1,0 +1,199 @@
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Một tuần lễ có 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Ngày đầu tiên của một tuần lễ là thứ mấy? (Thứ Hai, Thứ Ba, Thứ Tư, ...). Thứ Hai tương ứng là ngày thứ mấy?
+\shortans{2}
+\loigiai{
+Thứ Hai là ngày bắt đầu tuần học.
+}
+\end{ex}
+
+\begin{ex}
+Em đi học ở trường từ Thứ Hai đến Thứ Sáu. Em đi học bao nhiêu ngày trong một tuần?
+\shortans{5}
+\loigiai{
+Từ Thứ Hai đến Thứ Sáu gồm 5 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Em được nghỉ học vào Thứ Bảy và Chủ Nhật. Em được nghỉ bao nhiêu ngày cuối tuần?
+\shortans{2}
+\loigiai{
+Thứ Bảy và Chủ Nhật gồm 2 ngày nghỉ.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Hai thì ngày mai là Thứ mấy?
+\shortans{3}
+\loigiai{
+Sau Thứ Hai là Thứ Ba.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Tư thì ngày mai là Thứ mấy?
+\shortans{5}
+\loigiai{
+Sau Thứ Tư là Thứ Năm.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Sáu thì ngày mai là Thứ mấy?
+\shortans{7}
+\loigiai{
+Sau Thứ Sáu là Thứ Bảy.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Bảy thì hôm qua là Thứ mấy?
+\shortans{6}
+\loigiai{
+Trước Thứ Bảy là Thứ Sáu.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Năm thì hôm qua là Thứ mấy?
+\shortans{4}
+\loigiai{
+Trước Thứ Năm là Thứ Tư.
+}
+\end{ex}
+
+\begin{ex}
+Trong 2 tuần lễ có tất cả bao nhiêu ngày?
+\shortans{14}
+\loigiai{
+Hai tuần lễ có: $7 + 7 = 14$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Trong 3 tuần lễ có tất cả bao nhiêu ngày?
+\shortans{21}
+\loigiai{
+Ba tuần lễ có: $7 \times 3 = 21$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Trong 4 tuần lễ có tất cả bao nhiêu ngày?
+\shortans{28}
+\loigiai{
+Bốn tuần lễ có: $7 \times 4 = 28$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một bạn học sinh đi học 5 ngày mỗi tuần. Trong 2 tuần bạn đi học bao nhiêu ngày?
+\shortans{10}
+\loigiai{
+Hai tuần đi học: $5 + 5 = 10$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là ngày 5, thì ngày này tuần sau là ngày bao nhiêu? (Cộng thêm 7 ngày).
+\shortans{12}
+\loigiai{
+Ngày này tuần sau là: $5 + 7 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Ba tuần này là ngày 8, thì Thứ Ba tuần sau là ngày bao nhiêu?
+\shortans{15}
+\loigiai{
+Thứ Ba tuần sau là: $8 + 7 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Năm tuần này là ngày 20, thì Thứ Năm tuần trước là ngày bao nhiêu? (Trừ đi 7 ngày).
+\shortans{13}
+\loigiai{
+Thứ Năm tuần trước là: $20 - 7 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Chủ Nhật tuần này là ngày 14, thì Chủ Nhật tuần sau là ngày bao nhiêu?
+\shortans{21}
+\loigiai{
+Chủ Nhật tuần sau là: $14 + 7 = 21$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Sáu tuần này là ngày 25, thì Thứ Sáu tuần trước là ngày bao nhiêu?
+\shortans{18}
+\loigiai{
+Thứ Sáu tuần trước là: $25 - 7 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 10 là Thứ Tư, thì ngày 12 cùng tháng đó là Thứ mấy?
+\shortans{6}
+\loigiai{
+Ngày 10 là Thứ Tư, ngày 11 là Thứ Năm, ngày 12 là Thứ Sáu.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 15 là Thứ Bảy, thì ngày 13 cùng tháng đó là Thứ mấy?
+\shortans{5}
+\loigiai{
+Ngày 15 là Thứ Bảy, ngày 14 là Thứ Sáu, ngày 13 là Thứ Năm.
+}
+\end{ex}
+
+\begin{ex}
+Một chú gà con ấp trứng sau 21 ngày thì nở thành con. Hỏi trứng gà được ấp trong bao nhiêu tuần lễ?
+\shortans{3}
+\loigiai{
+Vì $21 : 7 = 3$ nên ấp trong 3 tuần lễ.
+}
+\end{ex}
+
+\begin{ex}
+Bố đi công tác trong 2 tuần lễ và 3 ngày. Hỏi bố đi công tác tất cả bao nhiêu ngày?
+\shortans{17}
+\loigiai{
+2 tuần lễ là 14 ngày. Tổng cộng: $14 + 3 = 17$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Bé về quê thăm ông bà 1 tuần lễ và 2 ngày. Bé ở quê tất cả bao nhiêu ngày?
+\shortans{9}
+\loigiai{
+1 tuần là 7 ngày. Tổng cộng: $7 + 2 = 9$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Từ Thứ Hai đến Chủ Nhật của cùng một tuần có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Có đúng 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày Chủ Nhật?
+\shortans{1}
+\loigiai{
+Mỗi tuần chỉ có đúng 1 ngày Chủ Nhật.
+}
+\end{ex}

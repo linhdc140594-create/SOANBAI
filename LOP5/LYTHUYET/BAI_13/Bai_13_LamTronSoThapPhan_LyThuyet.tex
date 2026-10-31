@@ -1,0 +1,178 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 13. Làm tròn số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 13. LÀM TRÒN SỐ THẬP PHÂN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Quy tắc làm tròn đến hàng đơn vị, phần mười, phần trăm và ứng dụng thực tế trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC LÀM TRÒN CHUẨN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy tắc làm tròn số thập phân},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Để làm tròn một số thập phân đến một hàng nào đó (gọi là \textbf{hàng làm tròn}):\\
+  $\bullet$ Nhìn vào chữ số ngay bên phải của hàng làm tròn:\\
+  $\triangleright$ \textbf{Trường hợp 1 (Nhỏ hơn 5: $0, 1, 2, 3, 4$):} Giữ nguyên chữ số ở hàng làm tròn.\\
+  $\triangleright$ \textbf{Trường hợp 2 (Từ 5 trở lên: $5, 6, 7, 8, 9$):} Cộng thêm \textbf{1 đơn vị} vào chữ số ở hàng làm tròn.\\
+  $\bullet$ Sau đó, \textbf{bỏ đi} toàn bộ các chữ số ở bên phải hàng làm tròn (hoặc thay bằng chữ số $0$ nếu là phần nguyên).
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: CÁC CẤP ĐỘ LÀM TRÒN THƯỜNG GẶP ---
+\noindent
+\begin{minipage}[t]{0.32\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBullseye\ Đến HÀNG ĐƠN VỊ},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Xét chữ số ở hàng \textbf{phần mười}:\\
+    $\bullet$ $6,\mathbf{3}4 \approx 6$ (vì $3 < 5$).\\
+    $\bullet$ $8,\mathbf{7}1 \approx 9$ (vì $7 \ge 5$).\\
+    $\bullet$ $12,\mathbf{5}0 \approx 13$ (vì $5 \ge 5$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.33\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBullseye\ Đến HÀNG PHẦN MƯỜI},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Xét chữ số ở hàng \textbf{phần trăm}:\\
+    $\bullet$ $4,2\mathbf{3} \approx 4,2$ (vì $3 < 5$).\\
+    $\bullet$ $5,6\mathbf{8} \approx 5,7$ (vì $8 \ge 5$).\\
+    $\bullet$ $9,9\mathbf{6} \approx 10,0$ (nhớ $1$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.32\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBullseye\ Đến HÀNG PHẦN TRĂM},
+    colback=orange!2!white,
+    colframe=orange!80!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Xét chữ số ở hàng \textbf{phần nghìn}:\\
+    $\bullet$ $0,45\mathbf{2} \approx 0,45$ ($2 < 5$).\\
+    $\bullet$ $1,23\mathbf{7} \approx 1,24$ ($7 \ge 5$).\\
+    $\bullet$ $3,14\mathbf{5} \approx 3,15$ ($5 \ge 5$).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Quy trình làm tròn số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b0/.style={rectangle, rounded corners=4pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b0] (core) at (-6.3, 0) {Hàng\\làm tròn};
+    \node[b1] (look) at (-2.3, 0) {Nhìn chữ số\\bên phải};
+    \node[b2] (down) at (1.9, 0.75) {$< 5 \rightarrow$ \textbf{Giữ nguyên}};
+    \node[b3] (up) at (1.9, -0.75) {$\ge 5 \rightarrow$ \textbf{Cộng thêm 1}};
+    \node[b0] (end) at (6.3, 0) {Bỏ phần\\sau hàng đó};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (look);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (look) |- (down);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (look) |- (up);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (down) -| (end);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (up) -| (end);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: ỨNG DỤNG THỰC TẾ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faMoney\ Ứng dụng thực tế trong đời sống},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Điểm số thi}: Làm tròn đến $0,5$ hoặc $0,25$ hoặc $1$ chữ số thập phân (VD: $8,66 \approx 8,7$).\\
+    $\bullet$ \textbf{Cân đo sức khỏe}: Cân nặng $42,35\text{ kg} \approx 42,4\text{ kg}$.\\
+    $\bullet$ \textbf{Mua sắm}: Ước lượng tiền cần trả khi đi siêu thị.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Chữ số $9$ khi được cộng thêm $1$ sẽ thành $10$, phải \textbf{nhớ 1 sang hàng liền trước}!\\
+    \textit{VD:} Làm tròn $3,96$ đến hàng phần mười $\rightarrow$ xét $6 \ge 5 \rightarrow 3,9 + 0,1 = 4,0$.\\
+    $\bullet$ Khi đề yêu cầu làm tròn đến hàng phần mười, kết quả $4,0$ phải giữ chữ số $0$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

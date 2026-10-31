@@ -1,0 +1,1102 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+% =============================================================================
+% ========================= MÃ ĐỀ: 501 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 501} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Trong một hình tròn, độ dài đường kính gấp mấy lần bán kính:}{$2$ lần}{$3$ lần}{$4$ lần}{Bằng bán kính}
+\cauTN{2}{Công thức tính chu vi hình tròn có bán kính $r$ là:}{$C = r \times 3{,}14$}{$C = r \times 2 \times 3{,}14$}{$C = r \times r \times 3{,}14$}{$C = r \times 4 \times 3{,}14$}
+\cauTN{3}{Chu vi hình tròn có bán kính $5\,\text{cm}$ là:}{$15{,}7\,\text{cm}$}{$62{,}8\,\text{cm}$}{$31{,}4\,\text{cm}$}{$78{,}5\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $6\,\text{dm}$ là:}{$18{,}84\,\text{dm}$}{$37{,}68\,\text{dm}$}{$28{,}26\,\text{dm}$}{$113{,}04\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $12{,}56\,\text{m}$. Bán kính của hình tròn đó là:}{$4\,\text{m}$}{$2\,\text{m}$}{$1\,\text{m}$}{$3\,\text{m}$}
+\cauTN{6}{Công thức tính diện tích hình tròn có bán kính $r$ là:}{$S = r \times r \times 3{,}14$}{$S = r \times 2 \times 3{,}14$}{$S = d \times 3{,}14$}{$S = r \times 3{,}14$}
+\cauTN{7}{Diện tích hình tròn có bán kính $4\,\text{cm}$ là:}{$25{,}12\,\text{cm}^2$}{$50{,}24\,\text{cm}^2$}{$12{,}56\,\text{cm}^2$}{$100{,}48\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $10\,\text{dm}$ là:}{$314\,\text{dm}^2$}{$157\,\text{dm}^2$}{$78{,}5\,\text{dm}^2$}{$31{,}4\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}65\,\text{m}$. Khi bánh xe lăn $100\,\text{vòng}$ thì đi được quãng đường là:}{$204{,}1\,\text{m}$}{$130\,\text{m}$}{$408{,}2\,\text{m}$}{$200\,\text{m}$}
+\cauTN{10}{Một bánh xe có chu vi $2\,\text{m}$. Bánh xe đó phải lăn bao nhiêu vòng để đi hết quãng đường $500\,\text{m}$:}{$200\,\text{vòng}$}{$250\,\text{vòng}$}{$300\,\text{vòng}$}{$150\,\text{vòng}$}
+\cauTNhaiDong{11}{Một bồn hoa hình tròn bán kính $3\,\text{m}$. Người ta làm đường đi rộng $1\,\text{m}$ bao quanh. Diện tích con đường đó là:}{$21{,}98\,\text{m}^2$}{$28{,}26\,\text{m}^2$}{$50{,}24\,\text{m}^2$}{$18{,}84\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $10\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $10\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$20\,\text{cm}^2$}{$21{,}5\,\text{cm}^2$}{$25\,\text{cm}^2$}{$18{,}5\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$35{,}6 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$18{,}84 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$50{,}24 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$78{,}5 - 28{,}26$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 501} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 31{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 37{,}68$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 4{,}5) \times 3{,}14 = 31{,}4$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 6 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 12 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 6 \times 6 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 10 \times 10 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bánh xe đạp có đường kính 0{,}65 m. Hỏi khi bánh xe lăn trên mặt đất được 200 vòng thì xe đi được quãng đường dài bao nhiêu mét?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 10 cm, hình tròn nội tiếp có đường kính 10 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 502 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 502} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Nếu bán kính hình tròn là $r$ thì đường kính $d$ bằng:}{$d = 2 \times r$}{$d = r : 2$}{$d = r \times r$}{$d = r + 2$}
+\cauTN{2}{Chu vi hình tròn có đường kính $d$ tính bằng công thức:}{$C = d \times 2 \times 3{,}14$}{$C = d \times 3{,}14$}{$C = d \times d \times 3{,}14$}{$C = d : 3{,}14$}
+\cauTN{3}{Chu vi hình tròn có bán kính $4\,\text{cm}$ là:}{$12{,}56\,\text{cm}$}{$50{,}24\,\text{cm}$}{$25{,}12\,\text{cm}$}{$37{,}68\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $8\,\text{dm}$ là:}{$25{,}12\,\text{dm}$}{$50{,}24\,\text{dm}$}{$16{,}28\,\text{dm}$}{$75{,}36\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $18{,}84\,\text{m}$. Bán kính của hình tròn đó là:}{$6\,\text{m}$}{$3\,\text{m}$}{$2\,\text{m}$}{$4\,\text{m}$}
+\cauTN{6}{Nếu bán kính hình tròn gấp lên 2 lần thì diện tích hình tròn:}{Gấp lên 4 lần}{Gấp lên 2 lần}{Gấp lên 8 lần}{Không đổi}
+\cauTN{7}{Diện tích hình tròn có bán kính $5\,\text{cm}$ là:}{$31{,}4\,\text{cm}^2$}{$78{,}5\,\text{cm}^2$}{$157\,\text{cm}^2$}{$25\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $8\,\text{dm}$ là:}{$200{,}96\,\text{dm}^2$}{$100{,}48\,\text{dm}^2$}{$50{,}24\,\text{dm}^2$}{$25{,}12\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}6\,\text{m}$. Khi bánh xe lăn $200\,\text{vòng}$ thì đi được quãng đường là:}{$376{,}8\,\text{m}$}{$188{,}4\,\text{m}$}{$753{,}6\,\text{m}$}{$360\,\text{m}$}
+\cauTN{10}{Một bánh xe có chu vi $1{,}5\,\text{m}$. Bánh xe đó phải lăn bao nhiêu vòng để đi hết quãng đường $450\,\text{m}$:}{$250\,\text{vòng}$}{$300\,\text{vòng}$}{$350\,\text{vòng}$}{$200\,\text{vòng}$}
+\cauTNhaiDong{11}{Một cái giếng hình tròn có bán kính $0{,}7\,\text{m}$. Người ta xây thành giếng rộng $0{,}3\,\text{m}$. Diện tích thành giếng là:}{$1{,}6014\,\text{m}^2$}{$3{,}14\,\text{m}^2$}{$1{,}5386\,\text{m}^2$}{$2{,}12\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $8\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $8\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$12\,\text{cm}^2$}{$13{,}76\,\text{cm}^2$}{$15\,\text{cm}^2$}{$14{,}5\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$42{,}8 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$25{,}12 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$78{,}5 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$113{,}04 - 50{,}24$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 502} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 47{,}1$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 50{,}24$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 10$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 6{,}5) \times 3{,}14 = 47{,}1$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 8 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 14 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 7 \times 7 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 12 \times 12 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bồn hoa hình tròn có bán kính 1{,}5 m. Người ta trồng hoa trên toàn bộ mặt bồn. Hỏi diện tích bồn hoa là bao nhiêu mét vuông?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 8 cm, hình tròn nội tiếp có đường kính 8 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 503 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 503} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tất cả các bán kính của một hình tròn đều:}{Bằng nhau}{Khác nhau}{Vuông góc với nhau}{Song song với nhau}
+\cauTN{2}{Số $3{,}14$ thường được dùng trong công thức tính chu vi và diện tích hình tròn là giá trị gần đúng của số:}{Phi ($\phi$)}{Pi ($\pi$)}{Alpha ($\alpha$)}{Beta ($\beta$)}
+\cauTN{3}{Chu vi hình tròn có bán kính $6\,\text{cm}$ là:}{$18{,}84\,\text{cm}$}{$75{,}36\,\text{cm}$}{$37{,}68\,\text{cm}$}{$113{,}04\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $10\,\text{dm}$ là:}{$31{,}4\,\text{dm}$}{$62{,}8\,\text{dm}$}{$78{,}5\,\text{dm}$}{$314\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $25{,}12\,\text{m}$. Bán kính của hình tròn đó là:}{$8\,\text{m}$}{$4\,\text{m}$}{$2\,\text{m}$}{$6\,\text{m}$}
+\cauTN{6}{Nếu bán kính hình tròn tăng gấp 3 lần thì diện tích hình tròn:}{Tăng gấp 9 lần}{Tăng gấp 3 lần}{Tăng gấp 6 lần}{Không đổi}
+\cauTN{7}{Diện tích hình tròn có bán kính $6\,\text{cm}$ là:}{$37{,}68\,\text{cm}^2$}{$113{,}04\,\text{cm}^2$}{$226{,}08\,\text{cm}^2$}{$36\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $12\,\text{dm}$ là:}{$452{,}16\,\text{dm}^2$}{$226{,}08\,\text{dm}^2$}{$113{,}04\,\text{dm}^2$}{$37{,}68\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}7\,\text{m}$. Khi bánh xe lăn $150\,\text{vòng}$ thì đi được quãng đường là:}{$329{,}7\,\text{m}$}{$164{,}85\,\text{m}$}{$659{,}4\,\text{m}$}{$300\,\text{m}$}
+\cauTN{10}{Một bánh xe có đường kính $0{,}5\,\text{m}$. Bánh xe đó phải lăn bao nhiêu vòng để đi hết quãng đường $314\,\text{m}$:}{$150\,\text{vòng}$}{$200\,\text{vòng}$}{$250\,\text{vòng}$}{$100\,\text{vòng}$}
+\cauTNhaiDong{11}{Một hồ nước hình tròn có bán kính $5\,\text{m}$. Người ta đắp một con đường rộng $2\,\text{m}$ bao quanh. Diện tích con đường đó là:}{$75{,}36\,\text{m}^2$}{$87{,}92\,\text{m}^2$}{$100\,\text{m}^2$}{$62{,}8\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $12\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $12\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$30\,\text{cm}^2$}{$30{,}96\,\text{cm}^2$}{$32\,\text{cm}^2$}{$28{,}5\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$53{,}4 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$31{,}4 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$113{,}04 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$153{,}86 - 78{,}5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 503} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 62{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 62{,}8$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 12$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 8{,}5) \times 3{,}14 = 62{,}8$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 9 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 16 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 8 \times 8 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 14 \times 14 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Miệng giếng nước là một hình tròn có đường kính 1{,}2 m. Người ta xây thành giếng rộng 0{,}3 m bao quanh miệng giếng. Tính diện tích của thành giếng đó.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vành khuyên có bán kính ngoài 6 cm, bán kính trong 4 cm. Diện tích $S = S_{\text{ngoài}} - S_{\text{trong}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 504 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 504} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Đoạn thẳng nối hai điểm bất kì trên đường tròn và đi qua tâm gọi là:}{Đường kính}{Bán kính}{Dây cung}{Tiếp tuyến}
+\cauTN{2}{Độ dài của đường tròn được gọi là:}{Diện tích hình tròn}{Chu vi hình tròn}{Đường kính}{Bán kính}
+\cauTN{3}{Chu vi hình tròn có bán kính $7\,\text{cm}$ là:}{$21{,}98\,\text{cm}$}{$87{,}92\,\text{cm}$}{$43{,}96\,\text{cm}$}{$153{,}86\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $12\,\text{dm}$ là:}{$37{,}68\,\text{dm}$}{$75{,}36\,\text{dm}$}{$113{,}04\,\text{dm}$}{$452{,}16\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $31{,}4\,\text{m}$. Bán kính của hình tròn đó là:}{$10\,\text{m}$}{$5\,\text{m}$}{$2{,}5\,\text{m}$}{$6\,\text{m}$}
+\cauTN{6}{Nếu đường kính hình tròn gấp lên 2 lần thì diện tích hình tròn:}{Gấp lên 4 lần}{Gấp lên 2 lần}{Gấp lên 8 lần}{Không đổi}
+\cauTN{7}{Diện tích hình tròn có bán kính $7\,\text{cm}$ là:}{$43{,}96\,\text{cm}^2$}{$153{,}86\,\text{cm}^2$}{$307{,}72\,\text{cm}^2$}{$49\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $14\,\text{dm}$ là:}{$615{,}44\,\text{dm}^2$}{$307{,}72\,\text{dm}^2$}{$153{,}86\,\text{dm}^2$}{$43{,}96\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}65\,\text{m}$. Khi bánh xe lăn $250\,\text{vòng}$ thì đi được quãng đường là:}{$510{,}25\,\text{m}$}{$255{,}12\,\text{m}$}{$1\\,020{,}5\,\text{m}$}{$500\,\text{m}$}
+\cauTN{10}{Một bánh xe có bán kính $0{,}25\,\text{m}$. Bánh xe đó lăn bao nhiêu vòng để đi hết quãng đường $314\,\text{m}$:}{$150\,\text{vòng}$}{$200\,\text{vòng}$}{$250\,\text{vòng}$}{$100\,\text{vòng}$}
+\cauTNhaiDong{11}{Một bồn cỏ hình tròn có bán kính $4\,\text{m}$. Người ta lát gạch viền xung quanh rộng $1\,\text{m}$. Diện tích phần lát gạch là:}{$28{,}26\,\text{m}^2$}{$31{,}4\,\text{m}^2$}{$50{,}24\,\text{m}^2$}{$25{,}12\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $14\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $14\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$40\,\text{cm}^2$}{$42{,}14\,\text{cm}^2$}{$45\,\text{cm}^2$}{$39{,}5\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$62{,}5 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$37{,}68 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$153{,}86 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$200{,}96 - 113{,}04$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 504} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 78{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 75{,}36$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 15$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 10{,}5) \times 3{,}14 = 78{,}5$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 10 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 18 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 9 \times 9 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 15 \times 15 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bánh xe ô tô có bán kính 0{,}4 m. Hỏi khi bánh xe lăn được 500 vòng thì ô tô đi được quãng đường dài bao nhiêu mét?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 12 cm, hình tròn nội tiếp có đường kính 12 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 505 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 505} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Nếu đường kính hình tròn là $d$ thì bán kính $r$ bằng:}{$r = d : 2$}{$r = d \times 2$}{$r = d \times d$}{$r = d - 2$}
+\cauTN{2}{Bán kính hình tròn là đoạn thẳng nối từ tâm đến:}{Một điểm bất kì ngoài hình tròn}{Một điểm bất kì trên đường tròn}{Tâm của hình tròn khác}{Trung điểm đường kính}
+\cauTN{3}{Chu vi hình tròn có bán kính $8\,\text{cm}$ là:}{$25{,}12\,\text{cm}$}{$100{,}48\,\text{cm}$}{$50{,}24\,\text{cm}$}{$200{,}96\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $14\,\text{dm}$ là:}{$43{,}96\,\text{dm}$}{$87{,}92\,\text{dm}$}{$153{,}86\,\text{dm}$}{$615{,}44\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $37{,}68\,\text{m}$. Bán kính của hình tròn đó là:}{$12\,\text{m}$}{$6\,\text{m}$}{$3\,\text{m}$}{$8\,\text{m}$}
+\cauTN{6}{Nếu bán kính hình tròn giảm đi một nửa thì diện tích hình tròn:}{Giảm đi 4 lần}{Giảm đi 2 lần}{Không đổi}{Giảm đi 8 lần}
+\cauTN{7}{Diện tích hình tròn có bán kính $8\,\text{cm}$ là:}{$50{,}24\,\text{cm}^2$}{$200{,}96\,\text{cm}^2$}{$401{,}92\,\text{cm}^2$}{$64\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $16\,\text{dm}$ là:}{$803{,}84\,\text{dm}^2$}{$401{,}92\,\text{dm}^2$}{$200{,}96\,\text{dm}^2$}{$50{,}24\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}6\,\text{m}$. Khi bánh xe lăn $300\,\text{vòng}$ thì đi được quãng đường là:}{$565{,}2\,\text{m}$}{$282{,}6\,\text{m}$}{$1\\,130{,}4\,\text{m}$}{$540\,\text{m}$}
+\cauTN{10}{Một bánh xe có chu vi $2{,}5\,\text{m}$. Bánh xe đó phải lăn bao nhiêu vòng để đi hết quãng đường $750\,\text{m}$:}{$250\,\text{vòng}$}{$300\,\text{vòng}$}{$350\,\text{vòng}$}{$200\,\text{vòng}$}
+\cauTNhaiDong{11}{Một bồn hoa hình tròn bán kính $5\,\text{m}$. Người ta lát gạch làm lối đi rộng $1\,\text{m}$ bao quanh. Diện tích lối đi là:}{$34{,}54\,\text{m}^2$}{$31{,}4\,\text{m}^2$}{$62{,}8\,\text{m}^2$}{$40\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $16\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $16\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$50\,\text{cm}^2$}{$55{,}04\,\text{cm}^2$}{$60\,\text{cm}^2$}{$52{,}5\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$74{,}2 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$43{,}96 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$200{,}96 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$254{,}34 - 153{,}86$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 505} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 94{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 87{,}92$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 18$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 12{,}5) \times 3{,}14 = 94{,}2$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 12 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 20 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 10 \times 10 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 16 \times 16 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bồn hoa hình tròn có chu vi 12{,}56 m. Người ta trồng hoa trên toàn bộ mặt bồn. Tính diện tích bồn hoa đó.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vành khuyên có bán kính ngoài 5 cm, bán kính trong 3 cm. Diện tích $S = S_{\text{ngoài}} - S_{\text{trong}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 506 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 506} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Tâm của hình tròn là:}{Trung điểm của mọi đường kính}{Điểm nằm ngoài hình tròn}{Điểm nằm trên đường tròn}{Giao điểm của hai dây cung bất kì}
+\cauTN{2}{Chu vi của nửa hình tròn bán kính $r$ (kể cả đường kính) tính bởi:}{$r \times 3{,}14$}{$r \times 3{,}14 + 2 \times r$}{$2 \times r \times 3{,}14$}{$r \times r \times 3{,}14 : 2$}
+\cauTN{3}{Chu vi hình tròn có bán kính $9\,\text{cm}$ là:}{$28{,}26\,\text{cm}$}{$113{,}04\,\text{cm}$}{$56{,}52\,\text{cm}$}{$254{,}34\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $16\,\text{dm}$ là:}{$50{,}24\,\text{dm}$}{$100{,}48\,\text{dm}$}{$200{,}96\,\text{dm}$}{$803{,}84\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $43{,}96\,\text{m}$. Bán kính của hình tròn đó là:}{$14\,\text{m}$}{$7\,\text{m}$}{$3{,}5\,\text{m}$}{$10\,\text{m}$}
+\cauTN{6}{Hai hình tròn có bán kính gấp nhau 2 lần thì chu vi của chúng gấp nhau:}{2 lần}{4 lần}{8 lần}{Không đổi}
+\cauTN{7}{Diện tích hình tròn có bán kính $9\,\text{cm}$ là:}{$56{,}52\,\text{cm}^2$}{$254{,}34\,\text{cm}^2$}{$508{,}68\,\text{cm}^2$}{$81\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $18\,\text{dm}$ là:}{$1\\,017{,}36\,\text{dm}^2$}{$508{,}68\,\text{dm}^2$}{$254{,}34\,\text{dm}^2$}{$56{,}52\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}7\,\text{m}$. Khi bánh xe lăn $200\,\text{vòng}$ thì đi được quãng đường là:}{$439{,}6\,\text{m}$}{$219{,}8\,\text{m}$}{$879{,}2\,\text{m}$}{$400\,\text{m}$}
+\cauTN{10}{Một bánh xe có đường kính $0{,}8\,\text{m}$. Bánh xe đó phải lăn bao nhiêu vòng để đi hết quãng đường $502{,}4\,\text{m}$:}{$150\,\text{vòng}$}{$200\,\text{vòng}$}{$250\,\text{vòng}$}{$100\,\text{vòng}$}
+\cauTNhaiDong{11}{Một bồn hoa hình tròn có bán kính $6\,\text{m}$. Người ta đắp lối đi rộng $1\,\text{m}$ bao quanh. Diện tích lối đi là:}{$40{,}82\,\text{m}^2$}{$37{,}68\,\text{m}^2$}{$50{,}24\,\text{m}^2$}{$45\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $18\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $18\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$65\,\text{cm}^2$}{$69{,}66\,\text{cm}^2$}{$72\,\text{cm}^2$}{$68\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$81{,}5 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$50{,}24 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$254{,}34 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$314 - 200{,}96$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 506} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 109{,}9$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 100{,}48$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 20$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 14{,}5) \times 3{,}14 = 109{,}9$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 14 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 24 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 11 \times 11 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 18 \times 18 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một bánh xe có đường kính 0{,}5 m. Hỏi bánh xe phải lăn bao nhiêu vòng để đi được quãng đường dài 314 m?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vuông cạnh 20 cm, hình tròn nội tiếp có đường kính 20 cm. Diện tích phần tô đậm $S = S_{\text{vuông}} - S_{\text{tròn}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 507 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 14)} & \textbf{MÃ ĐỀ: 507} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Đường kính của hình tròn chia hình tròn thành:}{Hai nửa hình tròn bằng nhau}{Ba phần bằng nhau}{Bốn phần bằng nhau}{Hai phần không bằng nhau}
+\cauTN{2}{Nếu đường kính của hình tròn tăng gấp 3 lần thì chu vi của nó:}{Không đổi}{Tăng gấp 3 lần}{Tăng gấp 9 lần}{Tăng gấp 6 lần}
+\cauTN{3}{Chu vi hình tròn có bán kính $10\,\text{cm}$ là:}{$31{,}4\,\text{cm}$}{$125{,}6\,\text{cm}$}{$62{,}8\,\text{cm}$}{$314\,\text{cm}$}
+\cauTN{4}{Chu vi hình tròn có đường kính $18\,\text{dm}$ là:}{$56{,}52\,\text{dm}$}{$113{,}04\,\text{dm}$}{$254{,}34\,\text{dm}$}{$1\\,017{,}36\,\text{dm}$}
+\cauTN{5}{Một hình tròn có chu vi $50{,}24\,\text{m}$. Bán kính của hình tròn đó là:}{$16\,\text{m}$}{$8\,\text{m}$}{$4\,\text{m}$}{$12\,\text{m}$}
+\cauTN{6}{Hai hình tròn có chu vi gấp nhau 3 lần thì diện tích của chúng gấp nhau:}{9 lần}{3 lần}{6 lần}{Không đổi}
+\cauTN{7}{Diện tích hình tròn có bán kính $10\,\text{cm}$ là:}{$62{,}8\,\text{cm}^2$}{$314\,\text{cm}^2$}{$628\,\text{cm}^2$}{$100\,\text{cm}^2$}
+\cauTN{8}{Diện tích hình tròn có đường kính $20\,\text{dm}$ là:}{$1\\,256\,\text{dm}^2$}{$628\,\text{dm}^2$}{$314\,\text{dm}^2$}{$62{,}8\,\text{dm}^2$}
+\cauTN{9}{Một bánh xe đạp có đường kính $0{,}75\,\text{m}$. Khi bánh xe lăn $200\,\text{vòng}$ thì đi được quãng đường là:}{$471\,\text{m}$}{$235{,}5\,\text{m}$}{$942\,\text{m}$}{$450\,\text{m}$}
+\cauTN{10}{Một bánh xe có đường kính $0{,}6\,\text{m}$. Bánh xe đó phải lăn bao nhiêu vòng để đi hết quãng đường $565{,}2\,\text{m}$:}{$250\,\text{vòng}$}{$300\,\text{vòng}$}{$350\,\text{vòng}$}{$200\,\text{vòng}$}
+\cauTNhaiDong{11}{Một hồ nước hình tròn bán kính $7\,\text{m}$. Người ta đắp lối đi rộng $1\,\text{m}$ bao quanh. Diện tích lối đi là:}{$47{,}1\,\text{m}^2$}{$43{,}96\,\text{m}^2$}{$50{,}24\,\text{m}^2$}{$45\,\text{m}^2$}
+\cauTNhaiDong{12}{Một hình vuông cạnh $20\,\text{cm}$, bên trong vẽ hình tròn nội tiếp đường kính $20\,\text{cm}$. Diện tích phần ngoài hình tròn là:}{$80\,\text{cm}^2$}{$86\,\text{cm}^2$}{$90\,\text{cm}^2$}{$84\,\text{cm}^2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$92{,}5 \times 3{,}14$} & 
+\oDatTinh[4]{b)}{$56{,}52 : 3{,}14$} & 
+\oDatTinh[4]{c)}{$314 : 3{,}14$} & 
+\oDatTinh[4]{d)}{$452{,}16 - 254{,}34$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 14} & \textbf{MÃ ĐỀ: 507} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x \times 3{,}14 = 125{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}28 = 125{,}6$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x : 3{,}14 = 25$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $(x + 18{,}5) \times 3{,}14 = 125{,}6$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $C = 2 \times 15 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  b) $C = 30 \times 3{,}14 = \dotfill\,\text{dm}$\par\vspace{1.4mm}
+  \noindent
+  c) $S = 12 \times 12 \times 3{,}14 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $S = 20 \times 20 \times 3{,}14 = \dotfill\,\text{m}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một giếng nước hình tròn có bán kính 0{,}8 m. Người ta xây thành giếng rộng 0{,}4 m bao quanh miệng giếng. Tính diện tích của thành giếng.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Hình vành khuyên có bán kính ngoài 10 cm, bán kính trong 6 cm. Diện tích $S = S_{\text{ngoài}} - S_{\text{trong}}$
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

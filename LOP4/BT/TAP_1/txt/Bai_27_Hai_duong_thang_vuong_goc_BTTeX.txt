@@ -1,0 +1,199 @@
+\begin{ex}
+Hai đường thẳng vuông góc với nhau tạo thành mấy góc vuông?
+\shortans{4}
+\loigiai{
+Hai đường thẳng vuông góc cắt nhau tạo thành 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai đường thẳng vuông góc có số đo bằng bao nhiêu độ?
+\shortans{90}
+\loigiai{
+Bằng $90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Dụng cụ học tập nào thường dùng để kiểm tra hai đường thẳng có vuông góc với nhau hay không? (Ê-ke ghi 1, compa ghi 2).
+\shortans{1}
+\loigiai{
+Dùng thước ê-ke (1).
+}
+\end{ex}
+
+\begin{ex}
+Trong hình chữ nhật ABCD, cạnh AB có vuông góc với cạnh AD không? (Có ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Có vuông góc (1).
+}
+\end{ex}
+
+\begin{ex}
+Trong hình chữ nhật ABCD, có bao nhiêu cặp cạnh kề nhau vuông góc với nhau?
+\shortans{4}
+\loigiai{
+Có 4 cặp cạnh vuông góc tại 4 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Trong hình vuông MNPQ, có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình tam giác vuông có mấy cặp cạnh vuông góc với nhau?
+\shortans{1}
+\loigiai{
+Có 1 cặp cạnh góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường chéo của hình vuông có vuông góc với nhau không? (Có ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Hai đường chéo hình vuông vuông góc với nhau.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường chéo của hình thoi có vuông góc với nhau không? (Có ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Hai đường chéo hình thoi vuông góc với nhau.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường chéo của hình chữ nhật thông thường (không phải hình vuông) có vuông góc với nhau không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Không vuông góc.
+}
+\end{ex}
+
+\begin{ex}
+Qua một điểm ở ngoài một đường thẳng, có thể vẽ được bao nhiêu đường thẳng vuông góc với đường thẳng đó?
+\shortans{1}
+\loigiai{
+Duy nhất 1 đường thẳng.
+}
+\end{ex}
+
+\begin{ex}
+Góc vuông được tạo bởi kim giờ và kim phút lúc mấy giờ đúng vào buổi chiều?
+\shortans{15}
+\loigiai{
+Lúc 15 giờ (3 giờ chiều).
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi kim giờ và kim phút lúc 9 giờ tối (21 giờ) có phải là góc vuông không? (Phải ghi 1, không ghi 0).
+\shortans{1}
+\loigiai{
+Lúc 21 giờ là góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hai cạnh liên tiếp của khung cửa sổ hình chữ nhật tạo thành góc gì? (Góc vuông ghi 1, góc nhọn ghi 2).
+\shortans{1}
+\loigiai{
+Góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Khung ảnh hình vuông có mấy góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một tam giác có thể có 2 góc vuông không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Không thể có 2 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu đỉnh tạo bởi các cặp cạnh vuông góc?
+\shortans{4}
+\loigiai{
+Có 4 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình thang vuông có bao nhiêu góc vuông?
+\shortans{2}
+\loigiai{
+Hình thang vuông có 2 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình tứ giác có nhiều nhất bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Nhiều nhất 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Cắt một góc vuông của tờ giấy hình chữ nhật bằng một nhát kéo thẳng, hình còn lại có thể có bao nhiêu góc vuông ban đầu?
+\shortans{3}
+\loigiai{
+Còn lại 3 góc vuông ban đầu.
+}
+\end{ex}
+
+\begin{ex}
+Số đo của góc vuông là bao nhiêu độ?
+\shortans{90}
+\loigiai{
+$90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường thẳng cắt nhau nhưng không tạo thành góc $90^\circ$ thì có vuông góc không? (Có ghi 1, không ghi 0).
+\shortans{0}
+\loigiai{
+Không vuông góc.
+}
+\end{ex}
+
+\begin{ex}
+Trong tam giác ABC vuông tại A, cạnh AB vuông góc với cạnh nào? (Cạnh AC ghi 1, cạnh BC ghi 2).
+\shortans{1}
+\loigiai{
+Cạnh AC.
+}
+\end{ex}
+
+\begin{ex}
+Dùng ê-ke vẽ đường thẳng đi qua điểm O và vuông góc với đường thẳng d. Vẽ được mấy đường thẳng như thế?
+\shortans{1}
+\loigiai{
+Chỉ vẽ được 1 đường thẳng.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số góc vuông tạo thành bởi 2 đường thẳng vuông góc là bao nhiêu?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}

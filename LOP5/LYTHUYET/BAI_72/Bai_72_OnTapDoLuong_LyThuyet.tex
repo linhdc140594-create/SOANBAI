@@ -1,0 +1,140 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 72. Ôn tập đo lường --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 72. ÔN TẬP ĐO LƯỜNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Bảng chuyển đổi Độ dài, Khối lượng, Diện tích, Thể tích và Thời gian trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BỐN BẢNG ĐƠN VỊ ĐO THƯỜNG GẶP ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. Độ dài, Khối lượng \& Diện tích},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Độ dài \& Khối lượng:} Hai đơn vị liền nhau hơn kém nhau $\mathbf{10\text{ lần}}$ ($1$ chữ số mỗi hàng).\\
+    $\bullet$ \textbf{Diện tích:} Hai đơn vị liền nhau hơn kém nhau $\mathbf{100\text{ lần}}$ ($2$ chữ số mỗi hàng).\\
+    $1\,\text{ha} = 1\,\text{hm}^2 = 10\,000\,\text{m}^2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faClockO\ 2. Thể tích \& Thời gian},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Thể tích:} Hai đơn vị liền nhau hơn kém nhau $\mathbf{1\,000\text{ lần}}$ ($3$ chữ số mỗi hàng).\\
+    $1\,\text{dm}^3 = 1\text{ Lít}$; $1\,\text{m}^3 = 1\,000\text{ Lít}$.\\
+    $\bullet$ \textbf{Thời gian:} Hệ cơ số $60$ ($1\text{ giờ} = 60\text{ phút} = 3\,600\text{ giây}$).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Bảng quy đổi các thang đo đại lượng},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faBalanceScale\ ĐẠI LƯỢNG ĐO LƯỜNG};
+    \node[b1] (n1) at (-5.3, -0.45) {\textbf{ĐỘ DÀI \& KHỐI LƯỢNG}\\[2pt]Kém nhau $\mathbf{10}$ lần\\($1$ chữ số mỗi cột)};
+    \node[b2] (n2) at (-1.8, -0.65) {\textbf{DIỆN TÍCH}\\[2pt]Kém nhau $\mathbf{100}$ lần\\($2$ chữ số mỗi cột)};
+    \node[b3] (n3) at (1.8, -0.65) {\textbf{THỂ TÍCH}\\[2pt]Kém nhau $\mathbf{1\,000}$ lần\\($3$ chữ số mỗi cột)};
+    \node[b4] (n4) at (5.3, -0.45) {\textbf{THỜI GIAN}\\[2pt]Cơ số $\mathbf{60}$\\($1\text{h} = 60\text{p} = 3\,600\text{s}$)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (n3);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: KỸ THUẬT ĐỔI NHANH & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ Kỹ thuật dời dấu phẩy đổi đơn vị},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Từ lớn sang bé:} Nhân ($10, 100, 1000$) $\rightarrow$ Dời phẩy sang \textbf{phải}.\\
+    $\bullet$ \textbf{Từ bé sang lớn:} Chia ($10, 100, 1000$) $\rightarrow$ Dời phẩy sang \textbf{trái}.\\
+    $\bullet$ Đổi thời gian ra số thập phân: Lấy số phút chia cho $60$ ($15\text{ phút} = 15 : 60 = 0,25\text{ giờ}$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy thời gian:} $2\text{ giờ } 15\text{ phút} \neq 2,15\text{ giờ}$! Phải đổi $15\text{ phút} = 0,25\text{ giờ} \rightarrow 2,25\text{ giờ}$.\\
+    $\bullet$ \textbf{Bẫy diện tích:} $5\,\text{m}^2\,4\,\text{dm}^2 = 5,04\,\text{m}^2$ (chú ý số 0!).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

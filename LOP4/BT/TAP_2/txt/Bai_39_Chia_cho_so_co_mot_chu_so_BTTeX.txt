@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $48624 : 2 = \dots$
+\shortans{24312}
+\loigiai{
+$48624 : 2 = 24312$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $69363 : 3 = \dots$
+\shortans{23121}
+\loigiai{
+$69363 : 3 = 23121$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84488 : 4 = \dots$
+\shortans{21122}
+\loigiai{
+$84488 : 4 = 21122$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $55505 : 5 = \dots$
+\shortans{11101}
+\loigiai{
+$55505 : 5 = 11101$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $64824 : 6 = \dots$
+\shortans{10804}
+\loigiai{
+$64824 : 6 = 10804$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $75355 : 5 = \dots$
+\shortans{15071}
+\loigiai{
+$75355 : 5 = 15071$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $91728 : 7 = \dots$
+\shortans{13104}
+\loigiai{
+$91728 : 7 = 13104$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $85640 : 8 = \dots$
+\shortans{10705}
+\loigiai{
+$85640 : 8 = 10705$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90189 : 9 = \dots$
+\shortans{10021}
+\loigiai{
+$90189 : 9 = 10021$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $600000 : 3 = \dots$
+\shortans{200000}
+\loigiai{
+$600000 : 3 = 200000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000000 : 4 = \dots$
+\shortans{250000}
+\loigiai{
+$1000000 : 4 = 250000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $840000 : 4 = \dots$
+\shortans{210000}
+\loigiai{
+$840000 : 4 = 210000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $950000 : 5 = \dots$
+\shortans{190000}
+\loigiai{
+$950000 : 5 = 190000$.
+}
+\end{ex}
+
+\begin{ex}
+Có 75 000 kg xi măng chia đều cho 5 công trường. Mỗi công trường nhận bao nhiêu ki-lô-gam xi măng?
+\shortans{15000}
+\loigiai{
+$75000 : 5 = 15000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn dây cáp quang dài 96 000 m cắt đều thành 8 đoạn. Mỗi đoạn dài bao nhiêu mét?
+\shortans{12000}
+\loigiai{
+$96000 : 8 = 12000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tìm thương trong phép chia $85400 : 4$.
+\shortans{21350}
+\loigiai{
+$85400 : 4 = 21350$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số dư trong phép chia $65437 : 5$.
+\shortans{2}
+\loigiai{
+$65437 = 5 \times 13087 + 2$, dư 2.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số dư trong phép chia $78495 : 6$.
+\shortans{3}
+\loigiai{
+$78495 = 6 \times 13082 + 3$, dư 3.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 5 = 85250$.
+\shortans{17050}
+\loigiai{
+$x = 85250 : 5 = 17050$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $4 \times x = 96480$.
+\shortans{24120}
+\loigiai{
+$x = 96480 : 4 = 24120$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $72000 : 6 + 18000$.
+\shortans{30000}
+\loigiai{
+$12000 + 18000 = 30000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $96000 : 4 - 15000$.
+\shortans{9000}
+\loigiai{
+$24000 - 15000 = 9000$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 96 800 m. Độ dài mỗi cạnh hình vuông là bao nhiêu mét?
+\shortans{24200}
+\loigiai{
+$96800 : 4 = 24200$ m.
+}
+\end{ex}
+
+\begin{ex}
+Có 54 000 lít dầu chia đều vào 6 bể chứa. Mỗi bể chứa bao nhiêu lít dầu?
+\shortans{9000}
+\loigiai{
+$54000 : 6 = 9000$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $999999 : 9 = \dots$
+\shortans{111111}
+\loigiai{
+$999999 : 9 = 111111$.
+}
+\end{ex}

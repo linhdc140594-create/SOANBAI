@@ -1,0 +1,199 @@
+\begin{ex}
+Đoạn thẳng AB dài 12 cm. Điểm M là trung điểm của đoạn thẳng AB. Độ dài đoạn thẳng AM là bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+$AM = 12 : 2 = 6$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng CD dài 20 cm. Điểm I là trung điểm của đoạn thẳng CD. Độ dài đoạn thẳng ID là bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+$ID = 20 : 2 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Điểm O là trung điểm của đoạn thẳng MN. Biết MO = 8 cm. Độ dài đoạn thẳng MN là bao nhiêu xăng-ti-mét?
+\shortans{16}
+\loigiai{
+$MN = 8 \times 2 = 16$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Điểm E là trung điểm của đoạn thẳng HK. Biết EK = 15 cm. Độ dài đoạn thẳng HK là bao nhiêu xăng-ti-mét?
+\shortans{30}
+\loigiai{
+$HK = 15 \times 2 = 30$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cho ba điểm thẳng hàng A, B, C theo thứ tự đó. Biết AB = 7 cm, BC = 7 cm. Điểm B cách đều A và C. Hỏi độ dài đoạn AC là bao nhiêu xăng-ti-mét?
+\shortans{14}
+\loigiai{
+$AC = 7 + 7 = 14$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cho ba điểm thẳng hàng A, B, C theo thứ tự. B có phải là điểm ở giữa A và C không? (Nếu đúng ghi 1, sai ghi 0).
+\shortans{1}
+\loigiai{
+Ba điểm thẳng hàng A, B, C thì B là điểm ở giữa A và C.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng PQ dài 18 cm. Điểm K là trung điểm của PQ. Hỏi PK dài bao nhiêu xăng-ti-mét?
+\shortans{9}
+\loigiai{
+$18 : 2 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây dài 24 cm, gập đôi sợi dây lại thì mỗi nửa sợi dây dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+$24 : 2 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 10 cm, M là trung điểm AB. Đoạn thẳng BC dài 6 cm, N là trung điểm BC (biết A, B, C thẳng hàng theo thứ tự). Tính MN theo xăng-ti-mét.
+\shortans{8}
+\loigiai{
+$MB = 5$ cm, $BN = 3$ cm, $MN = 5 + 3 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AC dài 16 cm. B là điểm ở giữa A và C sao cho AB = 9 cm. Tính độ dài đoạn thẳng BC theo xăng-ti-mét.
+\shortans{7}
+\loigiai{
+$BC = 16 - 9 = 7$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Nếu I là trung điểm của đoạn thẳng AB dài 28 cm thì IA bằng bao nhiêu xăng-ti-mét?
+\shortans{14}
+\loigiai{
+$28 : 2 = 14$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Biết M là trung điểm của AB, và AM = 25 cm. Độ dài AB bằng bao nhiêu xăng-ti-mét?
+\shortans{50}
+\loigiai{
+$25 \times 2 = 50$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một thanh gỗ dài 40 dm, bác thợ mộc cưa đôi thanh gỗ tại đúng trung điểm. Hỏi mỗi đoạn gỗ dài bao nhiêu đề-xi-mét?
+\shortans{20}
+\loigiai{
+$40 : 2 = 20$ dm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 36 cm. Điểm C là trung điểm AB, điểm D là trung điểm AC. Hỏi AD dài bao nhiêu xăng-ti-mét?
+\shortans{9}
+\loigiai{
+$AC = 36 : 2 = 18$ cm, $AD = 18 : 2 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cho đoạn thẳng MN dài 48 cm, I là trung điểm MN, K là trung điểm IN. Tính độ dài IK theo xăng-ti-mét.
+\shortans{12}
+\loigiai{
+$IN = 48 : 2 = 24$ cm, $IK = 24 : 2 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn dây thép dài 50 cm. Người ta uốn cong tại chính giữa. Mỗi nửa đoạn dây dài bao nhiêu xăng-ti-mét?
+\shortans{25}
+\loigiai{
+$50 : 2 = 25$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Trên một đường thẳng có ba điểm A, B, C. Biết AB = 5 cm, AC = 10 cm, B nằm giữa A và C. B có phải là trung điểm của AC không? (Nếu đúng ghi 1, sai ghi 0).
+\shortans{1}
+\loigiai{
+$BC = 10 - 5 = 5$ cm = $AB$, nên B là trung điểm của AC.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 14 cm. Điểm M nằm giữa A và B sao cho AM = 6 cm. Tính độ dài đoạn MB theo xăng-ti-mét.
+\shortans{8}
+\loigiai{
+$MB = 14 - 6 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Nếu O là trung điểm của đoạn PQ dài 60 cm thì OQ dài bao nhiêu xăng-ti-mét?
+\shortans{30}
+\loigiai{
+$60 : 2 = 30$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cho đoạn thẳng CD dài 32 cm. Điểm M là trung điểm của CD. Tính tổng độ dài CM + MD theo xăng-ti-mét.
+\shortans{32}
+\loigiai{
+$CM + MD = CD = 32$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn thẳng có bao nhiêu trung điểm?
+\shortans{1}
+\loigiai{
+Mỗi đoạn thẳng chỉ có duy nhất 1 trung điểm.
+}
+\end{ex}
+
+\begin{ex}
+Một thước dây dài 100 cm. Vạch chỉ trung điểm của thước dây là vạch số bao nhiêu xăng-ti-mét?
+\shortans{50}
+\loigiai{
+$100 : 2 = 50$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng MN dài 1 m. Trung điểm của đoạn MN cách điểm M bao nhiêu đề-xi-mét?
+\shortans{5}
+\loigiai{
+$1\text{ m} = 10\text{ dm}$, $10 : 2 = 5$ dm.
+}
+\end{ex}
+
+\begin{ex}
+Điểm K là trung điểm của đoạn thẳng AB dài 16 dm. Điểm K cách đầu mút B bao nhiêu đề-xi-mét?
+\shortans{8}
+\loigiai{
+$16 : 2 = 8$ dm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 22 cm, M là trung điểm AB. Hỏi độ dài AM là bao nhiêu xăng-ti-mét?
+\shortans{11}
+\loigiai{
+$22 : 2 = 11$ cm.
+}
+\end{ex}

@@ -1,0 +1,199 @@
+\begin{ex}
+Làm tròn số 4200 đến hàng nghìn ta được số nào?
+\shortans{4000}
+\loigiai{
+Hàng trăm là 2 < 5 nên làm tròn thành 4000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 7800 đến hàng nghìn ta được số nào?
+\shortans{8000}
+\loigiai{
+Hàng trăm là 8 $\ge$ 5 nên làm tròn lên 8000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 5500 đến hàng nghìn ta được số nào?
+\shortans{6000}
+\loigiai{
+Hàng trăm là 5 nên làm tròn lên 6000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 14 300 đến hàng nghìn ta được số nào?
+\shortans{14000}
+\loigiai{
+Hàng trăm là 3 nên làm tròn thành 14 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 26 750 đến hàng nghìn ta được số nào?
+\shortans{27000}
+\loigiai{
+Hàng trăm là 7 nên làm tròn lên 27 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 38 500 đến hàng nghìn ta được số nào?
+\shortans{39000}
+\loigiai{
+Hàng trăm là 5 nên làm tròn lên 39 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 34 000 đến hàng chục nghìn ta được số nào?
+\shortans{30000}
+\loigiai{
+Hàng nghìn là 4 < 5 nên làm tròn thành 30 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 67 000 đến hàng chục nghìn ta được số nào?
+\shortans{70000}
+\loigiai{
+Hàng nghìn là 7 $\ge$ 5 nên làm tròn lên 70 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 45 000 đến hàng chục nghìn ta được số nào?
+\shortans{50000}
+\loigiai{
+Hàng nghìn là 5 nên làm tròn lên 50 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 82 450 đến hàng chục nghìn ta được số nào?
+\shortans{80000}
+\loigiai{
+Hàng nghìn là 2 nên làm tròn thành 80 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 95 800 đến hàng chục nghìn ta được số nào?
+\shortans{100000}
+\loigiai{
+Hàng nghìn là 5 nên làm tròn lên 100 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 56 120 đến hàng nghìn ta được số nào?
+\shortans{56000}
+\loigiai{
+Hàng trăm là 1 nên làm tròn thành 56 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 73 890 đến hàng nghìn ta được số nào?
+\shortans{74000}
+\loigiai{
+Hàng trăm là 8 nên làm tròn lên 74 000.
+}
+\end{ex}
+
+\begin{ex}
+Số nhỏ nhất khi làm tròn đến hàng nghìn được 40 000 là số nào?
+\shortans{39500}
+\loigiai{
+Số nhỏ nhất là 39 500.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất khi làm tròn đến hàng nghìn được 40 000 là số nào?
+\shortans{40499}
+\loigiai{
+Số lớn nhất là 40 499.
+}
+\end{ex}
+
+\begin{ex}
+Số nhỏ nhất khi làm tròn đến hàng chục nghìn được 60 000 là số nào?
+\shortans{55000}
+\loigiai{
+Số nhỏ nhất là 55 000.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất khi làm tròn đến hàng chục nghìn được 60 000 là số nào?
+\shortans{64999}
+\loigiai{
+Số lớn nhất là 64 999.
+}
+\end{ex}
+
+\begin{ex}
+Một sân vận động có 42 150 khán giả. Làm tròn đến hàng nghìn là khoảng bao nhiêu khán giả?
+\shortans{42000}
+\loigiai{
+Làm tròn thành 42 000.
+}
+\end{ex}
+
+\begin{ex}
+Một công ty xuất khẩu 78 600 tấn gạo. Làm tròn đến hàng chục nghìn là khoảng bao nhiêu tấn gạo?
+\shortans{80000}
+\loigiai{
+Làm tròn lên 80 000 tấn.
+}
+\end{ex}
+
+\begin{ex}
+Dân số một xã là 14 520 người. Làm tròn đến hàng nghìn là bao nhiêu người?
+\shortans{15000}
+\loigiai{
+Làm tròn lên 15 000.
+}
+\end{ex}
+
+\begin{ex}
+Quãng đường xe chạy được 54 800 km. Làm tròn đến hàng chục nghìn là bao nhiêu ki-lô-mét?
+\shortans{50000}
+\loigiai{
+Làm tròn thành 50 000 km.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 24 999 đến hàng chục nghìn ta được số nào?
+\shortans{20000}
+\loigiai{
+Hàng nghìn là 4 nên làm tròn thành 20 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 25 000 đến hàng chục nghìn ta được số nào?
+\shortans{30000}
+\loigiai{
+Hàng nghìn là 5 nên làm tròn lên 30 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 99 600 đến hàng nghìn ta được số nào?
+\shortans{100000}
+\loigiai{
+Làm tròn lên 100 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 89 400 đến hàng nghìn ta được số nào?
+\shortans{89000}
+\loigiai{
+Hàng trăm là 4 nên làm tròn thành 89 000.
+}
+\end{ex}

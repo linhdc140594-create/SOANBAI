@@ -1,0 +1,1109 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 401 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 401} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Năm $1010$ vua Lý Thái Tổ dời đô về Thăng Long. Năm đó thuộc thế kỉ nào?}{Thế kỉ IX}{Thế kỉ X}{Thế kỉ XI}{Thế kỉ XII}
+\cauTN{2}{Một thế kỉ bằng bao nhiêu năm?}{$10$ năm}{$50$ năm}{$100$ năm}{$1\,000$ năm}
+\cauTN{3}{Khoảng thời gian $2\,\text{phút}\,30\,\text{giây}$ bằng bao nhiêu giây?}{$120\,\text{giây}$}{$150\,\text{giây}$}{$180\,\text{giây}$}{$230\,\text{giây}$}
+\cauTN{4}{Năm $2024$ thuộc thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XXII}
+\cauTN{5}{Một năm thường có bao nhiêu ngày?}{$364$ ngày}{$365$ ngày}{$366$ ngày}{$367$ ngày}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $3\,\text{tạ}\,25\,\text{kg} = \dots\,\text{kg}$ là:}{$325$}{$3\,025$}{$3\,250$}{$32\,500$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $4\,\text{m}^2\,18\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$418$}{$4\,018$}{$4\,180$}{$48$}
+\cauTN{8}{Bác Hồ đọc Tuyên ngôn Độc lập năm $1945$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XVIII}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}
+\cauTN{9}{Một ngày có $24$ giờ. Vậy $3$ ngày có bao nhiêu giờ?}{$48$ giờ}{$60$ giờ}{$72$ giờ}{$96$ giờ}
+\cauTN{10}{Số lớn nhất trong các số $354\,820;\; 358\,420;\; 358\,402;\; 354\,802$ là:}{$358\,420$}{$358\,402$}{$354\,820$}{$354\,802$}
+\cauTNhaiDong{11}{Làm tròn số $284\,615$ đến hàng nghìn ta được số:}{$284\,000$}{$285\,000$}{$280\,000$}{$290\,000$}
+\cauTNhaiDong{12}{Bạn Nam chạy cự ly $60\,\text{m}$ hết $12\,\text{giây}$. Trung bình mỗi giây Nam chạy được:}{$4\,\text{m}$}{$5\,\text{m}$}{$6\,\text{m}$}{$7\,\text{m}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$45\,280 + 38\,465$} & 
+\oDatTinh[4]{b)}{$92\,540 - 46\,285$} & 
+\oDatTinh[4]{c)}{$15\,234 \times 5$} & 
+\oDatTinh[4]{d)}{$42\,840 : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 401} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 25\,340 = 48\,190$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 7 = 56\,840$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $86\,500 - x = 34\,280$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 4\,215$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $3\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $4\,\text{phút}\,15\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $5\,\text{tấn}\,60\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $7\,\text{m}^2\,35\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một cửa hàng nhập về ba xe hàng. Xe thứ nhất chở 2{,}75 tấn, xe thứ hai chở nhiều hơn xe thứ nhất 0{,}6 tấn, xe thứ ba chở ít hơn tổng số hàng của hai xe đầu là 2{,}1 tấn. Hỏi cả ba xe chở bao nhiêu tấn hàng?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$A=3{,}7+4{,}25+6{,}3+5{,}75$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 402 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 402} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chiến thắng Điện Biên Phủ diễn ra năm $1954$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XVIII}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}
+\cauTN{2}{Khoảng thời gian $\dfrac{1}{2}$ thế kỉ bằng bao nhiêu năm?}{$25$ năm}{$50$ năm}{$75$ năm}{$100$ năm}
+\cauTN{3}{Khoảng thời gian $3\,\text{phút}\,20\,\text{giây}$ bằng bao nhiêu giây?}{$180\,\text{giây}$}{$200\,\text{giây}$}{$220\,\text{giây}$}{$240\,\text{giây}$}
+\cauTN{4}{Năm nhuận có bao nhiêu ngày?}{$364$ ngày}{$365$ ngày}{$366$ ngày}{$368$ ngày}
+\cauTN{5}{Tháng nào sau đây có $31$ ngày?}{Tháng 4}{Tháng 6}{Tháng 7}{Tháng 9}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $6\,\text{tạ}\,40\,\text{kg} = \dots\,\text{kg}$ là:}{$640$}{$6\,040$}{$6\,400$}{$64\,000$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $5\,\text{m}^2\,24\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$524$}{$5\,024$}{$5\,240$}{$54$}
+\cauTN{8}{Khởi nghĩa Hai Bà Trưng năm $40$. Năm đó thuộc thế kỉ nào?}{Thế kỉ I}{Thế kỉ II}{Thế kỉ III}{Thế kỉ IV}
+\cauTN{9}{Một tuần lễ có $7$ ngày. Vậy $4$ tuần lễ có bao nhiêu ngày?}{$21$ ngày}{$28$ ngày}{$30$ ngày}{$35$ ngày}
+\cauTN{10}{Số bé nhất trong các số $645\,310;\; 645\,130;\; 654\,130;\; 645\,090$ là:}{$645\,310$}{$645\,130$}{$654\,130$}{$645\,090$}
+\cauTNhaiDong{11}{Làm tròn số $437\,829$ đến hàng chục nghìn ta được số:}{$430\,000$}{$440\,000$}{$438\,000$}{$400\,000$}
+\cauTNhaiDong{12}{Một người thợ đóng $1$ cái bàn hết $45\,\text{phút}$. Đóng $4$ cái bàn như thế hết số giờ là:}{$2$ giờ}{$3$ giờ}{$4$ giờ}{$5$ giờ}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$56\,340 + 27\,825$} & 
+\oDatTinh[4]{b)}{$84\,230 - 37\,455$} & 
+\oDatTinh[4]{c)}{$16\,418 \times 4$} & 
+\oDatTinh[4]{d)}{$36\,945 : 5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 402} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 32\,450 = 54\,280$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6 = 49\,536$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $95\,600 - x = 48\,350$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9 = 3\,145$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $5\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $3\,\text{phút}\,45\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $4\,\text{tấn}\,75\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $9\,\text{m}^2\,16\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Ba đội công nhân sửa đường. Đội thứ nhất sửa được 12{,}4 km, đội thứ hai sửa nhiều hơn đội thứ nhất 2{,}6 km, đội thứ ba sửa kém đội thứ hai 3{,}5 km. Hỏi cả ba đội sửa được bao nhiêu ki-lô-mét đường?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$B=12{,}5+8{,}6+7{,}5+1{,}4$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 403 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 403} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Cách mạng Tháng Tám thành công năm $1945$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XVIII}
+\cauTN{2}{Một phần tư thế kỉ ($\dfrac{1}{4}$ thế kỉ) bằng bao nhiêu năm?}{$20$ năm}{$25$ năm}{$30$ năm}{$50$ năm}
+\cauTN{3}{Khoảng thời gian $4\,\text{phút}\,10\,\text{giây}$ bằng bao nhiêu giây?}{$240\,\text{giây}$}{$250\,\text{giây}$}{$260\,\text{giây}$}{$270\,\text{giây}$}
+\cauTN{4}{Năm $2000$ thuộc thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XXII}
+\cauTN{5}{Tháng nào sau đây chỉ có $30$ ngày?}{Tháng 3}{Tháng 5}{Tháng 9}{Tháng 10}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $7\,\text{tạ}\,15\,\text{kg} = \dots\,\text{kg}$ là:}{$715$}{$7\,015$}{$7\,150$}{$71\,500$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $6\,\text{m}^2\,32\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$632$}{$6\,032$}{$6\,320$}{$65$}
+\cauTN{8}{Chiến thắng Bạch Đằng của Ngô Quyền năm $938$. Năm đó thuộc thế kỉ nào?}{Thế kỉ IX}{Thế kỉ X}{Thế kỉ XI}{Thế kỉ VIII}
+\cauTN{9}{Một giờ bằng $60$ phút. Vậy $5$ giờ bằng bao nhiêu phút?}{$250$ phút}{$300$ phút}{$350$ phút}{$360$ phút}
+\cauTN{10}{Số lớn nhất trong các số $582\,430;\; 584\,230;\; 584\,320;\; 582\,403$ là:}{$582\,430$}{$584\,230$}{$584\,320$}{$582\,403$}
+\cauTNhaiDong{11}{Làm tròn số $562\,394$ đến hàng trăm nghìn ta được số:}{$500\,000$}{$600\,000$}{$560\,000$}{$570\,000$}
+\cauTNhaiDong{12}{Một vòi nước chảy vào bể mỗi phút được $25\,\text{lít}$. Sau $12\,\text{phút}$ vòi chảy được:}{$250\,\text{lít}$}{$300\,\text{lít}$}{$350\,\text{lít}$}{$400\,\text{lít}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$62\,450 + 25\,780$} & 
+\oDatTinh[4]{b)}{$78\,410 - 29\,365$} & 
+\oDatTinh[4]{c)}{$18\,245 \times 4$} & 
+\oDatTinh[4]{d)}{$54\,635 : 5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 403} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 18\,640 = 63\,520$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 8 = 65\,840$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $92\,400 - x = 36\,180$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7 = 5\,134$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $4\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $2\,\text{phút}\,50\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $6\,\text{tấn}\,85\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $8\,\text{m}^2\,45\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một kho lương thực buổi sáng nhập 4{,}35 tấn gạo, buổi chiều nhập ít hơn buổi sáng 0{,}85 tấn. Sau đó kho xuất đi 5{,}2 tấn gạo. Hỏi kho còn lại bao nhiêu tấn gạo?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$C=7{,}25+3{,}8+2{,}75+6{,}2$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 404 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 404} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Năm $1000$ thuộc thế kỉ nào?}{Thế kỉ IX}{Thế kỉ X}{Thế kỉ XI}{Thế kỉ XII}
+\cauTN{2}{Một thế kỉ bằng $100$ năm. Vậy $6$ thế kỉ bằng bao nhiêu năm?}{$60$ năm}{$600$ năm}{$6\,000$ năm}{$60\,000$ năm}
+\cauTN{3}{Khoảng thời gian $5\,\text{phút}\,15\,\text{giây}$ bằng bao nhiêu giây?}{$300\,\text{giây}$}{$315\,\text{giây}$}{$325\,\text{giây}$}{$350\,\text{giây}$}
+\cauTN{4}{Năm $2026$ thuộc thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XXII}
+\cauTN{5}{Tháng 2 của năm nhuận có bao nhiêu ngày?}{$28$ ngày}{$29$ ngày}{$30$ ngày}{$31$ ngày}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $8\,\text{tạ}\,50\,\text{kg} = \dots\,\text{kg}$ là:}{$850$}{$8\,050$}{$8\,500$}{$85\,000$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $7\,\text{m}^2\,40\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$740$}{$7\,040$}{$7\,400$}{$78$}
+\cauTN{8}{Chiến dịch Điện Biên Phủ trên không năm $1972$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XVIII}
+\cauTN{9}{Một ngày đêm có $24$ giờ. Vậy $5$ ngày có bao nhiêu giờ?}{$100$ giờ}{$120$ giờ}{$140$ giờ}{$150$ giờ}
+\cauTN{10}{Số bé nhất trong các số $715\,420;\; 715\,240;\; 715\,042;\; 751\,042$ là:}{$715\,420$}{$715\,240$}{$715\,042$}{$751\,042$}
+\cauTNhaiDong{11}{Làm tròn số $648\,219$ đến hàng nghìn ta được số:}{$648\,000$}{$649\,000$}{$650\,000$}{$640\,000$}
+\cauTNhaiDong{12}{Bác thợ mộc cưa một khúc gỗ dài thành $4$ đoạn, mỗi lần cưa hết $6\,\text{phút}$. Thời gian cưa xong là:}{$18\,\text{phút}$}{$24\,\text{phút}$}{$12\,\text{phút}$}{$30\,\text{phút}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$48\,360 + 35\,745$} & 
+\oDatTinh[4]{b)}{$85\,620 - 47\,385$} & 
+\oDatTinh[4]{c)}{$17\,325 \times 4$} & 
+\oDatTinh[4]{d)}{$49\,630 : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 404} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 27\,530 = 46\,280$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 5 = 48\,750$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $88\,400 - x = 39\,250$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6 = 7\,324$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $6\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $5\,\text{phút}\,20\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $7\,\text{tấn}\,45\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{m}^2\,65\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Quãng đường từ nhà An đến trường dài 2{,}6 km. An đi bộ được 0{,}75 km rồi được bố chở tiếp thêm 1{,}5 km. Đoạn đường còn lại An tự đi. Hỏi An còn phải đi bao nhiêu ki-lô-mét nữa?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$D=15{,}4-2{,}7-7{,}3$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 405 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 405} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Năm $1900$ thuộc thế kỉ nào?}{Thế kỉ XVIII}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}
+\cauTN{2}{Khoảng thời gian $\dfrac{1}{5}$ thế kỉ bằng bao nhiêu năm?}{$10$ năm}{$15$ năm}{$20$ năm}{$25$ năm}
+\cauTN{3}{Khoảng thời gian $2\,\text{phút}\,45\,\text{giây}$ bằng bao nhiêu giây?}{$145\,\text{giây}$}{$165\,\text{giây}$}{$185\,\text{giây}$}{$205\,\text{giây}$}
+\cauTN{4}{Năm $2030$ thuộc thế kỉ nào?}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XXII}{Thế kỉ XXIII}
+\cauTN{5}{Tháng 2 của năm không nhuận có bao nhiêu ngày?}{$27$ ngày}{$28$ ngày}{$29$ ngày}{$30$ ngày}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $9\,\text{tạ}\,60\,\text{kg} = \dots\,\text{kg}$ là:}{$960$}{$9\,060$}{$9\,600$}{$96\,000$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $8\,\text{m}^2\,52\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$852$}{$8\,052$}{$8\,520$}{$86$}
+\cauTN{8}{Chiến thắng Bạch Đằng của Trần Hưng Đạo năm $1288$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XII}{Thế kỉ XIII}{Thế kỉ XIV}{Thế kỉ XV}
+\cauTN{9}{Một giờ có $60$ phút. Vậy $6$ giờ có bao nhiêu phút?}{$300$ phút}{$360$ phút}{$400$ phút}{$420$ phút}
+\cauTN{10}{Số lớn nhất trong các số $824\,560;\; 824\,650;\; 842\,650;\; 842\,560$ là:}{$824\,560$}{$824\,650$}{$842\,650$}{$842\,560$}
+\cauTNhaiDong{11}{Làm tròn số $726\,485$ đến hàng chục nghìn ta được số:}{$720\,000$}{$730\,000$}{$726\,000$}{$700\,000$}
+\cauTNhaiDong{12}{Một máy in in được $40$ trang trong $1$ phút. Trong $15$ phút máy in được số trang là:}{$400$ trang}{$500$ trang}{$600$ trang}{$700$ trang}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$53\,640 + 29\,575$} & 
+\oDatTinh[4]{b)}{$91\,420 - 45\,635$} & 
+\oDatTinh[4]{c)}{$19\,214 \times 5$} & 
+\oDatTinh[4]{d)}{$56\,840 : 8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 405} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 34\,180 = 52\,640$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 7 = 64\,890$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $94\,500 - x = 46\,380$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8 = 5\,236$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $7\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $4\,\text{phút}\,30\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $8\,\text{tấn}\,95\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{m}^2\,78\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Ba bao gạo có khối lượng lần lượt là 12{,}5 kg, 15{,}75 kg và 10{,}75 kg. Người ta lấy ra từ bao thứ nhất 2{,}5 kg và thêm vào bao thứ ba 3{,}25 kg. Hỏi lúc này cả ba bao có bao nhiêu ki-lô-gam gạo?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$E=9{,}25+6{,}4+0{,}75+3{,}6$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 406 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 406} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Năm $1890$ Chủ tịch Hồ Chí Minh sinh ra. Năm đó thuộc thế kỉ nào?}{Thế kỉ XVIII}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XVII}
+\cauTN{2}{Khoảng thời gian $\dfrac{1}{10}$ thế kỉ bằng bao nhiêu năm?}{$5$ năm}{$10$ năm}{$15$ năm}{$20$ năm}
+\cauTN{3}{Khoảng thời gian $6\,\text{phút}\,12\,\text{giây}$ bằng bao nhiêu giây?}{$360\,\text{giây}$}{$372\,\text{giây}$}{$382\,\text{giây}$}{$392\,\text{giây}$}
+\cauTN{4}{Năm $1975$ giải phóng miền Nam thống nhất đất nước. Năm đó thuộc thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XVIII}
+\cauTN{5}{Một năm có bao nhiêu tháng có $31$ ngày?}{$4$ tháng}{$5$ tháng}{$6$ tháng}{$7$ tháng}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $5\,\text{tạ}\,80\,\text{kg} = \dots\,\text{kg}$ là:}{$580$}{$5\,080$}{$5\,800$}{$58\,000$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $9\,\text{m}^2\,65\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$965$}{$9\,065$}{$9\,650$}{$98$}
+\cauTN{8}{Chiến thắng Chi Lăng - Xương Giang năm $1427$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XIV}{Thế kỉ XV}{Thế kỉ XVI}{Thế kỉ XIII}
+\cauTN{9}{Một tuần lễ có $7$ ngày. Vậy $6$ tuần lễ có bao nhiêu ngày?}{$35$ ngày}{$42$ ngày}{$48$ ngày}{$49$ ngày}
+\cauTN{10}{Số bé nhất trong các số $913\,520;\; 913\,250;\; 913\,052;\; 931\,052$ là:}{$913\,520$}{$913\,250$}{$913\,052$}{$931\,052$}
+\cauTNhaiDong{11}{Làm tròn số $853\,712$ đến hàng trăm nghìn ta được số:}{$800\,000$}{$900\,000$}{$850\,000$}{$860\,000$}
+\cauTNhaiDong{12}{Một ô tô chạy $1\,\text{km}$ hết $50\,\text{giây}$. Ô tô chạy quãng đường $6\,\text{km}$ hết số phút là:}{$4\,\text{phút}$}{$5\,\text{phút}$}{$6\,\text{phút}$}{$7\,\text{phút}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$64\,520 + 28\,695$} & 
+\oDatTinh[4]{b)}{$83\,510 - 36\,745$} & 
+\oDatTinh[4]{c)}{$15\,426 \times 6$} & 
+\oDatTinh[4]{d)}{$48\,924 : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 406} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 29\,370 = 47\,850$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 9 = 74\,160$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $87\,300 - x = 38\,460$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7 = 6\,318$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $8\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $3\,\text{phút}\,50\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $9\,\text{tấn}\,35\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $6\,\text{m}^2\,84\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một xe tải chở xi măng. Chuyến đầu xe chở 3{,}8 tấn, chuyến thứ hai chở nhiều hơn chuyến đầu 0{,}65 tấn. Sau hai chuyến, xe chở thêm 2{,}4 tấn nữa. Hỏi xe đã chở tất cả bao nhiêu tấn xi măng?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$F=18{,}6-4{,}25-5{,}75$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 407 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 4 (TUẦN 10)} & \textbf{MÃ ĐỀ: 407} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Năm $2001$ là năm đầu tiên của thế kỉ nào?}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}{Thế kỉ XXII}
+\cauTN{2}{Khoảng thời gian $\dfrac{3}{4}$ thế kỉ bằng bao nhiêu năm?}{$50$ năm}{$60$ năm}{$75$ năm}{$80$ năm}
+\cauTN{3}{Khoảng thời gian $4\,\text{phút}\,40\,\text{giây}$ bằng bao nhiêu giây?}{$240\,\text{giây}$}{$260\,\text{giây}$}{$280\,\text{giây}$}{$300\,\text{giây}$}
+\cauTN{4}{Năm $1911$ Bác Hồ ra đi tìm đường cứu nước. Năm đó thuộc thế kỉ nào?}{Thế kỉ XVIII}{Thế kỉ XIX}{Thế kỉ XX}{Thế kỉ XXI}
+\cauTN{5}{Một năm có bao nhiêu tháng có $30$ ngày?}{$4$ tháng}{$5$ tháng}{$6$ tháng}{$7$ tháng}
+\cauTN{6}{Số thích hợp điền vào chỗ chấm $4\,\text{tạ}\,70\,\text{kg} = \dots\,\text{kg}$ là:}{$470$}{$4\,070$}{$4\,700$}{$47\,000$}
+\cauTN{7}{Số thích hợp điền vào chỗ chấm $8\,\text{m}^2\,15\,\text{dm}^2 = \dots\,\text{dm}^2$ là:}{$815$}{$8\,015$}{$8\,150$}{$84$}
+\cauTN{8}{Vua Quang Trung đại phá quân Thanh năm $1789$. Năm đó thuộc thế kỉ nào?}{Thế kỉ XVII}{Thế kỉ XVIII}{Thế kỉ XIX}{Thế kỉ XX}
+\cauTN{9}{Một ngày đêm có $24$ giờ. Vậy $4$ ngày có bao nhiêu giờ?}{$72$ giờ}{$84$ giờ}{$96$ giờ}{$108$ giờ}
+\cauTN{10}{Số lớn nhất trong các số $673\,890;\; 673\,980;\; 679\,380;\; 679\,830$ là:}{$673\,890$}{$673\,980$}{$679\,380$}{$679\,830$}
+\cauTNhaiDong{11}{Làm tròn số $946\,382$ đến hàng chục nghìn ta được số:}{$940\,000$}{$950\,000$}{$946\,000$}{$900\,000$}
+\cauTNhaiDong{12}{Một người đi xe đạp đi được $100\,\text{m}$ trong $20\,\text{giây}$. Vận tốc của người đó là:}{$4\,\text{m/giây}$}{$5\,\text{m/giây}$}{$6\,\text{m/giây}$}{$7\,\text{m/giây}$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$57\,480 + 36\,845$} & 
+\oDatTinh[4]{b)}{$95\,320 - 48\,675$} & 
+\oDatTinh[4]{c)}{$16\,328 \times 5$} & 
+\oDatTinh[4]{d)}{$58\,415 : 7$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 10} & \textbf{MÃ ĐỀ: 407} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 38\,450 = 46\,790$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 8 = 75\,680$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $96\,200 - x = 47\,580$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9 = 6\,214$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $9\,\text{thế kỉ} = \dotfill\,\text{năm}$\par\vspace{1.4mm}
+  \noindent
+  b) $5\,\text{phút}\,50\,\text{giây} = \dotfill\,\text{giây}$\par\vspace{1.4mm}
+  \noindent
+  c) $7\,\text{tấn}\,80\,\text{kg} = \dotfill\,\text{kg}$\par\vspace{1.4mm}
+  \noindent
+  d) $9\,\text{m}^2\,42\,\text{dm}^2 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một đoạn đường dài 8{,}5 km. Đội Một làm được 2{,}75 km, đội Hai làm được nhiều hơn đội Một 0{,}5 km. Hỏi đội Ba còn phải làm bao nhiêu ki-lô-mét nữa để hoàn thành đoạn đường?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$G=24{,}5-6{,}8-3{,}2$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

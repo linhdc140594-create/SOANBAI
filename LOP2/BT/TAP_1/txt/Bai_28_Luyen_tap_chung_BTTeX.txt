@@ -1,0 +1,199 @@
+\begin{ex}
+Đường gấp khúc ABCD gồm bao nhiêu đoạn thẳng?
+\shortans{3}
+\loigiai{
+Gồm 3 đoạn: AB, BC, CD.
+}
+\end{ex}
+
+\begin{ex}
+Hình tứ giác có bao nhiêu góc?
+\shortans{4}
+\loigiai{
+Hình tứ giác có 4 góc.
+}
+\end{ex}
+
+\begin{ex}
+Tính độ dài đường gấp khúc gồm 3 đoạn thẳng có độ dài là 15 cm, 20 cm, 25 cm (đơn vị cm).
+\shortans{60}
+\loigiai{
+Độ dài: $15 + 20 + 25 = 60$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính chu vi hình tam giác có độ dài các cạnh lần lượt là 7 cm, 8 cm, 9 cm (đơn vị cm).
+\shortans{24}
+\loigiai{
+Chu vi: $7 + 8 + 9 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính chu vi hình tứ giác có độ dài các cạnh lần lượt là 10 cm, 12 cm, 14 cm, 16 cm (đơn vị cm).
+\shortans{52}
+\loigiai{
+Chu vi: $10 + 12 + 14 + 16 = 52$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 18 cm. Điểm M là điểm nằm giữa A và B sao cho AM dài 8 cm. Đoạn MB dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Đoạn MB dài: $18 - 8 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Ba điểm thẳng hàng A, B, C có AB dài 6 cm, BC dài 9 cm (B nằm giữa A và C). Đoạn AC dài bao nhiêu xăng-ti-mét?
+\shortans{15}
+\loigiai{
+Đoạn AC dài: $6 + 9 = 15$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đường gấp khúc gồm 4 đoạn thẳng bằng nhau, mỗi đoạn dài 6 cm. Độ dài đường gấp khúc là bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+Độ dài: $6 \times 4 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 7 cm. Chu vi hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{28}
+\loigiai{
+Chu vi: $7 \times 4 = 28$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 9 cm, chiều rộng 5 cm. Nửa chu vi hình chữ nhật là bao nhiêu xăng-ti-mét?
+\shortans{14}
+\loigiai{
+Nửa chu vi: $9 + 5 = 14$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{28}
+\loigiai{
+Chu vi: $14 \times 2 = 28$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cho 4 điểm không có 3 điểm nào thẳng hàng. Nối tất cả các cặp điểm được bao nhiêu đoạn thẳng?
+\shortans{6}
+\loigiai{
+Có 6 đoạn thẳng.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây kẽm dài 50 cm uốn thành một hình tứ giác có chu vi 42 cm. Đoạn dây thừa dài bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Đoạn dây thừa: $50 - 42 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một đường gấp khúc dài 45 cm gồm 3 đoạn thẳng. Biết đoạn thứ nhất dài 12 cm, đoạn thứ hai dài 18 cm. Đoạn thứ ba dài bao nhiêu xăng-ti-mét?
+\shortans{15}
+\loigiai{
+Đoạn thứ ba dài: $45 - 12 - 18 = 15$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu đoạn thẳng trong hình gồm 1 tam giác và một đường cao kẻ từ đỉnh xuống đáy?
+\shortans{6}
+\loigiai{
+Có 3 cạnh tam giác, 1 đường cao, và 2 đoạn nhỏ ở đáy, tổng là 6 đoạn thẳng.
+}
+\end{ex}
+
+\begin{ex}
+Một tam giác có chu vi 30 cm, biết hai cạnh dài 10 cm và 12 cm. Cạnh còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Cạnh còn lại: $30 - 10 - 12 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hình tứ giác có chu vi 40 cm, có 4 cạnh bằng nhau. Mỗi cạnh dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Mỗi cạnh dài: $40 : 4 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một con kiến bò quanh mép một chiếc điện thoại hình chữ nhật có chiều dài 15 cm, chiều rộng 8 cm. Quãng đường kiến bò một vòng là bao nhiêu xăng-ti-mét?
+\shortans{46}
+\loigiai{
+Quãng đường là chu vi: $(15 + 8) \times 2 = 46$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cần bao nhiêu que tính để xếp được 5 hình tam giác rời nhau?
+\shortans{15}
+\loigiai{
+Cần: $3 \times 5 = 15$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Cần bao nhiêu que tính để xếp được 5 hình vuông rời nhau?
+\shortans{20}
+\loigiai{
+Cần: $4 \times 5 = 20$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn thẳng dài 24 cm được chia làm 3 đoạn bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Mỗi đoạn dài: $24 : 3 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn thẳng dài 30 cm được chia làm 5 đoạn bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+Mỗi đoạn dài: $30 : 5 = 6$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hai hình vuông bằng nhau cạnh 4 cm ghép sát cạnh tạo thành hình chữ nhật. Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+Chiều dài 8 cm, chiều rộng 4 cm. Chu vi: $(8 + 4) \times 2 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có các cạnh dài 8 cm, 10 cm, 12 cm, 15 cm. Cạnh dài nhất hơn cạnh ngắn nhất bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Hơn: $15 - 8 = 7$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Số đỉnh của một hình ngũ giác (hình 5 cạnh) là bao nhiêu?
+\shortans{5}
+\loigiai{
+Hình ngũ giác có 5 đỉnh.
+}
+\end{ex}

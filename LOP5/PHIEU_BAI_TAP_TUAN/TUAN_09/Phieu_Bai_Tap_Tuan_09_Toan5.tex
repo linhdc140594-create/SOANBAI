@@ -1,0 +1,1102 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+% =============================================================================
+% ========================= MÃ ĐỀ: 501 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 501} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $7$ trong số $45{,}72$ có giá trị là:}{$\dfrac{7}{10}$}{$\dfrac{7}{100}$}{$7$}{$70$}
+\cauTN{2}{Phân số thập phân $\dfrac{35}{100}$ viết dưới dạng số thập phân là:}{$3{,}5$}{$0{,}35$}{$0{,}035$}{$35{,}0$}
+\cauTN{3}{Hỗn số $4\dfrac{6}{10}$ viết dưới dạng số thập phân là:}{$4{,}06$}{$46{,}0$}{$4{,}6$}{$0{,}46$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $7{,}82 \dots 7{,}819$:}{$>$}{$<$}{$=$}{Không so sánh được}
+\cauTN{5}{Số bé nhất trong các số $3{,}45;\; 3{,}54;\; 3{,}405;\; 3{,}504$ là:}{$3{,}45$}{$3{,}54$}{$3{,}405$}{$3{,}504$}
+\cauTN{6}{Làm tròn số $18{,}6$ đến hàng đơn vị ta được số:}{$18$}{$19$}{$20$}{$18{,}0$}
+\cauTN{7}{$3\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$300$}{$3\,000$}{$300\,000$}{$30\,000$}
+\cauTN{8}{$2{,}5\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$250$}{$25$}{$2\,500$}{$25\,000$}
+\cauTN{9}{$4\,\text{m}^2\,25\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$4{,}25$}{$4{,}025$}{$42{,}5$}{$425$}
+\cauTN{10}{$6\,\text{tấn}\,450\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$64{,}5$}{$6{,}45$}{$6{,}045$}{$645$}
+\cauTNhaiDong{11}{Một khu rừng hình chữ nhật có chiều dài $500\,\text{m}$, chiều rộng $200\,\text{m}$. Diện tích khu rừng đó là:}{$1\,\text{ha}$}{$10\,\text{ha}$}{$100\,\text{ha}$}{$1\,000\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $4{,}8 < x < 5{,}9$ là:}{$5$}{$4$}{$6$}{$5{,}5$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$34{,}5 + 28{,}7$} & 
+\oDatTinh[4]{b)}{$72{,}6 - 38{,}4$} & 
+\oDatTinh[4]{c)}{$14{,}2 \times 4$} & 
+\oDatTinh[4]{d)}{$48{,}6 : 3$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 501} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 14{,}5 = 32{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 4 = 48{,}8$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $58{,}4 - x = 24{,}1$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 5 = 12{,}3$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $3{,}5\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $4\,\text{km}^2\,25\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $5\,\text{m}^2\,45\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $2\,\text{tấn}\,350\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình chữ nhật có chiều dài $120\,m$, chiều rộng $80\,m$. Người ta cấy lúa trên thửa ruộng đó, cứ $100\,m^2$ thu hoạch được $65\,kg$ thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc? Diện tích thửa ruộng bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 0{,}25 \times 7{,}4 \times 4 + 12{,}6 \times 5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 502 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 502} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $5$ trong số $38{,}452$ có giá trị là:}{$\dfrac{5}{10}$}{$\dfrac{5}{100}$}{$\dfrac{5}{1000}$}{$5$}
+\cauTN{2}{Phân số thập phân $\dfrac{48}{100}$ viết dưới dạng số thập phân là:}{$0{,}048$}{$4{,}8$}{$0{,}48$}{$48{,}0$}
+\cauTN{3}{Hỗn số $7\dfrac{3}{10}$ viết dưới dạng số thập phân là:}{$7{,}3$}{$7{,}03$}{$73{,}0$}{$0{,}73$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $9{,}604 \dots 9{,}64$:}{$>$}{$<$}{$=$}{Không so sánh được}
+\cauTN{5}{Số lớn nhất trong các số $5{,}67;\; 5{,}76;\; 5{,}607;\; 5{,}706$ là:}{$5{,}67$}{$5{,}76$}{$5{,}607$}{$5{,}706$}
+\cauTN{6}{Làm tròn số $24{,}3$ đến hàng đơn vị ta được số:}{$24$}{$25$}{$24{,}0$}{$23$}
+\cauTN{7}{$5\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$500$}{$5\,000$}{$50\,000$}{$500\,000$}
+\cauTN{8}{$3{,}8\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$38$}{$380$}{$3\,800$}{$38\,000$}
+\cauTN{9}{$6\,\text{m}^2\,40\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$6{,}04$}{$64{,}0$}{$6{,}4$}{$640$}
+\cauTN{10}{$4\,\text{tấn}\,500\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$4{,}5$}{$45{,}0$}{$4{,}05$}{$450$}
+\cauTNhaiDong{11}{Một thửa ruộng hình chữ nhật có chiều dài $400\,\text{m}$, chiều rộng $250\,\text{m}$. Diện tích thửa ruộng đó là:}{$100\,\text{ha}$}{$10\,\text{ha}$}{$1\,\text{ha}$}{$1\,000\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $7{,}2 < x < 8{,}3$ là:}{$7$}{$8$}{$9$}{$8{,}5$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$45{,}6 + 37{,}8$} & 
+\oDatTinh[4]{b)}{$83{,}5 - 46{,}2$} & 
+\oDatTinh[4]{c)}{$15{,}3 \times 5$} & 
+\oDatTinh[4]{d)}{$52{,}8 : 4$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 502} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 18{,}6 = 25{,}7$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 5 = 65{,}5$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $64{,}5 - x = 31{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 4 = 14{,}2$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $4{,}2\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $5\,\text{km}^2\,60\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $7\,\text{m}^2\,80\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $3\,\text{tấn}\,500\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh đất hình bình hành có độ dài đáy $150\,m$, chiều cao bằng $\frac{2}{3}$ độ dài đáy. Người ta trồng khoai trên mảnh đất đó, trung bình mỗi héc-ta thu được $12$ tấn khoai. Hỏi cả mảnh đất thu hoạch được bao nhiêu tấn khoai? Diện tích mảnh đất bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 2{,}5 \times 3{,}6 + 6{,}4 \times 2{,}5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 503 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 503} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $8$ trong số $62{,}185$ có giá trị là:}{$\dfrac{8}{10}$}{$\dfrac{8}{100}$}{$\dfrac{8}{1000}$}{$8$}
+\cauTN{2}{Phân số thập phân $\dfrac{7}{10}$ viết dưới dạng số thập phân là:}{$0{,}7$}{$0{,}07$}{$7{,}0$}{$0{,}70$}
+\cauTN{3}{Hỗn số $9\dfrac{15}{100}$ viết dưới dạng số thập phân là:}{$9{,}15$}{$9{,}015$}{$91{,}5$}{$0{,}915$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $12{,}35 \dots 12{,}305$:}{$<$}{$>$}{$=$}{Không so sánh được}
+\cauTN{5}{Số bé nhất trong các số $8{,}12;\; 8{,}21;\; 8{,}102;\; 8{,}201$ là:}{$8{,}12$}{$8{,}21$}{$8{,}102$}{$8{,}201$}
+\cauTN{6}{Làm tròn số $35{,}7$ đến hàng đơn vị ta được số:}{$35$}{$36$}{$35{,}0$}{$37$}
+\cauTN{7}{$4\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$400$}{$4\,000$}{$40\,000$}{$400\,000$}
+\cauTN{8}{$1{,}8\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$180$}{$18$}{$1\,800$}{$18\,000$}
+\cauTN{9}{$3\,\text{m}^2\,75\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$3{,}075$}{$3{,}75$}{$37{,}5$}{$375$}
+\cauTN{10}{$5\,\text{tấn}\,250\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$52{,}5$}{$5{,}025$}{$5{,}25$}{$525$}
+\cauTNhaiDong{11}{Một khu đất hình chữ nhật có chiều dài $600\,\text{m}$, chiều rộng $150\,\text{m}$. Diện tích khu đất đó là:}{$9\,\text{ha}$}{$90\,\text{ha}$}{$900\,\text{ha}$}{$0{,}9\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $11{,}6 < x < 12{,}8$ là:}{$11$}{$12$}{$13$}{$12{,}5$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$28{,}9 + 43{,}5$} & 
+\oDatTinh[4]{b)}{$65{,}4 - 29{,}1$} & 
+\oDatTinh[4]{c)}{$16{,}2 \times 4$} & 
+\oDatTinh[4]{d)}{$58{,}5 : 5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 503} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 23{,}4 = 35{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 3 = 54{,}6$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $72{,}8 - x = 45{,}3$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6 = 11{,}5$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $2{,}8\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $3\,\text{km}^2\,15\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $6\,\text{m}^2\,35\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $4\,\text{tấn}\,250\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một khu vườn hình chữ nhật có chu vi $500\,m$, chiều rộng $90\,m$. Người ta trồng cam trên khu vườn đó, cứ $100\,m^2$ thu được $80\,kg$ cam. Hỏi khu vườn thu hoạch được bao nhiêu tấn cam? Diện tích khu vườn bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 1{,}25 \times 4 + 2{,}5 \times 8 + 3{,}75 \times 4$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 504 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 504} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $4$ trong số $71{,}349$ có giá trị là:}{$\dfrac{4}{10}$}{$\dfrac{4}{100}$}{$\dfrac{4}{1000}$}{$4$}
+\cauTN{2}{Phân số thập phân $\dfrac{62}{100}$ viết dưới dạng số thập phân là:}{$6{,}2$}{$0{,}62$}{$0{,}062$}{$62{,}0$}
+\cauTN{3}{Hỗn số $5\dfrac{8}{10}$ viết dưới dạng số thập phân là:}{$5{,}08$}{$58{,}0$}{$5{,}8$}{$0{,}58$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $15{,}702 \dots 15{,}72$:}{$>$}{$<$}{$=$}{Không so sánh được}
+\cauTN{5}{Số lớn nhất trong các số $6{,}85;\; 6{,}58;\; 6{,}805;\; 6{,}508$ là:}{$6{,}85$}{$6{,}58$}{$6{,}805$}{$6{,}508$}
+\cauTN{6}{Làm tròn số $42{,}4$ đến hàng đơn vị ta được số:}{$42$}{$43$}{$42{,}0$}{$41$}
+\cauTN{7}{$6\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$600$}{$6\,000$}{$60\,000$}{$600\,000$}
+\cauTN{8}{$4{,}2\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$420$}{$42$}{$4\,200$}{$42\,000$}
+\cauTN{9}{$5\,\text{m}^2\,60\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$5{,}06$}{$5{,}6$}{$56{,}0$}{$560$}
+\cauTN{10}{$3\,\text{tấn}\,750\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$3{,}75$}{$37{,}5$}{$3{,}075$}{$375$}
+\cauTNhaiDong{11}{Một công viên hình chữ nhật có chiều dài $800\,\text{m}$, chiều rộng $250\,\text{m}$. Diện tích công viên đó là:}{$2\,\text{ha}$}{$20\,\text{ha}$}{$200\,\text{ha}$}{$2\,000\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $15{,}4 < x < 16{,}5$ là:}{$15$}{$16$}{$17$}{$16{,}2$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$53{,}8 + 29{,}6$} & 
+\oDatTinh[4]{b)}{$91{,}7 - 54{,}3$} & 
+\oDatTinh[4]{c)}{$18{,}4 \times 3$} & 
+\oDatTinh[4]{d)}{$64{,}8 : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 504} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 16{,}7 = 42{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6 = 78{,}6$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $81{,}6 - x = 38{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 3 = 16{,}4$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $5{,}6\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $6\,\text{km}^2\,40\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $8\,\text{m}^2\,50\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $1\,\text{tấn}\,750\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình bình hành có độ dài đáy $250\,m$, chiều cao $120\,m$. Người ta cấy lúa trên thửa ruộng đó, cứ $100\,m^2$ thu hoạch được $70\,kg$ thóc. Hỏi thửa ruộng thu hoạch được bao nhiêu tạ thóc? Diện tích thửa ruộng bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 0{,}5 \times 12{,}5 \times 2 + 7{,}5 \times 10$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 505 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 505} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $9$ trong số $53{,}891$ có giá trị là:}{$\dfrac{9}{10}$}{$\dfrac{9}{100}$}{$\dfrac{9}{1000}$}{$9$}
+\cauTN{2}{Phân số thập phân $\dfrac{85}{100}$ viết dưới dạng số thập phân là:}{$8{,}5$}{$0{,}85$}{$0{,}085$}{$85{,}0$}
+\cauTN{3}{Hỗn số $8\dfrac{4}{10}$ viết dưới dạng số thập phân là:}{$8{,}04$}{$84{,}0$}{$8{,}4$}{$0{,}84$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $20{,}15 \dots 20{,}148$:}{$>$}{$<$}{$=$}{Không so sánh được}
+\cauTN{5}{Số bé nhất trong các số $7{,}34;\; 7{,}43;\; 7{,}304;\; 7{,}403$ là:}{$7{,}34$}{$7{,}43$}{$7{,}304$}{$7{,}403$}
+\cauTN{6}{Làm tròn số $29{,}8$ đến hàng đơn vị ta được số:}{$29$}{$30$}{$29{,}0$}{$31$}
+\cauTN{7}{$7\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$700$}{$7\,000$}{$70\,000$}{$700\,000$}
+\cauTN{8}{$3{,}5\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$350$}{$35$}{$3\,500$}{$35\,000$}
+\cauTN{9}{$4\,\text{m}^2\,65\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$4{,}65$}{$4{,}065$}{$46{,}5$}{$465$}
+\cauTN{10}{$5\,\text{tấn}\,125\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$51{,}25$}{$5{,}125$}{$5{,}0125$}{$512{,}5$}
+\cauTNhaiDong{11}{Một nông trường hình chữ nhật có chiều dài $500\,\text{m}$, chiều rộng $300\,\text{m}$. Diện tích nông trường đó là:}{$15\,\text{ha}$}{$150\,\text{ha}$}{$1{,}5\,\text{ha}$}{$15\,000\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $23{,}5 < x < 24{,}7$ là:}{$23$}{$24$}{$25$}{$24{,}5$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$36{,}7 + 45{,}8$} & 
+\oDatTinh[4]{b)}{$74{,}2 - 38{,}6$} & 
+\oDatTinh[4]{c)}{$17{,}5 \times 4$} & 
+\oDatTinh[4]{d)}{$73{,}5 : 5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 505} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 27{,}3 = 34{,}9$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 4 = 72{,}8$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $68{,}4 - x = 29{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 5 = 15{,}6$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $1{,}75\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $2\,\text{km}^2\,80\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $4\,\text{m}^2\,65\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $5\,\text{tấn}\,125\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh đất hình chữ nhật có chiều dài $180\,m$, chiều rộng bằng $\frac{5}{6}$ chiều dài. Người ta trồng ngô trên mảnh đất đó, trung bình mỗi héc-ta thu được $9$ tấn ngô. Hỏi cả mảnh đất thu hoạch được bao nhiêu tấn ngô? Diện tích mảnh đất bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 3{,}5 \times 8 - 8 \times 1{,}5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 506 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 506} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $6$ trong số $84{,}267$ có giá trị là:}{$\dfrac{6}{10}$}{$\dfrac{6}{100}$}{$\dfrac{6}{1000}$}{$6$}
+\cauTN{2}{Phân số thập phân $\dfrac{19}{100}$ viết dưới dạng số thập phân là:}{$1{,}9$}{$0{,}19$}{$0{,}019$}{$19{,}0$}
+\cauTN{3}{Hỗn số $6\dfrac{7}{10}$ viết dưới dạng số thập phân là:}{$6{,}07$}{$67{,}0$}{$6{,}7$}{$0{,}67$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $18{,}409 \dots 18{,}41$:}{$>$}{$<$}{$=$}{Không so sánh được}
+\cauTN{5}{Số lớn nhất trong các số $9{,}42;\; 9{,}24;\; 9{,}402;\; 9{,}204$ là:}{$9{,}42$}{$9{,}24$}{$9{,}402$}{$9{,}204$}
+\cauTN{6}{Làm tròn số $51{,}3$ đến hàng đơn vị ta được số:}{$51$}{$52$}{$51{,}0$}{$50$}
+\cauTN{7}{$8\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$800$}{$8\,000$}{$80\,000$}{$800\,000$}
+\cauTN{8}{$5{,}4\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$540$}{$54$}{$5\,400$}{$54\,000$}
+\cauTN{9}{$9\,\text{m}^2\,20\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$9{,}02$}{$9{,}2$}{$92{,}0$}{$920$}
+\cauTN{10}{$3\,\text{tấn}\,600\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$3{,}6$}{$36{,}0$}{$3{,}06$}{$360$}
+\cauTNhaiDong{11}{Một khu sinh thái hình chữ nhật có chiều dài $700\,\text{m}$, chiều rộng $400\,\text{m}$. Diện tích khu sinh thái đó là:}{$28\,\text{ha}$}{$280\,\text{ha}$}{$2{,}8\,\text{ha}$}{$28\,000\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $30{,}7 < x < 31{,}9$ là:}{$30$}{$31$}{$32$}{$31{,}5$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$48{,}5 + 36{,}9$} & 
+\oDatTinh[4]{b)}{$86{,}3 - 49{,}5$} & 
+\oDatTinh[4]{c)}{$19{,}2 \times 3$} & 
+\oDatTinh[4]{d)}{$85{,}2 : 4$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 506} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 31{,}5 = 26{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 5 = 85{,}5$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $85{,}2 - x = 47{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 4 = 18{,}3$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $6{,}25\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $7\,\text{km}^2\,35\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $9\,\text{m}^2\,20\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $3\,\text{tấn}\,600\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa ruộng hình chữ nhật có chiều dài $160\,m$, chiều rộng $125\,m$. Người ta cấy lúa trên thửa ruộng đó, cứ $100\,m^2$ thu hoạch được $62\,kg$ thóc. Hỏi thửa ruộng thu hoạch được bao nhiêu tạ thóc? Diện tích thửa ruộng bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 0{,}4 \times 25 + 0{,}4 \times 75$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 507 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 09)} & \textbf{MÃ ĐỀ: 507} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $3$ trong số $92{,}374$ có giá trị là:}{$\dfrac{3}{10}$}{$\dfrac{3}{100}$}{$\dfrac{3}{1000}$}{$3$}
+\cauTN{2}{Phân số thập phân $\dfrac{56}{100}$ viết dưới dạng số thập phân là:}{$5{,}6$}{$0{,}56$}{$0{,}056$}{$56{,}0$}
+\cauTN{3}{Hỗn số $3\dfrac{9}{10}$ viết dưới dạng số thập phân là:}{$3{,}09$}{$39{,}0$}{$3{,}9$}{$0{,}39$}
+\cauTN{4}{Điền dấu thích hợp vào chỗ chấm: $25{,}62 \dots 25{,}618$:}{$>$}{$<$}{$=$}{Không so sánh được}
+\cauTN{5}{Số bé nhất trong các số $4{,}78;\; 4{,}87;\; 4{,}708;\; 4{,}807$ là:}{$4{,}78$}{$4{,}87$}{$4{,}708$}{$4{,}807$}
+\cauTN{6}{Làm tròn số $64{,}9$ đến hàng đơn vị ta được số:}{$64$}{$65$}{$64{,}0$}{$66$}
+\cauTN{7}{$9\,\text{ha} = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$900$}{$9\,000$}{$90\,000$}{$900\,000$}
+\cauTN{8}{$6{,}5\,\text{km}^2 = \dots\,\text{ha}$. Số thích hợp điền vào chỗ chấm là:}{$650$}{$65$}{$6\,500$}{$65\,000$}
+\cauTN{9}{$3\,\text{m}^2\,75\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$3{,}75$}{$3{,}075$}{$37{,}5$}{$375$}
+\cauTN{10}{$6\,\text{tấn}\,450\,\text{kg} = \dots\,\text{tấn}$. Số thích hợp điền vào chỗ chấm là:}{$64{,}5$}{$6{,}45$}{$6{,}045$}{$645$}
+\cauTNhaiDong{11}{Một cánh đồng lúa hình chữ nhật có chiều dài $600\,\text{m}$, chiều rộng $350\,\text{m}$. Diện tích cánh đồng đó là:}{$21\,\text{ha}$}{$210\,\text{ha}$}{$2{,}1\,\text{ha}$}{$21\,000\,\text{ha}$}
+\cauTNhaiDong{12}{Số tự nhiên $x$ thỏa mãn $45{,}2 < x < 46{,}4$ là:}{$45$}{$46$}{$47$}{$46{,}5$}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$57{,}4 + 28{,}8$} & 
+\oDatTinh[4]{b)}{$95{,}1 - 58{,}7$} & 
+\oDatTinh[4]{c)}{$24{,}3 \times 3$} & 
+\oDatTinh[4]{d)}{$92{,}4 : 6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 09} & \textbf{MÃ ĐỀ: 507} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x - 24{,}8 = 43{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 3 = 84{,}9$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $93{,}7 - x = 56{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6 = 14{,}5$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $4{,}8\,\text{ha} = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $8\,\text{km}^2\,50\,\text{ha} = \dotfill\,\text{ha}$\par\vspace{1.4mm}
+  \noindent
+  c) $3\,\text{m}^2\,75\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.4mm}
+  \noindent
+  d) $6\,\text{tấn}\,450\,\text{kg} = \dotfill\,\text{tấn}$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh đất hình bình hành có độ dài đáy $200\,m$, chiều cao $120\,m$. Người ta trồng lạc trên mảnh đất đó, trung bình mỗi héc-ta thu được $4{,}5$ tấn lạc. Hỏi cả mảnh đất thu hoạch được bao nhiêu tấn lạc? Diện tích mảnh đất bằng bao nhiêu héc-ta?
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$K = 1{,}25 \times 3{,}2 + 1{,}25 \times 6{,}8 - 2{,}5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

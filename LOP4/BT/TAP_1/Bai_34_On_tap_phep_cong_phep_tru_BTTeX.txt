@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $354200 + 245800 = \dots$
+\shortans{600000}
+\loigiai{
+$354200 + 245800 = 600000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $789500 - 345200 = \dots$
+\shortans{444300}
+\loigiai{
+$789500 - 345200 = 444300$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000000 - 350000 = \dots$
+\shortans{650000}
+\loigiai{
+$1000000 - 350000 = 650000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $45000 + 28000 + 55000$.
+\shortans{128000}
+\loigiai{
+$(45000 + 55000) + 28000 = 100000 + 28000 = 128000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $125000 + 340000 + 875000$.
+\shortans{1340000}
+\loigiai{
+$(125000 + 875000) + 340000 = 1000000 + 340000 = 1340000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $a + b - c$ với $a = 500000, b = 300000, c = 200000$.
+\shortans{600000}
+\loigiai{
+$500000 + 300000 - 200000 = 600000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số có tổng là 120 và hiệu là 20. Số lớn là bao nhiêu?
+\shortans{70}
+\loigiai{
+$(120 + 20) : 2 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số có tổng là 120 và hiệu là 20. Số bé là bao nhiêu?
+\shortans{50}
+\loigiai{
+$(120 - 20) : 2 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có nửa chu vi là 60 m, chiều dài hơn chiều rộng 16 m. Chiều dài là bao nhiêu mét?
+\shortans{38}
+\loigiai{
+$(60 + 16) : 2 = 38$ m.
+}
+\end{ex}
+
+\begin{ex}
+Chiều rộng hình chữ nhật trong bài toán trên là bao nhiêu mét?
+\shortans{22}
+\loigiai{
+$(60 - 16) : 2 = 22$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 350000 = 800000$.
+\shortans{450000}
+\loigiai{
+$x = 800000 - 350000 = 450000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x - 240000 = 560000$.
+\shortans{800000}
+\loigiai{
+$x = 560000 + 240000 = 800000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $1000000 - x = 420000$.
+\shortans{580000}
+\loigiai{
+$x = 1000000 - 420000 = 580000$.
+}
+\end{ex}
+
+\begin{ex}
+Một trường có 650 học sinh, số học sinh nữ nhiều hơn số học sinh nam là 50 bạn. Hỏi trường có bao nhiêu học sinh nữ?
+\shortans{350}
+\loigiai{
+$(650 + 50) : 2 = 350$ học sinh nữ.
+}
+\end{ex}
+
+\begin{ex}
+Trường có bao nhiêu học sinh nam trong bài toán trên?
+\shortans{300}
+\loigiai{
+$(650 - 50) : 2 = 300$ học sinh nam.
+}
+\end{ex}
+
+\begin{ex}
+Hai kho thóc có 450 tấn thóc, kho thứ nhất có nhiều hơn kho thứ hai 50 tấn thóc. Kho thứ nhất có bao nhiêu tấn thóc?
+\shortans{250}
+\loigiai{
+$(450 + 50) : 2 = 250$ tấn.
+}
+\end{ex}
+
+\begin{ex}
+Kho thứ hai có bao nhiêu tấn thóc trong bài toán trên?
+\shortans{200}
+\loigiai{
+$(450 - 50) : 2 = 200$ tấn.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $1000000 - (450000 + 250000)$.
+\shortans{300000}
+\loigiai{
+$1000000 - 700000 = 300000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $36 + 48 + 64 + 52$.
+\shortans{200}
+\loigiai{
+$(36 + 64) + (48 + 52) = 100 + 100 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $999999 - 333333 = \dots$
+\shortans{666666}
+\loigiai{
+$999999 - 333333 = 666666$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4000000 + 6000000 = \dots$
+\shortans{10000000}
+\loigiai{
+$4000000 + 6000000 = 10000000$.
+}
+\end{ex}
+
+\begin{ex}
+Tuổi bố và con cộng lại được 50 tuổi, bố hơn con 30 tuổi. Bố bao nhiêu tuổi?
+\shortans{40}
+\loigiai{
+$(50 + 30) : 2 = 40$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Con bao nhiêu tuổi trong bài toán trên?
+\shortans{10}
+\loigiai{
+$(50 - 30) : 2 = 10$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $850000 - 350000 + 200000 = \dots$
+\shortans{700000}
+\loigiai{
+$500000 + 200000 = 700000$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của số chẵn lớn nhất có 3 chữ số (998) và số chẵn bé nhất có 3 chữ số (100) là bao nhiêu?
+\shortans{1098}
+\loigiai{
+$998 + 100 = 1098$.
+}
+\end{ex}

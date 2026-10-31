@@ -1,0 +1,914 @@
+{
+  "9": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một thửa ruộng hình chữ nhật có chiều dài $120\\,m$, chiều rộng $80\\,m$. Người ta cấy lúa trên thửa ruộng đó, cứ $100\\,m^2$ thu hoạch được $65\\,kg$ thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc? Diện tích thửa ruộng bằng bao nhiêu héc-ta?",
+        "b1": "Diện tích thửa ruộng là: $120 \\times 80 = 9600\\,(m^2)$.",
+        "b2": "Đổi: $9600\\,m^2 = 0,96\\,ha$.",
+        "b3": "Số thóc thu hoạch được là: $9600 : 100 \\times 65 = 6240\\,(kg)$.",
+        "b4": "Đổi: $6240\\,kg = 62,4$ tạ. Đáp số: $62,4$ tạ thóc; $0,96\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 0,25 \\times 7,4 \\times 4 + 12,6 \\times 5$",
+        "buoc1": "$K = (0,25 \\times 4) \\times 7,4 + 12,6 \\times 5$",
+        "buoc2": "$= 1 \\times 7,4 + 12,6 \\times 5 = 7,4 + 63$",
+        "ans": "$K = 70,4$"
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một mảnh đất hình bình hành có độ dài đáy $150\\,m$, chiều cao bằng $\\frac{2}{3}$ độ dài đáy. Người ta trồng khoai trên mảnh đất đó, trung bình mỗi héc-ta thu được $12$ tấn khoai. Hỏi cả mảnh đất thu hoạch được bao nhiêu tấn khoai? Diện tích mảnh đất bằng bao nhiêu héc-ta?",
+        "b1": "Chiều cao mảnh đất là: $150 \\times \\frac{2}{3} = 100\\,(m)$.",
+        "b2": "Diện tích mảnh đất là: $150 \\times 100 = 15000\\,(m^2)$.",
+        "b3": "Đổi: $15000\\,m^2 = 1,5\\,ha$.",
+        "b4": "Số khoai thu hoạch được là: $1,5 \\times 12 = 18$ (tấn). Đáp số: $18$ tấn khoai; $1,5\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 2,5 \\times 3,6 + 6,4 \\times 2,5$",
+        "buoc1": "$K = 2,5 \\times (3,6 + 6,4)$",
+        "buoc2": "$= 2,5 \\times 10$",
+        "ans": "$K = 25$"
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một khu vườn hình chữ nhật có chu vi $500\\,m$, chiều rộng $90\\,m$. Người ta trồng cam trên khu vườn đó, cứ $100\\,m^2$ thu được $80\\,kg$ cam. Hỏi khu vườn thu hoạch được bao nhiêu tấn cam? Diện tích khu vườn bằng bao nhiêu héc-ta?",
+        "b1": "Nửa chu vi khu vườn là: $500 : 2 = 250\\,(m)$.",
+        "b2": "Chiều dài khu vườn là: $250 - 90 = 160\\,(m)$.",
+        "b3": "Diện tích khu vườn là: $160 \\times 90 = 14400\\,(m^2) = 1,44\\,ha$.",
+        "b4": "Số cam thu được là: $14400 : 100 \\times 80 = 11520\\,(kg) = 11,52$ tấn. Đáp số: $11,52$ tấn cam; $1,44\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 1,25 \\times 4 + 2,5 \\times 8 + 3,75 \\times 4$",
+        "buoc1": "$K = (1,25 + 3,75) \\times 4 + 2,5 \\times 8$",
+        "buoc2": "$= 5 \\times 4 + 20$",
+        "ans": "$K = 40$"
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một thửa ruộng hình bình hành có độ dài đáy $250\\,m$, chiều cao $120\\,m$. Người ta cấy lúa trên thửa ruộng đó, cứ $100\\,m^2$ thu hoạch được $70\\,kg$ thóc. Hỏi thửa ruộng thu hoạch được bao nhiêu tạ thóc? Diện tích thửa ruộng bằng bao nhiêu héc-ta?",
+        "b1": "Diện tích thửa ruộng là: $250 \\times 120 = 30000\\,(m^2)$.",
+        "b2": "Đổi: $30000\\,m^2 = 3\\,ha$.",
+        "b3": "Số thóc thu hoạch được là: $30000 : 100 \\times 70 = 21000\\,(kg)$.",
+        "b4": "Đổi: $21000\\,kg = 210$ tạ. Đáp số: $210$ tạ thóc; $3\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 0,5 \\times 12,5 \\times 2 + 7,5 \\times 10$",
+        "buoc1": "$K = (0,5 \\times 2) \\times 12,5 + 7,5 \\times 10$",
+        "buoc2": "$= 1 \\times 12,5 + 75$",
+        "ans": "$K = 87,5$"
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một mảnh đất hình chữ nhật có chiều dài $180\\,m$, chiều rộng bằng $\\frac{5}{6}$ chiều dài. Người ta trồng ngô trên mảnh đất đó, trung bình mỗi héc-ta thu được $9$ tấn ngô. Hỏi cả mảnh đất thu hoạch được bao nhiêu tấn ngô? Diện tích mảnh đất bằng bao nhiêu héc-ta?",
+        "b1": "Chiều rộng mảnh đất là: $180 \\times \\frac{5}{6} = 150\\,(m)$.",
+        "b2": "Diện tích mảnh đất là: $180 \\times 150 = 27000\\,(m^2)$.",
+        "b3": "Đổi: $27000\\,m^2 = 2,7\\,ha$.",
+        "b4": "Số ngô thu hoạch được là: $2,7 \\times 9 = 24,3$ (tấn). Đáp số: $24,3$ tấn ngô; $2,7\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 3,5 \\times 8 - 8 \\times 1,5$",
+        "buoc1": "$K = 8 \\times (3,5 - 1,5)$",
+        "buoc2": "$= 8 \\times 2$",
+        "ans": "$K = 16$"
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một thửa ruộng hình chữ nhật có chiều dài $160\\,m$, chiều rộng $125\\,m$. Người ta cấy lúa trên thửa ruộng đó, cứ $100\\,m^2$ thu hoạch được $62\\,kg$ thóc. Hỏi thửa ruộng thu hoạch được bao nhiêu tạ thóc? Diện tích thửa ruộng bằng bao nhiêu héc-ta?",
+        "b1": "Diện tích thửa ruộng là: $160 \\times 125 = 20000\\,(m^2)$.",
+        "b2": "Đổi: $20000\\,m^2 = 2\\,ha$.",
+        "b3": "Số thóc thu hoạch được là: $20000 : 100 \\times 62 = 12400\\,(kg)$.",
+        "b4": "Đổi: $12400\\,kg = 124$ tạ. Đáp số: $124$ tạ thóc; $2\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 0,4 \\times 25 + 0,4 \\times 75$",
+        "buoc1": "$K = 0,4 \\times (25 + 75)$",
+        "buoc2": "$= 0,4 \\times 100$",
+        "ans": "$K = 40$"
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một mảnh đất hình bình hành có độ dài đáy $200\\,m$, chiều cao $120\\,m$. Người ta trồng lạc trên mảnh đất đó, trung bình mỗi héc-ta thu được $4,5$ tấn lạc. Hỏi cả mảnh đất thu hoạch được bao nhiêu tấn lạc? Diện tích mảnh đất bằng bao nhiêu héc-ta?",
+        "b1": "Diện tích mảnh đất là: $200 \\times 120 = 24000\\,(m^2)$.",
+        "b2": "Đổi: $24000\\,m^2 = 2,4\\,ha$.",
+        "b3": "Số lạc thu hoạch được là: $2,4 \\times 4,5 = 10,8$ (tấn).",
+        "b4": "Đáp số: $10,8$ tấn lạc; $2,4\\,ha$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 1,25 \\times 3,2 + 1,25 \\times 6,8 - 2,5$",
+        "buoc1": "$K = 1,25 \\times (3,2 + 6,8) - 2,5$",
+        "buoc2": "$= 1,25 \\times 10 - 2,5 = 12,5 - 2,5$",
+        "ans": "$K = 10$"
+      }
+    }
+  ],
+  "10": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một cửa hàng nhập về ba xe hàng. Xe thứ nhất chở 2,75 tấn, xe thứ hai chở nhiều hơn xe thứ nhất 0,6 tấn, xe thứ ba chở ít hơn tổng số hàng của hai xe đầu là 2,1 tấn. Hỏi cả ba xe chở bao nhiêu tấn hàng?",
+        "b1": "Xe thứ hai chở số tấn hàng là: $2,75+0,6=3,35$ (tấn).",
+        "b2": "Hai xe đầu chở số tấn hàng là: $2,75+3,35=6,1$ (tấn).",
+        "b3": "Xe thứ ba chở số tấn hàng là: $6,1-2,1=4$ (tấn).",
+        "b4": "Cả ba xe chở số tấn hàng là: $6,1+4=10,1$ (tấn). Đáp số: $10,1$ tấn."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $A=3,7+4,25+6,3+5,75$",
+        "buoc1": "Nhóm các số có tổng tròn: $A=(3,7+6,3)+(4,25+5,75)$",
+        "buoc2": "$A=10+10$",
+        "ans": "$A=20$"
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Ba đội công nhân sửa đường. Đội thứ nhất sửa được 12,4 km, đội thứ hai sửa nhiều hơn đội thứ nhất 2,6 km, đội thứ ba sửa kém đội thứ hai 3,5 km. Hỏi cả ba đội sửa được bao nhiêu ki-lô-mét đường?",
+        "b1": "Đội thứ hai sửa được số ki-lô-mét là: $12,4+2,6=15$ (km).",
+        "b2": "Đội thứ ba sửa được số ki-lô-mét là: $15-3,5=11,5$ (km).",
+        "b3": "Cả ba đội sửa được số ki-lô-mét là: $12,4+15+11,5=38,9$ (km).",
+        "b4": "Hay: $12,4+15=27,4$; $27,4+11,5=38,9$ (km). Đáp số: $38,9$ km."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $B=12,5+8,6+7,5+1,4$",
+        "buoc1": "Nhóm các số có tổng tròn: $B=(12,5+7,5)+(8,6+1,4)$",
+        "buoc2": "$B=20+10$",
+        "ans": "$B=30$"
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một kho lương thực buổi sáng nhập 4,35 tấn gạo, buổi chiều nhập ít hơn buổi sáng 0,85 tấn. Sau đó kho xuất đi 5,2 tấn gạo. Hỏi kho còn lại bao nhiêu tấn gạo?",
+        "b1": "Buổi chiều kho nhập số tấn gạo là: $4,35-0,85=3,5$ (tấn).",
+        "b2": "Cả hai buổi kho nhập số tấn gạo là: $4,35+3,5=7,85$ (tấn).",
+        "b3": "Kho còn lại số tấn gạo là: $7,85-5,2=2,65$ (tấn).",
+        "b4": "Đáp số: $2,65$ tấn gạo."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $C=7,25+3,8+2,75+6,2$",
+        "buoc1": "Nhóm các số có tổng tròn: $C=(7,25+2,75)+(3,8+6,2)$",
+        "buoc2": "$C=10+10$",
+        "ans": "$C=20$"
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Quãng đường từ nhà An đến trường dài 2,6 km. An đi bộ được 0,75 km rồi được bố chở tiếp thêm 1,5 km. Đoạn đường còn lại An tự đi. Hỏi An còn phải đi bao nhiêu ki-lô-mét nữa?",
+        "b1": "Quãng đường An đã đi được là: $0,75+1,5=2,25$ (km).",
+        "b2": "An còn phải đi số ki-lô-mét là: $2,6-2,25=0,35$ (km).",
+        "b3": "Đổi: $0,35$ km $=350$ m.",
+        "b4": "Đáp số: $0,35$ km (hay $350$ m)."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $D=15,4-2,7-7,3$",
+        "buoc1": "Trừ liên tiếp bằng cách nhóm số trừ: $D=15,4-(2,7+7,3)$",
+        "buoc2": "$D=15,4-10$",
+        "ans": "$D=5,4$"
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Ba bao gạo có khối lượng lần lượt là 12,5 kg, 15,75 kg và 10,75 kg. Người ta lấy ra từ bao thứ nhất 2,5 kg và thêm vào bao thứ ba 3,25 kg. Hỏi lúc này cả ba bao có bao nhiêu ki-lô-gam gạo?",
+        "b1": "Tổng khối lượng ba bao lúc đầu là: $12,5+15,75+10,75=39$ (kg).",
+        "b2": "Số gạo lấy ra khỏi bao thứ nhất là: $2,5$ kg; thêm vào bao thứ ba là: $3,25$ kg.",
+        "b3": "Khối lượng thay đổi là: $3,25-2,5=0,75$ (kg).",
+        "b4": "Lúc này cả ba bao có: $39+0,75=39,75$ (kg). Đáp số: $39,75$ kg."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $E=9,25+6,4+0,75+3,6$",
+        "buoc1": "Nhóm các số có tổng tròn: $E=(9,25+0,75)+(6,4+3,6)$",
+        "buoc2": "$E=10+10$",
+        "ans": "$E=20$"
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một xe tải chở xi măng. Chuyến đầu xe chở 3,8 tấn, chuyến thứ hai chở nhiều hơn chuyến đầu 0,65 tấn. Sau hai chuyến, xe chở thêm 2,4 tấn nữa. Hỏi xe đã chở tất cả bao nhiêu tấn xi măng?",
+        "b1": "Chuyến thứ hai xe chở số tấn là: $3,8+0,65=4,45$ (tấn).",
+        "b2": "Hai chuyến đầu xe chở số tấn là: $3,8+4,45=8,25$ (tấn).",
+        "b3": "Xe chở tất cả số tấn xi măng là: $8,25+2,4=10,65$ (tấn).",
+        "b4": "Đáp số: $10,65$ tấn xi măng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $F=18,6-4,25-5,75$",
+        "buoc1": "Nhóm hai số trừ lại: $F=18,6-(4,25+5,75)$",
+        "buoc2": "$F=18,6-10$",
+        "ans": "$F=8,6$"
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một đoạn đường dài 8,5 km. Đội Một làm được 2,75 km, đội Hai làm được nhiều hơn đội Một 0,5 km. Hỏi đội Ba còn phải làm bao nhiêu ki-lô-mét nữa để hoàn thành đoạn đường?",
+        "b1": "Đội Hai làm được số ki-lô-mét là: $2,75+0,5=3,25$ (km).",
+        "b2": "Hai đội Một và Hai làm được số ki-lô-mét là: $2,75+3,25=6$ (km).",
+        "b3": "Đội Ba còn phải làm số ki-lô-mét là: $8,5-6=2,5$ (km).",
+        "b4": "Đáp số: $2,5$ km."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện nhất: $G=24,5-6,8-3,2$",
+        "buoc1": "Nhóm hai số trừ lại: $G=24,5-(6,8+3,2)$",
+        "buoc2": "$G=24,5-10$",
+        "ans": "$G=14,5$"
+      }
+    }
+  ],
+  "11": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một cửa hàng nhập về 12,5 kg gạo. Mỗi ki-lô-gam gạo giá 18 000 đồng. Cửa hàng bán lại với giá 22 500 đồng mỗi ki-lô-gam. Hỏi sau khi bán hết số gạo đó, cửa hàng lãi bao nhiêu tiền?",
+        "b1": "Số tiền cửa hàng mua số gạo đó là: $12,5 \\times 18\\,000 = 225\\,000$ (đồng).",
+        "b2": "Số tiền cửa hàng bán số gạo đó là: $12,5 \\times 22\\,500 = 281\\,250$ (đồng).",
+        "b3": "Số tiền cửa hàng lãi được là: $281\\,250 - 225\\,000 = 56\\,250$ (đồng).",
+        "b4": "Đáp số: $56\\,250$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 3,5 \\times 4,2 + 3,5 \\times 5,8$",
+        "buoc1": "K = 3,5 \\times 4,2 + 3,5 \\times 5,8 = 3,5 \\times (4,2 + 5,8)",
+        "buoc2": "= 3,5 \\times 10",
+        "ans": "= 35"
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một ô tô cứ đi 100 km thì tiêu thụ hết 8,5 lít xăng. Hỏi ô tô đó đi quãng đường 250 km thì tiêu thụ hết bao nhiêu lít xăng? Biết giá xăng là 24 500 đồng một lít, tính số tiền xăng phải trả.",
+        "b1": "Ô tô đi 1 km tiêu thụ số lít xăng là: $8,5 : 100 = 0,085$ (lít).",
+        "b2": "Ô tô đi 250 km tiêu thụ số lít xăng là: $0,085 \\times 250 = 21,25$ (lít).",
+        "b3": "Số tiền xăng phải trả là: $21,25 \\times 24\\,500 = 520\\,625$ (đồng).",
+        "b4": "Đáp số: $21,25$ lít xăng; $520\\,625$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 2,4 \\times 6,7 + 2,4 \\times 3,3$",
+        "buoc1": "K = 2,4 \\times 6,7 + 2,4 \\times 3,3 = 2,4 \\times (6,7 + 3,3)",
+        "buoc2": "= 2,4 \\times 10",
+        "ans": "= 24"
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một cửa hàng văn phòng phẩm bán 15,5 tá bút chì. Mỗi tá bút chì giá 78 000 đồng. Cửa hàng giảm giá 5 000 đồng cho mỗi tá. Hỏi cửa hàng thu được bao nhiêu tiền khi bán hết số bút chì đó?",
+        "b1": "Giá bán mỗi tá bút chì sau khi giảm là: $78\\,000 - 5\\,000 = 73\\,000$ (đồng).",
+        "b2": "Số tiền cửa hàng thu được là: $15,5 \\times 73\\,000 = 1\\,131\\,500$ (đồng).",
+        "b3": "Đáp số: $1\\,131\\,500$ đồng.",
+        "b4": ""
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 0,8 \\times 12,5 + 0,8 \\times 7,5$",
+        "buoc1": "K = 0,8 \\times 12,5 + 0,8 \\times 7,5 = 0,8 \\times (12,5 + 7,5)",
+        "buoc2": "= 0,8 \\times 20",
+        "ans": "= 16"
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một xe máy cứ đi 100 km thì tiêu thụ hết 2,5 lít xăng. Hỏi xe máy đó đi quãng đường 180 km thì tiêu thụ hết bao nhiêu lít xăng? Nếu giá xăng là 23 000 đồng một lít thì đi 180 km hết bao nhiêu tiền xăng?",
+        "b1": "Xe máy đi 1 km tiêu thụ số lít xăng là: $2,5 : 100 = 0,025$ (lít).",
+        "b2": "Xe máy đi 180 km tiêu thụ số lít xăng là: $0,025 \\times 180 = 4,5$ (lít).",
+        "b3": "Số tiền xăng phải trả là: $4,5 \\times 23\\,000 = 103\\,500$ (đồng).",
+        "b4": "Đáp số: $4,5$ lít xăng; $103\\,500$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 4,5 \\times 3,6 + 4,5 \\times 6,4$",
+        "buoc1": "K = 4,5 \\times 3,6 + 4,5 \\times 6,4 = 4,5 \\times (3,6 + 6,4)",
+        "buoc2": "= 4,5 \\times 10",
+        "ans": "= 45"
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một cửa hàng nhập về 25,5 kg đường. Mỗi ki-lô-gam đường giá 16 500 đồng. Cửa hàng đã bán được $\\frac{2}{5}$ số đường với giá 21 000 đồng mỗi ki-lô-gam. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam đường và đã thu được bao nhiêu tiền từ số đường đã bán?",
+        "b1": "Số đường cửa hàng đã bán là: $25,5 \\times \\frac{2}{5} = 10,2$ (kg).",
+        "b2": "Số đường còn lại là: $25,5 - 10,2 = 15,3$ (kg).",
+        "b3": "Số tiền thu được từ số đường đã bán là: $10,2 \\times 21\\,000 = 214\\,200$ (đồng).",
+        "b4": "Đáp số: còn lại $15,3$ kg đường; thu được $214\\,200$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 1,25 \\times 7,8 + 1,25 \\times 2,2$",
+        "buoc1": "K = 1,25 \\times 7,8 + 1,25 \\times 2,2 = 1,25 \\times (7,8 + 2,2)",
+        "buoc2": "= 1,25 \\times 10",
+        "ans": "= 12,5"
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một ô tô cứ đi 100 km thì tiêu thụ hết 9,2 lít xăng. Hỏi ô tô đó đi quãng đường 350 km thì tiêu thụ hết bao nhiêu lít xăng? Biết giá xăng là 25 000 đồng một lít, tính số tiền xăng phải trả.",
+        "b1": "Ô tô đi 1 km tiêu thụ số lít xăng là: $9,2 : 100 = 0,092$ (lít).",
+        "b2": "Ô tô đi 350 km tiêu thụ số lít xăng là: $0,092 \\times 350 = 32,2$ (lít).",
+        "b3": "Số tiền xăng phải trả là: $32,2 \\times 25\\,000 = 805\\,000$ (đồng).",
+        "b4": "Đáp số: $32,2$ lít xăng; $805\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 6,4 \\times 2,5 + 6,4 \\times 7,5$",
+        "buoc1": "K = 6,4 \\times 2,5 + 6,4 \\times 7,5 = 6,4 \\times (2,5 + 7,5)",
+        "buoc2": "= 6,4 \\times 10",
+        "ans": "= 64"
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một cửa hàng nhập về 18,5 kg gạo nếp. Mỗi ki-lô-gam gạo nếp giá 26 000 đồng. Cửa hàng bán hết số gạo với giá 31 000 đồng mỗi ki-lô-gam. Hỏi sau khi bán hết số gạo đó, cửa hàng lãi bao nhiêu tiền?",
+        "b1": "Số tiền cửa hàng mua số gạo đó là: $18,5 \\times 26\\,000 = 481\\,000$ (đồng).",
+        "b2": "Số tiền cửa hàng bán số gạo đó là: $18,5 \\times 31\\,000 = 573\\,500$ (đồng).",
+        "b3": "Số tiền cửa hàng lãi được là: $573\\,500 - 481\\,000 = 92\\,500$ (đồng).",
+        "b4": "Đáp số: $92\\,500$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính thuận tiện: $K = 0,35 \\times 8,7 + 0,35 \\times 1,3$",
+        "buoc1": "K = 0,35 \\times 8,7 + 0,35 \\times 1,3 = 0,35 \\times (8,7 + 1,3)",
+        "buoc2": "= 0,35 \\times 10",
+        "ans": "= 3,5"
+      }
+    }
+  ],
+  "12": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một cửa hàng nhập về 12,5 tạ gạo. Ngày thứ nhất cửa hàng bán được 40% số gạo đó, ngày thứ hai bán được 65% số gạo còn lại. Mỗi ki-lô-gam gạo cửa hàng bán với giá 18 000 đồng. Hỏi sau hai ngày, cửa hàng thu được tất cả bao nhiêu tiền bán gạo?",
+        "b1": "Đổi $12,5$ tạ $= 1250$ kg. Số gạo bán ngày thứ nhất là: $1250 \\times 40 : 100 = 500$ (kg).",
+        "b2": "Số gạo còn lại sau ngày thứ nhất là: $1250 - 500 = 750$ (kg).",
+        "b3": "Số gạo bán ngày thứ hai là: $750 \\times 65 : 100 = 487,5$ (kg). Tổng số gạo đã bán là: $500 + 487,5 = 987,5$ (kg).",
+        "b4": "Số tiền thu được là: $987,5 \\times 18\\,000 = 17\\,775\\,000$ (đồng). Đáp số: $17\\,775\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "K = $12,5 \\times 101 - 12,5$",
+        "buoc1": "K = $12,5 \\times 101 - 12,5 \\times 1$",
+        "buoc2": "K = $12,5 \\times (101 - 1)$",
+        "ans": "K = $12,5 \\times 100 = 1250$"
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một bể nước hình hộp chữ nhật có chiều dài 2,5 m, chiều rộng 1,6 m và chiều cao 1,2 m. Người ta dùng một máy bơm có công suất 0,8 m³ nước mỗi giờ để bơm nước vào bể. Hỏi sau 2 giờ, máy bơm được bao nhiêu mét khối nước và lượng nước trong bể chiếm bao nhiêu phần trăm thể tích bể?",
+        "b1": "Thể tích của bể nước là: $2,5 \\times 1,6 \\times 1,2 = 4,8$ (m³).",
+        "b2": "Sau 2 giờ, máy bơm được số nước là: $0,8 \\times 2 = 1,6$ (m³).",
+        "b3": "Lượng nước trong bể chiếm số phần trăm thể tích bể là: $1,6 : 4,8 = 0,3333...$ (không đẹp nếu không có chủ ý).",
+        "b4": "Vậy chọn lại: thể tích bể là $4,8$ m³; sau 2 giờ bơm được $1,6$ m³; $1,6 : 4,8 \\times 100 \\approx 33,33\\%$. Đáp số: $1,6$ m³; khoảng $33,33\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "K = $8,4 \\times 9,9 + 8,4 \\times 0,1$",
+        "buoc1": "K = $8,4 \\times (9,9 + 0,1)$",
+        "buoc2": "K = $8,4 \\times 10$",
+        "ans": "K = $84$"
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một xưởng may nhận may 150 bộ quần áo. Ngày đầu xưởng may được 30% số bộ quần áo. Ngày thứ hai may được 45% số bộ quần áo còn lại. Mỗi bộ quần áo xưởng nhận được 120 000 đồng tiền công. Hỏi sau hai ngày, xưởng thu được bao nhiêu tiền công?",
+        "b1": "Số bộ quần áo may trong ngày đầu là: $150 \\times 30 : 100 = 45$ (bộ).",
+        "b2": "Số bộ quần áo còn lại sau ngày đầu là: $150 - 45 = 105$ (bộ).",
+        "b3": "Số bộ quần áo may trong ngày thứ hai là: $105 \\times 45 : 100 = 47,25$ (bộ). Tổng số bộ đã may là: $45 + 47,25 = 92,25$ (bộ).",
+        "b4": "Số tiền công thu được là: $92,25 \\times 120\\,000 = 11\\,070\\,000$ (đồng). Đáp số: $11\\,070\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "K = $0,25 \\times 4 \\times 6,7$",
+        "buoc1": "K = $(0,25 \\times 4) \\times 6,7$",
+        "buoc2": "K = $1 \\times 6,7$",
+        "ans": "K = $6,7$"
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một cửa hàng bán 3,6 tấn gạo trong ba ngày. Ngày thứ nhất bán được 25% số gạo. Ngày thứ hai bán được 60% số gạo còn lại. Mỗi tấn gạo cửa hàng bán được lãi 1 200 000 đồng. Hỏi ngày thứ ba cửa hàng bán được bao nhiêu tấn gạo và tiền lãi bán gạo ngày thứ ba là bao nhiêu?",
+        "b1": "Số gạo bán ngày thứ nhất là: $3,6 \\times 25 : 100 = 0,9$ (tấn).",
+        "b2": "Số gạo còn lại sau ngày thứ nhất là: $3,6 - 0,9 = 2,7$ (tấn).",
+        "b3": "Số gạo bán ngày thứ hai là: $2,7 \\times 60 : 100 = 1,62$ (tấn). Số gạo bán ngày thứ ba là: $2,7 - 1,62 = 1,08$ (tấn).",
+        "b4": "Tiền lãi của ngày thứ ba là: $1,08 \\times 1\\,200\\,000 = 1\\,296\\,000$ (đồng). Đáp số: $1,08$ tấn; $1\\,296\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "K = $15,4 \\times 101 - 15,4$",
+        "buoc1": "K = $15,4 \\times (101 - 1)$",
+        "buoc2": "K = $15,4 \\times 100$",
+        "ans": "K = $1540$"
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một mảnh vườn hình chữ nhật có chiều dài 18,5 m và chiều rộng 12 m. Người ta trồng rau trên 70% diện tích mảnh vườn, phần còn lại làm lối đi. Cứ mỗi mét vuông trồng rau thu hoạch được 2,5 kg rau, giá bán 1 kg rau là 12 000 đồng. Hỏi số rau thu hoạch được bán hết thì thu được bao nhiêu tiền?",
+        "b1": "Diện tích mảnh vườn là: $18,5 \\times 12 = 222$ (m²).",
+        "b2": "Diện tích trồng rau là: $222 \\times 70 : 100 = 155,4$ (m²).",
+        "b3": "Số rau thu hoạch được là: $155,4 \\times 2,5 = 388,5$ (kg).",
+        "b4": "Số tiền bán rau là: $388,5 \\times 12\\,000 = 4\\,662\\,000$ (đồng). Đáp số: $4\\,662\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "K = $7,6 \\times 9,9 + 7,6 \\times 0,1$",
+        "buoc1": "K = $7,6 \\times (9,9 + 0,1)$",
+        "buoc2": "K = $7,6 \\times 10$",
+        "ans": "K = $76$"
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một cửa hàng nhập 2,4 tấn đường. Ngày thứ nhất bán được 35% số đường, ngày thứ hai bán được 50% số đường còn lại. Mỗi ki-lô-gam đường bán ra cửa hàng lãi 2 500 đồng. Hỏi sau hai ngày, cửa hàng lãi được bao nhiêu tiền từ số đường đã bán?",
+        "b1": "Đổi $2,4$ tấn $= 2400$ kg. Số đường bán ngày thứ nhất là: $2400 \\times 35 : 100 = 840$ (kg).",
+        "b2": "Số đường còn lại sau ngày thứ nhất là: $2400 - 840 = 1560$ (kg).",
+        "b3": "Số đường bán ngày thứ hai là: $1560 \\times 50 : 100 = 780$ (kg). Tổng số đường đã bán là: $840 + 780 = 1620$ (kg).",
+        "b4": "Số tiền lãi là: $1620 \\times 2500 = 4\\,050\\,000$ (đồng). Đáp số: $4\\,050\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "K = $0,25 \\times 4 \\times 12,8$",
+        "buoc1": "K = $(0,25 \\times 4) \\times 12,8$",
+        "buoc2": "K = $1 \\times 12,8$",
+        "ans": "K = $12,8$"
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một gia đình dùng hết 28,5 m³ nước trong tháng. Giá 1 m³ nước là 9 500 đồng. Ngoài ra, gia đình phải trả thêm 10% phí bảo vệ môi trường trên tổng tiền nước. Hỏi tổng số tiền gia đình phải trả trong tháng là bao nhiêu?",
+        "b1": "Số tiền nước phải trả là: $28,5 \\times 9\\,500 = 270\\,750$ (đồng).",
+        "b2": "Số tiền phí bảo vệ môi trường là: $270\\,750 \\times 10 : 100 = 27\\,075$ (đồng).",
+        "b3": "Tổng số tiền phải trả là: $270\\,750 + 27\\,075 = 297\\,825$ (đồng).",
+        "b4": "Đáp số: $297\\,825$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "K = $24,6 \\times 101 - 24,6$",
+        "buoc1": "K = $24,6 \\times (101 - 1)$",
+        "buoc2": "K = $24,6 \\times 100$",
+        "ans": "K = $2460$"
+      }
+    }
+  ],
+  "13": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một thửa ruộng hình thang có đáy lớn 42 m, đáy bé 28 m, chiều cao 25 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 65 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc?",
+        "b1": "Diện tích thửa ruộng hình thang là:",
+        "b2": "$S = \\dfrac{(42 + 28) \\times 25}{2} = 875\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số thóc là:",
+        "b4": "$875 : 100 \\times 65 = 568,75\\ (\\text{kg}) = 5,6875\\ \\text{tạ} \\approx 5,69\\ \\text{tạ}$. Đáp số: khoảng $5,69$ tạ thóc."
+      },
+      "bai5": {
+        "bieuthuc": "Một hình tam giác có đáy 24 cm. Nếu kéo dài đáy thêm 6 cm thì diện tích tăng thêm 45 cm². Tính diện tích hình tam giác ban đầu.",
+        "buoc1": "Chiều cao của tam giác là: $45 \\times 2 : 6 = 15\\ (\\text{cm})$",
+        "buoc2": "Diện tích tam giác ban đầu là: $24 \\times 15 : 2 = 180\\ (\\text{cm}^2)$",
+        "ans": "Đáp số: $180\\ \\text{cm}^2$"
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một thửa ruộng hình tam giác có độ dài đáy 56 m, chiều cao tương ứng bằng 35 m. Người ta trồng ngô trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 80 kg ngô. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ ngô?",
+        "b1": "Diện tích thửa ruộng hình tam giác là:",
+        "b2": "$S = \\dfrac{56 \\times 35}{2} = 980\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số ngô là:",
+        "b4": "$980 : 100 \\times 80 = 784\\ (\\text{kg}) = 7,84\\ \\text{tạ}$. Đáp số: $7,84$ tạ ngô."
+      },
+      "bai5": {
+        "bieuthuc": "Một hình thang có đáy lớn 30 cm, đáy bé 18 cm và diện tích 384 cm². Tính chiều cao của hình thang.",
+        "buoc1": "Tổng hai đáy là: $30 + 18 = 48\\ (\\text{cm})$",
+        "buoc2": "Chiều cao hình thang là: $384 \\times 2 : 48 = 16\\ (\\text{cm})$",
+        "ans": "Đáp số: $16\\ \\text{cm}$"
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một thửa ruộng hình thang có đáy lớn 60 m, đáy bé bằng $\\dfrac{2}{3}$ đáy lớn, chiều cao 30 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 70 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?",
+        "b1": "Đáy bé của thửa ruộng là: $60 \\times \\dfrac{2}{3} = 40\\ (\\text{m})$",
+        "b2": "Diện tích thửa ruộng là: $S = \\dfrac{(60 + 40) \\times 30}{2} = 1500\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số thóc là:",
+        "b4": "$1500 : 100 \\times 70 = 1050\\ (\\text{kg}) = 1,05\\ \\text{tấn}$. Đáp số: $1,05$ tấn thóc."
+      },
+      "bai5": {
+        "bieuthuc": "Một hình tam giác có diện tích 240 cm², đáy 20 cm. Người ta kéo dài đáy thêm 5 cm. Tính diện tích hình tam giác mới.",
+        "buoc1": "Chiều cao tam giác là: $240 \\times 2 : 20 = 24\\ (\\text{cm})$",
+        "buoc2": "Đáy mới là: $20 + 5 = 25\\ (\\text{cm})$",
+        "ans": "Diện tích mới: $25 \\times 24 : 2 = 300\\ (\\text{cm}^2)$. Đáp số: $300\\ \\text{cm}^2$"
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một thửa ruộng hình tam giác có chiều cao 24 m, độ dài đáy bằng $\\dfrac{5}{4}$ chiều cao. Người ta trồng ngô trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 75 kg ngô. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ ngô?",
+        "b1": "Độ dài đáy của thửa ruộng là: $24 \\times \\dfrac{5}{4} = 30\\ (\\text{m})$",
+        "b2": "Diện tích thửa ruộng là: $S = \\dfrac{30 \\times 24}{2} = 360\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số ngô là:",
+        "b4": "$360 : 100 \\times 75 = 270\\ (\\text{kg}) = 2,7\\ \\text{tạ}$. Đáp số: $2,7$ tạ ngô."
+      },
+      "bai5": {
+        "bieuthuc": "Một hình thang có diện tích 450 cm², đáy lớn 32 cm, đáy bé 28 cm. Người ta giảm đáy lớn đi 4 cm. Diện tích hình thang giảm đi bao nhiêu xăng-ti-mét vuông?",
+        "buoc1": "Chiều cao hình thang là: $450 \\times 2 : (32 + 28) = 15\\ (\\text{cm})$",
+        "buoc2": "Đáy lớn mới là: $32 - 4 = 28\\ (\\text{cm})$",
+        "ans": "Diện tích giảm: $4 \\times 15 : 2 = 30\\ (\\text{cm}^2)$. Đáp số: $30\\ \\text{cm}^2$"
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một thửa ruộng hình thang có đáy lớn 75 m, đáy bé 45 m, chiều cao bằng trung bình cộng hai đáy. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 60 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ thóc?",
+        "b1": "Chiều cao của thửa ruộng là: $(75 + 45) : 2 = 60\\ (\\text{m})$",
+        "b2": "Diện tích thửa ruộng là: $S = \\dfrac{(75 + 45) \\times 60}{2} = 3600\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số thóc là:",
+        "b4": "$3600 : 100 \\times 60 = 2160\\ (\\text{kg}) = 21,6\\ \\text{tạ}$. Đáp số: $21,6$ tạ thóc."
+      },
+      "bai5": {
+        "bieuthuc": "Cho hình tam giác ABC có diện tích 180 cm², đáy BC = 24 cm. Trên BC lấy điểm M sao cho BM = 8 cm. Tính diện tích hình tam giác ABM.",
+        "buoc1": "Chiều cao hạ từ A xuống BC là: $180 \\times 2 : 24 = 15\\ (\\text{cm})$",
+        "buoc2": "Tam giác ABM có đáy BM = 8 cm, chiều cao 15 cm.",
+        "ans": "Diện tích tam giác ABM: $8 \\times 15 : 2 = 60\\ (\\text{cm}^2)$. Đáp số: $60\\ \\text{cm}^2$"
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một thửa ruộng hình tam giác vuông có hai cạnh góc vuông dài 40 m và 30 m. Người ta trồng khoai trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 90 kg khoai. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tạ khoai?",
+        "b1": "Diện tích thửa ruộng hình tam giác vuông là:",
+        "b2": "$S = \\dfrac{40 \\times 30}{2} = 600\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số khoai là:",
+        "b4": "$600 : 100 \\times 90 = 540\\ (\\text{kg}) = 5,4\\ \\text{tạ}$. Đáp số: $5,4$ tạ khoai."
+      },
+      "bai5": {
+        "bieuthuc": "Một hình thang có đáy lớn 36 cm, đáy bé 24 cm, chiều cao 20 cm. Kéo dài đáy lớn thêm 6 cm thì diện tích hình thang tăng thêm bao nhiêu xăng-ti-mét vuông?",
+        "buoc1": "Phần tăng thêm là một hình tam giác có đáy 6 cm và chiều cao bằng chiều cao hình thang (20 cm).",
+        "buoc2": "Diện tích tăng thêm là: $6 \\times 20 : 2 = 60\\ (\\text{cm}^2)$",
+        "ans": "Đáp số: $60\\ \\text{cm}^2$"
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một thửa ruộng hình thang có đáy lớn 90 m, đáy bé 70 m, chiều cao 50 m. Người ta cấy lúa trên thửa ruộng đó, trung bình cứ 100 m² thu hoạch được 65 kg thóc. Hỏi cả thửa ruộng thu hoạch được bao nhiêu tấn thóc?",
+        "b1": "Diện tích thửa ruộng hình thang là:",
+        "b2": "$S = \\dfrac{(90 + 70) \\times 50}{2} = 4000\\ (\\text{m}^2)$",
+        "b3": "Cả thửa ruộng thu hoạch được số thóc là:",
+        "b4": "$4000 : 100 \\times 65 = 2600\\ (\\text{kg}) = 2,6\\ \\text{tấn}$. Đáp số: $2,6$ tấn thóc."
+      },
+      "bai5": {
+        "bieuthuc": "Một hình tam giác có đáy 32 cm, chiều cao 18 cm. Nếu giữ nguyên chiều cao và giảm đáy đi 8 cm thì diện tích tam giác giảm đi bao nhiêu xăng-ti-mét vuông?",
+        "buoc1": "Phần giảm là tam giác có đáy 8 cm, chiều cao 18 cm.",
+        "buoc2": "Diện tích giảm đi là: $8 \\times 18 : 2 = 72\\ (\\text{cm}^2)$",
+        "ans": "Đáp số: $72\\ \\text{cm}^2$"
+      }
+    }
+  ],
+  "14": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một bánh xe đạp có đường kính 0,65 m. Hỏi khi bánh xe lăn trên mặt đất được 200 vòng thì xe đi được quãng đường dài bao nhiêu mét?",
+        "b1": "Chu vi của bánh xe là:",
+        "b2": "$C = 0,65 \\times 3,14 = 2,041$ (m)",
+        "b3": "Quãng đường xe đi được khi bánh xe lăn 200 vòng là:",
+        "b4": "$2,041 \\times 200 = 408,2$ (m). Đáp số: $408,2$ m."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vuông cạnh 10 cm, hình tròn nội tiếp có đường kính 10 cm. Diện tích phần tô đậm $S = S_{vuông} - S_{tròn}$",
+        "buoc1": "$S_{vuông} = 10 \\times 10 = 100$ (cm$^2$)",
+        "buoc2": "$r = 10 : 2 = 5$ (cm); $S_{tròn} = 5 \\times 5 \\times 3,14 = 78,5$ (cm$^2$)",
+        "ans": "$S = 100 - 78,5 = 21,5$ (cm$^2$). Đáp số: $21,5$ cm$^2$."
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một bồn hoa hình tròn có bán kính 1,5 m. Người ta trồng hoa trên toàn bộ mặt bồn. Hỏi diện tích bồn hoa là bao nhiêu mét vuông?",
+        "b1": "Diện tích bồn hoa hình tròn được tính theo công thức:",
+        "b2": "$S = r \\times r \\times 3,14$",
+        "b3": "Thay số: $S = 1,5 \\times 1,5 \\times 3,14$",
+        "b4": "$S = 2,25 \\times 3,14 = 7,065$ (m$^2$). Đáp số: $7,065$ m$^2$."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vuông cạnh 8 cm, hình tròn nội tiếp có đường kính 8 cm. Diện tích phần tô đậm $S = S_{vuông} - S_{tròn}$",
+        "buoc1": "$S_{vuông} = 8 \\times 8 = 64$ (cm$^2$); $r = 8 : 2 = 4$ (cm)",
+        "buoc2": "$S_{tròn} = 4 \\times 4 \\times 3,14 = 50,24$ (cm$^2$)",
+        "ans": "$S = 64 - 50,24 = 13,76$ (cm$^2$). Đáp số: $13,76$ cm$^2$."
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Miệng giếng nước là một hình tròn có đường kính 1,2 m. Người ta xây thành giếng rộng 0,3 m bao quanh miệng giếng. Tính diện tích của thành giếng đó.",
+        "b1": "Bán kính miệng giếng là: $1,2 : 2 = 0,6$ (m).",
+        "b2": "Bán kính đường tròn ngoài thành giếng là: $0,6 + 0,3 = 0,9$ (m).",
+        "b3": "Diện tích hình tròn lớn: $0,9 \\times 0,9 \\times 3,14 = 2,5434$ (m$^2$); diện tích miệng giếng: $0,6 \\times 0,6 \\times 3,14 = 1,1304$ (m$^2$).",
+        "b4": "Diện tích thành giếng: $2,5434 - 1,1304 = 1,413$ (m$^2$). Đáp số: $1,413$ m$^2$."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vành khuyên có bán kính ngoài 6 cm, bán kính trong 4 cm. Diện tích $S = S_{ngoài} - S_{trong}$",
+        "buoc1": "$S_{ngoài} = 6 \\times 6 \\times 3,14 = 113,04$ (cm$^2$)",
+        "buoc2": "$S_{trong} = 4 \\times 4 \\times 3,14 = 50,24$ (cm$^2$)",
+        "ans": "$S = 113,04 - 50,24 = 62,8$ (cm$^2$). Đáp số: $62,8$ cm$^2$."
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một bánh xe ô tô có bán kính 0,4 m. Hỏi khi bánh xe lăn được 500 vòng thì ô tô đi được quãng đường dài bao nhiêu mét?",
+        "b1": "Đường kính bánh xe là: $0,4 \\times 2 = 0,8$ (m).",
+        "b2": "Chu vi bánh xe là: $0,8 \\times 3,14 = 2,512$ (m).",
+        "b3": "Quãng đường ô tô đi được khi bánh xe lăn 500 vòng:",
+        "b4": "$2,512 \\times 500 = 1256$ (m). Đáp số: $1256$ m."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vuông cạnh 12 cm, hình tròn nội tiếp có đường kính 12 cm. Diện tích phần tô đậm $S = S_{vuông} - S_{tròn}$",
+        "buoc1": "$S_{vuông} = 12 \\times 12 = 144$ (cm$^2$); $r = 12 : 2 = 6$ (cm)",
+        "buoc2": "$S_{tròn} = 6 \\times 6 \\times 3,14 = 113,04$ (cm$^2$)",
+        "ans": "$S = 144 - 113,04 = 30,96$ (cm$^2$). Đáp số: $30,96$ cm$^2$."
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một bồn hoa hình tròn có chu vi 12,56 m. Người ta trồng hoa trên toàn bộ mặt bồn. Tính diện tích bồn hoa đó.",
+        "b1": "Bán kính bồn hoa là: $12,56 : 3,14 : 2 = 2$ (m).",
+        "b2": "Diện tích bồn hoa được tính bằng:",
+        "b3": "$S = 2 \\times 2 \\times 3,14$",
+        "b4": "$S = 12,56$ (m$^2$). Đáp số: $12,56$ m$^2$."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vành khuyên có bán kính ngoài 5 cm, bán kính trong 3 cm. Diện tích $S = S_{ngoài} - S_{trong}$",
+        "buoc1": "$S_{ngoài} = 5 \\times 5 \\times 3,14 = 78,5$ (cm$^2$)",
+        "buoc2": "$S_{trong} = 3 \\times 3 \\times 3,14 = 28,26$ (cm$^2$)",
+        "ans": "$S = 78,5 - 28,26 = 50,24$ (cm$^2$). Đáp số: $50,24$ cm$^2$."
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một bánh xe có đường kính 0,5 m. Hỏi bánh xe phải lăn bao nhiêu vòng để đi được quãng đường dài 314 m?",
+        "b1": "Chu vi bánh xe là:",
+        "b2": "$C = 0,5 \\times 3,14 = 1,57$ (m)",
+        "b3": "Số vòng bánh xe phải lăn là: $314 : 1,57$",
+        "b4": "$= 200$ (vòng). Đáp số: $200$ vòng."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vuông cạnh 20 cm, hình tròn nội tiếp có đường kính 20 cm. Diện tích phần tô đậm $S = S_{vuông} - S_{tròn}$",
+        "buoc1": "$S_{vuông} = 20 \\times 20 = 400$ (cm$^2$); $r = 20 : 2 = 10$ (cm)",
+        "buoc2": "$S_{tròn} = 10 \\times 10 \\times 3,14 = 314$ (cm$^2$)",
+        "ans": "$S = 400 - 314 = 86$ (cm$^2$). Đáp số: $86$ cm$^2$."
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một giếng nước hình tròn có bán kính 0,8 m. Người ta xây thành giếng rộng 0,4 m bao quanh miệng giếng. Tính diện tích của thành giếng.",
+        "b1": "Bán kính đường tròn ngoài thành giếng là: $0,8 + 0,4 = 1,2$ (m).",
+        "b2": "Diện tích hình tròn lớn: $1,2 \\times 1,2 \\times 3,14 = 4,5216$ (m$^2$).",
+        "b3": "Diện tích miệng giếng: $0,8 \\times 0,8 \\times 3,14 = 2,0096$ (m$^2$).",
+        "b4": "Diện tích thành giếng: $4,5216 - 2,0096 = 2,512$ (m$^2$). Đáp số: $2,512$ m$^2$."
+      },
+      "bai5": {
+        "bieuthuc": "Hình vành khuyên có bán kính ngoài 10 cm, bán kính trong 6 cm. Diện tích $S = S_{ngoài} - S_{trong}$",
+        "buoc1": "$S_{ngoài} = 10 \\times 10 \\times 3,14 = 314$ (cm$^2$)",
+        "buoc2": "$S_{trong} = 6 \\times 6 \\times 3,14 = 113,04$ (cm$^2$)",
+        "ans": "$S = 314 - 113,04 = 200,96$ (cm$^2$). Đáp số: $200,96$ cm$^2$."
+      }
+    }
+  ],
+  "15": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một mảnh đất hình thang có đáy lớn $24$ m, đáy bé $16$ m, chiều cao $12$ m. Người ta dành $\\frac{1}{4}$ diện tích mảnh đất để làm nhà, phần còn lại lát gạch. Biết tiền gạch và công lát là $180\\,000$ đồng mỗi mét vuông. Tính số tiền lát gạch phần còn lại.",
+        "b1": "Diện tích mảnh đất hình thang là: $(24 + 16) \\times 12 : 2 = 240$ (m$^2$).",
+        "b2": "Diện tích phần đất làm nhà là: $240 : 4 = 60$ (m$^2$).",
+        "b3": "Diện tích phần đất lát gạch là: $240 - 60 = 180$ (m$^2$).",
+        "b4": "Số tiền lát gạch là: $180 \\times 180\\,000 = 32\\,400\\,000$ (đồng). Đáp số: $32\\,400\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $A = 0,1 + 0,2 + 0,3 + ... + 0,9$",
+        "buoc1": "Dãy có $9$ số hạng, khoảng cách giữa hai số liền nhau là $0,1$.",
+        "buoc2": "$A = (0,1 + 0,9) \\times 9 : 2$",
+        "ans": "$= 1 \\times 9 : 2 = 4,5$. Vậy $A = 4,5$."
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một khu vườn hình chữ nhật có chiều dài $30$ m, chiều rộng $20$ m. Ở giữa vườn người ta đào một cái ao hình tam giác có đáy $8$ m và chiều cao $5$ m. Phần đất còn lại trồng cỏ, mỗi mét vuông cỏ hết $25\\,000$ đồng. Tính số tiền trồng cỏ.",
+        "b1": "Diện tích khu vườn hình chữ nhật là: $30 \\times 20 = 600$ (m$^2$).",
+        "b2": "Diện tích cái ao hình tam giác là: $8 \\times 5 : 2 = 20$ (m$^2$).",
+        "b3": "Diện tích phần đất trồng cỏ là: $600 - 20 = 580$ (m$^2$).",
+        "b4": "Số tiền trồng cỏ là: $580 \\times 25\\,000 = 14\\,500\\,000$ (đồng). Đáp số: $14\\,500\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $B = 1,25 \\times 3,7 + 1,25 \\times 6,3$",
+        "buoc1": "$B = 1,25 \\times (3,7 + 6,3)$",
+        "buoc2": "$= 1,25 \\times 10$",
+        "ans": "$= 12,5$. Vậy $B = 12,5$."
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một mảnh đất gồm hình chữ nhật có chiều dài $18$ m, chiều rộng $12$ m và một hình tam giác ghép vào có đáy bằng chiều rộng hình chữ nhật, chiều cao $6$ m. Người ta lát gạch toàn bộ mảnh đất với giá $150\\,000$ đồng mỗi mét vuông. Tính số tiền lát gạch.",
+        "b1": "Diện tích hình chữ nhật là: $18 \\times 12 = 216$ (m$^2$).",
+        "b2": "Diện tích hình tam giác là: $12 \\times 6 : 2 = 36$ (m$^2$).",
+        "b3": "Diện tích mảnh đất là: $216 + 36 = 252$ (m$^2$).",
+        "b4": "Số tiền lát gạch là: $252 \\times 150\\,000 = 37\\,800\\,000$ (đồng). Đáp số: $37\\,800\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $C = 0,25 \\times 0,4 \\times 8 \\times 12,5$",
+        "buoc1": "$C = (0,25 \\times 0,4) \\times (8 \\times 12,5)$",
+        "buoc2": "$= 0,1 \\times 100$",
+        "ans": "$= 10$. Vậy $C = 10$."
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một thửa đất hình thang có đáy lớn $35$ m, đáy bé $25$ m, chiều cao $20$ m. Người ta trồng rau trên thửa đất đó, cứ $5$ m$^2$ thu được $40\\,000$ đồng. Tính số tiền thu được từ thửa đất.",
+        "b1": "Diện tích thửa đất hình thang là: $(35 + 25) \\times 20 : 2 = 600$ (m$^2$).",
+        "b2": "Số mét vuông đất gấp $5$ m$^2$ số lần là: $600 : 5 = 120$ (lần).",
+        "b3": "Số tiền thu được là: $120 \\times 40\\,000 = 4\\,800\\,000$ (đồng).",
+        "b4": "Đáp số: $4\\,800\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $D = 2,5 \\times 4,8 + 2,5 \\times 5,2$",
+        "buoc1": "$D = 2,5 \\times (4,8 + 5,2)$",
+        "buoc2": "$= 2,5 \\times 10$",
+        "ans": "$= 25$. Vậy $D = 25$."
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một sân hình chữ nhật có chiều dài $40$ m, chiều rộng $25$ m. Người ta làm một bồn hoa hình tròn đường kính $10$ m ở giữa sân (lấy $\\pi = 3,14$). Phần còn lại lát gạch với giá $120\\,000$ đồng mỗi mét vuông. Tính số tiền lát gạch.",
+        "b1": "Diện tích sân hình chữ nhật là: $40 \\times 25 = 1000$ (m$^2$).",
+        "b2": "Bán kính bồn hoa là: $10 : 2 = 5$ (m). Diện tích bồn hoa là: $5 \\times 5 \\times 3,14 = 78,5$ (m$^2$).",
+        "b3": "Diện tích phần lát gạch là: $1000 - 78,5 = 921,5$ (m$^2$).",
+        "b4": "Số tiền lát gạch là: $921,5 \\times 120\\,000 = 110\\,580\\,000$ (đồng). Đáp số: $110\\,580\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $E = 0,5 + 0,5 + 0,5 + 0,5 + 0,5 + 0,5$",
+        "buoc1": "Có $6$ số hạng, mỗi số đều bằng $0,5$.",
+        "buoc2": "$E = 0,5 \\times 6$",
+        "ans": "$= 3$. Vậy $E = 3$."
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một mảnh đất hình thang có đáy lớn $28$ m, đáy bé $12$ m, chiều cao $15$ m. Người ta chia mảnh đất thành hai phần: phần hình tam giác có đáy$12$ m (bằng đáy bé) và chiều cao $15$ m để làm sân, phần còn lại trồng hoa với giá $30\\,000$ đồng mỗi mét vuông. Tính số tiền trồng hoa.",
+        "b1": "Diện tích mảnh đất hình thang là: $(28 + 12) \\times 15 : 2 = 300$ (m$^2$).",
+        "b2": "Diện tích phần làm sân hình tam giác là: $12 \\times 15 : 2 = 90$ (m$^2$).",
+        "b3": "Diện tích phần trồng hoa là: $300 - 90 = 210$ (m$^2$).",
+        "b4": "Số tiền trồng hoa là: $210 \\times 30\\,000 = 6\\,300\\,000$ (đồng). Đáp số: $6\\,300\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $F = 0,12 \\times 5 + 0,12 \\times 95$",
+        "buoc1": "$F = 0,12 \\times (5 + 95)$",
+        "buoc2": "$= 0,12 \\times 100$",
+        "ans": "$= 12$. Vậy $F = 12$."
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một khu đất hình chữ nhật có chiều dài $50$ m, chiều rộng $30$ m. Người ta dùng $\\frac{2}{5}$ diện tích để xây nhà, phần còn lại chia đều thành các ô đất hình tam giác có đáy $4$ m, chiều cao $5$ m để trồng cây. Mỗi ô đất trồng cây tốn $200\\,000$ đồng. Tính tổng số tiền trồng cây.",
+        "b1": "Diện tích khu đất là: $50 \\times 30 = 1500$ (m$^2$).",
+        "b2": "Diện tích phần đất trồng cây là: $1500 \\times (1 - \\frac{2}{5}) = 900$ (m$^2$).",
+        "b3": "Diện tích mỗi ô tam giác là: $4 \\times 5 : 2 = 10$ (m$^2$). Số ô đất là: $900 : 10 = 90$ (ô).",
+        "b4": "Tổng số tiền trồng cây là: $90 \\times 200\\,000 = 18\\,000\\,000$ (đồng). Đáp số: $18\\,000\\,000$ đồng."
+      },
+      "bai5": {
+        "bieuthuc": "Tính bằng cách thuận tiện: $G = 0,25 \\times 1,2 + 0,25 \\times 8,8$",
+        "buoc1": "$G = 0,25 \\times (1,2 + 8,8)$",
+        "buoc2": "$= 0,25 \\times 10$",
+        "ans": "$= 2,5$. Vậy $G = 2,5$."
+      }
+    }
+  ],
+  "16": [
+    {
+      "ma_de": "401",
+      "bai4": {
+        "de": "Một mảnh đất hình thang có đáy lớn $28$ m, đáy bé $20$ m, chiều cao $15$ m. Người ta dùng $35\\%$ diện tích đất để làm nhà, phần còn lại trồng cây. Tính diện tích đất trồng cây và tỉ số phần trăm diện tích đất trồng cây so với diện tích mảnh đất.",
+        "b1": "Diện tích mảnh đất hình thang là: $(28 + 20) \\times 15 : 2 = 360$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $360 \\times 35 : 100 = 126$ (m$^2$).",
+        "b3": "Diện tích đất trồng cây là: $360 - 126 = 234$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích đất trồng cây so với mảnh đất là: $234 : 360 = 0,65 = 65\\%$. Đáp số: $234$ m$^2$ và $65\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{0,25 \\times 8 + 3,6}{1,2 + 0,8 \\times 2}$",
+        "buoc1": "Tử số: $0,25 \\times 8 + 3,6 = 2 + 3,6 = 5,6$.",
+        "buoc2": "Mẫu số: $1,2 + 0,8 \\times 2 = 1,2 + 1,6 = 2,8$.",
+        "ans": "Vậy $K = 5,6 : 2,8 = 2$."
+      }
+    },
+    {
+      "ma_de": "402",
+      "bai4": {
+        "de": "Một khu vườn hình thang có đáy lớn $36$ m, đáy bé $24$ m, chiều cao $18$ m. Người ta dành $40\\%$ diện tích để làm nhà, phần còn lại trồng rau. Tính diện tích trồng rau và tỉ số phần trăm diện tích trồng rau so với diện tích khu vườn.",
+        "b1": "Diện tích khu vườn hình thang là: $(36 + 24) \\times 18 : 2 = 540$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $540 \\times 40 : 100 = 216$ (m$^2$).",
+        "b3": "Diện tích đất trồng rau là: $540 - 216 = 324$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích trồng rau so với khu vườn là: $324 : 540 = 0,6 = 60\\%$. Đáp số: $324$ m$^2$ và $60\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{1,25 \\times 4 + 2,5}{0,5 \\times 6 + 1,5}$",
+        "buoc1": "Tử số: $1,25 \\times 4 + 2,5 = 5 + 2,5 = 7,5$.",
+        "buoc2": "Mẫu số: $0,5 \\times 6 + 1,5 = 3 + 1,5 = 4,5$.",
+        "ans": "Vậy $K = 7,5 : 4,5 = \\dfrac{5}{3}$."
+      }
+    },
+    {
+      "ma_de": "403",
+      "bai4": {
+        "de": "Một thửa ruộng hình thang có đáy lớn $42$ m, đáy bé $30$ m, chiều cao $20$ m. Người ta dùng $45\\%$ diện tích để làm nhà, phần còn lại trồng lúa. Tính diện tích trồng lúa và tỉ số phần trăm diện tích trồng lúa so với diện tích thửa ruộng.",
+        "b1": "Diện tích thửa ruộng hình thang là: $(42 + 30) \\times 20 : 2 = 720$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $720 \\times 45 : 100 = 324$ (m$^2$).",
+        "b3": "Diện tích đất trồng lúa là: $720 - 324 = 396$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích trồng lúa so với thửa ruộng là: $396 : 720 = 0,55 = 55\\%$. Đáp số: $396$ m$^2$ và $55\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{2,4 \\times 5 - 4}{0,75 \\times 8 + 0,5}$",
+        "buoc1": "Tử số: $2,4 \\times 5 - 4 = 12 - 4 = 8$.",
+        "buoc2": "Mẫu số: $0,75 \\times 8 + 0,5 = 6 + 0,5 = 6,5$.",
+        "ans": "Vậy $K = 8 : 6,5 = \\dfrac{16}{13}$."
+      }
+    },
+    {
+      "ma_de": "404",
+      "bai4": {
+        "de": "Một mảnh đất hình thang có đáy lớn $32$ m, đáy bé $18$ m, chiều cao $20$ m. Người ta dùng $25\\%$ diện tích để làm nhà, phần còn lại trồng cây ăn quả. Tính diện tích trồng cây ăn quả và tỉ số phần trăm diện tích trồng cây ăn quả so với diện tích mảnh đất.",
+        "b1": "Diện tích mảnh đất hình thang là: $(32 + 18) \\times 20 : 2 = 500$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $500 \\times 25 : 100 = 125$ (m$^2$).",
+        "b3": "Diện tích đất trồng cây ăn quả là: $500 - 125 = 375$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích trồng cây ăn quả so với mảnh đất là: $375 : 500 = 0,75 = 75\\%$. Đáp số: $375$ m$^2$ và $75\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{1,5 \\times 6 + 3}{0,4 \\times 5 + 1}$",
+        "buoc1": "Tử số: $1,5 \\times 6 + 3 = 9 + 3 = 12$.",
+        "buoc2": "Mẫu số: $0,4 \\times 5 + 1 = 2 + 1 = 3$.",
+        "ans": "Vậy $K = 12 : 3 = 4$."
+      }
+    },
+    {
+      "ma_de": "405",
+      "bai4": {
+        "de": "Một khu đất hình thang có đáy lớn $50$ m, đáy bé $34$ m, chiều cao $24$ m. Người ta dành $30\\%$ diện tích để làm nhà, phần còn lại trồng hoa. Tính diện tích trồng hoa và tỉ số phần trăm diện tích trồng hoa so với diện tích khu đất.",
+        "b1": "Diện tích khu đất hình thang là: $(50 + 34) \\times 24 : 2 = 1008$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $1008 \\times 30 : 100 = 302,4$ (m$^2$).",
+        "b3": "Diện tích đất trồng hoa là: $1008 - 302,4 = 705,6$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích trồng hoa so với khu đất là: $705,6 : 1008 = 0,7 = 70\\%$. Đáp số: $705,6$ m$^2$ và $70\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{0,5 \\times 12 + 4}{2,5 \\times 4 - 2}$",
+        "buoc1": "Tử số: $0,5 \\times 12 + 4 = 6 + 4 = 10$.",
+        "buoc2": "Mẫu số: $2,5 \\times 4 - 2 = 10 - 2 = 8$.",
+        "ans": "Vậy $K = 10 : 8 = 1,25$."
+      }
+    },
+    {
+      "ma_de": "406",
+      "bai4": {
+        "de": "Một thửa đất hình thang có đáy lớn $45$ m, đáy bé $27$ m, chiều cao $16$ m. Người ta dùng $50\\%$ diện tích để làm nhà, phần còn lại trồng cây cảnh. Tính diện tích trồng cây cảnh và tỉ số phần trăm diện tích trồng cây cảnh so với diện tích thửa đất.",
+        "b1": "Diện tích thửa đất hình thang là: $(45 + 27) \\times 16 : 2 = 576$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $576 \\times 50 : 100 = 288$ (m$^2$).",
+        "b3": "Diện tích đất trồng cây cảnh là: $576 - 288 = 288$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích trồng cây cảnh so với thửa đất là: $288 : 576 = 0,5 = 50\\%$. Đáp số: $288$ m$^2$ và $50\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{3,6 \\times 5 + 2}{0,9 \\times 4 + 1,4}$",
+        "buoc1": "Tử số: $3,6 \\times 5 + 2 = 18 + 2 = 20$.",
+        "buoc2": "Mẫu số: $0,9 \\times 4 + 1,4 = 3,6 + 1,4 = 5$.",
+        "ans": "Vậy $K = 20 : 5 = 4$."
+      }
+    },
+    {
+      "ma_de": "407",
+      "bai4": {
+        "de": "Một mảnh vườn hình thang có đáy lớn $38$ m, đáy bé $26$ m, chiều cao $15$ m. Người ta dùng $20\\%$ diện tích để làm nhà, phần còn lại trồng rau sạch. Tính diện tích trồng rau sạch và tỉ số phần trăm diện tích trồng rau sạch so với diện tích mảnh vườn.",
+        "b1": "Diện tích mảnh vườn hình thang là: $(38 + 26) \\times 15 : 2 = 480$ (m$^2$).",
+        "b2": "Diện tích đất làm nhà là: $480 \\times 20 : 100 = 96$ (m$^2$).",
+        "b3": "Diện tích đất trồng rau sạch là: $480 - 96 = 384$ (m$^2$).",
+        "b4": "Tỉ số phần trăm diện tích trồng rau sạch so với mảnh vườn là: $384 : 480 = 0,8 = 80\\%$. Đáp số: $384$ m$^2$ và $80\\%$."
+      },
+      "bai5": {
+        "bieuthuc": "Tính nhanh: $K = \\dfrac{2,5 \\times 8 - 5}{1,25 \\times 4 + 1}$",
+        "buoc1": "Tử số: $2,5 \\times 8 - 5 = 20 - 5 = 15$.",
+        "buoc2": "Mẫu số: $1,25 \\times 4 + 1 = 5 + 1 = 6$.",
+        "ans": "Vậy $K = 15 : 6 = 2,5$."
+      }
+    }
+  ]
+}

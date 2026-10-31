@@ -1,0 +1,156 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 01. Ôn tập các số đến 100 000 --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 01: ÔN TẬP CÁC SỐ ĐẾN 100 000}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Đọc, viết, phân tích cấu tạo số và so sánh các số trong phạm vi 100 000 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faListUl\ 1. Đọc, viết \& Cấu tạo số},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Các hàng trong số có 5 chữ số:}\\
+    Hàng chục nghìn $\rightarrow$ nghìn $\rightarrow$ trăm $\rightarrow$ chục $\rightarrow$ đơn vị.\\
+    $\bullet$ \textbf{Đọc số:} Đọc từ trái sang phải theo từng hàng.\\
+    $\bullet$ \textbf{Phân tích cấu tạo thập phân:}\\
+    $\overline{abcde} = a \times 10\,000 + b \times 1\,000 + c \times 100 + d \times 10 + e$\\
+    \textit{Ví dụ:} $85\,302 = 80\,000 + 5\,000 + 300 + 2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. So sánh \& Thứ tự số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Khác số chữ số:} Số nào có \textbf{nhiều chữ số hơn} thì lớn hơn.\\
+    \textit{Ví dụ:} $100\,000 > 99\,999$ (6 chữ số > 5 chữ số).\\
+    $\bullet$ \textbf{Cùng số chữ số:} So sánh từng cặp chữ số ở cùng một hàng từ \textbf{trái sang phải}.\\
+    $\bullet$ \textbf{Số liền trước \& Liền sau:}\\
+    Số liền trước $= A - 1$; Số liền sau $= A + 1$.\\
+    \textit{Ví dụ:} Liền sau của $99\,999$ là $100\,000$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Cấu tạo và phân rã số có 5 chữ số},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.88,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=4.5pt, align=center},
+    lopN/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    lopD/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!75!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    hangBox/.style={rectangle, rounded corners=3pt, fill=white, draw=gray!60, font=\scriptsize, inner sep=3pt, align=center}
+  ]
+    \node[root] (core) at (0, 1.05) {\faCalculator\ SỐ CÓ 5 CHỮ SỐ: $\overline{abcde}$};
+
+    \node[lopN] (lN) at (-3.4, 0.4) {\textbf{LỚP NGHÌN}};
+    \node[lopD] (lD) at (3.4, 0.4) {\textbf{LỚP ĐƠN VỊ}};
+
+    \node[hangBox] (h1) at (-4.8, -0.45) {\textbf{Chục nghìn}\\[1pt] \times 10\,000$};
+    \node[hangBox] (h2) at (-2.0, -0.45) {\textbf{Hàng Nghìn}\\[1pt] \times 1\,000$};
+
+    \node[hangBox] (h3) at (1.2, -0.45) {\textbf{Hàng Trăm}\\[1pt] \times 100$};
+    \node[hangBox] (h4) at (3.4, -0.45) {\textbf{Hàng Chục}\\[1pt] \times 10$};
+    \node[hangBox] (h5) at (5.6, -0.45) {\textbf{Hàng Đơn vị}\\[1pt] \times 1$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- ++(0, -0.2) -| (lN.north);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- ++(0, -0.2) -| (lD.north);
+
+    \draw[blue!75!black, thick, -{Stealth[length=1.5mm]}] (lN.south) -| (h1.north);
+    \draw[blue!75!black, thick, -{Stealth[length=1.5mm]}] (lN.south) -| (h2.north);
+
+    \draw[teal!75!black, thick, -{Stealth[length=1.5mm]}] (lD.south) -| (h3.north);
+    \draw[teal!75!black, thick, -{Stealth[length=1.5mm]}] (lD.south) -- (h4.north);
+    \draw[teal!75!black, thick, -{Stealth[length=1.5mm]}] (lD.south) -| (h5.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ Mẹo phân biệt "Giá trị chữ số" \& "Hàng"},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Vị trí hàng:} Là tên gọi của hàng (hàng nghìn, trăm...).\\
+    $\bullet$ \textbf{Giá trị của chữ số:} Lấy chữ số nhân với giá trị hàng.\\
+    \textit{VD trong số $74\,528$:} Chữ số $4$ đứng ở \textbf{hàng nghìn}, có \textbf{giá trị} là $4 \times 1\,000 = 4\,000$.\\
+    $\bullet$ Viết số có chữ số 0: Đọc "linh" viết chữ số 0 ở hàng chục; "không trăm" viết chữ số 0 ở hàng trăm.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy số có các chữ số khác nhau:}\\
+    Số lớn nhất có 5 chữ số là $99\,999$, nhưng nếu đề yêu cầu \textbf{khác nhau} thì phải là $98\,765$!\\
+    $\bullet$ \textbf{Bẫy số liền trước/sau:}\\
+    Đọc kĩ đề hỏi số liền \textbf{trước} ($-1$) hay liền \textbf{sau} ($+1$), không làm ẩu theo thói quen.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,172 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 53. Khái niệm phân số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 53: KHÁI NIỆM PHÂN SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Bản chất phân chia đều, cấu trúc tử số - mẫu số và ý nghĩa hình học trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faPieChart\ 1. Khái niệm phân số}
+]
+{\footnotesize
+Chia một đơn vị (hình tròn, đoạn thẳng, cái bánh) thành $b$ phần \textbf{bằng nhau}, lấy đi $a$ phần:
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Ta được \textbf{phân số}: $\dfrac{a}{b}$ (đọc là: \textbf{$a$ phần $b$}).
+  \item \textbf{Tử số ($a$):} Viết trên gạch ngang, là số tự nhiên chỉ \textbf{số phần bằng nhau được lấy ra}.
+  \item \textbf{Mẫu số ($b$):} Viết dưới gạch ngang, là số tự nhiên \textbf{khác 0} ($b > 0$) chỉ \textbf{tổng số phần bằng nhau} được chia.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faPencilSquareO\ 2. Quy tắc đọc và viết phân số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cách viết:} Viết tử số trước, kẻ gạch ngang ngay dưới tử số, viết mẫu số thẳng hàng dưới gạch ngang.
+  \item \textbf{Cách đọc:} Đọc tử số trước, đọc tiếp chữ \textbf{"phần"}, rồi đọc mẫu số.
+  \item \textbf{Ví dụ:}
+  \begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+    \item $\dfrac{3}{5}$: Đọc là \textit{Ba phần năm}.
+    \item $\dfrac{7}{10}$: Đọc là \textit{Bảy phần mười}.
+    \item $\dfrac{1}{2}$: Đọc là \textit{Một phần hai} (hoặc một nửa).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: GIẢI PHẪU CẤU TRÚC PHÂN SỐ TRỰC QUAN}
+]
+\centering
+\begin{tikzpicture}[scale=0.9, transform shape]
+  % Hình minh họa thanh chữ nhật chia 5 phần, tô màu 3 phần
+  \draw[thick, rounded corners=1pt] (0, 0.4) rectangle (5, 1.4);
+  \foreach \x in {1, 2, 3, 4} {
+    \draw[thick] (\x, 0.4) -- (\x, 1.4);
+  }
+  \fill[teal!40] (0, 0.4) rectangle (3, 1.4);
+  \foreach \x in {1, 2} {
+    \draw[thick] (\x, 0.4) -- (\x, 1.4);
+  }
+  \node[font=\scriptsize\bfseries\color{teal!90!black}] at (1.5, 0.9) {Đã lấy 3 phần};
+  \node[font=\scriptsize\bfseries\color{gray!80!black}] at (4, 0.9) {Còn 2};
+  \node[below, font=\scriptsize\bfseries] at (2.5, 0.3) {1 Đơn vị chia thành 5 phần bằng nhau};
+
+  % Mũi tên dẫn sang phân số
+  \draw[-{Stealth[length=3mm]}, thick, orange!80!black] (5.4, 0.9) -- (6.8, 0.9);
+
+  % Phân số phóng to
+  \node[font=\Huge\bfseries\color{blue!85!black}] (tu) at (7.8, 1.2) {3};
+  \draw[ultra thick, black] (7.2, 0.75) -- (8.4, 0.75);
+  \node[font=\Huge\bfseries\color{teal!85!black}] (mau) at (7.8, 0.3) {5};
+
+  % Các hộp chú thích
+  \node[draw=blue!80!black, fill=blue!8, rounded corners=2pt, font=\scriptsize\bfseries, align=left] (c1) at (11.2, 1.55) {TỬ SỐ (Số phần lấy ra)\\Là số tự nhiên};
+  \draw[-{Stealth}, blue!80!black, thick] (c1.west) -- (8.1, 1.2);
+
+  \node[draw=black, fill=gray!10, rounded corners=2pt, font=\tiny\bfseries] (c2) at (10.6, 0.75) {DẤU GẠCH PHÂN SỐ};
+  \draw[-{Stealth}, thick] (c2.west) -- (8.5, 0.75);
+
+  \node[draw=teal!80!black, fill=teal!8, rounded corners=2pt, font=\scriptsize\bfseries, align=left] (c3) at (11.2, -0.05) {MẪU SỐ (Tổng số phần chia)\\Bắt buộc khác 0 ($b > 0$)};
+  \draw[-{Stealth}, teal!80!black, thick] (c3.west) -- (8.1, 0.3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Ví dụ:} Một hình tròn chia làm 8 phần bằng nhau, tô màu 5 phần:
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Phân số chỉ phần đã tô màu là: $\mathbf{\dfrac{5}{8}}$ (Đọc là: \textit{Năm phần tám}).
+  \item Phân số chỉ phần chưa tô màu là: $\mathbf{\dfrac{3}{8}}$ (Đọc là: \textit{Ba phần tám}).
+  \item Tử số là $5$, mẫu số là $8$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy các phần không bằng nhau:}\\
+  Nếu hình chia thành các phần to nhỏ khác nhau thì \textbf{không thể} viết thành phân số! Bắt buộc các phần phải \textbf{hoàn toàn bằng nhau}.
+  \item \textbf{Bẫy mẫu số bằng 0:}\\
+  Mẫu số biểu diễn số phần được chia nên \textbf{luôn luôn khác 0} ($\frac{5}{0}$ là vô nghĩa).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\end{document}

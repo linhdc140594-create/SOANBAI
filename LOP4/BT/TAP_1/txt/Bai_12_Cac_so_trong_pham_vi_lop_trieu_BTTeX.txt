@@ -1,0 +1,199 @@
+\begin{ex}
+Một triệu viết là số gồm chữ số 1 và bao nhiêu chữ số 0?
+\shortans{6}
+\loigiai{
+Có 6 chữ số 0 (1 000 000).
+}
+\end{ex}
+
+\begin{ex}
+Mười triệu viết là số gồm chữ số 1 và bao nhiêu chữ số 0?
+\shortans{7}
+\loigiai{
+Có 7 chữ số 0 (10 000 000).
+}
+\end{ex}
+
+\begin{ex}
+Một trăm triệu viết là số gồm chữ số 1 và bao nhiêu chữ số 0?
+\shortans{8}
+\loigiai{
+Có 8 chữ số 0 (100 000 000).
+}
+\end{ex}
+
+\begin{ex}
+Một tỉ viết là số gồm chữ số 1 và bao nhiêu chữ số 0?
+\shortans{9}
+\loigiai{
+Có 9 chữ số 0 (1 000 000 000).
+}
+\end{ex}
+
+\begin{ex}
+Số 15 000 000 có bao nhiêu chữ số 0?
+\shortans{6}
+\loigiai{
+Có 6 chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Số 24 500 000 đọc là hai mươi tư triệu năm trăm nghìn. Chữ số hàng triệu là bao nhiêu?
+\shortans{4}
+\loigiai{
+Chữ số hàng triệu là 4.
+}
+\end{ex}
+
+\begin{ex}
+Số 75 800 000 có chữ số hàng chục triệu là bao nhiêu?
+\shortans{7}
+\loigiai{
+Chữ số hàng chục triệu là 7.
+}
+\end{ex}
+
+\begin{ex}
+Số 542 000 000 có chữ số hàng trăm triệu là bao nhiêu?
+\shortans{5}
+\loigiai{
+Chữ số hàng trăm triệu là 5.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 6 trong số 65 000 000 là bao nhiêu?
+\shortans{60000000}
+\loigiai{
+Giá trị là 60 000 000.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 5 triệu, 3 trăm nghìn và 4 chục viết là gì?
+\shortans{5300040}
+\loigiai{
+Số đó là 5300040.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 9 999 999 là số nào?
+\shortans{10000000}
+\loigiai{
+$9999999 + 1 = 10000000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 5 000 000 là số nào?
+\shortans{4999999}
+\loigiai{
+$5000000 - 1 = 4999999$.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 7 chữ số là số nào?
+\shortans{9999999}
+\loigiai{
+Số đó là 9999999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 7 chữ số là số nào?
+\shortans{1000000}
+\loigiai{
+Số đó là 1000000.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 8 chữ số là số nào?
+\shortans{99999999}
+\loigiai{
+Số đó là 99999999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 8 chữ số là số nào?
+\shortans{10000000}
+\loigiai{
+Số đó là 10000000.
+}
+\end{ex}
+
+\begin{ex}
+Viết số thích hợp: $4000000 + 500000 + 60000 = \dots$
+\shortans{4560000}
+\loigiai{
+Số đó là 4560000.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 8 000 000 và 7 500 000 là bao nhiêu?
+\shortans{500000}
+\loigiai{
+$8000000 - 7500000 = 500000$.
+}
+\end{ex}
+
+\begin{ex}
+Số 10 000 000 gấp số 1 000 000 bao nhiêu lần?
+\shortans{10}
+\loigiai{
+$10000000 : 1000000 = 10$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 000 000 gấp số 10 000 000 bao nhiêu lần?
+\shortans{10}
+\loigiai{
+$100000000 : 10000000 = 10$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn triệu từ 1 000 000 đến 10 000 000?
+\shortans{10}
+\loigiai{
+1 000 000, 2 000 000, ..., 10 000 000 (10 số).
+}
+\end{ex}
+
+\begin{ex}
+Số 50 000 000 đọc là năm mươi triệu, có bao nhiêu chữ số 0?
+\shortans{7}
+\loigiai{
+Có 7 chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Trong số 123 456 789, các chữ số thuộc lớp triệu là 1, 2 và chữ số nào?
+\shortans{3}
+\loigiai{
+Chữ số 3.
+}
+\end{ex}
+
+\begin{ex}
+Trong số 987 654 321, chữ số hàng trăm triệu là chữ số nào?
+\shortans{9}
+\loigiai{
+Chữ số 9.
+}
+\end{ex}
+
+\begin{ex}
+Một tỉ bằng bao nhiêu triệu?
+\shortans{1000}
+\loigiai{
+1 tỉ = 1000 triệu.
+}
+\end{ex}

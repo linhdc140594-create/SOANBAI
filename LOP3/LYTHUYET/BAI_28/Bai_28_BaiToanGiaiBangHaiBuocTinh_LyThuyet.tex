@@ -1,0 +1,171 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{teal}\faBook\ SỔ TAY KIẾN THỨC TOÁN 3}
+\fancyhead[R]{\small\bfseries\color{teal}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 28. Bài toán giải bằng hai bước tính --}
+
+\definecolor{primary}{HTML}{005F73}
+\definecolor{secondary}{HTML}{0A9396}
+\definecolor{accent}{HTML}{EE9B00}
+\definecolor{danger}{HTML}{AE2012}
+\definecolor{boxbg}{HTML}{F4F6F8}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,
+  colframe=primary,
+  arc=3mm,
+  boxrule=1.2pt,
+  left=4mm, right=4mm, top=2.5mm, bottom=2.5mm,
+  drop shadow=black!10!white
+]
+  \centering
+  {\Large\bfseries\color{primary}\faBookmark\ BÀI 28: BÀI TOÁN GIẢI BẰNG HAI BƯỚC TÍNH}\\[1.5mm]
+  {\small\itshape\color{black!75}Kĩ năng phân tích ngược, tìm ẩn số trung gian và trình bày lời giải 2 bước mạch lạc trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy trình 3 bước giải bài toán 2 bước}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bước 1: Tìm hiểu \& Tóm tắt đề bài:}
+  Xác định đại lượng đã biết và đại lượng câu hỏi yêu cầu tìm.
+  \item \textbf{Bước 2: Tìm đại lượng trung gian (Bước 1):}
+  Đại lượng chưa cho trực tiếp nhưng cần có để trả lời câu hỏi chính.
+  \item \textbf{Bước 3: Trả lời câu hỏi chính (Bước 2):}
+  Kết hợp đại lượng ban đầu và đại lượng trung gian để tìm đáp số.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Các dạng toán 2 bước điển hình}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Dạng 1 (Nhiều hơn / Ít hơn rồi tính tổng):}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Bước 1: Tìm phần tử thứ hai ($+$ hoặc $-$).
+    \item Bước 2: Tính tổng cả hai phần tử ($+$).
+  \end{itemize}
+  \item \textbf{Dạng 2 (Gấp / Giảm số lần rồi tính tổng/hiệu):}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Bước 1: Tìm phần tử thứ hai ($\times$ hoặc $:$).
+    \item Bước 2: Tính tổng hoặc còn lại ($+$ hoặc $-$).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: CẤU TRÚC PHÂN TÍCH BÀI TOÁN 2 BƯỚC}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=2.5pt, minimum height=0.75cm},
+  arr/.style={-{Stealth[length=2mm]}, thick}
+]
+  \node[box, fill=purple!15, draw=purple!80!black, text width=3.2cm] (s1) at (0, 0) {ĐỀ BÀI CHO\\Đại lượng đã biết $A$};
+  \node[box, fill=teal!15, draw=teal!80!black, text width=3.4cm] (s2) at (4.5, 0) {BƯỚC 1: TÌM TRUNG GIAN\\Đại lượng $B$\\($B = A \times k$ hoặc $A : k$ hoặc $A \pm k$)};
+  \node[box, fill=orange!15, draw=orange!80!black, text width=3.4cm] (s3) at (9.2, 0) {BƯỚC 2: CÂU HỎI CHÍNH\\Tính Tổng $(A + B)$\\hoặc Hiệu $(A - B)$};
+
+  \draw[arr, purple!80!black] (s1) -- (s2);
+  \draw[arr, teal!80!black] (s2) -- (s3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Bài toán mẫu:}\\
+Ngăn trên có $12$ quyển sách. Ngăn dưới có số sách gấp $3$ lần ngăn trên. Hỏi cả hai ngăn có bao nhiêu quyển sách?\\
+\textbf{Bài giải chuẩn:}\\
+Ngăn dưới có số quyển sách là:
+$$12 \times 3 = 36\text{ (quyển)}$$
+Cả hai ngăn có số quyển sách là:
+$$12 + 36 = \mathbf{48}\text{ (quyển)}$$
+\phantom{Bài giải: }\textbf{Đáp số:} $48$ quyển sách.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy dừng lại ở bước 1 (Bẫy phổ biến nhất):}\\
+  Khi tính xong đại lượng trung gian (ví dụ tính ra ngăn dưới có $36$ quyển), học sinh vội vàng lấy đó làm đáp số mà quên mất câu hỏi là \textbf{"cả hai ngăn"}.
+  \item \textbf{Bí quyết kiểm tra:}\\
+  Trước khi ghi đáp số, hãy đọc lại câu hỏi của đề bài một lần nữa: "Đề hỏi một đối tượng hay hỏi cả hai?".
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

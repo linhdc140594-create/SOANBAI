@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $4 + 4$.
+\shortans{8}
+\loigiai{
+Ta có $4 + 4 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10 - 9$.
+\shortans{1}
+\loigiai{
+Ta có $10 - 9 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $3 + 6$.
+\shortans{9}
+\loigiai{
+Ta có $3 + 6 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8 - 4$.
+\shortans{4}
+\loigiai{
+Ta có $8 - 4 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 + 3$.
+\shortans{10}
+\loigiai{
+Ta có $7 + 3 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10 - 5$.
+\shortans{5}
+\loigiai{
+Ta có $10 - 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $1 + 2 + 3 + 4$.
+\shortans{10}
+\loigiai{
+Ta có $1 + 2 = 3$, $3 + 3 = 6$, $6 + 4 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $10 - 2 - 3 - 4$.
+\shortans{1}
+\loigiai{
+Ta có $10 - 2 = 8$, $8 - 3 = 5$, $5 - 4 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $5 + 5 - 7$.
+\shortans{3}
+\loigiai{
+Ta có $5 + 5 = 10$, $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $9 - 6 + 4$.
+\shortans{7}
+\loigiai{
+Ta có $9 - 6 = 3$, $3 + 4 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $2 + 5 = 3 + \dots$
+\shortans{4}
+\loigiai{
+Vế trái: $2 + 5 = 7$. Số cần điền là $7 - 3 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $8 - 2 = 4 + \dots$
+\shortans{2}
+\loigiai{
+Vế trái: $8 - 2 = 6$. Số cần điền là $6 - 4 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $10 - 3 = 9 - \dots$
+\shortans{2}
+\loigiai{
+Vế trái: $10 - 3 = 7$. Số cần điền là $9 - 7 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $6 + 3 = 10 - \dots$
+\shortans{1}
+\loigiai{
+Vế trái: $6 + 3 = 9$. Số cần điền là $10 - 9 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+So sánh: Kết quả của phép tính $4 + 5$ lớn hơn kết quả của $2 + 5$ bao nhiêu đơn vị?
+\shortans{2}
+\loigiai{
+Ta có $4 + 5 = 9$, $2 + 5 = 7$. Chênh lệch: $9 - 7 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Hà có 7 bông hoa, Trang có 3 bông hoa. Cả hai bạn có tất cả bao nhiêu bông hoa?
+\shortans{10}
+\loigiai{
+Cả hai bạn có: $7 + 3 = 10$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Có 10 con thỏ đang ăn cỏ, 6 con chạy vào hang. Hỏi ngoài bãi cỏ còn lại bao nhiêu con thỏ?
+\shortans{4}
+\loigiai{
+Còn lại: $10 - 6 = 4$ con thỏ.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 8 viên bi, Nam cho Dũng 3 viên bi và cho Bình 2 viên bi. Hỏi Nam còn lại bao nhiêu viên bi?
+\shortans{3}
+\loigiai{
+Nam đã cho: $3 + 2 = 5$ viên. Nam còn: $8 - 5 = 3$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân thu hoạch được 5 quả dưa hấu vào buổi sáng và 4 quả dưa hấu vào buổi chiều. Bác đã bán được 6 quả. Hỏi bác còn lại bao nhiêu quả dưa hấu?
+\shortans{3}
+\loigiai{
+Tổng thu hoạch: $5 + 4 = 9$ quả. Còn lại: $9 - 6 = 3$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Trong sân có 3 con gà mái và 4 con gà con, sau đó có 2 con gà trống đi vào sân. Hỏi lúc này trong sân có bao nhiêu con gà?
+\shortans{9}
+\loigiai{
+Trong sân có: $3 + 4 + 2 = 9$ con gà.
+}
+\end{ex}
+
+\begin{ex}
+Số nào cộng với 6 thì được 10?
+\shortans{4}
+\loigiai{
+Số đó là: $10 - 6 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào trừ đi 4 thì còn lại 5?
+\shortans{9}
+\loigiai{
+Số đó là: $5 + 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Lấy 10 trừ đi số lớn nhất có một chữ số thì được kết quả là bao nhiêu?
+\shortans{1}
+\loigiai{
+Số lớn nhất có 1 chữ số là 9. Phép tính: $10 - 9 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Lấy số bé nhất có hai chữ số trừ đi 7 thì được bao nhiêu?
+\shortans{3}
+\loigiai{
+Số bé nhất có hai chữ số là 10. Phép tính: $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $2 + \dots + 3 = 9$.
+\shortans{4}
+\loigiai{
+Số cần điền là: $9 - 2 - 3 = 4$.
+}
+\end{ex}

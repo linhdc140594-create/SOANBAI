@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $2 + 3$.
+\shortans{5}
+\loigiai{
+Ta có $2 + 3 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $4 + 2$.
+\shortans{6}
+\loigiai{
+Ta có $4 + 2 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $5 + 3$.
+\shortans{8}
+\loigiai{
+Ta có $5 + 3 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 4$.
+\shortans{10}
+\loigiai{
+Ta có $6 + 4 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $7 + 2$.
+\shortans{9}
+\loigiai{
+Ta có $7 + 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $1 + 8$.
+\shortans{9}
+\loigiai{
+Ta có $1 + 8 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $3 + 4$.
+\shortans{7}
+\loigiai{
+Ta có $3 + 4 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $0 + 9$.
+\shortans{9}
+\loigiai{
+Số nào cộng với 0 cũng bằng chính số đó: $0 + 9 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $5 + 0$.
+\shortans{5}
+\loigiai{
+Ta có $5 + 0 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $5 + 5$.
+\shortans{10}
+\loigiai{
+Ta có $5 + 5 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $3 + \dots = 7$.
+\shortans{4}
+\loigiai{
+Số thích hợp là: $7 - 3 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $6 + \dots = 9$.
+\shortans{3}
+\loigiai{
+Số thích hợp là: $9 - 6 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $\dots + 5 = 8$.
+\shortans{3}
+\loigiai{
+Số thích hợp là: $8 - 5 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $\dots + 2 = 10$.
+\shortans{8}
+\loigiai{
+Số thích hợp là: $10 - 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $2 + 3 + 4$.
+\shortans{9}
+\loigiai{
+Ta có $2 + 3 = 5$, rồi $5 + 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $1 + 4 + 5$.
+\shortans{10}
+\loigiai{
+Ta có $1 + 4 = 5$, rồi $5 + 5 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $3 + 3 + 2$.
+\shortans{8}
+\loigiai{
+Ta có $3 + 3 = 6$, rồi $6 + 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $2 + 2 + 2 + 2$.
+\shortans{8}
+\loigiai{
+Ta có $2 + 2 + 2 + 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+An có 4 quả bóng bay, Bình cho An thêm 3 quả bóng bay nữa. Hỏi An có tất cả bao nhiêu quả bóng bay?
+\shortans{7}
+\loigiai{
+An có tất cả: $4 + 3 = 7$ quả bóng bay.
+}
+\end{ex}
+
+\begin{ex}
+Trên cây có 5 con chim, một đàn gồm 4 con chim khác bay tới cùng đậu trên cây. Hỏi lúc này trên cây có bao nhiêu con chim?
+\shortans{9}
+\loigiai{
+Số chim trên cây là: $5 + 4 = 9$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trong ao có 6 chú vịt, 2 chú vịt khác nhảy xuống ao bơi cùng. Hỏi trong ao có bao nhiêu chú vịt?
+\shortans{8}
+\loigiai{
+Số vịt trong ao là: $6 + 2 = 8$ con.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 3 bắp ngô nếp và 7 bắp ngô ngọt. Hỏi mẹ mua tất cả bao nhiêu bắp ngô?
+\shortans{10}
+\loigiai{
+Mẹ mua tất cả: $3 + 7 = 10$ bắp ngô.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 5 cái bút màu, chị tặng Lan thêm 2 cái bút màu nữa. Hỏi Lan có tất cả bao nhiêu cái bút màu?
+\shortans{7}
+\loigiai{
+Lan có tất cả: $5 + 2 = 7$ cái bút màu.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 4 con bò mẹ và 2 con bê con. Hỏi bác nông dân nuôi tất cả bao nhiêu con bò và bê?
+\shortans{6}
+\loigiai{
+Tổng số con là: $4 + 2 = 6$ con.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào dấu hỏi chấm: $4 + 1 + ? = 10$.
+\shortans{5}
+\loigiai{
+Ta có $4 + 1 = 5$, vậy $? = 10 - 5 = 5$.
+}
+\end{ex}

@@ -1,0 +1,147 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 21. Luyện tập chung Chủ đề 4 --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 21: LUYỆN TẬP CHUNG CHỦ ĐỀ 4}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Tổng ôn bảng đơn vị đo: Khối lượng, diện tích, thời gian và bài toán phối hợp trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTable\ 1. Bảng quy đổi 3 đại lượng cốt lõi},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đo khối lượng} (gấp kém nhau $10$ lần):\\
+    $1\text{ tấn} = 10\text{ tạ} = 100\text{ yến} = 1\,000\text{ kg}$.\\
+    $1\text{ tạ} = 10\text{ yến} = 100\text{ kg}$; $1\text{ yến} = 10\text{ kg}$.\\[1mm]
+    $\bullet$ \textbf{Đo diện tích} (gấp kém nhau $100$ lần):\\
+    $1\text{ m}^2 = 100\text{ dm}^2 = 10\,000\text{ cm}^2 = 1\,000\,000\text{ mm}^2$.\\[1mm]
+    $\bullet$ \textbf{Đo thời gian}:\\
+    $1\text{ thế kỉ} = 100\text{ năm}$; $1\text{ năm} = 12\text{ tháng}$.\\
+    $1\text{ giờ} = 60\text{ phút}$; $1\text{ phút} = 60\text{ giây}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 2. Phương pháp giải toán đại lượng},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Nguyên tắc vàng}: Muốn so sánh, cộng, trừ các số đo đại lượng, ta \textbf{phải đổi về cùng một đơn vị đo}.\\
+    $\bullet$ \textbf{Tách danh số phức thành đơn}:\\
+    $3\text{ tấn } 25\text{ kg} = 3\,000 + 25 = 3\,025\text{ kg}$.\\
+    $4\text{ m}^2\ 5\text{ dm}^2 = 400 + 5 = 405\text{ dm}^2$.\\
+    $\bullet$ \textbf{Gộp danh số đơn về danh số phức}:\\
+    $215\text{ giây} = 180\text{ giây} + 35\text{ giây} = 3\text{ phút } 35\text{ giây}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HỆ THỐNG HÓA CÁC MẠCH KIẾN THỨC CHỦ ĐỀ 4},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=0.88, yscale=0.82,
+    hub/.style={rectangle, rounded corners=2.5mm, draw=teal!85!black, fill=teal!15, thick, inner sep=4pt, font=\footnotesize\bfseries, align=center},
+    card1/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3pt, font=\scriptsize, align=center, text width=3.9cm},
+    card2/.style={rectangle, rounded corners=2mm, draw=orange!80!black, fill=orange!12, thick, inner sep=3pt, font=\scriptsize, align=center, text width=3.9cm},
+    card3/.style={rectangle, rounded corners=2mm, draw=purple!80!black, fill=purple!10, thick, inner sep=3pt, font=\scriptsize, align=center, text width=3.9cm},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    \node[hub] (core) at (7, 1.25) {\faCube\ CHỦ ĐỀ 4: MỘT SỐ ĐƠN VỊ ĐO ĐẠI LƯỢNG};
+
+    \node[card1] (c1) at (2.4, -0.65) {\textbf{\color{blue!80!black}KHỐI LƯỢNG ($\times 10$)}\\Tấn $\rightarrow$ Tạ $\rightarrow$ Yến $\rightarrow$ kg\\$1\text{ tấn} = 1\,000\text{ kg}$};
+    \node[card2] (c2) at (7.0, -0.65) {\textbf{\color{orange!80!black}DIỆN TÍCH ($\times 100$)}\\$\text{m}^2 \rightarrow \text{dm}^2 \rightarrow \text{cm}^2 \rightarrow \text{mm}^2$\\Mỗi bậc thêm 2 số 0};
+    \node[card3] (c3) at (11.6, -0.65) {\textbf{\color{purple!80!black}THỜI GIAN (Hỗn hợp)}\\Thế kỉ $\xrightarrow{100}$ Năm\\Phút $\xrightarrow{60}$ Giây};
+
+    \draw[arr] (core.south) -- ++(0,-0.2) -| (c1.north);
+    \draw[arr] (core.south) -- (c2.north);
+    \draw[arr] (core.south) -- ++(0,-0.2) -| (c3.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ví dụ 1 (So sánh hai đại lượng):}\\
+    So sánh $2\text{ tấn } 50\text{ kg}$ và $2\,500\text{ kg}$:\\
+    Đổi $2\text{ tấn } 50\text{ kg} = 2\,050\text{ kg}$.\\
+    Vì $2\,050\text{ kg} < 2\,500\text{ kg}$ nên $\mathbf{2\text{ tấn } 50\text{ kg} < 2\,500\text{ kg}}$.\\
+    $\bullet$ \textbf{Ví dụ 2 (Tính toán):}\\
+    $4\text{ m}^2\ 20\text{ dm}^2 + 3\text{ m}^2\ 85\text{ dm}^2 = 7\text{ m}^2\ 105\text{ dm}^2 = \mathbf{8\text{ m}^2\ 5\text{ dm}^2}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy khác đơn vị cộng trực tiếp:}\\
+    $2\text{ tạ} + 30\text{ kg} \ne 32$ tạ hay 32 kg! Bắt buộc đổi $2\text{ tạ} = 200\text{ kg} \Rightarrow 200 + 30 = \mathbf{230\text{ kg}}$.\\
+    $\bullet$ \textbf{Bẫy chuyển đổi $105\text{ dm}^2$}: $100\text{ dm}^2 = 1\text{ m}^2$ nên nhớ 1 sang $\text{m}^2$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $21 + 14$.
+\shortans{35}
+\loigiai{
+Ta có: hàng đơn vị $1 + 4 = 5$, hàng chục $2 + 1 = 3$. Kết quả là 35.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $32 + 25$.
+\shortans{57}
+\loigiai{
+Ta có $32 + 25 = 57$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $43 + 31$.
+\shortans{74}
+\loigiai{
+Ta có $43 + 31 = 74$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $50 + 26$.
+\shortans{76}
+\loigiai{
+Ta có $50 + 26 = 76$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $18 + 41$.
+\shortans{59}
+\loigiai{
+Ta có $18 + 41 = 59$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $62 + 35$.
+\shortans{97}
+\loigiai{
+Ta có $62 + 35 = 97$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $74 + 23$.
+\shortans{97}
+\loigiai{
+Ta có $74 + 23 = 97$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $25 + 42$.
+\shortans{67}
+\loigiai{
+Ta có $25 + 42 = 67$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $36 + 50$.
+\shortans{86}
+\loigiai{
+Ta có $36 + 50 = 86$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $44 + 44$.
+\shortans{88}
+\loigiai{
+Ta có $44 + 44 = 88$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $23 + \dots = 48$.
+\shortans{25}
+\loigiai{
+Số cần điền là: $48 - 23 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $35 + \dots = 79$.
+\shortans{44}
+\loigiai{
+Số cần điền là: $79 - 35 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 24 = 68$.
+\shortans{44}
+\loigiai{
+Số cần điền là: $68 - 24 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 31 = 85$.
+\shortans{54}
+\loigiai{
+Số cần điền là: $85 - 31 = 54$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $12 + 23 + 34$.
+\shortans{69}
+\loigiai{
+Ta có $12 + 23 = 35$, rồi $35 + 34 = 69$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $20 + 31 + 45$.
+\shortans{96}
+\loigiai{
+Ta có $20 + 31 = 51$, rồi $51 + 45 = 96$.
+}
+\end{ex}
+
+\begin{ex}
+Thùng thứ nhất có 32 lít nước ngọt, thùng thứ hai có 45 lít nước ngọt. Cả hai thùng có tất cả bao nhiêu lít nước ngọt?
+\shortans{77}
+\loigiai{
+Cả hai thùng có: $32 + 45 = 77$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Trang trại của bác Nam có 24 con bò và 35 con dê. Hỏi đàn gia súc có tất cả bao nhiêu con?
+\shortans{59}
+\loigiai{
+Tổng số con: $24 + 35 = 59$ con.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 1A trồng được 31 cây hoa, lớp 1B trồng được 36 cây hoa. Cả hai lớp trồng được bao nhiêu cây hoa?
+\shortans{67}
+\loigiai{
+Cả hai lớp trồng được: $31 + 36 = 67$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ dệt tấm vải thứ nhất dài 42 mét, tấm vải thứ hai dài 27 mét. Cả hai tấm vải dài bao nhiêu mét?
+\shortans{69}
+\loigiai{
+Hai tấm vải dài: $42 + 27 = 69$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Cuộn dây thứ nhất dài 53 cm, cuộn dây thứ hai dài 46 cm. Tổng chiều dài hai cuộn dây là bao nhiêu xăng-ti-mét?
+\shortans{99}
+\loigiai{
+Tổng chiều dài: $53 + 46 = 99$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng của số liền trước số 35 và số liền sau số 41.
+\shortans{76}
+\loigiai{
+Số liền trước 35 là 34, liền sau 41 là 42. Tổng: $34 + 42 = 76$.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng của số tròn chục lớn nhất có hai chữ số và số 8.
+\shortans{98}
+\loigiai{
+Số tròn chục lớn nhất có hai chữ số là 90. Tổng: $90 + 8 = 98$.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng ngày thứ nhất bán được 25 chiếc áo, ngày thứ hai bán được 33 chiếc áo. Cả hai ngày bán được bao nhiêu chiếc áo?
+\shortans{58}
+\loigiai{
+Cả hai ngày bán được: $25 + 33 = 58$ chiếc áo.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $15 + 21 + \dots = 78$.
+\shortans{42}
+\loigiai{
+Ta có $15 + 21 = 36$, vậy số cần điền là $78 - 36 = 42$.
+}
+\end{ex}

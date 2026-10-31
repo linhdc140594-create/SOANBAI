@@ -1,0 +1,199 @@
+\begin{ex}
+Đơn vị đo nhiệt độ thường dùng ở Việt Nam là độ gì? (Độ C ghi 1, Độ F ghi 2).
+\shortans{1}
+\loigiai{
+Đơn vị thường dùng là độ C ($^\circ$C).
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt kế đang chỉ $30^\circ$C. Nếu nhiệt độ tăng thêm $5^\circ$C thì nhiệt kế chỉ bao nhiêu độ C?
+\shortans{35}
+\loigiai{
+$30 + 5 = 35^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt kế đang chỉ $28^\circ$C. Vào ban đêm nhiệt độ giảm $4^\circ$C. Nhiệt độ ban đêm là bao nhiêu độ C?
+\shortans{24}
+\loigiai{
+$28 - 4 = 24^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ cơ thể của một người bình thường khỏe mạnh khoảng bao nhiêu độ C?
+\shortans{37}
+\loigiai{
+Nhiệt độ người khỏe mạnh khoảng $37^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nước đá đang tan có nhiệt độ là bao nhiêu độ C?
+\shortans{0}
+\loigiai{
+Nước đá tan ở $0^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nước sôi ở điều kiện tiêu chuẩn có nhiệt độ là bao nhiêu độ C?
+\shortans{100}
+\loigiai{
+Nước sôi ở $100^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ phòng lúc sáng sớm là $22^\circ$C, lúc giữa trưa là $32^\circ$C. Nhiệt độ giữa trưa cao hơn lúc sáng sớm bao nhiêu độ C?
+\shortans{10}
+\loigiai{
+$32 - 22 = 10^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Hôm qua nhiệt độ ở Sa Pa là $12^\circ$C, hôm nay giảm đi $3^\circ$C. Nhiệt độ ở Sa Pa hôm nay là bao nhiêu độ C?
+\shortans{9}
+\loigiai{
+$12 - 3 = 9^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ tại Hà Nội là $28^\circ$C, tại TP. Hồ Chí Minh là $34^\circ$C. TP. Hồ Chí Minh nóng hơn Hà Nội bao nhiêu độ C?
+\shortans{6}
+\loigiai{
+$34 - 28 = 6^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Dụng cụ nào dùng để đo nhiệt độ? (Nhiệt kế ghi 1, thước kẻ ghi 2).
+\shortans{1}
+\loigiai{
+Nhiệt kế dùng để đo nhiệt độ.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ lúc 8 giờ là $25^\circ$C. Đến 12 giờ nhiệt độ tăng thêm $6^\circ$C. Hỏi lúc 12 giờ nhiệt độ là bao nhiêu độ C?
+\shortans{31}
+\loigiai{
+$25 + 6 = 31^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ ngăn mát tủ lạnh là $5^\circ$C. Ngăn đá có nhiệt độ thấp hơn ngăn mát $23^\circ$C. Hỏi nhiệt độ ngăn đá là âm bao nhiêu độ C? (Điền số tự nhiên thể hiện độ chênh lệch là 23).
+\shortans{23}
+\loigiai{
+Chênh lệch nhiệt độ là $23^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Một bạn bị sốt có thân nhiệt là $39^\circ$C. Nhiệt độ này cao hơn thân nhiệt bình thường ($37^\circ$C) bao nhiêu độ C?
+\shortans{2}
+\loigiai{
+$39 - 37 = 2^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ hôm nay là $30^\circ$C, dự báo ngày mai nhiệt độ tăng $2^\circ$C. Nhiệt độ ngày mai dự kiến là bao nhiêu độ C?
+\shortans{32}
+\loigiai{
+$30 + 2 = 32^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Khi đo nhiệt độ nước tắm cho em bé, nhiệt kế chỉ $38^\circ$C. Sau một lúc nhiệt độ giảm $3^\circ$C. Hỏi nhiệt độ lúc sau là bao nhiêu độ C?
+\shortans{35}
+\loigiai{
+$38 - 3 = 35^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ buổi sáng là $20^\circ$C, buổi trưa tăng thêm $8^\circ$C, buổi chiều giảm đi $4^\circ$C so với buổi trưa. Nhiệt độ buổi chiều là bao nhiêu độ C?
+\shortans{24}
+\loigiai{
+$20 + 8 - 4 = 24^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25^\circ\text{C} + 12^\circ\text{C} = \dots^\circ\text{C}$.
+\shortans{37}
+\loigiai{
+$25 + 12 = 37$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $36^\circ\text{C} - 15^\circ\text{C} = \dots^\circ\text{C}$.
+\shortans{21}
+\loigiai{
+$36 - 15 = 21$.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ ngoài trời mùa đông ở Mẫu Sơn có thể xuống tới $2^\circ$C. Nếu tăng thêm $15^\circ$C thì được bao nhiêu độ C?
+\shortans{17}
+\loigiai{
+$2 + 15 = 17^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Bác sĩ đo nhiệt độ của bệnh nhân lúc 6 giờ là $38^\circ$C, sau khi uống thuốc lúc 8 giờ nhiệt độ giảm xuống còn $37^\circ$C. Nhiệt độ giảm bao nhiêu độ C?
+\shortans{1}
+\loigiai{
+$38 - 37 = 1^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ ở Đà Lạt là $18^\circ$C, ở Nha Trang là $29^\circ$C. Nha Trang có nhiệt độ cao hơn Đà Lạt bao nhiêu độ C?
+\shortans{11}
+\loigiai{
+$29 - 18 = 11^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $16^\circ\text{C} + 18^\circ\text{C} = \dots^\circ\text{C}$.
+\shortans{34}
+\loigiai{
+$16 + 18 = 34$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40^\circ\text{C} - 16^\circ\text{C} = \dots^\circ\text{C}$.
+\shortans{24}
+\loigiai{
+$40 - 16 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ một ngày hè ở Hà Nội cao nhất là $38^\circ$C, thấp nhất là $28^\circ$C. Chênh lệch nhiệt độ trong ngày là bao nhiêu độ C?
+\shortans{10}
+\loigiai{
+$38 - 28 = 10^\circ$C.
+}
+\end{ex}
+
+\begin{ex}
+Nhiệt độ nước trà nóng là $85^\circ$C. Để nguội nhiệt độ giảm đi $40^\circ$C. Nhiệt độ lúc sau là bao nhiêu độ C?
+\shortans{45}
+\loigiai{
+$85 - 40 = 45^\circ$C.
+}
+\end{ex}

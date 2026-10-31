@@ -1,0 +1,155 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 18. Luyện tập chung diện tích --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 18. LUYỆN TẬP CHUNG DIỆN TÍCH (CHỦ ĐỀ 3)}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Tổng hợp kỹ năng đổi đơn vị đo diện tích và giải các bài toán hình học thực tế trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: MA TRẬN CHUYỂN ĐỔI ĐƠN VỊ ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ 1. Ma trận chuyển đổi đơn vị diện tích},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ $1\text{ km}^2 = 100\text{ ha} = 1\,000\,000\text{ m}^2$.\\
+    $\bullet$ $1\text{ ha} = 100\text{ dam}^2 = 10\,000\text{ m}^2$.\\
+    $\bullet$ $1\text{ m}^2 = 100\text{ dm}^2 = 10\,000\text{ cm}^2 = 1\,000\,000\text{ mm}^2$.\\
+    \textit{Quy tắc dịch phẩy:} Mỗi khoảng cách giữa hai đơn vị liền kề tương ứng với \textbf{2 chữ số}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckSquareO\ 2. So sánh các số đo diện tích},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Khi so sánh: $4\text{ ha } 5\text{ dam}^2$ và $4,5\text{ ha}$:\\
+    $\triangleright$ Đổi hết về cùng đơn vị bé nhất ($\text{dam}^2$):\\
+    \quad $4\text{ ha } 5\text{ dam}^2 = 405\text{ dam}^2$.\\
+    \quad $4,5\text{ ha} = 450\text{ dam}^2$.\\
+    Vì $405 < 450$ nên $4\text{ ha } 5\text{ dam}^2 < 4,5\text{ ha}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN KẾT HỢP HÌNH HỌC & ĐỔI ĐƠN VỊ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faWrench\ 3. Bài toán tổng hợp: Mở rộng hoặc thu hẹp diện tích},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Một thửa ruộng hình chữ nhật có chu vi $160\text{ m}$, chiều rộng bằng $\dfrac{3}{5}$ chiều dài. Người ta cấy lúa, cứ $100\text{ m}^2$ thu được $60\text{ kg}$ thóc. Hỏi cả thửa ruộng thu được bao nhiêu tạ thóc?\\
+  $\triangleright$ Nửa chu vi: $160 : 2 = 80\text{ m}$. Vẽ sơ đồ: Rộng $3$ phần, Dài $5$ phần.\\
+  $\triangleright$ Chiều rộng: $80 : (3+5) \times 3 = 30\text{ m}$; Chiều dài: $80 - 30 = 50\text{ m}$.\\
+  $\triangleright$ Diện tích: $50 \times 30 = 1\,500\text{ m}^2$.\\
+  $\triangleright$ Khối lượng thóc: $(1\,500 : 100) \times 60 = 900\text{ kg} = \mathbf{9\text{ tạ}}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kỹ năng xử lý bài toán diện tích đa bước},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Tìm các cạnh\\(Tổng-Tỉ / Hiệu-Tỉ)};
+    \node[b2] (n2) at (0, 0) {2. Tính diện tích\\($S = a \times b$)};
+    \node[b3] (n3) at (5.8, 0) {3. Tính sản lượng/chi phí\\(Đổi đơn vị theo yêu cầu)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: BẢO TOÀN DIỆN TÍCH & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ Tính chất phân chia diện tích},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Diện tích toàn phần bằng tổng diện tích các phần ghép lại.\\
+    $\bullet$ Diện tích phần còn lại $=$ Diện tích ban đầu $-$ Diện tích đã dùng (VD: Đất làm nhà, làm lối đi).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đề bài hay lừa: Cho kích thước một cạnh theo mét ($\text{m}$), cạnh kia theo đề-xi-mét ($\text{dm}$) $\rightarrow$ Không đổi đơn vị là sai ngay từ bước 1!\\
+    $\bullet$ Đọc kĩ yêu cầu đơn vị đáp số (kg, tạ hay tấn).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

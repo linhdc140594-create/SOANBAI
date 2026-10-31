@@ -1,0 +1,158 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 52. Thể tích hình hộp chữ nhật --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 52. THỂ TÍCH HÌNH HỘP CHỮ NHẬT}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Công thức V = a x b x c, tính chiều cao khi biết thể tích và dạng toán bể chứa nước trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÔNG THỨC THỂ TÍCH HHCN ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCube\ 1. Công thức Thể tích hình hộp chữ nhật},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Cho hình hộp chữ nhật có chiều dài $a$, chiều rộng $b$, chiều cao $c$ (\textbf{cùng một đơn vị đo}):\\
+    \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+      {\scriptsize\bfseries\color{blue!90!black}$V = a \times b \times c = S_{\text{đáy}} \times c$}
+    \end{tcolorbox}
+    \textit{``Thể tích hình hộp chữ nhật bằng chiều dài nhân chiều rộng rồi nhân với chiều cao (hoặc bằng diện tích đáy nhân chiều cao)''.}
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ 2. Công thức tính ngược},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Biết thể tích $V$ và hai kích thước:\\
+    $\bullet$ \textbf{Chiều cao}:\\
+    \quad $c = V : (a \times b) = V : S_{\text{đáy}}$.\\
+    $\bullet$ \textbf{Chiều dài}:\\
+    \quad $a = V : (b \times c)$.\\
+    $\bullet$ \textbf{Chiều rộng}:\\
+    \quad $b = V : (a \times c)$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN BỂ NƯỚC THỰC TẾ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faTint\ 3. Bài toán bể nước và mức nước dâng},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Một bể kính dạng HHCN có chiều dài $8\text{ dm}$, chiều rộng $5\text{ dm}$. Mực nước hiện tại cao $3\text{ dm}$. Người ta thả hòn non bộ chìm hẳn vào bể thì mực nước dâng cao thành $3,5\text{ dm}$. Tính thể tích hòn non bộ?\\
+  $\triangleright$ \textbf{Nguyên lý}: Thể tích vật chìm đúng bằng \textbf{thể tích phần nước dâng lên}.\\
+  $\triangleright$ Chiều cao nước dâng thêm: $\Delta h = 3,5 - 3 = 0,5\text{ dm}$.\\
+  $\triangleright$ Thể tích hòn non bộ: $V_{\text{vật}} = a \times b \times \Delta h = 8 \times 5 \times 0,5 = \mathbf{20\text{ dm}^3} = 20\text{ lít}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Giải toán thể tích hình hộp chữ nhật},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Kiểm tra đơn vị đo\\Đổi $a, b, c$ về cùng đơn vị};
+    \node[b2] (n2) at (0, 0) {2. Nhân 3 kích thước:\\$V = a \times b \times c$};
+    \node[b3] (n3) at (5.8, 0) {3. Đổi ra Lít nếu cần\\($1\text{ dm}^3 = 1\text{ lít}$)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: MẸO ĐỔI DM RA LÍT & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Đổi kích thước ra đề-xi-mét để ra Lít},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Nếu đề bài hỏi: ``Bể chứa được bao nhiêu lít nước?'':\\
+    $\bullet$ Hãy đổi ngay $a, b, c$ ra đơn vị \textbf{$\text{dm}$}.\\
+    $\bullet$ Khi đó: $V = a \times b \times c\text{ (lít)}$. Rất nhanh và không bao giờ nhầm lẫn số chữ số $0$!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lỗi không cùng đơn vị}: Dài theo mét, rộng theo xăng-ti-mét mà nhân luôn là sai hoàn toàn.\\
+    $\bullet$ Chiều cao của nước khác với chiều cao của bể (chú ý nước đầy bao nhiêu phần bể).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

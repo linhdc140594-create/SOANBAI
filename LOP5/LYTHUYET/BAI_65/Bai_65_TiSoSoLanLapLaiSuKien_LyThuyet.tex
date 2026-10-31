@@ -1,0 +1,137 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 65. Tỉ số số lần lặp lại của một sự kiện --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 65. TỈ SỐ SỐ LẦN LẶP LẠI CỦA SỰ KIỆN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Khái niệm xác suất thực nghiệm, công thức tỉ số và kĩ năng đếm biến cố trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: KHÁI NIỆM & CÔNG THỨC ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCubes\ 1. Khái niệm Xác suất thực nghiệm},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Khi thực hiện lặp lại một thí nghiệm nhiều lần:\\
+    $\bullet$ Gọi $n$ là \textbf{tổng số lần} thực hiện thí nghiệm.\\
+    $\bullet$ Gọi $m$ là \textbf{số lần xuất hiện} của sự kiện $A$.\\
+    $\bullet$ \textbf{Tỉ số số lần lặp lại} của sự kiện $A$ là $\mathbf{\frac{m}{n}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ 2. Biểu diễn tỉ số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Tỉ số có thể được viết dưới 3 dạng:\\
+    $\bullet$ Dạng \textbf{phân số}: $\frac{m}{n}$ (nên rút gọn tối giản).\\
+    $\bullet$ Dạng \textbf{số thập phân}: $m : n = 0,...$\\
+    $\bullet$ Dạng \textbf{tỉ số phần trăm}: $(m : n) \times 100\%$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Quy trình tính tỉ số lặp lại của sự kiện},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Đếm số lần\\sự kiện xuất hiện ($m$)};
+    \node[b2] (n2) at (0, 0) {2. Đếm tổng số lần\\thực hiện thí nghiệm ($n$)};
+    \node[b3] (n3) at (5.8, 0) {3. Lập tỉ số:\\$\text{Tỉ số} = \frac{m}{n}$ (hoặc \%)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: VÍ DỤ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ Ví dụ thí nghiệm tung đồng xu},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Tung một đồng xu $20$ lần, có $12$ lần xuất hiện mặt Ngửa ($N$):\\
+    $\bullet$ Tỉ số lần xuất hiện mặt Ngửa: $\frac{12}{20} = \frac{3}{5} = \mathbf{60\%}$.\\
+    $\bullet$ Số lần xuất hiện mặt Sấp ($S$): $20 - 12 = 8$ lần.\\
+    $\bullet$ Tỉ số lần xuất hiện mặt Sấp: $\frac{8}{20} = \frac{2}{5} = \mathbf{40\%}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy đối tượng:} Đọc kĩ đề hỏi tỉ số của sự kiện xuất hiện hay \textbf{không xuất hiện} (mặt ngửa hay mặt sấp).\\
+    $\bullet$ Tổng tỉ số của biến cố xảy ra và không xảy ra luôn bằng $\mathbf{1}$ (hoặc $\mathbf{100\%}$).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

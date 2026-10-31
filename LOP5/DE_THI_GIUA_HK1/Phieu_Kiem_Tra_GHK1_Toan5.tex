@@ -1,0 +1,630 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.5cm, bottom=0.5cm, left=0.8cm, right=0.8cm]{geometry}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{4pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18.5pt để vừa vặn, thanh thoát)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{0.6mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.4mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{1mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.4mm}%
+      #1%
+      \vspace{0.4mm}%
+    }%
+  }%
+  \vspace{0.6mm}%
+}
+
+% Ô bài tập tự luận trong bảng Bài 1 (đã bỏ chữ Bài làm, 6 dòng kẻ kín ô)
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{0.5mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.3mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{1mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.3mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.3mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{1mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 101 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1 (MÃ ĐỀ 101): MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KÌ 1 -- TOÁN LỚP 5} & \textbf{MÃ ĐỀ: 101} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 40 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{|c|*{6}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\
+\hline
+\textbf{Đ/A} & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $7$ trong số thập phân $35{,}724$ có giá trị là:}{$7$}{$\dfrac{7}{10}$}{$\dfrac{7}{100}$}{$\dfrac{7}{1000}$}
+
+\cauTN{2}{Phân số thập phân $\dfrac{45}{100}$ viết dưới dạng số thập phân là:}{$4{,}5$}{$0{,}45$}{$0{,}045$}{$45{,}0$}
+
+\cauTN{3}{Số thích hợp điền vào chỗ chấm $6\,\text{ha} = \dots\,\text{m}^2$ là:}{$600$}{$6\,000$}{$60\,000$}{$600\,000$}
+
+\cauTN{4}{Số thập phân lớn nhất trong các số $4{,}52;\; 4{,}502;\; 4{,}522;\; 4{,}255$ là:}{$4{,}52$}{$4{,}502$}{$4{,}522$}{$4{,}255$}
+
+\cauTN{5}{Làm tròn số thập phân $18{,}73$ đến hàng đơn vị ta được số:}{$18$}{$18{,}7$}{$19$}{$20$}
+
+\cauTNhaiDong{6}{Mua $5$ quyển vở cùng loại hết $40\,000$ đồng. Hỏi mua $8$ quyển vở như thế hết bao nhiêu tiền?}{$64\,000$ đồng}{$56\,000$ đồng}{$48\,000$ đồng}{$72\,000$ đồng}
+
+\vspace{0.5mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Tính:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$\dfrac{2}{3} + \dfrac{5}{6}$} & 
+\oBaiTap[6]{b)}{$2\dfrac{1}{4} - \dfrac{5}{8}$} \tabularnewline
+\hline
+\oBaiTap[6]{c)}{$\dfrac{3}{4} \times \dfrac{8}{9}$} & 
+\oBaiTap[6]{d)}{$\dfrac{5}{7} : \dfrac{10}{21}$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 101): MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- ĐỀ KIỂM TRA GIỮA HK1} & \textbf{MÃ ĐỀ: 101} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+% KHUNG BÀI 2 (1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Viết số thập phân thích hợp vào chỗ chấm:}\par\vspace{1.2mm}
+  \noindent
+  a) $4\,\text{m}\,25\,\text{cm} = \dotfill\,\text{m}$\par\vspace{1.8mm}
+  \noindent
+  b) $3\,\text{tấn}\,500\,\text{kg} = \dotfill\,\text{tấn}$\par\vspace{1.8mm}
+  \noindent
+  c) $7\,\text{m}^2\,15\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.8mm}
+  \noindent
+  d) $8\,\text{ha}\,500\,\text{m}^2 = \dotfill\,\text{ha}$\par
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 3 (TĂNG THÊM 5 DÒNG KẺ = 13 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (2,5 điểm).} Một mảnh đất hình chữ nhật có nửa chu vi là $60\,\text{m}$, chiều rộng bằng $\dfrac{2}{3}$ chiều dài.
+  \begin{enumerate}[a)]
+    \setlength{\itemsep}{0pt}
+    \item Tính chiều dài và chiều rộng của mảnh đất đó.
+    \item Tính diện tích của mảnh đất với đơn vị đo là mét vuông và héc-ta.
+    \item Người ta dùng $\dfrac{3}{5}$ diện tích mảnh đất để trồng rau. Tính diện tích phần đất trồng rau.
+  \end{enumerate}
+  \vspace{0.4mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{13}
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 4 (TĂNG THÊM 3 DÒNG KẺ = 8 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{1mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $A = 3{,}45 \times 24 + 3{,}45 \times 75 + 3{,}45$\par
+    \dongke{8}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $B = 12{,}8 \times 64 + 12{,}8 \times 35 + 12{,}8$\par
+    \dongke{8}
+  \end{minipage}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 102 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1 (MÃ ĐỀ 102): MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KÌ 1 -- TOÁN LỚP 5} & \textbf{MÃ ĐỀ: 102} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 40 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{|c|*{6}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\
+\hline
+\textbf{Đ/A} & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $8$ trong số thập phân $42{,}185$ có giá trị là:}{$\dfrac{8}{10}$}{$\dfrac{8}{100}$}{$\dfrac{8}{1000}$}{$8$}
+
+\cauTN{2}{Hỗn số $3\dfrac{7}{10}$ viết dưới dạng số thập phân là:}{$3{,}7$}{$0{,}37$}{$3{,}07$}{$37{,}0$}
+
+\cauTN{3}{Số thích hợp điền vào chỗ chấm $4\,\text{km}^2 = \dots\,\text{ha}$ là:}{$40$}{$400$}{$4\,000$}{$40\,000$}
+
+\cauTN{4}{Số thập phân bé nhất trong các số $8{,}31;\; 8{,}13;\; 8{,}301;\; 8{,}103$ là:}{$8{,}31$}{$8{,}13$}{$8{,}301$}{$8{,}103$}
+
+\cauTN{5}{Làm tròn số thập phân $25{,}38$ đến hàng đơn vị ta được số:}{$25$}{$25{,}4$}{$26$}{$25{,}3$}
+
+\cauTNhaiDong{6}{Mua $4$ chiếc bút mực cùng loại hết $36\,000$ đồng. Hỏi mua $7$ chiếc bút như thế hết bao nhiêu tiền?}{$54\,000$ đồng}{$63\,000$ đồng}{$72\,000$ đồng}{$45\,000$ đồng}
+
+\vspace{0.5mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Tính:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$\dfrac{3}{5} + \dfrac{7}{10}$} & 
+\oBaiTap[6]{b)}{$3\dfrac{1}{2} - \dfrac{5}{6}$} \tabularnewline
+\hline
+\oBaiTap[6]{c)}{$\dfrac{4}{5} \times \dfrac{15}{16}$} & 
+\oBaiTap[6]{d)}{$\dfrac{6}{11} : \dfrac{9}{22}$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 102): MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- ĐỀ KIỂM TRA GIỮA HK1} & \textbf{MÃ ĐỀ: 102} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+% KHUNG BÀI 2 (1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Viết số thập phân thích hợp vào chỗ chấm:}\par\vspace{1.2mm}
+  \noindent
+  a) $6\,\text{m}\,35\,\text{cm} = \dotfill\,\text{m}$\par\vspace{1.8mm}
+  \noindent
+  b) $4\,\text{tấn}\,200\,\text{kg} = \dotfill\,\text{tấn}$\par\vspace{1.8mm}
+  \noindent
+  c) $9\,\text{m}^2\,24\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.8mm}
+  \noindent
+  d) $5\,\text{ha}\,800\,\text{m}^2 = \dotfill\,\text{ha}$\par
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 3 (TĂNG THÊM 5 DÒNG KẺ = 13 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (2,5 điểm).} Một thửa ruộng hình chữ nhật có nửa chu vi là $75\,\text{m}$, chiều rộng bằng $\dfrac{2}{3}$ chiều dài.
+  \begin{enumerate}[a)]
+    \setlength{\itemsep}{0pt}
+    \item Tính chiều dài và chiều rộng của thửa ruộng đó.
+    \item Tính diện tích của thửa ruộng với đơn vị đo là mét vuông và héc-ta.
+    \item Người ta cấy lúa trên $\dfrac{4}{5}$ diện tích thửa ruộng. Tính diện tích phần đất cấy lúa.
+  \end{enumerate}
+  \vspace{0.4mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{13}
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 4 (TĂNG THÊM 3 DÒNG KẺ = 8 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{1mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $A = 4{,}68 \times 36 + 4{,}68 \times 63 + 4{,}68$\par
+    \dongke{8}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $B = 15{,}6 \times 72 + 15{,}6 \times 27 + 15{,}6$\par
+    \dongke{8}
+  \end{minipage}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 103 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1 (MÃ ĐỀ 103): MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KÌ 1 -- TOÁN LỚP 5} & \textbf{MÃ ĐỀ: 103} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 40 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{|c|*{6}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\
+\hline
+\textbf{Đ/A} & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $6$ trong số thập phân $91{,}326$ có giá trị là:}{$\dfrac{6}{10}$}{$\dfrac{6}{100}$}{$\dfrac{6}{1000}$}{$6$}
+
+\cauTN{2}{Phân số thập phân $\dfrac{8}{1000}$ viết dưới dạng số thập phân là:}{$0{,}8$}{$0{,}08$}{$0{,}008$}{$0{,}0008$}
+
+\cauTN{3}{Số thích hợp điền vào chỗ chấm $50\,000\,\text{m}^2 = \dots\,\text{ha}$ là:}{$5$}{$50$}{$500$}{$0{,}5$}
+
+\cauTN{4}{Số thập phân lớn nhất trong các số $6{,}71;\; 6{,}712;\; 6{,}709;\; 6{,}179$ là:}{$6{,}71$}{$6{,}712$}{$6{,}709$}{$6{,}179$}
+
+\cauTN{5}{Làm tròn số thập phân $43{,}65$ đến hàng đơn vị ta được số:}{$43$}{$43{,}6$}{$43{,}7$}{$44$}
+
+\cauTNhaiDong{6}{Một tổ công nhân trong $6$ ngày làm được $48$ sản phẩm. Hỏi trong $9$ ngày tổ đó làm được bao nhiêu sản phẩm?}{$64$ sản phẩm}{$72$ sản phẩm}{$80$ sản phẩm}{$54$ sản phẩm}
+
+\vspace{0.5mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Tính:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$\dfrac{1}{4} + \dfrac{5}{8}$} & 
+\oBaiTap[6]{b)}{$2\dfrac{2}{3} - \dfrac{5}{9}$} \tabularnewline
+\hline
+\oBaiTap[6]{c)}{$\dfrac{5}{6} \times \dfrac{9}{10}$} & 
+\oBaiTap[6]{d)}{$\dfrac{4}{9} : \dfrac{8}{15}$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 103): MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- ĐỀ KIỂM TRA GIỮA HK1} & \textbf{MÃ ĐỀ: 103} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+% KHUNG BÀI 2 (1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Viết số thập phân thích hợp vào chỗ chấm:}\par\vspace{1.2mm}
+  \noindent
+  a) $3\,\text{m}\,48\,\text{cm} = \dotfill\,\text{m}$\par\vspace{1.8mm}
+  \noindent
+  b) $2\,\text{tấn}\,750\,\text{kg} = \dotfill\,\text{tấn}$\par\vspace{1.8mm}
+  \noindent
+  c) $5\,\text{m}^2\,38\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.8mm}
+  \noindent
+  d) $7\,\text{ha}\,400\,\text{m}^2 = \dotfill\,\text{ha}$\par
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 3 (TĂNG THÊM 5 DÒNG KẺ = 13 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (2,5 điểm).} Một khu đất hình chữ nhật có nửa chu vi là $80\,\text{m}$, chiều rộng bằng $\dfrac{3}{5}$ chiều dài.
+  \begin{enumerate}[a)]
+    \setlength{\itemsep}{0pt}
+    \item Tính chiều dài và chiều rộng của khu đất đó.
+    \item Tính diện tích của khu đất với đơn vị đo là mét vuông và héc-ta.
+    \item Người ta dành $\dfrac{2}{3}$ diện tích khu đất để xây dựng nhà kho. Tính diện tích phần đất làm nhà kho.
+  \end{enumerate}
+  \vspace{0.4mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{13}
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 4 (TĂNG THÊM 3 DÒNG KẺ = 8 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{1mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $A = 2{,}75 \times 48 + 2{,}75 \times 51 + 2{,}75$\par
+    \dongke{8}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $B = 14{,}5 \times 53 + 14{,}5 \times 46 + 14{,}5$\par
+    \dongke{8}
+  \end{minipage}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 104 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1 (MÃ ĐỀ 104): MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KÌ 1 -- TOÁN LỚP 5} & \textbf{MÃ ĐỀ: 104} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 40 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2.5mm]{0pt}{8.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.3cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,5 điểm):}
+\vspace{0.8mm}
+
+\noindent
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{|c|*{6}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} \\
+\hline
+\textbf{Đ/A} & & & & & & \\
+\hline
+\end{tabularx}
+\renewcommand{\arraystretch}{1.0}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Chữ số $5$ trong số thập phân $75{,}182$ có giá trị là:}{$5$}{$50$}{$\dfrac{5}{10}$}{$\dfrac{5}{100}$}
+
+\cauTN{2}{Hỗn số $5\dfrac{12}{100}$ viết dưới dạng số thập phân là:}{$5{,}12$}{$5{,}012$}{$0{,}512$}{$51{,}2$}
+
+\cauTN{3}{Số thích hợp điền vào chỗ chấm $800\,\text{ha} = \dots\,\text{km}^2$ là:}{$80$}{$8$}{$0{,}8$}{$8\,000$}
+
+\cauTN{4}{Số thập phân bé nhất trong các số $9{,}45;\; 9{,}405;\; 9{,}54;\; 9{,}045$ là:}{$9{,}45$}{$9{,}405$}{$9{,}54$}{$9{,}045$}
+
+\cauTN{5}{Làm tròn số thập phân $67{,}49$ đến hàng đơn vị ta được số:}{$68$}{$67{,}5$}{$67$}{$67{,}4$}
+
+\cauTNhaiDong{6}{Có $5$ xe tải như nhau chở được $25$ tấn hàng. Hỏi $8$ xe tải như thế chở được bao nhiêu tấn hàng?}{$35$ tấn}{$40$ tấn}{$45$ tấn}{$50$ tấn}
+
+\vspace{0.5mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Tính:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[6]{a)}{$\dfrac{2}{7} + \dfrac{9}{14}$} & 
+\oBaiTap[6]{b)}{$3\dfrac{1}{3} - \dfrac{7}{12}$} \tabularnewline
+\hline
+\oBaiTap[6]{c)}{$\dfrac{7}{8} \times \dfrac{4}{21}$} & 
+\oBaiTap[6]{d)}{$\dfrac{8}{13} : \dfrac{12}{39}$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 104): MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- ĐỀ KIỂM TRA GIỮA HK1} & \textbf{MÃ ĐỀ: 104} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+% KHUNG BÀI 2 (1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Viết số thập phân thích hợp vào chỗ chấm:}\par\vspace{1.2mm}
+  \noindent
+  a) $5\,\text{m}\,62\,\text{cm} = \dotfill\,\text{m}$\par\vspace{1.8mm}
+  \noindent
+  b) $5\,\text{tấn}\,400\,\text{kg} = \dotfill\,\text{tấn}$\par\vspace{1.8mm}
+  \noindent
+  c) $8\,\text{m}^2\,16\,\text{dm}^2 = \dotfill\,\text{m}^2$\par\vspace{1.8mm}
+  \noindent
+  d) $6\,\text{ha}\,300\,\text{m}^2 = \dotfill\,\text{ha}$\par
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 3 (TĂNG THÊM 5 DÒNG KẺ = 13 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (2,5 điểm).} Một vườn cây ăn quả hình chữ nhật có nửa chu vi là $90\,\text{m}$, chiều rộng bằng $\dfrac{4}{5}$ chiều dài.
+  \begin{enumerate}[a)]
+    \setlength{\itemsep}{0pt}
+    \item Tính chiều dài và chiều rộng của vườn cây đó.
+    \item Tính diện tích vườn cây đó theo đơn vị mét vuông và héc-ta.
+    \item Người ta trồng bưởi trên $\dfrac{3}{4}$ diện tích vườn cây. Tính diện tích đất trồng bưởi.
+  \end{enumerate}
+  \vspace{0.4mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{13}
+}
+
+\vspace{1mm}
+
+% KHUNG BÀI 4 (TĂNG THÊM 3 DÒNG KẺ = 8 DÒNG)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{1mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $A = 5{,}82 \times 57 + 5{,}82 \times 42 + 5{,}82$\par
+    \dongke{8}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $B = 16{,}4 \times 81 + 16{,}4 \times 18 + 16{,}4$\par
+    \dongke{8}
+  \end{minipage}
+}
+
+\end{document}

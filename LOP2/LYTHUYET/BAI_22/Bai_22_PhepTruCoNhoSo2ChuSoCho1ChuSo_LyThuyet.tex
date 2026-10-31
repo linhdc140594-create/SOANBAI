@@ -1,0 +1,166 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 22. Phép trừ có nhớ số có 2 chữ số cho số có 1 chữ số --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 22: PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Kĩ thuật mượn 1 chục ở hàng chục và trừ có nhớ dạng 52 - 7 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy tắc mượn 1 chục}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Khi nào phải nhớ (mượn)?}\\
+  Khi chữ số hàng đơn vị của số bị trừ \textbf{bé hơn} chữ số hàng đơn vị của số trừ (không trừ được).
+  \item \textbf{Quy trình mượn:}\\
+  - Mượn $1$ chục ở hàng chục thành $10$, gộp với hàng đơn vị để trừ.\\
+  - Trừ xong, phải \textbf{bớt 1} ở chữ số hàng chục của số bị trừ.
+  \item \textbf{Khẩu quyết:}\\
+  "Không trừ được $\to$ mượn 1 chục $\to$ trừ $\to$ bớt 1 ở hàng chục".
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Phân tích chi tiết ví dụ $52 - 7$}
+]
+{\footnotesize
+\begin{center}
+\begin{tabular}{r@{\,}ll}
+  $5$ & $2$ & \quad \textbf{Thao tác tính:} \\
+$-$ & & \quad $\bullet$ $2$ không trừ được $7$, \\
+    & $7$ & \quad \ \ lấy $12 - 7 = 5$, viết $\mathbf{5}$, \textbf{nhớ 1}. \\ \cline{1-2}
+  $\mathbf{4}$ & $\mathbf{5}$ & \quad $\bullet$ $5$ \textbf{bớt 1 bằng 4}, viết $\mathbf{4}$.
+\end{tabular}
+\end{center}
+\vspace{1mm}
+$\implies$ Kết quả: $52 - 7 = \mathbf{45}$.\\
+\textbf{Nhận xét:} Hàng chục từ $5$ giảm xuống còn $4$.
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy cơ chế mượn và bớt trong phép trừ có nhớ}
+]
+\centering
+\begin{tikzpicture}[x=1.3cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (dvi) at (0,0) {HÀNG ĐƠN VỊ\\$2 < 7 \implies$ mượn $1$ chục\\$12 - 7 = \mathbf{5}$ (viết 5, nhớ 1)};
+  \draw[->, very thick, red!85!black] (dvi) -- node[above, font=\tiny\bfseries] {Trả bớt 1} (3.2,0);
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (chuc) at (4.8,0) {HÀNG CHỤC\\$5$ bớt $1 = \mathbf{4}$\\Viết $\mathbf{4}$};
+  \draw[->, very thick, green!70!black] (chuc) -- node[above, font=\tiny\bfseries] {Kết quả} (6.8,0);
+  \node[rectangle, rounded corners=2pt, draw=green!80!black, fill=green!20, font=\normalsize\bfseries] at (7.6,0) {$\mathbf{45}$};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Đặt tính rồi tính:}\\
+\begin{tabular}{r@{\,}lr@{\,}lr@{\,}l}
+  $4$ & $3$ & $7$ & $1$ & $6$ & $0$ \\
+$-$ & & $-$ & & $-$ & \\
+    & $6$ & & $5$ & & $4$ \\ \hline
+  $\mathbf{3}$ & $\mathbf{7}$ & $\mathbf{6}$ & $\mathbf{6}$ & $\mathbf{5}$ & $\mathbf{6}$
+\end{tabular}
+\quad
+\begin{tabular}{l}
+  $\bullet$ $13 - 6 = 7$, nhớ $1$; $4 - 1 = 3$.\\
+  $\bullet$ $11 - 5 = 6$, nhớ $1$; $7 - 1 = 6$.\\
+  $\bullet$ $10 - 4 = 6$, nhớ $1$; $6 - 1 = 5$.
+\end{tabular}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Lỗi không bớt 1 ở hàng chục:}\\
+  $52 - 7 = 55$ (lấy $12 - 7 = 5$ rồi hạ nguyên 5 xuống $\implies$ sai nặng!). Phải bớt 1 còn 4.
+  \item \textbf{Lỗi lấy chữ số dưới trừ trên:}\\
+  Thấy $2 < 7$, học sinh tự ý lấy $7 - 2 = 5$ rồi ghi 52 $\implies$ sai bản chất phép trừ!
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

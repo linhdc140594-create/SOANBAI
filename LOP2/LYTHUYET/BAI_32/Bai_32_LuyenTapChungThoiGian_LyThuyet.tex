@@ -1,0 +1,161 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 32. Luyện tập chung thời gian --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 32: LUYỆN TẬP CHUNG THỜI GIAN}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Đại tổng kết kiến thức Ngày, Giờ, Phút, Ngày, Tháng và lịch tuần lễ trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Bảng quy đổi thời gian}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item $1\text{ ngày} = 24\text{ giờ}$.
+  \item $1\text{ giờ} = 60\text{ phút}$.
+  \item $1\text{ tuần lễ} = 7\text{ ngày}$.
+  \item $1\text{ năm} = 12\text{ tháng}$.
+  \item Các tháng có $31$ ngày: $1, 3, 5, 7, 8, 10, 12$.
+  \item Các tháng có $30$ ngày: $4, 6, 9, 11$.
+  \item Tháng $2$: Có $28$ hoặc $29$ ngày.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Kĩ năng giải toán thời gian}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Tính ngày hôm qua, hôm nay, ngày mai:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Hôm qua: Bớt $1$ ngày.
+    \item Ngày mai: Thêm $1$ ngày.
+  \end{itemize}
+  \item \textbf{Cộng trừ tuần lễ:}\\
+  Thêm $7$ ngày hoặc bớt $7$ ngày thì thứ trong tuần không thay đổi.
+  \item \textbf{So sánh khoảng thời gian:}\\
+  $1\text{ giờ} > 50\text{ phút}$ (vì $1\text{ giờ} = 60\text{ phút}$).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy: Trục tuần hoàn các đơn vị thời gian}
+]
+\centering
+\begin{tikzpicture}[x=1.4cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (phut) at (0,0) {PHÚT\\($60\text{ phút} = 1\text{ h}$)};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (gio) at (2.5,0) {GIỜ\\($24\text{ giờ} = 1\text{ ngày}$)};
+  \node[rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!15, font=\scriptsize\bfseries] (ngay) at (5,0) {NGÀY\\($7\text{ ngày} = 1\text{ tuần}$)};
+  \node[rectangle, rounded corners=2pt, draw=green!80!black, fill=green!15, font=\scriptsize\bfseries] (thang) at (7.5,0) {THÁNG\\($12\text{ tháng} = 1\text{ năm}$)};
+
+  \draw[->, thick, violet!80!black] (phut) -- (gio);
+  \draw[->, thick, teal!80!black] (gio) -- (ngay);
+  \draw[->, thick, orange!80!black] (ngay) -- (thang);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Điền số thích hợp:}\\
+- $1$ ngày $2$ giờ $= 24 + 2 = \mathbf{26\text{ giờ}}$.\\
+- $1$ tuần lễ và $3$ ngày $= 7 + 3 = \mathbf{10\text{ ngày}}$.
+\textbf{2. Bài toán lịch:}\\
+Nếu thứ Năm tuần này là ngày $10$, thì thứ Năm tuần trước là ngày mấy?\\
+\textit{Giải:} Thứ Năm tuần trước là ngày: $10 - 7 = \mathbf{3}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy qua tháng mới:}\\
+  Nếu hôm nay là ngày $31$ tháng $5$, thì ngày mai là ngày \textbf{$1$ tháng $6$}, không có ngày $32$!
+  \item Tuần sau $\implies (+7\text{ ngày})$. Tuần trước $\implies (-7\text{ ngày})$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

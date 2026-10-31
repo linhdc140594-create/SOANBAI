@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $34 \times 12 = \dots$
+\shortans{408}
+\loigiai{
+$34 \times 12 = 408$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 \times 15 = \dots$
+\shortans{675}
+\loigiai{
+$45 \times 15 = 675$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $28 \times 24 = \dots$
+\shortans{672}
+\loigiai{
+$28 \times 24 = 672$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $56 \times 32 = \dots$
+\shortans{1792}
+\loigiai{
+$56 \times 32 = 1792$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $73 \times 25 = \dots$
+\shortans{1825}
+\loigiai{
+$73 \times 25 = 1825$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84 \times 45 = \dots$
+\shortans{3780}
+\loigiai{
+$84 \times 45 = 3780$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $125 \times 14 = \dots$
+\shortans{1750}
+\loigiai{
+$125 \times 14 = 1750$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $214 \times 23 = \dots$
+\shortans{4922}
+\loigiai{
+$214 \times 23 = 4922$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $308 \times 35 = \dots$
+\shortans{10780}
+\loigiai{
+$308 \times 35 = 10780$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $425 \times 18 = \dots$
+\shortans{7650}
+\loigiai{
+$425 \times 18 = 7650$.
+}
+\end{ex}
+
+\begin{ex}
+Một trường tiểu học có 24 lớp, mỗi lớp có 35 học sinh. Toàn trường có tất cả bao nhiêu học sinh?
+\shortans{840}
+\loigiai{
+$24 \times 35 = 840$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn vải dài 45 m. Một cửa hàng nhập về 28 cuộn vải như thế. Cửa hàng nhập bao nhiêu mét vải?
+\shortans{1260}
+\loigiai{
+$45 \times 28 = 1260$ m.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bao xi măng nặng 50 kg. Một xe tải chở 85 bao xi măng. Xe tải chở bao nhiêu ki-lô-gam?
+\shortans{4250}
+\loigiai{
+$50 \times 85 = 4250$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có 24 giờ. Hỏi 15 ngày có bao nhiêu giờ?
+\shortans{360}
+\loigiai{
+$24 \times 15 = 360$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một giờ có 60 phút. Hỏi 24 giờ có bao nhiêu phút?
+\shortans{1440}
+\loigiai{
+$60 \times 24 = 1440$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Một tấm pin năng lượng mặt trời hình chữ nhật dài 65 cm, rộng 40 cm. Diện tích tấm pin là bao nhiêu xăng-ti-mét vuông?
+\shortans{2600}
+\loigiai{
+$65 \times 40 = 2600\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $45 \times 22 - 390$.
+\shortans{600}
+\loigiai{
+$990 - 390 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $36 \times 25 + 100$.
+\shortans{1000}
+\loigiai{
+$900 + 100 = 1000$.
+}
+\end{ex}
+
+\begin{ex}
+Một đội công nhân mỗi ngày trải được 42 m đường. Sau 25 ngày đội đó trải được bao nhiêu mét đường?
+\shortans{1050}
+\loigiai{
+$42 \times 25 = 1050$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một rạp chiếu phim có 18 hàng ghế, mỗi hàng có 25 ghế ngồi. Rạp có tất cả bao nhiêu ghế ngồi?
+\shortans{450}
+\loigiai{
+$18 \times 25 = 450$ ghế.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $52 \times 11 = \dots$
+\shortans{572}
+\loigiai{
+$52 \times 11 = 572$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $68 \times 15 = \dots$
+\shortans{1020}
+\loigiai{
+$68 \times 15 = 1020$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $115 \times 12 = \dots$
+\shortans{1380}
+\loigiai{
+$115 \times 12 = 1380$.
+}
+\end{ex}
+
+\begin{ex}
+Một vườn cây có 32 hàng cây, mỗi hàng có 25 cây ăn quả. Vườn có tất cả bao nhiêu cây?
+\shortans{800}
+\loigiai{
+$32 \times 25 = 800$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25 \times 44 = \dots$
+\shortans{1100}
+\loigiai{
+$25 \times 44 = 1100$.
+}
+\end{ex}

@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $352418 + 214351 = \dots$
+\shortans{566769}
+\loigiai{
+$352418 + 214351 = 566769$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $481625 + 315243 = \dots$
+\shortans{796868}
+\loigiai{
+$481625 + 315243 = 796868$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $524816 + 183427 = \dots$
+\shortans{708243}
+\loigiai{
+$524816 + 183427 = 708243$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $638245 + 271836 = \dots$
+\shortans{910081}
+\loigiai{
+$638245 + 271836 = 910081$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $450000 + 350000 = \dots$
+\shortans{800000}
+\loigiai{
+$450000 + 350000 = 800000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $725000 + 275000 = \dots$
+\shortans{1000000}
+\loigiai{
+$725000 + 275000 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1250000 + 2340000 = \dots$
+\shortans{3590000}
+\loigiai{
+$1250000 + 2340000 = 3590000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4500000 + 3500000 = \dots$
+\shortans{8000000}
+\loigiai{
+$4500000 + 3500000 = 8000000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $825410 + 74590 = \dots$
+\shortans{900000}
+\loigiai{
+$825410 + 74590 = 900000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $384500 + 115500 = \dots$
+\shortans{500000}
+\loigiai{
+$384500 + 115500 = 500000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $250000 + 350000 + 180000$.
+\shortans{780000}
+\loigiai{
+$600000 + 180000 = 780000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $420000 + 180000 + 400000$.
+\shortans{1000000}
+\loigiai{
+$600000 + 400000 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Một công ty năm đầu thu được 450 000 USD, năm thứ hai thu được 520 000 USD. Cả hai năm thu được bao nhiêu USD?
+\shortans{970000}
+\loigiai{
+$450000 + 520000 = 970000$ USD.
+}
+\end{ex}
+
+\begin{ex}
+Dân số một quận năm ngoái là 285 000 người, năm nay tăng thêm 15 000 người. Dân số quận năm nay là bao nhiêu người?
+\shortans{300000}
+\loigiai{
+$285000 + 15000 = 300000$ người.
+}
+\end{ex}
+
+\begin{ex}
+Một nhà máy sản xuất quý 1 được 120 000 sản phẩm, quý 2 được 145 000 sản phẩm. Cả hai quý sản xuất bao nhiêu sản phẩm?
+\shortans{265000}
+\loigiai{
+$120000 + 145000 = 265000$ sản phẩm.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 350000 = 450000$.
+\shortans{800000}
+\loigiai{
+$x = 450000 + 350000 = 800000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 280000 = 720000$.
+\shortans{1000000}
+\loigiai{
+$x = 720000 + 280000 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $250000 + 470000 + 250000$.
+\shortans{970000}
+\loigiai{
+$500000 + 470000 = 970000$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của số lớn nhất có 6 chữ số và 1 là số nào?
+\shortans{1000000}
+\loigiai{
+$999999 + 1 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của 500 000 và 499 999 là bao nhiêu?
+\shortans{999999}
+\loigiai{
+$500000 + 499999 = 999999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $356000 + 244000 = \dots$
+\shortans{600000}
+\loigiai{
+$356000 + 244000 = 600000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $782000 + 118000 = \dots$
+\shortans{900000}
+\loigiai{
+$782000 + 118000 = 900000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $111111 + 888888 = \dots$
+\shortans{999999}
+\loigiai{
+$111111 + 888888 = 999999$.
+}
+\end{ex}
+
+\begin{ex}
+Một trang trại thu được 125 000 quả trứng vịt và 175 000 quả trứng gà. Tổng số trứng thu được là bao nhiêu quả?
+\shortans{300000}
+\loigiai{
+$125000 + 175000 = 300000$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4500000 + 5500000 = \dots$
+\shortans{10000000}
+\loigiai{
+$4500000 + 5500000 = 10000000$.
+}
+\end{ex}

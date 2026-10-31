@@ -1,0 +1,143 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 48. Luyện tập chung phép nhân chia --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 48: LUYỆN TẬP CHUNG PHÉP NHÂN CHIA}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Tổng ôn kĩ năng tính toán, thứ tự ưu tiên biểu thức và chiến lược giải toán đa bước trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faWrench\ 1. Kĩ thuật tính \& Tìm thành phần},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặt tính}: Nhân lùi dòng đúng cột; Chia nhẩm thương $r < b$.\\
+    $\bullet$ \textbf{Tìm thành phần chưa biết}:
+    \par
+    --- Thừa số chưa biết: $x = \text{Tích} : \text{Thừa số đã biết}$.\\
+    --- Số bị chia: $x = \text{Thương} \times \text{Số chia} + \text{Số dư}$.\\
+    --- Số chia: $x = (\text{Số bị chia} - \text{Số dư}) : \text{Thương}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faClockO\ 2. Thứ tự thực hiện phép tính},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Biểu thức không có dấu ngoặc}:
+    \begin{center}
+      \textbf{Nhân, Chia trước} $\rightarrow$ \textbf{Cộng, Trừ sau}
+    \end{center}
+    --- Nếu chỉ có nhân chia (hoặc chỉ cộng trừ): Tính \textbf{từ trái sang phải}.\\
+    $\bullet$ \textbf{Biểu thức có dấu ngoặc}:\\
+    Thực hiện \textbf{trong ngoặc trước}, \textbf{ngoài ngoặc sau}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: BỐN CHÌA KHÓA VÀNG BẢN LĨNH PHÉP NHÂN CHIA},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.88,
+    card/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center, text width=3.8cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    \node[card, draw=blue!75!black, fill=blue!10] (c1) at (0, 0) {\textbf{1. ĐẶT TÍNH CHUẨN}\\$\bullet$ Nhân lùi 1 cột\\$\bullet$ Chia $r < b$ và viết 0};
+    \node[card, draw=orange!85!black, fill=orange!10] (c2) at (4.8, 0) {\textbf{2. CẶP SỐ VÀNG}\\$\bullet\ 2 \times 5 = 10$\\$\bullet\ 4 \times 25 = 100$\\$\bullet\ 8 \times 125 = 1000$};
+    \node[card, draw=purple!80!black, fill=purple!10] (c3) at (9.6, 0) {\textbf{3. TÍNH CHẤT}\\$\bullet\ a \times (b \pm c)$\\$\bullet$ Đặt thừa số chung\\$\bullet\ \times, :$ với $10, 100\dots$};
+    \node[card, draw=teal!80!black, fill=teal!10] (c4) at (14.4, 0) {\textbf{4. THỨ TỰ TÍNH}\\$\bullet$ Trong ngoặc trước\\$\bullet\ \times, :$ trước\\$\bullet\ +, -$ sau};
+
+    \draw[arr] (c1) -- (c2);
+    \draw[arr] (c2) -- (c3);
+    \draw[arr] (c3) -- (c4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Tính giá trị biểu thức}:\\
+    $\bullet$ $A = 240 + 60 \times 5 = 240 + 300 = \mathbf{540}$.\\
+    $\bullet$ $B = (120 - 40) \times 8 = 80 \times 8 = \mathbf{640}$.\\[1mm]
+    \textbf{Tìm $x$}:\\
+    $x : 24 = 35 \Rightarrow x = 35 \times 24 = \mathbf{840}$.\\
+    $x : 15 = 20\text{ (dư 8)} \Rightarrow x = 20 \times 15 + 8 = \mathbf{308}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy thực hiện từ trái qua phải}:\\
+    $240 + 60 \times 5 \rightarrow$ lấy $240 + 60 = 300$ rồi $\times 5 = 1500$ là \textbf{SAI NẶNG}! Nhân chia luôn đi trước.\\
+    $\bullet$ \textbf{Bẫy quên cộng số dư}:\\
+    Tìm số bị chia trong phép chia có dư: $x = \text{Thương} \times \text{Số chia} + \text{Số dư}$, tuyệt đối không quên cộng dư!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

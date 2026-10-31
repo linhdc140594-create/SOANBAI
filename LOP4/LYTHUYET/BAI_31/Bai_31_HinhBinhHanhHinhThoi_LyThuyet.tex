@@ -1,0 +1,172 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 31. Hình bình hành, hình thoi --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 31: HÌNH BÌNH HÀNH, HÌNH THOI}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Đặc điểm cạnh đối song song, dấu hiệu phân biệt và tính chất hai đường chéo hình thoi trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCube\ 1. Hình bình hành},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặc điểm}: Hình bình hành có \textbf{hai cặp cạnh đối diện song song và bằng nhau}:
+    \begin{center}
+      $AB \parallel CD$ và $AB = CD$\\
+      $AD \parallel BC$ và $AD = BC$
+    \end{center}
+    $\bullet$ Hai góc đối diện bằng nhau.\\
+    $\bullet$ \textbf{Hình ảnh}: Lan can cầu thang, khung lưới bóng đá, hoa văn trang trí.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faDiamond\ 2. Hình thoi},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặc điểm}: Hình thoi có hai cặp cạnh đối diện song song và \textbf{bốn cạnh bằng nhau}:
+    \begin{center}
+      $AB = BC = CD = DA$
+    \end{center}
+    $\bullet$ \textbf{Tính chất đặc biệt 2 đường chéo}:\\
+    --- \textbf{Vuông góc} với nhau ($AC \perp BD$).\\
+    --- \textbf{Cắt nhau tại trung điểm} của mỗi đường.\\
+    $\bullet$ \textbf{Hình thoi là hình bình hành đặc biệt}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: BẢNG SO SÁNH TRỰC QUAN HÌNH BÌNH HÀNH VÀ HÌNH THOI},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    box/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center}
+  ]
+    % Hình bình hành ABCD
+    \coordinate (A) at (0.8, 0.9);
+    \coordinate (B) at (3.5, 0.9);
+    \coordinate (C) at (2.7, -0.6);
+    \coordinate (D) at (0.0, -0.6);
+
+    \draw[thick, blue!85!black, fill=blue!8] (A) -- (B) -- (C) -- (D) -- cycle;
+    \node[above left, font=\tiny\bfseries] at (A) {$A$};
+    \node[above right, font=\tiny\bfseries] at (B) {$B$};
+    \node[below right, font=\tiny\bfseries] at (C) {$C$};
+    \node[below left, font=\tiny\bfseries] at (D) {$D$};
+
+    \node[box, draw=blue!75!black, fill=blue!8, text width=5.2cm] at (1.8, -1.35) {\textbf{HÌNH BÌNH HÀNH}\\2 cặp cạnh đối song song\\$AB = CD$, $AD = BC$};
+
+    % Dấu phân cách
+    \draw[thick, dashed, gray!60] (4.8, 1.2) -- (4.8, -1.8);
+
+    % Hình thoi MNPQ
+    \coordinate (M) at (7.8, 1.0);
+    \coordinate (N) at (9.6, 0.15);
+    \coordinate (P) at (7.8, -0.7);
+    \coordinate (Q) at (6.0, 0.15);
+
+    \draw[thick, teal!85!black, fill=teal!8] (M) -- (N) -- (P) -- (Q) -- cycle;
+    \draw[thick, dashed, red!80!black] (M) -- (P);
+    \draw[thick, dashed, red!80!black] (N) -- (Q);
+    \node[font=\tiny\bfseries] at (7.8, 0.15) {$O$};
+    \draw[thick, red!80!black] (7.8, 0.35) -- (8.0, 0.35) -- (8.0, 0.15);
+
+    \node[above, font=\tiny\bfseries] at (M) {$M$};
+    \node[right, font=\tiny\bfseries] at (N) {$N$};
+    \node[below, font=\tiny\bfseries] at (P) {$P$};
+    \node[left, font=\tiny\bfseries] at (Q) {$Q$};
+
+    \node[box, draw=teal!80!black, fill=teal!8, text width=5.5cm] at (7.8, -1.35) {\textbf{HÌNH THOI}\\4 cạnh bằng nhau: $MN=NP=PQ=QM$\\2 đường chéo: \textbf{VUÔNG GÓC} tại $O$};
+
+    % Thẻ tổng kết
+    \node[box, draw=purple!80!black, fill=purple!10, text width=4.5cm] at (13.5, 0.0) {\textbf{\color{purple!85!black}MỐI QUAN HỆ CỐT LÕI}\\[1mm]Hình thoi chính là \textbf{hình bình hành đặc biệt}\\có 4 cạnh bằng nhau và 2 đường chéo vuông góc};
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Cho hình thoi $ABCD$ có cạnh $AB = 6\text{ cm}$. Tính chu vi hình thoi:\\
+    Vì hình thoi có 4 cạnh bằng nhau nên:\\
+    $\text{Chu vi} = 6 \times 4 = \mathbf{24\text{ cm}}$.\\[1mm]
+    $\bullet$ Hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Biết $AC = 8\text{ cm}$, $BD = 6\text{ cm}$:\\
+    $O$ là trung điểm nên $OA = OC = 4\text{ cm}$; $OB = OD = 3\text{ cm}$ và $\widehat{AOB} = 90^\circ$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy hình thoi và hình vuông:}\\
+    Hình thoi \textbf{chưa chắc} là hình vuông (vì 4 góc chưa chắc vuông). Chỉ khi hình thoi có 4 góc vuông thì mới là hình vuông!\\
+    $\bullet$ \textbf{Bẫy đường chéo hình bình hành}: Đường chéo hình bình hành thường \textbf{không vuông góc} với nhau!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

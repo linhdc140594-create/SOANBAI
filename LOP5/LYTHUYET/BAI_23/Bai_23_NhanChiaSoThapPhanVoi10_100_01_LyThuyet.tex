@@ -1,0 +1,159 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 23. Nhân, chia số thập phân với 10, 100, 0.1, 0.01... --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 23. NHÂN, CHIA SỐ THẬP PHÂN VỚI 10, 100, 0.1, 0.01...}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Kỹ thuật tính nhẩm siêu tốc: dịch chuyển dấu phẩy sang trái hoặc sang phải trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BẢNG SO SÁNH QUY TẮC DỊCH PHẨY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faBolt\ 1. Bảng thần chú tính nhẩm siêu tốc},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{p{0.46\textwidth}|p{0.48\textwidth}}
+    \textbf{DỊCH DẤU PHẨY SANG PHẢI} $\longrightarrow$ & \textbf{DỊCH DẤU PHẨY SANG TRÁI} $\longleftarrow$ \\
+    (Làm cho số \textbf{LỚN LÊN}) & (Làm cho số \textbf{BÉ ĐI}) \\ \hline
+    $\bullet$ \textbf{Nhân} với $10; 100; 1\,000\dots$: & $\bullet$ \textbf{Chia} cho $10; 100; 1\,000\dots$: \\
+    Dịch sang phải $1, 2, 3\dots$ chữ số. & Dịch sang trái $1, 2, 3\dots$ chữ số. \\
+    \textit{VD:} $1,425 \times 100 = 142,5$. & \textit{VD:} $35,4 : 10 = 3,54$. \\[2pt]
+    $\bullet$ \textbf{Chia} cho $0,1; 0,01; 0,001\dots$: & $\bullet$ \textbf{Nhân} với $0,1; 0,01; 0,001\dots$: \\
+    Dịch sang phải $1, 2, 3\dots$ chữ số. & Dịch sang trái $1, 2, 3\dots$ chữ số. \\
+    \textit{VD:} $4,8 : 0,1 = 4,8 \times 10 = 48$. & \textit{VD:} $25,6 \times 0,1 = 25,6 : 10 = 2,56$.
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: QUY LUẬT TƯƠNG ĐƯƠNG BẤT HỦ ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ 2. Cặp phép tính tương đương},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \begin{tcolorbox}[colback=white, colframe=teal!75!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{teal!95!black}$a : 0,1 = a \times 10$ \quad | \quad $a : 0,01 = a \times 100$}\\[1.5pt]
+      {\scriptsize\bfseries\color{blue!85!black}$a \times 0,1 = a : 10$ \quad | \quad $a \times 0,01 = a : 100$}
+    \end{tcolorbox}
+    $\bullet$ Chia cho $0,5$ tương đương \textbf{nhân với 2}.\\
+    $\bullet$ Chia cho $0,25$ tương đương \textbf{nhân với 4}.\\
+    $\bullet$ Chia cho $0,125$ tương đương \textbf{nhân với 8}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ 3. Ứng dụng tính nhanh},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    \textit{VD 1:} $32 \times 0,5 = 32 : 2 = 16$.\\
+    \textit{VD 2:} $16 : 0,25 = 16 \times 4 = 64$.\\
+    \textit{VD 3:} $2,5 \times 4,8 = (2,5 \times 4) \times 1,2 = 10 \times 1,2 = 12$.\\[2pt]
+    Biến đổi phép chia cho số thập phân thành phép nhân số tự nhiên giúp giải cực nhanh!
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Chiều dịch chuyển dấu phẩy},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b1] (right) at (-4.8, 0) {\textbf{SANG PHẢI} ($\rightarrow$ Số to lên)\\[2pt]$\bullet$ $\times 10; 100; 1\,000\dots$\\$\bullet$ $: 0,1; 0,01; 0,001\dots$};
+    \node[b2] (left) at (4.8, 0) {\textbf{SANG TRÁI} ($\leftarrow$ Số bé đi)\\[2pt]$\bullet$ $: 10; 100; 1\,000\dots$\\$\bullet$ $\times 0,1; 0,01; 0,001\dots$};
+
+    \draw[teal!85!black, very thick, <->] (right) -- (left);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: QUY TẮC THIẾU CHỮ SỐ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPlusCircle\ Khi thiếu chữ số để dịch chuyển},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Nếu dịch sang phải mà thiếu chữ số: Thêm các chữ số \textbf{0 vào bên phải} ($2,5 \times 100 = 250$).\\
+    $\bullet$ Nếu dịch sang trái mà thiếu chữ số: Thêm các chữ số \textbf{0 vào bên trái} ($1,2 : 100 = 0,012$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cực kỳ dễ nhầm}: Thấy nhân là nghĩ số phải to lên, nhưng \textbf{nhân với 0,1} thì số lại \textbf{bé đi} (dịch phẩy sang trái)!\\
+    $\bullet$ Tương tự, \textbf{chia cho 0,1} thì số lại \textbf{lớn lên} (dịch phẩy sang phải).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

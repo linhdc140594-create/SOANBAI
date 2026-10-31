@@ -1,0 +1,166 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 42. Số bị chia, số chia, thương --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 42: SỐ BỊ CHIA, SỐ CHIA, THƯƠNG}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Tên gọi các thành phần phép chia và ý nghĩa của thương trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Thành phần phép chia}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cấu trúc tổng quát:}
+  $$\mathbf{a : b = c}$$
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item $a$: \textbf{Số bị chia} (số đứng trước dấu chia, đem đi chia).
+    \item $b$: \textbf{Số chia} (số đứng sau dấu chia, số phần được chia; $b \neq 0$).
+    \item $c$: \textbf{Thương} (kết quả phép chia).
+  \end{itemize}
+  \item \textbf{Lưu ý đặc biệt:}\\
+  Biểu thức $a : b$ cũng được gọi là một \textbf{"thương"}.\\
+  \textit{Ví dụ:} Thương của $12$ và $2$ là $12 : 2$ hay $6$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Quan hệ với phép nhân}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Mối liên hệ cốt lõi:
+  $$\mathbf{\text{Số bị chia} = \text{Thương} \times \text{Số chia}}$$
+  $$\mathbf{\text{Số chia} = \text{Số bị chia} : \text{Thương}}$$
+  \item \textbf{Ví dụ:} $10 : 2 = 5$
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Số bị chia: $10 = 5 \times 2$.
+    \item Số chia: $2 = 10 : 5$.
+    \item Thương: $5 = 10 : 2$.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy định danh các thành phần phép chia}
+]
+\centering
+\begin{tikzpicture}[x=1.5cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (sbc) at (0,0) {SỐ BỊ CHIA\\($18$)};
+  \node[font=\normalsize\bfseries] at (1,0) {$:$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (sc) at (2,0) {SỐ CHIA\\($2$)};
+  \node[font=\normalsize\bfseries] at (3,0) {$=$};
+  \node[rectangle, rounded corners=2pt, draw=green!80!black, fill=green!15, font=\scriptsize\bfseries] (th) at (4.5,0) {THƯƠNG\\($9$)};
+
+  \draw[arr, thick, orange!80!black, ->] (th) to[bend left=30] node[above, font=\tiny\bfseries] {Thương $\times$ Số chia $= 9 \times 2 = 18$} (sbc);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Xác định thành phần:}\\
+Trong phép tính $16 : 2 = 8$:\\
+- $16$ là \textbf{số bị chia}.\\
+- $2$ là \textbf{số chia}.\\
+- $8$ là \textbf{thương}.
+\textbf{2. Tính thương:}\\
+Tìm thương của $20$ và $5$?\\
+\textit{Giải:} Thương là: $20 : 5 = \mathbf{4}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy từ khóa: "Tìm thương"}\\
+  Đề bài: "Tìm thương của 14 và 2" $\implies$ Làm phép \textbf{chia} ($14 : 2 = 7$). Không lấy cộng hay trừ!
+  \item Số bị chia đứng \textbf{trước} dấu chia, Số chia đứng \textbf{sau} dấu chia.
+  \item Số chia không bao giờ bằng $0$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

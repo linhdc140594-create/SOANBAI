@@ -1,0 +1,163 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 21. Phép nhân số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 21. PHÉP NHÂN SỐ THẬP PHÂN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Nhân với số tự nhiên, nhân hai số thập phân và quy tắc đếm chữ số thập phân trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC NHÂN HAI SỐ THẬP PHÂN ---
+\noindent
+\begin{minipage}[t]{0.58\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy tắc nhân hai số thập phân},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Bước 1: Đặt tính và nhân như số tự nhiên}\\
+    $\bullet$ Không cần đặt thẳng dấu phẩy! Nhân bình thường như nhân hai số tự nhiên.\\[2pt]
+    \textbf{Bước 2: Đếm tổng số chữ số thập phân}\\
+    $\bullet$ Đếm xem trong phần thập phân của \textbf{cả hai thừa số} có tất cả bao nhiêu chữ số (gọi là $k$ chữ số).\\[2pt]
+    \textbf{Bước 3: Tách dấu phẩy ở tích}\\
+    $\bullet$ Dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ \textbf{phải sang trái} ($k$ chữ số).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.40\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencil\ Ví dụ $2,35 \times 1,4$},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+    halign=center
+  ]
+    \small
+    \begin{tabular}{r@{\,}l}
+      $2$&${,}35$ \quad (có $2$ chữ số TP) \\
+      $\times$ \quad $1$&${,}4$ \quad (có $1$ chữ số TP) \\ \hline
+      $9$&$40$ \\
+      $23$&$5$ \\ \hline
+      $\mathbf{3}$&${\mathbf{,}}\mathbf{290} = \mathbf{3,29}$
+    \end{tabular}\\[3pt]
+    {\tiny\color{teal!95!black}\bfseries Tổng: $2 + 1 = 3$ chữ số thập phân}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: TÍNH CHẤT PHÉP NHÂN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faStar\ 2. Các tính chất quan trọng của phép nhân},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  $\bullet$ \textbf{Giao hoán:} $a \times b = b \times a$ \quad | \quad \textbf{Kết hợp:} $(a \times b) \times c = a \times (b \times c)$.\\
+  $\bullet$ \textbf{Nhân với 1 và 0:} $a \times 1 = a$ \quad | \quad $a \times 0 = 0$.\\
+  $\bullet$ \textbf{Phân phối:} $a \times (b \pm c) = a \times b \pm a \times c$ (Đặt thừa số chung để tính thuận tiện).\\
+  \textit{VD:} $3,75 \times 4,8 + 3,75 \times 5,2 = 3,75 \times (4,8 + 5,2) = 3,75 \times 10 = 37,5$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Thuật toán nhân số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Nhân như số tự nhiên\\(Không cần thẳng phẩy)};
+    \node[b2] (n2) at (0, 0) {2. Đếm tổng chữ số TP\\ở cả hai thừa số ($k$)};
+    \node[b3] (n3) at (5.8, 0) {3. Tách từ phải sang trái\\$k$ chữ số để đặt phẩy};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: THÊM SỐ 0 ĐẰNG TRƯỚC & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationCircle\ Khi tích có ít chữ số hơn số cần tách},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Nếu tích không đủ chữ số để tách:\\
+    $\bullet$ Ta phải \textbf{viết thêm chữ số 0 vào bên trái} trước khi đánh dấu phẩy.\\
+    \textit{VD:} $0,2 \times 0,03$: Ta có $2 \times 3 = 6$.\\
+    Tổng số chữ số TP là $1 + 2 = 3$.\\
+    Viết thêm chữ số $0$ phía trước $6 \rightarrow \mathbf{0,006}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Rất nhiều học sinh chỉ đếm số chữ số thập phân của \textbf{một} thừa số mà quên cộng của thừa số kia!\\
+    $\bullet$ Sau khi tách dấu phẩy xong mới được gạch bỏ các chữ số $0$ thừa ở tận cùng bên phải.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

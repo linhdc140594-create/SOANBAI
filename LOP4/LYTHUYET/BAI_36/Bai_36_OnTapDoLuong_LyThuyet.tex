@@ -1,0 +1,176 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 36. Ôn tập đo lường --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 36: ÔN TẬP ĐO LƯỜNG}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Bảng tổng hợp đổi đơn vị: khối lượng (tấn, tạ, yến), diện tích và thời gian (thế kỉ, giây) trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. Khối lượng \& Diện tích},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Khối lượng (gấp kém nhau 10 lần)}:
+    \begin{center}
+      \textbf{Tấn $\rightarrow$ Tạ $\rightarrow$ Yến $\rightarrow$ kg $\rightarrow$ g}\\
+      $1\text{ tấn} = 10\text{ tạ} = 100\text{ yến} = 1\,000\text{ kg}$\\
+      $1\text{ yến} = 10\text{ kg}$; $1\text{ kg} = 1\,000\text{ g}$.
+    \end{center}
+    $\bullet$ \textbf{Diện tích (gấp kém nhau 100 lần)}:
+    \begin{center}
+      \textbf{$\text{m}^2 \rightarrow \text{dm}^2 \rightarrow \text{cm}^2 \rightarrow \text{mm}^2$}\\
+      $1\text{ m}^2 = 100\text{ dm}^2 = 10\,000\text{ cm}^2 = 1\,000\,000\text{ mm}^2$
+    \end{center}
+    Mỗi đơn vị diện tích ứng với đúng \textbf{2 chữ số}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faClockO\ 2. Thời gian \& Kĩ thuật đổi},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Các đơn vị thời gian cốt lõi}:
+    \begin{center}
+      $1\text{ thế kỉ} = 100\text{ năm}$\\
+      $1\text{ năm} = 12\text{ tháng}$; $1\text{ tuần} = 7\text{ ngày}$\\
+      $1\text{ ngày} = 24\text{ giờ}$; $1\text{ giờ} = 60\text{ phút}$\\
+      $1\text{ phút} = 60\text{ giây}$; $1\text{ giờ} = 3\,600\text{ giây}$.
+    \end{center}
+    $\bullet$ \textbf{Quy tắc xác định thế kỉ}:\\
+    Năm $abcd$: Nếu $cd = 00 \Rightarrow$ thế kỉ $ab$. Nếu $cd \ne 00 \Rightarrow$ thế kỉ $ab + 1$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: BA DẢI BĂNG CHUYỂN ĐỔI ĐẠI LƯỢNG TIÊU CHUẨN},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    box/.style={rectangle, rounded corners=1.5mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=red!80!black}
+  ]
+    % 1. Khối lượng
+    \node[anchor=east, font=\scriptsize\bfseries\color{blue!85!black}] at (0, 1.1) {Khối lượng ($\times 10$):};
+    \node[box] (m1) at (1.5, 1.1) {TẤN};
+    \node[box] (m2) at (4.0, 1.1) {TẠ};
+    \node[box] (m3) at (6.5, 1.1) {YẾN};
+    \node[box] (m4) at (9.0, 1.1) {KG};
+    \node[box] (m5) at (11.5, 1.1) {G};
+
+    \draw[arr] (m1) -- (m2) node[midway, above, font=\tiny]{$\times 10$};
+    \draw[arr] (m2) -- (m3) node[midway, above, font=\tiny]{$\times 10$};
+    \draw[arr] (m3) -- (m4) node[midway, above, font=\tiny]{$\times 10$};
+    \draw[arr] (m4) -- (m5) node[midway, above, font=\tiny]{$\times 1000$};
+
+    % 2. Diện tích
+    \node[anchor=east, font=\scriptsize\bfseries\color{teal!85!black}] at (0, 0.0) {Diện tích ($\times 100$):};
+    \node[box, draw=teal!80!black, fill=teal!10] (s1) at (2.2, 0.0) {$\mathbf{m^2}$};
+    \node[box, draw=teal!80!black, fill=teal!10] (s2) at (5.2, 0.0) {$\mathbf{dm^2}$};
+    \node[box, draw=teal!80!black, fill=teal!10] (s3) at (8.2, 0.0) {$\mathbf{cm^2}$};
+    \node[box, draw=teal!80!black, fill=teal!10] (s4) at (11.2, 0.0) {$\mathbf{mm^2}$};
+
+    \draw[arr, draw=teal!80!black] (s1) -- (s2) node[midway, above, font=\tiny]{$\times 100$};
+    \draw[arr, draw=teal!80!black] (s2) -- (s3) node[midway, above, font=\tiny]{$\times 100$};
+    \draw[arr, draw=teal!80!black] (s3) -- (s4) node[midway, above, font=\tiny]{$\times 100$};
+
+    % 3. Thời gian
+    \node[anchor=east, font=\scriptsize\bfseries\color{purple!85!black}] at (0, -1.1) {Thời gian:};
+    \node[box, draw=purple!80!black, fill=purple!10] (t1) at (2.2, -1.1) {THẾ KỈ};
+    \node[box, draw=purple!80!black, fill=purple!10] (t2) at (5.2, -1.1) {NĂM};
+    \node[box, draw=purple!80!black, fill=purple!10] (t3) at (8.2, -1.1) {GIỜ};
+    \node[box, draw=purple!80!black, fill=purple!10] (t4) at (10.2, -1.1) {PHÚT};
+    \node[box, draw=purple!80!black, fill=purple!10] (t5) at (12.2, -1.1) {GIÂY};
+
+    \draw[arr, draw=purple!80!black] (t1) -- (t2) node[midway, above, font=\tiny]{$\times 100$};
+    \draw[arr, draw=purple!80!black] (t3) -- (t4) node[midway, above, font=\tiny]{$\times 60$};
+    \draw[arr, draw=purple!80!black] (t4) -- (t5) node[midway, above, font=\tiny]{$\times 60$};
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ $5\text{ tấn } 8\text{ yến} = 5\,000\text{ kg} + 80\text{ kg} = \mathbf{5\,080\text{ kg}}$.\\
+    $\bullet$ $4\text{ m}^2\ 5\text{ dm}^2 = 400\text{ dm}^2 + 5\text{ dm}^2 = \mathbf{405\text{ dm}^2}$.\\
+    $\bullet$ $3\text{ phút } 25\text{ giây} = 180\text{ giây} + 25\text{ giây} = \mathbf{205\text{ giây}}$.\\
+    $\bullet$ Năm $1975$ thuộc thế kỉ \textbf{XX} (vì $19 + 1 = 20$).\\
+    $\bullet$ Năm $2000$ thuộc thế kỉ \textbf{XX} (tận cùng $00 \Rightarrow 20$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy khuyết số 0 ở đơn vị diện tích:}\\
+    $4\text{ m}^2\ 5\text{ dm}^2 \ne 45\text{ dm}^2$! Vì $1\text{ m}^2 = 100\text{ dm}^2$ (có 2 chữ số) nên phải là \textbf{$405\text{ dm}^2$}.\\
+    $\bullet$ \textbf{Bẫy hệ số thời gian}: Thời gian dùng hệ cơ số $60$ ($1\text{ giờ} = 60\text{ phút}$), không được nhầm sang hệ số $10$ hay $100$!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

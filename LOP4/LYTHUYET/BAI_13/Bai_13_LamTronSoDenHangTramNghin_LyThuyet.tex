@@ -1,0 +1,156 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 13. Làm tròn số đến hàng trăm nghìn --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 13: LÀM TRÒN SỐ ĐẾN HÀNG TRĂM NGHÌN}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Quy tắc làm tròn số nhiều chữ số, xét chữ số liền sau và ứng dụng thực tế trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faFilter\ 1. Quy tắc làm tròn số},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Khi làm tròn một số đến một hàng nào đó:\\
+    $\bullet$ \textbf{Bước 1:} Xác định chữ số ở hàng cần làm tròn.\\
+    $\bullet$ \textbf{Bước 2:} Xét chữ số ngay bên phải liền kề:\\
+    --- Nếu $< 5$ ($0, 1, 2, 3, 4$): \textbf{Giữ nguyên} chữ số hàng làm tròn.\\
+    --- Nếu $\ge 5$ ($5, 6, 7, 8, 9$): \textbf{Cộng thêm 1} vào chữ số hàng làm tròn.\\
+    $\bullet$ \textbf{Bước 3:} Thay tất cả các chữ số bên phải hàng làm tròn bằng các chữ số \textbf{0}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSliders\ 2. Các hàng làm tròn thường gặp},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Làm tròn đến hàng trăm nghìn:}\\
+    Xét chữ số ở \textbf{hàng chục nghìn}.\\
+    \textit{VD:} $6\mathbf{3}8\,200 \approx 600\,000$ (do $3 < 5$).\\
+    $7\mathbf{8}2\,500 \approx 800\,000$ (do $8 \ge 5$).\\[1mm]
+    $\bullet$ \textbf{Làm tròn đến hàng chục nghìn:}\\
+    Xét chữ số ở \textbf{hàng nghìn}.\\
+    \textit{VD:} $42\mathbf{6}\,100 \approx 430\,000$ (do $6 \ge 5$).\\
+    $\bullet$ \textbf{Làm tròn đến hàng nghìn, trăm, chục}: Xét chữ số hàng liền sau tương tự.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: LƯU TRÌNH LÀM TRÒN SỐ ĐẾN MỌI HÀNG},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=0.92, yscale=0.82,
+    box/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    cond/.style={rectangle, rounded corners=2mm, draw=orange!80!black, fill=orange!15, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    action_down/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3pt, font=\scriptsize, align=center},
+    action_up/.style={rectangle, rounded corners=2mm, draw=red!75!black, fill=red!10, thick, inner sep=3pt, font=\scriptsize, align=center},
+    result/.style={rectangle, rounded corners=2mm, draw=purple!80!black, fill=purple!12, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    \node[box] (step1) at (0,0) {Số cần làm tròn\\{\tiny\mdseries Gạch dưới hàng làm tròn}};
+    \node[cond] (check) at (4.0,0) {Xét chữ số liền sau\\{\tiny\mdseries (ngay bên phải)}};
+
+    \node[action_down] (down) at (8.5, 1.2) {\textbf{Nhỏ hơn 5} ($0, 1, 2, 3, 4$)\\$\rightarrow$ \textbf{Giữ nguyên} hàng làm tròn};
+    \node[action_up] (up) at (8.5, -1.2) {\textbf{Từ 5 trở lên} ($5, 6, 7, 8, 9$)\\$\rightarrow$ \textbf{Cộng 1} vào hàng làm tròn};
+
+    \node[result] (end) at (13.5, 0) {Thay toàn bộ chữ số\\bên phải bằng chữ số \textbf{0}};
+
+    \draw[arr] (step1) -- (check);
+    \draw[arr] (check) |- (down.west) node[above left, pos=0.8, font=\tiny\bfseries\color{blue!80!black}]{$< 5$};
+    \draw[arr] (check) |- (up.west) node[below left, pos=0.8, font=\tiny\bfseries\color{red!80!black}]{$\ge 5$};
+
+    \draw[arr] (down.east) -| (end.north);
+    \draw[arr] (up.east) -| (end.south);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Cho số tự nhiên: $596\,482$.\\
+    $\bullet$ \textbf{Làm tròn đến hàng trăm nghìn:}\\
+    Chữ số hàng chục nghìn là $9 \ge 5 \Rightarrow$ Thêm 1 vào chữ số 5 được 6: kết quả \textbf{600\,000}.\\
+    $\bullet$ \textbf{Làm tròn đến hàng chục nghìn:}\\
+    Chữ số hàng nghìn là $6 \ge 5 \Rightarrow 59 + 1 = 60$: kết quả \textbf{600\,000}.\\
+    $\bullet$ \textbf{Làm tròn đến hàng nghìn:}\\
+    Chữ số hàng trăm là $4 < 5 \Rightarrow$ kết quả \textbf{596\,000}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy làm tròn số có chữ số 9:}\\
+    Khi chữ số hàng làm tròn là 9 và phải cộng 1, ta được 10 (nhớ 1 sang hàng bên trái).\\
+    \textit{VD:} $197\,000$ làm tròn đến hàng chục nghìn thành $200\,000$.\\
+    $\bullet$ \textbf{Bẫy xét nhầm hàng:}\\
+    Làm tròn đến hàng trăm nghìn thì phải xét hàng chục nghìn, \textbf{không} được nhìn sang hàng nghìn hay trăm.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

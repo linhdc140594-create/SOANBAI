@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $45 - 21$.
+\shortans{24}
+\loigiai{
+Ta có $45 - 21 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $58 - 34$.
+\shortans{24}
+\loigiai{
+Ta có $58 - 34 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $67 - 25$.
+\shortans{42}
+\loigiai{
+Ta có $67 - 25 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $79 - 46$.
+\shortans{33}
+\loigiai{
+Ta có $79 - 46 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $86 - 52$.
+\shortans{34}
+\loigiai{
+Ta có $86 - 52 = 34$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $94 - 63$.
+\shortans{31}
+\loigiai{
+Ta có $94 - 63 = 31$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $75 - 35$.
+\shortans{40}
+\loigiai{
+Ta có $75 - 35 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $88 - 44$.
+\shortans{44}
+\loigiai{
+Ta có $88 - 44 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $62 - 62$.
+\shortans{0}
+\loigiai{
+Hai số bằng nhau trừ cho nhau bằng 0: $62 - 62 = 0$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $99 - 57$.
+\shortans{42}
+\loigiai{
+Ta có $99 - 57 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $56 - \dots = 23$.
+\shortans{33}
+\loigiai{
+Số cần điền là: $56 - 23 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $78 - \dots = 41$.
+\shortans{37}
+\loigiai{
+Số cần điền là: $78 - 41 = 37$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 32 = 45$.
+\shortans{77}
+\loigiai{
+Số cần điền là: $45 + 32 = 77$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 54 = 31$.
+\shortans{85}
+\loigiai{
+Số cần điền là: $31 + 54 = 85$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $89 - 35 - 21$.
+\shortans{33}
+\loigiai{
+Ta có $89 - 35 = 54$, rồi $54 - 21 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $97 - 40 - 24$.
+\shortans{33}
+\loigiai{
+Ta có $97 - 40 = 57$, rồi $57 - 24 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Một đội đồng diễn có 68 bạn, trong đó có 35 bạn nữ. Hỏi đội đồng diễn có bao nhiêu bạn nam?
+\shortans{33}
+\loigiai{
+Số bạn nam: $68 - 35 = 33$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân gặt được 76 bao thóc, bác đã chuyển về kho 42 bao. Hỏi còn lại bao nhiêu bao thóc ngoài đồng?
+\shortans{34}
+\loigiai{
+Còn lại: $76 - 42 = 34$ bao thóc.
+}
+\end{ex}
+
+\begin{ex}
+Một đoàn tàu có 58 toa, người ta tháo bớt 24 toa. Hỏi đoàn tàu còn lại bao nhiêu toa?
+\shortans{34}
+\loigiai{
+Đoàn tàu còn lại: $58 - 24 = 34$ toa.
+}
+\end{ex}
+
+\begin{ex}
+Cửa hàng nhập về 85 thùng sữa, tuần qua đã bán được 52 thùng. Cửa hàng còn lại bao nhiêu thùng sữa?
+\shortans{33}
+\loigiai{
+Còn lại: $85 - 52 = 33$ thùng sữa.
+}
+\end{ex}
+
+\begin{ex}
+Cuộn dây điện dài 96 mét, thợ điện đã dùng 64 mét để mắc đèn đường. Cuộn dây còn lại bao nhiêu mét?
+\shortans{32}
+\loigiai{
+Còn lại: $96 - 64 = 32$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Bà nuôi 65 con vịt, bà bán đi 40 con vịt. Hỏi bà còn lại bao nhiêu con vịt?
+\shortans{25}
+\loigiai{
+Bà còn lại: $65 - 40 = 25$ con vịt.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số 87 và số 53 bằng bao nhiêu?
+\shortans{34}
+\loigiai{
+Ta có: $87 - 53 = 34$.
+}
+\end{ex}
+
+\begin{ex}
+Lấy số lớn nhất có hai chữ số trừ đi số 65 thì được kết quả là bao nhiêu?
+\shortans{34}
+\loigiai{
+Số lớn nhất có 2 chữ số là 99. Hiệu: $99 - 65 = 34$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $48 - 15 = 11 + \dots$
+\shortans{22}
+\loigiai{
+Vế trái: $48 - 15 = 33$. Số cần điền là $33 - 11 = 22$.
+}
+\end{ex}

@@ -1,0 +1,158 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 15. Làm quen với dãy số tự nhiên --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 15: LÀM QUEN VỚI DÃY SỐ TỰ NHIÊN}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Đặc điểm dãy số tự nhiên, tia số, số chẵn, số lẻ và hai số tự nhiên liên tiếp trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faListUl\ 1. Dãy số tự nhiên \& Đặc điểm},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Các số $0, 1, 2, 3, 4, 5, ...$ gọi là các \textbf{số tự nhiên}. Xếp theo thứ tự từ bé đến lớn tạo thành \textbf{dãy số tự nhiên}:
+    \begin{center}
+      $0,\, 1,\, 2,\, 3,\, 4,\, 5,\, 6,\, 7,\, 8,\, 9,\, 10,\, ...$
+    \end{center}
+    $\bullet$ \textbf{Số bé nhất} của dãy số tự nhiên là số \textbf{0}.\\
+    $\bullet$ \textbf{Không có số tự nhiên lớn nhất}, dãy số tự nhiên kéo dài vô tận.\\
+    $\bullet$ Thêm 1 vào bất kì số nào ta được số tự nhiên liền sau: $n + 1$. Bớt 1 ở số tự nhiên khác 0 ta được số liền trước: $n - 1$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faArrowsH\ 2. Tia số, Số chẵn \& Số lẻ},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Biểu diễn trên tia số:}\\
+    Gốc tia số là điểm 0. Chiều mũi tên từ trái sang phải biểu thị số lớn dần.\\
+    $\bullet$ \textbf{Hai số tự nhiên liên tiếp}: Hơn kém nhau \textbf{1 đơn vị}. Trong hai số tự nhiên liên tiếp luôn có một số chẵn và một số lẻ.\\
+    $\bullet$ \textbf{Số chẵn}: Có chữ số tận cùng là $0, 2, 4, 6, 8$. Hai số chẵn liên tiếp hơn kém nhau \textbf{2 đơn vị}.\\
+    $\bullet$ \textbf{Số lẻ}: Có chữ số tận cùng là $1, 3, 5, 7, 9$. Hai số lẻ liên tiếp hơn kém nhau \textbf{2 đơn vị}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: MÔ HÌNH TIA SỐ TỰ NHIÊN \& BẢN CHẤT LIÊN TIẾP},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=1.05, yscale=0.82,
+    tag/.style={rectangle, rounded corners=1.5mm, draw=teal!80!black, fill=teal!10, inner sep=2.5pt, font=\scriptsize\bfseries, align=center, text width=3.6cm},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=blue!80!black}
+  ]
+    % Tia số
+    \draw[-{Stealth[scale=1.2]}, very thick, draw=teal!85!black] (-0.3, 0) -- (12.4, 0);
+    
+    \foreach \x/\val in {0/0, 1.4/1, 2.8/2, 4.2/3, 5.6/4, 9.2/n, 10.8/{n+1}} {
+      \draw[thick, draw=teal!90!black] (\x, 0.15) -- (\x, -0.15);
+      \node[below=2pt, font=\small\bfseries] at (\x, -0.15) {$\val$};
+    }
+    \node[below=3pt, font=\small\bfseries] at (7.4, -0.15) {$\dots$};
+
+    \node[above=8pt, font=\scriptsize\bfseries\color{red!80!black}] at (0, 0.4) {Gốc 0 (Bé nhất)};
+    \draw[->, thick, draw=red!75!black] (0, 0.4) -- (0, 0.18);
+    \node[right=2pt, font=\scriptsize\bfseries\color{teal!85!black}] at (12.4, 0) {Vô tận};
+
+    % Cung nhảy +1
+    \draw[arr] (1.4, 0.35) to[bend left=35] node[above, font=\tiny\bfseries]{$+1$} (2.8, 0.35);
+    \draw[arr] (2.8, 0.35) to[bend left=35] node[above, font=\tiny\bfseries]{$+1$} (4.2, 0.35);
+    \draw[arr] (4.2, 0.35) to[bend left=35] node[above, font=\tiny\bfseries]{$+1$} (5.6, 0.35);
+    \draw[arr] (9.2, 0.35) to[bend left=35] node[above, font=\tiny\bfseries]{$+1$} (10.8, 0.35);
+
+    % Hộp ghi chú phía dưới
+    \node[tag, fill=blue!10, draw=blue!70!black] at (2.0, -1.25) {Số chẵn tận cùng:\\$0, 2, 4, 6, 8$};
+    \node[tag, fill=orange!12, draw=orange!75!black] at (6.2, -1.25) {Hai số liên tiếp:\\Hơn kém nhau $1$ đơn vị};
+    \node[tag, fill=purple!10, draw=purple!70!black] at (10.4, -1.25) {Số lẻ tận cùng:\\$1, 3, 5, 7, 9$};
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ví dụ 1:} Viết 3 số tự nhiên liên tiếp biết số ở giữa là $999$:\\
+    Số liền trước: $999 - 1 = 998$. Số liền sau: $999 + 1 = 1000$.\\
+    Ba số liên tiếp là: $\mathbf{998,\, 999,\, 1000}$.\\
+    $\bullet$ \textbf{Ví dụ 2:} Viết 3 số chẵn liên tiếp bắt đầu từ $2024$:\\
+    Vì hai số chẵn liên tiếp cách nhau 2 đơn vị nên ta cộng tiếp 2:\\
+    $\mathbf{2024,\, 2026,\, 2028}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy số tự nhiên nhỏ nhất:}\\
+    Nhiều bạn ghi số tự nhiên nhỏ nhất là $1$ $\rightarrow$ \textbf{SAI}! Số tự nhiên nhỏ nhất là số \textbf{0}.\\
+    $\bullet$ \textbf{Bẫy số liền trước số 0:}\\
+    Trong tập số tự nhiên, số 0 \textbf{không có số liền trước}.\\
+    $\bullet$ \textbf{Bẫy liên tiếp}: Phải đọc kĩ là "liên tiếp" ($+1$) hay "chẵn/lẻ liên tiếp" ($+2$).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

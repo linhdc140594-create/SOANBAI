@@ -1,0 +1,151 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 33. Ôn tập các số đến lớp triệu --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 33: ÔN TẬP CÁC SỐ ĐẾN LỚP TRIỆU}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Tổng ôn cấu tạo 3 lớp số, quy tắc đọc viết, so sánh và làm tròn số học kì 1 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCube\ 1. Ba lớp số \& Giá trị theo hàng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cấu tạo 3 lớp số (từ phải sang trái)}:
+    \begin{center}
+      \textbf{Lớp đơn vị}: Hàng đơn vị, chục, trăm.\\
+      \textbf{Lớp nghìn}: Hàng nghìn, chục nghìn, trăm nghìn.\\
+      \textbf{Lớp triệu}: Hàng triệu, chục triệu, trăm triệu.
+    \end{center}
+    $\bullet$ Cứ 10 đơn vị ở một hàng thì tạo thành 1 đơn vị ở hàng liền trước nó.\\
+    $\bullet$ Giá trị của mỗi chữ số phụ thuộc vào \textbf{vị trí (hàng)} của nó trong số đó.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSliders\ 2. So sánh và làm tròn số},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{So sánh số}:\\
+    --- Khác số chữ số: Số có nhiều chữ số hơn thì \textbf{lớn hơn}.\\
+    --- Cùng số chữ số: So sánh từng cặp từ trái sang phải.\\
+    $\bullet$ \textbf{Quy tắc làm tròn số}:\\
+    --- Chữ số liền sau $< 5 \rightarrow$ Giữ nguyên.\\
+    --- Chữ số liền sau $\ge 5 \rightarrow$ Thêm 1 vào hàng làm tròn.\\
+    --- Biến tất cả chữ số bên phải thành số \textbf{0}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HỆ THỐNG 3 LỚP SỐ VÀ 4 THAO TÁC CỐT LÕI},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.88,
+    cl/.style={rectangle, rounded corners=2mm, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    card/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=2.5pt, font=\scriptsize\bfseries, align=center, text width=3.4cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70}
+  ]
+    % 3 Thẻ Lớp số
+    \node[cl, draw=purple!85!black, fill=purple!12, text width=4.8cm] (c3) at (0.2, 0.9) {\textbf{LỚP TRIỆU}\\Trăm triệu | Chục triệu | Triệu};
+    \node[cl, draw=teal!85!black, fill=teal!12, text width=4.8cm] (c2) at (5.7, 0.9) {\textbf{LỚP NGHÌN}\\Trăm nghìn | Chục nghìn | Nghìn};
+    \node[cl, draw=blue!85!black, fill=blue!12, text width=4.8cm] (c1) at (11.2, 0.9) {\textbf{LỚP ĐƠN VỊ}\\Trăm | Chục | Đơn vị};
+
+    \draw[arr] (c3) -- (c2);
+    \draw[arr] (c2) -- (c1);
+
+    % 4 Thao tác cốt lõi ở dưới
+    \node[card, draw=blue!75!black, fill=blue!8] (o1) at (0.0, -1.0) {\textbf{1. ĐỌC \& VIẾT}\\Đọc tách theo từng lớp\\kèm tên lớp (triệu, nghìn)};
+    \node[card, draw=teal!80!black, fill=teal!8] (o2) at (3.9, -1.0) {\textbf{2. GIÁ TRỊ CHỮ SỐ}\\Chữ số $\times$ Hàng\\Ví dụ: $5$ ở trăm nghìn là $500\,000$};
+    \node[card, draw=orange!80!black, fill=orange!10] (o3) at (7.8, -1.0) {\textbf{3. SO SÁNH SỐ}\\Đếm chữ số $\rightarrow$ So sánh\\từng cặp từ TRÁI $\rightarrow$ PHẢI};
+    \node[card, draw=red!75!black, fill=red!10] (o4) at (11.7, -1.0) {\textbf{4. LÀM TRÒN SỐ}\\Xét chữ số bên phải: $<5$ giữ nguyên, $\ge 5$ cộng 1};
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Cho số $25\,840\,390$:\\
+    $\bullet$ Đọc là: \textbf{Hai mươi lăm triệu tám trăm bốn mươi nghìn ba trăm chín mươi}.\\
+    $\bullet$ Chữ số $5$ thuộc \textbf{hàng triệu, lớp triệu}, có giá trị là $\mathbf{5\,000\,000}$.\\
+    $\bullet$ Chữ số $8$ thuộc \textbf{hàng trăm nghìn}, giá trị $\mathbf{800\,000}$.\\
+    $\bullet$ Làm tròn số trên đến hàng triệu:\\
+    Chữ số hàng trăm nghìn là $8 \ge 5 \Rightarrow$ Làm tròn thành $\mathbf{26\,000\,000}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy phân biệt "chữ số" và "giá trị":}\\
+    --- "Chữ số hàng triệu là gì?": Trả lời là $5$.\\
+    --- "Giá trị của chữ số 5 là bao nhiêu?": Trả lời là $5\,000\,000$.\\
+    $\bullet$ \textbf{Bẫy số 0 ở các hàng khuyết}: Khi viết số có từ "không trăm", "linh", nhớ viết chữ số $0$ kẻo mất chữ số!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

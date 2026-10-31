@@ -1,0 +1,199 @@
+\begin{ex}
+Số 75 842 100 có chữ số hàng triệu là bao nhiêu?
+\shortans{5}
+\loigiai{
+Chữ số hàng triệu là 5.
+}
+\end{ex}
+
+\begin{ex}
+Số 842 500 có chữ số thuộc hàng trăm nghìn là bao nhiêu?
+\shortans{8}
+\loigiai{
+Chữ số hàng trăm nghìn là 8.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của 999 999 là số nào?
+\shortans{1000000}
+\loigiai{
+$999999 + 1 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của 10 000 000 là số nào?
+\shortans{9999999}
+\loigiai{
+$10000000 - 1 = 9999999$.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 7 chữ số là số nào?
+\shortans{1000000}
+\loigiai{
+1000000.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 6 chữ số khác nhau là số nào?
+\shortans{987654}
+\loigiai{
+987654.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 648 000 đến hàng trăm nghìn được số nào?
+\shortans{600000}
+\loigiai{
+Hàng chục nghìn là 4 nên làm tròn thành 600 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 875 000 đến hàng trăm nghìn được số nào?
+\shortans{900000}
+\loigiai{
+Làm tròn lên 900 000.
+}
+\end{ex}
+
+\begin{ex}
+Số 45 678 là số chẵn hay số lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Tận cùng là 8 nên là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $123, 456, 789, 102$, có bao nhiêu số lẻ?
+\shortans{2}
+\loigiai{
+123 và 789 (có 2 số).
+}
+\end{ex}
+
+\begin{ex}
+Số tự nhiên bé nhất là số nào?
+\shortans{0}
+\loigiai{
+Số 0.
+}
+\end{ex}
+
+\begin{ex}
+Hai số tự nhiên liên tiếp hơn kém nhau bao nhiêu đơn vị?
+\shortans{1}
+\loigiai{
+1 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Hai số chẵn liên tiếp hơn kém nhau bao nhiêu đơn vị?
+\shortans{2}
+\loigiai{
+2 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 7 trong số 71 234 568 là bao nhiêu?
+\shortans{70000000}
+\loigiai{
+70 000 000.
+}
+\end{ex}
+
+\begin{ex}
+Lớp triệu của số 123 456 789 gồm các chữ số 1, 2 và chữ số nào?
+\shortans{3}
+\loigiai{
+Chữ số 3.
+}
+\end{ex}
+
+\begin{ex}
+Lớp nghìn của số trên gồm các chữ số 4, 6 và chữ số nào?
+\shortans{5}
+\loigiai{
+Chữ số 5.
+}
+\end{ex}
+
+\begin{ex}
+Số 1 tỉ có bao nhiêu chữ số 0?
+\shortans{9}
+\loigiai{
+Có 9 chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $450000, 540000, 405000, 504000$, số lớn nhất là số nào?
+\shortans{540000}
+\loigiai{
+540000.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 8 000 000 và 7 600 000 là bao nhiêu?
+\shortans{400000}
+\loigiai{
+$8000000 - 7600000 = 400000$.
+}
+\end{ex}
+
+\begin{ex}
+Số La Mã XIX là số tự nhiên nào?
+\shortans{19}
+\loigiai{
+19.
+}
+\end{ex}
+
+\begin{ex}
+Số La Mã XIV là số tự nhiên nào?
+\shortans{14}
+\loigiai{
+14.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 8 chữ số là số nào?
+\shortans{99999999}
+\loigiai{
+99999999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 8 chữ số là số nào?
+\shortans{10000000}
+\loigiai{
+10000000.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số bé nhất có 7 chữ số và số lớn nhất có 6 chữ số là bao nhiêu?
+\shortans{1}
+\loigiai{
+$1000000 - 999999 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Số 888 888 gồm bao nhiêu chữ số 8?
+\shortans{6}
+\loigiai{
+Có 6 chữ số 8.
+}
+\end{ex}

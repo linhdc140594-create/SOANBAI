@@ -1,0 +1,140 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 04. Biểu thức chứa chữ --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 04: BIỂU THỨC CHỨA CHỮ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Khái niệm biểu thức chứa một chữ, hai chữ, ba chữ và quy tắc tính giá trị biểu thức}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faFont\ 1. Khái niệm Biểu thức chứa chữ},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Chứa 1 chữ:} Là biểu thức có chứa một chữ cái.\\
+    \textit{Ví dụ:} $a + 25$; $150 - b$; $x \times 4$; $80 : y$.\\
+    $\bullet$ \textbf{Chứa 2 chữ:} Biểu thức có 2 chữ cái.\\
+    \textit{Ví dụ:} $a + b$; $a \times b$; $m - n + 10$.\\
+    $\bullet$ \textbf{Chứa 3 chữ:} Biểu thức có 3 chữ cái.\\
+    \textit{Ví dụ:} $a + b + c$; $a \times b \times c$; $(m + n) \times p$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 2. Tính giá trị của biểu thức},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Quy tắc:} Mỗi lần thay chữ bằng số, ta tính được một \textbf{giá trị của biểu thức}.\\
+    $\bullet$ \textbf{Thứ tự thực hiện phép tính:}\\
+    - Có ngoặc: Tính trong ngoặc trước $( )$, ngoài ngoặc sau.\\
+    - Không ngoặc: Nhân/Chia trước $\rightarrow$ Cộng/Trừ sau.\\
+    - Chỉ có $+,-$ hoặc $\times,:$ Tính lần lượt từ \textbf{trái sang phải}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Quy trình 3 bước tính giá trị biểu thức chứa chữ},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.86,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=4.5pt, align=center},
+    stepBox/.style={rectangle, rounded corners=4pt, fill=blue!10, draw=blue!75!black, text=blue!90!black, font=\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faKeyboardO\ QUY TRÌNH 3 BƯỚC TÍNH GIÁ TRỊ BIỂU THỨC CHỮ};
+
+    \node[stepBox] (n1) at (-5.0, -0.15) {\textbf{BƯỚC 1: THAY SỐ}\\[1.5pt]Thay chữ bằng giá trị số đề cho};
+    \node[stepBox] (n2) at (0, -0.15) {\textbf{BƯỚC 2: TÍNH TOÁN}\\[1.5pt]Nhân/Chia trước, Cộng/Trừ sau};
+    \node[stepBox] (n3) at (5.0, -0.15) {\textbf{BƯỚC 3: KẾT LUẬN}\\[1.5pt]Ghi rõ giá trị của biểu thức};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (n1.east) -- (n2.west) node[midway, above, font=\tiny\bfseries] {tiếp theo};
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (n2.east) -- (n3.west) node[midway, above, font=\tiny\bfseries] {tiếp theo};
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencilSquareO\ Ví dụ mẫu chuẩn sư phạm},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Tính giá trị biểu thức:} $P = a + b \times c$ với $a = 15, b = 5, c = 4$.\\
+    \textit{Trình bày lời giải:}\\
+    Nếu $a = 15, b = 5, c = 4$ thì giá trị của $P$ là:\\
+    $15 + 5 \times 4 = 15 + 20 = 35$.\\
+    \textbf{Đáp số:} $35$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy sai thứ tự ưu tiên:}\\
+    Trong $a + b \times c$, rất nhiều bạn lấy $a + b$ trước rồi mới nhân $c$ $\rightarrow$ \textbf{Sai hoàn toàn}! Bắt buộc nhân trước.\\
+    $\bullet$ \textbf{Bẫy thay sai vị trí:} Đề cho $a, b, c$ phải ráp đúng từng vị trí tương ứng.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

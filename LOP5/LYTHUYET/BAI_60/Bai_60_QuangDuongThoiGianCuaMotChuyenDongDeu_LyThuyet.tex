@@ -1,0 +1,160 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 60. Quãng đường, thời gian của một chuyển động đều --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 60. QUÃNG ĐƯỜNG, THỜI GIAN CỦA CHUYỂN ĐỘNG ĐỀU}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Công thức s = v x t và t = s : v, xử lý thời điểm khởi hành, thời điểm đến trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÔNG THỨC QUÃNG ĐƯỜNG VÀ THỜI GIAN ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faRoad\ 1. Công thức Quãng đường ($s$)},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{blue!90!black}$s = v \times t$}
+    \end{tcolorbox}
+    \textit{Muốn tính quãng đường, ta lấy vận tốc nhân với thời gian.}\\
+    $\bullet$ Đơn vị phải tương ứng: Nếu $v$ là $\text{km/h}$, $t$ là $\text{giờ}$ thì $s$ là $\text{km}$.\\
+    \textit{VD:} Xe chạy $45\text{ km/h}$ trong $3\text{ giờ}$:\\
+    $s = 45 \times 3 = \mathbf{135\text{ km}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faHourglassHalf\ 2. Công thức Thời gian ($t$)},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    \begin{tcolorbox}[colback=white, colframe=teal!75!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{teal!95!black}$t = s : v$}
+    \end{tcolorbox}
+    \textit{Muốn tính thời gian, ta lấy quãng đường chia cho vận tốc.}\\
+    $\bullet$ Kết quả dạng số thập phân cần \textbf{đổi ra giờ và phút}.\\
+    \textit{VD:} $t = 120 : 50 = 2,4\text{ giờ}$.\\
+    Đổi: $2,4\text{h} = 2\text{h} + 0,4 \times 60\text{p} = \mathbf{2\text{h } 24\text{p}}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN KHỞI HÀNH VÀ ĐẾN NƠI ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faCalendarCheckO\ 3. Mối liên hệ Thời điểm đến và Thời điểm đi},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Một người đi xe máy từ A lúc $7\text{ giờ } 15\text{ phút}$, đến B với vận tốc $40\text{ km/h}$. Quãng đường AB dài $100\text{ km}$. Dọc đường nghỉ $15\text{ phút}$. Hỏi người đó đến B lúc mấy giờ?\\
+  $\triangleright$ Thời gian thực tế đi trên đường: $t = 100 : 40 = 2,5\text{ giờ} = 2\text{ giờ } 30\text{ phút}$.\\
+  $\triangleright$ Thời điểm đến B là: $7\text{h } 15\text{p} + 2\text{h } 30\text{p} + 15\text{p (nghỉ)} = \mathbf{10\text{ giờ } 00\text{ phút}}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Ba đại lượng chuyển động đều},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {Tìm $s$: $s = v \times t$\\Đổi $t$ ra giờ};
+    \node[b2] (n2) at (0, 0) {Tìm $v$: $v = s : t$\\Đơn vị $\text{km/h}$};
+    \node[b3] (n3) at (5.8, 0) {Tìm $t$: $t = s : v$\\Đổi $t$ ra giờ và phút};
+
+    \draw[teal!85!black, thick, <->] (n1) -- (n2);
+    \draw[teal!85!black, thick, <->] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: ĐỔI PHẦN THẬP PHÂN RA PHÚT & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Cách đổi phần thập phân của giờ ra phút},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Lấy phần thập phân \textbf{nhân với 60}:\\
+    $\bullet$ $1,2\text{ giờ} = 1\text{ giờ} + (0,2 \times 60)\text{ phút} = 1\text{ giờ } 12\text{ phút}$.\\
+    $\bullet$ $2,75\text{ giờ} = 2\text{ giờ} + (0,75 \times 60)\text{ phút} = 2\text{ giờ } 45\text{ phút}$.\\
+    $\bullet$ $3,3\text{ giờ} = 3\text{ giờ } 18\text{ phút}$ (vì $0,3 \times 60 = 18$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Rất nhiều học sinh đổi: $2,4\text{ giờ} = 2\text{ giờ } 40\text{ phút}$ hoặc $2\text{ giờ } 4\text{ phút}$ (\textbf{SAI}). Phải lấy $0,4 \times 60 = \mathbf{24\text{ phút}}$.\\
+    $\bullet$ Quên cộng thời gian nghỉ khi tính thời điểm đến nơi.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

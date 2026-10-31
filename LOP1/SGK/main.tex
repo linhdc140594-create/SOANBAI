@@ -1,0 +1,414 @@
+\documentclass[14pt,a4paper,oneside]{extbook} % Dùng extbook để nhận cỡ chữ 14pt chuẩn
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell,venndiagram}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through}
+\usepackage{yhmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{fillbetween}
+\usepackage[tikz]{bclogo}
+\usepackage[top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm, headheight=16pt]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+
+\usepackage[many]{tcolorbox}
+
+% Gói ex_test (Chọn [dethi] để in đề hoặc [loigiai] để in cả lời giải)
+%\usepackage[loigiai]{ex_test}
+\usepackage[dethi]{ex_test}
+
+\def\colorEX{\color{blue}}
+
+\usepackage{fontawesome}
+\usepackage{framed}
+\usepackage{polynom}
+
+\colorlet{tcbcol@back}{tcbcolback}
+\colorlet{tcbcol@frame}{tcbcolframe}
+\newtcolorbox[auto counter]{danggg}[1]{
+	fonttitle=\bfseries\upshape,
+	colframe=blue,colback=blue!10,
+	sharp corners, breakable, 
+	title={\color{white}\faFolderO \ DẠNG~\thetcbcounter.\ #1}
+	\addcontentsline{toc}{subsection}{Dạng~\thetcbcounter. #1}
+}
+\newenvironment{dang}[1]{
+	\begin{danggg}{#1}
+		\textit{Phương pháp giải:~}
+	}{\end{danggg}}
+\newenvironment{tomtat}{
+	\begin{tcolorbox}[boxrule=1pt,arc=0mm,breakable]
+	}{\end{tcolorbox}}
+
+\newtheorem{bt}{Bài}
+\newtheorem{vd}{Ví dụ}
+\theorembodyfont{\it}
+\newtheorem{dl}{ Định lí}
+\theoremseparator{.}
+\theorembodyfont{\rm}
+\newtheorem{hq}{ Hệ quả}
+\newtheorem{tc}{ Tính chất}
+\newtheorem{dn}{ Định nghĩa}
+\theoremstyle{nonumberplain}
+\newtheorem{kn}{ Khái niệm}
+\theoremseparator{.}
+\theorembodyfont{\it}
+\usepackage{stackengine}
+\usepackage{scalerel}
+
+\newcommand\dangersign[1][2ex]{%
+	\renewcommand\stacktype{L}%
+	\scaleto{\stackon[1.3pt]{\color{red}$\triangle$}{\fontsize{4}{0}\selectfont !}}{#1}%
+}
+\renewcommand{\parallel}{\mathbin{\!\raisebox{0.25pt}/\mkern-2mu\raisebox{0.25pt}/\!}}
+\renewcommand{\backsim}{\ \mathord{\raisebox{0.025\baselineskip}{\rotatebox{90}{\fontfamily{qag}\selectfont S}}}\ }
+\theoremseparator{}
+\newtheorem{note}{{\dangersign[3ex]}}
+\newtheorem{nx}{Nhận xét.}
+\newtcolorbox{luuy}[1][]{colback=yellow!20,title={\bfseries Chú ý},#1}
+
+% Tiêu đề chương / bài
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\makeatletter
+\renewcommand\thesection{\@arabic\c@section}
+\makeatother
+
+\titleformat{\section}{\centering\Large\bfseries\color{blue!80!black}}{Chủ đề~\thesection.}{1ex}{
+	\setcounter{vd}{0}
+	\setcounter{ex}{0}
+	\setcounter{bt}{0}
+	\setcounter{dl}{0}
+	\setcounter{dn}{0}
+	\setcounter{hq}{0}
+	\setcounter{tc}{0}
+	\MakeUppercase
+}
+\titleformat{\subsection}{\large\bfseries\color{blue!70!black}}{}{0ex}{}
+\usepackage[final]{pdfpages}
+
+% Cài đặt riêng
+\def\hideboxEX{}
+\renewcommand{\boxEX}[2][15pt]{%
+	\setbox1=\hbox{#2\strut}
+	\def\sizeboxEX{#1}%
+	\ \EXbox{\hideboxEX#2\strut}\ %
+}
+
+\renewcommand\arraystretch{1.4} 
+\setlength{\tabcolsep}{4mm}
+
+% Dòng kẻ làm bài TikZ chuẩn 8mm
+\renewcommand{\dotlineEX}[1]{%
+  \par\vspace{2mm}%
+  \noindent%
+  \begin{tikzpicture}[x=1mm, y=1mm]%
+    \foreach \i in {1,...,#1} {%
+      \draw[gray!60, loosely dotted, line width=0.6pt] (0, -\i*8) -- (\linewidth, -\i*8);%
+    }%
+  \end{tikzpicture}%
+}
+
+% Nút Casio
+\renewcommand\boxed[1]{%
+	\tikz[baseline=(key.base)]
+	\node[%
+	draw,
+	fill=black!40,
+	drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black!90,opacity=0.75},
+	rectangle,minimum width=0.6cm,minimum height=0.6cm,
+	rounded corners=2pt,
+	inner sep=1pt,
+	line width=0.5pt,
+	font=\sffamily
+	](key) {\color{white}#1\strut}
+	;
+}
+
+\newcommand{\hoac}[1]{\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{\left\{\begin{aligned}#1\end{aligned}\right.}
+
+\pagestyle{fancy}
+\fancyhf{} % Xóa sạch toàn bộ header/footer cũ
+\fancyhead[L]{\small\itshape\color{gray} Tuyển tập Đề kiểm tra Toán 1 theo từng bài}
+\fancyhead[R]{\small\bfseries\color{blue!80!black} Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\caidat}{2}
+\newcommand{\indapan}[2]{
+	\begin{center}
+		\color{blue!50!green} \fbox{\fontfamily{qag}\bfseries\selectfont BẢNG ĐÁP ÁN}
+	\end{center}
+	{\fontfamily{lmtt}\bfseries\selectfont \inputansbox[\caidat]{#1}{#2}}
+}
+
+\everymath{\color{blue}}
+
+% -------------------------------------------------------------------------
+% KHUNG TIÊU ĐỀ PHIẾU KIỂM TRA KÈM MÃ QR CODE CHO TỪNG BÀI
+% Cú pháp: \TaoPhieuKiemTra{Chủ đề}{Số bài}{Tên bài}{Link QR thi online}
+% -------------------------------------------------------------------------
+\newcommand{\TaoPhieuKiemTra}[4]{%
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{Bài #2. #3}%
+  \noindent
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=blue!85!black,
+    arc=2.5mm,
+    boxrule=1pt,
+    left=2.5mm, right=2.5mm, top=1.8mm, bottom=1.8mm
+  ]
+    % LOGO TRUNG TÂM & HOTLINE | TIÊU ĐỀ BÀI KIỂM TRA | MÃ QR CODE
+    \begin{minipage}[c]{0.27\textwidth}
+      \centering
+      \begin{tcolorbox}[colback=blue!8, colframe=blue!80!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm, left=1mm, right=1mm]
+        {\bfseries\color{blue!95!black}\small LỚP TOÁN THẦY LĨNH}\\[1.5pt]
+        {\scriptsize\color{blue!70!black}\faGlobe~loptoanthaylinh.vn}\\[1.5pt]
+        {\scriptsize\bfseries\color{blue!85!black}\faPhone~Hotline: 0866976878}
+      \end{tcolorbox}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.56\textwidth}
+      \centering
+      {\footnotesize\bfseries\color{blue!80!black}\MakeUppercase{#1}}\\[2pt]
+      {\large\bfseries\color{red!85!black}\MakeUppercase{BÀI #2: #3}}\\[2pt]
+      {\scriptsize\itshape Thời gian làm bài: 35 phút -- Cấu trúc 3 phần chuẩn}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.14\textwidth}
+      \centering
+      \qrcode[height=1.35cm]{#4}\\[2pt]
+      {\tiny\bfseries\color{blue!90!black}\faQrcode~Quét QR thi}
+    \end{minipage}
+  \end{tcolorbox}
+  \vspace{1.5mm}
+}
+
+\begin{document}
+
+% =========================================================================
+% MỤC LỤC TỰ ĐỘNG
+% =========================================================================
+\tableofcontents
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 1: CÁC SỐ TỪ 0 ĐẾN 10
+% =========================================================================
+\section{Các số từ 0 đến 10}
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Các số từ 0 đến 10}{01}{Các số 0, 1, 2, 3, 4, 5}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-01}
+\input{CHỦ ĐỀ 1 - CÁC SỐ TỪ 0 ĐẾN 10/Chuong1_Bai01_CacSo0_1_2_3_4_5.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Các số từ 0 đến 10}{02}{Các số 6, 7, 8, 9, 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-02}
+\input{CHỦ ĐỀ 1 - CÁC SỐ TỪ 0 ĐẾN 10/Chuong1_Bai02_CacSo6_7_8_9_10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Các số từ 0 đến 10}{03}{Nhiều hơn, ít hơn, bằng nhau}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-03}
+\input{CHỦ ĐỀ 1 - CÁC SỐ TỪ 0 ĐẾN 10/Chuong1_Bai03_NhieuHonItHonBangNhau.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Các số từ 0 đến 10}{04}{So sánh số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-04}
+\input{CHỦ ĐỀ 1 - CÁC SỐ TỪ 0 ĐẾN 10/Chuong1_Bai04_SoSanhSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Các số từ 0 đến 10}{05}{Mấy và mấy}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-05}
+\input{CHỦ ĐỀ 1 - CÁC SỐ TỪ 0 ĐẾN 10/Chuong1_Bai05_MayVaMay.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 1 -- Các số từ 0 đến 10}{06}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-06}
+\input{CHỦ ĐỀ 1 - CÁC SỐ TỪ 0 ĐẾN 10/Chuong1_Bai06_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 2: LÀM QUEN VỚI MỘT SỐ HÌNH PHẲNG
+% =========================================================================
+\section{Làm quen với một số hình phẳng}
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Hình phẳng}{07}{Hình vuông, hình tròn, tam giác, chữ nhật}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-07}
+\input{CHỦ ĐỀ 2 - LÀM QUEN VỚI MỘT SỐ HÌNH PHẲNG/Chuong2_Bai07_HinhVuongHinhTronHinhTamGiacHinhChuNhat.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Hình phẳng}{08}{Thực hành lắp ghép, xếp hình}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-08}
+\input{CHỦ ĐỀ 2 - LÀM QUEN VỚI MỘT SỐ HÌNH PHẲNG/Chuong2_Bai08_ThucHanhLapGhepXepHinh.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 2 -- Hình phẳng}{09}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-09}
+\input{CHỦ ĐỀ 2 - LÀM QUEN VỚI MỘT SỐ HÌNH PHẲNG/Chuong2_Bai09_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 3: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10
+% =========================================================================
+\section{Phép cộng, phép trừ trong phạm vi 10}
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Phép cộng, phép trừ PV 10}{10}{Phép cộng trong phạm vi 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-10}
+\input{CHỦ ĐỀ 3 - PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10/Chuong3_Bai10_PhepCongTrongPhamVi10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Phép cộng, phép trừ PV 10}{11}{Phép trừ trong phạm vi 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-11}
+\input{CHỦ ĐỀ 3 - PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10/Chuong3_Bai11_PhepTruTrongPhamVi10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Phép cộng, phép trừ PV 10}{12}{Bảng cộng, bảng trừ trong phạm vi 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-12}
+\input{CHỦ ĐỀ 3 - PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10/Chuong3_Bai12_BangCongBangTruTrongPhamVi10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 3 -- Phép cộng, phép trừ PV 10}{13}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-13}
+\input{CHỦ ĐỀ 3 - PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10/Chuong3_Bai13_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 4: LÀM QUEN VỚI MỘT SỐ HÌNH KHỐI
+% =========================================================================
+\section{Làm quen với một số hình khối}
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Hình khối}{14}{Khối lập phương, khối hộp chữ nhật}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-14}
+\input{CHỦ ĐỀ 4 - LÀM QUEN VỚI MỘT SỐ HÌNH KHỐI/Chuong4_Bai14_KhoiLapPhuongKhoiHopChuNhat.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Hình khối}{15}{Vị trí, định hướng trong không gian}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-15}
+\input{CHỦ ĐỀ 4 - LÀM QUEN VỚI MỘT SỐ HÌNH KHỐI/Chuong4_Bai15_ViTriDinhHuongTrongKhongGian.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 4 -- Hình khối}{16}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-16}
+\input{CHỦ ĐỀ 4 - LÀM QUEN VỚI MỘT SỐ HÌNH KHỐI/Chuong4_Bai16_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 5: ÔN TẬP HỌC KÌ 1
+% =========================================================================
+\section{Ôn tập học kì 1}
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Ôn tập HK1}{17}{Ôn tập các số trong phạm vi 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-17}
+\input{CHỦ ĐỀ 5 - ÔN TẬP HỌC KÌ 1/Chuong5_Bai17_OnTapCacSoTrongPhamVi10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Ôn tập HK1}{18}{Ôn tập phép cộng, phép trừ PV 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-18}
+\input{CHỦ ĐỀ 5 - ÔN TẬP HỌC KÌ 1/Chuong5_Bai18_OnTapPhepCongPhepTruTrongPhamVi10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Ôn tập HK1}{19}{Ôn tập hình học}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-19}
+\input{CHỦ ĐỀ 5 - ÔN TẬP HỌC KÌ 1/Chuong5_Bai19_OnTapHinhHoc.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 5 -- Ôn tập HK1}{20}{Ôn tập chung học kì 1}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-20}
+\input{CHỦ ĐỀ 5 - ÔN TẬP HỌC KÌ 1/Chuong5_Bai20_OnTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 6: CÁC SỐ ĐẾN 100
+% =========================================================================
+\section{Các số đến 100}
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Các số đến 100}{21}{Số có hai chữ số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-21}
+\input{CHỦ ĐỀ 6 - CÁC SỐ ĐẾN 100/Chuong6_Bai21_SoCoHaiChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Các số đến 100}{22}{So sánh số có hai chữ số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-22}
+\input{CHỦ ĐỀ 6 - CÁC SỐ ĐẾN 100/Chuong6_Bai22_SoSanhSoCoHaiChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Các số đến 100}{23}{Bảng các số từ 1 đến 100}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-23}
+\input{CHỦ ĐỀ 6 - CÁC SỐ ĐẾN 100/Chuong6_Bai23_BangCacSoTu1Den100.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 6 -- Các số đến 100}{24}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-24}
+\input{CHỦ ĐỀ 6 - CÁC SỐ ĐẾN 100/Chuong6_Bai24_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 7: ĐỘ DÀI VÀ ĐO ĐỘ DÀI
+% =========================================================================
+\section{Độ dài và đo độ dài}
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Độ dài \& Đo độ dài}{25}{Dài hơn, ngắn hơn}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-25}
+\input{CHỦ ĐỀ 7 - ĐỘ DÀI VÀ ĐO ĐỘ DÀI/Chuong7_Bai25_DaiHonNganHon.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Độ dài \& Đo độ dài}{26}{Đơn vị đo độ dài}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-26}
+\input{CHỦ ĐỀ 7 - ĐỘ DÀI VÀ ĐO ĐỘ DÀI/Chuong7_Bai26_DonViDoDoDai.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Độ dài \& Đo độ dài}{27}{Thực hành ước lượng và đo độ dài}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-27}
+\input{CHỦ ĐỀ 7 - ĐỘ DÀI VÀ ĐO ĐỘ DÀI/Chuong7_Bai27_ThucHanhUocLuongVaDoDoDai.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 7 -- Độ dài \& Đo độ dài}{28}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-28}
+\input{CHỦ ĐỀ 7 - ĐỘ DÀI VÀ ĐO ĐỘ DÀI/Chuong7_Bai28_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 8: PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100
+% =========================================================================
+\section{Phép cộng, phép trừ (không nhớ) trong phạm vi 100}
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép tính PV 100}{29}{Cộng số 2 chữ số với số 1 chữ số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-29}
+\input{CHỦ ĐỀ 8 - PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100/Chuong8_Bai29_PhepCongSoCoHaiChuSoVoiSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép tính PV 100}{30}{Cộng số 2 chữ số với số 2 chữ số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-30}
+\input{CHỦ ĐỀ 8 - PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100/Chuong8_Bai30_PhepCongSoCoHaiChuSoVoiSoCoHaiChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép tính PV 100}{31}{Trừ số 2 chữ số cho số 1 chữ số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-31}
+\input{CHỦ ĐỀ 8 - PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100/Chuong8_Bai31_PhepTruSoCoHaiChuSoChoSoCoMotChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép tính PV 100}{32}{Trừ số 2 chữ số cho số 2 chữ số}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-32}
+\input{CHỦ ĐỀ 8 - PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100/Chuong8_Bai32_PhepTruSoCoHaiChuSoChoSoCoHaiChuSo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 8 -- Phép tính PV 100}{33}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-33}
+\input{CHỦ ĐỀ 8 - PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100/Chuong8_Bai33_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 9: THỜI GIAN. GIỜ VÀ LỊCH
+% =========================================================================
+\section{Thời gian. Giờ và lịch}
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Thời gian. Giờ \& Lịch}{34}{Xem giờ đúng trên đồng hồ}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-34}
+\input{CHỦ ĐỀ 9 - THỜI GIAN. GIỜ VÀ LỊCH/Chuong9_Bai34_XemGioDungTrenDongHo.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Thời gian. Giờ \& Lịch}{35}{Các ngày trong tuần}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-35}
+\input{CHỦ ĐỀ 9 - THỜI GIAN. GIỜ VÀ LỊCH/Chuong9_Bai35_CacNgayTrongTuan.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Thời gian. Giờ \& Lịch}{36}{Thực hành xem lịch và giờ}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-36}
+\input{CHỦ ĐỀ 9 - THỜI GIAN. GIỜ VÀ LỊCH/Chuong9_Bai36_ThucHanhXemLichVaGio.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 9 -- Thời gian. Giờ \& Lịch}{37}{Luyện tập chung}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-37}
+\input{CHỦ ĐỀ 9 - THỜI GIAN. GIỜ VÀ LỊCH/Chuong9_Bai37_LuyenTapChung.tex}
+\newpage
+
+% =========================================================================
+% CHỦ ĐỀ 10: ÔN TẬP CUỐI NĂM
+% =========================================================================
+\section{Ôn tập cuối năm}
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Ôn tập cuối năm}{38}{Ôn tập các số \& phép tính PV 10}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-38}
+\input{CHỦ ĐỀ 10 - ÔN TẬP CUỐI NĂM/Chuong10_Bai38_OnTapCacSoVaPhepTinhPhamVi10.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Ôn tập cuối năm}{39}{Ôn tập các số \& phép tính PV 100}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-39}
+\input{CHỦ ĐỀ 10 - ÔN TẬP CUỐI NĂM/Chuong10_Bai39_OnTapCacSoVaPhepTinhPhamVi100.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Ôn tập cuối năm}{40}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-40}
+\input{CHỦ ĐỀ 10 - ÔN TẬP CUỐI NĂM/Chuong10_Bai40_OnTapHinhHocVaDoLuong.tex}
+\newpage
+
+\TaoPhieuKiemTra{Chủ đề 10 -- Ôn tập cuối năm}{41}{Ôn tập chung cuối năm}{https://loptoanthaylinh.vn/thi-online/toan-1/bai-41}
+\input{CHỦ ĐỀ 10 - ÔN TẬP CUỐI NĂM/Chuong10_Bai41_OnTapChung.tex}
+
+\end{document}

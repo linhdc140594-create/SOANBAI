@@ -1,0 +1,153 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 38. Nhân với số có một chữ số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 38: NHÂN VỚI SỐ CÓ MỘT CHỮ SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Kĩ thuật đặt tính thẳng cột, quy tắc nhân từ phải sang trái và xử lí nhớ sang hàng liền trước trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencil\ 1. Đặt tính \& Thứ tự thực hiện},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặt tính}:
+    \par
+    --- Viết thừa số thứ nhất ở trên.\\
+    --- Viết thừa số thứ hai (có 1 chữ số) ở dưới, \textbf{thẳng cột hàng đơn vị}.\\
+    --- Viết dấu $\times$ bên trái, kẻ dấu gạch ngang dưới.
+    $\bullet$ \textbf{Thứ tự tính}: Thực hiện nhân \textbf{từ phải sang trái} (từ hàng đơn vị đến chục, trăm, nghìn...).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ 2. Kĩ thuật nhân có nhớ},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Nếu tích của một hàng $\ge 10$:
+    \par
+    --- Viết chữ số hàng đơn vị vào kết quả.\\
+    --- \textbf{Nhớ chữ số hàng chục} sang hàng liền kề bên trái.
+    $\bullet$ \textbf{Quy tắc vàng}: Lượt nhân tiếp theo phải \textbf{nhân trước rồi mới cộng số nhớ vào tích}.\\
+    $\bullet$ Lượt nhân cuối cùng: Viết toàn bộ kết quả.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: QUY TRÌNH NHÂN CÓ NHỚ $14\,253 \times 4$ TRỰC QUAN},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    box/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=2.5pt, font=\scriptsize\bfseries, align=center},
+    stepb/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!8, thick, inner sep=2pt, font=\scriptsize\bfseries, align=left, text width=9.2cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    % Cột phép tính bên trái
+    \node[box, fill=white, draw=purple!80!black, text width=4.5cm, inner sep=4pt] (calc) at (2.2, 0) {
+      \large
+      \begin{tabular}{c@{\,}r@{\,}r@{\,}r@{\,}r@{\,}r}
+        & $1$ & $4$ & $2$ & $5$ & $3$ \\
+        $\times$ & & & & & $4$ \\
+        \hline
+        & $\mathbf{5}$ & $\mathbf{7}$ & $\mathbf{0}$ & $\mathbf{1}$ & $\mathbf{2}$
+      \end{tabular}
+    };
+
+    % Các bước bên phải
+    \node[stepb, draw=teal!80!black, fill=teal!8] (s1) at (9.8, 1.25) {\textbf{B1 (Đơn vị):} $4 \times 3 = 12 \rightarrow$ Viết $\mathbf{2}$, nhớ $1$};
+    \node[stepb, draw=orange!80!black, fill=orange!10] (s2) at (9.8, 0.42) {\textbf{B2 (Hàng chục):} $4 \times 5 = 20$, thêm $1$ bằng $21 \rightarrow$ Viết $\mathbf{1}$, nhớ $2$};
+    \node[stepb, draw=blue!75!black, fill=blue!8] (s3) at (9.8, -0.42) {\textbf{B3 (Hàng trăm):} $4 \times 2 = 8$, thêm $2$ bằng $10 \rightarrow$ Viết $\mathbf{0}$, nhớ $1$};
+    \node[stepb, draw=purple!80!black, fill=purple!10] (s4) at (9.8, -1.25) {\textbf{B4 (Nghìn \& Chục nghìn):} $4 \times 4 + 1 = 17$ (viết $\mathbf{7}$, nhớ $1$); $4 \times 1 + 1 = \mathbf{5}$};
+
+    \draw[arr] (calc.east) -- (s2.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Ví dụ 1}: Đặt tính rồi tính $26\,148 \times 3$:\\
+    --- $3 \times 8 = 24$, viết $4$ nhớ $2$.\\
+    --- $3 \times 4 = 12$, thêm $2$ bằng $14$, viết $4$ nhớ $1$.\\
+    --- $3 \times 1 = 3$, thêm $1$ bằng $4$, viết $4$.\\
+    --- $3 \times 6 = 18$, viết $8$ nhớ $1$.\\
+    --- $3 \times 2 = 6$, thêm $1$ bằng $7$, viết $7$.\\
+    $\Rightarrow \mathbf{26\,148 \times 3 = 78\,444}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy cộng nhớ trước khi nhân}:\\
+    Học sinh hay lấy $(5 + 1) \times 4 = 24$ là \textbf{SAI}! Phải nhân trước: $4 \times 5 = 20$, rồi mới $+ 1 = 21$.\\
+    $\bullet$ \textbf{Bẫy quên nhớ}: Khi nhân số có nhiều chữ số liên tiếp có nhớ, hãy chấm nhẹ lên đầu chữ số để không quên!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

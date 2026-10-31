@@ -1,0 +1,199 @@
+\begin{ex}
+Hình vuông có mấy cạnh?
+\shortans{4}
+\loigiai{
+Hình vuông có 4 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình tam giác có mấy góc?
+\shortans{3}
+\loigiai{
+Hình tam giác có 3 góc.
+}
+\end{ex}
+
+\begin{ex}
+Hình tròn có mấy góc vuông?
+\shortans{0}
+\loigiai{
+Hình tròn không có góc vuông nào (0 góc vuông).
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có mấy cạnh?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có bao nhiêu đỉnh?
+\shortans{4}
+\loigiai{
+Hình tứ giác có 4 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu hình tam giác trong một biển báo giao thông hình tam giác?
+\shortans{1}
+\loigiai{
+Có 1 hình tam giác.
+}
+\end{ex}
+
+\begin{ex}
+Xếp 3 que tính thành một hình tam giác. Muốn xếp 3 hình tam giác rời nhau cần bao nhiêu que tính?
+\shortans{9}
+\loigiai{
+Cần: $3 + 3 + 3 = 9$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Xếp 1 hình vuông cần 4 que tính. Muốn xếp 2 hình vuông rời nhau cần bao nhiêu que tính?
+\shortans{8}
+\loigiai{
+Cần: $4 + 4 = 8$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật được ghép bởi 2 hình vuông cạnh nhau. Hình chữ nhật này có bao nhiêu cạnh bên ngoài?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 cạnh bên ngoài.
+}
+\end{ex}
+
+\begin{ex}
+Một lá cờ Tổ quốc hình chữ nhật có một ngôi sao vàng năm cánh. Chiếc lá cờ có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Lá cờ hình chữ nhật có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một khối rubik 3x3 có mỗi mặt là một hình vuông. Một mặt đó có bao nhiêu cạnh ngoài?
+\shortans{4}
+\loigiai{
+Mặt rubik là hình vuông có 4 cạnh ngoài.
+}
+\end{ex}
+
+\begin{ex}
+Có 6 hình tròn màu đỏ và 4 hình tam giác màu vàng. Tổng số hình là bao nhiêu?
+\shortans{10}
+\loigiai{
+Tổng số hình là: $6 + 4 = 10$ hình.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có 8 hình khối phẳng gồm hình vuông và hình tròn, trong đó có 5 hình vuông. Hỏi có bao nhiêu hình tròn?
+\shortans{3}
+\loigiai{
+Số hình tròn là: $8 - 5 = 3$ hình.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 2 cm. Tổng độ dài 3 cạnh là bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+Tổng độ dài là: $2 + 2 + 2 = 6$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có 4 cạnh bằng nhau, mỗi cạnh dài 2 cm. Tổng độ dài 4 cạnh là bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Tổng độ dài là: $2 + 2 + 2 + 2 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 3 cm và chiều rộng 2 cm. Tổng một chiều dài và một chiều rộng là bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Tổng là: $3 + 2 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ mộc có một thanh gỗ dài 10 cm, bác cưa bớt đi 3 cm để làm khung tranh hình tam giác. Thanh gỗ còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Thanh gỗ còn lại dài: $10 - 3 = 7$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Lan cắt được 4 hình tròn, Mai cắt được 6 hình tròn. Cả hai bạn cắt được tất cả bao nhiêu hình tròn?
+\shortans{10}
+\loigiai{
+Cả hai bạn cắt được: $4 + 6 = 10$ hình tròn.
+}
+\end{ex}
+
+\begin{ex}
+Việt có 9 hình que tính, Việt cho Nam 4 hình que tính. Việt còn lại bao nhiêu que tính?
+\shortans{5}
+\loigiai{
+Việt còn lại: $9 - 4 = 5$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu góc vuông trong 2 hình vuông?
+\shortans{8}
+\loigiai{
+Mỗi hình vuông có 4 góc vuông. Hai hình vuông có: $4 + 4 = 8$ góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu cạnh trong 3 hình tam giác rời nhau?
+\shortans{9}
+\loigiai{
+Mỗi hình tam giác có 3 cạnh. Ba hình có: $3 + 3 + 3 = 9$ cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Trong bức tranh có: 2 hình vuông, 3 hình tròn, 4 hình tam giác và 1 hình chữ nhật. Có bao nhiêu hình tứ giác (hình vuông và hình chữ nhật)?
+\shortans{3}
+\loigiai{
+Có 2 hình vuông và 1 hình chữ nhật, tổng là: $2 + 1 = 3$ hình tứ giác.
+}
+\end{ex}
+
+\begin{ex}
+Trong bức tranh trên, có tất cả bao nhiêu hình phẳng?
+\shortans{10}
+\loigiai{
+Tổng số hình: $2 + 3 + 4 + 1 = 10$ hình phẳng.
+}
+\end{ex}
+
+\begin{ex}
+Cắt một tờ giấy hình vuông thành hai phần bằng nhau bởi một đường thẳng cắt ngang song song với cạnh. Mỗi phần là hình gì? Cả hai phần gồm bao nhiêu hình chữ nhật nhỏ?
+\shortans{2}
+\loigiai{
+Gồm 2 hình chữ nhật nhỏ.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu điểm (đỉnh) không thẳng hàng để nối lại tạo thành một hình tam giác?
+\shortans{3}
+\loigiai{
+Cần đúng 3 điểm để tạo thành 1 hình tam giác.
+}
+\end{ex}

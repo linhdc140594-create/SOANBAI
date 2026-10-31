@@ -1,0 +1,176 @@
+=== BÀI 23: NHÂN, CHIA SỐ THẬP PHÂN VỚI 10, 100, 1000... ===
+
+Câu 1: Tính: 4{,}75 x 100.
+Đáp án: [shortans]475[/shortans]
+Lời giải chi tiết:
+4{,}75 x 100 = 475.
+
+----------------------------------------
+
+Câu 2: Tính: 0{,}085 x 1000.
+Đáp án: [shortans]85[/shortans]
+Lời giải chi tiết:
+0{,}085 x 1 000 = 85.
+
+----------------------------------------
+
+Câu 3: Tính: 35{,}2 x 10.
+Đáp án: [shortans]352[/shortans]
+Lời giải chi tiết:
+35{,}2 x 10 = 352.
+
+----------------------------------------
+
+Câu 4: Tính: 1{,}2 x 100.
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+1{,}2 x 100 = 120.
+
+----------------------------------------
+
+Câu 5: Tính: 450 : 10.
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+450 : 10 = 45.
+
+----------------------------------------
+
+Câu 6: Tính: 3 800 : 100.
+Đáp án: [shortans]38[/shortans]
+Lời giải chi tiết:
+3 800 : 100 = 38.
+
+----------------------------------------
+
+Câu 7: Nhân một số với 0{,}1 bằng chia số đó cho bao nhiêu?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Nhân với 0,1 bằng chia cho 10.
+
+----------------------------------------
+
+Câu 8: Nhân một số với 0{,}01 bằng chia số đó cho bao nhiêu?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Nhân với 0,01 bằng chia cho 100.
+
+----------------------------------------
+
+Câu 9: Chia một số cho 0{,}1 bằng nhân số đó với bao nhiêu?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Chia cho 0,1 bằng nhân với 10.
+
+----------------------------------------
+
+Câu 10: Chia một số cho 0{,}25 bằng nhân số đó với bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Chia cho 0,25 bằng nhân với 4.
+
+----------------------------------------
+
+Câu 11: Tính: 25 : 0{,}1.
+Đáp án: [shortans]250[/shortans]
+Lời giải chi tiết:
+25 : 0{,}1 = 25 x 10 = 250.
+
+----------------------------------------
+
+Câu 12: Tính: 48 x 0{,}5.
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+48 x 0{,}5 = 48 : 2 = 24.
+
+----------------------------------------
+
+Câu 13: Tính: 32 : 0{,}5.
+Đáp án: [shortans]64[/shortans]
+Lời giải chi tiết:
+32 : 0{,}5 = 32 x 2 = 64.
+
+----------------------------------------
+
+Câu 14: Tính: 15 x 0{,}1 x 100.
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+1{,}5 x 100 = 150.
+
+----------------------------------------
+
+Câu 15: Tính: 72 : 0{,}01 : 100.
+Đáp án: [shortans]72[/shortans]
+Lời giải chi tiết:
+72 x 100 : 100 = 72.
+
+----------------------------------------
+
+Câu 16: Tìm x biết: x : 100 = 0{,}45.
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+x = 0{,}45 x 100 = 45.
+
+----------------------------------------
+
+Câu 17: Tìm x biết: x x 0{,}1 = 3{,}5.
+Đáp án: [shortans]35[/shortans]
+Lời giải chi tiết:
+x = 3{,}5 : 0{,}1 = 35.
+
+----------------------------------------
+
+Câu 18: Một bao gạo nặng 50\text{ kg}. Hỏi 100 bao gạo như thế nặng bao nhiêu tạ?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Tổng là 50 x 100 = 5 000\text{ kg} = 50\text{ tạ}.
+
+----------------------------------------
+
+Câu 19: Một tập giấy dày 0{,}05\text{ mm}. Một xấp gồm 1 000 tờ giấy như thế dày bao nhiêu mi-li-mét?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+0{,}05 x 1 000 = 50\text{ mm}.
+
+----------------------------------------
+
+Câu 20: Đổi 35\text{ m} thành đề-xi-mét bằng cách nhân 35 với bao nhiêu?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Nhân với 10.
+
+----------------------------------------
+
+Câu 21: Đổi 4{,}5\text{ tấn} thành ki-lô-gam bằng cách nhân 4,5 với bao nhiêu?
+Đáp án: [shortans]1000[/shortans]
+Lời giải chi tiết:
+Nhân với 1000.
+
+----------------------------------------
+
+Câu 22: Tính nhanh: 3{,}4 x 10 + 3{,}4 x 90.
+Đáp án: [shortans]340[/shortans]
+Lời giải chi tiết:
+3{,}4 x (10 + 90) = 3{,}4 x 100 = 340.
+
+----------------------------------------
+
+Câu 23: Tính: 120 x 0{,}1 + 450 x 0{,}01 x 10.
+Đáp án: [shortans]57[/shortans]
+Lời giải chi tiết:
+12 + 45 = 57.
+
+----------------------------------------
+
+Câu 24: Tìm y biết: y : 0{,}25 + y : 0{,}5 = 30.
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+y x 4 + y x 2 = 30 \implies 6y = 30 \implies y = 5.
+
+----------------------------------------
+
+Câu 25: Nếu dịch dấu phẩy của số 3{,}45 sang bên phải hai chữ số thì số đó tăng lên gấp bao nhiêu lần?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Dịch sang phải 2 chữ số thì gấp lên 100 lần.
+
+----------------------------------------

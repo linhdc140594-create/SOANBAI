@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $1234 \times 2 = \dots$
+\shortans{2468}
+\loigiai{
+$1234 \times 2 = 2468$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2131 \times 3 = \dots$
+\shortans{6393}
+\loigiai{
+$2131 \times 3 = 6393$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1023 \times 3 = \dots$
+\shortans{3069}
+\loigiai{
+$1023 \times 3 = 3069$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1215 \times 4 = \dots$
+\shortans{4860}
+\loigiai{
+$1215 \times 4 = 4860$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1420 \times 3 = \dots$
+\shortans{4260}
+\loigiai{
+$1420 \times 3 = 4260$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1512 \times 5 = \dots$
+\shortans{7560}
+\loigiai{
+$1512 \times 5 = 7560$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1624 \times 4 = \dots$
+\shortans{6496}
+\loigiai{
+$1624 \times 4 = 6496$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2118 \times 3 = \dots$
+\shortans{6354}
+\loigiai{
+$2118 \times 3 = 6354$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2415 \times 4 = \dots$
+\shortans{9660}
+\loigiai{
+$2415 \times 4 = 9660$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1800 \times 5 = \dots$
+\shortans{9000}
+\loigiai{
+$1800 \times 5 = 9000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1250 \times 6 = \dots$
+\shortans{7500}
+\loigiai{
+$1250 \times 6 = 7500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1111 \times 8 = \dots$
+\shortans{8888}
+\loigiai{
+$1111 \times 8 = 8888$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1005 \times 7 = \dots$
+\shortans{7035}
+\loigiai{
+$1005 \times 7 = 7035$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1408 \times 6 = \dots$
+\shortans{8448}
+\loigiai{
+$1408 \times 6 = 8448$.
+}
+\end{ex}
+
+\begin{ex}
+Một xe tải chở 1250 viên gạch. Hỏi 4 xe tải như thế chở được bao nhiêu viên gạch?
+\shortans{5000}
+\loigiai{
+$1250 \times 4 = 5000$ viên gạch.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi cuộn dây thép nặng 1500 g. Hỏi 6 cuộn dây thép như thế nặng bao nhiêu gam?
+\shortans{9000}
+\loigiai{
+$1500 \times 6 = 9000$ g.
+}
+\end{ex}
+
+\begin{ex}
+Một trang trại nuôi bò có 4 khu, mỗi khu có 1150 con bò. Trang trại có tất cả bao nhiêu con bò?
+\shortans{4600}
+\loigiai{
+$1150 \times 4 = 4600$ con bò.
+}
+\end{ex}
+
+\begin{ex}
+Một công ty mua 3 chiếc máy in, mỗi chiếc giá 2300 nghìn đồng. Công ty phải trả bao nhiêu nghìn đồng?
+\shortans{6900}
+\loigiai{
+$2300 \times 3 = 6900$ nghìn đồng.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 4 = 1520$.
+\shortans{6080}
+\loigiai{
+$x = 1520 \times 4 = 6080$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 3 = 2410$.
+\shortans{7230}
+\loigiai{
+$x = 2410 \times 3 = 7230$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $1200 \times 4 + 1500$.
+\shortans{6300}
+\loigiai{
+$4800 + 1500 = 6300$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $2100 \times 3 - 3500$.
+\shortans{2800}
+\loigiai{
+$6300 - 3500 = 2800$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 1250 m. Chu vi hình vuông đó là bao nhiêu mét?
+\shortans{5000}
+\loigiai{
+$1250 \times 4 = 5000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bao gạo nặng 50 kg. Một kho có 140 bao gạo như vậy, tổng số ki-lô-gam gạo là bao nhiêu?
+\shortans{7000}
+\loigiai{
+$50 \times 140 = 7000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2500 \times 4 = \dots$
+\shortans{10000}
+\loigiai{
+$2500 \times 4 = 10000$.
+}
+\end{ex}

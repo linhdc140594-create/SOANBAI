@@ -1,0 +1,176 @@
+=== BÀI 13: LÀM TRÒN SỐ THẬP PHÂN ===
+
+Câu 1: Làm tròn số thập phân 4{,}7 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 7 (7 \ge 5) nên làm tròn lên thành 5.
+
+----------------------------------------
+
+Câu 2: Làm tròn số thập phân 8{,}3 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 3 (3 < 5) nên làm tròn xuống thành 8.
+
+----------------------------------------
+
+Câu 3: Làm tròn số thập phân 15{,}5 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 5 (5 \ge 5) nên làm tròn lên thành 16.
+
+----------------------------------------
+
+Câu 4: Làm tròn số thập phân 24{,}38 đến hàng phần mười ta được số 24{,}4. Chữ số hàng phần mười của số sau khi làm tròn là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần trăm là 8 (8 \ge 5) nên làm tròn lên được 24{,}4. Chữ số hàng phần mười là 4.
+
+----------------------------------------
+
+Câu 5: Làm tròn số thập phân 9{,}72 đến hàng phần mười ta được số 9{,}7. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần trăm là 2 (2 < 5) nên làm tròn xuống được 9{,}7. Chữ số là 7.
+
+----------------------------------------
+
+Câu 6: Làm tròn số thập phân 3{,}648 đến hàng phần trăm ta được số 3{,}65. Chữ số hàng phần trăm sau khi làm tròn là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần nghìn là 8 (8 \ge 5) nên làm tròn lên thành 3{,}65. Chữ số hàng phần trăm là 5.
+
+----------------------------------------
+
+Câu 7: Làm tròn số thập phân 7{,}824 đến hàng phần trăm ta được số 7{,}82. Chữ số hàng phần trăm sau khi làm tròn là bao nhiêu?
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần nghìn là 4 (4 < 5) nên làm tròn xuống thành 7{,}82. Chữ số là 2.
+
+----------------------------------------
+
+Câu 8: Làm tròn số thập phân 99{,}6 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 6 (6 \ge 5) nên làm tròn lên thành 100.
+
+----------------------------------------
+
+Câu 9: Có bao nhiêu số thập phân có một chữ số ở phần thập phân khi làm tròn đến hàng đơn vị thì được số 8?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Các số từ 7{,}5 đến 8{,}4: 7{,}5; 7{,}6; 7{,}7; 7{,}8; 7{,}9; 8{,}0; 8{,}1; 8{,}2; 8{,}3; 8{,}4. Có tất cả 10 số.
+
+----------------------------------------
+
+Câu 10: Một túi cam cân nặng 3{,}78\text{ kg}. Làm tròn khối lượng túi cam đến hàng đơn vị ta được bao nhiêu ki-lô-gam?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 7 nên làm tròn lên thành 4\text{ kg}.
+
+----------------------------------------
+
+Câu 11: Chiều dài một sợi dây là 12{,}4\text{ m}. Làm tròn độ dài đến hàng đơn vị ta được bao nhiêu mét?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 4 nên làm tròn xuống thành 12\text{ m}.
+
+----------------------------------------
+
+Câu 12: Làm tròn số 0{,}85 đến hàng phần mười ta được số 0{,}9. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần trăm là 5 nên làm tròn lên thành 0{,}9. Chữ số là 9.
+
+----------------------------------------
+
+Câu 13: Làm tròn số 5{,}09 đến hàng phần mười ta được số 5{,}1. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần trăm là 9 nên làm tròn lên thành 5{,}1. Chữ số là 1.
+
+----------------------------------------
+
+Câu 14: Làm tròn số 45{,}206 đến hàng phần trăm ta được số 45{,}21. Chữ số hàng phần trăm là bao nhiêu?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần nghìn là 6 nên làm tròn lên thành 45{,}21. Chữ số là 1.
+
+----------------------------------------
+
+Câu 15: Tìm chữ số x biết rằng khi làm tròn số 14{,}x đến hàng đơn vị ta được số 14. Có bao nhiêu chữ số x thỏa mãn?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Để làm tròn xuống 14 thì x \in \{0, 1, 2, 3, 4\}. Có 5 chữ số.
+
+----------------------------------------
+
+Câu 16: Tìm chữ số y biết rằng khi làm tròn số 25{,}y đến hàng đơn vị ta được số 26. Có bao nhiêu chữ số y thỏa mãn?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Để làm tròn lên 26 thì y \in \{5, 6, 7, 8, 9\}. Có 5 chữ số.
+
+----------------------------------------
+
+Câu 17: Một can dầu chứa 19{,}65 lít dầu. Làm tròn thể tích dầu đến hàng đơn vị ta được bao nhiêu lít?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 6 nên làm tròn lên thành 20 lít.
+
+----------------------------------------
+
+Câu 18: Số thập phân có một chữ số ở phần thập phân lớn nhất khi làm tròn đến hàng đơn vị được số 15 là 15{,}4. Chữ số hàng phần mười của số đó là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Số lớn nhất là 15{,}4. Chữ số hàng phần mười là 4.
+
+----------------------------------------
+
+Câu 19: Số thập phân có một chữ số ở phần thập phân bé nhất khi làm tròn đến hàng đơn vị được số 15 là 14{,}5. Chữ số hàng phần mười của số đó là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Số bé nhất là 14{,}5. Chữ số hàng phần mười là 5.
+
+----------------------------------------
+
+Câu 20: Làm tròn số 345{,}82 đến hàng chục ta được số nào?
+Đáp án: [shortans]350[/shortans]
+Lời giải chi tiết:
+Chữ số hàng đơn vị là 5 nên làm tròn lên thành 350.
+
+----------------------------------------
+
+Câu 21: Làm tròn số 123{,}45 đến hàng trăm ta được số nào?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Chữ số hàng chục là 2 (2 < 5) nên làm tròn xuống thành 100.
+
+----------------------------------------
+
+Câu 22: Tính tổng 4{,}6 + 3{,}8 = 8{,}4. Làm tròn kết quả tổng này đến hàng đơn vị được số nào?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Tổng là 8{,}4. Chữ số hàng phần mười là 4 nên làm tròn xuống thành 8.
+
+----------------------------------------
+
+Câu 23: Tính hiệu 12{,}5 - 4{,}2 = 8{,}3. Làm tròn kết quả hiệu này đến hàng đơn vị được số nào?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Hiệu là 8{,}3. Làm tròn đến hàng đơn vị được 8.
+
+----------------------------------------
+
+Câu 24: Tính tích 2{,}5 x 3 = 7{,}5. Làm tròn kết quả này đến hàng đơn vị được số nào?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Tích là 7{,}5. Chữ số hàng phần mười là 5 nên làm tròn lên thành 8.
+
+----------------------------------------
+
+Câu 25: Một học sinh có điểm trung bình các bài kiểm tra là 8{,}65. Điểm số này sau khi làm tròn đến hàng phần mười là 8{,}7. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần trăm là 5 nên làm tròn lên thành 8{,}7. Chữ số hàng phần mười là 7.
+
+----------------------------------------

@@ -1,0 +1,164 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 6. Cộng, trừ hai phân số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 06. CỘNG, TRỪ HAI PHÂN SỐ}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Kỹ thuật chọn mẫu số chung nhỏ nhất, cộng trừ với số tự nhiên trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC CƠ BẢN ---
+\noindent
+\begin{minipage}[t]{0.55\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy trình cộng, trừ 2 phân số khác mẫu},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Bước 1:} Tìm \textbf{Mẫu số chung} (MSC) thích hợp.\\
+    $\triangleright$ Tốt nhất chọn số nhỏ nhất chia hết cho cả hai mẫu.\\
+    \textbf{Bước 2:} Tìm thừa số phụ của từng mẫu số.\\
+    \textbf{Bước 3:} Quy đồng tử số tương ứng.\\
+    \textbf{Bước 4:} Thực hiện phép cộng (hoặc trừ) tử số và giữ nguyên MSC.\\
+    \textbf{Bước 5:} Rút gọn kết quả về tối giản (nếu chưa tối giản).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.43\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSliders\ 2. Cộng, trừ với số tự nhiên},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Viết số tự nhiên dưới dạng phân số có mẫu số bằng MSC:\\
+    $\bullet$ $1 + \dfrac{3}{5} = \dfrac{5}{5} + \dfrac{3}{5} = \dfrac{8}{5}$.\\[2pt]
+    $\bullet$ $2 - \dfrac{3}{4} = \dfrac{8}{4} - \dfrac{3}{4} = \dfrac{5}{4}$.\\[2pt]
+    $\bullet$ $\dfrac{11}{3} - 3 = \dfrac{11}{3} - \dfrac{9}{3} = \dfrac{2}{3}$.\\[2pt]
+    \textit{Mẹo nhanh:} $a \pm \dfrac{b}{c} = \dfrac{a \times c \pm b}{c}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: KỸ THUẬT CHỌN MẪU SỐ CHUNG TỐI ƯU ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faLightbulbO\ 3. Ba trường hợp tìm Mẫu số chung (MSC) thông minh},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{ll}
+    $\bullet$ \textbf{Trường hợp 1 (Mẫu lớn chia hết cho mẫu bé):} Lấy luôn mẫu lớn làm MSC.\\
+    \quad \textit{VD:} $\dfrac{5}{6} + \dfrac{1}{18}$: Vì $18$ chia hết cho $6$ nên chọn $\text{MSC} = 18 \rightarrow \dfrac{5 \times 3}{18} + \dfrac{1}{18} = \dfrac{16}{18} = \dfrac{8}{9}$.\\
+    $\bullet$ \textbf{Trường hợp 2 (Hai mẫu không có ước chung $>1$):} Lấy tích hai mẫu làm MSC.\\
+    \quad \textit{VD:} $\dfrac{2}{3} + \dfrac{1}{5}$: Chọn $\text{MSC} = 3 \times 5 = 15 \rightarrow \dfrac{10}{15} + \dfrac{3}{15} = \dfrac{13}{15}$.\\
+    $\bullet$ \textbf{Trường hợp 3 (Cùng chia hết cho một số):} Nhân mẫu lớn với $2, 3\dots$ xem có chia hết cho mẫu kia không.\\
+    \quad \textit{VD:} Mẫu $8$ và $12$: Thử $12 \times 2 = 24$ (chia hết cho $8$) $\rightarrow$ Chọn $\text{MSC} = 24$ (không cần lấy $8 \times 12 = 96$).
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Các bước cộng, trừ phân số},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    s1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    s2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    s3/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    s4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[s1] (s1) at (-6.3, 0) {1. Quan sát mẫu số\\(Cùng hay Khác mẫu?)};
+    \node[s2] (s2) at (-2.1, 0) {2. Khác mẫu:\\Quy đồng mẫu chung};
+    \node[s3] (s3) at (2.1, 0) {3. Cộng / trừ tử số\\Giữ nguyên mẫu};
+    \node[s4] (s4) at (6.3, 0) {4. Rút gọn kết quả\\(Về PSTG)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (s1) -- (s2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (s2) -- (s3);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (s3) -- (s4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TÍNH NHANH & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Tính chất phân phối và nhóm số hạng},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Nhóm các phân số có cùng mẫu lại với nhau:\\
+    \textit{VD:} $\left(\dfrac{3}{8} + \dfrac{2}{5}\right) + \dfrac{5}{8} = \left(\dfrac{3}{8} + \dfrac{5}{8}\right) + \dfrac{2}{5} = 1 + \dfrac{2}{5} = \dfrac{7}{5}$.\\
+    Tránh quy đồng cả 3 phân số cùng một lúc!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Luôn kiểm tra xem phân số ban đầu đã \textbf{tối giản} chưa. Nếu chưa, hãy rút gọn trước để việc quy đồng mẫu trở nên cực kì nhẹ nhàng.\\
+    $\bullet$ Quên rút gọn đáp số là lỗi bị trừ điểm phổ biến nhất!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

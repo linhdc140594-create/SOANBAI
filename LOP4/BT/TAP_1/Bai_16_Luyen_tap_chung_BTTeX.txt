@@ -1,0 +1,199 @@
+\begin{ex}
+Số 452 789 có chữ số hàng trăm nghìn là bao nhiêu?
+\shortans{4}
+\loigiai{
+Chữ số hàng trăm nghìn là 4.
+}
+\end{ex}
+
+\begin{ex}
+Số 6 500 000 có chữ số hàng triệu là bao nhiêu?
+\shortans{6}
+\loigiai{
+Chữ số hàng triệu là 6.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của 999 999 là số nào?
+\shortans{1000000}
+\loigiai{
+$999999 + 1 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của 1 000 000 là số nào?
+\shortans{999999}
+\loigiai{
+$1000000 - 1 = 999999$.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 748 000 đến hàng trăm nghìn được số nào?
+\shortans{700000}
+\loigiai{
+Hàng chục nghìn là 4 nên làm tròn thành 700 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 862 000 đến hàng trăm nghìn được số nào?
+\shortans{900000}
+\loigiai{
+Hàng chục nghìn là 6 nên làm tròn lên 900 000.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $450000, 540000, 405000, 504000$, số lớn nhất là số nào?
+\shortans{540000}
+\loigiai{
+540000 là số lớn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $1200000, 1020000, 2100000, 2010000$, số bé nhất là số nào?
+\shortans{1020000}
+\loigiai{
+1020000 là số bé nhất.
+}
+\end{ex}
+
+\begin{ex}
+Số tự nhiên bé nhất là số nào?
+\shortans{0}
+\loigiai{
+Số 0.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 7 chữ số là số nào?
+\shortans{1000000}
+\loigiai{
+Số đó là 1000000.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 6 chữ số khác nhau là số nào?
+\shortans{987654}
+\loigiai{
+Số đó là 987654.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 6 chữ số khác nhau là số nào?
+\shortans{102345}
+\loigiai{
+Số đó là 102345.
+}
+\end{ex}
+
+\begin{ex}
+Lớp nghìn gồm bao nhiêu hàng?
+\shortans{3}
+\loigiai{
+Gồm 3 hàng: nghìn, chục nghìn, trăm nghìn.
+}
+\end{ex}
+
+\begin{ex}
+Lớp đơn vị gồm bao nhiêu hàng?
+\shortans{3}
+\loigiai{
+Gồm 3 hàng.
+}
+\end{ex}
+
+\begin{ex}
+Lớp triệu gồm bao nhiêu hàng?
+\shortans{3}
+\loigiai{
+Gồm 3 hàng.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 5 trong số 5 432 100 là bao nhiêu?
+\shortans{5000000}
+\loigiai{
+Giá trị là 5 000 000.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 8 trong số 820 456 là bao nhiêu?
+\shortans{800000}
+\loigiai{
+Giá trị là 800 000.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$ là số tròn trăm nghìn biết $700000 < x < 900000$.
+\shortans{800000}
+\loigiai{
+Số đó là 800000.
+}
+\end{ex}
+
+\begin{ex}
+Số 1 tỉ có bao nhiêu chữ số 0?
+\shortans{9}
+\loigiai{
+Có 9 chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 2 000 000 và 1 700 000 là bao nhiêu?
+\shortans{300000}
+\loigiai{
+$2000000 - 1700000 = 300000$.
+}
+\end{ex}
+
+\begin{ex}
+Dãy số tự nhiên có kết thúc không? (Có kết thúc ghi 1, Không kết thúc ghi 0).
+\shortans{0}
+\loigiai{
+Không có kết thúc (vô tận).
+}
+\end{ex}
+
+\begin{ex}
+Hai số tự nhiên liên tiếp hơn kém nhau bao nhiêu đơn vị?
+\shortans{1}
+\loigiai{
+1 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Số 888 888 gồm bao nhiêu chữ số 8?
+\shortans{6}
+\loigiai{
+Có 6 chữ số 8.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $400000 + 600000 = \dots$
+\shortans{1000000}
+\loigiai{
+$400000 + 600000 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000000 - 350000 = \dots$
+\shortans{650000}
+\loigiai{
+$1000000 - 350000 = 650000$.
+}
+\end{ex}

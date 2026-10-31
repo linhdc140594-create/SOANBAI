@@ -1,0 +1,176 @@
+=== BÀI 70: ÔN TẬP TỈ SỐ, TỈ SỐ PHẦN TRĂM ===
+
+Câu 1: Tìm hai số có tổng là 100 và tỉ số là \frac{2}{3}. Số bé là bao nhiêu?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Tổng số phần: 2 + 3 = 5. Giá trị 1 phần: 100 : 5 = 20. Số bé: 20 x 2 = 40.
+
+----------------------------------------
+
+Câu 2: Ở bài trên, số lớn là bao nhiêu?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+20 x 3 = 60.
+
+----------------------------------------
+
+Câu 3: Tìm hai số có hiệu là 45 và tỉ số là \frac{4}{7}. Số bé là bao nhiêu?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Hiệu số phần: 7 - 4 = 3. Giá trị 1 phần: 45 : 3 = 15. Số bé: 15 x 4 = 60.
+
+----------------------------------------
+
+Câu 4: Ở bài trên, số lớn là bao nhiêu?
+Đáp án: [shortans]105[/shortans]
+Lời giải chi tiết:
+15 x 7 = 105.
+
+----------------------------------------
+
+Câu 5: Một lớp có 30 học sinh, trong đó có 12 bạn nam. Tỉ số phần trăm của số bạn nam là bao nhiêu phần trăm?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+(12 : 30) x 100\% = 40\%.
+
+----------------------------------------
+
+Câu 6: Ở lớp học trên, tỉ số phần trăm số bạn nữ là bao nhiêu phần trăm?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+100\% - 40\% = 60\%.
+
+----------------------------------------
+
+Câu 7: Tìm 15\% của 200. Kết quả là bao nhiêu?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+200 x 15\% = 30.
+
+----------------------------------------
+
+Câu 8: Tìm một số biết 25\% của nó là 50. Số đó là bao nhiêu?
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+50 : 25\% = 200.
+
+----------------------------------------
+
+Câu 9: Một cửa hàng bán chiếc xe đạp giá 2 triệu đồng, nhân dịp lễ giảm giá 10\%. Số tiền được giảm là bao nhiêu nghìn đồng?
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+2 000 x 10\% = 200 nghìn đồng.
+
+----------------------------------------
+
+Câu 10: Ở bài trên, giá bán sau khi giảm là bao nhiêu trăm nghìn đồng?
+Đáp án: [shortans]18[/shortans]
+Lời giải chi tiết:
+2 000 - 200 = 1 800 nghìn đồng = 18 trăm nghìn đồng.
+
+----------------------------------------
+
+Câu 11: Một người gửi tiết kiệm 50 triệu đồng với lãi suất 6\% một năm. Sau 1 năm tiền lãi nhận được là bao nhiêu triệu đồng?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+50 x 6\% = 3 triệu đồng.
+
+----------------------------------------
+
+Câu 12: Dân số một xã là 10 000 người, tỉ lệ tăng dân số hàng năm là 1{,}2\%. Sau một năm dân số xã tăng thêm bao nhiêu người?
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+10 000 x 1{,}2\% = 120 người.
+
+----------------------------------------
+
+Câu 13: Một mảnh đất hình chữ nhật có chu vi 160\text{ m}, chiều rộng bằng \frac{3}{5} chiều dài. Nửa chu vi là bao nhiêu mét?
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+160 : 2 = 80\text{ m}.
+
+----------------------------------------
+
+Câu 14: Ở bài trên, chiều rộng của mảnh đất là bao nhiêu mét?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Tổng số phần: 3 + 5 = 8. Chiều rộng: (80 : 8) x 3 = 30\text{ m}.
+
+----------------------------------------
+
+Câu 15: Ở bài trên, chiều dài của mảnh đất là bao nhiêu mét?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+(80 : 8) x 5 = 50\text{ m}.
+
+----------------------------------------
+
+Câu 16: Ở bài trên, diện tích của mảnh đất là bao nhiêu mét vuông?
+Đáp án: [shortans]1500[/shortans]
+Lời giải chi tiết:
+50 x 30 = 1 500\text{ m}^2.
+
+----------------------------------------
+
+Câu 17: Hiện nay mẹ hơn con 28 tuổi. Tuổi con bằng \frac{2}{9} tuổi mẹ. Tuổi con hiện nay là bao nhiêu tuổi?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Hiệu số phần: 9 - 2 = 7. Tuổi con: (28 : 7) x 2 = 8 tuổi.
+
+----------------------------------------
+
+Câu 18: Ở bài trên, tuổi mẹ hiện nay là bao nhiêu tuổi?
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+8 + 28 = 36 tuổi.
+
+----------------------------------------
+
+Câu 19: Tỉ số học sinh nam và nữ của khối 5 là \frac{4}{5}. Biết số học sinh nữ nhiều hơn nam là 20 bạn. Khối 5 có tất cả bao nhiêu học sinh?
+Đáp án: [shortans]180[/shortans]
+Lời giải chi tiết:
+Hiệu số phần: 5 - 4 = 1 phần = 20 bạn. Tổng số phần: 4 + 5 = 9. Tổng học sinh: 20 x 9 = 180 bạn.
+
+----------------------------------------
+
+Câu 20: Một tổ dự định làm 400 sản phẩm, đã làm được 480 sản phẩm. Tổ đó đã hoàn thành bao nhiêu phần trăm kế hoạch?
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+(480 : 400) x 100\% = 120\%.
+
+----------------------------------------
+
+Câu 21: Ở bài trên, tổ đó đã vượt mức kế hoạch bao nhiêu phần trăm?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+120\% - 100\% = 20\%.
+
+----------------------------------------
+
+Câu 22: Một bể nuôi cá có 30 con cá vàng và 20 con cá bảy màu. Tỉ số phần trăm cá vàng trong bể là bao nhiêu phần trăm?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Tổng số cá: 50 con. (30 : 50) x 100\% = 60\%.
+
+----------------------------------------
+
+Câu 23: Một chiếc tivi có giá 8 triệu đồng, được giảm giá 15\%. Khách hàng phải trả bao nhiêu trăm nghìn đồng?
+Đáp án: [shortans]68[/shortans]
+Lời giải chi tiết:
+Giảm: 8 x 15\% = 1{,}2 triệu. Còn lại: 8 - 1{,}2 = 6{,}8 triệu = 68 trăm nghìn.
+
+----------------------------------------
+
+Câu 24: Tìm x biết: x : 15 = 4 : 5. Giá trị của x là bao nhiêu?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+x = (15 x 4) : 5 = 12.
+
+----------------------------------------
+
+Câu 25: Số học sinh giỏi của trường là 240 em, chiếm 30\% số học sinh toàn trường. Trường đó có bao nhiêu học sinh?
+Đáp án: [shortans]800[/shortans]
+Lời giải chi tiết:
+240 : 30\% = 800 học sinh.
+
+----------------------------------------

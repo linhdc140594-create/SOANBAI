@@ -1,0 +1,199 @@
+\begin{ex}
+Số 64 520 000 có chữ số hàng triệu là bao nhiêu?
+\shortans{4}
+\loigiai{
+Chữ số hàng triệu là 4.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 899 999 là số nào?
+\shortans{900000}
+\loigiai{
+$899999 + 1 = 900000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của 1 000 000 là số nào?
+\shortans{999999}
+\loigiai{
+$1000000 - 1 = 999999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $450000 + 350000 = \dots$
+\shortans{800000}
+\loigiai{
+$450000 + 350000 = 800000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000000 - 450000 = \dots$
+\shortans{550000}
+\loigiai{
+$1000000 - 450000 = 550000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $25000 + 49000 + 75000$.
+\shortans{149000}
+\loigiai{
+$(25000 + 75000) + 49000 = 100000 + 49000 = 149000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số có tổng là 90 và hiệu là 10. Số lớn là bao nhiêu?
+\shortans{50}
+\loigiai{
+$(90 + 10) : 2 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số có tổng là 90 và hiệu là 10. Số bé là bao nhiêu?
+\shortans{40}
+\loigiai{
+$(90 - 10) : 2 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường thẳng vuông góc tạo thành góc bao nhiêu độ?
+\shortans{90}
+\loigiai{
+$90^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Góc bẹt bằng bao nhiêu độ?
+\shortans{180}
+\loigiai{
+$180^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Hình thoi có chu vi 44 cm. Cạnh của hình thoi dài bao nhiêu xăng-ti-mét?
+\shortans{11}
+\loigiai{
+$44 : 4 = 11$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hình thoi có hai đường chéo dài 14 cm và 10 cm. Diện tích là bao nhiêu xăng-ti-mét vuông?
+\shortans{70}
+\loigiai{
+$14 \times 10 : 2 = 70\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Hình bình hành có đáy 16 cm, chiều cao 5 cm. Diện tích là bao nhiêu xăng-ti-mét vuông?
+\shortans{80}
+\loigiai{
+$16 \times 5 = 80\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: 4 tấn 5 tạ = \dots tạ.
+\shortans{45}
+\loigiai{
+$40 + 5 = 45$ tạ.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: $5\text{ m}^2\ 20\text{ dm}^2 = \dots\text{ dm}^2$.
+\shortans{520}
+\loigiai{
+$500 + 20 = 520\text{ dm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Đổi: 2 phút 10 giây = \dots giây.
+\shortans{130}
+\loigiai{
+$120 + 10 = 130$ giây.
+}
+\end{ex}
+
+\begin{ex}
+Năm 1945 thuộc thế kỉ thứ mấy? (Ghi số tự nhiên).
+\shortans{20}
+\loigiai{
+Thế kỉ XX (20).
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 760 000 đến hàng trăm nghìn được số nào?
+\shortans{800000}
+\loigiai{
+Làm tròn lên 800 000.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có nửa chu vi là 35 m, chiều dài hơn chiều rộng 5 m. Chiều dài là bao nhiêu mét?
+\shortans{20}
+\loigiai{
+$(35 + 5) : 2 = 20$ m.
+}
+\end{ex}
+
+\begin{ex}
+Chiều rộng mảnh vườn trong bài toán trên là bao nhiêu mét?
+\shortans{15}
+\loigiai{
+$(35 - 5) : 2 = 15$ m.
+}
+\end{ex}
+
+\begin{ex}
+Diện tích mảnh vườn trong bài toán trên là bao nhiêu mét vuông?
+\shortans{300}
+\loigiai{
+$20 \times 15 = 300\text{ m}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức $a + b \times 3$ với $a = 100, b = 50$.
+\shortans{250}
+\loigiai{
+$100 + 150 = 250$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 150000 = 600000$.
+\shortans{450000}
+\loigiai{
+$x = 600000 - 150000 = 450000$.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 6 chữ số khác nhau là số nào?
+\shortans{987654}
+\loigiai{
+Số đó là 987654.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 6 chữ số khác nhau là số nào?
+\shortans{102345}
+\loigiai{
+Số đó là 102345.
+}
+\end{ex}

@@ -1,0 +1,199 @@
+\begin{ex}
+Số gồm 8 chục nghìn, 5 nghìn, 3 trăm, 4 chục và 2 đơn vị viết là gì?
+\shortans{85342}
+\loigiai{
+Số đó là 85342.
+}
+\end{ex}
+
+\begin{ex}
+Số 74 520 có chữ số hàng chục nghìn là bao nhiêu?
+\shortans{7}
+\loigiai{
+Chữ số hàng chục nghìn là 7.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 99 999 là số nào?
+\shortans{100000}
+\loigiai{
+$99999 + 1 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 70 000 là số nào?
+\shortans{69999}
+\loigiai{
+$70000 - 1 = 69999$.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 48 650 đến hàng nghìn ta được số nào?
+\shortans{49000}
+\loigiai{
+Làm tròn lên 49 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 73 200 đến hàng chục nghìn ta được số nào?
+\shortans{70000}
+\loigiai{
+Làm tròn thành 70 000.
+}
+\end{ex}
+
+\begin{ex}
+Số La Mã XIX biểu thị số tự nhiên nào?
+\shortans{19}
+\loigiai{
+XIX là 19.
+}
+\end{ex}
+
+\begin{ex}
+Số La Mã XIV biểu thị số tự nhiên nào?
+\shortans{14}
+\loigiai{
+XIV là 14.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $45600, 46500, 54600, 56400$, số nào bé nhất?
+\shortans{45600}
+\loigiai{
+45600 là số bé nhất.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $82450, 84250, 82540, 84520$, số nào lớn nhất?
+\shortans{84520}
+\loigiai{
+84520 là số lớn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 5 chữ số khác nhau là số nào?
+\shortans{98765}
+\loigiai{
+Số đó là 98765.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 5 chữ số khác nhau là số nào?
+\shortans{10234}
+\loigiai{
+Số đó là 10234.
+}
+\end{ex}
+
+\begin{ex}
+Số 55 555 có bao nhiêu chữ số 5?
+\shortans{5}
+\loigiai{
+Có 5 chữ số 5.
+}
+\end{ex}
+
+\begin{ex}
+Viết số thích hợp: $50000 + 7000 + 200 + 4 = \dots$
+\shortans{57204}
+\loigiai{
+Số đó là 57204.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 60 000 và 58 500 là bao nhiêu?
+\shortans{1500}
+\loigiai{
+$60000 - 58500 = 1500$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn chục nghìn từ 10 000 đến 100 000?
+\shortans{10}
+\loigiai{
+10 số.
+}
+\end{ex}
+
+\begin{ex}
+Số La Mã XX tương ứng số tự nhiên nào?
+\shortans{20}
+\loigiai{
+XX là 20.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ La Mã chỉ vào số XII nghĩa là mấy giờ?
+\shortans{12}
+\loigiai{
+XII là 12 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 850 đến hàng trăm được số nào?
+\shortans{900}
+\loigiai{
+Làm tròn lên 900.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 342 đến hàng chục được số nào?
+\shortans{340}
+\loigiai{
+Làm tròn thành 340.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $79999 < \dots < 80001$.
+\shortans{80000}
+\loigiai{
+Số ở giữa là 80000.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 6 trong số 65 432 là bao nhiêu?
+\shortans{60000}
+\loigiai{
+Chữ số 6 ở hàng chục nghìn có giá trị 60 000.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lớn nhất có 5 chữ số và số bé nhất có 5 chữ số là bao nhiêu?
+\shortans{89999}
+\loigiai{
+$99999 - 10000 = 89999$.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 000 đọc là một trăm nghìn, có bao nhiêu chữ số 0?
+\shortans{5}
+\loigiai{
+Có 5 chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$ là số tròn nghìn biết $68000 < x < 70000$.
+\shortans{69000}
+\loigiai{
+Số đó là 69000.
+}
+\end{ex}

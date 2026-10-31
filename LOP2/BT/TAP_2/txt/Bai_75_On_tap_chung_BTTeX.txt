@@ -1,0 +1,199 @@
+\begin{ex}
+Số lớn nhất có ba chữ số là số nào?
+\shortans{999}
+\loigiai{
+Số đó là 999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số đó là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số lớn nhất có ba chữ số là số nào?
+\shortans{1000}
+\loigiai{
+Số liền sau của 999 là 1000.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $348 + 275$.
+\shortans{623}
+\loigiai{
+Ta có $348 + 275 = 623$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $752 - 384$.
+\shortans{368}
+\loigiai{
+Ta có $752 - 384 = 368$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 8$.
+\shortans{40}
+\loigiai{
+Ta có $5 \times 8 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18 : 2$.
+\shortans{9}
+\loigiai{
+Ta có $18 : 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 : 5$.
+\shortans{9}
+\loigiai{
+Ta có $45 : 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $2 \times 9 + 35$.
+\shortans{53}
+\loigiai{
+Ta có $2 \times 9 = 18$, rồi $18 + 35 = 53$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $40 : 5 + 48$.
+\shortans{56}
+\loigiai{
+Ta có $40 : 5 = 8$, rồi $8 + 48 = 56$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $500 + 350 - 250$.
+\shortans{600}
+\loigiai{
+Ta có $500 + 350 = 850$, rồi $850 - 250 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $456 + \dots = 789$.
+\shortans{333}
+\loigiai{
+Số cần điền: $789 - 456 = 333$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $800 - \dots = 345$.
+\shortans{455}
+\loigiai{
+Số cần điền: $800 - 345 = 455$.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình tam giác có bao nhiêu cạnh?
+\shortans{3}
+\loigiai{
+Có 3 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có bao nhiêu đỉnh?
+\shortans{8}
+\loigiai{
+Có 8 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Khối trụ có bao nhiêu mặt phẳng đáy?
+\shortans{2}
+\loigiai{
+Có 2 mặt phẳng đáy.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình chữ nhật có chiều dài 20 cm, chiều rộng 10 cm là bao nhiêu xăng-ti-mét?
+\shortans{60}
+\loigiai{
+Chu vi: $(20 + 10) \times 2 = 60$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 9 cm là bao nhiêu xăng-ti-mét?
+\shortans{27}
+\loigiai{
+Chu vi: $9 \times 3 = 27$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Có 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 1 có bao nhiêu ngày?
+\shortans{31}
+\loigiai{
+Có 31 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 2A có 35 học sinh, lớp 2B có 38 học sinh. Cả hai lớp có bao nhiêu học sinh?
+\shortans{73}
+\loigiai{
+Cả hai lớp có: $35 + 38 = 73$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Quãng đường từ nhà An đến trường dài 250 m, từ trường đến nhà bà dài 350 m. Quãng đường từ nhà An đến nhà bà đi qua trường dài bao nhiêu mét?
+\shortans{600}
+\loigiai{
+Dài: $250 + 350 = 600$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000 - 250 - 350 - 100$.
+\shortans{300}
+\loigiai{
+Ta có $1000 - 250 = 750$, $750 - 350 = 400$, $400 - 100 = 300$.
+}
+\end{ex}

@@ -1,0 +1,167 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 65: BIỂU ĐỒ TRANH}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Kĩ năng đọc, phân tích và biểu diễn số liệu bằng biểu đồ tranh}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Khái niệm biểu đồ tranh}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Biểu đồ tranh} là biểu đồ sử dụng hình ảnh, biểu tượng hoặc bức tranh để biểu thị số liệu thu thập được.
+  \item Cấu tạo của một biểu đồ tranh gồm:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item \textbf{Tên biểu đồ:} Cho biết biểu đồ nói về nội dung gì.
+    \item \textbf{Các hàng (hoặc cột):} Tên đối tượng và các biểu tượng tranh tương ứng.
+    \item \textbf{Ghi chú:} Mỗi biểu tượng thay cho bao nhiêu đối tượng (ở lớp 2, mỗi biểu tượng thường ứng với \textbf{1 đối tượng}).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Các bước đọc và khai thác biểu đồ tranh}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bước 1: Đọc tên biểu đồ} để hiểu chủ đề cần tìm hiểu.
+  \item \textbf{Bước 2: Xem dòng quy ước/ghi chú} xem mỗi hình vẽ biểu diễn bao nhiêu đơn vị.
+  \item \textbf{Bước 3: Đếm số biểu tượng} ở mỗi dòng để biết số lượng của từng loại đối tượng.
+  \item \textbf{Bước 4: So sánh và tính toán:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Tìm loại có nhiều nhất, ít nhất.
+    \item So sánh loại này nhiều hơn/ít hơn loại kia bao nhiêu.
+    \item Tính tổng số đối tượng trên biểu đồ.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Mô phỏng cấu trúc trực quan của một biểu đồ tranh}
+]
+\centering
+\begin{tikzpicture}[x=1.5cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] at (2.5,0.7) {TÊN BIỂU ĐỒ: SỐ QUẢ TRÁI CÂY TRONG RỔ};
+
+  \node[font=\tiny\bfseries, align=right] at (0.5,0) {Táo:};
+  \node[font=\normalsize\bfseries, color=red!80!black] at (2.2,0) {$\bigstar\ \bigstar\ \bigstar\ \bigstar$};
+  \node[font=\tiny\bfseries] at (4.2,0) {($4$ quả)};
+
+  \node[font=\tiny\bfseries, align=right] at (0.5,-0.6) {Cam:};
+  \node[font=\normalsize\bfseries, color=orange!90!black] at (2.5,-0.6) {$\bigstar\ \bigstar\ \bigstar\ \bigstar\ \bigstar$};
+  \node[font=\tiny\bfseries] at (4.2,-0.6) {($5$ quả)};
+
+  \node[font=\tiny\itshape, color=black!70] at (2.5,-1.2) {(Ghi chú: Mỗi $\bigstar$ biểu diễn $1$ quả)};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Câu hỏi khai thác biểu đồ mẫu}
+]
+{\footnotesize
+Dựa vào biểu đồ trên, trả lời:\\
+- Trong rổ có \textbf{$4$ quả táo} và \textbf{$5$ quả cam}.\\
+- Loại quả nhiều hơn là: \textbf{Cam} (nhiều hơn $1$ quả vì $5 - 4 = 1$).\\
+- Cả rổ có tất cả bao nhiêu quả?\\
+$4 + 5 = \mathbf{9}$ (quả).\\
+- Nếu ăn mất $2$ quả cam thì còn: $5 - 2 = \mathbf{3}$ quả cam.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Cạm bẫy học sinh cần nhớ}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Không đọc phần quy ước ghi chú:} Luôn phải nhìn chú thích ở dưới cùng xem $1$ hình vẽ ứng với mấy đồ vật.
+  \item Nhầm lẫn giữa số biểu tượng tranh và số lượng thực tế khi có bài toán quy ước đặc biệt.
+  \item Trả lời cộc lốc thiếu đơn vị (phải ghi rõ $4$ \textbf{quả táo}, $5$ \textbf{quả cam}).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

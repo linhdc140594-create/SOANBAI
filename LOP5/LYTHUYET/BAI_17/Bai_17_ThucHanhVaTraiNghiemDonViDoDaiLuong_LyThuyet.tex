@@ -1,0 +1,159 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 17. Thực hành và trải nghiệm đơn vị đo đại lượng --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 17. THỰC HÀNH VÀ TRẢI NGHIỆM ĐƠN VỊ ĐO ĐẠI LƯỢNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Kỹ năng ước lượng, đo đạc diện tích thực tế và giải bài toán cuộc sống trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: KỸ NĂNG ƯỚC LƯỢNG DIỆN TÍCH ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ 1. Chọn đơn vị đo thích hợp với đối tượng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Mặt bàn học, bìa sách, nhãn vở:} Dùng $\text{cm}^2$ hoặc $\text{dm}^2$.\\
+    $\bullet$ \textbf{Căn phòng, nền nhà, sân trường:} Dùng $\text{m}^2$.\\
+    $\bullet$ \textbf{Cánh đồng, khu đô thị, công viên lớn:} Dùng $\text{ha}$.\\
+    $\bullet$ \textbf{Diện tích một huyện, tỉnh, thành phố, biển:} Dùng $\text{km}^2$.\\
+    \textit{VD:} Diện tích Thủ đô Hà Nội khoảng $3\,359\text{ km}^2$; Diện tích một lớp học khoảng $50\text{ m}^2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCompass\ 2. Kỹ năng đo đạc thực tế},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bước 1:} Chọn dụng cụ đo thích hợp (thước dây, thước cuộn, thước kẻ).\\
+    $\bullet$ \textbf{Bước 2:} Đo các kích thước cơ bản (dài, rộng, cạnh).\\
+    $\bullet$ \textbf{Bước 3:} Quy đổi về cùng một đơn vị trước khi tính.\\
+    $\bullet$ \textbf{Bước 4:} Áp dụng công thức tính diện tích thích hợp.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN THỰC TẾ: LÁT GẠCH NỀN NHÀ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faHome\ 3. Bài toán thực tế kinh điển: Tính số viên gạch lát nền},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \textbf{Quy trình 3 bước giải quyết bài toán lát gạch:}\\
+  $\triangleright$ \textbf{Bước 1:} Tính diện tích nền nhà: $S_{\text{nền}} = \text{Dài} \times \text{Rộng}$ (thường theo đơn vị $\text{m}^2$).\\
+  $\triangleright$ \textbf{Bước 2:} Tính diện tích một viên gạch: $S_{\text{gạch}} = a \times a$ (thường theo đơn vị $\text{dm}^2$ hoặc $\text{cm}^2$).\\
+  $\triangleright$ \textbf{Bước 3:} \textbf{Đổi diện tích nền nhà về cùng đơn vị với viên gạch} rồi tính:\\
+  \begin{tcolorbox}[colback=white, colframe=purple!70!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+    {\scriptsize\bfseries\color{purple!90!black}$\text{Số viên gạch} = S_{\text{nền nhà}} : S_{1\text{ viên gạch}}$} \quad (Nếu hỏi số tiền: lấy Số viên gạch $\times$ Giá tiền $1$ viên)
+  \end{tcolorbox}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Xử lý bài toán thực tế về diện tích},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {Đọc kĩ đề:\\Kích thước sân/phòng};
+    \node[b2] (n2) at (0, 0) {Thống nhất đơn vị đo\\($\text{m}^2 \leftrightarrow \text{dm}^2 \leftrightarrow \text{cm}^2$)};
+    \node[b3] (n3) at (5.8, 0) {Tính toán \&\\Ước lượng hợp lý};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: BÀI TOÁN SẢN LƯỢNG & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSeedling\ Dạng toán năng suất cây trồng},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Biết cứ $100\text{ m}^2$ thu hoạch được $k\text{ kg}$ lúa:\\
+    $\bullet$ Tính diện tích thửa ruộng (đổi ra $\text{m}^2$).\\
+    $\bullet$ Số ki-lô-gam thóc thu được: $(S : 100) \times k$.\\
+    $\bullet$ Nếu đề hỏi theo \textbf{tạ} hoặc \textbf{tấn}: Nhớ đổi đơn vị khối lượng ở bước cuối cùng!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Lỗi phổ biến: Lấy diện tích phòng tính bằng $\text{m}^2$ chia trực tiếp cho diện tích viên gạch tính bằng $\text{cm}^2$ $\rightarrow$ \textbf{Sai hoàn toàn}!\\
+    $\bullet$ Bắt buộc phải đồng nhất đơn vị trước khi chia.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

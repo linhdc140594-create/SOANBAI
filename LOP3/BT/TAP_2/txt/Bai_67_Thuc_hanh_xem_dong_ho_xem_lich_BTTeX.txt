@@ -1,0 +1,199 @@
+\begin{ex}
+Buổi học bắt đầu lúc 7 giờ 30 phút và kết thúc lúc 11 giờ cùng ngày. Buổi học kéo dài bao nhiêu phút?
+\shortans{210}
+\loigiai{
+Từ 7h30 đến 11h là 3 giờ 30 phút = $3 \times 60 + 30 = 210$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Hùng đi từ nhà lúc 6 giờ 45 phút và đến trường lúc 7 giờ. Hùng đi hết bao nhiêu phút?
+\shortans{15}
+\loigiai{
+$7\text{h} - 6\text{h}45 = 15$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Trận bóng đá bắt đầu lúc 15 giờ và kéo dài 90 phút. Trận đấu kết thúc lúc mấy giờ chiều và bao nhiêu phút? (Chỉ ghi số phút lẻ sau 16 giờ).
+\shortans{30}
+\loigiai{
+15 giờ + 90 phút = 16 giờ 30 phút.
+}
+\end{ex}
+
+\begin{ex}
+Một bộ phim kéo dài từ 19 giờ 15 phút đến 21 giờ 15 phút. Bộ phim dài bao nhiêu giờ?
+\shortans{2}
+\loigiai{
+$21 - 19 = 2$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 20 tháng 11 là thứ Tư thì ngày 27 tháng 11 là thứ mấy? (Điền số thứ).
+\shortans{4}
+\loigiai{
+Thứ Tư (4).
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 8 tháng 3 là thứ Bảy thì ngày 1 tháng 3 là thứ mấy? (Điền số thứ).
+\shortans{7}
+\loigiai{
+Lùi 7 ngày vẫn là thứ Bảy (7).
+}
+\end{ex}
+
+\begin{ex}
+Tháng 10 có bao nhiêu ngày?
+\shortans{31}
+\loigiai{
+Tháng 10 có 31 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 6 có bao nhiêu ngày?
+\shortans{30}
+\loigiai{
+Tháng 6 có 30 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần có 7 ngày. Hỏi 4 tuần có bao nhiêu ngày?
+\shortans{28}
+\loigiai{
+$7 \times 4 = 28$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Lan ngủ từ 21 giờ đêm hôm trước đến 6 giờ sáng hôm sau. Bạn Lan đã ngủ bao nhiêu giờ?
+\shortans{9}
+\loigiai{
+Từ 21h đến 24h là 3 giờ; $3 + 6 = 9$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Tàu hỏa xuất phát lúc 6 giờ sáng và chạy hết 8 giờ. Tàu đến ga đích lúc mấy giờ?
+\shortans{14}
+\loigiai{
+$6 + 8 = 14$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ đi chợ từ 7 giờ 15 phút đến 8 giờ. Mẹ đi chợ hết bao nhiêu phút?
+\shortans{45}
+\loigiai{
+$60 - 15 = 45$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Một tiết học kéo dài 40 phút, bắt đầu lúc 8 giờ. Tiết học kết thúc lúc 8 giờ bao nhiêu phút?
+\shortans{40}
+\loigiai{
+8 giờ 40 phút.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày bác Nam làm việc 8 giờ. Một tuần bác làm việc 5 ngày. Hỏi trong một tuần bác Nam làm việc bao nhiêu giờ?
+\shortans{40}
+\loigiai{
+$8 \times 5 = 40$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là ngày 28 tháng 2 của một năm không nhuận thì ngày mai là ngày 1 tháng mấy?
+\shortans{3}
+\loigiai{
+Tháng 3.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là ngày 31 tháng 12 thì ngày mai là ngày 1 tháng mấy?
+\shortans{1}
+\loigiai{
+Ngày 1 tháng 1 năm sau.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 3 có 31 ngày. Hỏi tháng 3 nhiều hơn tháng 4 bao nhiêu ngày?
+\shortans{1}
+\loigiai{
+$31 - 30 = 1$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+2 giờ bằng bao nhiêu phút?
+\shortans{120}
+\loigiai{
+$2 \times 60 = 120$ phút.
+}
+\end{ex}
+
+\begin{ex}
+3 giờ bằng bao nhiêu phút?
+\shortans{180}
+\loigiai{
+$3 \times 60 = 180$ phút.
+}
+\end{ex}
+
+\begin{ex}
+180 phút bằng bao nhiêu giờ?
+\shortans{3}
+\loigiai{
+$180 : 60 = 3$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+2 ngày có bao nhiêu giờ?
+\shortans{48}
+\loigiai{
+$24 \times 2 = 48$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+3 tuần lễ có bao nhiêu ngày?
+\shortans{21}
+\loigiai{
+$7 \times 3 = 21$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 10 giờ kém 20 phút. Hỏi còn bao nhiêu phút nữa thì đến 10 giờ đúng?
+\shortans{20}
+\loigiai{
+Còn 20 phút nữa.
+}
+\end{ex}
+
+\begin{ex}
+Kim phút quay được 1 vòng quanh mặt đồng hồ thì hết bao nhiêu phút?
+\shortans{60}
+\loigiai{
+Hết 60 phút (1 giờ).
+}
+\end{ex}
+
+\begin{ex}
+Kim giờ quay được 1 vòng quanh mặt đồng hồ thì hết bao nhiêu giờ?
+\shortans{12}
+\loigiai{
+Hết 12 giờ.
+}
+\end{ex}

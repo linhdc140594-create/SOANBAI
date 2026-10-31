@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $3 + 7$.
+\shortans{10}
+\loigiai{
+Ta có $3 + 7 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10 - 3$.
+\shortans{7}
+\loigiai{
+Ta có $10 - 3 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 + 5$.
+\shortans{9}
+\loigiai{
+Ta có $4 + 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 - 5$.
+\shortans{4}
+\loigiai{
+Ta có $9 - 5 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6 + 2$.
+\shortans{8}
+\loigiai{
+Ta có $6 + 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8 - 6$.
+\shortans{2}
+\loigiai{
+Ta có $8 - 6 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 + 5$.
+\shortans{7}
+\loigiai{
+Ta có $2 + 5 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 - 2$.
+\shortans{5}
+\loigiai{
+Ta có $7 - 2 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1 + 6$.
+\shortans{7}
+\loigiai{
+Ta có $1 + 6 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 - 6$.
+\shortans{1}
+\loigiai{
+Ta có $7 - 6 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $4 + 3 - 2$.
+\shortans{5}
+\loigiai{
+Ta có $4 + 3 = 7$, rồi $7 - 2 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $8 - 5 + 4$.
+\shortans{7}
+\loigiai{
+Ta có $8 - 5 = 3$, rồi $3 + 4 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $10 - 6 + 3$.
+\shortans{7}
+\loigiai{
+Ta có $10 - 6 = 4$, rồi $4 + 3 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $9 - 7 + 8$.
+\shortans{10}
+\loigiai{
+Ta có $9 - 7 = 2$, rồi $2 + 8 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $2 + 6 - 3$.
+\shortans{5}
+\loigiai{
+Ta có $2 + 6 = 8$, rồi $8 - 3 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $5 + \dots = 10$.
+\shortans{5}
+\loigiai{
+Số thích hợp là: $10 - 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $10 - \dots = 8$.
+\shortans{2}
+\loigiai{
+Số thích hợp là: $10 - 8 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $6 + \dots = 8$.
+\shortans{2}
+\loigiai{
+Số thích hợp là: $8 - 6 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $8 - \dots = 1$.
+\shortans{7}
+\loigiai{
+Số thích hợp là: $8 - 1 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Biết $a + b = 9$. Nếu $a = 4$ thì $b$ bằng bao nhiêu?
+\shortans{5}
+\loigiai{
+Ta có $b = 9 - 4 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Biết $x - 3 = 6$. Giá trị của $x$ bằng bao nhiêu?
+\shortans{9}
+\loigiai{
+Ta có $x = 6 + 3 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Bác Ba có 10 quả cam, bác chia đều cho hai giỏ, mỗi giỏ có số cam bằng nhau. Hỏi mỗi giỏ có bao nhiêu quả cam?
+\shortans{5}
+\loigiai{
+Mỗi giỏ có $10 : 2 = 5$ quả cam (vì $5 + 5 = 10$).
+}
+\end{ex}
+
+\begin{ex}
+Có 7 chú chim én trên dây điện, 3 chú chim bay đi, sau đó lại có 4 chú chim khác bay đến đậu cùng. Hỏi trên dây điện có bao nhiêu chú chim?
+\shortans{8}
+\loigiai{
+Số chim trên dây điện là: $7 - 3 + 4 = 8$ con.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 6 cái kẹo, mẹ cho thêm 4 cái kẹo, Bình ăn hết 2 cái kẹo. Hỏi Bình còn lại bao nhiêu cái kẹo?
+\shortans{8}
+\loigiai{
+Bình còn lại: $6 + 4 - 2 = 8$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $3 + 4 - \dots = 1$.
+\shortans{6}
+\loigiai{
+Ta có $3 + 4 = 7$, vậy số cần điền là $7 - 1 = 6$.
+}
+\end{ex}

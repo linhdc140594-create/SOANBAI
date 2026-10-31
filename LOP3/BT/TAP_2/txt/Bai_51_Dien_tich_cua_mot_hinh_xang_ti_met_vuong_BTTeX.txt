@@ -1,0 +1,199 @@
+\begin{ex}
+Đơn vị đo diện tích xăng-ti-mét vuông viết tắt là gì? (Viết số: $\text{cm}^2$ có số mũ là bao nhiêu?).
+\shortans{2}
+\loigiai{
+Số mũ là 2.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 1 cm. Diện tích của hình vuông đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{1}
+\loigiai{
+$1 \times 1 = 1\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật được ghép bởi 6 ô vuông nhỏ, mỗi ô vuông có diện tích $1\text{ cm}^2$. Diện tích hình chữ nhật đó là bao nhiêu xăng-ti-mét vuông?
+\shortans{6}
+\loigiai{
+$6 \times 1 = 6\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một tấm bìa được tạo bởi 15 ô vuông nhỏ diện tích $1\text{ cm}^2$. Diện tích tấm bìa là bao nhiêu xăng-ti-mét vuông?
+\shortans{15}
+\loigiai{
+$15\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25\text{ cm}^2 + 35\text{ cm}^2 = \dots\text{ cm}^2$.
+\shortans{60}
+\loigiai{
+$25 + 35 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90\text{ cm}^2 - 42\text{ cm}^2 = \dots\text{ cm}^2$.
+\shortans{48}
+\loigiai{
+$90 - 42 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15\text{ cm}^2 \times 4 = \dots\text{ cm}^2$.
+\shortans{60}
+\loigiai{
+$15 \times 4 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84\text{ cm}^2 : 4 = \dots\text{ cm}^2$.
+\shortans{21}
+\loigiai{
+$84 : 4 = 21$.
+}
+\end{ex}
+
+\begin{ex}
+Một miếng bìa diện tích $45\text{ cm}^2$, người ta cắt đi $18\text{ cm}^2$. Miếng bìa còn lại bao nhiêu xăng-ti-mét vuông?
+\shortans{27}
+\loigiai{
+$45 - 18 = 27\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình gồm 8 ô vuông, mỗi ô vuông có diện tích $2\text{ cm}^2$. Diện tích cả hình là bao nhiêu xăng-ti-mét vuông?
+\shortans{16}
+\loigiai{
+$8 \times 2 = 16\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $30\text{ cm}^2 + 20\text{ cm}^2 \times 2$.
+\shortans{70}
+\loigiai{
+$30 + 40 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $(50\text{ cm}^2 - 20\text{ cm}^2) : 3$.
+\shortans{10}
+\loigiai{
+$30 : 3 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có diện tích $24\text{ cm}^2$ được chia thành 4 phần bằng nhau. Mỗi phần có diện tích bao nhiêu xăng-ti-mét vuông?
+\shortans{6}
+\loigiai{
+$24 : 4 = 6\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có diện tích $18\text{ cm}^2$, một hình tứ giác có diện tích $25\text{ cm}^2$. Tổng diện tích hai hình là bao nhiêu xăng-ti-mét vuông?
+\shortans{43}
+\loigiai{
+$18 + 25 = 43\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Hình A có diện tích $36\text{ cm}^2$, hình B có diện tích $12\text{ cm}^2$. Diện tích hình A gấp mấy lần diện tích hình B?
+\shortans{3}
+\loigiai{
+$36 : 12 = 3$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Hình M có diện tích $40\text{ cm}^2$, hình N có diện tích kém hình M là $15\text{ cm}^2$. Diện tích hình N là bao nhiêu xăng-ti-mét vuông?
+\shortans{25}
+\loigiai{
+$40 - 15 = 25\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $12\text{ cm}^2 \times 5 = \dots\text{ cm}^2$.
+\shortans{60}
+\loigiai{
+$12 \times 5 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $100\text{ cm}^2 : 5 = \dots\text{ cm}^2$.
+\shortans{20}
+\loigiai{
+$100 : 5 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Một tờ giấy màu đỏ diện tích $50\text{ cm}^2$, tờ giấy màu xanh diện tích $70\text{ cm}^2$. Cả hai tờ giấy có diện tích bao nhiêu xăng-ti-mét vuông?
+\shortans{120}
+\loigiai{
+$50 + 70 = 120\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Một con tem hình chữ nhật có diện tích $6\text{ cm}^2$. Hỏi 5 con tem như thế có tổng diện tích bao nhiêu xăng-ti-mét vuông?
+\shortans{30}
+\loigiai{
+$6 \times 5 = 30\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tấm bìa hình vuông gồm 16 ô vuông nhỏ mỗi ô diện tích $1\text{ cm}^2$. Hỏi diện tích tấm bìa là bao nhiêu xăng-ti-mét vuông?
+\shortans{16}
+\loigiai{
+$16 \times 1 = 16\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $14\text{ cm}^2 + 36\text{ cm}^2 : 4$.
+\shortans{23}
+\loigiai{
+$14 + 9 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $60\text{ cm}^2 - 15\text{ cm}^2 \times 2$.
+\shortans{30}
+\loigiai{
+$60 - 30 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Một miếng dán sticker có diện tích $8\text{ cm}^2$. Một trang vở dán được 9 miếng như vậy. Tổng diện tích các miếng sticker là bao nhiêu xăng-ti-mét vuông?
+\shortans{72}
+\loigiai{
+$8 \times 9 = 72\text{ cm}^2$.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông cạnh 1 cm thì chu vi là 4 cm, còn diện tích là bao nhiêu xăng-ti-mét vuông?
+\shortans{1}
+\loigiai{
+$1 \times 1 = 1\text{ cm}^2$.
+}
+\end{ex}

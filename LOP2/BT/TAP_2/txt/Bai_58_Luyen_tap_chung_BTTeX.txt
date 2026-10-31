@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $45\text{ m} + 28\text{ m}$.
+\shortans{73}
+\loigiai{
+Ta có: $45 + 28 = 73$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $82\text{ m} - 37\text{ m}$.
+\shortans{45}
+\loigiai{
+Ta có: $82 - 37 = 45$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35\text{ km} + 48\text{ km}$.
+\shortans{83}
+\loigiai{
+Ta có: $35 + 48 = 83$ km.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90\text{ km} - 54\text{ km}$.
+\shortans{36}
+\loigiai{
+Ta có: $90 - 54 = 36$ km.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $300\text{ đồng} + 400\text{ đồng} + 300\text{ đồng}$.
+\shortans{1000}
+\loigiai{
+Tổng: $300 + 400 + 300 = 1000$ đồng.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000\text{ đồng} - 700\text{ đồng}$.
+\shortans{300}
+\loigiai{
+Hiệu: $1000 - 700 = 300$ đồng.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $1\text{ m} = \dots\text{ cm}$.
+\shortans{100}
+\loigiai{
+$1\text{ m} = 100\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $1\text{ km} = \dots\text{ m}$.
+\shortans{1000}
+\loigiai{
+$1\text{ km} = 1000\text{ m}$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $50\text{ dm} = \dots\text{ m}$.
+\shortans{5}
+\loigiai{
+$50\text{ dm} = 5\text{ m}$.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Lan có 1000 đồng, Lan mua 1 cái bánh giá 500 đồng và 1 cái kẹo giá 200 đồng. Lan còn lại bao nhiêu đồng?
+\shortans{300}
+\loigiai{
+Lan đã tiêu: $500 + 200 = 700$ đồng. Còn lại: $1000 - 700 = 300$ đồng.
+}
+\end{ex}
+
+\begin{ex}
+Quãng đường từ nhà bác An đến thị trấn dài 15 km, từ thị trấn đến thành phố dài 25 km. Quãng đường từ nhà bác An đến thành phố dài bao nhiêu ki-lô-mét?
+\shortans{40}
+\loigiai{
+Dài: $15 + 25 = 40$ km.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn dây cáp dài 92 m, thợ điện đã dùng 45 m. Cuộn cáp còn lại bao nhiêu mét?
+\shortans{47}
+\loigiai{
+Còn lại: $92 - 45 = 47$ m.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 1 chiếc khăn tay giá 800 đồng, mẹ đưa cô bán hàng 1000 đồng. Cô bán hàng trả lại bao nhiêu đồng?
+\shortans{200}
+\loigiai{
+Trả lại: $1000 - 800 = 200$ đồng.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng thứ nhất dài 38 cm, đoạn thứ hai dài 27 cm. Cả hai đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{65}
+\loigiai{
+Dài: $38 + 27 = 65$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một con tàu đi được 45 km trong ngày thứ nhất, ngày thứ hai đi được nhiều hơn ngày thứ nhất 18 km. Ngày thứ hai tàu đi được bao nhiêu ki-lô-mét?
+\shortans{63}
+\loigiai{
+Ngày thứ hai đi: $45 + 18 = 63$ km.
+}
+\end{ex}
+
+\begin{ex}
+Đổi 4 m ra xăng-ti-mét được bao nhiêu xăng-ti-mét?
+\shortans{400}
+\loigiai{
+$4\text{ m} = 400\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+Đổi 600 cm ra mét được bao nhiêu mét?
+\shortans{6}
+\loigiai{
+$600\text{ cm} = 6\text{ m}$.
+}
+\end{ex}
+
+\begin{ex}
+Đổi 7 m ra đề-xi-mét được bao nhiêu đề-xi-mét?
+\shortans{70}
+\loigiai{
+$7\text{ m} = 70\text{ dm}$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $35\text{ m} + 45\text{ m} - 50\text{ m}$.
+\shortans{30}
+\loigiai{
+Ta có $35 + 45 = 80$, rồi $80 - 50 = 30$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $1000\text{ m} - 400\text{ m} - 200\text{ m}$.
+\shortans{400}
+\loigiai{
+Ta có $1000 - 400 = 600$, rồi $600 - 200 = 400$ m.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 tờ tiền mệnh giá 200 đồng. Tổng số tiền là bao nhiêu đồng?
+\shortans{1000}
+\loigiai{
+Tổng: $200 \times 5 = 1000$ đồng.
+}
+\end{ex}
+
+\begin{ex}
+Có 2 tờ tiền mệnh giá 500 đồng. Tổng số tiền là bao nhiêu đồng?
+\shortans{1000}
+\loigiai{
+Tổng: $500 \times 2 = 1000$ đồng.
+}
+\end{ex}
+
+\begin{ex}
+Một cây cầu dài 450 m, cây cầu thứ hai dài 550 m. Tổng chiều dài hai cây cầu là bao nhiêu mét?
+\shortans{1000}
+\loigiai{
+Tổng chiều dài: $450 + 550 = 1000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tổng chiều dài hai cây cầu đó bằng bao nhiêu ki-lô-mét?
+\shortans{1}
+\loigiai{
+$1000\text{ m} = 1\text{ km}$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm một số biết lấy số đó cộng với 350 thì được 1000.
+\shortans{650}
+\loigiai{
+Số đó là: $1000 - 350 = 650$.
+}
+\end{ex}

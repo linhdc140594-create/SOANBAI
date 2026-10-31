@@ -1,0 +1,175 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 61: PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1000}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Kĩ thuật đặt tính và tính trừ các số có ba chữ số không nhớ}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Quy tắc đặt tính và tính trừ}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bước 1: Đặt tính:}\\
+  Viết số bị trừ ở dòng trên, số trừ ở dòng dưới sao cho các chữ số ở cùng một hàng thẳng cột với nhau (đơn vị thẳng đơn vị, chục thẳng chục, trăm thẳng trăm). Viết dấu $-$ và kẻ vạch ngang.
+  \item \textbf{Bước 2: Tính:}\\
+  Thực hiện trừ lần lượt từ \textbf{phải sang trái}:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Trừ các chữ số hàng đơn vị.
+    \item Trừ các chữ số hàng chục.
+    \item Trừ các chữ số hàng trăm.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Phân tích chi tiết ví dụ mẫu}
+]
+{\footnotesize
+\textbf{Tính: $578 - 243 = ?$}\\
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Đặt tính:}
+  \begin{center}
+  \begin{tabular}{r@{\,}c@{\,}l}
+    & $578$ & \\
+  $-$ & $243$ & \\
+  \hline
+    & $\mathbf{335}$ &
+  \end{tabular}
+  \end{center}
+  \item \textbf{Thực hiện tính:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item $8 - 3 = \mathbf{5}$, viết $5$ ở hàng đơn vị.
+    \item $7 - 4 = \mathbf{3}$, viết $3$ ở hàng chục.
+    \item $5 - 2 = \mathbf{3}$, viết $3$ ở hàng trăm.
+  \end{itemize}
+  \item Vậy: $\mathbf{578 - 243 = 335}$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ trừ theo từng hàng từ phải sang trái}
+]
+\centering
+\begin{tikzpicture}[x=1.65cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=green!70!black, fill=green!15, font=\scriptsize\bfseries] (dv) at (0,0) {1. HÀNG ĐƠN VỊ\\$8 - 3 = 5$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (ch) at (2.4,0) {2. HÀNG CHỤC\\$7 - 4 = 3$};
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (tr) at (4.8,0) {3. HÀNG TRĂM\\$5 - 2 = 3$};
+
+  \draw[arr, thick, red!85!black] (0.9,0) -- (1.5,0);
+  \draw[arr, thick, red!85!black] (3.3,0) -- (3.9,0);
+  \node[font=\tiny\bfseries, color=red!80!black] at (2.4,-0.6) {Thực hiện trừ từ PHẢI sang TRÁI};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Các dạng bài tập điển hình}
+]
+{\footnotesize
+\textbf{1. Trừ số có 3 chữ số cho số có 2 chữ số:}\\
+- $486 - 52 = \mathbf{434}$.\\
+- $765 - 30 = \mathbf{735}$.\\
+\textbf{2. Tính nhẩm các số tròn trăm, tròn chục:}\\
+- $800 - 300 = \mathbf{500}$.\\
+- $670 - 40 = \mathbf{630}$.\\
+- $950 - 500 = \mathbf{450}$.\\
+\textbf{3. Thử lại phép trừ:} Muốn thử lại phép trừ, ta lấy Hiệu cộng với Số trừ: $335 + 243 = 578$ (Đúng).
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Cạm bẫy \& Cách thử lại}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Nhầm vị trí số trừ:} Khi trừ $486 - 52$, phải đặt chữ số $5$ thẳng dưới số $8$ hàng chục (không đặt dưới số $4$ hàng trăm).
+  \item \textbf{Trừ với số 0:} Một số trừ đi chính nó bằng $0$ ($6 - 6 = 0$); một số trừ đi $0$ bằng chính nó ($7 - 0 = 7$).
+  \item Khi làm xong bài toán trừ, hãy cộng nhẩm ngược từ dưới lên để kiểm tra kết quả ngay.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

@@ -1,0 +1,135 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 45. Thực hành ước lượng trong tính toán --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 45: THỰC HÀNH ƯỚC LƯỢNG TRONG TÍNH TOÁN}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Ứng dụng làm tròn số để kiểm tra nhanh kết quả và giải quyết bài toán thực tế trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 1. Bản chất của ước lượng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ước lượng là gì?}: Là tìm một số \textbf{gần đúng} với kết quả chính xác để nhẩm nhanh hoặc dự đoán.\\
+    $\bullet$ \textbf{Phương pháp}:
+    \par
+    --- Làm tròn các số hạng, thừa số... đến hàng \textbf{tròn chục, tròn trăm, tròn nghìn} phù hợp.\\
+    --- Thực hiện phép tính nhẩm với các số tròn đó.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faShoppingBag\ 2. Ứng dụng thực tiễn},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ứng dụng mua sắm}: Dự trù số tiền cần mang khi đi chợ, nhà sách (làm tròn lên để không bị thiếu tiền).\\
+    $\bullet$ \textbf{Kiểm tra kết quả}: Sau khi tính toán chi tiết, ước lượng giúp phát hiện ngay lỗi sai lớn (lệch hàng chữ số, nhầm dấu phép tính).\\
+    $\bullet$ Ước lượng số lượng: Đếm nhanh đồ vật theo nhóm.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: TIẾN TRÌNH 3 BƯỚC ƯỚC LƯỢNG KẾT QUẢ TÍNH TOÁN},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    cbox/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center, text width=4.5cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    \node[cbox, draw=blue!75!black, fill=blue!10] (s1) at (0, 0) {\textbf{BƯỚC 1: LÀM TRÒN}\\Làm tròn các số đến hàng\\tròn chục / trăm / nghìn};
+    \node[cbox, draw=orange!85!black, fill=orange!10] (s2) at (6.0, 0) {\textbf{BƯỚC 2: TÍNH NHẨM}\\Thực hiện $+,-,\times,:$ với\\các số tròn vừa nhận được};
+    \node[cbox, draw=teal!80!black, fill=teal!10] (s3) at (12.0, 0) {\textbf{BƯỚC 3: ĐỐI CHIẾU}\\So sánh với kết quả thực tế\\Đánh giá độ hợp lí};
+
+    \draw[arr] (s1) -- (s2);
+    \draw[arr] (s2) -- (s3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Ví dụ}: Mua 3 món đồ có giá lần lượt là $29\,500$ đ, $41\,200$ đ và $48\,900$ đ. Hãy ước lượng tổng số tiền:\\
+    --- Làm tròn đến hàng chục nghìn:\\
+    $29\,500 \approx 30\,000$ đ; $41\,200 \approx 40\,000$ đ; $48\,900 \approx 50\,000$ đ.\\
+    --- Tính nhẩm: $30\,000 + 40\,000 + 50\,000 = \mathbf{120\,000}$ đ.\\
+    $\Rightarrow$ Cần chuẩn bị khoảng $120\,000$ đồng.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy không thống nhất hàng làm tròn}:\\
+    Khi ước lượng một phép tính, phải làm tròn các số về \textbf{cùng một hàng} (ví dụ cùng hàng chục nghìn hoặc cùng hàng nghìn).\\
+    $\bullet$ \textbf{Phân biệt ước lượng và tính chính xác}:\\
+    Đề bài hỏi "khoảng bao nhiêu" thì dùng ước lượng; hỏi "chính xác bao nhiêu" thì phải đặt tính!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

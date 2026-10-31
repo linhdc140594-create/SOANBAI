@@ -1,0 +1,199 @@
+\begin{ex}
+Giảm 24 đi 3 lần ta được số nào?
+\shortans{8}
+\loigiai{
+$24 : 3 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 36 đi 4 lần ta được số nào?
+\shortans{9}
+\loigiai{
+$36 : 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 45 đi 5 lần ta được số nào?
+\shortans{9}
+\loigiai{
+$45 : 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 48 đi 6 lần ta được số nào?
+\shortans{8}
+\loigiai{
+$48 : 6 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 56 đi 7 lần ta được số nào?
+\shortans{8}
+\loigiai{
+$56 : 7 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 64 đi 8 lần ta được số nào?
+\shortans{8}
+\loigiai{
+$64 : 8 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 72 đi 9 lần ta được số nào?
+\shortans{8}
+\loigiai{
+$72 : 9 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 80 đi 4 lần ta được số nào?
+\shortans{20}
+\loigiai{
+$80 : 4 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 90 đi 3 lần ta được số nào?
+\shortans{30}
+\loigiai{
+$90 : 3 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây dài 28 cm. Sau khi cắt đi thì độ dài sợi dây giảm đi 4 lần. Hỏi sợi dây còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+$28 : 4 = 7$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bác An thu hoạch được 60 kg cam. Bác Ba thu hoạch được số cam giảm đi 3 lần so với bác An. Hỏi bác Ba thu hoạch được bao nhiêu ki-lô-gam cam?
+\shortans{20}
+\loigiai{
+$60 : 3 = 20$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Năm nay mẹ 36 tuổi, tuổi con bằng tuổi mẹ giảm đi 4 lần. Hỏi năm nay con bao nhiêu tuổi?
+\shortans{9}
+\loigiai{
+$36 : 4 = 9$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Bố 42 tuổi, con có tuổi bằng tuổi bố giảm đi 6 lần. Hỏi con bao nhiêu tuổi?
+\shortans{7}
+\loigiai{
+$42 : 6 = 7$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn vải dài 70 m. Sau khi bán, số vải giảm đi 5 lần. Hỏi cuộn vải còn lại bao nhiêu mét?
+\shortans{14}
+\loigiai{
+$70 : 5 = 14$ m.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 60 đi 5 lần rồi cộng thêm 18 ta được số nào?
+\shortans{30}
+\loigiai{
+$60 : 5 + 18 = 12 + 18 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 84 đi 4 lần rồi bớt đi 11 ta được số nào?
+\shortans{10}
+\loigiai{
+$84 : 4 - 11 = 21 - 11 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Một số giảm đi 6 lần thì được 8. Số đó là số nào?
+\shortans{48}
+\loigiai{
+$8 \times 6 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Một số giảm đi 7 lần thì được 9. Số đó là số nào?
+\shortans{63}
+\loigiai{
+$9 \times 7 = 63$.
+}
+\end{ex}
+
+\begin{ex}
+Thùng thứ nhất có 48 lít dầu. Thùng thứ hai có số dầu giảm đi 4 lần so với thùng thứ nhất. Hỏi thùng thứ hai có bao nhiêu lít dầu?
+\shortans{12}
+\loigiai{
+$48 : 4 = 12$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Một rổ có 54 quả lê. Số quả táo ít hơn số quả lê giảm đi 6 lần. Hỏi có bao nhiêu quả táo?
+\shortans{9}
+\loigiai{
+$54 : 6 = 9$ quả táo.
+}
+\end{ex}
+
+\begin{ex}
+Một số giảm đi 3 lần thì bằng 15. Tìm số đó.
+\shortans{45}
+\loigiai{
+$15 \times 3 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Một người có 96 con gà. Sau khi bán thì số gà giảm đi 3 lần. Hỏi người đó còn lại bao nhiêu con gà?
+\shortans{32}
+\loigiai{
+$96 : 3 = 32$ con gà.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 50 đi 5 lần được bao nhiêu?
+\shortans{10}
+\loigiai{
+$50 : 5 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Giảm 100 đi 4 lần được bao nhiêu?
+\shortans{25}
+\loigiai{
+$100 : 4 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 32 cm. Đoạn CD có độ dài bằng độ dài AB giảm đi 4 lần. CD dài bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+$32 : 4 = 8$ cm.
+}
+\end{ex}

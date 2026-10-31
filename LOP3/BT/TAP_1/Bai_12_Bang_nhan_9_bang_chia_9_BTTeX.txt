@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $9 \times 2 = \dots$
+\shortans{18}
+\loigiai{
+$9 \times 2 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 \times 4 = \dots$
+\shortans{36}
+\loigiai{
+$9 \times 4 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 \times 5 = \dots$
+\shortans{45}
+\loigiai{
+$9 \times 5 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 \times 7 = \dots$
+\shortans{63}
+\loigiai{
+$9 \times 7 = 63$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 \times 8 = \dots$
+\shortans{72}
+\loigiai{
+$9 \times 8 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 \times 9 = \dots$
+\shortans{81}
+\loigiai{
+$9 \times 9 = 81$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18 : 9 = \dots$
+\shortans{2}
+\loigiai{
+$18 : 9 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $36 : 9 = \dots$
+\shortans{4}
+\loigiai{
+$36 : 9 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $54 : 9 = \dots$
+\shortans{6}
+\loigiai{
+$54 : 9 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $63 : 9 = \dots$
+\shortans{7}
+\loigiai{
+$63 : 9 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $81 : 9 = \dots$
+\shortans{9}
+\loigiai{
+$81 : 9 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90 : 9 = \dots$
+\shortans{10}
+\loigiai{
+$90 : 9 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $9 \times 6 + 16$.
+\shortans{70}
+\loigiai{
+$54 + 16 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $9 \times 3 - 17$.
+\shortans{10}
+\loigiai{
+$27 - 17 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $72 : 9 + 42$.
+\shortans{50}
+\loigiai{
+$8 + 42 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Một phòng học có 9 dãy bàn, mỗi dãy có 4 bạn ngồi. Hỏi phòng học đó có tất cả bao nhiêu bạn?
+\shortans{36}
+\loigiai{
+$9 \times 4 = 36$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Cô giáo có 45 quyển vở thưởng đều cho 9 bạn học sinh. Hỏi mỗi bạn được bao nhiêu quyển vở?
+\shortans{5}
+\loigiai{
+$45 : 9 = 5$ quyển vở.
+}
+\end{ex}
+
+\begin{ex}
+Có 54 lít nước mắm rót đều vào 9 can. Hỏi mỗi can có bao nhiêu lít nước mắm?
+\shortans{6}
+\loigiai{
+$54 : 9 = 6$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $9 \times \dots = 63$.
+\shortans{7}
+\loigiai{
+$63 : 9 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 9 = 8$.
+\shortans{72}
+\loigiai{
+$8 \times 9 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 9 = 81$.
+\shortans{9}
+\loigiai{
+$x = 81 : 9 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 9 = 3$.
+\shortans{27}
+\loigiai{
+$x = 3 \times 9 = 27$.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi túi có 9 kg gạo. Hỏi 8 túi như vậy có tất cả bao nhiêu ki-lô-gam gạo?
+\shortans{72}
+\loigiai{
+$9 \times 8 = 72$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây dài 27 dm cắt thành 9 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu đề-xi-mét?
+\shortans{3}
+\loigiai{
+$27 : 9 = 3$ dm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 \times 5 + 9 \times 5 = \dots$
+\shortans{90}
+\loigiai{
+$45 + 45 = 90$.
+}
+\end{ex}

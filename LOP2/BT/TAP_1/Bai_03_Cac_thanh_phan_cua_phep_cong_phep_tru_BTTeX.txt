@@ -1,0 +1,199 @@
+\begin{ex}
+Trong phép tính $32 + 15 = 47$, số 47 được gọi là gì? Tính tổng của 32 và 15.
+\shortans{47}
+\loigiai{
+Tổng của hai số là 47.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép tính $25 + 40 = 65$, số 25 được gọi là số hạng thứ nhất. Số hạng thứ hai bằng bao nhiêu?
+\shortans{40}
+\loigiai{
+Số hạng thứ hai là 40.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép tính $58 - 23 = 35$, số bị trừ bằng bao nhiêu?
+\shortans{58}
+\loigiai{
+Số bị trừ là 58.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép tính $76 - 34 = 42$, số trừ bằng bao nhiêu?
+\shortans{34}
+\loigiai{
+Số trừ là 34.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép tính $89 - 50 = 39$, hiệu bằng bao nhiêu?
+\shortans{39}
+\loigiai{
+Hiệu là 39.
+}
+\end{ex}
+
+\begin{ex}
+Biết hai số hạng là 24 và 35. Tính tổng của hai số đó.
+\shortans{59}
+\loigiai{
+Tổng: $24 + 35 = 59$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị trừ là 67, số trừ là 25. Tính hiệu của phép trừ.
+\shortans{42}
+\loigiai{
+Hiệu: $67 - 25 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Biết tổng bằng 58, một số hạng bằng 20. Tìm số hạng còn lại.
+\shortans{38}
+\loigiai{
+Số hạng còn lại: $58 - 20 = 38$.
+}
+\end{ex}
+
+\begin{ex}
+Biết tổng bằng 76, một số hạng bằng 32. Tìm số hạng còn lại.
+\shortans{44}
+\loigiai{
+Số hạng còn lại: $76 - 32 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị trừ là 84, hiệu là 31. Tìm số trừ.
+\shortans{53}
+\loigiai{
+Số trừ: $84 - 31 = 53$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số trừ là 26, hiệu là 43. Tìm số bị trừ.
+\shortans{69}
+\loigiai{
+Số bị trừ: $43 + 26 = 69$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu số hạng thứ nhất tăng thêm 5 đơn vị và giữ nguyên số hạng thứ hai thì tổng tăng thêm bao nhiêu đơn vị?
+\shortans{5}
+\loigiai{
+Tổng tăng thêm đúng 5 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Nếu số bị trừ tăng thêm 8 đơn vị và giữ nguyên số trừ thì hiệu tăng thêm bao nhiêu đơn vị?
+\shortans{8}
+\loigiai{
+Hiệu tăng thêm 8 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Nếu giữ nguyên số bị trừ và số trừ tăng thêm 4 đơn vị thì hiệu giảm đi bao nhiêu đơn vị?
+\shortans{4}
+\loigiai{
+Hiệu giảm đi 4 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của hai số bằng 60, nếu một số hạng bằng 60 thì số hạng kia bằng bao nhiêu?
+\shortans{0}
+\loigiai{
+Số hạng kia là: $60 - 60 = 0$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của hai số bằng 0, biết số bị trừ là 45. Số trừ bằng bao nhiêu?
+\shortans{45}
+\loigiai{
+Hai số bằng nhau thì hiệu bằng 0, nên số trừ là 45.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của hai số bằng 38, biết số trừ là 0. Số bị trừ bằng bao nhiêu?
+\shortans{38}
+\loigiai{
+Số bị trừ: $38 + 0 = 38$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bị trừ biết số trừ là số bé nhất có hai chữ số và hiệu là 52.
+\shortans{62}
+\loigiai{
+Số trừ là 10. Số bị trừ: $52 + 10 = 62$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số hạng thứ hai biết tổng là số lớn nhất có hai chữ số và số hạng thứ nhất là 70.
+\shortans{29}
+\loigiai{
+Tổng là 99. Số hạng thứ hai: $99 - 70 = 29$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hiệu biết số bị trừ là số tròn chục lớn nhất có hai chữ số và số trừ là 30.
+\shortans{60}
+\loigiai{
+Số bị trừ là 90. Hiệu: $90 - 30 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có tổng bằng 88. Nếu số hạng thứ nhất là 55 thì số hạng thứ hai là bao nhiêu?
+\shortans{33}
+\loigiai{
+Số hạng thứ hai: $88 - 55 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số trừ biết số bị trừ là 79 và hiệu là 46.
+\shortans{33}
+\loigiai{
+Số trừ: $79 - 46 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Trong một phép cộng có hai số hạng bằng nhau và tổng bằng 18. Số hạng đó bằng bao nhiêu?
+\shortans{9}
+\loigiai{
+Vì $9 + 9 = 18$ nên số hạng là 9.
+}
+\end{ex}
+
+\begin{ex}
+Trong một phép cộng có hai số hạng bằng nhau và tổng bằng 16. Số hạng đó bằng bao nhiêu?
+\shortans{8}
+\loigiai{
+Vì $8 + 8 = 16$ nên số hạng là 8.
+}
+\end{ex}
+
+\begin{ex}
+Một phép trừ có số bị trừ bằng 50, số trừ bằng 50. Hiệu bằng bao nhiêu?
+\shortans{0}
+\loigiai{
+Hiệu là: $50 - 50 = 0$.
+}
+\end{ex}

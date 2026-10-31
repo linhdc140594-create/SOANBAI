@@ -1,0 +1,199 @@
+\begin{ex}
+Đĩa thứ nhất có 5 quả cam, đĩa thứ hai có 3 quả cam. Đĩa thứ nhất nhiều hơn đĩa thứ hai bao nhiêu quả cam?
+\shortans{2}
+\loigiai{
+Đĩa thứ nhất nhiều hơn: $5 - 3 = 2$ quả cam.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Lan có 6 cái bút, bạn Mai có 8 cái bút. Bạn Lan ít hơn bạn Mai bao nhiêu cái bút?
+\shortans{2}
+\loigiai{
+Bạn Lan ít hơn bạn Mai: $8 - 6 = 2$ cái bút.
+}
+\end{ex}
+
+\begin{ex}
+Có 4 chú thỏ và 4 củ cà rốt. Mỗi chú thỏ ăn một củ cà rốt. Hỏi số thỏ và số cà rốt có bằng nhau không? (Ghi 1 nếu bằng nhau, 0 nếu không bằng nhau)
+\shortans{1}
+\loigiai{
+Vì có 4 chú thỏ và 4 củ cà rốt nên số lượng bằng nhau. Đáp án ghi 1.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 7 viên bi, An có 4 viên bi. Hỏi Bình có nhiều hơn An bao nhiêu viên bi?
+\shortans{3}
+\loigiai{
+Bình nhiều hơn An: $7 - 4 = 3$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Trong chuồng có 9 con gà và 5 con vịt. Hỏi số gà nhiều hơn số vịt bao nhiêu con?
+\shortans{4}
+\loigiai{
+Số gà nhiều hơn số vịt: $9 - 5 = 4$ con.
+}
+\end{ex}
+
+\begin{ex}
+Cành cây trên có 8 quả táo, cành cây dưới có 10 quả táo. Hỏi cành cây dưới nhiều hơn cành cây trên bao nhiêu quả táo?
+\shortans{2}
+\loigiai{
+Cành cây dưới nhiều hơn: $10 - 8 = 2$ quả táo.
+}
+\end{ex}
+
+\begin{ex}
+Lớp học có 6 bạn nữ và 9 bạn nam. Hỏi số bạn nữ ít hơn số bạn nam bao nhiêu bạn?
+\shortans{3}
+\loigiai{
+Số bạn nữ ít hơn bạn nam: $9 - 6 = 3$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 5 quả bóng bay đỏ và 5 quả bóng bay xanh. Hỏi số bóng bay xanh có bằng số bóng bay đỏ không? (Ghi 1 nếu bằng nhau, 0 nếu không bằng nhau)
+\shortans{1}
+\loigiai{
+Cả hai loại đều có 5 quả nên bằng nhau. Đáp án ghi 1.
+}
+\end{ex}
+
+\begin{ex}
+Hùng có 8 viên kẹo, Dũng có ít hơn Hùng 3 viên kẹo. Hỏi Dũng có bao nhiêu viên kẹo?
+\shortans{5}
+\loigiai{
+Số kẹo của Dũng là: $8 - 3 = 5$ viên kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua về 6 quả trứng gà, mẹ mua số trứng vịt nhiều hơn số trứng gà là 4 quả. Hỏi mẹ mua bao nhiêu quả trứng vịt?
+\shortans{10}
+\loigiai{
+Số quả trứng vịt mẹ mua là: $6 + 4 = 10$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Một có 7 bông hoa, tổ Hai có 7 bông hoa. Hiệu số bông hoa của hai tổ là bao nhiêu?
+\shortans{0}
+\loigiai{
+Hiệu số bông hoa là: $7 - 7 = 0$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 chiếc ghế và 7 bạn học sinh. Nếu mỗi bạn ngồi 1 ghế thì còn thiếu bao nhiêu chiếc ghế?
+\shortans{2}
+\loigiai{
+Số ghế còn thiếu là: $7 - 5 = 2$ chiếc ghế.
+}
+\end{ex}
+
+\begin{ex}
+Có 8 cái chén và 6 cái đĩa. Hỏi số chén nhiều hơn số đĩa bao nhiêu cái?
+\shortans{2}
+\loigiai{
+Số chén nhiều hơn số đĩa: $8 - 6 = 2$ cái.
+}
+\end{ex}
+
+\begin{ex}
+Hà có 10 chiếc nhãn vở, Nga có 7 chiếc nhãn vở. Hỏi Nga cần thêm bao nhiêu chiếc nhãn vở để bằng số nhãn vở của Hà?
+\shortans{3}
+\loigiai{
+Nga cần thêm: $10 - 7 = 3$ chiếc nhãn vở.
+}
+\end{ex}
+
+\begin{ex}
+Hộp A có 9 chiếc bút sáp, hộp B có 4 chiếc bút sáp. Hộp A nhiều hơn hộp B bao nhiêu chiếc bút sáp?
+\shortans{5}
+\loigiai{
+Hộp A nhiều hơn: $9 - 4 = 5$ chiếc bút sáp.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 10 con gà và 6 con ngỗng. Hỏi số con gà nhiều hơn số con ngỗng bao nhiêu con?
+\shortans{4}
+\loigiai{
+Số gà nhiều hơn số ngỗng: $10 - 6 = 4$ con.
+}
+\end{ex}
+
+\begin{ex}
+Bể thứ nhất có 3 con cá, bể thứ hai có 8 con cá. Hỏi bể thứ nhất ít hơn bể thứ hai bao nhiêu con cá?
+\shortans{5}
+\loigiai{
+Bể thứ nhất ít hơn: $8 - 3 = 5$ con cá.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 6 cái ô tô đồ chơi, Quân có số ô tô nhiều hơn Nam 2 cái. Hỏi Quân có bao nhiêu cái ô tô đồ chơi?
+\shortans{8}
+\loigiai{
+Quân có số ô tô là: $6 + 2 = 8$ cái.
+}
+\end{ex}
+
+\begin{ex}
+Thư có 9 cái kẹp tóc, Chi có ít hơn Thư 4 cái. Hỏi Chi có bao nhiêu cái kẹp tóc?
+\shortans{5}
+\loigiai{
+Chi có: $9 - 4 = 5$ cái kẹp tóc.
+}
+\end{ex}
+
+\begin{ex}
+Có 7 chú chim bồ câu và 10 hạt ngô. Hỏi số chim bồ câu ít hơn số hạt ngô bao nhiêu?
+\shortans{3}
+\loigiai{
+Số chim ít hơn số hạt ngô: $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 5 cái kẹo, Minh có 8 cái kẹo. Minh phải cho Lan bao nhiêu cái kẹo để số kẹo hai bạn bằng nhau khi Lan được thêm kẹo từ mẹ? Nếu Minh không cho, chênh lệch kẹo giữa hai bạn là bao nhiêu?
+\shortans{3}
+\loigiai{
+Chênh lệch giữa Minh và Lan là: $8 - 5 = 3$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Đội Đỏ có 8 người, đội Xanh có 10 người. Đội Xanh nhiều hơn đội Đỏ bao nhiêu người?
+\shortans{2}
+\loigiai{
+Đội Xanh nhiều hơn: $10 - 8 = 2$ người.
+}
+\end{ex}
+
+\begin{ex}
+Có 6 chiếc thìa và 6 chiếc bát. Hỏi có bao nhiêu chiếc thìa không có bát ghép cùng?
+\shortans{0}
+\loigiai{
+Vì số thìa và bát bằng nhau nên có 0 chiếc thìa bị lẻ.
+}
+\end{ex}
+
+\begin{ex}
+Bà có 10 quả cam, bà biếu bác An 3 quả và bà Lan 3 quả. Hỏi bà còn lại bao nhiêu quả cam?
+\shortans{4}
+\loigiai{
+Bà đã biếu $3 + 3 = 6$ quả. Bà còn lại: $10 - 6 = 4$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Trong vườn có 7 cây chuối và 2 cây cam. Hỏi số cây chuối nhiều hơn số cây cam bao nhiêu cây?
+\shortans{5}
+\loigiai{
+Số cây chuối nhiều hơn số cây cam: $7 - 2 = 5$ cây.
+}
+\end{ex}

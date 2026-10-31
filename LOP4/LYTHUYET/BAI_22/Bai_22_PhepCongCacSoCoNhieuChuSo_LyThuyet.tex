@@ -1,0 +1,149 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 22. Phép cộng các số có nhiều chữ số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 22: PHÉP CỘNG CÁC SỐ CÓ NHIỀU CHỮ SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Kĩ thuật đặt tính thẳng cột, cộng từ phải sang trái và xử lí cộng có nhớ trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPlusSquare\ 1. Quy tắc Đặt tính rồi tính},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Để cộng hai số tự nhiên có nhiều chữ số:\\
+    $\bullet$ \textbf{Bước 1: Đặt tính}\\
+    Viết số hạng này dưới số hạng kia sao cho các chữ số ở \textbf{cùng một hàng thẳng cột} với nhau (hàng đơn vị thẳng hàng đơn vị, hàng chục thẳng hàng chục,...).\\
+    $\bullet$ \textbf{Bước 2: Tính}\\
+    Cộng lần lượt từng hàng từ \textbf{phải sang trái} (bắt đầu từ hàng đơn vị đến hàng cao nhất).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationCircle\ 2. Kĩ thuật cộng có nhớ},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Khi cộng hai chữ số ở một hàng có tổng $\ge 10$:\\
+    --- Viết chữ số hàng đơn vị của tổng vào kết quả.\\
+    --- \textbf{Nhớ 1} (hoặc số chục) sang hàng liền kề bên trái.\\
+    $\bullet$ \textbf{Quy tắc nhớ}: Ở hàng tiếp theo, sau khi cộng hai chữ số của hai số hạng, \textbf{phải cộng thêm số nhớ} rồi mới ghi kết quả.\\
+    $\bullet$ Phép cộng có thể có nhớ liên tiếp qua nhiều hàng.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: QUY TRÌNH THỰC HIỆN PHÉP CỘNG CHUẨN MỰC},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=0.92, yscale=0.82,
+    box/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    step_node/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center},
+    note_node/.style={rectangle, rounded corners=2mm, draw=red!75!black, fill=red!10, thick, inner sep=3pt, font=\scriptsize, align=center},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    \node[step_node] (s1) at (0,0) {\textbf{BƯỚC 1: ĐẶT TÍNH}\\Thẳng cột các hàng:\\Đơn vị, chục, trăm,...};
+    \node[step_node, fill=orange!12, draw=orange!80!black] (s2) at (4.5,0) {\textbf{BƯỚC 2: CỘNG}\\Thực hiện từ\\\textbf{PHẢI $\rightarrow$ TRÁI}};
+    \node[note_node] (s3) at (9.5,0) {\textbf{LƯU Ý CÓ NHỚ}\\Nếu tổng $\ge 10$:\\Viết hàng đvị, \textbf{nhớ sang trái}};
+    \node[box, fill=green!12, draw=green!70!black] (s4) at (13.8,0) {\textbf{KẾT QUẢ}\\Kiểm tra lại\\các lượt nhớ};
+
+    \draw[arr] (s1) -- (s2);
+    \draw[arr] (s2) -- (s3);
+    \draw[arr] (s3) -- (s4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Tính: $358\,429 + 174\,385$\\
+    \begin{center}
+      \begin{tabular}{c@{\,}r@{\,}r@{\,}r@{\,}r@{\,}r@{\,}r}
+        & $3$ & $5$ & $8$ & $4$ & $2$ & $9$ \\
+      $+$ & $1$ & $7$ & $4$ & $3$ & $8$ & $5$ \\
+      \hline
+        & $\mathbf{5}$ & $\mathbf{3}$ & $\mathbf{2}$ & $\mathbf{8}$ & $\mathbf{1}$ & $\mathbf{4}$
+      \end{tabular}
+    \end{center}
+    $\bullet$ $9 + 5 = 14$, viết 4 nhớ 1.\\
+    $\bullet$ $2 + 8 = 10$, thêm 1 bằng 11, viết 1 nhớ 1.\\
+    $\bullet$ $4 + 3 = 7$, thêm 1 bằng 8, viết 8.\\
+    $\bullet$ $8 + 4 = 12$, viết 2 nhớ 1; $5 + 7 + 1 = 13$, nhớ 1; $3 + 1 + 1 = 5$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy quên cộng số nhớ:}\\
+    Lỗi phổ biến nhất là quên không cộng số nhớ vào hàng tiếp theo. Hãy chấm một dấu chấm nhỏ trên đầu chữ số có nhớ để không bị sót!\\
+    $\bullet$ \textbf{Bẫy đặt tính lệch cột:}\\
+    Khi hai số hạng có số chữ số không bằng nhau, phải căn thẳng lề \textbf{phía bên phải} (hàng đơn vị).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

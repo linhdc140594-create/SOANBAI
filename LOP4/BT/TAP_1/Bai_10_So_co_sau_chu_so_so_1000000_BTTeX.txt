@@ -1,0 +1,199 @@
+\begin{ex}
+Số gồm 4 trăm nghìn, 5 chục nghìn, 2 nghìn, 6 trăm, 3 chục và 8 đơn vị viết là gì?
+\shortans{452638}
+\loigiai{
+Số đó là 452638.
+}
+\end{ex}
+
+\begin{ex}
+Số 684 512 có chữ số hàng trăm nghìn là bao nhiêu?
+\shortans{6}
+\loigiai{
+Chữ số hàng trăm nghìn là 6.
+}
+\end{ex}
+
+\begin{ex}
+Số 305 419 có chữ số hàng chục nghìn là bao nhiêu?
+\shortans{0}
+\loigiai{
+Chữ số hàng chục nghìn là 0.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 999 999 là số nào?
+\shortans{1000000}
+\loigiai{
+$999999 + 1 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 500 000 là số nào?
+\shortans{499999}
+\loigiai{
+$500000 - 1 = 499999$.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 6 chữ số là số nào?
+\shortans{999999}
+\loigiai{
+Số đó là 999999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 6 chữ số là số nào?
+\shortans{100000}
+\loigiai{
+Số đó là 100000.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn trăm nghìn liền sau của 400 000 là số nào?
+\shortans{500000}
+\loigiai{
+Số tròn trăm nghìn liền sau của 400 000 là 500 000.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục nghìn liền sau của 680 000 là số nào?
+\shortans{690000}
+\loigiai{
+Số đó là 690000.
+}
+\end{ex}
+
+\begin{ex}
+Viết số thích hợp: $500000 + 40000 + 3000 + 200 + 10 + 7 = \dots$
+\shortans{543217}
+\loigiai{
+Số đó là 543217.
+}
+\end{ex}
+
+\begin{ex}
+Viết số thích hợp: $800000 + 7000 + 500 + 4 = \dots$
+\shortans{807504}
+\loigiai{
+Số đó là 807504.
+}
+\end{ex}
+
+\begin{ex}
+Số 741 852 có giá trị của chữ số 7 là bao nhiêu?
+\shortans{700000}
+\loigiai{
+Chữ số 7 ở hàng trăm nghìn có giá trị là 700 000.
+}
+\end{ex}
+
+\begin{ex}
+Số 625 341 có giá trị của chữ số 2 là bao nhiêu?
+\shortans{20000}
+\loigiai{
+Chữ số 2 ở hàng chục nghìn có giá trị là 20 000.
+}
+\end{ex}
+
+\begin{ex}
+Số 1 000 000 đọc là một triệu, có bao nhiêu chữ số 0?
+\shortans{6}
+\loigiai{
+Có 6 chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Số 1 000 000 gồm mấy chữ số?
+\shortans{7}
+\loigiai{
+Số 1 000 000 là số có 7 chữ số.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu giữa số bé nhất có 7 chữ số và số lớn nhất có 6 chữ số là bao nhiêu?
+\shortans{1}
+\loigiai{
+$1000000 - 999999 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Cho 6 chữ số 1, 2, 3, 4, 5, 6. Số lớn nhất có 6 chữ số khác nhau ghép từ các chữ số này là số nào?
+\shortans{654321}
+\loigiai{
+Số đó là 654321.
+}
+\end{ex}
+
+\begin{ex}
+Cho 6 chữ số 1, 0, 3, 5, 7, 9. Số bé nhất có 6 chữ số khác nhau ghép từ các chữ số này là số nào?
+\shortans{103579}
+\loigiai{
+Số đó là 103579.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $899999 < \dots < 900001$.
+\shortans{900000}
+\loigiai{
+Số ở giữa là 900000.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của 458 999 là số nào?
+\shortans{459000}
+\loigiai{
+$458999 + 1 = 459000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của 720 000 là số nào?
+\shortans{719999}
+\loigiai{
+$720000 - 1 = 719999$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn trăm nghìn từ 100 000 đến 1 000 000?
+\shortans{10}
+\loigiai{
+100000, 200000, ..., 1000000 (10 số).
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 4 ở hàng trăm nghìn gấp mấy lần giá trị của chữ số 4 ở hàng nghìn?
+\shortans{100}
+\loigiai{
+$400000 : 4000 = 100$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 666 666 có bao nhiêu chữ số 6?
+\shortans{6}
+\loigiai{
+Có 6 chữ số 6.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn lớn nhất có 6 chữ số là số nào?
+\shortans{999998}
+\loigiai{
+Số đó là 999998.
+}
+\end{ex}

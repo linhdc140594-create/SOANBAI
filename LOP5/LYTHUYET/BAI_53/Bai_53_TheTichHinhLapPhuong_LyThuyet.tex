@@ -1,0 +1,163 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 53. Thể tích hình lập phương --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 53. THỂ TÍCH HÌNH LẬP PHƯƠNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Công thức V = a x a x a, tính cạnh khi biết thể tích và quy luật tăng thể tích k^3 lần trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CÔNG THỨC THỂ TÍCH HÌNH LẬP PHƯƠNG ---
+\noindent
+\begin{minipage}[t]{0.56\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCube\ 1. Công thức Thể tích hình lập phương cạnh $a$},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Hình lập phương là trường hợp đặc biệt của HHCN có chiều dài $=$ chiều rộng $=$ chiều cao $= a$:\\
+    \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm]
+      {\scriptsize\bfseries\color{blue!90!black}$V = a \times a \times a$}
+    \end{tcolorbox}
+    \textit{``Thể tích hình lập phương bằng cạnh nhân với cạnh rồi nhân với cạnh''.}\\
+    \textit{VD:} Hình lập phương có cạnh $3\text{ cm}$:\\
+    $V = 3 \times 3 \times 3 = \mathbf{27\text{ cm}^3}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.42\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ 2. Tìm cạnh khi biết $V$},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Tìm số tự nhiên $a$ sao cho $a \times a \times a = V$:\\
+    $\bullet$ $1 \times 1 \times 1 = 1$\\
+    $\bullet$ $2 \times 2 \times 2 = 8$\\
+    $\bullet$ $3 \times 3 \times 3 = 27$\\
+    $\bullet$ $4 \times 4 \times 4 = 64$\\
+    $\bullet$ $5 \times 5 \times 5 = 125$\\
+    $\bullet$ $10 \times 10 \times 10 = 1\,000$
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: QUY LUẬT TĂNG THỂ TÍCH K^3 LẦN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faLineChart\ 3. Quy luật thay đổi kích thước và thể tích},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Nếu cạnh của hình lập phương tăng gấp \textbf{$k$ lần}:\\
+  $\bullet$ Cạnh mới $= k \times a$.\\
+  $\bullet$ Thể tích mới: $V_{\text{mới}} = (k \times a) \times (k \times a) \times (k \times a) = \mathbf{(k \times k \times k)} \times (a \times a \times a) = \mathbf{k^3 \times V_{\text{cũ}}}$.\\
+  \textit{Ghi nhớ đặc biệt:}\\
+  $\triangleright$ Cạnh tăng gấp $2$ lần $\rightarrow$ Thể tích tăng gấp $2 \times 2 \times 2 = \mathbf{8\text{ lần}}$.\\
+  $\triangleright$ Cạnh tăng gấp $3$ lần $\rightarrow$ Thể tích tăng gấp $3 \times 3 \times 3 = \mathbf{27\text{ lần}}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Cạnh -- Diện tích -- Thể tích HLP},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (c) at (-5.8, 0) {CẠNH $a$\\Tăng $k$ lần};
+    \node[b2] (s) at (0, 0) {DIỆN TÍCH ($S_{xq}, S_{tp}$)\\Tăng $k \times k$ lần};
+    \node[b3] (v) at (5.8, 0) {THỂ TÍCH ($V$)\\Tăng $k \times k \times k$ lần};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (c) -- (s);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (s) -- (v);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: KHỐI LƯỢNG VẬT THỂ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ Tính khối lượng kim loại},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Biết $1\text{ dm}^3$ sắt nặng $7,8\text{ kg}$:\\
+    $\bullet$ Tính thể tích khối lập phương bằng sắt ($V = a \times a \times a$ theo $\text{dm}^3$).\\
+    $\bullet$ Khối lượng $= V \times 7,8\text{ kg}$.\\
+    Khối lượng tỉ lệ thuận với thể tích của khối kim loại.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cạm bẫy}: Cạnh tăng $2$ lần, học sinh hay nghĩ thể tích tăng $2$ hoặc $4$ lần (SAI). Phải là $2^3 = \mathbf{8\text{ lần}}$.\\
+    $\bullet$ Nhầm giữa $a \times 3$ (sai) và $a \times a \times a$ (đúng).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

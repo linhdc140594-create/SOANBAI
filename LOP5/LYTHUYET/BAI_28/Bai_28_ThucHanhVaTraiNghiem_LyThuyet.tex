@@ -1,0 +1,153 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 28. Thực hành và trải nghiệm hình phẳng --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 28. THỰC HÀNH VÀ TRẢI NGHIỆM HÌNH PHẲNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Cắt ghép hình, đo đạc bồn hoa, thiết kế sân chơi và ứng dụng thực tế trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: NGUYÊN LÝ CẮT GHÉP HÌNH ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faScissors\ 1. Nguyên lý phân chia và bảo toàn diện tích},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Khi một hình phức tạp không có công thức trực tiếp:\\
+    $\triangleright$ \textbf{Cách 1 (Chia nhỏ):} Chia thành các hình quen thuộc (tam giác, hình chữ nhật, hình thang...) rồi cộng diện tích lại.\\
+    $\triangleright$ \textbf{Cách 2 (Bổ sung):} Ghép thêm hình để tạo thành hình chữ nhật lớn, rồi lấy diện tích lớn trừ đi phần diện tích thừa.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencilSquareO\ 2. Kỹ năng vẽ hình chuẩn},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Dùng ê-ke để kẻ đường cao \textbf{vuông góc}.\\
+    $\bullet$ Dùng com-pa để vẽ đường tròn chính xác tâm $O$ và bán kính $r$.\\
+    $\bullet$ Ghi đầy đủ các kích thước đo được lên hình vẽ phác thảo.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN HÌNH KHĂN CẶP (DIỆN TÍCH VÀNH KHĂN) ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faLifeRing\ 3. Bài toán thực tế: Diện tích đường chạy quanh hồ (Hình vành khăn)},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  Một bồn hoa hình tròn bán kính $r_1 = 3\text{ m}$. Xung quanh bồn hoa làm một lối đi rộng $1\text{ m}$. Tính diện tích lối đi đó?\\
+  $\triangleright$ Bán kính hình tròn lớn (gồm cả bồn hoa và lối đi): $r_2 = 3 + 1 = 4\text{ m}$.\\
+  $\triangleright$ Diện tích hình tròn lớn: $S_2 = 4 \times 4 \times 3,14 = 50,24\text{ m}^2$.\\
+  $\triangleright$ Diện tích bồn hoa: $S_1 = 3 \times 3 \times 3,14 = 28,26\text{ m}^2$.\\
+  $\triangleright$ \textbf{Diện tích lối đi (phần vành khăn):} $S_{\text{lối đi}} = S_2 - S_1 = 50,24 - 28,26 = \mathbf{21,98\text{ m}^2}$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Phương pháp giải bài toán hình ghép},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Quan sát cấu trúc\\Chia nhỏ hoặc Bổ sung};
+    \node[b2] (n2) at (0, 0) {2. Tính diện tích từng phần\\(Áp dụng công thức chuẩn)};
+    \node[b3] (n3) at (5.8, 0) {3. Cộng (hoặc Trừ) diện tích\\$\rightarrow$ Diện tích cần tìm};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TỐI ƯU CHI PHÍ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faMoney\ Tính chi phí trồng cỏ / lát gạch},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Tính chính xác diện tích mặt sàn $S$ (theo $\text{m}^2$).\\
+    $\bullet$ Tổng chi phí $=$ Diện tích $\times$ Đơn giá $1\text{ m}^2$.\\
+    $\bullet$ Nếu có phần không lát (như cột nhà, bể nước): phải trừ đi diện tích đó trước khi nhân đơn giá!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Bài toán lối đi quanh hình tròn: Rất nhiều bạn lấy chiều rộng lối đi nhân $3,14$ $\rightarrow$ \textbf{Sai hoàn toàn}! Bắt buộc phải lấy $S_2 - S_1$.\\
+    $\bullet$ Chú ý bán kính hình tròn lớn là $r + d$, không phải $r$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

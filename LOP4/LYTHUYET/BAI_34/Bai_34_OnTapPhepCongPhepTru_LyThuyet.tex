@@ -1,0 +1,141 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 34. Ôn tập phép cộng, phép trừ --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 34: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Rà soát toàn diện kĩ thuật tính nhiều chữ số, tính chất thuận tiện và giải toán có lời văn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 1. Quy tắc cộng trừ nhiều chữ số},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đặt tính}: Đặt các chữ số ở cùng một hàng thẳng cột với nhau (thẳng cột bên phải).\\
+    $\bullet$ \textbf{Tính}: Từ phải sang trái.\\
+    $\bullet$ \textbf{Phép cộng có nhớ}: Nhớ sang hàng liền trước bên trái.\\
+    $\bullet$ \textbf{Phép trừ có nhớ (Mượn 1 -- Trả 1)}:\\
+    Hàng trên bé hơn thì mượn 1 chục ($10$), sau đó \textbf{trả 1 vào số trừ} của hàng liền trước.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faFlash\ 2. Kĩ năng tính thuận tiện \& Tổng - Hiệu},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tính chất phép cộng}:\\
+    --- Giao hoán: $a + b = b + a$.\\
+    --- Kết hợp: $(a + b) + c = a + (b + c)$.\\
+    --- Ghép cặp tròn chục: $1+9, 2+8, 3+7, 4+6, 5+5$.\\
+    $\bullet$ \textbf{Bài toán Tổng -- Hiệu}:\\
+    --- Số bé = $(\text{Tổng} - \text{Hiệu}) : 2$.\\
+    --- Số lớn = $(\text{Tổng} + \text{Hiệu}) : 2$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: BA TRỤ CỘT PHÉP CỘNG -- PHÉP TRỪ HỌC KÌ 1},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    pillar/.style={rectangle, rounded corners=2.5mm, thick, inner sep=4pt, font=\scriptsize\bfseries, align=center, text width=4.8cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70}
+  ]
+    \node[pillar, draw=blue!75!black, fill=blue!10] (p1) at (0, 0) {\textbf{\color{blue!85!black}1. KĨ THUẬT ĐẶT TÍNH}\\Thẳng cột hàng đơn vị\\Cộng có nhớ sang trái\\Trừ mượn 1 thì trả 1 vào số trừ};
+
+    \node[pillar, draw=teal!80!black, fill=teal!10] (p2) at (5.8, 0) {\textbf{\color{teal!85!black}2. TÍNH THUẬN TIỆN}\\Giao hoán: Đổi chỗ số hạng\\Kết hợp: Nhóm dấu ngoặc\\Tạo số tròn chục, trăm, nghìn};
+
+    \node[pillar, draw=red!75!black, fill=red!10] (p3) at (11.6, 0) {\textbf{\color{red!85!black}3. BÀI TOÁN TỔNG -- HIỆU}\\Số bé = $(\text{T} - \text{H}) : 2$\\Số lớn = $(\text{T} + \text{H}) : 2$\\Lưu ý dạng ẩn Tổng, ẩn Hiệu};
+
+    \draw[thick, dashed, gray!60] (2.9, 1.0) -- (2.9, -1.0);
+    \draw[thick, dashed, gray!60] (8.7, 1.0) -- (8.7, -1.0);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Một mảnh vườn hình chữ nhật có nửa chu vi là $68\text{ m}$, chiều dài hơn chiều rộng $14\text{ m}$. Tính chiều dài, chiều rộng:\\
+    $\bullet$ \textbf{Phân tích}: Tổng $= 68\text{ m}$, Hiệu $= 14\text{ m}$.\\
+    $\bullet$ \textbf{Bài giải}:\\
+    Chiều rộng là: $(68 - 14) : 2 = 54 : 2 = \mathbf{27\text{ m}}$.\\
+    Chiều dài là: $27 + 14 = \mathbf{41\text{ m}}$.\\
+    \textbf{Đáp số}: Dài $41\text{ m}$; Rộng $27\text{ m}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy Chu vi vs Nửa chu vi:}\\
+    Đề bài cho \textbf{Chu vi} hình chữ nhật thì \textbf{bắt buộc phải chia 2} để tìm Nửa chu vi (Tổng của chiều dài và chiều rộng)!\\
+    $\bullet$ \textbf{Bẫy quên nhớ khi cộng/trừ}: Nhớ chấm 1 chấm nhỏ trên đầu chữ số để không bỏ sót lượt nhớ.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

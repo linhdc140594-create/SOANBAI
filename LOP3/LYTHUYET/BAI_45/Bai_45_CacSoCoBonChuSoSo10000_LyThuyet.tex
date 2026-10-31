@@ -1,0 +1,170 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{teal}\faBook\ SỔ TAY KIẾN THỨC TOÁN 3}
+\fancyhead[R]{\small\bfseries\color{teal}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 45. Các số có bốn chữ số. Số 10 000 --}
+
+\definecolor{primary}{HTML}{005F73}
+\definecolor{secondary}{HTML}{0A9396}
+\definecolor{accent}{HTML}{EE9B00}
+\definecolor{danger}{HTML}{AE2012}
+\definecolor{boxbg}{HTML}{F4F6F8}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,
+  colframe=primary,
+  arc=3mm,
+  boxrule=1.2pt,
+  left=4mm, right=4mm, top=2.5mm, bottom=2.5mm,
+  drop shadow=black!10!white
+]
+  \centering
+  {\Large\bfseries\color{primary}\faBookmark\ BÀI 45: CÁC SỐ CÓ BỐN CHỮ SỐ. SỐ 10 000}\\[1.5mm]
+  {\small\itshape\color{black!75}Cấu tạo thập phân: Nghìn, Trăm, Chục, Đơn vị; đọc viết số và số liền trước, số liền sau trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Cấu tạo số có 4 chữ số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Số có 4 chữ số gồm các hàng tính từ phải sang trái:
+  $$\mathbf{\text{Đơn vị}} \to \mathbf{\text{Chục}} \to \mathbf{\text{Trăm}} \to \mathbf{\text{Nghìn}}$$
+  \item Phân tích cấu tạo số tổng quát:
+  $$\overline{abcd} = a \times 1000 + b \times 100 + c \times 10 + d$$
+  \item \textbf{Số 10 000 (mười nghìn / một vạn):}
+  Là số nhỏ nhất có $5$ chữ số, liền sau của số $9999$:
+  $$9999 + 1 = \mathbf{10\,000}$$
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Quy tắc đọc và viết số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Đọc và viết số lần lượt từ hàng cao đến hàng thấp (từ trái sang phải).
+  \item Chữ số hàng trăm là $0$: đọc là \textbf{"không trăm"}.
+  \item Chữ số hàng chục là $0$: đọc là \textbf{"linh"} (hoặc \textbf{"lẻ"}).
+  \item Chữ số hàng đơn vị là $5$:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Đọc là "lăm" nếu chữ số hàng chục $> 0$.
+    \item Đọc là "năm" nếu chữ số hàng chục $= 0$.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HỆ THỐNG CÁC HÀNG SỐ CÓ 4 CHỮ SỐ}
+]
+\centering
+\begin{tikzpicture}[
+  u/.style={draw=blue!80!black, fill=blue!10, rounded corners=2pt, font=\scriptsize\bfseries, minimum width=2.4cm, minimum height=0.7cm, align=center},
+  arr/.style={-{Stealth[length=2mm]}, thick}
+]
+  \node[u, fill=purple!20, draw=purple!80!black] (h_nghin) at (0, 0) {HÀNG NGHÌN\\$a \times 1000$};
+  \node[u, fill=teal!20, draw=teal!80!black] (h_tram) at (3.5, 0) {HÀNG TRĂM\\$b \times 100$};
+  \node[u, fill=blue!20, draw=blue!80!black] (h_chuc) at (7.0, 0) {HÀNG CHỤC\\$c \times 10$};
+  \node[u, fill=orange!20, draw=orange!80!black] (h_dv) at (10.5, 0) {HÀNG ĐƠN VỊ\\$d \times 1$};
+
+  \draw[arr, purple!80!black] (h_nghin) -- (h_tram);
+  \draw[arr, teal!80!black] (h_tram) -- (h_chuc);
+  \draw[arr, blue!80!black] (h_chuc) -- (h_dv);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Viết và đọc số:}\\
+-- Số gồm $3$ nghìn, $5$ trăm, $0$ chục, $4$ đơn vị viết là: $\mathbf{3504}$. Đọc là: \textit{Ba nghìn năm trăm linh tư}.\\
+-- Số gồm $7$ nghìn, $0$ trăm, $8$ chục, $5$ đơn vị viết là: $\mathbf{7085}$. Đọc là: \textit{Bảy nghìn không trăm tám mươi lăm}.\\
+\textbf{2. Số liền trước và liền sau:}\\
+-- Liền trước số $4560$ là: $4560 - 1 = \mathbf{4559}$.\\
+-- Liền sau số $9999$ là: $9999 + 1 = \mathbf{10\,000}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy viết thiếu chữ số 0 ở các hàng:}\\
+  "Năm nghìn không trăm linh ba", nhiều bạn viết $53$ hoặc $503$ là sai! Số có 4 chữ số phải viết đủ: $\mathbf{5003}$.
+  \item \textbf{Quy cách viết số chuẩn quốc gia:}\\
+  Dùng khoảng trắng hẹp để phân tách lớp nghìn: viết $10\,000$, TUYỆT ĐỐI không dùng dấu phẩy như tiếng Anh ($10,000$).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

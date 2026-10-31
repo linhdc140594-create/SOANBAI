@@ -1,0 +1,142 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 41. Tìm giá trị phần trăm của một số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 41. TÌM GIÁ TRỊ PHẦN TRĂM CỦA MỘT SỐ}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Dạng toán 2 & 3: Tìm a% của B và tìm một số khi biết a% của nó trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: SO SÁNH HAI DẠNG BÀI TOÁN PHẦN TRĂM KINH ĐIỂN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. Hai dạng bài toán phần trăm cần phân biệt rạch ròi},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{p{0.48\textwidth}|p{0.48\textwidth}}
+    \textbf{DẠNG 2: TÌM $a\%$ CỦA SỐ $B$} & \textbf{DẠNG 3: TÌM SỐ ĐÓ KHI BIẾT $a\%$ LÀ $k$} \\ \hline
+    $\bullet$ Muốn tìm $a\%$ của $B$, ta lấy $B$ chia cho $100$ rồi nhân với $a$ (hoặc lấy $B \times a : 100$): & $\bullet$ Muốn tìm số đó khi biết $a\%$ của nó là $k$, ta lấy $k$ chia cho $a$ rồi nhân với $100$ (hoặc lấy $k \times 100 : a$): \\
+    \centering\textbf{\color{purple!90!black}$B : 100 \times a = B \times \dfrac{a}{100}$} & \centering\textbf{\color{blue!90!black}$k : a \times 100 = k : \dfrac{a}{100}$} \\[2pt]
+    \textit{VD:} Tìm $20\%$ của $80\text{ kg}$: & \textit{VD:} Tìm một số biết $20\%$ của nó là $16\text{ kg}$: \\
+    $80 : 100 \times 20 = \mathbf{16\text{ kg}}$. & $16 : 20 \times 100 = \mathbf{80\text{ kg}}$.
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: BÀI TOÁN TIỀN VỐN - TIỀN BÁN - TIỀN LÃI ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faMoney\ 2. Bài toán kinh doanh mua bán: Tiền vốn, Tiền bán, Tiền lãi},
+  colback=teal!2!white,
+  colframe=teal!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  $\bullet$ $\text{Tiền bán} = \text{Tiền vốn} + \text{Tiền lãi}$ \quad | \quad $\text{Tiền lãi} = \text{Tiền bán} - \text{Tiền vốn}$.\\
+  $\bullet$ \textbf{Lãi theo tiền vốn}: Lấy $\text{Tiền lãi} : \text{Tiền vốn} \times 100\%$.\\
+  \textit{VD:} Mua chiếc áo $100\,000$ đồng, bán được $120\,000$ đồng:\\
+  $\triangleright$ Lãi $20\,000$ đồng $\rightarrow$ Tỉ lệ lãi so với tiền vốn: $20\,000 : 100\,000 = 20\%$.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Xác định đúng phép tính với Tỉ số phần trăm},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b0/.style={rectangle, rounded corners=4pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b0] (ask) at (-6.2, 0) {Đề bài\\hỏi gì?};
+    \node[b1] (d2) at (1.5, 0.75) {Tìm $a\%$ của $B$ $\longrightarrow$ \textbf{NHÂN}: $B \times \frac{a}{100}$};
+    \node[b2] (d3) at (1.5, -0.75) {Tìm số khi biết $a\%$ là $k$ $\longrightarrow$ \textbf{CHIA}: $k : \frac{a}{100}$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (ask) |- (d2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (ask) |- (d3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: MẸO TÍNH NHẨM % SIÊU NHANH & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Mẹo tính nhẩm phần trăm siêu tốc},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Tìm $50\%$ của $A$: Lấy $A : 2$.\\
+    $\bullet$ Tìm $25\%$ của $A$: Lấy $A : 4$.\\
+    $\bullet$ Tìm $20\%$ của $A$: Lấy $A : 5$.\\
+    $\bullet$ Tìm $10\%$ của $A$: Lấy $A : 10$ (dịch phẩy sang trái $1$ chữ số).\\
+    \textit{VD:} $10\%$ của $450$ là $45 \rightarrow 5\%$ là $45 : 2 = 22,5$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cạm bẫy lớn nhất}: Nhầm lẫn giữa Dạng 2 (Nhân) và Dạng 3 (Chia).\\
+    $\bullet$ Dạng 2 là tìm một phần nhỏ của số đã biết $\rightarrow$ Kết quả nhỏ hơn.\\
+    $\bullet$ Dạng 3 là tìm số ban đầu khi biết một phần $\rightarrow$ Kết quả lớn hơn.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

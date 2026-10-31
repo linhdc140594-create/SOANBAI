@@ -1,0 +1,176 @@
+=== BÀI 14: LUYỆN TẬP CHUNG ===
+
+Câu 1: Trong số thập phân 48{,}205, chữ số 0 ở hàng nào? Điền số tương ứng: 1 (hàng phần mười), 2 (hàng phần trăm), 3 (hàng phần nghìn).
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+Chữ số 0 đứng ở vị trí thứ hai sau dấu phẩy, thuộc hàng phần trăm (mã số 2).
+
+----------------------------------------
+
+Câu 2: Viết phân số \frac{3}{5} thành số thập phân ta được 0{,}6. Lấy phần nguyên cộng chữ số hàng phần mười được bao nhiêu?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+Phần nguyên là 0, chữ số hàng phần mười là 6. Tổng là 6.
+
+----------------------------------------
+
+Câu 3: Tìm số tự nhiên lớn nhất bé hơn 15{,}78. Số đó là bao nhiêu?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Số tự nhiên lớn nhất bé hơn 15{,}78 là 15.
+
+----------------------------------------
+
+Câu 4: Tìm số tự nhiên bé nhất lớn hơn 29{,}05. Số đó là bao nhiêu?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Số tự nhiên bé nhất lớn hơn 29{,}05 là 30.
+
+----------------------------------------
+
+Câu 5: Có bao nhiêu số tự nhiên nằm giữa 8{,}9 và 14{,}1?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+Các số tự nhiên là 9, 10, 11, 12, 13, 14. Có tất cả 14 - 9 + 1 = 6 số.
+
+----------------------------------------
+
+Câu 6: Làm tròn số 47{,}85 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]48[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 8 nên làm tròn lên thành 48.
+
+----------------------------------------
+
+Câu 7: Làm tròn số 63{,}42 đến hàng đơn vị ta được số nào?
+Đáp án: [shortans]63[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 4 nên làm tròn xuống thành 63.
+
+----------------------------------------
+
+Câu 8: Đổi 5\text{ m } 8\text{ cm} thành mét dưới dạng số thập phân là 5{,}08\text{ m}. Chữ số hàng phần trăm là bao nhiêu?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+5\text{ m } 8\text{ cm} = 5{,}08\text{ m}. Chữ số hàng phần trăm là 8.
+
+----------------------------------------
+
+Câu 9: Đổi 4\text{ tấn } 5\text{ kg} thành tấn dưới dạng số thập phân là 4{,}005\text{ tấn}. Chữ số hàng phần nghìn là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+4\text{ tấn } 5\text{ kg} = 4{,}005\text{ tấn}. Chữ số hàng phần nghìn là 5.
+
+----------------------------------------
+
+Câu 10: Tìm chữ số x để 23{,}x7 > 23{,}87. Chữ số x là bao nhiêu?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Để 23{,}x7 > 23{,}87 thì x > 8. Chữ số duy nhất thỏa mãn là 9.
+
+----------------------------------------
+
+Câu 11: Sắp xếp bốn số 4{,}5; 4{,}05; 4{,}55; 4{,}055 theo thứ tự từ lớn đến bé. Số lớn nhất có chữ số hàng phần trăm là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Số lớn nhất là 4{,}55. Chữ số hàng phần trăm là 5.
+
+----------------------------------------
+
+Câu 12: Đổi 3\text{ kg } 750\text{ g} thành ki-lô-gam dưới dạng số thập phân ta được 3{,}75\text{ kg}. Tích hai chữ số ở phần thập phân là bao nhiêu?
+Đáp án: [shortans]35[/shortans]
+Lời giải chi tiết:
+3{,}75 có hai chữ số phần thập phân là 7 và 5. Tích là 7 x 5 = 35.
+
+----------------------------------------
+
+Câu 13: Đổi 2\text{ m}^2\text{ } 45\text{ dm}^2 thành mét vuông dưới dạng số thập phân ta được 2{,}45\text{ m}^2. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+2\text{ m}^2\text{ } 45\text{ dm}^2 = 2{,}45\text{ m}^2. Chữ số hàng phần mười là 4.
+
+----------------------------------------
+
+Câu 14: Một hình vuông có cạnh dài 2{,}5\text{ m}. Chu vi hình vuông đó là bao nhiêu mét?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Chu vi là 2{,}5 x 4 = 10\text{ m}.
+
+----------------------------------------
+
+Câu 15: Một hình chữ nhật có chiều dài 4{,}5\text{ m}, chiều rộng 2\text{ m}. Diện tích hình chữ nhật đó là bao nhiêu mét vuông?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Diện tích là 4{,}5 x 2 = 9\text{ m}^2.
+
+----------------------------------------
+
+Câu 16: Chuyển phân số \frac{7}{25} thành số thập phân ta được 0{,}28. Tổng các chữ số của số thập phân đó là bao nhiêu?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+\frac{7}{25} = \frac{28}{100} = 0{,}28. Tổng các chữ số là 0 + 2 + 8 = 10.
+
+----------------------------------------
+
+Câu 17: Chuyển phân số \frac{3}{8} thành số thập phân ta được 0{,}375. Chữ số hàng phần nghìn là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+\frac{3}{8} = \frac{375}{1000} = 0{,}375. Chữ số hàng phần nghìn là 5.
+
+----------------------------------------
+
+Câu 18: Tìm chữ số y sao cho 5{,}6y8 khi làm tròn đến hàng phần trăm được số 5{,}65. Chữ số y là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Vì chữ số hàng phần nghìn là 8 (8 \ge 5) nên được làm tròn lên. Để sau khi làm tròn được chữ số 5 thì trước đó y = 5 - 1 = 4.
+
+----------------------------------------
+
+Câu 19: Có bao nhiêu số tự nhiên a thỏa mãn 4{,}2 x 2 < a < 15{,}3?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+4{,}2 x 2 = 8{,}4. Ta có 8{,}4 < a < 15{,}3. Các số tự nhiên là 9, 10, 11, 12, 13, 14, 15. Có 7 số.
+
+----------------------------------------
+
+Câu 20: Một bao xi măng cân nặng 49{,}8\text{ kg}. Làm tròn khối lượng bao xi măng đến hàng đơn vị ta được bao nhiêu ki-lô-gam?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 8 nên làm tròn lên thành 50\text{ kg}.
+
+----------------------------------------
+
+Câu 21: Viết số thập phân bé nhất có ba chữ số khác nhau ở phần thập phân từ các chữ số 0; 3; 6; 9 với phần nguyên là 0. Chữ số hàng phần mười là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Số bé nhất là 0{,}369. Chữ số hàng phần mười là 3.
+
+----------------------------------------
+
+Câu 22: Viết số thập phân lớn nhất có hai chữ số ở phần thập phân từ các chữ số 1; 4; 7 với phần nguyên có một chữ số. Số đó là 7{,}41. Chữ số hàng phần trăm là bao nhiêu?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần trăm là 1.
+
+----------------------------------------
+
+Câu 23: Một người chạy quãng đường 100\text{ m} hết 12{,}8\text{ giây}. Làm tròn thời gian chạy đến hàng đơn vị ta được bao nhiêu giây?
+Đáp án: [shortans]13[/shortans]
+Lời giải chi tiết:
+Chữ số hàng phần mười là 8 nên làm tròn lên thành 13 giây.
+
+----------------------------------------
+
+Câu 24: Đổi 0{,}6\text{ giờ} thành bao nhiêu phút?
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+0{,}6\text{ giờ} = 0{,}6 x 60 = 36\text{ phút}.
+
+----------------------------------------
+
+Câu 25: Đổi 0{,}25\text{ ngày} thành bao nhiêu giờ?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+0{,}25\text{ ngày} = 0{,}25 x 24 = 6\text{ giờ}.
+
+----------------------------------------

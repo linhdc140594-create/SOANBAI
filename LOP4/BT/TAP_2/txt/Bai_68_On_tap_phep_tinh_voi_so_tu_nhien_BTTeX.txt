@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $354000 + 246000 = \dots$
+\shortans{600000}
+\loigiai{
+$354000 + 246000 = 600000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000000 - 450000 = \dots$
+\shortans{550000}
+\loigiai{
+$1000000 - 450000 = 550000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $12500 \times 4 = \dots$
+\shortans{50000}
+\loigiai{
+$12500 \times 4 = 50000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96000 : 3 = \dots$
+\shortans{32000}
+\loigiai{
+$96000 : 3 = 32000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $34 \times 25 = \dots$
+\shortans{850}
+\loigiai{
+$34 \times 25 = 850$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $864 : 24 = \dots$
+\shortans{36}
+\loigiai{
+$864 : 24 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $25 \times 38 \times 4$.
+\shortans{3800}
+\loigiai{
+$(25 \times 4) \times 38 = 3800$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $125 \times 47 \times 8$.
+\shortans{47000}
+\loigiai{
+$(125 \times 8) \times 47 = 47000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $45 \times 36 + 45 \times 64$.
+\shortans{4500}
+\loigiai{
+$45 \times 100 = 4500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $128 + 250 + 72$.
+\shortans{450}
+\loigiai{
+$(128 + 72) + 250 = 200 + 250 = 450$.
+}
+\end{ex}
+
+\begin{ex}
+Tính trung bình cộng của 3 số: 35, 45, 55.
+\shortans{45}
+\loigiai{
+$(35 + 45 + 55) : 3 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số có tổng là 150 và hiệu là 30. Số lớn là bao nhiêu?
+\shortans{90}
+\loigiai{
+$(150 + 30) : 2 = 90$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số có tổng là 150 và hiệu là 30. Số bé là bao nhiêu?
+\shortans{60}
+\loigiai{
+$(150 - 30) : 2 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Mua 6 quyển vở hết 48 000 đồng. Mua 10 quyển vở như thế hết bao nhiêu nghìn đồng?
+\shortans{80}
+\loigiai{
+1 quyển: 8 nghìn. 10 quyển: $8 \times 10 = 80$ nghìn đồng.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $120 + 80 \times 5$.
+\shortans{520}
+\loigiai{
+$120 + 400 = 520$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $(500 - 200) : 6$.
+\shortans{50}
+\loigiai{
+$300 : 6 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 45000 = 100000$.
+\shortans{55000}
+\loigiai{
+$x = 100000 - 45000 = 55000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x \times 20 = 6400$.
+\shortans{320}
+\loigiai{
+$x = 6400 : 20 = 320$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x : 15 = 40$.
+\shortans{600}
+\loigiai{
+$x = 40 \times 15 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng ngày đầu bán 120 kg gạo, ngày sau bán gấp đôi ngày đầu. Cả hai ngày bán được bao nhiêu ki-lô-gam?
+\shortans{360}
+\loigiai{
+$120 + 240 = 360$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số dư trong phép chia: $458 : 12$.
+\shortans{2}
+\loigiai{
+$458 = 12 \times 38 + 2$, dư 2.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2500 \times 40 = \dots$
+\shortans{100000}
+\loigiai{
+$2500 \times 40 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000000 : 50 = \dots$
+\shortans{20000}
+\loigiai{
+$1000000 : 50 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $99 \times 65 + 65$.
+\shortans{6500}
+\loigiai{
+$100 \times 65 = 6500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $500000 + 500000 = \dots$
+\shortans{1000000}
+\loigiai{
+$1000000$.
+}
+\end{ex}

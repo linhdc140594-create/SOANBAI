@@ -1,0 +1,176 @@
+=== BÀI 40: TÌM TỈ SỐ PHẦN TRĂM CỦA HAI SỐ ===
+
+Câu 1: Tìm tỉ số phần trăm của hai số 15 và 60.
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (15 : 60) x 100% = 25%.
+
+----------------------------------------
+
+Câu 2: Tìm tỉ số phần trăm của hai số 20 và 80.
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (20 : 80) x 100% = 25%.
+
+----------------------------------------
+
+Câu 3: Tìm tỉ số phần trăm của hai số 12 và 40.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (12 : 40) x 100% = 30%.
+
+----------------------------------------
+
+Câu 4: Tìm tỉ số phần trăm của hai số 18 và 36.
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (18 : 36) x 100% = 50%.
+
+----------------------------------------
+
+Câu 5: Tìm tỉ số phần trăm của hai số 24 và 48.
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (24 : 48) x 100% = 50%.
+
+----------------------------------------
+
+Câu 6: Tìm tỉ số phần trăm của hai số 35 và 70.
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (35 : 70) x 100% = 50%.
+
+----------------------------------------
+
+Câu 7: Tìm tỉ số phần trăm của hai số 45 và 60.
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (45 : 60) x 100% = 75%.
+
+----------------------------------------
+
+Câu 8: Tìm tỉ số phần trăm của hai số 36 và 48.
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (36 : 48) x 100% = 75%.
+
+----------------------------------------
+
+Câu 9: Tìm tỉ số phần trăm của hai số 21 và 28.
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (21 : 28) x 100% = 75%.
+
+----------------------------------------
+
+Câu 10: Tìm tỉ số phần trăm của hai số 8 và 40.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (8 : 40) x 100% = 20%.
+
+----------------------------------------
+
+Câu 11: Tìm tỉ số phần trăm của hai số 14 và 70.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (14 : 70) x 100% = 20%.
+
+----------------------------------------
+
+Câu 12: Tìm tỉ số phần trăm của hai số 9 và 90.
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (9 : 90) x 100% = 10%.
+
+----------------------------------------
+
+Câu 13: Tìm tỉ số phần trăm của hai số 16 và 80.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (16 : 80) x 100% = 20%.
+
+----------------------------------------
+
+Câu 14: Tìm tỉ số phần trăm của hai số 25 và 100.
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (25 : 100) x 100% = 25%.
+
+----------------------------------------
+
+Câu 15: Tìm tỉ số phần trăm của hai số 48 và 60.
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (48 : 60) x 100% = 80%.
+
+----------------------------------------
+
+Câu 16: Tìm tỉ số phần trăm của hai số 32 và 40.
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (32 : 40) x 100% = 80%.
+
+----------------------------------------
+
+Câu 17: Tìm tỉ số phần trăm của hai số 64 và 80.
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (64 : 80) x 100% = 80%.
+
+----------------------------------------
+
+Câu 18: Tìm tỉ số phần trăm của hai số 18 và 20.
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (18 : 20) x 100% = 90%.
+
+----------------------------------------
+
+Câu 19: Tìm tỉ số phần trăm của hai số 27 và 30.
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (27 : 30) x 100% = 90%.
+
+----------------------------------------
+
+Câu 20: Tìm tỉ số phần trăm của hai số 45 và 50.
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (45 : 50) x 100% = 90%.
+
+----------------------------------------
+
+Câu 21: Tìm tỉ số phần trăm của hai số 30 và 25.
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (30 : 25) x 100% = 120%.
+
+----------------------------------------
+
+Câu 22: Tìm tỉ số phần trăm của hai số 75 và 50.
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (75 : 50) x 100% = 150%.
+
+----------------------------------------
+
+Câu 23: Tìm tỉ số phần trăm của hai số 80 và 40.
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (80 : 40) x 100% = 200%.
+
+----------------------------------------
+
+Câu 24: Tìm tỉ số phần trăm của hai số 3 và 20.
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (3 : 20) x 100% = 15%.
+
+----------------------------------------
+
+Câu 25: Tìm tỉ số phần trăm của hai số 7 và 20.
+Đáp án: [shortans]35[/shortans]
+Lời giải chi tiết:
+Tỉ số phần trăm là: (7 : 20) x 100% = 35%.
+
+----------------------------------------

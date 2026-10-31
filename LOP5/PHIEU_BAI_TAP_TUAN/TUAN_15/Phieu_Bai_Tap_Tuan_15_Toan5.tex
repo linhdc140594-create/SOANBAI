@@ -1,0 +1,1102 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.45cm, bottom=0.45cm, left=0.8cm, right=0.8cm]{geometry}
+\DeclareUnicodeCharacter{00B2}{\ensuremath{^2}}
+\DeclareUnicodeCharacter{00B3}{\ensuremath{^3}}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay tiểu học (18pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18pt%
+  \vspace{0.4mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.8mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Ô bài tập đặt tính
+\newcommand{\oDatTinh}[3][4]{%
+  \vspace{0.3mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+% Câu trắc nghiệm dàn 4 đáp án trên 1 hàng ngang
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+% Câu trắc nghiệm dàn 2 đáp án / hàng
+\newcommand{\cauTNhaiDong}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.5\linewidth][l]{\textbf{B.} #4}\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.5\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.5\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+% =============================================================================
+% ========================= MÃ ĐỀ: 501 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 501} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $24{,}075$ đọc là:}{Hai mươi bốn phẩy không trăm bảy mươi lăm}{Hai mươi bốn phẩy bảy mươi lăm}{Hai trăm bốn mươi phẩy bảy mươi lăm}{Hai bốn phẩy không bảy lăm}
+\cauTN{2}{Sắp xếp các số $5{,}42;\; 5{,}24;\; 5{,}402;\; 5{,}204$ từ bé đến lớn là:}{$5{,}24 < 5{,}204 < 5{,}42 < 5{,}402$}{$5{,}204 < 5{,}24 < 5{,}402 < 5{,}42$}{$5{,}42 < 5{,}402 < 5{,}24 < 5{,}204$}{$5{,}204 < 5{,}402 < 5{,}24 < 5{,}42$}
+\cauTN{3}{Làm tròn số $38{,}46$ đến hàng phần mười ta được số:}{$38{,}5$}{$38{,}4$}{$38{,}0$}{$39$}
+\cauTN{4}{$4\,\text{m}^2\,8\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$4{,}8$}{$48$}{$4{,}08$}{$40{,}8$}
+\cauTN{5}{Kết quả của phép tính $45{,}6 + 18{,}75$ là:}{$63{,}35$}{$64{,}35$}{$64{,}25$}{$63{,}45$}
+\cauTN{6}{Giá trị của biểu thức $12{,}5 \times 4 - 8{,}6 : 2$ là:}{$45{,}7$}{$46{,}7$}{$44{,}7$}{$45{,}5$}
+\cauTN{7}{Một tam giác có đáy $16\,\text{cm}$, chiều cao $12\,\text{cm}$. Diện tích tam giác đó là:}{$192\,\text{cm}^2$}{$96\,\text{cm}^2$}{$48\,\text{cm}^2$}{$84\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $24\,\text{cm}$, đáy bé $16\,\text{cm}$, chiều cao $10\,\text{cm}$. Diện tích hình thang đó là:}{$400\,\text{cm}^2$}{$160\,\text{cm}^2$}{$200\,\text{cm}^2$}{$240\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $5\,\text{cm}$. Diện tích của hình tròn đó là:}{$78{,}5\,\text{cm}^2$}{$31{,}4\,\text{cm}^2$}{$157\,\text{cm}^2$}{$25\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $10\,\text{m} \times 6\,\text{m}$ ghép với một tam giác đáy $10\,\text{m}$, chiều cao $4\,\text{m}$. Diện tích mảnh đất là:}{$70\,\text{m}^2$}{$80\,\text{m}^2$}{$90\,\text{m}^2$}{$85\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $8\,\text{m}$, rộng $6\,\text{m}$. Lát bằng gạch vuông cạnh $40\,\text{cm}$ thì cần số viên gạch là:}{$300\,\text{viên}$}{$250\,\text{viên}$}{$350\,\text{viên}$}{$400\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình thang diện tích $150\,\text{m}^2$ với đơn giá $45\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$6\,500\,000$ đồng}{$6\,750\,000$ đồng}{$7\,000\,000$ đồng}{$6\,250\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$56{,}38 + 27{,}85$} & 
+\oDatTinh[4]{b)}{$94{,}2 - 48{,}76$} & 
+\oDatTinh[4]{c)}{$28{,}5 \times 3{,}4$} & 
+\oDatTinh[4]{d)}{$89{,}6 : 3{,}2$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 501} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 34{,}8 = 82{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 4{,}8 = 40{,}8$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 28{,}6 = 45{,}7$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 3{,}5 = 16$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (15 \times 8) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (20 + 15) \times 8 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 5 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 4 \times 4 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh đất hình thang có đáy lớn $24$ m, đáy bé $16$ m, chiều cao $12$ m. Người ta dành $\frac{1}{4}$ diện tích mảnh đất để làm nhà, phần còn lại lát gạch. Biết tiền gạch và công lát là $180\,000$ đồng mỗi mét vuông. Tính số tiền lát gạch phần còn lại.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: A = 0{,}1 + 0{,}2 + 0{,}3 + ... + 0{,}9$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 502 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 502} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $45{,}082$ đọc là:}{Bốn mươi lăm phẩy không trăm tám mươi hai}{Bốn mươi lăm phẩy tám mươi hai}{Bốn trăm năm mươi phẩy tám mươi hai}{Bốn lăm phẩy không tám hai}
+\cauTN{2}{Sắp xếp các số $6{,}53;\; 6{,}35;\; 6{,}503;\; 6{,}305$ từ bé đến lớn là:}{$6{,}35 < 6{,}305 < 6{,}53 < 6{,}503$}{$6{,}305 < 6{,}35 < 6{,}503 < 6{,}53$}{$6{,}53 < 6{,}503 < 6{,}35 < 6{,}305$}{$6{,}305 < 6{,}503 < 6{,}35 < 6{,}53$}
+\cauTN{3}{Làm tròn số $52{,}74$ đến hàng phần mười ta được số:}{$52{,}7$}{$52{,}8$}{$52{,}0$}{$53$}
+\cauTN{4}{$6\,\text{m}^2\,5\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$6{,}5$}{$65$}{$6{,}05$}{$60{,}5$}
+\cauTN{5}{Kết quả của phép tính $54{,}8 + 26{,}45$ là:}{$80{,}25$}{$81{,}25$}{$81{,}15$}{$80{,}35$}
+\cauTN{6}{Giá trị của biểu thức $15{,}5 \times 4 - 9{,}4 : 2$ là:}{$57{,}3$}{$58{,}3$}{$56{,}3$}{$57{,}5$}
+\cauTN{7}{Một tam giác có đáy $18\,\text{cm}$, chiều cao $10\,\text{cm}$. Diện tích tam giác đó là:}{$180\,\text{cm}^2$}{$90\,\text{cm}^2$}{$45\,\text{cm}^2$}{$80\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $28\,\text{cm}$, đáy bé $18\,\text{cm}$, chiều cao $12\,\text{cm}$. Diện tích hình thang đó là:}{$552\,\text{cm}^2$}{$250\,\text{cm}^2$}{$276\,\text{cm}^2$}{$280\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $6\,\text{cm}$. Diện tích của hình tròn đó là:}{$113{,}04\,\text{cm}^2$}{$37{,}68\,\text{cm}^2$}{$226{,}08\,\text{cm}^2$}{$36\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $12\,\text{m} \times 8\,\text{m}$ ghép với một tam giác đáy $12\,\text{m}$, chiều cao $5\,\text{m}$. Diện tích mảnh đất là:}{$116\,\text{m}^2$}{$126\,\text{m}^2$}{$136\,\text{m}^2$}{$120\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $9\,\text{m}$, rộng $5\,\text{m}$. Lát bằng gạch vuông cạnh $50\,\text{cm}$ thì cần số viên gạch là:}{$180\,\text{viên}$}{$150\,\text{viên}$}{$200\,\text{viên}$}{$160\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình tam giác diện tích $120\,\text{m}^2$ với đơn giá $50\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$5\,800\,000$ đồng}{$6\,000\,000$ đồng}{$6\,200\,000$ đồng}{$5\,500\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$64{,}45 + 32{,}68$} & 
+\oDatTinh[4]{b)}{$88{,}5 - 39{,}84$} & 
+\oDatTinh[4]{c)}{$32{,}5 \times 2{,}8$} & 
+\oDatTinh[4]{d)}{$98{,}8 : 2{,}6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 502} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 28{,}6 = 75{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 5{,}4 = 45{,}9$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 35{,}7 = 52{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 4{,}2 = 18$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (18 \times 10) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (24 + 18) \times 10 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 6 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 5 \times 5 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một khu vườn hình chữ nhật có chiều dài $30$ m, chiều rộng $20$ m. Ở giữa vườn người ta đào một cái ao hình tam giác có đáy $8$ m và chiều cao $5$ m. Phần đất còn lại trồng cỏ, mỗi mét vuông cỏ hết $25\,000$ đồng. Tính số tiền trồng cỏ.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: B = 1{,}25 \times 3{,}7 + 1{,}25 \times 6{,}3$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 503 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 503} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $68{,}045$ đọc là:}{Sáu mươi tám phẩy không trăm bốn mươi lăm}{Sáu mươi tám phẩy bốn mươi lăm}{Sáu trăm tám mươi phẩy bốn mươi lăm}{Sáu tám phẩy không bốn lăm}
+\cauTN{2}{Sắp xếp các số $7{,}64;\; 7{,}46;\; 7{,}604;\; 7{,}406$ từ bé đến lớn là:}{$7{,}46 < 7{,}406 < 7{,}64 < 7{,}604$}{$7{,}406 < 7{,}46 < 7{,}604 < 7{,}64$}{$7{,}64 < 7{,}604 < 7{,}46 < 7{,}406$}{$7{,}406 < 7{,}604 < 7{,}46 < 7{,}64$}
+\cauTN{3}{Làm tròn số $64{,}85$ đến hàng phần mười ta được số:}{$64{,}9$}{$64{,}8$}{$64{,}0$}{$65$}
+\cauTN{4}{$5\,\text{m}^2\,6\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$5{,}6$}{$56$}{$5{,}06$}{$50{,}6$}
+\cauTN{5}{Kết quả của phép tính $63{,}5 + 24{,}85$ là:}{$87{,}35$}{$88{,}35$}{$88{,}25$}{$87{,}45$}
+\cauTN{6}{Giá trị của biểu thức $18{,}5 \times 4 - 11{,}2 : 2$ là:}{$68{,}4$}{$69{,}4$}{$67{,}4$}{$68{,}5$}
+\cauTN{7}{Một tam giác có đáy $20\,\text{cm}$, chiều cao $14\,\text{cm}$. Diện tích tam giác đó là:}{$280\,\text{cm}^2$}{$140\,\text{cm}^2$}{$70\,\text{cm}^2$}{$120\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $30\,\text{cm}$, đáy bé $20\,\text{cm}$, chiều cao $14\,\text{cm}$. Diện tích hình thang đó là:}{$700\,\text{cm}^2$}{$320\,\text{cm}^2$}{$350\,\text{cm}^2$}{$360\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $7\,\text{cm}$. Diện tích của hình tròn đó là:}{$153{,}86\,\text{cm}^2$}{$43{,}96\,\text{cm}^2$}{$307{,}72\,\text{cm}^2$}{$49\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $14\,\text{m} \times 8\,\text{m}$ ghép với một tam giác đáy $14\,\text{m}$, chiều cao $6\,\text{m}$. Diện tích mảnh đất là:}{$144\,\text{m}^2$}{$154\,\text{m}^2$}{$164\,\text{m}^2$}{$150\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $10\,\text{m}$, rộng $6\,\text{m}$. Lát bằng gạch vuông cạnh $50\,\text{cm}$ thì cần số viên gạch là:}{$240\,\text{viên}$}{$200\,\text{viên}$}{$260\,\text{viên}$}{$220\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình thang diện tích $180\,\text{m}^2$ với đơn giá $55\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$9\,500\,000$ đồng}{$9\,900\,000$ đồng}{$10\,200\,000$ đồng}{$9\,700\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$72{,}56 + 35{,}84$} & 
+\oDatTinh[4]{b)}{$95{,}4 - 46{,}78$} & 
+\oDatTinh[4]{c)}{$36{,}5 \times 3{,}2$} & 
+\oDatTinh[4]{d)}{$108 : 3{,}6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 503} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 36{,}5 = 94{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 6{,}2 = 52{,}7$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 42{,}8 = 56{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 5{,}4 = 15$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (20 \times 12) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (26 + 20) \times 12 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 7 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 6 \times 6 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh đất gồm hình chữ nhật có chiều dài $18$ m, chiều rộng $12$ m và một hình tam giác ghép vào có đáy bằng chiều rộng hình chữ nhật, chiều cao $6$ m. Người ta lát gạch toàn bộ mảnh đất với giá $150\,000$ đồng mỗi mét vuông. Tính số tiền lát gạch.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: C = 0{,}25 \times 0{,}4 \times 8 \times 12{,}5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 504 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 504} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $82{,}036$ đọc là:}{Tám mươi hai phẩy không trăm ba mươi sáu}{Tám mươi hai phẩy ba mươi sáu}{Tám trăm hai mươi phẩy ba mươi sáu}{Tám hai phẩy không ba sáu}
+\cauTN{2}{Sắp xếp các số $8{,}75;\; 8{,}57;\; 8{,}705;\; 8{,}507$ từ bé đến lớn là:}{$8{,}57 < 8{,}507 < 8{,}75 < 8{,}705$}{$8{,}507 < 8{,}57 < 8{,}705 < 8{,}75$}{$8{,}75 < 8{,}705 < 8{,}57 < 8{,}507$}{$8{,}507 < 8{,}705 < 8{,}57 < 8{,}75$}
+\cauTN{3}{Làm tròn số $73{,}68$ đến hàng phần mười ta được số:}{$73{,}7$}{$73{,}6$}{$73{,}0$}{$74$}
+\cauTN{4}{$7\,\text{m}^2\,4\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$7{,}4$}{$74$}{$7{,}04$}{$70{,}4$}
+\cauTN{5}{Kết quả của phép tính $72{,}6 + 28{,}75$ là:}{$100{,}35$}{$101{,}35$}{$101{,}25$}{$100{,}45$}
+\cauTN{6}{Giá trị của biểu thức $21{,}5 \times 4 - 13{,}4 : 2$ là:}{$79{,}3$}{$80{,}3$}{$78{,}3$}{$79{,}5$}
+\cauTN{7}{Một tam giác có đáy $22\,\text{cm}$, chiều cao $15\,\text{cm}$. Diện tích tam giác đó là:}{$330\,\text{cm}^2$}{$165\,\text{cm}^2$}{$82{,}5\,\text{cm}^2$}{$150\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $32\,\text{cm}$, đáy bé $22\,\text{cm}$, chiều cao $15\,\text{cm}$. Diện tích hình thang đó là:}{$810\,\text{cm}^2$}{$380\,\text{cm}^2$}{$405\,\text{cm}^2$}{$420\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $8\,\text{cm}$. Diện tích của hình tròn đó là:}{$200{,}96\,\text{cm}^2$}{$50{,}24\,\text{cm}^2$}{$401{,}92\,\text{cm}^2$}{$64\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $15\,\text{m} \times 8\,\text{m}$ ghép với một tam giác đáy $15\,\text{m}$, chiều cao $6\,\text{m}$. Diện tích mảnh đất là:}{$155\,\text{m}^2$}{$165\,\text{m}^2$}{$175\,\text{m}^2$}{$160\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $12\,\text{m}$, rộng $6\,\text{m}$. Lát bằng gạch vuông cạnh $60\,\text{cm}$ thì cần số viên gạch là:}{$200\,\text{viên}$}{$180\,\text{viên}$}{$220\,\text{viên}$}{$190\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình thang diện tích $200\,\text{m}^2$ với đơn giá $60\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$11\,500\,000$ đồng}{$12\,000\,000$ đồng}{$12\,500\,000$ đồng}{$11\,800\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$78{,}48 + 36{,}75$} & 
+\oDatTinh[4]{b)}{$102{,}5 - 54{,}86$} & 
+\oDatTinh[4]{c)}{$42{,}5 \times 2{,}6$} & 
+\oDatTinh[4]{d)}{$124{,}8 : 3{,}9$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 504} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 42{,}5 = 106{,}2$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 7{,}4 = 62{,}9$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 48{,}7 = 64{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 6{,}2 = 18$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (22 \times 14) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (28 + 22) \times 14 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 8 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 7 \times 7 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một thửa đất hình thang có đáy lớn $35$ m, đáy bé $25$ m, chiều cao $20$ m. Người ta trồng rau trên thửa đất đó, cứ $5$ m$^2$ thu được $40\,000$ đồng. Tính số tiền thu được từ thửa đất.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: D = 2{,}5 \times 4{,}8 + 2{,}5 \times 5{,}2$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 505 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 505} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $94{,}062$ đọc là:}{Chín mươi tư phẩy không trăm sáu mươi hai}{Chín mươi tư phẩy sáu mươi hai}{Chín trăm bốn mươi phẩy sáu mươi hai}{Chín tư phẩy không sáu hai}
+\cauTN{2}{Sắp xếp các số $9{,}83;\; 9{,}38;\; 9{,}803;\; 9{,}308$ từ bé đến lớn là:}{$9{,}38 < 9{,}308 < 9{,}83 < 9{,}803$}{$9{,}308 < 9{,}38 < 9{,}803 < 9{,}83$}{$9{,}83 < 9{,}803 < 9{,}38 < 9{,}308$}{$9{,}308 < 9{,}803 < 9{,}38 < 9{,}83$}
+\cauTN{3}{Làm tròn số $85{,}54$ đến hàng phần mười ta được số:}{$85{,}5$}{$85{,}6$}{$85{,}0$}{$86$}
+\cauTN{4}{$8\,\text{m}^2\,3\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$8{,}3$}{$83$}{$8{,}03$}{$80{,}3$}
+\cauTN{5}{Kết quả của phép tính $81{,}5 + 34{,}68$ là:}{$115{,}18$}{$116{,}18$}{$116{,}08$}{$115{,}28$}
+\cauTN{6}{Giá trị của biểu thức $24{,}5 \times 4 - 15{,}6 : 2$ là:}{$90{,}2$}{$91{,}2$}{$89{,}2$}{$90{,}5$}
+\cauTN{7}{Một tam giác có đáy $24\,\text{cm}$, chiều cao $16\,\text{cm}$. Diện tích tam giác đó là:}{$384\,\text{cm}^2$}{$192\,\text{cm}^2$}{$96\,\text{cm}^2$}{$180\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $35\,\text{cm}$, đáy bé $25\,\text{cm}$, chiều cao $16\,\text{cm}$. Diện tích hình thang đó là:}{$960\,\text{cm}^2$}{$450\,\text{cm}^2$}{$480\,\text{cm}^2$}{$500\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $9\,\text{cm}$. Diện tích của hình tròn đó là:}{$254{,}34\,\text{cm}^2$}{$56{,}52\,\text{cm}^2$}{$508{,}68\,\text{cm}^2$}{$81\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $16\,\text{m} \times 10\,\text{m}$ ghép với một tam giác đáy $16\,\text{m}$, chiều cao $6\,\text{m}$. Diện tích mảnh đất là:}{$198\,\text{m}^2$}{$208\,\text{m}^2$}{$218\,\text{m}^2$}{$200\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $12\,\text{m}$, rộng $8\,\text{m}$. Lát bằng gạch vuông cạnh $40\,\text{cm}$ thì cần số viên gạch là:}{$600\,\text{viên}$}{$500\,\text{viên}$}{$650\,\text{viên}$}{$550\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình thang diện tích $250\,\text{m}^2$ với đơn giá $50\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$12\,000\,000$ đồng}{$12\,500\,000$ đồng}{$13\,000\,000$ đồng}{$12\,250\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$84{,}65 + 43{,}86$} & 
+\oDatTinh[4]{b)}{$115{,}4 - 63{,}75$} & 
+\oDatTinh[4]{c)}{$48{,}5 \times 2{,}4$} & 
+\oDatTinh[4]{d)}{$135 : 4{,}5$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 505} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 48{,}6 = 118{,}4$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 8{,}2 = 69{,}7$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 54{,}8 = 72{,}5$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 7{,}5 = 20$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (24 \times 16) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (32 + 24) \times 15 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 9 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 8 \times 8 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một sân hình chữ nhật có chiều dài $40$ m, chiều rộng $25$ m. Người ta làm một bồn hoa hình tròn đường kính $10$ m ở giữa sân (lấy $\pi = 3{,}14$). Phần còn lại lát gạch với giá $120\,000$ đồng mỗi mét vuông. Tính số tiền lát gạch.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: E = 0{,}5 + 0{,}5 + 0{,}5 + 0{,}5 + 0{,}5 + 0{,}5$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 506 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 506} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $105{,}048$ đọc là:}{Một trăm linh năm phẩy không trăm bốn mươi tám}{Một trăm năm phẩy bốn mươi tám}{Mười lăm phẩy không trăm bốn mươi tám}{Một trăm linh năm phẩy bốn mươi tám}
+\cauTN{2}{Sắp xếp các số $10{,}72;\; 10{,}27;\; 10{,}702;\; 10{,}207$ từ bé đến lớn là:}{$10{,}27 < 10{,}207 < 10{,}72 < 10{,}702$}{$10{,}207 < 10{,}27 < 10{,}702 < 10{,}72$}{$10{,}72 < 10{,}702 < 10{,}27 < 10{,}207$}{$10{,}207 < 10{,}702 < 10{,}27 < 10{,}72$}
+\cauTN{3}{Làm tròn số $96{,}76$ đến hàng phần mười ta được số:}{$96{,}8$}{$96{,}7$}{$96{,}0$}{$97$}
+\cauTN{4}{$9\,\text{m}^2\,2\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$9{,}2$}{$92$}{$9{,}02$}{$90{,}2$}
+\cauTN{5}{Kết quả của phép tính $88{,}7 + 36{,}58$ là:}{$124{,}28$}{$125{,}28$}{$125{,}18$}{$124{,}38$}
+\cauTN{6}{Giá trị của biểu thức $28{,}5 \times 4 - 17{,}4 : 2$ là:}{$105{,}3$}{$106{,}3$}{$104{,}3$}{$105{,}5$}
+\cauTN{7}{Một tam giác có đáy $26\,\text{cm}$, chiều cao $18\,\text{cm}$. Diện tích tam giác đó là:}{$468\,\text{cm}^2$}{$234\,\text{cm}^2$}{$117\,\text{cm}^2$}{$220\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $40\,\text{cm}$, đáy bé $30\,\text{cm}$, chiều cao $18\,\text{cm}$. Diện tích hình thang đó là:}{$1\\,260\,\text{cm}^2$}{$600\,\text{cm}^2$}{$630\,\text{cm}^2$}{$650\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $10\,\text{cm}$. Diện tích của hình tròn đó là:}{$314\,\text{cm}^2$}{$62{,}8\,\text{cm}^2$}{$628\,\text{cm}^2$}{$100\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $18\,\text{m} \times 10\,\text{m}$ ghép với một tam giác đáy $18\,\text{m}$, chiều cao $8\,\text{m}$. Diện tích mảnh đất là:}{$242\,\text{m}^2$}{$252\,\text{m}^2$}{$262\,\text{m}^2$}{$250\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $14\,\text{m}$, rộng $8\,\text{m}$. Lát bằng gạch vuông cạnh $40\,\text{cm}$ thì cần số viên gạch là:}{$700\,\text{viên}$}{$650\,\text{viên}$}{$750\,\text{viên}$}{$600\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình thang diện tích $300\,\text{m}^2$ với đơn giá $48\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$14\,000\,000$ đồng}{$14\,400\,000$ đồng}{$14\,800\,000$ đồng}{$14\,200\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$92{,}58 + 48{,}76$} & 
+\oDatTinh[4]{b)}{$124{,}6 - 75{,}84$} & 
+\oDatTinh[4]{c)}{$54{,}5 \times 2{,}8$} & 
+\oDatTinh[4]{d)}{$153{,}6 : 4{,}8$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 506} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 54{,}8 = 132{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 9{,}4 = 89{,}3$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 62{,}5 = 81{,}7$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 8{,}4 = 22$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (28 \times 18) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (36 + 28) \times 16 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 10 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 9 \times 9 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một mảnh đất hình thang có đáy lớn $28$ m, đáy bé $12$ m, chiều cao $15$ m. Người ta chia mảnh đất thành hai phần: phần hình tam giác có đáy$12$ m (bằng đáy bé) và chiều cao $15$ m để làm sân, phần còn lại trồng hoa với giá $30\,000$ đồng mỗi mét vuông. Tính số tiền trồng hoa.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: F = 0{,}12 \times 5 + 0{,}12 \times 95$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 507 ========================================
+% =============================================================================
+
+% -------------------- TRANG 1: MẶT TRƯỚC --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5 (TUẦN 15)} & \textbf{MÃ ĐỀ: 507} \\
+\textit{Trung tâm Toán Thầy Lĩnh -- Năm học: 2026 - 2027} & \textit{Thời gian: 45 phút} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.1cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1mm}
+
+\noindent\textbf{BẢNG ĐIỀN ĐÁP ÁN TRẮC NGHIỆM (Mỗi câu đúng 0,25 điểm):}
+\vspace{0.6mm}
+
+\begin{tabularx}{\linewidth}{|c|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & & & & & & & & & & & & \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (3,0 điểm)}
+
+\cauTN{1}{Số thập phân $128{,}075$ đọc là:}{Một trăm hai mươi tám phẩy không trăm bảy mươi lăm}{Một trăm hai tám phẩy bảy mươi lăm}{Mười hai phẩy không trăm bảy mươi lăm}{Một trăm hai mươi tám phẩy bảy mươi lăm}
+\cauTN{2}{Sắp xếp các số $12{,}64;\; 12{,}46;\; 12{,}604;\; 12{,}406$ từ bé đến lớn là:}{$12{,}46 < 12{,}406 < 12{,}64 < 12{,}604$}{$12{,}406 < 12{,}46 < 12{,}604 < 12{,}64$}{$12{,}64 < 12{,}604 < 12{,}46 < 12{,}406$}{$12{,}406 < 12{,}604 < 12{,}46 < 12{,}64$}
+\cauTN{3}{Làm tròn số $104{,}86$ đến hàng phần mười ta được số:}{$104{,}9$}{$104{,}8$}{$104{,}0$}{$105$}
+\cauTN{4}{$12\,\text{m}^2\,5\,\text{dm}^2 = \dots\,\text{m}^2$. Số thích hợp điền vào chỗ chấm là:}{$12{,}5$}{$125$}{$12{,}05$}{$120{,}5$}
+\cauTN{5}{Kết quả của phép tính $96{,}8 + 45{,}75$ là:}{$141{,}55$}{$142{,}55$}{$142{,}45$}{$141{,}65$}
+\cauTN{6}{Giá trị của biểu thức $32{,}5 \times 4 - 19{,}6 : 2$ là:}{$120{,}2$}{$121{,}2$}{$119{,}2$}{$120{,}5$}
+\cauTN{7}{Một tam giác có đáy $28\,\text{cm}$, chiều cao $20\,\text{cm}$. Diện tích tam giác đó là:}{$560\,\text{cm}^2$}{$280\,\text{cm}^2$}{$140\,\text{cm}^2$}{$260\,\text{cm}^2$}
+\cauTN{8}{Một hình thang có đáy lớn $45\,\text{cm}$, đáy bé $35\,\text{cm}$, chiều cao $20\,\text{cm}$. Diện tích hình thang đó là:}{$1\\,600\,\text{cm}^2$}{$750\,\text{cm}^2$}{$800\,\text{cm}^2$}{$850\,\text{cm}^2$}
+\cauTN{9}{Một hình tròn có bán kính $12\,\text{cm}$. Diện tích của hình tròn đó là:}{$452{,}16\,\text{cm}^2$}{$75{,}36\,\text{cm}^2$}{$904{,}32\,\text{cm}^2$}{$144\,\text{cm}^2$}
+\cauTN{10}{Một mảnh đất gồm hình chữ nhật $20\,\text{m} \times 12\,\text{m}$ ghép với một tam giác đáy $20\,\text{m}$, chiều cao $8\,\text{m}$. Diện tích mảnh đất là:}{$310\,\text{m}^2$}{$320\,\text{m}^2$}{$330\,\text{m}^2$}{$300\,\text{m}^2$}
+\cauTNhaiDong{11}{Một căn phòng dài $15\,\text{m}$, rộng $8\,\text{m}$. Lát bằng gạch vuông cạnh $50\,\text{cm}$ thì cần số viên gạch là:}{$480\,\text{viên}$}{$450\,\text{viên}$}{$500\,\text{viên}$}{$460\,\text{viên}$}
+\cauTNhaiDong{12}{Trồng cỏ trên mảnh đất hình thang diện tích $350\,\text{m}^2$ với đơn giá $52\,000$ đồng$/\text{m}^2$. Tổng số tiền công là:}{$17\,800\,000$ đồng}{$18\,200\,000$ đồng}{$18\,500\,000$ đồng}{$18\,000\,000$ đồng}
+
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (7,0 điểm)}
+
+\noindent\textbf{Bài 1 (2,0 điểm). Đặt tính rồi tính:}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\hline
+\oDatTinh[4]{a)}{$104{,}65 + 56{,}88$} & 
+\oDatTinh[4]{b)}{$138{,}2 - 84{,}65$} & 
+\oDatTinh[4]{c)}{$62{,}5 \times 3{,}2$} & 
+\oDatTinh[4]{d)}{$184 : 4{,}6$} \tabularnewline
+\hline
+\end{tabularx}
+
+\newpage
+% -------------------- TRANG 2: MẶT SAU --------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHẦN TỰ LUẬN (TIẾP THEO) -- PHIẾU BÀI TẬP TUẦN 15} & \textbf{MÃ ĐỀ: 507} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+% BÀI 2: TÌM X (4 Ý)
+\khungBaiTap{%
+  \textbf{Bài 2 (1,5 điểm). Tìm $x$:}\par\vspace{0.6mm}
+  \noindent
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{a)} $x + 62{,}4 = 148{,}6$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{c)} $x \times 9{,}8 = 102{,}9$\par
+    \dongke{3}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.485\linewidth}
+    \textbf{b)} $x - 71{,}6 = 94{,}8$\par
+    \dongke{3}
+    \vspace{0.4mm}
+    \textbf{d)} $x : 9{,}5 = 25$\par
+    \dongke{3}
+  \end{minipage}
+}
+
+\vspace{0.8mm}
+
+% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}\par\vspace{0.8mm}
+  \noindent
+  a) $S_{\Delta} = (30 \times 20) : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  b) $S_{\text{thang}} = (42 + 30) \times 18 : 2 = \dotfill\,\text{cm}^2$\par\vspace{1.4mm}
+  \noindent
+  c) $C_{\text{tròn}} = 2 \times 12 \times 3{,}14 = \dotfill\,\text{cm}$\par\vspace{1.4mm}
+  \noindent
+  d) $S_{\text{tròn}} = 10 \times 10 \times 3{,}14 = \dotfill\,\text{dm}^2$\par
+}
+
+\vspace{0.8mm}
+
+% BÀI 4: BÀI TOÁN GIẢI (11 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 4 (1,5 điểm).} Một khu đất hình chữ nhật có chiều dài $50$ m, chiều rộng $30$ m. Người ta dùng $\frac{2}{5}$ diện tích để xây nhà, phần còn lại chia đều thành các ô đất hình tam giác có đáy $4$ m, chiều cao $5$ m để trồng cây. Mỗi ô đất trồng cây tốn $200\,000$ đồng. Tính tổng số tiền trồng cây.
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}
+  \dongke{11}
+}
+
+\vspace{0.8mm}
+
+% BÀI 5: TOÁN NÂNG CAO (8 DÒNG KẺ)
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Tính bằng cách thuận tiện nhất:\par\vspace{0.6mm}\centerline{$Tính bằng cách thuận tiện: G = 0{,}25 \times 1{,}2 + 0{,}25 \times 8{,}8$}
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài làm:}
+  \dongke{8}
+}
+
+\newpage
+\end{document}

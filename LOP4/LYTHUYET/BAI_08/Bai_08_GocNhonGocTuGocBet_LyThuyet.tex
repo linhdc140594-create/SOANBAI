@@ -1,0 +1,161 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 08. Góc nhọn, góc tù, góc bẹt --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 08: GÓC NHỌN, GÓC TÙ, GÓC BẸT}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Nhận diện và so sánh 4 loại góc cơ bản dựa trên chuẩn góc vuông 90 độ}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faShapes\ 1. Bốn loại góc cơ bản},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Góc vuông:} Số đo bằng \textbf{$90^\circ$}.\\
+    $\bullet$ \textbf{Góc nhọn:} Số đo \textbf{bé hơn $90^\circ$} ($0^\circ < \alpha < 90^\circ$).\\
+    $\bullet$ \textbf{Góc tù:} Số đo \textbf{lớn hơn $90^\circ$ và bé hơn $180^\circ$} ($90^\circ < \alpha < 180^\circ$).\\
+    $\bullet$ \textbf{Góc bẹt:} Số đo bằng \textbf{$180^\circ$} (bằng 2 góc vuông, hai cạnh tạo thành đường thẳng).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheck\ 2. Dùng ê-ke để kiểm tra},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Đặt góc vuông của thước ê-ke trùng với đỉnh và 1 cạnh của góc cần kiểm tra:\\
+    - Cạnh kia \textbf{nằm trong} góc ê-ke $\rightarrow$ \textbf{Góc nhọn}.\\
+    - Cạnh kia \textbf{trùng} cạnh ê-ke $\rightarrow$ \textbf{Góc vuông}.\\
+    - Cạnh kia \textbf{nằm ngoài} góc ê-ke $\rightarrow$ \textbf{Góc tù}.\\
+    $\bullet$ Hai cạnh cùng nằm trên một đường thẳng $\rightarrow$ \textbf{Góc bẹt}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Phân loại 4 loại góc theo số đo chuẩn},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    boxN/.style={rectangle, rounded corners=4pt, fill=blue!10, draw=blue!75!black, text=blue!90!black, font=\scriptsize, inner sep=3pt, align=center, minimum width=2.6cm},
+    boxV/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!80!black, text=teal!95!black, font=\scriptsize, inner sep=3pt, align=center, minimum width=2.6cm},
+    boxT/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\scriptsize, inner sep=3pt, align=center, minimum width=2.6cm},
+    boxB/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\scriptsize, inner sep=3pt, align=center, minimum width=2.6cm}
+  ]
+    % Hình vẽ góc nhọn
+    \draw[thick, blue!80!black] (-5.1, 0.45) -- ++(35:0.75);
+    \draw[thick, blue!80!black] (-5.1, 0.45) -- ++(0:0.85);
+    \draw[blue!70!black] (-5.1+0.35, 0.45) arc (0:35:0.35);
+
+    % Hình vẽ góc vuông
+    \draw[thick, teal!85!black] (-1.7, 0.45) -- ++(90:0.75);
+    \draw[thick, teal!85!black] (-1.7, 0.45) -- ++(0:0.85);
+    \draw[teal!85!black] (-1.7, 0.45+0.25) -- ++(0.25,0) -- ++(0,-0.25);
+
+    % Hình vẽ góc tù
+    \draw[thick, orange!85!black] (1.7, 0.45) -- ++(130:0.75);
+    \draw[thick, orange!85!black] (1.7, 0.45) -- ++(0:0.85);
+    \draw[orange!80!black] (1.7+0.3, 0.45) arc (0:130:0.3);
+
+    % Hình vẽ góc bẹt
+    \draw[thick, purple!85!black] (5.1-0.85, 0.45) -- (5.1+0.85, 0.45);
+    \fill[purple!85!black] (5.1, 0.45) circle (1.5pt);
+    \draw[purple!80!black] (5.1+0.35, 0.45) arc (0:180:0.35);
+
+    \node[boxN] (n1) at (-5.1, -0.35) {\textbf{GÓC NHỌN}\\[1pt]Số đo $< 90^\circ$};
+    \node[boxV] (n2) at (-1.7, -0.35) {\textbf{GÓC VUÔNG}\\[1pt]Số đo $= 90^\circ$};
+    \node[boxT] (n3) at (1.7, -0.35) {\textbf{GÓC TÙ}\\[1pt]$90^\circ < \text{Số đo} < 180^\circ$};
+    \node[boxB] (n4) at (5.1, -0.35) {\textbf{GÓC BẸT}\\[1pt]Số đo $= 180^\circ$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (n1.east) -- (n2.west);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (n2.east) -- (n3.west);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (n3.east) -- (n4.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSortNumericAsc\ Mẹo so sánh độ lớn 4 loại góc},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Thứ tự từ bé đến lớn:}\\
+    $\textbf{Góc nhọn} < \textbf{Góc vuông} < \textbf{Góc tù} < \textbf{Góc bẹt}$\\
+    $\bullet$ 1 góc bẹt $= 2$ góc vuông $= 180^\circ$.\\
+    $\bullet$ 1 góc vuông $= 90^\circ$.\\
+    $\bullet$ Góc nhọn tạo cảm giác "sắc nhọn", góc tù tạo cảm giác "mở rộng".
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy hình bị xoay nghiêng:}\\
+    Khi hình vẽ không nằm ngang, mắt nhìn dễ nhầm góc nhọn thành góc vuông hoặc góc tù!\\
+    $\rightarrow$ \textbf{Bắt buộc đặt thước ê-ke} để kiểm tra, không đoán mò bằng mắt!\\
+    $\bullet$ Góc bẹt có 2 cạnh cùng nằm trên 1 đường thẳng.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

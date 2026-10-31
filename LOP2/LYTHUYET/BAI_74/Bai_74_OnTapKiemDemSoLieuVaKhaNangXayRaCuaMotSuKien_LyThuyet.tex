@@ -1,0 +1,164 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 74: ÔN TẬP KIỂM ĐẾM SỐ LIỆU VÀ KHẢ NĂNG XẢY RA CỦA MỘT SỰ KIỆN}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Tổng kết thu thập dữ liệu, đọc biểu đồ tranh và dự đoán chắc chắn, có thể, không thể}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Trọng tâm Thống kê mô tả}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Quy trình 3 bước xử lí số liệu:}
+  $$\text{Thu thập} \longrightarrow \text{Phân loại} \longrightarrow \text{Kiểm đếm}$$
+  \item \textbf{Biểu đồ tranh:}\\
+  - Biểu diễn số lượng qua các hình vẽ/biểu tượng trực quan.\\
+  - Đọc và so sánh: tìm nhóm nhiều nhất, ít nhất, chênh lệch giữa các nhóm và tổng số lượng.
+  \item \textbf{Lập bảng kiểm đếm:} Dùng các vạch thẳng $|$ để đếm nhanh, chính xác không sót.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Trọng tâm Xác suất thực nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Ba mức độ khả năng xảy ra của một sự kiện:
+  \item \textbf{"Chắc chắn":} Luôn xảy ra trong mọi lần thử (ví dụ: rút $1$ con bài trong bộ bài toàn màu đỏ chắc chắn được màu đỏ).
+  \item \textbf{"Có thể":} Có khả năng xảy ra nhưng cũng có thể không (ví dụ: gieo xúc xắc được mặt 6 chấm).
+  \item \textbf{"Không thể":} Hoàn toàn không bao giờ xảy ra (ví dụ: lấy quả bóng vàng trong hộp chỉ có bóng xanh và đỏ).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ liên kết Thống kê và Xác suất sơ cấp Toán 2}
+]
+\centering
+\begin{tikzpicture}[x=1.65cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (tk) at (0,0.6) {THỐNG KÊ\\Thu thập $\to$ Đếm $\to$ Biểu đồ};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (xs) at (0,-0.6) {XÁC SUẤT\\Chắc chắn - Có thể - Không thể};
+
+  \node[rectangle, rounded corners=2pt, draw=green!70!black, fill=green!15, font=\footnotesize\bfseries] (kq) at (3.5,0) {
+    ỨNG DỤNG THỰC TẾ:\\
+    Quan sát khoa học \&\\
+    Đưa ra quyết định hợp lí
+  };
+
+  \draw[arr, thick] (tk) -| (kq);
+  \draw[arr, thick] (xs) -| (kq);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Bài tập thực hành mẫu}
+]
+{\footnotesize
+\textbf{1. Điền từ thích hợp:}\\
+Trong hộp có $4$ bút mực tím và $1$ bút mực đen. Lấy ngẫu nhiên $1$ chiếc bút:\\
+- Lấy được bút mực tím: \textbf{Có thể}.\\
+- Lấy được bút mực đỏ: \textbf{Không thể}.\\
+- Lấy được bút viết chữ: \textbf{Chắc chắn}.\\
+\textbf{2. Khai thác biểu đồ:}\\
+Biểu đồ số xe đạp bán trong tuần: Thứ Hai $5$ xe, Thứ Ba $3$ xe, Thứ Tư $7$ xe.\\
+- Ngày bán nhiều nhất: \textbf{Thứ Tư} ($7$ xe).\\
+- Tổng xe bán được: $5 + 3 + 7 = \mathbf{15}$ (xe).
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Lời dặn dò kĩ năng}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Khi chọn từ "Chắc chắn" hay "Có thể", phải đọc thật kĩ các loại đồ vật có trong bài.
+  \item Đừng nhầm lẫn giữa \textbf{"sự kiện có thể"} và \textbf{"sự kiện chắc chắn"}. Dù khả năng xảy ra rất cao nhưng nếu vẫn có trường hợp khác thì vẫn chỉ là "Có thể".
+  \item Đếm biểu tượng tranh cẩn thận, không đếm vội.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

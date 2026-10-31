@@ -1,0 +1,157 @@
+# Bài 55: Luyện tập chung
+
+## PHẦN I. ĐỀ BÀI (NGÂN HÀNG CÂU HỎI ĐIỀN ĐÁP SỐ)
+
+**Câu 1.** Một khối kim loại hình lập phương có cạnh $4\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 2.** Một khối kim loại hình lập phương có cạnh $5\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 3.** Một khối kim loại hình lập phương có cạnh $6\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 4.** Một khối kim loại hình lập phương có cạnh $7\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 5.** Một khối kim loại hình lập phương có cạnh $8\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 6.** Một khối kim loại hình lập phương có cạnh $9\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 7.** Một khối kim loại hình lập phương có cạnh $10\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 8.** Một khối kim loại hình lập phương có cạnh $11\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 9.** Một khối kim loại hình lập phương có cạnh $12\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 10.** Một khối kim loại hình lập phương có cạnh $13\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 11.** Một khối kim loại hình lập phương có cạnh $14\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 12.** Một khối kim loại hình lập phương có cạnh $15\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 13.** Một khối kim loại hình lập phương có cạnh $16\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 14.** Một khối kim loại hình lập phương có cạnh $17\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 15.** Một khối kim loại hình lập phương có cạnh $18\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 16.** Một khối kim loại hình lập phương có cạnh $19\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 17.** Một khối kim loại hình lập phương có cạnh $20\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 18.** Một khối kim loại hình lập phương có cạnh $21\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 19.** Một khối kim loại hình lập phương có cạnh $22\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 20.** Một khối kim loại hình lập phương có cạnh $23\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 21.** Một khối kim loại hình lập phương có cạnh $24\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 22.** Một khối kim loại hình lập phương có cạnh $25\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 23.** Một khối kim loại hình lập phương có cạnh $26\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 24.** Một khối kim loại hình lập phương có cạnh $27\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+**Câu 25.** Một khối kim loại hình lập phương có cạnh $28\text{ cm}$. Thể tích khối kim loại là bao nhiêu xăng-ti-mét khối?
+
+---
+
+## PHẦN II. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+
+### Câu 1
+- **Đáp số:** `64`
+- **Lời giải:** Thể tích là 4 x 4 x 4 = 64 cm3.
+
+### Câu 2
+- **Đáp số:** `125`
+- **Lời giải:** Thể tích là 5 x 5 x 5 = 125 cm3.
+
+### Câu 3
+- **Đáp số:** `216`
+- **Lời giải:** Thể tích là 6 x 6 x 6 = 216 cm3.
+
+### Câu 4
+- **Đáp số:** `343`
+- **Lời giải:** Thể tích là 7 x 7 x 7 = 343 cm3.
+
+### Câu 5
+- **Đáp số:** `512`
+- **Lời giải:** Thể tích là 8 x 8 x 8 = 512 cm3.
+
+### Câu 6
+- **Đáp số:** `729`
+- **Lời giải:** Thể tích là 9 x 9 x 9 = 729 cm3.
+
+### Câu 7
+- **Đáp số:** `1000`
+- **Lời giải:** Thể tích là 10 x 10 x 10 = 1000 cm3.
+
+### Câu 8
+- **Đáp số:** `1331`
+- **Lời giải:** Thể tích là 11 x 11 x 11 = 1331 cm3.
+
+### Câu 9
+- **Đáp số:** `1728`
+- **Lời giải:** Thể tích là 12 x 12 x 12 = 1728 cm3.
+
+### Câu 10
+- **Đáp số:** `2197`
+- **Lời giải:** Thể tích là 13 x 13 x 13 = 2197 cm3.
+
+### Câu 11
+- **Đáp số:** `2744`
+- **Lời giải:** Thể tích là 14 x 14 x 14 = 2744 cm3.
+
+### Câu 12
+- **Đáp số:** `3375`
+- **Lời giải:** Thể tích là 15 x 15 x 15 = 3375 cm3.
+
+### Câu 13
+- **Đáp số:** `4096`
+- **Lời giải:** Thể tích là 16 x 16 x 16 = 4096 cm3.
+
+### Câu 14
+- **Đáp số:** `4913`
+- **Lời giải:** Thể tích là 17 x 17 x 17 = 4913 cm3.
+
+### Câu 15
+- **Đáp số:** `5832`
+- **Lời giải:** Thể tích là 18 x 18 x 18 = 5832 cm3.
+
+### Câu 16
+- **Đáp số:** `6859`
+- **Lời giải:** Thể tích là 19 x 19 x 19 = 6859 cm3.
+
+### Câu 17
+- **Đáp số:** `8000`
+- **Lời giải:** Thể tích là 20 x 20 x 20 = 8000 cm3.
+
+### Câu 18
+- **Đáp số:** `9261`
+- **Lời giải:** Thể tích là 21 x 21 x 21 = 9261 cm3.
+
+### Câu 19
+- **Đáp số:** `10648`
+- **Lời giải:** Thể tích là 22 x 22 x 22 = 10648 cm3.
+
+### Câu 20
+- **Đáp số:** `12167`
+- **Lời giải:** Thể tích là 23 x 23 x 23 = 12167 cm3.
+
+### Câu 21
+- **Đáp số:** `13824`
+- **Lời giải:** Thể tích là 24 x 24 x 24 = 13824 cm3.
+
+### Câu 22
+- **Đáp số:** `15625`
+- **Lời giải:** Thể tích là 25 x 25 x 25 = 15625 cm3.
+
+### Câu 23
+- **Đáp số:** `17576`
+- **Lời giải:** Thể tích là 26 x 26 x 26 = 17576 cm3.
+
+### Câu 24
+- **Đáp số:** `19683`
+- **Lời giải:** Thể tích là 27 x 27 x 27 = 19683 cm3.
+
+### Câu 25
+- **Đáp số:** `21952`
+- **Lời giải:** Thể tích là 28 x 28 x 28 = 21952 cm3.

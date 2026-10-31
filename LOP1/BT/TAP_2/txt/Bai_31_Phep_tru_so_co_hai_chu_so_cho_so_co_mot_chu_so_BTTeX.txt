@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $27 - 4$.
+\shortans{23}
+\loigiai{
+Ta có $27 - 4 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $38 - 5$.
+\shortans{33}
+\loigiai{
+Ta có $38 - 5 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $49 - 6$.
+\shortans{43}
+\loigiai{
+Ta có $49 - 6 = 43$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $56 - 3$.
+\shortans{53}
+\loigiai{
+Ta có $56 - 3 = 53$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $65 - 2$.
+\shortans{63}
+\loigiai{
+Ta có $65 - 2 = 63$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $78 - 7$.
+\shortans{71}
+\loigiai{
+Ta có $78 - 7 = 71$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $89 - 8$.
+\shortans{81}
+\loigiai{
+Ta có $89 - 8 = 81$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $97 - 5$.
+\shortans{92}
+\loigiai{
+Ta có $97 - 5 = 92$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $46 - 6$.
+\shortans{40}
+\loigiai{
+Ta có $46 - 6 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $85 - 0$.
+\shortans{85}
+\loigiai{
+Số nào trừ 0 cũng bằng chính nó: $85 - 0 = 85$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $36 - \dots = 32$.
+\shortans{4}
+\loigiai{
+Số cần điền: $36 - 32 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $58 - \dots = 51$.
+\shortans{7}
+\loigiai{
+Số cần điền: $58 - 51 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 5 = 62$.
+\shortans{67}
+\loigiai{
+Số cần điền: $62 + 5 = 67$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 3 = 84$.
+\shortans{87}
+\loigiai{
+Số cần điền: $84 + 3 = 87$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $48 - 3 - 2$.
+\shortans{43}
+\loigiai{
+Ta có $48 - 3 = 45$, rồi $45 - 2 = 43$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $79 - 5 - 4$.
+\shortans{70}
+\loigiai{
+Ta có $79 - 5 = 74$, rồi $74 - 4 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $96 - 4 + 5$.
+\shortans{97}
+\loigiai{
+Ta có $96 - 4 = 92$, rồi $92 + 5 = 97$.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ may có một cuộn chỉ dài 48 mét, bác đã dùng hết 6 mét chỉ. Cuộn chỉ còn lại bao nhiêu mét?
+\shortans{42}
+\loigiai{
+Cuộn chỉ còn lại: $48 - 6 = 42$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Đàn vịt nhà Mai có 39 con, mẹ đã đem bán 7 con. Hỏi đàn vịt còn lại bao nhiêu con?
+\shortans{32}
+\loigiai{
+Đàn vịt còn lại: $39 - 7 = 32$ con.
+}
+\end{ex}
+
+\begin{ex}
+Cây bưởi nhà bà có 58 quả, bão làm rụng mất 6 quả. Hỏi trên cây còn lại bao nhiêu quả bưởi?
+\shortans{52}
+\loigiai{
+Trên cây còn lại: $58 - 6 = 52$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng có 67 chiếc cặp sách, hôm nay đã bán được 5 chiếc. Cửa hàng còn lại bao nhiêu chiếc cặp?
+\shortans{62}
+\loigiai{
+Cửa hàng còn lại: $67 - 5 = 62$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn dây dài 75 cm, cắt bớt 4 cm. Đoạn dây còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{71}
+\loigiai{
+Đoạn dây còn lại: $75 - 4 = 71$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Lấy số lớn nhất có hai chữ số trừ đi 7 thì được kết quả bằng bao nhiêu?
+\shortans{92}
+\loigiai{
+Số lớn nhất có 2 chữ số là 99. Phép tính: $99 - 7 = 92$.
+}
+\end{ex}
+
+\begin{ex}
+Một thanh sắt dài 88 cm, bác thợ cắt đi 5 cm. Thanh sắt còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{83}
+\loigiai{
+Còn lại: $88 - 5 = 83$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $69 - \dots - 2 = 64$.
+\shortans{3}
+\loigiai{
+Ta có $69 - 2 = 67$, vậy số cần điền là $67 - 64 = 3$.
+}
+\end{ex}

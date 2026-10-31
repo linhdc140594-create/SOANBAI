@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $7685 - 3421 = \dots$
+\shortans{4264}
+\loigiai{
+$7685 - 3421 = 4264$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8956 - 4528 = \dots$
+\shortans{4428}
+\loigiai{
+$8956 - 4528 = 4428$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6352 - 2718 = \dots$
+\shortans{3634}
+\loigiai{
+$6352 - 2718 = 3634$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5240 - 1835 = \dots$
+\shortans{3405}
+\loigiai{
+$5240 - 1835 = 3405$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8000 - 3500 = \dots$
+\shortans{4500}
+\loigiai{
+$8000 - 3500 = 4500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10000 - 4000 = \dots$
+\shortans{6000}
+\loigiai{
+$10000 - 4000 = 6000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7000 - 2450 = \dots$
+\shortans{4550}
+\loigiai{
+$7000 - 2450 = 4550$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9000 - 4380 = \dots$
+\shortans{4620}
+\loigiai{
+$9000 - 4380 = 4620$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6540 - 890 = \dots$
+\shortans{5650}
+\loigiai{
+$6540 - 890 = 5650$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4000 - 125 = \dots$
+\shortans{3875}
+\loigiai{
+$4000 - 125 = 3875$.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng có 5000 kg xi măng, đã bán được 2450 kg. Cửa hàng còn lại bao nhiêu ki-lô-gam xi măng?
+\shortans{2550}
+\loigiai{
+$5000 - 2450 = 2550$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một đội trồng rừng dự định trồng 8500 cây thông, đã trồng được 5600 cây. Hỏi đội còn phải trồng bao nhiêu cây nữa?
+\shortans{2900}
+\loigiai{
+$8500 - 5600 = 2900$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Một bể chứa 6000 lít nước, người ta đã bơm ra tưới rau 2350 lít nước. Trong bể còn lại bao nhiêu lít nước?
+\shortans{3650}
+\loigiai{
+$6000 - 2350 = 3650$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x + 3500 = 8000$.
+\shortans{4500}
+\loigiai{
+$x = 8000 - 3500 = 4500$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $2450 + x = 7000$.
+\shortans{4550}
+\loigiai{
+$x = 7000 - 2450 = 4550$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $8500 - x = 3200$.
+\shortans{5300}
+\loigiai{
+$x = 8500 - 3200 = 5300$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $10000 - x = 6500$.
+\shortans{3500}
+\loigiai{
+$x = 10000 - 6500 = 3500$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lớn nhất có bốn chữ số và số tròn nghìn bé nhất có bốn chữ số là bao nhiêu?
+\shortans{8999}
+\loigiai{
+$9999 - 1000 = 8999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $8500 - 2500 - 1500$.
+\shortans{4500}
+\loigiai{
+$6000 - 1500 = 4500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $10000 - (3500 + 4500)$.
+\shortans{2000}
+\loigiai{
+$10000 - 8000 = 2000$.
+}
+\end{ex}
+
+\begin{ex}
+Một thư viện có 9840 cuốn sách, đã cho học sinh mượn 3420 cuốn. Thư viện còn lại bao nhiêu cuốn sách?
+\shortans{6420}
+\loigiai{
+$9840 - 3420 = 6420$ cuốn.
+}
+\end{ex}
+
+\begin{ex}
+Năm nay một trang trại thu được 7500 quả trứng vịt, nhiều hơn năm ngoái 1800 quả. Năm ngoái trang trại thu được bao nhiêu quả trứng vịt?
+\shortans{5700}
+\loigiai{
+$7500 - 1800 = 5700$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Quãng đường từ A đến B dài 4500 m. Một người đã đi được 2800 m. Người đó còn phải đi bao nhiêu mét nữa để đến B?
+\shortans{1700}
+\loigiai{
+$4500 - 2800 = 1700$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9500 - 5500 = \dots$
+\shortans{4000}
+\loigiai{
+$9500 - 5500 = 4000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7340 - 340 = \dots$
+\shortans{7000}
+\loigiai{
+$7340 - 340 = 7000$.
+}
+\end{ex}

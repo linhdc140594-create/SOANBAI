@@ -1,0 +1,199 @@
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Một ngày có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một giờ có bao nhiêu phút?
+\shortans{60}
+\loigiai{
+Một giờ có 60 phút.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ kim ngắn ở giữa số 2 và số 3, kim dài chỉ số 6. Đồng hồ chỉ 2 giờ bao nhiêu phút?
+\shortans{30}
+\loigiai{
+Kim dài chỉ số 6 là 30 phút (hoặc 2 giờ rưỡi).
+}
+\end{ex}
+
+\begin{ex}
+Lúc 8 giờ 30 phút, kim dài của đồng hồ chỉ vào số mấy?
+\shortans{6}
+\loigiai{
+Kim dài chỉ số 6.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 9 giờ đúng, kim dài của đồng hồ chỉ vào số mấy?
+\shortans{12}
+\loigiai{
+Kim dài chỉ số 12.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 4 giờ 15 phút, kim dài chỉ vào số mấy trên mặt đồng hồ?
+\shortans{3}
+\loigiai{
+Mỗi khoảng là 5 phút, 15 phút kim dài chỉ số 3.
+}
+\end{ex}
+
+\begin{ex}
+Từ 7 giờ sáng đến 10 giờ sáng cùng ngày có bao nhiêu giờ?
+\shortans{3}
+\loigiai{
+Thời gian: $10 - 7 = 3$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Từ 2 giờ chiều đến 5 giờ chiều cùng ngày có bao nhiêu giờ?
+\shortans{3}
+\loigiai{
+Thời gian: $5 - 2 = 3$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+2 giờ chiều còn gọi là bao nhiêu giờ trong hệ 24 giờ?
+\shortans{14}
+\loigiai{
+2 giờ chiều là $12 + 2 = 14$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+7 giờ tối còn gọi là bao nhiêu giờ trong hệ 24 giờ?
+\shortans{19}
+\loigiai{
+7 giờ tối là $12 + 7 = 19$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+9 giờ đêm còn gọi là bao nhiêu giờ trong hệ 24 giờ?
+\shortans{21}
+\loigiai{
+9 giờ đêm là $12 + 9 = 21$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+12 giờ đêm (kết thúc một ngày) tương ứng với bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Tương ứng với 24 giờ (hoặc 0 giờ ngày mới).
+}
+\end{ex}
+
+\begin{ex}
+Bạn Lan học bài từ 8 giờ tối đến 9 giờ tối. Bạn Lan học trong bao nhiêu giờ?
+\shortans{1}
+\loigiai{
+Thời gian học: $9 - 8 = 1$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một tiết học kéo dài 40 phút, giờ ra chơi kéo dài 20 phút. Tổng thời gian một tiết học và ra chơi là bao nhiêu phút?
+\shortans{60}
+\loigiai{
+Tổng thời gian: $40 + 20 = 60$ phút (đúng 1 giờ).
+}
+\end{ex}
+
+\begin{ex}
+Mẹ đi chợ từ 7 giờ sáng đến 8 giờ sáng. Mẹ đi chợ hết bao nhiêu phút?
+\shortans{60}
+\loigiai{
+Đi hết 1 giờ, tức 60 phút.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Nam ngủ từ 9 giờ tối (21 giờ) đến 6 giờ sáng hôm sau. Nam đã ngủ bao nhiêu giờ?
+\shortans{9}
+\loigiai{
+Từ 21 giờ đến 24 giờ là 3 giờ, từ 0 giờ đến 6 giờ là 6 giờ. Tổng cộng: $3 + 6 = 9$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một trận bóng đá mini kéo dài 40 phút gồm 2 hiệp bằng nhau. Mỗi hiệp kéo dài bao nhiêu phút?
+\shortans{20}
+\loigiai{
+Mỗi hiệp kéo dài: $40 : 2 = 20$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ đang chỉ 3 giờ. Sau 30 phút nữa đồng hồ chỉ 3 giờ bao nhiêu phút?
+\shortans{30}
+\loigiai{
+Chỉ 3 giờ 30 phút.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ đang chỉ 10 giờ 30 phút. Kim ngắn nằm ở giữa hai số nào?
+\shortans{10}
+\loigiai{
+Nằm giữa số 10 và số 11. Số đầu tiên là 10.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ làm việc ca sáng từ 7 giờ đến 11 giờ. Bác thợ làm việc trong bao nhiêu giờ?
+\shortans{4}
+\loigiai{
+Thời gian làm việc: $11 - 7 = 4$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Buổi chiều bắt đầu từ 13 giờ đến 18 giờ. Buổi chiều kéo dài bao nhiêu giờ?
+\shortans{5}
+\loigiai{
+Thời gian: $18 - 13 = 5$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Hiện tại là 15 giờ. Sau 2 giờ nữa là mấy giờ?
+\shortans{17}
+\loigiai{
+Sau 2 giờ là: $15 + 2 = 17$ giờ (5 giờ chiều).
+}
+\end{ex}
+
+\begin{ex}
+Hiện tại là 20 giờ. Trước đó 3 giờ là mấy giờ?
+\shortans{17}
+\loigiai{
+Trước đó là: $20 - 3 = 17$ giờ (5 giờ chiều).
+}
+\end{ex}
+
+\begin{ex}
+Kim phút quay được nửa vòng đồng hồ (từ số 12 đến số 6) là bao nhiêu phút?
+\shortans{30}
+\loigiai{
+Nửa vòng là 30 phút.
+}
+\end{ex}
+
+\begin{ex}
+Trong 2 giờ có tất cả bao nhiêu phút?
+\shortans{120}
+\loigiai{
+Trong 2 giờ có: $60 + 60 = 120$ phút.
+}
+\end{ex}

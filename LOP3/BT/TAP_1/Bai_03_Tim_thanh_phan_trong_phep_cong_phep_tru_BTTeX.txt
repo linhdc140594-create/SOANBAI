@@ -1,0 +1,199 @@
+\begin{ex}
+Tìm $x$, biết: $x + 125 = 458$.
+\shortans{333}
+\loigiai{
+$x = 458 - 125 = 333$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $246 + x = 689$.
+\shortans{443}
+\loigiai{
+$x = 689 - 246 = 443$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 314 = 275$.
+\shortans{589}
+\loigiai{
+$x = 275 + 314 = 589$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $758 - x = 423$.
+\shortans{335}
+\loigiai{
+$x = 758 - 423 = 335$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số hạng chưa biết trong phép cộng có tổng là 560 và một số hạng là 230.
+\shortans{330}
+\loigiai{
+$560 - 230 = 330$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bị trừ trong phép trừ có hiệu là 145 và số trừ là 320.
+\shortans{465}
+\loigiai{
+$145 + 320 = 465$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số trừ trong phép trừ có số bị trừ là 800 và hiệu là 350.
+\shortans{450}
+\loigiai{
+$800 - 350 = 450$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $y + 400 = 920$.
+\shortans{520}
+\loigiai{
+$y = 920 - 400 = 520$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $650 - y = 180$.
+\shortans{470}
+\loigiai{
+$y = 650 - 180 = 470$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $y - 250 = 350$.
+\shortans{600}
+\loigiai{
+$y = 350 + 250 = 600$.
+}
+\end{ex}
+
+\begin{ex}
+Một người có một số quả bưởi. Sau khi bán đi 120 quả thì còn lại 80 quả. Hỏi ban đầu người đó có bao nhiêu quả bưởi?
+\shortans{200}
+\loigiai{
+$80 + 120 = 200$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua một bó hoa gồm cả hoa hồng và hoa cúc tổng cộng 45 bông, trong đó có 28 bông hoa hồng. Hỏi có bao nhiêu bông hoa cúc?
+\shortans{17}
+\loigiai{
+$45 - 28 = 17$ bông.
+}
+\end{ex}
+
+\begin{ex}
+Hùng có 65 viên bi. Hùng cho bạn một số viên bi thì còn lại 38 viên bi. Hỏi Hùng đã cho bạn bao nhiêu viên bi?
+\shortans{27}
+\loigiai{
+$65 - 38 = 27$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng nhập về một số bao gạo, sau khi bán đi 75 bao thì còn lại 125 bao. Hỏi ban đầu cửa hàng nhập về bao nhiêu bao gạo?
+\shortans{200}
+\loigiai{
+$125 + 75 = 200$ bao gạo.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bị trừ biết số trừ là 215 và hiệu là 485.
+\shortans{700}
+\loigiai{
+$485 + 215 = 700$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số trừ biết số bị trừ là 900 và hiệu là 540.
+\shortans{360}
+\loigiai{
+$900 - 540 = 360$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x + 45 = 100 - 20$.
+\shortans{35}
+\loigiai{
+$x + 45 = 80 \Rightarrow x = 80 - 45 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 30 = 40 + 50$.
+\shortans{120}
+\loigiai{
+$x - 30 = 90 \Rightarrow x = 90 + 30 = 120$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $150 - x = 20 + 60$.
+\shortans{70}
+\loigiai{
+$150 - x = 80 \Rightarrow x = 150 - 80 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm một số biết rằng nếu lấy 500 trừ đi số đó rồi cộng với 100 thì được 300.
+\shortans{300}
+\loigiai{
+$500 - x + 100 = 300 \Rightarrow 500 - x = 200 \Rightarrow x = 300$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của hai số là 800. Nếu thêm vào số hạng thứ nhất 50 đơn vị thì số hạng thứ hai phải bớt đi bao nhiêu đơn vị để tổng không đổi?
+\shortans{50}
+\loigiai{
+Để tổng không đổi, số hạng thứ hai cũng phải bớt đi 50 đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x + 312 = 500 + 120$.
+\shortans{308}
+\loigiai{
+$x + 312 = 620 \Rightarrow x = 620 - 312 = 308$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 145 = 600 - 250$.
+\shortans{495}
+\loigiai{
+$x - 145 = 350 \Rightarrow x = 350 + 145 = 495$.
+}
+\end{ex}
+
+\begin{ex}
+Biết số bị trừ hơn hiệu 128 đơn vị. Số trừ là bao nhiêu?
+\shortans{128}
+\loigiai{
+Số trừ = Số bị trừ - Hiệu = 128.
+}
+\end{ex}
+
+\begin{ex}
+Biết tổng hơn số hạng thứ nhất 240 đơn vị. Số hạng thứ hai là bao nhiêu?
+\shortans{240}
+\loigiai{
+Số hạng thứ hai = Tổng - Số hạng thứ nhất = 240.
+}
+\end{ex}

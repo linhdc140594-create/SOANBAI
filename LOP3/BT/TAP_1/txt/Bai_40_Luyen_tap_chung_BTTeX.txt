@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $142 \times 3 = \dots$
+\shortans{426}
+\loigiai{
+$142 \times 3 = 426$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $215 \times 4 = \dots$
+\shortans{860}
+\loigiai{
+$215 \times 4 = 860$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $486 : 2 = \dots$
+\shortans{243}
+\loigiai{
+$486 : 2 = 243$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $729 : 9 = \dots$
+\shortans{81}
+\loigiai{
+$729 : 9 = 81$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $120 + 30 \times 4$.
+\shortans{240}
+\loigiai{
+$120 + 120 = 240$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $250 - 150 : 5$.
+\shortans{220}
+\loigiai{
+$250 - 30 = 220$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $(48 + 32) : 8$.
+\shortans{10}
+\loigiai{
+$80 : 8 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $16 \times (15 - 10)$.
+\shortans{80}
+\loigiai{
+$16 \times 5 = 80$.
+}
+\end{ex}
+
+\begin{ex}
+Số 64 gấp số 8 mấy lần?
+\shortans{8}
+\loigiai{
+$64 : 8 = 8$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 81 gấp số 9 mấy lần?
+\shortans{9}
+\loigiai{
+$81 : 9 = 9$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ 45 tuổi, con 9 tuổi. Tuổi mẹ gấp mấy lần tuổi con?
+\shortans{5}
+\loigiai{
+$45 : 9 = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Có 3 thùng dầu, mỗi thùng chứa 120 lít dầu. Hỏi cả 3 thùng có tất cả bao nhiêu lít dầu?
+\shortans{360}
+\loigiai{
+$120 \times 3 = 360$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn dây dài 636 m được chia thành 6 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu mét?
+\shortans{106}
+\loigiai{
+$636 : 6 = 106$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính số dư của phép chia: $435 : 4$.
+\shortans{3}
+\loigiai{
+$435 = 4 \times 108 + 3$, dư 3.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x : 3 = 145$.
+\shortans{435}
+\loigiai{
+$x = 145 \times 3 = 435$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $4 \times x = 484$.
+\shortans{121}
+\loigiai{
+$x = 484 : 4 = 121$.
+}
+\end{ex}
+
+\begin{ex}
+Một bao gạo nặng 60 kg, bao đậu xanh nặng 15 kg. Bao gạo nặng gấp mấy lần bao đậu xanh?
+\shortans{4}
+\loigiai{
+$60 : 15 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $118 \times 5 = \dots$
+\shortans{590}
+\loigiai{
+$118 \times 5 = 590$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $848 : 4 = \dots$
+\shortans{212}
+\loigiai{
+$848 : 4 = 212$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $300 - 80 \times 3$.
+\shortans{60}
+\loigiai{
+$300 - 240 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $100 + 400 : 4$.
+\shortans{200}
+\loigiai{
+$100 + 100 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Một rổ có 36 quả xoài và 6 quả ổi. Số xoài gấp mấy lần số ổi?
+\shortans{6}
+\loigiai{
+$36 : 6 = 6$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng bán được 124 kg gạo trong ngày thứ nhất, ngày thứ hai bán được gấp đôi ngày thứ nhất. Ngày thứ hai bán được bao nhiêu ki-lô-gam?
+\shortans{248}
+\loigiai{
+$124 \times 2 = 248$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một tấm vải dài 250 m, người ta bán đi 100 m rồi chia đều phần còn lại thành 3 phần. Mỗi phần dài bao nhiêu mét?
+\shortans{50}
+\loigiai{
+Còn lại: $250 - 100 = 150$ m. Mỗi phần: $150 : 3 = 50$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $125 \times 4 = \dots$
+\shortans{500}
+\loigiai{
+$125 \times 4 = 500$.
+}
+\end{ex}

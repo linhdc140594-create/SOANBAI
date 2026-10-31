@@ -1,0 +1,176 @@
+=== BÀI 72: ÔN TẬP ĐO LƯỜNG ===
+
+Câu 1: Đổi 3\text{ km } 50\text{ m} ra mét được bao nhiêu mét?
+Đáp án: [shortans]3050[/shortans]
+Lời giải chi tiết:
+3 000 + 50 = 3 050\text{ m}.
+
+----------------------------------------
+
+Câu 2: Đổi 4{,}5\text{ m} ra xăng-ti-mét được bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]450[/shortans]
+Lời giải chi tiết:
+4{,}5 x 100 = 450\text{ cm}.
+
+----------------------------------------
+
+Câu 3: Đổi 2 tấn 50\text{ kg} ra ki-lô-gam được bao nhiêu ki-lô-gam?
+Đáp án: [shortans]2050[/shortans]
+Lời giải chi tiết:
+2 000 + 50 = 2 050\text{ kg}.
+
+----------------------------------------
+
+Câu 4: Đổi 3{,}5 tạ ra ki-lô-gam được bao nhiêu ki-lô-gam?
+Đáp án: [shortans]350[/shortans]
+Lời giải chi tiết:
+3{,}5 x 100 = 350\text{ kg}.
+
+----------------------------------------
+
+Câu 5: Đổi 5\text{ m}^2\ 25\text{ dm}^2 ra đề-xi-mét vuông được bao nhiêu đề-xi-mét vuông?
+Đáp án: [shortans]525[/shortans]
+Lời giải chi tiết:
+500 + 25 = 525\text{ dm}^2.
+
+----------------------------------------
+
+Câu 6: Đổi 2\text{ ha} ra mét vuông được bao nhiêu mét vuông?
+Đáp án: [shortans]20000[/shortans]
+Lời giải chi tiết:
+2 x 10 000 = 20 000\text{ m}^2.
+
+----------------------------------------
+
+Câu 7: Đổi 1{,}5\text{ ha} ra mét vuông được bao nhiêu mét vuông?
+Đáp án: [shortans]15000[/shortans]
+Lời giải chi tiết:
+1{,}5 x 10 000 = 15 000\text{ m}^2.
+
+----------------------------------------
+
+Câu 8: Đổi 4\text{ m}^3 ra đề-xi-mét khối được bao nhiêu đề-xi-mét khối?
+Đáp án: [shortans]4000[/shortans]
+Lời giải chi tiết:
+4 x 1 000 = 4 000\text{ dm}^3.
+
+----------------------------------------
+
+Câu 9: Đổi 2 500\text{ cm}^3 ra đề-xi-mét khối. Kết quả nhân 10 là bao nhiêu?
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+2 500 : 1 000 = 2{,}5\text{ dm}^3. Nhân 10 được 25.
+
+----------------------------------------
+
+Câu 10: Đổi 3 giờ 15 phút ra phút được bao nhiêu phút?
+Đáp án: [shortans]195[/shortans]
+Lời giải chi tiết:
+3 x 60 + 15 = 195 phút.
+
+----------------------------------------
+
+Câu 11: Đổi 2{,}5 ngày ra giờ được bao nhiêu giờ?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+2{,}5 x 24 = 60 giờ.
+
+----------------------------------------
+
+Câu 12: Đổi 180 giây ra phút được bao nhiêu phút?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+180 : 60 = 3 phút.
+
+----------------------------------------
+
+Câu 13: Một xe tải chở được 3{,}5 tấn gạo. Đã chở được 1 500\text{ kg}. Còn phải chở bao nhiêu ki-lô-gam nữa?
+Đáp án: [shortans]2000[/shortans]
+Lời giải chi tiết:
+3 500 - 1 500 = 2 000\text{ kg}.
+
+----------------------------------------
+
+Câu 14: Một thửa ruộng thu hoạch được 1{,}2 tấn thóc. Đổi ra tạ được bao nhiêu tạ?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+1{,}2 x 10 = 12 tạ.
+
+----------------------------------------
+
+Câu 15: Đổi 45 000\text{ m}^2 ra héc-ta. Kết quả nhân với 10 là bao nhiêu?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+45 000 : 10 000 = 4{,}5\text{ ha}. Nhân 10 được 45.
+
+----------------------------------------
+
+Câu 16: Đổi 5\text{ dm}^3 ra lít được bao nhiêu lít nước?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+1\text{ dm}^3 = 1 lít nên 5\text{ dm}^3 = 5 lít.
+
+----------------------------------------
+
+Câu 17: Một bể chứa được 2\text{ m}^3 nước. Bể đó chứa được bao nhiêu lít nước?
+Đáp án: [shortans]2000[/shortans]
+Lời giải chi tiết:
+2\text{ m}^3 = 2 000\text{ dm}^3 = 2 000 lít.
+
+----------------------------------------
+
+Câu 18: Đổi 750\text{ mm} ra xăng-ti-mét được bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+750 : 10 = 75\text{ cm}.
+
+----------------------------------------
+
+Câu 19: Đổi 0{,}8\text{ km} ra mét được bao nhiêu mét?
+Đáp án: [shortans]800[/shortans]
+Lời giải chi tiết:
+0{,}8 x 1 000 = 800\text{ m}.
+
+----------------------------------------
+
+Câu 20: Đổi 6\text{ tạ } 5\text{ kg} ra ki-lô-gam được bao nhiêu ki-lô-gam?
+Đáp án: [shortans]605[/shortans]
+Lời giải chi tiết:
+600 + 5 = 605\text{ kg}.
+
+----------------------------------------
+
+Câu 21: Một bao xi măng nặng 50\text{ kg}. Muốn có 1 tấn xi măng cần bao nhiêu bao như thế?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+1 000 : 50 = 20 bao.
+
+----------------------------------------
+
+Câu 22: Đổi 3\text{ thế kỉ} ra năm được bao nhiêu năm?
+Đáp án: [shortans]300[/shortans]
+Lời giải chi tiết:
+3 x 100 = 300 năm.
+
+----------------------------------------
+
+Câu 23: Đổi \frac{3}{5}\text{ m} ra xăng-ti-mét được bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+\frac{3}{5} x 100 = 60\text{ cm}.
+
+----------------------------------------
+
+Câu 24: Đổi \frac{1}{4}\text{ giờ} ra phút được bao nhiêu phút?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+\frac{1}{4} x 60 = 15 phút.
+
+----------------------------------------
+
+Câu 25: Đổi \frac{1}{2}\text{ tấn} ra ki-lô-gam được bao nhiêu ki-lô-gam?
+Đáp án: [shortans]500[/shortans]
+Lời giải chi tiết:
+\frac{1}{2} x 1 000 = 500\text{ kg}.
+
+----------------------------------------

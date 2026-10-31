@@ -1,0 +1,155 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 56. Rút gọn phân số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 56: RÚT GỌN PHÂN SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Khái niệm phân số tối giản, thuật toán rút gọn 2 bước chuẩn mực trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCompress\ 1. Khái niệm phân số tối giản}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Rút gọn phân số:} Là tìm phân số mới bằng phân số ban đầu nhưng có \textbf{tử số và mẫu số bé hơn}.
+  \item \textbf{Phân số tối giản:} Là phân số mà tử số và mẫu số \textbf{không cùng chia hết} cho số tự nhiên nào lớn hơn 1.
+  \item \textbf{Ví dụ tối giản:} $\dfrac{1}{3}, \dfrac{2}{5}, \dfrac{7}{9}$ (không rút gọn được nữa).
+  \item \textbf{Ví dụ chưa tối giản:} $\dfrac{6}{8}$ (còn chia được cho 2), $\dfrac{9}{12}$ (chia được cho 3).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCogs\ 2. Quy trình 2 bước rút gọn}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bước 1 (Tìm ước chung):} Xét xem tử số và mẫu số cùng chia hết cho số tự nhiên nào lớn hơn 1 (dùng dấu hiệu chia hết cho 2, 3, 5, 9).
+  \item \textbf{Bước 2 (Chia cả tử và mẫu):} Chia cả tử số và mẫu số cho số vừa tìm được.
+  \item \textbf{Lặp lại:} Cứ làm như thế cho đến khi nhận được \textbf{phân số tối giản}.
+  \item \textit{Mẹo nhanh:} Chia ngay cho số lớn nhất mà cả tử và mẫu cùng chia hết.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: LƯU ĐỒ THUẬT TOÁN RÚT GỌN VỀ TỐI GIẢN}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=3pt},
+  arr/.style={-{Stealth[length=2.5mm]}, thick}
+]
+  \node[box, fill=blue!10, draw=blue!80!black, text width=2.8cm] (start) at (0, 0) {Phân số ban đầu\\$\mathbf{\dfrac{a}{b}}$};
+
+  \node[box, fill=teal!10, draw=teal!80!black, text width=3.4cm] (step1) at (3.9, 0) {Tìm số $n > 1$ mà\\$a$ và $b$ cùng chia hết};
+
+  \node[box, fill=purple!10, draw=purple!80!black, text width=3.4cm] (step2) at (8.0, 0) {Chia cả tử \& mẫu cho $n$\\$\mathbf{\dfrac{a : n}{b : n}}$};
+
+  \node[box, fill=orange!15, draw=orange!80!black, text width=2.6cm] (finish) at (11.8, 0) {PHÂN SỐ\\TỐI GIẢN!};
+
+  \draw[arr, blue!80!black] (start) -- (step1);
+  \draw[arr, teal!80!black] (step1) -- (step2);
+  \draw[arr, purple!80!black] (step2) -- (finish) node[midway, above, font=\tiny\bfseries] {Đã tối giản};
+
+  % Loop back nếu chưa tối giản
+  \draw[arr, red!80!black, dashed] (step2.south) -- ++(0, -0.35) -| (step1.south) node[pos=0.25, below, font=\tiny\bfseries] {Nếu chưa tối giản};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Ví dụ: Rút gọn phân số $\dfrac{18}{24}$:}\\
+\textbf{Cách 1 (Từng bước):}\\
+Chia cho 2: $\dfrac{18 : 2}{24 : 2} = \dfrac{9}{12}$.\\
+Tiếp tục chia cho 3: $\dfrac{9 : 3}{12 : 3} = \mathbf{\dfrac{3}{4}}$ (Đã tối giản).\\
+\textbf{Cách 2 (Nhanh - chia cho 6):}\\
+$\dfrac{18 : 6}{24 : 6} = \mathbf{\dfrac{3}{4}}$ (Đạt ngay tối giản).
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy dừng lại khi chưa tối giản:}\\
+  Rút gọn $\frac{18}{24}$ ra $\frac{9}{12}$ mà dừng lại là bị trừ điểm, vì $\frac{9}{12}$ vẫn chia tiếp được cho 3!
+  \item \textbf{Bẫy chia cho hai số khác nhau:}\\
+  Tử chia cho 2 nhưng mẫu lại chia cho 3 $\to$ SAI bản chất. Phải chia cho CÙNG MỘT SỐ.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\end{document}

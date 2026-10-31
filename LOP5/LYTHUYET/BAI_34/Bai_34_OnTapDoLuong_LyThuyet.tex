@@ -1,0 +1,158 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 34. Ôn tập đo lường --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 34. ÔN TẬP ĐO LƯỜNG (ÔN TẬP HỌC KÌ 1)}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Bảng đối chiếu tổng hợp Độ dài, Khối lượng, Diện tích và kỹ thuật đổi số thập phân trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: SO SÁNH 3 HỆ THỐNG ĐƠN VỊ ĐO ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. So sánh ba hệ thống đơn vị đo lường cơ bản},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+]
+  \scriptsize
+  \centering
+  \begin{tabular}{|l|c|c|l|}
+    \hline
+    \textbf{Đại lượng đo} & \textbf{Đơn vị chuẩn} & \textbf{Tỉ lệ giữa 2 đơn vị liền kề} & \textbf{Số chữ số tương ứng mỗi cột} \\ \hline
+    \textbf{Độ dài} & Mét ($\text{m}$) & Gấp hoặc kém nhau \textbf{10 lần} & Mỗi cột ứng với \textbf{1 chữ số} \\ \hline
+    \textbf{Khối lượng} & Ki-lô-gam ($\text{kg}$) & Gấp hoặc kém nhau \textbf{10 lần} & Mỗi cột ứng với \textbf{1 chữ số} (tấn, tạ, yến, kg...) \\ \hline
+    \textbf{Diện tích} & Mét vuông ($\text{m}^2$) & Gấp hoặc kém nhau \textbf{100 lần} & Mỗi cột ứng với \textbf{2 chữ số} \\ \hline
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: BẢNG QUY ĐỔI ĐẶC BIỆT ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faStar\ 2. Các mốc quy đổi cần thuộc lòng},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ $1\text{ km} = 1\,000\text{ m}$ \quad | \quad $1\text{ m} = 100\text{ cm} = 1\,000\text{ mm}$.\\
+    $\bullet$ $1\text{ tấn} = 10\text{ tạ} = 1\,000\text{ kg}$.\\
+    $\bullet$ $1\text{ tạ} = 100\text{ kg}$ \quad | \quad $1\text{ yến} = 10\text{ kg}$.\\
+    $\bullet$ $1\text{ kg} = 1\,000\text{ g}$.\\
+    $\bullet$ $1\text{ km}^2 = 100\text{ ha} = 1\,000\,000\text{ m}^2$.\\
+    $\bullet$ $1\text{ ha} = 10\,000\text{ m}^2$ \quad | \quad $1\text{ m}^2 = 100\text{ dm}^2 = 10\,000\text{ cm}^2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ 3. Đổi số đo 2 đơn vị sang STP},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ $4\text{ m } 5\text{ cm} = 4,05\text{ m}$ (vì $1\text{ m} = 100\text{ cm}$).\\
+    $\bullet$ $2\text{ tấn } 35\text{ kg} = 2,035\text{ tấn}$ ($1\text{ tấn} = 1000\text{ kg}$).\\
+    $\bullet$ $5\text{ m}^2\ 8\text{ dm}^2 = 5,08\text{ m}^2$ ($1\text{ m}^2 = 100\text{ dm}^2$).\\
+    $\bullet$ $3\text{ ha } 40\text{ m}^2 = 3,004\text{ ha}$ ($1\text{ ha} = 10000\text{ m}^2$).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kỹ thuật đổi đơn vị đo lường},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b1] (n1) at (-4.8, 0) {\textbf{TỪ LỚN RA BÉ: Nhân} ($10, 100, 1\,000\dots$)\\[2pt]Dịch dấu phẩy sang \textbf{phải}};
+    \node[b2] (n2) at (4.8, 0) {\textbf{TỪ BÉ RA LỚN: Chia} ($10, 100, 1\,000\dots$)\\[2pt]Dịch dấu phẩy sang \textbf{trái}};
+
+    \draw[teal!85!black, very thick, <->] (n1) -- (n2);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: KỸ THUẬT ĐẶT BẢNG & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencil\ Phương pháp kẻ bảng nhẩm tránh nhầm},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Nếu chưa tự tin, hãy phác thảo nhanh các cột:\\
+    Độ dài: $\dots\text{m}\ |\ \text{dm}\ |\ \text{cm}\ |\ \text{mm}$\\
+    Mỗi cột viết đúng \textbf{1 chữ số}.\\
+    Diện tích: Mỗi cột viết đủ \textbf{2 chữ số}. Cột nào thiếu chữ số thì điền chữ số \textbf{0}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Viết thiếu chữ số $0$ khi đổi sang đơn vị lớn hơn ($2\text{ kg } 5\text{ g} = 2,005\text{ kg}$, không phải $2,5\text{ kg}$ hay $2,05\text{ kg}$).\\
+    $\bullet$ Đọc kĩ đơn vị ở hai vế của dấu bằng trước khi điền số.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

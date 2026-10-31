@@ -1,0 +1,199 @@
+\begin{ex}
+Số 75 842 có chữ số hàng nghìn là bao nhiêu?
+\shortans{5}
+\loigiai{
+Chữ số hàng nghìn là 5.
+}
+\end{ex}
+
+\begin{ex}
+Số 84 026 là số chẵn hay lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Tận cùng là 6 nên là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của 69 999 là số nào?
+\shortans{70000}
+\loigiai{
+$69999 + 1 = 70000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của 100 000 là số nào?
+\shortans{99999}
+\loigiai{
+$100000 - 1 = 99999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức $a + b \times 2$ với $a = 15, b = 20$.
+\shortans{55}
+\loigiai{
+$15 + 40 = 55$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức $(x - y) : 3$ với $x = 80, y = 20$.
+\shortans{20}
+\loigiai{
+$60 : 3 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45000 + 35000 = \dots$
+\shortans{80000}
+\loigiai{
+$45000 + 35000 = 80000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90000 - 45000 = \dots$
+\shortans{45000}
+\loigiai{
+$90000 - 45000 = 45000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15000 \times 4 = \dots$
+\shortans{60000}
+\loigiai{
+$15000 \times 4 = 60000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $80000 : 4 = \dots$
+\shortans{20000}
+\loigiai{
+$80000 : 4 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 64 700 đến hàng nghìn được số nào?
+\shortans{65000}
+\loigiai{
+Làm tròn lên 65 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 82 400 đến hàng chục nghìn được số nào?
+\shortans{80000}
+\loigiai{
+Làm tròn thành 80 000.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $456, 789, 120, 345$, có bao nhiêu số lẻ?
+\shortans{2}
+\loigiai{
+789 và 345 (có 2 số).
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ nhỏ nhất có 5 chữ số là số nào?
+\shortans{10001}
+\loigiai{
+Số đó là 10001.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn lớn nhất có 5 chữ số là số nào?
+\shortans{99998}
+\loigiai{
+Số đó là 99998.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng có 3 thùng dầu, thùng 1 có 20 lít, thùng 2 có gấp đôi thùng 1, thùng 3 có 30 lít. Cả 3 thùng có bao nhiêu lít dầu?
+\shortans{90}
+\loigiai{
+$20 + 40 + 30 = 90$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 18000 = 50000$.
+\shortans{32000}
+\loigiai{
+$x = 50000 - 18000 = 32000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x : 3 = 12000$.
+\shortans{36000}
+\loigiai{
+$x = 12000 \times 3 = 36000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $100000 - 25000 \times 3$.
+\shortans{25000}
+\loigiai{
+$100000 - 75000 = 25000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $25000 + 47000 + 25000$.
+\shortans{97000}
+\loigiai{
+$50000 + 47000 = 97000$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số chẵn lớn nhất có 2 chữ số và số chẵn bé nhất có 2 chữ số là bao nhiêu?
+\shortans{88}
+\loigiai{
+$98 - 10 = 88$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lẻ lớn nhất có 2 chữ số và số lẻ bé nhất có 2 chữ số là bao nhiêu?
+\shortans{88}
+\loigiai{
+$99 - 11 = 88$.
+}
+\end{ex}
+
+\begin{ex}
+Cho chu vi hình chữ nhật là $P = (a + b) \times 2$. Với $a = 25$ m, $b = 15$ m, tính $P$ theo mét.
+\shortans{80}
+\loigiai{
+$P = (25 + 15) \times 2 = 80$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh $a = 12$ cm. Chu vi hình vuông là bao nhiêu xăng-ti-mét?
+\shortans{48}
+\loigiai{
+$12 \times 4 = 48$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của 3 số tự nhiên liên tiếp là 30. Số ở giữa là bao nhiêu?
+\shortans{10}
+\loigiai{
+Số ở giữa là $30 : 3 = 10$.
+}
+\end{ex}

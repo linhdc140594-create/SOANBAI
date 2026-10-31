@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $48 : 2 = \dots$
+\shortans{24}
+\loigiai{
+$48 : 2 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $69 : 3 = \dots$
+\shortans{23}
+\loigiai{
+$69 : 3 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84 : 4 = \dots$
+\shortans{21}
+\loigiai{
+$84 : 4 = 21$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $55 : 5 = \dots$
+\shortans{11}
+\loigiai{
+$55 : 5 = 11$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $72 : 3 = \dots$
+\shortans{24}
+\loigiai{
+$72 : 3 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $56 : 4 = \dots$
+\shortans{14}
+\loigiai{
+$56 : 4 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $65 : 5 = \dots$
+\shortans{13}
+\loigiai{
+$65 : 5 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $78 : 6 = \dots$
+\shortans{13}
+\loigiai{
+$78 : 6 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $84 : 6 = \dots$
+\shortans{14}
+\loigiai{
+$84 : 6 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $91 : 7 = \dots$
+\shortans{13}
+\loigiai{
+$91 : 7 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96 : 8 = \dots$
+\shortans{12}
+\loigiai{
+$96 : 8 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $98 : 7 = \dots$
+\shortans{14}
+\loigiai{
+$98 : 7 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96 : 6 = \dots$
+\shortans{16}
+\loigiai{
+$96 : 6 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $92 : 4 = \dots$
+\shortans{23}
+\loigiai{
+$92 : 4 = 23$.
+}
+\end{ex}
+
+\begin{ex}
+Có 72 kg gạo chia đều vào 6 bao. Hỏi mỗi bao có bao nhiêu ki-lô-gam gạo?
+\shortans{12}
+\loigiai{
+$72 : 6 = 12$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một cuộn dây dài 84 m được cắt thành 4 đoạn bằng nhau. Hỏi mỗi đoạn dài bao nhiêu mét?
+\shortans{21}
+\loigiai{
+$84 : 4 = 21$ m.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ mua 68 quả táo chia đều cho 4 người. Hỏi mỗi người nhận được bao nhiêu quả táo?
+\shortans{17}
+\loigiai{
+$68 : 4 = 17$ quả táo.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 3B có 36 học sinh chia đều thành 3 tổ. Hỏi mỗi tổ có bao nhiêu học sinh?
+\shortans{12}
+\loigiai{
+$36 : 3 = 12$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 3 = 87$.
+\shortans{29}
+\loigiai{
+$x = 87 : 3 = 29$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $5 \times x = 95$.
+\shortans{19}
+\loigiai{
+$x = 95 : 5 = 19$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $96 : 3 - 15$.
+\shortans{17}
+\loigiai{
+$32 - 15 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $85 : 5 + 27$.
+\shortans{44}
+\loigiai{
+$17 + 27 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Một người nuôi 96 con thỏ nhốt đều vào 6 chuồng. Hỏi mỗi chuồng có bao nhiêu con thỏ?
+\shortans{16}
+\loigiai{
+$96 : 6 = 16$ con thỏ.
+}
+\end{ex}
+
+\begin{ex}
+Một thanh sắt dài 90 dm cắt thành các đoạn dài 5 dm. Hỏi được bao nhiêu đoạn?
+\shortans{18}
+\loigiai{
+$90 : 5 = 18$ đoạn.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $75 : 5 + 4 = \dots$
+\shortans{19}
+\loigiai{
+$15 + 4 = 19$.
+}
+\end{ex}

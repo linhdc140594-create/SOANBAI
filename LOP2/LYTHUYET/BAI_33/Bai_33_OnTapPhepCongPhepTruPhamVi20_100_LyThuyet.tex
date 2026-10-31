@@ -1,0 +1,157 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 33. Ôn tập phép cộng, phép trừ phạm vi 20, 100 --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 33: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20, 100}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Ôn thi HK1: Toàn bộ bảng cộng trừ qua 10, đặt tính có nhớ và tìm thành phần phép tính trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Các bảng tính cốt lõi}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bảng cộng qua 10:}\\
+  $9+c$ (tách 1), $8+c$ (tách 2), $7+c$ (tách 3), $6+c$ (tách 4).
+  \item \textbf{Bảng trừ qua 10:}\\
+  $11-, 12-, 13-, 14-, 15-, 16-, 17-, 18-$ trừ đi một số.
+  \item \textbf{Đặt tính cộng/trừ có nhớ $\le 100$:}\\
+  - Hàng đơn vị trước $\to$ Hàng chục sau.\\
+  - Cộng có nhớ $\to$ Thêm 1 vào hàng chục.\\
+  - Trừ có nhớ $\to$ Mượn 1 chục rồi bớt 1 ở chục.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Tìm thành phần chưa biết}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Tìm số hạng trong một tổng:}\\
+  $$\mathbf{\text{Số hạng} = \text{Tổng} - \text{Số hạng đã biết}}$$
+  \item \textbf{Tìm số bị trừ:}\\
+  $$\mathbf{\text{Số bị trừ} = \text{Hiệu} + \text{Số trừ}}$$
+  \item \textbf{Tìm số trừ:}\\
+  $$\mathbf{\text{Số trừ} = \text{Số bị trừ} - \text{Hiệu}}$$
+  \item \textbf{Ghi nhớ:}\\
+  Chỉ duy nhất tìm \textbf{Số bị trừ} mới làm phép \textbf{cộng}.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy: Tam giác công thức tìm thành phần chưa biết}
+]
+\centering
+\begin{tikzpicture}[x=1.5cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (t1) at (0,0) {TÌM SỐ HẠNG\\$\square + a = b$\\$\implies \square = b - a$};
+  \node[rectangle, rounded corners=2pt, draw=red!80!black, fill=red!15, font=\scriptsize\bfseries] (t2) at (3,0) {TÌM SỐ BỊ TRỪ\\$\square - a = b$\\$\implies \square = b + a$};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (t3) at (6,0) {TÌM SỐ TRỪ\\$a - \square = b$\\$\implies \square = a - b$};
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Tìm $x$ (hoặc điền số ô trống):}\\
+- $x + 28 = 62 \implies x = 62 - 28 = \mathbf{34}$.\\
+- $x - 35 = 47 \implies x = 47 + 35 = \mathbf{82}$.\\
+- $70 - x = 26 \implies x = 70 - 26 = \mathbf{44}$.
+\textbf{2. Tính nhanh:}\\
+$36 + 17 + 14 = (36 + 14) + 17 = 50 + 17 = \mathbf{67}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy kinh điển tìm số trừ:}\\
+  $60 - \square = 25 \implies \square = 60 - 25 = 35$.\\
+  Nhiều bạn thấy dấu trừ là tự động đem cộng: $60 + 25 = 85 \implies$ sai!
+  \item Số bị trừ luôn là số lớn nhất trong phép trừ.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

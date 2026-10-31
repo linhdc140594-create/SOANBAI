@@ -1,0 +1,145 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 12. Các số trong phạm vi lớp triệu --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 12: CÁC SỐ TRONG PHẠM VI LỚP TRIỆU}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Hàng triệu, chục triệu, trăm triệu, đọc viết số có 7, 8, 9 chữ số và cấu tạo số}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faGlobe\ 1. Lớp triệu \& Các hàng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lớp triệu gồm 3 hàng:}\\
+    - Hàng triệu ($1\,000\,000$ -- 7 chữ số).\\
+    - Hàng chục triệu ($10\,000\,000$ -- 8 chữ số).\\
+    - Hàng trăm triệu ($100\,000\,000$ -- 9 chữ số).\\
+    $\bullet$ \textbf{Quan hệ giữa các hàng liền kề:}\\
+    $10\text{ triệu} = 1\text{ chục triệu}$; $10\text{ chục triệu} = 1\text{ trăm triệu}$.\\
+    $\bullet$ Số nhỏ nhất có 7 chữ số: $1\,000\,000$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPencil\ 2. Kĩ năng đọc viết số lớp triệu},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tách lớp từ phải sang trái:}\\
+    (Lớp triệu) (Lớp nghìn) (Lớp đơn vị).\\
+    $\bullet$ \textbf{Cách đọc:} Đọc từng lớp từ trái sang phải kèm theo tên lớp.\\
+    \textit{Ví dụ:} $315\,240\,806$ đọc là: Ba trăm mười lăm \textbf{triệu} hai trăm bốn mươi \textbf{nghìn} tám trăm linh sáu.\\
+    $\bullet$ Khi viết, để khoảng cách nhỏ giữa các lớp.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Cấu trúc 3 lớp của số trong phạm vi lớp triệu},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.82,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=4.5pt, align=center},
+    cardT/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!80!black, text=purple!95!black, font=\scriptsize, inner sep=3.5pt, align=center, minimum width=3.8cm},
+    cardN/.style={rectangle, rounded corners=4pt, fill=blue!10, draw=blue!75!black, text=blue!90!black, font=\scriptsize, inner sep=3.5pt, align=center, minimum width=3.8cm},
+    cardD/.style={rectangle, rounded corners=4pt, fill=teal!12, draw=teal!80!black, text=teal!95!black, font=\scriptsize, inner sep=3.5pt, align=center, minimum width=3.8cm}
+  ]
+    \node[root] (core) at (0, 1.15) {\faDatabase\ SỐ TRONG PHẠM VI LỚP TRIỆU (ĐẾN 9 CHỮ SỐ)};
+
+    \node[cardT] (c1) at (-4.8, -0.35) {\textbf{LỚP TRIỆU}\\[1.5pt]$\bullet$ Hàng trăm triệu\\$\bullet$ Hàng chục triệu\\$\bullet$ Hàng triệu};
+    \node[cardN] (c2) at (0, -0.35) {\textbf{LỚP NGHÌN}\\[1.5pt]$\bullet$ Hàng trăm nghìn\\$\bullet$ Hàng chục nghìn\\$\bullet$ Hàng nghìn};
+    \node[cardD] (c3) at (4.8, -0.35) {\textbf{LỚP ĐƠN VỊ}\\[1.5pt]$\bullet$ Hàng trăm\\$\bullet$ Hàng chục\\$\bullet$ Hàng đơn vị};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- ++(0, -0.2) -| (c1.north);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- (c2.north);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- ++(0, -0.2) -| (c3.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ Phân tích số thành tổng các triệu, nghìn},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ví dụ phân tích:}\\
+    $5\,240\,100 = 5\,000\,000 + 200\,000 + 40\,000 + 100$\\
+    $\bullet$ Có thể viết gộp theo từng lớp:\\
+    $5\,240\,100 = 5\text{ triệu} + 240\text{ nghìn} + 100\text{ đơn vị}$.\\
+    $\bullet$ Chữ số 0 ở hàng nào thì không cần cộng giá trị hàng đó vào tổng.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy cả lớp bằng 0:}\\
+    Ví dụ số $7\,000\,015$: Lớp nghìn toàn số 0 thì \textbf{không đọc chữ nghìn}, chỉ đọc: "Bảy triệu không trăm mười lăm".\\
+    $\bullet$ \textbf{Bẫy viết thiếu số 0:}\\
+    Nghe đọc số phải đếm đủ số chữ số của từng lớp (mỗi lớp 3 chữ số).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,199 @@
+\begin{ex}
+Trong hai số 300 và 500, số nào lớn hơn?
+\shortans{500}
+\loigiai{
+Vì chữ số hàng trăm $5 > 3$ nên $500 > 300$.
+}
+\end{ex}
+
+\begin{ex}
+Trong hai số 700 và 400, số nào bé hơn?
+\shortans{400}
+\loigiai{
+Số bé hơn là 400.
+}
+\end{ex}
+
+\begin{ex}
+Trong hai số 800 và 1000, số nào lớn hơn?
+\shortans{1000}
+\loigiai{
+Số 1000 có 4 chữ số, lớn hơn 800 có 3 chữ số.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $200, 700, 400, 900$, số nào lớn nhất?
+\shortans{900}
+\loigiai{
+Số lớn nhất là 900.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $600, 100, 800, 300$, số nào bé nhất?
+\shortans{100}
+\loigiai{
+Số bé nhất là 100.
+}
+\end{ex}
+
+\begin{ex}
+So sánh hai số tròn chục: 240 và 270. Số nào lớn hơn?
+\shortans{270}
+\loigiai{
+Số lớn hơn là 270.
+}
+\end{ex}
+
+\begin{ex}
+So sánh hai số tròn chục: 350 và 310. Số nào bé hơn?
+\shortans{310}
+\loigiai{
+Số bé hơn là 310.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $420, 480, 450, 410$, số nào lớn nhất?
+\shortans{480}
+\loigiai{
+Số lớn nhất là 480.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $670, 620, 690, 650$, số nào bé nhất?
+\shortans{620}
+\loigiai{
+Số bé nhất là 620.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn trăm lớn hơn 300 và bé hơn 800?
+\shortans{4}
+\loigiai{
+Các số: 400, 500, 600, 700. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn chục lớn hơn 120 và bé hơn 170?
+\shortans{4}
+\loigiai{
+Các số: 130, 140, 150, 160. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $400, 800, 200, 600$ từ bé đến lớn, số đứng ở vị trí thứ ba là số nào?
+\shortans{600}
+\loigiai{
+Thứ tự: 200, 400, 600, 800. Số thứ ba là 600.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $900, 300, 700, 500$ từ lớn đến bé, số đứng ở vị trí thứ hai là số nào?
+\shortans{700}
+\loigiai{
+Thứ tự: 900, 700, 500, 300. Số thứ hai là 700.
+}
+\end{ex}
+
+\begin{ex}
+Điền số tròn trăm thích hợp: $400 < \dots < 600$.
+\shortans{500}
+\loigiai{
+Số tròn trăm ở giữa là 500.
+}
+\end{ex}
+
+\begin{ex}
+Điền số tròn chục thích hợp: $340 < \dots < 360$.
+\shortans{350}
+\loigiai{
+Số tròn chục ở giữa là 350.
+}
+\end{ex}
+
+\begin{ex}
+Trường Tiểu học Kim Đồng có 500 học sinh, trường Tiểu học Lê Lợi có 600 học sinh. Trường nào có nhiều học sinh hơn? Trường Lê Lợi nhiều hơn trường Kim Đồng bao nhiêu học sinh?
+\shortans{100}
+\loigiai{
+Nhiều hơn: $600 - 500 = 100$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Kho A có 700 bao xi măng, kho B có 400 bao xi măng. Kho A nhiều hơn kho B bao nhiêu bao xi măng?
+\shortans{300}
+\loigiai{
+Nhiều hơn: $700 - 400 = 300$ bao.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn đường dài 800 mét, đoạn đường thứ hai dài 500 mét. Đoạn thứ hai ngắn hơn đoạn thứ nhất bao nhiêu mét?
+\shortans{300}
+\loigiai{
+Ngắn hơn: $800 - 500 = 300$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tròn trăm lớn nhất bé hơn 750.
+\shortans{700}
+\loigiai{
+Số tròn trăm lớn nhất bé hơn 750 là 700.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tròn trăm bé nhất lớn hơn 420.
+\shortans{500}
+\loigiai{
+Số tròn trăm bé nhất lớn hơn 420 là 500.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn trăm từ 100 đến 1000?
+\shortans{10}
+\loigiai{
+Có 10 số (100, 200, ..., 1000).
+}
+\end{ex}
+
+\begin{ex}
+Trong các số tròn chục: $150, 240, 190, 310$, có bao nhiêu số lớn hơn 200?
+\shortans{2}
+\loigiai{
+Các số lớn hơn 200 là 240 và 310. Có 2 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số tròn chục: $420, 380, 510, 490$, có bao nhiêu số bé hơn 500?
+\shortans{3}
+\loigiai{
+Các số: 420, 380, 490. Có 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số tròn trăm liền sau 600 và số tròn trăm liền trước 600 là bao nhiêu?
+\shortans{200}
+\loigiai{
+Số liền sau là 700, liền trước là 500. Hiệu: $700 - 500 = 200$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tròn chục ở giữa hai số 580 và 600.
+\shortans{590}
+\loigiai{
+Số ở giữa là 590.
+}
+\end{ex}

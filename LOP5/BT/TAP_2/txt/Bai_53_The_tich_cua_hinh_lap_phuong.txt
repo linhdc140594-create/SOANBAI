@@ -1,0 +1,176 @@
+=== BÀI 53: THỂ TÍCH CỦA HÌNH LẬP PHƯƠNG ===
+
+Câu 1: Một hình lập phương có cạnh 1\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+Thể tích là: 1 x 1 x 1 = 1 cm3.
+
+----------------------------------------
+
+Câu 2: Một hình lập phương có cạnh 2\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+Thể tích là: 2 x 2 x 2 = 8 cm3.
+
+----------------------------------------
+
+Câu 3: Một hình lập phương có cạnh 3\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]27[/shortans]
+Lời giải chi tiết:
+Thể tích là: 3 x 3 x 3 = 27 cm3.
+
+----------------------------------------
+
+Câu 4: Một hình lập phương có cạnh 4\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]64[/shortans]
+Lời giải chi tiết:
+Thể tích là: 4 x 4 x 4 = 64 cm3.
+
+----------------------------------------
+
+Câu 5: Một hình lập phương có cạnh 5\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]125[/shortans]
+Lời giải chi tiết:
+Thể tích là: 5 x 5 x 5 = 125 cm3.
+
+----------------------------------------
+
+Câu 6: Một hình lập phương có cạnh 6\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]216[/shortans]
+Lời giải chi tiết:
+Thể tích là: 6 x 6 x 6 = 216 cm3.
+
+----------------------------------------
+
+Câu 7: Một hình lập phương có cạnh 7\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]343[/shortans]
+Lời giải chi tiết:
+Thể tích là: 7 x 7 x 7 = 343 cm3.
+
+----------------------------------------
+
+Câu 8: Một hình lập phương có cạnh 8\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]512[/shortans]
+Lời giải chi tiết:
+Thể tích là: 8 x 8 x 8 = 512 cm3.
+
+----------------------------------------
+
+Câu 9: Một hình lập phương có cạnh 9\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]729[/shortans]
+Lời giải chi tiết:
+Thể tích là: 9 x 9 x 9 = 729 cm3.
+
+----------------------------------------
+
+Câu 10: Một hình lập phương có cạnh 10\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]1000[/shortans]
+Lời giải chi tiết:
+Thể tích là: 10 x 10 x 10 = 1000 cm3.
+
+----------------------------------------
+
+Câu 11: Một hình lập phương có cạnh 11\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]1331[/shortans]
+Lời giải chi tiết:
+Thể tích là: 11 x 11 x 11 = 1331 cm3.
+
+----------------------------------------
+
+Câu 12: Một hình lập phương có cạnh 12\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]1728[/shortans]
+Lời giải chi tiết:
+Thể tích là: 12 x 12 x 12 = 1728 cm3.
+
+----------------------------------------
+
+Câu 13: Một hình lập phương có cạnh 13\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]2197[/shortans]
+Lời giải chi tiết:
+Thể tích là: 13 x 13 x 13 = 2197 cm3.
+
+----------------------------------------
+
+Câu 14: Một hình lập phương có cạnh 14\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]2744[/shortans]
+Lời giải chi tiết:
+Thể tích là: 14 x 14 x 14 = 2744 cm3.
+
+----------------------------------------
+
+Câu 15: Một hình lập phương có cạnh 15\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]3375[/shortans]
+Lời giải chi tiết:
+Thể tích là: 15 x 15 x 15 = 3375 cm3.
+
+----------------------------------------
+
+Câu 16: Một hình lập phương có cạnh 16\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]4096[/shortans]
+Lời giải chi tiết:
+Thể tích là: 16 x 16 x 16 = 4096 cm3.
+
+----------------------------------------
+
+Câu 17: Một hình lập phương có cạnh 17\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]4913[/shortans]
+Lời giải chi tiết:
+Thể tích là: 17 x 17 x 17 = 4913 cm3.
+
+----------------------------------------
+
+Câu 18: Một hình lập phương có cạnh 18\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]5832[/shortans]
+Lời giải chi tiết:
+Thể tích là: 18 x 18 x 18 = 5832 cm3.
+
+----------------------------------------
+
+Câu 19: Một hình lập phương có cạnh 19\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]6859[/shortans]
+Lời giải chi tiết:
+Thể tích là: 19 x 19 x 19 = 6859 cm3.
+
+----------------------------------------
+
+Câu 20: Một hình lập phương có cạnh 20\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]8000[/shortans]
+Lời giải chi tiết:
+Thể tích là: 20 x 20 x 20 = 8000 cm3.
+
+----------------------------------------
+
+Câu 21: Một hình lập phương có cạnh 21\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]9261[/shortans]
+Lời giải chi tiết:
+Thể tích là: 21 x 21 x 21 = 9261 cm3.
+
+----------------------------------------
+
+Câu 22: Một hình lập phương có cạnh 22\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]10648[/shortans]
+Lời giải chi tiết:
+Thể tích là: 22 x 22 x 22 = 10648 cm3.
+
+----------------------------------------
+
+Câu 23: Một hình lập phương có cạnh 23\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]12167[/shortans]
+Lời giải chi tiết:
+Thể tích là: 23 x 23 x 23 = 12167 cm3.
+
+----------------------------------------
+
+Câu 24: Một hình lập phương có cạnh 24\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]13824[/shortans]
+Lời giải chi tiết:
+Thể tích là: 24 x 24 x 24 = 13824 cm3.
+
+----------------------------------------
+
+Câu 25: Một hình lập phương có cạnh 25\text{ cm}. Thể tích của nó là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]15625[/shortans]
+Lời giải chi tiết:
+Thể tích là: 25 x 25 x 25 = 15625 cm3.
+
+----------------------------------------

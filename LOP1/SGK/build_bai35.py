@@ -1,0 +1,704 @@
+# -*- coding: utf-8 -*-
+import os, sys, subprocess
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+content = r'''% =========================================================================
+% BÀI 35: CÁC NGÀY TRONG TUẦN
+% TOÀN BỘ CÂU HỎI ĐƯỢC VẼ HÌNH MINH HỌA TRỰC QUAN 100% BẰNG TIKZ 2D
+% =========================================================================
+
+% --- ĐỊNH NGHĨA MÀU SẮC AN TOÀN ---
+\colorlet{myteal}{cyan!70!blue}
+\colorlet{myorange}{orange}
+\colorlet{mypurple}{purple}
+\colorlet{myblue}{blue}
+\colorlet{myred}{red}
+
+% --- CÁC HÀM VẼ HÌNH TRỰC QUAN ĐẶC TRƯNG CHO BÀI 35 ---
+
+% 1. Vẽ tờ lịch bóc tường / để bàn
+\providecommand{\VeToLich}[4]{% #1=(x,y), #2=Thứ, #3=Số/Nội dung, #4=màu
+  \begin{scope}[shift={(#1)}]
+    \fill[black!70] (-0.45,0.7) circle (0.06cm);
+    \fill[black!70] (0.45,0.7) circle (0.06cm);
+    \draw[line width=1.1pt, black!50] (-0.45,0.7) -- (-0.45,0.86);
+    \draw[line width=1.1pt, black!50] (0.45,0.7) -- (0.45,0.86);
+    \draw[fill=white, draw=#4!85, line width=1.1pt, rounded corners=3pt] (-1.1,-0.7) rectangle (1.1,0.7);
+    \draw[fill=#4!85, draw=#4!85, rounded corners=2pt] (-1.1,0.24) rectangle (1.1,0.7);
+    \node[font=\bfseries\tiny, color=white] at (0,0.47) {#2};
+    \node[font=\bfseries\scriptsize, color=#4!90!black] at (0,-0.23) {#3};
+  \end{scope}
+}
+
+% 2. Dải băng 7 ngày trong tuần
+\providecommand{\VeDaiBayNgay}[2]{% #1=(x,y), #2=ngày nổi bật (1..7, 0 là không)
+  \begin{scope}[shift={(#1)}, scale=0.58]
+    \foreach \i/\thu/\mau in {
+      1/{Thứ 2}/myblue,
+      2/{Thứ 3}/myblue,
+      3/{Thứ 4}/myblue,
+      4/{Thứ 5}/myblue,
+      5/{Thứ 6}/myblue,
+      6/{Thứ 7}/myorange,
+      7/{Chủ nhật}/myred
+    } {
+      \pgfmathsetmacro{\x}{(\i-4)*1.92}
+      \ifnum\i=#2
+        \draw[fill=\mau!25, draw=\mau!90, line width=1.3pt, rounded corners=3pt] (\x-0.82,-0.55) rectangle (\x+0.82,0.55);
+        \node[font=\bfseries\footnotesize, color=\mau!90!black] at (\x,0) {\thu};
+        \node[above, font=\bfseries\tiny, color=red!85] at (\x,0.6) {$\blacktriangledown$};
+      \else
+        \draw[fill=white, draw=gray!70, line width=0.7pt, rounded corners=3pt] (\x-0.82,-0.55) rectangle (\x+0.82,0.55);
+        \node[font=\bfseries\scriptsize, color=black!85] at (\x,0) {\thu};
+      \fi
+    }
+  \end{scope}
+}
+
+% 3. Mũi tên thời gian giữa 2 sự kiện
+\providecommand{\VeMuiTenLich}[3]{% #1=(x,y), #2=độ dài, #3=nhãn
+  \begin{scope}[shift={(#1)}]
+    \draw[->, >=stealth, line width=1.1pt, orange!90!black] (0,0) -- (#2,0);
+    \node[above=1pt, font=\bfseries\tiny, color=blue!90!black] at (#2*0.5, 0) {#3};
+  \end{scope}
+}
+
+% =========================================================================
+% BẮT ĐẦU NỘI DUNG 20 CÂU HỎI
+% =========================================================================
+
+\textbf{Phần 1. Trắc nghiệm lựa chọn}
+\setcounterpageref{ex}{0}
+
+% --- TRANG 1: CÂU 1 ĐẾN CÂU 4 ---
+
+% CÂU 1: Một tuần lễ có 7 ngày
+\begin{ex} %[1H9N35]
+Dải các ngày trong một tuần lễ được xếp theo thứ tự:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeDaiBayNgay{0,0}{0}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Một tuần lễ có tất cả bao nhiêu ngày?
+\begin{multicols}{4}
+\choice
+{$5$ ngày}
+{\True $7$ ngày}
+{$6$ ngày}
+{$8$ ngày}
+\end{multicols}
+\loigiai{
+Một tuần lễ có đúng $7$ ngày: Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy và Chủ nhật.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 2: Ngày đầu tiên trong tuần đi học là Thứ Hai
+\begin{ex} %[1H9N35]
+Tờ lịch đầu tuần đón các em học sinh đến trường:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{0,0}{THỨ HAI}{Tuần mới}{myblue}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Ngày đầu tiên trong tuần lễ đi học là ngày nào?
+\begin{multicols}{4}
+\choice
+{Chủ nhật}
+{\True Thứ Hai}
+{Thứ Ba}
+{Thứ Bảy}
+\end{multicols}
+\loigiai{
+Ngày đầu tiên trong tuần lễ đi học theo quy ước là ngày Thứ Hai.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 3: Hai ngày nghỉ cuối tuần
+\begin{ex} %[1H9H35]
+Hai tờ lịch ngày nghỉ cuối tuần của các bạn nhỏ:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-1.5,0}{THỨ BẢY}{Nghỉ học}{myorange}
+  \VeToLich{1.5,0}{CHỦ NHẬT}{Nghỉ học}{myred}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Học sinh tiểu học thường được nghỉ học vào những ngày nào trong tuần?
+\begin{multicols}{2}
+\choice
+{Thứ Hai và Thứ Ba}
+{\True Thứ Bảy và Chủ nhật}
+{Thứ Năm và Thứ Sáu}
+{Thứ Tư và Thứ Năm}
+\end{multicols}
+\loigiai{
+Học sinh tiểu học thường được nghỉ học vào hai ngày cuối tuần là Thứ Bảy và Chủ nhật.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 4: Số ngày đi học trong một tuần
+\begin{ex} %[1H9H35]
+Các ngày em đến trường học tập trong tuần:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}[scale=0.68]
+  \foreach \i/\thu in {1/{Thứ 2}, 2/{Thứ 3}, 3/{Thứ 4}, 4/{Thứ 5}, 5/{Thứ 6}} {
+    \pgfmathsetmacro{\x}{(\i-3)*1.95}
+    \draw[fill=blue!10, draw=blue!75, line width=0.8pt, rounded corners=3pt] (\x-0.85,-0.5) rectangle (\x+0.85,0.5);
+    \node[font=\bfseries\scriptsize, color=blue!90!black] at (\x,0.12) {\thu};
+    \node[font=\bfseries\tiny, color=black!65] at (\x,-0.25) {Đi học};
+  }
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Trong một tuần lễ, em đi học bao nhiêu ngày (từ Thứ Hai đến Thứ Sáu)?
+\begin{multicols}{4}
+\choice
+{$4$ ngày}
+{\True $5$ ngày}
+{$6$ ngày}
+{$7$ ngày}
+\end{multicols}
+\loigiai{
+Từ Thứ Hai đến Thứ Sáu có tất cả $5$ ngày đi học.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+\newpage
+% --- TRANG 2: CÂU 5 ĐẾN CÂU 8 ---
+
+% CÂU 5: Hôm nay Thứ Ba -> Ngày mai là Thứ Tư
+\begin{ex} %[1H9H35]
+Quan sát mối quan hệ giữa Hôm nay và Ngày mai:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-2.2,0}{THỨ BA}{Hôm nay}{myblue}
+  \VeMuiTenLich{-0.8,0}{1.6}{Ngày mai}
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (1.1,-0.7) rectangle (3.3,0.7);
+  \node[font=\bfseries\small, color=red!85] at (2.2,0.1) {$?$};
+  \node[font=\bfseries\tiny, color=black!70] at (2.2,-0.35) {Ngày mai};
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Nếu hôm nay là Thứ Ba thì ngày mai là thứ mấy?
+\begin{multicols}{4}
+\choice
+{Thứ Hai}
+{\True Thứ Tư}
+{Thứ Năm}
+{Thứ Sáu}
+\end{multicols}
+\loigiai{
+Ngày liền sau Thứ Ba là Thứ Tư. Vậy nếu hôm nay là Thứ Ba thì ngày mai là Thứ Tư.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 6: Hôm nay Thứ Năm -> Hôm qua là Thứ Tư
+\begin{ex} %[1H9H35]
+Quan sát tờ lịch ngày Hôm nay:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (-3.3,-0.7) rectangle (-1.1,0.7);
+  \node[font=\bfseries\small, color=red!85] at (-2.2,0.1) {$?$};
+  \node[font=\bfseries\tiny, color=black!70] at (-2.2,-0.35) {Hôm qua};
+  
+  \VeMuiTenLich{-0.8,0}{1.6}{Tiếp theo}
+  \VeToLich{2.2,0}{THỨ NĂM}{Hôm nay}{myblue}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Nếu hôm nay là Thứ Năm thì hôm qua là thứ mấy?
+\begin{multicols}{4}
+\choice
+{Thứ Ba}
+{\True Thứ Tư}
+{Thứ Sáu}
+{Thứ Bảy}
+\end{multicols}
+\loigiai{
+Ngày liền trước Thứ Năm là Thứ Tư. Vậy hôm qua là Thứ Tư.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 7: Ngày liền trước Chủ nhật là Thứ Bảy
+\begin{ex} %[1H9V35]
+Hai ngày cuối tuần liên tiếp:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (-3.1,-0.7) rectangle (-0.9,0.7);
+  \node[font=\bfseries\small, color=red!85] at (-2.0,0.1) {$?$};
+  \node[font=\bfseries\tiny, color=black!70] at (-2.0,-0.35) {Liền trước};
+  
+  \VeMuiTenLich{-0.7,0}{1.4}{}
+  \VeToLich{2.0,0}{CHỦ NHẬT}{Cuối tuần}{myred}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Ngày đứng liền trước ngày Chủ nhật trong tuần lễ là ngày nào?
+\begin{multicols}{4}
+\choice
+{Thứ Sáu}
+{\True Thứ Bảy}
+{Thứ Năm}
+{Thứ Hai}
+\end{multicols}
+\loigiai{
+Ngày đứng liền trước ngày Chủ nhật là ngày Thứ Bảy.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 8: Hôm nay Thứ Sáu -> Ngày kia là Chủ nhật
+\begin{ex} %[1H9V35]
+Mối liên hệ giữa Hôm nay, Ngày mai và Ngày kia:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-3.4,0}{THỨ SÁU}{Hôm nay}{myblue}
+  \VeMuiTenLich{-2.0,0}{1.0}{Mai}
+  \VeToLich{0,0}{THỨ BẢY}{Ngày mai}{myorange}
+  \VeMuiTenLich{1.3,0}{1.0}{Kia}
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (2.6,-0.7) rectangle (4.8,0.7);
+  \node[font=\bfseries\small, color=red!85] at (3.7,0.1) {$?$};
+  \node[font=\bfseries\tiny, color=black!70] at (3.7,-0.35) {Ngày kia};
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Nếu hôm nay là Thứ Sáu thì ngày kia là ngày nào?
+\begin{multicols}{4}
+\choice
+{Thứ Bảy}
+{\True Chủ nhật}
+{Thứ Hai}
+{Thứ Tư}
+\end{multicols}
+\loigiai{
+Hôm nay là Thứ Sáu $\rightarrow$ Ngày mai là Thứ Bảy $\rightarrow$ Ngày kia là Chủ nhật.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+\newpage
+% --- TRANG 3: CÂU 9 ĐẾN CÂU 12 ---
+
+% CÂU 9: Kế hoạch tuần của Mai
+\begin{ex} %[1H9V35]
+Bảng kế hoạch tuần của bạn Mai:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-3.4,0}{THỨ HAI}{Học bơi}{myblue}
+  \VeToLich{0,0}{THỨ TƯ}{Học đàn}{myteal}
+  \VeToLich{3.4,0}{THỨ BẢY}{Về quê}{myorange}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Theo kế hoạch trên, bạn Mai về quê thăm ông bà vào ngày nào?
+\begin{multicols}{4}
+\choice
+{Thứ Hai}
+{\True Thứ Bảy}
+{Thứ Tư}
+{Chủ nhật}
+\end{multicols}
+\loigiai{
+Quan sát tờ lịch ghi rõ: Thứ Bảy -- Về quê.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 10: Ngày ở giữa Thứ Tư và Thứ Sáu là Thứ Năm
+\begin{ex} %[1H9V35]
+Đoàn tàu chở ba ngày liên tiếp trong tuần:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \draw[fill=blue!15, draw=blue!80, line width=0.8pt, rounded corners=3pt] (-3.4,-0.55) rectangle (-1.2,0.55);
+  \node[font=\bfseries\footnotesize, color=blue!90!black] at (-2.3,0) {Thứ Tư};
+  
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (-0.8,-0.55) rectangle (1.2,0.55);
+  \node[font=\bfseries\large, color=red!85] at (0.2,0) {$?$};
+  
+  \draw[fill=blue!15, draw=blue!80, line width=0.8pt, rounded corners=3pt] (1.6,-0.55) rectangle (3.8,0.55);
+  \node[font=\bfseries\footnotesize, color=blue!90!black] at (2.7,0) {Thứ Sáu};
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Ngày nằm ở giữa ngày Thứ Tư và ngày Thứ Sáu là ngày nào?
+\begin{multicols}{4}
+\choice
+{Thứ Ba}
+{\True Thứ Năm}
+{Thứ Bảy}
+{Chủ nhật}
+\end{multicols}
+\loigiai{
+Thứ tự các ngày: Thứ Tư $\rightarrow$ Thứ Năm $\rightarrow$ Thứ Sáu. Ngày ở giữa là Thứ Năm.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 11: Hôm nay Chủ nhật -> Hôm kia là Thứ Sáu
+\begin{ex} %[1H9V35]
+Tìm ngày trước đó $2$ ngày (Hôm kia):
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (-4.6,-0.7) rectangle (-2.4,0.7);
+  \node[font=\bfseries\small, color=red!85] at (-3.5,0.1) {$?$};
+  \node[font=\bfseries\tiny, color=black!70] at (-3.5,-0.35) {Hôm kia};
+  
+  \draw[<-, >=stealth, line width=1.1pt, orange!90!black] (-2.2,0) -- (-1.3,0);
+  \VeToLich{0,0}{THỨ BẢY}{Hôm qua}{myorange}
+  \draw[<-, >=stealth, line width=1.1pt, orange!90!black] (1.3,0) -- (2.2,0);
+  \VeToLich{3.5,0}{CHỦ NHẬT}{Hôm nay}{myred}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Nếu hôm nay là Chủ nhật thì hôm kia là ngày nào?
+\begin{multicols}{4}
+\choice
+{Thứ Bảy}
+{\True Thứ Sáu}
+{Thứ Năm}
+{Thứ Tư}
+\end{multicols}
+\loigiai{
+Hôm nay là Chủ nhật $\rightarrow$ Hôm qua là Thứ Bảy $\rightarrow$ Hôm kia là Thứ Sáu.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+% CÂU 12: Sau Chủ nhật vòng lại Thứ Hai
+\begin{ex} %[1H9C35]
+Vòng tuần hoàn khép kín của các ngày trong tuần:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-2.6,0}{CHỦ NHẬT}{Hết tuần}{myred}
+  \draw[->, >=stealth, line width=1.2pt, red!85] (-1.2,0) -- (1.2,0);
+  \node[above=1pt, font=\bfseries\tiny, color=purple!85] at (0,0) {Tuần mới bắt đầu};
+  \draw[fill=yellow!25, draw=orange!80, line width=0.9pt, rounded corners=3pt] (1.5,-0.7) rectangle (3.7,0.7);
+  \node[font=\bfseries\small, color=red!85] at (2.6,0.1) {$?$};
+  \node[font=\bfseries\tiny, color=black!70] at (2.6,-0.35) {Ngày đầu tuần};
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Sau ngày Chủ nhật thì ngày tiếp theo sẽ lặp lại là ngày nào?
+\begin{multicols}{4}
+\choice
+{Thứ Bảy}
+{\True Thứ Hai}
+{Thứ Ba}
+{Chủ nhật}
+\end{multicols}
+\loigiai{
+Hết ngày Chủ nhật, tuần lễ mới lại bắt đầu và lặp lại từ ngày Thứ Hai.\\
+\textbf{Đáp án: B.}
+}
+\end{ex}
+
+\newpage
+% --- TRANG 4: PHẦN 2 - CÂU HỎI ĐÚNG / SAI (4 CÂU) ---
+
+\textbf{Phần 2. Câu trắc nghiệm đúng sai}
+\setcounterpageref{ex}{0}
+
+% CÂU 13: Kiến thức tổng quát tuần lễ
+\begin{ex} %[1H9N35]
+Bảng tổng hợp các ngày trong một tuần lễ:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeDaiBayNgay{0,0}{0}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Xét tính đúng hoặc sai của các khẳng định sau:
+\choiceTF
+{\True Một tuần lễ có đúng $7$ ngày liên tiếp.}
+{Học sinh tiểu học đi học từ Thứ Hai đến Thứ Bảy là $6$ ngày.}
+{\True Hai ngày nghỉ cuối tuần là Thứ Bảy và Chủ nhật.}
+{\True Ngày đầu tiên trong tuần đi học là Thứ Hai.}
+\loigiai{
+\begin{itemize}
+    \item a) Đúng: Một tuần lễ gồm 7 ngày.
+    \item b) Sai: Học sinh đi học 5 ngày (từ Thứ Hai đến Thứ Sáu).
+    \item c) Đúng: Cuối tuần nghỉ học Thứ Bảy và Chủ nhật.
+    \item d) Đúng: Thứ Hai là ngày đầu tuần.
+\end{itemize}
+}
+\end{ex}
+
+% CÂU 14: Chuỗi ngày liên tiếp (Hôm nay: Thứ Tư)
+\begin{ex} %[1H9H35]
+Quan sát bộ ba tờ lịch liên tiếp:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-3.4,0}{THỨ BA}{Hôm qua}{myteal}
+  \VeToLich{0,0}{THỨ TƯ}{Hôm nay}{myblue}
+  \VeToLich{3.4,0}{THỨ NĂM}{Ngày mai}{myorange}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Xét tính đúng hoặc sai của các khẳng định sau:
+\choiceTF
+{\True Nếu hôm nay là Thứ Tư thì ngày mai là Thứ Năm.}
+{\True Hôm qua của ngày Thứ Tư là ngày Thứ Ba.}
+{Ngày kia (sau hôm nay $2$ ngày) là ngày Thứ Bảy.}
+{\True Từ Thứ Tư đến ngày Chủ nhật cùng tuần còn cách $4$ ngày nữa.}
+\loigiai{
+\begin{itemize}
+    \item a) Đúng: Liền sau Thứ Tư là Thứ Năm.
+    \item b) Đúng: Liền trước Thứ Tư là Thứ Ba.
+    \item c) Sai: Ngày kia là Thứ Sáu (không phải Thứ Bảy).
+    \item d) Đúng: Thứ Tư đến Chủ nhật là 4 ngày ($7 - 3 = 4$).
+\end{itemize}
+}
+\end{ex}
+
+% CÂU 15: Thời khóa biểu của Nam
+\begin{ex} %[1H9V35]
+Thời khóa biểu môn học các ngày trong tuần của Nam:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}[scale=0.62]
+  \foreach \i/\thu/\mon/\mau in {
+    1/{Thứ 2}/{Toán}/myblue,
+    2/{Thứ 3}/{Tiếng Việt}/myteal,
+    3/{Thứ 4}/{Mĩ thuật}/myorange,
+    4/{Thứ 5}/{Âm nhạc}/mypurple,
+    5/{Thứ 6}/{Thể dục}/myred
+  } {
+    \pgfmathsetmacro{\x}{(\i-3)*2.5}
+    \draw[fill=\mau!10, draw=\mau!80, line width=0.8pt, rounded corners=3pt] (\x-1.0,-0.6) rectangle (\x+1.0,0.6);
+    \node[font=\bfseries\footnotesize, color=\mau!90!black] at (\x,0.18) {\thu};
+    \node[font=\bfseries\tiny, color=black!85] at (\x,-0.25) {\mon};
+  }
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Xét tính đúng hoặc sai của các khẳng định sau:
+\choiceTF
+{\True Nam học môn Mĩ thuật vào ngày Thứ Tư.}
+{\True Môn Thể dục diễn ra vào ngày cuối cùng của tuần đi học (Thứ Sáu).}
+{Nam học môn Âm nhạc trước môn Mĩ thuật $1$ ngày.}
+{\True Nam được nghỉ học ở nhà vào Thứ Bảy và Chủ nhật.}
+\loigiai{
+\begin{itemize}
+    \item a) Đúng: Thứ Tư học Mĩ thuật.
+    \item b) Đúng: Thứ Sáu là ngày đi học cuối cùng trong tuần.
+    \item c) Sai: Âm nhạc học Thứ Năm (sau Mĩ thuật 1 ngày).
+    \item d) Đúng: Cuối tuần Nam được nghỉ học.
+\end{itemize}
+}
+\end{ex}
+
+% CÂU 16: Kế hoạch du lịch của gia đình Rô-bốt
+\begin{ex} %[1H9V35]
+Lịch trình chuyến du lịch cuối tuần của gia đình Rô-bốt:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-3.4,0}{THỨ SÁU}{Khởi hành}{myblue}
+  \VeToLich{0,0}{THỨ BẢY}{Tắm biển}{myorange}
+  \VeToLich{3.4,0}{CHỦ NHẬT}{Trở về}{myred}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Xét tính đúng hoặc sai của các khẳng định sau:
+\choiceTF
+{\True Chuyến du lịch diễn ra trong $3$ ngày: Thứ Sáu, Thứ Bảy và Chủ nhật.}
+{Gia đình Rô-bốt bắt đầu chuyến đi vào ngày Thứ Năm.}
+{\True Ngày kết thúc chuyến du lịch là ngày Chủ nhật.}
+{\True Sau khi kết thúc chuyến đi, ngày tiếp theo Rô-bốt đi học trở lại là Thứ Hai.}
+\loigiai{
+\begin{itemize}
+    \item a) Đúng: Chuyến đi gồm 3 ngày: Thứ Sáu, Thứ Bảy, Chủ nhật.
+    \item b) Sai: Bắt đầu từ Thứ Sáu (không phải Thứ Năm).
+    \item c) Đúng: Trở về vào Chủ nhật.
+    \item d) Đúng: Thứ Hai tuần sau Rô-bốt đi học lại.
+\end{itemize}
+}
+\end{ex}
+
+\newpage
+% --- TRANG 5: PHẦN 3 - CÂU HỎI TRẢ LỜI NGẮN (4 CÂU) ---
+
+\textbf{Phần 3. Câu hỏi trả lời ngắn}
+\setcounterpageref{ex}{0}
+
+% CÂU 17: Một tuần lễ có bao nhiêu ngày?
+\begin{ex} %[1H9N35]
+Quan sát đầy đủ dải các ngày trong một tuần lễ:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeDaiBayNgay{0,0}{0}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Một tuần lễ có tất cả bao nhiêu ngày?
+\textit{Trả lời:} \raisebox{-2pt}{\tcbox[colframe=blue!80!black,colback=white,size=small,arc=3pt]{$7$}}
+\loigiai{
+Một tuần lễ có $7$ ngày.\\
+\textbf{Đáp số: $7$.}
+}
+\end{ex}
+
+% CÂU 18: Học sinh đi học bao nhiêu ngày trong 1 tuần?
+\begin{ex} %[1H9H35]
+Em đi học từ ngày Thứ Hai đến hết ngày Thứ Sáu:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}[scale=0.7]
+  \foreach \i/\thu in {1/{Thứ 2}, 2/{Thứ 3}, 3/{Thứ 4}, 4/{Thứ 5}, 5/{Thứ 6}} {
+    \pgfmathsetmacro{\x}{(\i-3)*1.85}
+    \draw[fill=blue!12, draw=blue!75, line width=0.8pt, rounded corners=3pt] (\x-0.75,-0.5) rectangle (\x+0.75,0.5);
+    \node[font=\bfseries\scriptsize, color=blue!90!black] at (\x,0) {\thu};
+  }
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Trong một tuần lễ, học sinh đi học tất cả bao nhiêu ngày?
+\textit{Trả lời:} \raisebox{-2pt}{\tcbox[colframe=blue!80!black,colback=white,size=small,arc=3pt]{$5$}}
+\loigiai{
+Từ Thứ Hai đến Thứ Sáu gồm có $5$ ngày.\\
+\textbf{Đáp số: $5$.}
+}
+\end{ex}
+
+% CÂU 19: Khoảng cách giữa 2 ngày trong tuần
+\begin{ex} %[1H9V35]
+Quan sát khoảng thời gian từ Thứ Ba đến Thứ Sáu trong cùng một tuần:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \VeToLich{-2.8,0}{THỨ BA}{Bắt đầu}{myteal}
+  \VeMuiTenLich{-1.4,0}{2.8}{$? \text{ ngày}$}
+  \VeToLich{2.8,0}{THỨ SÁU}{Kết thúc}{myblue}
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Từ Thứ Ba đến Thứ Sáu trong cùng một tuần cách nhau mấy ngày?
+\textit{Trả lời:} \raisebox{-2pt}{\tcbox[colframe=blue!80!black,colback=white,size=small,arc=3pt]{$3$}}
+\loigiai{
+Khoảng cách thời gian là: $6 - 3 = 3$ ngày (Thứ Tư, Thứ Năm, Thứ Sáu).\\
+\textbf{Đáp số: $3$.}
+}
+\end{ex}
+
+% CÂU 20: Hai tuần lễ có bao nhiêu ngày?
+\begin{ex} %[1H9C35]
+Bạn An được nghỉ hè trọn vẹn $2$ tuần lễ:
+\begin{center}\vspace{-2.5mm}
+\begin{tikzpicture}
+  \draw[fill=blue!10, draw=blue!75, line width=0.8pt, rounded corners=3pt] (-3.8,-0.55) rectangle (-0.6,0.55);
+  \node[font=\bfseries\footnotesize, color=blue!90!black] at (-2.2,0.12) {Tuần $1$};
+  \node[font=\bfseries\tiny, color=black!70] at (-2.2,-0.25) {$7$ ngày};
+  
+  \node[font=\bfseries\Large, color=red!85] at (0,0) {$+$};
+  
+  \draw[fill=orange!10, draw=orange!75, line width=0.8pt, rounded corners=3pt] (0.6,-0.55) rectangle (3.8,0.55);
+  \node[font=\bfseries\footnotesize, color=orange!90!black] at (2.2,0.12) {Tuần $2$};
+  \node[font=\bfseries\tiny, color=black!70] at (2.2,-0.25) {$7$ ngày};
+\end{tikzpicture}
+\vspace{-2.5mm}\end{center}
+Hỏi bạn An được nghỉ hè tất cả bao nhiêu ngày?
+\textit{Trả lời:} \raisebox{-2pt}{\tcbox[colframe=blue!80!black,colback=white,size=small,arc=3pt]{$14$}}
+\loigiai{
+Mỗi tuần lễ có $7$ ngày. Hai tuần lễ có: $7 + 7 = 14$ ngày.\\
+\textbf{Đáp số: $14$.}
+}
+\end{ex}
+'''
+
+# 1. Ghi file source TeX cho Chuong 9 Bai 35
+tex_path = os.path.abspath('CHỦ ĐỀ 9 - THỜI GIAN. GIỜ VÀ LỊCH/Chuong9_Bai35_CacNgayTrongTuan.tex')
+with open(tex_path, 'w', encoding='utf-8') as f:
+    f.write(content)
+print(f"Đã ghi: {tex_path}")
+
+# 2. Tạo file xem trước Bai_35_preview.tex độc lập 5 trang
+preview_content = r'''\documentclass[14pt,a4paper]{extbook}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,calc,positioning,backgrounds,patterns,decorations.pathreplacing,arrows.meta}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,theorems}
+\usepackage{geometry}
+\geometry{a4paper,left=15mm,right=15mm,top=11mm,bottom=12mm}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{qrcode}
+\usepackage{fontawesome5}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+
+\newcounter{ex}
+\newcommand{\setcounterpageref}[2]{}
+
+\newenvironment{ex}[1][]{%
+  \refstepcounter{ex}%
+  \par\noindent\textbf{Câu \theex.}%
+  \hspace{0.5em}%
+}{%
+  \par\vspace{0.1ex}%
+}
+
+\newcommand{\choice}[4]{%
+  \begin{enumerate}[label=\Alph*.,leftmargin=2.2em,itemsep=0.1ex,parsep=0pt,topsep=0.1ex]
+    \item #1
+    \item #2
+    \item #3
+    \item #4
+  \end{enumerate}
+}
+
+\newcommand{\choiceTF}[4]{%
+  \begin{enumerate}[label=\alph*),leftmargin=2.2em,itemsep=0.15ex,parsep=0pt,topsep=0.2ex]
+    \item #1
+    \item #2
+    \item #3
+    \item #4
+  \end{enumerate}
+}
+
+\newcommand{\True}{}
+\newcommand{\loigiai}[1]{}
+
+\begin{document}
+
+% --- KHUNG TIÊU ĐỀ TRANG 1 KÈM QR CODE ---
+\begin{tcolorbox}[colback=blue!5!white,colframe=blue!75!black,title=\textbf{\large ĐỀ KIỂM TRA TOÁN LỚP 1 -- BÀI 35: CÁC NGÀY TRONG TUẦN},arc=2.5mm,top=1.5mm,bottom=1.5mm]
+\begin{minipage}{0.80\textwidth}
+  \textbf{Học kì 2 -- Chủ đề 9: Thời gian. Giờ và lịch}\\
+  \textbf{Thời gian:} 40 phút \quad | \quad \textbf{Đề thi 100\% hình vẽ trực quan}\\
+  \textit{Họ và tên học sinh:} \dotfill \quad \textit{Lớp:} \dotfill
+\end{minipage}
+\begin{minipage}{0.18\textwidth}
+  \centering
+  \qrcode[height=1.45cm]{https://loptoanthaylinh.vn/thi-online/toan-1/bai-35}\\
+  \vspace{0.8mm}
+  \textbf{\scriptsize Quét mã thi Online}
+\end{minipage}
+\end{tcolorbox}
+\vspace{0.1cm}
+
+''' + content + r'''
+
+\end{document}
+'''
+
+preview_path = os.path.abspath('Bai_35_preview.tex')
+with open(preview_path, 'w', encoding='utf-8') as f:
+    f.write(preview_content)
+print(f"Đã ghi: {preview_path}")
+
+# 3. Biên dịch Bai_35_preview.tex
+res = subprocess.run(['pdflatex', '-interaction=nonstopmode', 'Bai_35_preview.tex'],
+                     stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding='utf-8', errors='ignore')
+
+if res.returncode == 0 or os.path.exists('Bai_35_preview.pdf'):
+    import pypdf
+    reader = pypdf.PdfReader('Bai_35_preview.pdf')
+    num_pages = len(reader.pages)
+    print(f"SỐ TRANG PREVIEW: {num_pages}")
+    
+    if num_pages == 5:
+        # Sao chép vào PDF_DeThi_TungBai
+        out_dir = os.path.abspath('PDF_DeThi_TungBai')
+        os.makedirs(out_dir, exist_ok=True)
+        out_pdf = os.path.join(out_dir, 'Bai_35_Cac_ngay_trong_tuan.pdf')
+        import shutil
+        shutil.copy2('Bai_35_preview.pdf', out_pdf)
+        print(f"ĐÃ XUẤT THÀNH CÔNG: {out_pdf} ({num_pages} trang)")
+    else:
+        print(f"CẢNH BÁO: Số trang hiện tại là {num_pages}, chưa khớp chuẩn 5 trang!")
+else:
+    print("BIÊN DỊCH LỖI:")
+    print(res.stdout[-1500:])

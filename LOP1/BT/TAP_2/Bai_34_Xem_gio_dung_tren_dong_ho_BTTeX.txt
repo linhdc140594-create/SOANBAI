@@ -1,0 +1,199 @@
+\begin{ex}
+Đồng hồ có kim ngắn chỉ số 7, kim dài chỉ số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{7}
+\loigiai{
+Kim ngắn chỉ 7, kim dài chỉ 12 là 7 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ có kim ngắn chỉ số 8, kim dài chỉ số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{8}
+\loigiai{
+Kim ngắn chỉ 8, kim dài chỉ 12 là 8 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ có kim ngắn chỉ số 10, kim dài chỉ số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{10}
+\loigiai{
+Kim ngắn chỉ 10, kim dài chỉ 12 là 10 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ có kim ngắn chỉ số 12, kim dài chỉ số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{12}
+\loigiai{
+Hai kim trùng nhau ở số 12 là 12 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ có kim ngắn chỉ số 3, kim dài chỉ số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{3}
+\loigiai{
+Kim ngắn chỉ 3, kim dài chỉ 12 là 3 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ có kim ngắn chỉ số 5, kim dài chỉ số 12. Hỏi đồng hồ chỉ mấy giờ?
+\shortans{5}
+\loigiai{
+Kim ngắn chỉ 5, kim dài chỉ 12 là 5 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Một ngày có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Kim dài của đồng hồ quay hết một vòng quanh mặt đồng hồ là bao nhiêu phút?
+\shortans{60}
+\loigiai{
+Kim dài quay 1 vòng là 60 phút (tức 1 giờ).
+}
+\end{ex}
+
+\begin{ex}
+Mặt đồng hồ có các số tự nhiên từ 1 đến bao nhiêu?
+\shortans{12}
+\loigiai{
+Mặt đồng hồ có các số từ 1 đến 12.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 9 giờ đúng, kim ngắn chỉ vào số mấy?
+\shortans{9}
+\loigiai{
+Kim ngắn chỉ số 9.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 11 giờ đúng, kim dài chỉ vào số mấy?
+\shortans{12}
+\loigiai{
+Xem giờ đúng thì kim dài luôn chỉ số 12.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 6 giờ đúng, kim ngắn và kim dài tạo thành một đường thẳng. Kim ngắn chỉ số 6, kim dài chỉ số mấy?
+\shortans{12}
+\loigiai{
+Kim dài chỉ số 12.
+}
+\end{ex}
+
+\begin{ex}
+Bé vào lớp học lúc 8 giờ sáng, tan học lúc 11 giờ trưa. Hỏi buổi sáng bé học ở trường trong bao nhiêu giờ?
+\shortans{3}
+\loigiai{
+Thời gian học: $11 - 8 = 3$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bố đi làm lúc 7 giờ sáng và về nhà lúc 5 giờ chiều (tức 17 giờ). Từ 7 giờ đến 12 giờ trưa là mấy giờ?
+\shortans{5}
+\loigiai{
+Từ 7 giờ đến 12 giờ là: $12 - 7 = 5$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Buổi chiều bắt đầu từ 1 giờ chiều (13 giờ) đến 6 giờ chiều. Khoảng thời gian này gồm bao nhiêu giờ?
+\shortans{5}
+\loigiai{
+Thời gian: $6 - 1 = 5$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Nam bắt đầu ngồi vào bàn học bài lúc 8 giờ tối và đi ngủ lúc 9 giờ tối. Bạn Nam đã học bài trong bao nhiêu giờ?
+\shortans{1}
+\loigiai{
+Thời gian học: $9 - 8 = 1$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bác lái xe khởi hành lúc 6 giờ sáng và đến nơi lúc 10 giờ sáng. Bác lái xe đã đi hết bao nhiêu giờ?
+\shortans{4}
+\loigiai{
+Thời gian đi: $10 - 6 = 4$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Một bộ phim hoạt hình bắt đầu chiếu lúc 8 giờ và kết thúc lúc 10 giờ. Bộ phim kéo dài bao nhiêu giờ?
+\shortans{2}
+\loigiai{
+Thời gian chiếu: $10 - 8 = 2$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Hiện tại đồng hồ chỉ 2 giờ. Sau 3 giờ nữa đồng hồ sẽ chỉ mấy giờ?
+\shortans{5}
+\loigiai{
+Đồng hồ sẽ chỉ: $2 + 3 = 5$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Hiện tại đồng hồ chỉ 9 giờ. Trước đó 2 giờ đồng hồ đã chỉ mấy giờ?
+\shortans{7}
+\loigiai{
+Đồng hồ đã chỉ: $9 - 2 = 7$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Hiện tại đồng hồ chỉ 7 giờ. Sau 4 giờ nữa đồng hồ sẽ chỉ mấy giờ?
+\shortans{11}
+\loigiai{
+Đồng hồ sẽ chỉ: $7 + 4 = 11$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bé ngủ trưa từ 12 giờ đến 2 giờ chiều. Bé đã ngủ trưa bao nhiêu giờ?
+\shortans{2}
+\loigiai{
+Thời gian ngủ: $2 - 0 = 2$ giờ (hoặc $14 - 12 = 2$ giờ).
+}
+\end{ex}
+
+\begin{ex}
+Xe buýt đến trạm lúc 7 giờ, xe tiếp theo đến trạm lúc 8 giờ. Khoảng cách giữa hai chuyến xe là bao nhiêu giờ?
+\shortans{1}
+\loigiai{
+Khoảng cách là: $8 - 7 = 1$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Mặt đồng hồ được chia làm bao nhiêu khoảng giờ lớn bằng nhau?
+\shortans{12}
+\loigiai{
+Có 12 khoảng giờ bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 4 giờ chiều, kim ngắn chỉ vào số mấy?
+\shortans{4}
+\loigiai{
+Kim ngắn chỉ số 4.
+}
+\end{ex}

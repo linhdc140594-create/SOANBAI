@@ -1,0 +1,199 @@
+\begin{ex}
+Số liền sau của số 5 trong dãy số tự nhiên là số nào?
+\shortans{6}
+\loigiai{
+Số liền sau số 5 là số 6.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 9 trong dãy số tự nhiên là số nào?
+\shortans{10}
+\loigiai{
+Số liền sau số 9 là số 10.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 8 trong dãy số tự nhiên là số nào?
+\shortans{7}
+\loigiai{
+Số liền trước số 8 là số 7.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 10 trong dãy số tự nhiên là số nào?
+\shortans{9}
+\loigiai{
+Số liền trước số 10 là số 9.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $6, 7, 8, 9, 10$, số nào là số lớn nhất?
+\shortans{10}
+\loigiai{
+Số lớn nhất trong các số đã cho là 10.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $6, 7, 8, 9, 10$, số nào là số bé nhất?
+\shortans{6}
+\loigiai{
+Số bé nhất trong các số đã cho là 6.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Một tuần lễ có 7 ngày (từ Thứ Hai đến Chủ Nhật).
+}
+\end{ex}
+
+\begin{ex}
+Hai bàn tay của em có tất cả bao nhiêu ngón tay?
+\shortans{10}
+\loigiai{
+Mỗi bàn tay có 5 ngón, hai bàn tay có $5 + 5 = 10$ ngón.
+}
+\end{ex}
+
+\begin{ex}
+Một con nhện có bao nhiêu cái chân?
+\shortans{8}
+\loigiai{
+Con nhện có 8 cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Một con côn trùng (như con kiến, con ong) có bao nhiêu cái chân?
+\shortans{6}
+\loigiai{
+Côn trùng có 6 cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Số đứng ở giữa số 7 và số 9 là số nào?
+\shortans{8}
+\loigiai{
+Số đứng giữa 7 và 9 là số 8.
+}
+\end{ex}
+
+\begin{ex}
+Số đứng ở giữa số 6 và số 8 là số nào?
+\shortans{7}
+\loigiai{
+Số đứng giữa 6 và 8 là số 7.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $6, 7, \dots, 9, 10$. Số còn thiếu là bao nhiêu?
+\shortans{8}
+\loigiai{
+Dãy số đếm xuôi liên tiếp: 6, 7, 8, 9, 10. Số còn thiếu là 8.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $10, 9, 8, \dots, 6$. Số còn thiếu là bao nhiêu?
+\shortans{7}
+\loigiai{
+Dãy số đếm lùi: 10, 9, 8, 7, 6. Số còn thiếu là 7.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên từ 6 đến 10?
+\shortans{5}
+\loigiai{
+Các số từ 6 đến 10 gồm: 6, 7, 8, 9, 10. Có tất cả 5 số.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có hai chữ số là số nào?
+\shortans{10}
+\loigiai{
+Số bé nhất có hai chữ số là 10.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có một chữ số là số nào?
+\shortans{9}
+\loigiai{
+Số lớn nhất có một chữ số là 9.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $6, 8, 10, 7, 9$, có bao nhiêu số lớn hơn 7?
+\shortans{3}
+\loigiai{
+Các số lớn hơn 7 là: 8, 10, 9. Có 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $6, 8, 10, 7, 9$, có bao nhiêu số bé hơn 9?
+\shortans{3}
+\loigiai{
+Các số bé hơn 9 là: 6, 8, 7. Có 3 số.
+}
+\end{ex}
+
+\begin{ex}
+An có 6 cái nhãn vở, mẹ mua thêm cho An 3 cái nhãn vở nữa. Hỏi An có tất cả bao nhiêu cái nhãn vở?
+\shortans{9}
+\loigiai{
+An có tất cả: $6 + 3 = 9$ cái nhãn vở.
+}
+\end{ex}
+
+\begin{ex}
+Hà có 10 quả bóng bay, bị vỡ mất 2 quả. Hỏi Hà còn lại bao nhiêu quả bóng bay?
+\shortans{8}
+\loigiai{
+Số bóng bay còn lại: $10 - 2 = 8$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Một có 4 bạn nam và 3 bạn nữ. Hỏi tổ Một có tất cả bao nhiêu bạn học sinh?
+\shortans{7}
+\loigiai{
+Tổ Một có số bạn là: $4 + 3 = 7$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số ở giữa hai số 8 và 10.
+\shortans{9}
+\loigiai{
+Số ở giữa 8 và 10 là 9.
+}
+\end{ex}
+
+\begin{ex}
+Đoàn tàu có 10 toa xe. Toa đầu tàu mang số 1, toa cuối cùng mang số mấy?
+\shortans{10}
+\loigiai{
+Toa cuối cùng mang số 10.
+}
+\end{ex}
+
+\begin{ex}
+Có 10 quả cam chia đều vào 2 đĩa bằng nhau. Hỏi mỗi đĩa có bao nhiêu quả cam?
+\shortans{5}
+\loigiai{
+Mỗi đĩa có: $10 : 2 = 5$ quả cam.
+}
+\end{ex}

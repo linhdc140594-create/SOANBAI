@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $5 + 4$.
+\shortans{9}
+\loigiai{
+Ta có $5 + 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 - 5$.
+\shortans{4}
+\loigiai{
+Ta có $9 - 5 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $3 + 7$.
+\shortans{10}
+\loigiai{
+Ta có $3 + 7 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10 - 7$.
+\shortans{3}
+\loigiai{
+Ta có $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6 + 2$.
+\shortans{8}
+\loigiai{
+Ta có $6 + 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $8 - 2$.
+\shortans{6}
+\loigiai{
+Ta có $8 - 2 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 + 3$.
+\shortans{7}
+\loigiai{
+Ta có $4 + 3 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 - 4$.
+\shortans{3}
+\loigiai{
+Ta có $7 - 4 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $3 + 4 - 2$.
+\shortans{5}
+\loigiai{
+Ta có $3 + 4 = 7$, rồi $7 - 2 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $10 - 6 + 5$.
+\shortans{9}
+\loigiai{
+Ta có $10 - 6 = 4$, rồi $4 + 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $8 - 3 - 3$.
+\shortans{2}
+\loigiai{
+Ta có $8 - 3 = 5$, rồi $5 - 3 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $2 + 2 + 3 + 3$.
+\shortans{10}
+\loigiai{
+Ta có $2 + 2 = 4$, $4 + 3 = 7$, $7 + 3 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $4 + \dots = 9$.
+\shortans{5}
+\loigiai{
+Số thích hợp là $9 - 4 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $\dots - 4 = 6$.
+\shortans{10}
+\loigiai{
+Số thích hợp là $6 + 4 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $10 - \dots = 4$.
+\shortans{6}
+\loigiai{
+Số thích hợp là $10 - 4 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $3 + 5 = 10 - \dots$
+\shortans{2}
+\loigiai{
+Ta có $3 + 5 = 8$, vậy số cần tìm là $10 - 8 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Một luống hoa có 6 bông hoa hồng và 4 bông hoa cúc. Bạn Mai đã hái 3 bông hoa để cắm lọ. Hỏi trên luống còn lại bao nhiêu bông hoa?
+\shortans{7}
+\loigiai{
+Tổng số hoa: $6 + 4 = 10$ bông. Còn lại: $10 - 3 = 7$ bông.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 8 viên bi, Nam cho Việt 3 viên bi, sau đó mẹ cho Nam thêm 4 viên bi nữa. Hỏi Nam có tất cả bao nhiêu viên bi?
+\shortans{9}
+\loigiai{
+Nam có: $8 - 3 + 4 = 9$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Đàn gà có 10 con gồm gà trống và gà mái. Biết có 3 con gà trống, hỏi có bao nhiêu con gà mái?
+\shortans{7}
+\loigiai{
+Số gà mái là: $10 - 3 = 7$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trong bãi đỗ xe có 9 chiếc ô tô, lúc sau có 4 chiếc rời đi và 2 chiếc khác tiến vào bãi. Hỏi bãi đỗ xe hiện có bao nhiêu chiếc ô tô?
+\shortans{7}
+\loigiai{
+Số xe trong bãi là: $9 - 4 + 2 = 7$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Có hai đĩa bánh: đĩa thứ nhất có 5 cái, đĩa thứ hai có 5 cái. Các bạn đã ăn hết 8 cái bánh. Hỏi còn lại bao nhiêu cái bánh?
+\shortans{2}
+\loigiai{
+Tổng số bánh: $5 + 5 = 10$ cái. Còn lại: $10 - 8 = 2$ cái.
+}
+\end{ex}
+
+\begin{ex}
+Số nào khi cộng với 7 cho kết quả bằng 10?
+\shortans{3}
+\loigiai{
+Số đó là: $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào khi lấy 10 trừ đi nó thì được kết quả bằng 5?
+\shortans{5}
+\loigiai{
+Số đó là: $10 - 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9 - 0 + 1$.
+\shortans{10}
+\loigiai{
+Ta có $9 - 0 = 9$, rồi $9 + 1 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $7 - 3 + \dots = 8$.
+\shortans{4}
+\loigiai{
+Ta có $7 - 3 = 4$, vậy số cần điền là $8 - 4 = 4$.
+}
+\end{ex}

@@ -1,0 +1,199 @@
+\begin{ex}
+Trong các số $45600, 46500, 54600, 56400$, số nào lớn nhất?
+\shortans{56400}
+\loigiai{
+56400 là số lớn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $87900, 89700, 87090, 89070$, số nào bé nhất?
+\shortans{87090}
+\loigiai{
+87090 là số bé nhất.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số lớn thứ nhì trong các số: $71200, 72100, 70999, 72050$.
+\shortans{72050}
+\loigiai{
+Giảm dần: 72100, 72050, 71200, 70999. Lớn thứ nhì là 72050.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$ là số tròn chục nghìn thỏa mãn $40000 < x < 60000$.
+\shortans{50000}
+\loigiai{
+Số đó là 50000.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$ là số tự nhiên biết: $78954 < y < 78956$.
+\shortans{78955}
+\loigiai{
+Số đó là 78955.
+}
+\end{ex}
+
+\begin{ex}
+Cho 4 số: 50000, 45000, 48000, 52000. Hiệu giữa số lớn nhất và số bé nhất là bao nhiêu?
+\shortans{7000}
+\loigiai{
+Lớn nhất: 52000, bé nhất: 45000. Hiệu = $52000 - 45000 = 7000$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên có năm chữ số lớn hơn 99 996?
+\shortans{3}
+\loigiai{
+99997, 99998, 99999 (3 số).
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên có năm chữ số nhỏ hơn 10 004?
+\shortans{4}
+\loigiai{
+10000, 10001, 10002, 10003 (4 số).
+}
+\end{ex}
+
+\begin{ex}
+Điền chữ số thích hợp vào dấu * để: $68*50 > 68850$.
+\shortans{9}
+\loigiai{
+Hàng trăm phải lớn hơn 8 nên $* = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Điền chữ số thích hợp vào dấu * để: $4*500 < 41500$.
+\shortans{0}
+\loigiai{
+Hàng nghìn phải nhỏ hơn 1 nên $* = 0$.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 60 000 và 55 000 là bao nhiêu?
+\shortans{5000}
+\loigiai{
+$60000 - 55000 = 5000$.
+}
+\end{ex}
+
+\begin{ex}
+Số 75 000 hơn số 72 000 bao nhiêu đơn vị?
+\shortans{3000}
+\loigiai{
+$75000 - 72000 = 3000$.
+}
+\end{ex}
+
+\begin{ex}
+Số 84 000 kém số 90 000 bao nhiêu đơn vị?
+\shortans{6000}
+\loigiai{
+$90000 - 84000 = 6000$.
+}
+\end{ex}
+
+\begin{ex}
+Tỉnh A có 85 400 người, tỉnh B có 92 100 người. Tỉnh B nhiều hơn tỉnh A bao nhiêu người?
+\shortans{6700}
+\loigiai{
+$92100 - 85400 = 6700$ người.
+}
+\end{ex}
+
+\begin{ex}
+Một nhà máy năm nay sản xuất 48 500 sản phẩm, nhiều hơn năm ngoái 3500 sản phẩm. Năm ngoái nhà máy sản xuất bao nhiêu sản phẩm?
+\shortans{45000}
+\loigiai{
+$48500 - 3500 = 45000$ sản phẩm.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên lớn nhất có 5 chữ số khác nhau.
+\shortans{98765}
+\loigiai{
+Số đó là 98765.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên bé nhất có 5 chữ số khác nhau.
+\shortans{10234}
+\loigiai{
+Số đó là 10234.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$ là số tròn nghìn thỏa mãn $38000 < x < 40000$.
+\shortans{39000}
+\loigiai{
+Số đó là 39000.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$ là số tròn trăm thỏa mãn $54800 < x < 55000$.
+\shortans{54900}
+\loigiai{
+Số đó là 54900.
+}
+\end{ex}
+
+\begin{ex}
+Trong dãy số tự nhiên từ 20 000 đến 20 010 có bao nhiêu số?
+\shortans{11}
+\loigiai{
+$20010 - 20000 + 1 = 11$ số.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có năm chữ số giống nhau là số nào?
+\shortans{11111}
+\loigiai{
+Số đó là 11111.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có năm chữ số giống nhau là số nào?
+\shortans{99999}
+\loigiai{
+Số đó là 99999.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lớn nhất có 5 chữ số giống nhau và số bé nhất có 5 chữ số giống nhau là bao nhiêu?
+\shortans{88888}
+\loigiai{
+$99999 - 11111 = 88888$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào lớn hơn: 68 700 hay 68 070? (Hiệu giữa số lớn và số bé là bao nhiêu?).
+\shortans{630}
+\loigiai{
+$68700 - 68070 = 630$.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 000 có bao nhiêu chữ số 0?
+\shortans{5}
+\loigiai{
+Có 5 chữ số 0.
+}
+\end{ex}

@@ -1,0 +1,175 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{arr/.style={-{Stealth[scale=0.8]}}}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 01. Ôn tập các số đến 100 --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 01: ÔN TẬP CÁC SỐ ĐẾN 100}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Đọc, viết, so sánh và phân tích cấu tạo số có hai chữ số trong phạm vi 100 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Cấu tạo số có hai chữ số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Số có hai chữ số gồm 2 hàng: \textbf{hàng chục} (bên trái) và \textbf{hàng đơn vị} (bên phải).
+  \item Số bé nhất có hai chữ số: \textbf{10}.\\
+        Số lớn nhất có hai chữ số: \textbf{99}.\\
+        Số $100$ là số có 3 chữ số ($100 = 10\text{ chục}$).
+  \item \textbf{Phân tích cấu tạo số:}
+  $$\overline{ab} = a\text{ chục} + b\text{ đơn vị} = a0 + b$$
+  \textit{Ví dụ:} $74 = 70 + 4$; $80 = 80 + 0$.
+  \item \textbf{Quy tắc đọc:} Số tận cùng là $5$ đọc là \textbf{"lăm"} khi hàng chục $\ge 1$ (VD: $25$: hai mươi lăm). Số $1$ tận cùng đọc là \textbf{"mốt"} khi hàng chục $\ge 2$ (VD: $31$: ba mươi mốt).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. So sánh và thứ tự số}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{So sánh hai số có hai chữ số:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item \textbf{Bước 1:} So sánh chữ số \textbf{hàng chục}: Số nào có hàng chục lớn hơn thì số đó lớn hơn.
+    \item \textbf{Bước 2:} Nếu hàng chục \textbf{bằng nhau}, so sánh tiếp chữ số \textbf{hàng đơn vị}: Số nào có hàng đơn vị lớn hơn thì lớn hơn.
+  \end{itemize}
+  \item \textbf{Ví dụ:} $62 > 59$ (vì $6 > 5$);\\
+        $48 < 49$ (hàng chục cùng là $4$, xét $8 < 9$).
+  \item \textbf{Thứ tự dãy số:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item Từ bé đến lớn: Xếp số nhỏ trước.
+    \item Từ lớn đến bé: Xếp số lớn trước.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ tư duy: Cấu tạo số và quy trình so sánh số đến 100}
+]
+\centering
+\begin{tikzpicture}[
+  node distance=1.2cm,
+  box/.style={rectangle, rounded corners=2pt, draw=violet!70!black, fill=violet!10, text width=2.4cm, align=center, font=\scriptsize\bfseries, inner sep=3pt},
+  subbox/.style={rectangle, rounded corners=2pt, draw=teal!70!black, fill=teal!10, text width=2.6cm, align=center, font=\scriptsize, inner sep=2.5pt},
+  resbox/.style={rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!10, text width=2.6cm, align=center, font=\scriptsize\bfseries, inner sep=3pt},
+  arr/.style={-{Stealth[scale=0.8]}, thick, violet!80!black}
+]
+  \node[box] (root) {SỐ CÓ 2 CHỮ SỐ\\$\overline{ab} = a0 + b$};
+  \node[subbox, left=0.6cm of root] (chuc) {\textbf{HÀNG CHỤC ($a$)}\\Giá trị: $a \times 10$};
+  \node[subbox, right=0.6cm of root] (dvi) {\textbf{HÀNG ĐƠN VỊ ($b$)}\\Giá trị: $b$ đơn vị};
+  \node[resbox, below=0.5cm of root] (ss) {\textbf{QUY TẮC SO SÁNH}\\So hàng chục trước $\to$ Bằng nhau so hàng đơn vị};
+
+  \draw[arr] (root) -- (chuc);
+  \draw[arr] (root) -- (dvi);
+  \draw[arr] (root) -- (ss);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Phân tích số:}\\
+Viết các số sau thành tổng chục và đơn vị:
+\begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+  \item $58 = 50 + 8$ ($5$ chục và $8$ đơn vị).
+  \item $90 = 90 + 0$ ($9$ chục và $0$ đơn vị).
+\end{itemize}
+\textbf{2. Sắp xếp dãy số:}\\
+Cho các số: $45, 82, 19, 54$.\\
+- Từ bé đến lớn: $19 < 45 < 54 < 82$.\\
+- Từ lớn đến bé: $82 > 54 > 45 > 19$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy chữ số chục và giá trị chục:}\\
+  Số $73$ có \textbf{chữ số hàng chục là 7}, nhưng có \textbf{giá trị là 70} (7 chục). Đọc kĩ câu hỏi hỏi chữ số hay giá trị!
+  \item \textbf{Bẫy viết ngược chữ số:}\\
+  Bốn mươi bảy viết là $47$, tránh nhìn nhầm thành $74$.
+  \item \textbf{Bẫy số liền trước/sau 100:}\\
+  Số liền trước $100$ là $99$ (số lớn nhất có 2 chữ số).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

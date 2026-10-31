@@ -1,0 +1,157 @@
+# Bài 11: So sánh các số thập phân
+
+## PHẦN I. ĐỀ BÀI (NGÂN HÀNG CÂU HỎI ĐIỀN ĐÁP SỐ)
+
+**Câu 1.** Trong hai số thập phân $45{,}8$ và $45{,}79$, số lớn hơn có chữ số hàng phần mười là bao nhiêu?
+
+**Câu 2.** Trong các số thập phân $3{,}45; 3{,}54; 3{,}504; 3{,}405$, số lớn nhất có chữ số hàng phần trăm là bao nhiêu?
+
+**Câu 3.** Trong các số thập phân $12{,}08; 12{,}8; 12{,}18; 12{,}018$, số bé nhất có chữ số hàng phần nghìn là bao nhiêu?
+
+**Câu 4.** Tìm chữ số $x$ lớn nhất thỏa mãn: $8{,}x5 < 8{,}35$.
+
+**Câu 5.** Tìm chữ số $y$ bé nhất thỏa mãn: $15{,}7y > 15{,}76$.
+
+**Câu 6.** Có bao nhiêu số tự nhiên $n$ thỏa mãn: $3{,}8 < n < 8{,}2$?
+
+**Câu 7.** Tìm số tự nhiên $x$ bé nhất thỏa mãn: $x > 9{,}99$.
+
+**Câu 8.** Tìm số tự nhiên $y$ lớn nhất thỏa mãn: $y < 25{,}01$.
+
+**Câu 9.** Có bao nhiêu số tự nhiên $k$ thỏa mãn: $12{,}5 < k < 17{,}8$?
+
+**Câu 10.** Sắp xếp các số $5{,}7; 5{,}07; 5{,}701; 5{,}071$ theo thứ tự từ bé đến lớn. Số đứng thứ hai có chữ số hàng phần nghìn là bao nhiêu?
+
+**Câu 11.** Tìm chữ số $x$ sao cho: $45{,}2x8 = 45{,}268$.
+
+**Câu 12.** Cho bốn chữ số $1; 3; 5; 7$. Lập được số thập phân có bốn chữ số khác nhau và phần nguyên có một chữ số. Số lớn nhất lập được có chữ số hàng phần trăm là bao nhiêu?
+
+**Câu 13.** Từ các chữ số $0; 2; 4; 6$, viết số thập phân bé nhất có phần nguyên gồm một chữ số khác 0 và có ba chữ số ở phần thập phân (mỗi chữ số dùng một lần). Số đó có chữ số hàng phần mười là bao nhiêu?
+
+**Câu 14.** Có bao nhiêu số có một chữ số ở phần thập phân nằm giữa $4$ và $5$?
+
+**Câu 15.** Có bao nhiêu số thập phân có hai chữ số ở phần thập phân lớn hơn $1{,}2$ và bé hơn $1{,}3$?
+
+**Câu 16.** Tìm số tự nhiên $m$ biết rằng $m$ là số chẵn và $18{,}4 < m < 21{,}6$.
+
+**Câu 17.** Bốn bạn An, Bình, Cường, Dũng cân nặng lần lượt là $32{,}5\text{ kg}; 31{,}8\text{ kg}; 33{,}2\text{ kg}; 32{,}8\text{ kg}$. Bạn nặng nhất có khối lượng bao nhiêu phần mười ki-lô-gam ở phần thập phân?
+
+**Câu 18.** Tìm chữ số $a$ để $0{,}a2 > 0{,}72$. Có bao nhiêu giá trị của $a$ thỏa mãn?
+
+**Câu 19.** Tìm số tự nhiên $x$ sao cho $x{,}5 < 4{,}2$. Số tự nhiên $x$ lớn nhất là bao nhiêu?
+
+**Câu 20.** Trong các số $0{,}9; 0{,}89; 0{,}98; 0{,}908$, số nào lớn nhất? Chữ số ở hàng phần trăm của số lớn nhất đó là bao nhiêu?
+
+**Câu 21.** Khoảng cách từ nhà Nam đến trường là $1{,}25\text{ km}$, từ nhà Bắc đến trường là $1{,}3\text{ km}$. Hỏi nhà bạn nào xa trường hơn? Chữ số hàng phần mười quãng đường nhà bạn đó là bao nhiêu?
+
+**Câu 22.** Tìm số tự nhiên $x$ biết $2{,}5 \times 2 < x < 7{,}8$. Có bao nhiêu số tự nhiên $x$ thỏa mãn?
+
+**Câu 23.** Viết số tự nhiên bé nhất lớn hơn tổng $3{,}4 + 5{,}7$. Số tự nhiên đó là bao nhiêu?
+
+**Câu 24.** Viết số tự nhiên lớn nhất bé hơn hiệu $15{,}3 - 4{,}8$. Số tự nhiên đó là bao nhiêu?
+
+**Câu 25.** Có bao nhiêu số tự nhiên $x$ thỏa mãn biểu thức $10{,}2 < x \le 20{,}2$?
+
+---
+
+## PHẦN II. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+
+### Câu 1
+- **Đáp số:** `8`
+- **Lời giải:** So sánh hàng phần mười: $8 > 7$ nên $45{,}8 > 45{,}79$. Chữ số hàng phần mười của số lớn hơn là 8.
+
+### Câu 2
+- **Đáp số:** `4`
+- **Lời giải:** So sánh: $3{,}54 > 3{,}504 > 3{,}45 > 3{,}405$. Số lớn nhất là $3{,}54$. Chữ số hàng phần trăm là 4.
+
+### Câu 3
+- **Đáp số:** `8`
+- **Lời giải:** Số bé nhất là $12{,}018$. Chữ số hàng phần nghìn của nó là 8.
+
+### Câu 4
+- **Đáp số:** `2`
+- **Lời giải:** Hàng đơn vị đều là 8. Để $8{,}x5 < 8{,}35$ thì $x < 3$. Chữ số lớn nhất là $x = 2$.
+
+### Câu 5
+- **Đáp số:** `7`
+- **Lời giải:** Để $15{,}7y > 15{,}76$ thì $y > 6$. Chữ số bé nhất là $y = 7$.
+
+### Câu 6
+- **Đáp số:** `5`
+- **Lời giải:** Các số tự nhiên thỏa mãn là $4, 5, 6, 7, 8$. Có tất cả $8 - 4 + 1 = 5$ số.
+
+### Câu 7
+- **Đáp số:** `10`
+- **Lời giải:** Số tự nhiên nhỏ nhất lớn hơn $9{,}99$ là $10$.
+
+### Câu 8
+- **Đáp số:** `25`
+- **Lời giải:** Số tự nhiên lớn nhất bé hơn $25{,}01$ là $25$.
+
+### Câu 9
+- **Đáp số:** `5`
+- **Lời giải:** Các số tự nhiên là $13, 14, 15, 16, 17$. Có 5 số.
+
+### Câu 10
+- **Đáp số:** `1`
+- **Lời giải:** Thứ tự tăng dần: $5{,}07 < 5{,}071 < 5{,}7 < 5{,}701$. Số đứng thứ hai là $5{,}071$. Chữ số hàng phần nghìn là 1.
+
+### Câu 11
+- **Đáp số:** `6`
+- **Lời giải:** So sánh từng hàng suy ra $x = 6$.
+
+### Câu 12
+- **Đáp số:** `3`
+- **Lời giải:** Số lớn nhất lập được là $7{,}531$. Chữ số hàng phần trăm là 3.
+
+### Câu 13
+- **Đáp số:** `0`
+- **Lời giải:** Số thập phân bé nhất là $2{,}046$. Chữ số hàng phần mười là 0.
+
+### Câu 14
+- **Đáp số:** `9`
+- **Lời giải:** Các số đó là $4{,}1; 4{,}2; 4{,}3; \dots; 4{,}9$. Có tất cả 9 số.
+
+### Câu 15
+- **Đáp số:** `9`
+- **Lời giải:** Các số đó là $1{,}21; 1{,}22; \dots; 1{,}29$. Có tất cả 9 số.
+
+### Câu 16
+- **Đáp số:** `20`
+- **Lời giải:** Các số tự nhiên nằm giữa $18{,}4$ và $21{,}6$ là $19, 20, 21$. Trong đó số chẵn là 20.
+
+### Câu 17
+- **Đáp số:** `2`
+- **Lời giải:** Bạn nặng nhất là Cường với $33{,}2\text{ kg}$. Chữ số hàng phần mười là 2.
+
+### Câu 18
+- **Đáp số:** `2`
+- **Lời giải:** Để $0{,}a2 > 0{,}72$ thì $a > 7$. Vì $a$ là chữ số nên $a \in \{8, 9\}$. Có 2 giá trị.
+
+### Câu 19
+- **Đáp số:** `3`
+- **Lời giải:** Nếu $x = 4$ thì $4{,}5 > 4{,}2$ (loại). Nếu $x = 3$ thì $3{,}5 < 4{,}2$ (thỏa mãn). Vậy $x$ lớn nhất là 3.
+
+### Câu 20
+- **Đáp số:** `8`
+- **Lời giải:** So sánh: $0{,}98 > 0{,}908 > 0{,}9 > 0{,}89$. Số lớn nhất là $0{,}98$. Chữ số hàng phần trăm là 8.
+
+### Câu 21
+- **Đáp số:** `3`
+- **Lời giải:** Vì $1{,}3 > 1{,}25$ nên nhà Bắc xa trường hơn. Chữ số hàng phần mười là 3.
+
+### Câu 22
+- **Đáp số:** `2`
+- **Lời giải:** $2{,}5 \times 2 = 5$. Ta có $5 < x < 7{,}8$. Các số tự nhiên là $6, 7$. Có 2 số.
+
+### Câu 23
+- **Đáp số:** `10`
+- **Lời giải:** Tổng là $3{,}4 + 5{,}7 = 9{,}1$. Số tự nhiên bé nhất lớn hơn $9{,}1$ là 10.
+
+### Câu 24
+- **Đáp số:** `10`
+- **Lời giải:** Hiệu là $15{,}3 - 4{,}8 = 10{,}5$. Số tự nhiên lớn nhất bé hơn $10{,}5$ là 10.
+
+### Câu 25
+- **Đáp số:** `10`
+- **Lời giải:** Các số tự nhiên là $11, 12, \dots, 20$. Số lượng số là $20 - 11 + 1 = 10$.

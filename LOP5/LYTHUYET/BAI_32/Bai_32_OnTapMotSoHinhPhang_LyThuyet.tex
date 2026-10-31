@@ -1,0 +1,168 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 32. Ôn tập một số hình phẳng --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 32. ÔN TẬP MỘT SỐ HÌNH PHẲNG}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Hệ thống hóa đặc điểm hình vuông, chữ nhật, bình hành, thoi, tam giác, thang, tròn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BẢNG NHẬN DIỆN CÁC HÌNH PHẲNG ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faShapes\ 1. Bảng đặc điểm nhận diện các hình phẳng đã học},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+]
+  \scriptsize
+  \centering
+  \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Tên hình} & \textbf{Đặc điểm cạnh và góc} & \textbf{Đặc điểm đường chéo} \\ \hline
+    \textbf{Hình vuông} & 4 cạnh bằng nhau, 4 góc vuông & 2 đường chéo bằng nhau, vuông góc tại trung điểm \\ \hline
+    \textbf{Hình chữ nhật} & 2 cặp cạnh đối song song và bằng nhau, 4 góc vuông & 2 đường chéo bằng nhau, cắt nhau tại trung điểm \\ \hline
+    \textbf{Hình bình hành} & 2 cặp cạnh đối song song và bằng nhau & 2 đường chéo cắt nhau tại trung điểm \\ \hline
+    \textbf{Hình thoi} & 4 cạnh bằng nhau, 2 cặp cạnh đối song song & 2 đường chéo vuông góc với nhau tại trung điểm \\ \hline
+    \textbf{Hình thang} & Có đúng 1 cặp cạnh đối diện song song (2 đáy) & Cắt nhau tạo các tam giác có tỉ lệ diện tích đẹp \\ \hline
+    \textbf{Hình tam giác} & 3 đỉnh, 3 cạnh, 3 góc (nhọn, vuông, tù) & Có 3 đường cao tương ứng với 3 cạnh đáy \\ \hline
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: ĐẶC ĐIỂM HÌNH TRÒN & ĐƯỜNG CAO TAM GIÁC ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCircleO\ 2. Đường tròn và Hình tròn},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Mọi điểm trên đường tròn cách đều tâm $O$ một khoảng bằng bán kính $r$.\\
+    $\bullet$ Đường kính là dây cung dài nhất, đi qua tâm $O$ và có độ dài $d = 2r$.\\
+    $\bullet$ Tâm $O$ là trung điểm của mọi đường kính.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faRulerCombined\ 3. Vị trí đường cao tam giác},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tam giác nhọn}: Đường cao nằm bên trong tam giác.\\
+    $\bullet$ \textbf{Tam giác vuông}: Đường cao trùng với cạnh góc vuông.\\
+    $\bullet$ \textbf{Tam giác tù}: Đường cao tương ứng với đáy kề góc tù nằm \textbf{bên ngoài tam giác}.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY PHÂN LOẠI TỨ GIÁC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Cây phả hệ các tứ giác đặc biệt},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.90,
+    every node/.style={transform shape},
+    r0/.style={rectangle, rounded corners=4pt, fill=teal!85!black, text=white, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    r1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    r2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center},
+    r3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, font=\bfseries\scriptsize, inner sep=3.5pt, align=center}
+  ]
+    \node[r0] (tu) at (0, 1.1) {TỨ GIÁC (4 cạnh)};
+    \node[r1] (thang) at (-4.5, 0.2) {HÌNH THANG\\(1 cặp cạnh đối $\parallel$)};
+    \node[r1] (hbh) at (3.6, 0.2) {HÌNH BÌNH HÀNH\\(2 cặp cạnh đối $\parallel$)};
+    \node[r2] (hcn) at (1.2, -0.9) {HÌNH CHỮ NHẬT\\(4 góc vuông)};
+    \node[r2] (thoi) at (6.0, -0.9) {HÌNH THOI\\(4 cạnh bằng nhau)};
+    \node[r3] (vuong) at (3.6, -2.0) {HÌNH VUÔNG\\(Vừa là HCN, vừa là Hình thoi)};
+
+    \draw[teal!85!black, thick, ->] (tu) -- (thang);
+    \draw[teal!85!black, thick, ->] (tu) -- (hbh);
+    \draw[teal!85!black, thick, ->] (hbh) -- (hcn);
+    \draw[teal!85!black, thick, ->] (hbh) -- (thoi);
+    \draw[teal!85!black, thick, ->] (hcn) -- (vuong);
+    \draw[teal!85!black, thick, ->] (thoi) -- (vuong);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: QUAN HỆ ĐẶC BIỆT & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ Các câu khẳng định đúng - sai kinh điển},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Mọi hình vuông đều là hình chữ nhật: \textbf{ĐÚNG}.\\
+    $\bullet$ Mọi hình chữ nhật đều là hình vuông: \textbf{SAI}.\\
+    $\bullet$ Mọi hình thoi đều là hình bình hành: \textbf{ĐÚNG}.\\
+    $\bullet$ Hình vuông là hình thoi có $4$ góc vuông: \textbf{ĐÚNG}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Phân biệt rõ hình bình hành và hình thoi: Hình thoi có $4$ cạnh bằng nhau và $2$ đường chéo vuông góc.\\
+    $\bullet$ Cạnh bên hình thang không nhất thiết phải bằng nhau (chỉ bằng nhau ở hình thang cân).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

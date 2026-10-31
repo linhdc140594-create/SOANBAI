@@ -1,0 +1,150 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 40. Tính chất giao hoán, kết hợp của phép nhân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 40: TÍNH CHẤT GIAO HOÁN, KẾT HỢP CỦA PHÉP NHÂN}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Đổi chỗ, gom nhóm thông minh và chiến lược bắt cặp tạo số tròn chục, tròn trăm trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ 1. Hai tính chất nền tảng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tính chất giao hoán}:
+    \begin{center}
+      $a \times b = b \times a$
+    \end{center}
+    Khi đổi chỗ các thừa số trong một tích thì \textbf{tích không thay đổi}.\\
+    $\bullet$ \textbf{Tính chất kết hợp}:
+    \begin{center}
+      $(a \times b) \times c = a \times (b \times c)$
+    \end{center}
+    Muốn nhân một tích hai số với số thứ ba, ta có thể nhân số thứ nhất với tích của hai số còn lại.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faStar\ 2. Chiến lược "Cặp số vàng"},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Để tính thuận tiện nhất, ta dùng giao hoán và kết hợp để gom các \textbf{"cặp số vàng"}:
+    \par
+    --- $\mathbf{2 \times 5 = 10}$\\
+    --- $\mathbf{4 \times 25 = 100}$ \quad ($50 \times 2 = 100$, $20 \times 5 = 100$)\\
+    --- $\mathbf{8 \times 125 = 1000}$ \quad ($40 \times 25 = 1000$)
+    $\bullet$ \textbf{Kĩ thuật tách số}: $25 \times 36 = 25 \times 4 \times 9 = 100 \times 9 = 900$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: HỆ THỐNG CẶP SỐ VÀNG VÀ CHIẾN LƯỢC TÍNH NHANH},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    cbox/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center, text width=4.5cm},
+    pair/.style={rectangle, rounded corners=2mm, draw=orange!85!black, fill=orange!12, thick, inner sep=2.5pt, font=\scriptsize\bfseries, align=center, text width=3.3cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    % 2 Khối tính chất bên trái
+    \node[cbox, draw=blue!75!black, fill=blue!8] (gh) at (2.5, 0.8) {\textbf{TÍNH CHẤT GIAO HOÁN}\\$a \times b = b \times a$\\Đổi chỗ tự do các thừa số};
+    \node[cbox, draw=teal!80!black, fill=teal!8] (kh) at (2.5, -0.8) {\textbf{TÍNH CHẤT KẾT HỢP}\\$(a \times b) \times c = a \times (b \times c)$\\Đóng mở ngoặc tùy ý};
+
+    % 3 Khối cặp số vàng bên phải
+    \node[pair, draw=green!70!black, fill=green!10] (p1) at (9.0, 1.1) {\textbf{TẠO RA 10}\\$2 \times 5 = 10$};
+    \node[pair, draw=orange!85!black, fill=orange!12] (p2) at (9.0, 0.0) {\textbf{TẠO RA 100}\\$4 \times 25 = 100$\\$50 \times 2 = 100$};
+    \node[pair, draw=purple!85!black, fill=purple!10] (p3) at (9.0, -1.1) {\textbf{TẠO RA 1000}\\$8 \times 125 = 1000$\\$125 \times 8 = 1000$};
+
+    \draw[arr] (gh.east) -- (p1.west);
+    \draw[arr] (gh.east) -- (p2.west);
+    \draw[arr] (kh.east) -- (p3.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Ví dụ}: Tính bằng cách thuận tiện nhất:\\
+    $A = 8 \times 17 \times 125$\\
+    $A = (8 \times 125) \times 17$ \quad (\textit{giao hoán \& kết hợp})\\
+    $A = 1000 \times 17 = \mathbf{17\,000}$.\\[1mm]
+    $B = 25 \times 9 \times 4 = (25 \times 4) \times 9 = 100 \times 9 = \mathbf{900}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy tính lần lượt từ trái qua phải}:\\
+    Lấy $8 \times 17 = 136$ rồi $136 \times 125$ rất dài dòng và dễ sai số. Hãy luôn quan sát tìm \textbf{cặp số vàng} trước!\\
+    $\bullet$ \textbf{Bẫy phân biệt phép cộng}:\\
+    $(a \times b) \times c \neq a \times b + a \times c$ (đừng nhầm với tính chất phân phối).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

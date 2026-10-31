@@ -1,0 +1,199 @@
+\begin{ex}
+Số 45 823 có chữ số hàng chục nghìn là bao nhiêu?
+\shortans{4}
+\loigiai{
+Chữ số hàng chục nghìn là 4.
+}
+\end{ex}
+
+\begin{ex}
+Số 60 715 có chữ số hàng nghìn là bao nhiêu?
+\shortans{0}
+\loigiai{
+Chữ số hàng nghìn là 0.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 99 999 là số nào?
+\shortans{100000}
+\loigiai{
+$99999 + 1 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 40 000 là số nào?
+\shortans{39999}
+\loigiai{
+$40000 - 1 = 39999$.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 7 chục nghìn, 5 trăm và 2 đơn vị viết là gì?
+\shortans{70502}
+\loigiai{
+Số đó là 70502.
+}
+\end{ex}
+
+\begin{ex}
+Viết số thích hợp: $50000 + 6000 + 400 + 30 + 8 = \dots$
+\shortans{56438}
+\loigiai{
+Số đó là 56438.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 5 chữ số là số nào?
+\shortans{99999}
+\loigiai{
+Số đó là 99999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 5 chữ số khác nhau là số nào?
+\shortans{10234}
+\loigiai{
+Số đó là 10234.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 5 chữ số khác nhau là số nào?
+\shortans{98765}
+\loigiai{
+Số đó là 98765.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $64500, 65400, 64050, 65040$, số lớn nhất là số nào?
+\shortans{65400}
+\loigiai{
+65400 là số lớn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $87920, 87092, 87290, 87902$, số bé nhất là số nào?
+\shortans{87092}
+\loigiai{
+87092 là số bé nhất.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 45 680 đến hàng nghìn ta được số nào?
+\shortans{46000}
+\loigiai{
+Hàng trăm là 6 nên làm tròn lên 46 000.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 73 200 đến hàng chục nghìn ta được số nào?
+\shortans{70000}
+\loigiai{
+Hàng nghìn là 3 nên làm tròn thành 70 000.
+}
+\end{ex}
+
+\begin{ex}
+Số 88 888 có bao nhiêu chữ số 8?
+\shortans{5}
+\loigiai{
+Có 5 chữ số 8.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 5 trong số 35 412 là bao nhiêu?
+\shortans{5000}
+\loigiai{
+Chữ số 5 ở hàng nghìn có giá trị là 5000.
+}
+\end{ex}
+
+\begin{ex}
+Giá trị của chữ số 7 trong số 71 234 là bao nhiêu?
+\shortans{70000}
+\loigiai{
+Chữ số 7 ở hàng chục nghìn có giá trị là 70 000.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 80 000 và 74 000 là bao nhiêu?
+\shortans{6000}
+\loigiai{
+$80000 - 74000 = 6000$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $59999 < \dots < 60001$.
+\shortans{60000}
+\loigiai{
+Số ở giữa là 60000.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục nghìn liền sau của 80 000 là số nào?
+\shortans{90000}
+\loigiai{
+Số đó là 90000.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn chục nghìn có 5 chữ số?
+\shortans{9}
+\loigiai{
+Từ 10 000 đến 90 000 có 9 số.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu giữa số lớn nhất có 5 chữ số và số bé nhất có 5 chữ số là bao nhiêu?
+\shortans{89999}
+\loigiai{
+$99999 - 10000 = 89999$.
+}
+\end{ex}
+
+\begin{ex}
+Cho 5 chữ số 0, 2, 4, 6, 8. Số lớn nhất có 5 chữ số khác nhau ghép từ các chữ số này là số nào?
+\shortans{86420}
+\loigiai{
+Số đó là 86420.
+}
+\end{ex}
+
+\begin{ex}
+Cho 5 chữ số 1, 0, 3, 5, 7. Số bé nhất có 5 chữ số khác nhau ghép từ các chữ số này là số nào?
+\shortans{10357}
+\loigiai{
+Số đó là 10357.
+}
+\end{ex}
+
+\begin{ex}
+Làm tròn số 95 400 đến hàng chục nghìn ta được số nào?
+\shortans{100000}
+\loigiai{
+Hàng nghìn là 5 nên làm tròn lên 100 000.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 000 có bao nhiêu chữ số 0?
+\shortans{5}
+\loigiai{
+Có 5 chữ số 0.
+}
+\end{ex}

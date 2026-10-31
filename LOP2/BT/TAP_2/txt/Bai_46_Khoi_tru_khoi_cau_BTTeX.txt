@@ -1,0 +1,199 @@
+\begin{ex}
+Khối trụ có bao nhiêu mặt đáy phẳng hình tròn?
+\shortans{2}
+\loigiai{
+Khối trụ có 2 mặt đáy phẳng hình tròn (đáy trên và đáy dưới).
+}
+\end{ex}
+
+\begin{ex}
+Mặt đáy của khối trụ có dạng hình gì? (Hình tròn). Số cạnh thẳng của hình tròn là bao nhiêu?
+\shortans{0}
+\loigiai{
+Hình tròn không có cạnh thẳng nào.
+}
+\end{ex}
+
+\begin{ex}
+Quả bóng đá có dạng hình khối gì? (Khối cầu). Khối cầu có bao nhiêu đỉnh nhọn?
+\shortans{0}
+\loigiai{
+Khối cầu tròn đều, không có đỉnh nhọn nào.
+}
+\end{ex}
+
+\begin{ex}
+Khối cầu có bao nhiêu cạnh thẳng?
+\shortans{0}
+\loigiai{
+Khối cầu không có cạnh thẳng nào.
+}
+\end{ex}
+
+\begin{ex}
+Một lon nước ngọt có dạng khối gì? (Khối trụ). Lon nước ngọt có mấy mặt đáy?
+\shortans{2}
+\loigiai{
+Lon nước ngọt có 2 mặt đáy.
+}
+\end{ex}
+
+\begin{ex}
+Quả bóng bàn có dạng khối gì? Khối cầu có thể lăn được về bao nhiêu hướng? (Mọi hướng). Số mặt phẳng của khối cầu là bao nhiêu?
+\shortans{0}
+\loigiai{
+Khối cầu không có mặt phẳng nào.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp sữa đặc có dạng khối trụ. Nếu đặt đứng, hộp tiếp xúc với mặt bàn bằng mấy mặt?
+\shortans{1}
+\loigiai{
+Tiếp xúc bằng đúng 1 mặt đáy.
+}
+\end{ex}
+
+\begin{ex}
+Một khối rubik hình lập phương có 6 mặt phẳng. Một khối trụ có bao nhiêu mặt phẳng?
+\shortans{2}
+\loigiai{
+Khối trụ có 2 mặt phẳng tròn ở đáy.
+}
+\end{ex}
+
+\begin{ex}
+Một viên bi ve có dạng khối gì? (Khối cầu). Viên bi ve có bao nhiêu đỉnh?
+\shortans{0}
+\loigiai{
+Khối cầu có 0 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Trong các vật sau: quả bóng, hộp sữa ông Thọ, viên xúc xắc, quả cam. Có bao nhiêu vật có dạng khối cầu?
+\shortans{2}
+\loigiai{
+Quả bóng và quả cam có dạng khối cầu (2 vật).
+}
+\end{ex}
+
+\begin{ex}
+Trong các vật trên, có bao nhiêu vật có dạng khối trụ?
+\shortans{1}
+\loigiai{
+Hộp sữa ông Thọ có dạng khối trụ (1 vật).
+}
+\end{ex}
+
+\begin{ex}
+Trong các vật trên, có bao nhiêu vật có dạng khối lập phương?
+\shortans{1}
+\loigiai{
+Viên xúc xắc có dạng khối lập phương (1 vật).
+}
+\end{ex}
+
+\begin{ex}
+Trên bàn có 3 khối trụ và 4 khối cầu. Hỏi có tất cả bao nhiêu khối hình?
+\shortans{7}
+\loigiai{
+Có: $3 + 4 = 7$ khối hình.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 5 khối cầu, Mai có nhiều hơn Lan 3 khối cầu. Mai có bao nhiêu khối cầu?
+\shortans{8}
+\loigiai{
+Mai có: $5 + 3 = 8$ khối cầu.
+}
+\end{ex}
+
+\begin{ex}
+Trong rổ đồ chơi có 10 khối hình gồm khối trụ và khối cầu, trong đó có 6 khối trụ. Hỏi có bao nhiêu khối cầu?
+\shortans{4}
+\loigiai{
+Có: $10 - 6 = 4$ khối cầu.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 2 khối trụ giống nhau đặt chồng khít lên nhau tạo thành một khối trụ cao hơn. Khối trụ mới có bao nhiêu mặt đáy phẳng ở hai đầu?
+\shortans{2}
+\loigiai{
+Vẫn có 2 mặt đáy phẳng ở hai đầu ngoài.
+}
+\end{ex}
+
+\begin{ex}
+Một khúc gỗ tròn cắt ngang hai đầu tạo thành dạng khối gì? Khối trụ đó có bao nhiêu mặt đáy phẳng?
+\shortans{2}
+\loigiai{
+Khối trụ có 2 mặt đáy phẳng.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc trống trường có thân cong tròn và hai mặt bịt da phẳng hình tròn. Chiếc trống có dạng giống khối gì? Hai mặt da là bao nhiêu mặt phẳng?
+\shortans{2}
+\loigiai{
+Có 2 mặt phẳng.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc cột nhà hình tròn thẳng đứng có dạng khối gì? (Khối trụ). Cột nhà có bao nhiêu đỉnh nhọn?
+\shortans{0}
+\loigiai{
+Khối trụ không có đỉnh nhọn nào.
+}
+\end{ex}
+
+\begin{ex}
+Có 8 khối cầu chia đều cho 2 bạn. Mỗi bạn được bao nhiêu khối cầu?
+\shortans{4}
+\loigiai{
+Mỗi bạn được: $8 : 2 = 4$ khối cầu.
+}
+\end{ex}
+
+\begin{ex}
+Có 15 khối trụ chia đều vào 5 hộp. Mỗi hộp có bao nhiêu khối trụ?
+\shortans{3}
+\loigiai{
+Mỗi hộp có: $15 : 5 = 3$ khối trụ.
+}
+\end{ex}
+
+\begin{ex}
+Trong một trò chơi xếp hình: bạn Nam dùng 4 khối trụ làm cột nhà, 2 khối cầu trang trí trên nóc. Nam đã dùng tất cả bao nhiêu khối hình?
+\shortans{6}
+\loigiai{
+Nam dùng: $4 + 2 = 6$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc cốc uống nước hình trụ có một miệng hở và một đáy phẳng. Chiếc cốc có bao nhiêu đáy phẳng?
+\shortans{1}
+\loigiai{
+Có 1 đáy phẳng.
+}
+\end{ex}
+
+\begin{ex}
+Khối nào sau đây có thể lăn được về mọi hướng? (Khối cầu). Khối cầu có bao nhiêu cạnh?
+\shortans{0}
+\loigiai{
+Khối cầu có 0 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số mặt phẳng của 3 khối trụ rời nhau là bao nhiêu?
+\shortans{6}
+\loigiai{
+Mỗi khối có 2 mặt phẳng, 3 khối có: $2 \times 3 = 6$ mặt phẳng.
+}
+\end{ex}

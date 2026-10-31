@@ -1,0 +1,142 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 03. Số chẵn, số lẻ --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 03: SỐ CHẴN, SỐ LẺ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Dấu hiệu nhận biết, tính chất phép tính và công thức dãy số cách đều 2 đơn vị}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ 1. Khái niệm Số chẵn \& Số lẻ},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Số chẵn:} Là các số có chữ số tận cùng là \textbf{0, 2, 4, 6, 8}.\\
+    $\rightarrow$ Số chẵn \textbf{chia hết cho 2}.\\
+    \textit{Ví dụ:} $0, 2, 14, 138, 2024, 75\,316$.\\
+    $\bullet$ \textbf{Số lẻ:} Là các số có chữ số tận cùng là \textbf{1, 3, 5, 7, 9}.\\
+    $\rightarrow$ Số lẻ \textbf{không chia hết cho 2} (chia 2 dư 1).\\
+    \textit{Ví dụ:} $1, 3, 17, 105, 2025, 99\,999$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCogs\ 2. Quy tắc tính chẵn lẻ},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Phép cộng và phép trừ:}\\
+    $\text{Chẵn} \pm \text{Chẵn} = \textbf{Chẵn}$\\
+    $\text{Lẻ} \pm \text{Lẻ} = \textbf{Chẵn}$\\
+    $\text{Chẵn} \pm \text{Lẻ} = \textbf{Lẻ}$\\
+    $\bullet$ \textbf{Phép nhân:}\\
+    $\text{Lẻ} \times \text{Lẻ} = \textbf{Lẻ}$\\
+    $\text{Chỉ cần có 1 thừa số chẵn} \rightarrow \textbf{Tích là số chẵn}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Phân loại tập hợp số tự nhiên theo tính chẵn lẻ},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    boxC/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    boxL/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faThList\ TẬP HỢP SỐ TỰ NHIÊN};
+
+    \node[boxC] (c1) at (-4.2, 0) {\textbf{SỐ CHẴN}\\[2pt]Tận cùng: $0, 2, 4, 6, 8$\\[1.5pt]Chia hết cho 2 (Dư 0)};
+    \node[boxL] (l1) at (4.2, 0) {\textbf{SỐ LẺ}\\[2pt]Tận cùng: $1, 3, 5, 7, 9$\\[1.5pt]Không chia hết cho 2 (Dư 1)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- ++(0, -0.25) -| (c1.north);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.south) -- ++(0, -0.25) -| (l1.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ Dãy số chẵn / số lẻ cách đều},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Hai số chẵn (hoặc lẻ) liên tiếp hơn kém nhau \textbf{2 đơn vị}.\\
+    $\bullet$ Công thức số số hạng dãy cách đều 2:\\
+    $\text{Số số hạng} = (\text{Số cuối} - \text{Số đầu}) : 2 + 1$\\
+    $\bullet$ Số 0 là số chẵn nhỏ nhất.\\
+    $\bullet$ Số 1 là số lẻ nhỏ nhất.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy nhìn nhầm hàng đầu tiên:}\\
+    Để biết số chẵn hay lẻ, \textbf{chỉ nhìn duy nhất chữ số hàng đơn vị} (tận cùng), không quan tâm các hàng khác!\\
+    \textit{Ví dụ:} $77\,778$ là số chẵn vì tận cùng là 8.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,161 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 62. Luyện tập chung toán chuyển động đều --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 62. LUYỆN TẬP CHUNG TOÁN CHUYỂN ĐỘNG ĐỀU (CHỦ ĐỀ 10)}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Hai chuyển động ngược chiều (gặp nhau) và cùng chiều (đuổi nhau) toàn diện trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: HAI DẠNG TOÁN HAI CHUYỂN ĐỘNG KINH ĐIỂN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faExchange\ 1. Hai bài toán chuyển động cùng lúc kinh điển},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{p{0.48\textwidth}|p{0.48\textwidth}}
+    \textbf{DẠNG 1: ĐI NGƯỢC CHIỀU (GẶP NHAU)} & \textbf{DẠNG 2: ĐI CÙNG CHIỀU (ĐUỔI KỊP NHAU)} \\ \hline
+    Hai xe đi ngược chiều từ hai đầu $A$ và $B$ cách nhau khoảng cách $s$: & Xe đuổi ($v_1$) đi sau xe trước ($v_2$) với $v_1 > v_2$, cách nhau khoảng cách $s$: \\
+    $\bullet$ \textbf{Tổng vận tốc} $= v_1 + v_2$ & $\bullet$ \textbf{Hiệu vận tốc} $= v_1 - v_2$ \\
+    (Mỗi giờ hai xe gần nhau thêm $v_1 + v_2\text{ km}$). & (Mỗi giờ xe sau rút ngắn khoảng cách được $v_1 - v_2$). \\
+    \begin{tcolorbox}[colback=white, colframe=blue!75!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{blue!90!black}$t_{\text{gặp}} = \dfrac{s}{v_1 + v_2}$}
+    \end{tcolorbox} &
+    \begin{tcolorbox}[colback=white, colframe=purple!70!black, boxrule=0.5pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm]
+      {\scriptsize\bfseries\color{purple!90!black}$t_{\text{đuổi kịp}} = \dfrac{s}{v_1 - v_2}$}
+    \end{tcolorbox}
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: XÁC ĐỊNH VỊ TRÍ GẶP NHAU & XUẤT PHÁT KHÔNG CÙNG LÚC ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faMapMarker\ 2. Vị trí điểm gặp nhau},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Điểm gặp cách $A$: $s_A = v_1 \times t_{\text{gặp}}$.\\
+    $\bullet$ Điểm gặp cách $B$: $s_B = v_2 \times t_{\text{gặp}}$.\\
+    $\bullet$ Thời điểm gặp nhau:\\
+    $\text{Thời điểm gặp} = \text{Thời điểm đi} + t_{\text{gặp}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faClockO\ 3. Xuất phát KHÔNG cùng lúc},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Nếu xe 1 đi trước xe 2 thời gian $\Delta t$:\\
+    $\triangleright$ Xe 1 đi trước được: $s_1 = v_1 \times \Delta t$.\\
+    $\triangleright$ Khoảng cách còn lại (ngược chiều): $s' = s - s_1$.\\
+    $\triangleright$ Khoảng cách đuổi (cùng chiều): $s' = s_1$.\\
+    Sau đó áp dụng công thức chuẩn với $s'$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Ngược chiều vs Cùng chiều},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b1] (nc) at (-4.8, 0) {\textbf{NGƯỢC CHIỀU (Gặp nhau)}\\[2pt]$t = s : (\mathbf{v_1 + v_2})$\\[2pt]Chia cho \textbf{TỔNG} vận tốc};
+    \node[b2] (cc) at (4.8, 0) {\textbf{CÙNG CHIỀU (Đuổi kịp)}\\[2pt]$t = s : (\mathbf{v_1 - v_2})$\\[2pt]Chia cho \textbf{HIỆU} vận tốc};
+
+    \draw[teal!85!black, very thick, <->] (nc) -- (cc);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: ĐOÀN TÀU QUA CẦU & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTrain\ Bài toán đoàn tàu vượt qua cây cầu},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Đoàn tàu có chiều dài $l_{\text{tàu}}$ vượt qua cây cầu dài $l_{\text{cầu}}$:\\
+    $\bullet$ Quãng đường tàu đi được để vượt qua hoàn toàn cây cầu:\\
+    \quad $s = l_{\text{cầu}} + l_{\text{tàu}}$ (bằng chiều dài cầu cộng chiều dài tàu!).\\
+    $\bullet$ Tàu vượt qua $1$ người đứng yên: $s = l_{\text{tàu}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Nhầm lẫn phép cộng và trừ vận tốc: Gặp nhau thì \textbf{Cộng} vận tốc, Đuổi nhau thì \textbf{Trừ} vận tốc.\\
+    $\bullet$ Khoảng cách $s$ ở bài toán đuổi nhau là khoảng cách tại thời điểm \textbf{bắt đầu cùng chuyển động}.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

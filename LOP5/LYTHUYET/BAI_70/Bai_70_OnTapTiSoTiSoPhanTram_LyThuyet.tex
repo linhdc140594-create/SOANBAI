@@ -1,0 +1,141 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 70. Ôn tập tỉ số, tỉ số phần trăm --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 70. ÔN TẬP TỈ SỐ, TỈ SỐ PHẦN TRĂM}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Hệ thống các bài toán Tổng-Tỉ, Hiệu-Tỉ và 3 bài toán tỉ số phần trăm cốt lõi trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: TỔNG-TỈ, HIỆU-TỈ VÀ 3 DẠNG PHẦN TRĂM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBarChart\ 1. Bài toán Tổng-Tỉ và Hiệu-Tỉ},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bước 1:} Vẽ sơ đồ đoạn thẳng.\\
+    $\bullet$ \textbf{Bước 2:} Tìm Tổng (hoặc Hiệu) số phần bằng nhau.\\
+    $\bullet$ \textbf{Bước 3:} Tìm giá trị $1$ phần $= \text{Tổng (Hiệu)} : \text{Số phần}$.\\
+    $\bullet$ \textbf{Bước 4:} Số bé $= 1\text{ phần} \times \text{phần bé}$; Số lớn $= 1\text{ phần} \times \text{phần lớn}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPercent\ 2. Ba dạng toán Tỉ số phần trăm},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Dạng 1 (Tìm tỉ số \%):}\\
+    \centerline{$(a : b) \times 100\%$}\\
+    $\bullet$ \textbf{Dạng 2 (Tìm $a\%$ của $B$):}\\
+    \centerline{$B \times a : 100$ (\textbf{Nhân})}\\
+    $\bullet$ \textbf{Dạng 3 (Tìm $B$ biết $a\%$ là $k$):}\\
+    \centerline{$k : a \times 100$ (\textbf{Chia})}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Phân loại Ba dạng toán tỉ số phần trăm},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faPercent\ TỈ SỐ PHẦN TRĂM};
+    \node[b1] (d1) at (-5.0, -0.45) {\textbf{DẠNG 1: TÌM TỈ SỐ \%}\\[2pt]$(a : b) \times 100\%$};
+    \node[b2] (d2) at (0, -0.65) {\textbf{DẠNG 2: TÌM $a\%$ CỦA $B$}\\[2pt]$B \times a : 100$ (\textbf{Làm phép Nhân})};
+    \node[b3] (d3) at (5.0, -0.45) {\textbf{DẠNG 3: TÌM SỐ KHI BIẾT $a\%$}\\[2pt]$k : a \times 100$ (\textbf{Làm phép Chia})};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (d1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (d2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (d3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: PHÂN BIỆT DẠNG 2 & 3 VÀ BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ Bí kíp phân biệt Dạng 2 và Dạng 3},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đọc thấy chữ \textbf{``của một số''} $\rightarrow$ Dạng 2 (Làm phép nhân).\\
+    $\bullet$ Đọc thấy chữ \textbf{``biết $a\%$ là $k$''} $\rightarrow$ Dạng 3 (Làm phép chia).\\
+    $\bullet$ Luôn tự hỏi: Kết quả cần tìm lớn hơn hay nhỏ hơn số đã cho để kiểm tra phép tính!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy tăng giảm giá:} Cùng một tỉ lệ \% nhưng phần tăng tính trên số tiền nhỏ hơn nên giá sau cùng \textbf{không bằng} giá ban đầu!\\
+    $\bullet$ Tiền vốn khác tiền bán (Lãi theo vốn hay theo giá bán).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

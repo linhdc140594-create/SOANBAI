@@ -1,0 +1,166 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{
+  top=12mm,
+  bottom=12mm,
+  left=14mm,
+  right=14mm,
+  footskip=6mm,
+  headheight=14pt
+}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc,shapes.geometric}
+\usepackage[most]{tcolorbox}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\color{teal!80!black}\faBook\ \textbf{SỔ TAY KIẾN THỨC TOÁN 3}}
+\fancyhead[R]{\footnotesize\color{teal!80!black}\textbf{Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}}
+\fancyfoot[C]{\footnotesize\color{gray}-- Sổ tay kiến thức: Bài 13. Tìm thành phần trong phép nhân, phép chia --}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{teal!90!black}\faBookmark\ BÀI 13: TÌM THÀNH PHẦN TRONG PHÉP NHÂN, PHÉP CHIA}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Quy tắc tìm thừa số chưa biết, tìm số bị chia và tìm số chia trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Tìm Thừa số chưa biết}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Cấu trúc: $\mathbf{\text{Thừa số}} \times \mathbf{\text{Thừa số}} = \mathbf{\text{Tích}}$.
+  \item \textbf{Quy tắc vàng:} Muốn tìm một thừa số chưa biết, ta lấy \textbf{Tích chia cho thừa số đã biết}:
+  $$x \times a = b \implies x = b : a$$
+  $$a \times x = b \implies x = b : a$$
+  \item \textit{Bản chất:} Tích luôn là giá trị lớn nhất trong phép nhân các số tự nhiên $>1$.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Tìm Số bị chia \& Số chia}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Cấu trúc: $\mathbf{\text{Số bị chia}} : \mathbf{\text{Số chia}} = \mathbf{\text{Thương}}$.
+  \item \textbf{Tìm Số bị chia (số đứng đầu - lớn nhất):}
+  $$\text{Số bị chia} = \text{Thương} \times \text{Số chia}$$
+  $$x : a = b \implies x = b \times a$$
+  \item \textbf{Tìm Số chia (số ở giữa):}
+  $$\text{Số chia} = \text{Số bị chia} : \text{Thương}$$
+  $$a : x = b \implies x = a : b$$
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: TAM GIÁC THẦN KÌ TÌM $x$ NHÂN - CHIA}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=3pt, minimum height=0.85cm},
+  arr/.style={-{Stealth[length=2.5mm]}, thick}
+]
+  \node[box, fill=blue!12, draw=blue!80!black, text width=3.3cm] (t1) at (0, 0) {TÌM THỪA SỐ ($x$)\\$x \times a = b$\\$\mathbf{x = b : a}$ (Lấy Tích chia)};
+  \node[box, fill=purple!12, draw=purple!80!black, text width=3.3cm] (t2) at (4.7, 0) {TÌM SỐ BỊ CHIA ($x$)\\$x : a = b$\\$\mathbf{x = b \times a}$ (Lấy Thương nhân)};
+  \node[box, fill=teal!12, draw=teal!80!black, text width=3.3cm] (t3) at (9.4, 0) {TÌM SỐ CHIA ($x$)\\$a : x = b$\\$\mathbf{x = a : b}$ (Lấy SBC chia)};
+
+  \draw[arr, blue!80!black] (t1) -- (t2);
+  \draw[arr, purple!80!black] (t2) -- (t3);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Tìm thừa số:}\\
+$x \times 7 = 56 \implies x = 56 : 7 = \mathbf{8}$.\\
+$6 \times x = 54 \implies x = 54 : 6 = \mathbf{9}$.\\
+\textbf{2. Tìm số bị chia (đứng đầu):}\\
+$x : 8 = 4 \implies x = 4 \times 8 = \mathbf{32}$.\\
+\textbf{3. Tìm số chia (ở giữa):}\\
+$45 : x = 9 \implies x = 45 : 9 = \mathbf{5}$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy kinh điển: Nhầm Số bị chia và Số chia:}\\
+  $x : 6 = 3 \implies x = 3 \times 6 = 18$ (phép NHÂN).\\
+  $18 : x = 3 \implies x = 18 : 3 = 6$ (phép CHIA).\\
+  Rất nhiều bạn thấy phép chia là auto làm phép nhân!
+  \item \textbf{Quy tắc mẹo:}\\
+  Chỉ duy nhất tìm \textbf{Số bị chia} (đứng đầu) mới làm phép \textbf{nhân}. Còn lại đều làm phép \textbf{chia}.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

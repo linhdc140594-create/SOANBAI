@@ -1,0 +1,199 @@
+\begin{ex}
+Đường gấp khúc ABC gồm bao nhiêu đoạn thẳng?
+\shortans{2}
+\loigiai{
+Gồm 2 đoạn: AB và BC.
+}
+\end{ex}
+
+\begin{ex}
+Đường gấp khúc MNPQ gồm bao nhiêu đoạn thẳng?
+\shortans{3}
+\loigiai{
+Gồm 3 đoạn: MN, NP, PQ.
+}
+\end{ex}
+
+\begin{ex}
+Hình tứ giác có bao nhiêu cạnh?
+\shortans{4}
+\loigiai{
+Có 4 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình tứ giác có bao nhiêu đỉnh?
+\shortans{4}
+\loigiai{
+Có 4 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình tam giác có bao nhiêu cạnh?
+\shortans{3}
+\loigiai{
+Có 3 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Tính độ dài đường gấp khúc gồm 3 đoạn thẳng có độ dài lần lượt là 12 cm, 15 cm, 18 cm (đơn vị cm).
+\shortans{45}
+\loigiai{
+Độ dài: $12 + 15 + 18 = 45$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính chu vi hình tam giác có các cạnh dài 8 cm, 10 cm, 12 cm (đơn vị cm).
+\shortans{30}
+\loigiai{
+Chu vi: $8 + 10 + 12 = 30$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính chu vi hình tứ giác có các cạnh dài 5 cm, 7 cm, 9 cm, 11 cm (đơn vị cm).
+\shortans{32}
+\loigiai{
+Chu vi: $5 + 7 + 9 + 11 = 32$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 8 cm. Chu vi hình vuông là bao nhiêu xăng-ti-mét?
+\shortans{32}
+\loigiai{
+Chu vi: $8 \times 4 = 32$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 10 cm, chiều rộng 6 cm. Nửa chu vi là bao nhiêu xăng-ti-mét?
+\shortans{16}
+\loigiai{
+Nửa chu vi: $10 + 6 = 16$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{32}
+\loigiai{
+Chu vi: $16 \times 2 = 32$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cho 3 điểm thẳng hàng A, B, C (B nằm giữa A và C). Biết AB dài 7 cm, BC dài 8 cm. Độ dài đoạn AC là bao nhiêu xăng-ti-mét?
+\shortans{15}
+\loigiai{
+Độ dài AC: $7 + 8 = 15$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng MN dài 20 cm, điểm P nằm giữa M và N sao cho MP dài 9 cm. Đoạn thẳng PN dài bao nhiêu xăng-ti-mét?
+\shortans{11}
+\loigiai{
+Đoạn PN dài: $20 - 9 = 11$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu que tính để xếp được 1 hình tứ giác?
+\shortans{4}
+\loigiai{
+Cần 4 que tính.
+}
+\end{ex}
+
+\begin{ex}
+Cần ít nhất bao nhiêu que tính để xếp được 1 hình tam giác?
+\shortans{3}
+\loigiai{
+Cần 3 que tính.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 9 que tính bằng nhau xếp được nhiều nhất bao nhiêu hình tam giác rời nhau?
+\shortans{3}
+\loigiai{
+Xếp được: $9 : 3 = 3$ hình tam giác.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 12 que tính bằng nhau xếp được nhiều nhất bao nhiêu hình vuông rời nhau?
+\shortans{3}
+\loigiai{
+Xếp được: $12 : 4 = 3$ hình vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một đường gấp khúc dài 36 cm gồm 3 đoạn thẳng bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Mỗi đoạn dài: $36 : 3 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có chu vi 48 cm, bốn cạnh có độ dài bằng nhau. Mỗi cạnh dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Mỗi cạnh dài: $48 : 4 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cắt một góc của hình tứ giác bằng một nhát kéo thẳng. Hình mới nhận được có bao nhiêu đỉnh?
+\shortans{5}
+\loigiai{
+Hình mới có 5 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Gấp đôi một hình vuông theo đường chéo ta được hình gì? Hình tam giác mới có bao nhiêu cạnh?
+\shortans{3}
+\loigiai{
+Hình tam giác có 3 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Một con sâu bò trên đường gấp khúc gồm 4 đoạn, mỗi đoạn dài 6 cm. Con sâu bò được quãng đường bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+Quãng đường: $6 \times 4 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Tổng số cạnh của 2 hình tam giác rời nhau là bao nhiêu?
+\shortans{6}
+\loigiai{
+Tổng số cạnh: $3 + 3 = 6$ cạnh.
+}
+\end{ex}

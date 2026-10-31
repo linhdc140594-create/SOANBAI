@@ -1,0 +1,199 @@
+\begin{ex}
+Số 24 gấp số 6 mấy lần?
+\shortans{4}
+\loigiai{
+$24 : 6 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 35 gấp số 7 mấy lần?
+\shortans{5}
+\loigiai{
+$35 : 7 = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 48 gấp số 8 mấy lần?
+\shortans{6}
+\loigiai{
+$48 : 8 = 6$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 54 gấp số 9 mấy lần?
+\shortans{6}
+\loigiai{
+$54 : 9 = 6$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 72 gấp số 8 mấy lần?
+\shortans{9}
+\loigiai{
+$72 : 8 = 9$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 63 gấp số 7 mấy lần?
+\shortans{9}
+\loigiai{
+$63 : 7 = 9$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 80 gấp số 10 mấy lần?
+\shortans{8}
+\loigiai{
+$80 : 10 = 8$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 90 gấp số 30 mấy lần?
+\shortans{3}
+\loigiai{
+$90 : 30 = 3$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 gấp số 20 mấy lần?
+\shortans{5}
+\loigiai{
+$100 : 20 = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 18 cm, đoạn CD dài 6 cm. Đoạn AB dài gấp mấy lần đoạn CD?
+\shortans{3}
+\loigiai{
+$18 : 6 = 3$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ 36 tuổi, con 6 tuổi. Tuổi mẹ gấp mấy lần tuổi con?
+\shortans{6}
+\loigiai{
+$36 : 6 = 6$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Bố 40 tuổi, con 8 tuổi. Tuổi bố gấp mấy lần tuổi con?
+\shortans{5}
+\loigiai{
+$40 : 8 = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Bà 70 tuổi, cháu 7 tuổi. Tuổi bà gấp mấy lần tuổi cháu?
+\shortans{10}
+\loigiai{
+$70 : 7 = 10$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo to nặng 50 kg, bao gạo nhỏ nặng 10 kg. Bao to nặng gấp mấy lần bao nhỏ?
+\shortans{5}
+\loigiai{
+$50 : 10 = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Bể thứ nhất chứa 64 lít nước, bể thứ hai chứa 8 lít nước. Bể thứ nhất gấp mấy lần bể thứ hai?
+\shortans{8}
+\loigiai{
+$64 : 8 = 8$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Quyển sách dày 96 trang, quyển truyện tranh dày 24 trang. Quyển sách dày gấp mấy lần quyển truyện?
+\shortans{4}
+\loigiai{
+$96 : 24 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 3A có 32 học sinh, trong đó có 8 bạn học sinh xuất sắc. Số học sinh cả lớp gấp mấy lần số học sinh xuất sắc?
+\shortans{4}
+\loigiai{
+$32 : 8 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây dài 45 m, cắt lấy một đoạn dài 5 m. Sợi dây ban đầu dài gấp mấy lần đoạn đã cắt?
+\shortans{9}
+\loigiai{
+$45 : 5 = 9$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Hùng có 42 viên bi, Dũng có 7 viên bi. Số bi của Hùng gấp mấy lần số bi của Dũng?
+\shortans{6}
+\loigiai{
+$42 : 7 = 6$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Vườn nhà Mai có 48 cây bưởi và 6 cây cam. Số cây bưởi gấp mấy lần số cây cam?
+\shortans{8}
+\loigiai{
+$48 : 6 = 8$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có chiều dài 24 m, chiều rộng 6 m. Chiều dài gấp mấy lần chiều rộng?
+\shortans{4}
+\loigiai{
+$24 : 6 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn là 70, số bé là 14. Số lớn gấp mấy lần số bé?
+\shortans{5}
+\loigiai{
+$70 : 14 = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn là 84, số bé là 12. Số lớn gấp mấy lần số bé?
+\shortans{7}
+\loigiai{
+$84 : 12 = 7$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 36 cm, cạnh 9 cm. Chu vi gấp mấy lần cạnh?
+\shortans{4}
+\loigiai{
+$36 : 9 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có 24 giờ. 24 giờ gấp mấy lần khoảng thời gian 4 giờ?
+\shortans{6}
+\loigiai{
+$24 : 4 = 6$ lần.
+}
+\end{ex}

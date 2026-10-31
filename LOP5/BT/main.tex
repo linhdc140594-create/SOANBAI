@@ -1,0 +1,463 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell,venndiagram}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through}
+\usepackage{yhmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+\usepgfplotslibrary{fillbetween}
+\usepackage[tikz]{bclogo}
+\usepackage[top=1.8cm, bottom=1.8cm, left=1.8cm, right=1.8cm, headheight=16pt]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+
+\usepackage[dethi]{ex_test}
+\providecommand{\shortans}[1]{\par\vspace{1.5mm}\noindent\textbf{Đáp số: } \framebox[3.2cm]{\phantom{\rule{0pt}{1.8ex}}}\par\vspace{2mm}}
+
+\def\colorEX{\color{blue}}
+\everymath{\color{blue}}
+
+\usepackage{fontawesome}
+\usepackage{framed}
+\usepackage{polynom}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape\color{gray} Tuyển tập Bài tập Toán 5 theo từng bài}
+\fancyhead[R]{\small\bfseries\color{blue!80!black} Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{titlesec}
+\usepackage{titletoc}
+
+\makeatletter
+\renewcommand\thesection{\@arabic\c@section}
+\makeatother
+
+\titleformat{\section}{\centering\Large\bfseries\color{blue!80!black}}{Chủ đề~\thesection.}{1ex}{
+    \setcounter{ex}{0}
+    \MakeUppercase
+}
+\titleformat{\subsection}{\large\bfseries\color{blue!70!black}}{}{0ex}{}
+
+% KHUNG TIÊU ĐỀ PHIẾU BÀI TẬP KÈM QR CODE
+\newcommand{\TaoPhieuBaiTap}[4]{%
+  \refstepcounter{subsection}%
+  \addcontentsline{toc}{subsection}{Bài #2. #3}%
+  \setcounter{ex}{0}%
+  \noindent
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=blue!85!black,
+    arc=2.5mm,
+    boxrule=1pt,
+    left=2.5mm, right=2.5mm, top=1.8mm, bottom=1.8mm
+  ]
+    \begin{minipage}[c]{0.27\textwidth}
+      \centering
+      \begin{tcolorbox}[colback=blue!8, colframe=blue!80!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1.2mm, bottom=1.2mm, left=1mm, right=1mm]
+        {\bfseries\color{blue!95!black}\small LỚP TOÁN THẦY LĨNH}\\[1.5pt]
+        {\scriptsize\color{blue!70!black}\faGlobe~loptoanthaylinh.vn}\\[1.5pt]
+        {\scriptsize\bfseries\color{blue!85!black}\faPhone~Hotline: 0866976878}
+      \end{tcolorbox}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.56\textwidth}
+      \centering
+      {\footnotesize\bfseries\color{blue!80!black}\MakeUppercase{#1}}\\[2pt]
+      {\large\bfseries\color{red!85!black}\MakeUppercase{BÀI #2: #3}}\\[2pt]
+      {\scriptsize\itshape Phiếu Bài Tập Luyện Tập -- Hệ Thống Bài Tập Theo Buổi}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.14\textwidth}
+      \centering
+      \qrcode[height=1.35cm]{#4}\\[2pt]
+      {\tiny\bfseries\color{blue!90!black}\faQrcode~Quét QR học}
+    \end{minipage}
+  \end{tcolorbox}
+  \vspace{2mm}
+}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+
+% =========================================================================
+% Ôn tập và bổ sung
+% =========================================================================
+\section{Ôn tập và bổ sung}
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{01}{Ôn tập số tự nhiên}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-01}
+\input{TAP_1/tex/Bai_01_On_tap_so_tu_nhien.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{02}{Ôn tập các phép tính với số tự nhiên}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-02}
+\input{TAP_1/tex/Bai_02_On_tap_cac_phep_tinh_voi_so_tu_nhien.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{03}{Ôn tập phân số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-03}
+\input{TAP_1/tex/Bai_03_On_tap_phan_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{04}{Phân số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-04}
+\input{TAP_1/tex/Bai_04_Phan_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{05}{Ôn tập các phép tính với phân số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-05}
+\input{TAP_1/tex/Bai_05_On_tap_cac_phep_tinh_voi_phan_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{06}{Cộng, trừ hai phân số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-06}
+\input{TAP_1/tex/Bai_06_Cong_tru_hai_phan_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{07}{Hỗn số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-07}
+\input{TAP_1/tex/Bai_07_Hon_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{08}{Ôn tập hình học và đo lường}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-08}
+\input{TAP_1/tex/Bai_08_On_tap_hinh_hoc_va_do_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 1 -- Ôn tập và bổ sung}{09}{Luyện tập chung}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-09}
+\input{TAP_1/tex/Bai_09_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Số thập phân
+% =========================================================================
+\section{Số thập phân}
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Số thập phân}{10}{Khái niệm số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-10}
+\input{TAP_1/tex/Bai_10_Khai_niem_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Số thập phân}{11}{So sánh các số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-11}
+\input{TAP_1/tex/Bai_11_So_sanh_cac_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Số thập phân}{12}{Viết số đo đại lượng dưới dạng số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-12}
+\input{TAP_1/tex/Bai_12_Viet_so_do_dai_luong_duoi_dang_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Số thập phân}{13}{Làm tròn số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-13}
+\input{TAP_1/tex/Bai_13_Lam_tron_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 2 -- Số thập phân}{14}{Luyện tập chung số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-14}
+\input{TAP_1/tex/Bai_14_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Một số đơn vị đo diện tích
+% =========================================================================
+\section{Một số đơn vị đo diện tích}
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Một số đơn vị đo diện tích}{15}{Ki-lô-mét vuông. Héc-ta}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-15}
+\input{TAP_1/tex/Bai_15_Ki_lo_met_vuong_Hec_ta.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Một số đơn vị đo diện tích}{16}{Các đơn vị đo diện tích}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-16}
+\input{TAP_1/tex/Bai_16_Cac_don_vi_do_dien_tich.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Một số đơn vị đo diện tích}{17}{Thực hành và trải nghiệm đơn vị đo đại lượng}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-17}
+\input{TAP_1/tex/Bai_17_Thuc_hanh_va_trai_nghiem_voi_mot_so_don_vi_do_dai_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 3 -- Một số đơn vị đo diện tích}{18}{Luyện tập chung diện tích}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-18}
+\input{TAP_1/tex/Bai_18_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Các phép tính với số thập phân
+% =========================================================================
+\section{Các phép tính với số thập phân}
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Các phép tính với số thập phân}{19}{Phép cộng số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-19}
+\input{TAP_1/tex/Bai_19_Phep_cong_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Các phép tính với số thập phân}{20}{Phép trừ số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-20}
+\input{TAP_1/tex/Bai_20_Phep_tru_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Các phép tính với số thập phân}{21}{Phép nhân số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-21}
+\input{TAP_1/tex/Bai_21_Phep_nhan_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Các phép tính với số thập phân}{22}{Phép chia số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-22}
+\input{TAP_1/tex/Bai_22_Phep_chia_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Các phép tính với số thập phân}{23}{Nhân, chia số thập phân với 10, 100, 0.1, 0.01...}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-23}
+\input{TAP_1/tex/Bai_23_Nhan_chia_so_thap_phan_voi_10_100_1000.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 4 -- Các phép tính với số thập phân}{24}{Luyện tập chung phép tính số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-24}
+\input{TAP_1/tex/Bai_24_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Một số hình phẳng. chu vi và diện tích
+% =========================================================================
+\section{Một số hình phẳng. chu vi và diện tích}
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số hình phẳng. chu vi và diện tích}{25}{Hình tam giác. Diện tích hình tam giác}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-25}
+\input{TAP_1/tex/Bai_25_Hinh_tam_giac_Dien_tich_hinh_tam_giac.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số hình phẳng. chu vi và diện tích}{26}{Hình thang. Diện tích hình thang}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-26}
+\input{TAP_1/tex/Bai_26_Hinh_thang_Dien_tich_hinh_thang.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số hình phẳng. chu vi và diện tích}{27}{Đường tròn. Chu vi và diện tích hình tròn}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-27}
+\input{TAP_1/tex/Bai_27_Duong_tron_Chu_vi_va_dien_tich_hinh_tron.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số hình phẳng. chu vi và diện tích}{28}{Thực hành và trải nghiệm hình phẳng}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-28}
+\input{TAP_1/tex/Bai_28_Thuc_hanh_va_trai_nghiem_do_ve_lap_ghep_tao_hinh.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 5 -- Một số hình phẳng. chu vi và diện tích}{29}{Luyện tập chung hình phẳng}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-29}
+\input{TAP_1/tex/Bai_29_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Ôn tập học kì 1
+% =========================================================================
+\section{Ôn tập học kì 1}
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Ôn tập học kì 1}{30}{Ôn tập số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-30}
+\input{TAP_1/tex/Bai_30_On_tap_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Ôn tập học kì 1}{31}{Ôn tập các phép tính với số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-31}
+\input{TAP_1/tex/Bai_31_On_tap_cac_phep_tinh_voi_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Ôn tập học kì 1}{32}{Ôn tập một số hình phẳng}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-32}
+\input{TAP_1/tex/Bai_32_On_tap_mot_so_hinh_phang.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Ôn tập học kì 1}{33}{Ôn tập diện tích, chu vi một số hình phẳng}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-33}
+\input{TAP_1/tex/Bai_33_On_tap_dien_tich_chu_vi_mot_so_hinh_phang.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Ôn tập học kì 1}{34}{Ôn tập đo lường}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-34}
+\input{TAP_1/tex/Bai_34_On_tap_do_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 6 -- Ôn tập học kì 1}{35}{Ôn tập chung học kì 1}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-35}
+\input{TAP_1/tex/Bai_35_On_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Tỉ số và các bài toán liên quan
+% =========================================================================
+\section{Tỉ số và các bài toán liên quan}
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{36}{Tỉ số. Tỉ số phần trăm}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-36}
+\input{TAP_2/tex/Bai_36_Ti_so_Ti_so_phan_tram.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{37}{Tỉ lệ bản đồ và ứng dụng}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-37}
+\input{TAP_2/tex/Bai_37_Ti_le_ban_do_va_ung_dung.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{38}{Tìm hai số khi biết tổng và tỉ số của hai số đó}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-38}
+\input{TAP_2/tex/Bai_38_Tim_hai_so_khi_biet_tong_va_ti_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{39}{Tìm hai số khi biết hiệu và tỉ số của hai số đó}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-39}
+\input{TAP_2/tex/Bai_39_Tim_hai_so_khi_biet_hieu_va_ti_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{40}{Tìm tỉ số phần trăm của hai số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-40}
+\input{TAP_2/tex/Bai_40_Tim_ti_so_phan_tram_cua_hai_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{41}{Tìm giá trị phần trăm của một số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-41}
+\input{TAP_2/tex/Bai_41_Tim_gia_tri_phan_tram_cua_mot_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{42}{Máy tính cầm tay}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-42}
+\input{TAP_2/tex/Bai_42_May_tinh_cam_tay.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{43}{Thực hành và trải nghiệm với máy tính cầm tay}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-43}
+\input{TAP_2/tex/Bai_43_Thuc_hanh_va_trai_nghiem_su_dung_may_tinh_cam_tay.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 7 -- Tỉ số và các bài toán liên quan}{44}{Luyện tập chung tỉ số phần trăm}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-44}
+\input{TAP_2/tex/Bai_44_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Thể tích. đơn vị đo thể tích
+% =========================================================================
+\section{Thể tích. đơn vị đo thể tích}
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Thể tích. đơn vị đo thể tích}{45}{Thể tích của một hình}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-45}
+\input{TAP_2/tex/Bai_45_The_tich_cua_mot_hinh.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Thể tích. đơn vị đo thể tích}{46}{Xăng-ti-mét khối. Đề-xi-mét khối}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-46}
+\input{TAP_2/tex/Bai_46_Xang_ti_met_khoi_De_xi_met_khoi.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Thể tích. đơn vị đo thể tích}{47}{Mét khối}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-47}
+\input{TAP_2/tex/Bai_47_Met_khoi.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 8 -- Thể tích. đơn vị đo thể tích}{48}{Luyện tập chung đơn vị đo thể tích}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-48}
+\input{TAP_2/tex/Bai_48_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Diện tích và thể tích của một số hình khối
+% =========================================================================
+\section{Diện tích và thể tích của một số hình khối}
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{49}{Hình khai triển hình lập phương, hình hộp chữ nhật, hình trụ}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-49}
+\input{TAP_2/tex/Bai_49_Hinh_khai_trien_cua_hinh_lap_phuong_hop_chu_nhat_hinh_tru.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{50}{Diện tích xung quanh và toàn phần hình hộp chữ nhật}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-50}
+\input{TAP_2/tex/Bai_50_Dien_tich_xung_quanh_toan_phan_hinh_hop_chu_nhat.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{51}{Diện tích xung quanh và toàn phần hình lập phương}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-51}
+\input{TAP_2/tex/Bai_51_Dien_tich_xung_quanh_toan_phan_hinh_lap_phuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{52}{Thể tích hình hộp chữ nhật}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-52}
+\input{TAP_2/tex/Bai_52_The_tich_cua_hinh_hop_chu_nhat.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{53}{Thể tích hình lập phương}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-53}
+\input{TAP_2/tex/Bai_53_The_tich_cua_hinh_lap_phuong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{54}{Thực hành tính toán, ước lượng thể tích}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-54}
+\input{TAP_2/tex/Bai_54_Thuc_hanh_tinh_toan_uoc_luong_the_tich_hinh_khoi.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 9 -- Diện tích và thể tích của một số hình khối}{55}{Luyện tập chung hình khối}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-55}
+\input{TAP_2/tex/Bai_55_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều
+% =========================================================================
+\section{Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{56}{Các đơn vị đo thời gian}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-56}
+\input{TAP_2/tex/Bai_56_Cac_don_vi_do_thoi_gian.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{57}{Cộng, trừ số đo thời gian}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-57}
+\input{TAP_2/tex/Bai_57_Cong_tru_so_do_thoi_gian.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{58}{Nhân, chia số đo thời gian với một số}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-58}
+\input{TAP_2/tex/Bai_58_Nhan_chia_so_do_thoi_gian_voi_mot_so.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{59}{Vận tốc của một chuyển động đều}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-59}
+\input{TAP_2/tex/Bai_59_Van_toc_cua_mot_chuyen_dong_deu.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{60}{Quãng đường, thời gian của một chuyển động đều}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-60}
+\input{TAP_2/tex/Bai_60_Quang_duong_thoi_gian_cua_mot_chuyen_dong_deu.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{61}{Thực hành tính toán, ước lượng vận tốc, quãng đường, thời gian}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-61}
+\input{TAP_2/tex/Bai_61_Thuc_hanh_tinh_toan_uoc_luong_van_toc_quang_duong_thoi_gian.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 10 -- Số đo thời gian, vận tốc. các bài toán liên quan đến chuyển động đều}{62}{Luyện tập chung toán chuyển động đều}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-62}
+\input{TAP_2/tex/Bai_62_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Một số yếu tố thống kê và xác suất
+% =========================================================================
+\section{Một số yếu tố thống kê và xác suất}
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Một số yếu tố thống kê và xác suất}{63}{Thu thập, phân loại, sắp xếp số liệu}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-63}
+\input{TAP_2/tex/Bai_63_Thu_thap_phan_loai_sap_xep_cac_so_lieu.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Một số yếu tố thống kê và xác suất}{64}{Biểu đồ hình quạt tròn}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-64}
+\input{TAP_2/tex/Bai_64_Bieu_do_hinh_quat_tron.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Một số yếu tố thống kê và xác suất}{65}{Tỉ số số lần lặp lại sự kiện}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-65}
+\input{TAP_2/tex/Bai_65_Ti_so_so_lan_lap_lai_su_kien.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Một số yếu tố thống kê và xác suất}{66}{Thực hành trải nghiệm thống kê}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-66}
+\input{TAP_2/tex/Bai_66_Thuc_hanh_trai_nghiem_thu_thap_phan_tich_so_lieu.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 11 -- Một số yếu tố thống kê và xác suất}{67}{Luyện tập chung thống kê, xác suất}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-67}
+\input{TAP_2/tex/Bai_67_Luyen_tap_chung.tex}
+\newpage
+
+
+% =========================================================================
+% Ôn tập cuối năm
+% =========================================================================
+\section{Ôn tập cuối năm}
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{68}{Ôn tập số tự nhiên, phân số, số thập phân}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-68}
+\input{TAP_2/tex/Bai_68_On_tap_so_tu_nhien_phan_so_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{69}{Ôn tập các phép tính}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-69}
+\input{TAP_2/tex/Bai_69_On_tap_cac_phep_tinh_voi_so_tu_nhien_phan_so_so_thap_phan.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{70}{Ôn tập tỉ số, tỉ số phần trăm}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-70}
+\input{TAP_2/tex/Bai_70_On_tap_ti_so_ti_so_phan_tram.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{71}{Ôn tập hình học}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-71}
+\input{TAP_2/tex/Bai_71_On_tap_hinh_hoc.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{72}{Ôn tập đo lường}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-72}
+\input{TAP_2/tex/Bai_72_On_tap_do_luong.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{73}{Ôn tập toán chuyển động đều}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-73}
+\input{TAP_2/tex/Bai_73_On_tap_toan_chuyen_dong_deu.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{74}{Ôn tập thống kê và xác suất}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-74}
+\input{TAP_2/tex/Bai_74_On_tap_mot_so_yeu_to_thong_ke_va_xac_suat.tex}
+\newpage
+
+\TaoPhieuBaiTap{Chủ đề 12 -- Ôn tập cuối năm}{75}{Ôn tập chung cuối năm}{https://loptoanthaylinh.vn/bai-tap/toan-5/bai-75}
+\input{TAP_2/tex/Bai_75_On_tap_chung.tex}
+\newpage
+
+\end{document}

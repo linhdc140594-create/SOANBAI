@@ -1,0 +1,176 @@
+=== BÀI 42: MÁY TÍNH CẦM TAY ===
+
+Câu 1: Sử dụng máy tính cầm tay thực hiện phép tính: 135 + 27.
+Đáp án: [shortans]162[/shortans]
+Lời giải chi tiết:
+Bấm phím [135] [+] [27] [=] ta được kết quả: 162.
+
+----------------------------------------
+
+Câu 2: Sử dụng máy tính cầm tay thực hiện phép tính: 150 + 29.
+Đáp án: [shortans]179[/shortans]
+Lời giải chi tiết:
+Bấm phím [150] [+] [29] [=] ta được kết quả: 179.
+
+----------------------------------------
+
+Câu 3: Sử dụng máy tính cầm tay thực hiện phép tính: 165 + 31.
+Đáp án: [shortans]196[/shortans]
+Lời giải chi tiết:
+Bấm phím [165] [+] [31] [=] ta được kết quả: 196.
+
+----------------------------------------
+
+Câu 4: Sử dụng máy tính cầm tay thực hiện phép tính: 180 + 33.
+Đáp án: [shortans]213[/shortans]
+Lời giải chi tiết:
+Bấm phím [180] [+] [33] [=] ta được kết quả: 213.
+
+----------------------------------------
+
+Câu 5: Sử dụng máy tính cầm tay thực hiện phép tính: 195 + 35.
+Đáp án: [shortans]230[/shortans]
+Lời giải chi tiết:
+Bấm phím [195] [+] [35] [=] ta được kết quả: 230.
+
+----------------------------------------
+
+Câu 6: Sử dụng máy tính cầm tay thực hiện phép tính: 210 + 37.
+Đáp án: [shortans]247[/shortans]
+Lời giải chi tiết:
+Bấm phím [210] [+] [37] [=] ta được kết quả: 247.
+
+----------------------------------------
+
+Câu 7: Sử dụng máy tính cầm tay thực hiện phép tính: 225 + 39.
+Đáp án: [shortans]264[/shortans]
+Lời giải chi tiết:
+Bấm phím [225] [+] [39] [=] ta được kết quả: 264.
+
+----------------------------------------
+
+Câu 8: Sử dụng máy tính cầm tay thực hiện phép tính: 240 + 41.
+Đáp án: [shortans]281[/shortans]
+Lời giải chi tiết:
+Bấm phím [240] [+] [41] [=] ta được kết quả: 281.
+
+----------------------------------------
+
+Câu 9: Sử dụng máy tính cầm tay thực hiện phép tính: 255 + 43.
+Đáp án: [shortans]298[/shortans]
+Lời giải chi tiết:
+Bấm phím [255] [+] [43] [=] ta được kết quả: 298.
+
+----------------------------------------
+
+Câu 10: Sử dụng máy tính cầm tay thực hiện phép tính: 270 + 45.
+Đáp án: [shortans]315[/shortans]
+Lời giải chi tiết:
+Bấm phím [270] [+] [45] [=] ta được kết quả: 315.
+
+----------------------------------------
+
+Câu 11: Sử dụng máy tính cầm tay thực hiện phép tính: 285 + 47.
+Đáp án: [shortans]332[/shortans]
+Lời giải chi tiết:
+Bấm phím [285] [+] [47] [=] ta được kết quả: 332.
+
+----------------------------------------
+
+Câu 12: Sử dụng máy tính cầm tay thực hiện phép tính: 300 + 49.
+Đáp án: [shortans]349[/shortans]
+Lời giải chi tiết:
+Bấm phím [300] [+] [49] [=] ta được kết quả: 349.
+
+----------------------------------------
+
+Câu 13: Sử dụng máy tính cầm tay thực hiện phép tính: 315 + 51.
+Đáp án: [shortans]366[/shortans]
+Lời giải chi tiết:
+Bấm phím [315] [+] [51] [=] ta được kết quả: 366.
+
+----------------------------------------
+
+Câu 14: Sử dụng máy tính cầm tay thực hiện phép tính: 330 + 53.
+Đáp án: [shortans]383[/shortans]
+Lời giải chi tiết:
+Bấm phím [330] [+] [53] [=] ta được kết quả: 383.
+
+----------------------------------------
+
+Câu 15: Sử dụng máy tính cầm tay thực hiện phép tính: 345 + 55.
+Đáp án: [shortans]400[/shortans]
+Lời giải chi tiết:
+Bấm phím [345] [+] [55] [=] ta được kết quả: 400.
+
+----------------------------------------
+
+Câu 16: Sử dụng máy tính cầm tay thực hiện phép tính: 360 + 57.
+Đáp án: [shortans]417[/shortans]
+Lời giải chi tiết:
+Bấm phím [360] [+] [57] [=] ta được kết quả: 417.
+
+----------------------------------------
+
+Câu 17: Sử dụng máy tính cầm tay thực hiện phép tính: 375 + 59.
+Đáp án: [shortans]434[/shortans]
+Lời giải chi tiết:
+Bấm phím [375] [+] [59] [=] ta được kết quả: 434.
+
+----------------------------------------
+
+Câu 18: Sử dụng máy tính cầm tay thực hiện phép tính: 390 + 61.
+Đáp án: [shortans]451[/shortans]
+Lời giải chi tiết:
+Bấm phím [390] [+] [61] [=] ta được kết quả: 451.
+
+----------------------------------------
+
+Câu 19: Sử dụng máy tính cầm tay thực hiện phép tính: 405 + 63.
+Đáp án: [shortans]468[/shortans]
+Lời giải chi tiết:
+Bấm phím [405] [+] [63] [=] ta được kết quả: 468.
+
+----------------------------------------
+
+Câu 20: Sử dụng máy tính cầm tay thực hiện phép tính: 420 + 65.
+Đáp án: [shortans]485[/shortans]
+Lời giải chi tiết:
+Bấm phím [420] [+] [65] [=] ta được kết quả: 485.
+
+----------------------------------------
+
+Câu 21: Sử dụng máy tính cầm tay thực hiện phép tính: 435 + 67.
+Đáp án: [shortans]502[/shortans]
+Lời giải chi tiết:
+Bấm phím [435] [+] [67] [=] ta được kết quả: 502.
+
+----------------------------------------
+
+Câu 22: Sử dụng máy tính cầm tay thực hiện phép tính: 450 + 69.
+Đáp án: [shortans]519[/shortans]
+Lời giải chi tiết:
+Bấm phím [450] [+] [69] [=] ta được kết quả: 519.
+
+----------------------------------------
+
+Câu 23: Sử dụng máy tính cầm tay thực hiện phép tính: 465 + 71.
+Đáp án: [shortans]536[/shortans]
+Lời giải chi tiết:
+Bấm phím [465] [+] [71] [=] ta được kết quả: 536.
+
+----------------------------------------
+
+Câu 24: Sử dụng máy tính cầm tay thực hiện phép tính: 480 + 73.
+Đáp án: [shortans]553[/shortans]
+Lời giải chi tiết:
+Bấm phím [480] [+] [73] [=] ta được kết quả: 553.
+
+----------------------------------------
+
+Câu 25: Sử dụng máy tính cầm tay thực hiện phép tính: 495 + 75.
+Đáp án: [shortans]570[/shortans]
+Lời giải chi tiết:
+Bấm phím [495] [+] [75] [=] ta được kết quả: 570.
+
+----------------------------------------

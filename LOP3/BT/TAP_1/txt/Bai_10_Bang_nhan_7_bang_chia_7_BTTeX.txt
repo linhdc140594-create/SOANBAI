@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $7 \times 4 = \dots$
+\shortans{28}
+\loigiai{
+$7 \times 4 = 28$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 \times 6 = \dots$
+\shortans{42}
+\loigiai{
+$7 \times 6 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 \times 7 = \dots$
+\shortans{49}
+\loigiai{
+$7 \times 7 = 49$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 \times 8 = \dots$
+\shortans{56}
+\loigiai{
+$7 \times 8 = 56$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 \times 9 = \dots$
+\shortans{63}
+\loigiai{
+$7 \times 9 = 63$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $21 : 7 = \dots$
+\shortans{3}
+\loigiai{
+$21 : 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35 : 7 = \dots$
+\shortans{5}
+\loigiai{
+$35 : 7 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $42 : 7 = \dots$
+\shortans{6}
+\loigiai{
+$42 : 7 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $56 : 7 = \dots$
+\shortans{8}
+\loigiai{
+$56 : 7 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $63 : 7 = \dots$
+\shortans{9}
+\loigiai{
+$63 : 7 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $7 \times 5 + 15$.
+\shortans{50}
+\loigiai{
+$35 + 15 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $7 \times 8 - 26$.
+\shortans{30}
+\loigiai{
+$56 - 26 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $49 : 7 + 33$.
+\shortans{40}
+\loigiai{
+$7 + 33 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $70 : 7 \times 5$.
+\shortans{50}
+\loigiai{
+$10 \times 5 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có 7 ngày. Hỏi 6 tuần lễ có bao nhiêu ngày?
+\shortans{42}
+\loigiai{
+$7 \times 6 = 42$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có 7 ngày. Hỏi 9 tuần lễ có bao nhiêu ngày?
+\shortans{63}
+\loigiai{
+$7 \times 9 = 63$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Có 28 bông hoa cắm đều vào 7 bình hoa. Hỏi mỗi bình có bao nhiêu bông hoa?
+\shortans{4}
+\loigiai{
+$28 : 7 = 4$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Có 35 kg gạo chia đều vào 7 túi. Hỏi mỗi túi có bao nhiêu ki-lô-gam gạo?
+\shortans{5}
+\loigiai{
+$35 : 7 = 5$ kg gạo.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $7 \times \dots = 49$.
+\shortans{7}
+\loigiai{
+$49 : 7 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 7 = 4$.
+\shortans{28}
+\loigiai{
+$4 \times 7 = 28$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x \times 7 = 14 + 21$.
+\shortans{5}
+\loigiai{
+$x \times 7 = 35 \Rightarrow x = 35 : 7 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 7 = 10 - 3$.
+\shortans{49}
+\loigiai{
+$x : 7 = 7 \Rightarrow x = 7 \times 7 = 49$.
+}
+\end{ex}
+
+\begin{ex}
+Bác An mua 7 gói bánh, mỗi gói giá 8 nghìn đồng. Bác An phải trả tất cả bao nhiêu nghìn đồng?
+\shortans{56}
+\loigiai{
+$8 \times 7 = 56$ nghìn đồng.
+}
+\end{ex}
+
+\begin{ex}
+Có 56 quyển vở chia đều cho 7 học sinh giỏi. Hỏi mỗi bạn được bao nhiêu quyển vở?
+\shortans{8}
+\loigiai{
+$56 : 7 = 8$ quyển vở.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7 \times 3 + 7 \times 7 = \dots$
+\shortans{70}
+\loigiai{
+$21 + 49 = 70$ (hoặc $7 \times 10 = 70$).
+}
+\end{ex}

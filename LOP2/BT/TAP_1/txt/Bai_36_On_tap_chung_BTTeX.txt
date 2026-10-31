@@ -1,0 +1,199 @@
+\begin{ex}
+Số liền sau của số 89 là số nào?
+\shortans{90}
+\loigiai{
+Số liền sau 89 là 90.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 100 là số nào?
+\shortans{99}
+\loigiai{
+Số liền trước 100 là 99.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $48 + 36$.
+\shortans{84}
+\loigiai{
+Ta có $48 + 36 = 84$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $82 - 45$.
+\shortans{37}
+\loigiai{
+Ta có $82 - 45 = 37$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $65 + 27$.
+\shortans{92}
+\loigiai{
+Ta có $65 + 27 = 92$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $94 - 58$.
+\shortans{36}
+\loigiai{
+Ta có $94 - 58 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $42 + 29 - 35$.
+\shortans{36}
+\loigiai{
+Ta có $42 + 29 = 71$, rồi $71 - 35 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $85 - 38 + 17$.
+\shortans{64}
+\loigiai{
+Ta có $85 - 38 = 47$, rồi $47 + 17 = 64$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $37 + \dots = 81$.
+\shortans{44}
+\loigiai{
+Số cần điền: $81 - 37 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $90 - \dots = 43$.
+\shortans{47}
+\loigiai{
+Số cần điền: $90 - 43 = 47$.
+}
+\end{ex}
+
+\begin{ex}
+Đường gấp khúc ABCD gồm 3 đoạn thẳng có độ dài 10 cm, 15 cm, 20 cm. Độ dài đường gấp khúc là bao nhiêu xăng-ti-mét?
+\shortans{45}
+\loigiai{
+Độ dài: $10 + 15 + 20 = 45$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 8 cm là bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+Chu vi: $8 \times 3 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Chu vi hình chữ nhật có chiều dài 12 cm, chiều rộng 8 cm là bao nhiêu xăng-ti-mét?
+\shortans{40}
+\loigiai{
+Chu vi: $(12 + 8) \times 2 = 40$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một thùng cam có 54 quả, thùng quýt có 38 quả. Cả hai thùng có bao nhiêu quả?
+\shortans{92}
+\loigiai{
+Cả hai thùng có: $54 + 38 = 92$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 72 con vịt, bác bán đi 35 con. Bác còn lại bao nhiêu con vịt?
+\shortans{37}
+\loigiai{
+Còn lại: $72 - 35 = 37$ con vịt.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng ngày thứ nhất bán được 46 mét vải, ngày thứ hai bán được nhiều hơn ngày thứ nhất 18 mét vải. Ngày thứ hai bán được bao nhiêu mét vải?
+\shortans{64}
+\loigiai{
+Ngày thứ hai bán: $46 + 18 = 64$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo nặng 50 kg, bao ngô nhẹ hơn bao gạo 15 kg. Bao ngô nặng bao nhiêu ki-lô-gam?
+\shortans{35}
+\loigiai{
+Bao ngô nặng: $50 - 15 = 35$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một can 20 lít nước mắm, người ta đã rót ra 8 lít. Trong can còn lại bao nhiêu lít nước mắm?
+\shortans{12}
+\loigiai{
+Còn lại: $20 - 8 = 12$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Tháng 12 có bao nhiêu ngày?
+\shortans{31}
+\loigiai{
+Có 31 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 16 giờ. Đây là mấy giờ chiều?
+\shortans{4}
+\loigiai{
+Là 4 giờ chiều.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Năm là ngày 15 thì Thứ Năm tuần trước là ngày bao nhiêu?
+\shortans{8}
+\loigiai{
+Ngày đó là: $15 - 7 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lớn nhất có hai chữ số và số bé nhất có hai chữ số là bao nhiêu?
+\shortans{89}
+\loigiai{
+Số lớn nhất là 99, số bé nhất là 10. Hiệu: $99 - 10 = 89$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số trừ biết số bị trừ là 95 và hiệu là 48.
+\shortans{47}
+\loigiai{
+Số trừ: $95 - 48 = 47$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bị trừ biết số trừ là 36 và hiệu là 47.
+\shortans{83}
+\loigiai{
+Số bị trừ: $47 + 36 = 83$.
+}
+\end{ex}

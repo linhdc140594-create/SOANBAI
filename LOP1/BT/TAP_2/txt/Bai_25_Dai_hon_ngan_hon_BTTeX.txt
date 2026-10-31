@@ -1,0 +1,199 @@
+\begin{ex}
+Bút chì của Nam dài bằng 8 que tính, bút chì của Mai dài bằng 6 que tính. Hỏi bút chì của Nam dài hơn bút chì của Mai bao nhiêu que tính?
+\shortans{2}
+\loigiai{
+Dài hơn: $8 - 6 = 2$ que tính.
+}
+\end{ex}
+
+\begin{ex}
+Băng giấy màu đỏ dài 9 cm, băng giấy màu xanh dài 7 cm. Băng giấy màu xanh ngắn hơn băng giấy màu đỏ bao nhiêu xăng-ti-mét?
+\shortans{2}
+\loigiai{
+Ngắn hơn: $9 - 7 = 2$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Sợi dây thứ nhất dài 10 gang tay, sợi dây thứ hai dài 8 gang tay. Sợi dây thứ nhất dài hơn sợi dây thứ hai bao nhiêu gang tay?
+\shortans{2}
+\loigiai{
+Dài hơn: $10 - 8 = 2$ gang tay.
+}
+\end{ex}
+
+\begin{ex}
+Cây thước kẻ màu vàng dài 20 cm, cây thước kẻ màu xanh dài 30 cm. Thước kẻ màu xanh dài hơn thước kẻ màu vàng bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Dài hơn: $30 - 20 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bàn học của bé dài 8 gang tay, bàn giáo viên dài 12 gang tay. Bàn giáo viên dài hơn bàn học của bé bao nhiêu gang tay?
+\shortans{4}
+\loigiai{
+Dài hơn: $12 - 8 = 4$ gang tay.
+}
+\end{ex}
+
+\begin{ex}
+Cột cờ trường cao 10 mét, cây bàng bên cạnh cao 7 mét. Cột cờ cao hơn cây bàng bao nhiêu mét?
+\shortans{3}
+\loigiai{
+Cao hơn: $10 - 7 = 3$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Một thanh gỗ dài 15 cm, bác thợ cưa bớt đi 5 cm. Thanh gỗ còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Còn lại: $15 - 5 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Có 3 chiếc bút chì A, B, C. Bút A dài 8 cm, bút B dài 10 cm, bút C dài 7 cm. Chiếc bút ngắn nhất dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Bút ngắn nhất là bút C dài 7 cm.
+}
+\end{ex}
+
+\begin{ex}
+Chiếc bút dài nhất dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Bút dài nhất là bút B dài 10 cm.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu độ dài giữa chiếc bút dài nhất và ngắn nhất là bao nhiêu xăng-ti-mét?
+\shortans{3}
+\loigiai{
+Hiệu độ dài: $10 - 7 = 3$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một con sâu bò trên đoạn cành cây dài 12 cm, nó đã bò được 8 cm. Hỏi con sâu còn phải bò bao nhiêu xăng-ti-mét nữa để hết cành cây?
+\shortans{4}
+\loigiai{
+Còn phải bò: $12 - 8 = 4$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 6 cm, đoạn thẳng CD dài hơn đoạn thẳng AB là 3 cm. Độ dài đoạn thẳng CD là bao nhiêu xăng-ti-mét?
+\shortans{9}
+\loigiai{
+Độ dài đoạn CD: $6 + 3 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng MN dài 10 cm, đoạn thẳng PQ ngắn hơn đoạn thẳng MN là 4 cm. Độ dài đoạn thẳng PQ là bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+Độ dài đoạn PQ: $10 - 4 = 6$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Ghép hai đoạn que tính dài 4 cm và 5 cm thành một đoạn thẳng dài. Độ dài đoạn thẳng mới là bao nhiêu xăng-ti-mét?
+\shortans{9}
+\loigiai{
+Độ dài mới: $4 + 5 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Hai bạn cùng đo chiều dài bảng lớp bằng bước chân. Bạn An bước được 10 bước, bạn Bình bước được 8 bước. Bạn An bước nhiều hơn bạn Bình bao nhiêu bước?
+\shortans{2}
+\loigiai{
+Nhiều hơn: $10 - 8 = 2$ bước.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây thừng dài 18 mét, cắt đi một đoạn dài 6 mét. Sợi dây thừng còn lại dài bao nhiêu mét?
+\shortans{12}
+\loigiai{
+Còn lại: $18 - 6 = 12$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Cây bút chì màu dài 14 cm, sau khi gọt nhiều lần nó bị ngắn đi 4 cm. Cây bút chì hiện tại dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Hiện tại dài: $14 - 4 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp bút dài 20 cm, chiếc kéo dài 12 cm. Chiếc kéo ngắn hơn hộp bút bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Ngắn hơn: $20 - 12 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bé Na cao 90 cm, anh Nam cao 100 cm. Anh Nam cao hơn bé Na bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Anh Nam cao hơn: $100 - 90 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cột mốc thứ nhất cách điểm xuất phát 30 m, cột mốc thứ hai cách điểm xuất phát 70 m. Khoảng cách giữa hai cột mốc là bao nhiêu mét?
+\shortans{40}
+\loigiai{
+Khoảng cách là: $70 - 30 = 40$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây ruy băng đỏ dài 40 cm, sợi dây ruy băng trắng dài 50 cm. Cả hai sợi dây dài tất cả bao nhiêu xăng-ti-mét?
+\shortans{90}
+\loigiai{
+Cả hai sợi dài: $40 + 50 = 90$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Băng giấy A dài 15 cm, băng giấy B dài 10 cm. Băng giấy A dài hơn băng giấy B bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Dài hơn: $15 - 10 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn đường dài 80 mét, đội công nhân đã trải nhựa được 50 mét. Đội công nhân còn phải trải nhựa bao nhiêu mét nữa?
+\shortans{30}
+\loigiai{
+Còn phải trải: $80 - 50 = 30$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một cọc tiêu cao 100 cm, cắm xuống bùn mất 20 cm. Phần cọc tiêu nhô lên trên cao bao nhiêu xăng-ti-mét?
+\shortans{80}
+\loigiai{
+Nhô lên cao: $100 - 20 = 80$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cắt một sợi len dài 16 cm thành 2 đoạn bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Mỗi đoạn dài: $16 : 2 = 8$ cm.
+}
+\end{ex}

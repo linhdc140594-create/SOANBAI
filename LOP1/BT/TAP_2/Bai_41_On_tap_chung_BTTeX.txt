@@ -1,0 +1,199 @@
+\begin{ex}
+Số liền sau của số lớn nhất có hai chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số lớn nhất có 2 chữ số là 99. Số liền sau là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số 100 gồm mấy chữ số?
+\shortans{3}
+\loigiai{
+Số 100 có 3 chữ số.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 7 chục và 8 đơn vị là số nào?
+\shortans{78}
+\loigiai{
+Số đó là 78.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $53 + 24$.
+\shortans{77}
+\loigiai{
+Ta có $53 + 24 = 77$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $89 - 46$.
+\shortans{43}
+\loigiai{
+Ta có $89 - 46 = 43$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $62 + 5$.
+\shortans{67}
+\loigiai{
+Ta có $62 + 5 = 67$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $78 - 6$.
+\shortans{72}
+\loigiai{
+Ta có $78 - 6 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $30 + 50 - 20$.
+\shortans{60}
+\loigiai{
+Ta có $30 + 50 = 80$, rồi $80 - 20 = 60$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 + 32 - 14$.
+\shortans{63}
+\loigiai{
+Ta có $45 + 32 = 77$, rồi $77 - 14 = 63$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $36 + \dots = 79$.
+\shortans{43}
+\loigiai{
+Số cần điền là: $79 - 36 = 43$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $87 - \dots = 52$.
+\shortans{35}
+\loigiai{
+Số cần điền là: $87 - 52 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $64, 46, 81, 79$, số nào lớn nhất?
+\shortans{81}
+\loigiai{
+Số lớn nhất là 81.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $53, 35, 72, 27$, số nào bé nhất?
+\shortans{27}
+\loigiai{
+Số bé nhất là 27.
+}
+\end{ex}
+
+\begin{ex}
+Khối lập phương có bao nhiêu đỉnh?
+\shortans{8}
+\loigiai{
+Khối lập phương có 8 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Hình chữ nhật có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Có 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 10 giờ đúng. Kim ngắn chỉ vào số mấy?
+\shortans{10}
+\loigiai{
+Kim ngắn chỉ số 10.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 24 cm, đoạn thẳng CD ngắn hơn đoạn AB là 4 cm. Đoạn CD dài bao nhiêu xăng-ti-mét?
+\shortans{20}
+\loigiai{
+Đoạn CD dài: $24 - 4 = 20$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tổng độ dài hai đoạn AB và CD là bao nhiêu xăng-ti-mét?
+\shortans{44}
+\loigiai{
+Tổng độ dài: $24 + 20 = 44$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng có 85 chiếc xe đạp, đã bán được 53 chiếc. Cửa hàng còn lại bao nhiêu chiếc xe đạp?
+\shortans{32}
+\loigiai{
+Còn lại: $85 - 53 = 32$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 1A có 32 học sinh, lớp 1B có 36 học sinh. Cả hai lớp có tất cả bao nhiêu học sinh?
+\shortans{68}
+\loigiai{
+Cả hai lớp có: $32 + 36 = 68$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Một ngày có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục bé nhất có hai chữ số là số nào?
+\shortans{10}
+\loigiai{
+Số tròn chục bé nhất có 2 chữ số là 10.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục lớn nhất có hai chữ số là số nào?
+\shortans{90}
+\loigiai{
+Số tròn chục lớn nhất có 2 chữ số là 90.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $99 - 11 - 22 - 33$.
+\shortans{33}
+\loigiai{
+Ta có $99 - 11 = 88$, $88 - 22 = 66$, $66 - 33 = 33$.
+}
+\end{ex}

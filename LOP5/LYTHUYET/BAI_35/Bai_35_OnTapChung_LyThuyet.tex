@@ -1,0 +1,163 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 35. Ôn tập chung học kì 1 --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 35. ÔN TẬP CHUNG HỌC KÌ 1}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Tổng kết toàn bộ kiến thức Số học, Hình học và Giải toán có lời văn Học kì 1 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: MA TRẬN ĐỀ THI HỌC KÌ 1 ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faGraduationCap\ 1. Ma trận kiến thức trọng tâm Đề thi Học kì 1 Toán 5},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{ll}
+    $\bullet$ \textbf{1. Số học và STP (50\%):} & Cấu tạo STP, so sánh, làm tròn; Thực hiện $4$ phép tính cộng, trừ, nhân, chia STP; Tính nhanh.\\
+    $\bullet$ \textbf{2. Đo lường (20\%):} & Đổi các số đo độ dài, khối lượng, diện tích ($\text{km}^2, \text{ha}, \text{m}^2$) sang số thập phân và ngược lại.\\
+    $\bullet$ \textbf{3. Hình học phẳng (20\%):} & Chu vi, diện tích hình tam giác, hình thang, hình tròn; Bài toán thực tế lát nền, trồng hoa.\\
+    $\bullet$ \textbf{4. Giải toán có lời văn (10\%):} & Bài toán rút về đơn vị, tìm hai số khi biết Tổng-Tỉ, Hiệu-Tỉ, bài toán hình học đa bước.
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG TOÁN KẾT HỢP ĐIỂM 10 ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faStar\ 2. Dạng toán tìm $x$ nâng cao},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $(x \times 0,25 + 2024) \times 2025 = (10 + 2024) \times 2025$\\
+    $\triangleright$ Chia cả 2 vế cho $2025$:\\
+    \quad $x \times 0,25 + 2024 = 10 + 2024$\\
+    $\triangleright$ Cùng bớt $2024$ ở cả hai vế:\\
+    \quad $x \times 0,25 = 10 \Rightarrow x = 10 : 0,25 = 10 \times 4 = \mathbf{40}$.\\
+    Quan sát sự tương đồng giữa 2 vế để triệt tiêu nhanh!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faTrophy\ 3. Kỹ năng làm bài thi đạt điểm tối đa},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Trắc nghiệm}: Đọc kĩ đề, gạch chân từ khóa (tăng/giảm, lớn nhất/bé nhất, đơn vị).\\
+    $\bullet$ \textbf{Tự luận}: Trình bày sạch đẹp, có câu lời giải, phép tính kèm đơn vị trong ngoặc đơn, ghi rõ \textbf{Đáp số}.\\
+    $\bullet$ Dành 5 phút cuối giờ kiểm tra lại toàn bộ phép tính ngoài nháp.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TỔNG ÔN HỌC KÌ 1 ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Hệ thống hóa toàn bộ kiến thức Học kì 1},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0,0) {\faGraduationCap\ TOÁN 5 -- HỌC KÌ 1};
+    \node[b1] (n1) at (-5.3, 0.75) {\textbf{PHÂN SỐ:}\\[1.5pt]Rút gọn, quy đồng, 4 phép tính};
+    \node[b2] (n2) at (5.3, 0.75) {\textbf{SỐ THẬP PHÂN:}\\[1.5pt]Cấu tạo, so sánh, 4 phép tính};
+    \node[b3] (n3) at (-5.3, -0.75) {\textbf{ĐƠN VỊ ĐO:}\\[1.5pt]Độ dài, khối lượng, diện tích};
+    \node[b4] (n4) at (5.3, -0.75) {\textbf{HÌNH HỌC:}\\[1.5pt]Tam giác, hình thang, hình tròn};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -- (n1.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -- (n2.west);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -- (n3.east);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -- (n4.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: LỜI DẶN THẦY LĨNH & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faHeart\ Lời dặn dò từ Thầy Lĩnh},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Bình tĩnh, tự tin, làm câu dễ trước, câu khó sau.\\
+    $\bullet$ Luôn đặt tính ra nháp cẩn thận trước khi viết vào bài thi.\\
+    $\bullet$ Chú ý đơn vị đo và kiểm tra xem đáp số có hợp lý với thực tế không!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đọc kĩ đề: Yêu cầu tìm $x$ hay tìm giá trị biểu thức?\\
+    $\bullet$ Kiểm tra xem phép chia có dư dóng dấu phẩy đã thẳng hàng chưa!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $34 + 23$.
+\shortans{57}
+\loigiai{
+Ta có $34 + 23 = 57$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $78 - 45$.
+\shortans{33}
+\loigiai{
+Ta có $78 - 45 = 33$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $52 + 6$.
+\shortans{58}
+\loigiai{
+Ta có $52 + 6 = 58$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $89 - 7$.
+\shortans{82}
+\loigiai{
+Ta có $89 - 7 = 82$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40 + 35$.
+\shortans{75}
+\loigiai{
+Ta có $40 + 35 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $96 - 50$.
+\shortans{46}
+\loigiai{
+Ta có $96 - 50 = 46$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $24 + 13 - 12$.
+\shortans{25}
+\loigiai{
+Ta có $24 + 13 = 37$, rồi $37 - 12 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $68 - 34 + 21$.
+\shortans{55}
+\loigiai{
+Ta có $68 - 34 = 34$, rồi $34 + 21 = 55$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $45 + 32 - 40$.
+\shortans{37}
+\loigiai{
+Ta có $45 + 32 = 77$, rồi $77 - 40 = 37$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $99 - 55 - 22$.
+\shortans{22}
+\loigiai{
+Ta có $99 - 55 = 44$, rồi $44 - 22 = 22$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $31 + 42 = 20 + \dots$
+\shortans{53}
+\loigiai{
+Vế trái: $31 + 42 = 73$. Số cần điền: $73 - 20 = 53$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $87 - 35 = 70 - \dots$
+\shortans{18}
+\loigiai{
+Vế trái: $87 - 35 = 52$. Số cần điền: $70 - 52 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $46 + \dots = 89$.
+\shortans{43}
+\loigiai{
+Số cần điền là: $89 - 46 = 43$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $75 - \dots = 31$.
+\shortans{44}
+\loigiai{
+Số cần điền là: $75 - 31 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Một trường tiểu học có 54 bạn học sinh nam và 42 bạn học sinh nữ tham gia hội khỏe Phù Đổng. Hỏi có tất cả bao nhiêu học sinh tham gia?
+\shortans{96}
+\loigiai{
+Tổng số học sinh: $54 + 42 = 96$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Vườn hoa của trường có 88 bông hoa cúc, các bạn học sinh đã hái 35 bông để trang trí lớp học. Hỏi trên vườn hoa còn lại bao nhiêu bông hoa cúc?
+\shortans{53}
+\loigiai{
+Còn lại: $88 - 35 = 53$ bông.
+}
+\end{ex}
+
+\begin{ex}
+Kho thóc thứ nhất có 45 bao thóc, kho thóc thứ hai có 50 bao thóc. Cả hai kho có tất cả bao nhiêu bao thóc?
+\shortans{95}
+\loigiai{
+Cả hai kho có: $45 + 50 = 95$ bao.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 69 con vịt, bác bán bớt 26 con. Bác còn lại bao nhiêu con vịt?
+\shortans{43}
+\loigiai{
+Bác còn lại: $69 - 26 = 43$ con vịt.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có tổng bằng 78, số thứ nhất là 34. Số thứ hai là bao nhiêu?
+\shortans{44}
+\loigiai{
+Số thứ hai là: $78 - 34 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có hiệu bằng 25, số trừ là 42. Số bị trừ là bao nhiêu?
+\shortans{67}
+\loigiai{
+Số bị trừ là: $25 + 42 = 67$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có hiệu bằng 31, số bị trừ là 85. Số trừ là bao nhiêu?
+\shortans{54}
+\loigiai{
+Số trừ là: $85 - 31 = 54$.
+}
+\end{ex}
+
+\begin{ex}
+Một xe buýt có 38 hành khách, đến điểm dừng có 14 người xuống xe và không có ai lên xe. Hỏi trên xe còn lại bao nhiêu hành khách?
+\shortans{24}
+\loigiai{
+Trên xe còn lại: $38 - 14 = 24$ hành khách.
+}
+\end{ex}
+
+\begin{ex}
+Mai có 23 cái nhãn vở, Hà có 35 cái nhãn vở. Cả hai bạn có bao nhiêu cái nhãn vở?
+\shortans{58}
+\loigiai{
+Cả hai bạn có: $23 + 35 = 58$ cái nhãn vở.
+}
+\end{ex}
+
+\begin{ex}
+Hà có nhiều hơn Mai bao nhiêu cái nhãn vở?
+\shortans{12}
+\loigiai{
+Hà nhiều hơn Mai: $35 - 23 = 12$ cái nhãn vở.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 + 22 + 33 + 11$.
+\shortans{77}
+\loigiai{
+Ta có $11 + 22 = 33$, $33 + 33 = 66$, $66 + 11 = 77$.
+}
+\end{ex}

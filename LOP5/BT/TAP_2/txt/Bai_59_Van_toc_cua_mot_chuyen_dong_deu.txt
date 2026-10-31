@@ -1,0 +1,176 @@
+=== BÀI 59: VẬN TỐC CỦA MỘT CHUYỂN ĐỘNG ĐỀU ===
+
+Câu 1: Một người đi xe máy đi được quãng đường 120\text{ km} trong 3 giờ. Vận tốc của người đó là bao nhiêu km/h?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+120 : 3 = 40\text{ km/h}.
+
+----------------------------------------
+
+Câu 2: Một ô tô đi được 180\text{ km} trong 4 giờ. Vận tốc của ô tô là bao nhiêu km/h?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+180 : 4 = 45\text{ km/h}.
+
+----------------------------------------
+
+Câu 3: Một người chạy cự li 100\text{ m} trong 10 giây. Vận tốc của người đó là bao nhiêu m/s?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+100 : 10 = 10\text{ m/s}.
+
+----------------------------------------
+
+Câu 4: Một người đi bộ đi được 10{,}5\text{ km} trong 2{,}5 giờ. Vận tốc của người đi bộ nhân với 10 là bao nhiêu?
+Đáp án: [shortans]42[/shortans]
+Lời giải chi tiết:
+10{,}5 : 2{,}5 = 4{,}2\text{ km/h}. Nhân 10 được 42.
+
+----------------------------------------
+
+Câu 5: Một con chim sẻ bay quãng đường 90\text{ km} trong 1{,}5 giờ. Vận tốc chim sẻ là bao nhiêu km/h?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+90 : 1{,}5 = 60\text{ km/h}.
+
+----------------------------------------
+
+Câu 6: Một máy bay bay được 1 800\text{ km} trong 2 giờ 30 phút (2{,}5 giờ). Vận tốc máy bay là bao nhiêu km/h?
+Đáp án: [shortans]720[/shortans]
+Lời giải chi tiết:
+1 800 : 2{,}5 = 720\text{ km/h}.
+
+----------------------------------------
+
+Câu 7: Một xe lửa đi quãng đường 105\text{ km} hết 1\text{ giờ } 45\text{ phút} (1{,}75 giờ). Vận tốc của xe lửa là bao nhiêu km/h?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+105 : 1{,}75 = 60\text{ km/h}.
+
+----------------------------------------
+
+Câu 8: Một người bơi cự li 200\text{ m} hết 4 phút. Vận tốc bơi của người đó là bao nhiêu m/phút?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+200 : 4 = 50\text{ m/phút}.
+
+----------------------------------------
+
+Câu 9: Một người đi xe đạp đi được 36\text{ km} trong 3 giờ. Vận tốc xe đạp là bao nhiêu km/h?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+36 : 3 = 12\text{ km/h}.
+
+----------------------------------------
+
+Câu 10: Đổi vận tốc 36\text{ km/h} ra m/s được bao nhiêu m/s?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+36 000\text{ m} : 3 600\text{ s} = 10\text{ m/s}.
+
+----------------------------------------
+
+Câu 11: Đổi vận tốc 54\text{ km/h} ra m/s được bao nhiêu m/s?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+54 000 : 3 600 = 15\text{ m/s}.
+
+----------------------------------------
+
+Câu 12: Đổi vận tốc 72\text{ km/h} ra m/s được bao nhiêu m/s?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+72 000 : 3 600 = 20\text{ m/s}.
+
+----------------------------------------
+
+Câu 13: Một con đà điểu chạy quãng đường 3 150\text{ m} trong 3 phút. Vận tốc của đà điểu là bao nhiêu m/phút?
+Đáp án: [shortans]1050[/shortans]
+Lời giải chi tiết:
+3 150 : 3 = 1 050\text{ m/phút}.
+
+----------------------------------------
+
+Câu 14: Một con rùa bò quãng đường 12\text{ m} trong 4 phút. Vận tốc của rùa là bao nhiêu m/phút?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+12 : 4 = 3\text{ m/phút}.
+
+----------------------------------------
+
+Câu 15: Một người đi xe buýt khởi hành lúc 7\text{ giờ} và đến nơi lúc 8\text{ giờ } 30\text{ phút}. Quãng đường dài 45\text{ km}. Vận tốc của xe buýt là bao nhiêu km/h?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Thời gian đi: 1{,}5 giờ. Vận tốc: 45 : 1{,}5 = 30\text{ km/h}.
+
+----------------------------------------
+
+Câu 16: Một ca nô xuôi dòng quãng đường 60\text{ km} hết 2 giờ. Vận tốc xuôi dòng của ca nô là bao nhiêu km/h?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+60 : 2 = 30\text{ km/h}.
+
+----------------------------------------
+
+Câu 17: Một xe chở hàng đi quãng đường 210\text{ km} hết 3 giờ 30 phút. Vận tốc của xe là bao nhiêu km/h?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+210 : 3{,}5 = 60\text{ km/h}.
+
+----------------------------------------
+
+Câu 18: Một xe khách chạy quãng đường 250\text{ km} hết 5 giờ. Vận tốc của xe khách là bao nhiêu km/h?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+250 : 5 = 50\text{ km/h}.
+
+----------------------------------------
+
+Câu 19: Một vận động viên đạp xe 15\text{ km} trong 30 phút (0{,}5 giờ). Vận tốc đạp xe là bao nhiêu km/h?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+15 : 0{,}5 = 30\text{ km/h}.
+
+----------------------------------------
+
+Câu 20: Bác Bình đi bộ quãng đường 6\text{ km} trong 1\text{ giờ } 12\text{ phút} (1{,}2 giờ). Vận tốc của bác Bình là bao nhiêu km/h?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+6 : 1{,}2 = 5\text{ km/h}.
+
+----------------------------------------
+
+Câu 21: Vận tốc ánh sáng xấp xỉ 300 000\text{ km/s}. Trong 2 giây ánh sáng truyền đi được bao nhiêu nghìn ki-lô-mét?
+Đáp án: [shortans]600[/shortans]
+Lời giải chi tiết:
+300 x 2 = 600 nghìn km.
+
+----------------------------------------
+
+Câu 22: Một tàu thủy đi được 96\text{ km} trong 3 giờ. Vận tốc của tàu thủy là bao nhiêu km/h?
+Đáp án: [shortans]32[/shortans]
+Lời giải chi tiết:
+96 : 3 = 32\text{ km/h}.
+
+----------------------------------------
+
+Câu 23: Một chiếc ca nô chạy 42\text{ km} trong 1 giờ 45 phút (1{,}75 giờ). Vận tốc của ca nô là bao nhiêu km/h?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+42 : 1{,}75 = 24\text{ km/h}.
+
+----------------------------------------
+
+Câu 24: Một người đi bộ 1 phút được 75\text{ m}. Trong 1 giờ người đó đi được bao nhiêu mét?
+Đáp án: [shortans]4500[/shortans]
+Lời giải chi tiết:
+75 x 60 = 4 500\text{ m}.
+
+----------------------------------------
+
+Câu 25: Một con cá heo bơi quãng đường 72\text{ km} trong 2 giờ. Vận tốc cá heo là bao nhiêu km/h?
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+72 : 2 = 36\text{ km/h}.
+
+----------------------------------------

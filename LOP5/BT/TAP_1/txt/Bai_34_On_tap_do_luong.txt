@@ -1,0 +1,176 @@
+=== BÀI 34: ÔN TẬP ĐO LƯỜNG ===
+
+Câu 1: Một ki-lô-mét bằng bao nhiêu mét?
+Đáp án: [shortans]1000[/shortans]
+Lời giải chi tiết:
+1\text{ km} = 1 000\text{ m}.
+
+----------------------------------------
+
+Câu 2: Một mét bằng bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+1\text{ m} = 100\text{ cm}.
+
+----------------------------------------
+
+Câu 3: Một tấn bằng bao nhiêu ki-lô-gam?
+Đáp án: [shortans]1000[/shortans]
+Lời giải chi tiết:
+1\text{ tấn} = 1 000\text{ kg}.
+
+----------------------------------------
+
+Câu 4: Một tạ bằng bao nhiêu yến?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+1\text{ tạ} = 10\text{ yến}.
+
+----------------------------------------
+
+Câu 5: Một héc-ta bằng bao nhiêu mét vuông?
+Đáp án: [shortans]10000[/shortans]
+Lời giải chi tiết:
+1\text{ ha} = 10 000\text{ m}^2.
+
+----------------------------------------
+
+Câu 6: Một ki-lô-mét vuông bằng bao nhiêu héc-ta?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+1\text{ km}^2 = 100\text{ ha}.
+
+----------------------------------------
+
+Câu 7: Đổi 3\text{ km } 25\text{ m} thành bao nhiêu mét?
+Đáp án: [shortans]3025[/shortans]
+Lời giải chi tiết:
+3 000 + 25 = 3 025\text{ m}.
+
+----------------------------------------
+
+Câu 8: Đổi 4\text{ tấn } 5\text{ tạ} thành bao nhiêu tạ?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+40 + 5 = 45\text{ tạ}.
+
+----------------------------------------
+
+Câu 9: Đổi 2\text{ tạ } 50\text{ kg} thành bao nhiêu ki-lô-gam?
+Đáp án: [shortans]250[/shortans]
+Lời giải chi tiết:
+200 + 50 = 250\text{ kg}.
+
+----------------------------------------
+
+Câu 10: Đổi 5\text{ m}^2\text{ } 45\text{ dm}^2 thành bao nhiêu đề-xi-mét vuông?
+Đáp án: [shortans]545[/shortans]
+Lời giải chi tiết:
+500 + 45 = 545\text{ dm}^2.
+
+----------------------------------------
+
+Câu 11: Đổi 8\text{ dm}^2\text{ } 6\text{ cm}^2 thành bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]806[/shortans]
+Lời giải chi tiết:
+800 + 6 = 806\text{ cm}^2.
+
+----------------------------------------
+
+Câu 12: Đổi 2\text{ giờ } 15\text{ phút} thành bao nhiêu phút?
+Đáp án: [shortans]135[/shortans]
+Lời giải chi tiết:
+120 + 15 = 135\text{ phút}.
+
+----------------------------------------
+
+Câu 13: Đổi 3\text{ phút } 40\text{ giây} thành bao nhiêu giây?
+Đáp án: [shortans]220[/shortans]
+Lời giải chi tiết:
+180 + 40 = 220\text{ giây}.
+
+----------------------------------------
+
+Câu 14: Một ngày đêm có bao nhiêu giờ?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+Một ngày đêm có 24 giờ.
+
+----------------------------------------
+
+Câu 15: Một năm không nhuận có bao nhiêu ngày?
+Đáp án: [shortans]365[/shortans]
+Lời giải chi tiết:
+Năm không nhuận có 365 ngày.
+
+----------------------------------------
+
+Câu 16: Một năm nhuận có bao nhiêu ngày?
+Đáp án: [shortans]366[/shortans]
+Lời giải chi tiết:
+Năm nhuận có 366 ngày.
+
+----------------------------------------
+
+Câu 17: Thế kỉ thứ XXI bắt đầu từ năm 2001. Thế kỉ này có bao nhiêu năm?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Mỗi thế kỉ có 100 năm.
+
+----------------------------------------
+
+Câu 18: Một con voi cân nặng khoảng 3 tấn. Con voi đó nặng bao nhiêu tạ?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+3\text{ tấn} = 30\text{ tạ}.
+
+----------------------------------------
+
+Câu 19: Một bao xi măng nặng 50\text{ kg}. Hỏi 20 bao xi măng như thế nặng bao nhiêu tấn?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+50 x 20 = 1 000\text{ kg} = 1\text{ tấn}.
+
+----------------------------------------
+
+Câu 20: Đổi 4{,}5\text{ m} thành bao nhiêu đề-xi-mét?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+4{,}5 x 10 = 45\text{ dm}.
+
+----------------------------------------
+
+Câu 21: Đổi 2{,}75\text{ kg} thành bao nhiêu gam?
+Đáp án: [shortans]2750[/shortans]
+Lời giải chi tiết:
+2{,}75 x 1 000 = 2 750\text{ g}.
+
+----------------------------------------
+
+Câu 22: Đổi 0{,}5\text{ ha} thành bao nhiêu mét vuông?
+Đáp án: [shortans]5000[/shortans]
+Lời giải chi tiết:
+0{,}5 x 10 000 = 5 000\text{ m}^2.
+
+----------------------------------------
+
+Câu 23: Một người đi bộ với vận tốc 4\text{ km/h}. Trong 15 phút người đó đi được bao nhiêu mét?
+Đáp án: [shortans]1000[/shortans]
+Lời giải chi tiết:
+15\text{ phút} = \frac{1}{4}\text{ giờ}. Quãng đường: 4 x \frac{1}{4} = 1\text{ km} = 1 000\text{ m}.
+
+----------------------------------------
+
+Câu 24: Một bình chứa 1{,}5 lít nước ngọt. Rót đều vào các cốc 250\text{ ml}. Rót được bao nhiêu cốc?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+1 500 : 250 = 6 cốc.
+
+----------------------------------------
+
+Câu 25: Một bể chứa nước có thể tích 3\text{ m}^3. Bể đó chứa được tối đa bao nhiêu nghìn lít nước (biết 1\text{ dm}^3 = 1\text{ l})?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+3\text{ m}^3 = 3 000 lít = 3 nghìn lít.
+
+----------------------------------------

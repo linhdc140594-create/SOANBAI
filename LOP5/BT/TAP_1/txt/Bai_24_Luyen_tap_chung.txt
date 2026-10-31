@@ -1,0 +1,176 @@
+=== BÀI 24: LUYỆN TẬP CHUNG ===
+
+Câu 1: Tính giá trị biểu thức: 12{,}5 x 4 - 35 : 0{,}7.
+Đáp án: [shortans]0[/shortans]
+Lời giải chi tiết:
+12{,}5 x 4 = 50; 35 : 0{,}7 = 50. 50 - 50 = 0.
+
+----------------------------------------
+
+Câu 2: Tính giá trị biểu thức: (45{,}8 + 14{,}2) : 2{,}5.
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+60 : 2{,}5 = 24.
+
+----------------------------------------
+
+Câu 3: Tính nhanh: 4{,}5 x 36 + 4{,}5 x 64.
+Đáp án: [shortans]450[/shortans]
+Lời giải chi tiết:
+4{,}5 x 100 = 450.
+
+----------------------------------------
+
+Câu 4: Tính nhanh: 12{,}8 x 75 - 12{,}8 x 65.
+Đáp án: [shortans]128[/shortans]
+Lời giải chi tiết:
+12{,}8 x 10 = 128.
+
+----------------------------------------
+
+Câu 5: Tìm x biết: x x 3{,}5 = 140.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+x = 140 : 3{,}5 = 40.
+
+----------------------------------------
+
+Câu 6: Tìm x biết: x : 1{,}25 = 16.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+x = 16 x 1{,}25 = 20.
+
+----------------------------------------
+
+Câu 7: Một hình chữ nhật có chu vi 30\text{ m}, chiều dài hơn chiều rộng 3\text{ m}. Diện tích hình chữ nhật là bao nhiêu mét vuông? (Nhân 4 lên: hoặc số đẹp)
+Đáp án: [shortans]54[/shortans]
+Lời giải chi tiết:
+Nửa chu vi là 15. Chiều dài là (15 + 3) : 2 = 9\text{ m}. Chiều rộng là 6 m. Diện tích là 9 x 6 = 54\text{ m}^2.
+
+----------------------------------------
+
+Câu 8: Mua 5\text{ m} vải hết 125 000 đồng. Hỏi mua 8\text{ m} vải như thế hết bao nhiêu nghìn đồng?
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+1 m hết 125 : 5 = 25 nghìn. 8 m hết 25 x 8 = 200 nghìn đồng.
+
+----------------------------------------
+
+Câu 9: Một người đi xe máy trong 2{,}5\text{ giờ} đi được 100\text{ km}. Hỏi vận tốc xe máy là bao nhiêu km/h?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+100 : 2{,}5 = 40\text{ km/h}.
+
+----------------------------------------
+
+Câu 10: Một mảnh đất hình chữ nhật có diện tích 120\text{ m}^2, chiều rộng 7{,}5\text{ m}. Chiều dài mảnh đất là bao nhiêu mét?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+Chiều dài là: 120 : 7{,}5 = 16\text{ m}.
+
+----------------------------------------
+
+Câu 11: Tính giá trị biểu thức: 100 - (15{,}5 + 24{,}5) x 2.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+100 - 40 x 2 = 100 - 80 = 20.
+
+----------------------------------------
+
+Câu 12: Tính nhanh: 2{,}5 x 8 x 5.
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+20 x 5 = 100.
+
+----------------------------------------
+
+Câu 13: Một thùng dầu có 50 lít. Người ta lấy ra 3 lần, mỗi lần 12{,}5 lít. Trong thùng còn lại bao nhiêu lít dầu? (Nhân đôi số dầu còn lại).
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+Lấy ra: 12{,}5 x 3 = 37{,}5 lít. Còn lại: 50 - 37{,}5 = 12{,}5 lít. Nhân đôi: 25.
+
+----------------------------------------
+
+Câu 14: Một xe ô tô chở 25 bao gạo, mỗi bao cân nặng 40{,}4\text{ kg}. Tổng khối lượng gạo xe chở là bao nhiêu ki-lô-gam?
+Đáp án: [shortans]1010[/shortans]
+Lời giải chi tiết:
+25 x 40{,}4 = 1 010\text{ kg}.
+
+----------------------------------------
+
+Câu 15: Một công nhân trong 4 ngày dệt được 72\text{ m} vải. Hỏi trong 6{,}5 ngày người đó dệt được bao nhiêu mét vải?
+Đáp án: [shortans]117[/shortans]
+Lời giải chi tiết:
+1 ngày dệt 72 : 4 = 18\text{ m}. Trong 6{,}5 ngày dệt: 18 x 6{,}5 = 117\text{ m}.
+
+----------------------------------------
+
+Câu 16: Tính giá trị: (2{,}4 x 5) + (3{,}6 : 0{,}2).
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+12 + 18 = 30.
+
+----------------------------------------
+
+Câu 17: Tìm số tự nhiên a biết: a : 0{,}5 + a : 0{,}2 = 70.
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+2a + 5a = 70 \implies 7a = 70 \implies a = 10.
+
+----------------------------------------
+
+Câu 18: Một can dầu hỏa nặng 12\text{ kg}. Sau khi dùng hết nửa lượng dầu thì can còn nặng 6{,}5\text{ kg}. Khối lượng vỏ can là bao nhiêu ki-lô-gam?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+Nửa lượng dầu nặng: 12 - 6{,}5 = 5{,}5\text{ kg}. Cả lượng dầu nặng: 5{,}5 x 2 = 11\text{ kg}. Vỏ can nặng: 12 - 11 = 1\text{ kg}.
+
+----------------------------------------
+
+Câu 19: Tính: 1{,}25 x 4 x 1{,}25 x 4.
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+5 x 5 = 25.
+
+----------------------------------------
+
+Câu 20: Một hình vuông có cạnh 3{,}5\text{ m}. Chu vi hình vuông đó là bao nhiêu mét?
+Đáp án: [shortans]14[/shortans]
+Lời giải chi tiết:
+Chu vi là 3{,}5 x 4 = 14\text{ m}.
+
+----------------------------------------
+
+Câu 21: Một tam giác có diện tích 45\text{ cm}^2, đáy dài 10\text{ cm}. Chiều cao tương ứng là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Chiều cao là (45 x 2) : 10 = 9\text{ cm}.
+
+----------------------------------------
+
+Câu 22: Tính nhanh: 0{,}4 x 370 + 0{,}4 x 630.
+Đáp án: [shortans]400[/shortans]
+Lời giải chi tiết:
+0{,}4 x 1 000 = 400.
+
+----------------------------------------
+
+Câu 23: Một cửa hàng bán được 45 chai nước giặt loại 1{,}8 lít. Tổng số lít nước giặt đã bán là bao nhiêu lít?
+Đáp án: [shortans]81[/shortans]
+Lời giải chi tiết:
+45 x 1{,}8 = 81 lít.
+
+----------------------------------------
+
+Câu 24: Tìm số tự nhiên x biết 15{,}4 < x x 3 < 20{,}5.
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+5{,}13 < x < 6{,}83. Số tự nhiên duy nhất là 6.
+
+----------------------------------------
+
+Câu 25: Khi nhân một số với 2{,}5, một bạn đã nhân nhầm với 25 nên được kết quả là 150. Kết quả đúng của phép tính là bao nhiêu?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Số đó là 150 : 25 = 6. Kết quả đúng là 6 x 2{,}5 = 15.
+
+----------------------------------------

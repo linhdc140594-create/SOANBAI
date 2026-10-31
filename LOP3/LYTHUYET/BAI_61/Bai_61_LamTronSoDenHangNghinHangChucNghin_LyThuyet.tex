@@ -1,0 +1,167 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{teal}\faBook\ SỔ TAY KIẾN THỨC TOÁN 3}
+\fancyhead[R]{\small\bfseries\color{teal}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 61. Làm tròn số đến hàng nghìn, hàng chục nghìn --}
+
+\definecolor{primary}{HTML}{005F73}
+\definecolor{secondary}{HTML}{0A9396}
+\definecolor{accent}{HTML}{EE9B00}
+\definecolor{danger}{HTML}{AE2012}
+\definecolor{boxbg}{HTML}{F4F6F8}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,
+  colframe=primary,
+  arc=3mm,
+  boxrule=1.2pt,
+  left=4mm, right=4mm, top=2.5mm, bottom=2.5mm,
+  drop shadow=black!10!white
+]
+  \centering
+  {\Large\bfseries\color{primary}\faBookmark\ BÀI 61: LÀM TRÒN SỐ ĐẾN HÀNG NGHÌN, CHỤC NGHÌN}\\[1.5mm]
+  {\small\itshape\color{black!75}Quy tắc mốc 5 mở rộng: Xét chữ số liền sau hàng làm tròn để quyết định làm tròn lên hay làm tròn xuống trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=blue!4!white,
+  colframe=blue!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Làm tròn đến hàng nghìn}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Ta quan sát chữ số \textbf{hàng trăm} (liền kề sau hàng nghìn):
+  \item Nếu chữ số hàng trăm là $0, 1, 2, 3, 4$ ($< 5$):\\
+  $\implies$ \textbf{Làm tròn xuống} (giữ nguyên hàng nghìn, thay các hàng trăm, chục, đơn vị bằng số $0$).
+  \item Nếu chữ số hàng trăm là $5, 6, 7, 8, 9$ ($\ge 5$):\\
+  $\implies$ \textbf{Làm tròn lên} (tăng hàng nghìn thêm $1$, thay các hàng sau bằng số $0$).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Làm tròn đến hàng chục nghìn}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item Ta quan sát chữ số \textbf{hàng nghìn} (liền kề sau hàng chục nghìn):
+  \item Nếu chữ số hàng nghìn là $0, 1, 2, 3, 4$ ($< 5$):\\
+  $\implies$ \textbf{Làm tròn xuống} (giữ nguyên hàng chục nghìn, thay 4 hàng sau bằng số $0$).
+  \item Nếu chữ số hàng nghìn là $5, 6, 7, 8, 9$ ($\ge 5$):\\
+  $\implies$ \textbf{Làm tròn lên} (tăng hàng chục nghìn thêm $1$, thay 4 hàng sau bằng số $0$).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-2.5mm}
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: QUY TẮC MỐC 5 ĐỐI CHIẾU 2 CẤP ĐỘ LÀM TRÒN}
+]
+\centering
+\begin{tikzpicture}[
+  box/.style={draw, rounded corners=2pt, align=center, font=\scriptsize\bfseries, inner sep=2.5pt, minimum height=0.75cm},
+  arr/.style={-{Stealth[length=2mm]}, thick}
+]
+  \node[box, fill=purple!15, draw=purple!80!black, text width=2.8cm] (r1) at (0, 0) {LÀM TRÒN ĐẾN\\HÀNG NGHÌN\\$\implies$ Quan sát HÀNG TRĂM};
+  \node[box, fill=teal!15, draw=teal!80!black, text width=3.2cm] (r2) at (4.6, 0.7) {HÀNG TRĂM $< 5$\\Làm tròn xuống\\Giữ nguyên nghìn, viết $000$};
+  \node[box, fill=orange!15, draw=orange!80!black, text width=3.2cm] (r3) at (4.6, -0.7) {HÀNG TRĂM $\ge 5$\\Làm tròn lên\\Tăng nghìn thêm $1$, viết $000$};
+  \node[box, fill=blue!12, draw=blue!80!black, text width=3.0cm] (r4) at (9.8, 0) {LÀM TRÒN ĐẾN\\HÀNG CHỤC NGHÌN\\$\implies$ Quan sát HÀNG NGHÌN};
+
+  \draw[arr, teal!80!black] (r1) -- (r2);
+  \draw[arr, orange!80!black] (r1) -- (r3);
+  \draw[arr, blue!80!black] (r2) -- (r4);
+  \draw[arr, blue!80!black] (r3) -- (r4);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-2.5mm}
+% --- KHỐI 4: VÍ DỤ & MẸO TRÁNH BẪY ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Làm tròn đến hàng nghìn:}\\
+-- $24\,380 \to \mathbf{24\,000}$ (hàng trăm là $3 < 5$).\\
+-- $56\,720 \to \mathbf{57\,000}$ (hàng trăm là $7 \ge 5$).\\
+-- $89\,500 \to \mathbf{90\,000}$ (hàng trăm là $5 \ge 5$).\\
+\textbf{2. Làm tròn đến hàng chục nghìn:}\\
+-- $32\,600 \to \mathbf{30\,000}$ (hàng nghìn là $2 < 5$).\\
+-- $78\,400 \to \mathbf{80\,000}$ (hàng nghìn là $8 \ge 5$).\\
+-- $95\,000 \to \mathbf{100\,000}$ (hàng nghìn là $5 \ge 5$).
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Bẫy nhìn nhầm hàng liền kề:}\\
+  Làm tròn đến hàng chục nghìn thì chỉ nhìn vào chữ số \textbf{hàng nghìn}! Không nhìn vào hàng trăm hay hàng đơn vị (dù hàng trăm là $9$).
+  \item Ví dụ: $34\,999$ làm tròn đến hàng chục nghìn: hàng nghìn là $4 < 5 \implies \mathbf{30\,000}$ (không phải $40\,000$).
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

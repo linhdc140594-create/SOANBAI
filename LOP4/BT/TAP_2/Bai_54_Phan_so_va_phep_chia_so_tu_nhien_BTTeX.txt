@@ -1,0 +1,199 @@
+\begin{ex}
+Viết thương của phép chia $2 : 3$ dưới dạng phân số.
+\shortans{2/3}
+\loigiai{
+$2 : 3 = \frac{2}{3}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết thương của phép chia $4 : 5$ dưới dạng phân số.
+\shortans{4/5}
+\loigiai{
+$4 : 5 = \frac{4}{5}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết thương của phép chia $7 : 9$ dưới dạng phân số.
+\shortans{7/9}
+\loigiai{
+$7 : 9 = \frac{7}{9}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết thương của phép chia $9 : 4$ dưới dạng phân số.
+\shortans{9/4}
+\loigiai{
+$9 : 4 = \frac{9}{4}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết số tự nhiên 5 dưới dạng phân số có mẫu số bằng 1.
+\shortans{5/1}
+\loigiai{
+$5 = \frac{5}{1}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết số tự nhiên 12 dưới dạng phân số có mẫu số bằng 1.
+\shortans{12/1}
+\loigiai{
+$12 = \frac{12}{1}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết số tự nhiên 1 dưới dạng phân số có tử số bằng 8.
+\shortans{8/8}
+\loigiai{
+$1 = \frac{8}{8}$.
+}
+\end{ex}
+
+\begin{ex}
+Viết số tự nhiên 0 dưới dạng phân số có mẫu số bằng 6.
+\shortans{0/6}
+\loigiai{
+$0 = \frac{0}{6}$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{12}{3}$ có giá trị bằng số tự nhiên nào?
+\shortans{4}
+\loigiai{
+$12 : 3 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{35}{5}$ có giá trị bằng số tự nhiên nào?
+\shortans{7}
+\loigiai{
+$35 : 5 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{48}{6}$ có giá trị bằng số tự nhiên nào?
+\shortans{8}
+\loigiai{
+$48 : 6 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{72}{8}$ có giá trị bằng số tự nhiên nào?
+\shortans{9}
+\loigiai{
+$72 : 8 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Có 3 cái bánh chia đều cho 4 bạn. Mỗi bạn được bao nhiêu phần cái bánh?
+\shortans{3/4}
+\loigiai{
+Mỗi bạn được $\frac{3}{4}$ cái bánh.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 lít nước chia đều vào 6 chai. Mỗi chai chứa bao nhiêu lít nước?
+\shortans{5/6}
+\loigiai{
+Mỗi chai chứa $\frac{5}{6}$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Có 7 kg đường chia đều vào 8 túi. Mỗi túi chứa bao nhiêu ki-lô-gam đường?
+\shortans{7/8}
+\loigiai{
+Mỗi túi chứa $\frac{7}{8}$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Chia đều 9 m vải thành 5 đoạn bằng nhau. Mỗi đoạn dài bao nhiêu mét?
+\shortans{9/5}
+\loigiai{
+Mỗi đoạn dài $\frac{9}{5}$ m.
+}
+\end{ex}
+
+\begin{ex}
+Trong các phân số $\frac{3}{4}, \frac{5}{5}, \frac{7}{6}, \frac{8}{9}$, phân số nào bằng 1?
+\shortans{5/5}
+\loigiai{
+Phân số $\frac{5}{5} = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các phân số trên, có bao nhiêu phân số bé hơn 1?
+\shortans{2}
+\loigiai{
+$\frac{3}{4}$ và $\frac{8}{9}$ (có 2 phân số).
+}
+\end{ex}
+
+\begin{ex}
+Trong các phân số trên, có bao nhiêu phân số lớn hơn 1?
+\shortans{1}
+\loigiai{
+$\frac{7}{6}$ (có 1 phân số).
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên $x$ biết: $\frac{x}{7} = 1$.
+\shortans{7}
+\loigiai{
+$x = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên $x$ biết: $\frac{x}{5} = 4$.
+\shortans{20}
+\loigiai{
+$x = 4 \times 5 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên $y$ biết: $\frac{18}{y} = 6$.
+\shortans{3}
+\loigiai{
+$y = 18 : 6 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Mọi số tự nhiên đều có thể viết dưới dạng phân số có mẫu số bằng mấy?
+\shortans{1}
+\loigiai{
+Mẫu số bằng 1.
+}
+\end{ex}
+
+\begin{ex}
+Phép chia $0 : 9$ viết dưới dạng phân số là bao nhiêu?
+\shortans{0/9}
+\loigiai{
+$\frac{0}{9}$.
+}
+\end{ex}
+
+\begin{ex}
+Thương của phép chia số tự nhiên cho số tự nhiên khác 0 luôn viết được dưới dạng gì? (Phân số ghi 1, số thập phân ghi 2).
+\shortans{1}
+\loigiai{
+Phân số (1).
+}
+\end{ex}

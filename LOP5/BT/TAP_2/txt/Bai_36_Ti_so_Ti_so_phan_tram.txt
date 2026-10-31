@@ -1,0 +1,176 @@
+=== BÀI 36: TỈ SỐ. TỈ SỐ PHẦN TRĂM ===
+
+Câu 1: Trong lớp có 15 bạn nam và 20 bạn nữ. Tỉ số của số bạn nam và số bạn nữ khi rút gọn có mẫu số là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+\frac{15}{20} = \frac{3}{4}. Mẫu số là 4.
+
+----------------------------------------
+
+Câu 2: Ở câu trên, tỉ số của số bạn nữ và số bạn nam khi rút gọn có tử số là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+\frac{20}{15} = \frac{4}{3}. Tử số là 4.
+
+----------------------------------------
+
+Câu 3: Viết tỉ số \frac{3}{4} dưới dạng tỉ số phần trăm là bao nhiêu phần trăm?
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+\frac{3}{4} = 75\%.
+
+----------------------------------------
+
+Câu 4: Viết tỉ số \frac{1}{2} dưới dạng tỉ số phần trăm là bao nhiêu phần trăm?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+\frac{1}{2} = 50\%.
+
+----------------------------------------
+
+Câu 5: Viết tỉ số \frac{2}{5} dưới dạng tỉ số phần trăm là bao nhiêu phần trăm?
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+\frac{2}{5} = 40\%.
+
+----------------------------------------
+
+Câu 6: Viết tỉ số \frac{7}{10} dưới dạng tỉ số phần trăm là bao nhiêu phần trăm?
+Đáp án: [shortans]70[/shortans]
+Lời giải chi tiết:
+\frac{7}{10} = 70\%.
+
+----------------------------------------
+
+Câu 7: Viết tỉ số \frac{1}{4} dưới dạng tỉ số phần trăm là bao nhiêu phần trăm?
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+\frac{1}{4} = 25\%.
+
+----------------------------------------
+
+Câu 8: Viết số 1 dưới dạng tỉ số phần trăm là bao nhiêu phần trăm?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+1 = 100\%.
+
+----------------------------------------
+
+Câu 9: Một tổ sản xuất có kế hoạch làm 200 sản phẩm nhưng đã làm được 240 sản phẩm. Tổ đó đã thực hiện được bao nhiêu phần trăm kế hoạch?
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+(240 : 200) x 100\% = 120\%.
+
+----------------------------------------
+
+Câu 10: Ở câu trên, tổ đó đã vượt mức kế hoạch bao nhiêu phần trăm?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+120\% - 100\% = 20\%.
+
+----------------------------------------
+
+Câu 11: Một khu vườn có 80 cây, trong đó có 20 cây cam. Tỉ số phần trăm của số cây cam so với tổng số cây là bao nhiêu phần trăm?
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+(20 : 80) x 100\% = 25\%.
+
+----------------------------------------
+
+Câu 12: Kiểm tra 40 sản phẩm thì có 2 phế phẩm. Tỉ số phần trăm phế phẩm là bao nhiêu phần trăm?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+(2 : 40) x 100\% = 5\%.
+
+----------------------------------------
+
+Câu 13: Ở câu trên, tỉ số phần trăm sản phẩm đạt chuẩn là bao nhiêu phần trăm?
+Đáp án: [shortans]95[/shortans]
+Lời giải chi tiết:
+100\% - 5\% = 95\%.
+
+----------------------------------------
+
+Câu 14: Số học sinh giỏi của lớp 5A chiếm 45\% số học sinh cả lớp. Hỏi số học sinh không đạt loại giỏi chiếm bao nhiêu phần trăm?
+Đáp án: [shortans]55[/shortans]
+Lời giải chi tiết:
+100\% - 45\% = 55\%.
+
+----------------------------------------
+
+Câu 15: Một dung dịch muối có 15\text{ g} muối hòa tan trong 85\text{ g} nước. Tỉ số phần trăm muối trong dung dịch là bao nhiêu phần trăm?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Khối lượng dung dịch là 15 + 85 = 100\text{ g}. Tỉ số phần trăm là 15\%.
+
+----------------------------------------
+
+Câu 16: Tính: 25\% + 35\%. Kết quả là bao nhiêu phần trăm?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+25\% + 35\% = 60\%.
+
+----------------------------------------
+
+Câu 17: Tính: 80\% - 35\%. Kết quả là bao nhiêu phần trăm?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+80\% - 35\% = 45\%.
+
+----------------------------------------
+
+Câu 18: Tính: 15\% x 4. Kết quả là bao nhiêu phần trăm?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+15\% x 4 = 60\%.
+
+----------------------------------------
+
+Câu 19: Tính: 75\% : 3. Kết quả là bao nhiêu phần trăm?
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+75\% : 3 = 25\%.
+
+----------------------------------------
+
+Câu 20: Giá một chiếc áo là 200 000 đồng, được giảm giá 10\%. Số tiền được giảm là bao nhiêu nghìn đồng?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+200 x 10\% = 20 nghìn đồng.
+
+----------------------------------------
+
+Câu 21: Ở câu trên, số tiền phải trả sau khi giảm giá là bao nhiêu nghìn đồng?
+Đáp án: [shortans]180[/shortans]
+Lời giải chi tiết:
+200 - 20 = 180 nghìn đồng.
+
+----------------------------------------
+
+Câu 22: Dân số một xã là 5 000 người, sau một năm tăng thêm 1\%. Số dân tăng thêm sau một năm là bao nhiêu người?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+5 000 x 1\% = 50 người.
+
+----------------------------------------
+
+Câu 23: Một người gửi tiết kiệm 10 triệu đồng với lãi suất 6\% một năm. Sau một năm số tiền lãi nhận được là bao nhiêu trăm nghìn đồng?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+10 x 6\% = 0{,}6 triệu = 6 trăm nghìn đồng.
+
+----------------------------------------
+
+Câu 24: Số bi xanh bằng \frac{2}{3} số bi đỏ. Tỉ số của số bi đỏ và tổng số bi có mẫu số là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Bi đỏ chiếm 3 phần, tổng số bi là 2 + 3 = 5 phần. Tỉ số là \frac{3}{5}. Mẫu số là 5.
+
+----------------------------------------
+
+Câu 25: Lớp 5B có 32 học sinh, trong đó có 24 học sinh thích môn Toán. Tỉ số phần trăm học sinh thích môn Toán là bao nhiêu phần trăm?
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+(24 : 32) x 100\% = 75\%.
+
+----------------------------------------

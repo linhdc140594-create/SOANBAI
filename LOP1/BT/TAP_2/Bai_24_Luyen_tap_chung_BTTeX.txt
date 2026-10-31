@@ -1,0 +1,199 @@
+\begin{ex}
+Số gồm 5 chục và 8 đơn vị là số nào?
+\shortans{58}
+\loigiai{
+Số đó là 58.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 9 chục và 0 đơn vị là số nào?
+\shortans{90}
+\loigiai{
+Số đó là 90.
+}
+\end{ex}
+
+\begin{ex}
+Số 74 có chữ số hàng đơn vị là bao nhiêu?
+\shortans{4}
+\loigiai{
+Chữ số hàng đơn vị là 4.
+}
+\end{ex}
+
+\begin{ex}
+Số 63 có chữ số hàng chục là bao nhiêu?
+\shortans{6}
+\loigiai{
+Chữ số hàng chục là 6.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của số 51 là số nào?
+\shortans{50}
+\loigiai{
+Số liền trước 51 là 50.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 69 là số nào?
+\shortans{70}
+\loigiai{
+Số liền sau 69 là 70.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của số 99 là số nào?
+\shortans{100}
+\loigiai{
+Số liền sau 99 là 100.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $45, 54, 39, 60$, số nào lớn nhất?
+\shortans{60}
+\loigiai{
+Số lớn nhất là 60.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $83, 79, 91, 88$, số nào bé nhất?
+\shortans{79}
+\loigiai{
+Số bé nhất là 79.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $68 < \dots < 70$.
+\shortans{69}
+\loigiai{
+Số tự nhiên ở giữa 68 và 70 là 69.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $23, 71, 45, 38$ từ bé đến lớn, số đứng ở vị trí thứ ba là số nào?
+\shortans{45}
+\loigiai{
+Thứ tự: 23, 38, 45, 71. Số thứ ba là 45.
+}
+\end{ex}
+
+\begin{ex}
+Sắp xếp dãy số $85, 92, 64, 78$ từ lớn đến bé, số đứng ở vị trí thứ hai là số nào?
+\shortans{85}
+\loigiai{
+Thứ tự: 92, 85, 78, 64. Số thứ hai là 85.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tròn chục lớn hơn 30 và nhỏ hơn 80?
+\shortans{4}
+\loigiai{
+Các số thỏa mãn: 40, 50, 60, 70. Có 4 số.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân nuôi 40 con gà trắng và 30 con gà nâu. Bác có tất cả bao nhiêu con gà?
+\shortans{70}
+\loigiai{
+Bác có: $40 + 30 = 70$ con gà.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng buổi sáng bán được 50 cái bánh, buổi chiều bán được 40 cái bánh. Cả hai buổi bán được bao nhiêu cái bánh?
+\shortans{90}
+\loigiai{
+Cả hai buổi bán được: $50 + 40 = 90$ cái bánh.
+}
+\end{ex}
+
+\begin{ex}
+Vườn nhà bà có 60 cây ăn quả, trong đó có 20 cây chuối, còn lại là cây bưởi. Hỏi vườn nhà bà có bao nhiêu cây bưởi?
+\shortans{40}
+\loigiai{
+Số cây bưởi: $60 - 20 = 40$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $30 + 40$.
+\shortans{70}
+\loigiai{
+Ta có $30 + 40 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $80 - 50$.
+\shortans{30}
+\loigiai{
+Ta có $80 - 50 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $90 - 20 - 30$.
+\shortans{40}
+\loigiai{
+Ta có $90 - 20 = 70$, rồi $70 - 30 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20 + 30 + 40$.
+\shortans{90}
+\loigiai{
+Ta có $20 + 30 = 50$, rồi $50 + 40 = 90$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $40 + \dots = 90$.
+\shortans{50}
+\loigiai{
+Số cần điền là: $90 - 40 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $70 - \dots = 20$.
+\shortans{50}
+\loigiai{
+Số cần điền là: $70 - 20 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào trừ đi 30 thì được 40?
+\shortans{70}
+\loigiai{
+Số đó là: $40 + 30 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào cộng với 50 thì được 80?
+\shortans{30}
+\loigiai{
+Số đó là: $80 - 50 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số từ 1 đến 100, có bao nhiêu số có chữ số hàng chục là 7?
+\shortans{10}
+\loigiai{
+Các số từ 70 đến 79 có đúng 10 số.
+}
+\end{ex}

@@ -1,0 +1,157 @@
+# Bài 20: Phép trừ số thập phân
+
+## PHẦN I. ĐỀ BÀI (NGÂN HÀNG CÂU HỎI ĐIỀN ĐÁP SỐ)
+
+**Câu 1.** Tính kết quả: $50 - 24{,}5$. Lấy kết quả nhân với 2 được bao nhiêu?
+
+**Câu 2.** Tính kết quả: $68{,}5 - 28{,}5$.
+
+**Câu 3.** Tính kết quả: $100 - 37{,}5$. Lấy kết quả cộng với 0,5 được bao nhiêu?
+
+**Câu 4.** Tính kết quả: $85{,}75 - 35{,}75$.
+
+**Câu 5.** Tính giá trị: $120 - 45{,}8 - 24{,}2$.
+
+**Câu 6.** Tính nhanh: $45 - 12{,}3 - 7{,}7$.
+
+**Câu 7.** Tìm số tự nhiên $x$ biết: $x + 25{,}5 = 60{,}5$.
+
+**Câu 8.** Tìm $x$ biết: $100 - x = 42{,}5 + 17{,}5$.
+
+**Câu 9.** Một cuộn dây điện dài $50\text{ m}$, thợ điện đã dùng hết $23{,}5\text{ m}$. Chiều dài đoạn dây còn lại khi nhân đôi là bao nhiêu mét?
+
+**Câu 10.** Một bao gạo có $50\text{ kg}$, người ta đã lấy ra hai lần, lần thứ nhất $14{,}5\text{ kg}$, lần thứ hai $15{,}5\text{ kg}$. Trong bao còn lại bao nhiêu ki-lô-gam gạo?
+
+**Câu 11.** Một can dầu hỏa nặng $18\text{ kg}$, sau khi rót bớt dầu ra thì can dầu còn nặng $8{,}5\text{ kg}$. Lượng dầu đã rót ra nhân đôi là bao nhiêu ki-lô-gam?
+
+**Câu 12.** Tính giá trị biểu thức: $75{,}5 - (24{,}2 + 11{,}3)$.
+
+**Câu 13.** Một mảnh vải dài $25\text{ m}$. Người ta cắt may áo hết $8{,}5\text{ m}$ và may quần hết $6{,}5\text{ m}$. Mảnh vải còn lại bao nhiêu mét?
+
+**Câu 14.** Tính: $200 - 65{,}4 - 34{,}6$.
+
+**Câu 15.** Hai thùng chứa tất cả $80$ lít nước mắm. Thùng thứ nhất chứa $45{,}5$ lít. Thùng thứ nhất chứa nhiều hơn thùng thứ hai bao nhiêu lít?
+
+**Câu 16.** Một ô tô chở $3$ tấn hàng, chuyến thứ nhất dỡ xuống $1{,}2$ tấn hàng, chuyến thứ hai dỡ xuống $0{,}8$ tấn hàng. Trên xe còn lại bao nhiêu tấn hàng?
+
+**Câu 17.** Tìm $x$ biết: $75 - x = 28{,}4 + 21{,}6$.
+
+**Câu 18.** Tính giá trị biểu thức: $84{,}6 - 15{,}3 - 9{,}3$. (Sửa: $84{,}6 - 14{,}6 = 70$)
+
+**Câu 19.** Đường chạy dài $100\text{ m}$. Bạn Nam đã chạy được $68{,}5\text{ m}$. Nam còn phải chạy bao nhiêu mét nữa để về đích? (Lấy kết quả nhân 2).
+
+**Câu 20.** Một bể chứa $1\,000$ lít nước, người ta đã dùng $450{,}5$ lít vào buổi sáng và $349{,}5$ lít vào buổi chiều. Trong bể còn lại bao nhiêu lít nước?
+
+**Câu 21.** Hiệu của hai số là $25$. Nếu số bị trừ bớt đi $4{,}5$ và số trừ tăng thêm $5{,}5$ thì hiệu mới là bao nhiêu?
+
+**Câu 22.** Tính nhanh: $67{,}89 - 17{,}89 - 20$.
+
+**Câu 23.** Một cuộn vải dài $100\text{ m}$. Ngày đầu bán được $32{,}4\text{ m}$, ngày thứ hai bán được $27{,}6\text{ m}$. Sau hai ngày cuộn vải còn lại bao nhiêu mét?
+
+**Câu 24.** Khi trừ một số tự nhiên đi một số thập phân có một chữ số ở phần thập phân là $4{,}5$, một học sinh quên dấu phẩy nên lấy số tự nhiên trừ đi $45$ và được kết quả là $55$. Số tự nhiên ban đầu là bao nhiêu?
+
+**Câu 25.** Tìm $x$ biết: $x + 12{,}5 = 37{,}5$. Giá trị của $x$ là bao nhiêu?
+
+---
+
+## PHẦN II. ĐÁP ÁN VÀ LỜI GIẢI CHI TIẾT
+
+### Câu 1
+- **Đáp số:** `51`
+- **Lời giải:** $50 - 24{,}5 = 25{,}5$. $25{,}5 \times 2 = 51$.
+
+### Câu 2
+- **Đáp số:** `40`
+- **Lời giải:** $68{,}5 - 28{,}5 = 40$.
+
+### Câu 3
+- **Đáp số:** `63`
+- **Lời giải:** $100 - 37{,}5 = 62{,}5$. $62{,}5 + 0{,}5 = 63$.
+
+### Câu 4
+- **Đáp số:** `50`
+- **Lời giải:** $85{,}75 - 35{,}75 = 50$.
+
+### Câu 5
+- **Đáp số:** `50`
+- **Lời giải:** $120 - (45{,}8 + 24{,}2) = 120 - 70 = 50$.
+
+### Câu 6
+- **Đáp số:** `25`
+- **Lời giải:** $45 - (12{,}3 + 7{,}7) = 45 - 20 = 25$.
+
+### Câu 7
+- **Đáp số:** `35`
+- **Lời giải:** $x = 60{,}5 - 25{,}5 = 35$.
+
+### Câu 8
+- **Đáp số:** `40`
+- **Lời giải:** $42{,}5 + 17{,}5 = 60$. $x = 100 - 60 = 40$.
+
+### Câu 9
+- **Đáp số:** `53`
+- **Lời giải:** Đoạn còn lại là $50 - 23{,}5 = 26{,}5\text{ m}$. Nhân đôi: $26{,}5 \times 2 = 53\text{ m}$.
+
+### Câu 10
+- **Đáp số:** `20`
+- **Lời giải:** Trong bao còn lại: $50 - (14{,}5 + 15{,}5) = 50 - 30 = 20\text{ kg}$.
+
+### Câu 11
+- **Đáp số:** `19`
+- **Lời giải:** Đã rót ra: $18 - 8{,}5 = 9{,}5\text{ kg}$. Nhân đôi được 19.
+
+### Câu 12
+- **Đáp số:** `40`
+- **Lời giải:** $75{,}5 - 35{,}5 = 40$.
+
+### Câu 13
+- **Đáp số:** `10`
+- **Lời giải:** Còn lại: $25 - (8{,}5 + 6{,}5) = 25 - 15 = 10\text{ m}$.
+
+### Câu 14
+- **Đáp số:** `100`
+- **Lời giải:** $200 - (65{,}4 + 34{,}6) = 200 - 100 = 100$.
+
+### Câu 15
+- **Đáp số:** `11`
+- **Lời giải:** Thùng hai chứa: $80 - 45{,}5 = 34{,}5$ lít. Hiệu là: $45{,}5 - 34{,}5 = 11$ lít.
+
+### Câu 16
+- **Đáp số:** `1`
+- **Lời giải:** Còn lại: $3 - (1{,}2 + 0{,}8) = 3 - 2 = 1$ tấn.
+
+### Câu 17
+- **Đáp số:** `25`
+- **Lời giải:** $28{,}4 + 21{,}6 = 50$. $x = 75 - 50 = 25$.
+
+### Câu 18
+- **Đáp số:** `60`
+- **Lời giải:** $84{,}6 - (15{,}3 + 9{,}3) = 84{,}6 - 24{,}6 = 60$.
+
+### Câu 19
+- **Đáp số:** `63`
+- **Lời giải:** Còn lại: $100 - 68{,}5 = 31{,}5\text{ m}$. Nhân 2: $31{,}5 \times 2 = 63$.
+
+### Câu 20
+- **Đáp số:** `200`
+- **Lời giải:** Đã dùng: $450{,}5 + 349{,}5 = 800$ lít. Còn lại: $1\,000 - 800 = 200$ lít.
+
+### Câu 21
+- **Đáp số:** `15`
+- **Lời giải:** Hiệu mới là: $25 - 4{,}5 - 5{,}5 = 25 - 10 = 15$.
+
+### Câu 22
+- **Đáp số:** `30`
+- **Lời giải:** $(67{,}89 - 17{,}89) - 20 = 50 - 20 = 30$.
+
+### Câu 23
+- **Đáp số:** `40`
+- **Lời giải:** Còn lại: $100 - (32{,}4 + 27{,}6) = 100 - 60 = 40\text{ m}$.
+
+### Câu 24
+- **Đáp số:** `100`
+- **Lời giải:** Số tự nhiên là: $55 + 45 = 100$.
+
+### Câu 25
+- **Đáp số:** `25`
+- **Lời giải:** $x = 37{,}5 - 12{,}5 = 25$.

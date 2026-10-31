@@ -1,0 +1,176 @@
+=== BÀI 71: ÔN TẬP HÌNH HỌC ===
+
+Câu 1: Một hình tam giác có độ dài đáy 12\text{ cm} và chiều cao tương ứng 8\text{ cm}. Diện tích tam giác là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]48[/shortans]
+Lời giải chi tiết:
+(12 x 8) : 2 = 48\text{ cm}^2.
+
+----------------------------------------
+
+Câu 2: Một hình thang có đáy lớn 15\text{ cm}, đáy bé 9\text{ cm}, chiều cao 6\text{ cm}. Diện tích hình thang là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]72[/shortans]
+Lời giải chi tiết:
+(15 + 9) x 6 : 2 = 72\text{ cm}^2.
+
+----------------------------------------
+
+Câu 3: Một hình tròn có bán kính 10\text{ cm}. Chu vi của hình tròn là bao nhiêu xăng-ti-mét khi lấy \pi = 3{,}14 và nhân với 10?
+Đáp án: [shortans]628[/shortans]
+Lời giải chi tiết:
+Chu vi: 2 x 10 x 3{,}14 = 62{,}8\text{ cm}. Nhân 10 được 628.
+
+----------------------------------------
+
+Câu 4: Một hình tròn có bán kính 10\text{ cm}. Diện tích của hình tròn là bao nhiêu xăng-ti-mét vuông (lấy \pi = 3{,}14)?
+Đáp án: [shortans]314[/shortans]
+Lời giải chi tiết:
+10 x 10 x 3{,}14 = 314\text{ cm}^2.
+
+----------------------------------------
+
+Câu 5: Một hình lập phương có cạnh 5\text{ cm}. Diện tích xung quanh của hình lập phương là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+5 x 5 x 4 = 100\text{ cm}^2.
+
+----------------------------------------
+
+Câu 6: Ở câu trên, diện tích toàn phần của hình lập phương là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+5 x 5 x 6 = 150\text{ cm}^2.
+
+----------------------------------------
+
+Câu 7: Ở câu trên, thể tích của hình lập phương là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]125[/shortans]
+Lời giải chi tiết:
+5 x 5 x 5 = 125\text{ cm}^3.
+
+----------------------------------------
+
+Câu 8: Một hình hộp chữ nhật có chiều dài 8\text{ cm}, chiều rộng 5\text{ cm}, chiều cao 4\text{ cm}. Chu vi mặt đáy là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]26[/shortans]
+Lời giải chi tiết:
+(8 + 5) x 2 = 26\text{ cm}.
+
+----------------------------------------
+
+Câu 9: Ở hình hộp chữ nhật trên, diện tích xung quanh là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]104[/shortans]
+Lời giải chi tiết:
+26 x 4 = 104\text{ cm}^2.
+
+----------------------------------------
+
+Câu 10: Ở hình hộp chữ nhật trên, thể tích là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]160[/shortans]
+Lời giải chi tiết:
+8 x 5 x 4 = 160\text{ cm}^3.
+
+----------------------------------------
+
+Câu 11: Một mảnh vườn hình chữ nhật có chiều dài 25\text{ m}, chiều rộng 12\text{ m}. Diện tích mảnh vườn là bao nhiêu mét vuông?
+Đáp án: [shortans]300[/shortans]
+Lời giải chi tiết:
+25 x 12 = 300\text{ m}^2.
+
+----------------------------------------
+
+Câu 12: Ở mảnh vườn trên, chu vi là bao nhiêu mét?
+Đáp án: [shortans]74[/shortans]
+Lời giải chi tiết:
+(25 + 12) x 2 = 74\text{ m}.
+
+----------------------------------------
+
+Câu 13: Một hình tam giác vuông có hai cạnh góc vuông là 6\text{ cm} và 8\text{ cm}. Diện tích của hình tam giác đó là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+(6 x 8) : 2 = 24\text{ cm}^2.
+
+----------------------------------------
+
+Câu 14: Một hình thoi có độ dài hai đường chéo là 14\text{ cm} và 10\text{ cm}. Diện tích hình thoi là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]70[/shortans]
+Lời giải chi tiết:
+(14 x 10) : 2 = 70\text{ cm}^2.
+
+----------------------------------------
+
+Câu 15: Một hình tròn có đường kính 20\text{ cm}. Bán kính của hình tròn là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+20 : 2 = 10\text{ cm}.
+
+----------------------------------------
+
+Câu 16: Một hình thang có diện tích 60\text{ cm}^2, chiều cao 5\text{ cm}. Tổng độ dài hai đáy là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+(60 x 2) : 5 = 24\text{ cm}.
+
+----------------------------------------
+
+Câu 17: Một căn phòng hình hộp chữ nhật dài 6\text{ m}, rộng 4\text{ m}, cao 3\text{ m}. Diện tích xung quanh phòng là bao nhiêu mét vuông?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+(6 + 4) x 2 x 3 = 60\text{ m}^2.
+
+----------------------------------------
+
+Câu 18: Ở căn phòng trên, diện tích trần nhà là bao nhiêu mét vuông?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+6 x 4 = 24\text{ m}^2.
+
+----------------------------------------
+
+Câu 19: Một khối gỗ hình lập phương có cạnh 0{,}4\text{ m}. Thể tích của khối gỗ đó khi nhân với 1 000 là bao nhiêu?
+Đáp án: [shortans]64[/shortans]
+Lời giải chi tiết:
+0{,}4 x 0{,}4 x 0{,}4 = 0{,}064\text{ m}^3 = 64\text{ dm}^3.
+
+----------------------------------------
+
+Câu 20: Một bể cá hình hộp chữ nhật dài 80\text{ cm}, rộng 50\text{ cm}, cao 40\text{ cm}. Thể tích của bể là bao nhiêu lít nước (1\text{ lít} = 1\text{ dm}^3)?
+Đáp án: [shortans]160[/shortans]
+Lời giải chi tiết:
+8 x 5 x 4 = 160\text{ dm}^3 = 160 lít.
+
+----------------------------------------
+
+Câu 21: Một hình tam giác có diện tích 30\text{ cm}^2, đáy dài 10\text{ cm}. Chiều cao tương ứng là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+(30 x 2) : 10 = 6\text{ cm}.
+
+----------------------------------------
+
+Câu 22: Một hình lập phương có diện tích toàn phần là 96\text{ cm}^2. Diện tích một mặt của hình lập phương là bao nhiêu xăng-ti-mét vuông?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+96 : 6 = 16\text{ cm}^2.
+
+----------------------------------------
+
+Câu 23: Ở hình lập phương trên, độ dài cạnh là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+Vì 4 x 4 = 16 nên cạnh bằng 4 cm.
+
+----------------------------------------
+
+Câu 24: Ở hình lập phương trên, thể tích là bao nhiêu xăng-ti-mét khối?
+Đáp án: [shortans]64[/shortans]
+Lời giải chi tiết:
+4 x 4 x 4 = 64\text{ cm}^3.
+
+----------------------------------------
+
+Câu 25: Một sân cỏ hình chữ nhật dài 100\text{ m}, rộng 60\text{ m}. Xung quanh xây tường rào, để một cổng rộng 4\text{ m}. Chiều dài tường rào là bao nhiêu mét?
+Đáp án: [shortans]316[/shortans]
+Lời giải chi tiết:
+Chu vi: (100 + 60) x 2 = 320\text{ m}. Chiều dài tường rào: 320 - 4 = 316\text{ m}.
+
+----------------------------------------

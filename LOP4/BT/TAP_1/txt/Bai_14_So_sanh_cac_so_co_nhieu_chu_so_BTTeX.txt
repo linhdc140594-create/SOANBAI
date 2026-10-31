@@ -1,0 +1,199 @@
+\begin{ex}
+Trong hai số 999 999 và 1 000 000, số nào lớn hơn?
+\shortans{1000000}
+\loigiai{
+Số có 7 chữ số lớn hơn số có 6 chữ số: 1000000.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $456789, 456879, 456798, 456897$, số nào lớn nhất?
+\shortans{456897}
+\loigiai{
+456897 là số lớn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $789123, 789321, 789213, 789132$, số nào bé nhất?
+\shortans{789123}
+\loigiai{
+789123 là số bé nhất.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số lớn thứ nhì trong các số: $1200000, 1500000, 1400000, 1600000$.
+\shortans{1500000}
+\loigiai{
+Thứ tự giảm dần: 1600000, 1500000, 1400000, 1200000. Số lớn thứ nhì là 1500000.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$ là số tròn trăm nghìn thỏa mãn $400000 < x < 600000$.
+\shortans{500000}
+\loigiai{
+Số đó là 500000.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên $y$ biết: $999999 < y < 1000001$.
+\shortans{1000000}
+\loigiai{
+Số ở giữa là 1000000.
+}
+\end{ex}
+
+\begin{ex}
+Cho 4 số: 2000000, 1800000, 2200000, 2500000. Hiệu giữa số lớn nhất và số bé nhất là bao nhiêu?
+\shortans{700000}
+\loigiai{
+$2500000 - 1800000 = 700000$.
+}
+\end{ex}
+
+\begin{ex}
+Điền chữ số thích hợp vào dấu * để: $54*200 > 548200$.
+\shortans{9}
+\loigiai{
+Chữ số hàng nghìn phải là 9.
+}
+\end{ex}
+
+\begin{ex}
+Điền chữ số thích hợp vào dấu * để: $6*5000 < 615000$.
+\shortans{0}
+\loigiai{
+Hàng chục nghìn phải là 0.
+}
+\end{ex}
+
+\begin{ex}
+Số 5 000 000 hơn số 4 200 000 bao nhiêu đơn vị?
+\shortans{800000}
+\loigiai{
+$5000000 - 4200000 = 800000$.
+}
+\end{ex}
+
+\begin{ex}
+Số 6 400 000 kém số 7 000 000 bao nhiêu đơn vị?
+\shortans{600000}
+\loigiai{
+$7000000 - 6400000 = 600000$.
+}
+\end{ex}
+
+\begin{ex}
+Dân số tỉnh A là 1 250 000 người, tỉnh B là 1 400 000 người. Tỉnh B nhiều hơn tỉnh A bao nhiêu người?
+\shortans{150000}
+\loigiai{
+$1400000 - 1250000 = 150000$ người.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 6 chữ số khác nhau là số nào?
+\shortans{987654}
+\loigiai{
+Số đó là 987654.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 6 chữ số khác nhau là số nào?
+\shortans{102345}
+\loigiai{
+Số đó là 102345.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 7 chữ số khác nhau là số nào?
+\shortans{9876543}
+\loigiai{
+Số đó là 9876543.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 7 chữ số khác nhau là số nào?
+\shortans{1023456}
+\loigiai{
+Số đó là 1023456.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có 7 chữ số lớn hơn 9 999 996?
+\shortans{3}
+\loigiai{
+9999997, 9999998, 9999999 (3 số).
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số có 7 chữ số bé hơn 1 000 004?
+\shortans{4}
+\loigiai{
+1000000, 1000001, 1000002, 1000003 (4 số).
+}
+\end{ex}
+
+\begin{ex}
+Trong dãy số tự nhiên từ 500 000 đến 500 010 có bao nhiêu số?
+\shortans{11}
+\loigiai{
+$500010 - 500000 + 1 = 11$ số.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách giữa hai số 10 000 000 và 9 000 000 là bao nhiêu?
+\shortans{1000000}
+\loigiai{
+$10000000 - 9000000 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào lớn hơn: 4 500 000 hay 4 050 000? (Hiệu giữa số lớn và số bé là bao nhiêu?).
+\shortans{450000}
+\loigiai{
+$4500000 - 4050000 = 450000$.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có 6 chữ số giống nhau là số nào?
+\shortans{999999}
+\loigiai{
+Số đó là 999999.
+}
+\end{ex}
+
+\begin{ex}
+Số bé nhất có 6 chữ số giống nhau là số nào?
+\shortans{111111}
+\loigiai{
+Số đó là 111111.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của số lớn nhất có 6 chữ số giống nhau và số bé nhất có 6 chữ số giống nhau là bao nhiêu?
+\shortans{888888}
+\loigiai{
+$999999 - 111111 = 888888$.
+}
+\end{ex}
+
+\begin{ex}
+So sánh: $800000 + 200000$ và $1000000$. Hai giá trị này có bằng nhau không? (Bằng nhau ghi 1, khác nhau ghi 0).
+\shortans{1}
+\loigiai{
+$800000 + 200000 = 1000000$ (bằng nhau).
+}
+\end{ex}

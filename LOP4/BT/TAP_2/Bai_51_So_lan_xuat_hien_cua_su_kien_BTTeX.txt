@@ -1,0 +1,199 @@
+\begin{ex}
+Tung một đồng xu 20 lần, thấy mặt Sấp xuất hiện 12 lần. Mặt Ngửa xuất hiện bao nhiêu lần?
+\shortans{8}
+\loigiai{
+$20 - 12 = 8$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Tung một đồng xu 30 lần, thấy mặt Ngửa xuất hiện 14 lần. Mặt Sấp xuất hiện bao nhiêu lần?
+\shortans{16}
+\loigiai{
+$30 - 14 = 16$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Gieo một con xúc xắc 25 lần, mặt 6 chấm xuất hiện 5 lần. Các mặt còn lại xuất hiện tất cả bao nhiêu lần?
+\shortans{20}
+\loigiai{
+$25 - 5 = 20$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Gieo một con xúc xắc 50 lần, số lần xuất hiện mặt chẵn là 27 lần. Số lần xuất hiện mặt lẻ là bao nhiêu lần?
+\shortans{23}
+\loigiai{
+$50 - 27 = 23$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Quay một vòng quay có 4 màu xanh, đỏ, vàng, trắng 40 lần. Kim chỉ vào màu đỏ 15 lần, màu xanh 12 lần, màu vàng 8 lần. Kim chỉ vào màu trắng bao nhiêu lần?
+\shortans{5}
+\loigiai{
+$40 - (15 + 12 + 8) = 5$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Lấy ngẫu nhiên một viên bi trong hộp 20 lần (có trả lại), thấy có 8 lần lấy được bi đỏ. Số lần lấy được bi không phải màu đỏ là bao nhiêu lần?
+\shortans{12}
+\loigiai{
+$20 - 8 = 12$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Tung đồng xu 100 lần, mặt Sấp xuất hiện 48 lần. Mặt Ngửa xuất hiện bao nhiêu lần?
+\shortans{52}
+\loigiai{
+$100 - 48 = 52$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Trong 100 lần tung đồng xu trên, số lần mặt Ngửa nhiều hơn số lần mặt Sấp bao nhiêu lần?
+\shortans{4}
+\loigiai{
+$52 - 48 = 4$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Gieo con xúc xắc 60 lần. Số lần xuất hiện các mặt 1, 2, 3, 4, 5 lần lượt là: 9, 11, 8, 12, 10 lần. Mặt 6 chấm xuất hiện bao nhiêu lần?
+\shortans{10}
+\loigiai{
+$60 - (9 + 11 + 8 + 12 + 10) = 60 - 50 = 10$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Trong thí nghiệm trên, mặt nào xuất hiện nhiều nhất? (Ghi số chấm của mặt đó).
+\shortans{4}
+\loigiai{
+Mặt 4 chấm xuất hiện 12 lần (nhiều nhất).
+}
+\end{ex}
+
+\begin{ex}
+Mặt nào xuất hiện ít nhất trong thí nghiệm trên? (Ghi số chấm của mặt đó).
+\shortans{3}
+\loigiai{
+Mặt 3 chấm xuất hiện 8 lần (ít nhất).
+}
+\end{ex}
+
+\begin{ex}
+Hai bạn chơi oẳn tù tì 15 ván. Bạn Nam thắng 7 ván, hòa 3 ván. Bạn Nam thua bao nhiêu ván?
+\shortans{5}
+\loigiai{
+$15 - (7 + 3) = 5$ ván.
+}
+\end{ex}
+
+\begin{ex}
+Rút ngẫu nhiên một tấm thẻ từ hộp 30 lần (có hoàn lại), thấy có 18 lần rút được thẻ số chẵn. Có bao nhiêu lần rút được thẻ số lẻ?
+\shortans{12}
+\loigiai{
+$30 - 18 = 12$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một xạ thủ bắn 50 phát đạn, có 42 phát trúng bia. Có bao nhiêu phát không trúng bia?
+\shortans{8}
+\loigiai{
+$50 - 42 = 8$ phát.
+}
+\end{ex}
+
+\begin{ex}
+Tung đồng xu 15 lần, khả năng mặt Sấp xuất hiện tối đa là bao nhiêu lần?
+\shortans{15}
+\loigiai{
+Tối đa 15 lần.
+}
+\end{ex}
+
+\begin{ex}
+Tung đồng xu 15 lần, khả năng mặt Sấp xuất hiện tối thiểu là bao nhiêu lần?
+\shortans{0}
+\loigiai{
+Tối thiểu 0 lần.
+}
+\end{ex}
+
+\begin{ex}
+Gieo một con xúc xắc 10 lần, mặt 7 chấm có thể xuất hiện mấy lần?
+\shortans{0}
+\loigiai{
+0 lần vì xúc xắc không có mặt 7 chấm.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Lan bốc thăm 20 lần, có 6 lần trúng thưởng. Có bao nhiêu lần không trúng thưởng?
+\shortans{14}
+\loigiai{
+$20 - 6 = 14$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Một thủ môn bắt 10 quả phạt đền, cản phá thành công 4 quả. Có bao nhiêu quả thủ môn không cản phá được?
+\shortans{6}
+\loigiai{
+$10 - 4 = 6$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Tung đồng xu 40 lần, số lần xuất hiện mặt Sấp gấp 3 lần số lần mặt Ngửa. Mặt Sấp xuất hiện bao nhiêu lần?
+\shortans{30}
+\loigiai{
+Tổng số phần: $1 + 3 = 4$. Sấp = $40 : 4 \times 3 = 30$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Mặt Ngửa xuất hiện bao nhiêu lần trong bài toán trên?
+\shortans{10}
+\loigiai{
+$40 - 30 = 10$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Gieo xúc xắc 36 lần, mặt 1 chấm xuất hiện 6 lần. Tỉ số số lần xuất hiện mặt 1 chấm so với tổng số lần gieo bằng một phần mấy? (Ghi mẫu số).
+\shortans{6}
+\loigiai{
+$6 : 36 = 1/6$ (mẫu số là 6).
+}
+\end{ex}
+
+\begin{ex}
+Tung xúc xắc 20 lần, số lần xuất hiện mặt chấm lớn hơn 4 (mặt 5 và 6) là 7 lần. Số lần xuất hiện các mặt từ 1 đến 4 là bao nhiêu lần?
+\shortans{13}
+\loigiai{
+$20 - 7 = 13$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Bắn cung 25 lần, bắn trúng hồng tâm 10 lần. Số lần bắn trượt hồng tâm là bao nhiêu?
+\shortans{15}
+\loigiai{
+$25 - 10 = 15$ lần.
+}
+\end{ex}
+
+\begin{ex}
+Tung 2 đồng xu cùng lúc 20 lần, cả 2 đồng đều sấp 5 lần, cả 2 đồng đều ngửa 6 lần. Số lần xuất hiện 1 sấp 1 ngửa là bao nhiêu?
+\shortans{9}
+\loigiai{
+$20 - (5 + 6) = 9$ lần.
+}
+\end{ex}

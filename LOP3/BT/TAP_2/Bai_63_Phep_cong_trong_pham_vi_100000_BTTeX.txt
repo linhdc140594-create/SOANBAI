@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $35240 + 21430 = \dots$
+\shortans{56670}
+\loigiai{
+$35240 + 21430 = 56670$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $48160 + 21530 = \dots$
+\shortans{69690}
+\loigiai{
+$48160 + 21530 = 69690$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $52480 + 36190 = \dots$
+\shortans{88670}
+\loigiai{
+$52480 + 36190 = 88670$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $27450 + 45380 = \dots$
+\shortans{72830}
+\loigiai{
+$27450 + 45380 = 72830$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $63820 + 18490 = \dots$
+\shortans{82310}
+\loigiai{
+$63820 + 18490 = 82310$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40000 + 30000 = \dots$
+\shortans{70000}
+\loigiai{
+$40000 + 30000 = 70000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $75000 + 15000 = \dots$
+\shortans{90000}
+\loigiai{
+$75000 + 15000 = 90000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $64000 + 36000 = \dots$
+\shortans{100000}
+\loigiai{
+$64000 + 36000 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $54120 + 7350 = \dots$
+\shortans{61470}
+\loigiai{
+$54120 + 7350 = 61470$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $82400 + 17600 = \dots$
+\shortans{100000}
+\loigiai{
+$82400 + 17600 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $35000 + 25000 + 18000$.
+\shortans{78000}
+\loigiai{
+$60000 + 18000 = 78000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $42000 + 18000 + 40000$.
+\shortans{100000}
+\loigiai{
+$60000 + 40000 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Một công ty tháng Một thu được 32 000 USD, tháng Hai thu được 45 000 USD. Cả hai tháng thu được bao nhiêu USD?
+\shortans{77000}
+\loigiai{
+$32000 + 45000 = 77000$ USD.
+}
+\end{ex}
+
+\begin{ex}
+Một kho chứa 48 500 kg thóc, nhập thêm 21 500 kg thóc nữa. Trong kho có tất cả bao nhiêu ki-lô-gam thóc?
+\shortans{70000}
+\loigiai{
+$48500 + 21500 = 70000$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Huyện A có 45 600 người, huyện B có 52 300 người. Cả hai huyện có bao nhiêu người?
+\shortans{97900}
+\loigiai{
+$45600 + 52300 = 97900$ người.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 35000 = 45000$.
+\shortans{80000}
+\loigiai{
+$x = 45000 + 35000 = 80000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 28000 = 62000$.
+\shortans{90000}
+\loigiai{
+$x = 62000 + 28000 = 90000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $25000 + 34000 + 25000$.
+\shortans{84000}
+\loigiai{
+$50000 + 34000 = 84000$.
+}
+\end{ex}
+
+\begin{ex}
+Một vườn ươm có 28 000 cây giống, đợt hai ươm thêm 35 000 cây giống. Cả hai đợt ươm được bao nhiêu cây?
+\shortans{63000}
+\loigiai{
+$28000 + 35000 = 63000$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Một bể nước có sẵn 25 000 lít nước, bơm thêm vào 45 000 lít nước. Bể có bao nhiêu lít nước?
+\shortans{70000}
+\loigiai{
+$25000 + 45000 = 70000$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $99000 + 1000 = \dots$
+\shortans{100000}
+\loigiai{
+$99000 + 1000 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $55555 + 44444 = \dots$
+\shortans{99999}
+\loigiai{
+$55555 + 44444 = 99999$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của số lớn nhất có năm chữ số và số bé nhất có một chữ số là bao nhiêu?
+\shortans{99999}
+\loigiai{
+$99999 + 0 = 99999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $37200 + 42800 = \dots$
+\shortans{80000}
+\loigiai{
+$37200 + 42800 = 80000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $61500 + 28500 = \dots$
+\shortans{90000}
+\loigiai{
+$61500 + 28500 = 90000$.
+}
+\end{ex}

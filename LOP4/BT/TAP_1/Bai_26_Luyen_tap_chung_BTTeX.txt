@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $452300 + 347700 = \dots$
+\shortans{800000}
+\loigiai{
+$452300 + 347700 = 800000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $950000 - 420000 = \dots$
+\shortans{530000}
+\loigiai{
+$950000 - 420000 = 530000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $25000 + 17000 + 75000$.
+\shortans{117000}
+\loigiai{
+$(25000 + 75000) + 17000 = 100000 + 17000 = 117000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $36000 + 28000 + 64000$.
+\shortans{128000}
+\loigiai{
+$(36000 + 64000) + 28000 = 100000 + 28000 = 128000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số biết tổng là 80 và hiệu là 20. Số lớn là bao nhiêu?
+\shortans{50}
+\loigiai{
+$(80 + 20) : 2 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm hai số biết tổng là 80 và hiệu là 20. Số bé là bao nhiêu?
+\shortans{30}
+\loigiai{
+$(80 - 20) : 2 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có nửa chu vi là 50 m, chiều dài hơn chiều rộng 12 m. Chiều dài mảnh vườn là bao nhiêu mét?
+\shortans{31}
+\loigiai{
+$(50 + 12) : 2 = 31$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có nửa chu vi là 50 m, chiều dài hơn chiều rộng 12 m. Chiều rộng mảnh vườn là bao nhiêu mét?
+\shortans{19}
+\loigiai{
+$(50 - 12) : 2 = 19$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $1000000 - (350000 + 250000)$.
+\shortans{400000}
+\loigiai{
+$1000000 - 600000 = 400000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 240000 = 700000$.
+\shortans{460000}
+\loigiai{
+$x = 700000 - 240000 = 460000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x - 180000 = 520000$.
+\shortans{700000}
+\loigiai{
+$x = 520000 + 180000 = 700000$.
+}
+\end{ex}
+
+\begin{ex}
+Tuổi mẹ và tuổi con cộng lại là 42 tuổi, mẹ hơn con 26 tuổi. Hỏi con bao nhiêu tuổi?
+\shortans{8}
+\loigiai{
+$(42 - 26) : 2 = 8$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Tuổi mẹ là bao nhiêu trong bài toán trên?
+\shortans{34}
+\loigiai{
+$8 + 26 = 34$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Hai thùng dầu có tất cả 90 lít dầu. Nếu chuyển 5 lít dầu từ thùng 1 sang thùng 2 thì hai thùng bằng nhau. Hỏi ban đầu thùng 1 hơn thùng 2 bao nhiêu lít dầu?
+\shortans{10}
+\loigiai{
+Hiệu = $5 \times 2 = 10$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Ban đầu thùng 1 có bao nhiêu lít dầu?
+\shortans{50}
+\loigiai{
+$(90 + 10) : 2 = 50$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Ban đầu thùng 2 có bao nhiêu lít dầu?
+\shortans{40}
+\loigiai{
+$(90 - 10) : 2 = 40$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $45 + 55 + 65 + 75 + 85 + 95$.
+\shortans{420}
+\loigiai{
+$(45 + 95) + (55 + 85) + (65 + 75) = 140 \times 3 = 420$.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $125 + 375 + 250 + 750$.
+\shortans{1500}
+\loigiai{
+500 + 1000 = 1500.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của hai số chẵn liên tiếp là 50. Số lớn là bao nhiêu?
+\shortans{26}
+\loigiai{
+Hiệu hai số chẵn liên tiếp là 2. Số lớn = $(50 + 2) : 2 = 26$.
+}
+\end{ex}
+
+\begin{ex}
+Số bé trong bài toán trên là bao nhiêu?
+\shortans{24}
+\loigiai{
+$(50 - 2) : 2 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của hai số lẻ liên tiếp là 80. Số lớn là bao nhiêu?
+\shortans{41}
+\loigiai{
+Hiệu hai số lẻ liên tiếp là 2. Số lớn = $(80 + 2) : 2 = 41$.
+}
+\end{ex}
+
+\begin{ex}
+Số bé trong bài toán trên là bao nhiêu?
+\shortans{39}
+\loigiai{
+$(80 - 2) : 2 = 39$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $999999 - 111111 = \dots$
+\shortans{888888}
+\loigiai{
+$999999 - 111111 = 888888$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $500000 + 500000 = \dots$
+\shortans{1000000}
+\loigiai{
+$500000 + 500000 = 1000000$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của hai số là 40, nếu thêm vào số lớn 10 đơn vị và giữ nguyên số bé thì hiệu mới là bao nhiêu?
+\shortans{50}
+\loigiai{
+$40 + 10 = 50$.
+}
+\end{ex}

@@ -1,0 +1,139 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 37. Ôn tập chung học kì 1 --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 37: ÔN TẬP CHUNG HỌC KÌ 1}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Bức tranh toàn cảnh 4 trụ cột kiến thức Tập 1 Toán 4 và chiến lược làm bài thi học kì đạt điểm 10 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faStar\ 1. Bốn trụ cột kiến thức Học kì 1},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{1. Số học}: Số đến lớp triệu, cấu tạo số, so sánh và làm tròn số.\\
+    $\bullet$ \textbf{2. Phép tính}: Đặt tính cộng/trừ nhiều chữ số, tính chất giao hoán \& kết hợp để tính thuận tiện.\\
+    $\bullet$ \textbf{3. Hình học}: 4 loại góc, hai đường thẳng vuông góc, song song, hình bình hành, hình thoi.\\
+    $\bullet$ \textbf{4. Đo lường \& Toán lời văn}: Yến, tạ, tấn, $\text{dm}^2, \text{m}^2, \text{mm}^2$, thế kỉ, bài toán \textbf{Tổng -- Hiệu}.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLightbulbO\ 2. Chiến lược làm bài thi Học kì 1},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Chiến lược 3 bước làm bài}:\\
+    1. Làm nhanh câu dễ, không để sai sót câu trắc nghiệm cơ bản.\\
+    2. Đọc kĩ đề toán có lời văn: Gạch chân từ khóa (tổng, hơn kém nhau, đơn vị đo).\\
+    3. Luôn kiểm tra lại bài trước khi nộp ít nhất 5 phút.\\
+    $\bullet$ \textbf{Nguyên tắc vàng}: Đồng nhất đơn vị đo trước khi thực hiện phép tính!
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: BẢN ĐỒ TỔNG HỢP KIẾN THỨC TOÁN 4 TẬP 1},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    card/.style={rectangle, rounded corners=2.5mm, thick, inner sep=4pt, font=\scriptsize\bfseries, align=center, text width=3.7cm}
+  ]
+    \node[card, draw=blue!75!black, fill=blue!10] (c1) at (0.0, 0) {\textbf{\color{blue!85!black}I. SỐ TỰ NHIÊN}\\Số đến lớp triệu\\Làm tròn, so sánh\\Dãy số tự nhiên};
+    \node[card, draw=teal!80!black, fill=teal!10] (c2) at (4.3, 0) {\textbf{\color{teal!85!black}II. PHÉP CỘNG -- TRỪ}\\Đặt tính thẳng cột\\Tính thuận tiện nhất\\Toán Tổng -- Hiệu};
+    \node[card, draw=orange!80!black, fill=orange!10] (c3) at (8.6, 0) {\textbf{\color{orange!85!black}III. HÌNH HỌC}\\4 loại góc, $\perp, \parallel$\\Hình bình hành, hình thoi\\Vẽ hình bằng ê-ke};
+    \node[card, draw=purple!80!black, fill=purple!10] (c4) at (12.9, 0) {\textbf{\color{purple!85!black}IV. ĐO LƯỜNG}\\Tấn, tạ, yến, kg\\$\text{m}^2, \text{dm}^2, \text{cm}^2, \text{mm}^2$\\Thế kỉ, năm, phút, giây};
+
+    \draw[thick, dashed, gray!60] (2.15, 1.2) -- (2.15, -1.2);
+    \draw[thick, dashed, gray!60] (6.45, 1.2) -- (6.45, -1.2);
+    \draw[thick, dashed, gray!60] (10.75, 1.2) -- (10.75, -1.2);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Một thửa ruộng hình chữ nhật có chu vi $120\text{ m}$, chiều dài hơn chiều rộng $10\text{ m}$.\\
+    $\bullet$ Nửa chu vi (Tổng): $120 : 2 = 60\text{ m}$.\\
+    $\bullet$ Chiều rộng: $(60 - 10) : 2 = \mathbf{25\text{ m}}$.\\
+    $\bullet$ Chiều dài: $25 + 10 = \mathbf{35\text{ m}}$.\\
+    $\bullet$ \textbf{Diện tích thửa ruộng}:\\
+    $35 \times 25 = \mathbf{875\text{ m}^2}$.\\
+    \textbf{Đáp số}: $875\text{ m}^2$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Top 3 bẫy kinh điển đề thi Học kì 1:}\\
+    1. Đề cho chu vi nhưng không tìm nửa chu vi trước khi áp dụng công thức tổng - hiệu.\\
+    2. Đổi đơn vị diện tích bị thiếu số $0$ ($3\text{ m}^2\ 5\text{ dm}^2 \ne 35\text{ dm}^2$).\\
+    3. Nhầm năm $2000$ là thế kỉ 21 (đúng là thế kỉ 20!).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

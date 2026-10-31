@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $9 + 2$.
+\shortans{11}
+\loigiai{
+Tách 2 thành 1 và 1: $9 + 1 = 10$, rồi $10 + 1 = 11$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 3$.
+\shortans{12}
+\loigiai{
+Ta có $9 + 3 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 4$.
+\shortans{13}
+\loigiai{
+Ta có $9 + 4 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 5$.
+\shortans{14}
+\loigiai{
+Ta có $9 + 5 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 6$.
+\shortans{15}
+\loigiai{
+Ta có $9 + 6 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 7$.
+\shortans{16}
+\loigiai{
+Ta có $9 + 7 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 8$.
+\shortans{17}
+\loigiai{
+Ta có $9 + 8 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 + 9$.
+\shortans{18}
+\loigiai{
+Ta có $9 + 9 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $8 + 3$.
+\shortans{11}
+\loigiai{
+Tách 3 thành 2 và 1: $8 + 2 = 10$, rồi $10 + 1 = 11$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $8 + 4$.
+\shortans{12}
+\loigiai{
+Ta có $8 + 4 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $8 + 5$.
+\shortans{13}
+\loigiai{
+Ta có $8 + 5 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $8 + 6$.
+\shortans{14}
+\loigiai{
+Ta có $8 + 6 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $8 + 7$.
+\shortans{15}
+\loigiai{
+Ta có $8 + 7 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $8 + 8$.
+\shortans{16}
+\loigiai{
+Ta có $8 + 8 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $7 + 4$.
+\shortans{11}
+\loigiai{
+Tách 4 thành 3 và 1: $7 + 3 = 10$, rồi $10 + 1 = 11$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $7 + 5$.
+\shortans{12}
+\loigiai{
+Ta có $7 + 5 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $7 + 6$.
+\shortans{13}
+\loigiai{
+Ta có $7 + 6 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $7 + 7$.
+\shortans{14}
+\loigiai{
+Ta có $7 + 7 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 5$.
+\shortans{11}
+\loigiai{
+Tách 5 thành 4 và 1: $6 + 4 = 10$, rồi $10 + 1 = 11$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 6$.
+\shortans{12}
+\loigiai{
+Ta có $6 + 6 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 7$.
+\shortans{13}
+\loigiai{
+Ta có $6 + 7 = 13$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 8$.
+\shortans{14}
+\loigiai{
+Ta có $6 + 8 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 9$.
+\shortans{15}
+\loigiai{
+Ta có $6 + 9 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Mai có 9 bông hoa màu đỏ và 5 bông hoa màu vàng. Mai có tất cả bao nhiêu bông hoa?
+\shortans{14}
+\loigiai{
+Mai có: $9 + 5 = 14$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Trong sân có 8 con gà mái và 7 con gà con. Trong sân có tất cả bao nhiêu con gà?
+\shortans{15}
+\loigiai{
+Có tất cả: $8 + 7 = 15$ con gà.
+}
+\end{ex}

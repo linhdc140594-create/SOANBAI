@@ -1,0 +1,160 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 46. Khối trụ, khối cầu --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 46: KHỐI TRỤ, KHỐI CẦU}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Nhận biết hình dạng, đặc điểm và vật thật thực tế của khối trụ và khối cầu trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Khối trụ}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Đặc điểm cấu tạo:}\\
+  - Có \textbf{hai mặt đáy} là hai hình tròn bằng nhau phẳng.\\
+  - Có một \textbf{mặt xung quanh} cong tròn.
+  \item \textbf{Khả năng chuyển động:}\\
+  - Có thể \textbf{trượt} (khi đặt trên mặt đáy phẳng).\\
+  - Có thể \textbf{lăn} (khi đặt nằm ngang trên mặt cong).\\
+  - Có thể \textbf{chồng lên nhau} được (đặt đáy lên đáy).
+  \item \textbf{Vật thật:}\\
+  Hộp sữa đặc, lon nước ngọt, khúc gỗ tròn, cục pin, trống trường,...
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Khối cầu}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Đặc điểm cấu tạo:}\\
+  - Toàn bộ bề mặt là một \textbf{mặt cong khép kín hoàn hảo}.\\
+  - Không có đỉnh, không có cạnh và không có mặt phẳng đáy nào.
+  \item \textbf{Khả năng chuyển động:}\\
+  - Có thể \textbf{lăn về mọi hướng}.\\
+  - \textbf{Không thể chồng} đứng lên nhau được (sẽ bị trượt đổ).
+  \item \textbf{Vật thật:}\\
+  Quả bóng đá, viên bi thủy tinh, quả địa cầu, viên ngọc trai, quả cam,...
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Bảng đối chiếu so sánh Khối trụ và Khối cầu}
+]
+\centering
+\begin{tikzpicture}[x=1.5cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, text width=4.5cm, align=center, font=\scriptsize\bfseries] at (0,0) {
+    \textbf{KHỐI TRỤ}\\$\bullet$ 2 đáy phẳng hình tròn.\\$\bullet$ Vừa lăn được, vừa trượt được.\\$\bullet$ Chồng lên nhau được.
+  };
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, text width=4.5cm, align=center, font=\scriptsize\bfseries] at (4.8,0) {
+    \textbf{KHỐI CẦU}\\$\bullet$ Mặt cong toàn bộ.\\$\bullet$ Lăn được về mọi hướng.\\$\bullet$ Không chồng lên nhau được.
+  };
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{Phân loại đồ vật:}\\
+Xếp các vật sau vào nhóm thích hợp:\\
+\textit{Lon cocacola, quả bóng tennis, hộp chè tròn, viên bi.}\\
+- \textbf{Khối trụ:} Lon cocacola, hộp chè tròn.\\
+- \textbf{Khối cầu:} Quả bóng tennis, viên bi.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Phân biệt Khối cầu và Hình tròn:}\\
+  - Hình tròn: Hình phẳng vẽ trên giấy 2D.\\
+  - Khối cầu: Vật thể không gian 3D cầm nắm được.
+  \item Khối trụ chỉ lăn được khi đặt nằm nghiêng, đặt đứng thì chỉ trượt được.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

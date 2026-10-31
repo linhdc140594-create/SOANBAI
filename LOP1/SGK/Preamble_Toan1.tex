@@ -1,0 +1,171 @@
+% =========================================================================
+% PREAMBLE CẤU HÌNH BỘ ĐỀ KIỂM TRA ĐỊNH KÌ TOÁN 1 THEO TỪNG BÀI HỌC
+% TRUNG TÂM: LỚP TOÁN THẦY LĨNH - WEBSITE: loptoanthaylinh.vn
+% FONT CHỮ: HIỆN ĐẠI, KHÔNG CHÂN (SANS-SERIF), RÕ RÀNG CHO TIỂU HỌC
+% =========================================================================
+
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+
+% Font chữ hiện đại: TeX Gyre Heros (phong cách Helvetica không chân, cực kì sắc nét)
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{graphicx}
+\usepackage{fontawesome,pgfornament}
+\usepackage{enumerate}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage[top=1.8cm,bottom=1.8cm,left=1.8cm,right=1.8cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{tabularx,booktabs,colortbl,array,multirow}
+
+% Định nghĩa bảng màu chuẩn hiện đại
+\definecolor{slate}{RGB}{100,116,139}
+\definecolor{myteal}{RGB}{13,148,136}
+\definecolor{darkteal}{RGB}{15,118,110}
+
+% Gói vẽ hình TikZ
+\usepackage{tikz, tkz-tab, tkz-euclide}
+\usetikzlibrary{shadings, fadings, shadows, shapes, shapes.geometric, arrows, arrows.meta, calc, intersections, angles, quotes, patterns, decorations.text, decorations.pathmorphing, backgrounds, positioning, fit, petri, mindmap, matrix}
+
+% Gói khung tcolorbox
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Gói tạo mã QR Code
+\usepackage{qrcode}
+
+% Gói soạn câu hỏi trắc nghiệm chuẩn BTTeX Pro
+\usepackage[dethi]{ex_test}
+\renewtheorem{ex}{\faEdit~Câu}
+\newtheorem{bt}{\faEdit~Bài}
+
+% Các kí hiệu toán học chuẩn
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+\newcommand{\hoac}[1]{\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{\left\{\begin{aligned}#1\end{aligned}\right.}
+
+% -------------------------------------------------------------------------
+% CẤU HÌNH HEADER / FOOTER TRANG IN
+% -------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{teal!85!black}\bfseries Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyhead[R]{\small\color{slate}\itshape Đề kiểm tra Toán 1 theo từng bài}
+\fancyfoot[C]{\bfseries\thepage}
+\renewcommand{\headrulewidth}{0.6pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% -------------------------------------------------------------------------
+% MACRO: KHUNG TIÊU ĐỀ + HỌ TÊN + ĐIỂM + MÃ QR CHO TỪNG BÀI KIỂM TRA
+% Cú pháp: \TaoPhieuKiemTra{Chủ đề}{Số bài}{Tên bài}{Link QR thi online}
+% -------------------------------------------------------------------------
+\newcommand{\TaoPhieuKiemTra}[4]{%
+  \begin{tcolorbox}[
+    enhanced,
+    colback=white,
+    colframe=teal!80!black,
+    arc=3.5mm,
+    boxrule=1.2pt,
+    left=3mm, right=3mm, top=2.5mm, bottom=2.5mm,
+    shadow={1.5mm}{-1.5mm}{0mm}{black!10}
+  ]
+    % HÀNG 1: LOGO TRUNG TÂM | TIÊU ĐỀ BÀI KIỂM TRA | MÃ QR CODE
+    \begin{minipage}[c]{0.26\textwidth}
+      \centering
+      \begin{tcolorbox}[colback=teal!10, colframe=teal!80!black, boxrule=0.6pt, arc=1.5mm, halign=center, top=1mm, bottom=1mm, left=1mm, right=1mm]
+        {\bfseries\color{teal!95!black}\small LỚP TOÁN THẦY LĨNH}\\[1pt]
+        {\tiny\color{slate}\faGlobe~loptoanthaylinh.vn}\\[1pt]
+        {\tiny\color{slate}\faPhone~Hotline: Thầy Lĩnh}
+      \end{tcolorbox}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.54\textwidth}
+      \centering
+      {\footnotesize\bfseries\color{teal!80!black}\MakeUppercase{#1}}\\[2pt]
+      {\large\bfseries\color{black}\MakeUppercase{BÀI #2: #3}}\\[3pt]
+      {\scriptsize\itshape Thời gian làm bài: 35 phút -- Cấu trúc 3 phần chuẩn 2025}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[c]{0.16\textwidth}
+      \centering
+      \qrcode[height=1.5cm]{#4}\\[2pt]
+      {\tiny\bfseries\color{teal!90!black}\faQrcode~Quét QR thi}
+    \end{minipage}
+
+    \vspace{2mm}\hrule\vspace{2mm}
+
+    % HÀNG 2: THÔNG TIN HỌC SINH & KHUNG ĐIỂM / LỜI PHÊ
+    \noindent
+    \begin{minipage}[t]{0.68\textwidth}
+      \vspace{1mm}
+      \textbf{Họ và tên học sinh:} \dotfill\\[5pt]
+      \textbf{Lớp:} \dotfill\quad \textbf{Trường:} \dotfill\\[5pt]
+      \textbf{Ngày kiểm tra:} \dotfill/\dotfill/202\dots
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.30\textwidth}
+      \begin{tcolorbox}[
+        enhanced,
+        colback=teal!5,
+        colframe=teal!70!black,
+        boxrule=0.8pt,
+        arc=2mm,
+        halign=center,
+        top=1.5mm, bottom=1.5mm, left=1mm, right=1mm
+      ]
+        {\bfseries\footnotesize ĐIỂM SỐ}\\[2pt]
+        {\Large\bfseries\color{teal!90!black} \dots\dots / 10}
+      \end{tcolorbox}
+    \end{minipage}
+  \end{tcolorbox}
+  \vspace{2mm}
+}
+
+% -------------------------------------------------------------------------
+% MACRO: TIÊU ĐỀ LỜI GIẢI CHI TIẾT (DÙNG TRONG PHẦN 2)
+% Cú pháp: \TaoHeaderLoiGiai{Chủ đề}{Số bài}{Tên bài}
+% -------------------------------------------------------------------------
+\newcommand{\TaoHeaderLoiGiai}[3]{%
+  \begin{tcolorbox}[
+    colback=teal!10,
+    colframe=teal!80!black,
+    arc=2mm,
+    boxrule=1pt,
+    left=3mm, right=3mm, top=2mm, bottom=2mm
+  ]
+    \centering
+    {\bfseries\color{teal!90!black}\large HƯỚNG DẪN GIẢI CHI TIẾT -- BÀI #2: #3}\\[2pt]
+    {\footnotesize\color{black!80}\MakeUppercase{#1}}
+  \end{tcolorbox}
+  \vspace{2mm}
+}
+
+% -------------------------------------------------------------------------
+% ĐỊNH NGHĨA CHẾ ĐỘ PHẦN 1 (ĐỀ BÀI) VÀ PHẦN 2 (LỜI GIẢI CHI TIẾT)
+% -------------------------------------------------------------------------
+\newcommand{\BatCheDoDeThi}{%
+  % Ẩn hoàn toàn khối lời giải trong phần đề bài để học sinh làm bài
+  \renewcommand{\loigiai}[1]{}%
+}
+
+\newcommand{\BatCheDoLoiGiai}{%
+  % Hiển thị lời giải chi tiết đẹp mắt với khung và màu sắc nổi bật
+  \renewcommand{\loigiai}[1]{%
+    \par\vspace{1.5mm}\noindent
+    \begin{tcolorbox}[
+      colback=slate!5!white,
+      colframe=teal!50!black,
+      boxrule=0.5pt,
+      arc=1.5mm,
+      left=2.5mm, right=2.5mm, top=1.5mm, bottom=1.5mm
+    ]
+      {\small\bfseries\color{teal!85!black}\faLightbulbO~Lời giải chi tiết:}\par
+      {\small ##1}
+    \end{tcolorbox}
+    \par\vspace{1.5mm}
+  }%
+}

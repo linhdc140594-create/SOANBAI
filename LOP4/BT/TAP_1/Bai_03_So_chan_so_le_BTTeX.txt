@@ -1,0 +1,199 @@
+\begin{ex}
+Số 24 568 là số chẵn hay số lẻ? (Nếu là số chẵn ghi 0, số lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Chữ số tận cùng là 8 nên là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Số 73 491 là số chẵn hay số lẻ? (Nếu là số chẵn ghi 0, số lẻ ghi 1).
+\shortans{1}
+\loigiai{
+Chữ số tận cùng là 1 nên là số lẻ (1).
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $124, 357, 460, 589$, có bao nhiêu số chẵn?
+\shortans{2}
+\loigiai{
+Các số chẵn là 124, 460 (có 2 số).
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $135, 246, 579, 681, 702$, có bao nhiêu số lẻ?
+\shortans{3}
+\loigiai{
+Các số lẻ là 135, 579, 681 (có 3 số).
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn liền sau của số 48 là số nào?
+\shortans{50}
+\loigiai{
+$48 + 2 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn liền trước của số 100 là số nào?
+\shortans{98}
+\loigiai{
+$100 - 2 = 98$.
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ liền sau của số 79 là số nào?
+\shortans{81}
+\loigiai{
+$79 + 2 = 81$.
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ liền trước của số 51 là số nào?
+\shortans{49}
+\loigiai{
+$51 - 2 = 49$.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn bé nhất có hai chữ số là số nào?
+\shortans{10}
+\loigiai{
+Số đó là 10.
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ bé nhất có hai chữ số là số nào?
+\shortans{11}
+\loigiai{
+Số đó là 11.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn lớn nhất có hai chữ số là số nào?
+\shortans{98}
+\loigiai{
+Số đó là 98.
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ lớn nhất có hai chữ số là số nào?
+\shortans{99}
+\loigiai{
+Số đó là 99.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn bé nhất có ba chữ số là số nào?
+\shortans{100}
+\loigiai{
+Số đó là 100.
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ bé nhất có ba chữ số là số nào?
+\shortans{101}
+\loigiai{
+Số đó là 101.
+}
+\end{ex}
+
+\begin{ex}
+Số chẵn lớn nhất có ba chữ số khác nhau là số nào?
+\shortans{986}
+\loigiai{
+Số đó là 986.
+}
+\end{ex}
+
+\begin{ex}
+Số lẻ bé nhất có ba chữ số khác nhau là số nào?
+\shortans{103}
+\loigiai{
+Số đó là 103.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của hai số chẵn là số chẵn hay số lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Tổng hai số chẵn luôn là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Tổng của hai số lẻ là số chẵn hay số lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Tổng hai số lẻ luôn là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Tổng của một số chẵn và một số lẻ là số chẵn hay lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{1}
+\loigiai{
+Tổng của một số chẵn và một số lẻ luôn là số lẻ (1).
+}
+\end{ex}
+
+\begin{ex}
+Tích của hai số lẻ là số chẵn hay lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{1}
+\loigiai{
+Tích hai số lẻ luôn là số lẻ (1).
+}
+\end{ex}
+
+\begin{ex}
+Tích của một số chẵn với bất kỳ số tự nhiên nào là số chẵn hay lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Tích luôn là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Từ 1 đến 20 có bao nhiêu số chẵn?
+\shortans{10}
+\loigiai{
+Các số chẵn: 2, 4, ..., 20 (có 10 số).
+}
+\end{ex}
+
+\begin{ex}
+Từ 1 đến 20 có bao nhiêu số lẻ?
+\shortans{10}
+\loigiai{
+Các số lẻ: 1, 3, ..., 19 (có 10 số).
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của hai số lẻ là số chẵn hay lẻ? (Chẵn ghi 0, lẻ ghi 1).
+\shortans{0}
+\loigiai{
+Hiệu hai số lẻ là số chẵn (0).
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số chẵn có hai chữ số?
+\shortans{45}
+\loigiai{
+Có $(98 - 10) : 2 + 1 = 45$ số.
+}
+\end{ex}

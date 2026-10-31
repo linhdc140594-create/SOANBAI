@@ -1,0 +1,176 @@
+=== BÀI 41: TÌM GIÁ TRỊ PHẦN TRĂM CỦA MỘT SỐ ===
+
+Câu 1: Tìm 20\% của số 150.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Giá trị là: 150 x 20 : 100 = 30.
+
+----------------------------------------
+
+Câu 2: Tìm 25\% của số 200.
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Giá trị là: 200 x 25 : 100 = 50.
+
+----------------------------------------
+
+Câu 3: Tìm 30\% của số 400.
+Đáp án: [shortans]120[/shortans]
+Lời giải chi tiết:
+Giá trị là: 400 x 30 : 100 = 120.
+
+----------------------------------------
+
+Câu 4: Tìm 50\% của số 360.
+Đáp án: [shortans]180[/shortans]
+Lời giải chi tiết:
+Giá trị là: 360 x 50 : 100 = 180.
+
+----------------------------------------
+
+Câu 5: Tìm 75\% của số 80.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Giá trị là: 80 x 75 : 100 = 60.
+
+----------------------------------------
+
+Câu 6: Tìm 10\% của số 450.
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+Giá trị là: 450 x 10 : 100 = 45.
+
+----------------------------------------
+
+Câu 7: Tìm 15\% của số 200.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Giá trị là: 200 x 15 : 100 = 30.
+
+----------------------------------------
+
+Câu 8: Tìm 40\% của số 250.
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Giá trị là: 250 x 40 : 100 = 100.
+
+----------------------------------------
+
+Câu 9: Tìm 60\% của số 300.
+Đáp án: [shortans]180[/shortans]
+Lời giải chi tiết:
+Giá trị là: 300 x 60 : 100 = 180.
+
+----------------------------------------
+
+Câu 10: Tìm 80\% của số 250.
+Đáp án: [shortans]200[/shortans]
+Lời giải chi tiết:
+Giá trị là: 250 x 80 : 100 = 200.
+
+----------------------------------------
+
+Câu 11: Tìm 5\% của số 400.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Giá trị là: 400 x 5 : 100 = 20.
+
+----------------------------------------
+
+Câu 12: Tìm 8\% của số 500.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Giá trị là: 500 x 8 : 100 = 40.
+
+----------------------------------------
+
+Câu 13: Tìm 12\% của số 300.
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+Giá trị là: 300 x 12 : 100 = 36.
+
+----------------------------------------
+
+Câu 14: Tìm 35\% của số 200.
+Đáp án: [shortans]70[/shortans]
+Lời giải chi tiết:
+Giá trị là: 200 x 35 : 100 = 70.
+
+----------------------------------------
+
+Câu 15: Tìm 45\% của số 200.
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+Giá trị là: 200 x 45 : 100 = 90.
+
+----------------------------------------
+
+Câu 16: Tìm 65\% của số 200.
+Đáp án: [shortans]130[/shortans]
+Lời giải chi tiết:
+Giá trị là: 200 x 65 : 100 = 130.
+
+----------------------------------------
+
+Câu 17: Tìm 90\% của số 150.
+Đáp án: [shortans]135[/shortans]
+Lời giải chi tiết:
+Giá trị là: 150 x 90 : 100 = 135.
+
+----------------------------------------
+
+Câu 18: Tìm 25\% của số 320.
+Đáp án: [shortans]80[/shortans]
+Lời giải chi tiết:
+Giá trị là: 320 x 25 : 100 = 80.
+
+----------------------------------------
+
+Câu 19: Tìm 75\% của số 240.
+Đáp án: [shortans]180[/shortans]
+Lời giải chi tiết:
+Giá trị là: 240 x 75 : 100 = 180.
+
+----------------------------------------
+
+Câu 20: Tìm 50\% của số 500.
+Đáp án: [shortans]250[/shortans]
+Lời giải chi tiết:
+Giá trị là: 500 x 50 : 100 = 250.
+
+----------------------------------------
+
+Câu 21: Tìm 20\% của số 650.
+Đáp án: [shortans]130[/shortans]
+Lời giải chi tiết:
+Giá trị là: 650 x 20 : 100 = 130.
+
+----------------------------------------
+
+Câu 22: Tìm 30\% của số 500.
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+Giá trị là: 500 x 30 : 100 = 150.
+
+----------------------------------------
+
+Câu 23: Tìm 10\% của số 890.
+Đáp án: [shortans]89[/shortans]
+Lời giải chi tiết:
+Giá trị là: 890 x 10 : 100 = 89.
+
+----------------------------------------
+
+Câu 24: Tìm 15\% của số 600.
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+Giá trị là: 600 x 15 : 100 = 90.
+
+----------------------------------------
+
+Câu 25: Tìm 40\% của số 150.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Giá trị là: 150 x 40 : 100 = 60.
+
+----------------------------------------

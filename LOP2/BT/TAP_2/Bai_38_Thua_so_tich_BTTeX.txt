@@ -1,0 +1,199 @@
+\begin{ex}
+Trong phép nhân $2 \times 5 = 10$, số 10 được gọi là gì? Tính tích của 2 và 5.
+\shortans{10}
+\loigiai{
+Tích của 2 và 5 là 10.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép nhân $5 \times 4 = 20$, thừa số thứ nhất là 5, thừa số thứ hai bằng bao nhiêu?
+\shortans{4}
+\loigiai{
+Thừa số thứ hai là 4.
+}
+\end{ex}
+
+\begin{ex}
+Biết hai thừa số là 2 và 7. Tính tích của hai số đó.
+\shortans{14}
+\loigiai{
+Tích: $2 \times 7 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Biết hai thừa số là 5 và 6. Tính tích của hai số đó.
+\shortans{30}
+\loigiai{
+Tích: $5 \times 6 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Biết hai thừa số là 2 và 9. Tính tích của hai số đó.
+\shortans{18}
+\loigiai{
+Tích: $2 \times 9 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Biết hai thừa số là 5 và 8. Tính tích của hai số đó.
+\shortans{40}
+\loigiai{
+Tích: $5 \times 8 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép nhân, nếu một thừa số là 0 thì tích bằng bao nhiêu?
+\shortans{0}
+\loigiai{
+Bất kỳ số nào nhân với 0 cũng bằng 0.
+}
+\end{ex}
+
+\begin{ex}
+Trong phép nhân, nếu một thừa số là 1 thì tích bằng số nào? Cho phép nhân $7 \times 1$, kết quả bằng bao nhiêu?
+\shortans{7}
+\loigiai{
+Ta có $7 \times 1 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 3 + 4$.
+\shortans{10}
+\loigiai{
+Ta có $2 \times 3 = 6$, rồi $6 + 4 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 2 + 8$.
+\shortans{18}
+\loigiai{
+Ta có $5 \times 2 = 10$, rồi $10 + 8 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 8 - 6$.
+\shortans{10}
+\loigiai{
+Ta có $2 \times 8 = 16$, rồi $16 - 6 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 5 - 15$.
+\shortans{10}
+\loigiai{
+Ta có $5 \times 5 = 25$, rồi $25 - 15 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $2 \times \dots = 12$.
+\shortans{6}
+\loigiai{
+Số cần điền là: $12 : 2 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $5 \times \dots = 25$.
+\shortans{5}
+\loigiai{
+Số cần điền là: $25 : 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots \times 7 = 14$.
+\shortans{2}
+\loigiai{
+Số cần điền là: $14 : 7 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots \times 9 = 45$.
+\shortans{5}
+\loigiai{
+Số cần điền là: $45 : 9 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Một nhóm có 2 bạn, 6 nhóm như thế có tất cả bao nhiêu bạn?
+\shortans{12}
+\loigiai{
+Có: $2 \times 6 = 12$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi hộp có 5 chiếc bút bi, 7 hộp như thế có bao nhiêu chiếc bút bi?
+\shortans{35}
+\loigiai{
+Có: $5 \times 7 = 35$ chiếc bút.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi chuồng có 2 con thỏ, 8 chuồng như thế có tất cả bao nhiêu con thỏ?
+\shortans{16}
+\loigiai{
+Có: $2 \times 8 = 16$ con thỏ.
+}
+\end{ex}
+
+\begin{ex}
+Bác An mua 5 túi gạo, mỗi túi nặng 5 kg. Bác An đã mua tất cả bao nhiêu ki-lô-gam gạo?
+\shortans{25}
+\loigiai{
+Bác mua: $5 \times 5 = 25$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Có 4 can nước, mỗi can chứa 5 lít. Hỏi cả 4 can chứa bao nhiêu lít nước?
+\shortans{20}
+\loigiai{
+Chứa: $5 \times 4 = 20$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Tìm tích của số bé nhất có hai chữ số và số 2.
+\shortans{20}
+\loigiai{
+Số bé nhất có hai chữ số là 10. Tích: $10 \times 2 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm tích của số liền sau số 1 và số liền trước số 6.
+\shortans{10}
+\loigiai{
+Số liền sau 1 là 2, liền trước 6 là 5. Tích: $2 \times 5 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tích của hai số là 18, biết một thừa số là 2. Thừa số kia là bao nhiêu?
+\shortans{9}
+\loigiai{
+Thừa số kia là: $18 : 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tích của hai số là 35, biết một thừa số là 5. Thừa số kia là bao nhiêu?
+\shortans{7}
+\loigiai{
+Thừa số kia là: $35 : 5 = 7$.
+}
+\end{ex}

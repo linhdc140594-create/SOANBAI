@@ -1,0 +1,199 @@
+\begin{ex}
+Xăng-ti-mét được viết tắt bằng hai chữ cái nào trong bảng chữ cái tiếng Anh? Số chữ cái viết tắt là bao nhiêu?
+\shortans{2}
+\loigiai{
+Viết tắt là cm, gồm 2 chữ cái.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5\text{ cm} + 3\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Ta có: $5 + 3 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $9\text{ cm} - 4\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Ta có: $9 - 4 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10\text{ cm} + 5\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{15}
+\loigiai{
+Ta có: $10 + 5 = 15$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18\text{ cm} - 8\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Ta có: $18 - 8 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $12\text{ cm} + 6\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{18}
+\loigiai{
+Ta có: $12 + 6 = 18$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $19\text{ cm} - 5\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{14}
+\loigiai{
+Ta có: $19 - 5 = 14$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7\text{ cm} + 2\text{ cm} + 1\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Ta có: $7 + 2 + 1 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15\text{ cm} - 3\text{ cm} - 2\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Ta có: $15 - 3 - 2 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20\text{ cm} + 30\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{50}
+\loigiai{
+Ta có: $20 + 30 = 50$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $70\text{ cm} - 40\text{ cm}$. Kết quả là bao nhiêu xăng-ti-mét?
+\shortans{30}
+\loigiai{
+Ta có: $70 - 40 = 30$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đặt thước kẻ có vạch 0 cm trùng vào điểm A của đoạn thẳng AB, điểm B trùng với vạch số 7 cm. Đoạn thẳng AB dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Đoạn thẳng AB dài 7 cm.
+}
+\end{ex}
+
+\begin{ex}
+Đặt thước kẻ có vạch 0 cm trùng vào điểm M, điểm N trùng vào vạch 12 cm. Đoạn thẳng MN dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Đoạn thẳng MN dài 12 cm.
+}
+\end{ex}
+
+\begin{ex}
+Đặt đầu chiếc bút chì trùng với vạch số 2 cm của thước kẻ, đầu kia trùng với vạch số 9 cm. Chiếc bút chì dài bao nhiêu xăng-ti-mét?
+\shortans{7}
+\loigiai{
+Chiều dài chiếc bút chì là: $9 - 2 = 7$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đặt đầu chiếc kẹp ghim trùng với vạch số 3 cm, đầu kia trùng với vạch số 6 cm. Chiếc kẹp ghim dài bao nhiêu xăng-ti-mét?
+\shortans{3}
+\loigiai{
+Chiều dài chiếc kẹp ghim: $6 - 3 = 3$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng CD dài 8 cm. Kẻ thêm đoạn DE dài 4 cm thẳng hàng với CD. Cả đoạn thẳng CE dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+Độ dài đoạn CE: $8 + 4 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một đoạn dây thép dài 17 cm, Nam cắt bớt một đoạn dài 7 cm. Đoạn dây thép còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+Còn lại: $17 - 7 = 10$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $8\text{ cm} + \dots\text{ cm} = 15\text{ cm}$.
+\shortans{7}
+\loigiai{
+Số cần điền là: $15 - 8 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $16\text{ cm} - \dots\text{ cm} = 10\text{ cm}$.
+\shortans{6}
+\loigiai{
+Số cần điền là: $16 - 10 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots\text{ cm} + 20\text{ cm} = 60\text{ cm}$.
+\shortans{40}
+\loigiai{
+Số cần điền là: $60 - 20 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $80\text{ cm} - \dots\text{ cm} = 30\text{ cm}$.
+\shortans{50}
+\loigiai{
+Số cần điền là: $80 - 30 = 50$.
+}
+\end{ex}
+
+\begin{ex}
+Một cuốn vở học sinh dày 1 cm, xếp chồng 5 cuốn vở như nhau thì tập vở dày bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Dày: $1 \times 5 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc compa dài 14 cm, chiếc bút sáp màu dài 9 cm. Chiếc compa dài hơn chiếc bút sáp bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Dài hơn: $14 - 9 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng thứ nhất dài 11 cm, đoạn thứ hai dài 5 cm. Tổng độ dài hai đoạn thẳng là bao nhiêu xăng-ti-mét?
+\shortans{16}
+\loigiai{
+Tổng độ dài: $11 + 5 = 16$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một gang tay của mẹ dài khoảng 18 cm, gang tay của con dài khoảng 12 cm. Gang tay của mẹ dài hơn gang tay của con bao nhiêu xăng-ti-mét?
+\shortans{6}
+\loigiai{
+Dài hơn: $18 - 12 = 6$ cm.
+}
+\end{ex}

@@ -1,0 +1,139 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 75. Ôn tập chung cuối năm --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 75. ÔN TẬP CHUNG CUỐI NĂM -- HÀNH TRANG VÀO LỚP 6}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Tổng kết toàn diện 4 trụ cột kiến thức Toán 5 chuẩn bị cho kì thi cuối năm và tuyển sinh lớp 6 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BỐN TRỤ CỘT TOÁN 5 ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBook\ 1. Trọng tâm Số học \& Đo lường},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Số học:} Thành thạo $4$ phép tính với STN, Phân số và Số thập phân; giải tốt các bài toán về tỉ số phần trăm.\\
+    $\bullet$ \textbf{Đo lường:} Nắm vững thang đo Độ dài, Khối lượng, Diện tích, Thể tích và Thời gian.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faShapes\ 2. Trọng tâm Hình học \& Chuyển động},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Hình học:} Thuộc làu công thức diện tích Tam giác, Hình thang, Hình tròn, HHCN, HLP.\\
+    $\bullet$ \textbf{Chuyển động đều:} Nhớ vững $s = v \times t$, bài toán ngược chiều chia Tổng $v$, cùng chiều chia Hiệu $v$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Toàn cảnh 4 mạch kiến thức cốt lõi Toán 5},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=orange!12, draw=orange!75!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b4/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[root] (core) at (0,0) {\faGraduationCap\ TOÁN 5 -- HÀNH TRANG VÀO 6};
+    \node[b1] (n1) at (-5.3, 0.75) {\textbf{SỐ HỌC:}\\[1.5pt]STN, Phân số, STP, Tỉ số \%};
+    \node[b2] (n2) at (5.3, 0.75) {\textbf{HÌNH HỌC:}\\[1.5pt]Tam giác, Hình thang, Tròn, HLP, HHCN};
+    \node[b3] (n3) at (-5.3, -0.75) {\textbf{ĐO LƯỜNG:}\\[1.5pt]Độ dài, Diện tích, Thể tích, Thời gian};
+    \node[b4] (n4) at (5.3, -0.75) {\textbf{CHUYỂN ĐỘNG ĐỀU:}\\[1.5pt]$s = v \times t$, Gặp nhau, Đuổi kịp, Dòng nước};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -| (n1.south);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -| (n2.south);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.west) -| (n3.north);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core.east) -| (n4.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: LỜI DẶN THẦY LĨNH & CHIẾN THUẬT PHÒNG THI ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faHeart\ Lời dặn dò tâm huyết từ Thầy Lĩnh},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tâm lý thi cử:} Bình tĩnh, tự tin, đọc kĩ đề từ đầu đến cuối.\\
+    $\bullet$ \textbf{Chiến thuật ăn điểm:} Làm chắc chắn câu dễ trước, câu khó làm sau; không bao giờ bỏ trống đáp án!\\
+    $\bullet$ \textbf{Trình bày:} Viết chữ và số rõ ràng, gạch chân từ khóa quan trọng.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faStar\ 3 thói quen kiểm tra bài thi},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{1. Kiểm tra đơn vị đo:} Xem đáp số đã đúng đơn vị đề bài hỏi chưa.\\
+    $\bullet$ \textbf{2. Tính nhẩm ngược lại:} Thay đáp số vào đề bài kiểm tra tính hợp lý.\\
+    $\bullet$ \textbf{3. Dấu phẩy ở số thập phân:} Đếm lại số chữ số thập phân cẩn thận.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

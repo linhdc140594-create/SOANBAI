@@ -1,0 +1,199 @@
+\begin{ex}
+Có bao nhiêu chú chim đang đậu trên cành cây: chim sẻ, chim chích, chim khuyên? Số lượng chú chim là bao nhiêu?
+\shortans{3}
+\loigiai{
+Có 3 chú chim đang đậu trên cành.
+}
+\end{ex}
+
+\begin{ex}
+Số không được viết bằng chữ số nào?
+\shortans{0}
+\loigiai{
+Số không được viết là chữ số 0.
+}
+\end{ex}
+
+\begin{ex}
+Số nào đứng liền sau số 3 trong dãy số tự nhiên?
+\shortans{4}
+\loigiai{
+Số liền sau số 3 là 4.
+}
+\end{ex}
+
+\begin{ex}
+Số nào đứng liền trước số 2 trong dãy số tự nhiên?
+\shortans{1}
+\loigiai{
+Số liền trước số 2 là 1.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $0, 1, 2, 3, 4, 5$, số nào là số lớn nhất?
+\shortans{5}
+\loigiai{
+Số lớn nhất trong dãy từ 0 đến 5 là 5.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $0, 1, 2, 3, 4, 5$, số nào là số bé nhất?
+\shortans{0}
+\loigiai{
+Số bé nhất trong dãy từ 0 đến 5 là 0.
+}
+\end{ex}
+
+\begin{ex}
+Bàn tay của em có bao nhiêu ngón tay?
+\shortans{5}
+\loigiai{
+Một bàn tay có 5 ngón tay.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp không có viên bi nào. Số viên bi trong hộp tương ứng với số nào?
+\shortans{0}
+\loigiai{
+Không có viên bi nào biểu thị bằng số 0.
+}
+\end{ex}
+
+\begin{ex}
+Đếm từ 0 đến 5, số đứng ở giữa số 1 và số 3 là số nào?
+\shortans{2}
+\loigiai{
+Số đứng giữa 1 và 3 là số 2.
+}
+\end{ex}
+
+\begin{ex}
+Đếm từ 0 đến 5, số đứng ở giữa số 3 và số 5 là số nào?
+\shortans{4}
+\loigiai{
+Số đứng giữa 3 và 5 là số 4.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $0, 1, \dots, 3, 4, 5$. Số còn thiếu là bao nhiêu?
+\shortans{2}
+\loigiai{
+Dãy số tăng dần liên tiếp là 0, 1, 2, 3, 4, 5. Số còn thiếu là 2.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào chỗ chấm: $5, 4, 3, \dots, 1, 0$. Số còn thiếu là bao nhiêu?
+\shortans{2}
+\loigiai{
+Dãy số đếm lùi: 5, 4, 3, 2, 1, 0. Số còn thiếu là 2.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 2 cái kẹo, mẹ cho Lan thêm 1 cái kẹo nữa. Hỏi Lan có tất cả bao nhiêu cái kẹo?
+\shortans{3}
+\loigiai{
+Lan có tất cả: $2 + 1 = 3$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Trên bàn có 4 quả táo, Nam ăn hết 1 quả. Hỏi trên bàn còn lại bao nhiêu quả táo?
+\shortans{3}
+\loigiai{
+Số quả táo còn lại là: $4 - 1 = 3$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên nhỏ hơn 5?
+\shortans{5}
+\loigiai{
+Các số tự nhiên nhỏ hơn 5 gồm: $0, 1, 2, 3, 4$. Có tất cả 5 số.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên khác 0 và không vượt quá 5?
+\shortans{5}
+\loigiai{
+Các số đó gồm: $1, 2, 3, 4, 5$. Có 5 số.
+}
+\end{ex}
+
+\begin{ex}
+Một con mèo có bao nhiêu cái chân?
+\shortans{4}
+\loigiai{
+Con mèo có 4 cái chân.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc xe đạp có bao nhiêu bánh xe?
+\shortans{2}
+\loigiai{
+Chiếc xe đạp có 2 bánh xe.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc xe ô tô con bốn chỗ có bao nhiêu bánh xe chính chạm đất?
+\shortans{4}
+\loigiai{
+Xe ô tô bốn chỗ có 4 bánh xe chính chạm đất.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $4, 1, 5, 0, 3$, có bao nhiêu số lớn hơn 2?
+\shortans{3}
+\loigiai{
+Các số lớn hơn 2 là: 4, 5, 3. Có tất cả 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $2, 5, 0, 4, 1$, có bao nhiêu số bé hơn 3?
+\shortans{3}
+\loigiai{
+Các số bé hơn 3 là: 2, 0, 1. Có tất cả 3 số.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số liền sau của số bé nhất có một chữ số.
+\shortans{1}
+\loigiai{
+Số bé nhất có một chữ số là 0. Số liền sau của 0 là 1.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số liền trước của số 5.
+\shortans{4}
+\loigiai{
+Số đứng liền trước số 5 là số 4.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 bông hoa cúc, Mai cắm 3 bông vào lọ to, số bông còn lại cắm vào lọ nhỏ. Hỏi lọ nhỏ có bao nhiêu bông hoa cúc?
+\shortans{2}
+\loigiai{
+Số bông hoa ở lọ nhỏ là: $5 - 3 = 2$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Bình có 3 viên bi xanh và 2 viên bi đỏ. Hỏi bạn Bình có tất cả bao nhiêu viên bi?
+\shortans{5}
+\loigiai{
+Tổng số viên bi của Bình là: $3 + 2 = 5$ viên bi.
+}
+\end{ex}

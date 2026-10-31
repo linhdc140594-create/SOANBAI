@@ -1,0 +1,199 @@
+\begin{ex}
+Một hình tam giác có độ dài các cạnh là 15 cm, 20 cm, 25 cm. Chu vi hình tam giác đó là bao nhiêu xăng-ti-mét?
+\shortans{60}
+\loigiai{
+$15 + 20 + 25 = 60$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác đều có cạnh 14 cm. Chu vi của nó là bao nhiêu xăng-ti-mét?
+\shortans{42}
+\loigiai{
+$14 \times 3 = 42$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có độ dài 4 cạnh là 10 cm, 12 cm, 15 cm, 18 cm. Chu vi hình tứ giác đó là bao nhiêu xăng-ti-mét?
+\shortans{55}
+\loigiai{
+$10 + 12 + 15 + 18 = 55$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 25 cm, chiều rộng 15 cm. Chu vi của hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{80}
+\loigiai{
+$(25 + 15) \times 2 = 80$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 30 cm, chiều rộng 20 cm. Nửa chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{50}
+\loigiai{
+$30 + 20 = 50$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 15 cm. Chu vi hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{60}
+\loigiai{
+$15 \times 4 = 60$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có cạnh dài 25 cm. Chu vi hình vuông đó là bao nhiêu xăng-ti-mét?
+\shortans{100}
+\loigiai{
+$25 \times 4 = 100$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 48 cm. Cạnh của hình vuông đó dài bao nhiêu xăng-ti-mét?
+\shortans{12}
+\loigiai{
+$48 : 4 = 12$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình vuông có chu vi 80 cm. Cạnh của hình vuông đó dài bao nhiêu xăng-ti-mét?
+\shortans{20}
+\loigiai{
+$80 : 4 = 20$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chu vi 64 cm, chiều rộng là 12 cm. Chiều dài hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{20}
+\loigiai{
+Nửa chu vi = $64 : 2 = 32$ cm. Chiều dài = $32 - 12 = 20$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có nửa chu vi là 40 cm, chiều dài là 25 cm. Chiều rộng hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{15}
+\loigiai{
+$40 - 25 = 15$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một khu đất hình vuông có cạnh dài 50 m. Chu vi khu đất đó là bao nhiêu mét?
+\shortans{200}
+\loigiai{
+$50 \times 4 = 200$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một sân trường hình chữ nhật có chiều dài 60 m, chiều rộng 40 m. Chu vi sân trường đó là bao nhiêu mét?
+\shortans{200}
+\loigiai{
+$(60 + 40) \times 2 = 200$ m.
+}
+\end{ex}
+
+\begin{ex}
+Uốn một đoạn dây thép thành một hình tam giác có 3 cạnh bằng nhau, mỗi cạnh dài 8 cm. Đoạn dây thép dài bao nhiêu xăng-ti-mét?
+\shortans{24}
+\loigiai{
+$8 \times 3 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Uốn một đoạn dây thép dài 36 cm thành một hình vuông. Cạnh của hình vuông đó dài bao nhiêu xăng-ti-mét?
+\shortans{9}
+\loigiai{
+$36 : 4 = 9$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều rộng 8 cm, chiều dài gấp 3 lần chiều rộng. Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{64}
+\loigiai{
+Chiều dài = 24 cm. Chu vi = $(24 + 8) \times 2 = 64$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình chữ nhật có chiều dài 20 cm, chiều rộng bằng nửa chiều dài. Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{60}
+\loigiai{
+Chiều rộng = 10 cm. Chu vi = $(20 + 10) \times 2 = 60$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Ghép hai hình vuông cạnh 5 cm lại thành một hình chữ nhật. Chu vi hình chữ nhật tạo thành là bao nhiêu xăng-ti-mét?
+\shortans{30}
+\loigiai{
+Chiều dài = 10 cm, rộng = 5 cm. Chu vi = $(10 + 5) \times 2 = 30$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Ghép ba hình vuông cạnh 4 cm liền nhau thành một hình chữ nhật. Chu vi hình chữ nhật đó là bao nhiêu xăng-ti-mét?
+\shortans{32}
+\loigiai{
+Dài = 12 cm, rộng = 4 cm. Chu vi = $(12 + 4) \times 2 = 32$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một mảnh vườn hình chữ nhật có chu vi 100 m. Nửa chu vi mảnh vườn đó là bao nhiêu mét?
+\shortans{50}
+\loigiai{
+$100 : 2 = 50$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có chu vi 45 cm, biết hai cạnh dài 12 cm và 18 cm. Cạnh thứ ba dài bao nhiêu xăng-ti-mét?
+\shortans{15}
+\loigiai{
+$45 - (12 + 18) = 15$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một tứ giác có 4 cạnh bằng nhau và chu vi bằng 44 cm. Độ dài mỗi cạnh là bao nhiêu xăng-ti-mét?
+\shortans{11}
+\loigiai{
+$44 : 4 = 11$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một khung ảnh hình vuông cạnh 18 cm. Bạn Mai dán nẹp xung quanh khung ảnh hết bao nhiêu xăng-ti-mét nẹp?
+\shortans{72}
+\loigiai{
+$18 \times 4 = 72$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Nếu cạnh của một hình vuông tăng lên 2 cm thì chu vi hình vuông đó tăng thêm bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+$2 \times 4 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Nếu cạnh hình vuông gấp lên 3 lần thì chu vi của nó gấp lên mấy lần?
+\shortans{3}
+\loigiai{
+Chu vi gấp lên 3 lần.
+}
+\end{ex}

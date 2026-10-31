@@ -1,0 +1,199 @@
+\begin{ex}
+Một tuần lễ có bao nhiêu ngày?
+\shortans{7}
+\loigiai{
+Có 7 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày có bao nhiêu giờ?
+\shortans{24}
+\loigiai{
+Có 24 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 5 giờ đúng, kim dài chỉ vào số nào trên mặt đồng hồ?
+\shortans{12}
+\loigiai{
+Kim dài chỉ vào số 12.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 5 giờ đúng, kim ngắn chỉ vào số nào trên mặt đồng hồ?
+\shortans{5}
+\loigiai{
+Kim ngắn chỉ vào số 5.
+}
+\end{ex}
+
+\begin{ex}
+Từ 8 giờ sáng đến 10 giờ sáng cùng ngày có bao nhiêu giờ?
+\shortans{2}
+\loigiai{
+Có $10 - 8 = 2$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Từ 1 giờ chiều đến 5 giờ chiều cùng ngày có bao nhiêu giờ?
+\shortans{4}
+\loigiai{
+Có $5 - 1 = 4$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Năm là ngày 12, thì Thứ Năm tuần sau là ngày bao nhiêu?
+\shortans{19}
+\loigiai{
+Ngày đó là: $12 + 7 = 19$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu Thứ Hai là ngày 18, thì Thứ Hai tuần trước là ngày bao nhiêu?
+\shortans{11}
+\loigiai{
+Ngày đó là: $18 - 7 = 11$.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 6 là Thứ Ba, thì ngày 8 cùng tháng là Thứ mấy?
+\shortans{5}
+\loigiai{
+Ngày 6 là Thứ Ba, ngày 7 là Thứ Tư, ngày 8 là Thứ Năm.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 20 là Thứ Bảy, thì ngày 18 cùng tháng là Thứ mấy?
+\shortans{5}
+\loigiai{
+Ngày 20 là Thứ Bảy, ngày 19 là Thứ Sáu, ngày 18 là Thứ Năm.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Hùng học võ 2 buổi mỗi tuần, mỗi buổi học 2 giờ. Trong một tuần Hùng học võ tất cả bao nhiêu giờ?
+\shortans{4}
+\loigiai{
+Tổng thời gian: $2 + 2 = 4$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bác bảo vệ trực ca đêm từ 9 giờ tối đến 5 giờ sáng hôm sau. Từ 9 giờ tối đến 12 giờ đêm là mấy giờ?
+\shortans{3}
+\loigiai{
+Thời gian: $12 - 9 = 3$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Bé Hoa đi ngủ lúc 9 giờ tối và thức dậy lúc 6 giờ sáng hôm sau. Bé Hoa đã ngủ bao nhiêu giờ?
+\shortans{9}
+\loigiai{
+Từ 9 giờ tối đến 12 giờ đêm là 3 giờ, từ 12 giờ đêm đến 6 giờ sáng là 6 giờ. Tổng cộng: $3 + 6 = 9$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Chủ Nhật thì 2 ngày nữa là Thứ mấy?
+\shortans{3}
+\loigiai{
+Hôm nay là Chủ Nhật, ngày mai là Thứ Hai, 2 ngày nữa là Thứ Ba.
+}
+\end{ex}
+
+\begin{ex}
+Nếu hôm nay là Thứ Tư thì 3 ngày trước là ngày Thứ mấy trong tuần? (Thứ Ba, Thứ Hai hay Chủ Nhật - ghi 1 nếu là Chủ Nhật).
+\shortans{1}
+\loigiai{
+3 ngày trước Thứ Tư là Chủ Nhật. Đáp số là 1.
+}
+\end{ex}
+
+\begin{ex}
+Hai tuần lễ và 5 ngày có tất cả bao nhiêu ngày?
+\shortans{19}
+\loigiai{
+Hai tuần là 14 ngày. Tổng cộng: $14 + 5 = 19$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Ba tuần lễ có bao nhiêu ngày?
+\shortans{21}
+\loigiai{
+Ba tuần có: $7 \times 3 = 21$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 3 giờ. Sau 5 giờ nữa đồng hồ chỉ mấy giờ?
+\shortans{8}
+\loigiai{
+Đồng hồ chỉ: $3 + 5 = 8$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Đồng hồ chỉ 11 giờ. Trước đó 4 giờ đồng hồ chỉ mấy giờ?
+\shortans{7}
+\loigiai{
+Đồng hồ chỉ: $11 - 4 = 7$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Các ngày em đến trường trong một tuần là: Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu. Em đến trường bao nhiêu ngày?
+\shortans{5}
+\loigiai{
+Em đến trường 5 ngày.
+}
+\end{ex}
+
+\begin{ex}
+Một tiết học ở trường tiểu học kéo dài khoảng 35 phút. Sau đó học sinh được ra chơi 15 phút. Tổng thời gian một tiết học và ra chơi là bao nhiêu phút?
+\shortans{50}
+\loigiai{
+Tổng thời gian: $35 + 15 = 50$ phút.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày bé ăn 3 bữa chính. Trong một tuần bé ăn bao nhiêu bữa chính?
+\shortans{21}
+\loigiai{
+Trong 1 tuần bé ăn: $3 \times 7 = 21$ bữa.
+}
+\end{ex}
+
+\begin{ex}
+Kim phút của đồng hồ quay 2 vòng quanh mặt đồng hồ tương ứng với bao nhiêu giờ?
+\shortans{2}
+\loigiai{
+Mỗi vòng là 1 giờ, 2 vòng là 2 giờ.
+}
+\end{ex}
+
+\begin{ex}
+Số ngày của 1 tuần lễ cộng với số ngày của 1 tuần lễ nữa là bao nhiêu ngày?
+\shortans{14}
+\loigiai{
+Tổng số ngày: $7 + 7 = 14$ ngày.
+}
+\end{ex}
+
+\begin{ex}
+Nếu ngày 30 là Thứ Hai, thì ngày 23 cùng tháng đó là Thứ mấy? Ngày đó là Thứ Hai.
+\shortans{2}
+\loigiai{
+Cùng là Thứ Hai.
+}
+\end{ex}

@@ -1,0 +1,139 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 64. Biểu đồ hình quạt tròn --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 64. BIỂU ĐỒ HÌNH QUẠT TRÒN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Cấu tạo biểu đồ, cách đọc dữ liệu phần trăm và chuyển đổi số lượng thành phần trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: CẤU TẠO VÀ ĐẶC ĐIỂM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faPieChart\ 1. Cấu tạo biểu đồ quạt tròn},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Toàn bộ hình tròn biểu thị \textbf{toàn bộ dữ liệu} ($= \mathbf{100\%}$).\\
+    $\bullet$ Mỗi hình quạt biểu diễn tỉ số phần trăm của từng đối tượng so với toàn thể.\\
+    $\bullet$ Quạt càng lớn thì tỉ số phần trăm của đối tượng đó càng cao.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 2. Công thức tính toán dữ liệu},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Biết tổng số lượng là $T$:\\
+    $\bullet$ \textbf{Tìm số lượng đối tượng ($A$):}\\
+    \centerline{$\mathbf{A = T \times p\% = T \times p : 100}$}\\
+    $\bullet$ \textbf{Tìm tỉ lệ \% khi biết $A$ và $T$:}\\
+    \centerline{$\mathbf{p\% = (A : T) \times 100\%}$}
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Kiến thức trọng tâm Biểu đồ hình quạt tròn},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faPieChart\ BIỂU ĐỒ QUẠT TRÒN};
+    \node[b1] (n1) at (-5.0, -0.45) {\textbf{CẤU TẠO:}\\[2pt]Toàn bộ hình tròn $= 100\%$\\(Góc ở tâm tương ứng $360^\circ$)};
+    \node[b2] (n2) at (0, -0.65) {\textbf{ĐỌC DỮ LIỆU:}\\[2pt]Đối tượng nhiều nhất/ít nhất\\So sánh hơn kém giữa các quạt};
+    \node[b3] (n3) at (5.0, -0.45) {\textbf{TÍNH TOÁN:}\\[2pt]Số lượng: $A = T \times p\%$\\Tỉ lệ: $p\% = (A : T) \times 100\%$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: ƯỚC LƯỢNG & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faEye\ Mẹo ước lượng trực quan nhanh},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Nửa hình tròn tương ứng đúng $\mathbf{50\%}$.\\
+    $\bullet$ Một góc vuông ($1/4$ hình tròn) tương ứng đúng $\mathbf{25\%}$.\\
+    $\bullet$ Dùng các mốc $25\%, 50\%$ để kiểm tra nhanh tính hợp lý của đáp án trắc nghiệm.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Quy tắc 100\%:} Tổng tỉ số phần trăm của tất cả các hình quạt bắt buộc phải bằng đúng $\mathbf{100\%}$. Nếu thiếu, phần còn lại là $100\% - \text{tổng đã biết}$.\\
+    $\bullet$ Nhầm giữa số lượng và phần trăm.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

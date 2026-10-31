@@ -1,0 +1,199 @@
+\begin{ex}
+Góc nhọn là góc bé hơn góc vuông đúng hay sai? (Đúng ghi 1, sai ghi 0).
+\shortans{1}
+\loigiai{
+Đúng, góc nhọn bé hơn góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Góc tù là góc lớn hơn góc vuông và bé hơn góc bẹt đúng hay sai? (Đúng ghi 1, sai ghi 0).
+\shortans{1}
+\loigiai{
+Đúng.
+}
+\end{ex}
+
+\begin{ex}
+Góc bẹt bằng mấy góc vuông?
+\shortans{2}
+\loigiai{
+Góc bẹt bằng 2 góc vuông ($180^\circ = 2 \times 90^\circ$).
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có thể có nhiều nhất bao nhiêu góc tù?
+\shortans{1}
+\loigiai{
+Tam giác chỉ có nhiều nhất 1 góc tù.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác có thể có nhiều nhất bao nhiêu góc vuông?
+\shortans{1}
+\loigiai{
+Tam giác chỉ có nhiều nhất 1 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tam giác nhọn có bao nhiêu góc nhọn?
+\shortans{3}
+\loigiai{
+Có 3 góc nhọn.
+}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Hình vuông có bao nhiêu góc vuông?
+\shortans{4}
+\loigiai{
+Có 4 góc vuông.
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 2 giờ đúng là góc gì? (Góc nhọn ghi 1, góc tù ghi 2, góc bẹt ghi 3).
+\shortans{1}
+\loigiai{
+Góc $60^\circ$ là góc nhọn (1).
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 4 giờ đúng là góc gì? (Góc nhọn ghi 1, góc tù ghi 2, góc bẹt ghi 3).
+\shortans{2}
+\loigiai{
+Góc $120^\circ$ là góc tù (2).
+}
+\end{ex}
+
+\begin{ex}
+Góc tạo bởi hai kim đồng hồ lúc 6 giờ đúng là góc gì? (Góc nhọn ghi 1, góc tù ghi 2, góc bẹt ghi 3).
+\shortans{3}
+\loigiai{
+Góc $180^\circ$ là góc bẹt (3).
+}
+\end{ex}
+
+\begin{ex}
+Trong các góc sau, góc nào là góc tù: $45^\circ, 90^\circ, 120^\circ, 180^\circ$? (Điền số đo độ của góc đó).
+\shortans{120}
+\loigiai{
+Góc tù là $120^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các góc sau, góc nào là góc nhọn: $30^\circ, 90^\circ, 105^\circ, 180^\circ$? (Điền số đo độ của góc đó).
+\shortans{30}
+\loigiai{
+Góc nhọn là $30^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Một chiếc quạt xòe tròn một nửa tạo thành hình quạt với góc ở tâm là góc gì? (Góc bẹt ghi 1, vuông ghi 2).
+\shortans{1}
+\loigiai{
+Đó là góc bẹt ($180^\circ$).
+}
+\end{ex}
+
+\begin{ex}
+Cho một góc vuông, vẽ một tia nằm giữa hai cạnh của góc vuông. Ta được mấy góc nhọn?
+\shortans{2}
+\loigiai{
+Tia phân chia góc vuông thành 2 góc nhọn.
+}
+\end{ex}
+
+\begin{ex}
+Một hình thoi có 2 góc nhọn và mấy góc tù?
+\shortans{2}
+\loigiai{
+Hình thoi có 2 góc nhọn và 2 góc tù.
+}
+\end{ex}
+
+\begin{ex}
+Một hình bình hành có 2 góc nhọn và mấy góc tù?
+\shortans{2}
+\loigiai{
+Có 2 góc tù.
+}
+\end{ex}
+
+\begin{ex}
+Góc $89^\circ$ là góc gì? (Góc nhọn ghi 1, góc tù ghi 2).
+\shortans{1}
+\loigiai{
+Góc $89^\circ < 90^\circ$ là góc nhọn.
+}
+\end{ex}
+
+\begin{ex}
+Góc $91^\circ$ là góc gì? (Góc nhọn ghi 1, góc tù ghi 2).
+\shortans{2}
+\loigiai{
+Góc $91^\circ > 90^\circ$ là góc tù.
+}
+\end{ex}
+
+\begin{ex}
+Góc đỉnh O có hai cạnh OA và OB thẳng hàng ngược hướng nhau là góc gì? (Góc bẹt ghi 1, góc vuông ghi 2).
+\shortans{1}
+\loigiai{
+Đó là góc bẹt.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu góc nhọn trong một hình tam giác vuông?
+\shortans{2}
+\loigiai{
+Tam giác vuông có 1 góc vuông và 2 góc nhọn.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu góc nhọn trong một hình tam giác tù?
+\shortans{2}
+\loigiai{
+Tam giác tù có 1 góc tù và 2 góc nhọn.
+}
+\end{ex}
+
+\begin{ex}
+Lúc 5 giờ đúng, góc tạo bởi kim giờ và kim phút là góc gì? (Góc nhọn ghi 1, góc tù ghi 2).
+\shortans{2}
+\loigiai{
+Lúc 5 giờ góc bằng $150^\circ$ là góc tù (2).
+}
+\end{ex}
+
+\begin{ex}
+Lúc 1 giờ đúng, góc tạo bởi kim giờ và kim phút là góc gì? (Góc nhọn ghi 1, góc tù ghi 2).
+\shortans{1}
+\loigiai{
+Lúc 1 giờ góc bằng $30^\circ$ là góc nhọn (1).
+}
+\end{ex}
+
+\begin{ex}
+Góc bẹt có số đo bằng bao nhiêu độ?
+\shortans{180}
+\loigiai{
+Góc bẹt bằng $180^\circ$.
+}
+\end{ex}

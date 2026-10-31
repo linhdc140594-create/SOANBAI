@@ -1,0 +1,199 @@
+\begin{ex}
+Bạn Lan có 15 bông hoa, bạn Mai có 10 bông hoa. Bạn Lan nhiều hơn bạn Mai bao nhiêu bông hoa?
+\shortans{5}
+\loigiai{
+Nhiều hơn: $15 - 10 = 5$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân có 38 con gà và 24 con vịt. Số gà nhiều hơn số vịt bao nhiêu con?
+\shortans{14}
+\loigiai{
+Nhiều hơn: $38 - 24 = 14$ con.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 2A có 18 bạn nữ và 15 bạn nam. Số bạn nữ nhiều hơn số bạn nam bao nhiêu bạn?
+\shortans{3}
+\loigiai{
+Nhiều hơn: $18 - 15 = 3$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn thẳng AB dài 28 cm, đoạn thẳng CD dài 20 cm. Đoạn thẳng CD ngắn hơn đoạn thẳng AB bao nhiêu xăng-ti-mét?
+\shortans{8}
+\loigiai{
+Ngắn hơn: $28 - 20 = 8$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Cây cau cao 12 mét, cây ổi cao 4 mét. Cây cau cao hơn cây ổi bao nhiêu mét?
+\shortans{8}
+\loigiai{
+Cao hơn: $12 - 4 = 8$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Anh 16 tuổi, em 9 tuổi. Anh nhiều hơn em bao nhiêu tuổi?
+\shortans{7}
+\loigiai{
+Nhiều hơn: $16 - 9 = 7$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Sau 5 năm nữa, anh vẫn nhiều hơn em bao nhiêu tuổi?
+\shortans{7}
+\loigiai{
+Hiệu số tuổi không đổi theo thời gian, anh vẫn hơn em 7 tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Mẹ 36 tuổi, con 8 tuổi. Mẹ nhiều hơn con bao nhiêu tuổi?
+\shortans{28}
+\loigiai{
+Nhiều hơn: $36 - 8 = 28$ tuổi.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 45 viên bi, Nam có 32 viên bi. Nam ít hơn Bình bao nhiêu viên bi?
+\shortans{13}
+\loigiai{
+Ít hơn: $45 - 32 = 13$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Quyển sách Toán dày 84 trang, quyển vở bài tập dày 50 trang. Quyển sách dày hơn quyển vở bao nhiêu trang?
+\shortans{34}
+\loigiai{
+Dày hơn: $84 - 50 = 34$ trang.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng buổi sáng bán được 65 chiếc xe đạp, buổi chiều bán được 42 chiếc xe đạp. Buổi sáng bán nhiều hơn buổi chiều bao nhiêu chiếc xe đạp?
+\shortans{23}
+\loigiai{
+Nhiều hơn: $65 - 42 = 23$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Thùng thứ nhất đựng 48 lít dầu, thùng thứ hai đựng 35 lít dầu. Thùng thứ hai ít hơn thùng thứ nhất bao nhiêu lít dầu?
+\shortans{13}
+\loigiai{
+Ít hơn: $48 - 35 = 13$ lít dầu.
+}
+\end{ex}
+
+\begin{ex}
+Bạn An cao 125 cm, bạn Bình cao 120 cm. Bạn An cao hơn bạn Bình bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Cao hơn: $125 - 120 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Bao gạo to nặng 50 kg, bao gạo nhỏ nặng 20 kg. Bao to nặng hơn bao nhỏ bao nhiêu ki-lô-gam?
+\shortans{30}
+\loigiai{
+Nặng hơn: $50 - 20 = 30$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Một gấp được 46 ngôi sao, tổ Hai gấp được 33 ngôi sao. Tổ Hai gấp kém tổ Một bao nhiêu ngôi sao?
+\shortans{13}
+\loigiai{
+Kém: $46 - 33 = 13$ ngôi sao.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số lớn biết số bé là 25 và số lớn hơn số bé 14 đơn vị.
+\shortans{39}
+\loigiai{
+Số lớn là: $25 + 14 = 39$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bé biết số lớn là 68 và số lớn hơn số bé 26 đơn vị.
+\shortans{42}
+\loigiai{
+Số bé là: $68 - 26 = 42$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số hơn kém nhau 15 đơn vị, biết số lớn là 70. Số bé là bao nhiêu?
+\shortans{55}
+\loigiai{
+Số bé là: $70 - 15 = 55$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số hơn kém nhau 18 đơn vị, biết số bé là 31. Số lớn là bao nhiêu?
+\shortans{49}
+\loigiai{
+Số lớn là: $31 + 18 = 49$.
+}
+\end{ex}
+
+\begin{ex}
+Trong bãi xe có 54 ô tô và 30 xe máy. Số ô tô nhiều hơn số xe máy bao nhiêu chiếc?
+\shortans{24}
+\loigiai{
+Nhiều hơn: $54 - 30 = 24$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Đàn gà có 27 con gà mái và 5 con gà trống. Số gà mái nhiều hơn số gà trống bao nhiêu con?
+\shortans{22}
+\loigiai{
+Nhiều hơn: $27 - 5 = 22$ con.
+}
+\end{ex}
+
+\begin{ex}
+Ngăn trên có 45 cuốn sách, ngăn dưới có 32 cuốn sách. Ngăn trên nhiều hơn ngăn dưới bao nhiêu cuốn sách?
+\shortans{13}
+\loigiai{
+Nhiều hơn: $45 - 32 = 13$ cuốn sách.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ mộc cưa thanh gỗ dài 95 cm thành hai đoạn: đoạn thứ nhất dài 50 cm. Đoạn thứ nhất dài hơn đoạn thứ hai bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Đoạn 2 dài: $95 - 50 = 45$ cm. Chênh lệch: $50 - 45 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Số 78 hơn số 43 bao nhiêu đơn vị?
+\shortans{35}
+\loigiai{
+Hơn: $78 - 43 = 35$ đơn vị.
+}
+\end{ex}
+
+\begin{ex}
+Số 24 kém số 69 bao nhiêu đơn vị?
+\shortans{45}
+\loigiai{
+Kém: $69 - 24 = 45$ đơn vị.
+}
+\end{ex}

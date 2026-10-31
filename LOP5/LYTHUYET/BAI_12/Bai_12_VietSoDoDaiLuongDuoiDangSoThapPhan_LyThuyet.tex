@@ -1,0 +1,159 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 12. Viết số đo đại lượng dưới dạng số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 12. VIẾT SỐ ĐO ĐẠI LƯỢNG DƯỚI DẠNG SỐ THẬP PHÂN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Chuyển đổi số đo độ dài, khối lượng, diện tích sang số thập phân trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BẢNG TỔNG KẾT ĐỘ DÀI & KHỐI LƯỢNG ---
+\noindent
+\begin{minipage}[t]{0.50\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faRuler\ 1. Số đo độ dài (gấp kém 10 lần)},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $1\text{ m} = 10\text{ dm} = 100\text{ cm} = 1\,000\text{ mm}$\\
+    $\bullet$ $1\text{ dm} = \dfrac{1}{10}\text{ m} = 0,1\text{ m}$.\\
+    $\bullet$ $1\text{ cm} = \dfrac{1}{100}\text{ m} = 0,01\text{ m}$.\\
+    $\bullet$ $1\text{ mm} = \dfrac{1}{1000}\text{ m} = 0,001\text{ m}$.\\[2pt]
+    \textit{VD:} $4\text{ m } 7\text{ dm} = 4\dfrac{7}{10}\text{ m} = 4,7\text{ m}$.\\
+    $2\text{ m } 5\text{ cm} = 2\dfrac{5}{100}\text{ m} = 2,05\text{ m}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 2. Số đo khối lượng (gấp kém 10 lần)},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $1\text{ tấn} = 10\text{ tạ} = 1\,000\text{ kg}$; $1\text{ kg} = 1\,000\text{ g}$\\
+    $\bullet$ $1\text{ kg} = \dfrac{1}{1000}\text{ tấn} = 0,001\text{ tấn}$.\\
+    $\bullet$ $1\text{ g} = \dfrac{1}{1000}\text{ kg} = 0,001\text{ kg}$.\\[2pt]
+    \textit{VD:} $3\text{ tấn } 250\text{ kg} = 3\dfrac{250}{1000}\text{ tấn} = 3,25\text{ tấn}$.\\
+    $5\text{ kg } 8\text{ g} = 5\dfrac{8}{1000}\text{ kg} = 5,008\text{ kg}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: SỐ ĐO DIỆN TÍCH (GẤP KÉM 100 LẦN) ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faTh\ 3. Số đo diện tích (Hai đơn vị liền nhau gấp hoặc kém nhau 100 lần)},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{ll}
+    $\bullet$ $1\text{ m}^2 = 100\text{ dm}^2 = 10\,000\text{ cm}^2$ & $\triangleright$ Mỗi cột đơn vị diện tích ứng với \textbf{2 chữ số}.\\
+    $\bullet$ $1\text{ dm}^2 = \dfrac{1}{100}\text{ m}^2 = 0,01\text{ m}^2$ & $\triangleright$ $6\text{ m}^2\ 45\text{ dm}^2 = 6\dfrac{45}{100}\text{ m}^2 = 6,45\text{ m}^2$.\\
+    $\bullet$ $1\text{ cm}^2 = \dfrac{1}{10000}\text{ m}^2 = 0,0001\text{ m}^2$ & $\triangleright$ $7\text{ m}^2\ 8\text{ dm}^2 = 7\dfrac{8}{100}\text{ m}^2 = 7,08\text{ m}^2$ (Chú ý số $0$!).
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Các bước đổi số đo 2 tên đơn vị ra số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!70!black, text=teal!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b1] (n1) at (-5.8, 0) {1. Giữ nguyên đơn vị lớn\\Làm phần nguyên};
+    \node[b2] (n2) at (0, 0) {2. Đổi đơn vị bé ra PSTP\\$(\frac{b}{10}, \frac{b}{100}, \frac{b}{1000})$};
+    \node[b3] (n3) at (5.8, 0) {3. Ghép thành Hỗn số\\$\rightarrow$ Viết ra Số thập phân};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n1) -- (n2);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (n2) -- (n3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: BẢNG GHI NHỚ SỐ CHỮ SỐ & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Quy tắc số lượng chữ số thập phân},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Đổi từ $\text{dm} \rightarrow \text{m}$: Có $1$ chữ số thập phân ($0,1$).\\
+    $\bullet$ Đổi từ $\text{cm} \rightarrow \text{m}$: Có $2$ chữ số thập phân ($0,01$).\\
+    $\bullet$ Đổi từ $\text{mm} \rightarrow \text{m}$ (hoặc $\text{g} \rightarrow \text{kg}$, $\text{kg} \rightarrow \text{tấn}$): Có $3$ chữ số thập phân ($0,001$).\\
+    $\bullet$ Đổi từ $\text{dm}^2 \rightarrow \text{m}^2$: Có $2$ chữ số thập phân ($0,01$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Bẫy diện tích: $3\text{ m}^2\ 5\text{ dm}^2$ rất nhiều bạn viết $3,5\text{ m}^2$ (\textbf{SAI}). Vì $1\text{ m}^2 = 100\text{ dm}^2$ nên phải viết là $3,05\text{ m}^2$.\\
+    $\bullet$ Tương tự $4\text{ tấn } 5\text{ kg} = 4,005\text{ tấn}$ (phải đủ $3$ chữ số thập phân).
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

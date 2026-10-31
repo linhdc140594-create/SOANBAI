@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $45200 + 34600 = \dots$
+\shortans{79800}
+\loigiai{
+$45200 + 34600 = 79800$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $56340 + 28190 = \dots$
+\shortans{84530}
+\loigiai{
+$56340 + 28190 = 84530$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $78650 - 34210 = \dots$
+\shortans{44440}
+\loigiai{
+$78650 - 34210 = 44440$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $82500 - 36800 = \dots$
+\shortans{45700}
+\loigiai{
+$82500 - 36800 = 45700$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $100000 - 45000 = \dots$
+\shortans{55000}
+\loigiai{
+$100000 - 45000 = 55000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $60000 + 40000 = \dots$
+\shortans{100000}
+\loigiai{
+$60000 + 40000 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $35000 + 25000 - 40000$.
+\shortans{20000}
+\loigiai{
+$60000 - 40000 = 20000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $100000 - (35000 + 25000)$.
+\shortans{40000}
+\loigiai{
+$100000 - 60000 = 40000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 32000 = 80000$.
+\shortans{48000}
+\loigiai{
+$x = 80000 - 32000 = 48000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x - 45000 = 35000$.
+\shortans{80000}
+\loigiai{
+$x = 35000 + 45000 = 80000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $90000 - x = 25000$.
+\shortans{65000}
+\loigiai{
+$x = 90000 - 25000 = 65000$.
+}
+\end{ex}
+
+\begin{ex}
+Một huyện năm ngoái thu hoạch 42 500 tấn thóc, năm nay thu hoạch được 48 300 tấn. Cả hai năm huyện thu hoạch bao nhiêu tấn thóc?
+\shortans{90800}
+\loigiai{
+$42500 + 48300 = 90800$ tấn.
+}
+\end{ex}
+
+\begin{ex}
+Một kho có 75 000 kg đường, đã xuất bán 28 500 kg. Kho còn lại bao nhiêu ki-lô-gam đường?
+\shortans{46500}
+\loigiai{
+$75000 - 28500 = 46500$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Một công ty dự định sản xuất 80 000 sản phẩm, hiện tại đã làm được 52 000 sản phẩm. Cần làm thêm bao nhiêu sản phẩm nữa?
+\shortans{28000}
+\loigiai{
+$80000 - 52000 = 28000$ sản phẩm.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $27000 + 45000 + 23000$.
+\shortans{95000}
+\loigiai{
+$27000 + 23000 + 45000 = 50000 + 45000 = 95000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $99999 - 44444 = \dots$
+\shortans{55555}
+\loigiai{
+$99999 - 44444 = 55555$.
+}
+\end{ex}
+
+\begin{ex}
+Tổng của số tròn chục nghìn bé nhất và lớn nhất có năm chữ số là bao nhiêu?
+\shortans{100000}
+\loigiai{
+$10000 + 90000 = 100000$.
+}
+\end{ex}
+
+\begin{ex}
+Hiệu của 100 000 và 50 000 là bao nhiêu?
+\shortans{50000}
+\loigiai{
+$100000 - 50000 = 50000$.
+}
+\end{ex}
+
+\begin{ex}
+Một sân bay ngày thứ nhất đón 35 400 lượt khách, ngày thứ hai đón 42 600 lượt khách. Cả hai ngày đón bao nhiêu lượt khách?
+\shortans{78000}
+\loigiai{
+$35400 + 42600 = 78000$ lượt khách.
+}
+\end{ex}
+
+\begin{ex}
+Bác Nam có 65 000 nghìn đồng tiết kiệm, bác rút ra 20 000 nghìn đồng để sửa nhà. Bác còn lại bao nhiêu nghìn đồng?
+\shortans{45000}
+\loigiai{
+$65000 - 20000 = 45000$ nghìn đồng.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $38400 + 21600 = \dots$
+\shortans{60000}
+\loigiai{
+$38400 + 21600 = 60000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $72500 - 22500 = \dots$
+\shortans{50000}
+\loigiai{
+$72500 - 22500 = 50000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x + 15500 = 60000$.
+\shortans{44500}
+\loigiai{
+$x = 60000 - 15500 = 44500$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$: $x - 18000 = 52000$.
+\shortans{70000}
+\loigiai{
+$x = 52000 + 18000 = 70000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $100000 - 38000 = \dots$
+\shortans{62000}
+\loigiai{
+$100000 - 38000 = 62000$.
+}
+\end{ex}

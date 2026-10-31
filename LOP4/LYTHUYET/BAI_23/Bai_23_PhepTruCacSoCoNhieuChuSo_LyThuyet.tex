@@ -1,0 +1,148 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 23. Phép trừ các số có nhiều chữ số --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 23: PHÉP TRỪ CÁC SỐ CÓ NHIỀU CHỮ SỐ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Kĩ thuật đặt tính, trừ từ phải sang trái và nguyên lý mượn 1 nhớ trả 1 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faMinusSquare\ 1. Quy tắc Đặt tính rồi tính},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Để trừ hai số tự nhiên có nhiều chữ số:\\
+    $\bullet$ \textbf{Bước 1: Đặt tính}\\
+    Viết số trừ dưới số bị trừ sao cho các chữ số ở \textbf{cùng một hàng thẳng cột} với nhau (hàng đơn vị dưới hàng đơn vị,...).\\
+    $\bullet$ \textbf{Bước 2: Tính}\\
+    Trừ lần lượt từng hàng từ \textbf{phải sang trái} (bắt đầu từ hàng đơn vị đến hàng cao nhất).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faHistory\ 2. Kĩ thuật trừ có nhớ (Mượn -- Trả)},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Nếu chữ số ở số bị trừ \textbf{nhỏ hơn} chữ số ở số trừ:\\
+    --- Lấy thêm 1 chục ở hàng liền trước (mượn 1 thành $10 +$ chữ số đó) để trừ.\\
+    --- Viết kết quả, rồi \textbf{thêm 1 vào chữ số hàng tiếp theo của số trừ} (hoặc bớt 1 ở số bị trừ).\\
+    $\bullet$ \textbf{Nguyên lý "Mượn là phải Trả"}: Không bao giờ được quên trả 1 vào hàng kế tiếp.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: LƯU TRÌNH PHÉP TRỪ CÓ NHỚ "MƯỢN 1 -- TRẢ 1"},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=0.92, yscale=0.82,
+    box/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=3pt, font=\scriptsize\bfseries, align=center},
+    step_node/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.8]}, thick, draw=black!70}
+  ]
+    \node[step_node] (s1) at (0,0) {\textbf{BƯỚC 1: ĐẶT TÍNH}\\Thẳng hàng đơn vị\\Số trừ dưới số bị trừ};
+    \node[step_node, fill=orange!12, draw=orange!80!black] (s2) at (4.4,0) {\textbf{BƯỚC 2: XÉT HÀNG}\\Nếu đủ: Trừ thẳng\\Nếu thiếu: \textbf{Mượn 1 chục}};
+    \node[step_node, fill=red!10, draw=red!75!black] (s3) at (9.4,0) {\textbf{TRỪ VÀ TRẢ NHỚ}\\$(10 + a) - b$\\\textbf{Nhớ trả 1} vào số trừ};
+    \node[box, fill=green!12, draw=green!70!black] (s4) at (13.8,0) {\textbf{KIỂM TRA}\\Thử lại bằng phép cộng:\\$\text{Hiệu} + \text{Số trừ}$};
+
+    \draw[arr] (s1) -- (s2);
+    \draw[arr] (s2) -- (s3);
+    \draw[arr] (s3) -- (s4);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Tính: $624\,518 - 281\,764$\\
+    \begin{center}
+      \begin{tabular}{c@{\,}r@{\,}r@{\,}r@{\,}r@{\,}r@{\,}r}
+        & $6$ & $2$ & $4$ & $5$ & $1$ & $8$ \\
+      $-$ & $2$ & $8$ & $1$ & $7$ & $6$ & $4$ \\
+      \hline
+        & $\mathbf{3}$ & $\mathbf{4}$ & $\mathbf{2}$ & $\mathbf{7}$ & $\mathbf{5}$ & $\mathbf{4}$
+      \end{tabular}
+    \end{center}
+    $\bullet$ $8 - 4 = 4$, viết 4.\\
+    $\bullet$ 1 không trừ được 6, lấy $11 - 6 = 5$, viết 5 nhớ 1.\\
+    $\bullet$ 7 thêm 1 bằng 8; 5 không trừ được 8, lấy $15 - 8 = 7$, viết 7 nhớ 1.\\
+    $\bullet$ 1 thêm 1 bằng 2; $4 - 2 = 2$, viết 2.\\
+    $\bullet$ 2 không trừ được 8, lấy $12 - 8 = 4$, viết 4 nhớ 1; $6 - 3 = 3$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy trừ ngược:}\\
+    Khi hàng trên bé hơn hàng dưới (như $1 < 6$), nhiều học sinh lấy ngược $6 - 1 = 5$ $\rightarrow$ \textbf{SAI NGHIÊM TRỌNG}! Phải mượn 1 thành $11 - 6 = 5$.\\
+    $\bullet$ \textbf{Bẫy quên trả nhớ:}\\
+    Mượn 1 ở hàng nào thì phải nhớ trả 1 vào chữ số hàng tiếp theo của số trừ.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

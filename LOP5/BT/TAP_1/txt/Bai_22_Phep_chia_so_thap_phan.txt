@@ -1,0 +1,176 @@
+=== BÀI 22: PHÉP CHIA SỐ THẬP PHÂN ===
+
+Câu 1: Tính thương của phép chia: 24 : 1{,}5.
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+24 : 1{,}5 = 240 : 15 = 16.
+
+----------------------------------------
+
+Câu 2: Tính thương: 45 : 2{,}5.
+Đáp án: [shortans]18[/shortans]
+Lời giải chi tiết:
+45 : 2{,}5 = 450 : 25 = 18.
+
+----------------------------------------
+
+Câu 3: Tính thương: 75 : 0{,}5.
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+75 : 0{,}5 = 75 x 2 = 150.
+
+----------------------------------------
+
+Câu 4: Tính thương: 18 : 0{,}25.
+Đáp án: [shortans]72[/shortans]
+Lời giải chi tiết:
+18 : 0{,}25 = 18 x 4 = 72.
+
+----------------------------------------
+
+Câu 5: Tính thương: 12{,}5 : 0{,}5.
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+12{,}5 x 2 = 25.
+
+----------------------------------------
+
+Câu 6: Tính: 14{,}4 : 1{,}2.
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+144 : 12 = 12.
+
+----------------------------------------
+
+Câu 7: Tính: 48{,}6 : 9. Lấy kết quả nhân với 10 được bao nhiêu?
+Đáp án: [shortans]54[/shortans]
+Lời giải chi tiết:
+48{,}6 : 9 = 5{,}4. Nhân 10 được 54.
+
+----------------------------------------
+
+Câu 8: Tính thương: 100 : 12{,}5.
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+100 : 12{,}5 = 8.
+
+----------------------------------------
+
+Câu 9: Tìm x biết: x x 1{,}5 = 45.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+x = 45 : 1{,}5 = 30.
+
+----------------------------------------
+
+Câu 10: Tìm x biết: x x 2{,}5 = 100.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+x = 100 : 2{,}5 = 40.
+
+----------------------------------------
+
+Câu 11: Một mảnh vườn hình chữ nhật có diện tích 96\text{ m}^2, chiều rộng là 6{,}4\text{ m}. Chiều dài mảnh vườn là bao nhiêu mét?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Chiều dài là: 96 : 6{,}4 = 15\text{ m}.
+
+----------------------------------------
+
+Câu 12: Có 45 lít dầu hỏa đem chia đều vào các chai, mỗi chai chứa 0{,}75 lít. Chia được tất cả bao nhiêu chai?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Số chai là: 45 : 0{,}75 = 60 (chai).
+
+----------------------------------------
+
+Câu 13: Một người may 8 bộ quần áo hết 18\text{ m} vải. Hỏi may 12 bộ quần áo như thế hết bao nhiêu mét vải?
+Đáp án: [shortans]27[/shortans]
+Lời giải chi tiết:
+1 bộ hết 18 : 8 = 2{,}25\text{ m}. 12 bộ hết 2{,}25 x 12 = 27\text{ m}.
+
+----------------------------------------
+
+Câu 14: Một ô tô đi quãng đường 135\text{ km} hết 2{,}5\text{ giờ}. Vận tốc của ô tô là bao nhiêu ki-lô-mét trên giờ?
+Đáp án: [shortans]54[/shortans]
+Lời giải chi tiết:
+Vận tốc là: 135 : 2{,}5 = 54\text{ km/h}.
+
+----------------------------------------
+
+Câu 15: Biết 2{,}5 lít dầu cân nặng 2\text{ kg}. Hỏi 10 lít dầu như thế cân nặng bao nhiêu ki-lô-gam?
+Đáp án: [shortans]8[/shortans]
+Lời giải chi tiết:
+1 lít nặng 2 : 2{,}5 = 0{,}8\text{ kg}. 10 lít nặng 0{,}8 x 10 = 8\text{ kg}.
+
+----------------------------------------
+
+Câu 16: Tính giá trị biểu thức: 120 : 0{,}5 : 4.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+120 : 0{,}5 = 240. 240 : 4 = 60.
+
+----------------------------------------
+
+Câu 17: Tính giá trị: (36{,}5 + 13{,}5) : 2{,}5.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+50 : 2{,}5 = 20.
+
+----------------------------------------
+
+Câu 18: Tìm số tự nhiên y biết: 75 : y = 1{,}25.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+y = 75 : 1{,}25 = 60.
+
+----------------------------------------
+
+Câu 19: Một thanh sắt dài 1{,}6\text{ m} cân nặng 16\text{ kg}. Hỏi thanh sắt cùng loại dài 2{,}5\text{ m} cân nặng bao nhiêu ki-lô-gam?
+Đáp án: [shortans]25[/shortans]
+Lời giải chi tiết:
+1 m nặng 16 : 1{,}6 = 10\text{ kg}. 2{,}5\text{ m} nặng 10 x 2{,}5 = 25\text{ kg}.
+
+----------------------------------------
+
+Câu 20: Người ta rót 30 lít mật ong vào các chai loại 0{,}5 lít. Rót được bao nhiêu chai?
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+30 : 0{,}5 = 60 (chai).
+
+----------------------------------------
+
+Câu 21: Tính thương: 200 : 0{,}8.
+Đáp án: [shortans]250[/shortans]
+Lời giải chi tiết:
+200 : 0{,}8 = 250.
+
+----------------------------------------
+
+Câu 22: Một hình tam giác có diện tích 30\text{ cm}^2, chiều cao là 4\text{ cm}. Độ dài cạnh đáy tương ứng là bao nhiêu xăng-ti-mét?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Đáy là (30 x 2) : 4 = 15\text{ cm}.
+
+----------------------------------------
+
+Câu 23: Tính giá trị biểu thức: 15 : 1{,}5 + 24 : 1{,}2.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+10 + 20 = 30.
+
+----------------------------------------
+
+Câu 24: Một tổ công nhân đắp được 48\text{ m} đường trong 3{,}2 ngày. Hỏi mỗi ngày tổ đó đắp được bao nhiêu mét đường?
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+48 : 3{,}2 = 15\text{ m}.
+
+----------------------------------------
+
+Câu 25: Tìm số tự nhiên x biết x x 0{,}4 = 18 : 1{,}5.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+18 : 1{,}5 = 12. x = 12 : 0{,}4 = 30.
+
+----------------------------------------

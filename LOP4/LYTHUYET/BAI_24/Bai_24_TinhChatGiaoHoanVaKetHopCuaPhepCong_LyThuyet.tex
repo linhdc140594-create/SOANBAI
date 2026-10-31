@@ -1,0 +1,143 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 24. Tính chất giao hoán và kết hợp của phép cộng --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 24: TÍNH CHẤT GIAO HOÁN VÀ KẾT HỢP CỦA PHÉP CỘNG}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Quy tắc đổi chỗ, nhóm các số hạng, chiến lược tính nhanh tạo số tròn chục tròn trăm trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faRandom\ 1. Tính chất giao hoán},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Phát biểu}: Khi đổi chỗ các số hạng trong một tổng thì \textbf{tổng không thay đổi}.
+    \begin{center}
+      \color{blue!85!black}\textbf{\Large $a + b = b + a$}
+    \end{center}
+    $\bullet$ \textbf{Mở rộng cho nhiều số hạng}:\\
+    $a + b + c = b + a + c = c + b + a$.\\
+    Ta có thể tự do đổi vị trí bất kì số hạng nào trong tổng để thuận tiện cho việc tính toán.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCompress\ 2. Tính chất kết hợp},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Phát biểu}: Khi cộng một tổng hai số với số thứ ba, ta có thể cộng số thứ nhất với \textbf{tổng của số thứ hai và số thứ ba}.
+    \begin{center}
+      \color{teal!85!black}\textbf{\Large $(a + b) + c = a + (b + c)$}
+    \end{center}
+    $\bullet$ \textbf{Ứng dụng tính nhanh}:\\
+    Kết hợp các cặp số hạng có tổng là số \textbf{tròn chục, tròn trăm, tròn nghìn} bằng dấu ngoặc đơn:
+    $(a + d) + (b + c)$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: CHIẾN LƯỢC TÍNH NHANH NHỜ GIAO HOÁN VÀ KẾT HỢP},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    prop/.style={rectangle, rounded corners=2mm, draw=blue!75!black, fill=blue!10, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center, text width=6.2cm},
+    appl/.style={rectangle, rounded corners=2mm, draw=red!75!black, fill=red!10, thick, inner sep=3.5pt, font=\scriptsize\bfseries, align=center, text width=13.0cm},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70}
+  ]
+    \node[prop] (gh) at (3.4, 0.95) {\textbf{TÍNH CHẤT GIAO HOÁN}\\$a + b = b + a$\\$\rightarrow$ Tự do \textbf{đổi chỗ} các số hạng};
+    \node[prop, draw=teal!80!black, fill=teal!12] (kh) at (10.2, 0.95) {\textbf{TÍNH CHẤT KẾT HỢP}\\$(a + b) + c = a + (b + c)$\\$\rightarrow$ Tự do \textbf{nhóm cặp} dấu ngoặc};
+
+    \node[appl] (tn) at (6.8, -0.85) {\textbf{\color{red!80!black}\faCalculator\ CHIẾN LƯỢC TÍNH BẰNG CÁCH THUẬN TIỆN NHẤT}\\[0.5mm]Ghép các cặp tận cùng: $(1+9)$, $(2+8)$, $(3+7)$, $(4+6)$, $(5+5) \rightarrow$ Tạo số \textbf{tròn chục, tròn trăm, tròn nghìn}};
+
+    \draw[arr] (gh.south) -- (gh.south |- tn.north);
+    \draw[arr] (kh.south) -- (kh.south |- tn.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Tính bằng cách thuận tiện nhất:\\
+    $\bullet$ \textbf{Ví dụ 1:} $127 + 389 + 73$\\
+    $= (127 + 73) + 389$\\
+    $= 200 + 389 = \mathbf{589}$.\\[1mm]
+    $\bullet$ \textbf{Ví dụ 2:} $25 + 146 + 75 + 54$\\
+    $= (25 + 75) + (146 + 54)$\\
+    $= 100 + 200 = \mathbf{300}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy nhận diện cặp tròn:}\\
+    Nhìn nhanh chữ số hàng đơn vị: $7 + 3 = 10$, $5 + 5 = 10$, $6 + 4 = 10$ để nhóm đúng cặp.\\
+    $\bullet$ \textbf{Bẫy tính lần lượt}: Khi đề yêu cầu "tính thuận tiện nhất", nếu làm lần lượt từ trái sang phải sẽ không được điểm tối đa!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

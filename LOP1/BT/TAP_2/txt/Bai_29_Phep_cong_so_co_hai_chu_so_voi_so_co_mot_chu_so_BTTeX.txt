@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $23 + 4$.
+\shortans{27}
+\loigiai{
+Ta có $23 + 4 = 27$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $35 + 2$.
+\shortans{37}
+\loigiai{
+Ta có $35 + 2 = 37$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $41 + 6$.
+\shortans{47}
+\loigiai{
+Ta có $41 + 6 = 47$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $52 + 5$.
+\shortans{57}
+\loigiai{
+Ta có $52 + 5 = 57$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $64 + 3$.
+\shortans{67}
+\loigiai{
+Ta có $64 + 3 = 67$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $70 + 8$.
+\shortans{78}
+\loigiai{
+Ta có $70 + 8 = 78$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $83 + 6$.
+\shortans{89}
+\loigiai{
+Ta có $83 + 6 = 89$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $91 + 7$.
+\shortans{98}
+\loigiai{
+Ta có $91 + 7 = 98$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $3 + 45$.
+\shortans{48}
+\loigiai{
+Ta có $3 + 45 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $6 + 72$.
+\shortans{78}
+\loigiai{
+Ta có $6 + 72 = 78$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $24 + \dots = 29$.
+\shortans{5}
+\loigiai{
+Số cần điền: $29 - 24 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $51 + \dots = 58$.
+\shortans{7}
+\loigiai{
+Số cần điền: $58 - 51 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 3 = 66$.
+\shortans{63}
+\loigiai{
+Số cần điền: $66 - 3 = 63$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 4 = 89$.
+\shortans{85}
+\loigiai{
+Số cần điền: $89 - 4 = 85$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $32 + 3 + 4$.
+\shortans{39}
+\loigiai{
+Ta có $32 + 3 = 35$, rồi $35 + 4 = 39$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $50 + 2 + 6$.
+\shortans{58}
+\loigiai{
+Ta có $50 + 2 = 52$, rồi $52 + 6 = 58$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $71 + 5 + 3$.
+\shortans{79}
+\loigiai{
+Ta có $71 + 5 = 76$, rồi $76 + 3 = 79$.
+}
+\end{ex}
+
+\begin{ex}
+An có 32 cái kẹo, mẹ cho thêm 5 cái kẹo. Hỏi An có tất cả bao nhiêu cái kẹo?
+\shortans{37}
+\loigiai{
+An có tất cả: $32 + 5 = 37$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Lớp 1A có 30 học sinh, hôm nay có thêm 4 học sinh mới chuyển đến. Hỏi lớp 1A có tất cả bao nhiêu học sinh?
+\shortans{34}
+\loigiai{
+Lớp 1A có: $30 + 4 = 34$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân có 43 con gà, bác mua thêm 6 con gà nữa. Hỏi bác có tất cả bao nhiêu con gà?
+\shortans{49}
+\loigiai{
+Bác có: $43 + 6 = 49$ con gà.
+}
+\end{ex}
+
+\begin{ex}
+Vườn nhà Mai có 21 cây bưởi, bố trồng thêm 8 cây bưởi nữa. Hỏi trong vườn có tất cả bao nhiêu cây bưởi?
+\shortans{29}
+\loigiai{
+Trong vườn có: $21 + 8 = 29$ cây bưởi.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 54 viên bi, Bình thắng thêm được 5 viên bi nữa. Hỏi Bình có tất cả bao nhiêu viên bi?
+\shortans{59}
+\loigiai{
+Bình có: $54 + 5 = 59$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây dài 62 cm, nối thêm một đoạn dài 7 cm. Sợi dây mới dài bao nhiêu xăng-ti-mét?
+\shortans{69}
+\loigiai{
+Sợi dây dài: $62 + 7 = 69$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Số nào khi cộng với 4 thì được kết quả là 48?
+\shortans{44}
+\loigiai{
+Số đó là: $48 - 4 = 44$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm một số biết rằng lấy số đó trừ đi 5 thì được 31.
+\shortans{36}
+\loigiai{
+Số đó là: $31 + 5 = 36$.
+}
+\end{ex}

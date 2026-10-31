@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $248 + 135$.
+\shortans{383}
+\loigiai{
+Ta có $8 + 5 = 13$, viết 3 nhớ 1; $4 + 3 + 1 = 8$; $2 + 1 = 3$. Kết quả là 383.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $356 + 218$.
+\shortans{574}
+\loigiai{
+Ta có $356 + 218 = 574$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $427 + 345$.
+\shortans{772}
+\loigiai{
+Ta có $427 + 345 = 772$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $539 + 246$.
+\shortans{785}
+\loigiai{
+Ta có $539 + 246 = 785$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $618 + 175$.
+\shortans{793}
+\loigiai{
+Ta có $618 + 175 = 793$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $382 + 254$.
+\shortans{636}
+\loigiai{
+Ta có $8 + 5 = 13$, viết 3 nhớ 1 sang hàng trăm. Kết quả là 636.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $475 + 162$.
+\shortans{637}
+\loigiai{
+Ta có $475 + 162 = 637$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $563 + 281$.
+\shortans{844}
+\loigiai{
+Ta có $563 + 281 = 844$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $684 + 153$.
+\shortans{837}
+\loigiai{
+Ta có $684 + 153 = 837$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $267 + 358$.
+\shortans{625}
+\loigiai{
+Ta có $267 + 358 = 625$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $485 + 247$.
+\shortans{732}
+\loigiai{
+Ta có $485 + 247 = 732$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $379 + 456$.
+\shortans{835}
+\loigiai{
+Ta có $379 + 456 = 835$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $594 + 238$.
+\shortans{832}
+\loigiai{
+Ta có $594 + 238 = 832$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $648 + 176$.
+\shortans{824}
+\loigiai{
+Ta có $648 + 176 = 824$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $365 + 478$.
+\shortans{843}
+\loigiai{
+Ta có $365 + 478 = 843$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $258 + \dots = 482$.
+\shortans{224}
+\loigiai{
+Số cần điền: $482 - 258 = 224$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $375 + \dots = 620$.
+\shortans{245}
+\loigiai{
+Số cần điền: $620 - 375 = 245$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 184 = 536$.
+\shortans{352}
+\loigiai{
+Số cần điền: $536 - 184 = 352$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 267 = 715$.
+\shortans{448}
+\loigiai{
+Số cần điền: $715 - 267 = 448$.
+}
+\end{ex}
+
+\begin{ex}
+Trường Tiểu học Quang Trung có 458 học sinh nam và 465 học sinh nữ. Trường có tất cả bao nhiêu học sinh?
+\shortans{923}
+\loigiai{
+Có tất cả: $458 + 465 = 923$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng ngày thứ nhất bán được 348 mét vải, ngày thứ hai bán được 275 mét vải. Cả hai ngày bán được bao nhiêu mét vải?
+\shortans{623}
+\loigiai{
+Cả hai ngày bán: $348 + 275 = 623$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Kho thóc thứ nhất có 468 bao thóc, kho thóc thứ hai có 385 bao thóc. Cả hai kho có bao nhiêu bao thóc?
+\shortans{853}
+\loigiai{
+Có tất cả: $468 + 385 = 853$ bao.
+}
+\end{ex}
+
+\begin{ex}
+Bác nông dân thu hoạch đợt một được 376 kg cam, đợt hai được 289 kg cam. Bác thu hoạch được tất cả bao nhiêu ki-lô-gam cam?
+\shortans{665}
+\loigiai{
+Tổng sản lượng: $376 + 289 = 665$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $245 + 178 + 326$.
+\shortans{749}
+\loigiai{
+Ta có $245 + 178 = 423$, rồi $423 + 326 = 749$.
+}
+\end{ex}
+
+\begin{ex}
+Tính tổng của số 548 và số 276.
+\shortans{824}
+\loigiai{
+Tổng: $548 + 276 = 824$.
+}
+\end{ex}

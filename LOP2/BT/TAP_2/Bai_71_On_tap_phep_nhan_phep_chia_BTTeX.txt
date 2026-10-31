@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $2 \times 6$.
+\shortans{12}
+\loigiai{
+Ta có $2 \times 6 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 8$.
+\shortans{16}
+\loigiai{
+Ta có $2 \times 8 = 16$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 9$.
+\shortans{18}
+\loigiai{
+Ta có $2 \times 9 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 4$.
+\shortans{20}
+\loigiai{
+Ta có $5 \times 4 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 7$.
+\shortans{35}
+\loigiai{
+Ta có $5 \times 7 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 9$.
+\shortans{45}
+\loigiai{
+Ta có $5 \times 9 = 45$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $14 : 2$.
+\shortans{7}
+\loigiai{
+Ta có $14 : 2 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18 : 2$.
+\shortans{9}
+\loigiai{
+Ta có $18 : 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35 : 5$.
+\shortans{7}
+\loigiai{
+Ta có $35 : 5 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 : 5$.
+\shortans{9}
+\loigiai{
+Ta có $45 : 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $2 \times 7 + 16$.
+\shortans{30}
+\loigiai{
+Ta có $2 \times 7 = 14$, rồi $14 + 16 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $5 \times 8 - 15$.
+\shortans{25}
+\loigiai{
+Ta có $5 \times 8 = 40$, rồi $40 - 15 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $16 : 2 + 22$.
+\shortans{30}
+\loigiai{
+Ta có $16 : 2 = 8$, rồi $8 + 22 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $40 : 5 + 32$.
+\shortans{40}
+\loigiai{
+Ta có $40 : 5 = 8$, rồi $8 + 32 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $2 \times 5 \times 4$.
+\shortans{40}
+\loigiai{
+Ta có $2 \times 5 = 10$, rồi $10 \times 4 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $20 : 2 : 2$.
+\shortans{5}
+\loigiai{
+Ta có $20 : 2 = 10$, rồi $10 : 2 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $2 \times \dots = 16$.
+\shortans{8}
+\loigiai{
+Số cần điền là: $16 : 2 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $5 \times \dots = 30$.
+\shortans{6}
+\loigiai{
+Số cần điền là: $30 : 5 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 2 = 9$.
+\shortans{18}
+\loigiai{
+Số cần điền là: $9 \times 2 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots : 5 = 7$.
+\shortans{35}
+\loigiai{
+Số cần điền là: $7 \times 5 = 35$.
+}
+\end{ex}
+
+\begin{ex}
+Có 5 can dầu, mỗi can chứa 5 lít. Hỏi cả 5 can chứa bao nhiêu lít dầu?
+\shortans{25}
+\loigiai{
+Chứa: $5 \times 5 = 25$ lít.
+}
+\end{ex}
+
+\begin{ex}
+Có 18 viên bi chia đều cho 2 bạn. Mỗi bạn được bao nhiêu viên bi?
+\shortans{9}
+\loigiai{
+Mỗi bạn được: $18 : 2 = 9$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Có 30 kg gạo chia đều vào 5 túi. Mỗi túi nặng bao nhiêu ki-lô-gam?
+\shortans{6}
+\loigiai{
+Mỗi túi nặng: $30 : 5 = 6$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bạn học sinh có 2 bàn tay. Hỏi 8 bạn học sinh có tất cả bao nhiêu bàn tay?
+\shortans{16}
+\loigiai{
+Có: $2 \times 8 = 16$ bàn tay.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 6 : 5$.
+\shortans{6}
+\loigiai{
+Ta có $5 \times 6 = 30$, rồi $30 : 5 = 6$.
+}
+\end{ex}

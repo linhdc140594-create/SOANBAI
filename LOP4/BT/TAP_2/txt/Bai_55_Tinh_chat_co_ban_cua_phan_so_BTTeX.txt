@@ -1,0 +1,199 @@
+\begin{ex}
+Nếu nhân cả tử số và mẫu số của phân số với cùng một số tự nhiên khác 0 thì được phân số thế nào với phân số đã cho? (Bằng nhau ghi 1, lớn hơn ghi 2).
+\shortans{1}
+\loigiai{
+Bằng phân số đã cho (1).
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{2}{3} = \frac{2 \times 4}{3 \times 4} = \frac{8}{\dots}$.
+\shortans{12}
+\loigiai{
+Mẫu số là 12.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{3}{5} = \frac{\dots}{15}$.
+\shortans{9}
+\loigiai{
+$3 \times 3 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{4}{7} = \frac{16}{\dots}$.
+\shortans{28}
+\loigiai{
+$7 \times 4 = 28$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{5}{6} = \frac{\dots}{30}$.
+\shortans{25}
+\loigiai{
+$5 \times 5 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{18}{24} = \frac{18 : 6}{24 : 6} = \frac{3}{\dots}$.
+\shortans{4}
+\loigiai{
+Mẫu số là 4.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{15}{25} = \frac{3}{\dots}$.
+\shortans{5}
+\loigiai{
+$25 : 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{28}{35} = \frac{\dots}{5}$.
+\shortans{4}
+\loigiai{
+$28 : 7 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{40}{60} = \frac{2}{\dots}$.
+\shortans{3}
+\loigiai{
+$60 : 20 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $\frac{3}{4} = \frac{x}{20}$.
+\shortans{15}
+\loigiai{
+$x = 3 \times 5 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $\frac{x}{8} = \frac{15}{24}$.
+\shortans{5}
+\loigiai{
+$x = 15 : 3 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $\frac{7}{y} = \frac{21}{27}$.
+\shortans{9}
+\loigiai{
+$y = 27 : 3 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $y$, biết: $\frac{5}{9} = \frac{20}{y}$.
+\shortans{36}
+\loigiai{
+$y = 9 \times 4 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{2}{5}$ bằng phân số nào có mẫu số bằng 10? (Viết phân số).
+\shortans{4/10}
+\loigiai{
+$\frac{2 \times 2}{5 \times 2} = \frac{4}{10}$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{3}{4}$ bằng phân số nào có tử số bằng 12? (Viết phân số).
+\shortans{12/16}
+\loigiai{
+$\frac{3 \times 4}{4 \times 4} = \frac{12}{16}$.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu phân số bằng phân số $\frac{1}{2}$ có mẫu số nhỏ hơn 10 (mẫu số chẵn dương)?
+\shortans{4}
+\loigiai{
+$\frac{1}{2}, \frac{2}{4}, \frac{3}{6}, \frac{4}{8}$ (có 4 phân số).
+}
+\end{ex}
+
+\begin{ex}
+Nếu chia cả tử số và mẫu số cho cùng một số tự nhiên lớn hơn 1 thì giá trị phân số có đổi không? (Có đổi ghi 1, không đổi ghi 0).
+\shortans{0}
+\loigiai{
+Không đổi (0).
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $\frac{6}{x} = \frac{2}{5}$.
+\shortans{15}
+\loigiai{
+$x = 5 \times 3 = 15$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $\frac{x}{18} = \frac{2}{3}$.
+\shortans{12}
+\loigiai{
+$x = 2 \times 6 = 12$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{12}{16} = \frac{\dots}{4}$.
+\shortans{3}
+\loigiai{
+$12 : 4 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\frac{20}{50} = \frac{2}{\dots}$.
+\shortans{5}
+\loigiai{
+$50 : 10 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{5}{7}$ nhân cả tử và mẫu với 3 được phân số nào?
+\shortans{15/21}
+\loigiai{
+$\frac{15}{21}$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{24}{36}$ chia cả tử và mẫu cho 12 được phân số nào?
+\shortans{2/3}
+\loigiai{
+$\frac{2}{3}$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{4}{5}$ bằng phân số $\frac{a}{100}$. Giá trị của $a$ là bao nhiêu?
+\shortans{80}
+\loigiai{
+$a = 4 \times 20 = 80$.
+}
+\end{ex}
+
+\begin{ex}
+Phân số $\frac{3}{4}$ bằng phân số $\frac{b}{100}$. Giá trị của $b$ là bao nhiêu?
+\shortans{75}
+\loigiai{
+$b = 3 \times 25 = 75$.
+}
+\end{ex}

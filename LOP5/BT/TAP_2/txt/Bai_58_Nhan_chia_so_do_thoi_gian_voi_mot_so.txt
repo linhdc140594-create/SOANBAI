@@ -1,0 +1,176 @@
+=== BÀI 58: NHÂN, CHIA SỐ ĐO THỜI GIAN VỚI MỘT SỐ ===
+
+Câu 1: Tính: 1\text{ giờ } 15\text{ phút} x 3. Kết quả có số phút là bao nhiêu?
+Đáp án: [shortans]45[/shortans]
+Lời giải chi tiết:
+1\text{h} x 3 = 3\text{h}; 15 x 3 = 45 phút.
+
+----------------------------------------
+
+Câu 2: Tính: 2\text{ giờ } 25\text{ phút} x 3. Đổi kết quả thành mấy giờ 15 phút?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+6\text{ giờ } 75\text{ phút} = 7\text{ giờ } 15\text{ phút}.
+
+----------------------------------------
+
+Câu 3: Tính: 3\text{ phút } 12\text{ giây} x 4. Kết quả có số giây là bao nhiêu?
+Đáp án: [shortans]48[/shortans]
+Lời giải chi tiết:
+12 x 4 = 48 giây.
+
+----------------------------------------
+
+Câu 4: Tính: 1\text{ ngày } 8\text{ giờ} x 3. Kết quả đúng bằng bao nhiêu ngày?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+3\text{ ngày } 24\text{ giờ} = 4\text{ ngày}.
+
+----------------------------------------
+
+Câu 5: Một người thợ làm xong một chiếc ghế hết 1\text{ giờ } 45\text{ phút}. Người đó làm 4 chiếc ghế như thế hết bao nhiêu giờ?
+Đáp án: [shortans]7[/shortans]
+Lời giải chi tiết:
+1\text{h}45 x 4 = 4\text{h}180\text{ phút} = 7\text{ giờ}.
+
+----------------------------------------
+
+Câu 6: Tính: 6\text{ giờ } 40\text{ phút} : 2. Kết quả có số phút là bao nhiêu?
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+40 : 2 = 20 phút.
+
+----------------------------------------
+
+Câu 7: Tính: 7\text{ giờ } 30\text{ phút} : 3. Kết quả là mấy giờ 30 phút?
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+7\text{h} : 3 = 2\text{h} dư 1h (60 phút); 90 : 3 = 30 phút. Kết quả 2\text{h}30.
+
+----------------------------------------
+
+Câu 8: Tính: 9\text{ phút } 36\text{ giây} : 4. Kết quả có số giây là bao nhiêu?
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+9\text{ phút} : 4 = 2\text{ phút} dư 1 phút (60 giây); 96 : 4 = 24 giây.
+
+----------------------------------------
+
+Câu 9: Một tổ may 5 chiếc áo hết 7\text{ giờ } 30\text{ phút}. Trung bình may một chiếc áo hết bao nhiêu phút?
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+7\text{ giờ } 30\text{ phút} = 450 phút. 450 : 5 = 90 phút.
+
+----------------------------------------
+
+Câu 10: Người ta đóng gói 6 gói quà hết 1\text{ giờ } 12\text{ phút}. Trung bình đóng mỗi gói hết bao nhiêu phút?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+72\text{ phút} : 6 = 12 phút.
+
+----------------------------------------
+
+Câu 11: Một vận động viên hoàn thành 4 vòng sân hết 8\text{ phút } 40\text{ giây}. Trung bình mỗi vòng chạy hết bao nhiêu giây?
+Đáp án: [shortans]130[/shortans]
+Lời giải chi tiết:
+8\text{ phút } 40\text{ giây} = 520 giây. 520 : 4 = 130 giây.
+
+----------------------------------------
+
+Câu 12: Tính: 2\text{ giờ } 15\text{ phút} x 4. Kết quả đúng bằng bao nhiêu giờ?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+8\text{ giờ } 60\text{ phút} = 9\text{ giờ}.
+
+----------------------------------------
+
+Câu 13: Tính: 15\text{ giờ } 45\text{ phút} : 5. Kết quả có số phút là bao nhiêu?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+45 : 5 = 9 phút.
+
+----------------------------------------
+
+Câu 14: Bác An đóng 8 cái bàn hết 20 giờ. Hỏi trung bình đóng một cái bàn hết bao nhiêu phút?
+Đáp án: [shortans]150[/shortans]
+Lời giải chi tiết:
+20\text{ giờ} = 1 200 phút; 1 200 : 8 = 150 phút.
+
+----------------------------------------
+
+Câu 15: Tính: 4\text{ ngày } 12\text{ giờ} x 2. Kết quả bằng bao nhiêu ngày?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+8\text{ ngày } 24\text{ giờ} = 9\text{ ngày}.
+
+----------------------------------------
+
+Câu 16: Tính: 13\text{ giờ } 20\text{ phút} : 4. Kết quả là mấy giờ 20 phút?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+13\text{h} : 4 = 3\text{h} dư 1h (60 phút); 80 : 4 = 20 phút. Kết quả là 3\text{h}20.
+
+----------------------------------------
+
+Câu 17: Một máy in in 50 trang sách hết 2\text{ phút } 30\text{ giây}. Để in 100 trang sách như thế hết bao nhiêu giây?
+Đáp án: [shortans]300[/shortans]
+Lời giải chi tiết:
+150 x 2 = 300 giây.
+
+----------------------------------------
+
+Câu 18: Một máy bơm bơm 3 bể nước như nhau hết 4\text{ giờ } 30\text{ phút}. Bơm mỗi bể hết bao nhiêu phút?
+Đáp án: [shortans]90[/shortans]
+Lời giải chi tiết:
+270 : 3 = 90 phút.
+
+----------------------------------------
+
+Câu 19: Tính: 2\text{ phút } 45\text{ giây} x 4. Kết quả bằng bao nhiêu phút?
+Đáp án: [shortans]11[/shortans]
+Lời giải chi tiết:
+8\text{ phút } 180\text{ giây} = 11\text{ phút}.
+
+----------------------------------------
+
+Câu 20: Tính: 21\text{ phút } 15\text{ giây} : 3. Kết quả có số giây là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+15 : 3 = 5 giây.
+
+----------------------------------------
+
+Câu 21: Một ca nô đi 3 chuyến hết 4\text{ giờ } 15\text{ phút}. Hỏi ca nô đi 6 chuyến như thế hết bao nhiêu phút?
+Đáp án: [shortans]510[/shortans]
+Lời giải chi tiết:
+4\text{h}15 = 255 phút. 255 x 2 = 510 phút.
+
+----------------------------------------
+
+Câu 22: Một người thợ làm việc 8 giờ mỗi ngày, làm trong 5 ngày được trả 2 triệu đồng. Mỗi giờ làm việc được bao nhiêu nghìn đồng?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Tổng số giờ là 8 x 5 = 40 giờ. 2 000 : 40 = 50 nghìn đồng.
+
+----------------------------------------
+
+Câu 23: Tính: (1\text{ giờ } 20\text{ phút} + 2\text{ giờ } 10\text{ phút}) x 2. Kết quả có số phút là bao nhiêu?
+Đáp án: [shortans]0[/shortans]
+Lời giải chi tiết:
+3\text{h}30 x 2 = 7\text{ giờ } 0\text{ phút}. Số phút là 0.
+
+----------------------------------------
+
+Câu 24: Tính: (5\text{ giờ } 30\text{ phút} - 1\text{ giờ } 50\text{ phút}) : 2. Kết quả có số phút là bao nhiêu?
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+3\text{h}40 : 2 = 1\text{ giờ } 50\text{ phút}.
+
+----------------------------------------
+
+Câu 25: Bác Bình đi bộ 3 vòng công viên hết 45 phút. Nếu đi 5 vòng như thế hết bao nhiêu phút?
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+Mỗi vòng hết 45 : 3 = 15 phút. 5 vòng hết 15 x 5 = 75 phút.
+
+----------------------------------------

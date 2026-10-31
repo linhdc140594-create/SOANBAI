@@ -1,0 +1,174 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, left=10mm, right=10mm, top=10mm, bottom=10mm}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows.meta,positioning,calc}
+\usepackage[most]{tcolorbox}
+\usepackage{array,booktabs,multicol}
+\usepackage{fontawesome}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{parskip}
+
+\definecolor{primary}{RGB}{112, 48, 160}
+\definecolor{teal}{RGB}{0, 128, 128}
+\definecolor{orange}{RGB}{230, 108, 44}
+\definecolor{green}{RGB}{46, 139, 87}
+\definecolor{rose}{RGB}{192, 0, 0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% --- HEADER BANNER ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!80!black,
+  arc=2.5mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm
+]
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} lr}
+    {\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2} & 
+    {\small\bfseries\color{teal!85!black}\faGraduationCap\ CHƯƠNG TRÌNH GDPT 2018}
+  \end{tabular*}
+  \vspace{-1mm}
+  \begin{center}
+    \rule{0.98\textwidth}{0.6pt}
+  \end{center}
+  \vspace{-2mm}
+  \centering
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 56: GIỚI THIỆU TIỀN VIỆT NAM}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Nhận biết các tờ tiền $100$ đồng, $200$ đồng, $500$ đồng, $1\,000$ đồng}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Nhận biết các mệnh giá tiền Việt Nam}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item Đơn vị tiền tệ của nước ta là \textbf{đồng}.
+  \item Các tờ tiền giấy trong phạm vi học tập lớp 2:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Tờ \textbf{$100$ đồng} (một trăm đồng).
+    \item Tờ \textbf{$200$ đồng} (hai trăm đồng).
+    \item Tờ \textbf{$500$ đồng} (năm trăm đồng).
+    \item Tờ \textbf{$1\,000$ đồng} (một nghìn đồng).
+  \end{itemize}
+  \item Trên mỗi tờ tiền đều ghi:
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item Dòng chữ: \textit{"CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM"}.
+    \item Mệnh giá bằng \textbf{số} và bằng \textbf{chữ}.
+    \item Chân dung Chủ tịch Hồ Chí Minh và Quốc huy.
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Kĩ năng đếm tiền và đổi tiền}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Đếm tổng số tiền:} Cộng mệnh giá của từng tờ tiền lại với nhau.
+  \item \textbf{Mối quan hệ đổi tiền:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2mm}
+    \item $1$ tờ $1\,000$ đồng $= 2$ tờ $500$ đồng ($500 + 500 = 1\,000$).
+    \item $1$ tờ $1\,000$ đồng $= 5$ tờ $200$ đồng.
+    \item $1$ tờ $1\,000$ đồng $= 10$ tờ $100$ đồng.
+    \item $1$ tờ $500$ đồng $= 2$ tờ $200$ đồng $+ 1$ tờ $100$ đồng.
+  \end{itemize}
+  \item Kĩ năng tính tiền thừa khi mua sắm:
+  $$\text{Tiền thừa} = \text{Tiền đưa} - \text{Giá tiền món hàng}$$
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ các tờ tiền và mối quan hệ quy đổi tương đương}
+]
+\centering
+\begin{tikzpicture}[x=1.35cm, y=0.75cm]
+  \tikzset{arr/.style={-{Stealth[scale=0.8]}}, every node/.append style={align=center}}
+  \node[rectangle, rounded corners=2pt, draw=red!80!black, fill=red!15, font=\footnotesize\bfseries] (k) at (0,0) {$\mathbf{1\,000}$ ĐỒNG};
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, font=\scriptsize\bfseries] (c5) at (3.2,0.8) {$2$ tờ $\mathbf{500}$ đồng\\($500 + 500 = 1\,000$)};
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, font=\scriptsize\bfseries] (c2) at (3.2,0) {$5$ tờ $\mathbf{200}$ đồng\\($200 \times 5 = 1\,000$)};
+  \node[rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!15, font=\scriptsize\bfseries] (c1) at (3.2,-0.8) {$10$ tờ $\mathbf{100}$ đồng\\($100 \times 10 = 1\,000$)};
+
+  \draw[arr, thick] (k) |- (c5);
+  \draw[arr, thick] (k) -- (c2);
+  \draw[arr, thick] (k) |- (c1);
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành mua bán}
+]
+{\footnotesize
+\textbf{1. Tính tổng số tiền:}\\
+Nam có $1$ tờ $500$ đồng và $2$ tờ $200$ đồng.\\
+$\implies$ Tổng tiền $= 500 + 200 + 200 = \mathbf{900}$ đồng.\\
+\textbf{2. Bài toán trả lại tiền thừa:}\\
+Hà có $1\,000$ đồng. Hà mua một chiếc kẹo giá $700$ đồng. Hỏi cô bán hàng trả lại Hà bao nhiêu tiền?\\
+\textit{Bài giải:}\\
+Số tiền cô bán hàng trả lại Hà là:\\
+$1\,000 - 700 = \mathbf{300}$ (đồng).
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=rose!4!white,
+  colframe=rose!70!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Lời dặn dò thực tế}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1.5pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Luôn kèm chữ "đồng"} vào sau kết quả số tiền (ví dụ: $800$ đồng, không viết trơ trọi $800$).
+  \item Giữ gìn tiền phẳng phiu, sạch sẽ, không vẽ bậy, không làm rách hay nhàu nát tiền.
+  \item Biết tiết kiệm tiền bạc, chi tiêu hợp lí, không vòi vĩnh bố mẹ mua sắm lãng phí.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

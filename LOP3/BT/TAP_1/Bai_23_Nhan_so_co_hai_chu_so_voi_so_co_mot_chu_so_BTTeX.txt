@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $12 \times 3 = \dots$
+\shortans{36}
+\loigiai{
+$12 \times 3 = 36$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $14 \times 2 = \dots$
+\shortans{28}
+\loigiai{
+$14 \times 2 = 28$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $23 \times 3 = \dots$
+\shortans{69}
+\loigiai{
+$23 \times 3 = 69$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $31 \times 3 = \dots$
+\shortans{93}
+\loigiai{
+$31 \times 3 = 93$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $13 \times 4 = \dots$
+\shortans{52}
+\loigiai{
+$13 \times 4 = 52$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $16 \times 3 = \dots$
+\shortans{48}
+\loigiai{
+$16 \times 3 = 48$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $24 \times 3 = \dots$
+\shortans{72}
+\loigiai{
+$24 \times 3 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15 \times 5 = \dots$
+\shortans{75}
+\loigiai{
+$15 \times 5 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $18 \times 4 = \dots$
+\shortans{72}
+\loigiai{
+$18 \times 4 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25 \times 3 = \dots$
+\shortans{75}
+\loigiai{
+$25 \times 3 = 75$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $17 \times 5 = \dots$
+\shortans{85}
+\loigiai{
+$17 \times 5 = 85$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $19 \times 4 = \dots$
+\shortans{76}
+\loigiai{
+$19 \times 4 = 76$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $26 \times 3 = \dots$
+\shortans{78}
+\loigiai{
+$26 \times 3 = 78$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $48 \times 2 = \dots$
+\shortans{96}
+\loigiai{
+$48 \times 2 = 96$.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi hộp bút có 12 chiếc bút chì. Hỏi 4 hộp bút như thế có tất cả bao nhiêu chiếc bút chì?
+\shortans{48}
+\loigiai{
+$12 \times 4 = 48$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi cuộn vải dài 15 m. Hỏi 5 cuộn vải như thế dài tất cả bao nhiêu mét?
+\shortans{75}
+\loigiai{
+$15 \times 5 = 75$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một lớp học có 3 dãy bàn, mỗi dãy bàn có 11 học sinh. Hỏi lớp học có tất cả bao nhiêu học sinh?
+\shortans{33}
+\loigiai{
+$11 \times 3 = 33$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi gói kẹo có 24 cái kẹo. Hỏi 3 gói kẹo như vậy có tất cả bao nhiêu cái kẹo?
+\shortans{72}
+\loigiai{
+$24 \times 3 = 72$ cái kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Một ngày mẹ đi làm 8 giờ. Hỏi trong 12 ngày mẹ đi làm tất cả bao nhiêu giờ?
+\shortans{96}
+\loigiai{
+$12 \times 8 = 96$ giờ.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $14 \times 3 + 28$.
+\shortans{70}
+\loigiai{
+$42 + 28 = 70$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $16 \times 4 - 34$.
+\shortans{30}
+\loigiai{
+$64 - 34 = 30$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 3 = 24$.
+\shortans{72}
+\loigiai{
+$x = 24 \times 3 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 4 = 18$.
+\shortans{72}
+\loigiai{
+$x = 18 \times 4 = 72$.
+}
+\end{ex}
+
+\begin{ex}
+Một trang sách có khoảng 32 dòng, mỗi dòng có 3 từ tiếng Anh cần chú ý. Trang sách đó có bao nhiêu từ chú ý?
+\shortans{96}
+\loigiai{
+$32 \times 3 = 96$ từ.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $12 \times 5 + 15 = \dots$
+\shortans{75}
+\loigiai{
+$60 + 15 = 75$.
+}
+\end{ex}

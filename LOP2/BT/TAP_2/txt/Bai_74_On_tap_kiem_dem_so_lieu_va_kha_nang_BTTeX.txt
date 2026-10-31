@@ -1,0 +1,199 @@
+\begin{ex}
+Trong sân có: 6 con gà trống, 9 con gà mái, 5 con vịt. Có tất cả bao nhiêu con gia cầm?
+\shortans{20}
+\loigiai{
+Có: $6 + 9 + 5 = 20$ con.
+}
+\end{ex}
+
+\begin{ex}
+Số gà mái nhiều hơn số gà trống bao nhiêu con?
+\shortans{3}
+\loigiai{
+Nhiều hơn: $9 - 6 = 3$ con.
+}
+\end{ex}
+
+\begin{ex}
+Có tất cả bao nhiêu con gà?
+\shortans{15}
+\loigiai{
+Số gà: $6 + 9 = 15$ con.
+}
+\end{ex}
+
+\begin{ex}
+Trên biểu đồ tranh, mỗi ngôi sao tương ứng với 2 điểm tốt. Bạn An có 6 ngôi sao. Bạn An có bao nhiêu điểm tốt?
+\shortans{12}
+\loigiai{
+An có: $2 \times 6 = 12$ điểm tốt.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Bình có 8 ngôi sao (mỗi ngôi sao là 2 điểm tốt). Bình có bao nhiêu điểm tốt?
+\shortans{16}
+\loigiai{
+Bình có: $2 \times 8 = 16$ điểm tốt.
+}
+\end{ex}
+
+\begin{ex}
+Bạn Bình nhiều hơn bạn An bao nhiêu điểm tốt?
+\shortans{4}
+\loigiai{
+Nhiều hơn: $16 - 12 = 4$ điểm tốt.
+}
+\end{ex}
+
+\begin{ex}
+Cả hai bạn có tất cả bao nhiêu điểm tốt?
+\shortans{28}
+\loigiai{
+Có: $12 + 16 = 28$ điểm tốt.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp chỉ có các viên bi màu vàng. Lấy ngẫu nhiên 1 viên bi, sự kiện 'Lấy được viên bi màu vàng' là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{1}
+\loigiai{
+Toàn bi vàng nên chắc chắn. Đáp án là 1.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp đó chỉ có bi vàng, sự kiện 'Lấy được viên bi màu đỏ' là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{3}
+\loigiai{
+Không có bi đỏ nên không thể. Đáp án là 3.
+}
+\end{ex}
+
+\begin{ex}
+Trong hộp có cả bi xanh và bi đỏ. Lấy 1 viên bi, sự kiện 'Lấy được bi đỏ' là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{2}
+\loigiai{
+Có thể lấy được bi đỏ hoặc xanh. Đáp án là 2.
+}
+\end{ex}
+
+\begin{ex}
+Gieo một con xúc xắc 6 mặt. Mặt xuất hiện có số chấm lớn hơn 6 là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{3}
+\loigiai{
+Không thể có quá 6 chấm. Đáp án là 3.
+}
+\end{ex}
+
+\begin{ex}
+Mặt xuất hiện có số chấm từ 1 đến 6 là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{1}
+\loigiai{
+Chắc chắn vì xúc xắc có 6 mặt từ 1 đến 6. Đáp án là 1.
+}
+\end{ex}
+
+\begin{ex}
+Khảo sát loài hoa yêu thích của 30 bạn: 14 bạn thích hoa hồng, 9 bạn thích hoa cúc, còn lại thích hoa sen. Có bao nhiêu bạn thích hoa sen?
+\shortans{7}
+\loigiai{
+Số bạn thích hoa sen: $30 - 14 - 9 = 7$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Số bạn thích hoa hồng nhiều hơn hoa cúc bao nhiêu bạn?
+\shortans{5}
+\loigiai{
+Nhiều hơn: $14 - 9 = 5$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Kiểm đếm phương tiện trong bãi đỗ: 15 xe ô tô, 25 xe máy, 10 xe đạp. Có tất cả bao nhiêu phương tiện?
+\shortans{50}
+\loigiai{
+Tổng số phương tiện: $15 + 25 + 10 = 50$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Số xe máy nhiều hơn số xe ô tô bao nhiêu chiếc?
+\shortans{10}
+\loigiai{
+Nhiều hơn: $25 - 15 = 10$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Số xe đạp ít hơn số xe máy bao nhiêu chiếc?
+\shortans{15}
+\loigiai{
+Ít hơn: $25 - 10 = 15$ chiếc.
+}
+\end{ex}
+
+\begin{ex}
+Trong túi có 4 quả bóng xanh và 1 quả bóng đỏ. Nam lấy ra 2 quả bóng. Sự kiện 'Trong đó có ít nhất 1 quả bóng xanh' là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{1}
+\loigiai{
+Vì chỉ có 1 bóng đỏ nên lấy 2 quả chắc chắn có bóng xanh. Đáp án là 1.
+}
+\end{ex}
+
+\begin{ex}
+Một năm có 365 ngày (năm thường) hoặc 366 ngày (năm nhuận). Sự kiện 'Một năm có 400 ngày' là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{3}
+\loigiai{
+Không thể xảy ra. Đáp án là 3.
+}
+\end{ex}
+
+\begin{ex}
+Hôm nay là Thứ Hai, ngày mai là Thứ Ba. Sự kiện này là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{1}
+\loigiai{
+Chắc chắn đúng. Đáp án là 1.
+}
+\end{ex}
+
+\begin{ex}
+Một bạn học sinh ném bóng vào rổ, bóng lọt vào rổ: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{2}
+\loigiai{
+Có thể trúng hoặc trượt. Đáp án là 2.
+}
+\end{ex}
+
+\begin{ex}
+Trong rổ có 10 quả cam và 12 quả xoài. Tổng số quả trong rổ là bao nhiêu?
+\shortans{22}
+\loigiai{
+Có: $10 + 12 = 22$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Số xoài nhiều hơn số cam bao nhiêu quả?
+\shortans{2}
+\loigiai{
+Nhiều hơn: $12 - 10 = 2$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu sự kiện 'Chắc chắn' trong 2 sự kiện: (A) Nước sôi ở 100 độ C; (B) Con voi biết bay?
+\shortans{1}
+\loigiai{
+Chỉ có A chắc chắn (1 sự kiện).
+}
+\end{ex}
+
+\begin{ex}
+Sự kiện 'Con voi biết bay' là: Chắc chắn = 1, Có thể = 2, Không thể = 3.
+\shortans{3}
+\loigiai{
+Không thể xảy ra. Đáp án là 3.
+}
+\end{ex}

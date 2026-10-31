@@ -1,0 +1,199 @@
+\begin{ex}
+Tính kết quả của phép tính: $11 - 2$.
+\shortans{9}
+\loigiai{
+Ta có $11 - 2 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 3$.
+\shortans{8}
+\loigiai{
+Ta có $11 - 3 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 4$.
+\shortans{7}
+\loigiai{
+Ta có $11 - 4 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 5$.
+\shortans{6}
+\loigiai{
+Ta có $11 - 5 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 6$.
+\shortans{5}
+\loigiai{
+Ta có $11 - 6 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 7$.
+\shortans{4}
+\loigiai{
+Ta có $11 - 7 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 8$.
+\shortans{3}
+\loigiai{
+Ta có $11 - 8 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $11 - 9$.
+\shortans{2}
+\loigiai{
+Ta có $11 - 9 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 3$.
+\shortans{9}
+\loigiai{
+Ta có $12 - 3 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 4$.
+\shortans{8}
+\loigiai{
+Ta có $12 - 4 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 5$.
+\shortans{7}
+\loigiai{
+Ta có $12 - 5 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 6$.
+\shortans{6}
+\loigiai{
+Ta có $12 - 6 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 7$.
+\shortans{5}
+\loigiai{
+Ta có $12 - 7 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 8$.
+\shortans{4}
+\loigiai{
+Ta có $12 - 8 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $12 - 9$.
+\shortans{3}
+\loigiai{
+Ta có $12 - 9 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $13 - 4$.
+\shortans{9}
+\loigiai{
+Ta có $13 - 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $13 - 5$.
+\shortans{8}
+\loigiai{
+Ta có $13 - 5 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $13 - 6$.
+\shortans{7}
+\loigiai{
+Ta có $13 - 6 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $13 - 7$.
+\shortans{6}
+\loigiai{
+Ta có $13 - 7 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $13 - 8$.
+\shortans{5}
+\loigiai{
+Ta có $13 - 8 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $13 - 9$.
+\shortans{4}
+\loigiai{
+Ta có $13 - 9 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Có 12 quả táo, Mai ăn hết 5 quả. Hỏi còn lại bao nhiêu quả táo?
+\shortans{7}
+\loigiai{
+Còn lại: $12 - 5 = 7$ quả táo.
+}
+\end{ex}
+
+\begin{ex}
+Một đàn gà có 11 con, 4 con chạy vào chuồng. Còn lại bao nhiêu con ngoài sân?
+\shortans{7}
+\loigiai{
+Còn lại: $11 - 4 = 7$ con gà.
+}
+\end{ex}
+
+\begin{ex}
+Bình có 13 viên kẹo, Bình chia cho em 6 viên kẹo. Bình còn lại bao nhiêu viên kẹo?
+\shortans{7}
+\loigiai{
+Bình còn lại: $13 - 6 = 7$ viên kẹo.
+}
+\end{ex}
+
+\begin{ex}
+Tổ Em có 11 bạn học sinh, trong đó có 6 bạn nữ. Hỏi tổ Em có bao nhiêu bạn nam?
+\shortans{5}
+\loigiai{
+Số bạn nam: $11 - 6 = 5$ bạn.
+}
+\end{ex}

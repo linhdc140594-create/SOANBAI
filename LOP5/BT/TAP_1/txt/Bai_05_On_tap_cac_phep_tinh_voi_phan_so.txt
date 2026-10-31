@@ -1,0 +1,176 @@
+=== BÀI 5: ÔN TẬP CÁC PHÉP TÍNH VỚI PHÂN SỐ ===
+
+Câu 1: Tính kết quả: \frac{3}{5} x \frac{5}{7}. Phân số tối giản có tử số là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+\frac{3 x 5}{5 x 7} = \frac{3}{7}. Tử số là 3.
+
+----------------------------------------
+
+Câu 2: Tính kết quả: \frac{4}{9} x \frac{3}{8}. Phân số tối giản có mẫu số là bao nhiêu?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+\frac{4 x 3}{9 x 8} = \frac{12}{72} = \frac{1}{6}. Mẫu số là 6.
+
+----------------------------------------
+
+Câu 3: Tính giá trị của phép chia: \frac{5}{8} : \frac{5}{16}. Kết quả là bao nhiêu?
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+\frac{5}{8} : \frac{5}{16} = \frac{5}{8} x \frac{16}{5} = 2.
+
+----------------------------------------
+
+Câu 4: Tính giá trị của phép nhân: \frac{7}{12} x 36. Kết quả là bao nhiêu?
+Đáp án: [shortans]21[/shortans]
+Lời giải chi tiết:
+\frac{7 x 36}{12} = 7 x 3 = 21.
+
+----------------------------------------
+
+Câu 5: Tính giá trị phép chia: 45 : \frac{5}{3}. Kết quả là bao nhiêu?
+Đáp án: [shortans]27[/shortans]
+Lời giải chi tiết:
+45 : \frac{5}{3} = 45 x \frac{3}{5} = 27.
+
+----------------------------------------
+
+Câu 6: Tính nhanh: \frac{3}{7} x \frac{4}{9} + \frac{3}{7} x \frac{5}{9}. Tử số của kết quả tối giản là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+\frac{3}{7} x (\frac{4}{9} + \frac{5}{9}) = \frac{3}{7} x 1 = \frac{3}{7}. Tử số là 3.
+
+----------------------------------------
+
+Câu 7: Tính giá trị: \frac{2}{3} x \frac{3}{4} x \frac{4}{5} x \frac{5}{6}. Phân số tối giản có mẫu số là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Rút gọn các thừa số liên tiếp: \frac{2}{6} = \frac{1}{3}. Mẫu số là 3.
+
+----------------------------------------
+
+Câu 8: Tìm x biết: x x \frac{3}{4} = \frac{9}{8}. Mẫu số của phân số tối giản x là bao nhiêu?
+Đáp án: [shortans]2[/shortans]
+Lời giải chi tiết:
+x = \frac{9}{8} : \frac{3}{4} = \frac{9}{8} x \frac{4}{3} = \frac{3}{2}. Mẫu số là 2.
+
+----------------------------------------
+
+Câu 9: Tìm x biết: x : \frac{2}{5} = 15. Kết quả x là bao nhiêu?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+x = 15 x \frac{2}{5} = 6.
+
+----------------------------------------
+
+Câu 10: Tìm x biết: \frac{4}{7} : x = \frac{2}{21}. Kết quả x là bao nhiêu?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+x = \frac{4}{7} : \frac{2}{21} = \frac{4}{7} x \frac{21}{2} = 6.
+
+----------------------------------------
+
+Câu 11: Một hình chữ nhật có chiều dài \frac{4}{5}\text{ m}, chiều rộng \frac{3}{8}\text{ m}. Diện tích hình chữ nhật đó có tử số khi rút gọn về phân số tối giản là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Diện tích là \frac{4}{5} x \frac{3}{8} = \frac{12}{40} = \frac{3}{10}\text{ m}^2. Tử số là 3.
+
+----------------------------------------
+
+Câu 12: Một hình vuông có chu vi là \frac{8}{3}\text{ m}. Diện tích hình vuông đó có mẫu số là bao nhiêu khi rút gọn tối giản?
+Đáp án: [shortans]9[/shortans]
+Lời giải chi tiết:
+Cạnh hình vuông là \frac{8}{3} : 4 = \frac{2}{3}\text{ m}. Diện tích là \frac{2}{3} x \frac{2}{3} = \frac{4}{9}\text{ m}^2. Mẫu số là 9.
+
+----------------------------------------
+
+Câu 13: Một chai dầu chứa \frac{3}{4} lít dầu. Hỏi 8 chai dầu như thế chứa tất cả bao nhiêu lít dầu?
+Đáp án: [shortans]6[/shortans]
+Lời giải chi tiết:
+8 chai chứa số lít dầu là: \frac{3}{4} x 8 = 6 (lít).
+
+----------------------------------------
+
+Câu 14: Có 12\text{ kg} đường đem chia đều vào các túi, mỗi túi chứa \frac{3}{4}\text{ kg}. Hỏi chia được tất cả bao nhiêu túi đường?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+Số túi đường là: 12 : \frac{3}{4} = 12 x \frac{4}{3} = 16 (túi).
+
+----------------------------------------
+
+Câu 15: Một lớp học có 40 học sinh. Trong đó có \frac{1}{4} số học sinh giỏi và \frac{1}{2} số học sinh khá. Hỏi lớp có bao nhiêu học sinh giỏi và khá?
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Phân số chỉ học sinh giỏi và khá là \frac{1}{4} + \frac{1}{2} = \frac{3}{4}. Số học sinh là 40 x \frac{3}{4} = 30 học sinh.
+
+----------------------------------------
+
+Câu 16: Tìm giá trị của biểu thức: (\frac{1}{2} + \frac{1}{3}) x 12.
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+\frac{1}{2} x 12 + \frac{1}{3} x 12 = 6 + 4 = 10.
+
+----------------------------------------
+
+Câu 17: Tìm giá trị của biểu thức: (\frac{3}{4} - \frac{1}{6}) x 24.
+Đáp án: [shortans]14[/shortans]
+Lời giải chi tiết:
+\frac{3}{4} x 24 - \frac{1}{6} x 24 = 18 - 4 = 14.
+
+----------------------------------------
+
+Câu 18: Tính nhanh: \frac{2024 x 2025 - 1}{2023 x 2025 + 2024}. Kết quả là bao nhiêu?
+Đáp án: [shortans]1[/shortans]
+Lời giải chi tiết:
+Ta có 2024 x 2025 - 1 = (2023 + 1) x 2025 - 1 = 2023 x 2025 + 2024. Tử số bằng mẫu số nên kết quả bằng 1.
+
+----------------------------------------
+
+Câu 19: Một tấm vải dài 36\text{ m}. Người ta cắt lấy \frac{2}{3} tấm vải để may quần áo. Phần vải còn lại dài bao nhiêu mét?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Phần vải còn lại là 1 - \frac{2}{3} = \frac{1}{3} tấm vải, dài 36 x \frac{1}{3} = 12\text{ m}.
+
+----------------------------------------
+
+Câu 20: Tìm số nghịch đảo của phân số \frac{5}{15}. Kết quả là bao nhiêu?
+Đáp án: [shortans]3[/shortans]
+Lời giải chi tiết:
+Rút gọn \frac{5}{15} = \frac{1}{3}. Phân số nghịch đảo là \frac{3}{1} = 3.
+
+----------------------------------------
+
+Câu 21: Tính: 15 x \frac{4}{5} : 3. Kết quả là bao nhiêu?
+Đáp án: [shortans]4[/shortans]
+Lời giải chi tiết:
+15 x \frac{4}{5} = 12. 12 : 3 = 4.
+
+----------------------------------------
+
+Câu 22: Tính: \frac{1}{2} : \frac{1}{4} : \frac{1}{8}. Kết quả là bao nhiêu?
+Đáp án: [shortans]16[/shortans]
+Lời giải chi tiết:
+\frac{1}{2} x 4 x 8 = 2 x 8 = 16.
+
+----------------------------------------
+
+Câu 23: Hai vòi nước cùng chảy vào một bể không có nước. Trong một giờ vòi một chảy được \frac{1}{3} bể, vòi hai chảy được \frac{1}{4} bể. Hỏi sau bao nhiêu giờ thì cả hai vòi chảy đầy 7 bể như thế?
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Trong 1 giờ hai vòi chảy được: \frac{1}{3} + \frac{1}{4} = \frac{7}{12} bể. Để chảy đầy 7 bể cần: 7 : \frac{7}{12} = 12 giờ.
+
+----------------------------------------
+
+Câu 24: Tính giá trị: (1 - \frac{1}{2}) x (1 - \frac{1}{3}) x (1 - \frac{1}{4}) x (1 - \frac{1}{5}). Phân số tối giản có mẫu số là bao nhiêu?
+Đáp án: [shortans]5[/shortans]
+Lời giải chi tiết:
+Biểu thức bằng \frac{1}{2} x \frac{2}{3} x \frac{3}{4} x \frac{4}{5} = \frac{1}{5}. Mẫu số là 5.
+
+----------------------------------------
+
+Câu 25: Tìm một số biết rằng \frac{3}{5} của số đó bằng 45. Số đó là bao nhiêu?
+Đáp án: [shortans]75[/shortans]
+Lời giải chi tiết:
+Số cần tìm là 45 : \frac{3}{5} = 45 x \frac{5}{3} = 75.
+
+----------------------------------------

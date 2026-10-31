@@ -1,0 +1,166 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{a4paper, total={180mm,260mm}, left=15mm, right=15mm, top=18mm, bottom=18mm}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+\tikzset{
+  arr/.style={-{Stealth[scale=0.8]}},
+  every node/.append style={align=center}
+}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyhead[L]{\small\bfseries\color{violet!85!black}\faBook\ SỔ TAY KIẾN THỨC TOÁN 2}
+\fancyhead[R]{\small\bfseries\color{violet!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\small\color{gray}-- Sổ tay kiến thức: Bài 49. Các số tròn trăm, tròn chục --}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+\begin{document}
+
+% --- BANNER BÀI HỌC ---
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!8!white,
+  colframe=violet!70!black,
+  arc=3mm, boxrule=1.2pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\LARGE\bfseries\color{violet!90!black}\faBookmark\ BÀI 49: CÁC SỐ TRÒN TRĂM, TRÒN CHỤC}\\[1mm]
+  {\itshape\footnotesize\color{black!75} Đọc, viết, so sánh và tính nhẩm cộng trừ các số tròn trăm, tròn chục phạm vi 1000 trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{-2mm}
+
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=violet!4!white,
+  colframe=violet!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Số tròn trăm và số tròn chục}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Số tròn trăm:} Có chữ số hàng chục và hàng đơn vị đều là $0$:
+  $$100, 200, 300, 400, 500, 600, 700, 800, 900$$
+  \item \textbf{Số tròn chục (3 chữ số):} Có chữ số hàng đơn vị là $0$:
+  $$110, 120, 130, \dots, 250, \dots, 990$$
+  \item Các số tròn trăm cũng là số tròn chục.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!4!white,
+  colframe=teal!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faSliders\ 2. Kĩ năng tính nhẩm tròn trăm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cộng trừ các số tròn trăm:}
+  Cộng trừ chữ số hàng trăm, rồi viết thêm hai chữ số $0$ vào bên phải.
+  \item \textbf{Ví dụ:}
+  \begin{itemize}\setlength{\itemsep}{0.5pt}\setlength{\leftskip}{-2.5mm}
+    \item $300 + 200 = \mathbf{500}$ ($3\text{ trăm} + 2\text{ trăm} = 5\text{ trăm}$).
+    \item $700 - 400 = \mathbf{300}$ ($7\text{ trăm} - 4\text{ trăm} = 3\text{ trăm}$).
+    \item $1\,000 - 600 = \mathbf{400}$ ($10\text{ trăm} - 6\text{ trăm} = 4\text{ trăm}$).
+  \end{itemize}
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+\vspace{-1.5mm}
+\begin{tcolorbox}[
+  enhanced,
+  colback=orange!4!white,
+  colframe=orange!80!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.5mm, bottom=1.5mm,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ 3. Sơ đồ so sánh hai số tròn trăm}
+]
+\centering
+\begin{tikzpicture}[x=1.5cm, y=0.8cm]
+  \node[rectangle, rounded corners=2pt, draw=violet!80!black, fill=violet!15, text width=3.8cm, align=center, font=\scriptsize\bfseries] at (0,0) {
+    SỐ THỨ NHẤT\\$500$ ($5$ trăm)
+  };
+  \node[rectangle, rounded corners=2pt, draw=orange!80!black, fill=orange!20, font=\scriptsize\bfseries] at (2.5,0) {
+    So sánh\\$5 > 3$
+  };
+  \node[rectangle, rounded corners=2pt, draw=teal!80!black, fill=teal!15, text width=3.8cm, align=center, font=\scriptsize\bfseries] at (5,0) {
+    SỐ THỨ HAI\\$300$ ($3$ trăm)
+  };
+  \draw[->, thick] (1.3,0) -- (1.9,0);
+  \draw[->, thick] (3.1,0) -- (3.7,0);
+
+  \node[rectangle, rounded corners=2pt, draw=green!80!black, fill=green!15, font=\scriptsize\bfseries] at (2.5,-1) {
+    Kết luận: $\mathbf{500 > 300}$
+  };
+\end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{-1.5mm}
+\noindent
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=green!4!white,
+  colframe=green!60!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faCheckCircle\ 4. Ví dụ thực hành chuẩn mực}
+]
+{\footnotesize
+\textbf{1. Tính nhẩm:}\\
+- $400 + 500 = \mathbf{900}$.\\
+- $800 - 300 = \mathbf{500}$.\\
+- $200 + 600 - 400 = 800 - 400 = \mathbf{400}$.
+\textbf{2. Điền dấu ($>, <, =$):}\\
+- $600 \dots 700 \implies 600 < 700$.\\
+- $400 + 100 \dots 500 \implies 500 = 500$.
+}
+\end{tcolorbox}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.49\textwidth}\vspace{0pt}
+\begin{tcolorbox}[
+  enhanced,
+  colback=red!4!white,
+  colframe=red!75!black,
+  arc=2mm, boxrule=0.8pt,
+  left=2mm, right=2mm, top=1.8mm, bottom=1.8mm,
+  title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ 5. Mẹo tránh bẫy trắc nghiệm}
+]
+{\footnotesize
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\leftskip}{-2.5mm}
+  \item \textbf{Cẩn thận khi trừ với 1000:}\\
+  $1\,000 - 300$: Nhẩm $10\text{ trăm} - 3\text{ trăm} = 7\text{ trăm} = 700$. Tránh nhầm lấy $100 - 300$.
+  \item Số tròn trăm luôn tận cùng bằng hai chữ số 0.
+\end{itemize}
+}
+\end{tcolorbox}
+\end{minipage}
+
+
+\end{document}

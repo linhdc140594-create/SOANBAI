@@ -1,0 +1,199 @@
+\begin{ex}
+Số bé nhất có một chữ số là số nào?
+\shortans{0}
+\loigiai{
+Số bé nhất có 1 chữ số là 0.
+}
+\end{ex}
+
+\begin{ex}
+Số lớn nhất có một chữ số là số nào?
+\shortans{9}
+\loigiai{
+Số lớn nhất có 1 chữ số là 9.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $4 + 5$.
+\shortans{9}
+\loigiai{
+Ta có $4 + 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $10 - 6$.
+\shortans{4}
+\loigiai{
+Ta có $10 - 6 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $2 + 8$.
+\shortans{10}
+\loigiai{
+Ta có $2 + 8 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính kết quả của phép tính: $9 - 9$.
+\shortans{0}
+\loigiai{
+Ta có $9 - 9 = 0$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $3 + 4 + 3$.
+\shortans{10}
+\loigiai{
+Ta có $3 + 4 = 7$, rồi $7 + 3 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $10 - 5 - 2$.
+\shortans{3}
+\loigiai{
+Ta có $10 - 5 = 5$, rồi $5 - 2 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $8 - 4 + 6$.
+\shortans{10}
+\loigiai{
+Ta có $8 - 4 = 4$, rồi $4 + 6 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị của biểu thức: $5 + 3 - 7$.
+\shortans{1}
+\loigiai{
+Ta có $5 + 3 = 8$, rồi $8 - 7 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $6 + \dots = 10$.
+\shortans{4}
+\loigiai{
+Số cần điền là: $10 - 6 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $9 - \dots = 3$.
+\shortans{6}
+\loigiai{
+Số cần điền là: $9 - 3 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots + 5 = 9$.
+\shortans{4}
+\loigiai{
+Số cần điền là: $9 - 5 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $\dots - 4 = 5$.
+\shortans{9}
+\loigiai{
+Số cần điền là: $5 + 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $6, 2, 9, 4, 7$, số lớn nhất là số nào?
+\shortans{9}
+\loigiai{
+Số lớn nhất là 9.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số $8, 3, 0, 10, 5$, số bé nhất là số nào?
+\shortans{0}
+\loigiai{
+Số bé nhất là 0.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên ở giữa số 6 và số 8.
+\shortans{7}
+\loigiai{
+Số ở giữa 6 và 8 là 7.
+}
+\end{ex}
+
+\begin{ex}
+Có bao nhiêu số tự nhiên từ 0 đến 10?
+\shortans{11}
+\loigiai{
+Có tất cả 11 số (từ 0 đến 10).
+}
+\end{ex}
+
+\begin{ex}
+Mẹ có 10 quả táo, mẹ cho chị 4 quả và em 3 quả. Mẹ còn lại bao nhiêu quả táo?
+\shortans{3}
+\loigiai{
+Mẹ còn lại: $10 - 4 - 3 = 3$ quả.
+}
+\end{ex}
+
+\begin{ex}
+Nam có 5 viên bi đỏ và 4 viên bi xanh. Nam có tất cả bao nhiêu viên bi?
+\shortans{9}
+\loigiai{
+Nam có: $5 + 4 = 9$ viên bi.
+}
+\end{ex}
+
+\begin{ex}
+Trên cành cây có 8 con chim, 5 con bay đi. Còn lại bao nhiêu con chim?
+\shortans{3}
+\loigiai{
+Còn lại: $8 - 5 = 3$ con.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có tổng bằng 10, biết một số là 7. Số kia là bao nhiêu?
+\shortans{3}
+\loigiai{
+Số kia là: $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Hai số có hiệu bằng 4, số bị trừ là 9. Số trừ là bao nhiêu?
+\shortans{5}
+\loigiai{
+Số trừ là: $9 - 4 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $2 + 7 = 10 - \dots$
+\shortans{1}
+\loigiai{
+Vế trái: $2 + 7 = 9$. Số cần điền: $10 - 9 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp vào ô trống: $8 - 3 = 1 + \dots$
+\shortans{4}
+\loigiai{
+Vế trái: $8 - 3 = 5$. Số cần điền: $5 - 1 = 4$.
+}
+\end{ex}

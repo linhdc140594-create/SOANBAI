@@ -1,0 +1,159 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 17. Yến, tạ, tấn --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 17: YẾN, TẠ, TẤN}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Bảng đơn vị đo khối lượng lớn hơn ki-lô-gam, quy tắc chuyển đổi và bài toán thực tế trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. Các đơn vị đo khối lượng},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Để đo khối lượng các vật nặng hàng chục, hàng trăm, hàng nghìn ki-lô-gam, ta dùng các đơn vị: \textbf{yến, tạ, tấn}.\\
+    $\bullet$ $1\text{ yến} = 10\text{ kg}$\\
+    $\bullet$ $1\text{ tạ} = 10\text{ yến} = 100\text{ kg}$\\
+    $\bullet$ $1\text{ tấn} = 10\text{ tạ} = 100\text{ yến} = 1\,000\text{ kg}$\\
+    $\bullet$ \textbf{Thứ tự từ lớn đến bé}:\\
+    \begin{center}
+      \textbf{Tấn $\rightarrow$ Tạ $\rightarrow$ Yến $\rightarrow$ kg}
+    \end{center}
+    Mỗi đơn vị lớn hơn liền kề gấp \textbf{10 lần} đơn vị bé hơn.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExchange\ 2. Kĩ thuật chuyển đổi đơn vị},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Đổi từ đơn vị lớn sang đơn vị bé:}\\
+    --- Liền kề: Nhân với $10$ (thêm 1 chữ số 0).\\
+    \textit{VD:} $5\text{ tạ} = 50\text{ yến}$.\\
+    --- Tấn sang kg: Nhân với $1\,000$ (thêm 3 chữ số 0).\\
+    \textit{VD:} $3\text{ tấn} = 3\,000\text{ kg}$.\\[1mm]
+    $\bullet$ \textbf{Đổi từ đơn vị bé sang đơn vị lớn:}\\
+    --- Liền kề: Chia cho $10$ (bớt 1 chữ số 0).\\
+    \textit{VD:} $70\text{ kg} = 7\text{ yến}$; $4\,000\text{ kg} = 4\text{ tấn}$.\\
+    $\bullet$ \textbf{Đổi danh số kép}: $2\text{ tấn } 50\text{ kg} = 2\,000 + 50 = 2\,050\text{ kg}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: CHUỖI ĐỔI ĐƠN VỊ ĐO KHỐI LƯỢNG TIÊU CHUẨN},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    xscale=1.2, yscale=0.85,
+    unit/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!12, thick, inner sep=4pt, font=\small\bfseries, align=center},
+    arr_top/.style={-{Stealth[scale=0.8]}, thick, draw=blue!80!black},
+    arr_bot/.style={-{Stealth[scale=0.8]}, thick, draw=red!75!black}
+  ]
+    \node[unit, fill=purple!12, draw=purple!80!black] (tan) at (0,0) {TẤN};
+    \node[unit, fill=blue!12, draw=blue!80!black] (ta) at (2.8,0) {TẠ};
+    \node[unit, fill=teal!12, draw=teal!80!black] (yen) at (5.6,0) {YẾN};
+    \node[unit, fill=orange!15, draw=orange!85!black] (kg) at (8.4,0) {KG};
+
+    % Mũi tên từ lớn sang bé (trên)
+    \draw[arr_top] (tan.north east) to[bend left=30] node[above, font=\tiny\bfseries]{$\times 10$} (ta.north west);
+    \draw[arr_top] (ta.north east) to[bend left=30] node[above, font=\tiny\bfseries]{$\times 10$} (yen.north west);
+    \draw[arr_top] (yen.north east) to[bend left=30] node[above, font=\tiny\bfseries]{$\times 10$} (kg.north west);
+
+    % Mũi tên lớn: Tấn sang kg
+    \draw[arr_top, dashed, draw=purple!85!black] (tan.north) to[bend left=42] node[above, font=\scriptsize\bfseries\color{purple!90!black}]{$\times 1\,000$ ($1\text{ tấn} = 1\,000\text{ kg}$)} (kg.north);
+
+    % Mũi tên từ bé sang lớn (dưới)
+    \draw[arr_bot] (kg.south west) to[bend left=30] node[below, font=\tiny\bfseries]{$: 10$} (yen.south east);
+    \draw[arr_bot] (yen.south west) to[bend left=30] node[below, font=\tiny\bfseries]{$: 10$} (ta.south east);
+    \draw[arr_bot] (ta.south west) to[bend left=30] node[below, font=\tiny\bfseries]{$: 10$} (tan.south east);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ví dụ 1 (Đổi danh số kép):}\\
+    $4\text{ tấn } 8\text{ tạ} = 40\text{ tạ} + 8\text{ tạ} = \mathbf{48\text{ tạ}} = \mathbf{4\,800\text{ kg}}$.\\
+    $3\text{ tạ } 5\text{ kg} = 300\text{ kg} + 5\text{ kg} = \mathbf{305\text{ kg}}$.\\
+    $\bullet$ \textbf{Ví dụ 2 (Toán có lời văn):}\\
+    Một xe tải chở 2 tấn thóc và 5 tạ ngô. Hỏi xe chở tất cả bao nhiêu ki-lô-gam?\\
+    \textit{Giải:} Đổi 2 tấn = $2\,000\text{ kg}$; 5 tạ = $500\text{ kg}$.\\
+    Xe chở tất cả: $2\,000 + 500 = \mathbf{2\,500\text{ kg}}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy quên hàng yến:}\\
+    Học sinh hay nhầm $1\text{ tạ} = 10\text{ kg}$ $\rightarrow$ \textbf{SAI}! Phải là $1\text{ tạ} = 10\text{ yến} = 100\text{ kg}$.\\
+    $\bullet$ \textbf{Bẫy danh số khuyết:}\\
+    $3\text{ tấn } 5\text{ kg} \ne 3500\text{ kg}$! Vì không có tạ và yến nên hàng trăm và chục là 0 $\Rightarrow 3\text{ tấn } 5\text{ kg} = 3\,005\text{ kg}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

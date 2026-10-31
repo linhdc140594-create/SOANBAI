@@ -1,0 +1,199 @@
+\begin{ex}
+Khối lập phương có bao nhiêu mặt phẳng?
+\shortans{6}
+\loigiai{
+Có 6 mặt phẳng hình vuông.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có bao nhiêu cạnh thẳng?
+\shortans{12}
+\loigiai{
+Có 12 cạnh.
+}
+\end{ex}
+
+\begin{ex}
+Khối hộp chữ nhật có bao nhiêu đỉnh nhọn?
+\shortans{8}
+\loigiai{
+Có 8 đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp bánh hình lập phương và một hộp kẹo hình hộp chữ nhật có tổng số đỉnh là bao nhiêu?
+\shortans{16}
+\loigiai{
+Tổng số đỉnh: $8 + 8 = 16$ đỉnh.
+}
+\end{ex}
+
+\begin{ex}
+Có 3 khối lập phương và 4 khối hộp chữ nhật. Hỏi có tất cả bao nhiêu khối hình?
+\shortans{7}
+\loigiai{
+Có tất cả: $3 + 4 = 7$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Lan có 10 khối gỗ hình lập phương nhỏ. Lan dùng 6 khối để xếp thành ngôi nhà. Lan còn lại bao nhiêu khối gỗ?
+\shortans{4}
+\loigiai{
+Lan còn lại: $10 - 6 = 4$ khối gỗ.
+}
+\end{ex}
+
+\begin{ex}
+Xếp 2 khối lập phương nhỏ chồng lên nhau rồi xếp tiếp 3 khối lập phương nhỏ bên cạnh. Cần tất cả bao nhiêu khối lập phương nhỏ?
+\shortans{5}
+\loigiai{
+Cần tất cả: $2 + 3 = 5$ khối lập phương nhỏ.
+}
+\end{ex}
+
+\begin{ex}
+Trong tủ đồ chơi: ngăn trên có 4 khối hộp chữ nhật, ngăn dưới có 6 khối hộp chữ nhật. Ngăn dưới nhiều hơn ngăn trên bao nhiêu khối hộp chữ nhật?
+\shortans{2}
+\loigiai{
+Ngăn dưới nhiều hơn: $6 - 4 = 2$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Có 9 khối gỗ gồm cả khối hộp chữ nhật và khối lập phương. Biết có 5 khối lập phương, hỏi có bao nhiêu khối hộp chữ nhật?
+\shortans{4}
+\loigiai{
+Có số khối hộp chữ nhật là: $9 - 5 = 4$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Hùng có 4 chiếc xe ô tô đồ chơi bên tay trái và 5 chiếc bên tay phải. Hỏi Hùng có tất cả bao nhiêu chiếc ô tô đồ chơi?
+\shortans{9}
+\loigiai{
+Hùng có tất cả: $4 + 5 = 9$ chiếc ô tô.
+}
+\end{ex}
+
+\begin{ex}
+Trong một hàng dọc có 10 người. Người đứng ở vị trí thứ 5 có bao nhiêu người đứng phía trước mình?
+\shortans{4}
+\loigiai{
+Có 4 người đứng phía trước.
+}
+\end{ex}
+
+\begin{ex}
+Trong hàng dọc đó, có bao nhiêu người đứng phía sau người thứ 5?
+\shortans{5}
+\loigiai{
+Có $10 - 5 = 5$ người đứng phía sau.
+}
+\end{ex}
+
+\begin{ex}
+Dùng 4 khối lập phương nhỏ ghép lại thành một hình vuông lớn. Hỏi cần bao nhiêu khối?
+\shortans{4}
+\loigiai{
+Cần 4 khối.
+}
+\end{ex}
+
+\begin{ex}
+Một khối rubik hình lập phương có bao nhiêu mặt vuông?
+\shortans{6}
+\loigiai{
+Có 6 mặt vuông.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ mộc có 8 thanh gỗ dài bằng nhau để đóng khung 2 bức tranh hình vuông rời nhau. Mỗi bức tranh bác dùng bao nhiêu thanh gỗ?
+\shortans{4}
+\loigiai{
+Mỗi bức tranh dùng: $8 : 2 = 4$ thanh gỗ.
+}
+\end{ex}
+
+\begin{ex}
+Trên kệ bếp: bên trái có 3 chai dầu ăn, bên phải có 4 chai nước mắm. Hỏi cả hai bên có tất cả bao nhiêu chai?
+\shortans{7}
+\loigiai{
+Có tất cả: $3 + 4 = 7$ chai.
+}
+\end{ex}
+
+\begin{ex}
+Một hộp sữa dạng khối hộp chữ nhật có mấy mặt đáy?
+\shortans{2}
+\loigiai{
+Có 2 mặt đáy (đáy trên và đáy dưới).
+}
+\end{ex}
+
+\begin{ex}
+Bạn Minh có 10 viên xúc xắc hình lập phương, Minh chia cho bạn Nam 3 viên và bạn Dũng 3 viên. Minh còn lại bao nhiêu viên xúc xắc?
+\shortans{4}
+\loigiai{
+Minh còn lại: $10 - 3 - 3 = 4$ viên.
+}
+\end{ex}
+
+\begin{ex}
+Một chú kiến bò từ chân tường lên đỉnh cột cao 10 mét. Buổi sáng bò được 4 mét, buổi chiều bò thêm được 3 mét. Hỏi chú kiến đã bò được tất cả bao nhiêu mét?
+\shortans{7}
+\loigiai{
+Chú kiến bò được: $4 + 3 = 7$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Chú kiến đó còn cách đỉnh cột bao nhiêu mét?
+\shortans{3}
+\loigiai{
+Còn cách đỉnh cột: $10 - 7 = 3$ mét.
+}
+\end{ex}
+
+\begin{ex}
+Có 7 bạn xếp hàng ngang. Bạn đứng chính giữa là bạn thứ mấy từ trái sang?
+\shortans{4}
+\loigiai{
+Bạn đứng chính giữa là bạn thứ 4.
+}
+\end{ex}
+
+\begin{ex}
+Trước mặt chú gấu bông có 5 bạn nhỏ, sau lưng chú gấu bông có 2 bạn nhỏ. Hỏi có tất cả bao nhiêu bạn nhỏ vây quanh chú gấu bông?
+\shortans{7}
+\loigiai{
+Có tất cả: $5 + 2 = 7$ bạn nhỏ.
+}
+\end{ex}
+
+\begin{ex}
+Trong phòng có 6 khối lập phương màu đỏ và 4 khối lập phương màu xanh. Hỏi có tất cả bao nhiêu khối lập phương?
+\shortans{10}
+\loigiai{
+Có tất cả: $6 + 4 = 10$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tháp được xếp bởi 3 tầng: tầng 1 có 4 khối, tầng 2 có 3 khối, tầng 3 có 1 khối. Hỏi hình tháp đó được xếp bởi bao nhiêu khối hình?
+\shortans{8}
+\loigiai{
+Tổng số khối: $4 + 3 + 1 = 8$ khối.
+}
+\end{ex}
+
+\begin{ex}
+Cần thêm bao nhiêu khối nữa để hình tháp trên có đúng 10 khối?
+\shortans{2}
+\loigiai{
+Cần thêm: $10 - 8 = 2$ khối.
+}
+\end{ex}

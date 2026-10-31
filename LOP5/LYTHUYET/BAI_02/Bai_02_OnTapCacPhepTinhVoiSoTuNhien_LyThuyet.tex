@@ -1,0 +1,165 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 2. Ôn tập các phép tính với số tự nhiên --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 02. ÔN TẬP CÁC PHÉP TÍNH VỚI SỐ TỰ NHIÊN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Bốn phép tính Cộng, Trừ, Nhân, Chia và các tính chất tính nhanh trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BỐN PHÉP TÍNH VÀ THÀNH PHẦN ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCalculator\ 1. Thành phần các phép tính},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Phép cộng:} $a + b = c$ (Số hạng $+$ Số hạng $=$ Tổng).\\
+    $\bullet$ \textbf{Phép trừ:} $a - b = c$ (Số bị trừ $-$ Số trừ $=$ Hiệu).\\
+    $\bullet$ \textbf{Phép nhân:} $a \times b = p$ (Thừa số $\times$ Thừa số $=$ Tích).\\
+    $\bullet$ \textbf{Phép chia:} $a : b = q$ (Số bị chia $:$ Số chia $=$ Thương).\\
+    \hspace*{3mm}$\triangleright$ Phép chia có dư: $a = b \times q + r$ ($r < b$).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ 2. Tìm thành phần chưa biết},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Số hạng} $=$ Tổng $-$ Số hạng đã biết.\\
+    $\bullet$ \textbf{Số bị trừ} $=$ Hiệu $+$ Số trừ.\\
+    $\bullet$ \textbf{Số trừ} $=$ Số bị trừ $-$ Hiệu.\\
+    $\bullet$ \textbf{Thừa số} $=$ Tích $:$ Thừa số đã biết.\\
+    $\bullet$ \textbf{Số bị chia} $=$ Thương $\times$ Số chia ($+ r$).\\
+    $\bullet$ \textbf{Số chia} $=$ (Số bị chia $- r$) $:$ Thương.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 2: CÁC TÍNH CHẤT GIÚP TÍNH NHANH ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faStar\ 3. Các tính chất quan trọng để tính nhanh, tính thuận tiện},
+  colback=purple!2!white,
+  colframe=purple!70!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \begin{tabular}{ll}
+    $\bullet$ \textbf{Giao hoán:} $a + b = b + a$ \quad | \quad $a \times b = b \times a$ & (Đổi chỗ các số hạng/thừa số mà kết quả không đổi)\\
+    $\bullet$ \textbf{Kết hợp:} $(a + b) + c = a + (b + c)$ \quad | \quad $(a \times b) \times c = a \times (b \times c)$ & (Gộp các số tạo thành số tròn chục, tròn trăm)\\
+    $\bullet$ \textbf{Phân phối:} $a \times (b + c) = a \times b + a \times c$ \quad | \quad $a \times (b - c) = a \times b - a \times c$ & (Nhân một số với một tổng/hiệu hoặc rút thừa số chung)
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Thứ tự thực hiện phép tính},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    box0/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    box1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    box2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    box3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[box0] (core) at (-6.2, 0) {\faCalculator\ BIỂU THỨC};
+    \node[box1] (ngoac) at (-2.0, 0.75) {\textbf{Có dấu ngoặc:}\\$(\ ) \longrightarrow [\ ] \longrightarrow \{\ \}$};
+    \node[box1] (khong) at (-2.0, -0.75) {\textbf{Không có ngoặc:}\\Theo thứ tự phép tính};
+    \node[box2] (nhan) at (2.2, 0) {\textbf{BƯỚC 1:}\\Nhân \& Chia trước\\(Từ trái sang phải)};
+    \node[box3] (cong) at (6.2, 0) {\textbf{BƯỚC 2:}\\Cộng \& Trừ sau\\(Từ trái sang phải)};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (core) |- (ngoac);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (core) |- (khong);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (ngoac) -| (nhan);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (khong) -| (nhan);
+    \draw[teal!85!black, thick, -{Stealth[length=2.5mm]}] (nhan) -- (cong);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: CẶP SỐ ĐẶC BIỆT & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ Các cặp số ``vàng'' khi nhân nhẩm},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Ghi nhớ để ghép nhóm tính nhanh:\\
+    $\bullet$ $2 \times 5 = 10$ \qquad $\bullet$ $4 \times 25 = 100$\\
+    $\bullet$ $8 \times 125 = 1\,000$ \quad $\bullet$ $5 \times 20 = 100$\\
+    \textit{VD:} $25 \times 37 \times 4 = (25 \times 4) \times 37 = 100 \times 37 = 3\,700$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy chia 0:} Số chia luôn phải \textbf{khác 0} ($a : 0$ là vô nghĩa).\\
+    $\bullet$ Trong biểu thức chỉ có phép nhân và chia: tính lần lượt từ \textbf{trái sang phải}, không được tùy tiện làm phép nhân trước phép chia!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

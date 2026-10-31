@@ -1,0 +1,162 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 44. Luyện tập chung tỉ số phần trăm --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 44. LUYỆN TẬP CHUNG TỈ SỐ PHẦN TRĂM (CHỦ ĐỀ 7)}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Tổng kết toàn diện 3 dạng toán tỉ số phần trăm và chiến thuật giải không bao giờ nhầm trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BẢNG TỔNG HỢP 3 DẠNG TOÁN TỈ SỐ PHẦN TRĂM ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faTable\ 1. Bảng phân loại 3 bài toán Tỉ số phần trăm kinh điển},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+]
+  \scriptsize
+  \centering
+  \begin{tabular}{|l|l|c|l|}
+    \hline
+    \textbf{Tên dạng toán} & \textbf{Yêu cầu của đề bài} & \textbf{Phép tính} & \textbf{Ví dụ mẫu} \\ \hline
+    \textbf{Dạng 1} & Tìm tỉ số phần trăm của $a$ và $b$ & $(a : b) \times 100\%$ & Lớp có $12$ nữ và $25$ HS $\rightarrow 12 : 25 = 48\%$ \\ \hline
+    \textbf{Dạng 2} & Tìm $a\%$ của số $B$ & $B : 100 \times a$ & Tìm $15\%$ của $60\text{ kg} \rightarrow 60 : 100 \times 15 = 9\text{ kg}$ \\ \hline
+    \textbf{Dạng 3} & Tìm số đó biết $a\%$ là $k$ & $k : a \times 100$ & Biết $15\%$ của số đó là $9 \rightarrow 9 : 15 \times 100 = 60$ \\ \hline
+  \end{tabular}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: DẠNG BÀI TOÁN LÃI KÉP & GIẢM GIÁ HAI LẦN ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faLineChart\ 2. Bài toán tăng/giảm giá 2 lần liên tiếp},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Một món hàng giá $100\,000$ đ, hạ giá $10\%$, sau đó lại tăng giá $10\%$:\\
+    $\bullet$ Hạ $10\%$: Giá mới $= 100\,000 \times 90\% = 90\,000$ đ.\\
+    $\bullet$ Tăng $10\%$ của giá mới: $90\,000 \times 110\% = \mathbf{99\,000\text{ đ}}$.\\
+    $\Rightarrow$ Giá cuối cùng \textbf{thấp hơn} giá ban đầu! (Không phải bằng giá cũ!).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSliders\ 3. Tỉ số phần trăm theo tiền vốn},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ Bán một sản phẩm lãi $20\%$ theo giá bán:\\
+    $\triangleright$ Giá bán coi là $100\%$.\\
+    $\triangleright$ Tiền lãi là $20\%$.\\
+    $\triangleright$ Tiền vốn là: $100\% - 20\% = 80\%$.\\
+    $\Rightarrow$ So với tiền vốn, tiền lãi chiếm: $20 : 80 = \mathbf{25\%}$ tiền vốn.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy toàn diện: Ba dạng toán tỉ số phần trăm},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    root/.style={rectangle, rounded corners=5pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!12, draw=blue!75!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=purple!12, draw=purple!75!black, text=purple!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!65!black, text=green!80!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[root] (core) at (0, 0.85) {\faPercent\ TỈ SỐ PHẦN TRĂM};
+    \node[b1] (d1) at (-5.0, -0.45) {\textbf{DẠNG 1: TÌM TỈ SỐ \%}\\[2pt]$(a : b) \times 100\%$};
+    \node[b2] (d2) at (0, -0.65) {\textbf{DẠNG 2: TÌM $a\%$ CỦA $B$}\\[2pt]$B \times a : 100$};
+    \node[b3] (d3) at (5.0, -0.45) {\textbf{DẠNG 3: TÌM SỐ KHI BIẾT $a\%$}\\[2pt]$k : a \times 100$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (d1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -- (d2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) -| (d3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: BÍ KÍP PHÂN BIỆT DẠNG & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ Bí kíp phân biệt Dạng 2 và Dạng 3},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Thấy chữ ``\textbf{của một số}'' $\rightarrow$ Dạng 2 (Làm phép nhân).\\
+    $\bullet$ Thấy chữ ``\textbf{biết $a\%$ là $k$}'' $\rightarrow$ Dạng 3 (Làm phép chia).\\
+    Luôn tự hỏi: Kết quả cần tìm lớn hơn hay nhỏ hơn số đã cho?
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Bẫy hạ giá rồi tăng giá: Cùng một tỉ lệ $\%$ nhưng phần tăng tính trên số tiền nhỏ hơn nên kết quả cuối cùng không bằng giá ban đầu!\\
+    $\bullet$ Lãi so với tiền vốn khác với lãi so với tiền bán.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

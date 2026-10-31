@@ -1,0 +1,176 @@
+=== BÀI 39: TÌM HAI SỐ KHI BIẾT HIỆU VÀ TỈ SỐ ===
+
+Câu 1: Hai số có hiệu là 20 và tỉ số là \frac{1}{2}. Tìm số bé.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 2 - 1 = 1 phần. Giá trị một phần là 20 : 1 = 20. Số bé là 20.
+
+----------------------------------------
+
+Câu 2: Hai số có hiệu là 20 và tỉ số là \frac{1}{2}. Tìm số lớn.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 2 - 1 = 1 phần. Giá trị một phần là 20 : 1 = 20. Số lớn là 40.
+
+----------------------------------------
+
+Câu 3: Hai số có hiệu là 30 và tỉ số là \frac{2}{5}. Tìm số bé.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 5 - 2 = 3 phần. Giá trị một phần là 30 : 3 = 10. Số bé là 20.
+
+----------------------------------------
+
+Câu 4: Hai số có hiệu là 30 và tỉ số là \frac{2}{5}. Tìm số lớn.
+Đáp án: [shortans]50[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 5 - 2 = 3 phần. Giá trị một phần là 30 : 3 = 10. Số lớn là 50.
+
+----------------------------------------
+
+Câu 5: Hai số có hiệu là 45 và tỉ số là \frac{1}{4}. Tìm số bé.
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 4 - 1 = 3 phần. Giá trị một phần là 45 : 3 = 15. Số bé là 15.
+
+----------------------------------------
+
+Câu 6: Hai số có hiệu là 45 và tỉ số là \frac{1}{4}. Tìm số lớn.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 4 - 1 = 3 phần. Giá trị một phần là 45 : 3 = 15. Số lớn là 60.
+
+----------------------------------------
+
+Câu 7: Hai số có hiệu là 24 và tỉ số là \frac{3}{5}. Tìm số bé.
+Đáp án: [shortans]36[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 5 - 3 = 2 phần. Giá trị một phần là 24 : 2 = 12. Số bé là 36.
+
+----------------------------------------
+
+Câu 8: Hai số có hiệu là 24 và tỉ số là \frac{3}{5}. Tìm số lớn.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 5 - 3 = 2 phần. Giá trị một phần là 24 : 2 = 12. Số lớn là 60.
+
+----------------------------------------
+
+Câu 9: Hai số có hiệu là 40 và tỉ số là \frac{1}{3}. Tìm số bé.
+Đáp án: [shortans]20[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 3 - 1 = 2 phần. Giá trị một phần là 40 : 2 = 20. Số bé là 20.
+
+----------------------------------------
+
+Câu 10: Hai số có hiệu là 40 và tỉ số là \frac{1}{3}. Tìm số lớn.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 3 - 1 = 2 phần. Giá trị một phần là 40 : 2 = 20. Số lớn là 60.
+
+----------------------------------------
+
+Câu 11: Hai số có hiệu là 18 và tỉ số là \frac{4}{7}. Tìm số bé.
+Đáp án: [shortans]24[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 7 - 4 = 3 phần. Giá trị một phần là 18 : 3 = 6. Số bé là 24.
+
+----------------------------------------
+
+Câu 12: Hai số có hiệu là 18 và tỉ số là \frac{4}{7}. Tìm số lớn.
+Đáp án: [shortans]42[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 7 - 4 = 3 phần. Giá trị một phần là 18 : 3 = 6. Số lớn là 42.
+
+----------------------------------------
+
+Câu 13: Hai số có hiệu là 35 và tỉ số là \frac{2}{7}. Tìm số bé.
+Đáp án: [shortans]14[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 7 - 2 = 5 phần. Giá trị một phần là 35 : 5 = 7. Số bé là 14.
+
+----------------------------------------
+
+Câu 14: Hai số có hiệu là 35 và tỉ số là \frac{2}{7}. Tìm số lớn.
+Đáp án: [shortans]49[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 7 - 2 = 5 phần. Giá trị một phần là 35 : 5 = 7. Số lớn là 49.
+
+----------------------------------------
+
+Câu 15: Hai số có hiệu là 50 và tỉ số là \frac{1}{6}. Tìm số bé.
+Đáp án: [shortans]10[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 6 - 1 = 5 phần. Giá trị một phần là 50 : 5 = 10. Số bé là 10.
+
+----------------------------------------
+
+Câu 16: Hai số có hiệu là 50 và tỉ số là \frac{1}{6}. Tìm số lớn.
+Đáp án: [shortans]60[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 6 - 1 = 5 phần. Giá trị một phần là 50 : 5 = 10. Số lớn là 60.
+
+----------------------------------------
+
+Câu 17: Hai số có hiệu là 28 và tỉ số là \frac{3}{7}. Tìm số bé.
+Đáp án: [shortans]21[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 7 - 3 = 4 phần. Giá trị một phần là 28 : 4 = 7. Số bé là 21.
+
+----------------------------------------
+
+Câu 18: Hai số có hiệu là 28 và tỉ số là \frac{3}{7}. Tìm số lớn.
+Đáp án: [shortans]49[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 7 - 3 = 4 phần. Giá trị một phần là 28 : 4 = 7. Số lớn là 49.
+
+----------------------------------------
+
+Câu 19: Hai số có hiệu là 60 và tỉ số là \frac{2}{5}. Tìm số bé.
+Đáp án: [shortans]40[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 5 - 2 = 3 phần. Giá trị một phần là 60 : 3 = 20. Số bé là 40.
+
+----------------------------------------
+
+Câu 20: Hai số có hiệu là 60 và tỉ số là \frac{2}{5}. Tìm số lớn.
+Đáp án: [shortans]100[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 5 - 2 = 3 phần. Giá trị một phần là 60 : 3 = 20. Số lớn là 100.
+
+----------------------------------------
+
+Câu 21: Hai số có hiệu là 15 và tỉ số là \frac{1}{2}. Tìm số bé.
+Đáp án: [shortans]15[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 2 - 1 = 1 phần. Giá trị một phần là 15 : 1 = 15. Số bé là 15.
+
+----------------------------------------
+
+Câu 22: Hai số có hiệu là 15 và tỉ số là \frac{1}{2}. Tìm số lớn.
+Đáp án: [shortans]30[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 2 - 1 = 1 phần. Giá trị một phần là 15 : 1 = 15. Số lớn là 30.
+
+----------------------------------------
+
+Câu 23: Hai số có hiệu là 36 và tỉ số là \frac{1}{4}. Tìm số bé.
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 4 - 1 = 3 phần. Giá trị một phần là 36 : 3 = 12. Số bé là 12.
+
+----------------------------------------
+
+Câu 24: Hai số có hiệu là 36 và tỉ số là \frac{1}{4}. Tìm số lớn.
+Đáp án: [shortans]48[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 4 - 1 = 3 phần. Giá trị một phần là 36 : 3 = 12. Số lớn là 48.
+
+----------------------------------------
+
+Câu 25: Hai số có hiệu là 42 và tỉ số là \frac{2}{9}. Tìm số bé.
+Đáp án: [shortans]12[/shortans]
+Lời giải chi tiết:
+Hiệu số phần bằng nhau là 9 - 2 = 7 phần. Giá trị một phần là 42 : 7 = 6. Số bé là 12.
+
+----------------------------------------

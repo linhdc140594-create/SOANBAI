@@ -1,0 +1,148 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 11. Hàng và lớp --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 11: HÀNG VÀ LỚP}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Phân biệt Hàng và Lớp: Lớp đơn vị, Lớp nghìn, Lớp triệu và quy tắc đọc viết số lớn}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faColumns\ 1. Khái niệm Hàng \& Lớp},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Lớp:} Cứ \textbf{ba hàng liền nhau} hợp thành một lớp kể từ phải sang trái.\\
+    $\bullet$ \textbf{Lớp đơn vị:} Gồm hàng đơn vị, hàng chục, hàng trăm.\\
+    $\bullet$ \textbf{Lớp nghìn:} Gồm hàng nghìn, hàng chục nghìn, hàng trăm nghìn.\\
+    $\bullet$ \textbf{Lớp triệu:} Gồm hàng triệu, hàng chục triệu, hàng trăm triệu.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBookOpen\ 2. Quy tắc đọc \& Viết số theo lớp},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Tách lớp:} Tách số thành từng nhóm 3 chữ số từ phải sang trái.\\
+    $\bullet$ \textbf{Đọc số:} Đọc lần lượt từ trái sang phải, đọc như đọc số có 3 chữ số ở mỗi lớp rồi \textbf{thêm tên của lớp đó} (trừ lớp đơn vị không cần đọc tên lớp).\\
+    \textit{Ví dụ:} $452\,318$: Bốn trăm năm mươi hai \textbf{nghìn} ba trăm mười tám.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2.5mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Bảng hệ thống Hàng và Lớp chuẩn mực},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.88,
+    every node/.style={transform shape},
+    boxLopN/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!80!black, text=blue!90!black, font=\bfseries\footnotesize, inner sep=4pt, align=center, minimum width=5.6cm},
+    boxLopD/.style={rectangle, rounded corners=4pt, fill=teal!15, draw=teal!80!black, text=teal!90!black, font=\bfseries\footnotesize, inner sep=4pt, align=center, minimum width=5.6cm},
+    boxH/.style={rectangle, rounded corners=3pt, fill=white, draw=gray!70, font=\scriptsize, inner sep=3pt, align=center, minimum width=1.75cm}
+  ]
+    \node[boxLopN] (lopN) at (-3.4, 0.70) {\textbf{LỚP NGHÌN}};
+    \node[boxLopD] (lopD) at (3.4, 0.70) {\textbf{LỚP ĐƠN VỊ}};
+
+    \node[boxH] (h6) at (-5.3, -0.25) {\textbf{Trăm nghìn}\\[1pt]$100\,000$};
+    \node[boxH] (h5) at (-3.4, -0.25) {\textbf{Chục nghìn}\\[1pt]$10\,000$};
+    \node[boxH] (h4) at (-1.5, -0.25) {\textbf{Hàng Nghìn}\\[1pt]$1\,000$};
+
+    \node[boxH] (h3) at (1.5, -0.25) {\textbf{Hàng Trăm}\\[1pt]$100$};
+    \node[boxH] (h2) at (3.4, -0.25) {\textbf{Hàng Chục}\\[1pt]$10$};
+    \node[boxH] (h1) at (5.3, -0.25) {\textbf{Hàng Đơn vị}\\[1pt]$1$};
+
+    \draw[blue!80!black, thick, -{Stealth[length=1.5mm]}] (lopN.south) -| (h6.north);
+    \draw[blue!80!black, thick, -{Stealth[length=1.5mm]}] (lopN.south) -- (h5.north);
+    \draw[blue!80!black, thick, -{Stealth[length=1.5mm]}] (lopN.south) -| (h4.north);
+
+    \draw[teal!80!black, thick, -{Stealth[length=1.5mm]}] (lopD.south) -| (h3.north);
+    \draw[teal!80!black, thick, -{Stealth[length=1.5mm]}] (lopD.south) -- (h2.north);
+    \draw[teal!80!black, thick, -{Stealth[length=1.5mm]}] (lopD.south) -| (h1.north);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2.5mm}
+
+% --- KHỐI 4: MẸO & BẪY ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faKey\ Phân tích số theo từng lớp},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Ví dụ số:} $345\,678$\\
+    - Thuộc \textbf{lớp nghìn} gồm các chữ số: $3, 4, 5$.\\
+    - Thuộc \textbf{lớp đơn vị} gồm các chữ số: $6, 7, 8$.\\
+    $\bullet$ Phân tích: $345\,678 = 345\,000 + 678$.\\
+    $\bullet$ Giá trị của chữ số $3$ là $300\,000$ (hàng trăm nghìn).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy phân biệt Hàng và Lớp:}\\
+    Đề hỏi "Chữ số 5 thuộc \textbf{hàng} nào?" $\rightarrow$ Trả lời: \textit{Hàng nghìn}.\\
+    Đề hỏi "Chữ số 5 thuộc \textbf{lớp} nào?" $\rightarrow$ Trả lời: \textit{Lớp nghìn}.\\
+    $\bullet$ Mỗi lớp bắt buộc gồm đúng \textbf{3 hàng}.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

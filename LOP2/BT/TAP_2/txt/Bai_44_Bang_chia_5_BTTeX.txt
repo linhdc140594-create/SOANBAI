@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $5 : 5$.
+\shortans{1}
+\loigiai{
+Ta có $5 : 5 = 1$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $10 : 5$.
+\shortans{2}
+\loigiai{
+Ta có $10 : 5 = 2$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $15 : 5$.
+\shortans{3}
+\loigiai{
+Ta có $15 : 5 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $20 : 5$.
+\shortans{4}
+\loigiai{
+Ta có $20 : 5 = 4$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $25 : 5$.
+\shortans{5}
+\loigiai{
+Ta có $25 : 5 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $30 : 5$.
+\shortans{6}
+\loigiai{
+Ta có $30 : 5 = 6$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35 : 5$.
+\shortans{7}
+\loigiai{
+Ta có $35 : 5 = 7$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $40 : 5$.
+\shortans{8}
+\loigiai{
+Ta có $40 : 5 = 8$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $45 : 5$.
+\shortans{9}
+\loigiai{
+Ta có $45 : 5 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $50 : 5$.
+\shortans{10}
+\loigiai{
+Ta có $50 : 5 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $35 : 5 + 18$.
+\shortans{25}
+\loigiai{
+Ta có $35 : 5 = 7$, rồi $7 + 18 = 25$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $40 : 5 + 32$.
+\shortans{40}
+\loigiai{
+Ta có $40 : 5 = 8$, rồi $8 + 32 = 40$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $45 : 5 - 4$.
+\shortans{5}
+\loigiai{
+Ta có $45 : 5 = 9$, rồi $9 - 4 = 5$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $50 : 5 - 7$.
+\shortans{3}
+\loigiai{
+Ta có $50 : 5 = 10$, rồi $10 - 7 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $25 : 5 \times 4$.
+\shortans{20}
+\loigiai{
+Ta có $25 : 5 = 5$, rồi $5 \times 4 = 20$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $30 : 5 \times 3$.
+\shortans{18}
+\loigiai{
+Ta có $30 : 5 = 6$, rồi $6 \times 3 = 18$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $20 : 5 = \dots - 6$.
+\shortans{10}
+\loigiai{
+Vế trái: $20 : 5 = 4$. Số cần điền: $4 + 6 = 10$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $40 : 5 = \dots + 5$.
+\shortans{3}
+\loigiai{
+Vế trái: $40 : 5 = 8$. Số cần điền: $8 - 5 = 3$.
+}
+\end{ex}
+
+\begin{ex}
+Có 30 bông hoa cắm đều vào 5 lọ hoa. Mỗi lọ có bao nhiêu bông hoa?
+\shortans{6}
+\loigiai{
+Mỗi lọ có: $30 : 5 = 6$ bông hoa.
+}
+\end{ex}
+
+\begin{ex}
+Có 35 cái bánh chia đều cho 5 bạn. Mỗi bạn được bao nhiêu cái bánh?
+\shortans{7}
+\loigiai{
+Mỗi bạn được: $35 : 5 = 7$ cái bánh.
+}
+\end{ex}
+
+\begin{ex}
+Có 40 kg gạo chia đều vào 5 bao. Mỗi bao nặng bao nhiêu ki-lô-gam?
+\shortans{8}
+\loigiai{
+Mỗi bao nặng: $40 : 5 = 8$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Có 45 lít dầu chia đều vào 5 can. Mỗi can chứa bao nhiêu lít dầu?
+\shortans{9}
+\loigiai{
+Mỗi can chứa: $45 : 5 = 9$ lít dầu.
+}
+\end{ex}
+
+\begin{ex}
+Có 50 bạn học sinh chia đều thành 5 đội kéo co. Mỗi đội có bao nhiêu bạn?
+\shortans{10}
+\loigiai{
+Mỗi đội có: $50 : 5 = 10$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây đồng dài 25 cm cắt thành 5 đoạn bằng nhau. Mỗi đoạn dài bao nhiêu xăng-ti-mét?
+\shortans{5}
+\loigiai{
+Mỗi đoạn dài: $25 : 5 = 5$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5 \times 6 : 5$.
+\shortans{6}
+\loigiai{
+Ta có $5 \times 6 = 30$, rồi $30 : 5 = 6$.
+}
+\end{ex}

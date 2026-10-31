@@ -1,0 +1,199 @@
+\begin{ex}
+1 mét bằng bao nhiêu đề-xi-mét?
+\shortans{10}
+\loigiai{
+$1\text{ m} = 10\text{ dm}$.
+}
+\end{ex}
+
+\begin{ex}
+1 mét bằng bao nhiêu xăng-ti-mét?
+\shortans{100}
+\loigiai{
+$1\text{ m} = 100\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+1 đề-xi-mét bằng bao nhiêu xăng-ti-mét?
+\shortans{10}
+\loigiai{
+$1\text{ dm} = 10\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+1 ki-lô-mét bằng bao nhiêu mét?
+\shortans{1000}
+\loigiai{
+$1\text{ km} = 1000\text{ m}$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $35\text{ m} + 20\text{ m}$. Kết quả là bao nhiêu mét?
+\shortans{55}
+\loigiai{
+Ta có: $35 + 20 = 55$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $80\text{ m} - 35\text{ m}$. Kết quả là bao nhiêu mét?
+\shortans{45}
+\loigiai{
+Ta có: $80 - 35 = 45$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $400\text{ m} + 500\text{ m}$. Kết quả là bao nhiêu mét?
+\shortans{900}
+\loigiai{
+Ta có: $400 + 500 = 900$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $1000\text{ m} - 600\text{ m}$. Kết quả là bao nhiêu mét?
+\shortans{400}
+\loigiai{
+Ta có: $1000 - 600 = 400$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $42\text{ km} + 18\text{ km}$. Kết quả là bao nhiêu ki-lô-mét?
+\shortans{60}
+\loigiai{
+Ta có: $42 + 18 = 60$ km.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $95\text{ km} - 45\text{ km}$. Kết quả là bao nhiêu ki-lô-mét?
+\shortans{50}
+\loigiai{
+Ta có: $95 - 45 = 50$ km.
+}
+\end{ex}
+
+\begin{ex}
+Quãng đường từ nhà An đến trường dài 2 km, quãng đường từ nhà Bình đến trường dài 3 km. Quãng đường từ nhà Bình đến trường dài hơn nhà An bao nhiêu ki-lô-mét?
+\shortans{1}
+\loigiai{
+Dài hơn: $3 - 2 = 1$ km.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây thừng dài 10 m, người ta cắt bớt 4 m. Sợi dây thừng còn lại dài bao nhiêu mét?
+\shortans{6}
+\loigiai{
+Còn lại: $10 - 4 = 6$ m.
+}
+\end{ex}
+
+\begin{ex}
+Cây cột cờ cao 8 m, cái cây bên cạnh cao 5 m. Cột cờ cao hơn cái cây bao nhiêu mét?
+\shortans{3}
+\loigiai{
+Cao hơn: $8 - 5 = 3$ m.
+}
+\end{ex}
+
+\begin{ex}
+Đoạn đường từ tỉnh A đến tỉnh B dài 35 km, từ tỉnh B đến tỉnh C dài 45 km. Quãng đường từ tỉnh A đến tỉnh C đi qua B dài bao nhiêu ki-lô-mét?
+\shortans{80}
+\loigiai{
+Dài: $35 + 45 = 80$ km.
+}
+\end{ex}
+
+\begin{ex}
+Bác thợ may có tấm vải dài 50 m, bác may rèm cửa hết 32 m. Tấm vải còn lại dài bao nhiêu mét?
+\shortans{18}
+\loigiai{
+Còn lại: $50 - 32 = 18$ m.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $1\text{ km} = \dots\text{ m}$.
+\shortans{1000}
+\loigiai{
+Số cần điền là 1000.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $2\text{ m} = \dots\text{ dm}$.
+\shortans{20}
+\loigiai{
+$2\text{ m} = 20\text{ dm}$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $5\text{ dm} = \dots\text{ cm}$.
+\shortans{50}
+\loigiai{
+$5\text{ dm} = 50\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $300\text{ m} + \dots\text{ m} = 1000\text{ m}$.
+\shortans{700}
+\loigiai{
+Số cần điền là: $1000 - 300 = 700$.
+}
+\end{ex}
+
+\begin{ex}
+Một đường chạy dài 100 m. Vận động viên đã chạy được 75 m. Vận động viên còn phải chạy bao nhiêu mét nữa để về đích?
+\shortans{25}
+\loigiai{
+Còn phải chạy: $100 - 75 = 25$ m.
+}
+\end{ex}
+
+\begin{ex}
+Cuộn dây điện dài 48 m, thợ điện đã dùng 23 m. Cuộn dây còn lại dài bao nhiêu mét?
+\shortans{25}
+\loigiai{
+Còn lại: $48 - 23 = 25$ m.
+}
+\end{ex}
+
+\begin{ex}
+Tòa nhà thứ nhất cao 28 m, tòa nhà thứ hai cao hơn tòa nhà thứ nhất 7 m. Tòa nhà thứ hai cao bao nhiêu mét?
+\shortans{35}
+\loigiai{
+Tòa nhà 2 cao: $28 + 7 = 35$ m.
+}
+\end{ex}
+
+\begin{ex}
+Khoảng cách từ Hà Nội đến Phủ Lý là 60 km, từ Phủ Lý đến Nam Định là 30 km. Khoảng cách từ Hà Nội đến Nam Định đi qua Phủ Lý là bao nhiêu ki-lô-mét?
+\shortans{90}
+\loigiai{
+Khoảng cách: $60 + 30 = 90$ km.
+}
+\end{ex}
+
+\begin{ex}
+Một con kênh dài 15 km, người ta đã nạo vét được 8 km. Còn lại bao nhiêu ki-lô-mét kênh chưa nạo vét?
+\shortans{7}
+\loigiai{
+Còn lại: $15 - 8 = 7$ km.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $250\text{ m} + 150\text{ m} + 100\text{ m}$.
+\shortans{500}
+\loigiai{
+Ta có: $250 + 150 + 100 = 500$ m.
+}
+\end{ex}

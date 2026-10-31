@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $3524 + 2143 = \dots$
+\shortans{5667}
+\loigiai{
+$3524 + 2143 = 5667$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4816 + 2153 = \dots$
+\shortans{6969}
+\loigiai{
+$4816 + 2153 = 6969$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5248 + 3619 = \dots$
+\shortans{8867}
+\loigiai{
+$5248 + 3619 = 8867$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2745 + 4538 = \dots$
+\shortans{7283}
+\loigiai{
+$2745 + 4538 = 7283$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6382 + 1849 = \dots$
+\shortans{8231}
+\loigiai{
+$6382 + 1849 = 8231$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4500 + 3500 = \dots$
+\shortans{8000}
+\loigiai{
+$4500 + 3500 = 8000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7200 + 1800 = \dots$
+\shortans{9000}
+\loigiai{
+$7200 + 1800 = 9000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $3860 + 2140 = \dots$
+\shortans{6000}
+\loigiai{
+$3860 + 2140 = 6000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5412 + 735 = \dots$
+\shortans{6147}
+\loigiai{
+$5412 + 735 = 6147$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6084 + 879 = \dots$
+\shortans{6963}
+\loigiai{
+$6084 + 879 = 6963$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $3400 + 1600 + 2500$.
+\shortans{7500}
+\loigiai{
+$5000 + 2500 = 7500$.
+}
+\end{ex}
+
+\begin{ex}
+Tính giá trị biểu thức: $4215 + 1380 + 405$.
+\shortans{6000}
+\loigiai{
+$4215 + 1380 = 5595$; $5595 + 405 = 6000$.
+}
+\end{ex}
+
+\begin{ex}
+Một đội công nhân tuần thứ nhất trải được 2150 m đường, tuần thứ hai trải được 2450 m đường. Cả hai tuần đội đó trải được bao nhiêu mét đường?
+\shortans{4600}
+\loigiai{
+$2150 + 2450 = 4600$ m.
+}
+\end{ex}
+
+\begin{ex}
+Kho thứ nhất có 3650 kg thóc, kho thứ hai có 4280 kg thóc. Cả hai kho có tất cả bao nhiêu ki-lô-gam thóc?
+\shortans{7930}
+\loigiai{
+$3650 + 4280 = 7930$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Trường Tiểu học Kim Đồng có 1240 học sinh nam và 1180 học sinh nữ. Trường có tất cả bao nhiêu học sinh?
+\shortans{2420}
+\loigiai{
+$1240 + 1180 = 2420$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $x - 3400 = 2600$.
+\shortans{6000}
+\loigiai{
+$x = 2600 + 3400 = 6000$.
+}
+\end{ex}
+
+\begin{ex}
+Điền số thích hợp: $x - 1850 = 3150$.
+\shortans{5000}
+\loigiai{
+$x = 3150 + 1850 = 5000$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm tổng của số lớn nhất có bốn chữ số và số bé nhất có bốn chữ số.
+\shortans{10999}
+\loigiai{
+Số lớn nhất có 4 chữ số: 9999; số bé nhất có 4 chữ số: 1000. $9999 + 1000 = 10999$.
+}
+\end{ex}
+
+\begin{ex}
+Một xe buýt chở 38 người, một tàu hỏa chở 1250 người. Cả hai phương tiện chở bao nhiêu người?
+\shortans{1288}
+\loigiai{
+$1250 + 38 = 1288$ người.
+}
+\end{ex}
+
+\begin{ex}
+Tính nhanh: $2500 + 1700 + 3500$.
+\shortans{7700}
+\loigiai{
+$2500 + 3500 + 1700 = 6000 + 1700 = 7700$.
+}
+\end{ex}
+
+\begin{ex}
+Quãng đường từ điểm A đến điểm B dài 3420 m, từ B đến C dài 2580 m. Quãng đường từ A đến C qua B dài bao nhiêu mét?
+\shortans{6000}
+\loigiai{
+$3420 + 2580 = 6000$ m.
+}
+\end{ex}
+
+\begin{ex}
+Một vườn ươm có 3800 cây keo và 4500 cây bạch đàn. Vườn có tất cả bao nhiêu cây?
+\shortans{8300}
+\loigiai{
+$3800 + 4500 = 8300$ cây.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $5000 + 4999 = \dots$
+\shortans{9999}
+\loigiai{
+$5000 + 4999 = 9999$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $7895 + 105 = \dots$
+\shortans{8000}
+\loigiai{
+$7895 + 105 = 8000$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $6240 + 3760 = \dots$
+\shortans{10000}
+\loigiai{
+$6240 + 3760 = 10000$.
+}
+\end{ex}

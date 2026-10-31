@@ -1,0 +1,163 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 11. So sánh các số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 11. SO SÁNH CÁC SỐ THẬP PHÂN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Quy trình so sánh phần nguyên, phần thập phân và xếp thứ tự từ bé đến lớn trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: QUY TẮC SO SÁNH TỪNG BƯỚC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faBalanceScale\ 1. Quy tắc so sánh hai số thập phân},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \textbf{Bước 1: So sánh PHẦN NGUYÊN trước}\\
+  $\bullet$ Số nào có phần nguyên lớn hơn thì số đó \textbf{lớn hơn}.\\
+  \textit{VD:} $2024,1 > 999,99$ (vì $2024 > 999$ dù phần thập phân ít chữ số hơn).\\[2pt]
+  \textbf{Bước 2: Nếu phần nguyên BẰNG NHAU, so sánh PHẦN THẬP PHÂN}\\
+  $\bullet$ So sánh từng hàng tương ứng từ trái sang phải: hàng \textbf{phần mười} $\rightarrow$ hàng \textbf{phần trăm} $\rightarrow$ hàng \textbf{phần nghìn}\dots\\
+  $\bullet$ Ở cùng một hàng, số nào có chữ số lớn hơn thì số đó lớn hơn.\\
+  \textit{VD:} $8,45 < 8,5$ (phần nguyên cùng là $8$; hàng phần mười có $4 < 5$).
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: KỸ THUẬT THÊM SỐ 0 ĐỂ DỄ SO SÁNH ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faBolt\ 2. Mẹo thêm số 0 tránh nhầm lẫn},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Khi so sánh $8,5$ và $8,45$:\\
+    $\triangleright$ Nhiều bạn nhìn $45 > 5$ nên nghĩ $8,45 > 8,5$ (\textbf{SAI})!\\
+    $\triangleright$ \textbf{Cách chuẩn:} Viết thêm $0$ để cả hai có cùng số chữ số thập phân:\\
+    \quad $8,5 = 8,50 \longrightarrow$ So sánh $8,50$ với $8,45$.\\
+    \quad Vì $50 > 45$ nên rõ ràng $8,50 > 8,45$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSortAmountAsc\ 3. Sắp xếp thứ tự},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Từ bé đến lớn} (tăng dần):\\
+    \quad $a < b < c < d\dots$\\
+    $\bullet$ \textbf{Từ lớn đến bé} (giảm dần):\\
+    \quad $d > c > b > a\dots$\\
+    $\bullet$ \textbf{Cách làm}: Tìm số bé nhất (hoặc lớn nhất) trước, gạch bỏ rồi xét các số còn lại.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY QUY TRÌNH SO SÁNH ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Thuật toán so sánh hai số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b0/.style={rectangle, rounded corners=4pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center},
+    b3/.style={rectangle, rounded corners=4pt, fill=green!15, draw=green!70!black, text=green!90!black, font=\bfseries\scriptsize, inner sep=4pt, align=center}
+  ]
+    \node[b0] (start) at (-6.3, 0.3) {So sánh\\2 số};
+    \node[b1] (step1) at (-2.6, 0.65) {1. So phần nguyên};
+    \node[b2] (step2) at (1.6, 0.65) {2. Khác nhau?\\Kết luận ngay!};
+    \node[b3] (step3) at (5.7, -0.2) {3. Bằng nhau?\\So từng hàng thập phân\\$(\frac{1}{10} \rightarrow \frac{1}{100} \rightarrow \dots)$};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (start) -- (step1);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (step1) -- (step2);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (step1) |- (step3);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: TÌM X KẸP GIỮA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ Dạng toán tìm $x$ kẹp giữa hai số thập phân},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Tìm số tự nhiên $x$ thỏa mãn: $3,7 < x < 4,9$:\\
+    $\triangleright$ Phần nguyên của các số là $3$ và $4$.\\
+    $\triangleright$ Số tự nhiên lớn hơn $3,7$ và nhỏ hơn $4,9$ duy nhất là $x = 4$.\\
+    \textit{Lưu ý:} Đọc kĩ đề yêu cầu $x$ là \textbf{số tự nhiên} hay \textbf{số thập phân}!
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ Không được đếm số lượng chữ số của phần thập phân để phán đoán lớn bé như số tự nhiên ($0,199$ vẫn bé hơn $0,2$ vì hàng phần mười $1 < 2$).\\
+    $\bullet$ Đọc kĩ đề yêu cầu sắp xếp theo chiều: \textbf{tăng dần} hay \textbf{giảm dần}.
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

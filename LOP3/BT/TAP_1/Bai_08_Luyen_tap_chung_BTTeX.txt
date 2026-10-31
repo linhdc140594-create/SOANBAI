@@ -1,0 +1,199 @@
+\begin{ex}
+Tính: $354 + 215 = \dots$
+\shortans{569}
+\loigiai{
+$354 + 215 = 569$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $687 - 342 = \dots$
+\shortans{345}
+\loigiai{
+$687 - 342 = 345$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $3 \times 7 + 120 = \dots$
+\shortans{141}
+\loigiai{
+$21 + 120 = 141$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $4 \times 8 - 15 = \dots$
+\shortans{17}
+\loigiai{
+$32 - 15 = 17$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $36 : 4 + 45 = \dots$
+\shortans{54}
+\loigiai{
+$9 + 45 = 54$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $27 : 3 + 128 = \dots$
+\shortans{137}
+\loigiai{
+$9 + 128 = 137$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số lớn nhất trong các số: $879, 897, 789, 798$.
+\shortans{897}
+\loigiai{
+897 là số lớn nhất.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số bé nhất trong các số: $512, 521, 502, 520$.
+\shortans{502}
+\loigiai{
+502 là số bé nhất.
+}
+\end{ex}
+
+\begin{ex}
+Số liền trước của 1000 là số nào?
+\shortans{999}
+\loigiai{
+$1000 - 1 = 999$.
+}
+\end{ex}
+
+\begin{ex}
+Số liền sau của 689 là số nào?
+\shortans{690}
+\loigiai{
+$689 + 1 = 690$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x + 234 = 568$.
+\shortans{334}
+\loigiai{
+$x = 568 - 234 = 334$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x - 145 = 320$.
+\shortans{465}
+\loigiai{
+$x = 320 + 145 = 465$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $4 \times x = 36$.
+\shortans{9}
+\loigiai{
+$x = 36 : 4 = 9$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm $x$, biết: $x : 3 = 8$.
+\shortans{24}
+\loigiai{
+$x = 8 \times 3 = 24$.
+}
+\end{ex}
+
+\begin{ex}
+Một trường tiểu học có 420 học sinh nữ và 390 học sinh nam. Hỏi trường đó có tất cả bao nhiêu học sinh?
+\shortans{810}
+\loigiai{
+$420 + 390 = 810$ học sinh.
+}
+\end{ex}
+
+\begin{ex}
+Một cửa hàng có 500 kg đường, đã bán 235 kg. Hỏi cửa hàng còn lại bao nhiêu ki-lô-gam đường?
+\shortans{265}
+\loigiai{
+$500 - 235 = 265$ kg.
+}
+\end{ex}
+
+\begin{ex}
+Mỗi bàn học có 2 bạn ngồi. Hỏi 8 bàn học như thế có tất cả bao nhiêu bạn?
+\shortans{16}
+\loigiai{
+$2 \times 8 = 16$ bạn.
+}
+\end{ex}
+
+\begin{ex}
+Có 28 quả cam chia đều vào 4 giỏ. Hỏi mỗi giỏ có bao nhiêu quả cam?
+\shortans{7}
+\loigiai{
+$28 : 4 = 7$ quả cam.
+}
+\end{ex}
+
+\begin{ex}
+Một tam giác có độ dài 3 cạnh đều bằng 8 cm. Tính chu vi tam giác đó theo đơn vị xăng-ti-mét.
+\shortans{24}
+\loigiai{
+$8 \times 3 = 24$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Một hình tứ giác có độ dài 4 cạnh đều bằng 5 cm. Tính chu vi tứ giác đó theo đơn vị xăng-ti-mét.
+\shortans{20}
+\loigiai{
+$5 \times 4 = 20$ cm.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $2 \times 9 + 4 \times 5 = \dots$
+\shortans{38}
+\loigiai{
+$18 + 20 = 38$.
+}
+\end{ex}
+
+\begin{ex}
+Tính: $30 : 5 + 24 : 3 = \dots$
+\shortans{14}
+\loigiai{
+$6 + 8 = 14$.
+}
+\end{ex}
+
+\begin{ex}
+Số tròn chục lớn nhất có ba chữ số là số nào?
+\shortans{990}
+\loigiai{
+Số đó là 990.
+}
+\end{ex}
+
+\begin{ex}
+Số gồm 5 trăm và 7 đơn vị viết là số nào?
+\shortans{507}
+\loigiai{
+Số đó là 507.
+}
+\end{ex}
+
+\begin{ex}
+Một sợi dây dài 1 m, người ta cắt bớt đi 30 cm. Đoạn dây còn lại dài bao nhiêu xăng-ti-mét?
+\shortans{70}
+\loigiai{
+$1\text{ m} = 100\text{ cm}$; $100 - 30 = 70$ cm.
+}
+\end{ex}

@@ -1,0 +1,157 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 5}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 22. Phép chia số thập phân --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm,
+  boxrule=1.1pt,
+  width=\linewidth,
+  halign=center,
+  top=2.2mm, bottom=2.2mm,
+  left=3mm, right=3mm,
+  drop fuzzy shadow
+]
+  {\large\bfseries\color{teal!95!black}\faBookmark\ BÀI 22. PHÉP CHIA SỐ THẬP PHÂN}\\[2pt]
+  {\scriptsize\color{black!75}\itshape Chia STP cho số tự nhiên, chia số tự nhiên cho số tự nhiên ra STP, chia hai STP trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{3.2mm}
+% --- KHỐI 1: BA TRƯỜNG HỢP CHIA SỐ THẬP PHÂN ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faKey\ 1. Ba trường hợp của phép chia số thập phân},
+  colback=blue!2!white,
+  colframe=blue!75!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.5mm, right=2.5mm
+]
+  \footnotesize
+  \textbf{TH1: Chia số thập phân cho số tự nhiên ($a,b : c$):}\\
+  $\bullet$ Chia phần nguyên trước $\rightarrow$ Viết dấu \textbf{phẩy} vào bên phải thương $\rightarrow$ Hạ từng chữ số ở phần thập phân xuống để tiếp tục chia.\\
+  \textbf{TH2: Chia số tự nhiên cho số tự nhiên mà còn dư:}\\
+  $\bullet$ Viết dấu \textbf{phẩy} vào bên phải thương và viết thêm chữ số \textbf{0} vào bên phải số dư rồi tiếp tục chia.\\
+  \textbf{TH3: Chia một số cho một số thập phân:}\\
+  $\bullet$ Đếm xem số chia có bao nhiêu chữ số thập phân $\rightarrow$ Chuyển dấu phẩy ở số bị chia sang phải bấy nhiêu chữ số (hoặc thêm số $0$) $\rightarrow$ Bỏ dấu phẩy ở số chia rồi chia như chia số tự nhiên.
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 2: MINH HỌA XỬ LÝ DẤU PHẨY TRONG TH3 ---
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCut\ 2. Kỹ thuật bỏ dấu phẩy ở số chia},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textit{VD 1:} $24 : 1,2 \longrightarrow 240 : 12 = 20$.\\
+    (Số chia có $1$ chữ số TP $\rightarrow$ thêm $1$ số $0$ vào SBC).\\
+    \textit{VD 2:} $7,5 : 0,25 \longrightarrow 750 : 25 = 30$.\\
+    (Số chia có $2$ chữ số TP $\rightarrow$ chuyển phẩy SBC $2$ hàng).\\
+    \textit{VD 3:} $13,65 : 3,9 \longrightarrow 136,5 : 39 = 3,5$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.46\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faSearch\ 3. Xác định số dư chính xác},
+    colback=purple!2!white,
+    colframe=purple!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    Khi chia có dư, để tìm số dư chuẩn:\\
+    $\bullet$ \textbf{Dóng thẳng cột} vị trí số dư với các chữ số của số bị chia \textbf{ban đầu}.\\
+    \textit{VD:} $21,8 : 3,7 = 5$ dư bao nhiêu?\\
+    $21,8 - 3,7 \times 5 = 21,8 - 18,5 = \mathbf{3,3}$ (không phải dư $33$!).
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{3mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ Sơ đồ tư duy: Xử lý phép chia số thập phân},
+  colback=yellow!2!white,
+  colframe=teal!85!black,
+  arc=3mm, boxrule=0.9pt, top=1.8mm, bottom=1.8mm, left=1.5mm, right=1.5mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    every node/.style={transform shape},
+    b0/.style={rectangle, rounded corners=4pt, fill=teal!85!black, text=white, font=\bfseries\footnotesize, inner sep=5pt, align=center},
+    b1/.style={rectangle, rounded corners=4pt, fill=blue!15, draw=blue!70!black, text=blue!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center},
+    b2/.style={rectangle, rounded corners=4pt, fill=orange!15, draw=orange!70!black, text=orange!90!black, font=\bfseries\scriptsize, inner sep=4.5pt, align=center}
+  ]
+    \node[b0] (core) at (-6.2, 0) {Số chia\\là gì?};
+    \node[b1] (stn) at (1.5, 0.75) {\textbf{Số chia là Số tự nhiên:}\\Chia phần nguyên $\rightarrow$ Đặt phẩy ở thương $\rightarrow$ Chia tiếp phần TP};
+    \node[b2] (stp) at (1.5, -0.75) {\textbf{Số chia là Số thập phân:}\\Dịch phẩy ở cả SBC và SC $\rightarrow$ Đưa về chia cho số tự nhiên};
+
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) |- (stn);
+    \draw[teal!85!black, thick, -{Stealth[length=2mm]}] (core) |- (stp);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{3mm}
+
+% --- KHỐI 4: CHIA KHÔNG HẾT & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.54\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faRepeat\ Phép chia không bao giờ hết},
+    colback=green!3!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    Nếu phép chia cứ dư mãi (số thập phân vô hạn):\\
+    $\bullet$ Đề bài thường yêu cầu: ``Lấy thương có $2$ chữ số ở phần thập phân''.\\
+    $\bullet$ Ta chỉ cần chia đến khi thương có đủ $2$ chữ số thập phân thì \textbf{dừng lại} và dóng xuống tìm số dư.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.44\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Cực kì cẩn thận số dư}: Số dư luôn phải bé hơn số chia và phải dóng thẳng cột theo dấu phẩy ban đầu của SBC.\\
+    $\bullet$ Quên đánh dấu phẩy ở thương trước khi hạ chữ số đầu tiên của phần thập phân!
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}

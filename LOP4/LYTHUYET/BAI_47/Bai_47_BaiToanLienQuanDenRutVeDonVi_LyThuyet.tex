@@ -1,0 +1,148 @@
+\documentclass[14pt,a4paper,oneside]{extbook}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb,mathrsfs,fancyhdr,enumerate,multirow,makecell}
+\usepackage{tkz-euclide,tikz-3dplot,tikz,tkz-tab}
+\usetikzlibrary{arrows.meta,calc,intersections,angles,quotes,backgrounds,shapes.geometric,patterns,through,shadows,positioning}
+\usepackage{yhmath}
+\usepackage[top=0.7cm, bottom=0.7cm, left=1.0cm, right=1.0cm, headheight=16pt, headsep=3mm, footskip=5mm]{geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{qrcode}
+\usepackage[many]{tcolorbox}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\footnotesize\bfseries\color{teal!85!black}\faBook~SỔ TAY KIẾN THỨC TOÁN 4}
+\fancyhead[R]{\footnotesize\bfseries\color{blue!85!black}Lớp Toán Thầy Lĩnh -- loptoanthaylinh.vn}
+\fancyfoot[C]{\footnotesize\bfseries\color{gray!80!black}-- Sổ tay kiến thức: Bài 47. Bài toán liên quan đến rút về đơn vị --}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+% --- BANNER TIÊU ĐỀ BÀI HỌC ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  colback=teal!8!white,
+  colframe=teal!80!black,
+  arc=3mm, boxrule=1pt,
+  left=3mm, right=3mm, top=2mm, bottom=2mm,
+  halign=center
+]
+  {\Large\bfseries\color{teal!90!black}\faBookmark\ BÀI 47: BÀI TOÁN LIÊN QUAN ĐẾN RÚT VỀ ĐƠN VỊ}\\[1.5pt]
+  {\footnotesize\itshape\color{black!75} Hai bước giải kinh điển, phân biệt hai dạng toán thuận và nghịch trên 1 trang A4}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 1 & 2: LÝ THUYẾT & KĨ NĂNG ---
+\noindent
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faStepForward\ 1. Bước 1: Rút về đơn vị (Luôn là : )},
+    colback=blue!2!white,
+    colframe=blue!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bản chất}: Tìm giá trị tương ứng với \textbf{1 đơn vị} (1 túi, 1 thùng, 1 mét, 1 vỉ...).\\
+    $\bullet$ \textbf{Quy tắc}: Luôn thực hiện bằng \textbf{phép chia}:
+    \begin{center}
+      $\mathbf{\text{Giá trị 1 đơn vị} = \text{Tổng giá trị} : \text{Số đơn vị}}$
+    \end{center}
+    Ví dụ: $5$ bao nặng $100\text{ kg} \rightarrow 1$ bao nặng: $100 : 5 = 20\text{ kg}$.
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.49\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCodeFork\ 2. Bước 2: Phân biệt 2 dạng toán},
+    colback=teal!2!white,
+    colframe=teal!75!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2mm, right=2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Dạng 1 (Tìm giá trị nhiều đơn vị)}:
+    \begin{center}
+      Phép tính: \textbf{NHÂN} ($\times$)
+    \end{center}
+    $\text{Giá trị mới} = \text{Giá trị 1 đơn vị} \times \text{Số đơn vị mới}$.\\
+    $\bullet$ \textbf{Dạng 2 (Tìm số đơn vị)}:
+    \begin{center}
+      Phép tính: \textbf{CHIA} ($:$)
+    \end{center}
+    $\text{Số đơn vị mới} = \text{Tổng giá trị mới} : \text{Giá trị 1 đơn vị}$.
+  \end{tcolorbox}
+\end{minipage}
+
+\vspace{2mm}
+
+% --- KHỐI 3: SƠ ĐỒ TƯ DUY TIKZ ---
+\noindent
+\begin{tcolorbox}[
+  enhanced,
+  title={\footnotesize\bfseries\color{white}\faSitemap\ SƠ ĐỒ TƯ DUY: CÂY PHÂN NHÁNH 2 BƯỚC GIẢI BÀI TOÁN RÚT VỀ ĐƠN VỊ},
+  colback=yellow!2!white,
+  colframe=orange!85!black,
+  arc=2.5mm, boxrule=0.8pt, top=1.5mm, bottom=1.5mm, left=1mm, right=1mm,
+  halign=center
+]
+  \begin{tikzpicture}[
+    scale=0.92,
+    nodeb/.style={rectangle, rounded corners=2mm, draw=teal!80!black, fill=teal!10, thick, inner sep=2.5pt, font=\scriptsize\bfseries, align=center},
+    arr/.style={-{Stealth[scale=0.85]}, thick, draw=black!70, shorten >= 2.5pt, shorten <= 2.5pt}
+  ]
+    \node[nodeb, draw=purple!80!black, fill=purple!12, text width=3.8cm] (r0) at (-5.6, 0) {\textbf{ĐỀ BÀI}\\Cho giá trị của\\$n$ đơn vị giống nhau};
+    \node[nodeb, draw=blue!75!black, fill=blue!10, text width=4.8cm] (r1) at (-0.3, 0) {\textbf{BƯỚC 1: RÚT VỀ ĐƠN VỊ}\\Thực hiện phép chia ($:$)\\$\text{Giá trị 1 đơn vị} = \text{Tổng} : n$};
+
+    \node[nodeb, draw=orange!85!black, fill=orange!10, text width=5.2cm] (d1) at (5.5, 0.8) {\textbf{DẠNG 1: TÌM GIÁ TRỊ $m$ ĐƠN VỊ}\\Phép tính: \textbf{NHÂN} ($\times m$)};
+    \node[nodeb, draw=teal!80!black, fill=teal!10, text width=5.2cm] (d2) at (5.5, -0.8) {\textbf{DẠNG 2: TÌM SỐ ĐƠN VỊ}\\Phép tính: \textbf{CHIA} ($: \text{giá trị 1}$)};
+
+    \draw[arr] (r0) -- (r1);
+    \draw[arr] (r1.east) |- (d1.west);
+    \draw[arr] (r1.east) |- (d2.west);
+  \end{tikzpicture}
+\end{tcolorbox}
+
+\vspace{2mm}
+
+% --- KHỐI 4: VÍ DỤ MINH HỌA & BẪY TRẮC NGHIỆM ---
+\noindent
+\begin{minipage}[t]{0.53\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faCheckCircle\ Ví dụ thực hành chuẩn mực},
+    colback=green!2!white,
+    colframe=green!60!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    \textbf{Đề bài}: $6$ can chứa $30$ lít nước mắm.\\
+    a) Hỏi $9$ can như thế chứa bao nhiêu lít? (Dạng 1)\\
+    --- $1$ can chứa: $30 : 6 = 5$ (lít).\\
+    --- $9$ can chứa: $5 \times 9 = \mathbf{45}$ (lít).\\[1mm]
+    b) Có $40$ lít thì rót đều vào mấy can? (Dạng 2)\\
+    --- Số can cần dùng: $40 : 5 = \mathbf{8}$ (can).
+  \end{tcolorbox}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{tcolorbox}[
+    enhanced,
+    title={\footnotesize\bfseries\color{white}\faExclamationTriangle\ Mẹo tránh bẫy trắc nghiệm},
+    colback=red!2!white,
+    colframe=red!70!black,
+    arc=2.5mm, boxrule=0.8pt, top=1.8mm, bottom=1.8mm, left=2.2mm, right=2.2mm
+  ]
+    \footnotesize
+    $\bullet$ \textbf{Bẫy nhầm giữa Dạng 1 và Dạng 2}:\\
+    --- Hỏi "bao nhiêu lít/kg/đồng..." $\rightarrow$ Dạng 1 (Nhân).\\
+    --- Hỏi "bao nhiêu can/bao/hộp..." $\rightarrow$ Dạng 2 (Chia).\\
+    $\bullet$ \textbf{Bẫy đơn vị câu trả lời}:\\
+    Chú ý phân biệt đơn vị ở Bước 1 và Bước 2 (ví dụ "lít" khác với "can").
+  \end{tcolorbox}
+\end{minipage}
+
+\end{document}
