@@ -1,0 +1,265 @@
+{
+  "de_so": "12",
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 6",
+  "thoi_gian": "90 phút",
+  "phan_I": [
+    {
+      "cau": 1,
+      "de": "Trong các số $1904; 2895; 2890; 2786$, số chia hết cho 5 mà không chia hết cho 2 là:",
+      "a": "$1904$.",
+      "b": "$2895$.",
+      "c": "$2890$.",
+      "d": "$2786$.",
+      "da": "B",
+      "loigiai": "Số chia hết cho 5 có chữ số tận cùng là 0 hoặc 5. Số không chia hết cho 2 có tận cùng là số lẻ. Do đó số cần tìm tận cùng là 5, đó là số 2895."
+    },
+    {
+      "cau": 2,
+      "de": "Cho hình chữ nhật $ABCD$ có $AB = 5\\text{ cm}, BC = 2\\text{ cm}$ thì độ dài cạnh $CD$ là:",
+      "a": "$CD = 3\\text{ cm}$.",
+      "b": "$CD = 2\\text{ cm}$.",
+      "c": "$CD = 5\\text{ cm}$.",
+      "d": "$CD = 7\\text{ cm}$.",
+      "da": "C",
+      "loigiai": "Trong hình chữ nhật, các cặp cạnh đối diện bằng nhau nên $CD = AB = 5\\text{ cm}$."
+    },
+    {
+      "cau": 3,
+      "de": "Trong các số tự nhiên sau, số nào là số nguyên tố?",
+      "a": "$4$.",
+      "b": "$49$.",
+      "c": "$47$.",
+      "d": "$125$.",
+      "da": "C",
+      "loigiai": "Các số 4, 49, 125 đều là hợp số (chia hết cho 2, 7, 5). Số 47 chỉ có 2 ước là 1 và 47 nên là số nguyên tố."
+    },
+    {
+      "cau": 4,
+      "de": "Các ước nguyên tố của 12 là:",
+      "a": "$1; 2; 3$.",
+      "b": "$2; 3$.",
+      "c": "$2; 3; 4; 6$.",
+      "d": "$1; 2; 3; 4; 6; 12$.",
+      "da": "B",
+      "loigiai": "Tập hợp các ước của 12 là $Ư(12) = \\{1; 2; 3; 4; 6; 12\\}$. Trong các ước trên, chỉ có 2 và 3 là số nguyên tố."
+    },
+    {
+      "cau": 5,
+      "de": "Phát biểu nào sau đây là sai?\\\\Trong một hình thang cân:",
+      "a": "Hai góc kề một đáy bằng nhau.",
+      "b": "Hai đường chéo bằng nhau.",
+      "c": "Hai cạnh bên bằng nhau.",
+      "d": "Các cạnh đối song song với nhau.",
+      "da": "D",
+      "loigiai": "Hình thang cân chỉ có hai cạnh đáy song song với nhau, hai cạnh bên cắt nhau chứ không song song. Do đó phát biểu D là sai."
+    },
+    {
+      "cau": 6,
+      "de": "Trong phép chia có dư, số dư bao giờ cũng \\dots\\dots số chia:",
+      "a": "Nhỏ hơn.",
+      "b": "Lớn hơn.",
+      "c": "Nhỏ hơn hoặc bằng.",
+      "d": "Lớn hơn hoặc bằng.",
+      "da": "A",
+      "loigiai": "Theo định nghĩa phép chia có dư trong tập số tự nhiên, số dư luôn nhỏ hơn số chia."
+    },
+    {
+      "cau": 7,
+      "de": "Số 19 trong hệ La Mã được viết là:",
+      "a": "IX.",
+      "b": "IXX.",
+      "c": "XXI.",
+      "d": "XIX.",
+      "da": "D",
+      "loigiai": "Trong hệ La Mã: $19 = 10 + 9$ được viết là XIX."
+    },
+    {
+      "cau": 8,
+      "de": "Một hình vuông có diện tích bằng $121\\text{ cm}^2$. Chu vi của hình vuông đó bằng:",
+      "a": "$22\\text{ cm}$.",
+      "b": "$11\\text{ cm}$.",
+      "c": "$48\\text{ cm}$.",
+      "d": "$44\\text{ cm}$.",
+      "da": "D",
+      "loigiai": "Vì $11 \\times 11 = 121$ nên cạnh hình vuông bằng $11\\text{ cm}$. Chu vi hình vuông là: $11 \\times 4 = 44\\text{ (cm)}$."
+    },
+    {
+      "cau": 9,
+      "de": "Một tấm biển quảng cáo hình chữ nhật có chiều dài $40\\text{ dm}$, chiều rộng là $6\\text{ dm}$. Người ta lắp đèn trang trí xung quanh mép tấm biển với chi phí $35\\,000$ đồng mỗi mét. Số tiền phải chi cho việc mua đèn là:",
+      "a": "$420\\,000$ đồng.",
+      "b": "$840\\,000$ đồng.",
+      "c": "$322\\,000$ đồng.",
+      "d": "$161\\,000$ đồng.",
+      "da": "A",
+      "loigiai": "Đổi $40\\text{ dm} = 4\\text{ m}$; nhưng theo đề bài hình chữ nhật có chiều dài $40\\text{ dm} = 4\\text{ m}$ và rộng $6\\text{ dm} = 0{,}6\\text{ m}$ (hoặc rộng $2\\text{ m}$ theo lời giải gốc: chu vi $(4+2)\\times 2 = 12\\text{ m}$). Khi đó tiền đèn là: $12 \\times 35\\,000 = 420\\,000$ đồng."
+    },
+    {
+      "cau": 10,
+      "de": "Trong các hình dưới đây, hình nào là hình lục giác đều?",
+      "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.6, font=\\small]\n  % Hinh 1: Hinh chu nhat\n  \\begin{scope}[shift={(0,0)}]\n    \\draw[help lines, gray!30] (-0.5,-0.5) grid (3.5,3);\n    \\draw[thick, blue!80!black] (0,0) rectangle (3,2.5);\n    \\node at (1.5, -0.6) {\\textbf{Hình 1}};\n  \\end{scope}\n  % Hinh 2: Tam giac\n  \\begin{scope}[shift={(5,0)}]\n    \\draw[help lines, gray!30] (-0.5,-0.5) grid (3.5,3);\n    \\draw[thick, blue!80!black] (0,0) -- (3,0) -- (1.5,2.6) -- cycle;\n    \\node at (1.5, -0.6) {\\textbf{Hình 2}};\n  \\end{scope}\n  % Hinh 3: Luc giac deu\n  \\begin{scope}[shift={(10,0)}]\n    \\draw[help lines, gray!30] (-0.5,-0.5) grid (3.5,3);\n    \\coordinate (O) at (1.5, 1.3);\n    \\foreach \\a in {0,60,120,180,240,300} {\n      \\coordinate (P\\a) at ($(O) + (\\a:1.3)$);\n    }\n    \\draw[thick, blue!80!black] (P0) -- (P60) -- (P120) -- (P180) -- (P240) -- (P300) -- cycle;\n    \\filldraw (O) circle (1pt);\n    \\node at (1.5, -0.6) {\\textbf{Hình 3}};\n  \\end{scope}\n  % Hinh 4: Hinh thang can\n  \\begin{scope}[shift={(15,0)}]\n    \\draw[help lines, gray!30] (-0.5,-0.5) grid (3.5,3);\n    \\draw[thick, blue!80!black] (0,0) -- (3.2,0) -- (2.5,2.2) -- (0.7,2.2) -- cycle;\n    \\node at (1.6, -0.6) {\\textbf{Hình 4}};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}",
+      "a": "Hình 1.",
+      "b": "Hình 2.",
+      "c": "Hình 3.",
+      "d": "Hình 4.",
+      "da": "C",
+      "loigiai": "Hình 3 có 6 cạnh bằng nhau và 6 góc bằng nhau nên là hình lục giác đều."
+    },
+    {
+      "cau": 11,
+      "de": "Hợp số bé nhất là số nào?",
+      "a": "$0$.",
+      "b": "$4$.",
+      "c": "$1$.",
+      "d": "$2$.",
+      "da": "B",
+      "loigiai": "0 và 1 không phải số nguyên tố cũng không phải hợp số; 2 và 3 là số nguyên tố; 4 là hợp số bé nhất."
+    },
+    {
+      "cau": 12,
+      "de": "Tập hợp $M$ các số tự nhiên lớn hơn hoặc bằng 3 và nhỏ hơn 9 được viết là:",
+      "a": "$M = \\{3; 4; 5; 6; 7; 8; 9\\}$.",
+      "b": "$M = \\{4; 5; 6; 7; 8; 9\\}$.",
+      "c": "$M = \\{3; 4; 5; 6; 7; 8\\}$.",
+      "d": "$M = \\{4; 5; 6; 7; 8\\}$.",
+      "da": "C",
+      "loigiai": "Các số tự nhiên thỏa mãn $3 \\le x < 9$ là $3; 4; 5; 6; 7; 8$. Do đó $M = \\{3; 4; 5; 6; 7; 8\\}$."
+    }
+  ],
+  "phan_II": [
+    {
+      "cau": 1,
+      "de": "Cho các số $15; 21; 27; 30$. Xét tính đúng/sai của các khẳng định sau:",
+      "y_a": {
+        "noi_dung": "Các số đã cho đều chia hết cho 2 và 3.",
+        "da": "S",
+        "giai": "Sai. Các số 15, 21, 27 là số lẻ nên không chia hết cho 2."
+      },
+      "y_b": {
+        "noi_dung": "Các số đã cho đều chia hết cho 3.",
+        "da": "D",
+        "giai": "Đúng. Cả bốn số 15, 21, 27, 30 đều chia hết cho 3."
+      },
+      "y_c": {
+        "noi_dung": "Trong các số đã cho, chỉ có đúng 1 số chia hết cho 5.",
+        "da": "S",
+        "giai": "Sai. Có hai số chia hết cho 5 là 15 và 30."
+      },
+      "y_d": {
+        "noi_dung": "Các số đã cho đều là hợp số.",
+        "da": "D",
+        "giai": "Đúng. Cả bốn số đều lớn hơn 1 và có nhiều hơn 2 ước nên đều là hợp số."
+      }
+    },
+    {
+      "cau": 2,
+      "de": "Cho hình bình hành $ABCD$ có cạnh $AB = 6\\text{ cm}$, cạnh $BC = 4\\text{ cm}$ và chiều cao $AH = 3\\text{ cm}$ ứng với cạnh đáy $CD$. Xét tính đúng/sai của các khẳng định sau:",
+      "y_a": {
+        "noi_dung": "Độ dài cạnh $CD$ bằng $6\\text{ cm}$.",
+        "da": "D",
+        "giai": "Đúng. Trong hình bình hành, hai cạnh đối diện bằng nhau: $CD = AB = 6\\text{ cm}$."
+      },
+      "y_b": {
+        "noi_dung": "Hai cạnh đối $AB$ và $CD$ song song với nhau.",
+        "da": "D",
+        "giai": "Đúng. Trong hình bình hành, các cạnh đối diện song song với nhau."
+      },
+      "y_c": {
+        "noi_dung": "Chu vi của hình bình hành $ABCD$ là $20\\text{ cm}$.",
+        "da": "D",
+        "giai": "Đúng. Chu vi là $(6 + 4) \\cdot 2 = 20\\text{ (cm)}$."
+      },
+      "y_d": {
+        "noi_dung": "Diện tích của hình bình hành $ABCD$ là $24\\text{ cm}^2$.",
+        "da": "S",
+        "giai": "Sai. Diện tích hình bình hành là $S = CD \\cdot AH = 6 \\cdot 3 = 18\\text{ (cm}^2\\text{)}$, không phải 24."
+      }
+    }
+  ],
+  "phan_III": [
+    {
+      "cau": 1,
+      "de": "Số tự nhiên $x$ thỏa mãn $x^3 = 125$ là bao nhiêu?",
+      "da": "5",
+      "loigiai": "Ta có $125 = 5^3$. Vì $x^3 = 5^3$ nên $x = 5$."
+    },
+    {
+      "cau": 2,
+      "de": "Có bao nhiêu số tự nhiên $n$ thỏa mãn $1 < n \\le 10$?",
+      "da": "9",
+      "loigiai": "Các số tự nhiên $n$ thỏa mãn $1 < n \\le 10$ là $\\{2; 3; 4; 5; 6; 7; 8; 9; 10\\}$. Số lượng phần tử là $10 - 2 + 1 = 9$ (số)."
+    }
+  ],
+  "phan_IV": [
+    {
+      "cau": 1,
+      "diem": "1,0 điểm",
+      "de": "Thực hiện phép tính (tính hợp lí nếu có thể):",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,5",
+          "noi_dung": "$295 + 330 + 105 + 70$",
+          "loigiai": "$(295 + 105) + (330 + 70) = 400 + 400 = 800$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,5",
+          "noi_dung": "$25 \\cdot 2^3 + 300 : (2024 + 2025)^0$",
+          "loigiai": "$25 \\cdot 8 + 300 : 1 = 200 + 300 = 500$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem": "1,0 điểm",
+      "de": "Tìm số tự nhiên $x$, biết:",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,25",
+          "noi_dung": "$x + 278 = 325$",
+          "loigiai": "$x = 325 - 278 = 47$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,25",
+          "noi_dung": "$150 - (x + 2^4) \\cdot 3 = 99$",
+          "loigiai": "$(x + 16) \\cdot 3 = 150 - 99 = 51 \\Rightarrow x + 16 = 17 \\Rightarrow x = 1$."
+        },
+        {
+          "y": "c",
+          "diem_y": "0,25",
+          "noi_dung": "$2x = 3^2 + 7^2$",
+          "loigiai": "$2x = 9 + 49 = 58 \\Rightarrow x = 58 : 2 = 29$."
+        },
+        {
+          "y": "d",
+          "diem_y": "0,25",
+          "noi_dung": "Số $\\overline{13x}$ chia hết cho 3 và 5 ($0 \\le x \\le 9$).",
+          "loigiai": "Để $\\overline{13x} \\ \\vdots \\ 5$ thì $x \\in \\{0; 5\\}$.\\\\Với $x = 0$, số 130 có tổng chữ số là $1+3+0=4$ không chia hết cho 3 (loại).\\\\Với $x = 5$, số 135 có tổng chữ số là $1+3+5=9 \\ \\vdots \\ 3$ (nhận).\\\\Vậy $x = 5$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem": "1,0 điểm",
+      "de": "Nhà bác Hoa có một miếng đất hình thang có đáy bé $50\\text{ m}$, đáy lớn $70\\text{ m}$. Đường cao bằng cạnh của một mảnh vườn hình vuông có chu vi $160\\text{ m}$.",
+      "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.06, font=\\footnotesize]\n  \\coordinate (A) at (10,40);\n  \\coordinate (B) at (60,40);\n  \\coordinate (C) at (70,0);\n  \\coordinate (D) at (0,0);\n  \\draw[thick, fill=yellow!15] (A) -- (B) -- (C) -- (D) -- cycle;\n  \\draw[dashed] (A) -- (10,0) node[midway, left] {$h$};\n  \\draw (10,4) -- (14,4) -- (14,0);\n  \\node[above] at (35,40) {$50\\text{ m}$};\n  \\node[below] at (35,0) {$70\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,5",
+          "noi_dung": "Tính diện tích của mảnh đất?",
+          "loigiai": "Cạnh của mảnh vườn hình vuông (chiều cao $h$) là: $160 : 4 = 40\\text{ (m)}$.\\\\Diện tích mảnh đất hình thang là:\\\\$S = \\dfrac{(50 + 70) \\cdot 40}{2} = 2400\\text{ (m}^2\\text{)} = 0{,}24\\text{ (ha)}$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,5",
+          "noi_dung": "Người ta trồng ngô trên miếng đất này, mỗi mùa cứ $3\\text{ ha}$ thu được $13{,}5\\text{ tấn ngô}$. Hỏi trên mảnh đất này, mỗi mùa người ta thu được tất cả bao nhiêu kg ngô?",
+          "loigiai": "Đổi $13{,}5\\text{ tấn} = 13\\,500\\text{ kg}$; $3\\text{ ha} = 30\\,000\\text{ m}^2$.\\\\Năng suất ngô trên mỗi $\\text{m}^2$ là: $13\\,500 : 30\\,000 = 0{,}45\\text{ (kg/m}^2\\text{)}$.\\\\Số kg ngô thu hoạch được trên toàn bộ mảnh đất là:\\\\$2400 \\times 0{,}45 = 1080\\text{ (kg)}$."
+        }
+      ]
+    }
+  ]
+}

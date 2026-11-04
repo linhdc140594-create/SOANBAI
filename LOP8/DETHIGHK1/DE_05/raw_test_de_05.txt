@@ -1,0 +1,674 @@
+--- TRANG 18 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 5 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các biểu thức sau, biểu thức nào không là đa thức?    
+A. 5
+xy   
+ 
+ 
+  
+ 
+ 
+ 
+B. 
+2
+12x y    
+ 
+ 
+ 
+C. 
+5    
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+3
+1
+x y
+xy
++
++    
+Câu 2. Trong các đơn thức sau, đơn thức nào đồng dạng với đơn thức 
+2
+3
+3
+4 x y
+−
+?   
+ A. 
+3
+2
+3
+4 x y
+−
+     
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+2
+y x    
+ C. 
+2x y    
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+3
+3x y z    
+Câu 3. Đơn thức 
+3
+2
+3
+10x y z chia hết cho đơn thức nào?    
+A. 
+3
+3
+2
+5x y z     
+ 
+ 
+ 
+ 
+ 
+B. 
+4
+2
+2x y z
+−
+    
+C. 
+3
+2
+9x yz
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+3
+3
+2x y z    
+Câu 4. Kết quả phép tính 2 (
+2 )
+x x
+y
+−
+ bằng:   
+ A. 
+2
+2
+2
+2
+x
+y
+−
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2
+2
+4
+x
+y
+−
+    
+C. 
+2
+2
+2
+x
+xy
+−
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+4
+x
+xy
+−
+    
+Câu 5. Kết quả phép tính (
+2 )(
+2 )
+x
+y x
+y
+−
++
+ bằng:    
+A. 
+2
+2
+2
+x
+y
+−
+     
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+(
+2 )
+x
+y
++
+    
+C. 
+2
+(
+2 )
+x
+y
+−
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+4
+x
+y
+−
+    
+
+
+--- TRANG 19 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 6. Đa thức 
+2
+4
+9
+x − được phân tích thành nhân tử là:    
+A. (2
+3)(2
+3)
+x
+x
+−
++
+     
+ 
+ 
+ 
+ 
+B. (4
+9)(4
+9)
+x
+x
++
+−
+    
+C. (4
+3)(4
+3)
+x
+x
+−
++
+     
+ 
+ 
+ 
+ 
+D. (2
+9)(2
+9)
+x
+x
++
+−
+    
+Câu 6. Chọn câu trả lời sai:    
+A. Hình bình hành có hai cạnh kề bằng nhau là hình thoi.    
+B. Hình bình hành có một đường chéo là đường phân giác của một góc là hình thoi.    
+C. Hình bình hành có hai đường chéo bằng nhau là hình thoi.    
+D. Tứ giác có bốn cạnh bằng nhau là hình thoi.    
+Câu 7. Giá trị của biểu thức 
+2
+2
+2
+3
+x
+xy
+y
+−
++
+− tại 
+1,
+2
+x
+y
+= −
+=
+ là:    
+A. 6
+−    
+ 
+ 
+B. 6     
+ 
+ 
+C. 12  
+ 
+       D. 12
+−
+    
+Câu 8. Cặp góc kề nhau của tứ giác EFGH là:    
+A. 
+HEF và 
+EFG    
+ 
+ 
+ 
+ 
+ B. 
+EFG và 
+EHG    
+C. 
+HGF và 
+HEF    
+ 
+ 
+ 
+ 
+ D. 
+GEH và 
+EFH   
+Câu 8. Tổng số đo các góc trong tứ giác bằng:    
+A. 90    
+ 
+ 
+B. 120    
+ 
+ 
+C. 180    
+ 
+        D. 360    
+Câu 9. Tứ giác ABCD là hình bình hành nếu:    
+A. ˆ
+ˆ
+A
+C
+=
+    
+ 
+ 
+ 
+ 
+ 
+ 
+B. ˆ
+ˆ
+B
+D
+=
+    
+ 
+ 
+ 
+C. 
+/ /
+,
+AB
+CD AB
+AD
+=
+    
+ 
+ 
+ 
+ 
+D. ˆ
+ˆ ˆ
+ˆ
+,
+A
+C B
+D
+=
+=
+    
+Câu 10. Độ dài cạnh hình thoi có hai đường chéo có độ dài là 6 và 8 là:    
+A. 21  
+ 
+ 
+B. 5    
+  
+ 
+C. 14  
+ 
+D. 11
+−
+ 
+ 
+
+
+--- TRANG 20 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 11. Cho hình chóp tam giác đều có diện tích đáy bằng 
+2
+12 cm và chiều cao bằng 5 cm
+. Thể tích của hình chóp đó là: 
+A. 
+3
+20 cm 
+ 
+ 
+B. 
+3
+60 cm 
+ 
+ 
+C. 
+3
+15 cm 
+ 
+     D. 
+3
+30 cm 
+Câu 12. Kết quả phân tích đa thức 
+3
+8
+x + thành nhân tử là: 
+A. 
+2
+(
+2)(
+2
+4)
+x
+x
+x
++
+−
++
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+(
+2)(
+2
+4)
+x
+x
+x
++
++
++
+ 
+C. 
+2
+(
+2)(
+2
+4)
+x
+x
+x
+−
++
++
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+(
+2)
+x +
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+2
+1
+1
+4
+2
+2
+4
+x
+P
+x
+x
+−
+
+
+=
+−
+
+
+
+−
++
+
+
+ với 
+2
+x . Xét tính đúng sai của các mệnh 
+đề sau: 
+a) Mẫu thức chung của hai phân thức trong ngoặc là 
+2
+4
+x −. 
+b) Kết quả rút gọn biểu thức trong ngoặc là 
+2
+4
+4
+x −
+. 
+c) Giá trị của biểu thức P sau khi rút gọn bằng 1. 
+d) Tại 
+3
+x = , giá trị của biểu thức P bằng 3 . 
+Câu 2. Cho phương trình (
+3)(
+3)
+(
+2)
+5
+x
+x
+x x
+−
++
+−
+−
+= . Xét tính đúng sai của các mệnh đề sau: 
+a) Khai triển tích (
+3)(
+3)
+x
+x
+−
++
+ ta được 
+2
+9
+x −. 
+b) Biến đổi vế trái của phương trình ta được 2
+9
+x −. 
+c) Phương trình có nghiệm duy nhất 
+7
+x =
+. 
+d) Nghiệm 
+7
+x =
+ không là nghiệm của phương trình 3
+5
+16
+x −
+=
+. 
+ 
+ 
+
+
+--- TRANG 21 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm x , biết: 
+2
+(
+2)
+(
+3)
+14
+x
+x x
++
+−
+−
+=
+. 
+Câu 2. Cho hình thang cân ABCD có ˆ
+105
+A
+
+=
+. Tính số đo góc C ? 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (rút gọn nếu có thể): 
+a) (
+) (
+)
+2
+2
+2
+3
++
++
+−
+x
+xy
+x
+xy ; 
+b) (
+)(
+)
+2
+3
+;
+x
+y
+x
+y
++
+−
+ 
+c) (
+)
+3
+3
+2
+2
+2
+2
+2
+9
+6
+4
+:(3
+)
+−
++
+x y
+x y
+x y
+x y . 
+Câu 2. Cho hai đa thức: A = x7 ‒ 4x3y2 ‒ 5xy + 7; B = x7 + 5x3y2 ‒ 3xy ‒ 3. 
+a) Tìm đa thức C sao cho C = A + B.     
+b) Tìm đa thức D sao cho A + D = B. 
+Câu 3. Cho tam giác ABC vuông cân tại A, đường trung tuyến AM. Gọi N là trung 
+điểm của AC. Vẽ điểm D đối xứng với điểm M qua N.  
+a) Chứng minh AM
+MC
+=
+. 
+b) Chứng minh tứ giác ADCM là hình vuông. 
+Câu 4. Tìm giá trị nhỏ nhất của biểu thức 
+2
+2
+9
+6
+18
+12
+12
+27.
+M
+x
+y
+x
+xy
+y
+=
++
++
+−
+−
+−
+ 
+ 
+ 
+ 
+ 
+ 

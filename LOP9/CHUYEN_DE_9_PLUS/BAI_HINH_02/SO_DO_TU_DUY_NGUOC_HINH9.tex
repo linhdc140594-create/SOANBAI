@@ -1,0 +1,336 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, top=1.2cm, bottom=1.2cm, left=1.4cm, right=1.4cm}
+\usepackage{tikz}
+\usetikzlibrary{calc, intersections, angles, arrows.meta, shapes.geometric, positioning}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+\lhead{\small\textbf{TOÁN 9+ | BẺ KHÓA HÌNH HỌC VÀO LỚP 10}}
+\rhead{\small\textbf{BÀI 02: BỔ ĐỀ TRỰC TÂM \& CỰC TRỊ}}
+\cfoot{\thepage}
+
+% Custom tcolorbox styles
+\tcbset{
+    boxrule=0.8pt,
+    arc=2.5mm,
+    fonttitle=\bfseries\sffamily,
+    coltitle=white
+}
+
+\newtcolorbox{modelbox}[1]{
+    colback=blue!4!white,
+    colframe=blue!75!black,
+    title=#1
+}
+
+\newtcolorbox{formulabox}[1]{
+    colback=orange!3!white,
+    colframe=orange!85!black,
+    title=#1
+}
+
+\newtcolorbox{pedagogybox}[1]{
+    colback=teal!4!white,
+    colframe=teal!80!black,
+    title=#1
+}
+
+\newtcolorbox{solutionbox}[1]{
+    colback=green!4!white,
+    colframe=green!60!black,
+    title=#1
+}
+
+\newtcolorbox{exercisebox}[1]{
+    colback=purple!4!white,
+    colframe=purple!75!black,
+    title=#1
+}
+
+\begin{document}
+
+% ==============================================================
+% TRANG 1: ĐỀ BÀI VÀ HÌNH VẼ TIKZ TRỰC QUAN
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} TUYỆT PHẨM HÌNH HỌC 9+ VÀO LỚP 10 CHUYÊN \& CÔNG LẬP TOP ĐẦU}\\[2mm]
+    {\large\bfseries BÀI HÌNH 02: BỔ ĐỀ TRỰC TÂM KINH ĐIỂN \& PHƯƠNG PHÁP CỰC TRỊ CAUCHY}\\[1mm]
+    \textit{(Trích xuất và phát triển từ Đề 02 - Tuyển tập 55 Đề Thi Tuyển Sinh Vào Lớp 10)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{modelbox}{I. ĐỀ BÀI TOÁN GỐC (TRÍCH ĐỀ 02)}
+Cho đường tròn $(O)$, bán kính $R (R>0)$ và dây cung $BC$ cố định. Một điểm $A$ chuyển động trên cung lớn $BC$ sao cho tam giác $ABC$ có ba góc nhọn. Kẻ các đường cao $AD, BE$ của tam giác $ABC$ cắt nhau tại $H$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh rằng tứ giác $DHEC$ nội tiếp một đường tròn.
+    \item Kẻ đường kính $AM$ của đường tròn $(O)$ và $OI$ vuông góc với $BC$ tại $I$. Chứng minh rằng $I$ là trung điểm của $HM$.
+    \item \textbf{(Phân hóa 9+):} Khi $BC$ cố định, xác định vị trí của $A$ trên đường tròn $(O)$ để tích $DH \cdot DA$ đạt giá trị lớn nhất.
+\end{enumerate}
+\end{modelbox}
+
+\vspace{1mm}
+
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.3]
+    \def\r{3.0}
+    \coordinate (O) at (0,0);
+    \coordinate (A) at (105:\r);
+    \coordinate (B) at (-155:\r);
+    \coordinate (C) at (-25:\r);
+    
+    % Heights
+    \coordinate (D) at ($(B)!(A)!(C)$);
+    \coordinate (E) at ($(A)!(B)!(C)$);
+    
+    \path[name path=lineAD] (A) -- ($(A)!1.8!(D)$);
+    \path[name path=lineBE] (B) -- ($(B)!1.8!(E)$);
+    \path[name intersections={of=lineAD and lineBE, by=H}];
+    
+    % Diameter AM
+    \coordinate (M) at ($(O)!-1!(A)$);
+    
+    % Midpoint I of BC
+    \coordinate (I) at ($(B)!0.5!(C)$);
+    
+    % Intersection K of AD with (O)
+    \coordinate (K) at ($2*(D)-(H)$);
+    
+    % Draw circle and triangle
+    \draw[thick, blue!80!black] (O) circle (\r);
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    
+    % Heights
+    \draw[blue!70!black] (A) -- (D);
+    \draw[blue!70!black] (B) -- (E);
+    \draw[red!80!black, thick] (D) -- (K);
+    \draw[teal!80!black] (B) -- (K);
+    
+    % Diameter AM and parallelogram BHCM
+    \draw[dashed, purple!80!black] (A) -- (M);
+    \draw[teal!80!black, thick] (B) -- (M) -- (C);
+    \draw[purple!80!black] (B) -- (H) -- (C);
+    \draw[dashed, gray] (H) -- (M);
+    \draw[dashed, gray] (O) -- (I);
+    
+    % Points
+    \fill (O) circle (1.5pt) node[above right] {$O$};
+    \fill (A) circle (1.5pt) node[above] {$A$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill (D) circle (1.5pt) node[below right] {$D$};
+    \fill (E) circle (1.5pt) node[above right] {$E$};
+    \fill (H) circle (1.5pt) node[left, red!85!black] {$H$};
+    \fill (M) circle (1.5pt) node[below, purple!85!black] {$M$};
+    \fill (I) circle (1.5pt) node[below, teal!85!black] {$I$};
+    \fill (K) circle (1.5pt) node[below, red!85!black] {$K$};
+    
+    % Right angles
+    \pic[draw, angle radius=2.5mm]{right angle = A--D--B};
+    \pic[draw, angle radius=2.5mm]{right angle = B--E--C};
+    \pic[draw, angle radius=2.5mm]{right angle = O--I--C};
+    \pic[draw, purple!80!black, angle radius=2.5mm]{right angle = A--B--M};
+    \pic[draw, purple!80!black, angle radius=2.5mm]{right angle = A--C--M};
+\end{tikzpicture}
+\end{center}
+
+\newpage
+
+% ==============================================================
+% TRANG 2: SƠ ĐỒ CÔNG THỨC SUY LUẬN NGƯỢC THUẦN TÚY
+% ==============================================================
+\begin{formulabox}{II. SƠ ĐỒ CÔNG THỨC SUY LUẬN NGƯỢC THUẦN TÚY (LOGIC FORMULA TREE)}
+
+\textbf{\color{orange!90!black} 1. CÂY SUY LUẬN CÔNG THỨC CHO CÂU B (HÌNH BÌNH HÀNH $BHCM$):}
+\vspace{1mm}
+
+\noindent
+\begin{tikzpicture}[
+    every node/.style={align=center, font=\footnotesize},
+    box/.style={rectangle, draw=blue!75!black, fill=blue!5, thick, rounded corners=1.5mm, inner sep=4pt, text width=16.4cm},
+    headbox/.style={rectangle, draw=red!80!black, fill=red!8, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.4cm},
+    basebox/.style={rectangle, draw=teal!85!black, fill=teal!10, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.4cm},
+    arr/.style={-{Stealth[length=2.5mm]}, very thick, red!80!black}
+]
+
+\node[headbox] (b1_1) {
+    \textbf{\color{red!80!black} [ĐÍCH ĐẾN CÂU B]:} \quad $\boldsymbol{I \text{ LÀ TRUNG ĐIỂM CỦA } HM}$
+};
+
+\node[box, below=0.22cm of b1_1] (b1_2) {
+    $\boldsymbol{\Uparrow} \quad \boldsymbol{BHCM \text{ là hình bình hành}} \quad \text{và } I \text{ là trung điểm } BC \ (OI \perp BC)$
+};
+
+\node[basebox, below=0.22cm of b1_2] (b1_3) {
+    $\boldsymbol{\Uparrow} \quad \begin{cases} BH \parallel MC \quad (\text{cùng } \perp AC \text{ do } BE \perp AC \text{ và } \widehat{ACM}=90^\circ) \\ CH \parallel MB \quad (\text{cùng } \perp AB \text{ do } CF \perp AB \text{ và } \widehat{ABM}=90^\circ) \end{cases} \quad \boldsymbol{\Longleftarrow} \quad \boldsymbol{AM \text{ là đường kính của } (O)}$
+};
+
+\draw[arr] (b1_3) -- (b1_2);
+\draw[arr] (b1_2) -- (b1_1);
+
+\end{tikzpicture}
+
+\vspace{2.5mm}
+\hrule
+\vspace{2.5mm}
+
+\textbf{\color{orange!90!black} 2. CÂY SUY LUẬN CÔNG THỨC CHO CÂU C PHÂN HÓA 9+ ($\max(DH \cdot DA)$):}
+\vspace{1mm}
+
+\noindent
+\begin{tikzpicture}[
+    every node/.style={align=center, font=\footnotesize},
+    box/.style={rectangle, draw=blue!75!black, fill=blue!5, thick, rounded corners=1.5mm, inner sep=3.5pt, text width=16.4cm},
+    headbox/.style={rectangle, draw=red!80!black, fill=red!10, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.4cm},
+    actionbox/.style={rectangle, draw=orange!85!black, fill=orange!10, thick, rounded corners=1.5mm, inner sep=3.5pt, text width=16.4cm},
+    basebox/.style={rectangle, draw=teal!85!black, fill=teal!12, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.4cm},
+    arr/.style={-{Stealth[length=2.5mm]}, very thick, red!80!black}
+]
+
+\node[headbox] (b2_1) {
+    \textbf{\color{red!80!black} [ĐÍCH ĐẾN CỰC TRỊ]:} \quad $\boldsymbol{\max(DH \cdot DA) = \dfrac{BC^2}{4}}$\\[0.5mm]
+    $\boldsymbol{\iff A \text{ LÀ ĐIỂM CHÍNH GIỮA CỦA CUNG LỚN } BC}$
+};
+
+\node[box, below=0.22cm of b2_1] (b2_2) {
+    $\boldsymbol{\Uparrow} \quad \text{Dấu “=” xảy ra} \iff \boldsymbol{DB = DC} \iff D \equiv I \iff \boldsymbol{\triangle ABC \text{ cân tại } A}$
+};
+
+\node[actionbox, below=0.22cm of b2_2] (b2_3) {
+    $\boldsymbol{\Uparrow} \quad \text{\textbf{BẤT ĐẲNG THỨC CAUCHY:}}\quad \boldsymbol{DB \cdot DC \le \left(\dfrac{DB+DC}{2}\right)^2 = \left(\dfrac{BC}{2}\right)^2 = \dfrac{BC^2}{4}} \quad (BC \text{ cố định})$
+};
+
+\node[box, below=0.22cm of b2_3] (b2_4) {
+    $\boldsymbol{\Uparrow} \quad \text{Quy đổi tích biến thiên về tích cố định:}\quad \boldsymbol{DH \cdot DA = DK \cdot DA = DB \cdot DC}$
+};
+
+\node[box, below=0.22cm of b2_4] (b2_5) {
+    $\boldsymbol{\Uparrow} \quad \begin{cases} \boldsymbol{DK \cdot DA = DB \cdot DC} \quad (\triangle DBK \sim \triangle DAC \text{ g-g theo định lý phương tích}) \\ \boldsymbol{DH = DK} \quad (\triangle HBK \text{ cân tại } B \text{ có đường cao } BD \text{ là trung trực}) \end{cases}$
+};
+
+\node[box, below=0.22cm of b2_5] (b2_6) {
+    $\boldsymbol{\Uparrow} \quad \boldsymbol{\widehat{HBD} = \widehat{KBD} = \widehat{KAC} = 90^\circ - \widehat{C}} \quad \left(\text{cùng chắn cung } \stackrel{\frown}{KC} \text{ của } (O) \text{ và cùng phụ } \widehat{C}\right)$
+};
+
+\node[basebox, below=0.22cm of b2_6] (b2_7) {
+    $\boldsymbol{\Uparrow} \quad \text{\textbf{KÉO DÀI ĐƯỜNG CAO }} \boldsymbol{AD} \text{\textbf{ CẮT }} \boldsymbol{(O)} \text{\textbf{ TẠI ĐIỂM THỨ HAI }} \boldsymbol{K}$\\
+    \vspace{0.5mm}
+    \textbf{\color{teal!90!black} [ĐIỂM KHỞI PHÁT TỰ NHIÊN -- BẮT ĐẦU ĐỂ TRÌNH BÀY LỜI GIẢI XUÔI]}
+};
+
+\draw[arr] (b2_7) -- (b2_6);
+\draw[arr] (b2_6) -- (b2_5);
+\draw[arr] (b2_5) -- (b2_4);
+\draw[arr] (b2_4) -- (b2_3);
+\draw[arr] (b2_3) -- (b2_2);
+\draw[arr] (b2_2) -- (b2_1);
+
+\end{tikzpicture}
+
+\end{formulabox}
+
+\newpage
+
+% ==============================================================
+% TRANG 3: LỜI GIẢI XUÔI CHUẨN MỰC & BAREM ĐIỂM VÀO 10
+% ==============================================================
+\begin{solutionbox}{III. LỜI GIẢI XUÔI CHUẨN MỰC \& BAREM ĐIỂM VÀO 10}
+
+\textbf{1. Câu a) Chứng minh tứ giác $DHEC$ nội tiếp (0,75 điểm)}
+\begin{itemize}[leftmargin=5mm]
+    \item Vì $AD, BE$ là các đường cao của $\triangle ABC \Rightarrow \widehat{HDC} = 90^\circ$ và $\widehat{HEC} = 90^\circ$.
+    \item Tứ giác $DHEC$ có $\widehat{HDC} + \widehat{HEC} = 90^\circ + 90^\circ = 180^\circ$.
+    \item Mà hai góc này ở vị trí đối nhau, nên tứ giác $DHEC$ nội tiếp đường tròn đường kính $HC$. \hfill \textit{(0,75đ)}
+\end{itemize}
+
+\vspace{0.8mm}
+\textbf{2. Câu b) Chứng minh $I$ là trung điểm của $HM$ (0,75 điểm)}
+\begin{itemize}[leftmargin=5mm]
+    \item Vì $AM$ là đường kính của $(O)$ nên $\widehat{ABM} = 90^\circ$ và $\widehat{ACM} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn).
+    \item $\Rightarrow MB \perp AB$ và $MC \perp AC$.
+    \item Mặt khác, $H$ là trực tâm của $\triangle ABC \Rightarrow CH \perp AB$ và $BH \perp AC$.
+    \item Từ đó suy ra $BH \parallel MC$ (cùng $\perp AC$) và $CH \parallel MB$ (cùng $\perp AB$).
+    \item Do đó tứ giác $BHCM$ là hình bình hành.
+    \item Vì $OI \perp BC$ tại $I$ nên $I$ là trung điểm của dây cung $BC$.
+    \item Trong hình bình hành $BHCM$, hai đường chéo $BC$ và $HM$ cắt nhau tại trung điểm của mỗi đường.
+    \item Mà $I$ là trung điểm của $BC$ nên $I$ cũng là trung điểm của $HM$ (đpcm). \hfill \textit{(0,75đ)}
+\end{itemize}
+
+\vspace{0.8mm}
+\textbf{3. Câu c) Xác định vị trí điểm $A$ để tích $DH \cdot DA$ lớn nhất (1,00 điểm)}
+\begin{itemize}[leftmargin=5mm]
+    \item \textbf{Bước 1: Chứng minh $DH = DK$ (0,25đ)}
+    \begin{itemize}
+        \item Kéo dài $AD$ cắt đường tròn $(O)$ tại điểm thứ hai $K$ ($K \neq A$).
+        \item Ta có $\widehat{KBC} = \widehat{KAC}$ (hai góc nội tiếp cùng chắn $\stackrel{\frown}{KC}$).
+        \item Mặt khác $\widehat{HBD} = \widehat{CAD}$ (cùng phụ với $\widehat{ACB}$).
+        \item Suy ra $\widehat{KBD} = \widehat{HBD}$, do đó $BD$ vừa là đường cao vừa là phân giác trong $\triangle HBK \Rightarrow \triangle HBK$ cân tại $B$.
+        \item Suy ra $BD$ là đường trung trực của $HK \Rightarrow DH = DK$.
+    \end{itemize}
+    \item \textbf{Bước 2: Sử dụng tam giác đồng dạng suy ra phương tích (0,25đ)}
+    \begin{itemize}
+        \item Khi đó: $DH \cdot DA = DK \cdot DA$.
+        \item Xét $\triangle DBK$ và $\triangle DAC$ có: $\widehat{BDK} = \widehat{ADC} = 90^\circ$; $\widehat{BKD} = \widehat{ACD}$ (cùng chắn $\stackrel{\frown}{AB}$).
+        \item $\Rightarrow \triangle DBK \sim \triangle DAC$ (g-g) $\Rightarrow \dfrac{DK}{DC} = \dfrac{DB}{DA} \Rightarrow DK \cdot DA = DB \cdot DC \Rightarrow DH \cdot DA = DB \cdot DC$.
+    \end{itemize}
+    \item \textbf{Bước 3: Áp dụng BĐT Cauchy (0,25đ)}
+    \begin{itemize}
+        \item Áp dụng bất đẳng thức Cauchy cho hai đoạn thẳng dương $DB$ và $DC$:
+        $$DB \cdot DC \le \left(\dfrac{DB + DC}{2}\right)^2 = \left(\dfrac{BC}{2}\right)^2 = \dfrac{BC^2}{4}$$
+        \item Vì dây cung $BC$ cố định nên $\dfrac{BC^2}{4}$ không đổi, do đó giá trị lớn nhất của $DH \cdot DA$ là $\dfrac{BC^2}{4}$.
+    \end{itemize}
+    \item \textbf{Bước 4: Xác định vị trí dấu bằng (0,25đ)}
+    \begin{itemize}
+        \item Dấu “=” xảy ra $\iff DB = DC \iff D \equiv I \iff \triangle ABC$ cân tại $A \iff A$ là điểm chính giữa của cung lớn $BC$. \hfill \textit{(1,00đ)}
+    \end{itemize}
+\end{itemize}
+
+\end{solutionbox}
+
+\newpage
+
+% ==============================================================
+% TRANG 4: BÌNH LUẬN SƯ PHẠM & BÀI TẬP PHÁT TRIỂN TƯƠNG ĐƯƠNG
+% ==============================================================
+\begin{pedagogybox}{IV. BÌNH LUẬN SƯ PHẠM: TƯ DUY KẺ ĐƯỜNG PHỤ KÉO DÀI ĐƯỜNG CAO}
+\textbf{Làm thế nào để học sinh tự nghĩ ra kéo dài $AD$ cắt $(O)$ tại $K$?}
+\begin{enumerate}[leftmargin=5mm]
+    \item \textbf{Thầy hỏi 1:} \textit{"Đoạn thẳng $DH$ và $DA$ có đặc điểm gì về vị trí trên hình?"}\\
+    $\to$ \textbf{Trò trả lời:} $A$ nằm trên $(O)$, nhưng $H$ và $D$ lại nằm lơ lửng bên trong tam giác, không thuộc đường tròn nào.
+    \item \textbf{Thầy hỏi 2:} \textit{"Muốn gắn đoạn thẳng $DA$ và $DH$ vào đường tròn $(O)$ để dùng phương tích cát tuyến, ta nên làm gì?"}\\
+    $\to$ \textbf{Trò trả lời:} Kéo dài $AD$ cắt $(O)$ tại $K$. Khi đó ta có ngay cát tuyến $AK$ cắt dây cung $BC$ tại $D$, lập tức cho ra $DK \cdot DA = DB \cdot DC$!
+    \item \textbf{Thầy hỏi 3:} \textit{"Điểm $K$ mới sinh ra có mối quan hệ gì với trực tâm $H$?"}\\
+    $\to$ \textbf{Trò trả lời:} $K$ và $H$ đối xứng nhau qua cạnh $BC$ vì $BC$ là trung trực của $HK \implies DH = DK$.
+    \item \textbf{Thầy hỏi 4:} \textit{"Tích $DB \cdot DC$ có đặc điểm gì đặc biệt khi $A$ di động?"}\\
+    $\to$ \textbf{Trò trả lời:} Hai đoạn $DB$ và $DC$ có tổng $DB + DC = BC$ cố định! Dùng BĐT Cauchy: Tích của hai số có tổng không đổi sẽ lớn nhất khi hai số đó bằng nhau ($DB = DC$).
+\end{enumerate}
+\end{pedagogybox}
+
+\vspace{1.5mm}
+
+\begin{exercisebox}{V. BÀI TẬP PHÁT TRIỂN TƯƠNG ĐƯƠNG (LUYỆN TẬP TẠI LỚP / VỀ NHÀ)}
+\textbf{Bài 1 (Trích Đề 27 - Tuyển tập 55 Đề):} Cho đường tròn $(O)$, bán kính $R$ ($R>0$) và dây cung $BC$ cố định. Một điểm $A$ chuyển động trên cung lớn $BC$. Kẻ các đường cao $AD, BE, CF$ cắt nhau tại trực tâm $H$.
+\begin{enumerate}[label=\alph*)]
+    \item Chứng minh $H$ là tâm đường tròn nội tiếp của tam giác $DEF$ (tam giác Orthic).
+    \item Tìm vị trí của $A$ trên $(O)$ để diện tích tam giác $HBC$ đạt giá trị lớn nhất.
+\end{enumerate}
+
+\vspace{1mm}
+\textbf{Bài 2 (Trích Đề 10 - Tuyển tập 55 Đề):} Cho đường tròn $(O; R)$ và đường thẳng $d$ không cắt $(O)$. Từ điểm $M$ trên $d$ kẻ hai tiếp tuyến $MC, MD$ với $(O)$. Đường thẳng qua $O$ vuông góc với $OM$ cắt tia $MC, MD$ tại $P$ và $Q$.
+\begin{enumerate}[label=\alph*)]
+    \item Chứng minh $OK \cdot OM = R^2$ (với $K = OM \cap CD$).
+    \item Tìm vị trí điểm $M$ trên $d$ để diện tích tam giác $MPQ$ đạt giá trị nhỏ nhất.
+\end{enumerate}
+\end{exercisebox}
+
+\end{document}

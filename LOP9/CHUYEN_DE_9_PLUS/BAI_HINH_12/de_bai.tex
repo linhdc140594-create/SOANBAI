@@ -1,0 +1,148 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_12 (TRÍCH ĐỀ 12)
+\begin{ex}
+Cho $\triangle ABC$ có ba góc nhọn nội tiếp đường tròn $(O;R)$. Các đường cao $AD, BF, CE$ của $\triangle ABC$ cắt nhau tại $H$.
+	\begin{enumerate}
+		\item[a.] Chứng minh tứ giác $BEHD$ nội tiếp một đường tròn.
+		\item[b.] Kéo dài $AD$ cắt đường tròn $(O)$ tại điểm thứ hai $K$. Kéo dài $KE$ cắt đường tròn $(O)$ tại điểm thứ hai $I$. Kẻ $OM$ vuông góc với $BC$ tại $M$. Gọi $P$ là tâm đường tròn ngoại tiếp $\triangle AEF$. Gọi $N$ là giao điểm của $CI$ và $EF$. Chứng minh $CE^2 = CN \cdot CI$ và ba điểm $M, N, P$ thẳng hàng.
+	\end{enumerate}
+\loigiai{
+{
+		\begin{center}
+			\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1.5]
+				\usetikzlibrary{calc,intersections,angles}
+				
+				\def\r{3}
+				
+				\coordinate (O) at (0,0);
+				\coordinate (A) at (110:\r);
+				\coordinate (B) at (-160:\r);
+				\coordinate (C) at (-20:\r);
+				
+				\coordinate (E) at ($(A)!(C)!(B)$);
+				\coordinate (F) at ($(A)!(B)!(C)$);
+				\coordinate (D) at ($(B)!(A)!(C)$);
+				\coordinate (G) at ($(A)!(E)!(C)$);
+				
+				\path[name path=lineCE_H] (C) -- ($(C)!1.5!(E)$);
+				\path[name path=lineBF_H] (B) -- ($(B)!1.5!(F)$);
+				\path[name intersections={of=lineCE_H and lineBF_H, by=H}];
+				
+				\coordinate (K) at ($2*(D)-(H)$);
+				
+				\coordinate (P) at ($(A)!0.5!(H)$);
+				\coordinate (M) at ($(B)!0.5!(C)$);
+				\coordinate (N) at ($(E)!0.5!(F)$);
+				
+				\path[name path=lineCN_I] (C) -- ($(C)!2.5!(N)$);
+				\path[name path=lineKE_I] (K) -- ($(K)!2.5!(E)$);
+				\path[name intersections={of=lineCN_I and lineKE_I, by=I}];
+				
+				\draw (O) circle (\r);
+				\draw (A) -- (B) -- (C) -- cycle;
+				\draw (B) -- (F);
+				\draw (C) -- (E)--(G);
+				\draw (A) -- (K) -- (I)--(C);
+				\draw (O) -- (M);
+				\draw (E) -- (F);
+				\draw (P) -- (M);
+				\draw (A) -- (D);
+				
+				\fill (O) circle (1pt);
+				\fill (A) circle (1pt);
+				\fill (B) circle (1pt);
+				\fill (C) circle (1pt);
+				\fill (E) circle (1pt);
+				\fill (F) circle (1pt);
+				\fill (D) circle (1pt);
+				\fill (G) circle (1pt);
+				\fill (H) circle (1pt);
+				\fill (K) circle (1pt);
+				\fill (P) circle (1pt);
+				\fill (M) circle (1pt);
+				\fill (N) circle (1pt);
+				\fill (I) circle (1pt);
+				
+				\node[below left] at (O) {$O$};
+				\node[above] at (A) {$A$};
+				\node[below left] at (B) {$B$};
+				\node[below right] at (C) {$C$};
+				\node[above left] at (E) {$E$};
+				\node[above right] at (F) {$F$};
+				\node[below right] at (D) {$D$};
+				\node[right] at (G) {$G$};
+				\node[left] at (H) {$H$};
+				\node[below] at (K) {$K$};
+				\node[right] at (P) {$P$};
+				\node[below] at (M) {$M$};
+				\node[below] at (N) {$N$};
+				\node[left] at (I) {$I$};
+				
+				\pic[draw, angle radius=3mm]{right angle = A--D--B};
+				\pic[draw, angle radius=3mm]{right angle = O--M--C};
+				\pic[draw, angle radius=3mm]{right angle = A--E--C};
+				\pic[draw, angle radius=3mm]{right angle = B--F--C};
+				\pic[draw, angle radius=3mm]{right angle = A--G--E};
+				
+			\end{tikzpicture}
+			
+			
+		\end{center}
+		Chứng minh được tứ giác $AEHF$ nội tiếp
+		
+		Xét đường tròn ngoại tiếp tứ giác $AEHF$ có
+		
+		$\widehat{FEH} = \widehat{FAH}$ (hai góc nội tiếp cùng chắn cung $FH$) hay
+		
+		$\widehat{CEN} = \widehat{KAC}$ (1)
+		
+		Xét $(O)$ có $\widehat{KAC} = \widehat{KIC}$ (hai góc nội tiếp cùng chắn cung $KC$) hay $\widehat{KAC} = \widehat{EIC}$ (2)
+		
+		Từ (1) và (2) suy ra $\widehat{CEN} = \widehat{EIC}$
+		
+		Xét $\triangle CEN$ và $\triangle CIE$ có: $\widehat{ECI}$ : chung; $\widehat{CEN} = \widehat{EIC}$ (cmt)
+		
+		Nên $\triangle CEN \sim \triangle CIE$ (g-g) Suy ra $\frac{CE}{CI} = \frac{CN}{CE} \Rightarrow CE^2 = CN \cdot CI$ (đpcm)
+		
+		+ Xét tam giác $OBC$ cân tại $O$
+		
+		Vì $OM \perp BC$ tại $M$ nên $OM$ là đường cao của tam giác cân nên $OM$ cũng là đường trung tuyến, do đó $M$ là trung điểm $BC$.
+		
+		Xét $\triangle EBC$ vuông tại $E$ có $M$ là trung điểm $BC$ nên $ME = \frac{1}{2}BC$.
+		
+		Tương tự ta có $MF = \frac{1}{2}BC$. Do đó $ME = MF (= \frac{1}{2}BC)$ suy ra $M$ thuộc trung trực của $EF$.
+		
+		Vì $P$ là tâm đường tròn ngoại tiếp $\triangle AEF$ nên $PE = PF$.
+		
+		Suy ra $P$ thuộc trung trực của $EF$. Vì vậy $PM$ là trung trực của $EF$ (3).
+		
+		Để chứng minh $M, N, P$ thẳng hàng ta đi chứng minh $N \in PM$.
+		
+		Kẻ $EG \perp AC, G \in AC$.
+		
+		Áp dụng hệ thức lượng vào $\triangle AEC$ vuông tại $E$, đường cao $EG$, ta có $CE^2 = CG \cdot CA$.
+		
+		Theo phần b có $CE^2 = CN \cdot CI$ nên $CG \cdot CA = CN \cdot CI \Rightarrow \frac{CG}{CN} = \frac{CI}{CA}$.
+		Xét $\triangle CNG$ và $\triangle CAI$ có \\
+		$\frac{CG}{CN} = \frac{CI}{CA}$ (cmt) và $\widehat{ICA}$ : chung
+		
+		Nên $\triangle CNG \sim \triangle CAI$ (c.g.c) $\Rightarrow \widehat{NGC} = \widehat{CIA}$ (hai góc tương ứng) hay $\widehat{NGF} = \widehat{CIA}$ (*)
+		
+		Xét $(O)$ có $\widehat{CIA} = \widehat{CBA}$ (hai góc nội tiếp cùng chắn $\stackrel{\frown}{CA}$) (**)
+		
+		Chứng minh được tứ giác $BEFC$ nội tiếp một đường tròn $\Rightarrow \widehat{EBC} + \widehat{EFC} = 180^\circ$ (hai góc đối nhau)
+		
+		Mà $\widehat{AFE} + \widehat{EFC} = 180^\circ$ (hai góc kề bù) $\Rightarrow \widehat{EBC} = \widehat{AFE}$ hay $\widehat{ABC} = \widehat{NFG}$ (***)
+		
+		Từ (*), (**), (***) ta suy ra $\widehat{NGF} = \widehat{NFG}$
+		
+		Do đó $\triangle NGF$ cân tại $N$ suy ra $NG = NF$
+		
+		Xét $\triangle EGF$ vuông tại $G$ có $\widehat{NGF} = \widehat{NFG}$ nên $\widehat{NGE} = \widehat{NEG}$.
+		
+		Do đó $\triangle NGE$ cân tại $N$ suy ra $NG = NE$
+		
+		Khi đó $NE = NF$ hay $N$ là trung điểm $EF$ (4)
+		
+		Từ (3) và (4) suy ra $N \in PM$ hay ba điểm $M,N,P$ thẳng hàng.
+}
+\end{ex}

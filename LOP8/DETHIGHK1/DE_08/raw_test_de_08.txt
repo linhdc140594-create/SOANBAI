@@ -1,0 +1,532 @@
+--- TRANG 30 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 8 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Giá trị của biểu thức 
+2
+2
+1
+A
+x
+y
+=
++
+− tại 
+1
+x = và 
+1
+y = −.    
+A. 1
+−    
+ 
+ 
+B. 2
+−   
+ 
+ 
+ C. 1    
+ 
+D. 2    
+Câu 2. Trong các đơn thức sau, đơn thức nào đồng dạng với đơn thức 
+2
+5x y ?    
+A. 5xy  
+ 
+ 
+B. 
+2
+4xy    
+ 
+ 
+C. 
+2
+7a b   
+ 
+       D. 
+2
+3x y
+−
+    
+Câu 3. Kết quả của phép nhân (
+2)(
+2)
+a
+a
++
+−
+ bằng    
+A. 
+2
+4
+a +
+    
+ 
+ 
+B. 
+2
+4
+a −
+    
+ 
+ 
+C. 
+2
+2
+a −
+    
+ 
+        D. 
+2
+1
+a −    
+Câu 4. Giá trị của đa thức 
+3
+2
+2
+x y
+x
+−
++
+ tại 
+1;
+0
+x
+y
+= −
+=
+ là:    
+A. 2    
+ 
+ 
+B. 2
+−    
+ 
+ 
+C. 1
+−    
+ 
+ 
+D. 1    
+Câu 5. Biểu thức 
+2
+(2
+)
+x
+y
+−
+ có biểu thức khai triển là:    
+A. 
+2
+2
+2
+2
+x
+xy
+y
++
++
+     
+ 
+ 
+ 
+ 
+B. 
+2
+2
+2
+2
+x
+xy
+y
+−
++
+    
+C. 
+2
+2
+4
+4
+x
+xy
+y
++
++
+     
+ 
+ 
+ 
+ 
+D. 
+2
+2
+4
+4
+x
+xy
+y
+−
++
+    
+Câu 6. Đơn thức nào sau đây đồng dạng với đơn thức 
+2
+3x y
+−
+?    
+A. 1
+2 xy    
+ 
+ 
+B. 
+2
+3x yz    
+ 
+ 
+C. 
+2x y
+−
+    
+ 
+       D. 
+2
+3x z
+−
+    
+Câu 7. Tích (2
+3)(2
+3)
+x
+x
+−
++
+ có kết quả bằng    
+A. 
+2
+4
+12
+9
+x
+x
++
++    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+4
+9
+x −    
+C. 2
+3
+x −    
+ 
+ 
+ 
+ 
+ 
+ 
+D. 4
+9
+x −    
+
+
+--- TRANG 31 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 8. Các góc của một tứ giác có thể là    
+A. Bốn góc nhọn.     
+ 
+ 
+ 
+ 
+B. Bốn góc tù.    
+C. Bốn góc vuông.    
+ 
+ 
+ 
+ 
+D. Một góc vuông, ba góc nhọn.    
+Câu 9. Hình chữ nhật có hai đường chéo như thế nào? 
+A. Bằng nhau và cắt nhau tại trung điểm mỗi đường    
+B. Bằng nhau    
+C. Cắt nhau tại trung điểm mỗi đường    
+D. Vuông góc với nhau    
+Câu 10. Cho hình vẽ. Tính x  
+ 
+A. 
+13 cm
+x =
+    
+ 
+ 
+ 
+ 
+B. 
+10 cm
+x =
+    
+C. 
+20 cm
+x =
+    
+ 
+ 
+ 
+ 
+D. 
+2 cm
+x =
+    
+Câu 11. Tam giác nào là tam giác vuông trong các tam giác có độ dài ba cạnh sau?    
+A. 10 m;13 m;15 m    
+ 
+ 
+ 
+B. 7 mm;8 mm;10 mm    
+C. 6 dm;7 dm;9 dm   
+ 
+ 
+ 
+D. 9 cm;12 cm;15 cm    
+Câu 12. Cho hình chóp tứ giác đều có cạnh đáy bằng 10 cm , chiều cao bằng 9 cm . Thể 
+tích của hình chóp tứ giác đều là:    
+A. 
+3
+30 cm     
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+45 cm     
+ 
+ 
+C. 
+3
+300 cm     
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+450 cm    
+ 
+
+
+--- TRANG 32 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai biểu thức 
+2
+(
+2)
+(
+1)(
+3)
+A
+x
+x
+x
+=
+−
+−
+−
++
+ và 
+3
+2
+2
+3
+6
+12
+8
+B
+x
+x y
+xy
+y
+=
+−
++
+−
+. Xét tính 
+đúng sai của các mệnh đề sau: 
+a) Khai triển hằng đẳng thức 
+2
+(
+2)
+x −
+ ta được 
+2
+4
+4
+x
+x
+−
++ . 
+b) Kết quả rút gọn của biểu thức A là 6
+7
+x
+−
++ . 
+c) Viết đa thức B dưới dạng lập phương của một hiệu ta được 
+3
+(
+2 )
+x
+y
+−
+. 
+d) Tại 
+1
+x = , giá trị của biểu thức A bằng 1
+−. 
+Câu 2. Cho hình chữ nhật ABCD có 
+2
+AB
+AD
+=
+. Gọi M là trung điểm của cạnh AB. Xét 
+tính đúng sai của các mệnh đề sau: 
+a) Hai đường chéo AC và BD có độ dài bằng nhau. 
+b) Tam giác ADM là tam giác vuông cân tại A . 
+c) Số đo góc 
+AMD bằng 60. 
+d) Hai đường thẳng DM và MC vuông góc với nhau. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm x , biết: 
+2
+16
+2(
+4)
+0
+x
+x
+−
+−
++
+= . 
+Câu 2.  Cho hình thoi ABCD có ˆ
+60
+A
+
+=
+ và độ dài cạnh 
+5 cm
+AB =
+. Tính độ dài đường 
+chéo BD . 
+Phần IV. Tự luận 
+Câu 1. Rút gọn biểu thức: 
+a) 2x(x2 + y) ‒ x(2y + 1) ‒ x(2x2 ‒ 21y)    
+b) 5x(6y ‒ x2) + 3y(y ‒ 10x) ‒ 3y(y ‒ 1) + 15x3 
+
+
+--- TRANG 33 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Tìm x , biết: a) 
+2
+(
+2)
+6
+0
+x x
+x
+−
+−
++
+=
+; 
+ 
+  b) 
+2
+(
+3)
+(
+1)(
+1)
+16
+x
+x
+x
++
+−
+−
++
+=
+ 
+Câu 3. Cho tam giác ABC, trung tuyến AM. Qua M kẻ đường thẳng song song với AC cắt 
+AB ở E, qua M kẻ đường thẳng song song với AB cắt AC ở F. 
+ a) Chứng minh tứ giác AEMF là hình bình hành. 
+ b) Nếu 
+90
+BAC =
+. Chứng minh tứ giác AEMF là hình chữ nhật. Từ đó suy ra 
+1
+2
+EF
+BC
+
+ 
+Câu 4. Chứng minh rằng giá trị biểu thức sau không phụ thuộc vào giá trị của biến x 
+(
+)
+(
+)
+(
+)
+3
+3
+2
+2
+12(
+1)
+1 .
+A
+x
+x
+x
+x
+=
++
+−
+−
+−
++
+−
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

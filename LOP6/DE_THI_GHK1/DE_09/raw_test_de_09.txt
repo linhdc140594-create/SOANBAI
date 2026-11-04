@@ -1,0 +1,420 @@
+--- TRANG 33 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho tập hợp 
+
+
+1 5
+M
+; ;a;b .
+=
+Trong các khẳng định sau, khẳng định sai là: 
+A. 1
+M .
+
+                        
+B. c
+M .
+
+                     
+C. a
+M .
+
+                       D. b
+M .
+
+ 
+Câu 2. Tập hợp P các số tự nhiên lớn hơn 9 có thể viết là 
+A. 
+{
+|
+}
+ 
+ 
+10
+P
+x
+x
+=
+
+
+
+ . 
+ 
+B. 
+{
+|
+}
+ 
+ 
+10
+P
+x
+x
+=
+
+
+
+ . 
+ 
+C. 
+{
+|
+}
+ 
+ >10
+P
+x
+x
+=
+
+. 
+  
+D.  
+{
+|
+}
+ 
+ 
+10
+P
+x
+x
+=
+
+
+
+. 
+Câu 3. Số liền trước và số liền sau của số 2 024 lần lượt là 
+A. 2 023; 2 024. 
+ 
+ 
+ 
+ 
+ 
+B. 2 022; 2 023.  
+C. 2 026; 2 026. 
+ 
+ 
+ 
+ 
+ 
+D. 2 023; 2 025. 
+Câu 4. Với a, m, n là các số tự nhiên, khẳng định nào sau đây đúng? 
+A.  
+(
+)
+  
+.
+ 
+0
+m
+n
+m
+n
+a
+a
+a
+a
++
+
+=
+
+            
+ 
+ 
+B.  
+(
+)
+  
+0         
+m
+n
+m
+n
+a
+a
+a
+a
+−
+
+
+=
+ 
+C.  
+(
+)
+.
+.
+0
+m
+n
+m n
+a
+a
+a
+a
+=
+
+
+               
+ 
+ 
+D.  
+(
+)
+ 
+ 
+ 0
+m
+n
+a
+a
+m
+n a
+=
++
+
+
+ 
+Câu 5. Trong các số 0 ; 1; 2 ; 4 ; 6 ; 16  số nào là bội của 8 ? 
+A. 1; 2 ; 4 . 
+ 
+B. 2 ; 4 .  
+ 
+C. 0 ; 1; 16 .  
+     D. 0 ; 16.  
+Câu 6. Hình vuông có cạnh bằng 15cm thì chu vi bằng: 
+ 
+A. 
+2
+225cm .                             B. 225cm . 
+  C. 
+2
+60cm . 
+    D. 60cm . 
+Câu 7. Tập hợp các ước chung của 9 và 15 là: 
+
+
+--- TRANG 34 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 
+
+1;3 
+                   B. 
+
+0;3 
+ 
+ 
+C. 
+
+1;5 
+ 
+    D. 
+
+1;3;9 
+Câu 8. Trong các số sau đây, số nào chia hết cho 
+32 ? 
+A. 
+23 . 
+B. 
+3
+5 . 
+C. 
+2
+4 . 
+D. 
+2
+6 . 
+Câu 9.  Cho tam giác ABC đều. Nhận định nào sau đây sai. 
+A. Ba cạnh AB = BC = CA. 
+ 
+ 
+ 
+B. Ba đỉnh A, B, C bằng nhau. 
+C. Ba góc ở đỉnh A, B, C bằng nhau. 
+ 
+ 
+D. Ba góc A, B, C bằng nhau. 
+Câu 10. Cho tam giác đều ABC có cạnh 
+3
+AB
+cm
+=
+. Khi đó chu vi của tam giác đều ABC là: 
+A. 3 cm. 
+ 
+          B. 9cm.  
+              
+C. 12cm. 
+ 
+     D. 18cm . 
+Câu 11. Mảnh đất hình thang ABCD như hình dưới, biết
+ 
+ 12
+AB
+cm
+=
+, 
+ 
+ 26
+DC
+cm
+=
+, diện 
+tích hình chữ nhật ABKD là 
+2
+168 cm . Diện tích mảnh đất là: 
+ 
+A. 
+2
+168 cm .                         B. 
+2
+133 cm .                        C. 266 
+2
+cm . 
+ D. 
+2
+312 cm . 
+Câu 12. Bạn An có ngày sinh là số nguyên tố lớn nhất nhỏ hơn 20, tháng sinh của bạn là 
+số nguyên tố nhỏ nhất. Vậy bạn An có ngày và tháng sinh là bao nhiêu? 
+A. Ngày 19 tháng 3.        
+ 
+ 
+ 
+ 
+B. Ngày 19 tháng 2. 
+C. Ngày 7 tháng 2.            
+ 
+ 
+ 
+D. Ngày 7 tháng 3. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét tính đúng sai của các mệnh đề sau: 
+a) Số 1975 là hợp số. 
+K
+D
+C
+A
+B
+
+
+--- TRANG 35 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Mọi số nguyên tố đều là số lẻ.  
+c) Số 1 không là hợp số cũng không là số nguyên tố. 
+d) Tổng của hai số nguyên tố bất kì là một số chẵn. 
+Câu 2. Cho hình thoi MNPQ có độ dài hai đường chéo lần lượt là 
+10 cm
+MP =
+ và 
+6 cm
+NQ =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Bốn cạnh 
+,
+,
+,
+MN NP PQ QM có độ dài bằng nhau. 
+b) Hai đường chéo MP và NQ song song với nhau. 
+c) Diện tích của hình thoi MNPQ là 
+2
+30 cm . 
+d) Hai đường chéo MP và NQ cắt nhau tại trung điểm của mỗi đường và vuông góc với 
+nhau. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số tự nhiên x thỏa mãn 
+3
+3 (
+5)
+2
+3
+x
+
+−
+=
+. 
+Câu 2. Một hình bình hành có độ dài một cạnh bằng 10 cm và chiều cao tương ứng bằng 
+6 cm . Tính diện tích của hình bình hành đó (đơn vị: 
+2
+cm ). 
+Phần IV. Tự luận 
+Câu 1. Viết tập hợp A các số tự nhiên lớn hơn 9 và nhỏ hơn 15 bằng hai cách. 
+Câu 2. Thực hiện phép tính: 
+a) (
+)
+30 10 2 :5
+−
+
+; 
+b) 
+2
+2
+135 3
+3 130
+
+
+−
+. 
+Câu 3. Một mảnh vườn hình chữ nhật có chiều dài 40 m và chiều rộng 30m.  
+a)Tính chu vi và diện tích của mảnh vườn.  
+
+
+--- TRANG 36 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Biết rằng mỗi túi hạt giống gieo vừa đủ 
+2
+100 m đất và mỗi túi hạt giống giá 40000đồng. 
+Hỏi cần bao nhiêu túi hạt giống để gieo vừa hết mảnh vườn? Cần bao nhiêu tiền để mua 
+các túi hạt giống trên? 
+Câu 4. Cho các số tự nhiên: 23; 87; 64; 270; 425; 136; 2808 
+a) Số nào chia hết cho 2? 
+b) Số nào chia hết cho 3? 
+c) Số nào chia hết cho 5? 
+d) Số nào chia hết cho cả 2 và 5? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

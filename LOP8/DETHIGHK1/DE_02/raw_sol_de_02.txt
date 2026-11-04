@@ -1,0 +1,1631 @@
+--- TRANG 52 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các biểu thức sau, biểu thức nào là đơn thức? 
+A. 1
+y
+x +
+ 
+ 
+ 
+B. 
+2
+5
+x z
+−
+ 
+ 
+ 
+C. 
+2
+(2
+)x y
+−
+  
+       D. 
+2
+2
+x − 
+Lời giải: Biểu thức 
+2
+2
+1
+5
+5
+x z
+x z
+−
+= −
+ là tích giữa số 
+1
+5
+−
+ và các biến 
+2,
+x
+z nên là đơn thức. 
+Các biểu thức còn lại đều chứa phép cộng, trừ giữa các biến hoặc chứa biến ở mẫu số. 
+Đáp án đúng: B. 
+Câu 2. Đơn thức nào sau đây đồng dạng với đơn thức 
+2
+3x y
+−
+? 
+A. 1
+2 xyx 
+ 
+ 
+B. 
+2
+3x yz 
+ 
+ 
+C. 
+2x y 
+ 
+       D. 
+2
+3x z
+−
+ 
+Lời giải: Hai đơn thức đồng dạng có hệ số khác 0 và có cùng phần biến. Đơn thức 
+2x y có 
+phần biến giống hệt phần biến 
+2x y của đơn thức đã cho. 
+Đáp án đúng: C. 
+Câu 3. Cho đa thức 
+2
+2
+2
+2
+1
+1
+3
+3
+2
+4
+A
+xy
+x y
+xy
+x y
+= −
++
++
+−
+. Giá trị của A tại 
+2;
+3
+x
+y
+= −
+= là: 
+A. 
+15
+13
+A = −
+  
+ 
+B. 
+12
+A = −
+ 
+ 
+ 
+C. 
+15
+A = −
+ 
+ 
+      D. 
+14
+A =
+ 
+Lời giải: Thu gọn đa thức A ta được  
+2
+2
+2
+2
+2
+2
+1
+1
+3
+2
+1
+3
+2
+4
+3
+4
+A
+xy
+xy
+x y
+x y
+xy
+x y
+
+
+
+
+= −
++
++
+−
+=
+−
+
+
+
+
+
+
+
+
+ 
+
+
+--- TRANG 53 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Thay 
+2
+x = − và 
+3
+y = vào đa thức A :  
+2
+2
+2
+1
+( 2) 3
+( 2)
+3
+12
+3
+15
+3
+4
+A =
+−
+
+−
+−
+= −
+−
+= −
+ 
+Đáp án đúng: C. 
+Câu 4. Giá trị của đa thức 
+2
+2
+3
+5
+2
+3
+B
+x y
+xy
+x y
+xy
+=
+−
+−
+−
+ tại 
+1
+3;
+2
+x
+y
+=
+= −
+ là: 
+A. 15
+2  
+ 
+ 
+B. 9  
+ 
+ 
+C. 15
+−
+ 
+ 
+         D. 
+33
+2
+−
+ 
+Lời giải: Thu gọn đa thức B : 
+2
+2
+2
+(3
+2
+)
+( 5
+3
+)
+8
+B
+x y
+x y
+xy
+xy
+x y
+xy
+=
+−
++ −
+−
+=
+−
+ 
+Thay 
+3
+x = và 
+1
+2
+y = −
+ vào đa thức B : 
+2
+1
+1
+9
+15
+3
+8 3
+12
+2
+2
+2
+2
+B
+
+
+
+
+=
+−
+−−
+= −
++
+=
+
+
+
+
+
+
+
+
+ 
+Đáp án đúng: A. 
+Câu 5. Khi thay biểu thức thích hợp vào dấu * của biểu thức 
+2
+(
+3 )(
+3 )
+*
+x
+y x
+y
+x
+−
++
+=
+− ta được: 
+A. 
+2
+3y 
+ 
+ 
+ 
+B. 
+2
+9y 
+ 
+ 
+C. 
+2
+6y 
+ 
+ 
+D. 
+2
+y 
+Lời giải: Áp dụng hằng đẳng thức hiệu hai bình phương:  
+2
+2
+2
+2
+(
+3 )(
+3 )
+(3 )
+9
+x
+y x
+y
+x
+y
+x
+y
+−
++
+=
+−
+=
+−
+. 
+So sánh với biểu thức 
+2
+*
+x −, biểu thức thích hợp điền vào dấu * là 
+2
+9y . 
+Đáp án đúng: B. 
+Câu 6. Số tự nhiên n nhỏ nhất để phép chia 
+2
+5
+:
+n
+x
+x thực hiện được là: 
+A. 1  
+ 
+ 
+B. 2  
+ 
+ 
+C. 3  
+ 
+ 
+D. 4 
+Lời giải: Phép chia 
+2
+5
+:
+n
+x
+x thực hiện được khi số mũ của bị chia lớn hơn hoặc bằng số mũ 
+của chia, tức là 2
+5
+n .  
+Do n là số tự nhiên nên 2n là số tự nhiên chẵn.  
+
+
+--- TRANG 54 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Số tự nhiên chẵn nhỏ nhất lớn hơn hoặc bằng 5 là 6 .Giải 2
+6
+n = ta thu được 
+3
+n = . 
+Đáp án đúng: C. 
+Câu 7. Kết quả khai triển biểu thức 
+2
+(
+2)
+x −
+ là: 
+A. 
+2
+2
+4
+x
+x
++
++
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+4
+4
+x
+x
++
++
+ 
+C. 
+2
+2
+4
+x
+x
+−
++  
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+4
+4
+x
+x
+−
++ 
+Lời giải: Áp dụng hằng đẳng thức bình phương của một hiệu: 
+2
+2
+2
+2
+(
+2)
+2
+2
+2
+4
+4
+x
+x
+x
+x
+x
+−
+=
+−+
+=
+−
++ 
+Đáp án đúng: D. 
+Câu 8. Cho tứ giác ABCD, biết ˆ
+ˆ
+ˆ
+80 ;
+65 ;
+110
+A
+B
+C
+
+
+
+=
+=
+=
+. Số đo ˆD là: 
+A. 105 
+ 
+ 
+B. 75  
+ 
+ 
+C. 65  
+ 
+ 
+D. 85 
+Lời giải: Tổng bốn góc trong một tứ giác bằng 360.Tính số đo góc ˆD : 
+ˆ
+360
+(80
+65
+110 )
+360
+255
+105
+D
+
+
+
+
+
+
+
+=
+−
++
++
+=
+−
+=
+ 
+Đáp án đúng: A. 
+Câu 9. Hình thang có hai đường chéo bằng nhau là: 
+A. Hình bình hành  
+ 
+ 
+ 
+ 
+B. Hình vuông 
+C. Hình thang cân  
+ 
+ 
+ 
+ 
+D. Hình chữ nhật 
+Lời giải: Theo dấu hiệu nhận biết, hình thang có hai đường chéo bằng nhau là hình thang cân. 
+Đáp án đúng: C. 
+Câu 10. Tổng số cạnh bên và cạnh đáy của một hình chóp tam giác đều là: 
+A. 4  
+ 
+ 
+B. 6  
+ 
+ 
+C. 8  
+ 
+ 
+D. 10 
+Lời giải: Hình chóp tam giác đều có 3 cạnh bên và 3 cạnh đáy. Tổng số cạnh bằng 3
+3
+6
++
+=
+ 
+Đáp án đúng: B. 
+
+
+--- TRANG 55 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 11. Diện tích xung quanh của hình chóp tứ giác đều bằng bao nhiêu lần diện tích một 
+mặt bên? 
+A. 2  
+ 
+ 
+B. 3  
+ 
+ 
+C. 4  
+ 
+ 
+D. 5 
+Lời giải: Hình chóp tứ giác đều có 4 mặt bên là các tam giác cân bằng nhau. Diện tích xung 
+quanh bằng tổng diện tích của 4 mặt bên, tức là bằng 4 lần diện tích của một mặt bên.  
+Đáp án đúng: C. 
+Câu 12. Tính thể tích của hình chóp ở bên trong hình hộp chữ nhật có đáy là hình vuông 
+cạnh 5 cm và chiều cao 6 cm: 
+ 
+A. 150
+³
+cm  
+ 
+ 
+ 
+ 
+ 
+B. 75 
+³
+cm 
+ 
+ 
+ 
+C. 50 
+³
+cm 
+ 
+   
+ 
+ 
+ 
+ 
+D. 37,5 
+³
+cm 
+Lời giải: Đáy của hình chóp là hình vuông cạnh 5 cm , diện tích đáy: 
+2
+5 5
+25 cm
+S = 
+=
+. 
+Chiều cao của hình chóp bằng chiều cao hình hộp chữ nhật, 
+6 cm
+h =
+. Thể tích hình chóp:
+3
+1
+1 25 6
+50 cm
+3
+3
+V
+S h
+=
+
+
+=
+
+
+=
+ 
+Đáp án đúng: C. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+2
+(
+2)
+6
+12
+M
+x
+x
+x
+=
+−
++
+−
+ và đa thức 
+3
+2
+8
+N
+x
+x
+=
+−
+. Xét tính đúng sai 
+của các mệnh đề sau: 
+
+
+--- TRANG 56 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Khai triển hằng đẳng thức 
+3
+(
+2)
+x −
+ ta được 
+3
+2
+6
+12
+8
+x
+x
+x
+−
++
+−. 
+b) Rút gọn biểu thức M ta được 
+3
+8
+M
+x
+=
+−. 
+c) Phân tích đa thức N thành nhân tử ta được 2 (
+2)(
+2)
+x x
+x
+−
++
+. 
+d) Tại 
+2
+x =
+, giá trị của biểu thức M lớn hơn giá trị của biểu thức N . 
+Lời giải. 
+a) Đúng. Áp dụng hằng đẳng thức lập phương của một hiệu: 
+3
+3
+2
+2
+3
+3
+2
+(
+2)
+3
+2
+3
+2
+2
+6
+12
+8
+x
+x
+x
+x
+x
+x
+x
+−
+=
+−
++ 
+−
+=
+−
++
+− 
+b) Đúng. Thay kết quả ở câu a vào biểu thức M : 
+3
+2
+2
+3
+(
+6
+12
+8)
+6
+12
+8
+M
+x
+x
+x
+x
+x
+x
+=
+−
++
+−
++
+−
+=
+− 
+c) Đúng. Thực hiện phân tích đa thức N thành nhân tử bằng cách đặt nhân tử chung và 
+dùng hằng đẳng thức hiệu hai bình phương: 
+2
+2 (
+4)
+2 (
+2)(
+2)
+N
+x x
+x x
+x
+=
+−
+=
+−
++
+ 
+d) Sai. Tính giá trị của M và N tại 
+2
+x =
+: 
+3
+(2)
+2
+8
+8
+8
+0
+M
+=
+−
+=
+−
+=
+. 
+3
+(2)
+2 2
+8 2
+16 16
+0
+N
+=
+
+−
+=
+−
+=
+. 
+Vì 
+(2)
+(2)
+0
+M
+N
+=
+=
+ nên khẳng định 
+(2)
+(2)
+M
+N
+
+ là sai. 
+Câu 2. Cho hình bình hành ABCD có ˆ
+110
+A
+
+=
+. Kẻ AH
+CD
+⊥
+ tại H và CK
+AB
+⊥
+ tại K . 
+Xét tính đúng sai của các mệnh đề sau: 
+a) Số đo của góc ˆC bằng 110. 
+b) Số đo của góc ˆD bằng 70. 
+c) Tứ giác AHCK là hình bình hành. 
+d) Số đo của góc 
+DAH bằng 30. 
+
+
+--- TRANG 57 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+a) Đúng. Trong hình bình hành ABCD , hai góc đối bằng nhau nên ˆ
+ˆ
+110
+C
+A
+
+=
+=
+. 
+b) Đúng. Trong hình bình hành ABCD , hai góc kề một cạnh bù nhau nên: 
+ˆ
+ˆ
+180
+180
+110
+70
+D
+A
+
+
+
+
+=
+−
+=
+−
+=
+ 
+c) Đúng. Ta có AH
+CD
+⊥
+ và CK
+AB
+⊥
+. Vì  AB CD
+
+ nên AH
+AB
+⊥
+. 
+Do AH và CK cùng vuông góc với AB nên AH
+CK
+
+.  
+Mặt khác, ta lại có AK
+CH
+
+ (vì AB CD
+
+). 
+Vì tứ giác AHCK có hai cặp cạnh đối song song ( AH
+CK
+
+ và AK
+CH
+
+) nên AHCK là 
+hình bình hành. 
+d) Sai. Xét tam giác AHD vuông tại H có 
+ˆ
+90
+90
+70
+20
+DAH
+D
+
+
+
+
+=
+−
+=
+−
+=
+.  
+Do đó khẳng định 
+30
+DAH
+
+=
+ là sai. 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tìm x , biết: 
+2
+6
+9
+0
+x
+x
+−
++
+= .  
+Lời giải. Sử dụng hằng đẳng thức 
+2
+2
+2
+2
+(
+)
+A
+AB
+B
+A
+B
+−
++
+=
+−
+:  
+2
+2
+2
+3
+3
+0
+x
+x
+−+
+=
+ 
+2
+(
+3)
+0
+x −
+= . 
+Suy ra 
+3
+0
+x −
+= hay 
+3
+x = . 
+Đáp án: 
+3
+x = . 
+Câu 2. Cho tứ giác ABCD có ˆ
+70
+A
+
+=
+, ˆ
+110
+B
+
+=
+ và ˆ
+100
+C
+
+=
+. Tính số đo góc D . 
+Lời giải.  
+Áp dụng định lý tổng các góc trong một tứ giác bằng 360 của tứ giác ABCD ta được:  
+
+
+--- TRANG 58 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ˆ
+ˆ
+ˆ
+ˆ
+360
+A
+B
+C
+D
+
++
++
++
+=
+. 
+ˆ
+70
+110
+100
+360
+D
+
+
+
+
++
++
++
+=
+ 
+ˆ
+280
+360
+D
+
+
++
+=
+ 
+ˆ
+360
+280
+80
+D
+
+
+
+=
+−
+=
+. 
+Đáp án: ˆ
+80
+D
+
+=
+. 
+Phần IV. Tự luận 
+Câu 1. Thu gọn các biểu thức sau : 
+a) 
+2
+3 (2
+5)
+6
+;
+x
+xy
+x y
+−
+−
+ 
+b) (
+)
+(
+)(
+)
+3
+2
+2
+12
+12
+:3
+1
+;
+x y
+x y
+xy
+x
+x
+xy
+−
+−
+−
++
+ 
+c) (
+)
+(
+)
+2
+2.
+3
+3
+x
+x
+−
++
++
+ 
+Lời giải. 
+a) 
+2
+3 (2
+5)
+6
+x
+xy
+x y
+−
+−
+    
+2
+2
+6
+15
+6
+x y
+x
+x y
+=
+−
+−
+ 
+15x
+= −
+. 
+b) 
+3
+2
+2
+(12
+12
+):3
+(
+1)(
+)
+x y
+x y
+xy
+x
+x
+xy
+−
+−
+−
++
+ 
+2
+2
+2
+(4
+4
+)
+(
+)
+x
+xy
+x
+x y
+x
+xy
+=
+−
+−
++
+−
+−
+ 
+2
+2
+2
+4
+4
+x
+xy
+x
+x y
+x
+xy
+=
+−
+−
+−
++
++
+ 
+2
+2
+3
+3
+x
+xy
+x y
+x
+=
+−
+−
++
+. 
+c) 
+2
+2
+(
+3)
+(
+3)
+x
+x
+−
++
++
+    
+2
+2
+(
+6
+9)
+(
+6
+9)
+x
+x
+x
+x
+=
+−
++
++
++
++
+ 
+2
+2
+18
+x
+=
++
+. 
+
+
+--- TRANG 59 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 2. Tính nhanh giá trị của biểu thức:  
+a) 
+2
+A
+6
+9
+x
+x
+=
++
++ tại x
+97
+
+; 
+b) 
+3
+2
+B = 102 - 6.102 + 12.102 - 8. 
+Lời giải.  
+a) 
+2
+6
+9
+A
+x
+x
+=
++
++ tại 
+97
+x =
+.    
+Biến đổi biểu thức A về dạng bình phương của một tổng ta được
+2
+(
+3)
+A
+x
+=
++
+ 
+Thay 
+97
+x =
+ vào biểu thức, ta  được 
+2
+2
+(97
+3)
+100
+10000
+A =
++
+=
+=
+. 
+b) 
+3
+2
+102
+6 102
+12 102
+8
+B =
+−
++
+
+−    
+Biến đổi biểu thức B về dạng lập phương của một hiệu ta được  
+3
+2
+2
+3
+102
+3 102
+2
+3 102 2
+2
+B =
+−
++ 
+
+−
+ 
+3
+(102
+2)
+B =
+−
+ 
+3
+100
+1000000
+B =
+=
+. 
+Câu 3. Cho ABC
+
+nhọn, AB
+AC
+
+, các đường cao 
+;
+;
+AF BE CG cắt nhau tại H . Gọi M 
+là trung điểm của 
+.
+BC Trên tia đối của tia MH lấy điểm D sao cho MH
+MD
+=
+. 
+a) Tứ giác BHCD là hình gì? Vì sao? 
+b) Chứng minh : Tam giác ABD vuông tại B, tam giác ACD vuông tại C . 
+c) Gọi I là trung điểm của 
+.
+AD Chứng minh 
+.
+IA
+IB
+IC
+ID
+=
+=
+=
+ 
+Lời giải. 
+a) Tứ giác BHCD là hình gì? Vì sao?    
+Xét tứ giác BHCD , ta có:  
+M là trung điểm của cạnh BC (theo giả thiết).    
+
+
+--- TRANG 60 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+M là trung điểm của đoạn HD (vì D thuộc tia đối của MH và MH
+MD
+=
+).    
+Tứ giác BHCD có hai đường chéo BC và HD cắt nhau tại trung điểm M của mỗi đường, 
+do đó BHCD là hình bình hành.    
+b) Chứng minh tam giác ABD vuông tại B và tam giác ACD vuông tại C :  
+Tứ giác BHCD là hình bình hành nên 
+/ /
+BH
+CD và 
+/ /
+CH
+BD .  
+Do H là trực tâm tam giác ABC nên CH
+AB
+⊥
+ và BH
+AC
+⊥
+. 
+Từ CH
+AB
+⊥
+ và 
+/ /
+CH
+BD , suy ra BD
+AB
+⊥
+.  
+Do đó, tam giác ABD vuông tại B . 
+Từ BH
+AC
+⊥
+ và 
+/ /
+BH
+CD , suy ra CD
+AC
+⊥
+.  
+Do đó, tam giác ACD vuông tại C . 
+c) Chứng minh IA
+IB
+IC
+ID
+=
+=
+=
+: 
+Tam giác ABD vuông tại B có BI là trung tuyến ứng với cạnh huyền AD , nên 
+1
+2
+BI
+IA
+ID
+AD
+=
+=
+=
+(1) 
+Tam giác ACD vuông tại C có CI là trung tuyến ứng với cạnh huyền AD , nên 
+1
+2
+CI
+IA
+ID
+AD
+=
+=
+=
+ (2) 
+Từ (1) và (2), ta được IA
+IB
+IC
+ID
+=
+=
+=
+. 
+Câu 4. Cho đa thức 
+2
+1
+23
+2
+G
+x
+bx
+=
++
++
+ với b là một số cho trước sao cho 1
+2
+b
++ là số nguyên.  
+Chứng minh rằng G luôn nhận giá trị nguyên tại mọi số nguyên x . 
+Lời giải. 
+Đặt 1
+2
+b
+k
++
+= , trong đó k là một số nguyên theo giả thiết. 
+Từ đó ta có 
+1
+2
+b
+k
+=
+−
+.    
+Biến đổi biểu thức G :    
+
+
+--- TRANG 61 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+1
+1
+23
+2
+2
+G
+x
+k
+x
+
+
+=
++
+−
++
+
+
+
+
+ 
+2
+1
+1
+23
+2
+2
+G
+x
+x
+kx
+=
+−
++
++
+ 
+2
+23
+2
+x
+x
+G
+kx
+−
+=
++
++
+ 
+(
+1)
+23
+2
+x x
+G
+kx
+−
+=
++
++
+. 
+Với mọi số nguyên x ta có hai số x và 
+1
+x − là hai số nguyên liên tiếp, nên tích (
+1)
+x x −
+ 
+luôn chia hết cho 2 . Do đó, phân số (
+1)
+2
+x x −
+ luôn là một số nguyên. 
+Vì k và x đều là các số nguyên nên tích kx là một số nguyên.  
+Số 23 là một số nguyên. Tổng của các số nguyên là một số nguyên. 
+Do đó, đa thức G luôn nhận giá trị nguyên tại mọi số nguyên x .   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

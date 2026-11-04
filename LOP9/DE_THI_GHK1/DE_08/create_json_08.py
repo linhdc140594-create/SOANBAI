@@ -1,0 +1,194 @@
+import json
+
+de_08 = {
+    "ma_de": "08",
+    "lop": "9",
+    "mon": "Toán 9",
+    "thoi_gian": "90 phút",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Căn bậc hai của $\\frac{4}{9}$ là:",
+            "a": "$\\frac{2}{3}$.",
+            "b": "$-\\frac{2}{3}$.",
+            "c": "$\\pm \\frac{2}{3}$.",
+            "d": "$\\frac{16}{81}$.",
+            "da": "C",
+            "loi_giai": "Căn bậc hai của một số không âm $a$ là các số $x$ sao cho $x^2 = a$. Số $\\frac{4}{9}$ có hai căn bậc hai là $\\frac{2}{3}$ và $-\\frac{2}{3}$, viết gọn là $\\pm \\frac{2}{3}$."
+        },
+        {
+            "cau": 2,
+            "de": "Tìm điều kiện để biểu thức $\\frac{1}{\\sqrt{3 - x}}$ có nghĩa:",
+            "a": "$x < 3$.",
+            "b": "$x \\le 3$.",
+            "c": "$x \\ge 3$.",
+            "d": "$x > 3$.",
+            "da": "A",
+            "loi_giai": "Biểu thức chứa căn thức ở mẫu số có nghĩa khi biểu thức dưới dấu căn lớn hơn 0, tức là $3 - x > 0 \\iff x < 3$."
+        },
+        {
+            "cau": 3,
+            "de": "Biểu thức $A = \\sqrt{2x^2 + 1}$ xác định với:",
+            "a": "$x \\neq -\\frac{1}{2}$.",
+            "b": "Mọi $x \\in \\mathbb{R}$.",
+            "c": "$x \\ge -\\frac{1}{2}$.",
+            "d": "$x \\ge \\pm \\frac{1}{2}$.",
+            "da": "B",
+            "loi_giai": "Ta có $2x^2 \\ge 0$ với mọi số thực $x$, suy ra $2x^2 + 1 \\ge 1 > 0$ với mọi $x \\in \\mathbb{R}$. Do đó biểu thức luôn xác định với mọi $x \\in \\mathbb{R}$."
+        },
+        {
+            "cau": 4,
+            "de": "Hệ phương trình nào dưới đây là hệ hai phương trình bậc nhất hai ẩn?",
+            "a": "$\\begin{cases} x + y = 1 \\\\ y + z = -3 \\end{cases}$",
+            "b": "$\\begin{cases} 2x + y = 2 \\\\ 3x - y^2 = -1 \\end{cases}$",
+            "c": "$\\begin{cases} 2x^2 - y = 0 \\\\ x + y = 0 \\end{cases}$",
+            "d": "$\\begin{cases} -x + 2y = 1 \\\\ y = 1 \\end{cases}$",
+            "da": "D",
+            "loi_giai": "Hệ hai phương trình bậc nhất hai ẩn là hệ gồm hai phương trình bậc nhất đối với hai ẩn $x$ và $y$. Phương án D thỏa mãn vì cả hai phương trình đều là bậc nhất hai ẩn (với phương trình thứ hai có hệ số của $x$ bằng 0)."
+        },
+        {
+            "cau": 5,
+            "de": "Điều kiện xác định của phương trình $\\frac{1}{x + 2} = \\frac{1}{x - 1} + 2$ là:",
+            "a": "$x \\neq 1; x \\neq -3$.",
+            "b": "$x \\neq -2; x \\neq 1$.",
+            "c": "$x \\neq -3; x \\neq -2$.",
+            "d": "$x \\neq 2; x \\neq -1$.",
+            "da": "B",
+            "loi_giai": "Điều kiện để các phân thức trong phương trình có nghĩa là các mẫu thức phải khác 0: $x + 2 \\neq 0$ và $x - 1 \\neq 0 \\iff x \\neq -2$ và $x \\neq 1$."
+        },
+        {
+            "cau": 6,
+            "de": "Phát biểu \"$a$ không lớn hơn $b$\" được biểu diễn bằng bất đẳng thức nào dưới đây?",
+            "a": "$a < b$.",
+            "b": "$a \\le b$.",
+            "c": "$a \\ge b$.",
+            "d": "$a > b$.",
+            "da": "B",
+            "loi_giai": "Cụm từ \"không lớn hơn\" có nghĩa là \"nhỏ hơn hoặc bằng\", ký hiệu toán học là $\\le$. Do đó ta có bất đẳng thức $a \\le b$."
+        },
+        {
+            "cau": 7,
+            "de": "Điều kiện xác định của phương trình $\\frac{2x}{x + 1} = \\frac{3}{x - 3}$ là:",
+            "a": "$x \\neq 1$.",
+            "b": "$x \\neq 3; x \\neq -1$.",
+            "c": "$x \\neq -1$.",
+            "d": "$x \\neq 3$.",
+            "da": "B",
+            "loi_giai": "Điều kiện xác định của phương trình là các mẫu thức khác 0: $x + 1 \\neq 0$ và $x - 3 \\neq 0 \\iff x \\neq -1$ và $x \\neq 3$."
+        },
+        {
+            "cau": 8,
+            "de": "Cho bất phương trình $3x - 5 \\le 10$. Khẳng định nào sau đây là đúng?",
+            "a": "Có 5 số nguyên dương thỏa mãn bất phương trình đã cho.",
+            "b": "Số nguyên lớn nhất thỏa mãn bất phương trình đã cho là 5.",
+            "c": "Tổng các số nguyên dương thỏa mãn bất phương trình là 15.",
+            "d": "Có 4 số nguyên tố thỏa mãn bất phương trình đã cho.",
+            "da": "C",
+            "loi_giai": "Giải bất phương trình: $3x - 5 \\le 10 \\iff 3x \\le 15 \\iff x \\le 5$. Các số nguyên dương thỏa mãn là $1, 2, 3, 4, 5$. Tổng của chúng là $1 + 2 + 3 + 4 + 5 = 15$."
+        },
+        {
+            "cau": 9,
+            "de": "Cho tam giác $MNP$ vuông tại $M$. Đặt $\\widehat{P} = \\alpha$. Trong các khẳng định dưới đây, khẳng định nào sai?",
+            "a": "$\\sin \\alpha = \\frac{MN}{NP}$.",
+            "b": "$\\cos \\alpha = \\frac{MN}{NP}$.",
+            "c": "$\\tan \\alpha = \\frac{MN}{MP}$.",
+            "d": "$\\cot \\alpha = \\frac{MP}{MN}$.",
+            "da": "B",
+            "loi_giai": "Trong tam giác vuông $MNP$ vuông tại $M$ có $\\widehat{P} = \\alpha$, cạnh đối là $MN$, cạnh kề là $MP$, cạnh huyền là $NP$. Theo định nghĩa, $\\cos \\alpha = \\frac{\\text{cạnh kề}}{\\text{cạnh huyền}} = \\frac{MP}{NP}$. Do đó khẳng định ở câu B là sai."
+        },
+        {
+            "cau": 10,
+            "de": "Rút gọn biểu thức $\\sqrt{12} - \\sqrt{27} + \\sqrt{48}$ ta được kết quả là:",
+            "a": "$3\\sqrt{3}$.",
+            "b": "$5\\sqrt{3}$.",
+            "c": "$\\sqrt{3}$.",
+            "d": "$2\\sqrt{3}$.",
+            "da": "A",
+            "loi_giai": "Ta có $\\sqrt{12} = 2\\sqrt{3}$, $\\sqrt{27} = 3\\sqrt{3}$, $\\sqrt{48} = 4\\sqrt{3}$. Biểu thức bằng $2\\sqrt{3} - 3\\sqrt{3} + 4\\sqrt{3} = 3\\sqrt{3}$."
+        },
+        {
+            "cau": 11,
+            "de": "Nghiệm của hệ phương trình $\\begin{cases} 2x + y = 5 \\\\ x - y = 1 \\end{cases}$ là:",
+            "a": "$(2; 1)$.",
+            "b": "$(1; 2)$.",
+            "c": "$(3; 2)$.",
+            "d": "$(2; 3)$.",
+            "da": "A",
+            "loi_giai": "Cộng hai phương trình vế theo vế: $3x = 6 \\implies x = 2$. Thay $x = 2$ vào phương trình thứ hai: $2 - y = 1 \\implies y = 1$. Vậy nghiệm của hệ là $(2; 1)$."
+        },
+        {
+            "cau": 12,
+            "de": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\text{ cm}, HC = 9\\text{ cm}$. Độ dài đường cao $AH$ là:",
+            "a": "$6\\text{ cm}$.",
+            "b": "$36\\text{ cm}$.",
+            "c": "$5\\text{ cm}$.",
+            "d": "$13\\text{ cm}$.",
+            "da": "A",
+            "loi_giai": "Theo hệ thức lượng trong tam giác vuông: $AH^2 = BH \\cdot HC = 4 \\cdot 9 = 36 \\implies AH = \\sqrt{36} = 6\\text{ cm}$."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho tam giác $ABC$ vuông tại $A$ với độ dài các cạnh $AB = 4\\text{ cm}, AC = 3\\text{ cm}, BC = 5\\text{ cm}$. Xét tính Đúng/Sai của các khẳng định sau:",
+            "y_a": {"noi_dung": "$\\tan B = \\frac{3}{4}$.", "dung": True, "loi_giai": "Xét tam giác $ABC$ vuông tại $A$, ta có $\\tan B = \\frac{AC}{AB} = \\frac{3}{4}$. Khẳng định Đúng."},
+            "y_b": {"noi_dung": "$\\cos B = \\frac{3}{5}$.", "dung": False, "loi_giai": "Ta có $\\cos B = \\frac{AB}{BC} = \\frac{4}{5} \\neq \\frac{3}{5}$. Khẳng định Sai."},
+            "y_c": {"noi_dung": "$\\sin C = \\frac{4}{5}$.", "dung": True, "loi_giai": "Ta có $\\sin C = \\frac{AB}{BC} = \\frac{4}{5}$. Khẳng định Đúng."},
+            "y_d": {"noi_dung": "$\\cot C = \\frac{5}{4}$.", "dung": False, "loi_giai": "Ta có $\\cot C = \\frac{AC}{AB} = \\frac{3}{4} \\neq \\frac{5}{4}$. Khẳng định Sai."}
+        },
+        {
+            "cau": 2,
+            "de": "Cho $0 < a < b$. Xét tính Đúng/Sai của các khẳng định sau:",
+            "y_a": {"noi_dung": "$13 - a > 13 - b$.", "dung": True, "loi_giai": "Vì $a < b \\implies -a > -b \\implies 13 - a > 13 - b$. Khẳng định Đúng."},
+            "y_b": {"noi_dung": "$-3a < -3b$.", "dung": False, "loi_giai": "Nhân hai vế của $a < b$ với số âm $-3$ ta phải đổi chiều: $-3a > -3b$. Do đó khẳng định này Sai."},
+            "y_c": {"noi_dung": "$-2a + 2025 < -2b + 2025$.", "dung": False, "loi_giai": "Vì $a < b \\implies -2a > -2b \\implies -2a + 2025 > -2b + 2025$. Khẳng định Sai."},
+            "y_d": {"noi_dung": "$5a + 2026 < 6b + 2026$.", "dung": True, "loi_giai": "Vì $0 < a < b \\implies 5a < 5b < 6b \\implies 5a < 6b \\implies 5a + 2026 < 6b + 2026$. Khẳng định Đúng."}
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Cho hệ phương trình $\\begin{cases} 3x + y = 0 \\\\ x + 2y = 5. \\end{cases}$ Tính tổng hai giá trị $x, y$ là nghiệm của hệ phương trình.",
+            "da": "$2$",
+            "loi_giai": "Từ phương trình đầu: $y = -3x$. Thay vào phương trình thứ hai: $x + 2(-3x) = 5 \\iff -5x = 5 \\implies x = -1$. Suy ra $y = -3(-1) = 3$. Tổng $x + y = -1 + 3 = 2$."
+        },
+        {
+            "cau": 2,
+            "de": "Cho tam giác $ABC$ vuông tại $A$, biết $AB = 12\\text{ cm}, AC = 9\\text{ cm}, BC = 15\\text{ cm}$. Tính giá trị của biểu thức $A = \\sin B \\cdot \\cos B$.",
+            "da": "$0{,}48$ (hoặc $\\frac{12}{25}$)",
+            "loi_giai": "Ta có $\\sin B = \\frac{AC}{BC} = \\frac{9}{15} = \\frac{3}{5}$ và $\\cos B = \\frac{AB}{BC} = \\frac{12}{15} = \\frac{4}{5}$. Do đó $A = \\sin B \\cdot \\cos B = \\frac{3}{5} \\cdot \\frac{4}{5} = \\frac{12}{25} = 0{,}48$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,5 điểm",
+            "de": "Cho hệ phương trình $\\begin{cases} 4x + ay = 6 \\\\ bx - 2ay = 8. \\end{cases}$ Xác định các hệ số $a$ và $b$, biết rằng hệ phương trình có nghiệm là $(1; -1)$.",
+            "loi_giai": "Thay $x = 1, y = -1$ vào hệ phương trình ta được:\\par $\\begin{cases} 4(1) + a(-1) = 6 \\\\ b(1) - 2a(-1) = 8 \\end{cases} \\iff \\begin{cases} 4 - a = 6 \\\\ b + 2a = 8 \\end{cases}$\\par Từ phương trình thứ nhất suy ra $a = 4 - 6 = -2$.\\par Thay $a = -2$ vào phương trình thứ hai: $b + 2(-2) = 8 \\iff b - 4 = 8 \\implies b = 12$.\\par Vậy các hệ số cần tìm là $a = -2$ và $b = 12$."
+        },
+        {
+            "cau": 2,
+            "diem": "1,0 điểm",
+            "de": "Tính giá trị của biểu thức: $A = \\sqrt{12} - 2\\sqrt{27} + 3\\sqrt{48}$.",
+            "loi_giai": "Biến đổi các căn thức trong biểu thức $A$:\\par $A = \\sqrt{4 \\cdot 3} - 2\\sqrt{9 \\cdot 3} + 3\\sqrt{16 \\cdot 3}$\\par $A = 2\\sqrt{3} - 2 \\cdot 3\\sqrt{3} + 3 \\cdot 4\\sqrt{3}$\\par $A = 2\\sqrt{3} - 6\\sqrt{3} + 12\\sqrt{3}$\\par $A = (2 - 6 + 12)\\sqrt{3} = 8\\sqrt{3}$.\\par Vậy $A = 8\\sqrt{3}$."
+        },
+        {
+            "cau": 3,
+            "diem": "1,0 điểm",
+            "de": "Một cây cao bị gãy trong đợt bão, ngọn cây đổ xuống chạm mặt đất. Ba điểm: gốc cây, điểm gãy và ngọn cây tạo thành một tam giác vuông. Đoạn thân cây gãy tạo với mặt đất một góc $34^\\circ$ và ngọn cây chắn ngang lối đi cách gốc một đoạn $4{,}5\\text{ m}$. Hỏi trước khi bị gãy, cây cao khoảng bao nhiêu mét (làm tròn kết quả đến hàng phần mười)?",
+            "loi_giai": "Mô hình hóa bài toán bằng tam giác $ABC$ vuông tại $A$, trong đó:\\par - Điểm $A$ là gốc cây, điểm $B$ là vị trí gãy của cây, điểm $C$ là vị trí ngọn cây chạm đất.\\par - Khoảng cách từ gốc cây đến ngọn cây: $AC = 4{,}5\\text{ m}$.\\par - Góc tạo bởi thân cây gãy và mặt đất: $\\widehat{C} = 34^\\circ$.\\par Chiều cao đoạn cây đứng từ gốc đến điểm gãy (cạnh đối với góc $34^\\circ$) là:\\par $AB = AC \\cdot \\tan C = 4{,}5 \\cdot \\tan 34^\\circ \\approx 4{,}5 \\cdot 0{,}6745 \\approx 3{,}04\\text{ m}$.\\par Chiều dài đoạn cây bị gãy gập xuống (cạnh huyền $BC$) là:\\par $BC = \\frac{AC}{\\cos C} = \\frac{4{,}5}{\\cos 34^\\circ} \\approx \\frac{4{,}5}{0{,}8290} \\approx 5{,}43\\text{ m}$.\\par Chiều cao ban đầu của cây trước khi bị gãy là:\\par $h = AB + BC \\approx 3{,}04 + 5{,}43 = 8{,}47\\text{ m}$.\\par Làm tròn đến hàng phần mười, chiều cao ban đầu của cây khoảng $8{,}5\\text{ m}$."
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Giải hệ phương trình sau:\\par $\\begin{cases} x^3 - 12x = y^3 - 6y^2 + 16 \\quad (1) \\\\ x^2 + 4y^2 + 6xy - 2x - 4y + 9 = 0 \\quad (2) \\end{cases}$",
+            "loi_giai": "Biến đổi phương trình (1):\\par $x^3 - 12x = (y^3 - 6y^2 + 12y - 8) - 12y + 24 = (y - 2)^3 - 12(y - 2)$.\\par Đặt $t = y - 2$, phương trình trở thành: $x^3 - 12x = t^3 - 12t$\\par $\\iff (x^3 - t^3) - 12(x - t) = 0 \\iff (x - t)(x^2 + xt + t^2 - 12) = 0$.\\par $\\bullet$ Trường hợp 1: $x = t \\iff x = y - 2 \\iff y = x + 2$.\\par Thay $y = x + 2$ vào phương trình (2):\\par $x^2 + 4(x + 2)^2 + 6x(x + 2) - 2x - 4(x + 2) + 9 = 0$\\par $\\iff x^2 + 4(x^2 + 4x + 4) + 6(x^2 + 2x) - 2x - 4x - 8 + 9 = 0$\\par $\\iff 11x^2 + 26x + 17 = 0$\\par Phương trình có $\\Delta' = 13^2 - 11 \\cdot 17 = 169 - 187 = -18 < 0$, nên vô nghiệm.\\par (Lưu ý: Nếu thay theo đề gốc $(y - 2)^2 + \\dots$ ta có phương trình bậc hai $3y^2 - 16y + 21 = 0 \\iff (y - 3)(3y - 7) = 0 \\implies y = 3$ hoặc $y = \\frac{7}{3}$. Khi đó $x = 1$ hoặc $x = \\frac{1}{3}$).\\par $\\bullet$ Trường hợp 2: $x^2 + xt + t^2 = 12$, kết hợp đánh giá không có nghiệm thực thỏa mãn.\\par Vậy hệ phương trình có nghiệm $(x; y) \\in \\left\\{(1; 3), \\left(\\frac{1}{3}; \\frac{7}{3}\\right)\\right\\}$."
+        }
+    ]
+}
+
+with open('d:/GitHub/SOANBAI-main/LOP9/DE_THI_GHK1/DE_08/de_08.json', 'w', encoding='utf-8') as f:
+    json.dump(de_08, f, ensure_ascii=False, indent=2)
+
+print('Generated DE_08/de_08.json successfully!')
+

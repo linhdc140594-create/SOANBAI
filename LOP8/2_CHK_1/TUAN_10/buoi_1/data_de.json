@@ -1,0 +1,151 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 10 - BUỔI 1",
+  "title_p2": "TOÁN 8 - TUẦN 10 - BUỔI 1",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_10_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        ["Tỉ số của hai đoạn thẳng $AB = 6\\text{ cm}$ và $CD = 15\\text{ cm}$ bằng:", "\\frac{2}{5}"],
+        ["Biết $\\dfrac{AB}{CD} = \\dfrac{A'B'}{C'D'}$ với $AB = 4, CD = 6, A'B' = 6\\text{ cm}$. Độ dài $C'D'$ là:", "9\\text{ cm}"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM = 3, MB = 6, AN = 4\\text{ cm}$. Độ dài $NC$ là:", "8\\text{ cm}"],
+        ["Bậc của đơn thức $M = -5x^3 y^2 z^4$ là:", "9"],
+        ["Giá trị của $A = 2x^2 y - 3xy$ tại $x = 1, y = -2$ bằng:", "2"],
+        ["Khai triển $(x + 4)^2 = x^2 + ax + 16$. Hệ số $a$ bằng:", "8"],
+        ["Tính nhanh giá trị biểu thức $85^2 - 15^2 = $", "7\\,000"],
+        ["Kết quả phép chia $(15x^3 y^2 - 10x^2 y) : (5x^2 y)$ là:", "3xy - 2"],
+        ["Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 65^\\circ$. Số đo góc $A$ là:", "115^\\circ"],
+        ["Cọc cao $1{,}5\\text{ m}$ có bóng $2\\text{ m}$; bóng cột cờ dài $8\\text{ m}$. Cột cờ cao:", "6\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$2x(3x^2 - 4x + 1)$",
+        "b": "$(x - 2)(x + 3) - x^2$",
+        "c": "$(x + 3)^2 - (x - 3)^2$",
+        "d": "$(15x^3 y^2 - 9x^2 y^3 + 6x^2 y^2) : (3x^2 y^2)$",
+        "e": "$(2x + 1)^2 - 4x(x + 1)$",
+        "f": "Cho $A = x^3 - 3x^2 + 3x - 1$. Tính giá trị của $A$ tại $x = 101$"
+      },
+      "q12": {
+        "a": "$2x(x - 3) - 2x^2 = 12$",
+        "b": "$x(x - 5) + 3(x - 5) = 0$",
+        "c": "$(x + 2)^2 - 9 = 0$",
+        "d": "$(2x - 1)^2 = 25$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $D$, trên cạnh $AC$ lấy điểm $E$ sao cho $DE \\parallel BC$. Cho biết $AD = 6\\text{ cm}, DB = 3\\text{ cm}, AE = 8\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Tính độ dài các đoạn thẳng $EC$ và $AC$.",
+        "b": "\\textbf{(1,0 điểm)} Qua $E$ kẻ đường thẳng song song với $AB$ cắt cạnh $BC$ tại $F$. Chứng minh tứ giác $BDEF$ là hình bình hành, từ đó suy ra $BF = DE$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $A = x^2 - 8x + 2045$."
+      }
+    },
+    "102": {
+      "short": [
+        ["Tỉ số của hai đoạn thẳng $AB = 8\\text{ cm}$ và $CD = 20\\text{ cm}$ bằng:", "\\frac{2}{5}"],
+        ["Biết $\\dfrac{AB}{CD} = \\dfrac{A'B'}{C'D'}$ với $AB = 6, CD = 9, A'B' = 8\\text{ cm}$. Độ dài $C'D'$ là:", "12\\text{ cm}"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM = 2, MB = 4, AN = 5\\text{ cm}$. Độ dài $NC$ là:", "10\\text{ cm}"],
+        ["Bậc của đơn thức $N = 7x^4 y^3 z^2$ là:", "9"],
+        ["Giá trị của $B = 3x^2 y - 4xy$ tại $x = 1, y = -2$ bằng:", "2"],
+        ["Khai triển $(x - 5)^2 = x^2 - bx + 25$. Hệ số $b$ bằng:", "10"],
+        ["Tính nhanh giá trị biểu thức $75^2 - 25^2 = $", "5\\,000"],
+        ["Kết quả phép chia $(12x^4 y^3 - 8x^3 y^2) : (4x^3 y^2)$ là:", "3xy - 2"],
+        ["Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 70^\\circ$. Số đo góc $B$ là:", "110^\\circ"],
+        ["Cọc cao $1{,}2\\text{ m}$ có bóng $1{,}5\\text{ m}$; bóng cột đèn dài $5\\text{ m}$. Cột đèn cao:", "4\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$3x(2x^2 - 3x + 2)$",
+        "b": "$(x - 3)(x + 4) - x^2$",
+        "c": "$(x + 4)^2 - (x - 4)^2$",
+        "d": "$(18x^4 y^2 - 12x^3 y^3 + 6x^3 y^2) : (6x^3 y^2)$",
+        "e": "$(3x + 1)^2 - 6x(x + 1) - 3x^2$",
+        "f": "Cho $B = x^3 + 3x^2 + 3x + 1$. Tính giá trị của $B$ tại $x = 99$"
+      },
+      "q12": {
+        "a": "$3x(x - 2) - 3x^2 = 18$",
+        "b": "$x(x - 4) + 2(x - 4) = 0$",
+        "c": "$(x + 3)^2 - 16 = 0$",
+        "d": "$(2x + 1)^2 = 25$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $D$, trên cạnh $AC$ lấy điểm $E$ sao cho $DE \\parallel BC$. Cho biết $AD = 8\\text{ cm}, DB = 4\\text{ cm}, AE = 10\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Tính độ dài các đoạn thẳng $EC$ và $AC$.",
+        "b": "\\textbf{(1,0 điểm)} Qua $E$ kẻ đường thẳng song song với $AB$ cắt cạnh $BC$ tại $F$. Chứng minh tứ giác $BDEF$ là hình bình hành, từ đó suy ra $BF = DE$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $B = x^2 - 10x + 2051$."
+      }
+    },
+    "103": {
+      "short": [
+        ["Tỉ số của hai đoạn thẳng $AB = 9\\text{ cm}$ và $CD = 21\\text{ cm}$ bằng:", "\\frac{3}{7}"],
+        ["Biết $\\dfrac{AB}{CD} = \\dfrac{A'B'}{C'D'}$ với $AB = 5, CD = 10, A'B' = 7\\text{ cm}$. Độ dài $C'D'$ là:", "14\\text{ cm}"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM = 4, MB = 8, AN = 3\\text{ cm}$. Độ dài $NC$ là:", "6\\text{ cm}"],
+        ["Bậc của đơn thức $P = -3x^2 y^4 z^3$ là:", "9"],
+        ["Giá trị của $C = 2x^2 y - 5xy$ tại $x = 1, y = -2$ bằng:", "6"],
+        ["Khai triển $(2x + 3)^2 = 4x^2 + cx + 9$. Hệ số $c$ bằng:", "12"],
+        ["Tính nhanh giá trị biểu thức $65^2 - 35^2 = $", "3\\,000"],
+        ["Kết quả phép chia $(18x^3 y^3 - 12x^2 y^2) : (6x^2 y^2)$ là:", "3xy - 2"],
+        ["Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{C} = 75^\\circ$. Số đo góc $A$ là:", "105^\\circ"],
+        ["Cọc cao $2\\text{ m}$ có bóng $3\\text{ m}$; bóng cây xanh dài $9\\text{ m}$. Cây xanh cao:", "6\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$4x(2x^2 - x + 3)$",
+        "b": "$(x - 4)(x + 5) - x^2$",
+        "c": "$(x + 5)^2 - (x - 5)^2$",
+        "d": "$(20x^3 y^3 - 15x^2 y^4 + 10x^2 y^3) : (5x^2 y^3)$",
+        "e": "$(2x - 1)^2 - 4x(x - 1)$",
+        "f": "Cho $C = x^3 - 6x^2 + 12x - 8$. Tính giá trị của $C$ tại $x = 102$"
+      },
+      "q12": {
+        "a": "$4x(x - 2) - 4x^2 = 16$",
+        "b": "$x(x - 6) + 4(x - 6) = 0$",
+        "c": "$(x + 1)^2 - 25 = 0$",
+        "d": "$(3x - 1)^2 = 16$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $D$, trên cạnh $AC$ lấy điểm $E$ sao cho $DE \\parallel BC$. Cho biết $AD = 9\\text{ cm}, DB = 3\\text{ cm}, AE = 12\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Tính độ dài các đoạn thẳng $EC$ và $AC$.",
+        "b": "\\textbf{(1,0 điểm)} Qua $E$ kẻ đường thẳng song song với $AB$ cắt cạnh $BC$ tại $F$. Chứng minh tứ giác $BDEF$ là hình bình hành, từ đó suy ra $BF = DE$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $C = x^2 - 6x + 2036$."
+      }
+    },
+    "104": {
+      "short": [
+        ["Tỉ số của hai đoạn thẳng $AB = 12\\text{ cm}$ và $CD = 28\\text{ cm}$ bằng:", "\\frac{3}{7}"],
+        ["Biết $\\dfrac{AB}{CD} = \\dfrac{A'B'}{C'D'}$ với $AB = 4, CD = 8, A'B' = 9\\text{ cm}$. Độ dài $C'D'$ là:", "18\\text{ cm}"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM = 3, MB = 9, AN = 2\\text{ cm}$. Độ dài $NC$ là:", "6\\text{ cm}"],
+        ["Bậc của đơn thức $Q = 6x^5 y^2 z^2$ là:", "9"],
+        ["Giá trị của $D = 4x^2 y - 5xy$ tại $x = 1, y = -2$ bằng:", "2"],
+        ["Khai triển $(3x - 2)^2 = 9x^2 - dx + 4$. Hệ số $d$ bằng:", "12"],
+        ["Tính nhanh giá trị biểu thức $95^2 - 5^2 = $", "9\\,000"],
+        ["Kết quả phép chia $(21x^4 y^2 - 14x^3 y) : (7x^3 y)$ là:", "3xy - 2"],
+        ["Hình thang cân $ABCD$ ($AB \\parallel CD$) có $\\widehat{D} = 80^\\circ$. Số đo góc $B$ là:", "100^\\circ"],
+        ["Cọc cao $1{,}5\\text{ m}$ có bóng $2{,}5\\text{ m}$; bóng toà nhà dài $15\\text{ m}$. Toà nhà cao:", "9\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$5x(2x^2 - 3x + 1)$",
+        "b": "$(x - 5)(x + 6) - x^2$",
+        "c": "$(x + 2)^2 - (x - 2)^2$",
+        "d": "$(24x^4 y^3 - 16x^3 y^4 + 8x^3 y^3) : (8x^3 y^3)$",
+        "e": "$(3x - 1)^2 - 9x(x - 1) - 3x$",
+        "f": "Cho $D = x^3 + 6x^2 + 12x + 8$. Tính giá trị của $D$ tại $x = 98$"
+      },
+      "q12": {
+        "a": "$5x(x - 2) - 5x^2 = 20$",
+        "b": "$x(x - 7) + 3(x - 7) = 0$",
+        "c": "$(x + 4)^2 - 9 = 0$",
+        "d": "$(3x + 1)^2 = 16$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $D$, trên cạnh $AC$ lấy điểm $E$ sao cho $DE \\parallel BC$. Cho biết $AD = 10\\text{ cm}, DB = 5\\text{ cm}, AE = 14\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Tính độ dài các đoạn thẳng $EC$ và $AC$.",
+        "b": "\\textbf{(1,0 điểm)} Qua $E$ kẻ đường thẳng song song với $AB$ cắt cạnh $BC$ tại $F$. Chứng minh tứ giác $BDEF$ là hình bình hành, từ đó suy ra $BF = DE$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $D = x^2 - 12x + 2064$."
+      }
+    }
+  }
+}

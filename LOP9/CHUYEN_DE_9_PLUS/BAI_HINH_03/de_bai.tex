@@ -1,0 +1,101 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_03 (TRÍCH ĐỀ 3)
+\begin{ex}
+Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$). Vẽ đường tròn $(O)$ đường kính $BC$. Đường tròn $(O)$ cắt các cạnh $AB, AC$ lần lượt tại $D$ và $E$ ($D \ne B, E \ne C$). Gọi $H$ là giao điểm của $BE$ và $CD$.
+\begin{enumerate}[a)]
+    \item Chứng minh bốn điểm $A, D, H, E$ cùng nằm trên một đường tròn. Xác định vị trí tâm $I$ của đường tròn đó.
+    \item Chứng minh $AE \cdot AC = AB \cdot AD$ và $\triangle ADE \backsim \triangle ACB$.
+    \item Gọi $I$ là trung điểm của $AH$. Chứng minh $IE$ là tiếp tuyến của đường tròn $(O)$ đường kính $BC$.
+\end{enumerate}
+\loigiai{
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap = round, >=stealth, font=\footnotesize, scale=1]
+    % Tham số
+    \def\r{3}
+    
+    % Tọa độ các điểm
+    \coordinate (O) at (0,0);
+    \coordinate (B) at (-\r,0);
+    \coordinate (C) at (\r,0);
+    \coordinate (A) at (-1, 4.2); % Tam giác nhọn, AB < AC
+    
+    % Hình chiếu tạo trực tâm
+    \coordinate (D) at ($(A)!(C)!(B)$); % C chân đường cao CD lên AB
+    \coordinate (E) at ($(A)!(B)!(C)$); % B chân đường cao BE lên AC
+    \coordinate (H) at (intersection of B--E and C--D);
+    \coordinate (I) at ($(A)!0.5!(H)$); % I là trung điểm AH
+    
+    % Vẽ các đường tròn
+    \draw[thick, teal] (O) circle (\r);
+    \draw[dashed, blue!70] let \p1 = ($(I)-(A)$), \n1 = {veclen(\x1,\y1)} in (I) circle (\n1);
+    
+    % Vẽ tam giác và các đường thẳng
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    \draw[thick, blue] (B) -- (E);
+    \draw[thick, blue] (C) -- (D);
+    \draw[dashed] (A) -- (H);
+    \draw[thick, red] (I) -- (E);
+    \draw[thick, orange] (O) -- (E);
+    \draw[dashed] (D) -- (E);
+    
+    % Ký hiệu góc vuông
+    \pic[draw, angle radius=2.5mm]{right angle = C--D--A};
+    \pic[draw, angle radius=2.5mm]{right angle = B--E--A};
+    \pic[draw, red, angle radius=2.5mm]{right angle = I--E--O};
+    
+    % Đánh dấu các điểm
+    \fill (O) circle (1.5pt) node[below] {$O$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill (A) circle (1.5pt) node[above] {$A$};
+    \fill (D) circle (1.5pt) node[above left] {$D$};
+    \fill (E) circle (1.5pt) node[above right] {$E$};
+    \fill (H) circle (1.5pt) node[below right] {$H$};
+    \fill[red] (I) circle (1.5pt) node[left] {$I$};
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}[a)]
+    \item \textbf{Chứng minh bốn điểm $A, D, H, E$ cùng thuộc một đường tròn và xác định tâm $I$:}
+    \begin{itemize}
+        \item Do $D, E$ thuộc đường tròn $(O)$ đường kính $BC$ nên $\widehat{BDC} = 90^\circ$ và $\widehat{BEC} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn).
+        \item Suy ra $CD \perp AB \implies \widehat{ADH} = 90^\circ$ và $BE \perp AC \implies \widehat{AEH} = 90^\circ$.
+        \item Xét tứ giác $ADHE$ có $\widehat{ADH} + \widehat{AEH} = 90^\circ + 90^\circ = 180^\circ$.
+        \item Do đó tứ giác $ADHE$ nội tiếp đường tròn đường kính $AH$.
+        \item Tâm $I$ của đường tròn này là trung điểm của đoạn thẳng $AH$.
+    \end{itemize}
+
+    \item \textbf{Chứng minh $AE \cdot AC = AB \cdot AD$ và $\triangle ADE \backsim \triangle ACB$:}
+    \begin{itemize}
+        \item Xét hai tam giác vuông $\triangle AEB$ và $\triangle ADC$ có:
+        \[
+        \widehat{AEB} = \widehat{ADC} = 90^\circ \quad \text{và} \quad \widehat{BAC} \text{ là góc chung.}
+        \]
+        \item Suy ra $\triangle AEB \backsim \triangle ADC$ (g.g).
+        \item Do đó $\dfrac{AE}{AD} = \dfrac{AB}{AC} \implies AE \cdot AC = AB \cdot AD$.
+        \item Từ tỉ số $\dfrac{AE}{AB} = \dfrac{AD}{AC}$ kết hợp với góc $\widehat{BAC}$ chung, suy ra $\triangle ADE \backsim \triangle ACB$ (c.g.c).
+    \end{itemize}
+
+    \item \textbf{Chứng minh $IE$ là tiếp tuyến của đường tròn $(O)$ đường kính $BC$:}
+    \begin{itemize}
+        \item Vì $E \in (O)$ nên để chứng minh $IE$ là tiếp tuyến của $(O)$, ta cần chứng minh $IE \perp OE$, tức là $\widehat{IEO} = 90^\circ$.
+        \item Ta có $\widehat{IEO} = \widehat{IEH} + \widehat{HEO}$.
+        \item Vì $\triangle AEH$ vuông tại $E$ có $I$ là trung điểm của cạnh huyền $AH$ nên $IE = IH = \dfrac{1}{2}AH$ (tính chất đường trung tuyến ứng với cạnh huyền).
+        Suy ra $\triangle IEH$ cân tại $I \implies \widehat{IEH} = \widehat{IHE}$.
+        \item Mặt khác, $\widehat{IHE} = \widehat{BHD}$ (hai góc đối đỉnh), do đó $\widehat{IEH} = \widehat{BHD}$.
+        \item Lại có $OE = OC = R$ (bán kính của $(O)$) nên $\triangle OEC$ cân tại $O \implies \widehat{HEO} = \widehat{OEC} = \widehat{OCE} = \widehat{HCD}$.
+        \item Suy ra:
+        \[
+        \widehat{IEO} = \widehat{IEH} + \widehat{HEO} = \widehat{BHD} + \widehat{HCD}.
+        \]
+        \item Xét tam giác vuông $BDH$ vuông tại $D$ ($\widehat{BDH} = 90^\circ$), ta có:
+        \[
+        \widehat{BHD} + \widehat{HBD} = 90^\circ.
+        \]
+        Mà trong tam giác vuông $BDC$ vuông tại $D$, ta có $\widehat{HBD} = \widehat{CBD} = 90^\circ - \widehat{DCB} \implies \widehat{BHD} = \widehat{DCB} = \widehat{HCD}$.
+        Hoặc đơn giản: $\widehat{BHD} + \widehat{HCD} = \widehat{BHD} + \widehat{HBD} = 90^\circ$ (do $\triangle BHD$ vuông tại $D$).
+        \item Do đó $\widehat{IEO} = 90^\circ \implies IE \perp OE$ tại điểm $E \in (O)$.
+        \item Vậy $IE$ là tiếp tuyến của đường tròn $(O)$ đường kính $BC$ (đpcm).
+    \end{itemize}
+\end{enumerate}
+}
+\end{ex}

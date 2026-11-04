@@ -1,0 +1,251 @@
+import os
+import sys
+import json
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": "09",
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+    "mon": "Toán 6",
+    "thoi_gian": "90 phút",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Cho tập hợp $M = \\{1; 5; a; b\\}$. Trong các khẳng định sau, khẳng định sai là:",
+            "a": "$1 \\in M$.",
+            "b": "$c \\notin M$.",
+            "c": "$a \\in M$.",
+            "d": "$b \\notin M$.",
+            "da": "D",
+            "loigiai": "Phần tử $b$ thuộc tập hợp $M$, nên viết $b \\notin M$ là khẳng định sai."
+        },
+        {
+            "cau": 2,
+            "de": "Tập hợp $P$ các số tự nhiên lớn hơn 9 có thể viết là:",
+            "a": "$P = \\{x \\in \\mathbb{N} \\mid x < 10\\}$.",
+            "b": "$P = \\{x \\in \\mathbb{N} \\mid x \\le 10\\}$.",
+            "c": "$P = \\{x \\in \\mathbb{N} \\mid x > 10\\}$.",
+            "d": "$P = \\{x \\in \\mathbb{N} \\mid x \\ge 10\\}$.",
+            "da": "D",
+            "loigiai": "Các số tự nhiên lớn hơn 9 là $10; 11; 12; \\dots$, tức là các số tự nhiên lớn hơn hoặc bằng 10. Do đó, $P = \\{x \\in \\mathbb{N} \\mid x \\ge 10\\}$."
+        },
+        {
+            "cau": 3,
+            "de": "Số liền trước và số liền sau của số $2\\,024$ lần lượt là:",
+            "a": "$2\\,023; 2\\,024$.",
+            "b": "$2\\,022; 2\\,023$.",
+            "c": "$2\\,026; 2\\,026$.",
+            "d": "$2\\,023; 2\\,025$.",
+            "da": "D",
+            "loigiai": "Số liền trước của $2\\,024$ là $2\\,024 - 1 = 2\\,023$, số liền sau của $2\\,024$ là $2\\,024 + 1 = 2\\,025$."
+        },
+        {
+            "cau": 4,
+            "de": "Với $a, m, n$ là các số tự nhiên ($a \\ne 0$), khẳng định nào sau đây đúng?",
+            "a": "$a^m \\cdot a^n = a^{m+n}$.",
+            "b": "$a^m \\cdot a^n = a^{m-n}$.",
+            "c": "$a^m \\cdot a^n = a^{m \\cdot n}$.",
+            "d": "$a^m \\cdot a^n = (a \\cdot m) + n$.",
+            "da": "A",
+            "loigiai": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ: $a^m \\cdot a^n = a^{m+n}$."
+        },
+        {
+            "cau": 5,
+            "de": "Trong các số $0; 1; 2; 4; 6; 16$, số nào là bội của 8?",
+            "a": "$1; 2; 4$.",
+            "b": "$2; 4$.",
+            "c": "$0; 1; 16$.",
+            "d": "$0; 16$.",
+            "da": "D",
+            "loigiai": "Các số chia hết cho 8 trong dãy đã cho là 0 và 16 ($0 = 8 \\cdot 0$ và $16 = 8 \\cdot 2$)."
+        },
+        {
+            "cau": 6,
+            "de": "Hình vuông có cạnh bằng $15\\text{ cm}$ thì chu vi bằng:",
+            "a": "$225\\text{ cm}^2$.",
+            "b": "$225\\text{ cm}$.",
+            "c": "$60\\text{ cm}^2$.",
+            "d": "$60\\text{ cm}$.",
+            "da": "D",
+            "loigiai": "Chu vi hình vuông là: $15 \\times 4 = 60\\text{ (cm)}$."
+        },
+        {
+            "cau": 7,
+            "de": "Tập hợp các ước chung của 9 và 15 là:",
+            "a": "$\\{1; 3\\}$.",
+            "b": "$\\{0; 3\\}$.",
+            "c": "$\\{1; 5\\}$.",
+            "d": "$\\{1; 3; 9\\}$.",
+            "da": "A",
+            "loigiai": "Ta có $Ư(9) = \\{1; 3; 9\\}$ và $Ư(15) = \\{1; 3; 5; 15\\}$. Do đó $ƯC(9, 15) = \\{1; 3\\}$."
+        },
+        {
+            "cau": 8,
+            "de": "Trong các số sau đây, số nào chia hết cho $2^3$?",
+            "a": "$23$.",
+            "b": "$3^5$.",
+            "c": "$4^2$.",
+            "d": "$6^2$.",
+            "da": "C",
+            "loigiai": "Ta có $2^3 = 8$. Xét các phương án: $4^2 = 16$ chia hết cho 8. Các số còn lại không chia hết cho 8."
+        },
+        {
+            "cau": 9,
+            "de": "Cho tam giác $ABC$ đều. Khẳng định nào sau đây là sai?",
+            "a": "Ba cạnh bằng nhau: $AB = BC = CA$.",
+            "b": "Ba đỉnh $A, B, C$ bằng nhau.",
+            "c": "Ba góc ở đỉnh $A, B, C$ bằng nhau.",
+            "d": "Ba góc $\\widehat{A}, \\widehat{B}, \\widehat{C}$ bằng nhau.",
+            "da": "B",
+            "loigiai": "Đỉnh là các điểm hình học, không có khái niệm các đỉnh bằng nhau nên khẳng định B là sai."
+        },
+        {
+            "cau": 10,
+            "de": "Cho tam giác đều $ABC$ có cạnh $AB = 3\\text{ cm}$. Chu vi của tam giác đều $ABC$ là:",
+            "a": "$3\\text{ cm}$.",
+            "b": "$9\\text{ cm}$.",
+            "c": "$12\\text{ cm}$.",
+            "d": "$18\\text{ cm}$.",
+            "da": "B",
+            "loigiai": "Chu vi của tam giác đều $ABC$ là: $3 \\times 3 = 9\\text{ (cm)}$."
+        },
+        {
+            "cau": 11,
+            "de": "Mảnh đất hình thang vuông $ABCD$ như hình vẽ, biết $AB = 12\\text{ m}$, $DC = 26\\text{ m}$, diện tích hình chữ nhật $ABKD$ là $168\\text{ m}^2$. Diện tích mảnh đất hình thang $ABCD$ là:",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.75, font=\\small]\n  \\coordinate (D) at (0,0);\n  \\coordinate (K) at (2.4,0);\n  \\coordinate (C) at (5.2,0);\n  \\coordinate (B) at (2.4,2.8);\n  \\coordinate (A) at (0,2.8);\n  \\draw[thick, fill=blue!8] (A) -- (B) -- (C) -- (D) -- cycle;\n  \\draw[thick, dashed] (B) -- (K);\n  \\draw (0,0.3) -- (0.3,0.3) -- (0.3,0);\n  \\draw (0,2.5) -- (0.3,2.5) -- (0.3,2.8);\n  \\draw (2.4,0.3) -- (2.7,0.3) -- (2.7,0);\n  \\filldraw (A) circle (1.5pt) node[above left] {$A$};\n  \\filldraw (B) circle (1.5pt) node[above right] {$B$};\n  \\filldraw (C) circle (1.5pt) node[below right] {$C$};\n  \\filldraw (D) circle (1.5pt) node[below left] {$D$};\n  \\filldraw (K) circle (1.5pt) node[below] {$K$};\n  \\node[above] at (1.2,2.8) {$12\\text{ m}$};\n  \\node[below] at (2.6,0) {$26\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+            "a": "$168\\text{ m}^2$.",
+            "b": "$133\\text{ m}^2$.",
+            "c": "$266\\text{ m}^2$.",
+            "d": "$312\\text{ m}^2$.",
+            "da": "C",
+            "loigiai": "Chiều cao $AD$ của hình thang bằng chiều rộng hình chữ nhật $ABKD$:\\\\$AD = 168 : 12 = 14\\text{ (m)}$.\\\\Diện tích hình thang $ABCD$ là:\\\\$S = \\dfrac{(12 + 26) \\cdot 14}{2} = 266\\text{ (m}^2\\text{)}$."
+        },
+        {
+            "cau": 12,
+            "de": "Bạn An có ngày sinh là số nguyên tố lớn nhất nhỏ hơn 20, tháng sinh của bạn là số nguyên tố nhỏ nhất. Vậy bạn An có ngày và tháng sinh là:",
+            "a": "Ngày 19 tháng 3.",
+            "b": "Ngày 19 tháng 2.",
+            "c": "Ngày 7 tháng 2.",
+            "d": "Ngày 7 tháng 3.",
+            "da": "B",
+            "loigiai": "Số nguyên tố lớn nhất nhỏ hơn 20 là 19, số nguyên tố nhỏ nhất là 2. Do đó An sinh ngày 19 tháng 2."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Xét tính đúng/sai của các mệnh đề sau:",
+            "y_a": {"noi_dung": "Số $1975$ là hợp số.", "da": "D", "giai": "Đúng. Số 1975 có chữ số tận cùng là 5 nên chia hết cho 5, ngoài ra nó còn có các ước khác 1 và chính nó như 5, 395."},
+            "y_b": {"noi_dung": "Mọi số nguyên tố đều là số lẻ.", "da": "S", "giai": "Sai. Số 2 là số nguyên tố và là số chẵn."},
+            "y_c": {"noi_dung": "Số 1 không là hợp số cũng không là số nguyên tố.", "da": "D", "giai": "Đúng. Theo định nghĩa, số 0 và số 1 không phải là số nguyên tố cũng không phải là hợp số."},
+            "y_d": {"noi_dung": "Tổng của hai số nguyên tố bất kì luôn là một số chẵn.", "da": "S", "giai": "Sai. Ví dụ $2$ và $3$ đều là số nguyên tố, nhưng tổng $2 + 3 = 5$ là số lẻ."}
+        },
+        {
+            "cau": 2,
+            "de": "Cho hình thoi $MNPQ$ có độ dài hai đường chéo lần lượt là $MP = 10\\text{ cm}$ và $NQ = 6\\text{ cm}$. Xét tính đúng/sai của các khẳng định sau:",
+            "y_a": {"noi_dung": "Bốn cạnh $MN, NP, PQ, QM$ có độ dài bằng nhau.", "da": "D", "giai": "Đúng. Hình thoi có đặc điểm là bốn cạnh đều có độ dài bằng nhau."},
+            "y_b": {"noi_dung": "Hai đường chéo $MP$ và $NQ$ song song với nhau.", "da": "S", "giai": "Sai. Hai đường chéo của hình thoi cắt nhau và vuông góc với nhau, không song song với nhau."},
+            "y_c": {"noi_dung": "Diện tích của hình thoi $MNPQ$ là $30\\text{ cm}^2$.", "da": "D", "giai": "Đúng. Diện tích hình thoi bằng nửa tích độ dài hai đường chéo: $S = \\dfrac{10 \\cdot 6}{2} = 30\\text{ (cm}^2\\text{)}$."},
+            "y_d": {"noi_dung": "Hai đường chéo $MP$ và $NQ$ cắt nhau tại trung điểm của mỗi đường và vuông góc với nhau.", "da": "D", "giai": "Đúng. Đây là tính chất đặc trưng cơ bản về hai đường chéo của hình thoi."}
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Tìm số tự nhiên $x$ thỏa mãn $3 \\cdot (x - 5) = 2^3 \\cdot 3$.",
+            "da": "13",
+            "loigiai": "Ta có: $2^3 \\cdot 3 = 8 \\cdot 3 = 24$.\\\\Biểu thức trở thành: $3 \\cdot (x - 5) = 24 \\Rightarrow x - 5 = 24 : 3 = 8 \\Rightarrow x = 8 + 5 = 13$."
+        },
+        {
+            "cau": 2,
+            "de": "Một hình bình hành có độ dài một cạnh bằng $10\\text{ cm}$ và chiều cao tương ứng bằng $6\\text{ cm}$. Tính diện tích của hình bình hành đó (theo đơn vị $\\text{cm}^2$).",
+            "da": "60",
+            "loigiai": "Diện tích của hình bình hành là: $S = 10 \\times 6 = 60\\text{ (cm}^2\\text{)}$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "0,75 điểm",
+            "de": "Viết tập hợp $A$ các số tự nhiên lớn hơn 9 và nhỏ hơn 15 bằng hai cách.",
+            "loigiai": "\\textbf{Cách 1 (Liệt kê các phần tử):}\\\\ $A = \\{10; 11; 12; 13; 14\\}$.\\\\\n\\textbf{Cách 2 (Chỉ ra tính chất đặc trưng):}\\\\ $A = \\{x \\in \\mathbb{N} \\mid 9 < x < 15\\}$."
+        },
+        {
+            "cau": 2,
+            "diem": "1,0 điểm",
+            "de": "Thực hiện phép tính:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "$(30 - 10 \\cdot 2) : 5$",
+                    "loigiai": "$(30 - 10 \\cdot 2) : 5 = (30 - 20) : 5 = 10 : 5 = 2$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "$135 \\cdot 3^2 - 3^2 \\cdot 130$",
+                    "loigiai": "$135 \\cdot 3^2 - 3^2 \\cdot 130 = 3^2 \\cdot (135 - 130) = 9 \\cdot 5 = 45$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "0,75 điểm",
+            "de": "Một mảnh vườn hình chữ nhật có chiều dài $40\\text{ m}$ và chiều rộng $30\\text{ m}$.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,375",
+                    "noi_dung": "Tính chu vi và diện tích của mảnh vườn.",
+                    "loigiai": "Chu vi mảnh vườn là: $\\mathcal{P} = (40 + 30) \\cdot 2 = 140\\text{ (m)}$.\\\\Diện tích mảnh vườn là: $S = 40 \\cdot 30 = 1200\\text{ (m}^2\\text{)}$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,375",
+                    "noi_dung": "Biết rằng mỗi túi hạt giống gieo vừa đủ $100\\text{ m}^2$ đất và mỗi túi giá $40\\,000$ đồng. Hỏi cần bao nhiêu túi hạt giống để gieo vừa hết mảnh vườn và cần bao nhiêu tiền?",
+                    "loigiai": "Số túi hạt giống cần dùng là: $1200 : 100 = 12\\text{ (túi)}$.\\\\Số tiền cần mua hạt giống là: $12 \\cdot 40\\,000 = 480\\,000\\text{ (đồng)}$."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Cho các số tự nhiên: $23; 87; 64; 270; 425; 136; 2808$.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,125",
+                    "noi_dung": "Số nào chia hết cho 2?",
+                    "loigiai": "Các số có chữ số tận cùng là chữ số chẵn chia hết cho 2 là: $64; 270; 136; 2808$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,125",
+                    "noi_dung": "Số nào chia hết cho 3?",
+                    "loigiai": "Các số có tổng chữ số chia hết cho 3 là: $87; 270; 2808$."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,125",
+                    "noi_dung": "Số nào chia hết cho 5?",
+                    "loigiai": "Các số có chữ số tận cùng là 0 hoặc 5 chia hết cho 5 là: $270; 425$."
+                },
+                {
+                    "y": "d",
+                    "diem_y": "0,125",
+                    "noi_dung": "Số nào chia hết cho cả 2 và 5?",
+                    "loigiai": "Số có chữ số tận cùng là 0 chia hết cho cả 2 và 5 là: $270$."
+                }
+            ]
+        }
+    ]
+}
+
+out_path = r"d:\GitHub\SOANBAI-main\LOP6\DE_THI_GHK1\DE_09\de_09.json"
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Saved de_09.json successfully!")
+

@@ -1,0 +1,357 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[top=1.2cm, bottom=1.2cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[loigiai]{ex_test}
+\SAOPTN{widthSA=2.6,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 6 -- Hướng dẫn giải Đề số 5}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Large HƯỚNG DẪN GIẢI CHI TIẾT VÀ BẢNG ĐÁP ÁN}\\
+  \textbf{\large ĐỀ ÔN TẬP GIỮA HỌC KỲ I -- ĐỀ SỐ 5}\\
+  \textit{Môn: Toán 6 -- Năm học 2026 -- 2027}
+\end{center}
+\vspace{2mm}
+
+% --- BẢNG ĐÁP ÁN TRẮC NGHIỆM TỔNG HỢP ---
+\noindent\textbf{\large A. BẢNG ĐÁP ÁN TRẮC NGHIỆM TỔNG HỢP}
+\vspace{1.5mm}
+
+\noindent\textbf{1. Phần I (Mỗi câu trả lời đúng được 0,25 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{D} & \textbf{D} & \textbf{A} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{B} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{1mm}
+
+\noindent\textbf{2. Phần II (Đúng/Sai):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
+\hline
+\textbf{Câu 1} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} & \textbf{Câu 2} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} \\
+\hline
+\textbf{Đ/S} & \textbf{Đ} & \textbf{S} & \textbf{Đ} & \textbf{S} & \textbf{Đ/S} & \textbf{Đ} & \textbf{S} & \textbf{Đ} & \textbf{Đ} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{1mm}
+
+\noindent\textbf{3. Phần III (Mỗi câu trả lời đúng được 1,0 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} \\
+\hline
+\textbf{Đáp án} & \textbf{81} & \textbf{36} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{3mm}
+
+% --- LỜI GIẢI CHI TIẾT ---
+\noindent\textbf{\large B. HƯỚNG DẪN GIẢI CHI TIẾT TỪNG CÂU}
+\vspace{2mm}
+
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}
+\vspace{1mm}
+\begin{ex}
+Cho $A$ là tập hợp các số tự nhiên nhỏ hơn $5$. Tập hợp $A$ được viết như thế nào?
+\choice
+{$A = \{1; 2; 3; 4\}$}
+{\True $A = \{0; 1; 2; 3; 4\}$}
+{$A = \{1; 2; 3; 4; 5\}$}
+{$A = \{0; 1; 2; 3; 4; 5\}$}
+\loigiai{
+Các số tự nhiên nhỏ hơn 5 bắt đầu từ 0 và gồm các số: $0, 1, 2, 3, 4$. Do đó $A = \{0; 1; 2; 3; 4\}$.
+}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép tính $5^2 \cdot 5$ là:
+\choice
+{$5$}
+{$5^2$}
+{\True $5^3$}
+{$25^2$}
+\loigiai{
+Ta có: $5^2 \cdot 5 = 5^2 \cdot 5^1 = 5^{2+1} = 5^3$.
+}
+\end{ex}
+
+\begin{ex}
+Lũy thừa $2^4$ có giá trị bằng lũy thừa nào sau đây?
+\choice
+{\True $4^2$}
+{$3^3$}
+{$5^1$}
+{$2^2 + 2^2$}
+\loigiai{
+Ta có: $2^4 = 16$ và $4^2 = 16$. Do đó $2^4 = 4^2$.
+}
+\end{ex}
+
+\begin{ex}
+Số nào sau đây chia hết cho $5$ nhưng không chia hết cho $3$?
+\choice
+{\True $325$}
+{$240$}
+{$225$}
+{$600$}
+\loigiai{
+Số 325 có tận cùng là 5 nên chia hết cho 5; tổng các chữ số là $3 + 2 + 5 = 10$ không chia hết cho 3. Các số 240, 225, 600 đều chia hết cho 3.
+}
+\end{ex}
+
+\begin{ex}
+Số nào dưới đây là một bội chung của $3, 4, 5$?
+\choice
+{\True $120$}
+{$190$}
+{$145$}
+{$150$}
+\loigiai{
+Ta có $\text{BCNN}(3, 4, 5) = 60$. Trong các số đã cho, chỉ có số 120 là bội của 60 ($120 = 60 \times 2$).
+}
+\end{ex}
+
+\begin{ex}
+Tam giác $ABC$ là tam giác đều, khi đó:
+\choice
+{$AB < BC < CA$}
+{$AB > BC > CA$}
+{Độ dài ba cạnh $AB, BC, CA$ đôi một khác nhau}
+{\True $AB = BC = CA$}
+\loigiai{
+Theo định nghĩa, tam giác đều là tam giác có ba cạnh bằng nhau: $AB = BC = CA$.
+}
+\end{ex}
+
+\begin{ex}
+Chọn phát biểu đúng trong các phát biểu sau:
+\choice
+{$0$ là bội của mọi số tự nhiên}
+{Các số nguyên tố nhỏ hơn 12 là $1; 2; 5; 7$}
+{$1$ là số nguyên tố nhỏ nhất}
+{\True Số $2$ là số nguyên tố chẵn duy nhất}
+\loigiai{
+Số 2 là số nguyên tố nhỏ nhất và cũng là số nguyên tố chẵn duy nhất (các số chẵn lớn hơn 2 đều chia hết cho 2 nên là hợp số).
+}
+\end{ex}
+
+\begin{ex}
+Công thức nào sau đây thể hiện tính chất phân phối của phép nhân đối với phép cộng?
+\choice
+{\True $a(b + c) = ab + ac$}
+{$(a + b) + c = a + (b + c)$}
+{$ab = ba$}
+{$(ab)c = a(bc)$}
+\loigiai{
+Công thức $a(b + c) = ab + ac$ thể hiện tính chất phân phối của phép nhân đối với phép cộng.
+}
+\end{ex}
+
+\begin{ex}
+Phát biểu nào dưới đây là sai?
+\choice
+{Hình vuông có hai đường chéo vuông góc với nhau}
+{Hình lục giác đều có sáu góc bằng nhau}
+{\True Hình tam giác đều có ba đường chéo bằng nhau}
+{Hình vuông có bốn góc bằng nhau và bằng $90^\circ$}
+\loigiai{
+Hình tam giác không có đường chéo (chỉ có 3 cạnh). Do đó khẳng định C là sai.
+}
+\end{ex}
+
+\begin{ex}
+Cho hai tập hợp $M = \{a; 5; b; c\}$ và $N = \{d; 3; e; 7\}$. Khẳng định nào sau đây là sai?
+\choice
+{\True $5 \in N$}
+{$3 \in N$}
+{$a \in M$}
+{$c \in M$}
+\loigiai{
+Phần tử 5 thuộc tập hợp $M$, không thuộc tập hợp $N$. Do đó khẳng định $5 \in N$ là sai.
+}
+\end{ex}
+
+\begin{ex}
+Trong các số sau, số nào chia hết cho $5$?
+\choice
+{$553$}
+{\True $12340$}
+{$578$}
+{$786$}
+\loigiai{
+Số chia hết cho 5 là số có chữ số tận cùng bằng 0 hoặc 5. Trong các số trên, số 12340 có tận cùng là 0 nên chia hết cho 5.
+}
+\end{ex}
+
+\begin{ex}
+Hình nào trong các hình sau có hai cạnh đối song song và hai đường chéo bằng nhau?
+\choice
+{Hình bình hành}
+{\True Hình thang cân}
+{Hình thoi}
+{Hình tam giác đều}
+\loigiai{
+Hình thang cân là hình có hai đáy song song và hai đường chéo bằng nhau.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+\vspace{1mm}
+\begin{ex}
+Xét tính đúng hay sai của các mệnh đề sau:
+\choiceTF
+{\True $11$ là số nguyên tố}
+{$15$ là số nguyên tố}
+{\True $17$ là số nguyên tố}
+{$21$ là số nguyên tố}
+\loigiai{
+\begin{itemize}[leftmargin=0.6cm, itemsep=1pt]
+\item \textbf{a)} \textbf{Đúng}. Số 11 chỉ có hai ước tự nhiên là 1 và 11. Khẳng định đúng.
+\item \textbf{b)} \textbf{Sai}. Số 15 có các ước là 1, 3, 5, 15 nên là hợp số. Khẳng định sai.
+\item \textbf{c)} \textbf{Đúng}. Số 17 chỉ có hai ước tự nhiên là 1 và 17. Khẳng định đúng.
+\item \textbf{d)} \textbf{Sai}. Số 21 chia hết cho 3 và 7 nên là hợp số. Khẳng định sai.
+\end{itemize}
+}
+\end{ex}
+
+\begin{ex}
+Cho $15$ số tự nhiên đầu tiên (từ $0$ đến $14$). Xét tính đúng hay sai của các mệnh đề sau:
+\choiceTF
+{\True Trong các số đã cho, có $2$ số chia hết cho cả $2$ và $5$}
+{Trong các số đã cho, có $5$ số chia hết cho $9$}
+{\True Trong các số đã cho, có $6$ số là số nguyên tố}
+{\True Trong các số đã cho, có $5$ số là bội của $3$}
+\loigiai{
+\begin{itemize}[leftmargin=0.6cm, itemsep=1pt]
+\item \textbf{a)} \textbf{Đúng}. Các số chia hết cho cả 2 và 5 là số có tận cùng bằng 0: gồm $\{0; 10\}$ (đúng 2 số). Khẳng định đúng.
+\item \textbf{b)} \textbf{Sai}. Các số chia hết cho 9 từ 0 đến 14 gồm $\{0; 9\}$ (chỉ có 2 số). Khẳng định sai.
+\item \textbf{c)} \textbf{Đúng}. Các số nguyên tố từ 0 đến 14 gồm $\{2; 3; 5; 7; 11; 13\}$ (đúng 6 số). Khẳng định đúng.
+\item \textbf{d)} \textbf{Đúng}. Các bội của 3 từ 0 đến 14 gồm $\{0; 3; 6; 9; 12\}$ (đúng 5 số). Khẳng định đúng.
+\end{itemize}
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+\vspace{1mm}
+\begin{ex}
+Tính diện tích của một hình vuông có chu vi bằng $36\text{ cm}$ (đơn vị: $\text{cm}^2$). \shortans{$81$}
+\loigiai{
+Độ dài cạnh của hình vuông là: $36 : 4 = 9\text{ (cm)}$. Diện tích của hình vuông là: $9 \times 9 = 81\text{ (cm}^2\text{)}$.
+}
+\end{ex}
+
+\begin{ex}
+Tìm số tự nhiên $x$ nhỏ nhất khác $0$ sao cho $x \ \vdots \ 12$ và $x \ \vdots \ 18$. \shortans{$36$}
+\loigiai{
+Số tự nhiên $x$ nhỏ nhất khác 0 thỏa mãn $x \ \vdots \ 12$ và $x \ \vdots \ 18$ chính là $\text{BCNN}(12, 18)$. Ta có: $12 = 2^2 \cdot 3$; $18 = 2 \cdot 3^2 \implies \text{BCNN}(12, 18) = 2^2 \cdot 3^2 = 36$. Vậy $x = 36$.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN (3,0 ĐIỂM - CÓ BAREM ĐIỂM CHI TIẾT)}
+\vspace{1mm}
+\begin{ex} (1.0 điểm)
+Thực hiện phép tính:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item $3 \cdot 5^2 - 16 : 2^2$
+\item $20 - [30 - (5 - 1)^2]$
+\end{enumerate}
+\loigiai{
+\begin{itemize}[leftmargin=0.5cm, itemsep=3pt]
+\item \textbf{a)} $3 \cdot 5^2 - 16 : 2^2 = 3 \cdot 25 - 16 : 4 = 75 - 4 = 71$. \hfill \textbf{[0.5đ]}
+\item \textbf{b)} $20 - [30 - (5 - 1)^2] = 20 - [30 - 4^2] = 20 - [30 - 16] = 20 - 14 = 6$. \hfill \textbf{[0.5đ]}
+\end{itemize}
+}
+\end{ex}
+\vspace{1.5mm}
+
+\begin{ex} (0.75 điểm)
+Tìm số tự nhiên $x$, biết:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item $x - 15 = 2025$
+\item $39 + (x - 47) = 160$
+\end{enumerate}
+\loigiai{
+\begin{itemize}[leftmargin=0.5cm, itemsep=3pt]
+\item \textbf{a)} $x = 2025 + 15 \implies x = 2040$. \hfill \textbf{[0.25đ]}
+\item \textbf{b)} $x - 47 = 160 - 39$\
+$x - 47 = 121$\
+$x = 121 + 47 = 168$. \hfill \textbf{[0.5đ]}
+\end{itemize}
+}
+\end{ex}
+\vspace{1.5mm}
+
+\begin{ex} (0.75 điểm)
+Bạn Ánh đi tập gym mỗi ngày. Lượng calo tiêu hao trung bình khi tập mỗi buổi gồm:\
+$\bullet$ Chạy bộ $30$ phút tiêu hao $240$ calo.\
+$\bullet$ Nhảy dây $15$ phút tiêu hao $150$ calo.\
+$\bullet$ Gập bụng $10$ phút tiêu hao $60$ calo.
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item Tính tổng lượng calo tiêu hao trong một buổi tập của bạn Ánh.
+\item Biết người bình thường cần nạp khoảng $2200$ calo mỗi ngày để giữ cân và cần tiêu hao $7700$ calo trong một tuần để giảm $1\text{ kg}$ mỡ. Nếu mỗi ngày bạn Ánh chỉ tập các bài tập như trên mà vẫn ăn uống đủ $2200$ calo thì sau $1$ tuần bạn ấy đã đủ để giảm $1\text{ kg}$ mỡ chưa?
+\end{enumerate}
+\loigiai{
+\begin{itemize}[leftmargin=0.5cm, itemsep=3pt]
+\item \textbf{a)} Tổng lượng calo tiêu hao trong một buổi tập của bạn Ánh là:\
+$240 + 150 + 60 = 450\text{ (calo)}$. \hfill \textbf{[0.5đ]}
+\item \textbf{b)} Tổng lượng calo tiêu hao trong $1$ tuần ($7$ ngày) tập luyện của bạn Ánh là:\
+$450 \times 7 = 3150\text{ (calo)}$.\
+Vì $3150 < 7700\text{ (calo)}$ nên sau $1$ tuần bạn Ánh chưa đủ lượng calo để giảm $1\text{ kg}$ mỡ. \hfill \textbf{[0.25đ]}
+\end{itemize}
+}
+\end{ex}
+\vspace{1.5mm}
+
+\begin{ex} (0.5 điểm)
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item Tìm số tự nhiên $n$ sao cho $(5n + 14) \ \vdots \ (n + 2)$.
+\end{enumerate}
+\loigiai{
+\begin{itemize}[leftmargin=0.5cm, itemsep=3pt]
+\item \textbf{a)} Ta biến đổi:\
+$5n + 14 = 5(n + 2) + 4$.\
+Vì $5(n + 2) \ \vdots \ (n + 2)$ nên để $(5n + 14) \ \vdots \ (n + 2)$ thì bắt buộc $4 \ \vdots \ (n + 2)$.\
+Do $n \in \mathbb{N}$ nên $n + 2 \in \text{Ư}(4) = \{1; 2; 4\}$.\
+Vì $n \ge 0 \implies n + 2 \ge 2$ nên ta có hai trường hợp:\
+$\bullet$ Trường hợp 1: $n + 2 = 2 \implies n = 0$.\n$\bullet$ Trường hợp 2: $n + 2 = 4 \implies n = 2$.\nVậy các số tự nhiên thỏa mãn là $n \in \{0; 2\}$. \hfill \textbf{[0.5đ]}
+\end{itemize}
+}
+\end{ex}
+\vspace{1.5mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

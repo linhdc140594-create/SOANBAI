@@ -1,0 +1,301 @@
+{
+  "de_so": 4,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 6",
+  "thoi_gian": "90 phút",
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Chữ số $5$ trong số tự nhiên $2358$ có giá trị là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$5000$",
+        "B": "$500$",
+        "C": "$50$",
+        "D": "$5$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Trong số tự nhiên $2358$, chữ số 5 nằm ở hàng chục nên có giá trị là $5 \\times 10 = 50$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Số $19$ trong hệ La Mã được viết là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "IX",
+        "B": "IXX",
+        "C": "XXI",
+        "D": "XIX"
+      },
+      "dap_an": "D",
+      "loi_giai": "Số $19 = 10 + 9$, trong đó 10 là $\\mathrm{X}$ và 9 là $\\mathrm{IX}$, do đó số 19 được viết là $\\mathrm{XIX}$."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Tích $2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2$ được viết gọn dưới dạng một lũy thừa là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$2^2$",
+        "B": "$6^2$",
+        "C": "$2^6$",
+        "D": "$5^2$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Tích của 6 thừa số 2 bằng nhau được viết gọn là $2^6$."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Khẳng định nào dưới đây là đúng?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hợp số là số chỉ có hai ước là 1 và chính nó.",
+        "B": "Hợp số là số tự nhiên có đúng hai ước.",
+        "C": "Số nguyên tố là số tự nhiên lớn hơn 1 có nhiều hơn hai ước.",
+        "D": "Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó."
+      },
+      "dap_an": "D",
+      "loi_giai": "Theo định nghĩa SGK: Số nguyên tố là số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Trong một hình vuông, một đường chéo có độ dài $8\\text{ cm}$. Khi đó độ dài đường chéo còn lại là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$8\\text{ cm}$",
+        "B": "$4\\text{ cm}$",
+        "C": "$16\\text{ cm}$",
+        "D": "$32\\text{ cm}$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Hình vuông có hai đường chéo bằng nhau, do đó đường chéo còn lại cũng có độ dài bằng $8\\text{ cm}$."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Số $75$ được phân tích ra thừa số nguyên tố là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$2 \\cdot 3 \\cdot 5$",
+        "B": "$3 \\cdot 5 \\cdot 7$",
+        "C": "$3 \\cdot 5^2$",
+        "D": "$3^2 \\cdot 5$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Ta có: $75 = 3 \\cdot 25 = 3 \\cdot 5^2$."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Hình có bốn góc bằng nhau và bốn cạnh bằng nhau là hình gì?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình chữ nhật",
+        "B": "Hình vuông",
+        "C": "Hình bình hành",
+        "D": "Hình thoi"
+      },
+      "dap_an": "B",
+      "loi_giai": "Hình vuông là hình có bốn cạnh bằng nhau và bốn góc bằng nhau (đều là góc vuông $90^\\circ$)."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Thứ tự thực hiện các phép tính đối với biểu thức không có dấu ngoặc là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ",
+        "B": "Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ",
+        "C": "Cộng và trừ $\\to$ Nhân và chia $\\to$ Lũy thừa",
+        "D": "Lũy thừa $\\to$ Cộng và trừ $\\to$ Nhân và chia"
+      },
+      "dap_an": "B",
+      "loi_giai": "Thứ tự chuẩn khi thực hiện phép tính không có ngoặc là: Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Trong các dãy số sau, dãy nào được sắp xếp theo thứ tự tăng dần đúng?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$0; -20; -15; -12; 8$",
+        "B": "$-15; -12; -20; 0; 8$",
+        "C": "$8; 0; -12; -15; -20$",
+        "D": "$-20; -15; -12; 0; 8$"
+      },
+      "dap_an": "D",
+      "loi_giai": "So sánh các số nguyên ta có: $-20 < -15 < -12 < 0 < 8$. Do đó dãy sắp xếp tăng dần đúng là D."
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Cho hình vẽ bên. Phát biểu nào dưới đây là đúng?",
+      "hinh_tikz": "\\begin{tikzpicture}[scale=0.7, baseline=(current bounding box.center), line cap=round, line join=round]\n  \\coordinate (D) at (0,0); \\coordinate (E) at (1,0); \\coordinate (C) at (4,0);\n  \\coordinate (A) at (1,1.8); \\coordinate (B) at (5,1.8);\n  \\draw[thick, blue!80!black] (D) -- (C) -- (B) -- (A) -- cycle;\n  \\draw[thick, dashed, red] (A) -- (E);\n  \\draw (E) rectangle +(0.2,0.2);\n  \\foreach \\p in {A,B,C,D,E} \\fill[red] (\\p) circle (1.8pt);\n  \\node[above left] at (A) {$A$}; \\node[above right] at (B) {$B$};\n  \\node[below right] at (C) {$C$}; \\node[below left] at (D) {$D$}; \\node[below] at (E) {$E$};\n\\end{tikzpicture}",
+      "lua_chon": {
+        "A": "$ABCD$ là hình thoi",
+        "B": "$ABCD$ là hình bình hành",
+        "C": "$ABCE$ là hình thang cân",
+        "D": "$ABCE$ là hình chữ nhật"
+      },
+      "dap_an": "B",
+      "loi_giai": "Tứ giác $ABCD$ có các cặp cạnh đối song song và bằng nhau ($AB \\parallel CD, AD \\parallel BC$) nên $ABCD$ là hình bình hành."
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Trong một tam giác đều, mỗi góc có số đo bằng:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$60^\\circ$",
+        "B": "$45^\\circ$",
+        "C": "$90^\\circ$",
+        "D": "$30^\\circ$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Tam giác đều có ba góc bằng nhau và mỗi góc có số đo bằng $60^\\circ$."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Cho hình thoi $ABCD$ như hình vẽ bên. Khẳng định nào sau đây là đúng?",
+      "hinh_tikz": "\\begin{tikzpicture}[scale=0.7, baseline=(current bounding box.center), line cap=round, line join=round]\n  \\coordinate (A) at (-1.8,0); \\coordinate (B) at (0,1.2);\n  \\coordinate (C) at (1.8,0); \\coordinate (D) at (0,-1.2);\n  \\draw[thick, blue!80!black] (A) -- (B) -- (C) -- (D) -- cycle;\n  \\draw[blue!80!black] (A) -- (C); \\draw[blue!80!black] (B) -- (D);\n  \\draw (0,0) rectangle +(0.18,0.18);\n  \\foreach \\p in {A,B,C,D} \\fill[red] (\\p) circle (1.8pt);\n  \\node[left] at (A) {$A$}; \\node[above] at (B) {$B$};\n  \\node[right] at (C) {$C$}; \\node[below] at (D) {$D$};\n\\end{tikzpicture}",
+      "lua_chon": {
+        "A": "Bốn cạnh của hình thoi không bằng nhau",
+        "B": "Hình thoi $ABCD$ có hai đường chéo vuông góc với nhau",
+        "C": "Hình thoi $ABCD$ có cạnh $AB$ song song với cạnh $AD$",
+        "D": "Hình thoi $ABCD$ có bốn góc vuông"
+      },
+      "dap_an": "B",
+      "loi_giai": "Một trong những tính chất đặc trưng của hình thoi là hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Trong $15$ số tự nhiên đầu tiên (từ $0$ đến $14$), các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Trong các số đã cho, có $2$ số chia hết cho cả $2$ và $5$.",
+          "dung_sai": true,
+          "giai_thich": "Các số có tận cùng bằng 0 từ 0 đến 14 gồm: $\\{0; 10\\}$ (đúng 2 số). Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Trong các số đã cho, có $5$ số chia hết cho $9$.",
+          "dung_sai": false,
+          "giai_thich": "Các số chia hết cho 9 từ 0 đến 14 gồm: $\\{0; 9\\}$ (chỉ có 2 số). Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Trong các số đã cho, có $6$ số là số nguyên tố.",
+          "dung_sai": true,
+          "giai_thich": "Các số nguyên tố từ 0 đến 14 gồm: $\\{2; 3; 5; 7; 11; 13\\}$ (đúng 6 số). Khẳng định đúng."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Trong các số đã cho, có $5$ số là bội của $3$.",
+          "dung_sai": true,
+          "giai_thich": "Các bội của 3 từ 0 đến 14 gồm: $\\{0; 3; 6; 9; 12\\}$ (đúng 5 số). Khẳng định đúng."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho các hình sau: tam giác đều, hình vuông, lục giác đều, hình chữ nhật, hình thoi, hình bình hành, hình thang cân. Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Hình tam giác đều, hình vuông, hình lục giác đều có tất cả các cạnh bằng nhau.",
+          "dung_sai": true,
+          "giai_thich": "Các đa giác đều luôn có tất cả các cạnh bằng nhau. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Có $2$ hình có hai đường chéo vuông góc với nhau.",
+          "dung_sai": true,
+          "giai_thich": "Hai hình có đường chéo vuông góc là hình vuông và hình thoi. Khẳng định đúng."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Có $3$ hình có hai cạnh đối song song và các đường chéo bằng nhau.",
+          "dung_sai": true,
+          "giai_thich": "Ba hình có hai cạnh đối song song và đường chéo bằng nhau là: hình chữ nhật, hình vuông và hình thang cân. Khẳng định đúng."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Hình lục giác đều có độ dài đường chéo chính gấp đôi độ dài cạnh.",
+          "dung_sai": true,
+          "giai_thich": "Đường chéo chính của lục giác đều bằng 2 lần cạnh tam giác đều cấu thành. Khẳng định đúng."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Một hình chữ nhật có diện tích là $120\\text{ cm}^2$ và có chiều dài là $12\\text{ cm}$. Tính độ dài chiều rộng của hình chữ nhật đó (đơn vị: cm).",
+      "dap_an": "$10$",
+      "loi_giai": "Chiều rộng của hình chữ nhật là: $120 : 12 = 10\\text{ (cm)}$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho $x$ là số tự nhiên. Để biểu thức $A = 12 + 14 + x$ chia hết cho $2$ thì điều kiện của $x$ là gì?",
+      "dap_an": "$x$ là số chẵn",
+      "loi_giai": "Vì $12 \\ \\vdots \\ 2$ và $14 \\ \\vdots \\ 2$ nên $(12 + 14) \\ \\vdots \\ 2$. Để tổng $A = (12 + 14) + x \\ \\vdots \\ 2$ thì $x$ phải chia hết cho 2, tức là $x$ là số tự nhiên chẵn."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "diem_tong": 1.0,
+      "noi_dung": "Thực hiện phép tính:",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$36 - 36 : 6 + 24$",
+          "diem": 0.5,
+          "loi_giai": "$36 - 36 : 6 + 24 = 36 - 6 + 24 = 30 + 24 = 54$."
+        },
+        {
+          "y": "b",
+          "de": "$2 \\cdot 3^2 - 24 : (3 \\cdot 2^2)$",
+          "diem": 0.5,
+          "loi_giai": "$2 \\cdot 3^2 - 24 : (3 \\cdot 2^2) = 2 \\cdot 9 - 24 : (3 \\cdot 4) = 18 - 24 : 12 = 18 - 2 = 16$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem_tong": 0.75,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Học sinh lớp 6C khi xếp thành hàng 4, hàng 5, hàng 8 đều vừa đủ hàng. Hỏi số học sinh của lớp 6C là bao nhiêu, biết rằng số học sinh của lớp 6C nhỏ hơn 45?",
+          "diem": 0.75,
+          "loi_giai": "Gọi số học sinh của lớp 6C là $a$ ($a \\in \\mathbb{N}^*$ và $a < 45$).\\\nVì khi xếp hàng 4, hàng 5, hàng 8 đều vừa đủ nên $a \\in \\text{BC}(4, 5, 8)$.\\\nTa có: $4 = 2^2$; $5 = 5$; $8 = 2^3 \\implies \\text{BCNN}(4, 5, 8) = 2^3 \\cdot 5 = 40$.\\\nDo đó $\\text{BC}(4, 5, 8) = \\{0; 40; 80; \\dots\\}$.\\\nVì $a$ là số học sinh khác 0 và $a < 45$ nên $a = 40$.\\\nVậy lớp 6C có $40$ học sinh."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem_tong": 0.75,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Cho hình vuông $ABCD$ có độ dài cạnh bằng $7\\text{ cm}$. Tính chu vi và diện tích của hình vuông $ABCD$.",
+          "diem": 0.75,
+          "loi_giai": "Chu vi của hình vuông $ABCD$ là:\\\n$C = 4 \\times 7 = 28\\text{ (cm)}$.\\\nDiện tích của hình vuông $ABCD$ là:\\\n$S = 7 \\times 7 = 49\\text{ (cm}^2\\text{)}$."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem_tong": 0.5,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Cho số tự nhiên có ba chữ số $\\overline{abc}$ thỏa mãn $\\overline{abc}$ chia hết cho $11$. Hãy chứng minh rằng $(a - b + c)$ chia hết cho $11$.",
+          "diem": 0.5,
+          "loi_giai": "Ta phân tích số $\\overline{abc}$ theo cấu tạo thập phân:\\\n$\\overline{abc} = 100a + 10b + c$\\\n$= (99a + a) + (11b - b) + c$\\\n$= (99a + 11b) + (a - b + c)$\\\n$= 11 \\cdot (9a + b) + (a - b + c)$.\\\nVì $11 \\cdot (9a + b) \\ \\vdots \\ 11$ và theo đề bài $\\overline{abc} \\ \\vdots \\ 11$,\\\nnên bắt buộc hiệu $\\overline{abc} - 11(9a + b) \\ \\vdots \\ 11$, suy ra $(a - b + c) \\ \\vdots \\ 11$ (đpcm)."
+        }
+      ]
+    }
+  ]
+}
+

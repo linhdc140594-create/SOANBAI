@@ -1,0 +1,496 @@
+--- TRANG 40 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 10 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số nghiệm của phương trình 
+1 (
+3)
+0
+3
+x
+x
+
+
++
+−
+=
+
+
+
+
+ là:    
+A. 1     
+ 
+ 
+ 
+ 
+ 
+ 
+B. 3     
+ 
+ 
+ 
+C. 2    
+            
+ 
+ 
+ 
+ 
+D. Vô nghiệm    
+Câu 2. Bất phương trình 4
+3
+7
+x
+x
+
++ có nghiệm là:    
+A. 
+7
+x −     
+ 
+B. 
+7
+x −     
+ 
+C. 
+7
+x 
+    
+ 
+      D. 
+7
+x −    
+Câu 3. Nghiệm của hệ phương trình 
+7
+1
+x
+y
+x
+y
++
+=
+
+−
+= −
+
+ là:    
+A. ( ; )
+(4;3)
+x y =
+    
+ 
+ 
+ 
+ 
+ 
+B. ( ; )
+(5;4)
+x y =
+    
+C. ( ; )
+( 3;4)
+x y = −
+     
+ 
+ 
+ 
+ 
+D. ( ; )
+(3;4)
+x y =
+    
+Câu 4. Nếu , ,
+a b c là ba số mà a
+b
+
+ và ac
+bc
+
+ thì c là:    
+A. Số 0    
+ 
+ 
+ 
+ 
+ 
+B. Số dương    
+C. Số âm     
+ 
+ 
+ 
+ 
+D. Số tùy ý    
+Câu 5. Bất phương trình nào dưới đây là bất phương trình bậc nhất một ẩn?   
+A. 1
+1
+0
+x −
+     
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+0
+x     
+C. 1
+2
+0
+3 x +
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 0
+3
+0
+x
++     
+ 
+
+
+--- TRANG 41 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 6. Những số nào là nghiệm của bất phương trình 2
+10
+0
+x−
+?    
+A. 2;0
+−
+    
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0;5  
+ 
+ 
+ 
+C. 2;0;5
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 2;4;6
+−
+    
+Câu 7. Trong hình vẽ, cosB bằng:    
+ 
+A. BH
+AB    
+ 
+ 
+B. AH
+AB    
+ 
+ 
+C. BH
+AH    
+ 
+         D. AB
+AC    
+Câu 8. Cho tam giác ABC vuông tại A, 
+4
+AB = và 
+5
+BC = . Khẳng định đúng là:    
+ 
+A. 
+4
+sin
+5
+B =
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+cos
+5
+B =
+    
+C. 
+3
+tan
+4
+B =
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+cot
+4
+B =
+    
+Câu 9. Cho đường tròn ( )
+O và 2 điểm 
+,
+A B nằm trên đường tròn. Góc ở tâm của đường 
+tròn ( )
+O là:    
+ 
+A. ABO    
+ 
+ 
+B. 
+OMB    
+ 
+ 
+C. 
+AMO    
+ 
+        D. AOB    
+ 
+
+
+--- TRANG 42 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 10. Trong các mệnh đề sau, mệnh đề nào đúng?    
+A. Đường tròn chỉ có một trục đối xứng    
+B. Tâm đối xứng của đường tròn là mọi điểm trên đường tròn    
+C. Mọi đường kính của đường tròn đều là trục đối xứng của nó    
+D. Đường tròn không có trục đối xứng nào    
+Lời giải: Đường tròn là hình có vô số trục đối xứng, và bất kỳ đường thẳng nào đi qua 
+tâm đều là một trục đối xứng của đường tròn đó.    
+Đáp án đúng: C    
+Câu 11. Một khúc sông rộng khoảng 250 m . Một con đò chèo chéo qua sông bị dòng nước 
+đẩy xiên nên phải chèo 320 m mới sang được bờ bên kia. Hỏi dòng nước đã đẩy chiếc đò 
+lệch đi một góc xấp xỉ bằng bao nhiêu độ? (Biết góc lệch được tính giữa hướng vuông góc 
+với bờ sông và hướng chèo của con đò)    
+ 
+A. 25    
+ 
+ 
+B. 39    
+ 
+ 
+C. 45    
+ 
+ 
+D. 51    
+Câu 12. Cho đường tròn ( ;5 cm)
+O
+ và một điểm A nằm ngoài đường tròn sao cho 
+13 cm
+OA =
+. Qua A kẻ tiếp tuyến AB với đường tròn ( B là tiếp điểm). Độ dài đoạn thẳng 
+AB bằng: 
+ 
+ 
+ 
+ 
+
+
+--- TRANG 43 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai số thực ,x y thỏa mãn x
+y
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) 
+5
+5
+x
+y
+−
+−. 
+b) 4
+4
+x
+y
+−
+−
+. 
+c) 3
+2
+3
+2
+x
+y
+−
+
+−. 
+d) 2
+1
+2
+1
+x
+y
+−
++ −
++ . 
+Câu 2. Cho tam giác DEF vuông tại D , biết 
+5 cm
+DE =
+ và 
+12 cm
+DF =
+. Xét tính Đúng/Sai 
+của các khẳng định sau: 
+a) Độ dài cạnh huyền 
+13 cm
+EF =
+. 
+b) 
+5
+sin
+13
+E =
+. 
+c) 
+12
+cos
+13
+F =
+. 
+d) 
+5
+tan
+12
+E =
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm x , biết: 
+2
+1
+3
+x −=
+. 
+Câu 2. Cho đường tròn ( )
+O có bán kính 
+5 cm
+R =
+. Khoảng cách từ tâm O đến dây AB 
+bằng 3 cm. Tính độ dài dây AB. 
+ 
+ 
+ 
+
+
+--- TRANG 44 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình và bất phương trình sau: 
+a) (
+)(
+)
+3
+4
+0
+x
+x
+−
+−
+=
+; 
+ 
+ 
+b) 
+(
+)(
+)
+1
+2
+6
+1
+2
+1
+2
++
+=
+−
++
+−
++
+x
+x
+x
+x
+; 
+c) 5
+4
+2
+2
+x
+x
++
+
+−
+; 
+ 
+ 
+d) 4
+5
+5
+6
+1
+2
+3
+x
+x
++
++
+−
+.           
+Câu 2. Một người mua một cái bàn là và một cái quạt điện với tổng số tiền theo giá niêm 
+yết là 750 nghìn đồng. Hiện tại cửa hàng đang thực hiện giảm giá 10% đối với bàn là và 
+20% đối với quạt điện so với giá niêm yết. Vì vậy người đó phải trả tổng cộng 625 nghìn 
+đồng. Tính giá tiền một cái bàn là và một cái quạt điện theo giá niêm yết? 
+Câu 3. Cho tam giác ABC vuông tại A có 
+0
+C
+30
+
+, cạnh AB
+8cm
+=
+. Tính: 
+a) Số đo góc B. 
+b) Tính cạnh AC, BC. 
+Câu 4. Cho tam giác ABC vuông tại A, đường cao AH. Chứng minh rằng  
+AH BC
+AB AC
+
+=
+
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

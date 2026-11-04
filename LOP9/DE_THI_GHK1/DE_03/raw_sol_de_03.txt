@@ -1,0 +1,1381 @@
+--- TRANG 64 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+Câu 1. Phương trình nào sau đây là phương trình bậc nhất hai ẩn?    
+A. 
+2
+2
+3
+1
+x
+y
+−
+=    
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+1
+x
+y
+−
+=    
+C. 
+3
+2
+1
+x
+y
++
+=    
+ 
+ 
+ 
+ 
+ 
+D. 0
+0
+1
+x
+y
++
+=    
+Lời giải: Phương trình bậc nhất hai ẩn có dạng tổng quát là ax
+by
+c
++
+= , trong đó các hệ số 
+không đồng thời bằng 0 và các ẩn có số mũ bằng 1.  
+Phương trình 
+3
+1
+x
+y
+−
+= thỏa mãn điều kiện này.   Đáp án đúng: B.    
+Câu 2. Phương trình nào dưới đây nhận cặp số ( 2;4)
+−
+ làm nghiệm?    
+A. 2
+0
+x
+y
++
+=    
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+x
+y
+−
+=    
+C. 
+2
+x
+y
+−
+=    
+ 
+ 
+ 
+ 
+  
+D. 
+2
+1
+0
+x
+y
++
++ =    
+Lời giải: Thay tọa độ 
+2
+x = − và 
+4
+y = vào phương trình ở phương án A ta có 
+2 ( 2)
+4
+4
+4
+0
+−
++
+= −+
+= , thỏa mãn phương trình.    
+Đáp án đúng: A.    
+Câu 3. Phương trình 
+2
+(
+9)(2
+3)
+0
+x
+x
++
++
+=
+ có số nghiệm là:    
+A. 0    
+ 
+ 
+B. 1     
+ 
+ 
+C. 2    
+ 
+ 
+D. 3    
+Lời giải: Phương trình tích tương đương với hai trường hợp là 
+2
+9
+0
+x + =
+ hoặc 2
+3
+0
+x+ =
+.  
+Vì 
+2
+9
+9
+0
+x + 
+ với mọi số thực x nên phương trình 
+2
+9
+0
+x + =
+ vô nghiệm.  
+Phương trình 2
+3
+0
+x+ =
+ có nghiệm duy nhất 
+3
+2
+x = −
+.  
+Do đó phương trình có tổng cộng 1 nghiệm.   Đáp án đúng: B.    
+
+
+--- TRANG 65 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 4. Hệ phương trình nào sau đây có vô số nghiệm?    
+A. 
+2
+5
+1
+3
+2
+x
+y
+x
+y
+−
+=
+−
++
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+5
+1
+3
+2
+x
+y
+x
+y
+−
+=
+
++
+=
+
+    
+C. 
+2
+5
+1
+5
+2
+2
+x
+y
+x
+y
+−
+=
+−
++
+= −
+
+     
+ 
+ 
+ 
+ 
+D. 
+2
+5
+1
+3
+2
+x
+y
+x
+y
+−
+=
+−
+−
+=
+
+    
+Lời giải: Hệ phương trình bậc nhất hai ẩn có vô số nghiệm khi các tỉ số hệ số thỏa mãn  
+a
+b
+c
+a
+b
+c
+=
+=
+
+
+. 
+Ở hệ phương trình C, nhân cả hai vế của phương trình thứ hai với 2
+− ta thu được phương 
+trình 
+2
+5
+x
+y
+−
+= , trùng hoàn toàn với phương trình thứ nhất, dẫn đến hệ có vô số nghiệm. 
+Đáp án đúng: C.    
+Câu 5. Sử dụng MTCT tính nghiệm của hệ phương trình 4
+8
+3
+2
+10
+x
+x
+y
+=
+
+
++
+=
+
+   
+A. (1;2)    
+ 
+ 
+B. (2;3)    
+ 
+ 
+C. (3;4)    
+ 
+        D. (2;2)    
+Lời giải: Từ phương trình đầu tiên ta tính được 
+8:4
+2
+x =
+=
+.  
+Thay giá trị 
+2
+x =
+ vào phương trình thứ hai ta được 3 2
+2
+10
+y
++
+=
+, tương đương với 
+6
+2
+10
+y
++
+=
+, suy ra 2
+4
+y =
+ và 
+2
+y = .  
+Nghiệm của hệ phương trình là (2;2). Đáp án đúng: D.    
+Câu 6. Cho hệ phương trình 4
+2
+3
+7
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Cặp số nào dưới đây là nghiệm của hệ phương 
+trình đã cho?    
+A. (2;2)    
+ 
+ 
+B. (1;2)    
+ 
+ 
+C. ( 1; 2)
+−−
+     
+      D. (2; 2)
+−
+    
+
+
+--- TRANG 66 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Thay lần lượt 
+1
+x = và 
+2
+y = vào từng phương trình của hệ ta có 4 1 2
+2
+−
+=
+ và 
+1 3 2
+7
++ = , thỏa mãn cả hai phương trình.   Đáp án đúng: B.    
+Câu 7. Trong các cặp số ( , )
+x y sau cặp số nào là nghiệm của phương trình 
+3
+x
+y
++
+= ?    
+A. (8;1)    
+ 
+ 
+B. ( 3;6)
+−
+     
+ 
+C. (4; 1)
+−
+     
+        D. (0;2)    
+Lời giải: Thay cặp số (4; 1)
+−
+ vào phương trình ta được 4
+( 1)
+3
++ −
+= , thỏa mãn phương trình 
+đã cho. Đáp án đúng: C.    
+Câu 8. Cặp số ( ; )
+(3; 1)
+x y =
+−
+ là nghiệm của hệ phương trình nào sau đây:    
+A. 2
+5
+3
+2
+11
+x
+y
+x
+y
++
+=
+
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+B. 2
+2
+5
+3
+2
+11
+x
+y
+x
+y
++
+=
+
+
+−
+=
+
+    
+C. 2
+6
+3
+2
+1
+x
+y
+x
+y
++
+=
+
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 2
+6
+3
+10
+x
+y
+x
+y
++
+= −
+
+
++
+=
+
+    
+Lời giải: Thay 
+3
+x = và 
+1
+y = − vào hệ ở phương án A ta có 2 3 ( 1)
+5
++ −
+= và  
+3 3 2 ( 1)
+9
+2
+11
+−−
+= +
+=
+, thỏa mãn cả hai phương trình.    
+Đáp án đúng: A.    
+Câu 9. Cho tam giác ABC vuông tại A. Khi đó:    
+A. tan
+AB
+B
+BC
+=
+    
+ 
+ 
+ 
+ 
+B. tan
+AC
+B
+BC
+=
+    
+C. tan
+CB
+B
+BA
+=
+    
+ 
+ 
+ 
+ 
+D. tan
+AC
+B
+AB
+=
+    
+Lời giải: Trong tam giác vuông tại A, tỉ số lượng giác tang của góc B được tính bằng độ 
+dài cạnh đối chia cho độ dài cạnh kề, cụ thể là AC
+AB .  Đáp án đúng: D.    
+Câu 10. Cho tam giác vuông ABC  có ˆ
+90
+A
+
+=
+, AH
+BC
+⊥
+ ( H
+BC
+
+), 
+6,
+3
+AH
+BH
+=
+= . Kết 
+quả nào sau đây là đúng?    
+
+
+--- TRANG 67 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+A. 
+3
+sin
+3
+B =
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+sin
+2
+B =
+    
+C. 
+2 5
+sin
+5
+B =
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+sin
+6
+B =
+ 
+Lời giải: Áp dụng định lý Pythagoras trong tam giác vuông ABH vuông tại H , ta tính 
+được cạnh huyền 
+2
+2
+2
+2
+6
+3
+45
+3 5
+AB
+AH
+BH
+=
++
+=
++
+=
+=
+. 
+Trong tam giác vuông ABH, ta có 
+6
+2
+2 5
+sin
+5
+3 5
+5
+AH
+B
+AB
+=
+=
+=
+=
+.    Đáp án đúng: C.    
+Câu 11. Cho tam giác vuông ABC có ˆ
+90
+A
+
+=
+, AH
+BC
+⊥
+ ( H
+BC
+
+), 
+3,
+1
+BH
+HC
+=
+= . Kết 
+quả nào sau đây là đúng?   
+A. ˆ
+30
+B
+
+=
+     
+ 
+B. ˆ
+60
+B
+
+=
+     
+ 
+C. ˆ
+70
+B
+
+=
+     
+     D. ˆ
+45
+B
+
+=
+    
+Lời giải: Áp dụng hệ thức lượng 
+2
+3 1
+3
+AH
+BH HC
+=
+
+= = , suy ra 
+3
+AH =
+.  
+Xét tam giác vuông ABH vuông tại H , ta có 
+3
+tan
+3
+AH
+B
+BH
+=
+=
+, suy ra 
+0 .
+3
+B
+
+=
+ 
+Đáp án đúng: A.    
+Câu 12. Tính chiều cao AH với các số liệu cho trên hình sau 
+ 
+A. 
+20 m
+AH =
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+10 3 m
+AH =
+    
+C. 
+15 3 m
+AH =
+     
+ 
+ 
+ 
+ 
+D. 
+20 3 m
+AH =
+    
+
+
+--- TRANG 68 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Dựa vào hệ thức giữa cạnh và góc trong tam giác vuông ABH vuông tại H , ta có 
+tan
+AH
+B
+BH
+=
+, suy ra 
+tan60
+10
+3
+10 3 m
+AH
+BH
+
+=
+
+=
+
+=
+.   Đáp án đúng: B. 
+Phần II. Trắc nghiệm đúng sai  
+Câu 1. Cho hệ phương trình 6
+12
+(1)
+2
+4
+(2)
+x
+y
+x
+y
+−
+= −
+
+
++
+=
+
+  . Xét tính Đúng/Sai của các khẳng định sau: 
+a) Hệ phương trình trên là hệ phương trình bậc nhất hai ẩn.   
+b) Hệ phương trình trên là hệ phương trình bậc nhất một ẩn.    
+c) Cộng phương trình (1) và (2), ta được 8
+16
+x =
+.    
+d) Nghiệm của hệ phương trình trên là ( 1;6)
+−
+.    
+Lời giải. 
+a) Đúng. Hệ phương trình gồm hai phương trình bậc nhất với hai ẩn x và y . 
+b) Sai. Hệ có hai ẩn x và y nên không phải hệ phương trình bậc nhất một ẩn. 
+c) Sai. Cộng từng vế hai phương trình ta được (6
+2 )
+(
+)
+12
+4
+x
+x
+y
+y
++
++ −+
+= −
++
+, hay 8
+8.
+x = −  
+d) Đúng. Cộng vế với vế hai phương trình ta được 8
+8
+x = −, tức là 
+1
+x = −. Thay 
+1
+x = − vào 
+phương trình (2) ta được 2( 1)
+4
+y
+−
++
+= , suy ra 
+6
+y = . Vậy nghiệm của hệ là ( 1;6)
+−
+. 
+Câu 2. Cho tam giác ABC vuông tại A, biết 
+4 cm,
+3 cm
+AB
+AC
+=
+=
+. Xét tính Đúng/Sai của 
+các khẳng định sau: 
+a) 
+3
+tan
+4
+AC
+B
+AB
+=
+=
+    
+b) ˆ
+37
+B
+
+
+    
+c) 
+sin
+BC
+AC
+B
+=
+
+    
+d) 
+4
+tan
+cot
+3
+C
+B
+=
+=
+ 
+
+
+--- TRANG 69 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải. 
+Áp dụng định lý Pythagore cho tam giác ABC vuông tại A, ta tính được cạnh huyền 
+2
+2
+2
+2
+4
+3
+5 cm
+BC
+AB
+AC
+=
++
+=
++
+=
+. 
+a) Đúng. Tỉ số lượng giác 
+3
+tan
+4
+AC
+B
+AB
+=
+=
+. 
+b) Đúng. Ta có 
+3
+tan
+0,75
+4
+B =
+=
+, suy ra số đo góc ˆ
+37
+B
+
+
+. 
+c) Sai. Ta có sin
+AC
+B
+BC
+=
+, suy ra 
+sin
+AC
+BC
+B
+=
+ (chứ không phải 
+sin
+BC
+AC
+B
+=
+
+). 
+d) Đúng. Trong tam giác vuông, hai góc nhọn phụ nhau nên 
+1
+4
+tan
+cot
+tan
+3
+C
+B
+B
+=
+=
+=
+. 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tổng số học sinh nam và nữ trong lớp là 40. Số học sinh nam nhiều hơn số học sinh 
+nữ 4 bạn. Hỏi lớp có bao nhiêu học sinh nam, bao nhiêu học sinh nữ? 
+Lời giải: Gọi số học sinh nam là x , nữ là y . Ta có hệ: 
+40
+4
+x
+y
+x
+y
++
+=
+
+−
+=
+
+. 
+Cộng vế theo vế: 2
+44
+22
+x
+x
+=
+
+=
+, suy ra 
+18
+y =
+. 
+Đáp án: Nam: 22 bạn, Nữ: 18 bạn. 
+Câu 2. Cho đường tròn có 
+
+sd
+62
+AmB =
+. Số đo góc ở tâm AOB bằng bao nhiêu? 
+Lời giải: Số đo góc ở tâm bằng số đo cung bị chắn nên 
+
+sd
+62
+A
+AO
+mB
+B
+
+=
+=
+. 
+Đáp án: 62. 
+ 
+ 
+ 
+
+
+--- TRANG 70 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần IV. Tự luận 
+Câu 1. Giải hệ phương trình, bất phương trình sau: 
+a. 3x
+2y
+7
+x
+4y
+7
+−
+=
+
++
+=
+
+ 
+ 
+ 
+ 
+b. x
+2x
+1
+1
+3
+2
+−
+−
+ 
+Lời giải. 
+a) 3
+2
+7
+4
+7
+x
+y
+x
+y
+−
+=
+
++
+=
+
+  
+Từ phương trình thứ hai, ta có 
+7
+4
+x
+y
+=
+−
+.  
+Thay vào phương trình thứ nhất:3(7
+4 )
+2
+7
+y
+y
+−
+−
+= 
+21 12
+2
+7
+y
+y
+−
+−
+= 
+14
+14
+y
+−
+= −
+ 
+1
+y = 
+Với 
+1
+y = , ta tính được 
+7
+4 1
+3
+x =
+−= . 
+Vậy hệ phương trình có nghiệm duy nhất là ( ; )
+(3;1)
+x y =
+. 
+b) 
+2
+1
+1
+3
+2
+x
+x −
+−
+ 
+Quy đồng mẫu thức hai vế với mẫu chung là 6 : 2
+6
+3(2
+1)
+x
+x
+−
+− 
+2
+6
+6
+3
+x
+x
+−
+
+− 
+2
+6
+6
+3
+x
+x
+−
+
+− 
+4
+3
+x
+−
+ 
+3
+4
+x −
+ 
+Vậy nghiệm của bất phương trình là 
+3
+4
+x −
+. 
+ 
+
+
+--- TRANG 71 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 2.  
+a) Dùng kí hiệu để viết bất đẳng thức tương ứng trong trường hợp sau: 
+Tốc độ của xe gắn máy trên đoạn đường này phải đạt tối thiểu 40 km/h. 
+b) Cho 
+,
+a
+b
+
+chứng minh rằng: 2
+5
+2
+5 .
+a
+b
+−
+
+−
+ 
+Lời giải.  
+a) Bất đẳng thức tương ứng: 
+40
+v 
+ (với v là tốc độ của xe gắn máy). 
+b) Vì a
+b
+, nhân cả hai vế với 5
+− và đổi chiều bất đẳng thức, ta được 5
+5
+a
+b
+−
+−
+. 
+Cộng thêm 2 vào hai vế, ta được 2
+5
+2
+5
+a
+b
+−
+
+−
+ (điều phải chứng minh). 
+Câu 3. Hai trạm quan trắc tàu biển đặt ở hai mỏm núi A và B cách nhau 2 km, nhìn thấy 
+chiếc tàu C ở phía xa với góc 
+50 ,
+CAB =
+
+ góc 
+45 .
+CBA =
+ Hỏi tàu còn cách đường thẳng AB 
+bao nhiêu mét? 
+Lời giải.  
+Đổi đơn vị: khoảng cách 
+2 km
+2000 m
+AB =
+=
+. 
+Kẻ đường cao CH
+AB
+⊥
+ ( H thuộc đoạn AB ). 
+Đặt AH
+x
+= (m), suy ra 
+2000
+HB
+x
+=
+− (m). 
+Xét tam giác vuông ACH vuông tại H : 
+tan50
+tan50
+CH
+AH
+x
+
+
+=
+
+= 
+. 
+Xét tam giác vuông BCH vuông tại H : 
+tan45
+(2000
+) 1
+2000
+CH
+HB
+x
+x
+
+=
+
+=
+−
+=
+−. 
+Ta có phương trình:
+tan50
+2000
+x
+x
+
+
+=
+− 
+(tan50
+1)
+2000
+x
++
+=
+ 
+2000
+912,5 m
+tan50
+1
+x
+
+=
+
++
+. 
+Chiều cao CH từ tàu đến đường thẳng AB là: 
+912,5 tan50
+1087,5 m
+CH
+
+=
+
+
+. 
+
+
+--- TRANG 72 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Vậy tàu cách đường thẳng AB khoảng 1087,5 m. 
+Câu 4. Hai ô tô cùng khởi hành cùng một lúc từ A đến B cách nhau 150 km. Biết vận tốc 
+ô tô thứ nhất lớn hơn vận tốc ô tô thứ hai là 10 km/h và ô tô thứ nhất đến B trước ô tô thứ 
+hai là 30 phút. Tính vận tốc của mỗi ô tô. 
+Lời giải. Gọi vận tốc của ô tô thứ hai là x (km/h, điều kiện 
+0
+x 
+). 
+Vận tốc của ô tô thứ nhất là 
+10
+x +
+ (km/h). 
+Thời gian ô tô thứ nhất đi hết quãng đường 150 km là 150
+10
+x +
+ (giờ). 
+Thời gian ô tô thứ hai đi hết quãng đường là 150
+x (giờ). 
+Vì ô tô thứ nhất đến trước ô tô thứ hai 30 phút
+0,5 gi?
+=
+, ta có phương trình: 
+150
+150
+0,5
+10
+x
+x
+−
+=
++
+ 
+150(
+10) 150
+0,5
+(
+10)
+x
+x
+x x
++
+−
+=
++
+ 
+2
+1500
+0,5
+10
+x
+x =
++
+ 
+2
+10
+3000
+x
+x
++
+=
+ 
+2
+10
+3000
+0
+x
+x
++
+−
+= 
+(
+50)(
+60)
+0
+x
+x
+−
++
+= 
+Do 
+0
+x 
+, ta chọn nghiệm 
+50
+x =
+ (thỏa mãn). 
+Vận tốc ô tô thứ hai là 50 km/h , vận tốc ô tô thứ nhất là 50 10
+60 km/h
++
+=
+ 
+ 
+ 
+ 

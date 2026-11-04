@@ -1,0 +1,322 @@
+--- TRANG 37 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 10 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho hai tập
+
+
+1;2;3;4;5
+A =
+ và 
+
+
+; ; ;
+B
+a b c d
+=
+ . Có bao nhiêu tập hợp có hai phần tử 
+thỏa mãn có một phần tử thuộc tập hợp A và một phần tử thuộc tập hợp B ? 
+A. 16.  
+ 
+ 
+B. 18.  
+ 
+ 
+C. 20 .  
+ 
+ 
+D. 9 . 
+Câu 2. Tìm số tự nhiên x , biết 
+20
+42
+x +
+=
+. 
+A. 22 . 
+ 
+ 
+B. 62.  
+ 
+ 
+C. 2 .  
+ 
+ 
+D. 18. 
+Câu 3. Số 308 đọc là 
+A. Ba trăm tám mươi. 
+ 
+ 
+ 
+ 
+B. Ba mươi tám. 
+ 
+ 
+C. Ba trăm linh tám. 
+ 
+            
+ 
+D. Ba linh tám. 
+Câu 4. Hợp số là: 
+A. Số tự nhiên có nhiều hơn 2 ước. 
+B. Số tự nhiên có 4 ước. 
+C. Số tự nhiên lớn hơn 1, có nhiều hơn 2 ước. 
+D. Số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó. 
+Câu 5. Trong tam giác đều mỗi góc có số đo bằng 
+ 
+A. 60.                               B. 45 . 
+     C. 90 . 
+          D. 30 .  
+Câu 6. Khẳng định nào dưới đây đúng? 
+A. Hình bình hành có 4 góc bằng nhau. 
+B. Hình lục giác đều có 3 đường chéo chính cùng đi qua một điểm. 
+
+
+--- TRANG 38 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. Tam giác đều là tam giác có 3 góc vuông. 
+D. Hình chữ nhật có hai đường chéo bằng nhau và vuông góc với nhau.  
+Câu 7. Kết quả của phép tính 
+12
+2
+0
+7 .7 .7 dưới dạng lũy thừa là: 
+A. 
+14
+7 . 
+B. 
+24
+7 . 
+     C. 
+32
+7 . 
+       D. 7 . 
+Câu 8. Cho hình bình hành ABCD. Biết AB = 3cm, BC = 2cm. Chu vi hình bình hành 
+ABCD là: 
+ 
+A. 6.  
+ 
+ 
+   B. 10. 
+ 
+ 
+C. 12.  
+ 
+ 
+D. 5. 
+Câu 9.  Tập hợp nào sau đây là tập hợp các số nguyên? 
+A. 
+.
+1; 2; 3; 4; 5              
+ 
+ 
+ 
+B. 
+.
+ ...; 3 ; 2; 1;0;1;2;3;...
+−
+−
+−
+ 
+C. 
+.
+0; 1; 2; 3; 4; 5                    
+ 
+ 
+D. {
+}.
+0; 1; 2; 
+3 ;.....
+−−
+−
+ 
+Câu 10. Số 18 được viết bằng số La Mã là: 
+A. XII.                          
+B. XV.                          
+C. XVIII.                            D. XX. 
+Câu 11. Số nào sau đây là bội của 17? 
+A. 51.  
+ 
+B. 54. 
+ 
+C. 56. 
+         D. 63. 
+Câu 12. Cho hình thoi, biết độ dài hai đường chéo là 2cm và 4cm. Thì diện tích hình thoi là: 
+A. 4. 
+B. 6. 
+C. 8. 
+D. 2. 
+ 
+ 
+A
+B
+C
+D
+
+
+--- TRANG 39 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho tập hợp 
+{
+12
+18}
+B
+x
+x
+=
+
+
+
+∣
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Tập hợp B gồm các phần tử là 12,13,14,15,16,17. 
+b) Số 18 thuộc tập hợp B . 
+c) Trong tập hợp B , chỉ có duy nhất một số chia hết cho 5 là số 15. 
+d) Tổng của phần tử bé nhất và phần tử lớn nhất trong tập hợp B là 29 . 
+Câu 2. Cho hình thang cân ABCD có độ dài đáy nhỏ 
+4 cm
+AB =
+, đáy lớn 
+10 cm
+CD =
+ và 
+chiều cao 
+5 cm
+h =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Hai cạnh bên AD và BC có độ dài bằng nhau. 
+b) Hai góc kề một đáy của hình thang cân ABCD bằng nhau. 
+c) Hai đường chéo AC và BD vuông góc với nhau. 
+d) Diện tích của hình thang cân ABCD là 
+2
+35 cm . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số tự nhiên x sao cho 24 x
+ và 10
+15
+x
+
+
+? 
+Câu 2. Một hình thang cân có độ dài hai đáy lần lượt là 6 cm và 10 cm , chiều cao bằng 
+4 cm . Tính diện tích của hình thang cân đó (đơn vị: 
+2
+cm )? 
+Phần IV. Tự luận 
+Câu 1.  Thực hiện phép tính (tính hợp lí nếu có thể): 
+a) 
+2
+3
+6 : 4 
+ 2
+5
+
++
+; 
+
+
+--- TRANG 40 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) 47 31
+69 47 – 200
+
++
+
+; 
+c) 
+(
+)
+
+.
+12. 390: 500 – 125
+245
++
+
+
+
+ 
+Câu 2. Tìm số tự nhiên x, biết: 
+a)  
+ 35 
+ 98
+x +
+=
+; 
+                   b)3
+45
+60
+x −
+=
+;                            c) (
+)
+3
+9
+11
+6
+1
+x
++
+−
+=
+. 
+Câu 3. Bác Minh muốn lát nền cho một căn phòng hình chữ nhật có chiều dài 16 m, chiều 
+rộng 5 m. Loại gạch lát nền được sử dụng là gạch hình vuông có cạnh dài 40 cm. Hỏi bác 
+Minh phải sử dụng bao nhiêu viên gạch (coi mạch vữa không đáng kể)? 
+Câu 4. Chứng tỏ rằng: 
+2
+3
+2 024
+A
+1
+4
+4
+4
+...
+4
+= +
++
++
++
++
+ chia hết cho 21? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

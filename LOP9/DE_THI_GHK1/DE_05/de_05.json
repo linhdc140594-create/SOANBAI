@@ -1,0 +1,231 @@
+{
+  "ma_de": "05",
+  "lop": "9",
+  "mon": "Toán 9",
+  "thoi_gian": "90 phút",
+  "phan_I": [
+    {
+      "cau": 1,
+      "de": "Cho hệ phương trình $\\begin{cases} 3x - y = 2 \\\\ x + y = 6. \\end{cases}$ Nghiệm $(x; y)$ của hệ phương trình là:",
+      "a": "$(2; 4)$.",
+      "b": "$(4; 2)$.",
+      "c": "$(1; 5)$.",
+      "d": "$(3; 3)$.",
+      "da": "A",
+      "loi_giai": "Cộng vế theo vế hai phương trình của hệ: $4x = 8 \\implies x = 2$. Thay vào phương trình thứ hai: $2 + y = 6 \\implies y = 4$. Vậy nghiệm của hệ là $(2; 4)$."
+    },
+    {
+      "cau": 2,
+      "de": "Hệ phương trình $\\begin{cases} 2x - y = 3 \\\\ 4x - 2y = 6 \\end{cases}$ có số nghiệm là:",
+      "a": "Vô nghiệm.",
+      "b": "Nghiệm duy nhất.",
+      "c": "Vô số nghiệm.",
+      "d": "Hai nghiệm phân biệt.",
+      "da": "C",
+      "loi_giai": "Ta có tỉ số $\\frac{2}{4} = \\frac{-1}{-2} = \\frac{3}{6} = \\frac{1}{2}$, do đó hai phương trình tương đương nhau và hệ có vô số nghiệm."
+    },
+    {
+      "cau": 3,
+      "de": "Cho $a < b$. Khẳng định nào sau đây là đúng?",
+      "a": "-2a < -2b.",
+      "b": "$a - 5 < b - 5$.",
+      "c": "$a + 3 > b + 3$.",
+      "d": "$-3a < -3b$.",
+      "da": "B",
+      "loi_giai": "Khi cộng hoặc trừ cùng một số vào cả hai vế của bất đẳng thức, chiều của bất đẳng thức không đổi. Do đó $a < b \\implies a - 5 < b - 5$."
+    },
+    {
+      "cau": 4,
+      "de": "Nghiệm của bất phương trình $3x - 6 \\ge 0$ là:",
+      "a": "$x \\le 2$.",
+      "b": "$x < 2$.",
+      "c": "$x \\ge 2$.",
+      "d": "$x > 2$.",
+      "da": "C",
+      "loi_giai": "Ta có $3x - 6 \\ge 0 \\iff 3x \\ge 6 \\iff x \\ge 2$."
+    },
+    {
+      "cau": 5,
+      "de": "Cho tam giác $ABC$ vuông tại $A$. Biểu thức nào sau đây tính $\\cos B$?",
+      "a": "$\\frac{AC}{BC}$.",
+      "b": "$\\frac{AB}{BC}$.",
+      "c": "$\\frac{AC}{AB}$.",
+      "d": "$\\frac{AB}{AC}$.",
+      "da": "B",
+      "loi_giai": "Trong tam giác vuông, cosin của góc nhọn bằng tỉ số giữa cạnh kề và cạnh huyền. Đối với góc $B$, cạnh kề là $AB$, cạnh huyền là $BC$, do đó $\\cos B = \\frac{AB}{BC}$."
+    },
+    {
+      "cau": 6,
+      "de": "Giá trị của biểu thức $M = \\sin^2 25^\\circ + \\sin^2 65^\\circ - \\tan 40^\\circ \\cdot \\cot 40^\\circ$ là:",
+      "a": "$0$.",
+      "b": "$1$.",
+      "c": "$-1$.",
+      "d": "$2$.",
+      "da": "A",
+      "loi_giai": "Vì $25^\\circ + 65^\\circ = 90^\\circ$ nên $\\sin 65^\\circ = \\cos 25^\\circ \\implies \\sin^2 25^\\circ + \\sin^2 65^\\circ = \\sin^2 25^\\circ + \\cos^2 25^\\circ = 1$. Lại có $\\tan 40^\\circ \\cdot \\cot 40^\\circ = 1$. Do đó $M = 1 - 1 = 0$."
+    },
+    {
+      "cau": 7,
+      "de": "Mua $3$ quyển vở và $2$ cái bút bi hết $31\\,000\\text{ đồng}$. Mua $2$ quyển vở và $1$ cái bút bi cùng loại hết $20\\,000\\text{ đồng}$. Giá tiền của một quyển vở và một cái bút bi lần lượt là:",
+      "a": "$8\\,000\\text{ đồng}$ và $3\\,000\\text{ đồng}$.",
+      "b": "$9\\,000\\text{ đồng}$ và $2\\,000\\text{ đồng}$.",
+      "c": "$10\\,000\\text{ đồng}$ và $1\\,000\\text{ đồng}$.",
+      "d": "$7\\,000\\text{ đồng}$ và $5\\,000\\text{ đồng}$.",
+      "da": "B",
+      "loi_giai": "Gọi giá một quyển vở là $x$, một cái bút bi là $y$ (đồng). Ta có hệ: $\\begin{cases} 3x + 2y = 31000 \\\\ 2x + y = 20000 \\end{cases} \\iff \\begin{cases} 3x + 2(20000 - 2x) = 31000 \\\\ y = 20000 - 2x \\end{cases} \\iff \\begin{cases} x = 9000 \\\\ y = 2000. \\end{cases}$"
+    },
+    {
+      "cau": 8,
+      "de": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\text{ cm}, CH = 9\\text{ cm}$. Độ dài cạnh $AB$ bằng:",
+      "a": "$2\\sqrt{13}\\text{ cm}$.",
+      "b": "$6\\text{ cm}$.",
+      "c": "$5\\text{ cm}$.",
+      "d": "$3\\sqrt{13}\\text{ cm}$.",
+      "da": "A",
+      "loi_giai": "Cạnh huyền $BC = BH + CH = 4 + 9 = 13\\text{ cm}$. Áp dụng hệ thức lượng: $AB^2 = BH \\cdot BC = 4 \\cdot 13 = 52 \\implies AB = \\sqrt{52} = 2\\sqrt{13}\\text{ cm}$."
+    },
+    {
+      "cau": 9,
+      "de": "Cho tam giác $ABC$ vuông tại $A$, cạnh $AC = 6\\text{ cm}$, góc $\\widehat{C} = 30^\\circ$. Độ dài cạnh huyền $BC$ là:",
+      "a": "$3\\text{ cm}$.",
+      "b": "$12\\text{ cm}$.",
+      "c": "$6\\sqrt{3}\\text{ cm}$.",
+      "d": "$4\\sqrt{3}\\text{ cm}$.",
+      "da": "D",
+      "loi_giai": "Trong tam giác vuông $ABC$ tại $A$: $\\cos C = \\frac{AC}{BC} \\implies BC = \\frac{AC}{\\cos 30^\\circ} = \\frac{6}{\\frac{\\sqrt{3}}{2}} = \\frac{12}{\\sqrt{3}} = 4\\sqrt{3}\\text{ cm}$."
+    },
+    {
+      "cau": 10,
+      "de": "Điều kiện xác định của phương trình $\\frac{x+1}{x-3} = \\frac{18}{x^2-9} + 3$ là:",
+      "a": "$x \\neq 3$.",
+      "b": "$x \\neq -3$.",
+      "c": "$x \\neq \\pm 3$.",
+      "d": "$x \\neq 3$ hoặc $x \\neq -3$.",
+      "da": "C",
+      "loi_giai": "Ta có $x^2 - 9 = (x - 3)(x + 3)$. Mẫu thức phải khác $0$: $\\begin{cases} x - 3 \\neq 0 \\\\ x + 3 \\neq 0 \\end{cases} \\iff x \\neq \\pm 3$."
+    },
+    {
+      "cau": 11,
+      "de": "Tìm giá trị của tham số $m$ để hệ phương trình $\\begin{cases} mx + y = 3 \\\\ x + my = 3 \\end{cases}$ có vô số nghiệm:",
+      "a": "$m = 1$.",
+      "b": "$m = -1$.",
+      "c": "$m = 2$.",
+      "d": "$m = 0$.",
+      "da": "A",
+      "loi_giai": "Hệ phương trình có vô số nghiệm khi $\\frac{m}{1} = \\frac{1}{m} = \\frac{3}{3} = 1 \\implies m = 1$."
+    },
+    {
+      "cau": 12,
+      "de": "Một cái thang dài $5\\text{ m}$ dựa vào tường, góc tạo bởi thang và mặt đất là $65^\\circ$. Khoảng cách từ chân thang đến chân tường (làm tròn đến hai chữ số thập phân) là:",
+      "a": "$4{,}53\\text{ m}$.",
+      "b": "$2{,}11\\text{ m}$.",
+      "c": "$2{,}54\\text{ m}$.",
+      "d": "$5{,}52\\text{ m}$.",
+      "da": "B",
+      "loi_giai": "Khoảng cách từ chân thang đến chân tường là $d = 5 \\cdot \\cos 65^\\circ \\approx 5 \\cdot 0{,}4226 \\approx 2{,}11\\text{ m}$."
+    }
+  ],
+  "phan_II": [
+    {
+      "cau": 1,
+      "de": "Cho bất phương trình $(3m - 1)x < 2$. Xét tính Đúng/Sai của các khẳng định sau:",
+      "y_a": {
+        "noi_dung": "Khi $m = 0$, bất phương trình trở thành $-x < 2$ và có nghiệm $x > -2$.",
+        "da": "D",
+        "loi_giai": "Khi $m = 0$, bất phương trình là $(0 - 1)x < 2 \\iff -x < 2 \\iff x > -2$. Khẳng định Đúng."
+      },
+      "y_b": {
+        "noi_dung": "Khi $m = 1$, bất phương trình có nghiệm là $x < 1$.",
+        "da": "D",
+        "loi_giai": "Khi $m = 1$, ta có $(3 - 1)x < 2 \\iff 2x < 2 \\iff x < 1$. Khẳng định Đúng."
+      },
+      "y_c": {
+        "noi_dung": "Khi $m = -1$, bất phương trình có nghiệm là $x < -\\frac{1}{2}$.",
+        "da": "S",
+        "loi_giai": "Khi $m = -1$, ta có $(-3 - 1)x < 2 \\iff -4x < 2 \\iff x > -\\frac{1}{2}$. Khẳng định Sai."
+      },
+      "y_d": {
+        "noi_dung": "Khi $m = -2$, bất phương trình có nghiệm nguyên nhỏ nhất là $0$.",
+        "da": "D",
+        "loi_giai": "Khi $m = -2$, ta có $(-6 - 1)x < 2 \\iff -7x < 2 \\iff x > -\\frac{2}{7} \\approx -0{,}28$. Số nguyên nhỏ nhất lớn hơn $-0{,}28$ là $0$. Khẳng định Đúng."
+      }
+    },
+    {
+      "cau": 2,
+      "de": "Cho hệ phương trình $\\begin{cases} 4x - y = -5 \\\\ x + y = 5. \\end{cases}$ Xét tính Đúng/Sai của các khẳng định sau:",
+      "y_a": {
+        "noi_dung": "Hệ phương trình trên là hệ hai phương trình bậc nhất hai ẩn.",
+        "da": "D",
+        "loi_giai": "Khẳng định Đúng vì hệ gồm hai phương trình bậc nhất có hai ẩn $x$ và $y$."
+      },
+      "y_b": {
+        "noi_dung": "Cộng từng vế hai phương trình của hệ ta được phương trình $5x = 0$.",
+        "da": "D",
+        "loi_giai": "Cộng vế theo vế: $(4x + x) + (-y + y) = -5 + 5 \\iff 5x = 0$. Khẳng định Đúng."
+      },
+      "y_c": {
+        "noi_dung": "Nghiệm của hệ phương trình là cặp số $(0; 5)$.",
+        "da": "D",
+        "loi_giai": "Từ $5x = 0 \\implies x = 0$. Thay vào phương trình thứ hai: $0 + y = 5 \\implies y = 5$. Nghiệm là $(0; 5)$. Khẳng định Đúng."
+      },
+      "y_d": {
+        "noi_dung": "Giá trị của biểu thức $P = 2x + 3y$ tại nghiệm của hệ bằng $12$.",
+        "da": "S",
+        "loi_giai": "Tại nghiệm $(0; 5)$, $P = 2(0) + 3(5) = 15 \\neq 12$. Khẳng định Sai."
+      }
+    }
+  ],
+  "phan_III": [
+    {
+      "cau": 1,
+      "de": "Một xe tải chở sữa tươi, mỗi thùng sữa nặng trung bình $10\\text{ kg}$. Trọng tải tối đa của xe là $5{,}25\\text{ tấn}$. Bác lái xe nặng $65\\text{ kg}$. Hỏi xe có thể chở được tối đa bao nhiêu thùng sữa như vậy?",
+      "da": "$518$",
+      "loi_giai": "Đổi $5{,}25\\text{ tấn} = 5250\\text{ kg}$. Khối lượng tối đa dành cho các thùng sữa là: $5250 - 65 = 5185\\text{ kg}$. Số thùng sữa tối đa là: $\\left\\lfloor \\frac{5185}{10} \\right\\rfloor = 518\\text{ thùng}$."
+    },
+    {
+      "cau": 2,
+      "de": "Với giá trị nào của $x$ thì hai biểu thức $A = \\frac{3}{3x+1} + \\frac{2}{1-3x}$ và $B = \\frac{x-5}{9x^2-1}$ có cùng một giá trị?",
+      "da": "$x = 0$",
+      "loi_giai": "Điều kiện xác định: $x \\neq \\pm \\frac{1}{3}$. Ta có:\n$$A = \\frac{3}{3x+1} - \\frac{2}{3x-1} = \\frac{3(3x-1) - 2(3x+1)}{9x^2-1} = \\frac{9x - 3 - 6x - 2}{9x^2-1} = \\frac{3x - 5}{9x^2-1}.$$\nĐể $A = B$ thì $\\frac{3x - 5}{9x^2-1} = \\frac{x - 5}{9x^2-1} \\iff 3x - 5 = x - 5 \\iff 2x = 0 \\iff x = 0$ (thỏa mãn ĐKXĐ)."
+    }
+  ],
+  "phan_IV": [
+    {
+      "cau": 1,
+      "diem": "1,0 điểm",
+      "de": "Giải hệ phương trình và bất phương trình sau:",
+      "cac_y": [
+        {
+          "diem_y": "0,5",
+          "noi_dung": "$\\begin{cases} 2x + y = 1 \\\\ x - y = 5 \\end{cases}$",
+          "loi_giai": "Cộng hai phương trình vế theo vế: $3x = 6 \\implies x = 2$.\nThay $x = 2$ vào phương trình thứ hai: $2 - y = 5 \\implies y = -3$.\nVậy hệ phương trình có nghiệm duy nhất $(x; y) = (2; -3)$."
+        },
+        {
+          "diem_y": "0,5",
+          "noi_dung": "$\\frac{x - 3}{5} < \\frac{2x + 17}{3}$",
+          "loi_giai": "Quy đồng mẫu chung là $15$:\n$$3(x - 3) < 5(2x + 17) \\iff 3x - 9 < 10x + 85 \\iff -7x < 94 \\iff x > -\\frac{94}{7}.$$\nVậy tập nghiệm của bất phương trình là $x > -\\frac{94}{7}$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem": "0,75 điểm",
+      "de": "Một trường THCS mua $350$ quyển vở (gồm loại $80$ trang và loại $100$ trang) để làm phần thưởng cho học sinh. Giá bán mỗi quyển vở $80$ trang và $100$ trang lần lượt là $6\\,000\\text{ đồng}$ và $7\\,500\\text{ đồng}$. Tổng số tiền nhà trường dùng để mua vở là $2\\,400\\,000\\text{ đồng}$. Hỏi nhà trường đã mua mỗi loại bao nhiêu quyển vở?",
+      "loi_giai": "Gọi số quyển vở loại $80$ trang là $x$ và loại $100$ trang là $y$ (quyển; $x, y \\in \\mathbb{N}^*, x, y < 350$).\nTheo đề bài ta có hệ phương trình:\n$$\\begin{cases} x + y = 350 \\\\ 6000x + 7500y = 2400000 \\end{cases} \\iff \\begin{cases} 6x + 6y = 2100 \\\\ 6x + 7{,}5y = 2400 \\end{cases} \\iff \\begin{cases} 1{,}5y = 300 \\\\ x = 350 - y \\end{cases} \\iff \\begin{cases} y = 200 \\\\ x = 150. \\end{cases}$$\nCả hai giá trị đều thỏa mãn điều kiện.\nVậy nhà trường đã mua $150$ quyển vở loại $80$ trang và $200$ quyển vở loại $100$ trang."
+    },
+    {
+      "cau": 3,
+      "diem": "0,75 điểm",
+      "de": "Lúc 6 giờ sáng, bạn An đi từ nhà ($A$) đến trường ($B$) phải leo lên và xuống một con dốc đỉnh $C$. Cho biết đoạn $AB = 762\\text{ m}$, $\\widehat{A} = 4^\\circ$, $\\widehat{B} = 6^\\circ$.\n\\begin{enumerate}[label=\\alph*)]\n  \\item Tính chiều cao con dốc (làm tròn đến hàng đơn vị mét).\n  \\item Hỏi bạn An đến trường lúc mấy giờ (làm tròn đến phút)? Biết tốc độ lên dốc là $4\\text{ km/h}$ và tốc độ xuống dốc là $19\\text{ km/h}$.\n\\end{enumerate}",
+      "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=1.0, line join=round, line cap=round, >=stealth]\n  \\coordinate (A) at (0,0); % Nha\n  \\coordinate (B) at (7.62,0); % Truong\n  \\coordinate (H) at (4.58,0); % Chan duong cao\n  \\coordinate (C) at (4.58,1.6); % Dinh doc\n  \\draw[thick] (-0.5,0) -- (8.2,0) node[below] {Mặt phẳng ngang $(AB)$};\n  \\draw[line width=1.5pt, blue!75!black] (A) -- (C) -- (B);\n  \\draw[thick, dashed, red] (C) -- (H) node[midway, right] {$h$};\n  \\draw (4.58,0.2) -- (4.38,0.2) -- (4.38,0);\n  \\draw[->, thick, purple] (1.2,0) arc (0:19:1.2);\n  \\node at (1.5,0.25) [purple] {$4^\\circ$};\n  \\draw[->, thick, purple] (6.42,0) arc (180:152:1.2);\n  \\node at (6.1,0.25) [purple] {$6^\\circ$};\n  \\filldraw[black] (A) circle (1.5pt) node[below left] {$A$ (Nhà)};\n  \\filldraw[black] (B) circle (1.5pt) node[below right] {$B$ (Trường)};\n  \\filldraw[black] (C) circle (1.5pt) node[above] {$C$ (Đỉnh dốc)};\n  \\filldraw[black] (H) circle (1.5pt) node[below] {$H$};\n  \\node at (3.8,-0.4) {$AB = 762\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+      "loi_giai": "a) Kẻ đường cao $CH \\perp AB$ ($H \\in AB$). Đặt $AH = x\\text{ (m)} \\implies HB = 762 - x\\text{ (m)}$.\nTrong tam giác vuông $ACH$: $CH = x \\cdot \\tan 4^\\circ$.\nTrong tam giác vuông $BCH$: $CH = (762 - x) \\cdot \\tan 6^\\circ$.\nDo đó: $x \\cdot \\tan 4^\\circ = (762 - x) \\cdot \\tan 6^\\circ \\iff x(\\tan 4^\\circ + \\tan 6^\\circ) = 762 \\cdot \\tan 6^\\circ \\implies x \\approx 457{,}75\\text{ m}$.\nChiều cao con dốc là: $CH = 457{,}75 \\cdot \\tan 4^\\circ \\approx 32\\text{ m}$.\n\nb) Chiều dài đoạn lên dốc: $AC = \\sqrt{AH^2 + CH^2} \\approx \\sqrt{457{,}75^2 + 32^2} \\approx 458{,}87\\text{ m} \\approx 0{,}459\\text{ km}$.\nChiều dài đoạn xuống dốc: $CB = \\sqrt{HB^2 + CH^2} \\approx \\sqrt{(762 - 457{,}75)^2 + 32^2} \\approx 305{,}93\\text{ m} \\approx 0{,}306\\text{ km}$.\nThời gian An đi từ nhà đến trường là:\n$$t = \\frac{0{,}459}{4} + \\frac{0{,}306}{19} \\approx 0{,}11475 + 0{,}0161 = 0{,}13085\\text{ giờ} \\approx 7{,}85\\text{ phút} \\approx 8\\text{ phút}.$$\nXuất phát lúc 6 giờ sáng, vậy An đến trường lúc khoảng 6 giờ 8 phút."
+    },
+    {
+      "cau": 4,
+      "diem": "0,5 điểm",
+      "de": "Giải phương trình: $(x + 8)(x + 6)(x + 7)^2 = 72$.",
+      "loi_giai": "Ta biến đổi phương trình:\n$$(x + 8)(x + 6)(x + 7)^2 = 72 \\iff (x^2 + 14x + 48)(x + 7)^2 = 72.$$\nĐặt $t = x + 7$, khi đó $x^2 + 14x + 48 = (x + 7)^2 - 1 = t^2 - 1$.\nPhương trình trở thành:\n$$(t^2 - 1)t^2 = 72 \\iff t^4 - t^2 - 72 = 0.$$\nĐặt $u = t^2$ ($u \\ge 0$), phương trình có dạng $u^2 - u - 72 = 0 \\iff (u - 9)(u + 8) = 0$.\nVì $u \\ge 0$ nên $u = 9 \\implies t^2 = 9 \\iff t = 3$ hoặc $t = -3$.\n- Với $t = 3 \\implies x + 7 = 3 \\iff x = -4$.\n- Với $t = -3 \\implies x + 7 = -3 \\iff x = -10$.\nVậy tập nghiệm của phương trình là $S = \\{-10; -4\\}$."
+    }
+  ]
+}
+

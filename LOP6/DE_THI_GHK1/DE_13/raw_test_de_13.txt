@@ -1,0 +1,390 @@
+--- TRANG 49 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 13 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1.  Số vừa chia hết cho 2 và 3 là: 
+A. 5019. 
+B. 5020. 
+ 
+ 
+C. 5021. 
+ 
+        D. 5022. 
+Câu 2. Hình vuông ABCD có 
+ 
+ 3 
+AB
+cm
+=
+, diện tích của hình vuông đó bằng bao nhiêu? 
+A. 3.  
+       
+ 
+B. 9.  
+           
+C. 12.  
+           
+D. 81. 
+Câu 3. Số nào sau đây không phải số nguyên tố?  
+A.  11. 
+ 
+ 
+B. 33.     
+ 
+ 
+C. 17.  
+ 
+ 
+D. 31. 
+Câu 4. ƯCLN (13, 4) là:          
+A. 1. 
+ 
+ 
+ 
+B. 3.                 
+ 
+C. 4.                  
+ 
+D. 12. 
+Câu 5. Chọn câu đúng nhất. 
+A. Hình thang cân là hình thang có hai góc kề một đáy bằng nhau. 
+B. Trong hình thang cân, hai cạnh bên bằng nhau. 
+C. Trong hình thang cân, hai đường chéo bằng nhau. 
+D. Cả A, B, C đều đúng. 
+Câu 6. Tập hợp  tất cả các số tự nhiên là: 
+A. 
+
+
+0; 1; 2 .
+=
+
+                      
+ 
+ 
+B. 
+
+
+0; 1; 2; 3; 4 .
+=
+
+ 
+C. 
+
+
+0; 1; 2; 3; ... . 
+=
+
+ 
+ 
+ 
+ 
+D. 
+
+
+0; 1; 2; 3; 4; 5; 6; 7; 8; 9 .
+=
+
+ 
+Câu 7. Thứ tự thực hiện phép tính nào sau đây là đúng đối với biểu thức có dấu ngoặc? 
+A. 
+( )
+
+  
+   
+  .       
+→
+→
+ 
+ 
+ 
+ 
+B. 
+
+( )
+  
+   
+  .
+→
+→
+ 
+
+
+--- TRANG 50 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. 
+
+( )
+  
+   
+  .       
+→
+→
+ 
+ 
+ 
+ 
+D. ( )
+
+
+  
+   
+  .
+→
+→
+ 
+Câu 8. Điều kiện của x để biểu thức 
+12
+14
+16
+A
+x
+=
++
++
++
+ chia hết cho 2 là: 
+A. x là số tự nhiên chẵn 
+   
+ 
+ 
+B. x là số tự nhiên lẻ 
+C. x là số tự nhiên bất kì                                D. 
+
+
+0;2;4;6;8
+x
+ 
+Câu 9.  Khẳng định nào sau đây là sai? 
+A. Hình chữ nhật và hình thoi có các cặp cạnh đối song song với nhau. 
+B. Hình lục giác đều có ba đường chéo chính bằng nhau. 
+C. Hình bình hành có hai cạnh đối bằng nhau. 
+D. Hình thoi có hai đường chéo bằng nhau. 
+Câu 10. Phát biểu nào sau đây Sai? Trong một hình bình hành: 
+A. Hai đường chéo cắt nhau tại trung điểm mỗi đường. 
+B. Các cạnh đối song song với nhau. 
+C. Bốn góc bằng nhau. 
+D. Các cạnh đối bằng nhau. 
+Câu 11. Trong các số sau số nào chia hết cho 2. 
+A. 803.                
+ 
+B. 135.      
+ 
+ 
+C. 1975.                            D. 358. 
+Câu 12. Giá một chiếc khẩu trang N95 là 30 000 đồng. Tính số tiền cần có để mua 20 chiếc 
+khẩu trang N95 đó? 
+A. 30 020 đồng. 
+ 
+ 
+ 
+ 
+ 
+B. 60 000 đồng. 
+ 
+C. 600 000 đồng.  
+ 
+ 
+ 
+ 
+ 
+D. 500 000 đồng. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hình vuông ABCD có 
+30 cm
+AB =
+. Xét tính đúng sai của các mệnh đề sau: 
+
+
+--- TRANG 51 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Các góc của hình vuông bằng nhau và bằng 90 độ. 
+b) Độ dài AC lớn hơn BD . 
+c) 
+20 cm
+BC =
+. 
+d) Biết hình vuông ABCD được ghép bởi 4 hình vuông nhỏ bằng nhau và không xếp chồng 
+lên nhau. Cạnh hình vuông nhỏ có độ dài là 15 dm . 
+Câu 2. Cho biểu thức 
+2
+3
+2 5
+32: 2
+P =
+
+−
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+5 bằng 10. 
+b) Biểu thức P có giá trị bằng 46. 
+c) Giá trị của biểu thức P chia hết cho cả 2 và 5. 
+d) Giá trị của biểu thức P là một hợp số. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số tự nhiên x lớn nhất thỏa mãn 48 x
+ và 72 x
+. 
+Câu 2. Một hình thoi có diện tích bằng 
+2
+30 cm và độ dài một đường chéo bằng 6 cm . Tính 
+độ dài đường chéo còn lại của hình thoi (đơn vị: cm). 
+Phần IV. Tự luận 
+Câu 1. Thực hiện các phép tính sau (Tính nhanh nếu có thể): 
+a) 15+187+85; 
+ 
+ 
+ 
+b) 
+(
+)
+3 ;
+2024
+38
+4 1
+−
+−
+−
+
+
+
+ 
+c) 27.39
+27.63
+2.27;
++
+−
+ 
+  
+ 
+d) 
+(
+)
+
+
+3
+.
+210: 38 – 12
+3. 32:2
++
+
+
+
+ 
+Câu 2. Tìm x biết: 
+a) 19
+5
+x
+−
+=
+;  
+ 
+ 
+ 
+b) 
+2
+2.3
+5
+7
+x −
+=
+; 
+
+
+--- TRANG 52 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) 
+(
+)
+3
+81
+3x
+5
+4
+−
++
+=
+;  
+ 
+ 
+d) (
+)
+(
+)
+2
+2
+2
+19x
+2.5
+:14
+13
+8
+4
++
+=
+−
+−
+. 
+Câu 3. Nhà bạn Nam có mảnh vườn hình chữ nhật, chiều dài 12m, chiều rộng 8m. Ở giữa 
+vườn có khu nghỉ ngơi hình chữ nhật, chiều dài 6m, chiều rộng 2m. Phần còn lại của khu 
+vườn bạn trồng cây. 
+a) Tính diện tích mảnh vườn? 
+b) Biết mỗi mét vuông cây trồng hết 15 000 đồng để chăm bón hàng tháng, hỏi bạn Nam 
+cần bao nhiêu tiền chăm bón hàng tháng? 
+ 
+Câu 4. Cho số tự nhiên x thoả mãn 
+1
+2
+3
+3
+2.3
+270
+x
+x
+x
++
++
++
+−
+=
+. 
+a) Hỏi x là số nguyên tố hay hợp số? 
+b) Tìm hai số tự nhiên biết tích của chúng bằng 144, ƯCLN của chúng bằng 6 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2 m
+6 m
+8 m
+12 m

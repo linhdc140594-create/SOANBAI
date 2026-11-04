@@ -1,0 +1,178 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex}
+	Giải các hệ phương trình:
+	$$ \begin{cases} 4x-3y=7 \\ x-2y=3 \end{cases} $$
+	\loigiai{
+		Ta có hệ phương trình:
+		$$ \begin{cases} 4x-3y=7 \quad &(1) \\ x-2y=3 \quad &(2) \end{cases} $$
+		Từ phương trình (2), ta có $x = 2y+3$.
+		Thế $x = 2y+3$ vào phương trình (1):
+		$4(2y+3) - 3y = 7$
+		$8y + 12 - 3y = 7$
+		$5y = 7 - 12$
+		$5y = -5$
+		$y = -1$.
+		Thay $y=-1$ vào $x = 2y+3$:
+		$x = 2(-1) + 3 = -2 + 3 = 1$.
+		Vậy nghiệm của hệ phương trình là $(x; y) = (1; -1)$.
+		\\ \textbf{Đáp số: $(x;y) = (1;-1)$}
+	}
+\end{ex}
+
+\begin{ex}
+	Rút gọn biểu thức sau:
+	$$ Q=\left(\frac{1}{\sqrt{a}+3}-\frac{\sqrt{a}}{3\sqrt{a}-a}\right) \cdot \left(\sqrt{a}-\frac{9}{\sqrt{a}}\right) $$
+	với $a>0, a \neq 9$.
+	\loigiai{
+		Điều kiện: $a>0, a \neq 9$.
+		Ta có:
+		\begin{align*} Q &= \left(\frac{1}{\sqrt{a}+3}-\frac{\sqrt{a}}{\sqrt{a}(3-\sqrt{a})}\right) \cdot \left(\frac{a-9}{\sqrt{a}}\right) \\ &= \left(\frac{1}{\sqrt{a}+3}-\frac{1}{3-\sqrt{a}}\right) \cdot \frac{(\sqrt{a}-3)(\sqrt{a}+3)}{\sqrt{a}} \\ &= \left(\frac{1}{\sqrt{a}+3}+\frac{1}{\sqrt{a}-3}\right) \cdot \frac{(\sqrt{a}-3)(\sqrt{a}+3)}{\sqrt{a}} \\ &= \left(\frac{(\sqrt{a}-3) + (\sqrt{a}+3)}{(\sqrt{a}+3)(\sqrt{a}-3)}\right) \cdot \frac{(\sqrt{a}-3)(\sqrt{a}+3)}{\sqrt{a}} \\ &= \frac{2\sqrt{a}}{(\sqrt{a}+3)(\sqrt{a}-3)} \cdot \frac{(\sqrt{a}-3)(\sqrt{a}+3)}{\sqrt{a}} \\ &= \frac{2\sqrt{a}}{\sqrt{a}} \\ &= 2 \end{align*}
+		Vậy $Q=2$.
+		\\ \textbf{Đáp số: $Q=2$}
+	}
+\end{ex}
+
+\begin{ex}
+	Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-2x-1=0$. Không giải phương trình hãy tính giá trị của các biểu thức sau: $B=x_1(x_1-2)+x_2(x_2-2)$.
+	\loigiai{
+		Phương trình $x^2-2x-1=0$ có $a=1, b=-2, c=-1$.
+		Vì $ac = 1 \cdot (-1) = -1 < 0$, phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.
+		Theo hệ thức Vi-ét, ta có:
+		$$ \begin{cases} x_1 + x_2 = -\frac{b}{a} = -\frac{-2}{1} = 2 \\ x_1 x_2 = \frac{c}{a} = \frac{-1}{1} = -1 \end{cases} $$
+		Ta biến đổi biểu thức B:
+		\begin{align*} B &= x_1(x_1-2)+x_2(x_2-2) \\ &= x_1^2 - 2x_1 + x_2^2 - 2x_2 \\ &= (x_1^2 + x_2^2) - 2(x_1+x_2) \\ &= ((x_1+x_2)^2 - 2x_1x_2) - 2(x_1+x_2) \end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức B:
+		\begin{align*} B &= ((2)^2 - 2(-1)) - 2(2) \\ &= (4 + 2) - 4 \\ &= 6 - 4 \\ &= 2 \end{align*}
+		Vậy $B=2$.
+		\\ \textbf{Đáp số: $B=2$}
+	}
+\end{ex}
+
+\begin{ex}
+	Một đội xe nhận vận chuyển 96 tấn hàng. Nhưng khi sắp khởi hành có thêm 3 xe nữa, nên mỗi xe chở ít hơn lúc đầu 1,6 tấn hàng. Hỏi lúc đầu đội xe có bao nhiêu chiếc?
+	\loigiai{
+		Gọi số xe lúc đầu của đội là $x$ (chiếc).
+		Điều kiện: $x \in \mathbb{N}^*$.
+		
+		Lúc đầu, mỗi xe chở số tấn hàng là: $\frac{96}{x}$ (tấn).
+		Lúc sau, số xe của đội là: $x+3$ (chiếc).
+		Lúc sau, mỗi xe chở số tấn hàng là: $\frac{96}{x+3}$ (tấn).
+		
+		Vì lúc sau mỗi xe chở ít hơn lúc đầu 1,6 tấn hàng, ta có phương trình:
+		$$ \frac{96}{x} - \frac{96}{x+3} = 1,6 $$
+		Đổi $1,6 = \frac{16}{10} = \frac{8}{5}$.
+		$$ \frac{96}{x} - \frac{96}{x+3} = \frac{8}{5} $$
+		Quy đồng mẫu số và giải phương trình:
+		\begin{align*}
+			96 \cdot 5 (x+3) - 96 \cdot 5 x &= 8x(x+3) \\
+			480(x+3) - 480x &= 8x(x+3) \\
+			480x + 1440 - 480x &= 8x^2 + 24x \\
+			1440 &= 8x^2 + 24x \\
+			8x^2 + 24x - 1440 &= 0
+		\end{align*}
+		Chia cả hai vế cho 8:
+		$$ x^2 + 3x - 180 = 0 $$
+		Giải phương trình bậc hai $x^2 + 3x - 180 = 0$:
+		Ta có $\Delta = b^2 - 4ac = 3^2 - 4(1)(-180) = 9 + 720 = 729$.
+		$\sqrt{\Delta} = \sqrt{729} = 27$.
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-b + \sqrt{\Delta}}{2a} = \frac{-3 + 27}{2 \cdot 1} = \frac{24}{2} = 12$.
+		$x_2 = \frac{-b - \sqrt{\Delta}}{2a} = \frac{-3 - 27}{2 \cdot 1} = \frac{-30}{2} = -15$.
+		
+		Đối chiếu với điều kiện $x \in \mathbb{N}^*$:
+		Nghiệm $x_1 = 12$ (thỏa mãn).
+		Nghiệm $x_2 = -15$ (không thỏa mãn).
+		
+		Vậy, lúc đầu đội xe có 12 chiếc.
+		\\ \textbf{Đáp số: 12 chiếc}
+	}
+\end{ex}
+\begin{ex}
+	Hình bên dưới mô tả một đĩa tròn bằng bìa cứng được chia làm 12 phần bằng nhau và ghi các số 1, 2, 3, ..., 12; chiếc kim được gắn cố định vào trục quay ở tâm của đĩa. Xét phép thử “Quay đĩa tròn một lần”.
+	Tính xác suất của biến cố D: “Chiếc kim chỉ vào hình quạt ghi số nguyên tố”.
+	\loigiai{
+		Không gian mẫu $\Omega = \{1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12\}$.\\
+		Số phần tử của không gian mẫu là $n(\Omega) = 12$.\\
+		Biến cố D: “Chiếc kim chỉ vào hình quạt ghi số nguyên tố”.
+		Các số nguyên tố trong các số từ 1 đến 12 là:\\
+		$D = \{2; 3; 5; 7; 11\}$.
+		Số phần tử của biến cố D là $n(D) = 5$.\\
+		Xác suất của biến cố D là:\\
+		$P(D) = \frac{n(D)}{n(\Omega)} = \frac{5}{12}$.
+	}
+\end{ex}
+\begin{ex}
+	Cho điểm A nằm ngoài đường tròn tâm O bán kính R. Từ A kẻ đường thẳng (d) không đi qua tâm O, cắt (O) tại B và C (B nằm giữa A và C). Các tiếp tuyến với đường tròn (O) tại B và C cắt nhau tại D. Từ D kẻ DH vuông góc với AO (H nằm trên AO), DH cắt cung nhỏ BC tại M. Gọi I là giao điểm của DO và BC.
+	\begin{enumerate}
+		\item[a)] Chứng minh bốn điểm O, H, D, C thuộc một đường tròn.
+		\item[b)] Chứng minh:
+		\begin{itemize}
+			\item[+)] $OH \cdot OA = OI \cdot OD$.
+			\item[+)] AM là tiếp tuyến của đường tròn (O).
+		\end{itemize}
+	\end{enumerate}
+	\loigiai{
+	\begin{center}
+	\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+		% Def
+		\def\r{3}
+		\def\a{5}
+		\pgfmathsetmacro{\alphadeg}{acos(\r/\a)} 
+		\def\kparam{5/8}
+		
+		% Coordinates
+		\coordinate (O) at (0,0);
+		\coordinate (D) at (\a,0);
+		\coordinate (C) at (\alphadeg:\r);
+		\coordinate (B) at (-\alphadeg:\r); 
+		
+		\coordinate (I) at ($(B)!0.5!(C)$);
+		
+		\coordinate (A) at ($(B) - \kparam*($(C)-(B)$)$);
+		
+		\coordinate (H) at ($(O)!(D)!(A)$);
+		
+		\path [name path = c1] (O) circle (\r);
+		\path [name path = oa] (O)--(A);
+		\path [name intersections={of=c1 and oa, by={K}}];
+		
+		\path [name path = dh] (D)--(H);
+		\path [name intersections={of=c1 and dh, by={M}}];
+		
+		% Draw 
+		\draw (O) circle (\r); 
+		
+		\draw (O) -- (C) -- (D) -- (B) -- cycle;
+		\draw (D) -- (O) -- (A) -- (C);
+		\draw (D) -- (H);
+		\draw[dashed] (O) -- (M) -- (A);
+		\draw[dashed] (M) -- (K);
+		
+		% Fill points (theo hướng dẫn của bạn)
+		\fill (O) circle (1.5pt);
+		\fill (D) circle (1.5pt);
+		\fill (C) circle (1.5pt);
+		\fill (B) circle (1.5pt);
+		\fill (I) circle (1.5pt);
+		\fill (A) circle (1.5pt);
+		\fill (H) circle (1.5pt);
+		\fill (K) circle (1.5pt);
+		\fill (M) circle (1.5pt);
+		
+		% Node points (theo hướng dẫn của bạn)
+		\node[below left] at (O) {$O$};
+		\node[below right] at (D) {$D$};
+		\node[above right] at (C) {$C$};
+		\node[below right] at (B) {$B$};
+		\node[below] at (I) {$I$};
+		\node[below] at (A) {$A$};
+		\node[left] at (H) {$H$};
+		\node[below left] at (K) {$K$};
+		\node[above right] at (M) {$M$};
+		
+	\end{tikzpicture}	
+		
+	\end{center}
+	}
+\end{ex}

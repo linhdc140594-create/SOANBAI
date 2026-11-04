@@ -1,0 +1,649 @@
+--- TRANG 130 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Số nào chia hết cho 2? 
+b) Số nào chia hết cho 3? 
+c) Số nào chia hết cho 5? 
+d) Số nào chia hết cho cả 2 và 5? 
+Lời giải.  
+a) Các số chia hết cho 2: 64;270;136;2808 . 
+b) Các số chia hết cho 3: 87;270;2808. 
+c) Các số chia hết cho 5: 270;425 . 
+d) Các số chia hết cho cả 2 và 5: 270. 
+ĐỀ SỐ 10 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho hai tập
+
+
+1;2;3;4;5
+A =
+ và 
+
+
+; ; ;
+B
+a b c d
+=
+ . Có bao nhiêu tập hợp có hai phần tử 
+thỏa mãn có một phần tử thuộc tập hợp A và một phần tử thuộc tập hợp B ? 
+A. 16.  
+ 
+ 
+B. 18.  
+ 
+ 
+C. 20 .  
+ 
+ 
+D. 9 . 
+Lời giải.  
+• 
+Tập A có 5 phần tử và tập B có 4 phần tử. 
+• 
+Số cách chọn 1 phần tử thuộc A là 5 cách. 
+• 
+Số cách chọn 1 phần tử thuộc B là 4 cách. 
+• 
+Số tập hợp thỏa mãn là 5 4
+20
+
+=
+ (tập hợp). 
+Đáp án đúng: C. 
+Câu 2. Tìm số tự nhiên x , biết 
+20
+42
+x +
+=
+. 
+
+
+--- TRANG 131 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 22 . 
+ 
+ 
+B. 62.  
+ 
+ 
+C. 2.  
+ 
+ 
+D. 18. 
+Lời giải. 
+42
+20
+22
+x =
+−
+=
+. Đáp án đúng: A. 
+Câu 3. Số 308 đọc là 
+A. Ba trăm tám mươi. 
+ 
+ 
+ 
+ 
+B. Ba mươi tám. 
+ 
+ 
+C. Ba trăm linh tám. 
+ 
+            
+ 
+D. Ba linh tám. 
+Lời giải. Số 308 có chữ số hàng trăm là 3, hàng chục là 0, hàng đơn vị là 8 nên được đọc 
+là "Ba trăm linh tám". 
+Đáp án đúng: C. 
+ 
+Câu 4. Hợp số là: 
+A. Số tự nhiên có nhiều hơn 2 ước. 
+B. Số tự nhiên có 4 ước. 
+C. Số tự nhiên lớn hơn 1, có nhiều hơn 2 ước. 
+D. Số tự nhiên lớn hơn 1, chỉ có hai ước là 1 và chính nó. 
+Lời giải. Theo định nghĩa, hợp số là số tự nhiên lớn hơn 1, có nhiều hơn 2 ước. 
+Đáp án đúng: C. 
+Câu 5. Trong tam giác đều mỗi góc có số đo bằng 
+ 
+A. 60.                               B. 45 . 
+     C. 90 . 
+          D. 30 .  
+Lời giải. Tam giác đều có 3 góc bằng nhau và mỗi góc bằng 60. Đáp án đúng: A. 
+Câu 6. Khẳng định nào dưới đây đúng? 
+A. Hình bình hành có 4 góc bằng nhau. 
+B. Hình lục giác đều có 3 đường chéo chính cùng đi qua một điểm. 
+
+
+--- TRANG 132 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. Tam giác đều là tam giác có 3 góc vuông. 
+D. Hình chữ nhật có hai đường chéo bằng nhau và vuông góc với nhau.  
+Lời giải. Hình lục giác đều có 3 đường chéo chính cùng đi qua tâm của lục giác (cùng đi 
+qua 1 điểm). Đáp án đúng: B. 
+Câu 7. Kết quả của phép tính 
+12
+2
+0
+7 .7 .7 dưới dạng lũy thừa là: 
+A. 
+14
+7 . 
+B. 
+24
+7 . 
+     C. 
+32
+7 . 
+       D. 7 . 
+Lời giải. 
+12
+2
+0
+12 2 0
+14
+7
+7
+7
+7
+7
++ +
+
+
+=
+=
+.  Đáp án đúng: A. 
+Câu 8. Cho hình bình hành ABCD. Biết AB = 3cm, BC = 2cm. Chu vi hình bình hành 
+ABCD là: 
+ 
+A. 6.  
+ 
+ 
+   B. 10. 
+ 
+ 
+C. 12.  
+ 
+ 
+D. 5. 
+Lời giải. Chu vi hình bình hành ABCD là (3
+2) 2
+10 (cm)
++
+
+=
+. Đáp án đúng: B. 
+Câu 9.  Tập hợp nào sau đây là tập hợp các số nguyên? 
+A. 
+.
+1; 2; 3; 4; 5              
+ 
+ 
+ 
+B. 
+.
+ ...; 3 ; 2; 1;0;1;2;3;...
+−
+−
+−
+ 
+C. 
+.
+0; 1; 2; 3; 4; 5                    
+ 
+ 
+D. {
+}.
+0; 1; 2; 
+3 ;.....
+−−
+−
+ 
+Lời giải. Tập hợp các số nguyên 
+{
+; 3; 2; 1;0;1;2;3;
+}
+= −
+−
+−
+
+
+. Đáp án đúng: B. 
+Câu 10. Số 18 được viết bằng số La Mã là: 
+A. XII.                          
+B. XV.                          
+C. XVIII.                            D. XX. 
+Lời giải. 18
+10
+5 1 1 1
+=
++
++ + + tương ứng viết thành XVIII. Đáp án đúng: C. 
+A
+B
+C
+D
+
+
+--- TRANG 133 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 11. Số nào sau đây là bội của 17? 
+A. 51.  
+ 
+B. 54. 
+ 
+C. 56. 
+         D. 63. 
+Lời giải. Ta có 51:17
+3
+= (chia hết) nên 51 là bội của 17. Đáp án đúng: A. 
+Câu 12. Cho hình thoi, biết độ dài hai đường chéo là 2cm và 4cm. Thì diện tích hình thoi là: 
+A. 4. 
+B. 6. 
+C. 8. 
+D. 2. 
+Lời giải. Diện tích hình thoi bằng tích độ dài hai đường chéo chia cho 2: 
+2
+2 4
+4 (cm )
+2
+S
+
+=
+=
+. 
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho tập hợp 
+{
+12
+18}
+B
+x
+x
+=
+
+
+
+∣
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Tập hợp B gồm các phần tử là 12,13,14,15,16,17 . 
+b) Số 18 thuộc tập hợp B . 
+c) Trong tập hợp B , chỉ có duy nhất một số chia hết cho 5 là số 15. 
+d) Tổng của phần tử bé nhất và phần tử lớn nhất trong tập hợp B là 29 . 
+Lời giải. 
+a) Đúng. Các số tự nhiên lớn hơn hoặc bằng 12 và nhỏ hơn 18 bao gồm 12,13,14,15,16,17 . 
+b) Sai. Điều kiện của x là 
+18
+x 
+ nên số 18 không thuộc tập hợp B . 
+c) Đúng. Trong các phần tử của B , chỉ có duy nhất số 15 chia hết cho 5. 
+d) Đúng. Phần tử bé nhất là 12, phần tử lớn nhất là 17. Tổng của chúng là 12 17
+29.
++
+=
+ 
+
+
+--- TRANG 134 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Cho hình thang cân ABCD có độ dài đáy nhỏ 
+4 cm
+AB =
+, đáy lớn 
+10 cm
+CD =
+ và 
+chiều cao 
+5 cm
+h =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Hai cạnh bên AD và BC có độ dài bằng nhau. 
+b) Hai góc kề một đáy của hình thang cân ABCD bằng nhau. 
+c) Hai đường chéo AC và BD vuông góc với nhau. 
+d) Diện tích của hình thang cân ABCD là 
+2
+35 cm . 
+Lời giải.  
+a) Đúng. Trong hình thang cân, hai cạnh bên luôn có độ dài bằng nhau. 
+b) Đúng. Đây là tính chất đặc trưng của hình thang cân. 
+c) Sai. Trong hình thang cân, hai đường chéo bằng nhau chứ không nhất thiết vuông góc 
+với nhau. 
+d) Đúng. Diện tích hình thang cân ABCD tính theo công thức 
+2
+(4 10) 5
+35 cm
+2
++
+
+=
+ 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số tự nhiên x sao cho 24 x
+ và 10
+15
+x
+
+
+? 
+Lời giải. Vì 24 x
+ nên 
+U(24)
+{1;2;3;4;6;8;12;24}
+x
+=
+. Do 10
+15
+x
+
+
+ nên 
+12
+x =
+. 
+Đáp án: 12. 
+Câu 2. Một hình thang cân có độ dài hai đáy lần lượt là 6 cm và 10 cm , chiều cao bằng 
+4 cm . Tính diện tích của hình thang cân đó (đơn vị: 
+2
+cm )? 
+Lời giải. Diện tích của hình thang cân là: 
+2
+(6 10) 4: 2
+32 (cm )
++
+
+=
+. Đáp án: 32. 
+Phần IV. Tự luận 
+Câu 1.  Thực hiện phép tính (tính hợp lí nếu có thể): 
+
+
+--- TRANG 135 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 
+2
+3
+6 : 4 
+ 2
+5
+
++
+; 
+b) 47 31
+69 47 – 200
+
++
+
+; 
+c) 
+(
+)
+
+.
+12. 390: 500 – 125
+245
++
+
+
+
+ 
+Lời giải.  
+a) 
+2
+3
+6 : 4
+2
+5
++
+ 
+36: 4
+8 5
+=
++  
+9
+40
+49
+=
++
+=
+. 
+b) 47 31
+69 47
+200
+
++
+
+−
+ 
+47 (31
+69)
+200
+=
+
++
+−
+ 
+47 100
+200
+=
+
+−
+ 
+4700
+200
+4500
+=
+−
+=
+. 
+c) 12 {390:[500
+(125
+245)]}
+
+−
++
+ 
+12 {390:[500
+370]}
+=
+
+−
+ 
+12 {390:130}
+=
+
+ 
+12 3
+36
+=
+=
+. 
+Câu 2. Tìm số tự nhiên x, biết: 
+a)  
+ 35 
+ 98
+x +
+=
+; 
+                   b)3
+45
+60
+x −
+=
+;                            c) (
+)
+3
+9
+11
+6
+1
+x
++
+−
+=
+. 
+Lời giải.  
+a) 
+35
+98
+x +
+=
+ 
+98
+35
+x =
+−
+ 
+63
+x =
+. 
+
+
+--- TRANG 136 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) 3
+45
+60
+x −
+=
+ 
+3
+60
+45
+x =
++
+ 
+3
+105
+x =
+ 
+105:3
+x =
+ 
+35
+x =
+. 
+c) 
+3
+(6
+)
+11 19
+x
+−
++
+=
+ 
+3
+(6
+)
+19 11
+x
+−
+=
+−
+ 
+3
+(6
+)
+8
+x
+−
+= 
+3
+3
+(6
+)
+2
+x
+−
+=
+ 
+6
+2
+x
+−
+=
+ 
+6
+2
+x =
+− 
+4
+x =
+. 
+Câu 3. Bác Minh muốn lát nền cho một căn phòng hình chữ nhật có chiều dài 16 m, chiều 
+rộng 5 m. Loại gạch lát nền được sử dụng là gạch hình vuông có cạnh dài 40 cm. Hỏi bác 
+Minh phải sử dụng bao nhiêu viên gạch (coi mạch vữa không đáng kể)? 
+Lời giải. Diện tích căn phòng hình chữ nhật: 
+2
+2
+16 5
+80 (m )
+800000 (cm )
+=
+=
+ 
+Diện tích một viên gạch lát nền: 
+2
+40 40
+1600 (cm )
+
+=
+ 
+Số viên gạch bác Minh phải sử dụng: 800000:1600
+500 (viên)
+=
+. 
+Câu 4. Chứng tỏ rằng: 
+2
+3
+2 024
+A
+1
+4
+4
+4
+...
+4
+= +
++
++
++
++
+ chia hết cho 21? 
+Lời giải. Tổng A có tất cả 2025 số hạng.  
+Vì 2025 3
+, ta nhóm 3 số hạng liên tiếp thành một nhóm: 

@@ -1,0 +1,1239 @@
+--- TRANG 55 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các phương trình sau phương trình nào không phải là phương trình bậc nhất 
+hai ẩn? 
+A. 2
+3
+5
+x
+y
+−
+= . 
+ 
+ 
+ 
+ 
+ 
+B. 0
+2
+4
+x
+y
++
+=
+. 
+C. 2
+0
+3
+x
+y
+−
+= . 
+ 
+ 
+ 
+ 
+ 
+D. 0
+0
+6
+x
+y
+−
+= . 
+Lời giải: Phương trình bậc nhất hai ẩn có dạng tổng quát là ax
+by
+c
++
+= , trong đó các hệ số 
+a và b không đồng thời bằng 0 .  
+Ở phương trình 0
+0
+6
+x
+y
+−
+= , cả hai hệ số của ẩn đều bằng 0 nên đây không phải là phương 
+trình bậc nhất hai ẩn. 
+Đáp án đúng: D. 
+Câu 2. Hệ phương trình nào dưới đây là hệ hai phương trình bậc nhất hai ẩn? 
+A. 
+2
+2
+3
+1
+3
+18
+x
+y
+x
+
++
+=
+−
+=
+
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0,5
+0,2
+0,1
+0
+0
+0,4
+x
+y
+x
+y
+−
+= −
+
+
++
+= −
+
+ 
+C. 
+4
+7
+10
+3
+8
+19
+x
+y
+x
+y
+−
++
+= −
+
+
++
+= −
+
+  
+ 
+ 
+ 
+ 
+D. 
+2
+2
+3
+2
+31
+5
+1
+x
+y
+x
+y
++
+=
+
+
++
+= −
+
+ 
+Lời giải: Hệ hai phương trình bậc nhất hai ẩn là hệ gồm hai phương trình, mỗi phương 
+trình là phương trình bậc nhất hai ẩn.  
+Hệ ở phương án C thỏa mãn điều kiện này vì cả hai phương trình đều có bậc nhất đối với 
+hai biến x và y . Đáp án đúng: C. 
+
+
+--- TRANG 56 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 3. Trong các hệ hai phương trình bậc nhất hai ẩn sau, hệ phương trình nào nhận cặp 
+số ( 1; 2)
+−−
+ là nghiệm? 
+A. 12
+3
+6
+5
+5
+x
+y
+x
+−
+= −
+
+−
+=
+
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0,2
+3
+0,7
+0,8
+2
+x
+y
+x
+y
+−
+=
+
+−−
+=
+
+ 
+C. 
+1
+3
+2
+x
+y
+x
+y
+−+
+=
+
+
++
+= −
+
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+31
+5
+1
+x
+y
+x
+y
++
+=
+
+
++
+= −
+
+ 
+Lời giải: Thay giá trị 
+1
+x = − và 
+2
+y = − vào từng phương trình của hệ ở phương án C ta thấy 
+thỏa mãn cả hai phương trình của hệ. Đáp án đúng: C. 
+Câu 4.  Điều kiện xác định của phương trình 
+2
+2
+18
+1
+2
+4
+x
+x
+x
+−
+=
+−
+−
+ là: 
+A. 
+2
+x  
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+x  
+ 
+ 
+ 
+C. 
+0
+x  
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+0,
+2
+x
+x
+
+ 
+Lời giải: Phân tích mẫu thức của các phân thức ta có 
+2
+4
+(
+2)(
+2)
+x
+x
+x
+−
+=
+−
++
+.  
+Để các phân thức có nghĩa, các mẫu thức x , 
+2
+x − và 
+2
+4
+x − phải khác 0 .  
+Do đó điều kiện xác định là 
+0
+x 
+ và 
+2
+x .  
+Đáp án đúng: D. 
+Câu 5. Cho tam giác ABC vuông tại B , khi đó sinC bằng: 
+A. AC
+BC 
+ 
+ 
+B. AB
+AC 
+ 
+ 
+C. AB
+BC 
+ 
+         D. BC
+AC 
+Lời giải: Trong tam giác vuông tại B , sin của góc nhọn bằng tỉ số giữa cạnh đối diện và 
+cạnh huyền.  
+Cạnh đối diện với góc C là cạnh AB và cạnh huyền là cạnh AC . Do đó sin
+AB
+C
+AC
+=
+.  
+Đáp án đúng: B. 
+
+
+--- TRANG 57 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 6. Cho  và  là hai góc phụ nhau thì: 
+A. sin
+tan
+
+
+=
+ 
+ 
+ 
+ 
+ 
+ 
+B. sin
+cot
+
+
+=
+ 
+C. cos
+cot
+
+
+=
+ 
+ 
+ 
+ 
+ 
+ 
+D. sin
+cos
+
+
+=
+ 
+Lời giải: Hai góc phụ nhau có tổng số đo bằng 90.  
+Theo tính chất tỉ số lượng giác của hai góc phụ nhau, sin của góc này bằng cos của góc kia, 
+tức là sin
+cos
+
+
+=
+. Đáp án đúng: D. 
+Câu 7. Một ngân hàng đang áp dụng lãi suất gửi tiết kiệm kì hạn 12 tháng là 7,4% trên 
+một năm. Bà Mai dự kiến gửi một khoản tiền vào ngân hàng này và cần số tiền lãi hằng 
+năm ít nhất là 60 triệu để chi tiêu. Hỏi số tiền bà Mai cần gửi tiết kiệm ít nhất là bao nhiêu? 
+(Làm tròn đến triệu đồng)    
+A. 810 triệu đồng.  
+ 
+ 
+ 
+ 
+B. 800 triệu đồng. 
+C. 811 triệu đồng.  
+ 
+ 
+ 
+ 
+D. 700 triệu đồng. 
+Lời giải: Gọi số tiền cần gửi tiết kiệm là x (triệu đồng). Số tiền lãi thu được sau một năm 
+là 7,4% x
+.  
+Theo đề bài, số tiền lãi hằng năm ít nhất là 60 triệu đồng nên ta có bất phương trình 
+7,4%
+60
+x
+
+.  
+Giải bất phương trình này ta được 
+60
+810,81
+0,074
+x 
+
+ triệu đồng.  
+Làm tròn đến triệu đồng ta được số tiền cần gửi ít nhất là 811 triệu đồng. 
+Đáp án đúng: C. 
+Câu 8. Biết rằng m
+n
+
+ với 
+,
+m n bất kỳ, chọn câu đúng: 
+A. 
+3
+3
+m
+n
+−
+− 
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+3
+m
+n
++ 
++ 
+C. 
+2
+2
+m
+n
+−
+
+− 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+n
+m
++
+
++ 
+
+
+--- TRANG 58 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Khi cộng hoặc trừ cùng một số vào cả hai vế của một bất đẳng thức thì chiều của 
+bất đẳng thức không thay đổi.  
+Từ bất đẳng thức m
+n
+
+, khi trừ cả hai vế cho 3 ta được 
+3
+3
+m
+n
+−
+−. Đáp án đúng: A. 
+Câu 9. Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn? 
+A. 
+2
+1
+0
+2
+x
+y
+−
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+10
+2
+y
+x
+
+−
+ 
+C. 3
+1
+4
+y
+−
+  
+ 
+ 
+ 
+ 
+ 
+D. 0
+0
+8
+y
++
+ 
+Lời giải: Bất phương trình bậc nhất một ẩn có dạng tổng quát là 
+0
+ax
+b
++  (hoặc , ,
+) 
+với a khác 0 .  
+Biểu thức 3
+1
+4
+y
+−
+ là bất phương trình bậc nhất ẩn y . Đáp án đúng: C. 
+Câu 10. Tỉ số lượng giác bằng tan46 là: 
+A. tan46 
+ 
+ 
+B. cos44 
+ 
+ 
+C. tan44 
+ 
+      D. cot44 
+Lời giải: Hai góc phụ nhau có tổng số đo bằng 90, ta có 46
+44
+90
+
+
+
++
+=
+.  
+Tang của góc này bằng côtang của góc kia, do đó tan46
+cot44
+
+
+=
+. Đáp án đúng: D. 
+Câu 11. Biểu thức 
+sin35
+cos35
+sin55
+cos55
+A
+
+
+
+
+=
++
+−
+−
+ có giá trị là: 
+A. sin40
+cos40
+
+
+−
+−
+  
+ 
+ 
+ 
+ 
+B. 80
+−
+ 
+C. 0  
+ 
+ 
+ 
+ 
+ 
+ 
+D. Không tính được 
+Lời giải: Vì 35 và 55 là hai góc phụ nhau nên ta có sin35
+cos55
+
+
+=
+ và cos35
+sin55
+
+
+=
+. 
+Thay vào biểu thức A ta được: 
+cos55
+sin55
+sin55
+cos55
+0
+A
+
+
+
+
+=
++
+−
+−
+= 
+Đáp án đúng: C. 
+
+
+--- TRANG 59 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 12. Một cột điện cao 4 m , tia nắng mặt trời chiếu xuống mặt đất tạo với mặt đất góc 
+35. Khi đó chiều dài bóng của cột điện trên mặt đất (làm tròn đến chữ số thập phân thứ 
+hai) là: 
+A. 4,40 m 
+ 
+ 
+B. 3,41 m 
+ 
+ 
+C. 5,71 m 
+ 
+     D. 2,09 m 
+Lời giải: Áp dụng tỉ số lượng giác trong tam giác vuông, chiều dài bóng của cột điện trên 
+mặt đất tính bằng cách lấy chiều cao chia cho tan35,  ta có 
+4
+5,71 m
+tan35
+. 
+Đáp án đúng: C. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Giải hệ phương trình 2
+6
+5
+2
+6
+4
+x
+y
+x
+y
+−
+=
+
+
+−
+=
+
+ bằng phương pháp cộng đại số theo các bước 
+phía dưới. Xét tính Đúng/Sai của các khẳng định sau:  
+a) Nhân hai vế của phương trình thứ hai với 2, ta được: 2
+6
+5
+2
+6
+4
+x
+y
+x
+y
+−
+=
+
+
+−
+=
+
+.    
+b) Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ, ta được 0
+1
+x = .    
+c) Phương trình 0
+1
+x = vô số nghiệm.   
+d) Nghiệm tổng quát của hệ phương trình đã cho là (6
+5;2
+4)
+y
+x
++
+−
+ với x tùy ý.    
+Lời giải 
+a) Sai. Khi nhân hai vế của phương trình thứ hai với 2 thì vế phải phải là 4 2
+8
+
+= , nhưng 
+hệ giữ nguyên vế phải là 4 là thao tác biến đổi sai.    
+b) Đúng. Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ ban đầu ta 
+được (2
+6 )
+(2
+6 )
+5
+4
+x
+y
+x
+y
+−
+−
+−
+= −, rút gọn thành 0
+1
+x = .    
+
+
+--- TRANG 60 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+c) Sai. Phương trình 0
+1
+x = không có giá trị nào của x thỏa mãn nên đây là phương trình 
+vô nghiệm chứ không phải vô số nghiệm.    
+d) Sai. Hệ phương trình đã cho vô nghiệm nên không tồn tại nghiệm tổng quát như vậy.  
+Câu 2. Cho bất phương trình 
+(5
+2)
+1
+m
+x −
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Bất phương trình đã cho là bất phương trình bậc nhất ẩn x với m tùy ý.    
+b) Khi 
+1
+m = , bất phương trình đã cho có nghiệm là 
+3
+5
+x 
+.   
+c) Khi 
+1
+m = −, bất phương trình đã cho có nghiệm là 
+1
+5
+x 
+.    
+d) Khi 
+2
+m = −, bất phương trình đã cho có nghiệm nguyên lớn nhất là 1
+−. 
+Lời giải. 
+a) Sai. Khi 
+0
+m = , bất phương trình trở thành 0
+1
+ không chứa ẩn x , do đó không phải là 
+bất phương trình bậc nhất với mọi m tùy ý.    
+b) Đúng. Khi 
+1
+m = , bất phương trình trở thành 5
+2
+1
+x−
+, rút gọn thành 5
+3
+x , hay 
+3
+5
+x 
+.   
+c) Sai. Khi 
+1
+m = −, bất phương trình trở thành 
+5
+2
+1
+x
+−
++
+, rút gọn thành 
+5
+1
+x
+−
+−, hay 
+1
+5
+x 
+.    
+d) Sai. Khi 
+2
+m = −, bất phương trình trở thành 10
+4
+1
+x
+−
++
+, rút gọn thành 10
+3
+x
+−
+−, hay 
+3
+10
+x 
+, do đó các nghiệm nguyên lớn hơn 0,3 nên nghiệm nguyên lớn nhất không phải là 1
+−.  
+ 
+ 
+ 
+ 
+
+
+--- TRANG 61 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hệ phương trình 2
+0
+6
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Tìm nghiệm ( ; )
+x y . 
+Lời giải: 
+Cộng hai phương trình vế theo vế: 3
+6
+2
+x
+x
+=
+
+=
+. 
+Thay vào phương trình thứ hai: 2
+6
+4
+y
+y
++
+=
+
+= . 
+Đáp án: ( ; )
+(2;4)
+x y =
+. 
+Câu 2. Cho tam giác ABC có 
+5 cm
+AB =
+, 
+12 cm
+BC =
+ và 
+13 cm
+CA =
+. Tính số đo góc C 
+(làm tròn đến độ). 
+Lời giải: Ta có 
+2
+2
+2
+2
+5
+12
+169
+AB
+BC
++
+=
++
+=
+ và 
+2
+2
+13
+169
+CA =
+=
+, suy ra 
+2
+2
+2
+AB
+BC
+CA
++
+=
+. 
+Theo định lý Pythagore đảo, tam giác ABC vuông tại B . 
+Khi đó 
+5
+ˆ
+sin
+23
+13
+AB
+C
+C
+AC
+
+=
+=
+
+
+. 
+Đáp án: 23. 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình sau: 
+a) 2 (
+3)
+5(
+3)
+0;
+x x
+x
+−
++
+−
+=
+ 
+ 
+ 
+b) 
+2
+2
+3
+3
+4
+.
+2
+2
+4
+8
+x
+x
+x
+x
+x
+x
++
+=
++
+−
++
++
+ 
+Lời giải:  
+a) 2 (
+3)
+5(
+3)
+0
+x x
+x
+−
++
+−
+=
+    
+(
+3)(2
+5)
+0
+x
+x
+
+−
++
+=
+    
+3
+x
+
+= hoặc 
+5
+2
+x = −
+    
+Vậy 
+5
+3;
+2
+S
+
+
+=
+−
+
+
+
+
+.    
+
+
+--- TRANG 62 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+b) 
+2
+2
+3
+3
+4
+2
+2
+4
+8
+x
+x
+x
+x
+x
+x
++
+=
++
+−
++
++ (ĐKXĐ: 
+2
+x −) 
+2
+2
+3(
+2
+4)
+(
+2)
+4
+x
+x
+x x
+x
+
+−
++
++
++
+=
+ 
+2
+2
+2
+3
+6
+12
+2
+4
+x
+x
+x
+x
+x
+
+−
++
++
++
+=
+ 
+4
+12
+3
+x
+x
+−
+= −
+
+= (thoả mãn). 
+Vậy 
+3
+x = . 
+Câu 2. Một cửa hàng sách có hai khu sách mới và sách cũ, mỗi khu được bán đồng giá. 
+Mai chi 112 500 đồng để mua 3 cuốn sách mới và 4 cuốn sách cũ, còn Linh chi 157 500 
+đồng đề mua 10 cuốn sách cũ và 3 cuốn sách mới. Tính giá mỗi cuốn sách mới và giá mỗi 
+cuốn sách cũ. 
+Lời giải. Gọi giá mỗi cuốn sách mới và cũ lần lượt là ,x y (đồng; ,
+0
+x y 
+).    
+Theo đề bài, ta có hệ phương trình: 
+3
+4
+112500
+3
+10
+157500
+x
+y
+x
+y
++
+=
+
+
++
+=
+
+ 
+6
+45000
+7500
+3
+4
+112500
+27500
+y
+y
+x
+y
+x
+=
+=
+
+
+
+
+
+
++
+=
+=
+
+
+ (thỏa mãn)    
+Vậy giá sách mới là 27.500 đồng, sách cũ là 7.500 đồng.  
+Câu 3. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng 34 và bóng của một 
+ngọn tháp trên mặt đất dài 86m. Tính chiều cao của tháp (làm tròn đến mét). (Kết quả làm 
+tròn đến chữ số thập phân thứ nhất) 
+ 
+Lời giải. Xét tam giác vuông ABH vuông tại H : 
+tan34
+86 tan34
+58,0 m
+BH
+AH
+
+
+=
+
+=
+
+
+.    
+
+
+--- TRANG 63 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Chiều cao của tháp là khoảng 58,0 m.  
+Câu 4. Cho tam giác ABC có 
+o
+A
+90
+=
+. Chứng minh rằng sinB
+cosC
+2sinB
++
+=
+. 
+Lời giải. Tam giác ABC vuông tại A nên 
+ˆ
+ˆ
+90
+B
+C
+
++
+=
+.    
+Suy ra cos
+sin
+C
+B
+=
+ (hai góc phụ nhau).    
+Do đó: sin
+cos
+sin
+sin
+2sin
+B
+C
+B
+B
+B
++
+=
++
+=
+ (điều phải chứng minh).  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

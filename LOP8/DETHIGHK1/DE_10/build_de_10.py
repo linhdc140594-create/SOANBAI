@@ -1,0 +1,291 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": 10,
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 8 - ĐỀ SỐ 10",
+    "thoi_gian": "90 phút (không kể thời gian phát đề)",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Trong các biểu thức sau, biểu thức nào là đa thức?",
+            "a": "$3x^2 + y$",
+            "b": "$\\dfrac{1}{x}$",
+            "c": "$-\\dfrac{2x + 1}{xy}$",
+            "d": "$\\sqrt{x} - 7$",
+            "da": "A",
+            "loigiai": "Đa thức là tổng của những đơn thức. Biểu thức $3x^2 + y$ là tổng của hai đơn thức $3x^2$ và $y$ nên là đa thức."
+        },
+        {
+            "cau": 2,
+            "de": "Trong các biểu thức sau, biểu thức nào không phải là đơn thức?",
+            "a": "$\\dfrac{1}{4}$",
+            "b": "$2\\sqrt{y}$",
+            "c": "$-3xy^2z^3$",
+            "d": "$x$",
+            "da": "B",
+            "loigiai": "Đơn thức là biểu thức đại số chỉ gồm một số, một biến, hoặc một tích giữa các số và các biến. Biểu thức $2\\sqrt{y}$ chứa căn bậc hai của biến nên không phải là đơn thức."
+        },
+        {
+            "cau": 3,
+            "de": "Bậc của đa thức $x^2y^2 + xy^3 - x^2y^4$ là:",
+            "a": "3",
+            "b": "4",
+            "c": "6",
+            "d": "8",
+            "da": "C",
+            "loigiai": "Hạng tử $-x^2y^4$ có tổng số mũ của các biến là $2 + 4 = 6$, đây là hạng tử có bậc cao nhất trong đa thức. Do đó bậc của đa thức bằng 6."
+        },
+        {
+            "cau": 4,
+            "de": "Đơn thức $12x^5y^4$ chia hết cho đơn thức nào dưới đây?",
+            "a": "$5x^2y$",
+            "b": "$6x^5y^5$",
+            "c": "$2x^2yz$",
+            "d": "$3x^5y^6$",
+            "da": "A",
+            "loigiai": "Đơn thức $12x^5y^4$ chia hết cho $5x^2y$ vì số mũ của mỗi biến trong $5x^2y$ đều nhỏ hơn hoặc bằng số mũ của biến tương ứng trong $12x^5y^4$."
+        },
+        {
+            "cau": 5,
+            "de": "Cho tứ giác $ABCD$ biết $\\widehat{A} = 33^\\circ, \\widehat{B} = 122^\\circ, \\widehat{C} = 78^\\circ$. Khi đó số đo góc $\\widehat{D}$ là:",
+            "a": "$66^\\circ$",
+            "b": "$142^\\circ$",
+            "c": "$127^\\circ$",
+            "d": "$33^\\circ$",
+            "da": "C",
+            "loigiai": "Tổng số đo bốn góc trong một tứ giác bằng $360^\\circ$. Ta có: $\\widehat{D} = 360^\\circ - 33^\\circ - 122^\\circ - 78^\\circ = 127^\\circ$."
+        },
+        {
+            "cau": 6,
+            "de": "Đơn thức $-\\dfrac{1}{5}x^2y^3(-5x^3y)ax$ với $a$ là hằng số có hệ số và bậc lần lượt là:",
+            "a": "$a$ và $6$",
+            "b": "$1$ và $10$",
+            "c": "$a$ và $10$",
+            "d": "$1$ và $6$",
+            "da": "C",
+            "loigiai": "Thu gọn đơn thức: $-\\dfrac{1}{5}x^2y^3 \\cdot (-5x^3y) \\cdot ax = ax^6y^4$. Hệ số là $a$ và bậc là $6 + 4 = 10$."
+        },
+        {
+            "cau": 7,
+            "de": "Cặp đơn thức nào sau đây là đồng dạng với nhau?",
+            "a": "$\\dfrac{1}{2}x^2y$ và $2xy^2$",
+            "b": "$-x^2y^4$ và $2x^2y^4$",
+            "c": "$6yt$ và $26y$",
+            "d": "$mxy$ và $ny^2$ với $m, n$ là hằng số khác $0$",
+            "da": "B",
+            "loigiai": "Hai đơn thức đồng dạng có hệ số khác 0 và có cùng phần biến. Cặp đơn thức $-x^2y^4$ và $2x^2y^4$ có cùng phần biến $x^2y^4$."
+        },
+        {
+            "cau": 8,
+            "de": "Hình bình hành cần có thêm điều kiện nào sau đây thì trở thành hình chữ nhật?",
+            "a": "Có một góc vuông",
+            "b": "Có hai cạnh kề bằng nhau",
+            "c": "Có hai đường chéo vuông góc",
+            "d": "Có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+            "da": "A",
+            "loigiai": "Theo dấu hiệu nhận biết, hình bình hành có một góc vuông là hình chữ nhật."
+        },
+        {
+            "cau": 9,
+            "de": "Hình bình hành $ABCD$ có $\\widehat{A} = 65^\\circ$. Số đo góc $\\widehat{C}$ là:",
+            "a": "$125^\\circ$",
+            "b": "$95^\\circ$",
+            "c": "$115^\\circ$",
+            "d": "$65^\\circ$",
+            "da": "D",
+            "loigiai": "Trong hình bình hành, hai góc đối bằng nhau nên $\\widehat{C} = \\widehat{A} = 65^\\circ$."
+        },
+        {
+            "cau": 10,
+            "de": "Cho tam giác $ABC$ vuông tại $A$ có $M$ là trung điểm của $BC$, biết $BC = 10\\text{ cm}$. Khi đó độ dài $AM$ bằng:",
+            "a": "$5\\text{ cm}$",
+            "b": "$10\\text{ cm}$",
+            "c": "$2{,}5\\text{ cm}$",
+            "d": "$20\\text{ cm}$",
+            "da": "A",
+            "loigiai": "Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: $AM = \\dfrac{BC}{2} = \\dfrac{10}{2} = 5\\text{ cm}$."
+        },
+        {
+            "cau": 11,
+            "de": "Hình nào sau đây có hai đường chéo không cắt nhau tại trung điểm của mỗi đường?",
+            "a": "Hình thang cân",
+            "b": "Hình bình hành",
+            "c": "Hình chữ nhật",
+            "d": "Hình vuông",
+            "da": "A",
+            "loigiai": "Hình thang cân nói chung không có tính chất hai đường chéo cắt nhau tại trung điểm mỗi đường. Tính chất này thuộc về hình bình hành và các dạng đặc biệt của nó."
+        },
+        {
+            "cau": 12,
+            "de": "Thể tích của hình chóp tam giác đều có diện tích đáy bằng $9\\text{ cm}^2$ và chiều cao bằng $4\\text{ cm}$ là:",
+            "a": "$36\\text{ cm}^3$",
+            "b": "$12\\text{ cm}^3$",
+            "c": "$27\\text{ cm}^3$",
+            "d": "$13\\text{ cm}^3$",
+            "da": "B",
+            "loigiai": "Thể tích hình chóp tam giác đều: $V = \\dfrac{1}{3} S \\cdot h = \\dfrac{1}{3} \\cdot 9 \\cdot 4 = 12\\text{ cm}^3$."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho biểu thức $A = (x + 2)^3 - x(x + 1)(x - 1) - 6x^2$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Khai triển hằng đẳng thức $(x + 2)^3$ ta được $x^3 + 6x^2 + 12x + 8$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $(x + 2)^3 = x^3 + 3 \\cdot x^2 \\cdot 2 + 3 \\cdot x \\cdot 2^2 + 2^3 = x^3 + 6x^2 + 12x + 8$."
+            },
+            "y_b": {
+                "noi_dung": "Kết quả của tích $x(x + 1)(x - 1)$ là $x^3 - x$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $x(x + 1)(x - 1) = x(x^2 - 1) = x^3 - x$."
+            },
+            "y_c": {
+                "noi_dung": "Kết quả rút gọn của biểu thức $A$ là $13x + 8$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $A = (x^3 + 6x^2 + 12x + 8) - (x^3 - x) - 6x^2 = 13x + 8$."
+            },
+            "y_d": {
+                "noi_dung": "Tại $x = -1$, giá trị của biểu thức $A$ bằng $5$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Thay $x = -1$ vào: $A = 13(-1) + 8 = -5 \\neq 5$."
+            }
+        },
+        {
+            "cau": 2,
+            "de": "Cho hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$ và độ dài cạnh $AB = 4\\text{ cm}$. Hai đường chéo $AC$ và $BD$ cắt nhau tại $O$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Tam giác $ABD$ là tam giác đều.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Tam giác $ABD$ có $AB = AD$ và $\\widehat{A} = 60^\\circ$ nên là tam giác đều."
+            },
+            "y_b": {
+                "noi_dung": "Độ dài đường chéo $BD$ bằng $4\\text{ cm}$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Vì tam giác $ABD$ đều nên $BD = AB = 4\\text{ cm}$."
+            },
+            "y_c": {
+                "noi_dung": "Hai đường chéo $AC$ và $BD$ vuông góc với nhau tại trung điểm $O$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Theo tính chất hình thoi, hai đường chéo vuông góc với nhau tại trung điểm mỗi đường."
+            },
+            "y_d": {
+                "noi_dung": "Độ dài đoạn thẳng $AO$ bằng $2\\text{ cm}$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} $AO$ là đường cao của tam giác đều $ABD$ cạnh $4\\text{ cm}$, do đó $AO = \\dfrac{4\\sqrt{3}}{2} = 2\\sqrt{3}\\text{ cm} \\neq 2\\text{ cm}$."
+            }
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Cho $x + y = 5$ và $xy = 6$. Tính giá trị của biểu thức $A = x^2 + y^2$.",
+            "da": "13",
+            "loigiai": "Ta có: $A = x^2 + y^2 = (x + y)^2 - 2xy$.\n\nThay $x + y = 5$ và $xy = 6$ vào biểu thức, ta được: $A = 5^2 - 2 \\cdot 6 = 25 - 12 = 13$."
+        },
+        {
+            "cau": 2,
+            "de": "Phân tích đa thức sau thành nhân tử: $x^2 - 2xy + y^2 - 9$.",
+            "da": "$(x - y - 3)(x - y + 3)$",
+            "loigiai": "Ta có: $x^2 - 2xy + y^2 - 9 = (x - y)^2 - 3^2 = (x - y - 3)(x - y + 3)$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,0 điểm",
+            "de": "Thực hiện các phép tính sau:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,35",
+                    "noi_dung": "$-3x(x^2y + 2y^2) + 3x^3y$",
+                    "loigiai": "$-3x(x^2y + 2y^2) + 3x^3y = -3x^3y - 6xy^2 + 3x^3y = -6xy^2$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,35",
+                    "noi_dung": "$(x + 2y)^2 + (x + 2y)(x - 2y) - 4xy$",
+                    "loigiai": "$(x + 2y)^2 + (x + 2y)(x - 2y) - 4xy = (x^2 + 4xy + 4y^2) + (x^2 - 4y^2) - 4xy = 2x^2$."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,3",
+                    "noi_dung": "$(x - 1)^3 + 3(x + 2)^2 - x(x + 1)(x - 1)$",
+                    "loigiai": "$(x - 1)^3 + 3(x + 2)^2 - x(x^2 - 1) = (x^3 - 3x^2 + 3x - 1) + 3(x^2 + 4x + 4) - (x^3 - x) = 16x + 11$."
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "0,75 điểm",
+            "de": "Tìm $x$, biết:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,35",
+                    "noi_dung": "$3x(x + 2) - 3x^2 = 18$",
+                    "loigiai": "$3x(x + 2) - 3x^2 = 18 \\Leftrightarrow 3x^2 + 6x - 3x^2 = 18 \\Leftrightarrow 6x = 18 \\Leftrightarrow x = 3$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,4",
+                    "noi_dung": "$(x + 1)^2 - (x - 3)(x + 3) = 10$",
+                    "loigiai": "$(x + 1)^2 - (x - 3)(x + 3) = 10 \\Leftrightarrow (x^2 + 2x + 1) - (x^2 - 9) = 10 \\Leftrightarrow 2x + 10 = 10 \\Leftrightarrow 2x = 0 \\Leftrightarrow x = 0$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "0,75 điểm",
+            "de": "Cho tam giác $ABC$ vuông tại $A$ có đường cao $AH$. Từ $H$ kẻ $HN \\perp AC, HM \\perp AB$.",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.9, >=stealth]\n  \\coordinate (A) at (0,3);\n  \\coordinate (B) at (-2.5,0);\n  \\coordinate (C) at (4,0);\n  \\coordinate (H) at (0,0);\n  \\coordinate (M) at ($(A)!0.4!(B)$);\n  \\coordinate (N) at ($(A)!0.4!(C)$);\n  \\coordinate (D) at ($(M)!-1!(H)$);\n  \\coordinate (E) at ($(N)!-1!(H)$);\n  \\draw[thick] (A)--(B)--(C)--cycle;\n  \\draw[thick] (A)--(H);\n  \\draw[thick, blue] (H)--(M);\n  \\draw[thick, blue] (H)--(N);\n  \\draw[dashed] (M)--(D) (N)--(E);\n  \\draw[dashed] (A)--(D) (A)--(E);\n  \\fill (A) circle (1.5pt) node[above] {$A$};\n  \\fill (B) circle (1.5pt) node[below left] {$B$};\n  \\fill (C) circle (1.5pt) node[below right] {$C$};\n  \\fill (H) circle (1.5pt) node[below] {$H$};\n  \\fill (M) circle (1.5pt) node[above left] {$M$};\n  \\fill (N) circle (1.5pt) node[above right] {$N$};\n  \\fill (D) circle (1.5pt) node[left] {$D$};\n  \\fill (E) circle (1.5pt) node[right] {$E$};\n  \\draw (0,0.3) -| (0.3,0);\n\\end{tikzpicture}\n\\end{center}",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,25",
+                    "noi_dung": "Chứng minh tứ giác $AMHN$ là hình chữ nhật.",
+                    "loigiai": "Tứ giác $AMHN$ có $\\widehat{MAN} = 90^\\circ$ (do $\\Delta ABC$ vuông tại $A$), $\\widehat{AMH} = 90^\\circ$ (do $HM \\perp AB$) và $\\widehat{ANH} = 90^\\circ$ (do $HN \\perp AC$). Tứ giác có 3 góc vuông nên $AMHN$ là hình chữ nhật."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,25",
+                    "noi_dung": "Lấy điểm $D$ sao cho $M$ là trung điểm của $DH$, lấy điểm $E$ sao cho $N$ là trung điểm của $EH$. Chứng minh $AD = AE$.",
+                    "loigiai": "Vì $HM \\perp AB$ tại trung điểm $M$ của $DH$ nên $AB$ là đường trung trực của $DH \\Rightarrow AD = AH$. Tương tự, $AC$ là đường trung trực của $EH \\Rightarrow AE = AH$. Do đó $AD = AE$ ($= AH$)."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,25",
+                    "noi_dung": "Chứng minh $BC^2 = BD^2 + CE^2 + 2BH \\cdot HC$.",
+                    "loigiai": "Vì $AB$ là đường trung trực của $DH$ nên $BD = BH$. Tương tự, $AC$ là đường trung trực của $EH$ nên $CE = CH$. Ta có: $BC^2 = (BH + HC)^2 = BH^2 + HC^2 + 2BH \\cdot HC$. Thay $BH = BD$ và $HC = CE$, ta được: $BC^2 = BD^2 + CE^2 + 2BH \\cdot HC$."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Tìm đa thức $P(x)$ biết rằng $P(x)$ chia cho $x - 3$ dư 7; chia cho $x - 2$ dư 5; chia cho $(x - 2)(x - 3)$ được thương là $3x$ và còn dư.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Tìm đa thức $P(x)$.",
+                    "loigiai": "Vì chia cho đa thức bậc hai $(x - 2)(x - 3)$ nên phần dư có dạng $R(x) = ax + b$.\n\nBiểu diễn: $P(x) = 3x(x - 2)(x - 3) + ax + b$.\n\n- $P(x)$ chia cho $x - 3$ dư 7 nên $P(3) = 7 \\Rightarrow 3a + b = 7$ (1).\n\n- $P(x)$ chia cho $x - 2$ dư 5 nên $P(2) = 5 \\Rightarrow 2a + b = 5$ (2).\n\nLấy (1) trừ (2) ta được: $a = 2$. Thay vào (2) suy ra $b = 1$.\n\nDo đó phần dư là $R(x) = 2x + 1$.\n\nĐa thức cần tìm là:\n$P(x) = 3x(x^2 - 5x + 6) + 2x + 1 = 3x^3 - 15x^2 + 18x + 2x + 1 = 3x^3 - 15x^2 + 20x + 1$."
+                }
+            ]
+        }
+    ]
+}
+
+work_dir = r'd:\GitHub\SOANBAI-main\LOP8\DETHIGHK1\DE_10'
+json_path = os.path.join(work_dir, 'de_10.json')
+with open(json_path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Đã tạo thành công de_10.json!")
+

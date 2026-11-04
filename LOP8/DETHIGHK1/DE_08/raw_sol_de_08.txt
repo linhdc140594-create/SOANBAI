@@ -1,0 +1,1472 @@
+--- TRANG 108 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 8 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Giá trị của biểu thức 
+2
+2
+1
+A
+x
+y
+=
++
+− tại 
+1
+x = và 
+1
+y = −.    
+A. 1
+−    
+ 
+ 
+B. 2
+−   
+ 
+ 
+ C. 1    
+ 
+ 
+D. 2    
+Lời giải: Thay 
+1
+x = và 
+1
+y = − vào biểu thức A , ta có 
+21
+2 ( 1) 1 1 2 1
+2
++ −
+−= −
+−= −.    
+Đáp án đúng: B.    
+Câu 2. Trong các đơn thức sau, đơn thức nào đồng dạng với đơn thức 
+2
+5x y ?    
+A. 5xy  
+ 
+ 
+B. 
+2
+4xy    
+ 
+ 
+C. 
+2
+7a b   
+ 
+       D. 
+2
+3x y
+−
+    
+Lời giải: Hai đơn thức đồng dạng là hai đơn thức có hệ số khác không và có cùng phần 
+biến. Đơn thức 
+2
+3x y
+−
+ có phần biến là 
+2x y , trùng với phần biến của đơn thức đã cho.    
+Đáp án đúng: D.    
+Câu 3. Kết quả của phép nhân (
+2)(
+2)
+a
+a
++
+−
+ bằng    
+A. 
+2
+4
+a +
+    
+ 
+ 
+B. 
+2
+4
+a −
+    
+ 
+ 
+C. 
+2
+2
+a −
+    
+ 
+        D. 
+2
+1
+a −    
+Lời 
+giải: 
+Áp 
+dụng 
+hằng 
+đẳng 
+thức 
+hiệu 
+hai 
+bình 
+phương, 
+ta 
+có 
+2
+2
+2
+(
+2)(
+2)
+2
+4.
+a
+a
+a
+a
++
+−
+=
+−
+=
+−
+ Đáp án đúng: B.    
+Câu 4. Giá trị của đa thức 
+3
+2
+2
+x y
+x
+−
++
+ tại 
+1;
+0
+x
+y
+= −
+=
+ là:    
+A. 2    
+ 
+ 
+B. 2
+−    
+ 
+ 
+C. 1
+−    
+ 
+ 
+D. 1    
+Lời giải: Thay 
+1
+x = − và 
+0
+y = vào đa thức, ta có 
+3
+2
+( 1)
+0
+2 ( 1)
+0
+2
+2
+−−
+
++ −
+=
+−
+= −.    
+Đáp án đúng: B.    
+
+
+--- TRANG 109 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 5. Biểu thức 
+2
+(2
+)
+x
+y
+−
+ có biểu thức khai triển là:    
+A. 
+2
+2
+2
+2
+x
+xy
+y
++
++
+     
+ 
+ 
+ 
+ 
+B. 
+2
+2
+2
+2
+x
+xy
+y
+−
++
+    
+C. 
+2
+2
+4
+4
+x
+xy
+y
++
++
+     
+ 
+ 
+ 
+ 
+D. 
+2
+2
+4
+4
+x
+xy
+y
+−
++
+    
+Lời giải: Áp dụng hằng đẳng thức bình phương của một hiệu, ta có 
+2
+2
+2
+2
+2
+(2
+)
+(2 )
+2 2
+4
+4
+x
+y
+x
+x y
+y
+x
+xy
+y
+−
+=
+−
+
++
+=
+−
++
+.   Đáp án đúng: D.    
+Câu 6. Đơn thức nào sau đây đồng dạng với đơn thức 
+2
+3x y
+−
+?    
+A. 1
+2 xy    
+ 
+ 
+B. 
+2
+3x yz    
+ 
+ 
+C. 
+2x y
+−
+    
+ 
+       D. 
+2
+3x z
+−
+    
+Lời giải: Đơn thức 
+2x y
+−
+ có phần biến là 
+2x y , đồng dạng với đơn thức 
+2
+3x y
+−
+ do có cùng 
+phần biến.   Đáp án đúng: C.   
+Câu 7. Tích (2
+3)(2
+3)
+x
+x
+−
++
+ có kết quả bằng    
+A. 
+2
+4
+12
+9
+x
+x
++
++    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+4
+9
+x −    
+C. 2
+3
+x −    
+ 
+ 
+ 
+ 
+ 
+ 
+D. 4
+9
+x −    
+Lời giải: Áp dụng hằng đẳng thức hiệu hai bình phương, ta có  
+2
+2
+2
+(2
+3)(2
+3)
+(2 )
+3
+4
+9
+x
+x
+x
+x
+−
++
+=
+−
+=
+−.    
+Đáp án đúng: B.    
+Câu 8. Các góc của một tứ giác có thể là    
+A. Bốn góc nhọn.     
+ 
+ 
+ 
+ 
+B. Bốn góc tù.    
+C. Bốn góc vuông.    
+ 
+ 
+ 
+ 
+D. Một góc vuông, ba góc nhọn.    
+Lời giải: Tổng bốn góc của một tứ giác luôn bằng 360. Nếu tứ giác có bốn góc vuông thì 
+tổng số đo là 90
+4
+360
+
+
+
+=
+, điều này hoàn toàn thỏa mãn.    
+Đáp án đúng: C.    
+
+
+--- TRANG 110 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 9. Hình chữ nhật có hai đường chéo như thế nào? 
+A. Bằng nhau và cắt nhau tại trung điểm mỗi đường    
+B. Bằng nhau    
+C. Cắt nhau tại trung điểm mỗi đường    
+D. Vuông góc với nhau    
+Lời giải: Theo tính chất của hình chữ nhật, hai đường chéo bằng nhau và cắt nhau tại trung 
+điểm của mỗi đường.    
+Đáp án đúng: A. 
+Câu 10. Cho hình vẽ. Tính x  
+ 
+A. 
+13 cm
+x =
+    
+ 
+ 
+ 
+ 
+B. 
+10 cm
+x =
+    
+C. 
+20 cm
+x =
+    
+ 
+ 
+ 
+ 
+D. 
+2 cm
+x =
+    
+Lời giải: Áp dụng định lý Pythagoras cho tam giác ABC vuông tại A , ta có 
+2
+2
+2.
+AB
+AC
+BC
++
+=
+ 
+Thay số vào ta được 
+2
+2
+2
+24
+26
+x +
+=
+, tức là 
+2
+576
+676
+x +
+=
+. Do đó 
+2
+100
+x =
+, dẫn đến 
+10 cm.
+x =
+ 
+Đáp án đúng: B.    
+Câu 11. Tam giác nào là tam giác vuông trong các tam giác có độ dài ba cạnh sau?    
+A. 10 m;13 m;15 m    
+ 
+ 
+ 
+B. 7 mm;8 mm;10 mm    
+C. 6 dm;7 dm;9 dm   
+ 
+ 
+ 
+D. 9 cm;12 cm;15 cm    
+Lời giải: Xét tam giác có ba cạnh 9 cm,12 cm,15 cm , ta có bình phương cạnh lớn nhất là 
+2
+15
+225
+=
+ và tổng bình phương hai cạnh nhỏ là 
+2
+2
+9
+12
+81 144
+225
++
+=
++
+=
+.  
+
+
+--- TRANG 111 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Vì tổng bình phương hai cạnh nhỏ bằng bình phương cạnh lớn nên đây là tam giác vuông 
+theo định lý Pythagoras đảo.   Đáp án đúng: D.    
+Câu 12. Cho hình chóp tứ giác đều có cạnh đáy bằng 10 cm , chiều cao bằng 9 cm . Thể 
+tích của hình chóp tứ giác đều là:    
+A. 
+3
+30 cm     
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+45 cm     
+ 
+ 
+C. 
+3
+300 cm     
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+450 cm    
+Lời giải: Diện tích đáy của hình chóp tứ giác đều là 
+2
+10 10
+100 cm
+
+=
+.  
+Thể tích hình chóp tính theo công thức 
+3
+1
+1 100 9
+300 cm
+3
+3
+V
+S h
+=
+
+
+=
+
+=
+.    
+Đáp án đúng: C.    
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai biểu thức 
+2
+(
+2)
+(
+1)(
+3)
+A
+x
+x
+x
+=
+−
+−
+−
++
+ và 
+3
+2
+2
+3
+6
+12
+8
+B
+x
+x y
+xy
+y
+=
+−
++
+−
+. Xét tính 
+đúng sai của các mệnh đề sau: 
+a) Khai triển hằng đẳng thức 
+2
+(
+2)
+x −
+ ta được 
+2
+4
+4
+x
+x
+−
++ . 
+b) Kết quả rút gọn của biểu thức A là 6
+7
+x
+−
++ . 
+c) Viết đa thức B dưới dạng lập phương của một hiệu ta được 
+3
+(
+2 )
+x
+y
+−
+. 
+d) Tại 
+1
+x = , giá trị của biểu thức A bằng 1
+−. 
+Lời giải. 
+a) Đúng. Áp dụng hằng đẳng thức bình phương của một hiệu: 
+2
+2
+(
+2)
+4
+4
+x
+x
+x
+−
+=
+−
++ . 
+b) Đúng. Rút gọn biểu thức A : 
+2
+2
+(
+4
+4)
+(
+2
+3)
+A
+x
+x
+x
+x
+=
+−
++
+−
++
+−
+ 
+2
+2
+4
+4
+2
+3
+6
+7
+A
+x
+x
+x
+x
+x
+=
+−
++
+−
+−
++
+= −
++ 
+
+
+--- TRANG 112 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Đúng. Áp dụng hằng đẳng thức 
+3
+2
+2
+3
+3
+3
+3
+(
+)
+a
+a b
+ab
+b
+a
+b
+−
++
+−
+=
+−
+ với a
+x
+= và 
+2
+b
+y
+=
+: 
+3
+2
+2
+3
+3
+3
+2
+3
+(2 )
+(2 )
+(
+2 )
+B
+x
+x
+y
+x
+y
+y
+x
+y
+=
+−
+
++ 
+−
+=
+−
+ 
+d) Sai. Thay 
+1
+x = vào biểu thức A đã rút gọn: 
+6 1
+7
+1
+1
+A = −+
+= −. 
+Câu 2. Cho hình chữ nhật ABCD có 
+2
+AB
+AD
+=
+. Gọi M là trung điểm của cạnh AB. Xét 
+tính đúng sai của các mệnh đề sau: 
+a) Hai đường chéo AC và BD có độ dài bằng nhau. 
+b) Tam giác ADM là tam giác vuông cân tại A . 
+c) Số đo góc 
+AMD bằng 60. 
+d) Hai đường thẳng DM và MC vuông góc với nhau. 
+Lời giải. 
+a) Đúng. Theo tính chất của hình chữ nhật, hai đường chéo AC và BD bằng nhau. 
+b) Đúng. Tam giác ADM vuông tại A và có 
+1
+2
+AM
+AB
+AD
+=
+=
+, do đó tam giác ADM vuông 
+cân tại A . 
+c) Sai. Vì tam giác ADM vuông cân tại A nên 
+45
+60
+AMD
+
+
+=
+
+. 
+d) Đúng. Tương tự tam giác ADM, tam giác BCM cũng vuông cân tại B nên 
+45
+BMC
+
+=
+. 
+Do đó 
+
+
+180
+180
+45
+45
+90
+DMC
+AMD
+BMC
+
+
+
+
+
+=
+−
+−
+=
+−
+−
+=
+, hay DM
+MC
+⊥
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm x , biết: 
+2
+16
+2(
+4)
+0
+x
+x
+−
+−
++
+= . 
+Lời giải. Phân tích vế trái thành nhân tử: (
+4)(
+4)
+2(
+4)
+0
+x
+x
+x
+−
++
+−
++
+= 
+(
+4)(
+4
+2)
+0
+x
+x
++
+−
+−
+=
+ 
+(
+4)(
+6)
+0
+x
+x
++
+−
+=
+ 
+
+
+--- TRANG 113 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Xét 2 trường hợp: 
+• Trường hợp 1:
+4
+0
+x +
+= . Khi đó 
+4
+x = − 
+• Trường hợp 2:
+6
+0
+x −
+=
+. Khi đó 
+6
+x =
+ 
+Đáp án: 
+4
+x = − hoặc 
+6
+x =
+. 
+Câu 2.  Cho hình thoi ABCD có ˆ
+60
+A
+
+=
+ và độ dài cạnh 
+5 cm
+AB =
+. Tính độ dài đường 
+chéo BD . 
+Lời giải. Trong hình thoi ABCD , hai cạnh kề bằng nhau: 
+5 cm
+AB
+AD
+=
+=
+. Tam giác ABD
+cân tại A và có ˆ
+60
+A
+
+=
+ nên tam giác ABD là tam giác đều. Suy ra: 
+5 cm
+BD
+AB
+=
+=
+ 
+Đáp án: 5 cm . 
+Phần IV. Tự luận 
+Câu 1. Rút gọn biểu thức: 
+a) 2x(x2 + y) ‒ x(2y + 1) ‒ x(2x2 ‒ 21y)    
+b) 5x(6y ‒ x2) + 3y(y ‒ 10x) ‒ 3y(y ‒ 1) + 15x3 
+Lời giải. 
+a) 
+2
+2
+2 (
+)
+(2
+1)
+(2
+21 )
+x x
+y
+x
+y
+x
+x
+y
++
+−
++
+−
+−
+    
+3
+3
+2
+2
+2
+2
+21
+x
+xy
+xy
+x
+x
+xy
+=
++
+−
+−
+−
++
+ 
+3
+3
+(2
+2
+)
+(2
+2
+21
+)
+x
+x
+xy
+xy
+xy
+x
+=
+−
++
+−
++
+−
+ 
+21xy
+x
+=
+−
+ 
+b) 
+2
+3
+5 (6
+)
+3 (
+10 )
+3 (
+1) 15
+x
+y
+x
+y y
+x
+y y
+x
+−
++
+−
+−
+−
++
+ 
+ 
+3
+2
+2
+3
+30
+5
+3
+30
+3
+3
+15
+xy
+x
+y
+xy
+y
+y
+x
+=
+−
++
+−
+−
++
++
+ 
+3
+3
+2
+2
+( 5
+15
+)
+(30
+30
+)
+(3
+3
+)
+3
+x
+x
+xy
+xy
+y
+y
+y
+= −
++
++
+−
++
+−
++
+ 
+3
+10
+3
+x
+y
+=
++
+ 
+
+
+--- TRANG 114 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Tìm x , biết: a) 
+2
+(
+2)
+6
+0
+x x
+x
+−
+−
++
+=
+; 
+ 
+  b) 
+2
+(
+3)
+(
+1)(
+1)
+16
+x
+x
+x
++
+−
+−
++
+=
+ 
+Lời giải. 
+a) 
+2
+(
+2)
+6
+0
+x x
+x
+−
+−
++
+=
+ 
+2
+2
+2
+6
+0
+x
+x
+x
+−
+−
++
+= 
+2
+6
+0
+x
+−
++
+=
+ 
+2
+6
+x
+−
+= − 
+3
+x = 
+Vậy 
+3
+x = . 
+b) 
+2
+(
+3)
+(
+1)(
+1)
+16
+x
+x
+x
++
+−
+−
++
+=
+ 
+2
+2
+(
+6
+9)
+(
+1)
+16
+x
+x
+x
++
++
+−
+−
+=
+ 
+2
+2
+6
+9
+1
+16
+x
+x
+x
++
++
+−
++ =
+ 
+6
+10
+16
+x +
+=
+ 
+6
+6
+x =
+ 
+1
+x = 
+Vậy 
+1
+x = . 
+Câu 3. Cho tam giác ABC, trung tuyến AM. Qua M kẻ đường thẳng song song với AC cắt 
+AB ở E, qua M kẻ đường thẳng song song với AB cắt AC ở F. 
+ a) Chứng minh tứ giác AEMF là hình bình hành. 
+ b) Nếu 
+90
+BAC =
+. Chứng minh tứ giác AEMF là hình chữ nhật. Từ đó suy ra 
+1
+2
+EF
+BC
+
+ 
+Lời giải.  
+a) Chứng minh tứ giác AEMF là hình bình hành:  
+Ta có 
+/ /
+ME
+AC nên 
+/ /
+ME
+AF (do F thuộc AC), 
+/ /
+MF
+AB nên 
+/ /
+MF
+AE (do E thuộc AB).    
+
+
+--- TRANG 115 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Tứ giác AEMF có các cạnh đối song song (
+/ /
+ME
+AF và 
+/ /
+MF
+AE ) nên AEMF là hình bình 
+hành.    
+b) Chứng minh AEMF là hình chữ nhật và 
+1
+2
+EF
+BC
+=
+:    
+Hình bình hành AEMF có 
+
+90
+EAF
+BAC
+
+=
+=
+ nên  AEMF là hình chữ nhật.    
+Do AEMF là hình chữ nhật nên hai đường chéo bằng nhau: EF
+AM
+=
+.    
+Trong tam giác ABC vuông tại A , đường trung tuyến AM ứng với cạnh huyền BC bằng 
+một nửa cạnh huyền, tức là 
+1
+2
+AM
+BC
+=
+.    
+Do đó, 
+1
+2
+EF
+BC
+=
+ 
+Câu 4. Chứng minh rằng giá trị biểu thức sau không phụ thuộc vào giá trị của biến x 
+(
+)
+(
+)
+(
+)
+3
+3
+2
+2
+12(
+1)
+1 .
+A
+x
+x
+x
+x
+=
++
+−
+−
+−
++
+−
+ 
+Lời giải.  
+3
+3
+(
+2)
+(
+2)
+12(
+1)(
+1)
+A
+x
+x
+x
+x
+=
++
+−
+−
+−
++
+−
+ 
+3
+2
+3
+2
+2
+(
+6
+12
+8)
+(
+6
+12
+8) 12(
+1)
+A
+x
+x
+x
+x
+x
+x
+x
+=
++
++
++
+−
+−
++
+−
+−
+−
+ 
+3
+2
+3
+2
+2
+6
+12
+8
+6
+12
+8 12
+12
+A
+x
+x
+x
+x
+x
+x
+x
+=
++
++
++ −
++
+−
++ −
++
+ 
+3
+3
+2
+2
+2
+(
+)
+(6
+6
+12
+)
+(12
+12 )
+(8
+8 12)
+A
+x
+x
+x
+x
+x
+x
+x
+=
+−
++
++
+−
++
+−
++
++ +
+ 
+28
+A =
+    
+Vì 
+28
+A =
+ là một hằng số nên giá trị của biểu thức A không phụ thuộc vào giá trị của biến 
+ 
+ 
+ 
+ 

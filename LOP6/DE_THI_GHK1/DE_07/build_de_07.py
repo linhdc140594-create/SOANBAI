@@ -1,0 +1,235 @@
+import os
+import sys
+import json
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": "07",
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+    "mon": "Toán 6",
+    "thoi_gian": "90 phút",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Viết tập hợp các chữ số của số $2025$?",
+            "a": "$\\{2; 0; 2; 5\\}$.",
+            "b": "$\\{2; 2; 5\\}$.",
+            "c": "$\\{2; 0; 2\\}$.",
+            "d": "$\\{0; 2; 5\\}$.",
+            "da": "D",
+            "loigiai": "Số $2025$ gồm các chữ số 2, 0, 5. Trong một tập hợp, mỗi phần tử chỉ được viết một lần. Do đó, tập hợp các chữ số là $\\{0; 2; 5\\}$."
+        },
+        {
+            "cau": 2,
+            "de": "Hãy so sánh hai số tự nhiên $n = 52\\,136\\,001$ và $m = 52\\,135\\,998$:",
+            "a": "$n = m$.",
+            "b": "$n > m$.",
+            "c": "$n < m$.",
+            "d": "$n \\le m$.",
+            "da": "B",
+            "loigiai": "So sánh hai số từ hàng cao nhất đến hàng thấp nhất:\\\\Hai số có cùng các chữ số ở hàng chục triệu, hàng triệu, hàng trăm nghìn và hàng chục nghìn. Ở hàng nghìn, ta có $6 > 5$. Do đó $n > m$."
+        },
+        {
+            "cau": 3,
+            "de": "Tính vận tốc của một ô tô biết rằng trong $6$ giờ ô tô đi được $324\\text{ km}$:",
+            "a": "$48\\text{ km/h}$.",
+            "b": "$51\\text{ km/h}$.",
+            "c": "$54\\text{ km/h}$.",
+            "d": "$57\\text{ km/h}$.",
+            "da": "C",
+            "loigiai": "Vận tốc của ô tô là: $v = 324 : 6 = 54\\text{ (km/h)}$."
+        },
+        {
+            "cau": 4,
+            "de": "Cho hình bình hành có độ dài hai cạnh là $a, b$ và chiều cao tương ứng với cạnh đáy $a$ là $h$. Công thức tính diện tích của hình bình hành là:",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.8, font=\\small]\n  \\coordinate (A) at (0,2.2);\n  \\coordinate (B) at (3.5,3.2);\n  \\coordinate (C) at (3.5,1);\n  \\coordinate (D) at (0,0);\n  \\draw[thick, blue!70!black] (A) -- (B) -- (C) -- (D) -- cycle;\n  \\draw[thick, blue!70!black] (A) -- (0.8,0.23) coordinate (H);\n  \\draw (0.8,0.23) -- (0.9,0.58) -- (0.6,0.67);\n  \\node[above] at (1.75,2.7) {$b$};\n  \\node[left] at (0,1.1) {$a$};\n  \\node[right] at (0.4,1) {$h$};\n\\end{tikzpicture}\n\\end{center}",
+            "a": "$S = a \\cdot b$.",
+            "b": "$S = \\dfrac{1}{2} a \\cdot h$.",
+            "c": "$S = \\dfrac{1}{2} b \\cdot h$.",
+            "d": "$S = a \\cdot h$.",
+            "da": "D",
+            "loigiai": "Diện tích hình bình hành bằng độ dài cạnh đáy nhân với chiều cao tương ứng. Ở đây, chiều cao $h$ tương ứng với cạnh đáy $a$, do đó $S = a \\cdot h$."
+        },
+        {
+            "cau": 5,
+            "de": "Bạn An có $125\\,000$ đồng mang đến tiệm tạp hóa để mua bút gel, biết mỗi chiếc bút gel có giá $6\\,900$ đồng. Hỏi bạn An có thể mua được nhiều nhất bao nhiêu chiếc bút gel?",
+            "a": "$0$ chiếc.",
+            "b": "$18$ chiếc.",
+            "c": "$19$ chiếc.",
+            "d": "$10$ chiếc.",
+            "da": "B",
+            "loigiai": "Ta thực hiện phép chia có dư: $125\\,000 : 6\\,900 = 18$ (dư $800$). Vậy bạn An có thể mua được nhiều nhất 18 chiếc bút."
+        },
+        {
+            "cau": 6,
+            "de": "Hình nào sau đây có tất cả các cạnh bằng nhau?",
+            "a": "Tam giác đều, hình thoi, hình thang cân.",
+            "b": "Tam giác đều, hình bình hành, hình thang cân.",
+            "c": "Tam giác đều, hình thoi, hình vuông.",
+            "d": "Tam giác đều, hình bình hành, hình vuông.",
+            "da": "C",
+            "loigiai": "Tam giác đều có 3 cạnh bằng nhau, hình thoi có 4 cạnh bằng nhau, hình vuông có 4 cạnh bằng nhau."
+        },
+        {
+            "cau": 7,
+            "de": "Cho hình bình hành $ABCD$. Hãy chọn khẳng định sai trong các khẳng định sau:",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.8, font=\\small]\n  \\coordinate (D) at (0,0);\n  \\coordinate (C) at (4,0);\n  \\coordinate (B) at (5.2,1.8);\n  \\coordinate (A) at (1.2,1.8);\n  \\draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;\n  \\filldraw (A) circle (1.5pt) node[above] {$A$};\n  \\filldraw (B) circle (1.5pt) node[above right] {$B$};\n  \\filldraw (C) circle (1.5pt) node[below right] {$C$};\n  \\filldraw (D) circle (1.5pt) node[below left] {$D$};\n\\end{tikzpicture}\n\\end{center}",
+            "a": "$AB = CD, AD = BC$.",
+            "b": "$AB \\parallel CD, AD \\parallel BC$.",
+            "c": "$AB = BC = CD = DA$.",
+            "d": "Khẳng định A và B đều đúng.",
+            "da": "C",
+            "loigiai": "Hình bình hành có các cạnh đối song song và bằng nhau ($AB = CD, AD = BC$). Khẳng định $AB = BC = CD = DA$ chỉ đúng với hình thoi hoặc hình vuông, không đúng với hình bình hành tổng quát."
+        },
+        {
+            "cau": 8,
+            "de": "Cho $x$ là ước của $24$ và $10 \\le x < 15$. Vậy $x$ có giá trị bằng:",
+            "a": "$12$.",
+            "b": "$13$.",
+            "c": "$14$.",
+            "d": "$10$.",
+            "da": "A",
+            "loigiai": "Tập hợp các ước của 24 là $\\{1; 2; 3; 4; 6; 8; 12; 24\\}$. Giá trị thỏa mãn $10 \\le x < 15$ là $x = 12$."
+        },
+        {
+            "cau": 9,
+            "de": "Biểu diễn tập hợp $H = \\{1; 2; 3; 4; 5\\}$ bằng cách chỉ ra tính chất đặc trưng của nó là:",
+            "a": "$H = \\{x \\in \\mathbb{N} \\mid x \\le 5\\}$.",
+            "b": "$H = \\{x \\in \\mathbb{N} \\mid x < 5\\}$.",
+            "c": "$H = \\{x \\in \\mathbb{N}^* \\mid x \\le 5\\}$.",
+            "d": "$H = \\{x \\in \\mathbb{N}^* \\mid x < 5\\}$.",
+            "da": "C",
+            "loigiai": "Tập hợp $H$ gồm các số tự nhiên khác 0 nhỏ hơn hoặc bằng 5, viết là $H = \\{x \\in \\mathbb{N}^* \\mid x \\le 5\\}$."
+        },
+        {
+            "cau": 10,
+            "de": "Trong các phân số sau, phân số nào là phân số tối giản?",
+            "a": "$\\dfrac{26}{39}$.",
+            "b": "$\\dfrac{15}{12}$.",
+            "c": "$\\dfrac{27}{42}$.",
+            "d": "$\\dfrac{3}{16}$.",
+            "da": "D",
+            "loigiai": "Ta có $\\dfrac{26}{39} = \\dfrac{2}{3}$; $\\dfrac{15}{12} = \\dfrac{5}{4}$; $\\dfrac{27}{42} = \\dfrac{9}{14}$. Phân số $\\dfrac{3}{16}$ có tử số và mẫu số có ước chung lớn nhất bằng 1 nên là phân số tối giản."
+        },
+        {
+            "cau": 11,
+            "de": "Số tự nhiên nào sau đây là ước của $12$?",
+            "a": "$0$.",
+            "b": "$4$.",
+            "c": "$5$.",
+            "d": "$10$.",
+            "da": "B",
+            "loigiai": "Vì $12 : 4 = 3$ nên 4 là ước của 12."
+        },
+        {
+            "cau": 12,
+            "de": "Nêu cách đọc chuẩn của số $123\\,875$:",
+            "a": "Một trăm hai mươi ba nghìn tám trăm bảy mươi lăm.",
+            "b": "Một hai ba nghìn tám bảy năm.",
+            "c": "Một trăm hai ba tám trăm bảy năm.",
+            "d": "Một trăm hai mươi ba nghìn bảy trăm tám mươi lăm.",
+            "da": "A",
+            "loigiai": "Số $123\\,875$ đọc là: \"Một trăm hai mươi ba nghìn tám trăm bảy mươi lăm\" (hoặc Một trăm hai ba nghìn tám trăm bảy mươi lăm)."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho biểu thức $M = 2^3 \\cdot 3 - 5$. Xét tính đúng/sai của các khẳng định sau:",
+            "y_a": {"noi_dung": "Giá trị của lũy thừa $2^3$ là $6$.", "da": "S", "giai": "Sai. Giá trị của lũy thừa $2^3$ là $2 \\cdot 2 \\cdot 2 = 8$."},
+            "y_b": {"noi_dung": "Khi tính giá trị biểu thức $M$, ta thực hiện phép nhân trước, phép trừ sau.", "da": "S", "giai": "Sai. Theo thứ tự thực hiện phép tính, ta phải tính lũy thừa trước, sau đó đến phép nhân, và cuối cùng mới thực hiện phép trừ."},
+            "y_c": {"noi_dung": "Giá trị của biểu thức $M$ là $19$.", "da": "D", "giai": "Đúng. $M = 8 \\cdot 3 - 5 = 24 - 5 = 19$."},
+            "y_d": {"noi_dung": "Giá trị của biểu thức $M$ là một số nguyên tố.", "da": "D", "giai": "Đúng. Số 19 lớn hơn 1 và chỉ có hai ước là 1 và 19 nên là số nguyên tố."}
+        },
+        {
+            "cau": 2,
+            "de": "Cho hình chữ nhật $ABCD$ có chiều dài $AB = 8\\text{ cm}$ và chiều rộng $BC = 6\\text{ cm}$. Xét tính đúng/sai của các khẳng định sau:",
+            "y_a": {"noi_dung": "Bốn cạnh của hình chữ nhật $ABCD$ có độ dài bằng nhau.", "da": "S", "giai": "Sai. Hình chữ nhật có các cạnh đối bằng nhau, không phải 4 cạnh bằng nhau."},
+            "y_b": {"noi_dung": "Các cạnh đối diện $AB$ và $CD$ song song và bằng nhau.", "da": "D", "giai": "Đúng. Trong hình chữ nhật, các cặp cạnh đối diện luôn song song và bằng nhau."},
+            "y_c": {"noi_dung": "Hai đường chéo $AC$ và $BD$ vuông góc với nhau.", "da": "S", "giai": "Sai. Hai đường chéo hình chữ nhật bằng nhau và cắt nhau tại trung điểm mỗi đường nhưng không vuông góc với nhau."},
+            "y_d": {"noi_dung": "Chu vi của hình chữ nhật $ABCD$ là $28\\text{ cm}$.", "da": "D", "giai": "Đúng. Chu vi hình chữ nhật là $(8 + 6) \\cdot 2 = 28\\text{ (cm)}$."}
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Tìm các chữ số $x, y$ để số $\\overline{35x98y}$ chia hết cho cả 2, 5 và 9.",
+            "da": "x = 2, y = 0",
+            "loigiai": "Để $\\overline{35x98y}$ chia hết cho cả 2 và 5 thì $y = 0$. Khi đó ta có số $\\overline{35x980}$.\\\\Để số này chia hết cho 9 thì tổng các chữ số $(3 + 5 + x + 9 + 8 + 0) \\ \\vdots \\ 9 \\Rightarrow (25 + x) \\ \\vdots \\ 9$. Vì $x$ là chữ số nên $x = 2$.\\\\Vậy $x = 2; y = 0$."
+        },
+        {
+            "cau": 2,
+            "de": "Một hình thoi có độ dài hai đường chéo lần lượt là $8\\text{ cm}$ và $10\\text{ cm}$. Tính diện tích của hình thoi đó (theo đơn vị $\\text{cm}^2$).",
+            "da": "40",
+            "loigiai": "Diện tích hình thoi là: $S = \\dfrac{8 \\times 10}{2} = 40\\text{ (cm}^2\\text{)}$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,0 điểm",
+            "de": "Thực hiện phép tính và tìm ước:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Thực hiện phép tính: $6250 : \\{50^2 : [112 - (32 - 2^2 \\cdot 5)]\\}$",
+                    "loigiai": "$6250 : \\{2500 : [112 - (32 - 20)]\\}\\\\= 6250 : \\{2500 : [112 - 12]\\}\\\\= 6250 : \\{2500 : 100\\}\\\\= 6250 : 25 = 250$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "Tìm số tự nhiên $x \\in Ư(30)$ thỏa mãn $x < 10$.",
+                    "loigiai": "Tập hợp các ước của 30 là: $Ư(30) = \\{1; 2; 3; 5; 6; 10; 15; 30\\}$.\\\\Vì $x < 10$ nên $x \\in \\{1; 2; 3; 5; 6\\}$."
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "1,0 điểm",
+            "de": "Phân tích các số sau ra thừa số nguyên tố:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "$60$",
+                    "loigiai": "$60 = 4 \\cdot 15 = 2^2 \\cdot 3 \\cdot 5$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "$125$",
+                    "loigiai": "$125 = 5^3$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "1,0 điểm",
+            "de": "Bài toán hình học thực tế:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Nêu các bước vẽ tam giác đều có độ dài cạnh bằng $3\\text{ cm}$.",
+                    "loigiai": "\\textbf{Cách vẽ tam giác đều cạnh $3\\text{ cm}$:}\n\\begin{itemize}[leftmargin=1.5cm, topsep=1pt, itemsep=1pt]\n  \\item Vẽ đoạn thẳng $AB = 3\\text{ cm}$.\n  \\item Dùng compa vẽ cung tròn tâm $A$ bán kính $3\\text{ cm}$ và cung tròn tâm $B$ bán kính $3\\text{ cm}$.\n  \\item Hai cung tròn cắt nhau tại điểm $C$.\n  \\item Nối $C$ với $A$ và $B$, ta được tam giác đều $ABC$ cạnh $3\\text{ cm}$.\n\\end{itemize}\n\\begin{center}\n\\begin{tikzpicture}[scale=0.9, font=\\small]\n  \\coordinate (A) at (0,0);\n  \\coordinate (B) at (3,0);\n  \\coordinate (C) at (1.5, 2.598);\n  \\draw[thick] (A) -- (B) -- (C) -- cycle;\n  \\filldraw[blue] (A) circle (1.5pt) node[left] {$A$};\n  \\filldraw[blue] (B) circle (1.5pt) node[right] {$B$};\n  \\filldraw[blue] (C) circle (1.5pt) node[above] {$C$};\n  \\node[below] at (1.5,0) {$3\\text{ cm}$};\n  \\node[left] at (0.75, 1.3) {$3\\text{ cm}$};\n  \\node[right] at (2.25, 1.3) {$3\\text{ cm}$};\n\\end{tikzpicture}\n\\end{center}"
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "Tính chu vi và diện tích mảnh đất có hình vẽ dưới đây:",
+                    "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.22, font=\\footnotesize]\n  % Toa do cac dinh: A(0,18), B(15,18), C(15,9), D(24,9), E(24,0), F(0,0)\n  \\coordinate (F) at (0,0);\n  \\coordinate (A) at (0,18);\n  \\coordinate (B) at (15,18);\n  \\coordinate (C) at (15,9);\n  \\coordinate (D) at (24,9);\n  \\coordinate (E) at (24,0);\n  \\draw[thick, fill=orange!10] (A) -- (B) -- (C) -- (D) -- (E) -- (F) -- cycle;\n  \\draw[dashed, gray] (15,0) -- (15,9);\n  \\node[above] at (7.5,18) {$15\\text{ m}$};\n  \\node[right] at (15,13.5) {$9\\text{ m}$};\n  \\node[above] at (19.5,9) {$?$};\n  \\node[right] at (24,4.5) {$?$};\n  \\node[below] at (12,0) {$24\\text{ m}$};\n  \\node[left] at (0,9) {$18\\text{ m}$};\n  \\node[above left] at (A) {$A$};\n  \\node[above right] at (B) {$B$};\n  \\node[above right] at (C) {$C$};\n  \\node[above right] at (D) {$D$};\n  \\node[below right] at (E) {$E$};\n  \\node[below left] at (F) {$F$};\n\\end{tikzpicture}\n\\end{center}",
+                    "loigiai": "Độ dài hai cạnh còn thiếu là:\\\\$CD = 24 - 15 = 9\\text{ (m)}$ và $DE = 18 - 9 = 9\\text{ (m)}$.\\\\\\textbf{Chu vi mảnh đất là:}\\\\$\\mathcal{P} = 15 + 9 + 9 + 9 + 24 + 18 = 84\\text{ (m)}$.\\\\\\textbf{Diện tích mảnh đất là:}\\\\Chia mảnh đất thành hai hình chữ nhật: hình bên trái có kích thước $15\\text{ m} \\times 18\\text{ m}$ và hình bên phải có kích thước $9\\text{ m} \\times 9\\text{ m}$ (hoặc chia theo chiều ngang $15\\text{ m} \\times 9\\text{ m}$ và $24\\text{ m} \\times 9\\text{ m}$):\\\\$S = 15 \\times 9 + 24 \\times 9 = 135 + 216 = 351\\text{ (m}^2\\text{)}$."
+                }
+            ]
+        }
+    ]
+}
+
+out_path = r"d:\GitHub\SOANBAI-main\LOP6\DE_THI_GHK1\DE_07\de_07.json"
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Saved de_07.json successfully!")
+

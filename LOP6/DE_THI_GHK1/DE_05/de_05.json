@@ -1,0 +1,313 @@
+{
+  "de_so": 5,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 6",
+  "thoi_gian": "90 phút",
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho $A$ là tập hợp các số tự nhiên nhỏ hơn $5$. Tập hợp $A$ được viết như thế nào?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$A = \\{1; 2; 3; 4\\}$",
+        "B": "$A = \\{0; 1; 2; 3; 4\\}$",
+        "C": "$A = \\{1; 2; 3; 4; 5\\}$",
+        "D": "$A = \\{0; 1; 2; 3; 4; 5\\}$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Các số tự nhiên nhỏ hơn 5 bắt đầu từ 0 và gồm các số: $0, 1, 2, 3, 4$. Do đó $A = \\{0; 1; 2; 3; 4\\}$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Kết quả của phép tính $5^2 \\cdot 5$ là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$5$",
+        "B": "$5^2$",
+        "C": "$5^3$",
+        "D": "$25^2$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Ta có: $5^2 \\cdot 5 = 5^2 \\cdot 5^1 = 5^{2+1} = 5^3$."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Lũy thừa $2^4$ có giá trị bằng lũy thừa nào sau đây?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$4^2$",
+        "B": "$3^3$",
+        "C": "$5^1$",
+        "D": "$2^2 + 2^2$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Ta có: $2^4 = 16$ và $4^2 = 16$. Do đó $2^4 = 4^2$."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Số nào sau đây chia hết cho $5$ nhưng không chia hết cho $3$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$325$",
+        "B": "$240$",
+        "C": "$225$",
+        "D": "$600$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Số 325 có tận cùng là 5 nên chia hết cho 5; tổng các chữ số là $3 + 2 + 5 = 10$ không chia hết cho 3. Các số 240, 225, 600 đều chia hết cho 3."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Số nào dưới đây là một bội chung của $3, 4, 5$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$120$",
+        "B": "$190$",
+        "C": "$145$",
+        "D": "$150$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Ta có $\\text{BCNN}(3, 4, 5) = 60$. Trong các số đã cho, chỉ có số 120 là bội của 60 ($120 = 60 \\times 2$)."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Tam giác $ABC$ là tam giác đều, khi đó:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$AB < BC < CA$",
+        "B": "$AB > BC > CA$",
+        "C": "Độ dài ba cạnh $AB, BC, CA$ đôi một khác nhau",
+        "D": "$AB = BC = CA$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Theo định nghĩa, tam giác đều là tam giác có ba cạnh bằng nhau: $AB = BC = CA$."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Chọn phát biểu đúng trong các phát biểu sau:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$0$ là bội của mọi số tự nhiên",
+        "B": "Các số nguyên tố nhỏ hơn 12 là $1; 2; 5; 7$",
+        "C": "$1$ là số nguyên tố nhỏ nhất",
+        "D": "Số $2$ là số nguyên tố chẵn duy nhất"
+      },
+      "dap_an": "D",
+      "loi_giai": "Số 2 là số nguyên tố nhỏ nhất và cũng là số nguyên tố chẵn duy nhất (các số chẵn lớn hơn 2 đều chia hết cho 2 nên là hợp số)."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Công thức nào sau đây thể hiện tính chất phân phối của phép nhân đối với phép cộng?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$a(b + c) = ab + ac$",
+        "B": "$(a + b) + c = a + (b + c)$",
+        "C": "$ab = ba$",
+        "D": "$(ab)c = a(bc)$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Công thức $a(b + c) = ab + ac$ thể hiện tính chất phân phối của phép nhân đối với phép cộng."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Phát biểu nào dưới đây là sai?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình vuông có hai đường chéo vuông góc với nhau",
+        "B": "Hình lục giác đều có sáu góc bằng nhau",
+        "C": "Hình tam giác đều có ba đường chéo bằng nhau",
+        "D": "Hình vuông có bốn góc bằng nhau và bằng $90^\\circ$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Hình tam giác không có đường chéo (chỉ có 3 cạnh). Do đó khẳng định C là sai."
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Cho hai tập hợp $M = \\{a; 5; b; c\\}$ và $N = \\{d; 3; e; 7\\}$. Khẳng định nào sau đây là sai?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$5 \\in N$",
+        "B": "$3 \\in N$",
+        "C": "$a \\in M$",
+        "D": "$c \\in M$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Phần tử 5 thuộc tập hợp $M$, không thuộc tập hợp $N$. Do đó khẳng định $5 \\in N$ là sai."
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Trong các số sau, số nào chia hết cho $5$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$553$",
+        "B": "$12340$",
+        "C": "$578$",
+        "D": "$786$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Số chia hết cho 5 là số có chữ số tận cùng bằng 0 hoặc 5. Trong các số trên, số 12340 có tận cùng là 0 nên chia hết cho 5."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Hình nào trong các hình sau có hai cạnh đối song song và hai đường chéo bằng nhau?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình bình hành",
+        "B": "Hình thang cân",
+        "C": "Hình thoi",
+        "D": "Hình tam giác đều"
+      },
+      "dap_an": "B",
+      "loi_giai": "Hình thang cân là hình có hai đáy song song và hai đường chéo bằng nhau."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Xét tính đúng hay sai của các mệnh đề sau:",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "$11$ là số nguyên tố.",
+          "dung_sai": true,
+          "giai_thich": "Số 11 chỉ có hai ước tự nhiên là 1 và 11. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "$15$ là số nguyên tố.",
+          "dung_sai": false,
+          "giai_thich": "Số 15 có các ước là 1, 3, 5, 15 nên là hợp số. Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "$17$ là số nguyên tố.",
+          "dung_sai": true,
+          "giai_thich": "Số 17 chỉ có hai ước tự nhiên là 1 và 17. Khẳng định đúng."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "$21$ là số nguyên tố.",
+          "dung_sai": false,
+          "giai_thich": "Số 21 chia hết cho 3 và 7 nên là hợp số. Khẳng định sai."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho $15$ số tự nhiên đầu tiên (từ $0$ đến $14$). Xét tính đúng hay sai của các mệnh đề sau:",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Trong các số đã cho, có $2$ số chia hết cho cả $2$ và $5$.",
+          "dung_sai": true,
+          "giai_thich": "Các số chia hết cho cả 2 và 5 là số có tận cùng bằng 0: gồm $\\{0; 10\\}$ (đúng 2 số). Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Trong các số đã cho, có $5$ số chia hết cho $9$.",
+          "dung_sai": false,
+          "giai_thich": "Các số chia hết cho 9 từ 0 đến 14 gồm $\\{0; 9\\}$ (chỉ có 2 số). Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Trong các số đã cho, có $6$ số là số nguyên tố.",
+          "dung_sai": true,
+          "giai_thich": "Các số nguyên tố từ 0 đến 14 gồm $\\{2; 3; 5; 7; 11; 13\\}$ (đúng 6 số). Khẳng định đúng."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Trong các số đã cho, có $5$ số là bội của $3$.",
+          "dung_sai": true,
+          "giai_thich": "Các bội của 3 từ 0 đến 14 gồm $\\{0; 3; 6; 9; 12\\}$ (đúng 5 số). Khẳng định đúng."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Tính diện tích của một hình vuông có chu vi bằng $36\\text{ cm}$ (đơn vị: $\\text{cm}^2$).",
+      "dap_an": "$81$",
+      "loi_giai": "Độ dài cạnh của hình vuông là: $36 : 4 = 9\\text{ (cm)}$. Diện tích của hình vuông là: $9 \\times 9 = 81\\text{ (cm}^2\\text{)}$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Tìm số tự nhiên $x$ nhỏ nhất khác $0$ sao cho $x \\ \\vdots \\ 12$ và $x \\ \\vdots \\ 18$.",
+      "dap_an": "$36$",
+      "loi_giai": "Số tự nhiên $x$ nhỏ nhất khác 0 thỏa mãn $x \\ \\vdots \\ 12$ và $x \\ \\vdots \\ 18$ chính là $\\text{BCNN}(12, 18)$. Ta có: $12 = 2^2 \\cdot 3$; $18 = 2 \\cdot 3^2 \\implies \\text{BCNN}(12, 18) = 2^2 \\cdot 3^2 = 36$. Vậy $x = 36$."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "diem_tong": 1.0,
+      "noi_dung": "Thực hiện phép tính:",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$3 \\cdot 5^2 - 16 : 2^2$",
+          "diem": 0.5,
+          "loi_giai": "$3 \\cdot 5^2 - 16 : 2^2 = 3 \\cdot 25 - 16 : 4 = 75 - 4 = 71$."
+        },
+        {
+          "y": "b",
+          "de": "$20 - [30 - (5 - 1)^2]$",
+          "diem": 0.5,
+          "loi_giai": "$20 - [30 - (5 - 1)^2] = 20 - [30 - 4^2] = 20 - [30 - 16] = 20 - 14 = 6$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem_tong": 0.75,
+      "noi_dung": "Tìm số tự nhiên $x$, biết:",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$x - 15 = 2025$",
+          "diem": 0.25,
+          "loi_giai": "$x = 2025 + 15 \\implies x = 2040$."
+        },
+        {
+          "y": "b",
+          "de": "$39 + (x - 47) = 160$",
+          "diem": 0.5,
+          "loi_giai": "$x - 47 = 160 - 39$\\\n$x - 47 = 121$\\\n$x = 121 + 47 = 168$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem_tong": 0.75,
+      "noi_dung": "Bạn Ánh đi tập gym mỗi ngày. Lượng calo tiêu hao trung bình khi tập mỗi buổi gồm:\\\n$\\bullet$ Chạy bộ $30$ phút tiêu hao $240$ calo.\\\n$\\bullet$ Nhảy dây $15$ phút tiêu hao $150$ calo.\\\n$\\bullet$ Gập bụng $10$ phút tiêu hao $60$ calo.",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Tính tổng lượng calo tiêu hao trong một buổi tập của bạn Ánh.",
+          "diem": 0.5,
+          "loi_giai": "Tổng lượng calo tiêu hao trong một buổi tập của bạn Ánh là:\\\n$240 + 150 + 60 = 450\\text{ (calo)}$."
+        },
+        {
+          "y": "b",
+          "de": "Biết người bình thường cần nạp khoảng $2200$ calo mỗi ngày để giữ cân và cần tiêu hao $7700$ calo trong một tuần để giảm $1\\text{ kg}$ mỡ. Nếu mỗi ngày bạn Ánh chỉ tập các bài tập như trên mà vẫn ăn uống đủ $2200$ calo thì sau $1$ tuần bạn ấy đã đủ để giảm $1\\text{ kg}$ mỡ chưa?",
+          "diem": 0.25,
+          "loi_giai": "Tổng lượng calo tiêu hao trong $1$ tuần ($7$ ngày) tập luyện của bạn Ánh là:\\\n$450 \\times 7 = 3150\\text{ (calo)}$.\\\nVì $3150 < 7700\\text{ (calo)}$ nên sau $1$ tuần bạn Ánh chưa đủ lượng calo để giảm $1\\text{ kg}$ mỡ."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem_tong": 0.5,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Tìm số tự nhiên $n$ sao cho $(5n + 14) \\ \\vdots \\ (n + 2)$.",
+          "diem": 0.5,
+          "loi_giai": "Ta biến đổi:\\\n$5n + 14 = 5(n + 2) + 4$.\\\nVì $5(n + 2) \\ \\vdots \\ (n + 2)$ nên để $(5n + 14) \\ \\vdots \\ (n + 2)$ thì bắt buộc $4 \\ \\vdots \\ (n + 2)$.\\\nDo $n \\in \\mathbb{N}$ nên $n + 2 \\in \\text{Ư}(4) = \\{1; 2; 4\\}$.\\\nVì $n \\ge 0 \\implies n + 2 \\ge 2$ nên ta có hai trường hợp:\\\n$\\bullet$ Trường hợp 1: $n + 2 = 2 \\implies n = 0$.\\n$\\bullet$ Trường hợp 2: $n + 2 = 4 \\implies n = 2$.\\nVậy các số tự nhiên thỏa mãn là $n \\in \\{0; 2\\}$."
+        }
+      ]
+    }
+  ]
+}
+

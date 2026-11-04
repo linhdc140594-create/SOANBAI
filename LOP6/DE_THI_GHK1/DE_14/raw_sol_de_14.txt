@@ -1,0 +1,768 @@
+--- TRANG 163 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+ 
+ 
+ 
+ĐỀ SỐ 14 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. 
+ là : 
+A. 6.                           
+B. 12.                          
+C. 18.                            
+D. 30. 
+Lời giải. Phân tích các số ra thừa số nguyên tố: 
+2
+18
+2 3
+=
+
+ và 
+2
+60
+2
+3 5
+=
+. 
+Các thừa số nguyên tố chung là 2 và 3 với số mũ nhỏ nhất lần lượt là 1 và 1. 
+Do đó, UCLN(18,60)
+2 3
+6
+=
+=
+. Đáp án đúng: A. 
+Câu 2. Hai đường chéo của hình chữ nhật MNPQ là: 
+ 
+A. MN và QP.                
+ 
+ 
+ 
+ 
+B. MP và NQ.               
+C. MQ và NP .           
+ 
+ 
+ 
+ 
+D. MN và MQ. 
+(
+)
+Ö
+1
+CLN
+8,60
+
+
+--- TRANG 164 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Trong hình chữ nhật MNPQ, hai đường chéo nối các đỉnh đối diện là MP và NQ. 
+Đáp án đúng: B. 
+Câu 3. Trong phép chia một số tự nhiên cho 4 số dư có thể là: 
+A. 1;2;3. 
+ 
+ 
+B. 0;1;2;3;4 .  
+ 
+C. 0;1;2;3. 
+ 
+ 
+D. 0 . 
+Lời giải. Số dư trong phép chia cho một số tự nhiên luôn nhỏ hơn số chia và lớn hơn hoặc 
+bằng 0. Khi chia cho 4, các số dư có thể nhận là 0;1;2;3. Đáp án đúng: C. 
+Câu 4. Số nào sau đây chia hết cho 2 và 5? 
+A. 1150. 
+ 
+ 
+B. 1155. 
+ 
+ 
+C. 5311. 
+ 
+      D. 3536. 
+Lời giải. Số chia hết cho cả 2 và 5 có chữ số tận cùng là 0. Trong các số đã cho, số 1150 
+thỏa mãn điều kiện này. 
+Đáp án đúng: A. 
+Câu 5. Hình nào trong các hình sau có 2 cạnh đối song song và 2 đường chéo bằng nhau? 
+A. Hình bình hành.      
+ 
+ 
+ 
+ 
+B. Hình thang cân. 
+C. Hình thoi.              
+ 
+ 
+ 
+ 
+D. Hình tam giác đều. 
+Lời giải. Hình thang cân có hai đáy (hai cạnh đối) song song với nhau và hai đường chéo 
+bằng nhau. 
+Đáp án đúng: B. 
+Câu 6. Cho tập hợp 
+}
+0;2;
+{
+4; ;
+A
+a b
+=
+. Khẳng định nào dưới đây sai ? 
+A. 5
+A
+
+. 
+ 
+B. a
+A
+
+.   
+ 
+ 
+C. 0
+A
+
+.    
+ 
+      D. 1
+A
+
+. 
+Lời giải. Các phần tử thuộc tập hợp A bao gồm 0,2,4, ,a b. Số 5 không có trong tập hợp 
+A nên 5
+A
+
+. Do đó, khẳng định "5
+A
+
+" là sai. 
+Đáp án đúng: A. 
+Câu 7. Số nào sau đây là ước của 60? 
+
+
+--- TRANG 165 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 16.  
+ 
+ 
+B. 18.  
+ 
+ 
+C. 20 . 
+ 
+    D. 22 . 
+Lời giải. Thực hiện phép chia 60 cho từng số trong các đáp án, ta thấy 60: 20
+3
+= (chia 
+hết). Vậy 20 là ước của 60.  
+ Đáp án đúng: C. 
+Câu 8. Trong các số sau, số nào là bội của 4 ? 
+A. 1. 
+                               B. 2 . 
+ C. 8 . 
+ 
+D. 15. 
+Lời giải. Bội của 4 là các số chia hết cho 4. Trong các đáp án, số 8 chia hết cho 4 (8: 4
+2
+=
+).  
+Đáp án đúng: C. 
+Câu 9. Trong các hình ảnh dưới đây, hình ảnh nào có dạng hình tam giác đều? 
+ 
+A. Hình 1. 
+ 
+ 
+ 
+ 
+ 
+ 
+B. Hình 2. 
+ 
+ 
+ 
+C. Hình 3. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. Hình 4. 
+Lời giải. Hình 4 là chiếc đồng hồ treo tường dạng hình tam giác có 3 cạnh bằng nhau và 3 
+góc bằng nhau, chính là hình tam giác đều. 
+Đáp án đúng: D. 
+Câu 10. Khẳng định nào sau đây là khẳng định đúng về hình chữ nhật? 
+A. Bốn cạnh bằng nhau. 
+B. Hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường. 
+C. Hai đường chéo vuông góc với nhau. 
+D. Chu vi hình chữ nhật là tích của chiều dài và chiều rộng. 
+
+
+--- TRANG 166 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Theo tính chất của hình chữ nhật: hai đường chéo bằng nhau và cắt nhau tại 
+trung điểm của mỗi đường. 
+Đáp án đúng: B. 
+Câu 11. Cho x là số tự nhiên thỏa mãn 
+7
+8
+10
+10
+x
+
+
+. Số x có: 
+A. 9 chữ số.  
+ 
+ 
+ 
+ 
+B. 8 chữ số. 
+C. 7 chữ số.  
+ 
+ 
+ 
+ 
+D. 10 chữ số. 
+Lời giải.  
+7
+10
+10000000
+=
+ (số nhỏ nhất có 8 chữ số). 
+8
+10
+100000000
+=
+ (số nhỏ nhất có 9 chữ số). 
+Các số tự nhiên x lớn hơn 10000000 và nhỏ hơn 100000000 (từ 10000001 đến 99999999 ) 
+đều là các số có 8 chữ số.  
+Đáp án đúng: B. 
+Câu 12.  Hình chữ nhật có chiều dài 60dm và chiều rộng 4m thì diện tích là: 
+A. 
+2
+24 m . 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+240 dm .  
+ 
+ 
+C. 
+2
+200 dm .  
+  
+ 
+ 
+ 
+D. 
+2
+128 dm . 
+Lời giải. Đổi chiều dài về đơn vị mét: 60 dm
+6 m
+=
+. Diện tích hình chữ nhật là: 
+2
+6 4
+24 (m )
+S =
+
+=
+. 
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho các hình sau: hình tam giác đều, hình vuông, hình lục giác đều, hình chữ nhật, 
+hình thoi, hình bình hành, hình thang cân. Xét tính đúng sai của các mệnh đề sau: 
+
+
+--- TRANG 167 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Hình tam giác đều, hình vuông, hình lục giác đều có tất cả các cạnh bằng nhau. 
+b) Có 2 hình có hai đường chéo vuông góc với nhau. 
+c) Có 3 hình hai cạnh đối song song và các đường chéo bằng nhau. 
+d) Hình lục giác có độ dài đường chéo gấp đôi độ dài cạnh. 
+Lời giải. 
+a) Đúng. Tam giác đều có 3 cạnh bằng nhau, hình vuông có 4 cạnh bằng nhau và hình lục 
+giác đều có 6 cạnh bằng nhau. 
+b) Đúng. Hai hình có hai đường chéo vuông góc với nhau là hình vuông và hình thoi. 
+c) Đúng. Ba hình có hai cạnh đối song song và các đường chéo bằng nhau là hình vuông, 
+hình chữ nhật và hình thang cân. 
+d) Sai. Chỉ có các đường chéo chính của hình lục giác đều mới có độ dài gấp đôi độ dài 
+cạnh, các đường chéo phụ không có tính chất này và hình lục giác bất kỳ không có tính 
+chất này. 
+Câu 2. Cho ba số 
+24
+A =
+, 
+36
+B =
+ và 
+60
+C =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Số 12 là một ước chung của ba số 
+, ,
+A B C . 
+b) Phân tích số 24 ra thừa số nguyên tố ta được 
+32
+3
+. 
+c) Ước chung lớn nhất của hai số A và B là 6. 
+d) Bội chung nhỏ nhất của hai số A và B là 72. 
+Lời giải. 
+a) Đúng. Cả ba số 24, 36 và 60 đều chia hết cho 12. 
+b) Đúng. Ta có 
+3
+24
+8 3
+2
+3
+= =
+, trong đó 2 và 3 đều là các số nguyên tố. 
+c) Sai. Vì 
+3
+24
+2
+3
+=
+ và 
+2
+2
+36
+2
+3
+=
+
+ nên ước chung lớn nhất của 24 và 36 phải là 
+2
+2
+3
+12
+=
+. 
+d) Đúng. Vì 
+3
+24
+2
+3
+=
+ và 
+2
+2
+36
+2
+3
+=
+
+ nên bội chung nhỏ nhất của 24 và 36 là 
+3
+2
+2
+3
+72
+
+=
+. 
+
+
+--- TRANG 168 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hình thoi ABCD có cạnh 5cm . Chu vi của hình thoi ABCD là bao nhiêu ? 
+Lời giải. Chu vi của hình thoi ABCD là: 5 4
+20 (cm)
+
+=
+. Đáp án: 20 . 
+Câu 2. Tìm số tự nhiên x lớn nhất thỏa mãn 30 x
+ và 45 x
+? 
+Lời giải. Vì x là số tự nhiên lớn nhất thỏa mãn 30 x
+ và 45 x
+ nên 
+UCLN(30,45)
+x =
+. 
+Ta có: 30
+2 3 5
+=
+ và 
+2
+45
+3
+5
+=
+. 
+Do đó: UCLN(30,45)
+3 5
+15
+= =
+. 
+Đáp án: 15. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính nhanh nếu có) 
+a) 115
+300
+585;
++
++
+ 
+ 
+ 
+ 
+b) 
+2
+0
+6 .25
+4.9.75
+25 ;
++
+−
+ 
+c) 2025.79
+2025.21;
++
+ 
+ 
+d) 
+(
+)
+2
+6
+4
+10
+60: 5 :5
+3.5
+.
+
+
+−
+−
+
+  
+Lời giải. 
+ 
+a) 115
+300
+585
++
++
+ 
+(115
+585)
+300
+=
++
++
+ 
+700
+300
+1000
+=
++
+=
+. 
+b) 
+2
+0
+6
+25
+4 9 75
+25
+
++
+
+−
+ 
+36 25
+36 75 1
+=
+
++
+
+− 
+36 (25
+75) 1
+=
+
++
+− 
+36 100 1
+=
+
+− 
+
+
+--- TRANG 169 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+3600 1
+3599
+=
+−=
+. 
+c) 2025 79
+2025 21
+
++
+
+ 
+2025 (79
+21)
+=
+
++
+ 
+2025 100
+202500
+=
+
+=
+. 
+d) 
+2
+6
+4
+10
+[60:(5 :5
+3 5)]
+−
+−
+ 
+2
+100
+[60:(5
+15)]
+=
+−
+−
+ 
+100
+[60:(25 15)]
+=
+−
+−
+ 
+100
+[60:10]
+=
+−
+ 
+100
+6
+94
+=
+−
+=
+. 
+Câu 2. Tìm số tự nhiên x , biết: 
+a) 
+24
+60
+x +
+=
+; 
+ 
+ 
+ 
+b) 3(
+5)
+21
+x −
+=
+; 
+c) 2
+3 12
+36
+x +
+=
+; 
+ 
+ 
+ 
+d) 150
+2(
+1)
+70
+x
+−
++
+=
+. 
+Lời giải.  
+a) 
+24
+60
+x +
+=
+ 
+60
+24
+x =
+−
+ 
+36
+x =
+. 
+b) 3(
+5)
+21
+x −
+=
+ 
+5
+21:3
+x −
+=
+ 
+5
+7
+x −
+=
+ 
+7
+5
+x =
++ 
+12
+x =
+. 
+
+
+--- TRANG 170 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) 2
+3 12
+36
+x +
+=
+ 
+2
+3
+36 12
+x =
+−
+ 
+2
+3
+24
+x =
+ 
+2
+24:3
+x =
+ 
+2
+8
+x = 
+3
+2
+2
+x =
+ 
+3
+x = . 
+d) 150
+2(
+1)
+70
+x
+−
++
+=
+ 
+2(
+1)
+150
+70
+x +
+=
+−
+ 
+2(
+1)
+80
+x +
+=
+ 
+1
+80: 2
+x + =
+ 
+1
+40
+x + =
+ 
+40 1
+x =
+− 
+39
+x =
+. 
+Câu 3. Bạn An đi nhà sách mua 5 cây bút bi cùng loại và 6 quyển tập cùng loại. Biết giá 
+tiền một quyển tập là 10 000 đồng. Bạn đưa chị thu ngân tờ 200 000 đồng và được chị trả 
+lại 125 000 đồng. Hỏi giá tiền của 1 cây bút mà bạn An đã mua là bao nhiêu?  
+Lời giải. Tổng số tiền An đã mua (gồm bút và tập) là: 
+200000 125000
+75000
+−
+=
+ (đồng). 
+Số tiền An dùng để mua 6 quyển tập là:6 10000
+60000
+
+=
+ (đồng). 
+Số tiền An dùng để mua 5 cây bút bi là: 75000
+60000
+15000
+−
+=
+(đồng). 
+Giá tiền của 1 cây bút bi là:15000:5
+3000
+=
+.(đồng). 

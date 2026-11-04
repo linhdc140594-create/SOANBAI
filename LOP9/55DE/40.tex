@@ -1,0 +1,149 @@
+
+\begin{ex} % Câu 9
+	Rút gọn biểu thức $P = \left(\frac{1}{x-\sqrt{x}} + \frac{1}{\sqrt{x}-1}\right) : \frac{\sqrt{x}}{x-2\sqrt{x}+1}$ (với $x > 0, x \ne 1$)
+	\loigiai{
+		Điều kiện: $x > 0, x \ne 1$.
+		Ta có:
+		$x-\sqrt{x} = \sqrt{x}(\sqrt{x}-1)$
+		$x-2\sqrt{x}+1 = (\sqrt{x}-1)^2$
+		Do đó:
+		\begin{align*}
+			P &= \left(\frac{1}{\sqrt{x}(\sqrt{x}-1)} + \frac{\sqrt{x}}{\sqrt{x}(\sqrt{x}-1)}\right) : \frac{\sqrt{x}}{(\sqrt{x}-1)^2} \\
+			&= \left(\frac{1+\sqrt{x}}{\sqrt{x}(\sqrt{x}-1)}\right) \cdot \frac{(\sqrt{x}-1)^2}{\sqrt{x}} \\
+			&= \frac{(1+\sqrt{x})(\sqrt{x}-1)^2}{\sqrt{x}(\sqrt{x}-1)\sqrt{x}} \\
+			&= \frac{(1+\sqrt{x})(\sqrt{x}-1)}{x} \\
+			&= \frac{x-1}{x}
+		\end{align*}
+		Vậy, với $x > 0, x \ne 1$ thì $P = \frac{x-1}{x}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Cho phương trình $x^2+3x-1=0$ có hai nghiệm phân biệt $x_1, x_2$. Không giải phương trình, hãy tính giá trị của biểu thức $T=\frac{3|x_1-x_2|}{x_1^2x_2+x_1x_2^2}$.
+	\loigiai{
+		Phương trình đã cho là $x^2+3x-1=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = -3 \\ x_1 x_2 = -1 \end{cases} $
+		Ta cần tính $|x_1-x_2|$. Ta có:
+		$(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2 = (-3)^2 - 4(-1) = 9 + 4 = 13$.
+		Suy ra $|x_1-x_2| = \sqrt{13}$.
+		Biến đổi mẫu số của T:
+		$x_1^2x_2+x_1x_2^2 = x_1x_2(x_1+x_2)$.
+		Thay các giá trị vào biểu thức T:
+		\begin{align*}
+			T &= \frac{3|x_1-x_2|}{x_1x_2(x_1+x_2)} \\
+			&= \frac{3\sqrt{13}}{(-1)(-3)} \\
+			&= \frac{3\sqrt{13}}{3} \\
+			&= \sqrt{13}
+		\end{align*}
+		Vậy, giá trị của biểu thức $T = \sqrt{13}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Không sử dụng máy tính cầm tay, giải hệ phương trình $ \begin{cases} 3x+y=13 \\ 2x-3y=-6 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 3x+y=13 \quad &(1) \\ 2x-3y=-6 \quad &(2) \end{cases} $
+		Nhân phương trình (1) với 3:
+		$ \begin{cases} 9x+3y=39 \quad &(1') \\ 2x-3y=-6 \quad &(2) \end{cases} $
+		Cộng vế theo vế của phương trình (1') và (2):
+		\begin{align*}
+			(9x+3y) + (2x-3y) &= 39 + (-6) \\
+			9x + 3y + 2x - 3y &= 33 \\
+			11x &= 33 \\
+			x &= 3
+		\end{align*}
+		Thay $x=3$ vào phương trình (1):
+		\begin{align*}
+			3(3) + y &= 13 \\
+			9 + y &= 13 \\
+			y &= 13 - 9 \\
+			y &= 4
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (3;4)$.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Cận thị trong học sinh ngày càng tăng. Lớp 9A ở 1 thành phố có 35 học sinh, trong đó chỉ có 25\% học sinh nam và 20\% số học sinh nữ không bị cận thị. Biết tổng số học sinh nam và học sinh nữ không bị cận thị là 8 học sinh. Tính số học sinh nam và nữ không bị cận thị.
+	\loigiai{
+		Gọi $x$ là số học sinh nam của lớp 9A.
+		Gọi $y$ là số học sinh nữ của lớp 9A.
+		Điều kiện: $x, y$ là các số nguyên dương.
+		
+		Tổng số học sinh của lớp là 35, nên ta có phương trình:
+		$x + y = 35 \quad (1)$
+		
+		Số học sinh nam không bị cận thị là $25\%$ số học sinh nam, tức là $0,25x$.
+		Số học sinh nữ không bị cận thị là $20\%$ số học sinh nữ, tức là $0,20y$.
+		Tổng số học sinh nam và nữ không bị cận thị là 8 học sinh, nên ta có phương trình:
+		$0,25x + 0,20y = 8 \quad (2)$
+		
+		Từ (1) và (2), ta có hệ phương trình:
+		$ \begin{cases} x + y = 35 \\ 0,25x + 0,20y = 8 \end{cases} $
+		
+		Giải hệ phương trình:
+		Từ phương trình (1), suy ra $y = 35 - x$.
+		Thế $y = 35 - x$ vào phương trình (2):
+		\begin{align*}
+			0,25x + 0,20(35 - x) &= 8 \\
+			0,25x + 7 - 0,20x &= 8 \\
+			0,05x &= 8 - 7 \\
+			0,05x &= 1 \\
+			x &= \frac{1}{0,05} \\
+			x &= 20
+		\end{align*}
+		Thay $x = 20$ vào $y = 35 - x$:
+		\begin{align*}
+			y &= 35 - 20 \\
+			y &= 15
+		\end{align*}
+		Vậy, lớp 9A có 20 học sinh nam và 15 học sinh nữ.
+		
+		Số học sinh nam không bị cận thị là: $0,25x = 0,25 \cdot 20 = 5$ (học sinh).
+		Số học sinh nữ không bị cận thị là: $0,20y = 0,20 \cdot 15 = 3$ (học sinh).
+		
+		Kiểm tra lại: $5 + 3 = 8$ (đúng với tổng số học sinh không bị cận thị).
+		
+		Vậy, số học sinh nam không bị cận thị là 5 học sinh và số học sinh nữ không bị cận thị là 3 học sinh.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Cho tập hợp $A=\{4;5;6\}$. Từ các chữ số của tập hợp A viết ngẫu nhiên một số tự nhiên có 2 chữ số. Tính xác suất biến cố M “số được viết có hai chữ số khác nhau”.
+	\loigiai{
+		Các số tự nhiên có 2 chữ số có thể viết từ tập A là:
+		Chữ số hàng chục có 3 cách chọn (4, 5, hoặc 6).
+		Chữ số hàng đơn vị có 3 cách chọn (4, 5, hoặc 6).
+		Số các số có 2 chữ số có thể tạo thành là $3 \times 3 = 9$ số.
+		Liệt kê các số đó (không gian mẫu $\Omega$):
+		$44, 45, 46$
+		$54, 55, 56$
+		$64, 65, 66$
+		Vậy, $n(\Omega) = 9$.
+		
+		Biến cố M: “số được viết có hai chữ số khác nhau”.
+		Các số có hai chữ số khác nhau từ tập A là:
+		$45, 46$
+		$54, 56$
+		$64, 65$
+		Vậy, có 6 số có hai chữ số khác nhau.
+		Số phần tử của biến cố M là $n(M) = 6$.
+		
+		Xác suất của biến cố M là:
+		$P(M) = \frac{n(M)}{n(\Omega)} = \frac{6}{9} = \frac{2}{3}$.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho $(O)$ đường kính $AB$. Kẻ đường kính $CD$ vuông góc với $AB$. Lấy $M$ thuộc cung nhỏ $BC$, $AM$ cắt $CD$ tại $E$. Qua $D$ kẻ tiếp tuyến với $(O)$ cắt đường thẳng $BM$ tại $N$. Kẻ $BP$ vuông góc với $DN$ tại $P$.
+	\begin{enumerate}[a)]
+		\item Chứng minh các điểm $M, N, D, E$ cùng thuộc một đường tròn.
+		\item Chứng minh $AM \cdot BN = 2R^2$ và tìm vị trí điểm $M$ trên cung nhỏ $BC$ để diện tích tam giác $BNC$ đạt giá trị lớn nhất.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} Một cái sân hình vuông $ABCD$ có cạnh là $8 \text{ m}$. Người ta muốn lát gạch màu khác để trang trí lên mảnh sân hình vuông $MNPQ$ nội tiếp trong sân hình vuông $ABCD$. Tìm vị trí của $M, N, P, Q$ để hình vuông $MNPQ$ có diện tích nhỏ nhất.
+
+\end{ex}
+
+\setcounterref{ex}{0}

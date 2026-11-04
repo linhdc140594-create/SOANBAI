@@ -1,0 +1,562 @@
+--- TRANG 22 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 6 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+Câu 1. Phương trình nào dưới đây là phương trình bậc nhất hai ẩn?    
+A. 
+2
+2
+5
+x
+y
++
+= .    
+ 
+ 
+ 
+ 
+ 
+B. 3
+5
+1
+x
+y
+−
+= .    
+C. 1
+2
+y
+x +
+= .    
+ 
+ 
+ 
+ 
+ 
+D. 
+4
+xy = .    
+Câu 2. Đường thẳng biểu diễn tất cả các nghiệm của phương trình 3
+12
+0
+x−
+= ?    
+A. Vuông góc với trục tung.    
+ 
+ 
+ 
+B. Đi qua gốc tọa độ.    
+C. Song song với trục hoành.    
+ 
+ 
+ 
+D. Đi qua điểm 
+(4;5)
+A
+.    
+Câu 3. Biết rằng 
+0
+0
+(
+;
+)
+x y là nghiệm của hệ phương trình 
+3
+7
+2
+0
+x
+y
+x
+y
++
+=
+
+
+−
+=
+
+. Tính 
+0
+0
+2
+x
+y
+−
+:    
+A. 1     
+ 
+ 
+B. 2
+−    
+ 
+ 
+C. 3    
+ 
+ 
+D. 1
+−    
+Câu 4. Giải hệ phương trình 
+5
+1
+x
+y
+x
+y
++
+=
+
+−
+=
+
+ ta được nghiệm là:  
+A. ( ; )
+(3;2)
+x y =
+    
+ 
+ 
+ 
+ 
+ 
+B. ( ; )
+(2;3)
+x y =
+    
+C. ( ; )
+(4;1)
+x y =
+    
+ 
+ 
+ 
+ 
+ 
+D. ( ; )
+(1;4)
+x y =
+    
+Câu 5. Phương trình (
+3)(
+8)
+0
+x
+x
+−
++
+= có nghiệm là:    
+A. 
+3;
+8
+x
+x
+=
+=    
+ 
+ 
+ 
+ 
+ 
+B. 
+3;
+8
+x
+x
+= −
+=    
+C. 
+3;
+8
+x
+x
+= −
+= −    
+ 
+ 
+ 
+ 
+ 
+D. 
+3;
+8
+x
+x
+=
+= −    
+Câu 6. Cho góc nhọn B trong tam giác vuông. Tỉ số cạnh kề trên cạnh huyền là:   
+ A. sinB    
+ 
+ 
+B. cosB    
+ 
+ 
+C. tanB    
+ 
+        D. cot B    
+
+
+--- TRANG 23 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 7. Kết quả của phép tính (
+13):(
+468)
+−
+−
+ là:    
+A. 1
+6    
+ 
+ 
+B. 6
+−    
+ 
+ 
+C. 6    
+ 
+ 
+D. 
+1
+6
+−
+    
+Câu 8. Đưa thừa số 5a b
+−
+ (với 
+0;
+0
+a
+b
+
+) vào trong dấu căn ta được    
+A. 
+2
+25a b
+−
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+25a b     
+ 
+ 
+C. 
+2
+5a b
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+5a b    
+Câu 9. Đưa thừa số 
+2
+75x y (với 
+0;
+0
+x
+y
+
+) ra ngoài dấu căn ta được   
+A. 5
+3
+x
+y     
+ 
+ 
+ 
+ 
+ 
+B. 5
+3
+x
+y
+−
+    
+C. 75x
+y
+−
+    
+ 
+ 
+ 
+ 
+ 
+D. 25
+3
+x
+y
+−
+ 
+Câu 10. Cho  là góc nhọn bất kì có 
+1
+tan
+7
+=
+, khi đó:    
+A. 
+1
+cot
+7
+=
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+cot
+7
+
+−
+=
+    
+C. cot
+7
+= −    
+ 
+ 
+ 
+ 
+ 
+D. cot
+7
+=
+    
+Câu 11. Hãy chọn câu đúng nhất:    
+A. cos77
+sin23
+
+
+=
+     
+ 
+ 
+ 
+ 
+B. sin37
+cos53
+
+
+=
+    
+C. cot53
+tan47
+
+
+=
+     
+ 
+ 
+ 
+ 
+D. tan37
+tan53
+
+
+=
+    
+Câu 12. Trong một tam giác vuông, mỗi cạnh góc vuông bằng:    
+A. Cạnh huyền nhân với tan góc đối hoặc nhân với côtang góc kề.    
+B. Cạnh huyền nhân với côtang góc đối hoặc nhân với tan góc kề.    
+C. Cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề.    
+D. Cạnh huyền nhân với côsin góc đối hoặc nhân với sin góc kề.    
+
+
+--- TRANG 24 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hệ phương trình 3
+2
+4
+2
+4
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Hệ phương trình trên có hai ẩn số là x và y . 
+b) Cộng từng vế hai phương trình của hệ ta được phương trình 4
+8
+x = . 
+c) Nghiệm của hệ phương trình là (1;2) . 
+d) Giá trị của biểu thức T
+x
+y
+=
+−
+ bằng 1. 
+Câu 2. Cho tam giác MNP vuông tại M , biết 
+9 cm
+MN =
+ và 
+12 cm
+MP =
+. Xét tính 
+Đúng/Sai của các khẳng định sau: 
+a) Độ dài cạnh huyền 
+15 cm
+NP =
+. 
+b) Tỉ số lượng giác 
+4
+sin
+5
+N =
+. 
+c) Số đo góc N xấp xỉ bằng 37. 
+d) Tỉ số 
+4
+tan
+3
+P =
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Giải hệ phương trình 
+2
+5
+10
+2
+2
+x
+y
+x
+y
+−
++
+=
+
+
+−
+=
+
+ ta được y bằng bao nhiêu?   
+Câu 2. Tam giác ABC có đường cao AH , biết 
+5 cm
+AB =
+ và ˆ
+60
+B
+
+=
+. Hãy tính độ dài 
+AH (làm tròn đến chữ số thập phân thứ hai).    
+ 
+ 
+
+
+--- TRANG 25 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần IV. Tự luận 
+Câu 1. Giải phương trình. 
+a)  (
+)(
+)
+3
+2
+2
+1
+0
+x
+x
+−
++
+= ;  
+ 
+ 
+ 
+b)  
+2
+2
+1
+2
+2(
+5)
+3
+3
+9
+x
+x
+x
+x
+x
+x
++
+−
++
++
+=
+−
++
+−
+ 
+Câu 2. Một mảnh vườn hình chữ nhật có chu vi 50 m
+ . Nếu chiều dài tăng thêm 5m
+ 
+ và 
+chiều rộng giảm đi 5m
+ 
+ thì diện tích của mảnh vườn giảm đi 
+2
+50 m
+ 
+. Tính diện tích của 
+mảnh vườn đó. 
+Câu 3. Người ta làm một con đường gồm ba đoạn thẳng 
+,
+,
+AB BC CD bao quanh hồ 
+nước như hình vẽ sau. Tính khoảng cách AD . 
+ 
+Câu 4. Tìm tất cả các cặp số nguyên (x; y) thỏa mãn   
+2
+2
+2
+2
+10
+15
+0
+x
+y
+xy
+x
++
+−
++
++
+= . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

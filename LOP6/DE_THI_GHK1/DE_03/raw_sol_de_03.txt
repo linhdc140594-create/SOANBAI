@@ -1,0 +1,903 @@
+--- TRANG 78 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải.  
+a) Ta có 
+1
+2
+3 .3
+3 .3
+2.3
+270
+x
+x
+x
++
+−
+=
+ 
+3 .(3
+9
+2)
+270
+x
++
+−
+=
+ 
+3 .10
+270
+x
+=
+ 
+3
+270:10
+x =
+ 
+3
+27
+x =
+ 
+3
+3
+3
+x =
+ 
+3
+x = . 
+Suy ra 
+3
+x = là số nguyên tố. 
+b) Gọi hai số tự nhiên cần tìm là a và b (giả sử a
+b
+
+). 
+Vì 
+( , )
+6
+UCLN a b =
+ nên ta đặt 
+6
+a
+m
+=
+, 
+6
+b
+n
+=
+ với 
+( , )
+1
+UCLN m n = và m
+n
+
+. 
+Tích của hai số là: .
+6 .6
+36. .
+144
+a b
+m n
+m n
+=
+=
+=
+ 
+.
+144:36
+4
+m n =
+= . 
+Vì 
+( , )
+1
+UCLN m n = và m
+n
+
+, ta có các trường hợp cho m và n : 
+1,
+4
+6.1
+6
+m
+n
+a
+=
+=
+
+=
+=
+; 
+6.4
+24
+b =
+=
+. 
+2,
+2
+m
+n
+=
+= (loại vì 
+(2,2)
+2
+1
+UCLN
+=
+). 
+Vậy hai số tự nhiên cần tìm là 6 và 24 . 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+
+
+--- TRANG 79 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 1. Cho tập hợp 
+
+
+A
+1; 2; a; b
+=
+. Khẳng định nào dưới đây sai? 
+A. 1
+A
+
+. 
+ 
+  
+B. a
+A
+
+. 
+ 
+ 
+C. 5
+A
+
+. 
+ 
+      D. b
+A
+
+. 
+Lời giải. Vì b là một phần tử thuộc tập hợp A (viết là b
+A
+
+), nên khẳng định "b
+A
+
+" là 
+sai. Đáp án đúng: D. 
+Câu 2. Tập hợp nào dưới đây là tập hợp số tự nhiên ? 
+A.
+
+
+1;2;3;...
+N =
+. 
+ 
+ 
+ 
+ 
+ 
+B.
+
+
+0;1;2;3;...;100
+N =
+.      
+C.
+
+
+0;1;2;3;...
+N =
+.  
+ 
+ 
+ 
+ 
+D.
+
+
+0;2;4;6;...
+N =
+. 
+Lời giải. Tập hợp các số tự nhiên được ký hiệu là , gồm các số 0;1;2;3; kéo dài vô 
+hạn: 
+{0;1;2;3;
+}
+=
+
+
+. Đáp án đúng: C. 
+Câu 3. Số nào sau đây là bội của 17? 
+A. 51.                   
+  
+B. 54. 
+ 
+ 
+C. 56. 
+ 
+     D. 63. 
+Lời giải. Ta thực hiện phép chia: 51:17
+3
+= (chia hết), nên 51 là bội của 17. 
+Đáp án đúng: A. 
+Câu 4. Một nhà kho có 240 bao gạo, chia đều vào 8 dãy kệ. Sau đó, người ta lấy ra 15 
+bao ở mỗi dãy để chuyển đi nơi khác. Hỏi nhà kho còn lại bao nhiêu bao gạo? 
+A. 105 bao. 
+ 
+B. 115 bao. 
+ 
+C. 120 bao. 
+ 
+D. 135 bao. 
+Lời giải. Số bao gạo bị lấy đi ở cả 8 dãy là: 15 8
+120
+=
+ (bao). 
+Số bao gạo nhà kho còn lại là: 240 120
+120
+−
+=
+ (bao). Đáp án đúng: C. 
+Câu 5. Công thức tính chu vi của hình vuông có độ dài cạnh a là 
+ 
+A. C
+a
+=
+. 
+                           
+B. 
+4
+C
+a
+=
+. 
+ 
+ 
+C. 
+3
+C
+a
+=
+. 
+ 
+D. 
+5
+C
+a
+=
+. 
+
+
+--- TRANG 80 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Chu vi của hình vuông bằng độ dài một cạnh nhân với 4, tức là 
+4
+C
+a
+=
+. 
+Đáp án đúng: B. 
+Câu 6. Trong các hình dưới đây, hình nào là hình thoi?  
+ 
+A. Hình 1. 
+B. Hình 2. 
+C. Hình 3. 
+D. Hình 4. 
+Lời giải. Quan sát các hình vẽ, ta thấy Hình 4 có 4 cạnh bằng nhau nên đây là hình thoi. 
+Đáp án đúng: D. 
+Câu 7. Đọc lũy thừa sau và nêu cơ số, số mũ của nó: 63 
+A. Sáu mũ ba; cơ số là 6, số mũ là 3. 
+B. Sáu mũ ba; cơ số là 3, số mũ là 6. 
+C. Ba mũ sáu; cơ số là 3, số mũ là 6. 
+ 
+D. Ba mũ sáu; cơ số là 6, số mũ là 3. 
+Lời giải. Lũy thừa 
+3
+6 được đọc là "Sáu mũ ba", trong đó số 6 ở dưới là cơ số, số 3 ở trên 
+là số mũ. Đáp án đúng: A. 
+Câu 8. Khi viết gọn tích 
+2
+3.2.6 .6 bằng cách dùng luỹ thừa, kết quả đúng là : 
+ A. 
+2
+33 .2 . 
+ 
+  
+ 
+ 
+ 
+ 
+ B. 
+3
+6 . 
+             
+ C. 
+4
+6 . 
+ 
+                        
+ 
+ 
+ D. 
+3
+2
+2 .3 . 
+Lời giải. Ta có 3 2
+6
+
+= , do đó tích trở thành: 
+2
+2
+1
+2
+1
+1 2 1
+4
+3 2 6
+6
+6 6
+6
+6 6
+6
+6
+6
++ +
+
+
+=
+
+
+=
+
+
+=
+=
+. 
+Đáp án đúng: C. 
+Câu 9.  Trong hình vuông có: 
+Hình 4
+Hình 3
+Hình 2
+Hình 1
+
+
+--- TRANG 81 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. Hai cạnh đối bằng nhau. 
+ 
+B. Hai đường chéo bằng nhau. 
+C. Bốn cạnh bằng nhau. 
+ 
+D. Hai đường chéo vuông góc. 
+Lời giải. Đặc điểm cơ bản về cạnh của hình vuông là có bốn cạnh bằng nhau. 
+Đáp án đúng: C. 
+Câu 10. Cho hình thang có độ dài hai đáy là 6 cm và 10 cm, chiều cao là 5 cm. Diện tích 
+của hình thang là: 
+A. 40 cm2                  
+B. 50 cm2                  
+ C. 60 cm2                   D. 70 cm2 
+Lời giải. Công thức tính diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao 
+rồi chia 2: 
+(
+)
+2
+a
+b
+h
+S
++
+
+=
+ 
+Thay các số đo vào công thức: 
+2
+(6 10) 5
+16 5
+40 (cm )
+2
+2
+S
++
+
+
+=
+=
+=
+. 
+Đáp án đúng: A. 
+Câu 11. Cho tam giác đều MNP có MP = 6cm. Độ dài MN và NP lần lượt là: 
+A. 2cm; 4cm. .                 
+ 
+ 
+ 
+ 
+B. 3cm; 3cm.               
+C. 1cm; 5cm.           
+   
+ 
+ 
+ 
+D. 6cm; 6cm. 
+Lời giải. Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao rồi chia cho 2: 
+2
+(6 10) 5
+16 5
+40 (cm )
+2
+2
+S
++
+
+
+=
+=
+=
+. Đáp án đúng: A. 
+Câu 12. Cho hình thoi, biết độ dài hai đường chéo là 2cm và 4cm. Thì diện tích hình thoi là: 
+A. 4.                                   B. 6.  
+ C. 8. 
+       D. 2. 
+Lời giải. Trong tam giác đều, ba cạnh luôn có độ dài bằng nhau. Do 
+6 cm
+MP =
+ nên 
+6 cm
+MN =
+ và 
+6 cm
+NP =
+. Đáp án đúng: D. 
+
+
+--- TRANG 82 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hình vuông MNPQ có cạnh bằng 4 cm . Các khẳng định sau đây đúng hay sai? 
+a) 
+4 cm
+MN
+NP
+PQ
+QM
+=
+=
+=
+=
+. 
+b) MN và NQ song song với nhau. 
+c) Mỗi góc ở các đỉnh của hình vuông bằng nhau và bằng 60. 
+d) Vẽ cạnh 
+4 cm
+MN =
+. Dùng thước êke vẽ các đường vuông góc với MN tại M và N , 
+sau đó lần lượt lấy các điểm Q, P trên các đường đó sao cho 
+4 cm
+MQ
+NP
+=
+=
+. Nối P với 
+Q ta được hình vuông MNPQ có cạnh 4 cm như đã cho. 
+Lời giải. 
+a) Đúng. Hình vuông có 4 cạnh bằng nhau. 
+b) Sai. Cạnh MN và đường chéo NQ cắt nhau tại đỉnh N, không song song với nhau. Cạnh 
+MN chỉ song song với cạnh đối diện là PQ. 
+c) Sai. Hình vuông có 4 góc ở các đỉnh bằng nhau và là góc vuông (bằng 90). 
+d) Đúng. Đây là các bước thao tác chuẩn để vẽ một hình vuông bằng thước và êke. 
+Câu 2. Cho các số: 355, 360, 257, 1617, 152. Các khẳng định sau đây đúng hay sai? 
+a) Số 360 chia hết cho 9. 
+b) Số 1617 chia hết cho 9. 
+c) Trong các số đã cho, có đúng hai số chia hết cho 9. 
+d) Số 257 và số 152 đều không chia hết cho 9. 
+ 
+Lời giải.  
+
+
+--- TRANG 83 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Đúng. Vì tổng các chữ số là 3 + 6 + 0 = 9 chia hết cho 9. 
+b) Sai. Vì tổng các chữ số là 1 + 6 + 1 + 7 = 15 không chia hết cho 9. 
+c) Sai. Trong các số đã cho, chỉ có duy nhất một số chia hết cho 9 là số 360. 
+d) Đúng. Tổng các chữ số của hai số này lần lượt là 14 (của số 257) và 8 (của số 152), 
+đều không chia hết cho 9. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Số các số nguyên tố nhỏ hơn 10 là ? 
+Lời giải.  
+Các số nguyên tố nhỏ hơn 10 là: 2; 3; 5; 7 . 
+Số lượng các số nguyên tố nhỏ hơn 10 là 4 số. 
+Đáp án: 4 . 
+Câu 2. Có bao nhiêu số tự nhiên n thỏa mãn 1
+ 9
+n
+
+? 
+Lời giải. Các số tự nhiên n thỏa mãn 1
+9
+n
+
+
+ là: 2;3;4;5;6;7;8;9. 
+Đếm các số trên ta thấy có tất cả 8 số.  
+Đáp án: 8 . 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 475 170
+325 
+330;
++
++
++
+ 
+b) 89 54
+45 89
+89;
+
++
+
++
+ 
+c) 
+2
+.
+120: 54
+50:2
+3
+2.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+−
+−
+ 
+Lời giải. 
+
+
+--- TRANG 84 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 475 170
+325
+330
++
++
++
+ 
+(475
+325)
+(170
+330)
+=
++
++
++
+ 
+800
+500
+1300
+=
++
+=
+. 
+b) 89 54
+45 89
+89
+
++
+
++
+ 
+89 (54
+45 1)
+=
+
++
++
+ 
+89 100
+8900
+=
+
+=
+. 
+c) 
+2
+120:{54 [50:2
+(3
+2 4)]}
+−
+−
+−
+ 
+120:{54
+[25
+(9
+8)]}
+=
+−
+−
+−
+ 
+120:{54
+24}
+=
+−
+ 
+120:30
+4
+=
+=
+. 
+Câu 2. Tìm số tự nhiên x, biết: 
+a) 
+–15
+2025
+x
+=
+; 
+b) 
+(
+)
+39
+– 47
+160
+x
++
+=
+. 
+Lời giải. 
+a) 
+15
+2025
+x −
+=
+ 
+2025 15
+x =
++
+ 
+2040
+x =
+. 
+b) 39
+(
+47)
+160
+x
++
+−
+=
+ 
+47
+160
+39
+x −
+=
+−
+ 
+47
+121
+x −
+=
+ 
+121
+47
+x =
++
+ 
+168
+x =
+. 
+
+
+--- TRANG 85 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 3.  Mảnh vườn nhà ông An có dạng như hình vẽ dưới đây. 
+ 
+a) Ông An rào xung quanh mảnh vườn bằng dây thép gai. Hỏi ông An mua hết bao 
+nhiêu tiền dây thép gai. Biết mỗi mét dây thép có giá 50000 đồng. 
+b) Tính diện tích mảnh vườn của ông An. 
+Lời giải. 
+a) Chu vi mảnh vườn: 4
+4
+3
+2
+7
+6
+26 (m)
++
++ +
++
++
+=
+. 
+Số tiền mua dây thép gai: 26 50000
+1300000 
+
+=
+đồng. 
+b) Chia mảnh vườn thành hai hình chữ nhật kích thước 4m
+6m
+
+ và 3m
+2m
+
+. 
+Diện tích mảnh vườn: 
+2
+4 6
+3 2
+24
+6
+30 (m )
++ 
+=
++
+=
+. 
+Câu 4. Cho B = 5 + 52 + 53 + ... + 58. Chứng minh B chia hết cho 30. 
+Lời giải. Ta có 
+2
+3
+8
+5
+5
+5
+5
+B =
++
++
+++
+ 
+2
+3
+4
+5
+6
+7
+8
+(5
+5 )
+(5
+5 )
+(5
+5 )
+(5
+5 )
+=
++
++
++
++
++
++
++
+ 
+3
+5
+7
+5 (1 5)
+5
+(1 5)
+5
+(1 5)
+5
+(1 5)
+= 
++
++
+
++
++
+
++
++
+
++
+ 
+2
+4
+6
+30
+30 5
+30 5
+30 5
+=
++
+
++
+
++
+
+ 
+2
+4
+6
+30 (1 5
+5
+5 )
+=
+
++
++
++
+ 
+Vì 30 30
+
+ nên 
+30
+B
+. 
+ 
+3 m
+2 m
+A
+B
+C
+D
+E
+F
+7 m
+6 m
+4 m
+4 m

@@ -1,0 +1,325 @@
+--- TRANG 41 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 11 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các số sau, số nào là bội của 5? 
+A. 7.   
+ 
+ 
+B. 105. 
+ 
+ 
+C. 17.  
+ 
+       D. 27. 
+Câu 2. Tìm x , biết 
+20
+42
+x +
+=
+. 
+A. 22 . 
+ 
+ 
+B. 62.  
+ 
+          C. 2 .  
+ 
+       D. 18. 
+Câu 3. Khẳng định nào sau đây đúng ? 
+A. 4
+(7)
+U
+
+.                          
+ 
+B. 5
+(7).
+U
+
+ 
+  
+C. 6
+(7).
+U
+
+ 
+      
+D. 7
+(7).
+U
+
+ 
+Câu 4. Cho 
+
+
+5, 16, 25, 135
+x
+sao cho tổng 20
+35
+x
++
++
+ không chia hết cho 5. x có thể là:  
+A. 5.                                 B. 16.                                  C. 25. 
+     D. 135. 
+Câu 5. Trong các số sau, số nào chia hết cho 2 và 5 ? 
+A.2020 .            
+      B. 25 .         
+ 
+       C. 52.      
+ 
+           D. 5 . 
+Câu 6. Tổng 3510
+4353
++
+ chia hết cho: 
+A. 2.                    
+      B. 3.                                     C. 5.                                         D. 9. 
+Câu 7. Hình nào dưới đây là tam giác đều: 
+ 
+
+
+--- TRANG 42 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. Hình 1.                  
+ 
+B. Hình 2.                       
+C. Hình 3.                   
+ 
+D. Hình 4. 
+Câu 8. Kết quả của 
+56
+51
+7
+: 7 viết dưới dạng một lũy thừa là  
+A. 75.  
+ 
+ 
+B. 76.  
+ 
+ 
+C. 7107.  
+ 
+ 
+D. 76. 
+Câu 9.  Trong các hình dưới đây, hình nào là tam giác đều? 
+ 
+A. Tam giác ABC.  
+ 
+ 
+ 
+     B. Tam giác DEF. 
+C. Tam giác PQR.  
+ 
+ 
+ 
+     D. Tam giác MNH. 
+Câu 10. Cho hình bình hành AKHE , có 
+6cm,
+5cm
+AK
+KH
+=
+=
+. Hãy chọn phát biểu đúng 
+trong các phát biểu sau: 
+A. 
+5cm,
+6cm
+EH
+AE
+=
+=
+. 
+ 
+ 
+ 
+     B. 
+6cm,
+5cm
+EH
+AE
+=
+=
+. 
+C. 
+6cm,
+5cm
+AH
+AE
+=
+=
+.        
+ 
+ 
+     D. 
+6cm
+KH
+AH
+=
+=
+. 
+Câu 11. Tập hợp 
+
+*
+L
+x
+N
+x
+=
+
+∣
+ là số lẻ và 
+
+9
+x 
+ được viết dưới dạng liệt kê các phần từ là: 
+A. 
+{1;3;5;7}
+L =
+. 
+B. 
+{1;3;5;7;9}
+L =
+. 
+C. 
+{1;2;3;4;5;6;7;8}
+L =
+. 
+ 
+ 
+ 
+ D. 
+{1;2;3;4;5;6;7;8;9}
+L =
+. 
+Câu 12. Chu vi hình thoi MNPQ có cạnh MN = 5 cm là: 
+A. 20 cm. 
+B. 15 cm. 
+C. 25 cm. 
+D. 10 cm. 
+ 
+ 
+
+
+--- TRANG 43 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét tính đúng sai của các mệnh đề sau: 
+a) Mọi số có chữ số tận cùng là 3; 6; 9 thì chia hết cho 3. 
+b) Để số 212* chia hết cho 2 thì *
+{4;6;8}
+
+. 
+c) Số chia hết cho 9 thì số đó chia hết cho 3. 
+d) Các số có chữ số tận cùng là 0 hoặc 5 thì chia hết cho 5. 
+Câu 2.  Cho các số 
+12
+a =
+, 
+18
+b =
+ và 
+30
+c =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Số a là bội của 4 . 
+b) Số 6 là ước chung của cả ba số , ,
+a b c. 
+c) Ước chung lớn nhất của a và b là 12. 
+d) Bội chung nhỏ nhất của a và b là 36. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Một hình lục giác đều có độ dài một cạnh bằng 5 cm . Tính chu vi của hình lục 
+giác đều đó (đơn vị: cm). 
+Câu 2. Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m . Người ta làm 
+hàng rào xung quanh khu vườn và để lại một cửa ra vào rộng 2 m . Tính độ dài của hàng 
+rào đó (đơn vị: m). 
+Phần IV. Tự luận 
+Câu 1. Tìm x biết : 
+
+
+--- TRANG 44 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+37
+50;
+)
+a x +
+=
+ 
+ 
+ 
+ 
+ 
+(
+)
+2
+:5
+6.
+)
+b
+x
++
+=
+ 
+Câu 2. a) Viết tập hợp A các số tự nhiên nhỏ hơn 8 . Liệt kê các số nguyên tố trong tập 
+hợp A ? 
+            b) Mỗi tháng An tiết kiệm 35000 đồng để mua một đôi giảy thể thao. Sau 1 năm, 
+An đã mua được một đôi giày và còn lại 23000 đồng. Hỏi giá đôi giày An mua giá bao 
+nhiêu đồng? 
+Câu 3.  Một khu vườn hình chữ nhật có chiều dài 20m, chiều rộng ít hơn chiều dài 5m. 
+Người ta dự định rào xung quanh khu đất bằng 4 đường dây kẽm gai để trồng rau.  
+      a) Hỏi cần tất cả bao nhiêu mét dây kẽm gai để rào khu đất trên? 
+      b) Người nông dân thu hoạch được bao nhiêu ki-lô-gam rau trên khu vườn này, 
+biết rằng cứ 1m2 đất thu hoạch được 2kg rau cải, diện tích lối đi và hệ thống thoát nước 
+của vườn là 50m2. 
+Câu 4. Không thực hiện tính tổng, chứng minh rằng 
+2
+3
+2021
+A= 1+4+4
+4
+...
+4
++
++
++
+ chia hết 
+cho 21. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

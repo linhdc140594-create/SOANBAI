@@ -1,0 +1,74 @@
+{
+  "bai_toan": {
+    "ma_bai": "BAI_HINH_02",
+    "nguon": "Đề 02 - Tuyển tập 55 Đề Thi Vào Lớp 10",
+    "mo_hinh": "Trực tâm tam giác nhọn, hình bình hành BHCM, điểm đối xứng của trực tâm qua BC nằm trên đường tròn, cực trị bằng BĐT Cauchy",
+    "de_bai": "Cho đường tròn (O), bán kính R (R > 0) và dây cung BC cố định. Một điểm A chuyển động trên cung lớn BC sao cho tam giác ABC có ba góc nhọn. Các đường cao AD, BE của tam giác ABC cắt nhau tại H. a) Chứng minh tứ giác DHEC nội tiếp một đường tròn. b) Kẻ đường kính AM của (O) và OI vuông góc với BC tại I. Chứng minh I là trung điểm của HM. c) Khi BC cố định, xác định vị trí của A trên (O) để tích DH . DA đạt giá trị lớn nhất."
+  },
+  "dieu_kien_can_luu_y": [
+    "A thuộc cung lớn BC nên BC không phải đường kính và góc BAC nhọn.",
+    "Tam giác ABC nhọn nên chân đường cao D nằm giữa B và C, do đó DB + DC = BC (không đổi).",
+    "Tam giác ABC nhọn nên H nằm trong tam giác, H thuộc đoạn AD."
+  ],
+  "phan_tich_mo_hinh": {
+    "bo_de_1": "Tứ giác BHCM là hình bình hành (MB // CH và MC // BH cùng vuông góc với AB, AC). Hai đường chéo BC và HM cắt nhau tại trung điểm mỗi đường. Vì OI vuông góc BC nên I là trung điểm BC, suy ra I là trung điểm HM.",
+    "bo_de_2": "Gọi K là giao điểm thứ hai của AD với (O). Khi đó K đối xứng với H qua BC, tức là DH = DK.",
+    "diem_nghen_cau_c": "DH, DA và vị trí D đều thay đổi khi A di động, nên không thể đánh giá trực tiếp tích DH . DA.",
+    "chien_luoc": "Thay DH bằng DK, dùng hệ thức DK . DA = DB . DC (hai dây AK và BC cắt nhau tại D), rồi áp dụng BĐT Cauchy cho DB . DC với DB + DC = BC không đổi."
+  },
+  "so_do_tu_duy_nguoc": [
+    {
+      "tang": 1,
+      "dich_den": "max(DH . DA) khi BC cố định",
+      "cau_hoi_truy_nguoc": "Cần chặn trên DH . DA bằng đại lượng không đổi nào?",
+      "muc_tieu_con": "Chứng minh DH . DA <= BC^2 / 4 và chỉ ra khi nào dấu bằng xảy ra"
+    },
+    {
+      "tang": 2,
+      "dich_den": "DH . DA = DB . DC",
+      "cau_hoi_truy_nguoc": "Làm sao đưa DH và DA vào cùng một đường tròn để dùng hệ thức lượng?",
+      "vu_khi_duong_phu": "Kéo dài AD cắt (O) tại K. Chứng minh DH = DK và DK . DA = DB . DC"
+    },
+    {
+      "tang": 3,
+      "dich_den": "DH = DK",
+      "suy_luan": "BD vừa là đường cao vừa là phân giác của tam giác HBK vì góc HBD = góc KBD = 90° - góc C, nên tam giác HBK cân tại B và D là trung điểm HK."
+    },
+    {
+      "tang": 4,
+      "dich_den": "DK . DA = DB . DC",
+      "suy_luan": "Tam giác DBK đồng dạng tam giác DAC (g.g) vì góc BDK = góc ADC = 90° và góc BKD = góc ACD (cùng chắn cung AB). Suy ra DB/DA = DK/DC."
+    },
+    {
+      "tang": 5,
+      "dich_den": "Kết luận cực trị",
+      "suy_luan": "DH . DA = DB . DC <= ((DB+DC)/2)^2 = BC^2 / 4. Dấu bằng khi DB = DC <=> D trùng I <=> Tam giác ABC cân tại A <=> A là điểm chính giữa cung lớn BC."
+    }
+  ],
+  "so_do_cong_thuc_hinh_thong": [
+    "[ĐÍCH ĐẾN]: max(DH . DA) = BC^2 / 4 <=> A LÀ ĐIỂM CHÍNH GIỮA CUNG LỚN BC",
+    "<= Dấu '=' BĐT Cauchy: DB = DC <=> D trùng I <=> Tam giác ABC cân tại A",
+    "<= BĐT Cauchy: DB . DC <= ((DB+DC)/2)^2 = (BC/2)^2 = BC^2 / 4",
+    "<= DH . DA = DB . DC",
+    "<= { DH = DK ; DK . DA = DB . DC }",
+    "<= { Tam giác HBK cân tại B <=> góc HBD = góc KBD ; Tam giác DBK ∼ Tam giác DAC (g-g) }",
+    "<= góc HBD = góc KBD = góc KAC = 90° - góc C [GIẢ THIẾT KHỞI PHÁT TỰ NHIÊN]"
+  ],
+  "phan_tich_su_pham": {
+    "ky_thuat_vang": "Kéo dài AD cắt (O) tại K để đưa điểm H thành điểm K trên đường tròn, kích hoạt định lý phương tích cát tuyến DK . DA = DB . DC và BĐT Cauchy.",
+    "chuoi_cau_hoi": [
+      "Câu 1: Đoạn DH nằm lơ lửng, làm sao đưa nó về đường tròn (O)?",
+      "Câu 2: Nếu kéo dài AD cắt (O) tại K, điểm K có quan hệ đối xứng gì với trực tâm H qua BC?",
+      "Câu 3: Tích DK . DA gợi nhớ đến định lý hình học nào trong đường tròn (O)?",
+      "Câu 4: Tổng DB + DC có thay đổi không khi A di động trên cung lớn BC?"
+    ]
+  },
+  "barem_diem": [
+    {"muc": "Câu a", "diem": 0.75, "noi_dung": "Chứng minh tứ giác DHEC nội tiếp đường tròn đường kính HC"},
+    {"muc": "Câu b", "diem": 0.75, "noi_dung": "Chứng minh BHCM là hình bình hành suy ra I là trung điểm HM"},
+    {"muc": "Câu c - Ý 1", "diem": 0.25, "noi_dung": "Kéo dài AD cắt (O) tại K, chứng minh tam giác HBK cân suy ra DH = DK"},
+    {"muc": "Câu c - Ý 2", "diem": 0.25, "noi_dung": "Chứng minh tam giác DBK đồng dạng DAC suy ra DK . DA = DB . DC"},
+    {"muc": "Câu c - Ý 3", "diem": 0.25, "noi_dung": "Áp dụng BĐT Cauchy suy ra DH . DA <= BC^2 / 4"},
+    {"muc": "Câu c - Ý 4", "diem": 0.25, "noi_dung": "Chỉ ra dấu bằng và kết luận A là điểm chính giữa cung lớn BC"}
+  ]
+}

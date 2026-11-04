@@ -1,0 +1,37 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_01 (TRÍCH ĐỀ 1)
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$. Vẽ đường tròn tâm $C$, bán kính $CA$. Từ điểm $B$ kẻ tiếp tuyến $BM$ với đường tròn $(C; CA)$ ($M$ là tiếp điểm, $M$ và $A$ nằm khác phía đối với đường thẳng $BC$).
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh tứ giác $ACMB$ nội tiếp một đường tròn.
+    \item Lấy điểm $N$ thuộc đoạn thẳng $AB$ ($N \ne A, N \ne B$). Lấy điểm $P$ thuộc tia đối của tia $MB$ sao cho $MP = AN$.
+    \begin{enumerate}[label=\textbf{\arabic*)}]
+        \item Chứng minh tam giác $CPN$ là tam giác cân tại $C$.
+        \item Chứng minh đường thẳng $AM$ đi qua trung điểm của đoạn thẳng $NP$.
+    \end{enumerate}
+\end{enumerate}
+\loigiai{
+\begin{itemize}
+    \item[a)] Ta có $\triangle ABC$ vuông tại $A \Rightarrow \widehat{CAB} = 90^\circ$ hay $\widehat{CAB} = \widehat{CAB}$.\\
+    Vì $BM$ là tiếp tuyến của $(C; CA)$ tại $M \Rightarrow CM \perp BM \Rightarrow \widehat{CMB} = 90^\circ$.\\
+    Tứ giác $ACMB$ có $\widehat{CAB} + \widehat{CMB} = 90^\circ + 90^\circ = 180^\circ$.\\
+    Mà hai góc này ở vị trí đối nhau, nên tứ giác $ACMB$ nội tiếp đường tròn đường kính $BC$.
+    \item[b1)] Xét $\triangle CAN$ và $\triangle CMP$ có:
+    \begin{itemize}
+        \item $CA = CM$ (cùng là bán kính của đường tròn $(C; CA)$).
+        \item $\widehat{CAN} = \widehat{CMP} = 90^\circ$.
+        \item $AN = MP$ (theo giả thiết).
+    \end{itemize}
+    Suy ra $\triangle CAN = \triangle CMP$ (c-g-c) $\Rightarrow CN = CP$ (hai cạnh tương ứng).\\
+    Do đó tam giác $CPN$ cân tại $C$.
+    \item[b2)] Gọi $I$ là trung điểm của đoạn thẳng $NP$.\\
+    Vì $\triangle CPN$ cân tại $C$ có $CI$ là đường trung tuyến nên $CI$ cũng là đường cao $\Rightarrow CI \perp NP \Rightarrow \widehat{CIN} = \widehat{CIP} = 90^\circ$.\\
+    Tứ giác $NACI$ có $\widehat{CAN} = 90^\circ$ và $\widehat{CIN} = 90^\circ \Rightarrow \widehat{CAN} + \widehat{CIN} = 180^\circ \Rightarrow NACI$ nội tiếp $\Rightarrow \widehat{NIA} = \widehat{NCA}$ (cùng chắn cung $NA$).\\
+    Tứ giác $CIMP$ có $\widehat{CMP} = 90^\circ$ và $\widehat{CIP} = 90^\circ \Rightarrow \widehat{CMP} + \widehat{CIP} = 180^\circ \Rightarrow CIMP$ nội tiếp $\Rightarrow \widehat{MIP} = \widehat{MCP}$ (cùng chắn cung $MP$).\\
+    Mà $\triangle CAN = \triangle CMP$ (chứng minh trên) $\Rightarrow \widehat{NCA} = \widehat{MCP}$.\\
+    Suy ra $\widehat{NIA} = \widehat{MIP}$.\\
+    Lại có $I$ nằm giữa $N$ và $P$ nên $\widehat{NIA} + \widehat{PIA} = 180^\circ$.\\
+    Suy ra $\widehat{MIP} + \widehat{PIA} = 180^\circ \Rightarrow \widehat{AIM} = 180^\circ$, tức là ba điểm $A, I, M$ thẳng hàng.\\
+    Vậy đường thẳng $AM$ đi qua trung điểm $I$ của đoạn thẳng $NP$.
+\end{itemize}
+}
+\end{ex}

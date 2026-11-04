@@ -1,0 +1,1098 @@
+--- TRANG 152 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Tính diện tích của mảnh đất? 
+b) Người ta trồng ngô trên miếng đất này, mỗi mùa cứ 3 hec-ta thì thu được 13,5 tấn 
+ngô. Hỏi trên mảnh đất này, mỗi mùa người ta thu được tất cả bao nhiêu ki-lô-gam ngô? 
+Lời giải.  
+a) Độ dài đường cao h của mảnh đất hình thang là: 160:4
+40 (m)
+=
+. 
+Diện tích của mảnh đất hình thang là: 
+2
+(50
+70) 40: 2
+2400 (m )
++
+
+=
+. 
+Đáp số: 
+2
+2400 m . 
+b) Đổi đơn vị:
+2
+3 ha
+30000 m
+=
+; 13,5 tấn
+13500 kg
+=
+. 
+Số ki-lô-gam ngô thu được trên 
+2
+1 m là: 13500:30000
+0,45 (kg)
+=
+ 
+Mỗi mùa trên cả mảnh đất đó người ta thu được số ki-lô-gam ngô là: 2400 0,45
+1080 (kg).
+
+=
+ 
+Đáp số: 1080 kg ngô . 
+ 
+ 
+ 
+ 
+ 
+ĐỀ SỐ 13 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1.  Số vừa chia hết cho 2 và 3 là: 
+
+
+--- TRANG 153 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 5019. 
+B. 5020. 
+ 
+ 
+C. 5021. 
+ 
+        D. 5022. 
+Lời giải. Số chia hết cho 2 có chữ số tận cùng là số chẵn (0, 2, 4, 6, 8). Trong các đáp án, 
+loại 5019 và 5021. 
+Xét hai số còn lại: 
+5020 có tổng các chữ số là 5
+0
+2
+0
+7
++
++
++
+=
+ (không chia hết cho 3). 
+5022 có tổng các chữ số là 5
+0
+2
+2
+9
++
++
++
+= (chia hết cho 3). 
+Đáp án đúng: D. 
+Câu 2. Hình vuông ABCD có 
+ 
+ 3 
+AB
+cm
+=
+, diện tích của hình vuông đó bằng bao nhiêu? 
+A. 3.  
+       
+ 
+B. 9.  
+           
+C. 12.  
+           
+D. 81. 
+Lời giải. Diện tích hình vuông bằng cạnh nhân với chính nó: 
+2
+3 3
+9 (cm )
+S = =
+. 
+Đáp án đúng: B. 
+Câu 3. Số nào sau đây không phải số nguyên tố?  
+A.  11. 
+ 
+ 
+B. 33.     
+ 
+ 
+C. 17.  
+ 
+ 
+D. 31. 
+Lời giải. Các số 11, 17, 31 chỉ chia hết cho 1 và chính nó nên là các số nguyên tố. 
+Số 33 chia hết cho 1, 3, 11, 33 (có nhiều hơn 2 ước) nên 33 là hợp số. 
+Đáp án đúng: B. 
+Câu 4. ƯCLN (13, 4) là:          
+A. 1. 
+ 
+ 
+ 
+B. 3.                 
+ 
+C. 4.                  
+ 
+D. 12. 
+Lời giải. Vì 13 là số nguyên tố và không chia hết cho 4, nên 13 và 4 là hai số nguyên tố 
+cùng nhau. Do đó, ước chung lớn nhất của chúng là 1. 
+Đáp án đúng: A. 
+Câu 5. Chọn câu đúng nhất. 
+A. Hình thang cân là hình thang có hai góc kề một đáy bằng nhau. 
+
+
+--- TRANG 154 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+B. Trong hình thang cân, hai cạnh bên bằng nhau. 
+C. Trong hình thang cân, hai đường chéo bằng nhau. 
+D. Cả A, B, C đều đúng. 
+Lời giải. Theo định nghĩa và tính chất của hình thang cân: hai góc kề một đáy bằng nhau, 
+hai cạnh bên bằng nhau, hai đường chéo bằng nhau. 
+Do đó các phát biểu A, B, C đều đúng. 
+Đáp án đúng: D. 
+Câu 6. Tập hợp  tất cả các số tự nhiên là: 
+A. 
+
+
+0; 1; 2 .
+=
+
+                      
+ 
+ 
+B. 
+
+
+0; 1; 2; 3; 4 .
+=
+
+ 
+C. 
+
+
+0; 1; 2; 3; ... . 
+=
+
+ 
+ 
+ 
+ 
+D. 
+
+
+0; 1; 2; 3; 4; 5; 6; 7; 8; 9 .
+=
+
+ 
+Lời giải. Tập hợp các số tự nhiên bao gồm các số 0;1; 2; 3;... kéo dài vô hạn, được ký 
+hiệu là 
+
+
+0; 1; 2; 3; ... . 
+=
+
+ Đáp án đúng: C. 
+Câu 7. Thứ tự thực hiện phép tính nào sau đây là đúng đối với biểu thức có dấu ngoặc? 
+A. 
+( )
+
+  
+   
+  . 
+→
+→
+  
+ 
+ 
+ 
+B. 
+
+( )
+  
+   
+  .
+→
+→
+ 
+C. 
+
+( )
+  
+   
+  . 
+→
+→
+  
+ 
+ 
+ 
+D. ( )
+
+
+  
+   
+  .
+→
+→
+ 
+Lời giải. Quy tắc thực hiện phép tính có dấu ngoặc theo thứ tự: Ngoặc tròn () → Ngoặc 
+vuông [] → Ngoặc nhọn {}. Đáp án đúng: D. 
+ 
+Câu 8. Điều kiện của x để biểu thức 
+12
+14
+16
+A
+x
+=
++
++
++
+ chia hết cho 2 là: 
+A. x là số tự nhiên chẵn 
+   
+ 
+ 
+B. x là số tự nhiên lẻ 
+C. x là số tự nhiên bất kì                                D. 
+
+
+0;2;4;6;8
+x
+ 
+
+
+--- TRANG 155 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Vì 12, 14, 16 đều là các số chẵn (chia hết cho 2), nên theo tính chất chia hết của 
+một tổng, để 
+2
+A thì x bắt buộc phải chia hết cho 2. Như vậy, x phải là số tự nhiên chẵn. 
+Đáp án đúng: A. 
+Câu 9.  Khẳng định nào sau đây là sai? 
+A. Hình chữ nhật và hình thoi có các cặp cạnh đối song song với nhau. 
+B. Hình lục giác đều có ba đường chéo chính bằng nhau. 
+C. Hình bình hành có hai cạnh đối bằng nhau. 
+D. Hình thoi có hai đường chéo bằng nhau. 
+Lời giải. Hình thoi có hai đường chéo vuông góc với nhau và cắt nhau tại trung điểm của 
+mỗi đường, không bắt buộc phải bằng nhau (hai đường chéo chỉ bằng nhau khi hình thoi 
+đó là hình vuông). 
+Do đó, khẳng định "Hình thoi có hai đường chéo bằng nhau" là sai. 
+Đáp án đúng: D. 
+Câu 10. Phát biểu nào sau đây Sai? Trong một hình bình hành: 
+A. Hai đường chéo cắt nhau tại trung điểm mỗi đường. 
+B. Các cạnh đối song song với nhau. 
+C. Bốn góc bằng nhau. 
+D. Các cạnh đối bằng nhau. 
+Lời giải. Hình bình hành có các góc đối bằng nhau. Bốn góc chỉ bằng nhau khi hình bình 
+hành đó là hình chữ nhật hoặc hình vuông.  
+Đáp án đúng: C. 
+ 
+Câu 11. Trong các số sau số nào chia hết cho 2. 
+A. 803.                
+ 
+B. 135.      
+ 
+ 
+C. 1975.                            D. 358. 
+
+
+--- TRANG 156 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Số chia hết cho 2 có chữ số tận cùng là chữ số chẵn (0, 2, 4, 6, 8). Trong các số 
+đã cho, số 358 có chữ số tận cùng là 8 nên chia hết cho 2. 
+Đáp án đúng: D. 
+Câu 12. Giá một chiếc khẩu trang N95 là 30 000 đồng. Tính số tiền cần có để mua 20 chiếc 
+khẩu trang N95 đó? 
+A. 30 020 đồng. 
+ 
+ 
+ 
+ 
+ 
+B. 60 000 đồng. 
+ 
+C. 600 000 đồng.  
+ 
+ 
+ 
+ 
+ 
+D. 500 000 đồng. 
+Lời giải. Số tiền cần có để mua 20 chiếc khẩu trang là: 30000 20
+600000
+
+=
+ (đồng). 
+Đáp án đúng: C. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hình vuông ABCD có 
+30 cm
+AB =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Các góc của hình vuông bằng nhau và bằng 90 độ. 
+b) Độ dài AC lớn hơn BD . 
+c) 
+20 cm
+BC =
+. 
+d) Biết hình vuông ABCD được ghép bởi 4 hình vuông nhỏ bằng nhau và không xếp chồng 
+lên nhau. Cạnh hình vuông nhỏ có độ dài là 15 dm . 
+Lời giải. 
+a) Đúng. Theo đặc điểm của hình vuông, bốn góc đều bằng nhau và bằng 90 độ. 
+b) Sai. Hai đường chéo AC và BD của hình vuông có độ dài bằng nhau. 
+c) Sai. Vì ABCD là hình vuông nên tất cả các cạnh có độ dài bằng nhau, do đó 
+30 cm
+BC
+AB
+=
+=
+. 
+
+
+--- TRANG 157 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+d) Sai. Khi ghép 4 hình vuông nhỏ bằng nhau thành một hình vuông lớn, độ dài cạnh hình 
+vuông nhỏ bằng một nửa độ dài cạnh hình vuông lớn, tức là 30: 2
+15 cm
+=
+. Đề bài đưa ra 
+15 dm là sai đơn vị đo vì 15 dm
+150 cm
+=
+. 
+Câu 2. Cho biểu thức 
+2
+3
+2 5
+32: 2
+P =
+
+−
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+2
+5 bằng 10. 
+b) Biểu thức P có giá trị bằng 46. 
+c) Giá trị của biểu thức P chia hết cho cả 2 và 5. 
+d) Giá trị của biểu thức P là một hợp số. 
+Lời giải. 
+a) Sai. Giá trị của lũy thừa 
+2
+5
+5 5
+25
+= =
+. 
+b) Đúng. Thứ tự thực hiện phép tính: tính lũy thừa trước 
+2
+5
+25
+=
+ và 
+3
+2
+8
+= , sau đó đến phép 
+nhân và chia 2 25
+50
+
+=
+ và 32:8
+4
+=
+, cuối cùng thực hiện phép trừ 50
+4
+46
+−
+=
+. 
+c) Sai. Số 46 có chữ số tận cùng là 6 nên chia hết cho 2 nhưng không chia hết cho 5. 
+d) Đúng. Số 46 lớn hơn 1 và ngoài 1 và chính nó ra còn có các ước khác như 2 và 23 nên 
+đây là hợp số. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số tự nhiên x lớn nhất thỏa mãn 48 x
+ và 72 x
+. 
+Lời giải. Vì x là số tự nhiên lớn nhất thỏa mãn 48 x
+ và 72 x
+ nên 
+UCLN(48,72)
+x =
+. 
+Ta có: 
+4
+48
+2
+3
+=
+ và 
+3
+2
+72
+2
+3
+=
+
+. 
+Do đó: 
+3
+UCLN(48,72)
+2
+3
+24
+=
+=
+. 
+Đáp án: 24 . 
+
+
+--- TRANG 158 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Một hình thoi có diện tích bằng 
+2
+30 cm và độ dài một đường chéo bằng 6 cm . Tính 
+độ dài đường chéo còn lại của hình thoi (đơn vị: cm). 
+Lời giải. 
+Độ dài đường chéo còn lại của hình thoi là: 30 2:6
+10 (cm)
+
+=
+. 
+Đáp án: 10. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện các phép tính sau (Tính nhanh nếu có thể): 
+a) 15+187+85; 
+ 
+ 
+ 
+b) 
+(
+)
+3 ;
+2024
+38
+4 1
+−
+−
+−
+
+
+
+ 
+c) 27.39
+27.63
+2.27;
++
+−
+ 
+  
+ 
+d) 
+(
+)
+
+
+3
+.
+210: 38 – 12
+3. 32:2
++
+
+
+
+ 
+Lời giải. 
+a) 15 187
+85
++
++
+ 
+(15
+85) 187
+=
++
++
+ 
+100 187
+287
+=
++
+=
+. 
+b) 
+3
+2024 [38
+(4 1) ]
+−
+−
+−
+ 
+3
+2024 [38
+3 ]
+=
+−
+−
+ 
+2024 [38
+27]
+=
+−
+−
+ 
+2024 11
+2013
+=
+−
+=
+. 
+c) 27 39
+27 63
+2 27
+
++
+
+−
+ 
+27 (39
+63
+2)
+=
+
++
+−
+ 
+27 100
+2700
+=
+
+=
+. 
+d) 
+3
+210:{38 [12
+3 (32:2 )]}
+−
++ 
+ 
+
+
+--- TRANG 159 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+210:{38 [12
+3 (32:8)]}
+=
+−
++ 
+ 
+210:{38 [12
+3 4]}
+=
+−
++ 
+ 
+210:{38 [12 12]}
+=
+−
++
+ 
+210:{38
+24}
+=
+−
+ 
+210:14
+15
+=
+=
+. 
+Câu 2. Tìm x biết: 
+a) 19
+5
+x
+−
+=
+;  
+ 
+ 
+ 
+b) 
+2
+2.3
+5
+7
+x −
+=
+; 
+c) 
+(
+)
+3
+81
+3x
+5
+4
+−
++
+=
+;  
+ 
+ 
+d) (
+)
+(
+)
+2
+2
+2
+19x
+2.5
+:14
+13
+8
+4
++
+=
+−
+−
+. 
+Lời giải. 
+a) 19
+5
+x
+−
+= 
+19
+5
+x =
+− 
+14
+x =
+. 
+b) 
+2
+2 3
+5
+7
+x
+
+−
+=
+ 
+2 3
+5
+49
+x
+
+−
+=
+ 
+2 3
+49
+5
+x
+
+=
++ 
+2 3
+54
+x
+
+=
+ 
+3
+27
+x =
+ 
+3
+3
+3
+x =
+ 
+3.
+x =
+ 
+c) 
+3
+81 (3
+5)
+4
+x
+−
++
+=
+ 
+81 (3
+5)
+64
+x
+−
++
+=
+ 
+
+
+--- TRANG 160 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+3
+5
+81
+64
+x +
+=
+−
+ 
+3
+5
+17
+x +
+=
+ 
+3
+12
+x =
+ 
+4
+x =
+. 
+d) 
+2
+2
+2
+(19
+2 5 ):14
+(13 8)
+4
+x + 
+=
+−
+−
+ 
+2
+(19
+2 25):14
+5
+16
+x + 
+=
+−
+ 
+(19
+50):14
+25 16
+x +
+=
+−
+ 
+(19
+50):14
+9
+x +
+= 
+19
+50
+9 14
+x +
+=
+
+ 
+19
+50
+126
+x +
+=
+ 
+19
+76
+x =
+ 
+4
+x =
+. 
+Câu 3. Nhà bạn Nam có mảnh vườn hình chữ nhật, chiều dài 12m, chiều rộng 8m. Ở giữa 
+vườn có khu nghỉ ngơi hình chữ nhật, chiều dài 6m, chiều rộng 2m. Phần còn lại của khu 
+vườn bạn trồng cây. 
+a) Tính diện tích mảnh vườn? 
+b) Biết mỗi mét vuông cây trồng hết 15 000 đồng để chăm bón hàng tháng, hỏi bạn Nam 
+cần bao nhiêu tiền chăm bón hàng tháng? 
+ 
+2 m
+6 m
+8 m
+12 m
+
+
+--- TRANG 161 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+a) Diện tích mảnh vườn hình chữ nhật là:
+2
+12 8
+96 (m )
+=
+. 
+b)Diện tích khu nghỉ ngơi là: 
+2
+6 2
+12 (m )
+
+=
+. 
+Diện tích phần trồng cây là: 
+2
+96 12
+84 (m )
+−
+=
+. 
+Số tiền Nam cần để chăm bón hàng tháng là: 84 15000
+1260000
+
+=
+ đồng. 
+Câu 4. Cho số tự nhiên x thoả mãn 
+1
+2
+3
+3
+2.3
+270
+x
+x
+x
++
++
++
+−
+=
+. 
+a) Hỏi x là số nguyên tố hay hợp số? 
+b) Tìm hai số tự nhiên biết tích của chúng bằng 144, ƯCLN của chúng bằng 6 . 
+Lời giải. 
+a) Ta có: 
+1
+2
+3
+3
+2 3
+270
+x
+x
+x
++
++
++
+−
+=
+ 
+2
+3
+3
+3
+3
+2 3
+270
+x
+x
+x
++
+
+−
+=
+ 
+3
+(3
+9
+2)
+270
+x 
++
+−
+=
+ 
+3 10
+270
+x 
+=
+ 
+3
+27
+x =
+ 
+3
+3
+3
+x =
+ 
+3
+x = . 
+Vì 
+3
+x = chỉ chia hết cho 1 và chính nó nên x là số nguyên tố. 
+b) Gọi hai số tự nhiên cần tìm là a và b (
+*
+,a b). 
+Vì ước chung lớn nhất của a và b bằng 6 ( UCLN( , )
+6
+a b =
+), nên ta có thể đặt: 
+6
+a
+m
+=
+; 
+6
+b
+n
+=
+. 
+
+
+--- TRANG 162 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Trong đó 
+*
+,
+m n và hai số 
+,
+m n nguyên tố cùng nhau ( UCLN( , )
+1
+m n = ).  
+Theo đề bài, tích của hai số bằng 144 . Thay 
+6
+a
+m
+=
+ và 
+6
+b
+n
+=
+ vào ta được: 
+(6 ) (6 )
+144
+m
+n
+
+=
+ 
+36
+144
+m n
+
+
+=
+ 
+144:36
+m n
+
+=
+ 
+4
+m n
+
+= . 
+Vì 
+,
+m n là các số tự nhiên khác 0 và UCLN( , )
+1
+m n = , tích 
+4
+m n
+
+= có hai trường hợp xảy 
+ra: 
+• 
+Trường hợp 1: 
+1
+m = và 
+4
+n =
+: 
+Khi đó, 
+6 1
+6
+a =
+=
+ và 
+6 4
+24
+b =
+
+=
+. 
+• 
+Trường hợp 2: 
+4
+m =
+ và 
+1
+n = 
+Khi đó, 
+6 4
+24
+a =
+
+=
+ và 
+6 1
+6
+b =
+= : 
+Vậy hai số tự nhiên cần tìm là 6 và 24. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

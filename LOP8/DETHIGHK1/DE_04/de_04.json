@@ -1,0 +1,282 @@
+{
+  "de_so": 4,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 8 - ĐỀ SỐ 04",
+  "thoi_gian": "90 phút (không kể thời gian phát đề)",
+  "phan_I": [
+    {
+      "cau": 1,
+      "de": "Trong các biểu thức sau, biểu thức nào là đơn thức?",
+      "a": "$3x^2y$",
+      "b": "$2x + y$",
+      "c": "$x^2 - 1$",
+      "d": "$\\dfrac{x}{y}$",
+      "da": "A",
+      "loigiai": "Đơn thức là biểu thức đại số chỉ gồm một số, một biến, hoặc một tích giữa các số và các biến. Biểu thức $3x^2y$ là đơn thức."
+    },
+    {
+      "cau": 2,
+      "de": "Đơn thức nào sau đây đồng dạng với đơn thức $-5x^2y^3$?",
+      "a": "$2x^3y^2$",
+      "b": "$7x^2y^3$",
+      "c": "$-5xy^3$",
+      "d": "$3x^2y^2$",
+      "da": "B",
+      "loigiai": "Hai đơn thức đồng dạng có hệ số khác 0 và có cùng phần biến. Đơn thức $7x^2y^3$ có cùng phần biến $x^2y^3$ với đơn thức đã cho."
+    },
+    {
+      "cau": 3,
+      "de": "Bậc của đa thức $P = 4x^2y^3 - 5x^3y^3 + 2xy - 1$ là:",
+      "a": "5",
+      "b": "6",
+      "c": "4",
+      "d": "2",
+      "da": "B",
+      "loigiai": "Hạng tử $-5x^3y^3$ có bậc cao nhất là $3 + 3 = 6$. Vậy bậc của đa thức $P$ bằng 6."
+    },
+    {
+      "cau": 4,
+      "de": "Kết quả của phép nhân $2x \\cdot (x^2 - 3y)$ là:",
+      "a": "$2x^3 - 3y$",
+      "b": "$2x^3 - 6xy$",
+      "c": "$2x^2 - 6xy$",
+      "d": "$2x^3 + 6xy$",
+      "da": "B",
+      "loigiai": "Nhân đơn thức với từng hạng tử của đa thức: $2x \\cdot (x^2 - 3y) = 2x \\cdot x^2 - 2x \\cdot 3y = 2x^3 - 6xy$."
+    },
+    {
+      "cau": 5,
+      "de": "Kết quả của phép chia $12x^4y^3 : 3x^2y$ là:",
+      "a": "$4x^2y^2$",
+      "b": "$4x^2y^3$",
+      "c": "$4x^6y^4$",
+      "d": "$9x^2y^2$",
+      "da": "A",
+      "loigiai": "Chia hệ số cho hệ số và chia phần biến cho phần biến: $12x^4y^3 : 3x^2y = (12 : 3)(x^4 : x^2)(y^3 : y) = 4x^2y^2$."
+    },
+    {
+      "cau": 6,
+      "de": "Khai triển hằng đẳng thức $(x - 3y)^2$ ta được kết quả là:",
+      "a": "$x^2 - 6xy + 9y^2$",
+      "b": "$x^2 - 3xy + 9y^2$",
+      "c": "$x^2 - 9y^2$",
+      "d": "$x^2 + 6xy + 9y^2$",
+      "da": "A",
+      "loigiai": "Áp dụng hằng đẳng thức bình phương của một hiệu: $(x - 3y)^2 = x^2 - 2 \\cdot x \\cdot 3y + (3y)^2 = x^2 - 6xy + 9y^2$."
+    },
+    {
+      "cau": 7,
+      "de": "Biểu thức $x^2 - 16$ được viết dưới dạng tích là:",
+      "a": "$(x - 16)(x + 16)$",
+      "b": "$(x - 4)^2$",
+      "c": "$(x - 4)(x + 4)$",
+      "d": "$(x + 4)^2$",
+      "da": "C",
+      "loigiai": "Áp dụng hằng đẳng thức hiệu hai bình phương: $x^2 - 16 = x^2 - 4^2 = (x - 4)(x + 4)$."
+    },
+    {
+      "cau": 8,
+      "de": "Tổng số đo các góc trong một tứ giác bằng:",
+      "a": "$180^\\circ$",
+      "b": "$360^\\circ$",
+      "c": "$270^\\circ$",
+      "d": "$90^\\circ$",
+      "da": "B",
+      "loigiai": "Theo định lý tổng các góc trong một tứ giác, tổng số đo 4 góc luôn bằng $360^\\circ$."
+    },
+    {
+      "cau": 9,
+      "de": "Cho tứ giác $ABCD$ có $\\widehat{A} = 80^\\circ$, $\\widehat{B} = 100^\\circ$, $\\widehat{C} = 110^\\circ$. Số đo góc $D$ là:",
+      "a": "$70^\\circ$",
+      "b": "$80^\\circ$",
+      "c": "$90^\\circ$",
+      "d": "$100^\\circ$",
+      "da": "A",
+      "loigiai": "Tổng 4 góc trong tứ giác bằng $360^\\circ$. Do đó: $\\widehat{D} = 360^\\circ - (80^\\circ + 100^\\circ + 110^\\circ) = 360^\\circ - 290^\\circ = 70^\\circ$."
+    },
+    {
+      "cau": 10,
+      "de": "Hình bình hành có một góc vuông là:",
+      "a": "Hình thoi",
+      "b": "Hình thang cân",
+      "c": "Hình chữ nhật",
+      "d": "Hình vuông",
+      "da": "C",
+      "loigiai": "Theo dấu hiệu nhận biết các tứ giác, hình bình hành có một góc vuông là hình chữ nhật."
+    },
+    {
+      "cau": 11,
+      "de": "Các mặt bên của hình chóp tam giác đều là:",
+      "a": "Các tam giác đều",
+      "b": "Các tam giác cân",
+      "c": "Các tam giác vuông",
+      "d": "Các hình chữ nhật",
+      "da": "B",
+      "loigiai": "Theo định nghĩa hình chóp tam giác đều, tất cả các mặt bên là những tam giác cân bằng nhau."
+    },
+    {
+      "cau": 12,
+      "de": "Cho hình chóp tứ giác đều có độ dài cạnh đáy bằng $5\\text{ cm}$ và độ dài trung đoạn bằng $6\\text{ cm}$. Diện tích xung quanh của hình chóp đó là:",
+      "a": "$30\\text{ cm}^2$",
+      "b": "$60\\text{ cm}^2$",
+      "c": "$120\\text{ cm}^2$",
+      "d": "$15\\text{ cm}^2$",
+      "da": "B",
+      "loigiai": "Chu vi đáy của hình chóp tứ giác đều là: $C = 4 \\cdot 5 = 20\\text{ cm}$. Diện tích xung quanh là: $S_{xq} = \\dfrac{1}{2} C \\cdot d = \\dfrac{1}{2} \\cdot 20 \\cdot 6 = 60\\text{ cm}^2$."
+    }
+  ],
+  "phan_II": [
+    {
+      "cau": 1,
+      "de": "Cho biểu thức $A = (x + 2)^2 + (x - 1)(x + 1) - 2x(x + 2)$. Xét tính đúng sai của các mệnh đề sau:",
+      "y_a": {
+        "noi_dung": "Khai triển hằng đẳng thức $(x + 2)^2$ ta được $x^2 + 4x + 4$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Ta có: $(x + 2)^2 = x^2 + 2 \\cdot x \\cdot 2 + 2^2 = x^2 + 4x + 4$."
+      },
+      "y_b": {
+        "noi_dung": "Kết quả của tích $(x - 1)(x + 1)$ là $x^2 - 1$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Áp dụng hằng đẳng thức: $(x - 1)(x + 1) = x^2 - 1^2 = x^2 - 1$."
+      },
+      "y_c": {
+        "noi_dung": "Kết quả rút gọn của biểu thức $A$ bằng $3$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} $A = (x^2 + 4x + 4) + (x^2 - 1) - (2x^2 + 4x) = 2x^2 + 4x + 3 - 2x^2 - 4x = 3$."
+      },
+      "y_d": {
+        "noi_dung": "Giá trị của biểu thức $A$ phụ thuộc vào giá trị của biến $x$.",
+        "da": "S",
+        "giai": "\\textbf{Sai.} Vì $A = 3$ là một hằng số không chứa biến $x$, nên giá trị của $A$ không phụ thuộc vào giá trị của biến $x$."
+      }
+    },
+    {
+      "cau": 2,
+      "de": "Cho tam giác $ABC$ vuông tại $A$, gọi $M$ là trung điểm của cạnh huyền $BC$. Từ $M$ kẻ $MD \\perp AB$ tại $D$ và $ME \\perp AC$ tại $E$. Xét tính đúng sai của các mệnh đề sau:",
+      "y_a": {
+        "noi_dung": "Tứ giác $ADME$ có 3 góc vuông nên là hình chữ nhật.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Tứ giác $ADME$ có $\\widehat{DAE} = 90^\\circ$, $\\widehat{ADM} = 90^\\circ$, $\\widehat{AEM} = 90^\\circ$ nên là hình chữ nhật."
+      },
+      "y_b": {
+        "noi_dung": "Điểm $D$ là trung điểm của đoạn thẳng $AB$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Ta có $MD \\perp AB$ và $AC \\perp AB$ nên $MD \\parallel AC$. Trong tam giác $ABC$, $M$ là trung điểm của $BC$ và $MD \\parallel AC$ nên $D$ là trung điểm của $AB$."
+      },
+      "y_c": {
+        "noi_dung": "Hai đường chéo $AM$ và $DE$ vuông góc với nhau tại trung điểm mỗi đường.",
+        "da": "S",
+        "giai": "\\textbf{Sai.} $ADME$ là hình chữ nhật nên $AM$ và $DE$ cắt nhau tại trung điểm mỗi đường và bằng nhau ($AM = DE$), nhưng nói chung không vuông góc (chỉ vuông góc khi $ADME$ là hình vuông)."
+      },
+      "y_d": {
+        "noi_dung": "Cho $AB = 6\\text{ cm}$ và $AC = 8\\text{ cm}$, độ dài đoạn thẳng $DE$ bằng $5\\text{ cm}$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Áp dụng định lý Pythagore trong tam giác vuông $ABC$: $BC = \\sqrt{AB^2 + AC^2} = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Do $M$ là trung điểm $BC$ nên trung tuyến $AM = \\dfrac{1}{2}BC = 5\\text{ cm}$. Vì $ADME$ là hình chữ nhật nên $DE = AM = 5\\text{ cm}$."
+      }
+    }
+  ],
+  "phan_III": [
+    {
+      "cau": 1,
+      "de": "Tính giá trị của biểu thức $M = x^2 - 6x + 9$ tại $x = 103$.",
+      "da": "10000",
+      "loigiai": "Ta có: $M = x^2 - 2 \\cdot x \\cdot 3 + 3^2 = (x - 3)^2$.\n\nThay $x = 103$ vào biểu thức, ta được: $M = (103 - 3)^2 = 100^2 = 10000$."
+    },
+    {
+      "cau": 2,
+      "de": "Cho hình bình hành $ABCD$ có $\\widehat{A} = 110^\\circ$. Tính số đo các góc còn lại của hình bình hành?",
+      "da": "$\\widehat{B} = 70^\\circ, \\widehat{C} = 110^\\circ, \\widehat{D} = 70^\\circ$",
+      "loigiai": "Trong hình bình hành $ABCD$:\n\n- Hai góc đối bằng nhau: $\\widehat{C} = \\widehat{A} = 110^\\circ$.\n\n- Hai góc kề một cạnh bù nhau: $\\widehat{B} = 180^\\circ - \\widehat{A} = 180^\\circ - 110^\\circ = 70^\\circ$.\n\n- Hai góc đối bằng nhau: $\\widehat{D} = \\widehat{B} = 70^\\circ$.\n\nVậy $\\widehat{B} = 70^\\circ; \\widehat{C} = 110^\\circ; \\widehat{D} = 70^\\circ$."
+    }
+  ],
+  "phan_IV": [
+    {
+      "cau": 1,
+      "diem": "0,75 điểm",
+      "de": "Thực hiện phép tính:",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,25",
+          "noi_dung": "$(2xy^3 - 4y - 8x) \\cdot \\left(\\dfrac{1}{2}y\\right)$",
+          "loigiai": "Ta có: $(2xy^3 - 4y - 8x) \\cdot \\left(\\dfrac{1}{2}y\\right) = 2xy^3 \\cdot \\dfrac{1}{2}y - 4y \\cdot \\dfrac{1}{2}y - 8x \\cdot \\dfrac{1}{2}y = xy^4 - 2y^2 - 4xy$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,25",
+          "noi_dung": "$(x - y)(x^2 - 2x + y) - x^3 + x^2y$",
+          "loigiai": "Ta có: $(x - y)(x^2 - 2x + y) - x^3 + x^2y = x^3 - 2x^2 + xy - x^2y + 2xy - y^2 - x^3 + x^2y$\n\n$= (x^3 - x^3) + (-x^2y + x^2y) - 2x^2 + (xy + 2xy) - y^2 = -2x^2 + 3xy - y^2$."
+        },
+        {
+          "y": "c",
+          "diem_y": "0,25",
+          "noi_dung": "$(-12x^{13}y^{15} + 6x^{10}y^{14}) : (-3x^{10}y^{14})$",
+          "loigiai": "Ta có: $(-12x^{13}y^{15} + 6x^{10}y^{14}) : (-3x^{10}y^{14}) = (-12x^{13}y^{15}) : (-3x^{10}y^{14}) + (6x^{10}y^{14}) : (-3x^{10}y^{14}) = 4x^3y - 2$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem": "0,75 điểm",
+      "de": "Phân tích các đa thức sau thành nhân tử:",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,25",
+          "noi_dung": "$x^2 - 16$",
+          "loigiai": "$x^2 - 16 = x^2 - 4^2 = (x - 4)(x + 4)$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,25",
+          "noi_dung": "$2x^3 - 8x^2y + 8xy^2$",
+          "loigiai": "$2x^3 - 8x^2y + 8xy^2 = 2x(x^2 - 4xy + 4y^2) = 2x(x - 2y)^2$."
+        },
+        {
+          "y": "c",
+          "diem_y": "0,25",
+          "noi_dung": "$x^2 - 2xy + y^2 + 4x^2y - 4xy^2$",
+          "loigiai": "$x^2 - 2xy + y^2 + 4x^2y - 4xy^2 = (x^2 - 2xy + y^2) + (4x^2y - 4xy^2) = (x - y)^2 + 4xy(x - y) = (x - y)(x - y + 4xy)$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem": "1,0 điểm",
+      "de": "Cho tam giác $ABC$ ($AB < AC$). Gọi $M, N$ lần lượt là trung điểm của các cạnh $BC, AC$. Trên tia đối của tia $MN$ lấy điểm $D$ sao cho $MN = MD$.",
+      "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.9, >=stealth]\n  \\coordinate (B) at (0,0);\n  \\coordinate (C) at (6,0);\n  \\coordinate (A) at (1.5,3.2);\n  \\coordinate (M) at ($(B)!0.5!(C)$);\n  \\coordinate (N) at ($(A)!0.5!(C)$);\n  \\coordinate (D) at ($(M)!-1!(N)$);\n  \\coordinate (I) at ($(B)!0.5!(N)$);\n  \\draw[thick] (A)--(B)--(C)--cycle;\n  \\draw[thick] (B)--(D)--(C);\n  \\draw[thick] (N)--(D);\n  \\draw[thick, dashed] (A)--(D);\n  \\draw[thick] (B)--(N);\n  \\fill (A) circle (1.5pt) node[above] {$A$};\n  \\fill (B) circle (1.5pt) node[left] {$B$};\n  \\fill (C) circle (1.5pt) node[right] {$C$};\n  \\fill (M) circle (1.5pt) node[above right] {$M$};\n  \\fill (N) circle (1.5pt) node[above right] {$N$};\n  \\fill (D) circle (1.5pt) node[below] {$D$};\n  \\fill (I) circle (1.5pt) node[above left] {$I$};\n\\end{tikzpicture}\n\\end{center}",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,5",
+          "noi_dung": "Tứ giác $BNCD$ là hình gì? Vì sao?",
+          "loigiai": "Xét tứ giác $BNCD$, ta có $M$ là trung điểm của $BC$ (giả thiết) và $M$ là trung điểm của $ND$ (do $D$ thuộc tia đối của tia $MN$ và $MN = MD$). Tứ giác $BNCD$ có hai đường chéo $BC$ và $ND$ cắt nhau tại trung điểm $M$ của mỗi đường, do đó $BNCD$ là hình bình hành."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,25",
+          "noi_dung": "Gọi $I$ là trung điểm của $BN$. Chứng minh ba điểm $A, I, D$ thẳng hàng.",
+          "loigiai": "Trong tam giác $ABC$, $M$ và $N$ lần lượt là trung điểm của $BC$ và $AC$, do đó $MN$ là đường trung bình của tam giác $ABC$. Suy ra $MN \\parallel AB$ và $MN = \\dfrac{1}{2}AB$. Vì $D, M, N$ thẳng hàng và $DN = 2MN$, ta có $DN \\parallel AB$ và $DN = AB$. Tứ giác $ABDN$ có cặp cạnh đối $DN$ song song và bằng $AB$ nên $ABDN$ là hình bình hành. Hai đường chéo $AD$ và $BN$ của hình bình hành $ABDN$ cắt nhau tại trung điểm mỗi đường. Do $I$ là trung điểm của $BN$ nên $I$ cũng là trung điểm của $AD$. Vậy ba điểm $A, I, D$ thẳng hàng."
+        },
+        {
+          "y": "c",
+          "diem_y": "0,25",
+          "noi_dung": "Tìm điều kiện của tam giác $ABC$ để tứ giác $BNCD$ là hình thang cân.",
+          "loigiai": "Vì $BNCD$ là hình bình hành, để $BNCD$ là hình thang cân thì $BNCD$ phải là hình chữ nhật. Hình bình hành $BNCD$ là hình chữ nhật khi và chỉ khi $\\widehat{BNC} = 90^\\circ$, tức là $BN \\perp AC$. Trong tam giác $ABC$, đường trung tuyến $BN$ đồng thời là đường cao khi và chỉ khi tam giác $ABC$ cân tại $B$. Vậy điều kiện cần tìm là tam giác $ABC$ cân tại $B$."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem": "0,5 điểm",
+      "de": "Tính nhanh giá trị biểu thức sau: $A = 8 \\cdot (3^2 + 1)(3^4 + 1)(3^8 + 1)(3^{16} + 1)$.",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,5",
+          "noi_dung": "Tính nhanh giá trị của $A$.",
+          "loigiai": "Nhận xét: $8 = 3^2 - 1$. Thay vào biểu thức $A$, ta có:\n\n$A = (3^2 - 1)(3^2 + 1)(3^4 + 1)(3^8 + 1)(3^{16} + 1)$\n\nÁp dụng liên tiếp hằng đẳng thức hiệu hai bình phương $(a - b)(a + b) = a^2 - b^2$:\n\n$= (3^4 - 1)(3^4 + 1)(3^8 + 1)(3^{16} + 1)$\n\n$= (3^8 - 1)(3^8 + 1)(3^{16} + 1)$\n\n$= (3^{16} - 1)(3^{16} + 1) = 3^{32} - 1$.\n\nVậy $A = 3^{32} - 1$."
+        }
+      ]
+    }
+  ]
+}

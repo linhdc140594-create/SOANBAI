@@ -1,0 +1,671 @@
+--- TRANG 35 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Phương trình nào sau đây là phương trình bậc nhất hai ẩn?    
+A. 
+2
+4
+2
+0
+x −
+=    
+ 
+ 
+ 
+ 
+B. 5
+1
+3(
+4)
+y
+y
+−=
+−
+    
+C. 7
+5
+2
+y
+x +
+=    
+ 
+ 
+ 
+ 
+D. 
+2
+8
+2
+0
+x
+y
++
+=
+    
+Câu 2. Cặp số (2;0) là nghiệm của hệ phương trình nào sau đây?    
+A. 
+2
+2
+2
+4
+x
+y
+x
+y
+−
+=
+
+
++
+=
+
+    
+ 
+ 
+ 
+ 
+B. 2
+1
+3
+8
+x
+y
+x
+y
+−
+= −
+
+−
+=
+
+    
+C. 2
+1
+3
+7
+x
+y
+x
+y
+−
+= −
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+D. 4
+2
+0
+3
+5
+x
+y
+x
+y
+−
+=
+
+−
+=
+
+    
+Câu 3. Hệ phương trình nào sau đây là hệ hai phương trình bậc nhất hai ẩn?    
+A. 
+2
+3
+2
+3
+2
+4
+x
+y
+x
+y
+−
+=
+
++
+=
+
+    
+ 
+ 
+ 
+ 
+B. 
+3
+1
+5
+3
+8
+x
+y
+x
+y
+−
+= −
+
+
+−
+=
+
+    
+C. 
+3
+2
+1
+3
+7
+x
+y
+x
+y
+
+−
+= −
+−
+=
+
+    
+ 
+ 
+ 
+ 
+D. 
+2
+2
+4
+2
+0
+3
+5
+x
+y
+x
+y
+
+−
+=
+
+−
+=
+
+    
+Câu 4. Khẳng định nào sau đây đúng?    
+A. 
+A B
+A
+B
+
+=
+
+ (
+0;
+0
+A
+B
+
+)    
+ 
+B. 
+A B
+A
+B
+
+=
+
+ (
+0;
+0
+A
+B
+
+
+)    
+C. 
+A B
+A
+B
+
+=
+
+ (
+0
+AB )    
+ 
+ 
+D. 
+A B
+A
+B
+
+=
+
+ (
+0;
+0
+A
+B
+
+)    
+ 
+ 
+
+
+--- TRANG 36 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 5. Với 
+3
+a , kết quả rút gọn của biểu thức 
+2
+(
+3)
+2(
+1)
+a
+a
+−
+−
++
+ là:    
+A. 1 3a
+−
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+a
+−−    
+C. 
+5
+a
+−−     
+ 
+ 
+ 
+ 
+D. 5 3a
+−
+    
+Câu 6. Kết quả của phép tính 
+49 0,36
+169
+
+ là:    
+A. 21
+65    
+ 
+ 
+B. 35
+33    
+ 
+ 
+C. 42
+13    
+ 
+          D. 42
+169    
+Câu 7. Cho a
+b
+, kết luận nào sau đây không đúng?    
+A. a
+b
+−−     
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2
+a
+b
+−
+
+−    
+C. 
+0
+a
+b
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 2
+2
+a
+b
+
+    
+Câu 8. Cho tam giác MNP vuông tại M có đường cao MH và góc ˆN
+
+=
+. Tỉ số lượng 
+giác cos bằng:   
+ 
+A. NH
+MN    
+ 
+ 
+B. MP
+MH    
+ 
+ 
+C. MP
+MN    
+ 
+         D. MH
+NM    
+ 
+ 
+ 
+ 
+ 
+
+
+--- TRANG 37 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 9. Trong hình vẽ, bạn Minh đứng ở vị trí điểm M , bạn Nam đứng ở vị trí N ở cùng 
+một bên lề đường và cây xanh C nằm đối diện vị trí Nam đứng ở phía bên kia đường. Biết 
+3,9 m
+MN =
+ và góc 
+72
+NMC
+
+=
+. Tính khoảng cách từ Minh đến cây xanh C (làm tròn kết 
+quả đến hàng đơn vị).    
+ 
+A. 12 m    
+ 
+ 
+ 
+ 
+ 
+ 
+B. 13 m    
+ 
+ 
+ 
+C. 12,7 m     
+   
+ 
+ 
+ 
+ 
+D. 12,6 m    
+Câu 10. Cho a
+b
+, khi đó ta có:    
+A. 2
+2
+a
+b
+
+     
+ 
+ 
+ 
+ 
+ 
+B. 2
+2
+a
+b
+−
+−
+    
+C. 2
+3
+2
+3
+a
+b
+−
+−     
+ 
+ 
+ 
+ 
+D. 3 5
+3 5
+a
+b
+−
+−
+    
+Câu 11. Cho bất đẳng thức 2
+3
+a
+b
+a
++ 
+. Vế trái của bất đẳng thức là:    
+A. 3a    
+ 
+ 
+B. b    
+ 
+ 
+C. 2a  
+ 
+       D. 2a
+b
++    
+Câu 12. Cho tam giác ABC vuông tại A. Tỉ số sinB bằng:    
+A. AB
+BC    
+ 
+ 
+B. AC
+BC   
+ 
+ 
+ C. AB
+AC    
+ 
+       D. AC
+AB    
+ 
+ 
+ 
+
+
+--- TRANG 38 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hệ phương trình 2
+4
+2
+x
+y
+x
+y
++
+=
+
+−
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Cặp số (2;0) là nghiệm của phương trình thứ nhất. 
+b) Cộng từng vế hai phương trình của hệ ta được phương trình 3
+6
+x = . 
+c) Nghiệm của hệ phương trình là (2;0) . 
+d) Giá trị biểu thức 
+2
+2
+M
+x
+y
+=
+−
+ tại nghiệm của hệ bằng 4 . 
+Câu 2. Cho tam giác ABC vuông tại A, đường cao AH . Biết 
+2 cm
+BH =
+ và 
+8 cm
+CH =
+. 
+Xét tính Đúng/Sai của các khẳng định sau: 
+a) Độ dài đường cao 
+4 cm
+AH =
+. 
+b) Độ dài cạnh huyền 
+10 cm
+BC =
+. 
+c) Độ dài cạnh 
+20 cm
+AB =
+. 
+d) Giá trị của 
+2
+sin
+5
+B =
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 2. Cho tam giác ABC vuông tại A, đường cao AH . Biết 
+6 cm
+AB =
+ và 
+8 cm
+AC =
+. 
+Tính độ dài đường cao AH . 
+Phần IV. Tự luận 
+Câu 1. Giải các hệ phương trình sau: 
+3
+2
+)
+2
+5
+x
+y
+a
+x
+y
++
+=
+
++
+=
+
+; 
+ 
+4
+3
+1
+) 2
+3
+13
+x
+y
+b
+x
+y
+−
+= −
+
+
++
+=
+
+. 
+
+
+--- TRANG 39 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 2. Trong kỳ thi tuyển sinh vào lớp 10 Trung học phổ thông, tổng số học sinh dự thi 
+của hai trường THCS A và B là 180 em, tổng số học sinh trúng tuyển là 157 em. Tính số 
+học sinh dự thi và số học sinh trúng tuyển của từng trường. Biết trường A có 90% học 
+sinh dự thi trúng tuyển và trường B có 85% học sinh dự thi trúng tuyển.  
+Câu 3. a) Cho tam giác DEF vuông tại D có DE = 9 cm, 
+F
+35
+=
+. Hãy giải tam giác vuông 
+DEF (độ dài các cạnh làm tròn đến số thập phân thứ hai).  
+b) Hai chiếc thuyền A và B ở vị trí được minh họa như hình sau. Tính khoảng cách giữa 
+chúng. (làm tròn đến đề - xi - mét). Biết độ dài IK
+500m
+=
+; 
+
+o
+o
+AKB
+15 ;AKI
+50
+=
+=
+.  
+ 
+Câu 4. Cho các số thực ,x y thỏa mãn 
+2
+2
+4
+2
+5
+0
+x
+y
+x
+y
++
+−
++
++ =
+. Tính giá trị của biểu thức 
+2026
+2026
+(
+3)
+(
+2)
+P
+x
+y
+=
+−
++
++
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

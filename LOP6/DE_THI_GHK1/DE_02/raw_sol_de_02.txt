@@ -1,0 +1,746 @@
+--- TRANG 70 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2021
+3
+1
+2
+C
+−
+=
+. 
+b) Để p là số nguyên tố thì 
+1
+p  và tích của hai thừa số (
+2)
+n −
+ và 
+2
+(
+5)
+n
+n
++
+−
+ phải có một 
+thừa số bằng 1 (vì nếu cả hai thừa số đều lớn hơn 1 thì p là hợp số). 
+Do n là số tự nhiên và 
+2
+5
+2
+n
+n
+n
++
+−
+
+−, ta xét trường hợp thừa số nhỏ hơn bằng 1:
+2
+1
+3
+n
+n
+−
+= 
+= . 
+Thay 
+3
+n = vào p ta được 
+2
+(3
+2)(3
+3
+5)
+1.(9
+3
+5)
+7
+p =
+−
++ −
+=
++ −
+=
+ (Vì 7 là số nguyên tố nên 
+3
+n = thỏa mãn). 
+Vậy 
+3
+n = 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Tập hợp các chữ cái trong từ “CHĂM HỌC” là: 
+A. {C; H; Ă; M; H; O; C}               
+B. {H; Ă; M; O}             
+  
+C. {C; H; Ă; M; O}                  
+ 
+D. {C; H; Ă; M; H; O} 
+Lời giải. Các chữ cái trong từ “CHĂM HỌC” gồm: C, H, Ă, M, O (các chữ cái trùng nhau 
+như C và H chỉ được tính một lần). Do đó, tập hợp các chữ cái là { ;
+; ;
+; }
+C H A M O
+
+. 
+Đáp án đúng: C. 
+Câu 2. Số liền sau của số 2022 là 
+A. 
+.
+2023 
+B. 
+.
+2020 
+C. 
+.
+2022 
+D. 
+.
+2024  
+Lời giải. Số liền sau của một số tự nhiên là số lớn hơn số đó đúng 1 đơn vị. Số liền sau 
+của số 2022 là: 2022 1
+2023
++ =
+. Đáp án đúng: A. 
+
+
+--- TRANG 71 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 3. Nếu 
+3
+a và 
+3
+b thì tổng a
+b
++
+chia hết cho  
+A. 0 .                                  B. 6 .                                C. 3 . 
+D. 9 . 
+Lời giải. Theo tính chất chia hết của một tổng: Nếu mỗi số hạng của tổng đều chia hết cho 
+cùng một số thì tổng đó chia hết cho số đó. Vì 
+3
+a và 
+3
+b nên tổng a
+b
++
+ chia hết cho 3. 
+Đáp án đúng: C. 
+Câu 4. Tổng nào sau đây chia hết cho 7  
+A. 35
+155
+280
++
++
+.                                                   B. 140
+497
+634
++
++
+.      
+C. 51 140
+910
++
++
+.                                                    D. 35
+420
+763
++
++
+. 
+Lời giải. Xét tổng 35
+420
+763
++
++
+: Ta thấy 35 7
+, 420 7
+ và 763 7
+ (763
+7 109
+=
+
+). Do đó tổng 
+này chia hết cho 7. Đáp án đúng: D. 
+Câu 5. Chọn câu đúng 
+A. 4
+5
+−. 
+ 
+B. 2
+0
+
+. 
+ 
+C. 0
+3
+−. 
+ 
+D. 2
+5
+−−. 
+Lời giải. Số âm luôn nhỏ hơn 0 và nhỏ hơn số dương. Số 0 lớn hơn mọi số âm và nhỏ hơn 
+mọi số dương. Xét các đáp án ta thấy 0
+3
+− là khẳng định đúng vì 0 nằm bên phải số 3
+−. 
+Đáp án đúng: C. 
+Câu 6. Khẳng định nào dưới đây đúng? 
+A. Hình bình hành có 4 góc bằng nhau. 
+B. Hình lục giác đều có 3 đường chéo chính cùng đi qua một điểm. 
+C. Tam giác đều là tam giác có 3 góc vuông. 
+D. Hình chữ nhật có hai đường chéo bằng nhau và vuông góc với nhau.  
+Lời giải. Hình lục giác đều có 3 đường chéo chính cùng đi qua một điểm là khẳng định 
+đúng. Đáp án đúng: B. 
+
+
+--- TRANG 72 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Cho tam giác ABC đều có cạnh 
+7cm
+AB =
+. Chu vi của tam giác ABC là:  
+A. 21 cm . 
+ 
+B. 49 cm . 
+ 
+C. 
+2
+21 cm . 
+ 
+D. 
+2
+49 cm . 
+Lời giải. Chu vi của tam giác đều bằng độ dài một cạnh nhân với 3: 
+Chu vi
+7 3
+21 (cm)
+=
+=
+. Đáp án đúng: A. 
+Câu 8. Hình nào sau đây không phải là lục giác đều? 
+ 
+A. Hình 3. 
+B. Hình 2. 
+C. Hình 1. 
+D. Hình 4. 
+Lời giải. Quan sát các hình vẽ ta thấy: 
+Hình 1, Hình 2, Hình 3 là các hình lục giác đều (có 6 cạnh bằng nhau và 6 góc bằng nhau). 
+Hình 4 có 5 cạnh, đây là hình ngũ giác (không phải lục giác). 
+Đáp án đúng: D. 
+Câu 9. Chọn cách phân tích ra thừa số nguyên tố đúng.  
+A. 32
+2 16
+=
+
+.                 
+ 
+ 
+ 
+   B. 32
+8 4
+= 
+.                    
+C. 
+5
+32
+2
+=
+.           
+ 
+   
+ 
+ 
+   D. 32
+2 4 4
+=
+. 
+Lời giải. Phân tích số 32 ra thừa số nguyên tố: 
+5
+32
+2 2 2 2 2
+2
+=
+
+=
+. 
+Đáp án đúng: C. 
+Câu 10. Trong các số sau, số nào chia hết cho 2 và 5 ? 
+ A. 2020 .            
+ 
+B. 25 .         
+ 
+  
+C.52.      
+ 
+         D.5 . 
+Hình 4
+Hình 3
+Hình 2
+Hình 1
+
+
+--- TRANG 73 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Số chia hết cho cả 2 và 5 phải có tận cùng là chữ số 0. Trong các đáp án, số 2020 
+có tận cùng là 0 nên chia hết cho cả 2 và 5. 
+Đáp án đúng: A. 
+Câu 11.  Trong các hình sau hình có hai đường chéo không bằng nhau là: 
+A. hình chữ nhật. 
+ 
+B. hình thang cân. 
+ 
+C. hình vuông.  
+ 
+D. hình bình hành 
+Lời giải. Hình chữ nhật, hình vuông có hai đường chéo bằng nhau. 
+Hình thang cân có hai đường chéo bằng nhau. 
+Hình bình hành có hai đường chéo không bằng nhau. 
+Đáp án đúng: D. 
+ 
+Câu 12. Nếu có hai miếng bìa hình thang cân với kích thước như hình sau, ta ghép được 
+các hình nào sau đây? 
+ 
+A. Hình vuông, hình chữ nhật. 
+B. Hình vuông, hình bình hành.  
+C. Hình bình hành, lục giác đều.  
+D. Lục giác đều, hình thang cân. 
+3cm
+3cm
+3cm
+
+
+--- TRANG 74 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Hai hình thang cân này khi ghép hai đáy lớn vào nhau sẽ tạo thành một hình lục 
+giác đều. Nếu lật ngược một hình và ghép vào cạnh bên của hình kia, ta sẽ được một hình 
+bình hành. 
+Đáp án đúng: C. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét trong 20 số tự nhiên đầu tiên. Các khẳng định sau đây đúng hay sai? 
+a) Trong các số đã cho, có 3 số chia hết cho cả 2 và 5.  
+b) Trong các số đã cho, có 6 số chia hết cho 9. 
+c) Trong các số đã cho, có 8 số là số nguyên tố. 
+d) Trong các số đã cho, có 6 số là bội của 3.  
+Lời giải. 
+a) Sai. Các số chia hết cho cả 2 và 5 là các số tận cùng bằng 0, từ 0 đến 19 gồm 2 số: 0 và 10. 
+b) Sai. Các số chia hết cho 9 từ 0 đến 19 gồm 3 số: 0,9,18. 
+c) Đúng. Các số nguyên tố từ 0 đến 19 gồm 8 số: 2,3,5,7,11,13,17,19 . 
+d) Sai. Các số là bội của 3 từ 0 đến 19 gồm 7 số: 0,3,6,9,12,15,18. 
+Câu 2. Xét việc phân tích số 40 ra thừa số nguyên tố. Các khẳng định sau đây đúng hay sai? 
+a) Phân tích số 40 ra thừa số nguyên tố ta được kết quả là 
+3
+40
+2
+5
+=
+. 
+b) Kết quả phân tích số 40 ra thừa số nguyên tố là 40
+4 10
+=
+
+. 
+c) Kết quả phân tích số 40 ra thừa số nguyên tố là 40
+2 4 5
+=
+. 
+d) Số 40 có tất cả 3 thừa số nguyên tố là 2, 3 và 5. 
+Lời giải. 
+a) Đúng. Ta có 
+3
+40
+8 5
+2
+5
+= =
+, trong đó 2 và 5 đều là các số nguyên tố. 
+b) Sai. Số 4 và 10 đều là hợp số, chưa được phân tích hoàn toàn ra các thừa số nguyên tố. 
+
+
+--- TRANG 75 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Sai. Số 4 là hợp số, không phải số nguyên tố. 
+d) Sai. Số 40 chỉ có 2 thừa số nguyên tố là 2 và 5. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Có bao nhiêu  số tự nhiên m sao cho 5 < m < 15 và chia hết cho 3? 
+Lời giải. Các số tự nhiên m thỏa mãn điều kiện 5
+15
+m
+
+
+ là:  
+6;7;8;9;10;11;12;13;14 . 
+Trong các số trên, các số chia hết cho 3 là: 6;9;12. Vậy có tất cả 3 số tự nhiên m thỏa 
+mãn yêu cầu đề bài.  
+Đáp án: 3số. 
+Câu 2. Tìm số tự nhiên x lớn nhất thỏa mãn 120 x
+ và 150 x
+? 
+Lời giải. Số tự nhiên x lớn nhất thỏa mãn 120 x
+ và 150 x
+ chính là ước chung lớn nhất của 
+120 và 150 . 
+Ta có: 
+3
+120
+2
+3 5
+=
+; 
+2
+150
+2 3 5
+=
+
+. UCLN(120,150)
+2 3 5
+30
+=
+=
+. 
+Đáp án: 30. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính hợp lí nếu có) 
+a)
+4
+2
+3 : 3 ; 
+ 
+ 
+b)
+(
+)
+2
+3
+80
+4.5
+3.2
+−
+−
+;  
+ 
+c) 23.75
+25.10
+25.13
++
++
+. 
+Lời giải.  
+a) 
+4
+2
+4 2
+2
+3 :3
+3
+3
+9
+−
+=
+=
+= . 
+b) 
+2
+3
+80
+(4.5
+3.2 )
+−
+−
+ 
+80
+(4.25
+3.8)
+=
+−
+−
+ 
+
+
+--- TRANG 76 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+80
+(100
+24)
+=
+−
+−
+ 
+80
+76
+4
+=
+−
+=
+ 
+c) 23.75
+25.10
+25.13
++
++
+ 
+23.75
+25.(10 13)
+=
++
++
+ 
+23.75
+25.23
+=
++
+ 
+23.(75
+25)
+=
++
+ 
+23.100
+2300
+=
+=
+. 
+Câu 2. Tìm x, biết:  
+a) 
+; 
+ 
+     b) 
+20
+x
+; 
+35
+x
+ và 400
+500
+x
+
+
+. 
+Lời giải.  
+a) 120
+5(2
+)
+20
+x
+−
++
+=
+ 
+5(2
+)
+120
+20
+x
++
+=
+−
+ 
+5(2
+)
+100
+x
++
+=
+ 
+2
+100:5
+x
++
+=
+ 
+2
+20
+x
++
+=
+ 
+20
+2
+x =
+− 
+18
+x =
+. 
+b) 
+20
+x
+; 
+35
+x
+ và 400
+500
+x
+
+
+ 
+Vì 
+20
+x
+ và 
+35
+x
+ nên 
+(20,35)
+x
+BC
+
+ 
+Ta có: 
+2
+20
+2 .5
+=
+; 35
+5.7
+=
+ 
+2
+(20,35)
+2 .5.7
+140
+BCNN
+=
+=
+ 
+ 120
+5(2
+)
+20
+−
++
+=
+x
+
+
+--- TRANG 77 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+(20,35)
+(140)
+{0;140;280;420;560;...}
+BC
+B
+=
+=
+ 
+Vì 400
+500
+x
+
+
+ nên 
+420
+x =
+. 
+Câu 3. Cô giáo chủ nhiệm muốn chia 72 quyển vở, 48 bút bi và 60 gói bánh thành một số 
+phần thưởng như nhau để trao trong dịp sơ kết học kì. Hỏi có thể chia được nhiều nhất bao 
+nhiêu phần thưởng? Khi đó mỗi phần thưởng có bao nhiêu quyển vở, bút bi và gói bánh?  
+Lời giải. Gọi số phần thưởng cần tìm là x (
+*
+x). 
+Theo đề bài, 72 x
+, 48 x
+, 60 x
+ và x lớn nhất, nên 
+UCLN(72,48,60)
+x =
+. 
+Ta có: 
+3
+2
+72
+2
+3
+=
+
+; 
+4
+48
+2
+3
+=
+; 
+2
+60
+2
+3 5
+=
+; 
+2
+UCLN(72,48,60)
+2
+3
+12
+=
+=
+.  
+Suy ra chia được nhiều nhất 12 phần thưởng. 
+Số quyển vở ở mỗi phần thưởng là: 72:12
+6
+=
+ (quyển). 
+Số bút bi ở mỗi phần thưởng là: 48:12
+4
+=
+ (bút).  
+Số gói bánh ở mỗi phần thưởng là: 60:12
+5
+= (gói). 
+Vậy có thể chia được nhiều nhất là 12 phần thưởng; mỗi phần thưởng có 6 quyển vở, 4 
+bút bi và 5 gói bánh. 
+Câu 4.  
+a) Cho số tự nhiên x thoả mãn 
+1
+2
+3
+3
+2.3
+270
+x
+x
+x
++
++
++
+−
+=
+. 
+Hỏi x là số nguyên tố hay hợp số ? 
+b) Tìm hai số tự nhiên biết tích của chúng bằng 144, ƯCLN của chúng bằng 6 . 

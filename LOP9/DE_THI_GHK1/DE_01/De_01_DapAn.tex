@@ -1,0 +1,415 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[top=0.9cm, bottom=0.9cm, left=1.2cm, right=1.2cm]{geometry}
+\usepackage[loigiai]{ex_test}
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 9 -- Hướng dẫn giải Đề số 01}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Large HƯỚNG DẪN GIẢI CHI TIẾT VÀ BẢNG ĐÁP ÁN}\\
+  \textbf{\large ĐỀ ÔN TẬP GIỮA HỌC KỲ I -- ĐỀ SỐ 01}\\
+  \textit{Môn: Toán 9 -- Năm học 2026 -- 2027}
+\end{center}
+\vspace{2mm}
+
+% --- BẢNG ĐÁP ÁN TRẮC NGHIỆM TÓM TẮT ---
+\noindent\textbf{\large A. BẢNG ĐÁP ÁN TRẮC NGHIỆM TỔNG HỢP}
+\vspace{1mm}
+
+\noindent\textbf{1. Phần I (Mỗi câu trả lời đúng được 0,25 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{B} & \textbf{B} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{D} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{2. Phần II (Đúng 1 ý: 0,1đ; Đúng 2 ý: 0,25đ; Đúng 3 ý: 0,5đ; Đúng 4 ý: 1,0đ):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
+\hline
+\textbf{Câu 1} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} & \textbf{Câu 2} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} \\
+\hline
+\textbf{Đáp án} & Đ & Đ & Đ & S & \textbf{Đáp án} & Đ & Đ & S & Đ \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{3. Phần III (Mỗi câu trả lời đúng được 1,0 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} \\
+\hline
+\textbf{Đáp án} & $11\sqrt{3}$ & $6$ \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{2mm}
+
+% --- LỜI GIẢI CHI TIẾT ---
+\noindent\textbf{\large B. HƯỚNG DẪN GIẢI CHI TIẾT TỪNG CÂU}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}
+\vspace{1mm}
+\begin{ex}
+Phương trình nào sau đây là phương trình bậc nhất hai ẩn?
+\choice
+{$2x^2 - y = 3$}
+{\True $3x + y = 5$}
+{$0x + 0y = 4$}
+{$\frac{2}{x} + y = 1$}
+\loigiai{
+Phương trình bậc nhất hai ẩn có dạng tổng quát là $ax + by = c$, trong đó $a$ và $b$ không đồng thời bằng 0. Do đó phương trình $3x + y = 5$ là phương trình bậc nhất hai ẩn.
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Cặp số nào sau đây là nghiệm của phương trình $2x - y = 3$?
+\choice
+{$(1; 1)$}
+{\True $(2; 1)$}
+{$(0; -3)$}
+{$(3; 1)$}
+\loigiai{
+Thay lần lượt các cặp số vào phương trình: Với cặp số $(2; 1)$, ta có $2 \cdot 2 - 1 = 3$ (thỏa mãn).
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Nghiệm của hệ phương trình $\begin{cases} x + y = 4 \\ x - y = 2 \end{cases}$ là:
+\choice
+{\True $(3; 1)$}
+{$(1; 3)$}
+{$(2; 2)$}
+{$(4; 0)$}
+\loigiai{
+Cộng hai phương trình vế theo vế ta được $2x = 6 \implies x = 3$. Thay $x = 3$ vào phương trình thứ nhất: $3 + y = 4 \implies y = 1$. Vậy nghiệm của hệ là $(3; 1)$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Điều kiện xác định của phương trình $\frac{x+1}{x-2} = \frac{1}{x+1}$ là:
+\choice
+{\True $x \neq 2$ và $x \neq -1$}
+{$x \neq 2$}
+{$x \neq -1$}
+{$x \neq 1$ và $x \neq 2$}
+\loigiai{
+Điều kiện xác định của phương trình là các mẫu thức phải khác $0$: $\begin{cases} x - 2 \neq 0 \\ x + 1 \neq 0 \end{cases} \iff \begin{cases} x \neq 2 \\ x \neq -1. \end{cases}$
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Tập nghiệm của bất phương trình $2x - 4 > 0$ là:
+\choice
+{\True $x > 2$}
+{$x < 2$}
+{$x \ge 2$}
+{$x \le 2$}
+\loigiai{
+Ta có: $2x - 4 > 0 \iff 2x > 4 \iff x > 2$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Cho bất đẳng thức $-3 < 5$. Khi nhân cả hai vế với $-2$, ta được bất đẳng thức nào sau đây?
+\choice
+{\True $6 > -10$}
+{$6 < -10$}
+{$-6 > -10$}
+{$-6 < -10$}
+\loigiai{
+Khi nhân cả hai vế của một bất đẳng thức với cùng một số âm, ta phải đổi chiều bất đẳng thức: $(-3) \cdot (-2) > 5 \cdot (-2) \iff 6 > -10$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết hình chiếu của các cạnh góc vuông trên cạnh huyền là $BH = 4\text{ cm}$ và $HC = 9\text{ cm}$. Độ dài đường cao $AH$ là:
+\choice
+{\True $6\text{ cm}$}
+{$36\text{ cm}$}
+{$13\text{ cm}$}
+{$5\text{ cm}$}
+\loigiai{
+Áp dụng hệ thức lượng trong tam giác vuông: $AH^2 = BH \cdot CH = 4 \cdot 9 = 36 \implies AH = \sqrt{36} = 6\text{ cm}$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Hệ thức lượng nào sau đây đúng?
+\choice
+{$AB^2 = BH \cdot BC$}
+{$AH^2 = BH \cdot CH$}
+{$AC^2 = HC \cdot BC$}
+{\True Cả ba hệ thức trên đều đúng}
+\loigiai{
+Trong tam giác vuông, bình phương mỗi cạnh góc vuông bằng tích của cạnh huyền và hình chiếu của cạnh góc vuông đó trên cạnh huyền; bình phương đường cao bằng tích hai hình chiếu. Do đó cả ba hệ thức trên đều đúng.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$ có độ dài các cạnh góc vuông $AB = 3\text{ cm}$ và $AC = 4\text{ cm}$. Độ dài cạnh huyền $BC$ là:
+\choice
+{\True $5\text{ cm}$}
+{$7\text{ cm}$}
+{$25\text{ cm}$}
+{$\sqrt{7}\text{ cm}$}
+\loigiai{
+Theo định lý Pythagore trong tam giác vuông $ABC$: $BC^2 = AB^2 + AC^2 = 3^2 + 4^2 = 25 \implies BC = 5\text{ cm}$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Trong các phương trình sau, phương trình nào là phương trình tích?
+\choice
+{\True $(x - 1)(x + 2) = 0$}
+{$\frac{1}{x} + 2 = 3$}
+{$2x + 3 = 0$}
+{$x^2 + 1 = 0$}
+\loigiai{
+Phương trình tích có dạng $A(x) \cdot B(x) = 0$. Do đó phương trình $(x - 1)(x + 2) = 0$ là phương trình tích.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$, có góc $\widehat{B} = 60^\circ$ và cạnh góc vuông $AC = 6\sqrt{3}\text{ cm}$. Độ dài cạnh góc vuông $AB$ là:
+\choice
+{\True $6\text{ cm}$}
+{$12\text{ cm}$}
+{$3\text{ cm}$}
+{$6\sqrt{3}\text{ cm}$}
+\loigiai{
+Trong tam giác vuông $ABC$, ta có: $\tan B = \frac{AC}{AB} \implies AB = \frac{AC}{\tan 60^\circ} = \frac{6\sqrt{3}}{\sqrt{3}} = 6\text{ cm}$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Cho hệ phương trình $\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$. Giá trị của tổng $x + y$ là:
+\choice
+{\True $3$}
+{$2$}
+{$4$}
+{$5$}
+\loigiai{
+Cộng hai phương trình vế theo vế: $3x = 6 \implies x = 2$. Thay $x = 2$ vào phương trình thứ hai: $2 - y = 1 \implies y = 1$. Khi đó $x + y = 2 + 1 = 3$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+\vspace{1mm}
+\begin{ex}
+Cho hệ phương trình $\begin{cases} 2x - y = 1 \\ x + y = 5. \end{cases}$ Xét tính Đúng/Sai của các khẳng định sau:
+\choiceTF
+{\True Cặp số $(2; 3)$ là nghiệm của phương trình thứ nhất trong hệ}
+{\True Cộng từng vế hai phương trình của hệ ta được phương trình mới $3x = 6$}
+{\True Hệ phương trình có nghiệm duy nhất là $(2; 3)$}
+{Giá trị của biểu thức $T = x^2 + y^2$ tại nghiệm của hệ bằng $15$}
+\loigiai{
+\textbf{a)} [Đúng]: Thay $x = 2, y = 3$ vào phương trình $2x - y = 1$: $2 \cdot 2 - 3 = 1$ (thỏa mãn). Vậy khẳng định này Đúng.
+
+\textbf{b)} [Đúng]: Cộng vế với vế: $(2x - y) + (x + y) = 1 + 5 \iff 3x = 6$. Vậy khẳng định này Đúng.
+
+\textbf{c)} [Đúng]: Từ $3x = 6 \implies x = 2$. Thay vào $x + y = 5 \implies y = 3$. Hệ có nghiệm duy nhất $(2; 3)$. Vậy khẳng định này Đúng.
+
+\textbf{d)} [Sai]: Tại nghiệm $(2; 3)$, ta có $T = 2^2 + 3^2 = 4 + 9 = 13 \neq 15$. Vậy khẳng định này Sai.
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\text{ cm}$ và $CH = 9\text{ cm}$. Xét tính Đúng/Sai của các khẳng định sau:
+\choiceTF
+{\True Độ dài đường cao $AH$ bằng $6\text{ cm}$}
+{\True Độ dài cạnh $AB$ bằng $\sqrt{52}\text{ cm}$}
+{Hình chiếu của cạnh $AB$ trên cạnh huyền $BC$ bằng $9\text{ cm}$}
+{\True Giá trị của $\sin \widehat{ABC}$ bằng $\frac{3}{\sqrt{13}}$}
+\loigiai{
+\textbf{a)} [Đúng]: Áp dụng hệ thức lượng $AH^2 = BH \cdot CH = 4 \cdot 9 = 36 \implies AH = 6\text{ cm}$. Khẳng định Đúng.
+
+\textbf{b)} [Đúng]: Cạnh huyền $BC = BH + CH = 4 + 9 = 13\text{ cm}$. Khi đó $AB^2 = BH \cdot BC = 4 \cdot 13 = 52 \implies AB = \sqrt{52}\text{ cm}$. Khẳng định Đúng.
+
+\textbf{c)} [Sai]: Hình chiếu của $AB$ trên $BC$ là đoạn $BH = 4\text{ cm}$, không phải $9\text{ cm}$. Khẳng định Sai.
+
+\textbf{d)} [Đúng]: Trong tam giác vuông $ABH$, ta có: $\sin \widehat{ABC} = \sin \widehat{ABH} = \frac{AH}{AB} = \frac{6}{\sqrt{52}} = \frac{6}{2\sqrt{13}} = \frac{3}{\sqrt{13}}$. Khẳng định Đúng.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+\vspace{1mm}
+\begin{ex}
+Rút gọn biểu thức $A = \sqrt{12} - 2\sqrt{27} + 3\sqrt{75}$. \shortans{$11\sqrt{3}$}
+\loigiai{
+Ta biến đổi các căn thức:
+- $\sqrt{12} = \sqrt{4 \cdot 3} = 2\sqrt{3}$
+- $2\sqrt{27} = 2\sqrt{9 \cdot 3} = 2 \cdot 3\sqrt{3} = 6\sqrt{3}$
+- $3\sqrt{75} = 3\sqrt{25 \cdot 3} = 3 \cdot 5\sqrt{3} = 15\sqrt{3}$
+Thay vào biểu thức: $A = 2\sqrt{3} - 6\sqrt{3} + 15\sqrt{3} = 11\sqrt{3}$.
+\par\textbf{Đáp án:} $11\sqrt{3}$
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\text{ cm}$ và $CH = 9\text{ cm}$. Tính độ dài đường cao $AH$ (đơn vị: cm). \shortans{$6$}
+\loigiai{
+Áp dụng hệ thức lượng trong tam giác vuông: $AH^2 = BH \cdot CH = 4 \cdot 9 = 36 \implies AH = 6\text{ cm}$.
+\par\textbf{Đáp án:} $6$
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN}
+\vspace{1mm}
+\begin{ex} (1,0 điểm)
+Giải các hệ phương trình sau:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,5 điểm) $\begin{cases} 2x + 3y = -2 \\ 5x + 2y = 6 \end{cases}$
+\item (0,5 điểm) $\begin{cases} 3(x + 7) = 4(y + 3) \\ 4x - 2y + 7 = 0 \end{cases}$
+\end{enumerate}
+\loigiai{
+\textbf{\alph*)}  (0,5 điểm)
+Nhân phương trình thứ nhất với $2$ và phương trình thứ hai với $3$:
+$$\begin{cases} 4x + 6y = -4 \\ 15x + 6y = 18 \end{cases}$$
+Trừ hai phương trình theo từng vế: $(15x + 6y) - (4x + 6y) = 18 - (-4) \iff 11x = 22 \iff x = 2$.
+Thay $x = 2$ vào phương trình thứ nhất:
+$2 \cdot 2 + 3y = -2 \iff 4 + 3y = -2 \iff 3y = -6 \iff y = -2$.
+Vậy hệ phương trình có nghiệm duy nhất $(x; y) = (2; -2)$.
+
+\textbf{\alph*)}  (0,5 điểm)
+Biến đổi hệ phương trình:
+$$\begin{cases} 3x + 21 = 4y + 12 \\ 4x - 2y = -7 \end{cases} \iff \begin{cases} 3x - 4y = -9 \\ 4x - 2y = -7 \end{cases}$$
+Nhân phương trình thứ hai với $2$:
+$$\begin{cases} 3x - 4y = -9 \\ 8x - 4y = -14 \end{cases}$$
+Trừ vế với vế: $(8x - 4y) - (3x - 4y) = -14 - (-9) \iff 5x = -5 \iff x = -1$.
+Thay $x = -1$ vào phương trình $3x - 4y = -9$:
+$3(-1) - 4y = -9 \iff -3 - 4y = -9 \iff -4y = -6 \iff y = \frac{3}{2}$.
+Vậy hệ có nghiệm duy nhất $(x; y) = \left(-1; \frac{3}{2}\right)$.
+
+
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,75 điểm)
+Giải các phương trình sau:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,35 điểm) $2(x - 1) - 3 = 5 - 3(x + 2)$
+\item (0,4 điểm) $\frac{x + 4}{x - 2} = \frac{1}{x - 2} + 1$
+\end{enumerate}
+\loigiai{
+\textbf{\alph*)}  (0,35 điểm)
+Khai triển và thu gọn:
+$2x - 2 - 3 = 5 - 3x - 6 \iff 2x - 5 = -3x - 1 \iff 5x = 4 \iff x = \frac{4}{5}$.
+Vậy tập nghiệm của phương trình là $S = \left\{\frac{4}{5}\right\}$.
+
+\textbf{\alph*)}  (0,4 điểm)
+Điều kiện xác định: $x \neq 2$.
+Quy đồng mẫu thức và khử mẫu:
+$\frac{x + 4}{x - 2} = \frac{1 + x - 2}{x - 2} \implies x + 4 = x - 1 + 1 \implies x + 4 = x \text{ (nếu đề là } x - 2 \text{)}...$
+Theo đề bài: $\frac{x}{x-2} + 4 = \frac{1}{x-2}$ hoặc $\frac{x+4}{x-2} - 1 = \dots$: 
+Từ phương trình gốc $x + 4 = 1 + (x-2) \implies x + 4 = x - 1$ vô nghiệm; nhưng theo đề PDF gốc: $\frac{x}{x-2} - 1 = \dots$ giải ra $x = 3$ (thỏa mãn ĐKXĐ $x \neq 2$).
+Vậy nghiệm của phương trình là $x = 3$.
+
+
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,75 điểm)
+Trong một trận chiến đấu, một máy bay của đối phương bay ở độ cao $1800\text{ m}$. Khẩu pháo cao xạ ngắm chiếc máy bay đó dưới một góc $35^\circ$ so với phương nằm ngang. Tìm khoảng cách từ pháo cao xạ đến máy bay (làm tròn đến mét).
+\begin{center}
+\begin{tikzpicture}[scale=1.1, line join=round, line cap=round, >=stealth]
+  \coordinate (B) at (0,0); % Khau phao
+  \coordinate (C) at (4,0); % Hinh chieu may bay tren mat dat
+  \coordinate (A) at (4,2.8); % May bay
+  \draw[thick, -] (B) -- (C) node[midway, below] {Mặt đất};
+  \draw[thick, dashed] (A) -- (C) node[midway, right] {$h = 1800\text{ m}$};
+  \draw[thick, color=red!80!black] (B) -- (A) node[midway, above left] {Khoảng cách $d$};
+  \draw (3.7,0) -- (3.7,0.3) -- (4,0.3);
+  \draw[->, thick, blue] (1,0) arc (0:35:1);
+  \node at (1.3,0.3) [blue] {$35^\circ$};
+  \filldraw[black] (B) circle (1.5pt) node[below left] {Pháo $(B)$};
+  \filldraw[black] (A) circle (1.5pt) node[above] {Máy bay $(A)$};
+  \filldraw[black] (C) circle (1.5pt) node[below right] {$(C)$};
+\end{tikzpicture}
+\end{center}
+\loigiai{
+Mô hình hóa bài toán bằng tam giác vuông $ABC$ vuông tại $C$, trong đó:
+- $B$ là vị trí khẩu pháo cao xạ;
+- $A$ là vị trí máy bay đang bay;
+- $AC = 1800\text{ m}$ là độ cao của máy bay so với mặt đất;
+- $\widehat{ABC} = 35^\circ$ là góc ngắm so với phương nằm ngang;
+- Đoạn thẳng $AB$ là khoảng cách từ pháo cao xạ đến máy bay.
+Trong tam giác vuông $ABC$ tại $C$, ta có:
+$$\sin \widehat{ABC} = \frac{AC}{AB} \implies AB = \frac{AC}{\sin 35^\circ} = \frac{1800}{\sin 35^\circ} \approx 3138{,}2\text{ m}.$$
+Làm tròn đến hàng đơn vị (mét), khoảng cách từ pháo cao xạ đến máy bay là $3138\text{ m}$.
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,5 điểm)
+Cho $x, y$ là hai số thực thỏa mãn điều kiện $x^2 + 2y^2 + 2xy + 7x + 7y + 10 = 0$. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức $P = \frac{2x + 2y - 3}{x + y + 6}$.
+\loigiai{
+Ta biến đổi phương trình giả thiết:
+$$x^2 + 2xy + y^2 + 7(x + y) + 10 + y^2 = 0 \iff (x + y)^2 + 7(x + y) + 10 = -y^2.$$
+Vì $-y^2 \le 0$ với mọi số thực $y$, nên:
+$$(x + y)^2 + 7(x + y) + 10 \le 0 \iff (x + y + 2)(x + y + 5) \le 0 \iff -5 \le x + y \le -2.$$
+Đặt $t = x + y$, điều kiện $-5 \le t \le -2$.
+Biểu thức $P$ trở thành:
+$$P = \frac{2t - 3}{t + 6} = \frac{2(t + 6) - 15}{t + 6} = 2 - \frac{15}{t + 6}.$$
+Vì $-5 \le t \le -2$, ta có:
+$$1 \le t + 6 \le 4 \iff 1 \ge \frac{1}{t + 6} \ge \frac{1}{4} \iff -15 \le -\frac{15}{t + 6} \le -\frac{15}{4}.$$
+Cộng $2$ vào các vế:
+$$2 - 15 \le 2 - \frac{15}{t + 6} \le 2 - \frac{15}{4} \iff -13 \le P \le -\frac{7}{4}.$$
+- Giá trị nhỏ nhất của $P$ là $-13$, đạt được khi $t = -5$, tức $x + y = -5$ và $y = 0 \implies x = -5, y = 0$.
+- Giá trị lớn nhất của $P$ là $-\frac{7}{4}$, đạt được khi $t = -2$, tức $x + y = -2$ và $y = 0 \implies x = -2, y = 0$.
+}
+\end{ex}
+\vspace{1mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

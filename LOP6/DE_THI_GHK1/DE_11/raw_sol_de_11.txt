@@ -1,0 +1,650 @@
+--- TRANG 137 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+3
+4
+5
+2022
+2023
+2024
+(1
+4
+4 )
+(4
+4
+4 )
+(4
+4
+4
+)
+A =
++
++
++
++
++
+++
++
++
+ 
+3
+2022
+(1
+4 16)
+4
+(1
+4 16)
+4
+(1
+4 16)
+=
++
++
++
+
++
++
+++
+
++
++
+ 
+3
+2022
+21
+4
+21
+4
+21
+=
++
+
+++
+
+ 
+3
+2022
+21 (1
+4
+4
+)
+=
+
++
+++
+. 
+Vì 21 21
+
+ nên 
+21
+A
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ĐỀ SỐ 11 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các số sau, số nào là bội của 5? 
+A. 7.   
+ 
+ 
+B. 105. 
+ 
+ 
+C. 17.  
+ 
+       D. 27. 
+Lời giải. Bội của 5 có chữ số tận cùng là 0 hoặc 5. Trong các số đã cho, số 105 chia hết 
+cho 5.  Đáp án đúng: B. 
+
+
+--- TRANG 138 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Tìm x , biết 
+20
+42
+x +
+=
+. 
+A. 22 . 
+ 
+ 
+B. 62.  
+ 
+          C. 2 .  
+ 
+       D. 18. 
+Lời giải. Tìm x , biết 
+20
+42
+x +
+=
+. Lời giải: 
+42
+20
+22
+x =
+−
+=
+. Đáp án đúng: A. 
+Câu 3. Khẳng định nào sau đây đúng ? 
+A. 4
+(7)
+U
+
+.                          
+ 
+B. 5
+(7).
+U
+
+ 
+  
+C. 6
+(7).
+U
+
+ 
+      
+D. 7
+(7).
+U
+
+ 
+Lời giải. Tập hợp các ước của 7 là U(7)
+{1;7}
+=
+. Do đó, 7
+U(7)
+
+ là khẳng định đúng.  
+Đáp án đúng: D. 
+Câu 4. Cho 
+
+
+5, 16, 25, 135
+x
+sao cho tổng 20
+35
+x
++
++
+ không chia hết cho 5. x có thể là:  
+A. 5.                                 B. 16.                                  C. 25. 
+     D. 135. 
+Lời giải. Vì 20 và 35 đều chia hết cho 5, nên để (20
+35
+)
+x
++
++
+ không chia hết cho 5 thì x 
+phải là số không chia hết cho 5. Trong tập hợp đã cho, chỉ có số 16 không chia hết cho 5. 
+Đáp án đúng: B. 
+Câu 5. Trong các số sau, số nào chia hết cho 2 và 5 ? 
+A. 2020 .            
+      B. 25 .         
+ 
+       C. 52.      
+ 
+           D. 5 . 
+Lời giải. Số chia hết cho cả 2 và 5 có chữ số tận cùng là 0. Số 2020 thỏa mãn điều kiện 
+này. Đáp án đúng: A. 
+Câu 6. Tổng 3510
+4353
++
+ chia hết cho: 
+A. 2.                    
+      B. 3.                                     C. 5.                                         D. 9. 
+Lời giải. Tổng các chữ số của 3510 là 3
+5 1
+0
+9
++
++ +
+= (chia hết cho 3). 
+Tổng các chữ số của 4353 là 4
+3
+5
+3
+15
++ +
++
+=
+ (chia hết cho 3). 
+Do đó, tổng 3510
+4353
++
+ chia hết cho 3. 
+
+
+--- TRANG 139 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: B. 
+Câu 7. Hình nào dưới đây là tam giác đều: 
+ 
+A. Hình 1.                  
+ 
+B. Hình 2.                       
+C. Hình 3.                   
+ 
+D. Hình 4. 
+Lời giải. Hình 1 có 3 cạnh bằng nhau nên là tam giác đều. Đáp án đúng: A. 
+Câu 8. Kết quả của 
+56
+51
+7
+: 7 viết dưới dạng một lũy thừa là  
+A. 75.  
+ 
+ 
+B. 76.  
+ 
+ 
+C. 7107.  
+ 
+ 
+D. 76. 
+Lời giải. Khi chia hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và trừ các số mũ:
+56
+51
+56 51
+5
+7
+:7
+7
+7
+−
+=
+=
+. Đáp án đúng: A. 
+Câu 9.  Trong các hình dưới đây, hình nào là tam giác đều? 
+ 
+A. Tam giác ABC.  
+ 
+ 
+ 
+     B. Tam giác DEF. 
+C. Tam giác PQR.  
+ 
+ 
+ 
+     D. Tam giác MNH. 
+Lời giải. Tam giác ABC có ký hiệu 3 cạnh bằng nhau nên là tam giác đều. 
+Đáp án đúng: A. 
+
+
+--- TRANG 140 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 10. Cho hình bình hành AKHE , có 
+6cm,
+5cm
+AK
+KH
+=
+=
+. Hãy chọn phát biểu đúng 
+trong các phát biểu sau: 
+A. 
+5cm,
+6cm
+EH
+AE
+=
+=
+. 
+ 
+ 
+ 
+     B. 
+6cm,
+5cm
+EH
+AE
+=
+=
+. 
+C. 
+6cm,
+5cm
+AH
+AE
+=
+=
+.        
+ 
+ 
+     D. 
+6cm
+KH
+AH
+=
+=
+. 
+Lời giải. Trong hình bình hành AKHE , các cặp cạnh đối diện bằng nhau:
+6 cm
+EH
+AK
+=
+=
+; 
+5 cm
+AE
+KH
+=
+=
+. Đáp án đúng: B. 
+Câu 11. Tập hợp 
+
+*
+L
+x
+N
+x
+=
+
+∣
+ là số lẻ và 
+
+9
+x 
+ được viết dưới dạng liệt kê các phần từ là: 
+A. 
+{1;3;5;7}
+L =
+. 
+B. 
+{1;3;5;7;9}
+L =
+. 
+C. 
+{1;2;3;4;5;6;7;8}
+L =
+. 
+ 
+ 
+ 
+ D. 
+{1;2;3;4;5;6;7;8;9}
+L =
+. 
+Lời giải. Các số tự nhiên khác 0, là số lẻ và nhỏ hơn hoặc bằng 9 bao gồm: 1;3;5;7;9.Vậy 
+{1;3;5;7;9}
+L =
+. Đáp án đúng: B. 
+Câu 12. Chu vi hình thoi MNPQ có cạnh MN = 5 cm là: 
+A. 20 cm. 
+B. 15 cm. 
+C. 25 cm. 
+D. 10 cm. 
+Lời giải. Hình thoi có 4 cạnh bằng nhau, do đó chu vi là:
+4 5
+20 (cm)
+C =
+
+=
+.  
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét tính đúng sai của các mệnh đề sau: 
+a) Mọi số có chữ số tận cùng là 3; 6; 9 thì chia hết cho 3. 
+b) Để số 212* chia hết cho 2 thì *
+{4;6;8}
+
+. 
+c) Số chia hết cho 9 thì số đó chia hết cho 3. 
+d) Các số có chữ số tận cùng là 0 hoặc 5 thì chia hết cho 5. 
+
+
+--- TRANG 141 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+a) Sai. Dấu hiệu chia hết cho 3 phụ thuộc vào tổng các chữ số chứ không phụ thuộc vào 
+chữ số tận cùng. Ví dụ số 13 có chữ số tận cùng là 3 nhưng không chia hết cho 3. 
+b) Sai. Để một số chia hết cho 2 thì chữ số tận cùng phải là chữ số chẵn, tức là số 
+*
+{0;2;4;6;8}
+
+. Tập hợp trong đề bài bị thiếu hai số 0 và 2. 
+c) Đúng. Vì 9 chia hết cho 3 nên bất kỳ số nào chia hết cho 9 thì cũng chia hết cho 3. 
+d) Đúng. Đây là phát biểu đúng theo dấu hiệu nhận biết một số chia hết cho 5. 
+Câu 2.  Cho các số 
+12
+a =
+, 
+18
+b =
+ và 
+30
+c =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Số a là bội của 4 . 
+b) Số 6 là ước chung của cả ba số , ,
+a b c. 
+c) Ước chung lớn nhất của a và b là 12. 
+d) Bội chung nhỏ nhất của a và b là 36. 
+Lời giải. 
+a) Đúng. Ta có 12 chia hết cho 4 vì 12
+4 3
+=
+, do đó 12 là bội của 4 . 
+b) Đúng. Các số 12,18,30 đều chia hết cho 6 , do đó 6 là ước chung của ba số này. 
+c) Sai. Các ước của 12 là 1,2,3,4,6,12 và các ước của 18 là 1,2,3,6,9,18. Ước chung lớn 
+nhất của a và b là 6 . 
+d) Đúng. Các bội khác 0 của 12 là 12,24,36,48,...và các bội khác 0 của 18 là 18,36,54,... 
+Số nhỏ nhất chung của hai tập hợp này là 36. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Một hình lục giác đều có độ dài một cạnh bằng 5 cm . Tính chu vi của hình lục 
+giác đều đó (đơn vị: cm). 
+
+
+--- TRANG 142 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Chu vi của hình lục giác đều là: 5 6
+30 (cm)
+
+=
+.Đáp án: 30. 
+Câu 2. Một khu vườn hình chữ nhật có chiều dài 15 m và chiều rộng 10 m . Người ta làm 
+hàng rào xung quanh khu vườn và để lại một cửa ra vào rộng 2 m . Tính độ dài của hàng 
+rào đó (đơn vị: m). 
+Lời giải. Chu vi của khu vườn hình chữ nhật là: (15 10) 2
+50 (m)
++
+
+=
+.Độ dài của hàng rào 
+là: 50
+2
+48 (m)
+−
+=
+. Đáp án: 48. 
+Phần IV. Tự luận 
+Câu 1. Tìm x biết : 
+37
+50;
+)
+a x +
+=
+ 
+ 
+ 
+ 
+ 
+(
+)
+2
+:5
+6.
+)
+b
+x
++
+=
+ 
+Lời giải. 
+a) 
+37
+50
+x +
+=
+ 
+50
+37
+x =
+−
+ 
+13
+x =
+. 
+b) (2
+):5
+6
+x
++
+=
+ 
+2
+6 5
+x
++
+=
+ 
+2
+30
+x
++
+=
+ 
+30
+2
+x =
+− 
+28
+x =
+. 
+Câu 2. a) Viết tập hợp A các số tự nhiên nhỏ hơn 8 . Liệt kê các số nguyên tố trong tập 
+hợp A ? 
+            b) Mỗi tháng An tiết kiệm 35000 đồng để mua một đôi giảy thể thao. Sau 1 năm, 
+An đã mua được một đôi giày và còn lại 23000 đồng. Hỏi giá đôi giày An mua giá bao 
+nhiêu đồng? 
+
+
+--- TRANG 143 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+a) Tập hợp A các số tự nhiên nhỏ hơn 8: 
+{0;1;2;3;4;5;6;7}
+A =
+. 
+Các số nguyên tố trong tập hợp A là: 2;3;5;7. 
+b) Số tiền An tiết kiệm được trong 1 năm (12 tháng) là: 
+35000 12
+420000
+
+=
+ đồng. 
+Giá của đôi giày An đã mua là: 420000
+23000
+397000
+−
+=
+ đồng. 
+Câu 3.  Một khu vườn hình chữ nhật có chiều dài 20m, chiều rộng ít hơn chiều dài 5m. 
+Người ta dự định rào xung quanh khu đất bằng 4 đường dây kẽm gai để trồng rau.  
+      a) Hỏi cần tất cả bao nhiêu mét dây kẽm gai để rào khu đất trên? 
+      b) Người nông dân thu hoạch được bao nhiêu ki-lô-gam rau trên khu vườn này, 
+biết rằng cứ 1m2 đất thu hoạch được 2kg rau cải, diện tích lối đi và hệ thống thoát nước 
+của vườn là 50m2. 
+Lời giải.  
+a) Chiều rộng khu vườn là: 20
+5
+15 (m)
+−
+=
+. 
+Chu vi khu vườn là: (20 15) 2
+70 (m)
++
+
+=
+. 
+Số mét dây kẽm gai cần dùng để rào 4 đường là: 70 4
+280 (m)
+
+=
+. 
+b) Diện tích toàn bộ khu vườn là: 
+2
+20 15
+300 (m )
+
+=
+ 
+Diện tích đất thực tế dùng để trồng rau là: 
+2
+300
+50
+250 (m )
+−
+=
+ 
+Số ki-lô-gam rau thu hoạch được là: 250 2
+500 (kg)
+
+=
+. 
+Câu 4. Không thực hiện tính tổng, chứng minh rằng 
+2
+3
+2021
+A= 1+4+4
+4
+...
+4
++
++
++
+ chia hết 
+cho 21. 

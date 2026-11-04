@@ -1,0 +1,157 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9
+	Rút gọn biểu thức: $M = \left(\frac{\sqrt{a}}{\sqrt{a}+1} - \frac{\sqrt{a}}{\sqrt{a}-1} + \frac{2\sqrt{a}-4}{a-1}\right) : \frac{1}{\sqrt{a}+1}$ với $a \ge 0; a \ne 1$.
+	\loigiai{
+		Điều kiện: $a \ge 0; a \ne 1$.
+		Ta có $a-1 = (\sqrt{a}-1)(\sqrt{a}+1)$.
+		Xét phần trong ngoặc:
+		\begin{align*}
+			&\frac{\sqrt{a}}{\sqrt{a}+1} - \frac{\sqrt{a}}{\sqrt{a}-1} + \frac{2\sqrt{a}-4}{a-1} \\
+			&= \frac{\sqrt{a}(\sqrt{a}-1)}{(\sqrt{a}+1)(\sqrt{a}-1)} - \frac{\sqrt{a}(\sqrt{a}+1)}{(\sqrt{a}-1)(\sqrt{a}+1)} + \frac{2\sqrt{a}-4}{(\sqrt{a}-1)(\sqrt{a}+1)} \\
+			&= \frac{a-\sqrt{a} - (a+\sqrt{a}) + 2\sqrt{a}-4}{(\sqrt{a}-1)(\sqrt{a}+1)} \\
+			&= \frac{a-\sqrt{a} - a-\sqrt{a} + 2\sqrt{a}-4}{a-1} \\
+			&= \frac{-2\sqrt{a} + 2\sqrt{a}-4}{a-1} \\
+			&= \frac{-4}{a-1}
+		\end{align*}
+		Vậy biểu thức $M$ trở thành:
+		\begin{align*}
+			M &= \frac{-4}{a-1} : \frac{1}{\sqrt{a}+1} \\
+			&= \frac{-4}{(\sqrt{a}-1)(\sqrt{a}+1)} \cdot (\sqrt{a}+1)
+		\end{align*}
+		Vì $a \ne 1$ nên $\sqrt{a}+1 \ne 0$. Ta có thể rút gọn:
+		\begin{align*}
+			M &= \frac{-4}{\sqrt{a}-1}
+		\end{align*}
+		Vậy, với $a \ge 0; a \ne 1$ thì $M = \frac{-4}{\sqrt{a}-1}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Giải hệ phương trình: $ \begin{cases} 3x-4y=5 \\ 2x-5y=8 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 3x-4y=5 \quad &(1) \\ 2x-5y=8 \quad &(2) \end{cases} $
+		Nhân phương trình (1) với 2 và phương trình (2) với 3:
+		$ \begin{cases} 6x-8y=10 \quad &(1') \\ 6x-15y=24 \quad &(2') \end{cases} $
+		Trừ vế theo vế của phương trình (1') cho phương trình (2'):
+		\begin{align*}
+			(6x-8y) - (6x-15y) &= 10 - 24 \\
+			6x-8y - 6x+15y &= -14 \\
+			7y &= -14 \\
+			y &= -2
+		\end{align*}
+		Thay $y=-2$ vào phương trình (1):
+		\begin{align*}
+			3x - 4(-2) &= 5 \\
+			3x + 8 &= 5 \\
+			3x &= 5 - 8 \\
+			3x &= -3 \\
+			x &= -1
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (-1;-2)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Cho phương trình $x^2-5x-6=0$ có 2 nghiệm $x_1; x_2$. Không giải phương trình, hãy tính giá trị biểu thức $A=(3x_1-2x_2)(3x_2-2x_1)$.
+	\loigiai{
+		Phương trình đã cho là $x^2-5x-6=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = - \frac{-5}{1} = 5 \\ x_1 x_2 = \frac{-6}{1} = -6 \end{cases} $
+		Ta biến đổi biểu thức A:
+		\begin{align*}
+			A &= (3x_1-2x_2)(3x_2-2x_1) \\
+			&= 9x_1x_2 - 6x_1^2 - 6x_2^2 + 4x_1x_2 \\
+			&= 13x_1x_2 - 6(x_1^2+x_2^2) \\
+			&= 13x_1x_2 - 6((x_1+x_2)^2 - 2x_1x_2) \\
+			&= 13x_1x_2 - 6(x_1+x_2)^2 + 12x_1x_2 \\
+			&= 25x_1x_2 - 6(x_1+x_2)^2
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức A:
+		\begin{align*}
+			A &= 25(-6) - 6(5)^2 \\
+			&= -150 - 6(25) \\
+			&= -150 - 150 \\
+			&= -300
+		\end{align*}
+		Vậy, giá trị của biểu thức $A = -300$.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Một chiếc hộp chứa một số quả bóng cùng loại (chỉ khác nhau về màu sắc) có 5 quả bóng xanh, 3 quả bóng vàng, 4 quả bóng trắng. Lấy ngẫu nhiên ra một quả bóng. Tính xác suất của biến cố: “Lấy được quả bóng không phải màu trắng”.
+	\loigiai{
+		Tổng số quả bóng trong hộp là: $5 (\text{xanh}) + 3 (\text{vàng}) + 4 (\text{trắng}) = 12$ quả bóng.
+		Vậy, số phần tử của không gian mẫu khi lấy ngẫu nhiên một quả bóng là $n(\Omega) = 12$.
+		
+		Gọi A là biến cố: “Lấy được quả bóng không phải màu trắng”.
+		Điều này có nghĩa là quả bóng lấy được có thể là màu xanh hoặc màu vàng.
+		
+		Liệt kê các quả bóng không phải màu trắng:
+		\begin{itemize}
+			\item 5 quả bóng xanh (X1, X2, X3, X4, X5)
+			\item 3 quả bóng vàng (V1, V2, V3)
+		\end{itemize}
+		Tổng số quả bóng không phải màu trắng là $5 + 3 = 8$ quả.
+		Vậy, số phần tử của biến cố A (số kết quả thuận lợi cho A) là $n(A) = 8$.
+		
+		Xác suất của biến cố A là:
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{8}{12} = \frac{2}{3}$.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Bác Hà gửi vào ngân hàng A với số tiền 5 triệu đồng, sau 2 tháng bác nhận được số tiền cả vốn và lãi là 5,06018 triệu đồng. Biết rằng tiền lãi của tháng này được cộng vào vốn để tính lãi cho tháng sau. Tính lãi suất hàng tháng của ngân hàng A.
+	\loigiai{
+		Gọi $x$ là lãi suất hàng tháng của ngân hàng A (dưới dạng thập phân, ví dụ: nếu lãi suất là 1% thì $x=0,01$).
+		Điều kiện: $x > 0$.
+		
+		Số tiền gửi ban đầu (vốn) là $P_0 = 5$ triệu đồng.
+		Số tiền nhận được sau 2 tháng (cả vốn và lãi) là $P_2 = 5,06018$ triệu đồng.
+		
+		Vì tiền lãi của tháng này được cộng vào vốn để tính lãi cho tháng sau (lãi kép), ta có công thức:
+		$P_n = P_0 (1+x)^n$, trong đó $n$ là số tháng.
+		
+		Sau tháng thứ nhất, số tiền cả vốn và lãi là:
+		$P_1 = P_0 (1+x) = 5(1+x)$ triệu đồng.
+		
+		Sau tháng thứ hai, số tiền cả vốn và lãi là:
+		$P_2 = P_1 (1+x) = P_0 (1+x)(1+x) = P_0 (1+x)^2$.
+		
+		Theo đề bài, ta có phương trình:
+		\begin{align*}
+			5(1+x)^2 &= 5,06018 \\
+			(1+x)^2 &= \frac{5,06018}{5} \\
+			(1+x)^2 &= 1,012036
+		\end{align*}
+		Vì $1+x$ phải dương (do $x$ là lãi suất dương), ta lấy căn bậc hai hai vế:
+		\begin{align*}
+			1+x &= \sqrt{1,012036} \\
+			1+x &= 1,006 \quad (\text{Vì } 1,006^2 = 1,012036)
+		\end{align*}
+		Giải tìm $x$:
+		\begin{align*}
+			x &= 1,006 - 1 \\
+			x &= 0,006
+		\end{align*}
+		Để chuyển lãi suất sang dạng phần trăm, ta nhân với 100:
+		Lãi suất hàng tháng $= x \times 100\% = 0,006 \times 100\% = 0,6\%$.
+		
+		Vậy, lãi suất hàng tháng của ngân hàng A là $0,6\%$.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho tam giác ABC có ba góc nhọn ($AB<AC$). Ba đường cao AD, BE, CF cắt nhau tại H.
+	\begin{enumerate}[1)]
+		\item Chứng minh tứ giác BFEC nội tiếp. Xác định tâm O của đường tròn ngoại tiếp tứ giác BFEC.
+		\item Gọi I là trung điểm của AH. Vẽ CI cắt đường tròn (O) tại M (M khác C), EF cắt AD tại K. Chứng minh IE là tiếp tuyến của đường tròn (O) và ba điểm B, K, M thẳng hàng.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	Cho các số thực dương $a,b,c$ thỏa mãn $a^2+b^2+c^2=1$. Tìm giá trị nhỏ nhất của biểu thức:
+	$M=\sqrt{\frac{ab+2c^2}{1+ab-c^2}} + \sqrt{\frac{bc+2a^2}{1+bc-a^2}} + \sqrt{\frac{ca+2b^2}{1+ca-b^2}} - 2(ab+bc+ca)$.
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

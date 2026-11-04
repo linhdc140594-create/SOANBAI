@@ -1,0 +1,79 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_09 (TRÍCH ĐỀ 9)
+\begin{ex}
+% Câu 13
+	Cho nửa đường tròn $(O;R)$ đường kính $AB$. Tiếp tuyến tại điểm $M$ thuộc nửa đường tròn ($M$ khác $A, B$) cắt các tiếp tuyến tại $A$ và $B$ lần lượt tại các điểm $C, D$.
+	\begin{enumerate}
+		\item[a)] Chứng minh rằng: Tứ giác $ACMO$ nội tiếp.
+		\item[b)] Gọi $E$ là giao điểm của $OC$ và $AM$. Vẽ $MH$ vuông góc với $AB$ tại $H$. Gọi $I$ là giao điểm của $MH$ và $BC$. Chứng minh $E$ là trung điểm của $AM$ và $IE$ song song với $AB$.
+	\end{enumerate}
+\loigiai{
+{
+		\begin{center}
+		\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+			% Def
+			\def\r{3} 
+			\def\a{2}
+			
+			% Coordinates
+			\coordinate (O) at (0,0);
+			\coordinate (A) at (-\r,0);
+			\coordinate (B) at (\r,0);
+			\coordinate (C) at (-\r,\a);
+			\coordinate (D) at (\r, \r*\r/\a); % D(r, r^2/a)
+			
+			\coordinate (M) at ($(C)!(O)!(D)$); % M la hinh chieu cua O len CD
+			
+			\coordinate (K) at ($(C)!-1!(A)$); % C la trung diem cua AK
+			
+			\coordinate (H) at ($(A)!(M)!(B)$); % H la hinh chieu cua M len AB 
+			
+			\coordinate (E) at ($(A)!0.5!(M)$); % E la trung diem cua AM (NEW)
+			\coordinate (I) at ($(M)!0.5!(H)$); % I la trung diem cua MH (NEW)
+			
+			% Draw
+			\draw (O) circle (\r); % Ve duong tron (O;r)
+			
+			\draw (A) -- (B) -- (D) -- (C) -- cycle; % Ve A-B-D-C-A
+			\draw (C) -- (K) -- (M); % Ve C-K-M
+			\draw (C) -- (O);        % Ve C-O
+			\draw (A) -- (M);        % Ve A-M
+			\draw (E) -- (I);        % Ve E-I (NEW)
+			\draw (O) -- (M) -- (H);        % Ve O-M
+			\draw (K) -- (B);        % Ve K-B (NEW)
+			
+			% Ky hieu goc vuong
+			% Can \usetikzlibrary{angles, quotes} o preamble
+			\pic[draw, angle radius=3mm]{right angle = C--A--O}; % Goc CAO vuong tai A
+			\pic[draw, angle radius=3mm]{right angle = M--H--B}; % Goc MHB vuong tai H
+			\pic[draw, angle radius=3mm]{right angle = O--B--D}; % Goc OBD vuong tai B
+			
+			% Fill 
+			\fill (O) circle (1.5pt); 
+			\fill (A) circle (1.5pt); 
+			\fill (B) circle (1.5pt);
+			\fill (C) circle (1.5pt); 
+			\fill (D) circle (1.5pt); 
+			\fill (M) circle (1.5pt);
+			\fill (K) circle (1.5pt); 
+			\fill (H) circle (1.5pt);
+			\fill (E) circle (1.5pt); % Fill diem E (NEW)
+			\fill (I) circle (1.5pt); % Fill diem I (NEW)
+			
+			% Nodes	
+			\node[below left] at (O) {$O$}; 
+			\node[below left] at (A) {$A$}; 
+			\node[below right] at (B) {$B$};
+			\node[above left] at (C) {$C$}; 
+			\node[above right] at (D) {$D$}; 
+			\node[above] at (M) {$M$}; 
+			\node[above right] at (K) {$K$}; 
+			\node[below] at (H) {$H$}; 
+			\node[above] at (E) {$E$}; % Node cho diem E (NEW), vị trí có thể cần điều chỉnh
+			\node[right] at (I) {$I$}; % Node cho diem I (NEW), vị trí có thể cần điều chỉnh
+			
+			% Ve va danh dau doan thẳng bằng nhau
+		\end{tikzpicture}
+		
+		\end{center}
+}
+\end{ex}

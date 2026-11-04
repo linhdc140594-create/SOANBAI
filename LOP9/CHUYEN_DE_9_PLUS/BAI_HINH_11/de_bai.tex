@@ -1,0 +1,157 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_11 (TRÍCH ĐỀ 11)
+\begin{ex}
+% Câu 13
+	Cho tam giác $ABC$ nhọn nội tiếp đường tròn $(O)$. Các đường cao $BD$ và $CE$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là trung điểm của $BC$ và $AH$.
+	\begin{enumerate}
+		\item[1)] (1,0 điểm) Chứng minh tứ giác $BCDE$ nội tiếp.
+		\item[2)] (1,0 điểm) Chứng minh $\widehat{NDM} = \widehat{NEM}$. Gọi $K, L$ lần lượt là giao điểm của hai đường thẳng $OM$ và $CE$, $MN$ và $BD$. Chứng minh $KL$ song song với $AC$.
+	\end{enumerate}
+\loigiai{
+{
+	\begin{center}
+		\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1.5] % Increased scale for clarity
+			\usetikzlibrary{calc,intersections}
+			
+			% Khai báo bán kính
+			\def\r{3}
+			
+			% Định nghĩa tọa độ các điểm ban đầu
+			\coordinate (O) at (0,0);
+			\coordinate (A) at (130:\r);   % Tọa độ cực A(110 độ, r)
+			\coordinate (B) at (-160:\r);  % Tọa độ cực B(-160 độ, r)
+			\coordinate (C) at (-20:\r);   % Tọa độ cực C(-20 độ, r)
+			
+			% E là hình chiếu của C lên AB
+			\coordinate (E) at ($(A)!(C)!(B)$);
+			% D là hình chiếu của B lên AC
+			\coordinate (D) at ($(A)!(B)!(C)$);
+			
+			% H là giao điểm của CE và BD (Trực tâm của tam giác ABC nếu A,B,C không thẳng hàng)
+			% Xác định đường thẳng CE và BD để tìm giao điểm H
+			\path[name path=lineCE] (C) -- ($(C)!1.5!(E)$); % Kéo dài CE một chút để chắc chắn cắt
+			\path[name path=lineBD] (B) -- ($(B)!1.5!(D)$); % Kéo dài BD một chút
+			\path[name intersections={of=lineCE and lineBD, by=H}];
+			
+			% N là trung điểm của AH
+			\coordinate (N) at ($(A)!0.5!(H)$);
+			% M là trung điểm của BC
+			\coordinate (M) at ($(B)!0.5!(C)$);
+			% P là trung điểm của ED
+			\coordinate (P) at ($(E)!0.5!(D)$);
+			
+			% L là giao điểm của MN và BD
+			\path[name path=lineMN] (M) -- ($(M)!1.5!(N)$); % Kéo dài MN
+			\path[name intersections={of=lineMN and lineBD, by=L}];
+			
+			% K là giao điểm của OM và CE
+			\path[name path=lineOM] (O) -- ($(O)!1.5!(M)$); % Kéo dài OM
+			\path[name intersections={of=lineOM and lineCE, by=K}];
+			
+			% Vẽ các đối tượng hình học
+			\draw (O) circle (\r);              % Đường tròn (O,r)
+			\draw (A) -- (B) -- (C) -- cycle;   % Tam giác ABC
+			\draw (B) -- (D);                   % Đoạn thẳng BD (đường cao từ B)
+			\draw (C) -- (E);                   % Đoạn thẳng CE (đường cao từ C)
+			\draw (A) -- (H);                   % Đoạn thẳng AH (phần đường cao từ A)
+			\draw (E) -- (D) -- (N);                   % Đoạn thẳng ED (cạnh của tam giác pedal)
+			\draw (M) -- (E);
+			\draw (M) -- (D);
+			\draw (M) -- (N) -- (E);
+			\draw (O) -- (M);                   % Đoạn OM (đường nối tâm với trung điểm BC)
+			\draw (K) -- (L);
+			
+			% Tô màu và đặt nhãn cho các điểm (theo kiểu cũ)
+			\fill (O) circle (1pt);
+			\fill (A) circle (1pt);
+			\fill (B) circle (1pt);
+			\fill (C) circle (1pt);
+			\fill (D) circle (1pt);
+			\fill (E) circle (1pt);
+			\fill (H) circle (1pt);
+			\fill (M) circle (1pt);
+			\fill (N) circle (1pt);
+			\fill (P) circle (1pt);
+			\fill (K) circle (1pt);
+			\fill (L) circle (1pt);
+			
+			\node[above] at (O) {$O$};
+			\node[above] at (A) {$A$};
+			\node[below left] at (B) {$B$};
+			\node[below right] at (C) {$C$};
+			\node[above right] at (D) {$D$};
+			\node[above left] at (E) {$E$};
+			\node[below] at (H) {$H$};
+			\node[below] at (M) {$M$};
+			\node[above right] at (N) {$N$};
+			\node[below] at (P) {$P$};
+			\node[below right] at (K) {$K$};
+			\node[right] at (L) {$L$};
+			\pic[draw, angle radius=3mm]{right angle = C--E--B};
+			\pic[draw, angle radius=3mm]{right angle = C--D--B};
+		\end{tikzpicture}
+		
+	\end{center}
+	\noindent
+	\textbf{OM cắt CD tại K. Chứng minh $OK \cdot OM = R^2$.} \\
+	\\
+	Ta có: Tam giác $ODM$ vuông tại $D$ (vì $\widehat{ODM} = 90^\circ$). \\
+	Mặt khác: $MC = MD$ (Tính chất hai tiếp tuyến cắt nhau); \\
+	$OC = OD = R$. \\
+	Suy ra $OM$ là đường trung trực của đoạn thẳng $CD$ suy ra $OM \perp CD$. \\
+	\\
+	Trong tam giác vuông $ODM$ tại $D$ và tam giác $OKD$ đồng dạng (g-g) nên ta có: \\
+	$OD^2 = OK \cdot OM$. \\
+	suy ra $OK \cdot OM = R^2$. \\
+	\\
+	Theo t/c hai tiếp tuyến cắt nhau ta có $MO$ là tia phân giác của góc $PMQ$, mặt \\
+	khác $MO \perp PQ$ nên tam giác $PMQ$ cân tại $M$ suy ra $PQ = 2OP$. \\
+	\\
+	Ta có $S_{PMQ} = \frac{1}{2} MO \cdot PQ = MO \cdot OP$. \\
+	\\
+	Trong tam giác vuông $OMP$ ta có: $OC \cdot PM = OP \cdot OM$. \\
+	$\Rightarrow OC^2 \cdot PM^2 = OP^2 \cdot OM^2$. \\
+	\\
+	$\frac{1}{OC^2} = \frac{1}{OP^2} + \frac{1}{OM^2}$ suy ra $\frac{1}{R^2} = \frac{1}{OP^2} + \frac{1}{OM^2}$. \\
+	\\
+	Áp dụng bất đẳng thức Cô si : \\
+	$\frac{1}{OP^2} + \frac{1}{OM^2} \ge 2 \sqrt{\frac{1}{OP^2} \cdot \frac{1}{OM^2}} = \frac{2}{OP \cdot OM}$ suy ra $\frac{1}{R^2} \ge \frac{2}{S_{PMQ}}$. \\
+	\\
+	$S_{PMQ} \ge 2R^2$. Dấu “=” xảy ra khi
+	$\begin{cases}
+		\frac{1}{OP^2} = \frac{1}{OM^2} \\
+		OM \cdot OP = 2R^2
+	\end{cases}$
+	suy ra $OM = OP = R\sqrt{2}$. \\
+	\\
+	Vậy $S_{PMQ}$ đạt giá trị nhỏ nhất khi $OM = R\sqrt{2}$. \\
+	\\
+	% Nội dung mới từ ảnh thứ hai
+	Tứ giác $BCDE$ nội tiếp đường tròn đường kính $BC$ nên \\
+	$MD = ME = \frac{1}{2} BC$. \\
+	\\
+	Tứ giác $AFHD$ nội tiếp đường tròn đường kính $AH$ nên \\
+	$ND = NE = \frac{1}{2} AH$. \\
+	\\
+	$\Rightarrow \triangle NDM = \triangle NEM \text{ (c.c.c)}$. \\
+	$\Rightarrow \widehat{NDM} = \widehat{NEM}$. \\
+	\\
+	Vì $ME = MD$ và $NE = ND$ nên $MN$ là đường trung trực của $DE$. \\
+	$\Rightarrow MN \perp DE$. \\
+	\\
+	Gọi $P$ là giao điểm của $MN$ và $DE$. \\
+	\\
+	Tam giác $LPD$ có $\widehat{PDL} + \widehat{PLD} = 90^\circ \text{ (1)}$. \\
+	\\
+	Do $OM$ là trung trực của $BC$ nên tam giác $MKC$ vuông tại $M$, có \\
+	$\widehat{KCM} + \widehat{CKM} = 90^\circ \text{ (2)}$. \\
+	\\
+	Tứ giác $BCDE$ nội tiếp nên $\widehat{KCM} = \widehat{PDL} \text{ (3)}$. \\
+	\\
+	$\text{Từ (1), (2), (3) } \Rightarrow \widehat{PLD} = \widehat{CKM} \text{ mà } \widehat{PLD} = \widehat{MLB} \text{ (đối đỉnh)},$ \\
+	$\widehat{CKM} = \widehat{MKB} \text{ (KM là trung trực của BC) } \Rightarrow \widehat{MLB} = \widehat{MKB}$. \\
+	\\
+	$\Rightarrow \text{Tứ giác } BMKL \text{ nội tiếp.}$ \\
+	\\
+	$\text{Vì } \widehat{BMK} = 90^\circ \Rightarrow \widehat{BLK} = 90^\circ \Rightarrow KL \perp BD \text{ mà } AC \perp BD \Rightarrow KL \text{ // } AC.$
+}
+\end{ex}

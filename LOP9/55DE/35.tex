@@ -1,0 +1,117 @@
+
+\begin{ex}
+	Giải hệ phương trình $\begin{cases} 3x-y=4 \\ x+2y=6 \end{cases}$.
+	\loigiai{
+		Ta có hệ phương trình:
+		$$ \begin{cases} 3x-y=4 \quad &(1) \\ x+2y=6 \quad &(2) \end{cases} $$
+		Từ phương trình (1), suy ra $y = 3x-4$.
+		Thế $y = 3x-4$ vào phương trình (2):
+		\begin{align*} x + 2(3x-4) &= 6 \\ x + 6x - 8 &= 6 \\ 7x &= 6 + 8 \\ 7x &= 14 \\ x &= \frac{14}{7} \\ x &= 2 \end{align*}
+		Thay $x=2$ vào $y = 3x-4$:
+		\begin{align*} y &= 3(2) - 4 \\ y &= 6 - 4 \\ y &= 2 \end{align*}
+		Vậy nghiệm của hệ phương trình là $(x;y) = (2;2)$.
+		\\ \textbf{Đáp số: $(x;y) = (2;2)$}
+	}
+\end{ex}
+
+\begin{ex}
+	Cho $a>0$ và $a \neq 1$. Rút gọn biểu thức $P = \left( \frac{1}{\sqrt{a}+1} - \frac{1}{a+\sqrt{a}} \right) : \frac{\sqrt{a}-1}{2\sqrt{a}+2}$.
+	\loigiai{
+		Điều kiện: $a>0, a \neq 1$.
+		Ta có $a+\sqrt{a} = \sqrt{a}(\sqrt{a}+1)$ và $2\sqrt{a}+2 = 2(\sqrt{a}+1)$.
+		\begin{align*} P &= \left( \frac{1}{\sqrt{a}+1} - \frac{1}{\sqrt{a}(\sqrt{a}+1)} \right) : \frac{\sqrt{a}-1}{2(\sqrt{a}+1)} \\ &= \left( \frac{\sqrt{a}}{\sqrt{a}(\sqrt{a}+1)} - \frac{1}{\sqrt{a}(\sqrt{a}+1)} \right) \cdot \frac{2(\sqrt{a}+1)}{\sqrt{a}-1} \\ &= \frac{\sqrt{a}-1}{\sqrt{a}(\sqrt{a}+1)} \cdot \frac{2(\sqrt{a}+1)}{\sqrt{a}-1} \end{align*}
+		Vì $a>0$ và $a \neq 1$, nên $\sqrt{a}-1 \neq 0$ và $\sqrt{a}+1 \neq 0$.
+		\begin{align*} P &= \frac{\cancel{(\sqrt{a}-1)}}{\sqrt{a}\cancel{(\sqrt{a}+1)}} \cdot \frac{2\cancel{(\sqrt{a}+1)}}{\cancel{(\sqrt{a}-1)}} \\ &= \frac{2}{\sqrt{a}} \end{align*}
+		Vậy $P = \frac{2}{\sqrt{a}}$.
+		\\ \textbf{Đáp số: $P = \frac{2}{\sqrt{a}}$}
+	}
+\end{ex}
+
+\begin{ex}
+	Cho phương trình $x^2-4x-1=0$, không giải phương trình, hãy tính giá trị của biểu thức $T=x_1^2+x_2^2-x_1x_2$.
+	\loigiai{
+		Phương trình $x^2-4x-1=0$ có $a=1, b=-4, c=-1$.
+		$\Delta' = b'^2 - ac = (-2)^2 - 1(-1) = 4+1=5 > 0$.
+		Phương trình có hai nghiệm phân biệt $x_1, x_2$.
+		Theo hệ thức Vi-ét, ta có:
+		$$ \begin{cases} x_1 + x_2 = -\frac{b}{a} = -\frac{-4}{1} = 4 \\ x_1 x_2 = \frac{c}{a} = \frac{-1}{1} = -1 \end{cases} $$
+		Ta biến đổi biểu thức T:
+		\begin{align*} T &= x_1^2+x_2^2-x_1x_2 \\ &= (x_1+x_2)^2 - 2x_1x_2 - x_1x_2 \\ &= (x_1+x_2)^2 - 3x_1x_2 \end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức T:
+		\begin{align*} T &= (4)^2 - 3(-1) \\ &= 16 + 3 \\ &= 19 \end{align*}
+		Vậy $T=19$.
+		\\ \textbf{Đáp số: $T=19$}
+	}
+\end{ex}
+\begin{ex} % Câu 12 (Xác suất)
+	Một chiếc hộp có chứa 5 tấm thẻ cùng loại, được đánh số lần lượt là 3; 5; 6; 7; 9. Lấy ngẫu nhiên đồng thời 2 tấm thẻ từ hộp. Tính xác suất của biến cố A: "Tích các số ghi trên 2 tấm thẻ chia hết cho 3".
+	\loigiai{
+		Tập hợp các kết quả có thể xảy ra khi lấy ngẫu nhiên đồng thời 2 tấm thẻ từ hộp là:
+		(3;5); (3;6); (3;7); (3;9); (5;6); (5;7); (5;9); (6;7); (6;9); (7;9).
+		Số phần tử của không gian mẫu là 10.
+		
+		Tập hợp các kết quả thuận lợi cho biến cố A (tích các số ghi trên 2 tấm thẻ chia hết cho 3) là:
+		(3;5); (3;6); (3;7); (3;9); (5;6); (5;9); (6;7); (6;9); (7;9).
+		Số phần tử của biến cố A là 9.
+		
+		Xác suất của biến cố A là:
+		\begin{align*}
+			P(A) = \frac{9}{10}
+		\end{align*}
+	}
+\end{ex}
+
+\begin{ex} % Câu 12 (Bài toán lập hệ phương trình)
+	Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng 15m. Nếu giảm chiều dài 2m và tăng chiều rộng 3m thì diện tích tăng thêm 44m$^2$. Tính diện tích mảnh vườn đó.
+	\loigiai{
+		Gọi chiều dài ban đầu của mảnh vườn là $x$ (m) và chiều rộng ban đầu là $y$ (m).
+		Điều kiện: $x > y > 0$, $x > 2$.
+		
+		Theo đề bài, chiều dài hơn chiều rộng 15m, ta có phương trình:
+		$x - y = 15 \quad (1)$
+		
+		Diện tích ban đầu của mảnh vườn là $S_1 = xy$ (m$^2$).
+		
+		Nếu giảm chiều dài 2m, chiều dài mới là $x-2$ (m).
+		Nếu tăng chiều rộng 3m, chiều rộng mới là $y+3$ (m).
+		Diện tích mới của mảnh vườn là $S_2 = (x-2)(y+3)$ (m$^2$).
+		
+		Theo đề bài, diện tích tăng thêm 44m$^2$, nên ta có phương trình:
+		$S_2 - S_1 = 44$
+		\begin{align*}
+			(x-2)(y+3) - xy &= 44 \\
+			xy + 3x - 2y - 6 - xy &= 44 \\
+			3x - 2y - 6 &= 44 \\
+			3x - 2y &= 50 \quad (2)
+		\end{align*}
+		Từ (1) và (2), ta có hệ phương trình:
+		$$ \begin{cases} x - y = 15 \\ 3x - 2y = 50 \end{cases} $$
+		Từ (1) suy ra $x = y + 15$. Thế vào (2):
+		\begin{align*}
+			3(y+15) - 2y &= 50 \\
+			3y + 45 - 2y &= 50 \\
+			y + 45 &= 50 \\
+			y &= 5
+		\end{align*}
+		Giá trị $y=5$ thỏa mãn điều kiện $y>0$.
+		Thay $y=5$ vào $x = y+15$:
+		$x = 5 + 15 = 20$.
+		Giá trị $x=20$ thỏa mãn điều kiện $x>y$ (vì $20>5$) và $x>2$.
+		
+		Vậy, chiều dài ban đầu của mảnh vườn là 20m và chiều rộng ban đầu là 5m.
+		Diện tích ban đầu của mảnh vườn là:
+		\begin{align*}
+			S_1 = x \times y = 20 \times 5 = 100 \quad (\text{m}^2)
+		\end{align*}
+		Vậy diện tích mảnh vườn đó là 100 m$^2$.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho đường tròn $(O;R)$, đường kính $AB$. Gọi $D$ là trung điểm của đoạn $OB$. Từ $D$ kẻ dây $PQ$ của đường tròn $(O)$ vuông góc với đường kính $AB$. Lấy $M$ là một điểm bất kỳ trên cung nhỏ $AP$, dây $MB$ cắt dây $PQ$ tại $I$.
+	\begin{enumerate}
+		\item Chứng minh 4 điểm $D, I, M, A$ cùng thuộc một đường tròn.
+		\item Chứng minh $QB^2 = BI \cdot BM$.
+		\item Gọi $C$ là một điểm nằm trên dây $MQ$ sao cho $MP = MC$. Xác định vị trí $M$ trên cung nhỏ $AP$ để tổng $S = MA + MP$ đạt giá trị lớn nhất.
+	\end{enumerate}
+\end{ex}
+

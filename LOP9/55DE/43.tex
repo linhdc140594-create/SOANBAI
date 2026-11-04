@@ -1,0 +1,149 @@
+
+\begin{ex} % Câu 9
+	Giải hệ phương trình: $ \begin{cases} 2x+y=9 \\ 3x-2y=10 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 2x+y=9 \quad &(1) \\ 3x-2y=10 \quad &(2) \end{cases} $
+		Nhân phương trình (1) với 2:
+		$ \begin{cases} 4x+2y=18 \quad &(1') \\ 3x-2y=10 \quad &(2) \end{cases} $
+		Cộng vế theo vế của phương trình (1') và (2):
+		\begin{align*}
+			(4x+2y) + (3x-2y) &= 18 + 10 \\
+			4x + 2y + 3x - 2y &= 28 \\
+			7x &= 28 \\
+			x &= 4
+		\end{align*}
+		Thay $x=4$ vào phương trình (1):
+		\begin{align*}
+			2(4) + y &= 9 \\
+			8 + y &= 9 \\
+			y &= 9 - 8 \\
+			y &= 1
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (4;1)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Cho $0<x$. Rút gọn biểu thức $P = \left(\frac{1}{\sqrt{x}+2} + \frac{1}{x+2\sqrt{x}}\right) : \frac{\sqrt{x}+1}{2\sqrt{x}+4}$
+	\loigiai{
+		Điều kiện: $0<x$.
+		Ta có:
+		$x+2\sqrt{x} = \sqrt{x}(\sqrt{x}+2)$
+		$2\sqrt{x}+4 = 2(\sqrt{x}+2)$
+		Xét phần trong ngoặc:
+		\begin{align*}
+			\frac{1}{\sqrt{x}+2} + \frac{1}{x+2\sqrt{x}} &= \frac{1}{\sqrt{x}+2} + \frac{1}{\sqrt{x}(\sqrt{x}+2)} \\
+			&= \frac{\sqrt{x}}{\sqrt{x}(\sqrt{x}+2)} + \frac{1}{\sqrt{x}(\sqrt{x}+2)} \\
+			&= \frac{\sqrt{x}+1}{\sqrt{x}(\sqrt{x}+2)}
+		\end{align*}
+		Vậy biểu thức $P$ trở thành:
+		\begin{align*}
+			P &= \frac{\sqrt{x}+1}{\sqrt{x}(\sqrt{x}+2)} : \frac{\sqrt{x}+1}{2(\sqrt{x}+2)} \\
+			&= \frac{\sqrt{x}+1}{\sqrt{x}(\sqrt{x}+2)} \cdot \frac{2(\sqrt{x}+2)}{\sqrt{x}+1}
+		\end{align*}
+		Vì $x>0$, nên $\sqrt{x}+1 > 0$ và $\sqrt{x}+2 > 0$. Ta có thể rút gọn:
+		\begin{align*}
+			P &= \frac{2}{\sqrt{x}}
+		\end{align*}
+		Vậy, với $0<x$ thì $P = \frac{2}{\sqrt{x}}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Biết phương trình bậc hai $x^2-4x+1=0$ có hai nghiệm phân biệt $x_1, x_2$. Không giải phương trình. Hãy tính giá trị của biểu thức: $F=x_1^3+x_2^3+3x_1x_2(x_1+x_2+2)$.
+	\loigiai{
+		Phương trình đã cho là $x^2-4x+1=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = - \frac{-4}{1} = 4 \\ x_1 x_2 = \frac{1}{1} = 1 \end{cases} $
+		Ta biến đổi biểu thức $F$:
+		$x_1^3+x_2^3 = (x_1+x_2)(x_1^2-x_1x_2+x_2^2) = (x_1+x_2)((x_1+x_2)^2-3x_1x_2)$.
+		\begin{align*}
+			F &= (x_1+x_2)((x_1+x_2)^2-3x_1x_2) + 3x_1x_2(x_1+x_2+2)
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức F:
+		\begin{align*}
+			F &= (4)((4)^2-3(1)) + 3(1)(4+2) \\
+			&= 4(16-3) + 3(6) \\
+			&= 4(13) + 18 \\
+			&= 52 + 18 \\
+			&= 70
+		\end{align*}
+		Vậy, giá trị của biểu thức $F = 70$.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Một công viên hình chữ nhật có chiều dài hơn chiều rộng 20 mét và có chu vi bằng 160 m.
+	\begin{enumerate}[a)]
+		\item Tính chiều dài và chiều rộng của công viên?
+		\item Công viên được lát bằng gạch chống trơn và chi phí lát gạch chống trơn cho 1 m$^2$ là 350 nghìn đồng. Hỏi kinh phí lát gạch chống trơn của khuôn viên là bao nhiêu tiền?
+	\end{enumerate}
+	\loigiai{
+		\textbf{a) Tính chiều dài và chiều rộng của công viên}
+		
+		Gọi $x$ (mét) là chiều dài của công viên.
+		Gọi $y$ (mét) là chiều rộng của công viên.
+		Điều kiện: $x > 0, y > 0$.
+		
+		Theo đề bài, chiều dài hơn chiều rộng 20 mét, nên ta có phương trình:
+		$x - y = 20 \quad (1)$
+		
+		Chu vi của công viên bằng 160 m. Công thức tính chu vi hình chữ nhật là $2(\text{chiều dài} + \text{chiều rộng})$, nên ta có phương trình:
+		$2(x+y) = 160$
+		$x+y = \frac{160}{2}$
+		$x+y = 80 \quad (2)$
+		
+		Từ (1) và (2), ta có hệ phương trình:
+		$ \begin{cases} x - y = 20 \\ x + y = 80 \end{cases} $
+		
+		Cộng vế theo vế của hai phương trình trong hệ, ta được:
+		\begin{align*}
+			(x-y) + (x+y) &= 20 + 80 \\
+			x - y + x + y &= 100 \\
+			2x &= 100 \\
+			x &= 50
+		\end{align*}
+		Thay $x=50$ vào phương trình (2):
+		\begin{align*}
+			50 + y &= 80 \\
+			y &= 80 - 50 \\
+			y &= 30
+		\end{align*}
+		Vậy, chiều dài của công viên là 50 mét và chiều rộng của công viên là 30 mét.
+		
+		\textbf{b) Tính kinh phí lát gạch chống trơn của khuôn viên}
+		
+		Diện tích của công viên hình chữ nhật là:
+		$S = \text{chiều dài} \times \text{chiều rộng} = x \cdot y$
+		\begin{align*}
+			S &= 50 \cdot 30 \\
+			&= 1500 \text{ (m}^2\text{)}
+		\end{align*}
+		Chi phí lát gạch chống trơn cho 1 m$^2$ là 350 nghìn đồng.
+		Tổng kinh phí lát gạch chống trơn cho toàn bộ khuôn viên là:
+		\begin{align*}
+			\text{Kinh phí} &= \text{Diện tích} \times \text{Đơn giá lát gạch} \\
+			&= 1500 \text{ m}^2 \times 350 \text{ nghìn đồng/m}^2 \\
+			&= 525000 \text{ nghìn đồng}
+		\end{align*}
+		Đổi ra đồng: $525000 \text{ nghìn đồng} = 525,000,000$ đồng.
+		
+		Vậy, kinh phí lát gạch chống trơn của khuôn viên là 525,000,000 đồng.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho tam giác nhọn $ABC$ ($AB \ne AC$). Vẽ đường tròn tâm $O$ đường kính $BC$ cắt hai cạnh $AB$ và $AC$ lần lượt tại $F$ và $E$. $BE$ cắt $CF$ tại $H$.
+	\begin{enumerate}[a)]
+		\item Chứng minh bốn điểm $A, E, H, F$ cùng nằm trên một đường tròn.
+		\item Tia $AH$ cắt $BC$ tại $D$. Chứng minh $DH \cdot DA = DB \cdot DC$ và $OE$ là các tiếp tuyến của đường tròn ngoại tiếp tam giác $EHF$?
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	Cho $a, b, c \in [0;6]$ và thỏa mãn $a+b+c=9$. Tìm giá trị lớn nhất của biểu thức:
+	$F=a^3+b^3+c^3$.
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

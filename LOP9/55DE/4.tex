@@ -1,0 +1,213 @@
+\begin{tomtat}
+	\textbf{ĐỀ 04}
+\end{tomtat}
+\begin{ex}
+	Cho $a > 0$ và $a \ne 1$. Rút gọn biểu thức $P = \left(\frac{1}{\sqrt{a}+2} - \frac{1}{a+2\sqrt{a}}\right) : \frac{\sqrt{a}-1}{2\sqrt{a}+4}$.
+	\loigiai{
+		Với $a > 0$ và $a \ne 1$, ta có:
+		\begin{align*}
+			P &= \left(\frac{1}{\sqrt{a}+2} - \frac{1}{\sqrt{a}(\sqrt{a}+2)}\right) : \frac{\sqrt{a}-1}{2(\sqrt{a}+2)} \\
+			&= \frac{\sqrt{a} - 1}{\sqrt{a}(\sqrt{a}+2)} : \frac{\sqrt{a}-1}{2(\sqrt{a}+2)} \\
+			&= \frac{\sqrt{a} - 1}{\sqrt{a}(\sqrt{a}+2)} \cdot \frac{2(\sqrt{a}+2)}{\sqrt{a}-1}
+		\end{align*}
+		Vì $a \ne 1$ nên $\sqrt{a} \ne 1$, do đó $\sqrt{a}-1 \ne 0$. Ta có thể rút gọn $\sqrt{a}-1$.
+		Vì $a > 0$ nên $\sqrt{a}+2 \ne 0$. Ta có thể rút gọn $\sqrt{a}+2$.
+		\begin{align*}
+			P &= \frac{1}{\sqrt{a}} \cdot \frac{2}{1} \\
+			&= \frac{2}{\sqrt{a}}
+		\end{align*}
+		Vậy $P = \frac{2}{\sqrt{a}}$.
+	}
+\end{ex}
+
+\begin{ex}
+	Cho phương trình $x^2 - 4x + 1 = 0$. Không giải phương trình, hãy tính giá trị biểu thức $T = |x_1 - x_2|$.
+	\loigiai{
+		Phương trình đã cho là $x^2 - 4x + 1 = 0$.
+		Đây là phương trình bậc hai có dạng $ax^2+bx+c=0$ với $a=1$, $b=-4$, $c=1$.
+		Ta tính biệt thức $\Delta = b^2-4ac = (-4)^2 - 4(1)(1) = 16 - 4 = 12$.
+		Vì $\Delta = 12 > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.
+		
+		Theo hệ thức Vi-ét, ta có:
+		$$ \begin{cases} 
+			x_1+x_2 = \dfrac{-b}{a} = \dfrac{-(-4)}{1} = 4 \\ 
+			x_1x_2 = \dfrac{c}{a} = \dfrac{1}{1} = 1 
+		\end{cases} $$
+		Ta cần tính giá trị biểu thức $T = |x_1 - x_2|$.
+		Ta biết rằng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2$.
+		Do đó, $|x_1-x_2| = \sqrt{(x_1+x_2)^2 - 4x_1x_2}$ (vì $|x_1-x_2| \ge 0$).
+		Thay giá trị $x_1+x_2$ và $x_1x_2$ đã tính ở trên vào biểu thức:
+		\begin{align*}
+			T &= \sqrt{(4)^2 - 4(1)} \\
+			&= \sqrt{16 - 4} \\
+			&= \sqrt{12} \\
+			&= \sqrt{4 \cdot 3} \\
+			&= 2\sqrt{3}
+		\end{align*}
+		Vậy giá trị của biểu thức $T$ là $2\sqrt{3}$.
+	}
+\end{ex}
+
+\begin{ex}
+	Giải hệ phương trình sau: $\begin{cases} x - 3y = 4 \\ 2x + y = 1 \end{cases}$.
+	\loigiai{
+		Ta có hệ phương trình:
+		$$ \begin{cases} x - 3y = 4 & (1) \\ 2x + y = 1 & (2) \end{cases} $$
+		Từ phương trình (1), ta biểu diễn $x$ theo $y$: $x = 4 + 3y$.
+		Thay biểu thức của $x$ này vào phương trình (2):
+		\begin{align*}
+			2(4 + 3y) + y &= 1 \\
+			8 + 6y + y &= 1 \\
+			7y &= 1 - 8 \\
+			7y &= -7 \\
+			y &= -1
+		\end{align*}
+		Thay giá trị $y=-1$ vào biểu thức $x = 4 + 3y$:
+		\begin{align*}
+			x &= 4 + 3(-1) \\
+			x &= 4 - 3 \\
+			x &= 1
+		\end{align*}
+		Vậy nghiệm của hệ phương trình là $(x; y) = (1; -1)$.
+	}
+\end{ex}
+
+\begin{ex}
+	Trong trò chơi gieo thẻ từ thẻ số 1 đến thẻ số 8. Tính xác suất của biến cố "thẻ lấy ra được ghi số chia hết cho 4".
+	\loigiai{
+		Tập hợp tất cả các kết quả có thể xảy ra là:
+		 $\{1, 2, 3, 4, 5, 6, 7, 8\}$. \\
+		Tập hợp các kết quả thuận lợi cho biến cố "thẻ lấy ra được ghi số chia hết cho 4" là: $\{4, 8\}$. \\
+		Xác suất của biến cố là: $P(A) = \frac{\text{Số kết quả thuận lợi}}{\text{Tổng số kết quả có thể}} = \frac{2}{8} = \frac{1}{4}$.
+	}
+\end{ex}
+
+\begin{ex}
+	Một mảnh vườn hình chữ nhật có chiều dài hơn chiều rộng 15 m. Nếu giảm chiều dài 2 m và tăng chiều rộng 3 m thì diện tích tăng thêm 44 m$^2$. Tính diện tích mảnh vườn đó.
+	\loigiai{
+		Gọi chiều dài của mảnh vườn hình chữ nhật ban đầu là $x$ (m) và chiều rộng là $y$ (m).
+		Điều kiện: $x > 0, y > 0$ và $x > y$.
+		
+		Theo đề bài, chiều dài hơn chiều rộng 15 m, nên ta có phương trình thứ nhất:
+		$$ x - y = 15 $$
+		
+		Khi giảm chiều dài 2 m,  tăng chiều rộng 3 m, thì diện tích tăng thêm 44 m$^2$, nên:
+		\begin{align*}
+			(xy + 3x - 2y - 6) - xy &= 44 \\
+			3x - 2y - 6 &= 44 \\
+			3x - 2y &= 50
+		\end{align*}
+		Ta có hệ phương trình:
+		$ \begin{cases} x - y = 15 \\ 3x - 2y = 50 \end{cases} $
+		\\
+		Giải hệ phương trình ta được $x = 20$, $y = 5$ các giá trị này thõa mãn điều kiện ban đầu
+		
+		Chiều rộng ban đầu là $y = 5$ m.
+		Chiều dài ban đầu là $x = 20$ m.
+		Diện tích ban đầu của mảnh vườn là $S_1 = x \cdot y = 20 \cdot 5 = 100$ m$^2$.
+		
+		
+		Vậy diện tích mảnh vườn đó là 100 m$^2$.
+	}
+\end{ex}
+
+
+
+
+\begin{ex}
+	Cho tam giác $ABC$ nhọn. Ba đường cao $AI, BK, CL$ cắt nhau tại $H$. Chứng minh:
+	\begin{enumerate}
+		\item Tứ giác $BIHL$ là tứ giác nội tiếp.
+		%\item $\widehat{AKL} = \widehat{IKC}$ và $H$ là tâm đường tròn nội tiếp tam giác $IKL$.
+	\end{enumerate}
+	\loigiai{
+		\begin{center}
+			\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+				% Def
+				\def\r{3}
+				
+				% Coordinates
+				\coordinate (O) at (0,0);
+				\coordinate (A) at (110:\r);
+				\coordinate (B) at (-160:\r);
+				\coordinate (C) at (-20:\r);
+				
+				\coordinate (I) at ($(B)!(A)!(C)$); % I la hinh chieu cua A len BC
+				\coordinate (L) at ($(A)!(C)!(B)$); % L la hinh chieu cua C len AB
+				\coordinate (K) at ($(A)!(B)!(C)$); % K la hinh chieu cua B len AC
+				
+				% De tim H, can \usetikzlibrary{intersections} o preamble
+				\path[name path=AI] (A) -- (I);
+				\path[name path=CL] (C) -- (L);
+				\coordinate[name intersections={of=AI and CL, by=H}]; % H la giao diem AI va CL
+				
+				% Draw
+				\draw (A) -- (B) -- (C) -- cycle; % Ve tam giac ABC
+				\draw (A) -- (I); % Ve duong cao AI
+				\draw (C) -- (L); % Ve duong cao CL
+				\draw (B) -- (K); % Ve duong cao BK
+				\draw (O) circle (\r);
+				% Ky hieu goc vuong bang lenh \pic
+				% Can \usetikzlibrary{angles, quotes} o preamble
+				\pic[draw, angle radius=2.5mm]{right angle = B--L--C}; % Goc BLC vuong
+				\pic[draw, angle radius=2.5mm]{right angle = A--I--C}; % Goc AIC vuong (hoac AIB)
+				\pic[draw, angle radius=2.5mm]{right angle = B--K--A}; % Goc BKA vuong (hoac CKA)
+				
+				% Fill 
+				\fill (O) circle (1.5pt);
+				\fill (A) circle (1.5pt);
+				\fill (B) circle (1.5pt);
+				\fill (C) circle (1.5pt);
+				\fill (I) circle (1.5pt);
+				\fill (L) circle (1.5pt);
+				\fill (K) circle (1.5pt);
+				\fill (H) circle (1.5pt);
+				
+				% Nodes	
+				\node[above left] at (O) {$O$}; % Vi tri nhan co the can dieu chinh
+				\node[above] at (A) {$A$};
+				\node[below left] at (B) {$B$};
+				\node[right] at (C) {$C$};
+				\node[below right] at (I) {$I$}; % Vi tri nhan co the can dieu chinh
+				\node[above left] at (L) {$L$}; % Vi tri nhan co the can dieu chinh
+				\node[above right] at (K) {$K$}; % Vi tri nhan co the can dieu chinh
+				\node[left] at (H) {$H$}; % Vi tri nhan co the can dieu chinh
+				% Ve va danh dau doan thang bang nhau
+			\end{tikzpicture}
+			
+		\end{center}
+			\begin{enumerate}
+			\item Tứ giác $BIHL$ là tứ giác nội tiếp.
+			
+			
+			\item $\widehat{AKL} = \widehat{IKC}$ và $H$ là tâm đường tròn nội tiếp tam giác $IKL$.
+			
+			AI, CL là đường cao của tam giác ABC nên $AI \perp BC$ và $CL \perp AB$. Do đó
+			$\widehat{AIB} = \widehat{BLC} = 90^\circ$ hay $\widehat{HIB} = \widehat{BLH} = 90^\circ$.
+			
+			hai điểm I, L cùng nằm trên đường tròn đường kính BH.
+			
+			Bốn điểm B, I, L, H cùng nằm trên đường tròn đường kính BH hay tứ giác BIHL nội tiếp đường tròn đường kính BH.
+			
+			Chứng minh tương tự câu 1, ta có tứ giác CIHK nội tiếp đường tròn đường kính CH.
+			
+			$\widehat{IKC} = \widehat{IHC}$ (hai góc nội tiếp cùng chắn cung IC)
+			
+			Chứng minh tương tự, ta có tứ giác AKHL nội tiếp đường tròn đường kính AH nên
+			$\widehat{AKL} = \widehat{AHL}$ (hai góc nội tiếp cùng chắn cung AL).
+			
+			Lại có $\widehat{IHC} = \widehat{AHL}$ (đối đỉnh)
+			
+			Do đó $\widehat{AKL} = \widehat{IKC}$.
+			
+			+ Ta có $\widehat{AKL} + \widehat{LKB} = 90^\circ$ và $\widehat{IKC} + \widehat{IKB} = 90^\circ$
+			
+			Mà $\widehat{AKL} = \widehat{IKC}$ (câu 2) nên $\widehat{LKB} = \widehat{IKB}$ hay KB tức KH là tia phân giác của $\widehat{IKL}$.
+			
+			Chứng minh tương tự, ta có IH là tia phân giác của $\widehat{LIK}$.
+			
+			Xét tam giác IKL có KH, IH là hai đường phân giác của tam giác cắt nhau tại H nên H là tâm đường tròn nội tiếp tam giác IKL.
+			
+		\end{enumerate}
+		}
+\end{ex}

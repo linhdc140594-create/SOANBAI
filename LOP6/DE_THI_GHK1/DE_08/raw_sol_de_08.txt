@@ -1,0 +1,655 @@
+--- TRANG 117 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+ 
+ĐỀ SỐ 8 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các số 23 755; 10 230; 17 280; 18 711. Số nào chia hết cho cả 2; 3; 5; 9 ? 
+A. 23 755. 
+ 
+   
+B. 10 230. 
+ 
+    C. 17 280.  
+       D. 18 711. 
+Lời giải. Số chia hết cho cả 2 và 5 có chữ số tận cùng là 0, do đó chỉ xét 10 230 và 17 280. 
+Xét tổng các chữ số ta thấy: 
+• Số 10 230 có tổng các chữ số là 1
+0
+2
+3
+0
+6
++
++
++ +
+=
+ không chia hết cho 9. 
+• Số 17 280 có tổng các chữ số là 1
+7
+2
+8
+0
+18
++
++
++ +
+=
+ chia hết cho 9. 
+Đáp án đúng: C. 
+Câu 2. Cho 
+
+
+*
+12
+A
+x
+x
+=
+
+
+
+. Tập hợp A có số phần tử là: 
+A. 10. 
+B. 11. 
+C. 12. 
+   D. 13. 
+Lời giải. Các số tự nhiên khác 0 nhỏ hơn hoặc bằng 12 là 
+{1;2;3;
+;12}
+A =
+
+. Tập hợp A có 
+12 phần tử. Đáp án đúng: C. 
+Câu 3. Cho 18 x và 7
+18
+x
+
+
+. Thì x có giá trị là:      
+ A. 2. 
+ 
+ 
+ 
+B. 3.             
+ 
+C. 6.  
+ 
+       D. 9. 
+Lời giải. Các ước của 18 là 1;2;3;6;9;18 . Giá trị thỏa mãn 7
+18
+x
+
+
+ là 
+9
+x = . 
+Đáp án đúng: D. 
+
+
+--- TRANG 118 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 4. Số nào sau đây không phải số nguyên tố?  
+A.  11. 
+ 
+B. 33.     
+ 
+ 
+C.  17. 
+ 
+D. 31. 
+Lời giải. Số 33 chia hết cho 3 và 11. 
+Đáp án đúng: B. 
+Câu 5. Phân tích số 40 ra thừa số nguyên tố ta được kết quả đúng là 
+A. 2 4 5
+. 
+                    B. 
+32
+5
+. 
+                      C. 5 8
+. 
+                  D. 4 10.
+
+ 
+Lời giải. Ta có 
+3
+40
+8 5
+2
+5
+= =
+. Đáp án đúng: B. 
+Câu 6. Cho hình lục giác đều ABCDEG. Nhận định nào sau đây là đúng 
+ 
+A.  OA
+OB
+OC
+OD
+OE
+OG
+=
+=
+=
+=
+=
+ 
+B. OA
+OB
+OC
+OD
+OE
+OG
+
+
+
+
+
+ 
+C. OA
+OB
+OC
+OD
+OE
+OG
+
+
+
+
+
+ 
+D. OA
+OB
+OC
+OD
+OE
+OG
+
+
+
+
+
+ 
+Lời giải. Trong lục giác đều, khoảng cách từ tâm O đến các đỉnh bằng nhau:  
+OA
+OB
+OC
+OD
+OE
+OG
+=
+=
+=
+=
+=
+. 
+Đáp án đúng: A. 
+Câu 7. Khẳng định nào sau đây là sai? 
+
+
+--- TRANG 119 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. Hình chữ nhật và hình thoi có các cặp cạnh đối song song với nhau. 
+B. Hình lục giác đều có ba đường chéo chính bằng nhau. 
+C. Hình bình hành có hai cạnh đối bằng nhau. 
+D. Hình thoi có hai đường chéo bằng nhau. 
+Lời giải. Hai đường chéo của hình thoi vuông góc với nhau tại trung điểm mỗi đường chứ 
+không bằng nhau. 
+Đáp án đúng: D. 
+Câu 8. Hình nào sau đây có các góc bằng nhau? 
+A. Hình thoi.  
+ 
+ 
+ 
+ 
+B. Hình chữ nhật. 
+ 
+C. Hình bình hành.  
+ 
+ 
+ 
+D. Hình thang cân. 
+Lời giải. Hình chữ nhật có bốn góc bằng nhau và bằng 90. Đáp án đúng: B. 
+Câu 9. Một hình thang cân có đáy lớn là a, đáy bé là b, chiều cao là h. Khi đó, công thức 
+tính diện tích hình thang đó là: 
+A. (
+)
+.
+2
+a
+b
+h
++
+
+ 
+B. (
+).
+2
+a
+b
+h
+−
+ 
+C. (
+)
+2.
+a
+b
+h
++
+
+ 
+D. 
+.
+2
+a
+b h
++ 
+ 
+Lời giải. Diện tích hình thang bằng tổng độ dài hai đáy nhân với chiều cao rồi chia cho 2: 
+(
+)
+2
+a
+b
+h
+S
++
+
+=
+.  Đáp án đúng: A. 
+Câu 10. Cho hình thoi ABCD , hai đường chéo AC và BD của hình thoi: 
+ 
+A. Bằng nhau. 
+ 
+B. Không vuông góc.  
+C. Vuông góc với nhau. 
+ 
+D. Cả A và B đều đúng. 
+Lời giải. Hai đường chéo của hình thoi luôn vuông góc với nhau. 
+Đáp án đúng: C. 
+Câu 11. Viết gọn tích 8 8 2 4
+ bằng lũy thừa cơ số 8 là: 
+
+
+--- TRANG 120 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 8.                          
+B. 
+2
+8 .                          
+ C. 
+38 .                         
+D. 
+4
+8 . 
+Lời giải. Ta có 2 4
+8
+
+= , do đó tích trở thành: 
+3
+8 8 8
+8
+=
+. Đáp án đúng: C. 
+Câu 12. Một mảnh vườn hình chữ nhật có chiều dài 5m , chiều rộng 3m . Bác Bình muốn 
+rào kín xung quanh mảnh vườn. Hỏi chiều dài hàng rào cần dùng là bao nhiêu mét? 
+ 
+A. 16m . 
+ 
+B. 10m . 
+C. 8m . 
+ 
+D. 6m . 
+Lời giải. Chiều dài hàng rào chính là chu vi của mảnh vườn hình chữ nhật: 
+(5
+3) 2
+16 (m)
+C =
++
+
+=
+.  
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho các hình sau: tam giác đều, hình vuông, lục giác đều, hình chữ nhật, hình 
+thoi, hình bình hành, hình thang cân. Xét tính đúng sai của các mệnh đề sau: 
+a) Hình tam giác đều, hình vuông, hình lục giác đều có tất cả các cạnh bằng nhau.   
+b) Có 2 hình có hai đường chéo vuông góc với nhau.   
+c) Có 3 hình có hai cạnh đối song song và các đường chéo bằng nhau.   
+d) Hình lục giác đều có độ dài đường chéo gấp đôi độ dài cạnh.   
+Lời giải  
+
+
+--- TRANG 121 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Đúng. Tam giác đều, hình vuông và lục giác đều đều có đặc điểm là tất cả các cạnh bằng 
+nhau. 
+b) Đúng. Hai hình có hai đường chéo vuông góc với nhau là hình vuông và hình thoi. 
+c) Đúng. Ba hình thỏa mãn điều kiện có hai cạnh đối song song và hai đường chéo bằng 
+nhau là hình chữ nhật, hình vuông và hình thang cân. 
+d) Sai. Trong hình lục giác đều, chỉ các đường chéo chính mới có độ dài gấp đôi độ dài 
+cạnh, các đường chéo phụ không có tính chất này. 
+Câu 2. Một chiếc ô tô đang di chuyển với vận tốc ban đầu là 10 km/h . Sau mỗi giờ, vận 
+tốc tăng gấp đôi. Xét tính đúng sai của các mệnh đề sau: 
+a) Sau 1 giờ, ô tô chạy 20 km/h . 
+b) Sau 2 giờ, ô tô chạy 30 km/h . 
+c) Sau 3 giờ, ô tô chạy 80 km/h . 
+d) Sau 4 giờ, ô tô chạy 160 km/h . 
+Lời giải.  
+a) Đúng. Vận tốc ban đầu là 10 km/h , sau 1 giờ vận tốc tăng gấp đôi thành 10 2
+20 km/h
+
+=
+. 
+b) Sai. Sau 2 giờ, vận tốc tiếp tục tăng gấp đôi so với giờ thứ 1, đạt 20 2
+40 km/h
+
+=
+. 
+c) Đúng. Sau 3 giờ, vận tốc tiếp tục tăng gấp đôi so với giờ thứ 2, đạt 40 2
+80 km/h
+
+=
+. 
+d) Đúng. Sau 4 giờ, vận tốc tiếp tục tăng gấp đôi so với giờ thứ 3, đạt 80 2
+160 km/h
+
+=
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Có bao nhiêu số tự nhiên m sao cho 5 < m < 10 và chia hết cho 3? 
+Lời giải. Các số tự nhiên m thỏa mãn 5
+10
+m
+
+
+ là: 6;7;8;9 . 
+Trong các số trên, các số chia hết cho 3 là: 6;9. 
+
+
+--- TRANG 122 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Vậy có 2 số tự nhiên m thỏa mãn yêu cầu đề bài. 
+Đáp án: 2 . 
+Câu 2. Một hình chử nhật có diện tích là 
+2
+120 
+ 
+cm và có chiều dài là 12 cm . Tính độ dài 
+chiều rộng của hình chữ nhật (đơn vị: cm). 
+ 
+Lời giải. 
+Chiều rộng của hình chữ nhật là: 120:12
+10 (cm)
+=
+. Đáp án: 10. 
+Phần IV. Tự luận 
+Câu 1.  Thực hiện phép tính(Tính nhanh nếu có thể): 
+a) 127
+156
+73 144.
++
++
++
+ 
+b) 
+(
+)
+2
+2
+2026 – 20.3
+16 :2
++
+ 
+Lời giải. 
+a) 127
+156
+73 144
++
++
++
+ 
+(127
+73)
+(156 144)
+=
++
++
++
+ 
+200
+300
+500
+=
++
+=
+. 
+b) 
+2
+2
+2026
+(20 3
+16:2 )
+−
+
++
+ 
+2026
+(20 9 16: 4)
+=
+−
++
+ 
+2026
+(180
+4)
+=
+−
++
+ 
+2026 184
+1842
+=
+−
+=
+. 
+Câu 2. Tìm số tự nhiên x, biết: 
+1) 
+18
+15 
+x −
+=
+;                                        2) 18
+2(
+1)
+40
+x
++
+−
+=
+. 
+Lời giải.  
+
+
+--- TRANG 123 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+1) 
+18
+15
+x −
+=
+ 
+15 18
+x =
++
+ 
+33
+x =
+. 
+2) 18
+2(
+1)
+40
+x
++
+−
+=
+ 
+2(
+1)
+40 18
+x −
+=
+−
+ 
+2(
+1)
+22
+x −
+=
+ 
+1
+22: 2
+x −=
+ 
+1
+11
+x −=
+ 
+12
+x =
+. 
+Câu 3. Một hình chử nhật có diện tích là 
+2
+220cm và có chiều dài là 22 cm. Tính độ dài 
+chiều rộng của hình chữ nhật (đơn vị: cm). 
+Lời giải. Chiều rộng của hình chữ nhật là: 
+220: 22
+10 (cm)
+=
+. 
+Câu 4. Không thực hiện tính tổng, chứng minh rằng 
+2
+3
+2021
+A= 1+4+4
+4
+...
+4
++
++
++
+ chia hết 
+cho 21. 
+Lời giải. Tổng A có 2022 số hạng. Nhóm 3 số hạng liên tiếp thành một nhóm: 
+2
+3
+4
+5
+2019
+2020
+2021
+(1
+4
+4 )
+(4
+4
+4 )
+(4
+4
+4
+)
+A =
++
++
++
++
++
+++
++
++
+ 
+3
+2019
+(1
+4 16)
+4
+(1
+4 16)
+4
+(1
+4 16)
+=
++
++
++
+
++
++
+++
+
++
++
+ 
+3
+2019
+21
+4
+21
+4
+21
+=
++
+
+++
+
+ 
+3
+2019
+21 (1
+4
+4
+)
+=
+
++
+++
+  
+ 

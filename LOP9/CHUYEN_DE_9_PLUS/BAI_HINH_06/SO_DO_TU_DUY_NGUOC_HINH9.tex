@@ -1,0 +1,377 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, top=1.2cm, bottom=1.2cm, left=1.4cm, right=1.4cm}
+\usepackage{tikz}
+\usetikzlibrary{calc, intersections, angles, arrows.meta, shapes.geometric, positioning}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+\lhead{\small\textbf{CHUYÊN ĐỀ 9+ | HÌNH HỌC VÀO 10}}
+\rhead{\small\textbf{BÀI 06: TIẾP TUYẾN KÉP \& NGŨ GIÁC NỘI TIẾP}}
+\cfoot{\thepage}
+
+% Custom tcolorbox styles
+\tcbset{
+    boxrule=0.8pt,
+    arc=2.5mm,
+    fonttitle=\bfseries\sffamily,
+    coltitle=white
+}
+
+\newtcolorbox{modelbox}[1]{
+    colback=blue!4!white,
+    colframe=blue!75!black,
+    title=#1
+}
+
+\newtcolorbox{formulabox}[1]{
+    colback=orange!3!white,
+    colframe=orange!85!black,
+    title=#1
+}
+
+\newtcolorbox{pedagogybox}[1]{
+    colback=teal!4!white,
+    colframe=teal!80!black,
+    title=#1
+}
+
+\newtcolorbox{solutionbox}[1]{
+    colback=green!4!white,
+    colframe=green!60!black,
+    title=#1
+}
+
+\newtcolorbox{exercisebox}[1]{
+    colback=purple!4!white,
+    colframe=purple!75!black,
+    title=#1
+}
+
+\begin{document}
+
+% ==============================================================
+% TRANG 1: ĐỀ BÀI VÀ HÌNH VẼ TIKZ TRỰC QUAN
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} TUYỆT PHẨM HÌNH HỌC 9+ VÀO LỚP 10 CHUYÊN \& CÔNG LẬP TOP ĐẦU}\\[2mm]
+    {\large\bfseries BÀI HÌNH 06: BỔ ĐỀ TIẾP TUYẾN KÉP \& NGŨ GIÁC NỘI TIẾP ĐƯỜNG KÍNH $OK$}\\[1mm]
+    \textit{(Trích xuất và phát triển từ Đề 06 - Tuyển tập 55 Đề Thi Tuyển Sinh Vào Lớp 10)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{modelbox}{I. ĐỀ BÀI TOÁN GỐC (TRÍCH ĐỀ 06)}
+Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$), đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $F$ ($E \ne B, F \ne C$). Gọi $H$ là giao điểm của $BF$ và $CE$, đoạn thẳng $AH$ cắt $BC$ tại $D$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh tứ giác $AEHF$ nội tiếp đường tròn và xác định tâm $K$ của đường tròn đó.
+    \item Chứng minh $KE$ và $KF$ là các tiếp tuyến của đường tròn $(O)$ đường kính $BC$.
+    \item \textbf{(Phân hóa 9+):} Chứng minh năm điểm $O, D, E, K, F$ cùng thuộc một đường tròn đường kính $OK$, và $OK$ là đường trung trực của đoạn thẳng $EF$.
+\end{enumerate}
+\end{modelbox}
+
+\vspace{1mm}
+
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.12]
+    % Tham số
+    \def\r{3.0}
+    
+    % Tọa độ các đỉnh chính
+    \coordinate (O) at (0,0);
+    \coordinate (B) at (-\r,0);
+    \coordinate (C) at (\r,0);
+    \coordinate (A) at (-0.9, 4.3);
+    
+    % Chân các đường cao
+    \coordinate (E) at ($(A)!(C)!(B)$); % C chiếu lên AB
+    \coordinate (F) at ($(A)!(B)!(C)$); % B chiếu lên AC
+    \coordinate (D) at ($(B)!(A)!(C)$); % A chiếu lên BC
+    
+    % Trực tâm H và tâm K của đường tròn (K)
+    \coordinate (H) at (intersection of C--E and B--F);
+    \coordinate (K) at ($(A)!0.5!(H)$);
+    
+    % Trung điểm OK là tâm đường tròn đi qua 5 điểm
+    \coordinate (M) at ($(O)!0.5!(K)$);
+    
+    % Vẽ đường tròn (O)
+    \draw[thick, teal] (O) circle (\r);
+    
+    % Vẽ đường tròn đường kính OK đi qua 5 điểm (nét đứt màu tím)
+    \draw[dashed, purple!80!black] let \p1 = ($(M)-(O)$), \n1 = {veclen(\x1,\y1)} in (M) circle (\n1);
+    
+    % Vẽ tam giác ABC và các đường thẳng
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    \draw[thick, blue!80!black] (A) -- (D);
+    \draw[thick, blue!80!black] (B) -- (F);
+    \draw[thick, blue!80!black] (C) -- (E);
+    
+    % Vẽ các tiếp tuyến KE, KF và đoạn OK, EF
+    \draw[thick, red!85!black] (K) -- (E);
+    \draw[thick, red!85!black] (K) -- (F);
+    \draw[thick, orange!90!black] (O) -- (E);
+    \draw[thick, orange!90!black] (O) -- (F);
+    \draw[thick, purple!90!black] (O) -- (K);
+    \draw[dashed, blue!85!black] (E) -- (F);
+    
+    % Ký hiệu góc vuông
+    \pic[draw, angle radius=2.5mm]{right angle = C--E--B};
+    \pic[draw, angle radius=2.5mm]{right angle = B--F--C};
+    \pic[draw, angle radius=2.5mm]{right angle = A--D--B};
+    \pic[draw, red, angle radius=2.5mm]{right angle = K--E--O};
+    \pic[draw, red, angle radius=2.5mm]{right angle = K--F--O};
+    
+    % Đánh dấu các điểm
+    \fill (O) circle (1.5pt) node[below] {$O$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill (A) circle (1.5pt) node[above] {$A$};
+    \fill (E) circle (1.5pt) node[above left] {$E$};
+    \fill (F) circle (1.5pt) node[above right] {$F$};
+    \fill (D) circle (1.5pt) node[below] {$D$};
+    \fill (H) circle (1.5pt) node[below right=1pt] {$H$};
+    \fill[red] (K) circle (1.5pt) node[left] {$K$};
+\end{tikzpicture}
+\end{center}
+
+\vspace{1mm}
+
+\begin{pedagogybox}{II. MỤC TIÊU TRỌNG TÂM \& BẢN ĐỒ TƯ DUY 9+}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Cốt lõi hình học:} Khám phá \textbf{"Bổ đề cạnh huyền chung $OK$"}. Đoạn thẳng nối hai tâm $K$ (trung điểm đường cao $AH$) và $O$ (trung điểm cạnh đáy $BC$) là cạnh huyền chung của 3 tam giác vuông độc lập: $\triangle KEO, \triangle KDO, \triangle KFO$.
+    \item \textbf{Đòn bẩy tư duy ngược:} Để chứng minh năm điểm cùng thuộc một đường tròn, ta chứng minh ba đỉnh $E, D, F$ cùng nhìn đoạn $OK$ dưới góc vuông $90^\circ$. Hai góc vuông $\widehat{KEO} = 90^\circ$ và $\widehat{KFO} = 90^\circ$ suy ra trực tiếp từ tính chất hai tiếp tuyến cắt nhau tại $K$, kéo theo $OK$ là đường trung trực của đoạn $EF$!
+\end{itemize}
+\end{pedagogybox}
+
+\newpage
+
+% ==============================================================
+% TRANG 2: SƠ ĐỒ TƯ DUY NGƯỢC HÌNH CÂY THÔNG
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} SƠ ĐỒ TƯ DUY NGƯỢC HÌNH CÂY THÔNG (PINE-TREE FORMULA TREE)}\\[1.5mm]
+    {\large\bfseries BẺ KHÓA: NĂM ĐIỂM $O, D, E, K, F$ CÙNG THUỘC ĐƯỜNG TRÒN ĐƯỜNG KÍNH $OK$}\\[1mm]
+    \textit{(Quy tắc đọc ngược: Từ bệ đỡ khởi phát ở chân trang $\implies$ Hội tụ tại đỉnh ngọn)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{center}
+\begin{tikzpicture}[
+    x=1cm, y=1cm,
+    font=\footnotesize,
+    >=Stealth,
+    arr_main/.style={-{Stealth[length=3.8mm, width=2.4mm]}, line width=1.6pt, red!85!black},
+    arr_sub/.style={-{Stealth[length=3.4mm, width=2.2mm]}, line width=1.3pt, blue!75!black},
+    arr_root/.style={-{Stealth[length=3.6mm, width=2.4mm]}, line width=1.4pt, teal!85!black},
+    target_node/.style={
+        rectangle, draw=red!85!black, fill=red!15, line width=1.4pt, rounded corners=2.5mm,
+        inner sep=6pt, align=center, text width=12.5cm
+    },
+    step_node/.style={
+        rectangle, draw=blue!80!black, fill=blue!8, line width=1.1pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=14.5cm
+    },
+    branch_node/.style={
+        rectangle, draw=purple!80!black, fill=purple!8, line width=1.1pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=5.1cm
+    },
+    detail_node/.style={
+        rectangle, draw=orange!90!black, fill=orange!12, line width=1.1pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=7.8cm
+    },
+    base_node/.style={
+        rectangle, draw=teal!95!black, fill=teal!20, line width=1.4pt, rounded corners=3mm,
+        inner sep=6pt, align=center, text width=16.8cm
+    }
+]
+
+% Đỉnh cây thông
+\node[target_node] (T1) at (0, 0) {
+    \textbf{\large\color{red!85!black} [ĐÍCH ĐẾN]:\ $5$ ĐIỂM $O, D, E, K, F$ CÙNG THUỘC $(M, \frac{OK}{2})$}\\[1mm]
+    $\boldsymbol{\iff \widehat{KEO} = \widehat{KDO} = \widehat{KFO} = 90^\circ \quad \text{VÀ} \quad OK \perp EF}$
+};
+
+% Tầng 2
+\node[step_node] (T2) at (0, -1.9) {
+    $\boldsymbol{\Uparrow} \quad \text{Ba đỉnh } E, D, F \text{ cùng nhìn đoạn thẳng } OK \text{ dưới một góc vuông } \boldsymbol{90^\circ}$
+};
+
+% Tầng 3: Tách 3 nhánh
+\node[branch_node] (T3_left) at (-5.5, -4.3) {
+    \textbf{\color{purple!90!black} [TIẾP TUYẾN $KE$]:}\\[1mm]
+    $KE \perp OE \text{ tại } E$\\[0.8mm]
+    $\boldsymbol{\implies \widehat{KEO} = 90^\circ}$
+};
+
+\node[branch_node] (T3_mid) at (0, -4.3) {
+    \textbf{\color{purple!90!black} [ĐƯỜNG CAO $AD$]:}\\[1mm]
+    $AD \perp BC \text{ tại } D$\\[0.8mm]
+    $\boldsymbol{\implies \widehat{KDO} = 90^\circ}$
+};
+
+\node[branch_node] (T3_right) at (5.5, -4.3) {
+    \textbf{\color{purple!90!black} [TIẾP TUYẾN $KF$]:}\\[1mm]
+    $KF \perp OF \text{ tại } F$\\[0.8mm]
+    $\boldsymbol{\implies \widehat{KFO} = 90^\circ}$
+};
+
+% Tầng 4: Phân rã góc
+\node[detail_node] (T4_left) at (-4.4, -7.1) {
+    \textbf{\color{orange!90!black} Phân rã góc bẹt tại $E$:}\\[1mm]
+    $\widehat{KEO} = 180^\circ - (\widehat{KEA} + \widehat{OEB})$\\[0.8mm]
+    $= 180^\circ - (\widehat{KAE} + \widehat{OBE})$\\[0.8mm]
+    $\boldsymbol{= 180^\circ - 90^\circ = 90^\circ} \ (\triangle ABD \text{ vuông } D)$
+};
+
+\node[detail_node] (T4_right) at (4.4, -7.1) {
+    \textbf{\color{orange!90!black} Phân rã góc bẹt tại $F$:}\\[1mm]
+    $\widehat{KFO} = 180^\circ - (\widehat{KAF} + \widehat{OCF})$\\[0.8mm]
+    $= 180^\circ - (\widehat{KAF} + \widehat{OCF})$\\[0.8mm]
+    $\boldsymbol{= 180^\circ - 90^\circ = 90^\circ} \ (\triangle ACD \text{ vuông } D)$
+};
+
+% Bệ đỡ khởi phát
+\node[base_node] (T5) at (0, -10.3) {
+    \textbf{\color{teal!95!black} [GỐC RỄ KHỞI PHÁT]:}\\[1mm]
+    $E, F \in (O) \text{ đường kính } BC \implies \boldsymbol{\widehat{BEC} = \widehat{BFC} = 90^\circ} \implies \boldsymbol{CE \perp AB \quad \text{và} \quad BF \perp AC}\\[0.8mm]
+    $\boldsymbol{\implies H \text{ LÀ TRỰC TÂM } \triangle ABC \implies AD \perp BC \text{ TẠI } D \quad \& \quad K \text{ LÀ TRUNG ĐIỂM } AH}$
+};
+
+% Mũi tên liên kết
+\draw[arr_main] (T2.north) -- (T1.south);
+\draw[arr_sub] (T3_left.north) to[out=90, in=200] (T2.south);
+\draw[arr_sub] (T3_mid.north) -- (T2.south);
+\draw[arr_sub] (T3_right.north) to[out=90, in=340] (T2.south);
+\draw[arr_sub] (T4_left.north) -- (T3_left.south);
+\draw[arr_sub] (T4_right.north) -- (T3_right.south);
+\draw[arr_root] (T5.north) to[out=140, in=270] (T4_left.south);
+\draw[arr_root] (T5.north) -- (T3_mid.south);
+\draw[arr_root] (T5.north) to[out=40, in=270] (T4_right.south);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{1mm}
+
+\begin{formulabox}{III. CÔNG THỨC VÀ BỔ ĐỀ CHỐT HẠ}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Dấu hiệu nhận biết năm điểm nội tiếp:} Khi ba điểm $E, D, F$ cùng nhìn đoạn $OK$ dưới góc $90^\circ$, năm điểm $O, D, E, K, F$ cùng thuộc đường tròn đường kính $OK$.
+    \item \textbf{Tính chất tiếp tuyến kép:} $K$ là giao điểm của hai tiếp tuyến $KE, KF$ đến $(O) \implies KE = KF$ và $OK$ là đường trung trực của dây cung tiếp điểm $EF$ ($OK \perp EF$).
+\end{itemize}
+\end{formulabox}
+
+\newpage
+
+% ==============================================================
+% TRANG 3: LỜI GIẢI XUÔI CHUẨN MỰC & BAREM ĐIỂM
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} LỜI GIẢI XUÔI CHUẨN MỰC \& BAREM ĐIỂM CHI TIẾT}\\[1.5mm]
+    {\large\bfseries BÀI TOÁN HÌNH HỌC 9+ (3,0 ĐIỂM - CHUẨN THI TUYỂN SINH VÀO LỚP 10)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{solutionbox}{LỜI GIẢI CHI TIẾT TỪNG BƯỚC}
+\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+    \item \textbf{Chứng minh tứ giác $AEHF$ nội tiếp đường tròn tâm $K$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Vì $E, F$ thuộc đường tròn $(O)$ đường kính $BC$ nên $\widehat{BEC} = 90^\circ$ và $\widehat{BFC} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn). \hfill \textbf{[0,25đ]}
+        \item Suy ra $CE \perp AB \implies \widehat{AEH} = 90^\circ$ và $BF \perp AC \implies \widehat{AFH} = 90^\circ$.
+        \item Xét tứ giác $AEHF$ có: $\widehat{AEH} + \widehat{AFH} = 90^\circ + 90^\circ = 180^\circ$.\\
+        Do đó tứ giác $AEHF$ nội tiếp đường tròn đường kính $AH$. \hfill \textbf{[0,25đ]}
+        \item Tâm $K$ của đường tròn này là trung điểm của đoạn thẳng $AH$. \hfill \textbf{[0,25đ]}
+    \end{itemize}
+
+    \vspace{1mm}
+    \item \textbf{Chứng minh $KE$ và $KF$ là các tiếp tuyến của đường tròn $(O)$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Trong $\triangle ABC$, hai đường cao $BF, CE$ cắt nhau tại $H \implies H$ là trực tâm $\triangle ABC \implies AD \perp BC$ tại $D$. \hfill \textbf{[0,25đ]}
+        \item Xét $\triangle AEH$ vuông tại $E$ có $K$ là trung điểm $AH \implies KE = KA = \dfrac{AH}{2} \implies \triangle KAE$ cân tại $K \implies \widehat{KEA} = \widehat{KAE}$.\\
+        Lại có $OE = OB = R \implies \triangle OBE$ cân tại $O \implies \widehat{OEB} = \widehat{OBE}$.\\
+        Suy ra $\widehat{KEO} = 180^\circ - (\widehat{KEA} + \widehat{OEB}) = 180^\circ - (\widehat{KAE} + \widehat{OBE})$.\\
+        Mà trong tam giác vuông $ABD$ vuông tại $D$, ta có $\widehat{KAE} + \widehat{OBE} = 90^\circ$.\\
+        Do đó $\widehat{KEO} = 180^\circ - 90^\circ = 90^\circ \implies KE \perp OE$ tại điểm $E \in (O) \implies KE$ là tiếp tuyến của $(O)$. \hfill \textbf{[0,25đ]}
+        \item Chứng minh hoàn toàn tương tự trong tam giác vuông $ACD$ vuông tại $D$, ta có $\widehat{KFO} = 90^\circ \implies KF \perp OF$ tại điểm $F \in (O) \implies KF$ là tiếp tuyến của $(O)$. \hfill \textbf{[0,25đ]}
+    \end{itemize}
+
+    \vspace{1mm}
+    \item \textbf{Chứng minh năm điểm $O, D, E, K, F$ cùng thuộc đường tròn đường kính $OK$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Vì $KE$ là tiếp tuyến của $(O)$ nên $\widehat{KEO} = 90^\circ \implies \triangle KEO$ vuông tại $E$, nội tiếp đường tròn đường kính $OK$. \hfill \textbf{[0,25đ]}
+        \item Vì $KF$ là tiếp tuyến của $(O)$ nên $\widehat{KFO} = 90^\circ \implies \triangle KFO$ vuông tại $F$, nội tiếp đường tròn đường kính $OK$. \hfill \textbf{[0,25đ]}
+        \item Lại có $AD \perp BC$ tại $D$ nên $\widehat{KDO} = 90^\circ \implies \triangle KDO$ vuông tại $D$, nội tiếp đường tròn đường kính $OK$.\\
+        Do đó ba điểm $E, D, F$ cùng nhìn đoạn $OK$ dưới góc vuông $90^\circ$, suy ra năm điểm $O, D, E, K, F$ cùng thuộc đường tròn đường kính $OK$ (đpcm). \hfill \textbf{[0,25đ]}
+    \end{itemize}
+
+    \vspace{1mm}
+    \item \textbf{Chứng minh $OK$ là đường trung trực của đoạn thẳng $EF$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Vì $KE$ và $KF$ là hai tiếp tuyến cắt nhau tại $K$ của đường tròn $(O)$ nên $KE = KF$. \hfill \textbf{[0,25đ]}
+        \item Lại có $OE = OF = R$ (bán kính đường tròn $(O)$). \hfill \textbf{[0,25đ]}
+        \item Do đó hai điểm $K$ và $O$ cùng cách đều hai đầu mút của đoạn thẳng $EF$.\\
+        Suy ra đường thẳng $OK$ chính là đường trung trực của đoạn thẳng $EF$, kéo theo $OK \perp EF$ (đpcm). \hfill \textbf{[0,25đ]}
+    \end{itemize}
+\end{enumerate}
+\end{solutionbox}
+
+\newpage
+
+% ==============================================================
+% TRANG 4: BÌNH LUẬN SƯ PHẠM & BÀI TẬP PHÁT TRIỂN
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} BÌNH LUẬN SƯ PHẠM, BẪY TƯ DUY \& BÀI TẬP PHÁT TRIỂN}\\[1.5mm]
+    {\large\bfseries GIẢI MÃ NGHỆ THUẬT DẪN DẮT \& MỞ RỘNG TẦM NHÌN HÌNH HỌC 9+}
+\end{center}
+
+\vspace{1mm}
+
+\begin{pedagogybox}{I. NGHỆ THUẬT SƯ PHẠM: TẠI SAO LẠI CHỌN ĐOẠN OK LÀM CẠNH HUYỀN CHUNG?}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Cội nguồn tư duy:} Đoạn thẳng $OK$ là đường nối tâm của hai đường tròn ngoại tiếp: đường tròn $(K)$ ngoại tiếp tứ giác $AEHF$ và đường tròn $(O)$ ngoại tiếp tứ giác $BCEF$.
+    \item \textbf{Hội tụ các góc vuông:} Điểm $E$ và $F$ là giao điểm của hai đường tròn này, sinh ra hai tiếp tuyến vuông góc với bán kính. Điểm $D$ là chân đường cao chung. Cả ba điểm $E, D, F$ độc lập tạo ra ba góc vuông $90^\circ$ khi nhìn đoạn nối tâm $OK$. Kỹ thuật quy về \textbf{"Cạnh huyền chung"} là phương pháp ngắn gọn và thanh thoát nhất để xử lý bài toán 5 điểm nội tiếp!
+    \item \textbf{4 câu hỏi dẫn dắt của Giáo viên trên lớp:}
+    \begin{enumerate}[label=\arabic*., nosep]
+        \item Điểm $K$ và điểm $O$ lần lượt là tâm của những đường tròn nào?
+        \item Khi $KE$ và $KF$ là tiếp tuyến của $(O)$, ta có những góc vuông nào liên quan đến đoạn $OK$?
+        \item Đường cao $AD$ vuông góc với cạnh đáy $BC$ tạo ra góc vuông nào nhìn đoạn $OK$?
+        \item Ba tam giác vuông $\triangle KEO, \triangle KDO, \triangle KFO$ có chung cạnh huyền nào? Từ đó suy ra vị trí của năm điểm?
+    \end{enumerate}
+\end{itemize}
+\end{pedagogybox}
+
+\vspace{1mm}
+
+\begin{pedagogybox}{II. CÁC BẪY TƯ DUY VÀ SAI LẦM HỌC SINH THƯỜNG GẶP}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Bẫy 1 -- Chứng minh rời rạc hai tứ giác mà không chỉ rõ đường kính:} Học sinh hay chứng minh tứ giác $KEDO$ nội tiếp rồi tứ giác $KFDO$ nội tiếp, nhưng quên không khẳng định hai đường tròn ngoại tiếp đó trùng nhau (cùng có đường kính là $OK$).
+    \item \textbf{Bẫy 2 -- Quên khẳng định $E, F \in (O)$ khi kết luận tiếp tuyến:} Cần chỉ rõ tiếp điểm $E, F$ nằm trên $(O)$ trước khi khẳng định $KE, KF$ là tiếp tuyến.
+\end{itemize}
+\end{pedagogybox}
+
+\vspace{1mm}
+
+\begin{exercisebox}{III. BÀI TẬP PHÁT TRIỂN ĐỈNH CAO (LUYỆN TẬP 9+)}
+\textbf{Bài toán phát triển 1 (Cực và Đối cực - Hàng điểm điều hòa):}\\
+Kéo dài dây cung $EF$ cắt đường thẳng $BC$ tại điểm $S$. Kẻ tiếp tuyến $ST$ tới đường tròn $(O)$. Chứng minh rằng ba điểm $S, D, B, C$ tạo thành một hàng điểm điều hòa và hệ thức phương tích:
+\[
+SD \cdot SO = SE \cdot SF = SB \cdot SC = ST^2.
+\]
+\textit{(Gợi ý: Do tứ giác $BCEF$ nội tiếp và ngũ giác $ODEKF$ nội tiếp, ta có $SD \cdot SO = SE \cdot SF$ qua phương tích cát tuyến từ điểm $S$).}\\[2mm]
+\textbf{Bài toán phát triển 2 (Đường thẳng Simson \& Đường thẳng Steiner):}\\
+Gọi $M$ là trung điểm của đoạn thẳng $OK$. Chứng minh rằng đường tròn $(M)$ ngoại tiếp ngũ giác $ODEKF$ cắt đường tròn $(O)$ tại đúng hai điểm $E, F$, và tâm $M$ nằm trên đường tròn Euler của tam giác $ABC$.
+\end{exercisebox}
+
+\end{document}

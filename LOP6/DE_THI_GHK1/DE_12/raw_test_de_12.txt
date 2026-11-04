@@ -1,0 +1,301 @@
+--- TRANG 45 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 12 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinhchỉ chọn một phương án) 
+Câu 1. Trong các số: 1904; 2895; 2890; 2786. Số chia hết cho 5 mà không chia hết cho 2 là: 
+A. 1904.                         
+B. 2895.                       
+C. 2890.                            D. 278. 
+Câu 2.  Cho hình chữ nhật ABCD có AB = 5cm, BC = 2cm thì: 
+A. 
+3
+.
+CD
+cm
+=
+ 
+ 
+B. 
+2
+.
+CD
+cm
+=
+ 
+ 
+C. 
+5
+.
+CD
+cm
+=
+ 
+ 
+D. 
+7
+.
+CD
+cm
+=
+ 
+Câu 3. Trong các số tự nhiên sau, số nào là số nguyên tố? 
+A. 4 .                         
+B. 49 .                       
+C. 47 .                            D. 125 . 
+Câu 4. Các ước nguyên tố của 12 là: 
+A. 1; 2; 3.                  
+ 
+ 
+ 
+ 
+B. 2; 3. 
+C. 2; 3; 4; 6.   
+ 
+ 
+ 
+ 
+ 
+D. 1; 2; 3; 4; 6; 12. 
+Câu 5. Phát biểu nào sau đây là sai ? Trong một hình thang cân có: 
+A. Hai góc kề một đáy bằng nhau. 
+B. Hai đường chéo bằng nhau. 
+C. Hai cạnh bên bằng nhau. 
+ 
+D.  Các cạnh đối song song với nhau. 
+Câu 6. Trong phép chia có dư, số dư bao giờ cũng ........ số chia. 
+A. nhỏ hơn.   
+ 
+ 
+ 
+ 
+B. lớn hơn.  
+C. nhỏ hơn hoặc bằng. 
+ 
+ 
+ 
+D. lớn hơn hoặc bằng. 
+
+
+--- TRANG 46 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Số 19 trong hệ La Mã được viết là  
+A. 
+. 
+IX 
+ 
+ 
+B. 
+.
+IXX 
+ 
+ 
+C. 
+.
+XXI 
+ 
+       D. 
+.
+XIX 
+Câu 8. Một hình vuông có diện tích bằng 
+2
+121 cm . Chu vi của hình vuông đó bằng: 
+A. 22 cm .  
+ 
+ 
+B. 11 cm .  
+ 
+ 
+C. 48 cm .  
+ 
+     D. 44 cm . 
+Câu 9. Một tấm biển quảng cáo hình chữ nhật có chiều dài 40 dm, chiều rộng là 6dm. 
+Người ta lắp đèn trang trí xung quanh mép tấm biển. Chi phí mỗi mét của đèn là 35 000 
+đồng. Số tiền phải chi cho việc mua đèn là 
+A. 420 000 đồng. 
+ 
+B. 840 000 đồng.           
+C. 322 000 đồng. 
+ 
+D. 161 000 đồng 
+Câu 10. Trong các hình dưới đây, hình nào là hình lục giác đều?  
+ 
+A. Hình 1. 
+ 
+ 
+B. Hình 2. 
+ 
+ 
+C. Hình 3. 
+ 
+     D. Hình 4. 
+Câu 11. Hợp số bé nhất là số nào? 
+A. 0. 
+             B. 4. 
+                   C. 1. 
+ 
+ 
+ 
+D. 2. 
+Câu 12. Tập hợp M các số tự nhiên lớn hơn hoặc bằng 3 và nhỏ hơn 9 được viết là: 
+A. 
+
+.
+3;4;5;6;7;8;9
+M =
+ 
+ 
+B. 
+
+.
+4;5;6;7;8;9
+M =
+ 
+ 
+C. 
+
+
+3;4;5;6;7;8 .
+M =
+ 
+ 
+D. 
+
+.
+4;5;6;7;8
+M =
+ 
+ 
+ 
+
+
+--- TRANG 47 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1.  Cho các số 15,21,27,30 . Xét tính đúng sai của các mệnh đề sau: 
+a) Các số đã cho đều chia hết cho 2 và 3. 
+b) Các số đã cho đều chia hết cho 3. 
+c) Trong các số đã cho chỉ có 1 số chia hết cho 5. 
+d) Các số đã cho đều là hợp số. 
+Câu 2. Cho hình bình hành ABCD có độ dài cạnh 
+6 cm
+AB =
+, cạnh 
+4 cm
+BC =
+ và chiều 
+cao 
+3 cm
+AH =
+ ứng với cạnh CD . Xét tính đúng sai của các mệnh đề sau: 
+a) Độ dài cạnh CD bằng 6 cm . 
+b) Hai cạnh đối AB và  CD song song với nhau.   
+c) Chu vi của hình bình hành ABCD là 20 cm . 
+d) Diện tích của hình bình hành ABCD là 
+2
+24 cm . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1.  Số tự nhiên x thỏa mãn 
+3
+125
+x =
+ là bao nhiêu? 
+Câu 2. Có bao nhiêu số tự nhiên n thỏa mãn 1
+ 10 
+n
+
+
+? 
+Phần IV. Tự luận 
+Câu 1.  Thực hiện phép tính: (hợp lí nếu có thể) 
+a. 295 + 330 + 105 + 70 
+b. 25 . 23 + 300 : (2024 + 2025)0 
+
+
+--- TRANG 48 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+Câu 2. Tìm số tự nhiên x, biết 
+a) 
+278
+325
+x +
+=
+. 
+ 
+ 
+ 
+b) 
+(
+)
+4
+150
+2
+.3
+99
+x
+−
++
+=
+. 
+c) 
+2
+2
+2
+3
+7
+x =
++
+. 
+ 
+ 
+ 
+d) 13x chia hết cho 3 và 5 với 0
+9
+x
+
+
+. 
+Câu 3. Nhà bác Hoa có  một miếng đất hình thang ( như hình vẽ), đường cao bằng cạnh 
+của một mảnh vườn hình vuông có chu vi 160 m.  
+ 
+a) Tính diện tích của mảnh đất? 
+b) Người ta trồng ngô trên miếng đất này, mỗi mùa cứ 3 hec-ta thì thu được 13,5 tấn 
+ngô. Hỏi trên mảnh đất này, mỗi mùa người ta thu được tất cả bao nhiêu ki-lô-gam ngô? 
+ 
+ 
+ 
+ 
+ 
+ 
+h
+70 m
+50 m

@@ -1,0 +1,325 @@
+{
+  "de_so": 2,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 6",
+  "thoi_gian": "90 phút",
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Tập hợp các chữ cái trong cụm từ “CHĂM HỌC” là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$\\{C; H; Ă; M; H; O; C\\}$",
+        "B": "$\\{H; Ă; M; O\\}$",
+        "C": "$\\{C; H; Ă; M; O\\}$",
+        "D": "$\\{C; H; Ă; M; H; O\\}$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Khi viết tập hợp các chữ cái của một từ, mỗi chữ cái chỉ viết một lần: $C, H, Ă, M, O$. Do đó tập hợp là $\\{C; H; Ă; M; O\\}$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Số tự nhiên liền sau của số $2022$ là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$2023$",
+        "B": "$2020$",
+        "C": "$2022$",
+        "D": "$2024$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Số tự nhiên liền sau của $2022$ là $2022 + 1 = 2023$."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Nếu $a \\ \\vdots \\ 3$ và $b \\ \\vdots \\ 3$ thì tổng $a + b$ chia hết cho:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$0$",
+        "B": "$6$",
+        "C": "$3$",
+        "D": "$9$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Theo tính chất chia hết của một tổng: Nếu các số hạng của một tổng đều chia hết cho cùng một số thì tổng chia hết cho số đó. Vì $a \\ \\vdots \\ 3$ và $b \\ \\vdots \\ 3$ nên $(a + b) \\ \\vdots \\ 3$."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Tổng nào sau đây chia hết cho $7$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$35 + 155 + 280$",
+        "B": "$140 + 497 + 634$",
+        "C": "$51 + 140 + 910$",
+        "D": "$35 + 420 + 763$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Ta có: $35 = 7 \\cdot 5 \\ \\vdots \\ 7$, $420 = 7 \\cdot 60 \\ \\vdots \\ 7$, $763 = 7 \\cdot 109 \\ \\vdots \\ 7$. Do cả 3 số hạng đều chia hết cho 7 nên tổng $(35 + 420 + 763) \\ \\vdots \\ 7$."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Chọn khẳng định đúng trong các khẳng định sau:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$4 < -5$",
+        "B": "$2 < 0$",
+        "C": "$0 > -3$",
+        "D": "$-2 < -5$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Số 0 luôn lớn hơn mọi số nguyên âm, do đó $0 > -3$ là khẳng định đúng."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Khẳng định nào dưới đây là đúng?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình bình hành có bốn góc bằng nhau.",
+        "B": "Hình lục giác đều có 3 đường chéo chính cùng đi qua một điểm.",
+        "C": "Tam giác đều là tam giác có 3 góc vuông.",
+        "D": "Hình chữ nhật có hai đường chéo bằng nhau và vuông góc với nhau."
+      },
+      "dap_an": "B",
+      "loi_giai": "Lục giác đều có 3 đường chéo chính cắt nhau tại trung điểm của mỗi đường và đi qua tâm đối xứng của lục giác."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Cho tam giác đều $ABC$ có độ dài cạnh $AB = 7\\text{ cm}$. Chu vi của tam giác $ABC$ là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$21\\text{ cm}$",
+        "B": "$49\\text{ cm}$",
+        "C": "$21\\text{ cm}^2$",
+        "D": "$49\\text{ cm}^2$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Tam giác đều có 3 cạnh bằng nhau: $AB = BC = CA = 7\\text{ cm}$. Chu vi tam giác $ABC$ là: $C = 3 \\times 7 = 21\\text{ cm}$."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Hình nào sau đây không phải là lục giác đều?\\begin{center}\\begin{tikzpicture}[scale=0.55, line cap=round, line join=round]\\begin{scope}[xshift=0cm]\\foreach \\i in {1,...,6} { \\coordinate (P\\i) at (\\i*60:1.3); }\\draw[thick, blue!80!black] (P1) -- (P2) -- (P3) -- (P4) -- (P5) -- (P6) -- cycle;\\foreach \\i in {1,...,6} { \\fill[red] (P\\i) circle (1.8pt); }\\node[below=4pt, font=\\footnotesize] at (0,-1.3) {Hình 1};\\end{scope}\\begin{scope}[xshift=3.5cm]\\foreach \\i in {1,...,6} { \\coordinate (Q\\i) at (\\i*60:1.3); }\\draw[thick, blue!80!black] (Q1) -- (Q2) -- (Q3) -- (Q4) -- (Q5) -- (Q6) -- cycle;\\draw[blue!80!black] (Q1)--(Q4) (Q2)--(Q5) (Q3)--(Q6);\\foreach \\i in {1,...,6} { \\fill[red] (Q\\i) circle (1.8pt); }\\fill[red] (0,0) circle (1.8pt);\\node[below=4pt, font=\\footnotesize] at (0,-1.3) {Hình 2};\\end{scope}\\begin{scope}[xshift=7cm]\\coordinate (R1) at (1.4,0.3); \\coordinate (R2) at (0.6,1.2); \\coordinate (R3) at (-0.7,1.4);\\coordinate (R4) at (-1.3,-0.1); \\coordinate (R5) at (-0.6,-1.2); \\coordinate (R6) at (0.8,-1.1);\\draw[thick, blue!80!black] (R1) -- (R2) -- (R3) -- (R4) -- (R5) -- (R6) -- cycle;\\foreach \\p in {R1,R2,R3,R4,R5,R6} { \\fill[red] (\\p) circle (1.8pt); }\\node[below=4pt, font=\\footnotesize] at (0,-1.3) {Hình 3};\\end{scope}\\begin{scope}[xshift=10.5cm]\\coordinate (S1) at (1.2,0.6); \\coordinate (S2) at (0.2,1.3); \\coordinate (S3) at (-1.1,0.7);\\coordinate (S4) at (-0.9,-1.1); \\coordinate (S5) at (0.9,-1.2);\\draw[thick, blue!80!black] (S1) -- (S2) -- (S3) -- (S4) -- (S5) -- cycle;\\foreach \\p in {S1,S2,S3,S4,S5} { \\fill[red] (\\p) circle (1.8pt); }\\node[below=4pt, font=\\footnotesize] at (0,-1.3) {Hình 4};\\end{scope}\\end{tikzpicture}\\end{center}",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình 3",
+        "B": "Hình 2",
+        "C": "Hình 1",
+        "D": "Hình 4"
+      },
+      "dap_an": "D",
+      "loi_giai": "Hình 4 là một ngũ giác (có 5 cạnh), không phải là lục giác đều."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Chọn cách phân tích số $32$ ra thừa số nguyên tố đúng:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$32 = 2 \\cdot 16$",
+        "B": "$32 = 8 \\cdot 4$",
+        "C": "$32 = 2^5$",
+        "D": "$32 = 2 \\cdot 4 \\cdot 4$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Ta có: $32 = 2 \\cdot 2 \\cdot 2 \\cdot 2 \\cdot 2 = 2^5$. Các số 16, 8, 4 không phải là số nguyên tố."
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Trong các số sau, số nào chia hết cho cả $2$ và $5$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$2020$",
+        "B": "$25$",
+        "C": "$52$",
+        "D": "$5$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Số chia hết cho cả 2 và 5 là số có chữ số tận cùng bằng 0. Trong các số trên, chỉ có số 2020 có tận cùng là 0."
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Trong các hình sau, hình nào có hai đường chéo không bằng nhau?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình chữ nhật",
+        "B": "Hình thang cân",
+        "C": "Hình vuông",
+        "D": "Hình bình hành"
+      },
+      "dap_an": "D",
+      "loi_giai": "Hình chữ nhật, hình thang cân và hình vuông đều có hai đường chéo bằng nhau. Hình bình hành tổng quát có hai đường chéo cắt nhau tại trung điểm nhưng không bằng nhau."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Nếu có hai miếng bìa hình thang cân với kích thước như hình bên, ta ghép được hình nào sau đây?",
+      "hinh_tikz": "\\begin{tikzpicture}[scale=0.7, baseline=(current bounding box.center), line cap=round, line join=round]\n  \\coordinate (A) at (0.8, 1.4); \\coordinate (B) at (2.4, 1.4); \\coordinate (C) at (3.2, 0); \\coordinate (D) at (0, 0);\n  \\draw[thick, blue!80!black] (A) -- (B) -- (C) -- (D) -- cycle;\n  \\foreach \\p in {A,B,C,D} \\fill[red] (\\p) circle (1.8pt);\n  \\node[above=1pt, font=\\footnotesize] at (1.6, 1.4) {$3\\text{ cm}$};\n  \\node[above left=1pt, font=\\footnotesize] at (0.4, 0.7) {$3\\text{ cm}$};\n  \\node[above right=1pt, font=\\footnotesize] at (2.8, 0.7) {$3\\text{ cm}$};\n\\end{tikzpicture}",
+      "lua_chon": {
+        "A": "Hình vuông, hình chữ nhật",
+        "B": "Hình vuông, hình bình hành",
+        "C": "Hình bình hành, lục giác đều",
+        "D": "Lục giác đều, hình thang cân"
+      },
+      "dap_an": "C",
+      "loi_giai": "Ghép hai hình thang cân bằng nhau theo đáy lớn chung ta được hình lục giác đều (nếu đáy lớn gấp đôi đáy nhỏ) hoặc ghép đảo chiều ta được hình bình hành."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Xét trong $20$ số tự nhiên đầu tiên (từ $0$ đến $19$). Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Trong các số đã cho, có $3$ số chia hết cho cả $2$ và $5$.",
+          "dung_sai": false,
+          "giai_thich": "Các số chia hết cho cả 2 và 5 là số có tận cùng bằng 0: gồm $\\{0; 10\\}$ (chỉ có 2 số). Khẳng định sai."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Trong các số đã cho, có $6$ số chia hết cho $9$.",
+          "dung_sai": false,
+          "giai_thich": "Các số chia hết cho 9 từ 0 đến 19 gồm $\\{0; 9; 18\\}$ (chỉ có 3 số). Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Trong các số đã cho, có $8$ số là số nguyên tố.",
+          "dung_sai": true,
+          "giai_thich": "Các số nguyên tố từ 0 đến 19 gồm: $\\{2; 3; 5; 7; 11; 13; 17; 19\\}$ (đúng 8 số). Khẳng định đúng."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Trong các số đã cho, có $6$ số là bội của $3$.",
+          "dung_sai": false,
+          "giai_thich": "Các bội của 3 từ 0 đến 19 gồm: $\\{0; 3; 6; 9; 12; 15; 18\\}$ (có 7 số). Khẳng định sai."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Xét việc phân tích số $40$ ra thừa số nguyên tố. Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Phân tích số $40$ ra thừa số nguyên tố ta được kết quả là $40 = 2^3 \\cdot 5$.",
+          "dung_sai": true,
+          "giai_thich": "Ta có: $40 = 8 \\cdot 5 = 2^3 \\cdot 5$. Các thừa số 2 và 5 đều là số nguyên tố. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Kết quả phân tích số $40$ ra thừa số nguyên tố là $40 = 4 \\cdot 10$.",
+          "dung_sai": false,
+          "giai_thich": "Các số 4 và 10 là hợp số, không phải thừa số nguyên tố. Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Kết quả phân tích số $40$ ra thừa số nguyên tố là $40 = 2 \\cdot 4 \\cdot 5$.",
+          "dung_sai": false,
+          "giai_thich": "Số 4 là hợp số, chưa phân tích triệt để ra thừa số nguyên tố. Khẳng định sai."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Số $40$ có tất cả $3$ thừa số nguyên tố khác nhau là $2, 3$ và $5$.",
+          "dung_sai": false,
+          "giai_thich": "Số 40 chỉ chia hết cho hai số nguyên tố là 2 và 5 (không chia hết cho 3). Khẳng định sai."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Có bao nhiêu số tự nhiên $m$ sao cho $5 < m < 15$ và $m \\ \\vdots \\ 3$?",
+      "dap_an": "$3$",
+      "loi_giai": "Các số tự nhiên lớn hơn 5 và nhỏ hơn 15 chia hết cho 3 là: $\\{6; 9; 12\\}$. Vậy có 3 số."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Tìm số tự nhiên $x$ lớn nhất thỏa mãn $120 \\ \\vdots \\ x$ và $150 \\ \\vdots \\ x$.",
+      "dap_an": "$30$",
+      "loi_giai": "Vì $x$ lớn nhất thỏa mãn $120 \\ \\vdots \\ x$ và $150 \\ \\vdots \\ x$ nên $x = \\text{ƯCLN}(120, 150)$. Ta có: $120 = 2^3 \\cdot 3 \\cdot 5$; $150 = 2 \\cdot 3 \\cdot 5^2$. Do đó $\\text{ƯCLN}(120, 150) = 2 \\cdot 3 \\cdot 5 = 30$. Vậy $x = 30$."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "diem_tong": 1.0,
+      "noi_dung": "Thực hiện phép tính (tính hợp lí nếu có thể):",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$3^4 : 3^2$",
+          "diem": 0.25,
+          "loi_giai": "$3^4 : 3^2 = 3^{4-2} = 3^2 = 9$."
+        },
+        {
+          "y": "b",
+          "de": "$80 - (4 \\cdot 5^2 - 3 \\cdot 2^3)$",
+          "diem": 0.5,
+          "loi_giai": "$80 - (4 \\cdot 5^2 - 3 \\cdot 2^3) = 80 - (4 \\cdot 25 - 3 \\cdot 8) = 80 - (100 - 24) = 80 - 76 = 4$."
+        },
+        {
+          "y": "c",
+          "de": "$23 \\cdot 75 + 25 \\cdot 10 + 25 \\cdot 13$",
+          "diem": 0.25,
+          "loi_giai": "$23 \\cdot 75 + 25 \\cdot 10 + 25 \\cdot 13 = 23 \\cdot 75 + 25 \\cdot (10 + 13) = 23 \\cdot 75 + 25 \\cdot 23 = 23 \\cdot (75 + 25) = 23 \\cdot 100 = 2300$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem_tong": 0.75,
+      "noi_dung": "Tìm số tự nhiên $x$, biết:",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$120 - 5(x + 2) = 20$",
+          "diem": 0.5,
+          "loi_giai": "Ta có:\\\n$5(x + 2) = 120 - 20$\\\n$5(x + 2) = 100$\\\n$x + 2 = 100 : 5 = 20$\\\n$x = 20 - 2 = 18$."
+        },
+        {
+          "y": "b",
+          "de": "$x \\ \\vdots \\ 20$, $x \\ \\vdots \\ 35$ và $400 < x < 500$",
+          "diem": 0.25,
+          "loi_giai": "Vì $x \\ \\vdots \\ 20$ và $x \\ \\vdots \\ 35$ nên $x \\in \\text{BC}(20, 35)$.\\\nTa có: $20 = 2^2 \\cdot 5$; $35 = 5 \\cdot 7 \\implies \\text{BCNN}(20, 35) = 2^2 \\cdot 5 \\cdot 7 = 140$.\\\nSuy ra $\\text{BC}(20, 35) = \\{0; 140; 280; 420; 560; \\dots\\}$.\\\nVì $400 < x < 500$ nên $x = 420$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem_tong": 0.75,
+      "noi_dung": "Cô giáo chủ nhiệm muốn chia $72$ quyển vở, $48$ bút bi và $60$ gói bánh thành một số phần thưởng như nhau để trao trong dịp sơ kết học kì.",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Hỏi có thể chia được nhiều nhất bao nhiêu phần thưởng?",
+          "diem": 0.5,
+          "loi_giai": "Gọi số phần thưởng nhiều nhất có thể chia được là $a$ ($a \\in \\mathbb{N}^*$).\\\nTheo đề bài: $72 \\ \\vdots \\ a$, $48 \\ \\vdots \\ a$, $60 \\ \\vdots \\ a$ và $a$ lớn nhất nên $a = \\text{ƯCLN}(72, 48, 60)$.\\\nTa có: $72 = 2^3 \\cdot 3^2$; $48 = 2^4 \\cdot 3$; $60 = 2^2 \\cdot 3 \\cdot 5$.\\\n$\\implies \\text{ƯCLN}(72, 48, 60) = 2^2 \\cdot 3 = 12$.\\\nVậy có thể chia được nhiều nhất $12$ phần thưởng."
+        },
+        {
+          "y": "b",
+          "de": "Khi đó mỗi phần thưởng có bao nhiêu quyển vở, bút bi và gói bánh?",
+          "diem": 0.25,
+          "loi_giai": "Khi đó mỗi phần thưởng có:\\\nSố quyển vở: $72 : 12 = 6$ (quyển).\\\nSố bút bi: $48 : 12 = 4$ (bút).\\\nSố gói bánh: $60 : 12 = 5$ (gói)."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem_tong": 0.5,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Cho số tự nhiên $x$ thỏa mãn $3^{x+1} + 3^{x+2} - 2 \\cdot 3^x = 270$. Hỏi $x$ là số nguyên tố hay hợp số?",
+          "diem": 0.25,
+          "loi_giai": "Ta có:\\\n$3^{x+1} + 3^{x+2} - 2 \\cdot 3^x = 270$\\\n$3^x \\cdot (3 + 9 - 2) = 270$\\\n$3^x \\cdot 10 = 270$\\\n$3^x = 27 = 3^3 \\implies x = 3$.\\\nVì số $3$ chỉ có hai ước là 1 và chính nó nên $x = 3$ là số nguyên tố."
+        },
+        {
+          "y": "b",
+          "de": "Tìm hai số tự nhiên biết tích của chúng bằng $144$ và ước chung lớn nhất của chúng bằng $6$.",
+          "diem": 0.25,
+          "loi_giai": "Gọi hai số tự nhiên cần tìm là $u$ và $v$ ($u \\le v$).\\\nVì $\\text{ƯCLN}(u, v) = 6$ nên đặt $u = 6m, v = 6n$ với $m, n \\in \\mathbb{N}^*$, $\\text{ƯCLN}(m, n) = 1$ và $m \\le n$.\\\nTheo đề bài: $u \\cdot v = 144 \\implies 6m \\cdot 6n = 144 \\implies 36mn = 144 \\implies mn = 4$.\\\nVì $\\text{ƯCLN}(m, n) = 1$ và $m \\le n$ nên ta chọn $m = 1, n = 4$.\\\nSuy ra: $u = 6 \\cdot 1 = 6$ và $v = 6 \\cdot 4 = 24$.\\\nVậy hai số tự nhiên cần tìm là $6$ và $24$."
+        }
+      ]
+    }
+  ]
+}
+

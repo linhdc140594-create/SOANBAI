@@ -1,0 +1,123 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_07 (TRÍCH ĐỀ 7)
+\begin{ex}
+Cho tam giác nhọn $ABC$ nội tiếp trong đường tròn $(O)$ có $AB < AC$. Trên cung nhỏ $AC$ lấy điểm $M$ khác $A$ thỏa mãn $MA < MC$. Vẽ đường kính $MN$ của đường tròn $(O)$. Gọi $H$ và $K$ lần lượt là hình chiếu vuông góc của điểm $A$ trên các đường thẳng $MB$ và $MN$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh bốn điểm $A, H, K, M$ cùng thuộc một đường tròn đường kính $AM$.
+    \item Chứng minh $\triangle AHK \backsim \triangle ABN$ và $AH \cdot AN = AK \cdot AB$.
+    \item \textbf{(Phân hóa 9+):} Chứng minh đường thẳng $HK$ cắt đoạn thẳng $AB$ tại đúng trung điểm của $AB$.
+\end{enumerate}
+\loigiai{
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.15]
+    % Định nghĩa tham số
+    \def\r{3.0}
+    
+    % Tọa độ các đỉnh trên đường tròn
+    \coordinate (O) at (0,0);
+    \coordinate (A) at (130:\r);
+    \coordinate (B) at (-160:\r);
+    \coordinate (C) at (-20:\r);
+    \coordinate (M) at (65:\r);
+    \coordinate (N) at ($(O)!-1!(M)$); % N đối xứng M qua O
+    
+    % Hình chiếu vuông góc
+    \coordinate (H) at ($(M)!(A)!(B)$); % A chiếu lên MB
+    \coordinate (K) at ($(M)!(A)!(N)$); % A chiếu lên MN
+    \coordinate (E) at ($(A)!0.5!(B)$); % E là trung điểm AB
+    
+    % Tâm đường tròn ngoại tiếp tứ giác AHKM
+    \coordinate (I) at ($(A)!0.5!(M)$);
+    
+    % Vẽ các đường tròn
+    \draw[thick, teal] (O) circle (\r);
+    \draw[dashed, purple!80!black] let \p1 = ($(I)-(A)$), \n1 = {veclen(\x1,\y1)} in (I) circle (\n1);
+    
+    % Vẽ tam giác và các đường thẳng
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    \draw[thick, blue!80!black] (M) -- (N);
+    \draw[thick, blue!80!black] (M) -- (B);
+    \draw[thick, blue!80!black] (B) -- (N);
+    \draw[thick, red!85!black] (A) -- (H);
+    \draw[thick, red!85!black] (A) -- (K);
+    \draw[dashed, blue!80!black] (A) -- (N);
+    \draw[thick, orange!90!black] (H) -- (E);
+    \draw[thick, orange!90!black] (K) -- (E);
+    
+    % Ký hiệu góc vuông
+    \pic[draw, angle radius=2.5mm]{right angle = A--H--M};
+    \pic[draw, angle radius=2.5mm]{right angle = A--K--N};
+    \pic[draw, red, angle radius=2.5mm]{right angle = M--B--N};
+    
+    % Đánh dấu các điểm
+    \fill (O) circle (1.5pt) node[below left] {$O$};
+    \fill (A) circle (1.5pt) node[above left] {$A$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill (M) circle (1.5pt) node[above right] {$M$};
+    \fill (N) circle (1.5pt) node[below left] {$N$};
+    \fill[red] (H) circle (1.5pt) node[above right=1pt] {$H$};
+    \fill[red] (K) circle (1.5pt) node[left] {$K$};
+    \fill[blue!90!black] (E) circle (1.6pt) node[above left] {$E$};
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item \textbf{Chứng minh bốn điểm $A, H, K, M$ cùng thuộc một đường tròn:}
+    \begin{itemize}
+        \item Theo giả thiết: $AH \perp MB$ tại $H \implies \widehat{AHM} = 90^\circ$.
+        \item $AK \perp MN$ tại $K \implies \widehat{AKM} = 90^\circ$.
+        \item Xét tứ giác $AHKM$ có hai đỉnh $H$ và $K$ cùng nhìn đoạn thẳng $AM$ dưới một góc vuông $90^\circ$.
+        \item Do đó tứ giác $AHKM$ nội tiếp đường tròn đường kính $AM$. Bốn điểm $A, H, K, M$ cùng thuộc đường tròn này.
+    \end{itemize}
+
+    \item \textbf{Chứng minh $\triangle AHK \backsim \triangle ABN$ và $AH \cdot AN = AK \cdot AB$:}
+    \begin{itemize}
+        \item Trong đường tròn ngoại tiếp tứ giác $AHKM$, ta có:
+        $\widehat{AHK} = \widehat{AMK} = \widehat{AMN}$ (hai góc nội tiếp cùng chắn cung $AK$).
+        \item Trong đường tròn $(O)$, ta có:
+        $\widehat{AMN} = \widehat{ABN}$ (hai góc nội tiếp cùng chắn cung $AN$).\\
+        Suy ra $\widehat{AHK} = \widehat{ABN}$.
+        \item Mặt khác, trong đường tròn ngoại tiếp tứ giác $AHKM$, ta có:
+        $\widehat{AKH} = \widehat{AMH} = \widehat{AMB}$ (hai góc nội tiếp cùng chắn cung $AH$).
+        \item Trong đường tròn $(O)$, ta có:
+        $\widehat{AMB} = \widehat{ANB}$ (hai góc nội tiếp cùng chắn cung $AB$).\\
+        Suy ra $\widehat{AKH} = \widehat{ANB}$.
+        \item Xét hai tam giác $\triangle AHK$ và $\triangle ABN$ có:
+        \[
+        \widehat{AHK} = \widehat{ABN} \quad \text{và} \quad \widehat{AKH} = \widehat{ANB}.
+        \]
+        Suy ra $\triangle AHK \backsim \triangle ABN$ (g-g).
+        \item Từ đó ta có tỉ số đồng dạng: $\dfrac{AH}{AB} = \dfrac{AK}{AN} \implies AH \cdot AN = AK \cdot AB$ (đpcm).
+    \end{itemize}
+
+    \item \textbf{Chứng minh đường thẳng $HK$ cắt $AB$ tại đúng trung điểm của $AB$:}
+    \begin{itemize}
+        \item Gọi $E$ là giao điểm của đường thẳng $HK$ với đoạn thẳng $AB$.
+        \item Vì $MN$ là đường kính của $(O)$ và $B \in (O)$ nên $\widehat{MBN} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn), suy ra $BN \perp MB$.
+        \item Mà theo giả thiết $AH \perp MB$, do đó $AH \parallel BN$ (cùng vuông góc với $MB$).
+        \item Vì $AH \parallel BN$ nên hai góc so le trong bằng nhau: $\widehat{EAH} = \widehat{ABN}$.
+        \item Mặt khác, theo chứng minh câu b ta có $\widehat{EHA} = \widehat{AHK} = \widehat{ABN}$.
+        \item Suy ra:
+        \[
+        \widehat{EHA} = \widehat{EAH}.
+        \]
+        Do đó tam giác $EAH$ cân tại $E \implies EA = EH$.
+        \item Xét tam giác $AHB$ vuông tại $H$ ($AH \perp MB$), ta có hai góc nhọn phụ nhau:
+        \[
+        \widehat{EAH} + \widehat{EBH} = 90^\circ \implies \widehat{EBH} = 90^\circ - \widehat{EAH}.
+        \]
+        Lại có:
+        \[
+        \widehat{EHA} + \widehat{EHB} = \widehat{AHB} = 90^\circ \implies \widehat{EHB} = 90^\circ - \widehat{EHA}.
+        \]
+        Vì $\widehat{EHA} = \widehat{EAH}$ nên suy ra:
+        \[
+        \widehat{EHB} = \widehat{EBH}.
+        \]
+        Do đó tam giác $EHB$ cân tại $E \implies EB = EH$.
+        \item Từ $EA = EH$ và $EB = EH$, suy ra $EA = EB = \dfrac{1}{2}AB$.
+        \item Vậy điểm $E$ chính là trung điểm của đoạn thẳng $AB$ (đpcm).
+    \end{itemize}
+\end{enumerate}
+}
+\end{ex}

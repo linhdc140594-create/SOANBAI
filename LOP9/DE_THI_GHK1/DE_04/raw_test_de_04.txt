@@ -1,0 +1,632 @@
+--- TRANG 14 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 4 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Với điều kiện nào của x thì phương trình 
+2
+3
+x
+x
++
+= có nghĩa:    
+A. 
+0
+x     
+ 
+ 
+B. 
+0
+x 
+    
+ 
+ 
+C. 
+0
+x =
+    
+ 
+         D. 
+0
+x     
+Câu 2. Phương trình (
+1)(
+2)(
+3)
+0
+x
+x
+x
+−
+−
+−
+= có số nghiệm là:    
+A. 1     
+ 
+ 
+B. 2    
+ 
+ 
+C. 3    
+ 
+ 
+D. 4    
+Câu 3. Trong các hệ thức sau hệ thức nào không là phương trình bậc nhất hai ẩn?    
+A. 3
+2
+0
+x
+y
++
+=    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+y =    
+C. 0
+0
+2
+x
+y
++
+=    
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+x
+y
++
+=
+   
+Câu 4. Trong các hệ phương trình sau hệ nào không phải là hệ hai phương trình bậc nhất 
+hai ẩn?    
+A. 
+2
+3
+0
+0
+5
+x
+y
+x
+y
+−
+=
+
+
++
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+B. 2
+0
+6
+5
+4
+1
+x
+y
+x
+y
++
+= −
+
+
++
+= −
+
+    
+C. 5
+10
+3
+2
+6
+y
+x
+y
+=
+
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 4
+7
+9
+1,2
+3
+0
+x
+y
+x
+y
++
+= −
+
+−
++
+=
+
+    
+Câu 5. Cặp số (1;2) là nghiệm của hệ phương trình nào sau đây?    
+A. 2
+6
+5
+4
+1
+x
+x
+y
+= −
+
+
++
+= −
+
+     
+ 
+ 
+ 
+ 
+B. 5
+10
+3
+2
+6
+y
+x
+y
+=
+
+
+−
+=
+
+    
+C. 6
+12
+10
+2
+6
+y
+x
+y
+=
+
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+6
+12
+10
+2
+6
+x
+y
+x
+y
+−
++
+=
+
+
+−
+=
+
+    
+
+
+--- TRANG 15 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 6. Cho a
+b
+. Trong các khẳng định sau, khẳng định nào sai?    
+A. 
+2
+2
+a
+b
++
+
++    
+ 
+ 
+ 
+ 
+ 
+B. 3
+3
+a
+b
+
+    
+C. 5
+5
+a
+b
+−
+−
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+a
+b
+−+
+−+    
+Câu 7. Giá trị của biểu thức 
+sin58
+cos60
+tan37
+tan53
+sin30
+cos32
+N
+
+
+
+
+
+
+=
+−
++
+
++
+ là:    
+A. 2    
+ 
+ 
+B. 0    
+ 
+ 
+C. 1     
+ 
+ 
+D. 3  
+Câu 8. Nghiệm của phương trình 
+1 (
+3)
+0
+3
+x
+x
+
+
++
+−
+=
+
+
+
+
+ là:    
+A. 
+1
+3
+x = −
+     
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+3
+x =
+    
+C. 
+1
+3
+x = −
+ và 
+3
+x =    
+ 
+ 
+ 
+ 
+D. 
+1
+3
+x = −
+ và 
+3
+x = −    
+Câu 9. Cho tam giác ABC vuông tại A. Hệ thức nào sau đây là đúng?   
+A. 
+tan
+AB
+AC
+B
+=
+
+     
+ 
+ 
+ 
+ 
+B. 
+cos
+AB
+AC
+B
+=
+
+    
+C. 
+cos
+AB
+AC
+C
+=
+
+     
+ 
+ 
+ 
+ 
+D. 
+tan
+AB
+AC
+C
+=
+
+    
+Câu 10. Một ngôi nhà có bậc thềm AH cao 50 cm . Người ta làm một chiếc cầu xe AB dài 
+1 m. Khi đó góc tạo bởi chiếc cầu xe và mặt đất bằng:    
+ 
+A. 60    
+ 
+ 
+B. 50    
+ 
+ 
+C. 30    
+ 
+ 
+D. 45    
+Câu 11. Cho hệ phương trình 
+3
+1
+x
+y
+x
+y
++
+=
+
+−
+=
+
+. Nghiệm của hệ phương trình là: 
+A. (2;1) 
+ 
+ 
+B. (1;2) 
+ 
+ 
+C. (3;0) 
+ 
+      D. (2; 1)
+− 
+
+
+--- TRANG 16 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 12. Cho tam giác ABC vuông tại A, đường cao AH. Biết 
+4 cm
+BH =
+, 
+9 cm
+HC =
+. Độ 
+dài đường cao AH bằng: 
+A. 6 cm 
+ 
+ 
+B. 36 cm 
+ 
+ 
+C. 5 cm 
+ 
+       D. 13 cm 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1.  Cho hệ phương trình 3
+6
+7
+3
+6
+3
+x
+y
+x
+y
+−
+=
+
+
+−
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Nếu nhân hai vế của phương trình thứ hai với 2 thì hệ phương trình thay đổi giá trị 
+nghiệm. 
+b) Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ, ta được phương 
+trình 0
+4
+x =
+. 
+c) Phương trình 0
+4
+x =
+ là phương trình vô nghiệm. 
+d) Hệ phương trình đã cho có nghiệm duy nhất. 
+Câu 2. Cho tam giác DEF vuông tại D , biết 
+6 cm
+DE =
+ và 
+8 cm
+DF =
+. Xét tính Đúng/Sai 
+của các khẳng định sau: 
+a) Độ dài cạnh huyền 
+10 cm
+EF =
+. 
+b) Tỉ số lượng giác 
+4
+tan
+3
+E =
+. 
+c) Số đo góc E xấp xỉ bằng 53. 
+d) Độ dài đường cao xuất phát từ đỉnh D bằng 4,8 cm. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hệ phương trình 
+5
+21
+6
+3
+45
+x
+y
+x
+y
+−
+=
+
+−
++
+= −
+
+. Biết 
+0
+0
+(
+;
+)
+x y là nghiệm, tính 
+0
+0
+T
+x
+y
+=
++
+. 
+
+
+--- TRANG 17 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 2. Cho góc ở tâm 
+45
+AOC
+
+=
+ và 
+30
+COB
+
+=
+. Số đo cung nhỏ AB bằng bao nhiêu? 
+ 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình sau 
+a) (
+)(
+)
+3
+7
+0
+x
+x
+−
++
+= . 
+ 
+            b) 
+(
+)(
+)
+5
+3
+3
+4
+2
+1
+2
+1
+x
+x
+x
+x
+x
++
++
+=
++
+−
++
+−
+. 
+Câu 2.  Nhân dịp ngày Giỗ Tổ Hùng Vương, một siêu thị điện máy đã giảm giá nhiều mặt 
+hàng để kích cầu mua sắm. Gía niêm yết của một chiếc tủ lạnh và một chiếc máy giặt có 
+tổng số tiền là 25,4 triệu đồng. Tuy nhiên, trong dịp này tủ lạnh giảm 40% giá niêm yết và 
+máy giặt giảm 25% giá niêm yết. Vì thế, cô Liên đã mua hai mặt hàng trên với tổng số tiền 
+16,77 triệu đồng. Hỏi giá niêm yết của mỗi mặt hàng trên là bao nhiêu? 
+Câu 3.  
+Một người đứng cách chân tháp 13,65 m nhìn lên đỉnh tháp với phương nhìn hợp với 
+phương nằm ngang một góc bằng 58
+. Biết mắt của người đó cách chân của mình một 
+khoảng 1,55 m, hỏi tháp cao bao nhiêu mét (làm tròn đến chữ số thập phân thứ hai)? 
+ 
+13,65 m
+58°
+1,55 m

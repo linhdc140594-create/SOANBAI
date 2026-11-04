@@ -1,0 +1,296 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": 14,
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 6 - ĐỀ SỐ 14",
+    "thoi_gian": "90 phút (không kể thời gian phát đề)",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "$\\text{ƯCLN}(18, 60)$ là:",
+            "a": "6",
+            "b": "12",
+            "c": "18",
+            "d": "30",
+            "da": "A",
+            "loigiai": "Phân tích các số ra thừa số nguyên tố: $18 = 2 \\cdot 3^2$ và $60 = 2^2 \\cdot 3 \\cdot 5$.\nCác thừa số nguyên tố chung là 2 và 3 với số mũ nhỏ nhất lần lượt là 1 và 1.\nDo đó, $\\text{ƯCLN}(18, 60) = 2 \\cdot 3 = 6$."
+        },
+        {
+            "cau": 2,
+            "de": "Hai đường chéo của hình chữ nhật $MNPQ$ là:",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.75, baseline=(current bounding box.center)]\n  \\coordinate (M) at (0,2);\n  \\coordinate (N) at (4.5,2);\n  \\coordinate (P) at (4.5,0);\n  \\coordinate (Q) at (0,0);\n  \\draw[thick] (M) -- (N) -- (P) -- (Q) -- cycle;\n  \\draw[thick, dashed, blue!70!black] (M) -- (P);\n  \\draw[thick, dashed, blue!70!black] (N) -- (Q);\n  \\node[above left] at (M) {$M$};\n  \\node[above right] at (N) {$N$};\n  \\node[below right] at (P) {$P$};\n  \\node[below left] at (Q) {$Q$};\n\\end{tikzpicture}\n\\end{center}",
+            "a": "$MN$ và $QP$",
+            "b": "$MP$ và $NQ$",
+            "c": "$MQ$ và $NP$",
+            "d": "$MN$ và $MQ$",
+            "da": "B",
+            "loigiai": "Trong hình chữ nhật $MNPQ$, hai đường chéo nối các cặp đỉnh đối diện là $MP$ và $NQ$."
+        },
+        {
+            "cau": 3,
+            "de": "Trong phép chia một số tự nhiên cho 4, số dư có thể là:",
+            "a": "1; 2; 3",
+            "b": "0; 1; 2; 3; 4",
+            "c": "0; 1; 2; 3",
+            "d": "0",
+            "da": "C",
+            "loigiai": "Số dư trong phép chia một số tự nhiên cho 4 luôn nhỏ hơn 4 và lớn hơn hoặc bằng 0, tức là có thể nhận các giá trị $0; 1; 2; 3$."
+        },
+        {
+            "cau": 4,
+            "de": "Số nào sau đây chia hết cho cả 2 và 5?",
+            "a": "1150",
+            "b": "1155",
+            "c": "5311",
+            "d": "3536",
+            "da": "A",
+            "loigiai": "Số chia hết cho cả 2 và 5 phải có chữ số tận cùng là 0. Do đó trong các số đã cho, số 1150 chia hết cho cả 2 và 5."
+        },
+        {
+            "cau": 5,
+            "de": "Hình nào trong các hình sau có hai cạnh đối song song và hai đường chéo bằng nhau?",
+            "a": "Hình bình hành",
+            "b": "Hình thang cân",
+            "c": "Hình thoi",
+            "d": "Hình tam giác đều",
+            "da": "B",
+            "loigiai": "Theo tính chất, hình thang cân có hai đáy (hai cạnh đối) song song với nhau và hai đường chéo bằng nhau."
+        },
+        {
+            "cau": 6,
+            "de": "Cho tập hợp $A = \\{0; 2; 4; a; b\\}$. Khẳng định nào dưới đây là sai?",
+            "a": "$5 \\in A$",
+            "b": "$a \\in A$",
+            "c": "$0 \\in A$",
+            "d": "$1 \\notin A$",
+            "da": "A",
+            "loigiai": "Các phần tử thuộc tập hợp $A$ là $0, 2, 4, a, b$. Số 5 không có trong tập hợp $A$ ($5 \\notin A$), do đó khẳng định \"$5 \\in A$\" là sai."
+        },
+        {
+            "cau": 7,
+            "de": "Số nào sau đây là ước của 60?",
+            "a": "16",
+            "b": "18",
+            "c": "20",
+            "d": "22",
+            "da": "C",
+            "loigiai": "Thực hiện phép chia 60 cho các số đã cho: $60 : 20 = 3$ (chia hết). Vậy 20 là ước của 60."
+        },
+        {
+            "cau": 8,
+            "de": "Trong các số sau, số nào là bội của 4?",
+            "a": "1",
+            "b": "2",
+            "c": "8",
+            "d": "15",
+            "da": "C",
+            "loigiai": "Bội của 4 là các số chia hết cho 4. Trong các số trên, số 8 chia hết cho 4 ($8 : 4 = 2$)."
+        },
+        {
+            "cau": 9,
+            "de": "Trong các hình ảnh dưới đây, hình ảnh nào có dạng hình tam giác đều?",
+            "hinh_ve": "\\begin{center}\n\\includegraphics[width=0.88\\linewidth]{crops/test_p54_xref3332.jpeg}\n\\end{center}",
+            "a": "Hình 1",
+            "b": "Hình 2",
+            "c": "Hình 3",
+            "d": "Hình 4",
+            "da": "D",
+            "loigiai": "Hình 4 là chiếc đồng hồ treo tường dạng hình tam giác đều có 3 cạnh bằng nhau và 3 góc bằng nhau."
+        },
+        {
+            "cau": 10,
+            "de": "Khẳng định nào sau đây là khẳng định đúng về hình chữ nhật?",
+            "a": "Bốn cạnh bằng nhau",
+            "b": "Hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường",
+            "c": "Hai đường chéo vuông góc với nhau",
+            "d": "Chu vi hình chữ nhật là tích của chiều dài và chiều rộng",
+            "da": "B",
+            "loigiai": "Theo tính chất của hình chữ nhật: hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường."
+        },
+        {
+            "cau": 11,
+            "de": "Cho $x$ là số tự nhiên thỏa mãn $10^7 < x < 10^8$. Số $x$ có:",
+            "a": "9 chữ số",
+            "b": "8 chữ số",
+            "c": "7 chữ số",
+            "d": "10 chữ số",
+            "da": "B",
+            "loigiai": "Ta có $10^7 = 10\\,000\\,000$ (số nhỏ nhất có 8 chữ số) và $10^8 = 100\\,000\\,000$ (số nhỏ nhất có 9 chữ số).\nCác số tự nhiên $x$ thỏa mãn $10^7 < x < 10^8$ là từ $10\\,000\\,001$ đến $99\\,999\\,999$, đều là các số có 8 chữ số."
+        },
+        {
+            "cau": 12,
+            "de": "Hình chữ nhật có chiều dài $60\\text{ dm}$ và chiều rộng $4\\text{ m}$ thì diện tích là:",
+            "a": "$24\\text{ m}^2$",
+            "b": "$240\\text{ dm}^2$",
+            "c": "$200\\text{ dm}^2$",
+            "d": "$128\\text{ dm}^2$",
+            "da": "A",
+            "loigiai": "Đổi chiều dài về mét: $60\\text{ dm} = 6\\text{ m}$.\nDiện tích hình chữ nhật là: $S = 6 \\times 4 = 24\\text{ (m}^2\\text{)}$."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho các hình sau: hình tam giác đều, hình vuông, hình lục giác đều, hình chữ nhật, hình thoi, hình bình hành, hình thang cân. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Hình tam giác đều, hình vuông, hình lục giác đều có tất cả các cạnh bằng nhau.",
+                "da": "D",
+                "giai": "Đúng. Tam giác đều có 3 cạnh bằng nhau, hình vuông có 4 cạnh bằng nhau và hình lục giác đều có 6 cạnh bằng nhau."
+            },
+            "y_b": {
+                "noi_dung": "Có 2 hình có hai đường chéo vuông góc với nhau.",
+                "da": "D",
+                "giai": "Đúng. Hai hình có hai đường chéo vuông góc với nhau là hình vuông và hình thoi."
+            },
+            "y_c": {
+                "noi_dung": "Có 3 hình hai cạnh đối song song và các đường chéo bằng nhau.",
+                "da": "D",
+                "giai": "Đúng. Ba hình có hai cạnh đối song song và các đường chéo bằng nhau là hình vuông, hình chữ nhật và hình thang cân."
+            },
+            "y_d": {
+                "noi_dung": "Hình lục giác có độ dài đường chéo gấp đôi độ dài cạnh.",
+                "da": "S",
+                "giai": "Sai. Chỉ các đường chéo chính của hình lục giác đều mới có độ dài gấp đôi độ dài cạnh; các đường chéo phụ không có tính chất này và hình lục giác bất kỳ cũng không có tính chất này."
+            }
+        },
+        {
+            "cau": 2,
+            "de": "Cho ba số $A = 24$, $B = 36$ và $C = 60$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Số 12 là một ước chung của ba số $A, B, C$.",
+                "da": "D",
+                "giai": "Đúng. Cả ba số 24, 36 và 60 đều chia hết cho 12."
+            },
+            "y_b": {
+                "noi_dung": "Phân tích số 24 ra thừa số nguyên tố ta được $2^3 \\cdot 3$.",
+                "da": "D",
+                "giai": "Đúng. Ta có $24 = 8 \\cdot 3 = 2^3 \\cdot 3$, trong đó 2 và 3 là các số nguyên tố."
+            },
+            "y_c": {
+                "noi_dung": "Ước chung lớn nhất của hai số $A$ và $B$ là 6.",
+                "da": "S",
+                "giai": "Sai. Vì $24 = 2^3 \\cdot 3$ và $36 = 2^2 \\cdot 3^2$ nên $\\text{ƯCLN}(24, 36) = 2^2 \\cdot 3 = 12$."
+            },
+            "y_d": {
+                "noi_dung": "Bội chung nhỏ nhất của hai số $A$ và $B$ là 72.",
+                "da": "D",
+                "giai": "Đúng. $\\text{BCNN}(24, 36) = 2^3 \\cdot 3^2 = 8 \\cdot 9 = 72$."
+            }
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Cho hình thoi $ABCD$ có cạnh $5\\text{ cm}$. Chu vi của hình thoi $ABCD$ là bao nhiêu centimét?",
+            "da": "20",
+            "loigiai": "Chu vi hình thoi $ABCD$ là: $5 \\times 4 = 20\\text{ (cm)}$. Đáp số: 20."
+        },
+        {
+            "cau": 2,
+            "de": "Tìm số tự nhiên $x$ lớn nhất thỏa mãn $30 \\ \\vdots \\ x$ và $45 \\ \\vdots \\ x$?",
+            "da": "15",
+            "loigiai": "Vì $x$ là số tự nhiên lớn nhất thỏa mãn $30 \\ \\vdots \\ x$ và $45 \\ \\vdots \\ x$ nên $x = \\text{ƯCLN}(30, 45)$.\nTa có: $30 = 2 \\cdot 3 \\cdot 5$ và $45 = 3^2 \\cdot 5$.\nDo đó: $x = \\text{ƯCLN}(30, 45) = 3 \\cdot 5 = 15$. Đáp số: 15."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "2,0 điểm",
+            "de": "Thực hiện phép tính (tính nhanh nếu có):",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "$115 + 300 + 585$",
+                    "loigiai": "$\\begin{aligned}[t] 115 + 300 + 585 &= (115 + 585) + 300 \\\\ &= 700 + 300 = 1000. \\end{aligned}$"
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "$6^2 \\cdot 25 + 4 \\cdot 9 \\cdot 75 - 25^0$",
+                    "loigiai": "$\\begin{aligned}[t] 6^2 \\cdot 25 + 4 \\cdot 9 \\cdot 75 - 25^0 &= 36 \\cdot 25 + 36 \\cdot 75 - 1 \\\\ &= 36 \\cdot (25 + 75) - 1 \\\\ &= 36 \\cdot 100 - 1 = 3600 - 1 = 3599. \\end{aligned}$"
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,5",
+                    "noi_dung": "$2025 \\cdot 79 + 2025 \\cdot 21$",
+                    "loigiai": "$\\begin{aligned}[t] 2025 \\cdot 79 + 2025 \\cdot 21 &= 2025 \\cdot (79 + 21) \\\\ &= 2025 \\cdot 100 = 202500. \\end{aligned}$"
+                },
+                {
+                    "y": "d",
+                    "diem_y": "0,5",
+                    "noi_dung": "$10^2 - [60 : (5^6 : 5^4 - 3 \\cdot 5)]$",
+                    "loigiai": "$\\begin{aligned}[t] 10^2 - [60 : (5^6 : 5^4 - 3 \\cdot 5)] &= 100 - [60 : (5^2 - 15)] \\\\ &= 100 - [60 : (25 - 15)] \\\\ &= 100 - [60 : 10] = 100 - 6 = 94. \\end{aligned}$"
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "1,5 điểm",
+            "de": "Tìm số tự nhiên $x$, biết:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,25",
+                    "noi_dung": "$x + 24 = 60$",
+                    "loigiai": "$x = 60 - 24 \\Rightarrow x = 36$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,25",
+                    "noi_dung": "$3(x - 5) = 21$",
+                    "loigiai": "$x - 5 = 21 : 3 \\Rightarrow x - 5 = 7 \\Rightarrow x = 7 + 5 \\Rightarrow x = 12$."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,5",
+                    "noi_dung": "$3 \\cdot 2^x + 12 = 36$",
+                    "loigiai": "$\\begin{aligned}[t] 3 \\cdot 2^x &= 36 - 12 \\\\ 3 \\cdot 2^x &= 24 \\\\ 2^x &= 24 : 3 = 8 \\\\ 2^x &= 2^3 \\\\ x &= 3. \\end{aligned}$"
+                },
+                {
+                    "y": "d",
+                    "diem_y": "0,5",
+                    "noi_dung": "$150 - 2(x + 1) = 70$",
+                    "loigiai": "$\\begin{aligned}[t] 2(x + 1) &= 150 - 70 = 80 \\\\ x + 1 &= 80 : 2 = 40 \\\\ x &= 40 - 1 = 39. \\end{aligned}$"
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "1,0 điểm",
+            "de": "Bạn An đi nhà sách mua 5 cây bút bi cùng loại và 6 quyển tập cùng loại. Biết giá tiền một quyển tập là $10\\,000$ đồng. Bạn đưa chị thu ngân tờ $200\\,000$ đồng và được chị trả lại $125\\,000$ đồng. Hỏi giá tiền của 1 cây bút mà bạn An đã mua là bao nhiêu?",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "1,0",
+                    "noi_dung": "Tính giá tiền của 1 cây bút bi.",
+                    "loigiai": "Tổng số tiền An đã dùng để mua bút và tập là:\n$$200\\,000 - 125\\,000 = 75\\,000\\text{ (đồng).}$$\nSố tiền An mua 6 quyển tập là:\n$$6 \\times 10\\,000 = 60\\,000\\text{ (đồng).}$$\nSố tiền An mua 5 cây bút bi là:\n$$75\\,000 - 60\\,000 = 15\\,000\\text{ (đồng).}$$\nGiá tiền của 1 cây bút bi mà bạn An đã mua là:\n$$15\\,000 : 5 = 3\\,000\\text{ (đồng).}$$\nĐáp số: $3\\,000$ đồng."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Cho $S = 3 + 3^2 + 3^3 + 3^4 + \\dots + 3^{99} + 3^{100}$. Hỏi $S$ có chia hết cho 12 không? Vì sao?",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Chứng minh $S \\ \\vdots \\ 12$.",
+                    "loigiai": "Tổng $S$ có tất cả 100 số hạng. Vì $100 \\ \\vdots \\ 2$, ta nhóm 2 số hạng liên tiếp thành một cặp như sau:\n$$\\begin{aligned} S &= (3 + 3^2) + (3^3 + 3^4) + \\dots + (3^{99} + 3^{100}) \\\\ &= (3 + 9) + 3^2(3 + 3^2) + \\dots + 3^{98}(3 + 3^2) \\\\ &= 12 + 3^2 \\cdot 12 + \\dots + 3^{98} \\cdot 12 \\\\ &= 12 \\cdot (1 + 3^2 + \\dots + 3^{98}). \\end{aligned}$$\nVì $12 \\ \\vdots \\ 12$ nên tích $12 \\cdot (1 + 3^2 + \\dots + 3^{98})$ chia hết cho 12.\nVậy tổng $S$ có chia hết cho 12."
+                }
+            ]
+        }
+    ]
+}
+
+out_path = r"d:\GitHub\SOANBAI-main\LOP6\DE_THI_GHK1\DE_14\de_14.json"
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"Ghi thanh cong de_14.json!")

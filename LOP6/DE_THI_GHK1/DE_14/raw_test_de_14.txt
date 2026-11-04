@@ -1,0 +1,363 @@
+--- TRANG 53 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 14 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. 
+ là : 
+A. 6.                           
+B. 12.                          
+C. 18.                            
+D. 30. 
+Câu 2. Hai đường chéo của hình chữ nhật MNPQ là: 
+ 
+A. MN và QP.                
+ 
+ 
+ 
+ 
+B. MP và NQ.               
+C. MQ và NP .           
+ 
+ 
+ 
+ 
+D. MN và MQ. 
+Câu 3. Trong phép chia một số tự nhiên cho 4 số dư có thể là: 
+A. 1;2;3. 
+ 
+ 
+B. 0;1;2;3;4 .  
+ 
+C. 0;1;2;3. 
+ 
+ 
+D. 0 . 
+Câu 4. Số nào sau đây chia hết cho 2 và 5? 
+A. 1150. 
+ 
+ 
+B. 1155. 
+ 
+ 
+C. 5311. 
+ 
+      D. 3536. 
+Câu 5. Hình nào trong các hình sau có 2 cạnh đối song song và 2 đường chéo bằng nhau? 
+A. Hình bình hành.      
+ 
+ 
+ 
+ 
+B. Hình thang cân. 
+C. Hình thoi.              
+ 
+ 
+ 
+ 
+D. Hình tam giác đều. 
+Câu 6. Cho tập hợp 
+}
+0;2;
+{
+4; ;
+A
+a b
+=
+. Khẳng định nào dưới đây sai ? 
+(
+)
+Ö
+1
+CLN
+8,60
+
+
+--- TRANG 54 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 5
+A
+
+. 
+ 
+B. a
+A
+
+.   
+ 
+ 
+C. 0
+A
+
+.    
+ 
+      D. 1
+A
+
+. 
+Câu 7. Số nào sau đây là ước của 60? 
+A. 16.  
+ 
+ 
+B. 18.  
+ 
+ 
+C. 20 . 
+ 
+    D. 22 . 
+Câu 8. Trong các số sau, số nào là bội của 4 ? 
+A. 1. 
+                               B. 2 . 
+ C. 8. 
+ 
+D. 15. 
+Câu 9. Trong các hình ảnh dưới đây, hình ảnh nào có dạng hình tam giác đều? 
+ 
+A. Hình 1. 
+ 
+ 
+ 
+ 
+ 
+ 
+B. Hình 2. 
+ 
+ 
+ 
+C. Hình 3. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. Hình 4. 
+Câu 10. Khẳng định nào sau đây là khẳng định đúng về hình chữ nhật? 
+A. Bốn cạnh bằng nhau. 
+B. Hai đường chéo bằng nhau và cắt nhau tại trung điểm mỗi đường. 
+C. Hai đường chéo vuông góc với nhau. 
+D. Chu vi hình chữ nhật là tích của chiều dài và chiều rộng. 
+Câu 11. Cho x là số tự nhiên thỏa mãn 
+7
+8
+10
+10
+x
+
+
+. Số x có: 
+A. 9 chữ số.  
+ 
+ 
+ 
+ 
+B. 8 chữ số. 
+C. 7 chữ số.  
+ 
+ 
+ 
+ 
+D. 10 chữ số. 
+Câu 12.  Hình chữ nhật có chiều dài 60dm và chiều rộng 4m thì diện tích là: 
+A. 
+2
+24 m . 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+240 dm .  
+ 
+ 
+
+
+--- TRANG 55 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. 
+2
+200 dm .  
+  
+ 
+ 
+ 
+D. 
+2
+128 dm . 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho các hình sau: hình tam giác đều, hình vuông, hình lục giác đều, hình chữ nhật, 
+hình thoi, hình bình hành, hình thang cân. Xét tính đúng sai của các mệnh đề sau: 
+a) Hình tam giác đều, hình vuông, hình lục giác đều có tất cả các cạnh bằng nhau. 
+b) Có 2 hình có hai đường chéo vuông góc với nhau. 
+c) Có 3 hình hai cạnh đối song song và các đường chéo bằng nhau. 
+d) Hình lục giác có độ dài đường chéo gấp đôi độ dài cạnh. 
+Câu 2. Cho ba số 
+24
+A =
+, 
+36
+B =
+ và 
+60
+C =
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Số 12 là một ước chung của ba số 
+, ,
+A B C . 
+b) Phân tích số 24 ra thừa số nguyên tố ta được 
+32
+3
+. 
+c) Ước chung lớn nhất của hai số A và B là 6. 
+d) Bội chung nhỏ nhất của hai số A và B là 72. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hình thoi ABCD có cạnh 5cm . Chu vi của hình thoi ABCD là bao nhiêu ? 
+Câu 2. Tìm số tự nhiên x lớn nhất thỏa mãn 30 x
+ và 45 x
+? 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính nhanh nếu có) 
+a) 115
+300
+585;
++
++
+ 
+ 
+ 
+ 
+b) 
+2
+0
+6 .25
+4.9.75
+25 ;
++
+−
+ 
+
+
+--- TRANG 56 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) 2025.79
+2025.21;
++
+ 
+ 
+d) 
+(
+)
+2
+6
+4
+10
+60: 5 :5
+3.5
+.
+
+
+−
+−
+
+  
+ 
+Câu 2. Tìm số tự nhiên x , biết: 
+a) 
+24
+60
+x +
+=
+; 
+ 
+ 
+ 
+b) 3(
+5)
+21
+x −
+=
+; 
+c) 2
+3 12
+36
+x +
+=
+; 
+ 
+ 
+ 
+d) 150
+2(
+1)
+70
+x
+−
++
+=
+. 
+Câu 3. Bạn An đi nhà sách mua 5 cây bút bi cùng loại và 6 quyển tập cùng loại. Biết giá 
+tiền một quyển tập là 10 000 đồng. Bạn đưa chị thu ngân tờ 200 000 đồng và được chị trả 
+lại 125 000 đồng. Hỏi giá tiền của 1 cây bút mà bạn An đã mua là bao nhiêu?  
+Câu 4. Cho 
+2
+3
+4
+99
+100
+3
+3
+3
+3
+.....
+3
+3
+S =
++
++
++
++
++
++
+. Hỏi S có chia hết cho 12 không? Vì sao? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

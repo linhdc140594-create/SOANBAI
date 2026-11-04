@@ -1,0 +1,225 @@
+{
+  "ma_de": "04",
+  "lop": "9",
+  "mon": "Toán 9",
+  "thoi_gian": "90 phút",
+  "phan_I": [
+    {
+      "cau": 1,
+      "de": "Với điều kiện nào của $x$ thì phương trình $\\frac{x+2}{x} = 3$ có nghĩa?",
+      "a": "$x \\ge 0$.",
+      "b": "$x \\neq 0$.",
+      "c": "$x = 0$.",
+      "d": "$x \\le 0$.",
+      "da": "B",
+      "loi_giai": "Phương trình có chứa mẫu thức là $x$. Điều kiện để phương trình có nghĩa là mẫu thức phải khác $0$, tức là $x \\neq 0$."
+    },
+    {
+      "cau": 2,
+      "de": "Phương trình $(x - 1)(x - 2)(x - 3) = 0$ có số nghiệm là:",
+      "a": "$1$.",
+      "b": "$2$.",
+      "c": "$3$.",
+      "d": "$4$.",
+      "da": "C",
+      "loi_giai": "Phương trình tích $(x - 1)(x - 2)(x - 3) = 0 \\iff x = 1$ hoặc $x = 2$ hoặc $x = 3$. Vậy phương trình có đúng $3$ nghiệm phân biệt."
+    },
+    {
+      "cau": 3,
+      "de": "Trong các hệ thức sau, hệ thức nào không phải là phương trình bậc nhất hai ẩn?",
+      "a": "$3x + 2y = 0$.",
+      "b": "$0x + 2y = 0$.",
+      "c": "$0x + 0y = 2$.",
+      "d": "$x + 3y = 2$.",
+      "da": "C",
+      "loi_giai": "Phương trình bậc nhất hai ẩn có dạng $ax + by = c$, trong đó các hệ số $a$ và $b$ không đồng thời bằng 0. Ở phương trình $0x + 0y = 2$, cả hai hệ số đều bằng 0 nên không phải phương trình bậc nhất hai ẩn."
+    },
+    {
+      "cau": 4,
+      "de": "Trong các hệ phương trình sau, hệ nào không phải là hệ hai phương trình bậc nhất hai ẩn?",
+      "a": "$\\begin{cases} 2x - 3y = 0 \\\\ 0x + 0y = 5 \\end{cases}$",
+      "b": "$\\begin{cases} 2x + 0y = -6 \\\\ 5x + 4y = -1 \\end{cases}$",
+      "c": "$\\begin{cases} 5y = 10 \\\\ 3x - 2y = 6 \\end{cases}$",
+      "d": "$\\begin{cases} 4x + 7y = -9 \\\\ -1{,}2x + 3y = 0 \\end{cases}$",
+      "da": "A",
+      "loi_giai": "Ở hệ phương trình phương án A, phương trình thứ hai $0x + 0y = 5$ không phải là phương trình bậc nhất hai ẩn, do đó hệ này không phải là hệ hai phương trình bậc nhất hai ẩn."
+    },
+    {
+      "cau": 5,
+      "de": "Cặp số $(1; 2)$ là nghiệm của hệ phương trình nào sau đây?",
+      "a": "$\\begin{cases} 2x = -6 \\\\ 5x + 4y = -1 \\end{cases}$",
+      "b": "$\\begin{cases} 5y = 10 \\\\ 3x - 2y = 6 \\end{cases}$",
+      "c": "$\\begin{cases} 6y = 12 \\\\ 10x - 2y = 6 \\end{cases}$",
+      "d": "$\\begin{cases} -2x + 6y = 12 \\\\ 10x - 2y = 6 \\end{cases}$",
+      "da": "C",
+      "loi_giai": "Thay $x = 1, y = 2$ vào hệ ở phương án C: $6(2) = 12$ (đúng) và $10(1) - 2(2) = 10 - 4 = 6$ (đúng)."
+    },
+    {
+      "cau": 6,
+      "de": "Cho $a > b$. Trong các khẳng định sau, khẳng định nào sai?",
+      "a": "$a + 2 > b + 2$.",
+      "b": "$3a > 3b$.",
+      "c": "$-5a < -5b$.",
+      "d": "$-a + 2 > -b + 2$.",
+      "da": "D",
+      "loi_giai": "Từ $a > b$, nhân cả hai vế với $-1$ ta đổi chiều bất đẳng thức: $-a < -b$. Cộng thêm 2 vào hai vế: $-a + 2 < -b + 2$. Do đó khẳng định phương án D là sai."
+    },
+    {
+      "cau": 7,
+      "de": "Giá trị của biểu thức $N = \\frac{\\sin 58^\\circ}{\\cos 32^\\circ} - \\cos 60^\\circ + \\tan 37^\\circ \\cdot \\tan 53^\\circ + \\sin 30^\\circ$ là:",
+      "a": "$2$.",
+      "b": "$0$.",
+      "c": "$1$.",
+      "d": "$3$.",
+      "da": "A",
+      "loi_giai": "Vì $58^\\circ$ và $32^\\circ$ phụ nhau nên $\\sin 58^\\circ = \\cos 32^\\circ \\implies \\frac{\\sin 58^\\circ}{\\cos 32^\\circ} = 1$. Lại có $\\tan 37^\\circ \\cdot \\tan 53^\\circ = \\tan 37^\\circ \\cdot \\cot 37^\\circ = 1$. Mặt khác $\\cos 60^\\circ = \\sin 30^\\circ = \\frac{1}{2}$. Do đó $N = 1 - \\frac{1}{2} + 1 + \\frac{1}{2} = 2$."
+    },
+    {
+      "cau": 8,
+      "de": "Nghiệm của phương trình $\\left(x + \\frac{1}{3}\\right)(x - 3) = 0$ là:",
+      "a": "$x = -\\frac{1}{3}$.",
+      "b": "$x = \\frac{1}{3}$.",
+      "c": "$x = -\\frac{1}{3}$ và $x = 3$.",
+      "d": "$x = -\\frac{1}{3}$ và $x = -3$.",
+      "da": "C",
+      "loi_giai": "Phương trình tích tương đương với $x + \\frac{1}{3} = 0 \\iff x = -\\frac{1}{3}$ hoặc $x - 3 = 0 \\iff x = 3$."
+    },
+    {
+      "cau": 9,
+      "de": "Cho tam giác $ABC$ vuông tại $A$. Hệ thức nào sau đây là đúng?",
+      "a": "$AB = AC \\cdot \\tan B$.",
+      "b": "$AB = AC \\cdot \\cos B$.",
+      "c": "$AB = AC \\cdot \\cos C$.",
+      "d": "$AB = AC \\cdot \\tan C$.",
+      "da": "D",
+      "loi_giai": "Trong tam giác vuông $ABC$ tại $A$: $\\tan C = \\frac{AB}{AC} \\implies AB = AC \\cdot \\tan C$."
+    },
+    {
+      "cau": 10,
+      "de": "Một ngôi nhà có bậc thềm $AH$ cao $50\\text{ cm}$. Người ta làm một chiếc cầu xe $AB$ dài $1\\text{ m}$. Khi đó góc tạo bởi chiếc cầu xe và mặt đất bằng:",
+      "a": "$60^\\circ$.",
+      "b": "$50^\\circ$.",
+      "c": "$30^\\circ$.",
+      "d": "$45^\\circ$.",
+      "da": "C",
+      "loi_giai": "Đổi $1\\text{ m} = 100\\text{ cm}$. Trong tam giác vuông $ABH$ tại $H$: $\\sin B = \\frac{AH}{AB} = \\frac{50}{100} = \\frac{1}{2} \\implies \\widehat{B} = 30^\\circ$."
+    },
+    {
+      "cau": 11,
+      "de": "Nghiệm của hệ phương trình $\\begin{cases} x + y = 3 \\\\ x - y = 1 \\end{cases}$ là:",
+      "a": "$(2; 1)$.",
+      "b": "$(1; 2)$.",
+      "c": "$(3; 0)$.",
+      "d": "$(2; -1)$.",
+      "da": "A",
+      "loi_giai": "Cộng hai phương trình vế theo vế: $2x = 4 \\implies x = 2$. Thay vào phương trình đầu: $2 + y = 3 \\implies y = 1$. Vậy nghiệm là $(2; 1)$."
+    },
+    {
+      "cau": 12,
+      "de": "Cho tam giác $ABC$ vuông tại $A$, đường cao $AH$. Biết $BH = 4\\text{ cm}, HC = 9\\text{ cm}$. Độ dài đường cao $AH$ bằng:",
+      "a": "$6\\text{ cm}$.",
+      "b": "$36\\text{ cm}$.",
+      "c": "$5\\text{ cm}$.",
+      "d": "$13\\text{ cm}$.",
+      "da": "A",
+      "loi_giai": "Áp dụng hệ thức lượng trong tam giác vuông: $AH^2 = BH \\cdot HC = 4 \\cdot 9 = 36 \\implies AH = 6\\text{ cm}$."
+    }
+  ],
+  "phan_II": [
+    {
+      "cau": 1,
+      "de": "Cho hệ phương trình $\\begin{cases} 3x - 6y = 7 \\\\ 3x - 6y = 3. \\end{cases}$ Xét tính Đúng/Sai của các khẳng định sau:",
+      "y_a": {
+        "noi_dung": "Nếu nhân hai vế của phương trình thứ hai với 2 thì hệ phương trình thay đổi giá trị nghiệm.",
+        "da": "D",
+        "loi_giai": "Khẳng định Đúng vì khi biến đổi không tương đương hoặc thay đổi phương trình làm mất/thay đổi quan hệ hệ số sẽ làm đổi nghiệm."
+      },
+      "y_b": {
+        "noi_dung": "Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ, ta được phương trình $0x = 4$.",
+        "da": "D",
+        "loi_giai": "Lấy $(3x - 6y) - (3x - 6y) = 7 - 3 \\iff 0x + 0y = 4 \\iff 0x = 4$. Khẳng định Đúng."
+      },
+      "y_c": {
+        "noi_dung": "Phương trình $0x = 4$ là phương trình vô nghiệm.",
+        "da": "D",
+        "loi_giai": "Khẳng định Đúng vì không có số thực $x$ nào thỏa mãn $0 \\cdot x = 4$."
+      },
+      "y_d": {
+        "noi_dung": "Hệ phương trình đã cho có nghiệm duy nhất.",
+        "da": "S",
+        "loi_giai": "Khẳng định Sai vì hệ phương trình vô nghiệm."
+      }
+    },
+    {
+      "cau": 2,
+      "de": "Cho tam giác $DEF$ vuông tại $D$, biết $DE = 6\\text{ cm}$ và $DF = 8\\text{ cm}$. Xét tính Đúng/Sai của các khẳng định sau:",
+      "y_a": {
+        "noi_dung": "Độ dài cạnh huyền $EF = 10\\text{ cm}$.",
+        "da": "D",
+        "loi_giai": "Theo định lý Pythagore: $EF = \\sqrt{DE^2 + DF^2} = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Khẳng định Đúng."
+      },
+      "y_b": {
+        "noi_dung": "Tỉ số lượng giác $\\tan E = \\frac{4}{3}$.",
+        "da": "D",
+        "loi_giai": "Trong tam giác vuông $DEF$: $\\tan E = \\frac{DF}{DE} = \\frac{8}{6} = \\frac{4}{3}$. Khẳng định Đúng."
+      },
+      "y_c": {
+        "noi_dung": "Số đo góc $E$ xấp xỉ bằng $53^\\circ$.",
+        "da": "D",
+        "loi_giai": "Ta có $\\tan E = \\frac{4}{3} \\approx 1{,}3333 \\implies \\widehat{E} \\approx 53^\\circ$. Khẳng định Đúng."
+      },
+      "y_d": {
+        "noi_dung": "Độ dài đường cao xuất phát từ đỉnh $D$ bằng $4{,}8\\text{ cm}$.",
+        "da": "D",
+        "loi_giai": "Áp dụng hệ thức lượng: $h = \\frac{DE \\cdot DF}{EF} = \\frac{6 \\cdot 8}{10} = 4{,}8\\text{ cm}$. Khẳng định Đúng."
+      }
+    }
+  ],
+  "phan_III": [
+    {
+      "cau": 1,
+      "de": "Cho hệ phương trình $\\begin{cases} x - 5y = 21 \\\\ -6x + 3y = -45. \\end{cases}$ Biết $(x_0; y_0)$ là nghiệm của hệ, tính giá trị biểu thức $T = x_0 + y_0$.",
+      "da": "$3$",
+      "loi_giai": "Nhân phương trình đầu với $6$: $\\begin{cases} 6x - 30y = 126 \\\\ -6x + 3y = -45 \\end{cases}$. Cộng hai phương trình: $-27y = 81 \\implies y = -3$. Thay vào phương trình đầu: $x - 5(-3) = 21 \\iff x + 15 = 21 \\implies x = 6$. Khi đó $T = x_0 + y_0 = 6 + (-3) = 3$."
+    },
+    {
+      "cau": 2,
+      "de": "Cho hai góc ở tâm kề nhau $\\widehat{AOC} = 45^\\circ$ và $\\widehat{COB} = 30^\\circ$ trên cùng một đường tròn. Số đo cung nhỏ $\\wideparen{AB}$ bằng bao nhiêu độ?",
+      "da": "$75^\\circ$",
+      "loi_giai": "Số đo cung nhỏ $\\wideparen{AB} = \\text{sđ}\\, \\wideparen{AC} + \\text{sđ}\\, \\wideparen{CB} = 45^\\circ + 30^\\circ = 75^\\circ$."
+    }
+  ],
+  "phan_IV": [
+    {
+      "cau": 1,
+      "diem": "1,0 điểm",
+      "de": "Giải các phương trình sau:",
+      "cac_y": [
+        {
+          "diem_y": "0,5",
+          "noi_dung": "$(x - 3)(x + 7) = 0$",
+          "loi_giai": "Ta có $(x - 3)(x + 7) = 0 \\iff \\begin{cases} x - 3 = 0 \\\\ x + 7 = 0 \\end{cases} \\iff \\begin{cases} x = 3 \\\\ x = -7. \\end{cases}$\nVậy tập nghiệm của phương trình là $S = \\{-7; 3\\}$."
+        },
+        {
+          "diem_y": "0,5",
+          "noi_dung": "$\\frac{5}{x + 2} + \\frac{3}{x - 1} = \\frac{3x + 4}{(x + 2)(x - 1)}$",
+          "loi_giai": "Điều kiện xác định: $x \\neq -2$ và $x \\neq 1$.\nQuy đồng mẫu thức và khử mẫu:\n$$5(x - 1) + 3(x + 2) = 3x + 4 \\iff 5x - 5 + 3x + 6 = 3x + 4 \\iff 8x + 1 = 3x + 4 \\iff 5x = 3 \\iff x = \\frac{3}{5}.$$\nGiá trị $x = \\frac{3}{5}$ thỏa mãn điều kiện xác định.\nVậy nghiệm của phương trình là $x = \\frac{3}{5}$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem": "1,0 điểm",
+      "de": "Nhân dịp ngày Giỗ Tổ Hùng Vương, một siêu thị điện máy đã giảm giá nhiều mặt hàng để kích cầu mua sắm. Giá niêm yết của một chiếc tủ lạnh và một chiếc máy giặt có tổng số tiền là $25{,}4\\text{ triệu đồng}$. Tuy nhiên, trong dịp này tủ lạnh được giảm $40\\%$ giá niêm yết và máy giặt được giảm $25\\%$ giá niêm yết. Vì thế, cô Liên đã mua hai mặt hàng trên với tổng số tiền là $16{,}77\\text{ triệu đồng}$. Hỏi giá niêm yết của mỗi mặt hàng trên là bao nhiêu triệu đồng?",
+      "loi_giai": "Gọi giá niêm yết của chiếc tủ lạnh là $x$ (triệu đồng) và của chiếc máy giặt là $y$ (triệu đồng), điều kiện $0 < x, y < 25{,}4$.\nTheo đề bài, tổng giá niêm yết là $25{,}4\\text{ triệu đồng}$ nên ta có phương trình:\n$$x + y = 25{,}4.$$\nDo tủ lạnh giảm $40\\%$ nên giá bán bằng $100\\% - 40\\% = 60\\% = 0{,}6x$.\nMáy giặt giảm $25\\%$ nên giá bán bằng $100\\% - 25\\% = 75\\% = 0{,}75y$.\nTổng số tiền cô Liên trả là $16{,}77\\text{ triệu đồng}$ nên ta có phương trình:\n$$0{,}6x + 0{,}75y = 16{,}77.$$\nTa có hệ phương trình:\n$$\\begin{cases} x + y = 25{,}4 \\\\ 0{,}6x + 0{,}75y = 16{,}77 \\end{cases} \\iff \\begin{cases} 0{,}6x + 0{,}6y = 15{,}24 \\\\ 0{,}6x + 0{,}75y = 16{,}77 \\end{cases} \\iff \\begin{cases} 0{,}15y = 1{,}53 \\\\ x = 25{,}4 - y \\end{cases} \\iff \\begin{cases} y = 10{,}2 \\\\ x = 15{,}2. \\end{cases}$$\nCả hai giá trị đều thỏa mãn điều kiện.\nVậy giá niêm yết của chiếc tủ lạnh là $15{,}2\\text{ triệu đồng}$ và chiếc máy giặt là $10{,}2\\text{ triệu đồng}$."
+    },
+    {
+      "cau": 3,
+      "diem": "1,0 điểm",
+      "de": "Một người đứng cách chân tháp $13{,}65\\text{ m}$ nhìn lên đỉnh tháp với phương nhìn hợp với phương nằm ngang một góc bằng $58^\\circ$. Biết mắt của người đó cách chân của mình một khoảng $1{,}55\\text{ m}$, hỏi ngọn tháp cao bao nhiêu mét (làm tròn đến hai chữ số thập phân)?",
+      "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=1.1, line join=round, line cap=round, >=stealth]\n  \\coordinate (M) at (0,1.55); % Mat nguoi quan sat\n  \\coordinate (O) at (0,0); % Chan nguoi\n  \\coordinate (B) at (4.5,0); % Chan thap\n  \\coordinate (H) at (4.5,1.55); % Hinh chieu ngang cua mat tren thap\n  \\coordinate (A) at (4.5,4.7); % Dinh thap\n  \\draw[thick] (-0.5,0) -- (5.2,0) node[below] {Mặt đất};\n  \\draw[line width=1.5pt, blue!70!black] (B) -- (A) node[midway, right] {Tháp};\n  \\draw[thick] (O) -- (M) node[midway, left] {$1{,}55\\text{ m}$};\n  \\draw[thick, dashed] (M) -- (H) node[midway, above] {$13{,}65\\text{ m}$};\n  \\draw[thick, red!80!black] (M) -- (A);\n  \\draw (4.5,1.8) -- (4.2,1.8) -- (4.2,1.55);\n  \\draw (4.5,0.25) -- (4.2,0.25) -- (4.2,0);\n  \\draw[->, thick, purple] (1.0,1.55) arc (0:58:1);\n  \\node at (1.3,1.9) [purple] {$58^\\circ$};\n  \\filldraw[black] (M) circle (1.5pt) node[left] {Mắt $(M)$};\n  \\filldraw[black] (A) circle (1.5pt) node[above] {Đỉnh tháp $(A)$};\n  \\filldraw[black] (H) circle (1.5pt) node[below right] {$H$};\n  \\filldraw[black] (B) circle (1.5pt) node[below right] {Chân tháp $(B)$};\n\\end{tikzpicture}\n\\end{center}",
+      "loi_giai": "Gọi vị trí mắt của người quan sát là điểm $M$, chân tháp là điểm $B$, đỉnh tháp là điểm $A$.\nKẻ đường thẳng nằm ngang qua mắt $M$ cắt thân tháp tại $H$.\nKhi đó tứ giác $M O B H$ là hình chữ nhật (với $O$ là vị trí chân người quan sát trên mặt đất).\nTa có: $M H = O B = 13{,}65\\text{ m}$ và $H B = M O = 1{,}55\\text{ m}$.\nTrong tam giác vuông $A M H$ vuông tại $H$, ta có:\n$$\\tan \\widehat{A M H} = \\frac{A H}{M H} \\implies A H = M H \\cdot \\tan 58^\\circ = 13{,}65 \\cdot \\tan 58^\\circ \\approx 21{,}844\\text{ m}.$$\nTổng chiều cao của ngọn tháp là:\n$$A B = A H + H B \\approx 21{,}844 + 1{,}55 = 23{,}394\\text{ m}.$$\nLàm tròn đến hai chữ số thập phân, chiều cao của tháp là $23{,}39\\text{ m}$."
+    }
+  ]
+}
+

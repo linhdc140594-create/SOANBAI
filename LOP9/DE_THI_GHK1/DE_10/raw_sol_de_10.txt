@@ -1,0 +1,1148 @@
+--- TRANG 131 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 10 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Số nghiệm của phương trình 
+1 (
+3)
+0
+3
+x
+x
+
+
++
+−
+=
+
+
+
+
+ là:    
+A. 1     
+ 
+ 
+ 
+ 
+ 
+ 
+B. 3     
+ 
+ 
+ 
+C. 2    
+            
+ 
+ 
+ 
+ 
+D. Vô nghiệm    
+Lời giải: Phương trình tích tương đương với hai trường hợp là 
+1
+0
+3
+x +
+= hoặc 
+3
+0
+x −= .  
+Giải hai trường hợp này ta thu được hai nghiệm phân biệt là 
+1
+3
+x = −
+ và 
+3
+x = .  
+Do đó phương trình có tổng cộng 2 nghiệm.    
+Đáp án đúng: C    
+Câu 2. Bất phương trình 4
+3
+7
+x
+x
+
++ có nghiệm là:    
+A. 
+7
+x −     
+ 
+B. 
+7
+x −     
+ 
+C. 
+7
+x 
+    
+ 
+      D. 
+7
+x −    
+Lời giải: Chuyển 3x từ vế phải sang vế trái và đổi dấu, ta có 4
+3
+7
+x
+x
+−
+.  
+Thực hiện phép trừ ở vế trái thu được kết quả 
+7
+x 
+.    
+Đáp án đúng: C    
+Câu 3. Nghiệm của hệ phương trình 
+7
+1
+x
+y
+x
+y
++
+=
+
+−
+= −
+
+ là:    
+A. ( ; )
+(4;3)
+x y =
+    
+ 
+ 
+ 
+ 
+ 
+B. ( ; )
+(5;4)
+x y =
+    
+C. ( ; )
+( 3;4)
+x y = −
+     
+ 
+ 
+ 
+ 
+D. ( ; )
+(3;4)
+x y =
+    
+
+
+--- TRANG 132 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Cộng vế theo vế hai phương trình của hệ ta có 2
+6
+x = , tính được 
+3
+x = .  
+Thay 
+3
+x = vào phương trình thứ nhất ta có 3
+7
+y
++
+= , tính được 
+4
+y = .  
+Vậy cặp số nghiệm của hệ phương trình là (3;4).    
+Đáp án đúng: D   
+Câu 4. Nếu , ,
+a b c là ba số mà a
+b
+
+ và ac
+bc
+
+ thì c là:    
+A. Số 0    
+ 
+ 
+ 
+ 
+ 
+B. Số dương    
+C. Số âm     
+ 
+ 
+ 
+ 
+D. Số tùy ý    
+Lời giải: Khi nhân cả hai vế của bất đẳng thức a
+b
+
+ với cùng một số c , chiều của bất đẳng 
+thức bị đổi chiều từ  thành  thành ac
+bc
+
+.  
+Điều này xảy ra khi và chỉ khi số c là một số âm.    
+Đáp án đúng: C    
+Câu 5. Bất phương trình nào dưới đây là bất phương trình bậc nhất một ẩn?   
+A. 1
+1
+0
+x −
+     
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+0
+x     
+C. 1
+2
+0
+3 x +
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 0
+3
+0
+x
++     
+Lời giải: Bất phương trình bậc nhất một ẩn có dạng 
+0
+ax
+b
++  (hoặc , ,
+) với a khác 0. 
+Biểu thức 1
+2
+0
+3 x +
+
+ có hệ số 
+1
+3
+a =
+ khác 0 và ẩn x có bậc là 1 nên đây là bất phương trình 
+bậc nhất một ẩn.    
+Đáp án đúng: C    
+Câu 6. Những số nào là nghiệm của bất phương trình 2
+10
+0
+x−
+?    
+A. 2;0
+−
+    
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0;5  
+ 
+ 
+ 
+
+
+--- TRANG 133 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+C. 2;0;5
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 2;4;6
+−
+    
+Lời giải: Giải bất phương trình 2
+10
+0
+x−
+ ta có 2
+10
+x 
+, chia hai vế cho 2 được 
+5
+x .  
+Trong các phương án được đưa ra, tập hợp các số { 2;0}
+−
+ ở phương án A đều nhỏ hơn 5 
+nên thỏa mãn bất phương trình.  
+Đáp án đúng: A    
+Câu 7. Trong hình vẽ, cosB bằng:    
+ 
+A. BH
+AB    
+ 
+ 
+B. AH
+AB    
+ 
+ 
+C. BH
+AH    
+ 
+         D. AB
+AC    
+Lời giải: Xét tam giác ABH vuông tại H , góc B có cạnh kề là BH và cạnh huyền là 
+.
+AB
+Theo định nghĩa tỉ số lượng giác, cos
+BH
+B
+AB
+=
+.    
+Đáp án đúng: A    
+Câu 8. Cho tam giác ABC vuông tại A, 
+4
+AB = và 
+5
+BC = . Khẳng định đúng là:    
+ 
+A. 
+4
+sin
+5
+B =
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+cos
+5
+B =
+    
+C. 
+3
+tan
+4
+B =
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+cot
+4
+B =
+    
+Lời giải: 
+Áp dụng định lý Pythagoras trong tam giác vuông ABC , độ dài cạnh góc vuông AC 
+bằng 
+2
+2
+2
+2
+5
+4
+3
+BC
+AB
+−
+=
+−
+= . 
+
+
+--- TRANG 134 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Đối với góc B , cạnh đối là 
+3
+AC = , cạnh kề là 
+4
+AB = , cạnh huyền là 
+5
+BC = . 
+Do đó, 
+3
+tan
+4
+AC
+B
+AB
+=
+=
+.   Đáp án đúng: C    
+Câu 9. Cho đường tròn ( )
+O và 2 điểm 
+,
+A B nằm trên đường tròn. Góc ở tâm của đường 
+tròn ( )
+O là:    
+ 
+A. ABO    
+ 
+ 
+B. 
+OMB    
+ 
+ 
+C. 
+AMO    
+ 
+        D. AOB    
+Lời giải: Góc ở tâm là góc có đỉnh trùng với tâm của đường tròn.  
+Trong hình vẽ, đỉnh O trùng với tâm đường tròn và hai cạnh 
+,
+OA OB cắt đường tròn tại A 
+và B , do đó góc ở tâm là AOB .    
+Đáp án đúng: D    
+Câu 10. Trong các mệnh đề sau, mệnh đề nào đúng?    
+A. Đường tròn chỉ có một trục đối xứng    
+B. Tâm đối xứng của đường tròn là mọi điểm trên đường tròn    
+C. Mọi đường kính của đường tròn đều là trục đối xứng của nó    
+D. Đường tròn không có trục đối xứng nào    
+Lời giải: Đường tròn là hình có vô số trục đối xứng, và bất kỳ đường thẳng nào đi qua 
+tâm đều là một trục đối xứng của đường tròn đó.    
+Đáp án đúng: C    
+ 
+
+
+--- TRANG 135 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ 
+Câu 11. Một khúc sông rộng khoảng 250 m . Một con đò chèo chéo qua sông bị dòng nước 
+đẩy xiên nên phải chèo 320 m mới sang được bờ bên kia. Hỏi dòng nước đã đẩy chiếc đò 
+lệch đi một góc xấp xỉ bằng bao nhiêu độ? (Biết góc lệch được tính giữa hướng vuông góc 
+với bờ sông và hướng chèo của con đò)    
+ 
+A. 25    
+ 
+ 
+B. 39    
+ 
+ 
+C. 45    
+ 
+ 
+D. 51    
+Lời giải: 
+Ta có 
+250
+cos
+0,78125
+320
+BH
+AB
+=
+=
+=
+. 
+Sử dụng máy tính cầm tay bấm tìm góc khi biết cosin, ta thu được góc 
+38,62
+
+
+
+, làm 
+tròn đến độ là 39.    
+Đáp án đúng: B    
+Câu 12. Cho đường tròn ( ;5 cm)
+O
+ và một điểm A nằm ngoài đường tròn sao cho 
+13 cm
+OA =
+. Qua A kẻ tiếp tuyến AB với đường tròn ( B là tiếp điểm). Độ dài đoạn thẳng 
+AB bằng: 
+A. 12 cm 
+ 
+ 
+B. 8 cm 
+ 
+ 
+C. 194 cm  
+       D. 18 cm 
+Lời giải: Vì AB là tiếp tuyến của đường tròn ( )
+O tại tiếp điểm B nên AB
+OB
+⊥
+ tại B . 
+Xét tam giác OAB vuông tại B , bán kính 
+5 cm
+OB =
+ và khoảng cách 
+13 cm
+OA =
+. 
+Áp dụng định lý Pythagoras trong tam giác vuông OAB , ta có  
+2
+2
+2
+2
+2
+13
+5
+169
+25 144
+AB
+OA
+OB
+=
+−
+=
+−
+=
+−
+=
+. 
+
+
+--- TRANG 136 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lấy căn bậc hai hai vế, ta tính được độ dài tiếp tuyến 
+12 cm
+AB =
+.Đáp án đúng: A 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai số thực x, y thỏa mãn x
+y
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) 
+5
+5
+x
+y
+−
+−. 
+b) 4
+4
+x
+y
+−
+−
+. 
+c) 3
+2
+3
+2
+x
+y
+−
+
+−. 
+d) 2
+1
+2
+1
+x
+y
+−
++ −
++ . 
+Lời giải. 
+a) Đúng. Trừ cả hai vế của bất đẳng thức với 5 giữ nguyên chiều bất đẳng thức. 
+b) Sai. Nhân cả hai vế của bất đẳng thức với số âm 4
+− phải đổi chiều, thu được 4
+4 .
+x
+y
+−
+−
+c) Đúng. Nhân cả hai vế với 3 rồi trừ đi 2 giữ nguyên chiều bất đẳng thức. 
+d) Đúng. Nhân cả hai vế với 2
+− đổi chiều thành 2
+2
+x
+y
+−
+−
+, sau đó cộng thêm 1 vào hai vế 
+ta được bất đẳng thức đúng. 
+Câu 2. Cho tam giác DEF vuông tại D , biết 
+5 cm
+DE =
+ và 
+12 cm
+DF =
+. Xét tính Đúng/Sai 
+của các khẳng định sau: 
+a) Độ dài cạnh huyền 
+13 cm
+EF =
+. 
+b) 
+5
+sin
+13
+E =
+. 
+c) 
+12
+cos
+13
+F =
+. 
+d) 
+5
+tan
+12
+E =
+. 
+Lời giải. 
+
+
+--- TRANG 137 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+a) Đúng. Theo định lý Pythagore, 
+2
+2
+2
+2
+5
+12
+169
+13 cm
+EF
+DE
+DF
+=
++
+=
++
+=
+=
+. 
+b) Sai. Xét góc E , ta có 
+12
+sin
+13
+DF
+E
+EF
+=
+=
+ chứ không phải 5
+13 . 
+c) Đúng. Xét góc F , ta có 
+12
+cos
+13
+DF
+F
+EF
+=
+=
+. 
+d) Sai. Ta có 
+12
+tan
+5
+DF
+E
+DE
+=
+=
+ chứ không phải 5
+12 . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm x , biết: 
+2
+1
+3
+x −=
+. 
+Lời giải: Bình phương hai vế của phương trình: 
+2
+2
+1
+3
+x−=
+ 
+2
+1
+9
+x−= 
+2
+10
+5
+x
+x
+=
+
+= 
+Đối chiếu điều kiện xác định 2
+1
+0
+x−, giá trị 
+5
+x = thỏa mãn. 
+Đáp án: 
+5
+x = . 
+Câu 2. Cho đường tròn ( )
+O có bán kính 
+5 cm
+R =
+. Khoảng cách từ tâm O đến dây AB 
+bằng 3 cm. Tính độ dài dây AB. 
+Lời giải: Gọi H là trung điểm của dây AB , ta có OH
+AB
+⊥
+ và 
+3 cm
+OH =
+. 
+Xét tam giác OHA vuông tại H , áp dụng định lý Pythagore: 
+2
+2
+2
+2
+5
+3
+16
+4 cm
+AH
+OA
+OH
+=
+−
+=
+−
+=
+=
+ 
+Vì đường kính vuông góc với một dây thì đi qua trung điểm của dây đó nên độ dài dây AB:
+2
+2 4
+8 cm
+AB
+AH
+= 
+= =
+ 
+Đáp án: 8 cm. 
+ 
+
+
+--- TRANG 138 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình và bất phương trình sau: 
+a) (
+)(
+)
+3
+4
+0
+x
+x
+−
+−
+=
+; 
+ 
+ 
+b) 
+(
+)(
+)
+1
+2
+6
+1
+2
+1
+2
++
+=
+−
++
+−
++
+x
+x
+x
+x
+; 
+c) 5
+4
+2
+2
+x
+x
++
+
+−
+; 
+ 
+ 
+d) 4
+5
+5
+6
+1
+2
+3
+x
+x
++
++
+−
+.           
+Lời giải. 
+a) (
+3)(
+4)
+0
+x
+x
+−
+−
+=    
+3
+0
+x −= hoặc 
+4
+0
+x −
+= 
+3
+x = hoặc 
+4
+x =
+    
+Vậy tập nghiệm của phương trình là 
+{3;4}
+S =
+.    
+b) 
+1
+2
+6
+1
+2
+(
+1)(
+2)
+x
+x
+x
+x
++
+=
+−
++
+−
++
+ (ĐKXĐ: 
+1,
+2
+x
+x
+
+−) 
+2
+2(
+1)
+6
+x
+x
++ +
+−
+= 
+2
+2
+2
+6
+x
+x
++ +
+−
+= 
+3
+6
+x =  
+2
+x =
+ (thỏa mãn điều kiện). 
+Vậy 
+2
+x =
+.    
+c) 5
+4
+2
+2
+x
+x
++
+
+−    
+5
+2
+2
+4
+x
+x
+−
+−−    
+3
+6
+2
+x
+x
+−
+−
+    
+Vậy nghiệm của bất phương trình là 
+2
+x −.    
+d) 4
+5
+5
+6
+1
+2
+3
+x
+x
++
++
+−
+    
+Quy đồng mẫu chung 6 , khử mẫu ta được:3(4
+5)
+6
+2(5
+6)
+x
+x
++
+−
++
+    
+
+
+--- TRANG 139 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+12
+15 6 10
+12
+x
+x
++
+−
++
+    
+12
+9 10
+12
+x
+x
++ 
++
+    
+2
+3
+3
+2
+x
+x
+
+
+    
+Vậy 
+3
+2
+x 
+.                                                                             
+Câu 2. Một người mua một cái bàn là và một cái quạt điện với tổng số tiền theo giá niêm 
+yết là 750 nghìn đồng. Hiện tại cửa hàng đang thực hiện giảm giá 10% đối với bàn là và 
+20% đối với quạt điện so với giá niêm yết. Vì vậy người đó phải trả tổng cộng 625 nghìn 
+đồng. Tính giá tiền một cái bàn là và một cái quạt điện theo giá niêm yết? 
+Lời giải. 
+Gọi giá niêm yết của cái bàn là và cái quạt điện lần lượt là x và y (nghìn đồng; điều kiện 
+0
+,
+750
+x y
+
+
+).    
+Tổng giá niêm yết là 750 nghìn đồng, nên ta có phương trình: 
+750
+x
+y
++
+=
+.    
+Giá bàn là sau khi giảm 10% là 0,9x và giá quạt điện sau khi giảm 20% là 0,8y .    
+Tổng số tiền phải trả là 625 nghìn đồng, nên ta có phương trình: 0,9
+0,8
+625
+x
+y
++
+=
+.    
+Ta lập được hệ phương trình:   
+750
+0,9
+0,8
+625
+x
+y
+x
+y
++
+=
+
+
++
+=
+
+ 
+Giải hệ phương trình trên, ta tìm được nghiệm: 
+250
+x =
+ và 
+500
+y =
+ (thỏa mãn điều kiện).   
+Vậy giá niêm yết của cái bàn là là 250 nghìn đồng và cái quạt điện là 500 nghìn đồng.    
+Câu 3. Cho tam giác ABC vuông tại A có 
+0
+C
+30
+
+, cạnh AB
+8cm
+=
+. Tính: 
+a) Số đo góc B. 
+b) Tính cạnh AC, BC. 
+Lời giải. 
+a) Số đo góc B là 
+ˆ
+ˆ
+90
+90
+30
+60
+B
+C
+
+
+
+
+=
+−
+=
+−
+=
+  
+
+
+--- TRANG 140 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+b) Tính cạnh 
+,
+AC BC:    
+Cạnh 
+cot
+8 cot30
+8 3 cm
+13,86 cm
+AC
+AB
+C
+
+=
+
+= 
+=
+
+.    
+Cạnh huyền 
+8
+8
+16 cm
+sin
+sin30
+0,5
+AB
+BC
+C
+
+=
+=
+=
+=
+.  
+Câu 4. Cho tam giác ABC vuông tại A, đường cao AH. Chứng minh rằng  
+AH BC
+AB AC
+
+=
+
+. 
+Lời giải. Xét hai tam giác vuông AHB
+
+ và CAB
+
+, ta có góc ˆB chung và góc 
+
+BAH
+ACB
+=
+ 
+(cùng phụ với góc 
+HAC ). 
+Do đó AHB
+
+ đồng dạng với CAB
+
+ (g - g). 
+Suy ra tỉ số đồng dạng tương ứng: AH
+AB
+AC
+BC
+=
+ 
+AH BC
+AB AC
+
+=
+
+ (ĐPCM). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

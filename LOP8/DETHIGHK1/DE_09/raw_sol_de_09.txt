@@ -1,0 +1,1535 @@
+--- TRANG 116 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Trong các biểu thức sau, biểu thức nào là đơn thức?    
+A. 1
+y
+x +
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2xy    
+C. 
+2
+(2
+)
+x y
+−
+    
+ 
+ 
+ 
+ 
+D. 
+x
+y
+−
+   
+Lời giải: Đơn thức là biểu thức đại số chỉ gồm một số, một biến, hoặc một tích giữa các số 
+và các biến.  
+Biểu thức 
+2
+2xy là đơn thức vì chỉ gồm tích giữa số và các biến.  
+Các biểu thức còn lại chứa phép cộng, phép trừ hoặc dấu căn bậc hai chứa biến.    
+Đáp án đúng: B.    
+Câu 2. Tích của hai đơn thức 
+3
+1
+2 xy và 
+2
+( 8 )
+x
+y xz
+−
+ có phần hệ số là    
+A. 1
+2    
+ 
+ 
+B. 8
+−    
+ 
+ 
+C. 4
+−    
+ 
+ 
+D. 7    
+Lời giải: Thực hiện nhân hai đơn thức lại với nhau ta được 
+3
+2
+2
+3
+4
+2
+1
+( 8
+)
+4
+2 xy
+x yz
+x y z
+−
+= −
+. 
+Phần hệ số của đơn thức tích thu được là 4
+−.   Đáp án đúng: C.    
+Câu 3. Hình thang cân là hình thang có    
+A. Hai góc kề một đáy bằng nhau.    
+B. Hai góc đối bằng nhau.    
+C. Hai cạnh đối bằng nhau.    
+
+
+--- TRANG 117 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+D. Hai đường chéo bằng nhau.    
+Lời giải: Hình thang cân là hình thang có hai góc kề một đáy bằng nhau.   Đáp án đúng: A.    
+Câu 4. Kết quả khai triển biểu thức (
+2)(
+2)
+x
+x
+−
+−
+ là    
+A. 
+2
+2
+4
+x
+x
++
++
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+4
+4
+x
+x
++
++
+    
+C. 
+2
+2
+4
+x
+x
+−
++  
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+4
+4
+x
+x
+−
++    
+Lời giải: Biểu thức (
+2)(
+2)
+x
+x
+−
+−
+ chính là bình phương của một hiệu 
+2
+(
+2)
+x −
+.  
+Khai triển hằng đẳng thức ta được kết quả 
+2
+2
+2
+2
+2
+2
+4
+4
+x
+x
+x
+x
+−+
+=
+−
++ .    
+Đáp án đúng: D.    
+Câu 5. Chọn câu sai trong các câu sau:    
+A. Tứ giác có 3 góc tù, 1 góc nhọn.    
+B. Tứ giác có 3 góc vuông, 1 góc nhọn.    
+C. Tứ giác có nhiều nhất 2 góc tù, nhiều nhất 2 góc nhọn.    
+D. Tứ giác có 3 góc nhọn, 1 góc tù.    
+Lời giải: Tổng số đo bốn góc trong một tứ giác luôn bằng 360.  
+Nếu tứ giác có 3 góc vuông thì tổng ba góc đó đã bằng 270, góc thứ tư bắt buộc phải là góc 
+vuông để tổng bằng 360, không thể có góc nhọn.  
+Do đó khẳng định ở phương án B là câu sai.    
+Đáp án đúng: B.    
+Câu 6. Tứ giác có hai cạnh đối song song là    
+A. Hình thang cân.    
+ 
+ 
+ 
+ 
+B. Hình thang.    
+C. Hình bình hành.    
+ 
+ 
+ 
+ 
+D. Hình chữ nhật.    
+Lời giải: Theo định nghĩa, hình thang là tứ giác có hai cạnh đối song song. 
+
+
+--- TRANG 118 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: B.    
+Câu 7. Giá trị của biểu thức 
+3
+2
+7
+9
+A
+x y
+x y
+=
++
++ tại 
+1,
+2
+x
+y
+= −
+=
+ là    
+A. 21   
+ 
+ 
+B. 25   
+ 
+ 
+C. 7
+−    
+ 
+ 
+D. 3
+−   
+Lời giải: Thay các giá trị 
+1
+x = − và 
+2
+y = vào biểu thức 
+A , ta có 
+3
+2
+( 1)
+2
+7 ( 1)
+2
+9
+2 14
+9
+21
+A = −
++ −
++
+= −+
++
+=
+.   Đáp án đúng: A.    
+Câu 8. Chọn đẳng thức sai trong các đẳng thức sau đây:    
+A. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
++
+=
++
++
++
+     
+ 
+ 
+B. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
+−−
+= −
+−
+−
+−
+    
+C. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
+−+
+= −
+−
++
++
+    
+ 
+ 
+D. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
+−
+=
+−
++
+−
+  
+ Lời giải: Xét đẳng thức ở phương án C, khai triển ta được 
+3
+3
+3
+2
+2
+3
+3
+2
+2
+3
+(
+)
+(
+)
+3
+3
+3
+3
+a
+b
+b
+a
+b
+b a
+ba
+a
+a
+a b
+ab
+b
+−+
+=
+−
+=
+−
++
+−
+= −
++
+−
++
+. 
+Do vế phải của C là 
+3
+2
+2
+3
+3
+3
+a
+a b
+ab
+b
+−
+−
++
++
+ nên đây là đẳng thức sai.   Đáp án đúng: C.    
+Câu 9. Phân thức nào sau đây bằng với phân thức 3
+y
+x (với giả thiết các phân thức đều có 
+nghĩa)?    
+A. 
+2
+2
+3
+9
+y
+xy    
+ 
+ 
+B. 
+2
+2
+9
+y
+xy    
+ 
+ 
+C. 
+2
+3
+9
+y
+xy    
+ 
+        D. 
+2
+3
+9
+y
+xy   
+Lời giải: Rút gọn phân thức ở phương án C bằng cách chia cả tử và mẫu cho 3y , ta được 
+2
+3
+9
+3
+y
+y
+xy
+x
+=
+.   Đáp án đúng: C.    
+Câu 10. Cho hình chóp tam giác đều có diện tích đáy bằng 
+2
+6 cm và chiều cao bằng 4 cm . 
+Thể tích của hình chóp đó là: 
+A. 
+3
+8 cm 
+ 
+ 
+B. 
+3
+24 cm 
+ 
+ 
+C. 
+3
+12 cm 
+ 
+     D. 
+3
+72 cm 
+Lời giải: Thể tích của hình chóp tam giác đều tính theo công thức 
+1
+3
+V
+S h
+=
+
+.  
+
+
+--- TRANG 119 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Thay số vào công thức ta được 
+3
+1 6 4
+8 cm
+3
+V =
+
+=
+. Đáp án đúng: A. 
+Câu 11. Hình thoi có chu vi bằng 20 cm thì độ dài cạnh của nó bằng: 
+A. 4 cm   
+ 
+ 
+B. 5 cm   
+ 
+ 
+C. 8 cm    
+ 
+       D. 9 cm    
+Lời giải: Hình thoi có bốn cạnh bằng nhau nên độ dài cạnh của hình thoi bằng chu vi chia 
+cho 4 , cụ thể là 20: 4
+5 cm
+=
+.   Đáp án đúng: B.    
+Câu 12. Hãy chọn câu sai:    
+A. Tứ giác có hai cặp cạnh đối song song là hình bình hành.    
+B. Hình thang có hai góc kề một đáy bằng nhau là hình bình hành.    
+C. Tứ giác có hai cặp cạnh đối bằng nhau là hình bình hành.    
+D. Tứ giác có hai cặp góc đối bằng nhau là hình bình hành.    
+Lời giải: Hình thang có hai góc kề một đáy bằng nhau là hình thang cân chứ không phải 
+hình bình hành.  
+Do đó phát biểu ở phương án B là câu sai.    
+Đáp án đúng: B. 
+Phần II. Trắc nghiệm đúng sai  
+Câu 1. Cho hai đa thức 
+(
+2 )
+(
+2 )
+P
+x x
+y
+y y
+x
+=
+−
++
++
+ và 
+2
+2
+4
+Q
+x
+y
+=
+−
+. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Rút gọn đa thức P ta được 
+2
+2
+x
+y
++
+. 
+b) Tại 
+3
+x = và 
+4
+y = , giá trị của đa thức P bằng 49 . 
+c) Phân tích đa thức Q thành nhân tử ta được (
+2 )(
+2 )
+x
+y
+x
+y
+−
++
+. 
+d) Với 
+2
+x
+y
+=
+ và 
+0
+y , phân thức P
+Q không xác định. 
+
+
+--- TRANG 120 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+a) Đúng. Thực hiện nhân đơn thức với đa thức và thu gọn:
+2
+2
+2
+2
+2
+2
+P
+x
+xy
+y
+xy
+x
+y
+=
+−
++
++
+=
++
+. 
+b) Sai. Thay 
+3
+x = và 
+4
+y = vào đa thức P : 
+2
+2
+3
+4
+9 16
+25
+49
+P =
++
+=
++
+=
+
+. 
+c) Đúng. Áp dụng hằng đẳng thức hiệu hai bình phương: 
+2
+2
+(2 )
+(
+2 )(
+2 )
+Q
+x
+y
+x
+y x
+y
+=
+−
+=
+−
++
+. 
+d) Đúng. Thay 
+2
+x
+y
+=
+ vào Q ta được 
+2
+2
+(2 )
+4
+0
+Q
+y
+y
+=
+−
+=
+. Mẫu thức bằng 0 nên phân thức 
+P
+Q không xác định. 
+Câu 2. Cho biểu thức 
+2
+2
+6
+9
+9
+x
+x
+A
+x
+−
++
+=
+−
+ với 
+3
+x . Xét tính đúng sai của các mệnh đề sau: 
+a) Biến đổi tử thức 
+2
+6
+9
+x
+x
+−
++ thành bình phương của một hiệu ta được 
+2
+(
+3)
+x −
+. 
+b) Phân tích mẫu thức 
+2
+9
+x − thành nhân tử ta được (
+3)(
+3)
+x
+x
+−
++
+. 
+c) Kết quả rút gọn của biểu thức A là 
+3
+3
+x
+x
++
+−
+. 
+d) Tại 
+5
+x = , giá trị của biểu thức A bằng 1
+4 . 
+Lời giải. 
+a) Đúng. Áp dụng hằng đẳng thức: 
+2
+2
+2
+2
+6
+9
+2
+3
+3
+(
+3)
+x
+x
+x
+x
+x
+−
++
+=
+−+
+=
+−
+. 
+b) Đúng. Áp dụng hằng đẳng thức hiệu hai bình phương: 
+2
+9
+(
+3)(
+3)
+x
+x
+x
+−
+=
+−
++
+. 
+c) Sai. Rút gọn biểu thức A :
+2
+(
+3)
+3
+(
+3)(
+3)
+3
+x
+x
+A
+x
+x
+x
+−
+−
+=
+=
+−
++
++ . Do đó kết quả 
+3
+3
+x
+x
++
+−
+ là sai. 
+d) Đúng. Thay 
+5
+x = vào biểu thức A đã rút gọn: 
+5
+3
+2
+1
+5
+3
+8
+4
+A
+−
+=
+=
+=
++
+. 
+ 
+Phần III. Câu trả lời ngắn 
+
+
+--- TRANG 121 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 1. Tìm x , biết: 
+2
+16
+2(
+4)
+0
+x
+x
+−
+−
++
+= . 
+Lời giải. Phân tích vế trái thành nhân tử ta được 
+(
+4)(
+4)
+2(
+4)
+0
+x
+x
+x
+−
++
+−
++
+= 
+(
+4)(
+4
+2)
+0
+x
+x
++
+−
+−
+=
+ 
+(
+4)(
+6)
+0
+x
+x
++
+−
+=
+ 
+Xét 2 trường hợp: 
+• Trường hợp 1: 
+4
+0
+x +
+= . Suy ra 
+4
+x = − 
+• Trường hợp 2: 
+6
+0
+x −
+=
+. Suy ra  
+6
+x =
+ 
+Đáp án: 
+4
+x = − hoặc 
+6
+x =
+. 
+Câu 2. Cho hình thoi ABCD có ˆ
+60
+A
+
+=
+ và độ dài cạnh 
+5 cm
+AB =
+. Tính độ dài đường chéo BD. 
+Lời giải. 
+Trong hình thoi ABCD, hai cạnh kề bằng nhau: 
+5 cm
+AB
+AD
+=
+=
+ 
+Tam giác ABD cân tại A và có ˆ
+60
+A
+
+=
+ nên tam giác ABD là tam giác đều. 
+Suy ra: 
+5 cm
+BD
+AB
+=
+=
+ 
+Đáp án: 5 cm. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 
+2
+2 (3
+)
+(6
+2
+3)
+x
+x
+y
+x
+xy
+−
+−
+−
++
+ 
+b) 
+3
+2
+2
+3
+2
+2
+2
+(12
+9
+3
+):(3
+)
+x y
+x y
+x y
+x y
+−
++
+ 
+c) 
+2
+2
+(
+2)
+(
+2)
+x
+x
++
+−
+−
+ 
+ 
+Lời giải 
+
+
+--- TRANG 122 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 
+2
+2 (3
+)
+(6
+2
+3)
+x
+x
+y
+x
+xy
+−
+−
+−
++
+ 
+2
+2
+6
+2
+6
+2
+3
+x
+xy
+x
+xy
+=
+−
+−
++
+− 
+2
+2
+(6
+6
+)
+( 2
+2
+)
+3
+x
+x
+xy
+xy
+=
+−
++ −
++
+− 
+3
+= −. 
+b) 
+3
+2
+2
+3
+2
+2
+2
+(12
+9
+3
+):(3
+)
+x y
+x y
+x y
+x y
+−
++
+ 
+3
+2
+2
+2
+3
+2
+2
+2
+2
+12
+:3
+9
+:3
+3
+:3
+x y
+x y
+x y
+x y
+x y
+x y
+=
+−
++
+ 
+2
+4
+3
+xy
+y
+y
+=
+−
++
+. 
+c) 
+2
+2
+(
+2)
+(
+2)
+x
+x
++
+−
+−
+ 
+2
+2
+(
+4
+4)
+(
+4
+4)
+x
+x
+x
+x
+=
++
++
+−
+−
++
+ 
+2
+2
+4
+4
+4
+4
+x
+x
+x
+x
+=
++
++
+−
++
+− 
+2
+2
+(
+)
+(4
+4 )
+(4
+4)
+x
+x
+x
+x
+=
+−
++
++
++
+−
+ 
+8x
+=
+. 
+Câu 2. Tìm x , biết: 
+a) 
+2
+2 (
+3)
+2
+10
+x x
+x
+−
+−
+=
+ 
+b) 
+2
+(
+1)
+(
+2)(
+2)
+9
+x
+x
+x
++
+−
+−
++
+=
+ 
+Lời giải. 
+a) 
+2
+2 (
+3)
+2
+10
+x x
+x
+−
+−
+=
+ 
+2
+2
+2
+6
+2
+10
+x
+x
+x
+−
+−
+=
+ 
+6
+10
+x
+−
+=
+ 
+10
+6
+x = −
+ 
+
+
+--- TRANG 123 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+5
+3
+x = −
+ 
+Vậy 
+5
+3
+x = −
+. 
+b) 
+2
+(
+1)
+(
+2)(
+2)
+9
+x
+x
+x
++
+−
+−
++
+=
+ 
+2
+2
+(
+2
+1)
+(
+4)
+9
+x
+x
+x
++
++
+−
+−
+= 
+2
+2
+2
+1
+4
+9
+x
+x
+x
++
++ −
++
+= 
+2
+5
+9
+x +
+=
+ 
+2
+9
+5
+x =
+− 
+2
+4
+x =
+ 
+2
+x =
+ 
+Vậy 
+2
+x =
+. 
+Câu 3. Một khối bê tông có dạng hình chóp tứ giác đều (đáy là hình vuông) có cạnh đáy 
+0.5 m
+a =
+ và chiều cao 
+0.6 m
+h =
+. 
+a) Tính thể tích khối bê tông. 
+b) Người ta muốn sơn bốn mặt xung quanh của khối bê tông này. Biết chiều cao trung 
+đoạn của hình chóp là 
+0.65 m
+d =
+. Tính diện tích bề mặt cần sơn. 
+Lời giải  
+a) Tính thể tích khối bê tông:    
+Diện tích đáy hình vuông của khối bê tông là:   
+2
+2
+dáy
+0,5 0,5
+0,25 (m )
+S
+a
+=
+=
+
+=
+    
+Thể tích của khối bê tông hình chóp tứ giác đều là:    
+3
+dáy
+1
+1 0,25 0,6
+0,05 (m )
+3
+3
+V
+S
+h
+=
+
+
+=
+
+
+=
+  
+ b) Tính diện tích bề mặt cần sơn:    
+
+
+--- TRANG 124 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Diện tích cần sơn chính là diện tích xung quanh của hình chóp tứ giác đều, bằng tổng 
+diện tích 4 mặt bên hình tam giác cân: 
+1
+4
+2
+2
+xq
+S
+a d
+a d
+
+
+=
+
+
+=
+
+
+
+
+
+2
+2 0,5 0,65
+0,65 (m )
+xq
+S
+=
+
+
+=
+   
+Vậy diện tích bề mặt cần sơn là 
+2
+0,65 m .  
+Câu 4. Tìm giá trị nhỏ nhất của biểu thức: 
+2
+2
+4
+6
+15
+A
+x
+x
+y
+y
+=
+−
++
++
++
+ 
+Biến đổi biểu thức A ta được  
+2
+2
+4
+6
+15
+A
+x
+x
+y
+y
+=
+−
++
++
++
+ 
+2
+2
+(
+4
+4)
+(
+6
+9)
+2
+A
+x
+x
+y
+y
+=
+−
++
++
++
++
++ 
+2
+2
+(
+2)
+(
+3)
+2
+A
+x
+y
+=
+−
++
++
++ 
+Vì 
+2
+(
+2)
+0
+x −
+
+ với mọi x và 
+2
+(
+3)
+0
+y +
+ với mọi y ,nên 
+2
+2
+(
+2)
+(
+3)
+2
+2
+x
+y
+−
++
++
++
+
+ với mọi , .
+x y 
+Đẳng thức xảy ra khi 
+2
+0
+x −
+= và 
+3
+0
+y +
+= , tương ứng 
+2
+x =
+ và 
+3
+y = −. 
+Vậy giá trị nhỏ nhất của A là 2 , đạt được khi 
+2
+x =
+ và 
+3
+y = − 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,1801 @@
+--- TRANG 62 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Biểu thức nào sau đây là đơn thức? 
+A. 
+3
+(1
+)
+x x
++
+  
+ 
+B. 
+2
+5
+3xy z 
+ 
+ 
+C. (
+)
+xy
+z t
++
+  
+      D. 
+2
+x
+y
++
+ 
+Lời giải: Biểu thức 
+2
+5
+3xy z là tích giữa số 3 và các biến 
+2
+5
+,
+,
+x y
+z nên là đơn thức. Các biểu 
+thức còn lại đều chứa phép cộng giữa các biến. 
+Đáp án đúng: B. 
+Câu 2. Cặp đơn thức nào sau đây là đồng dạng với nhau? 
+A. 
+2
+1
+2 x y và 
+2
+2xy 
+ 
+ 
+ 
+ 
+ 
+B. 3xy và 5x
+−
+ 
+ 
+ 
+C. 
+2
+4
+x y và 
+2
+4
+2x y 
+ 
+ 
+ 
+ 
+ 
+D. 3xy
+−
+ và 
+2
+3xy
+−
+ 
+Lời giải: Hai đơn thức 
+2
+4
+x y và 
+2
+4
+2x y có hệ số khác 0 và có cùng phần biến là 
+2
+4
+x y . Đáp 
+án đúng: C. 
+Câu 3. Thực hiện phép chia đơn thức 
+2
+2
+5x y z cho 5xyz ta được kết quả là: 
+A. 5xy  
+ 
+ 
+B. xy   
+ 
+ 
+C. yz   
+ 
+   D. 
+3
+3
+2
+25x y z 
+Lời giải: Chia hệ số cho hệ số và chia từng lũy thừa của biến: 
+2
+2
+(5:5) (
+: ) (
+: ) ( : )
+x
+x
+y
+y
+z z
+xy
+
+
+
+=
+ 
+Đáp án đúng: B. 
+ 
+ 
+
+
+--- TRANG 63 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 4. Hằng đẳng thức 
+2
+2
+(
+)(
+)
+A
+B
+A
+B A
+B
+−
+=
+−
++
+ có tên là: 
+A. Bình phương của một tổng 
+ 
+ 
+ 
+B. Bình phương của một hiệu 
+C. Tổng hai bình phương  
+ 
+ 
+ 
+D. Hiệu hai bình phương 
+Lời giải: Hằng đẳng thức 
+2
+2
+(
+)(
+)
+A
+B
+A
+B A
+B
+−
+=
+−
++
+ có tên gọi là hiệu hai bình phương.Đáp 
+án đúng: D. 
+Câu 5. Tứ giác nào dưới đây là hình thoi? 
+A. Tứ giác có 4 cạnh bằng nhau 
+ 
+ 
+ 
+ 
+B. Tứ giác có hai đường chéo vuông góc 
+C. Hình bình hành có hai đường chéo bằng nhau 
+D. Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường 
+Lời giải: Theo định nghĩa, tứ giác có 4 cạnh bằng nhau là hình thoi. Đáp án đúng: A. 
+Câu 6. Hai đường chéo của hình chữ nhật có tính chất nào sau đây? 
+A. Chúng vuông góc với nhau 
+ 
+ 
+ 
+ 
+B. Chúng bằng nhau 
+C. Chúng cắt nhau tại trung điểm của mỗi đường 
+D. Chúng bằng nhau và cắt nhau tại trung điểm của mỗi đường 
+Lời giải: Theo tính chất của hình chữ nhật, hai đường chéo bằng nhau và cắt nhau tại 
+trung điểm của mỗi đường. Đáp án đúng: D. 
+Câu 7. Hình bình hành ABCD có ˆ
+65
+A
+
+=
+. Số đo ˆC là: 
+A. 125 
+ 
+ 
+B. 95  
+ 
+ 
+C. 115 
+ 
+ 
+D. 65 
+Lời giải: Trong hình bình hành, hai góc đối bằng nhau. Do đó: ˆ
+ˆ
+65
+C
+A
+
+=
+=
+ 
+Đáp án đúng: D. 
+
+
+--- TRANG 64 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 8. Cho ABC
+
+ vuông tại A có M là trung điểm của BC , biết 
+10 cm
+BC =
+. Khi đó 
+AM bằng: 
+A. 5 cm 
+ 
+ 
+B. 10 cm 
+ 
+ 
+C. 10 cm  
+      D. 20 cm 
+Lời giải: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng một nửa cạnh 
+huyền: 
+10
+5 cm
+2
+2
+BC
+AM =
+=
+=
+ 
+Đáp án đúng: A. 
+Câu 9. Cho các tam giác có độ dài ba cạnh như sau. Hỏi tam giác nào là tam giác vuông? 
+A. 15 cm;8 cm;10 cm 
+ 
+ 
+ 
+ 
+B. 6 dm;8 dm;9 dm 
+C. 5 cm;4 cm;3 cm  
+ 
+ 
+ 
+ 
+D. 2 cm;3 cm;4 cm 
+Lời giải: Xét tam giác có ba cạnh 3 cm,4 cm,5 cm , ta có 
+2
+2
+2
+3
+4
+9 16
+25
+5
++
+=
++
+=
+=
+.  
+Theo định lý Pythagoras đảo, đây là tam giác vuông. 
+Đáp án đúng: C. 
+Câu 10. Cho hình chữ nhật ABCD. Đoạn thẳng AC bằng đoạn thẳng nào sau đây? 
+A. AB  
+ 
+ 
+B. BC  
+ 
+ 
+C. AD  
+ 
+ 
+D. BD 
+Lời giải: AC và BD là hai đường chéo của hình chữ nhật ABCD. Trong hình chữ nhật, 
+hai đường chéo bằng nhau nên AC
+BD
+=
+. 
+Đáp án đúng: D.  
+Câu 11. Cho tứ giác ABCD, trong đó ˆ
+ˆ
+140
+A
+B
+
++
+=
+. Tổng ˆ
+ˆ
+C
+D
++
+ bằng: 
+A. 220 
+ 
+ 
+B. 200 
+ 
+ 
+C. 160 
+ 
+      D. 130 
+Lời giải: Tổng bốn góc trong một tứ giác bằng 360. Tính tổng hai góc còn lại:
+ˆ
+ˆ
+ˆ
+ˆ
+360
+(
+)
+360
+140
+220
+C
+D
+A
+B
+
+
+
+
++
+=
+−
++
+=
+−
+=
+ 
+Đáp án đúng: A. 
+
+
+--- TRANG 65 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 12. Thể tích của một hình chóp tam giác đều có diện tích đáy bằng 
+2
+15 cm và chiều 
+cao bằng 6 cm là: 
+A. 
+3
+90 cm 
+ 
+ 
+B. 
+3
+30 cm 
+ 
+ 
+C. 
+3
+45 cm 
+ 
+     D. 
+3
+15 cm 
+Lời giải: Áp dụng công thức tính thể tích hình chóp 
+1
+3
+V
+S h
+=
+
+: 
+3
+1 15 6
+30 cm
+3
+V =
+
+
+=
+ 
+Đáp án đúng: B. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai biểu thức 
+(2
+1)(
+3)
+2 (
+2)
+A
+x
+x
+x x
+=
+−
++
+−
++
+ và 
+3
+2
+2
+3
+2
+(6
+9
+):3
+B
+x y
+x y
+x y
+=
+−
+. Xét tính 
+đúng sai của các mệnh đề sau: 
+a) Khai triển tích (2
+1)(
+3)
+x
+x
+−
++
+ ta được 
+2
+2
+5
+3
+x
+x
++
+−. 
+b) Kết quả rút gọn của biểu thức A là 
+3
+x −. 
+c) Kết quả của phép chia biểu thức B là 
+2
+2
+3
+xy
+y
+−
+. 
+d) Tại 
+2
+x =
+ và 
+1
+y = , giá trị của biểu thức A gấp 2 lần giá trị của biểu thức B . 
+Lời giải. 
+a) Đúng. Thực hiện phép nhân đa thức với đa thức ta được: 
+(2
+1)(
+3)
+x
+x
+−
++
+ 
+2
+2
+3 1
+1 3
+x x
+x
+x
+=
++
+−− 
+2
+2
+6
+3
+x
+x
+x
+=
++
+−
+− 
+2
+2
+5
+3
+x
+x
+=
++
+− 
+b) Đúng. Rút gọn biểu thức A : 
+2
+2
+(2
+5
+3)
+(2
+4 )
+A
+x
+x
+x
+x
+=
++
+−
+−
++
+ 
+2
+2
+2
+5
+3
+2
+4
+3
+A
+x
+x
+x
+x
+x
+=
++
+−−
+−
+=
+− 
+
+
+--- TRANG 66 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Đúng. Thực hiện phép chia đa thức cho đơn thức ta được 
+3
+2
+2
+3
+2
+2
+(6
+9
+):3
+B
+x y
+x y
+x y
+=
+−
+ 
+3
+2
+2
+2
+3
+2
+(6
+:3
+)
+(9
+:3
+)
+2
+3
+B
+x y
+x y
+x y
+x y
+xy
+y
+=
+−
+=
+−
+ 
+d) Sai. Thay 
+2,
+1
+x
+y
+=
+= vào hai biểu thức A và B ta được: 
+2
+3
+1
+A =
+−
+= −. 
+2
+2(2)(1)
+3(1)
+4
+3
+1
+B =
+−
+=
+−
+= . 
+Vì 
+1
+A = − và 
+1
+B = nên giá trị của A không bằng 2 lần giá trị của B . 
+Câu 2. Cho hai đa thức 
+2
+2
+6
+9
+P
+x
+x
+y
+=
+−
++
+−
+ và 
+3
+8
+27
+Q
+x
+=
+−
+. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Biến đổi 
+2
+6
+9
+x
+x
+−
++ thành bình phương của một hiệu ta được 
+2
+(
+3)
+x −
+. 
+b) Phân tích đa thức P thành nhân tử ta được (
+3)(
+3)
+x
+y
+x
+y
+−
+−
++
+−
+. 
+c) Phân tích đa thức Q thành nhân tử theo hằng đẳng thức hiệu hai lập phương ta được 
+2
+(2
+3)(4
+6
+9)
+x
+x
+x
+−
++
++
+. 
+d) Tại 
+5
+x = và 
+2
+y = , giá trị của đa thức P bằng 8 . 
+Lời giải. 
+a) Đúng. Áp dụng hằng đẳng thức 
+2
+2
+2
+2
+(
+)
+a
+ab
+b
+a
+b
+−
++
+=
+−
+: 
+2
+6
+9
+x
+x
+−
++ 
+2
+2
+2
+2
+3
+3
+(
+3)
+x
+x
+x
+=
+−+
+=
+−
+. 
+b) Đúng. Nhóm các hạng tử và áp dụng hằng đẳng thức hiệu hai bình phương:
+2
+2
+2
+2
+(
+6
+9)
+(
+3)
+P
+x
+x
+y
+x
+y
+=
+−
++
+−
+=
+−
+−
+ 
+(
+3
+)(
+3
+)
+P
+x
+y x
+y
+=
+−−
+−+
+ 
+(
+3)(
+3)
+P
+x
+y
+x
+y
+=
+−
+−
++
+−
+ 
+
+
+--- TRANG 67 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Đúng. Áp dụng hằng đẳng thức 
+3
+3
+2
+2
+(
+)(
+)
+a
+b
+a
+b a
+ab
+b
+−
+=
+−
++
++
+ với 
+2 ,
+3
+a
+x b
+=
+= : 
+3
+3
+(2 )
+3
+Q
+x
+=
+−
+ 
+2
+2
+(2
+3) (2 )
+2
+3
+3
+Q
+x
+x
+x
+
+
+=
+−
++
++
+
+ 
+2
+(2
+3)(4
+6
+9)
+Q
+x
+x
+x
+=
+−
++
++
+ 
+d) Sai. Thay 
+5
+x = và 
+2
+y = vào đa thức P :  
+2
+2
+(5
+3)
+2
+P =
+−
+−
+ 
+2
+2
+2
+2
+4
+4
+0
+P =
+−
+=
+−
+=
+. 
+Do đó phát biểu giá trị bằng 8 là sai. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Rút gọn biểu thức: 
+(2
+1)(
+3)
+2 (
+2)
+A
+x
+x
+x x
+=
+−
++
+−
++
+. 
+Lời giải.  
+Thực hiện nhân đa thức với đa thức và đơn thức với đa thức:
+2
+2
+(2
+1)(
+3)
+2
+6
+3
+2
+5
+3
+x
+x
+x
+x
+x
+x
+x
+−
++
+=
++
+−
+−
+=
++
+− 
+2
+2 (
+2)
+2
+4
+x x
+x
+x
++
+=
++
+ 
+Thay vào biểu thức A ta được 
+2
+2
+(2
+5
+3)
+(2
+4 )
+A
+x
+x
+x
+x
+=
++
+−
+−
++
+ 
+2
+2
+2
+5
+3
+2
+4
+A
+x
+x
+x
+x
+=
++
+−−
+−
+ 
+2
+2
+(2
+2
+)
+(5
+4 )
+3
+A
+x
+x
+x
+x
+=
+−
++
+−
+− 
+3
+A
+x
+=
+− 
+Đáp án: 
+3
+x −. 
+Câu 2. Phân tích đa thức sau thành nhân tử: 
+2
+2
+4
+2
+1
+x
+y
+x
+−
++
++ . 
+
+
+--- TRANG 68 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Nhóm các hạng tử để xuất hiện hằng đẳng thức 
+2
+2
+2
+2
+(
+)
+A
+AB
+B
+A
+B
++
++
+=
++
+: 
+2
+2
+2
+2
+4
+2
+1
+(
+2
+1)
+4
+x
+y
+x
+x
+x
+y
+−
++
++ =
++
++
+−
+ 
+2
+2
+(
+1)
+(2 )
+x
+y
+=
++
+−
+ 
+Áp dụng hằng đẳng thức hiệu hai bình phương 
+2
+2
+(
+)(
+)
+A
+B
+A
+B A
+B
+−
+=
+−
++
+: 
+(
+1
+2 )(
+1
+2 )
+x
+y x
+y
+=
++ −
++ +
+. 
+Đáp án: (
+1
+2 )(
+1
+2 )
+x
+y x
+y
++ −
++ +
+. 
+Phần IV. Tự luận 
+Câu 1. a) Thu gọn và tính giá trị biểu thức: 
+2
+2
+5
+2
+3
+A
+x y
+xy
+x y
+xy
+=
+−
++
+−
+ tại 
+1,
+2
+x
+y
+= −
+=
+.  
+b) Thực hiện phép nhân: 
+2
+2
+3
+(2
+5 )
+B
+xy
+x
+y
+=
+−
+  
+c) Thực hiện phép chia: 
+3
+2
+2
+3
+2
+2
+(6
+9
+) :3
+C
+x y
+x y
+x y
+=
+−
+ 
+Lời giải. 
+a) Thu gọn và tính giá trị biểu thức A :    
+2
+2
+5
+2
+3
+A
+x y
+xy
+x y
+xy
+=
+−
++
+−
+    
+2
+2
+(5
+)
+( 2
+3
+)
+A
+x y
+x y
+xy
+xy
+=
++
++ −
+−
+ 
+2
+6
+5
+A
+x y
+xy
+=
+−
+. 
+Thay 
+1
+x = − và 
+2
+y = vào biểu thức A : 
+2
+6 ( 1)
+2
+5 ( 1) 2
+A =
+−
+−−
+ 
+6 1 2
+( 10)
+A =
+−−
+ 
+12 10
+22
+A =
++
+=
+    
+b) Thực hiện phép nhân:    
+2
+2
+3
+(2
+5 )
+B
+xy
+x
+y
+=
+−
+    
+
+
+--- TRANG 69 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+2
+2
+3
+2
+3
+5
+B
+xy
+x
+xy
+y
+=
+
+−
+
+ 
+3
+2
+3
+6
+15
+B
+x y
+xy
+=
+−
+ 
+c) Thực hiện phép chia:    
+3
+2
+2
+3
+2
+2
+(6
+9
+):3
+C
+x y
+x y
+x y
+=
+−
+    
+3
+2
+2
+2
+2
+3
+2
+2
+6
+:3
+9
+:3
+C
+x y
+x y
+x y
+x y
+=
+−
+ 
+2
+3
+C
+x
+y
+=
+−
+ 
+Câu 2. Cho hai đa thức sau: 
+2
+3
+2
+3
+2
+2
+2
+5
+2
+6
+P
+x y
+x
+xy
+Q
+x
+xy
+x y
+=
++
+−
++
+=
++
+−
+−
+ 
+a) Tính tổng của đa thức P và Q. 
+b) Tìm đa thức N sao cho Q = P + N. 
+Lời giải. 
+a) Tính tổng P
+Q
++
+:    
+3
+3
+2
+2
+2
+2
+(2
+)
+(
+2
+)
+(
+)
+(5
+6)
+P
+Q
+x
+x
+x y
+x y
+xy
+xy
++
+=
++
++
+−
++ −
++
++
+−
+ 
+3
+2
+3
+1
+P
+Q
+x
+x y
++
+=
+−
+−. 
+b) Tìm đa thức N sao cho Q
+P
+N
+=
++
+:    
+Từ Q
+P
+N
+=
++
+, suy ra N
+Q
+P
+=
+−
+. 
+3
+2
+2
+2
+3
+2
+(
+2
+6)
+(
+2
+5)
+N
+x
+xy
+x y
+x y
+x
+xy
+=
++
+−
+−
+−
++
+−
++
+ 
+3
+2
+2
+2
+3
+2
+2
+6
+2
+5
+N
+x
+xy
+x y
+x y
+x
+xy
+=
++
+−
+−
+−
+−
++
+−
+3
+3
+2
+2
+2
+2
+(
+2
+)
+( 2
+)
+(
+)
+( 6
+5)
+N
+x
+x
+x y
+x y
+xy
+xy
+=
+−
++ −
+−
++
++
++ −−
+ 
+3
+2
+2
+3
+2
+11
+N
+x
+x y
+xy
+= −
+−
++
+−
+. 
+Câu 3. Khu vườn của nhà bác Hoa có dạng hình vuông. Bác Hoa muốn dành một mảnh 
+đất có dạng hình chữ nhật ở góc khu vườn làm nhà để dụng cụ làm vườn (hình vẽ). 
+a) Viết đa thức biểu thị chu vi của mảnh đất làm nhà. 
+
+
+--- TRANG 70 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Biết chu vi của mảnh đất dành để làm nhà bằng 40 m . Tính diện tích của khu vườn 
+hình vuông ban đầu. 
+ 
+Lời giải. 
+a) Viết đa thức biểu thị chu vi của mảnh đất làm nhà.  
+Quan sát hình vẽ, mảnh đất hình chữ nhật có:    
+Chiều dài: 
+15 (m)
+x −
+    
+Chiều rộng: 
+25 (m)
+x −
+    
+Đa thức biểu thị chu vi mảnh đất làm nhà là: 
+2 [(
+15)
+(
+25)]
+2 (2
+40)
+4
+80 (m)
+x
+x
+x
+x
+
+−
++
+−
+=
+
+−
+=
+−
+    
+b) Tính diện tích của khu vườn hình vuông ban đầu.    
+Chu vi mảnh đất làm nhà bằng 40 m , ta có: 
+4
+80
+40
+x −
+=
+ 
+4
+120
+x =
+ 
+30
+x =
+    
+Cạnh khu vườn hình vuông ban đầu là 30 m . 
+Diện tích khu vườn hình vuông ban đầu là: 
+2
+30 30
+900 (m )
+
+=
+ 
+Câu 4. Cho 
+1
+x
+y
++
+= . Tìm GTNN của biểu thức 
+3
+3
+.
+A
+x
+y
+xy
+=
++
++
+ 
+
+
+--- TRANG 71 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+Biến đổi biểu thức A : 
+3
+3
+A
+x
+y
+xy
+=
++
++
+ 
+2
+2
+(
+)(
+)
+A
+x
+y x
+xy
+y
+xy
+=
++
+−
++
++
+   Vì 
+1
+x
+y
++
+= , ta thu được: 
+2
+2
+2
+2
+1 (
+)
+A
+x
+xy
+y
+xy
+x
+y
+= 
+−
++
++
+=
++
+    
+Thay 
+1
+y
+x
+= − vào A , ta có: 
+2
+2
+(1
+)
+A
+x
+x
+=
++
+−
+ 
+2
+2
+1
+2
+A
+x
+x
+x
+=
++ −
++
+ 
+2
+2
+2
+1
+A
+x
+x
+=
+−
++ 
+2
+1
+1
+2
+4
+2
+A
+x
+x
+
+
+=
+−
++
++
+
+
+
+
+ 
+2
+1
+1
+2
+2
+2
+A
+x
+
+
+=
+−
++
+
+
+
+
+    
+Vì 
+2
+1
+2
+0
+2
+x
+
+
+−
+
+
+
+
+
+ với mọi x , do đó 
+1
+2
+A 
+. 
+Dấu "=" xảy ra khi 
+1
+0
+2
+x −
+= , tương ứng 
+1
+2
+x =
+. 
+Khi đó 
+1
+1
+1
+2
+2
+y = −
+=
+. 
+Vậy giá trị nhỏ nhất của A là 1
+2 , đạt được khi 
+1
+2
+x
+y
+=
+=
+.  
+ 
+ 
+ 

@@ -1,0 +1,181 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.4cm, bottom=0.4cm, left=0.6cm, right=0.6cm]{geometry}
+
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ đều đặn chuẩn viết tay (khoảng cách 19.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=19.5pt%
+  \vspace{1.2mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.8mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{0.8mm}%
+  \noindent\textbf{#2} #3\par%
+  \vspace{0.8mm}%
+  \noindent\textit{Bài giải:}%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+
+% #############################################################################
+% ============================== MÃ ĐỀ 901 ====================================
+% #############################################################################
+
+% -------------------- TRANG 1 (MÃ ĐỀ 901 - MẶT TRƯỚC) ------------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\rule[-1.5mm]{0pt}{6.5mm}\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9} & \textbf{Mã đề: 901} \\
+\hline
+\multicolumn{2}{|l|}{\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[2.2cm]{\dotfill} \quad \textbf{Trường:} \makebox[4.8cm]{\dotfill}} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Bài 1 (4,0 điểm). Giải các hệ phương trình sau bằng phương pháp cộng đại số:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a) (2,0 điểm)}{$\begin{cases} 3x - 2y = 7 \\ 2x + 2y = 8 \end{cases}$} & 
+\oBaiTap[15]{b) (2,0 điểm)}{$\begin{cases} 3x + 5y = 1 \\ 2x - 3y = 7 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Bài 2 (3,0 điểm). Rút gọn biểu thức chứa căn thức:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+Cho biểu thức:
+$$P = \left( \dfrac{\sqrt{x}}{\sqrt{x}-1} - \dfrac{1}{x-\sqrt{x}} \right) : \left( \dfrac{1}{\sqrt{x}+1} + \dfrac{2}{x-1} \right) \quad \text{với } x > 0 \text{ và } x \ne 1.$$
+Rút gọn biểu thức $P$.
+\par\vspace{0.8mm}
+\noindent\textit{Bài giải:}
+\dongke{12}
+\\ \hline
+\end{tabularx}
+
+\vfill
+\begin{center}
+{\footnotesize\itshape (Thí sinh lật sang mặt sau để làm Bài 3)}
+\end{center}
+
+\newpage
+% -------------------- TRANG 2 (MÃ ĐỀ 901 - MẶT SAU) --------------------------
+\noindent\textbf{\large Bài 3 (3,0 điểm). Giải bài toán bằng cách lập hệ phương trình:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Theo kế hoạch, hai tổ sản xuất phải làm được tổng cộng $900$ chi tiết máy. Do cải tiến kỹ thuật, trong thực tế tổ I đã làm vượt mức $15\%$, tổ II đã làm vượt mức $10\%$ so với kế hoạch, vì vậy cả hai tổ đã sản xuất được tất cả $1010$ chi tiết máy. Hỏi theo kế hoạch, mỗi tổ phải làm bao nhiêu chi tiết máy?
+\par\vspace{1mm}
+\noindent\textit{Bài giải:}
+\dongke{34}
+\\ \hline
+\end{tabularx}
+
+\vfill
+\begin{center}
+\rule{4cm}{0.4pt}\\
+{\footnotesize\itshape --- HẾT MÃ ĐỀ 901 --- (Cán bộ coi thi không giải thích gì thêm)}
+\end{center}
+
+\newpage
+% #############################################################################
+% ============================== MÃ ĐỀ 902 ====================================
+% #############################################################################
+
+% -------------------- TRANG 3 (MÃ ĐỀ 902 - MẶT TRƯỚC) ------------------------
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\rule[-1.5mm]{0pt}{6.5mm}\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9} & \textbf{Mã đề: 902} \\
+\hline
+\multicolumn{2}{|l|}{\rule[-2mm]{0pt}{7.5mm}\textbf{Họ và tên:} \dotfill \quad \textbf{Lớp:} \makebox[2.2cm]{\dotfill} \quad \textbf{Trường:} \makebox[4.8cm]{\dotfill}} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\noindent\textbf{\large Bài 1 (4,0 điểm). Giải các hệ phương trình sau bằng phương pháp cộng đại số:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[15]{a) (2,0 điểm)}{$\begin{cases} 2x - 3y = 5 \\ 3x + 3y = 15 \end{cases}$} & 
+\oBaiTap[15]{b) (2,0 điểm)}{$\begin{cases} 2x + 3y = 12 \\ 3x - 2y = 5 \end{cases}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.8mm}
+
+\noindent\textbf{\large Bài 2 (3,0 điểm). Rút gọn biểu thức chứa căn thức:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+Cho biểu thức:
+$$Q = \left( \dfrac{\sqrt{x}}{\sqrt{x}-2} - \dfrac{4}{x-2\sqrt{x}} \right) : \left( \dfrac{1}{\sqrt{x}+2} + \dfrac{4}{x-4} \right) \quad \text{với } x > 0 \text{ và } x \ne 4.$$
+Rút gọn biểu thức $Q$.
+\par\vspace{0.8mm}
+\noindent\textit{Bài giải:}
+\dongke{12}
+\\ \hline
+\end{tabularx}
+
+\vfill
+\begin{center}
+{\footnotesize\itshape (Thí sinh lật sang mặt sau để làm Bài 3)}
+\end{center}
+
+\newpage
+% -------------------- TRANG 4 (MÃ ĐỀ 902 - MẶT SAU) --------------------------
+\noindent\textbf{\large Bài 3 (3,0 điểm). Giải bài toán bằng cách lập hệ phương trình:}
+\vspace{1mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+Theo kế hoạch, hai tổ sản xuất phải làm được tổng cộng $800$ chi tiết máy. Do cải tiến kỹ thuật, trong thực tế tổ I đã làm vượt mức $20\%$, tổ II đã làm vượt mức $15\%$ so với kế hoạch, vì vậy cả hai tổ đã sản xuất được tất cả $945$ chi tiết máy. Hỏi theo kế hoạch, mỗi tổ phải làm bao nhiêu chi tiết máy?
+\par\vspace{1mm}
+\noindent\textit{Bài giải:}
+\dongke{34}
+\\ \hline
+\end{tabularx}
+
+\vfill
+\begin{center}
+\rule{4cm}{0.4pt}\\
+{\footnotesize\itshape --- HẾT MÃ ĐỀ 902 --- (Cán bộ coi thi không giải thích gì thêm)}
+\end{center}
+
+\end{document}

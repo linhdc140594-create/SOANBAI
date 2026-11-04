@@ -1,0 +1,103 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 10 - BUỔI 2",
+  "title_p2": "TOÁN 9 - TUẦN 10 - BUỔI 2",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_10_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        ["$MA, MB$ là tiếp tuyến của $(O)$ cắt nhau tại $M$. Khẳng định đúng là:", "MA = MB"],
+        ["$MA, MB$ là hai tiếp tuyến của $(O)$, biết $\\widehat{AMB} = 60^\\circ$. Số đo góc $\\widehat{AOB}$ là:", "120^\\circ"],
+        ["Tâm của đường tròn nội tiếp tam giác là giao điểm của ba đường:", "\\text{phân giác}"],
+        ["Giá trị của biểu thức $\\sqrt{(3 - \\sqrt{10})^2}$ là:", "\\sqrt{10} - 3"],
+        ["Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 3}}$ là:", "x > 3"],
+        ["Nghiệm của phương trình $\\sqrt{x} = 5$ là:", "x = 25"],
+        ["Hệ phương trình $\\begin{cases} 3x - y = 5 \\\\ x + 2y = 4 \\end{cases}$ có nghiệm $(x; y)$ là:", "(2; 1)"],
+        ["Cho đường tròn $(O; R = 5\\text{ cm})$. Chu vi của đường tròn là:", "10\\pi\\text{ cm}"],
+        ["Một hình tròn có bán kính $R = 4\\text{ cm}$. Diện tích của hình tròn là:", "16\\pi\\text{ cm}^2"],
+        ["Bánh xe đường kính $60\\text{ cm}$ lăn quãng đường $180\\pi\\text{ cm}$ thì quay được:", "3\\text{ vòng}"]
+      ],
+      "c11": [
+        ["a) \\quad (1,25 điểm)", "Giải hệ phương trình: $\\begin{cases} 2(x + y) + 3(x - y) = 4 \\\\ (x + y) - 2(x - y) = 9 \\end{cases}$"],
+        ["b) (1,25 điểm)", "Cho $Q = \\dfrac{\\sqrt{x} + 3}{\\sqrt{x} + 1}$ ($x \\ge 0$). Tìm các giá trị nguyên của $x$ để biểu thức $Q$ nhận giá trị nguyên."]
+      ],
+      "c12": "Nhân dịp khai trương, một siêu thị điện máy giảm giá $10\\%$ cho mặt hàng tivi và $15\\%$ cho mặt hàng máy giặt theo giá niêm yết. Bác Nam mua một chiếc tivi và một chiếc máy giặt với tổng giá niêm yết là $20\\text{ triệu đồng}$, nhưng nhờ chương trình giảm giá nên bác chỉ phải thanh toán số tiền là $17{,}4\\text{ triệu đồng}$. Tính giá niêm yết của mỗi mặt hàng nêu trên.",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh $OM \\perp AB$ tại $H$. Cho $R = 15\\text{ cm}, OM = 25\\text{ cm}$, tính độ dài đoạn thẳng $AB$.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và tính diện tích tam giác $MAB$."
+      }
+    },
+    "102": {
+      "short": [
+        ["$MA, MB$ là hai tiếp tuyến của $(O)$ cắt nhau tại $M$. Tia $MO$ là phân giác của góc:", "\\widehat{AMB}"],
+        ["$MA, MB$ là hai tiếp tuyến của $(O)$, biết $\\widehat{AOB} = 110^\\circ$. Số đo góc $\\widehat{AMB}$ là:", "70^\\circ"],
+        ["Tâm của đường tròn ngoại tiếp tam giác là giao điểm của ba đường:", "\\text{trung trực}"],
+        ["Giá trị của biểu thức $\\sqrt{(2 - \\sqrt{5})^2}$ là:", "\\sqrt{5} - 2"],
+        ["Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 4}}$ là:", "x > 4"],
+        ["Nghiệm của phương trình $\\sqrt{x} = 6$ là:", "x = 36"],
+        ["Hệ phương trình $\\begin{cases} 3x - y = 7 \\\\ x + 2y = 7 \\end{cases}$ có nghiệm $(x; y)$ là:", "(3; 2)"],
+        ["Cho đường tròn $(O; R = 6\\text{ cm})$. Chu vi của đường tròn là:", "12\\pi\\text{ cm}"],
+        ["Một hình tròn có bán kính $R = 5\\text{ cm}$. Diện tích của hình tròn là:", "25\\pi\\text{ cm}^2"],
+        ["Bánh xe đường kính $50\\text{ cm}$ lăn quãng đường $200\\pi\\text{ cm}$ thì quay được:", "4\\text{ vòng}"]
+      ],
+      "c11": [
+        ["a) \\quad (1,25 điểm)", "Giải hệ phương trình: $\\begin{cases} 3(x + y) + 2(x - y) = 13 \\\\ 2(x + y) - (x - y) = 4 \\end{cases}$"],
+        ["b) (1,25 điểm)", "Cho $Q = \\dfrac{\\sqrt{x} + 4}{\\sqrt{x} + 1}$ ($x \\ge 0$). Tìm các giá trị nguyên của $x$ để biểu thức $Q$ nhận giá trị nguyên."]
+      ],
+      "c12": "Nhân dịp khai trương, một cửa hàng điện máy giảm giá $10\\%$ cho mặt hàng tivi và $20\\%$ cho mặt hàng máy giặt theo giá niêm yết. Bác Bình mua một chiếc tivi và một chiếc máy giặt với tổng giá niêm yết là $25\\text{ triệu đồng}$, nhưng nhờ chương trình giảm giá nên bác chỉ phải thanh toán số tiền là $21{,}5\\text{ triệu đồng}$. Tính giá niêm yết của mỗi mặt hàng nêu trên.",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh $OM \\perp AB$ tại $H$. Cho $R = 6\\text{ cm}, OM = 10\\text{ cm}$, tính độ dài đoạn thẳng $AB$.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và tính diện tích tam giác $MAB$."
+      }
+    },
+    "103": {
+      "short": [
+        ["$MA, MB$ là hai tiếp tuyến của $(O)$ cắt nhau tại $M$. Tia $OM$ là phân giác của góc:", "\\widehat{AOB}"],
+        ["$MA, MB$ là hai tiếp tuyến của $(O)$, biết $\\widehat{AMB} = 80^\\circ$. Số đo góc $\\widehat{AOB}$ là:", "100^\\circ"],
+        ["Tam giác vuông có hai cạnh góc vuông $6\\text{ cm}$ và $8\\text{ cm}$. Bán kính nội tiếp $r$ là:", "2\\text{ cm}"],
+        ["Giá trị của biểu thức $\\sqrt{(\\sqrt{7} - 3)^2}$ là:", "3 - \\sqrt{7}"],
+        ["Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 5}}$ là:", "x > 5"],
+        ["Nghiệm của phương trình $\\sqrt{x} = 7$ là:", "x = 49"],
+        ["Hệ phương trình $\\begin{cases} 3x - y = 8 \\\\ x + 2y = 5 \\end{cases}$ có nghiệm $(x; y)$ là:", "(3; 1)"],
+        ["Cho đường tròn $(O; R = 7\\text{ cm})$. Chu vi của đường tròn là:", "14\\pi\\text{ cm}"],
+        ["Một hình tròn có bán kính $R = 3\\text{ cm}$. Diện tích của hình tròn là:", "9\\pi\\text{ cm}^2"],
+        ["Bánh xe đường kính $70\\text{ cm}$ lăn quãng đường $350\\pi\\text{ cm}$ thì quay được:", "5\\text{ vòng}"]
+      ],
+      "c11": [
+        ["a) \\quad (1,25 điểm)", "Giải hệ phương trình: $\\begin{cases} 4(x + y) + (x - y) = 11 \\\\ (x + y) - 3(x - y) = -7 \\end{cases}$"],
+        ["b) (1,25 điểm)", "Cho $Q = \\dfrac{\\sqrt{x} + 5}{\\sqrt{x} + 2}$ ($x \\ge 0$). Tìm các giá trị nguyên của $x$ để biểu thức $Q$ nhận giá trị nguyên."]
+      ],
+      "c12": "Nhân dịp lễ, một siêu thị điện máy giảm giá $20\\%$ cho mặt hàng tivi và $15\\%$ cho mặt hàng máy giặt theo giá niêm yết. Bác Cường mua một chiếc tivi và một chiếc máy giặt với tổng giá niêm yết là $30\\text{ triệu đồng}$, nhưng nhờ chương trình giảm giá nên bác chỉ phải thanh toán số tiền là $24{,}6\\text{ triệu đồng}$. Tính giá niêm yết của mỗi mặt hàng nêu trên.",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh $OM \\perp AB$ tại $H$. Cho $R = 9\\text{ cm}, OM = 15\\text{ cm}$, tính độ dài đoạn thẳng $AB$.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và tính diện tích tam giác $MAB$."
+      }
+    },
+    "104": {
+      "short": [
+        ["Hai tiếp tuyến tại $A, B$ của $(O)$ cắt nhau tại $M$. Đoạn $OM$ là đường trung trực của:", "AB"],
+        ["$MA, MB$ là hai tiếp tuyến của $(O)$, biết $\\widehat{AOB} = 130^\\circ$. Số đo góc $\\widehat{AMB}$ là:", "50^\\circ"],
+        ["Tam giác vuông có cạnh $5\\text{ cm}, 12\\text{ cm}, 13\\text{ cm}$. Bán kính nội tiếp $r$ là:", "2\\text{ cm}"],
+        ["Giá trị của biểu thức $\\sqrt{(\\sqrt{11} - 4)^2}$ là:", "4 - \\sqrt{11}"],
+        ["Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 2}}$ là:", "x > 2"],
+        ["Nghiệm của phương trình $\\sqrt{x} = 8$ là:", "x = 64"],
+        ["Hệ phương trình $\\begin{cases} 3x - y = 4 \\\\ x + 2y = 6 \\end{cases}$ có nghiệm $(x; y)$ là:", "(2; 2)"],
+        ["Cho đường tròn $(O; R = 8\\text{ cm})$. Chu vi của đường tròn là:", "16\\pi\\text{ cm}"],
+        ["Một hình tròn có bán kính $R = 6\\text{ cm}$. Diện tích của hình tròn là:", "36\\pi\\text{ cm}^2"],
+        ["Bánh xe đường kính $40\\text{ cm}$ lăn quãng đường $240\\pi\\text{ cm}$ thì quay được:", "6\\text{ vòng}"]
+      ],
+      "c11": [
+        ["a) \\quad (1,25 điểm)", "Giải hệ phương trình: $\\begin{cases} 2(x + y) + (x - y) = 7 \\\\ 3(x + y) - 2(x - y) = 7 \\end{cases}$"],
+        ["b) (1,25 điểm)", "Cho $Q = \\dfrac{\\sqrt{x} + 7}{\\sqrt{x} + 3}$ ($x \\ge 0$). Tìm các giá trị nguyên của $x$ để biểu thức $Q$ nhận giá trị nguyên."]
+      ],
+      "c12": "Nhân dịp tri ân khách hàng, một cửa hàng giảm giá $15\\%$ cho mặt hàng tivi và $10\\%$ cho mặt hàng máy giặt theo giá niêm yết. Bác Dũng mua một chiếc tivi và một chiếc máy giặt với tổng giá niêm yết là $18\\text{ triệu đồng}$, nhưng nhờ chương trình giảm giá nên bác chỉ phải thanh toán số tiền là $15{,}7\\text{ triệu đồng}$. Tính giá niêm yết của mỗi mặt hàng nêu trên.",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh $OM \\perp AB$ tại $H$. Cho $R = 12\\text{ cm}, OM = 20\\text{ cm}$, tính độ dài đoạn thẳng $AB$.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và tính diện tích tam giác $MAB$."
+      }
+    }
+  }
+}

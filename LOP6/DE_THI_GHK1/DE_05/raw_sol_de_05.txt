@@ -1,0 +1,673 @@
+--- TRANG 93 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ĐỀ SỐ 5 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho A gồm các số tự nhiên nhỏ hơn 5, tập A được viết như thế nào? 
+A. 
+
+
+1;2;3;4 .
+A =
+ 
+ 
+ 
+ 
+ 
+B. 
+
+
+0;1;2;3;4 
+A =
+. 
+C. 
+
+
+1;2;3;4;5 .
+A =
+  
+ 
+ 
+ 
+D. 
+
+
+0;1;2;3;4;5 .
+A =
+ 
+Lời giải. Các số tự nhiên nhỏ hơn 5 là 0; 1; 2; 3; 4. Do đó, tập hợp 
+{0;1;2;3;4}
+A =
+. Đáp án 
+đúng: B. 
+Câu 2. Kết quả của phép tính 52.5 là: 
+A. 5.  
+ 
+B. 52.  
+ 
+ 
+C.53.  
+ 
+ 
+  D. 252. 
+Lời giải. Áp dụng quy tắc nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các 
+số mũ: 
+2
+2
+1
+2 1
+3
+5
+5
+5
+5
+5
+5
++
+=
+
+=
+=
+. Đáp án đúng: C. 
+Câu 3. Số 
+4
+2 bằng: 
+
+
+--- TRANG 94 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 
+2
+4 . 
+B. 
+3
+3 . 
+C. 
+51 . 
+D. 
+2
+2
+2
+2
++
+. 
+Lời giải. Ta có 
+4
+2
+16
+=
+. Giá trị của 
+2
+4
+16
+=
+. Do đó 
+4
+2
+2
+4
+=
+. Đáp án đúng: A. 
+Câu 4. Số chia hết cho 5 nhưng không chia hết cho 3 là: 
+A. 325.                      B. 240.                            C. 225.                         D. 600. 
+Lời giải. Cả 4 số đều có tận cùng là 0 hoặc 5 nên đều chia hết cho 5. 
+Xét tổng các chữ số để kiểm tra tính chia hết cho 3: 
+Số 325 có tổng các chữ số là 3
+2
+5
+10
++
++
+=
+ (không chia hết cho 3). 
+Các số 240, 225, 600 đều có tổng các chữ số chia hết cho 3. 
+Câu 5. Số nào dưới đây là một bội chung của 3; 4; 5? 
+A. 120.                        
+B. 190.                            C. 145.                         D. 150. 
+Lời giải. Số là bội chung của 3; 4; 5 phải chia hết cho cả 3, 4 và 5.  
+Ta có 120 chia hết cho 3, 4 và 5 (120:3
+40
+=
+; 120: 4
+30
+=
+; 120:5
+24
+=
+).  
+Đáp án đúng: A. 
+Câu 6. Tam giác ABC là tam giác đều, khi đó: 
+A. AB
+BC
+CA
+
+
+. 
+B. AB
+BC
+CA
+
+
+. 
+C. Độ dài 3 cạnh AB, BC, CA khác nhau. 
+D. AB
+BC
+AC
+=
+=
+. 
+Lời giải. Trong tam giác đều, độ dài ba cạnh luôn bằng nhau: AB
+BC
+AC
+=
+=
+. 
+Đáp án đúng: D. 
+Câu 7. Chọn phát biểu đúng trong các phát biểu sau. 
+A. 0 là bội của mọi số tự nhiên.   
+B. Các số nguyên tố nhỏ hơn 12 là 1; 2; 5; 7. 
+C. 1 là số nguyên tố nhỏ nhất.  
+
+
+--- TRANG 95 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+D. Số 2 là số nguyên tố chẵn duy nhất. 
+Lời giải. Số 2 là số nguyên tố chẵn duy nhất (vì các số chẵn lớn hơn 2 đều chia hết cho 2 
+nên là hợp số). 
+Đáp án đúng: D. 
+Câu 8. Công thức nào sau đây thể hiện tính chất phân phối của phép nhân đối với phép 
+cộng? 
+A. (
+)
+a b
+c
+ab
+ac
++
+=
++
+ . 
+ 
+ 
+ 
+B. 
+(
+)
+(
+)
+a
+b
+c
+a
+b
+c
++
++
+=
++
++
+ .  
+C. ab
+ba
+=
+.  
+ 
+ 
+ 
+ 
+D. (
+)
+(
+)
+ab c
+a bc
+=
+. 
+Lời giải. Công thức thể hiện tính chất phân phối của phép nhân đối với phép cộng là: 
+(
+)
+a
+b
+c
+a b
+a c
+
++
+=
++
+.  
+Đáp án đúng: A. 
+Câu 9.  Phát biểu nào dưới đây là sai? 
+A. Hình vuông có hai đường chéo vuông góc với nhau. 
+B. Hình lục giác đều có sáu góc bằng nhau. 
+C. Hình tam giác đều có ba đường chéo bằng nhau. 
+D. Hình vuông có bốn góc bằng nhau bằng 900. 
+Lời giải. Hình tam giác không có đường chéo, nên phát biểu "Hình tam giác đều có ba 
+đường chéo bằng nhau" là sai. 
+Đáp án đúng: C. 
+Câu 10. Cho M = {a; 5; b; c} và N ={d; 3; e; 7} khẳng định sai là: 
+A. 5
+.
+N
+
+ 
+ 
+ 
+B. 3
+.
+N
+
+ 
+ 
+ 
+C. 
+.
+a
+M
+
+       
+   D. 
+.
+c
+M
+
+ 
+Lời giải. Phần tử 5 thuộc tập hợp M (5
+M
+
+), không thuộc tập hợp N (5
+N
+
+). Do đó, 
+viết 5
+N
+
+ là khẳng định sai. 
+
+
+--- TRANG 96 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: A. 
+Câu 11. Trong các số sau số nào chia hết cho 5 
+A. 553.                
+ 
+B. 12340.             
+ 
+C. 578.      
+ 
+    D. 786. 
+Lời giải. Số chia hết cho 5 có chữ số tận cùng là 0 hoặc 5. Trong các số đã cho, số 12340
+có chữ số tận cùng là 0 nên chia hết cho 5. Đáp án đúng: B. 
+Câu 12. Hình nào trong các hình sau có 2 cạnh đối song song và 2 đường chéo bằng 
+nhau? 
+A. Hình bình hành.      
+ 
+ 
+ 
+ 
+B. Hình thang cân. 
+C. Hình thoi.                
+ 
+ 
+ 
+ 
+D. Hình tam giác đều. 
+Lời giải. Theo tính chất của hình thang cân, hình thang cân có hai cạnh đáy (hai cạnh đối) 
+song song và hai đường chéo bằng nhau. 
+Đáp án đúng: B. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét tính đúng sai của các mệnh đề sau: 
+a) 11 là số nguyên tố. 
+b) 15 là số nguyên tố. 
+c) 17 là số nguyên tố. 
+d) 21 là số nguyên tố. 
+Lời giải 
+a) Đúng. Số 11 lớn hơn 1 và chỉ có hai ước là 1 và chính nó. 
+b) Sai. Số 15 lớn hơn 1 và có nhiều hơn hai ước (1, 3, 5, 15) nên là hợp số. 
+c) Đúng. Số 17 lớn hơn 1 và chỉ có hai ước là 1 và chính nó (17). 
+
+
+--- TRANG 97 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+d) Sai. Số 21 lớn hơn 1 và có nhiều hơn hai ước (1, 3, 7, 21) nên là hợp số. 
+Câu 2. Cho 15 số tự nhiên đầu tiên (từ 0 đến 14). Xét tính đúng sai của các mệnh đề sau: 
+a) Trong các số đã cho, có 2 số chia hết cho cả 2 và 5. 
+b) Trong các số đã cho, có 5 số chia hết cho 9. 
+c) Trong các số đã cho, có 6 số là số nguyên tố. 
+d) Trong các số đã cho, có 5 số là bội của 3. 
+Lời giải. 
+a) Đúng. Các số chia hết cho cả 2 và 5 (tức chia hết cho 10) gồm 2 số: 0,10 . 
+b) Sai. Các số chia hết cho 9 chỉ gồm 2 số: 0,9. 
+c) Đúng. Các số nguyên tố gồm 6 số: 2,3,5,7,11,13. 
+d) Đúng. Các số là bội của 3 gồm 5 số: 0,3,6,9,12 . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính diện tích của một hình vuông có chu vi bằng 36 cm (đơn vị: 
+2
+cm ). 
+Lời giải. Độ dài cạnh của hình vuông là: 36: 4
+9 (cm)
+=
+. 
+Diện tích của hình vuông là: 
+2
+9 9
+81 (cm )
+
+=
+. 
+Đáp án: 81. 
+Câu 2. Tìm số tự nhiên x nhỏ nhất khác 0 sao cho 
+12
+x
+ và 
+18
+x
+. 
+Lời giải. Vì x nhỏ nhất khác 0 thỏa mãn 
+12
+x
+ và 
+18
+x
+ nên 
+BCNN(12,18)
+x =
+. 
+Ta có: 
+2
+12
+2
+3
+=
+ và 
+2
+18
+2 3
+=
+
+. 
+2
+2
+BCNN(12,18)
+2
+3
+36
+=
+
+=
+. 
+
+
+--- TRANG 98 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án: 36. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 
+2
+2
+3.5
+16:2
+−
+; 
+ 
+b) 
+2
+20
+30
+(5 1)
+
+
+−
+−
+−
+
+. 
+Lời giải.  
+a) 
+2
+2
+3 5
+16: 2
+
+−
+ 
+3 25 16: 4
+= 
+−
+ 
+75
+4
+71
+=
+−
+=
+. 
+b) 
+2
+20 [30
+(5 1) ]
+−
+−
+−
+ 
+2
+20
+[30
+4 ]
+=
+−
+−
+20
+[30 16]
+=
+−
+−
+ 
+20 14
+6
+=
+−
+=
+. 
+Câu 2. Tìm số tự nhiên x, biết: 
+a) 
+–15
+2025.
+x
+=
+ 
+b) 
+(
+)
+39
+– 47
+160.
+x
++
+=
+ 
+Lời giải.  
+a) 
+15
+2025
+x −
+=
+ 
+2025 15
+x =
++
+ 
+2040
+x =
+. 
+b) 39
+(
+47)
+160
+x
++
+−
+=
+ 
+47
+160
+39
+x −
+=
+−
+ 
+47
+121
+x −
+=
+ 
+
+
+--- TRANG 99 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+121
+47
+x =
++
+ 
+168
+x =
+. 
+Câu 3. Bạn Ánh đi tập gym mỗi ngày. Lượng calo tiêu hao trung bình khi tập mỗi buổi 
+như sau: 
+• 
+Chạy bộ 30 phút tiêu hao 240 calo. 
+• 
+Nhảy dây 15 phút tiêu hao 150 calo. 
+• 
+Gập bụng 10 phút tiêu hao 60 calo. 
+a) Tính tổng lượng calo tiêu hao trong một buổi tập của bạn Ánh.  
+b) Biết người bình thường cần nạp khoảng 2 200 calo mỗi ngày để giữ cân và cần  
+tiêu hao 7 700 calo trong một tuần để giảm 1 kg mỡ. Nếu mỗi ngày bạn Ánh chỉ tập các 
+bài tập như trên mà vẫn ăn uống đủ 2200 calo để giữ gìn sức khỏe, thì sau 1 tuần bạn ấy 
+đã đủ để giảm 1 kg mỡ chưa ? 
+Lời giải. 
+a) Tổng lượng calo tiêu hao trong một buổi tập của bạn Ánh: 
+240 150
+60
+450 (calo)
++
++
+=
+. 
+b) Tổng lượng calo tiêu hao trong 1 tuần (7 ngày) tập luyện:450 7
+3150 (calo)
+
+=
+. 
+Vì 3150
+7700
+
+ calo nên sau 1 tuần bạn Ánh chưa đủ để giảm 1 kg mỡ. 
+Câu 4. Tìm số tự nhiên n sao cho (
+) (
+)
+5
+14 
+2
+n
+n
++
++
+
+? 
+Lời giải. Ta có: 5
+14
+5 (
+2)
+4
+n
+n
++
+= 
++
++ . Để (5
+14) (
+2)
+n
+n
++
++
+
+ thì 4 (
+2)
+n +
+
+. 
+Do n là số tự nhiên nên 
+2
+(4)
+{1;2;4}
+n
+U
++ 
+=
+ 
+• 
+2
+1
+n +
+= (loại do n) 
+• 
+2
+2
+n +
+= thì 
+0
+x =
+ 
+• 
+2
+4
+n +
+= thì 
+2
+x =
+ 

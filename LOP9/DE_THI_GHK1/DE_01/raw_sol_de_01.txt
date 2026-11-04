@@ -1,0 +1,1413 @@
+--- TRANG 45 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 1 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Phương trình nào sau đây là phương trình bậc nhất hai ẩn? 
+A. 
+2
+2
+3
+x
+y
+−
+= . 
+ 
+ 
+ 
+ 
+B. 
+3
+5
+x
+y
++
+= . 
+C. 0
+0
+4
+x
+y
++
+= . 
+ 
+ 
+ 
+ 
+D. 
+2
+1
+x
+y
++
+= . 
+Lời giải: Phương trình bậc nhất hai ẩn có dạng tổng quát là ax
+by
+c
++
+= trong đó các hệ số 
+không đồng thời bằng 0 . Biểu thức 
+3
+5
+x
+y
++
+= thỏa mãn điều kiện này. 
+Đáp án đúng: B. 
+Câu 2. Cặp số nào sau đây là nghiệm của phương trình 2
+3
+x
+y
+−
+= ? 
+A. (1;1) . 
+ 
+ 
+B. (2;1) . 
+ 
+ 
+C. (0; 3)
+−
+. 
+ 
+        D. (3;1). 
+Lời giải: Thay lần lượt các tọa độ vào phương trình, tại cặp số (2;1) ta có 2 2 1
+3
+−= , thỏa 
+mãn phương trình đã cho. 
+Đáp án đúng: B. 
+Câu 3. Nghiệm của hệ phương trình 
+4
+2
+x
+y
+x
+y
++
+=
+
+−
+=
+
+ là: 
+A. (3;1). 
+ 
+ 
+B. (1;3). 
+ 
+ 
+C. (2;2). 
+ 
+       D. (4;0). 
+Lời giải: Cộng vế theo vế hai phương trình ta được 2
+6
+x = , suy ra 
+3
+x = . Thay vào phương 
+trình đầu ta được 3
+4
+y
++
+= , suy ra 
+1
+y = . 
+Đáp án đúng: A. 
+
+
+--- TRANG 46 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 4. Điều kiện xác định của phương trình 
+1
+1
+2
+1
+x
+x
+x
++
+=
+−
++
+ là: 
+A. 
+2
+x 
+ và 
+1
+x −.  
+ 
+ 
+ 
+ 
+B. 
+2
+x . 
+C. 
+1
+x −. 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+1
+x  và 
+2
+x . 
+Lời giải: Các mẫu thức phải khác 0 , tức là 
+2
+0
+x −
+ và 
+1
+0
+x + , dẫn đến điều kiện 
+2
+x 
+ 
+và 
+1
+x −. Đáp án đúng: A. 
+Câu 5. Tập nghiệm của bất phương trình 2
+4
+0
+x−
+ là: 
+A. 
+2
+x . 
+ 
+ 
+B. 
+2
+x . 
+ 
+ 
+C. 
+2
+x . 
+ 
+       D. 
+2
+x . 
+Lời giải: Chuyển vế và thu gọn bất phương trình ta được 2
+4
+x , chia cả hai vế cho 2 thu 
+được kết quả 
+2
+x 
+. Đáp án đúng: A. 
+Câu 6. Cho bất đẳng thức 3
+5
+−. Khi nhân cả hai vế với 2
+−, ta được bất đẳng thức nào 
+sau đây? 
+A. 6
+10
+−
+.  
+ 
+ 
+ 
+ 
+ 
+B. 6
+10
+−
+. 
+C. 6
+10
+−−
+.  
+ 
+ 
+ 
+ 
+ 
+D. 6
+10
+−−
+. 
+Lời giải: Khi nhân cả hai vế của một bất đẳng thức với cùng một số âm, ta phải đổi chiều 
+bất đẳng thức. Do đó từ 3
+5
+− nhân với 2
+− ta được 6
+10
+−
+. Đáp án đúng: A. 
+Câu 7. Cho tam giác ABC vuông tại A, đường cao AH . Biết hình chiếu của các cạnh góc 
+vuông trên cạnh huyền là 
+4 cm
+BH =
+ và 
+9 cm
+HC =
+. Độ dài đường cao AH là: 
+A. 6 cm. 
+ 
+ 
+B. 36 cm. 
+ 
+ 
+C. 13 cm. 
+ 
+       D. 5 cm. 
+Lời giải: Áp dụng hệ thức lượng trong tam giác vuông, bình phương đường cao ứng với 
+cạnh huyền bằng tích hai hình chiếu của hai cạnh góc vuông trên cạnh huyền, cụ thể là 
+2
+4 9
+36
+AH
+BH HC
+=
+
+= =
+. Suy ra độ dài 
+6 cm
+AH =
+. 
+Đáp án đúng: A. 
+ 
+
+
+--- TRANG 47 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 8. Cho tam giác ABC vuông tại A, đường cao AH . Hệ thức lượng nào sau đây đúng? 
+A. 
+2
+AB
+BH BC
+=
+
+. 
+B. 
+2
+AH
+BH CH
+=
+
+. 
+C. 
+2
+AC
+HC BC
+=
+
+. 
+D. Cả ba hệ thức trên đều đúng. 
+Lời giải: Trong tam giác vuông, bình phương cạnh góc vuông bằng tích hình chiếu tương ứng 
+với cạnh huyền và bình phương đường cao bằng tích hai hình chiếu. Cả ba hệ thức đều đúng. 
+Đáp án đúng: D. 
+Câu 9. Cho tam giác ABC vuông tại A có độ dài các cạnh góc vuông 
+3 cm
+AB =
+ và 
+4 cm
+AC =
+. Độ dài cạnh huyền BC là: 
+A. 5 cm 
+ 
+ 
+B. 7 cm 
+ 
+ 
+C. 25 cm 
+ 
+     D. 7 cm 
+Lời giải: Áp dụng định lý Pythagoras, bình phương cạnh huyền bằng tổng bình phương hai 
+cạnh góc vuông, cụ thể là 
+2
+2
+2
+3
+4
+25
+BC =
++
+=
+, suy ra 
+5 cm
+BC =
+. 
+Đáp án đúng: A. 
+Câu 10. Trong các phương trình sau, phương trình nào là phương trình tích? 
+A. (
+1)(
+2)
+0
+x
+x
+−
++
+=  
+ 
+ 
+ 
+ 
+B. 1
+2
+3
+x +
+= 
+C. 2
+3
+0
+x+ =  
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+1
+0
+x + = 
+Lời giải: Phương trình tích có dạng một vế là tích các nhân tử và vế còn lại bằng 0 . Biểu 
+thức (
+1)(
+2)
+0
+x
+x
+−
++
+= là phương trình tích. Đáp án đúng: A. 
+Câu 11. Cho tam giác ABC vuông tại A, góc ˆ
+60
+B
+
+=
+ và cạnh góc vuông 
+6 3 cm
+AC =
+. 
+Độ dài cạnh góc vuông AB là: 
+A. 6 cm 
+ 
+ 
+B. 12 cm 
+ 
+ 
+C. 3 cm 
+ 
+    D. 6 3 cm 
+
+
+--- TRANG 48 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Dựa vào hệ thức giữa cạnh và góc trong tam giác vuông, ta có tan
+AC
+B
+AB
+=
+, suy ra 
+6 3
+6 cm
+tan60
+3
+AC
+AB
+
+=
+=
+=
+. Đáp án đúng: A. 
+Câu 12. Cho hệ phương trình 2
+5
+1
+x
+y
+x
+y
++
+=
+
+−
+=
+
+. Giá trị của tổng x
+y
++
+ là: 
+A. 3.  
+ 
+ 
+B. 2 .  
+ 
+ 
+C. 4 .  
+ 
+ 
+D. 5. 
+Lời giải: Cộng vế theo vế hai phương trình ta được 3
+6
+x = , suy ra 
+2
+x =
+. Thay vào phương 
+trình thứ hai ta được 2
+1
+y
+−
+= , suy ra 
+1
+y = . Tổng x
+y
++
+ bằng 2 1
+3
++ = . 
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hệ phương trình 2
+1
+5
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Cặp số (2;3) là nghiệm của phương trình thứ nhất trong hệ. 
+b) Cộng từng vế hai phương trình của hệ ta được phương trình mới 3
+6
+x = . 
+c) Hệ phương trình có nghiệm duy nhất là (2;3). 
+d) Giá trị của biểu thức 
+2
+2
+T
+x
+y
+=
++
+ tại nghiệm của hệ bằng 15. 
+Lời giải: 
+a) Đúng. Thay 
+2
+x =
+ và 
+3
+y = vào phương trình 2
+1
+x
+y
+−
+= ta được 2(2)
+3 1
+−= , thỏa mãn. 
+b) Đúng. Cộng từng vế hai phương trình: (2
+)
+(
+)
+1 5
+x
+y
+x
+y
+−
++
++
+= + , thu gọn thành 3
+6
+x = . 
+c) Đúng. Từ 3
+6
+x = tính được 
+2
+x =
+, thay vào phương trình thứ hai tính được 
+3
+y = , do đó 
+hệ có nghiệm duy nhất (2;3). 
+
+
+--- TRANG 49 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+d) Sai. Thay nghiệm (2;3) vào biểu thức T : 
+2
+2
+2
+3
+4
+9
+13
+15
+T =
++
+=
++
+=
+
+. 
+Câu 2. Cho tam giác ABC vuông tại A, đường cao AH . Biết 
+4 cm
+BH =
+ và 
+9 cm
+CH =
+. 
+Xét tính Đúng/Sai của các khẳng định sau: 
+a) Độ dài đường cao AH bằng 6 cm. 
+b) Độ dài cạnh AB bằng 
+52 cm . 
+c) Hình chiếu của cạnh AB trên cạnh huyền BC bằng 9 cm . 
+d) Giá trị của 
+
+sin ABC bằng 
+3
+13 . 
+Lời giải: 
+a) Đúng. Áp dụng hệ thức lượng 
+2
+AH
+BH CH
+=
+
+, ta có 
+2
+4 9
+36
+AH = =
+, suy ra 
+6 cm
+AH =
+. 
+b) Đúng. Cạnh huyền 
+4
+9
+13 cm
+BC
+BH
+CH
+=
++
+=
++
+=
+. Áp dụng hệ thức lượng 
+2
+AB
+BH BC
+=
+
+, ta có 
+2
+4 13
+52
+AB = 
+=
+, suy ra 
+52 cm
+AB =
+. 
+c) Sai. Hình chiếu của cạnh AB trên cạnh huyền BC là đoạn thẳng BH, có độ dài bằng 
+4 cm chứ không phải 9 cm . 
+d) Đúng. Xét tam giác ABH vuông tại H , ta có 
+
+6
+6
+3
+sin
+52
+2 13
+13
+AH
+ABC
+AB
+=
+=
+=
+=
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Rút gọn biểu thức 
+12
+2 27
+3 75
+A =
+−
++
+. 
+Lời giải.  
+Đưa thừa số ra ngoài dấu căn: 
+12
+4 3
+2 3
+=
+
+=
+ 
+2 27
+2 9 3
+2 3 3
+6 3
+=
+
+= 
+=
+ 
+
+
+--- TRANG 50 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+3 75
+3 25 3
+3 5 3
+15 3
+=
+
+= 
+=
+ 
+Thay vào biểu thức A và thu gọn ta được 
+2 3
+6 3 15 3
+A =
+−
++
+ 
+11 3
+A =
+ 
+Đáp án: 11 3 .    
+Câu 2. Cho tam giác ABC vuông tại A, đường cao AH . Biết 
+4 cm
+BH =
+ và 
+9 cm
+CH =
+. 
+Tính độ dài đường cao AH .    
+Lời giải.  
+Áp dụng hệ thức lượng về đường cao trong tam giác vuông ta được: 
+2
+4 9
+36
+AH = =
+ 
+36
+6 cm
+AH =
+=
+ 
+Đáp án: 6 cm. 
+Phần IV. Tự luận 
+Câu 1. Giải hệ phương trình sau: 
+a) 2
+3
+2
+5
+2
+6
+x
+y
+x
+y
++
+= −
+
++
+=
+
+ 
+ 
+ 
+ 
+b) 
+
+
+
+
+3
+7
+4
+3
+4
+2
+7
+0.
+x
+y
+x
+y
+
+
+
+
+
+ 
+Lời giải.  
+a) 2
+3
+2
+5
+2
+6
+x
+y
+x
+y
++
+= −
+
+
++
+=
+
+    
+Nhân phương trình thứ nhất với 2 và phương trình thứ hai với 3: 4
+6
+4
+15
+6
+18
+x
+y
+x
+y
++
+= −
+
+
++
+=
+
+ 
+Trừ vế theo vế hai phương trình, ta được:(15
+6 )
+(4
+6 )
+18 ( 4)
+x
+y
+x
+y
++
+−
++
+=
+−−
+ 
+11
+22
+x =
+ 
+
+
+--- TRANG 51 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+2
+x = 
+Thay 
+2
+x =
+ vào phương trình 2
+3
+2
+x
+y
++
+= − ta được 
+2(2)
+3
+2
+4
+3
+2
+3
+6
+2
+y
+y
+y
+y
++
+= −
+
++
+= −
+
+= −
+
+= −
+ 
+Vậy hệ phương trình có nghiệm duy nhất là ( ; )
+(2; 2)
+x y =
+−
+. 
+b) 3(
+7)
+4(
+3)
+4
+2
+7
+0
+x
+y
+x
+y
++
+=
++
+
+
+−
++
+=
+
+    
+Thu gọn phương trình thứ nhất: 3
+21
+4
+12
+3
+4
+9
+x
+y
+x
+y
++
+=
++
+
+−
+= − 
+Ta có hệ phương trình: 3
+4
+9
+4
+2
+7
+x
+y
+x
+y
+−
+= −
+
+
+−
+= −
+
+ 
+Nhân phương trình thứ hai với 2 : 3
+4
+9
+8
+4
+14
+x
+y
+x
+y
+−
+= −
+
+
+−
+= −
+
+ 
+Trừ vế theo vế hai phương trình, ta được: (8
+4 )
+(3
+4 )
+14
+( 9)
+x
+y
+x
+y
+−
+−
+−
+= −
+−−
+ 
+5
+5
+1
+x
+x
+= −
+
+= − 
+Thay 
+1
+x = − vào phương trình 3
+4
+9
+x
+y
+−
+= −: 
+3( 1)
+4
+9
+3
+4
+9
+4
+6
+3
+2
+y
+y
+y
+y
+−
+−
+= −
+−−
+= −
+−
+= −
+
+=
+ 
+Vậy hệ phương trình có nghiệm duy nhất là 
+3
+( ; )
+1; 2
+x y
+
+
+= −
+
+
+
+
+. 
+ 
+ 
+
+
+--- TRANG 52 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 2. Giải các phương trình sau: 
+a) 2(x
+1)
+3
+5
+3(x
+2)
+−
+−
+=
+−
++
+ 
+ 
+b) 
+x
+4
+1
+x
+2
+x
+2
++ =
+−
+−
+ 
+Lời giải. 
+a) 2(
+1)
+3
+5 3(
+2)
+x
+x
+−
+−= −
++
+    
+2
+2 3
+5 3
+6
+x
+x
+−−= −
+− 
+2
+5
+3
+1
+x
+x
+−= −
+− 
+2
+3
+5 1
+x
+x
++
+= − 
+5
+4
+x =
+4
+5
+x =
+ 
+Vậy 
+4
+5
+x =
+. 
+b) 
+4
+1
+2
+2
+x
+x
+x
++ =
+−
+−
+    
+Điều kiện xác định: 
+2
+x 
+. 
+Quy đồng mẫu thức và khử mẫu, ta được:
+(
+2)
+4
+x
+x
++
+−
+= 
+2
+2
+4
+x−
+= 
+2
+6
+x = 
+3
+x = (thỏa mãn điều kiện). 
+Vậy 
+3
+x = . 
+Câu 3. Trong một trận chiến đấu, một máy bay của đối phương bay ở độ cao 1800 m. Khẩu 
+pháo cao xạ ngắm chiếc máy bay đó dưới một góc 35 so với phương nằm ngang. Tìm 
+khoảng cách từ pháo cao xạ đến máy bay (làm tròn đến mét). 
+Lời giải 
+Gọi tam giác vuông biểu diễn tình huống là tam giác vuông tại chân đường vuông góc hạ 
+từ máy bay xuống mặt đất. 
+Theo đề bài, độ cao của máy bay là 1800 m, góc ngắm từ pháo cao xạ so với phương nằm 
+ngang là 35.    
+
+
+--- TRANG 53 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Xét tam giác vuông ứng với bài toán, ta có liên hệ giữa độ cao (cạnh đối diện góc 35) và 
+khoảng cách từ pháo cao xạ đến máy bay (cạnh huyền): 
+Ðô cao
+1800
+sin35
+Khoang cách
+Khoang cách
+=
+=
+ 
+Suy ra khoảng cách từ pháo cao xạ đến máy bay là: 
+1800
+Khoang cách
+3138,2 (m)
+sin35
+=
+
+ 
+Làm tròn kết quả đến hàng đơn vị (mét), khoảng cách là 3138 m. 
+Câu 4.  Cho , 
+x y là hai số thực thỏa mãn điều kiện 
+2
+2
+2
+2
+7
+7
+10
+0.
++
++
++
++
++
+=
+x
+y
+xy
+x
+y
+ Tìm giá 
+trị lớn nhất và giá trị nhỏ nhất của biểu thức 
+2
+2
+3.
+6
++
+−
+=
++
++
+x
+y
+P
+x
+y
+ 
+Lời giải. 
+Từ phương trình giả thiết, nhóm các hạng tử để xuất hiện tổng (
+)
+x
+y
++
+: 
+2
+2
+(
+)
+7(
+) 10
+0
+x
+y
+y
+x
+y
++
++
++
++
++
+= 
+2
+2
+(
+)
+7(
+) 10
+x
+y
+x
+y
+y
++
++
++
++
+= −
+ 
+Vì 
+2
+0
+y
+−
+ với mọi số thực y , ta có bất đẳng thức: 
+2
+(
+)
+7(
+) 10
+0
+x
+y
+x
+y
++
++
++
++
+ 
+Phân tích thành nhân tử: (
+2)(
+5)
+0
+x
+y
+x
+y
++
++
++
++
+ 
+Từ đây, ta tìm được khoảng giá trị của tổng x
+y
++
+: 5
+2
+x
+y
+−
++
+− 
+Đặt t
+x
+y
+=
++
+, với 5
+2
+t
+−−.  
+Biểu thức P được viết lại thành: 
+2
+3
+2(
+6) 15
+15
+2
+6
+6
+6
+t
+t
+P
+t
+t
+t
+−
++
+−
+=
+=
+=
+−
++
++
++
+ 
+Xét biến thiên của biểu thức theo đoạn của t : 
+Vì 5
+2
+t
+−−, nên cộng thêm 6 vào các vế: 1
+6
+4
+t
++
+ 
+1
+1
+1
+4
+6
+t
+
+
++
+ 
+
+
+--- TRANG 54 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+15
+15
+15
+6
+4
+t
+−
+−
+−
++
+ 
+Cộng thêm 2 vào các vế: 
+15
+15
+2 15
+2
+2
+6
+4
+t
+−
+
+−
+
+−
++
+ 
+7
+13
+4
+P
+−
+
+−
+ 
+Giá trị nhỏ nhất của P bằng 13
+−
+ (đạt được khi 
+5
+t = −, tức 
+5
+x
+y
++
+= −). 
+Giá trị lớn nhất của P bằng 
+7
+4
+−
+ (đạt được khi 
+2
+t = −, tức 
+2
+x
+y
++
+= −). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

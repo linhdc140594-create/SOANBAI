@@ -1,0 +1,118 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9
+	Cho $a>0$ và $a \ne 4$. Rút gọn biểu thức $P = \left(\frac{1}{2-\sqrt{a}} + \frac{1}{2\sqrt{a}-a}\right) : \frac{\sqrt{a}+1}{2-\sqrt{a}}$
+	\loigiai{
+		Điều kiện: $a>0, a \ne 4$.
+		Ta có $2\sqrt{a}-a = \sqrt{a}(2-\sqrt{a})$.
+		\begin{align*}
+			P &= \left(\frac{1}{2-\sqrt{a}} + \frac{1}{\sqrt{a}(2-\sqrt{a})}\right) : \frac{\sqrt{a}+1}{2-\sqrt{a}} \\
+			&= \left(\frac{\sqrt{a} + 1}{\sqrt{a}(2-\sqrt{a})}\right) \cdot \frac{2-\sqrt{a}}{\sqrt{a}+1} \\
+			&= \frac{(\sqrt{a} + 1)(2-\sqrt{a})}{\sqrt{a}(2-\sqrt{a})(\sqrt{a}+1)} \\
+			&= \frac{1}{\sqrt{a}}
+		\end{align*}
+		Vậy, với $a>0, a \ne 4$ thì $P = \frac{1}{\sqrt{a}}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-8x-10=0$. Không giải phương trình, tính giá trị của biểu thức $B=x_1^2+x_2^2+3x_1x_2+1$
+	\loigiai{
+		Phương trình đã cho là $x^2-8x-10=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = - \frac{-8}{1} = 8 \\ x_1 x_2 = \frac{-10}{1} = -10 \end{cases} $
+		Ta biến đổi biểu thức B:
+		\begin{align*}
+			B &= x_1^2+x_2^2+3x_1x_2+1 \\
+			&= (x_1+x_2)^2 - 2x_1x_2 + 3x_1x_2 + 1 \\
+			&= (x_1+x_2)^2 + x_1x_2 + 1
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức B:
+		\begin{align*}
+			B &= (8)^2 + (-10) + 1 \\
+			&= 64 - 10 + 1 \\
+			&= 54 + 1 \\
+			&= 55
+		\end{align*}
+		Vậy, giá trị của biểu thức $B = 55$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Giải hệ phương trình $ \begin{cases} 2x-y=1 \\ 4x+y=5 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 2x-y=1 \quad &(1) \\ 4x+y=5 \quad &(2) \end{cases} $
+		Cộng vế theo vế của phương trình (1) và (2), ta được:
+		\begin{align*}
+			(2x-y) + (4x+y) &= 1+5 \\
+			2x - y + 4x + y &= 6 \\
+			6x &= 6 \\
+			x &= 1
+		\end{align*}
+		Thay $x=1$ vào phương trình (2):
+		\begin{align*}
+			4.(1) + y &= 5 \\
+			4 + y &= 5 \\
+			y &= 5 - 4 \\
+			y &= 1
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (1;1)$.
+	}
+\end{ex}
+\begin{ex} % Câu 12a - Xác suất
+	Một hộp chứa 40 thẻ cùng loại, mỗi thẻ được đánh một số lần lượt từ 1 đến 40. Rút ngẫu nhiên một thẻ trong hộp đó (mỗi thẻ có xác suất như nhau để được chọn). Tính xác suất của biến cố: “Số ghi trên thẻ rút được là bội số của 5”.
+	\loigiai{
+		Không gian mẫu $\Omega$ là tập hợp các số từ 1 đến 40.
+		Số phần tử của không gian mẫu là $n(\Omega) = 40$.
+		Gọi A là biến cố “Số ghi trên thẻ rút được là bội số của 5”.
+		Các bội số của 5 từ 1 đến 40 là: $5, 10, 15, 20, 25, 30, 35, 40$.
+		Các phần tử của biến cố A là $A = \{5; 10; 15; 20; 25; 30; 35; 40\}$.
+		Số phần tử của biến cố A là $n(A) = 8$.
+		Xác suất của biến cố A là:
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{8}{40} = \frac{1}{5}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 12b - Bài toán lập phương trình
+	Một đội xe nhận vận chuyển 72 tấn hàng nhưng khi sắp khởi hành thì có 3 xe bị hỏng, do đó mỗi xe phải chở nhiều hơn 2 tấn so với dự định. Hỏi lúc đầu đội xe có bao nhiêu chiếc, biết khối lượng hàng mỗi xe phải chở là như nhau.
+	\loigiai{
+		Gọi $x$ (chiếc) là số xe lúc đầu của đội.
+		Điều kiện: $x$ là số nguyên dương, $x > 3$.
+		Số hàng mỗi xe dự định chở là: $\frac{72}{x}$ (tấn/xe).
+		Số xe thực tế tham gia vận chuyển là: $x-3$ (chiếc).
+		Số hàng mỗi xe thực tế phải chở là: $\frac{72}{x-3}$ (tấn/xe).
+		Theo đề bài, mỗi xe thực tế phải chở nhiều hơn 2 tấn so với dự định, nên ta có phương trình:
+		$\frac{72}{x-3} - \frac{72}{x} = 2$
+		Nhân cả hai vế của phương trình với $x(x-3)$ để khử mẫu (với $x \ne 0, x \ne 3$):
+		\begin{align*}
+			72x - 72(x-3) &= 2x(x-3) \\
+			72x - 72x + 216 &= 2x^2 - 6x \\
+			216 &= 2x^2 - 6x \\
+			2x^2 - 6x - 216 &= 0 \\
+			x^2 - 3x - 108 &= 0
+		\end{align*}
+		Giải phương trình bậc hai $x^2 - 3x - 108 = 0$:
+		$\Delta = (-3)^2 - 4 \cdot 1 \cdot (-108) = 9 + 432 = 441$
+		$\sqrt{\Delta} = \sqrt{441} = 21$
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-(-3) + 21}{2 \cdot 1} = \frac{3 + 21}{2} = \frac{24}{2} = 12$ (Thỏa mãn điều kiện $x>3$)
+		$x_2 = \frac{-(-3) - 21}{2 \cdot 1} = \frac{3 - 21}{2} = \frac{-18}{2} = -9$ (Không thỏa mãn điều kiện $x>3$)
+		Vậy, lúc đầu đội xe có 12 chiếc.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho tam giác ABC nhọn nội tiếp đường tròn $(O)$. Kẻ đường kính AK, kẻ CD vuông góc với AB và CE vuông góc với AK ($D \in AB, E \in AK$).
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác ADEC là tứ giác nội tiếp đường tròn.
+		\item Gọi M là trung điểm của BC. Chứng minh hai tam giác ADC và OMC đồng dạng và 3 điểm D, M, E thẳng hàng.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	Cho $x, y$ là các số thực không âm và thỏa mãn điều kiện: $x^2+y^2=16$. Tìm giá trị lớn nhất của biểu thức: $M=\frac{3xy}{x+y+4}$
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

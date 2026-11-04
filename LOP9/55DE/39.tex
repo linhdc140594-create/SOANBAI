@@ -1,0 +1,152 @@
+
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9 - Hệ phương trình
+	Giải hệ phương trình: $ \begin{cases} 2x-y=4 \\ x+y=5 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 2x-y=4 \quad &(1) \\ x+y=5 \quad &(2) \end{cases} $
+		Cộng vế theo vế của phương trình (1) và (2), ta được:
+		\begin{align*}
+			(2x-y) + (x+y) &= 4+5 \\
+			2x - y + x + y &= 9 \\
+			3x &= 9 \\
+			x &= 3
+		\end{align*}
+		Thay $x=3$ vào phương trình (2):
+		\begin{align*}
+			3 + y &= 5 \\
+			y &= 5 - 3 \\
+			y &= 2
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (3;2)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 9 - Rút gọn biểu thức
+	Rút gọn biểu thức $A = \left(\frac{15-\sqrt{x}}{x-25} + \frac{2}{\sqrt{x}+5}\right) : \frac{\sqrt{x}+1}{\sqrt{x}-5}$ với $x \ge 0$ và $x \ne 25$.
+	\loigiai{
+		Điều kiện: $x \ge 0, x \ne 25$.
+		Ta có $x-25 = (\sqrt{x}-5)(\sqrt{x}+5)$.
+		\begin{align*}
+			A &= \left(\frac{15-\sqrt{x}}{(\sqrt{x}-5)(\sqrt{x}+5)} + \frac{2(\sqrt{x}-5)}{(\sqrt{x}+5)(\sqrt{x}-5)}\right) : \frac{\sqrt{x}+1}{\sqrt{x}-5} \\
+			&= \left(\frac{15-\sqrt{x} + 2\sqrt{x}-10}{(\sqrt{x}-5)(\sqrt{x}+5)}\right) \cdot \frac{\sqrt{x}-5}{\sqrt{x}+1} \\
+			&= \frac{\sqrt{x}+5}{(\sqrt{x}-5)(\sqrt{x}+5)} \cdot \frac{\sqrt{x}-5}{\sqrt{x}+1} \\
+			&= \frac{1}{\sqrt{x}-5} \cdot \frac{\sqrt{x}-5}{\sqrt{x}+1} \\
+			&= \frac{1}{\sqrt{x}+1}
+		\end{align*}
+		Vậy, với $x \ge 0, x \ne 25$ thì $A = \frac{1}{\sqrt{x}+1}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Cho phương trình: $x^2+3x-10=0$ có 2 nghiệm $x_1, x_2$. Tính giá trị biểu thức $A=\frac{x_1+2}{x_2}+\frac{x_2+2}{x_1}$.
+	\loigiai{
+		Phương trình đã cho là $x^2+3x-10=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = -\frac{3}{1} = -3 \\ x_1 x_2 = \frac{-10}{1} = -10 \end{cases} $
+		Ta biến đổi biểu thức A:
+		\begin{align*}
+			A &= \frac{x_1+2}{x_2}+\frac{x_2+2}{x_1} \\
+			&= \frac{x_1(x_1+2) + x_2(x_2+2)}{x_1x_2} \\
+			&= \frac{x_1^2+2x_1 + x_2^2+2x_2}{x_1x_2} \\
+			&= \frac{(x_1^2+x_2^2) + 2(x_1+x_2)}{x_1x_2} \\
+			&= \frac{(x_1+x_2)^2 - 2x_1x_2 + 2(x_1+x_2)}{x_1x_2}
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức A:
+		\begin{align*}
+			A &= \frac{(-3)^2 - 2(-10) + 2(-3)}{-10} \\
+			&= \frac{9 + 20 - 6}{-10} \\
+			&= \frac{29 - 6}{-10} \\
+			&= \frac{23}{-10} \\
+			&= -\frac{23}{10}
+		\end{align*}
+		Vậy, giá trị của biểu thức $A = -\frac{23}{10}$.
+	}
+\end{ex}
+\begin{ex} % Câu 11a - Xác suất
+	Trong túi có 6 quả bóng bàn kích thước và chất liệu như nhau gồm 2 quả màu đỏ, 2 quả màu trắng, 2 quả màu xanh. Không nhìn vào túi mà lấy ra 2 quả bóng. Tính xác suất của biến cố A lấy được ít nhất một quả bóng màu đỏ.
+	\loigiai{
+		Kí hiệu các quả bóng: Đỏ (D1, D2), Trắng (T1, T2), Xanh (X1, X2).
+		Tổng số quả bóng là 6.
+		Các cặp 2 quả bóng có thể lấy ra (không gian mẫu $\Omega$):
+		\begin{itemize}
+			\item (D1, D2)
+			\item (D1, T1), (D1, T2), (D1, X1), (D1, X2)
+			\item (D2, T1), (D2, T2), (D2, X1), (D2, X2)
+			\item (T1, T2)
+			\item (T1, X1), (T1, X2)
+			\item (T2, X1), (T2, X2)
+			\item (X1, X2)
+		\end{itemize}
+		Tổng số cách chọn 2 quả bóng từ 6 quả là 15 cách. Vậy $n(\Omega) = 15$.
+		
+		Biến cố A: "lấy được ít nhất một quả bóng màu đỏ".
+		Các trường hợp thuận lợi cho biến cố A (có ít nhất một quả bóng đỏ):
+		\begin{itemize}
+			\item Lấy được 2 quả bóng đỏ: (D1, D2) - có 1 cách.
+			\item Lấy được 1 quả bóng đỏ và 1 quả bóng màu khác:
+			\begin{itemize}
+				\item Đỏ và Trắng: (D1, T1), (D1, T2), (D2, T1), (D2, T2) - có 4 cách.
+				\item Đỏ và Xanh: (D1, X1), (D1, X2), (D2, X1), (D2, X2) - có 4 cách.
+			\end{itemize}
+		\end{itemize}
+		Tổng số cách lấy được ít nhất một quả bóng màu đỏ là $1 + 4 + 4 = 9$ cách.
+		Vậy, số phần tử của biến cố A là $n(A) = 9$.
+		
+		Xác suất của biến cố A là:
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{9}{15} = \frac{3}{5}$.
+		
+		(Hoặc sử dụng biến cố đối $\bar{A}$: "không lấy được quả bóng màu đỏ nào", tức là cả 2 quả lấy ra đều không phải màu đỏ. Các quả không đỏ là T1, T2, X1, X2.
+		Các cặp không có bóng đỏ: (T1,T2), (T1,X1), (T1,X2), (T2,X1), (T2,X2), (X1,X2) - có 6 cách.
+		$n(\bar{A}) = 6$.
+		$P(\bar{A}) = \frac{6}{15} = \frac{2}{5}$.
+		$P(A) = 1 - P(\bar{A}) = 1 - \frac{2}{5} = \frac{3}{5}$.)
+	}
+\end{ex}
+
+\begin{ex} % Câu 11b - Lãi suất ngân hàng
+	Bác Minh gửi 30 triệu đồng vào một ngân hàng theo kì hạn 1 năm , đến cuối năm thứ hai đến rút tiền thì nhận được số tiền là 33,708 triệu đồng . Hỏi lãi suất ngân hàng mà bác Minh gửi là bao nhiêu ? biết rằng , bác Minh không rút tiền lãi và tiền lãi được cộng vào tiền gốc để tính lãi cho kì hạn tiếp theo .
+	\loigiai{
+		Gọi $P_0$ là số tiền gửi ban đầu ($P_0 = 30$ triệu đồng).
+		Gọi $x$ là lãi suất hàng năm của ngân hàng (dưới dạng thập phân).
+		Gọi $P_n$ là số tiền nhận được sau $n$ năm.
+		Công thức tính lãi kép là: $P_n = P_0 (1+x)^n$.
+		
+		Sau 1 năm, số tiền bác Minh có là: $P_1 = P_0(1+x) = 30(1+x)$.
+		Tiền lãi của năm thứ nhất được cộng vào gốc để tính lãi cho năm thứ hai.
+		Sau 2 năm, số tiền bác Minh nhận được là: $P_2 = P_1(1+x) = P_0(1+x)(1+x) = P_0(1+x)^2$.
+		Theo đề bài, $P_2 = 33,708$ triệu đồng.
+		Ta có phương trình:
+		\begin{align*}
+			30(1+x)^2 &= 33,708 \\
+			(1+x)^2 &= \frac{33,708}{30} \\
+			(1+x)^2 &= 1,1236
+		\end{align*}
+		Vì $1+x$ phải dương (do $x$ là lãi suất), ta lấy căn bậc hai hai vế:
+		\begin{align*}
+			1+x &= \sqrt{1,1236} \\
+			1+x &= 1,06
+		\end{align*}
+		(Lưu ý: $\sqrt{1,1236} = 1,06$ vì $106^2 = 11236$)
+		\begin{align*}
+			x &= 1,06 - 1 \\
+			x &= 0,06
+		\end{align*}
+		Vậy, lãi suất ngân hàng là $0,06 \times 100\% = 6\%$ một năm.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Cho $\triangle ABC$ có 3 góc nhọn và đường cao $BE$. Gọi $H, K$ lần lượt là chân đường vuông góc kẻ từ điểm $E$ đến $AB, BC$.
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác $BHEK$ nội tiếp;
+		\item Chứng minh: $BH \cdot BA = BK \cdot BC$; Gọi $F$ là chân đường vuông góc kẻ từ điểm $C$ đến đường thẳng $AB$, $I$ là trung điểm của đoạn thẳng $EF$. Chứng minh rằng $H,I,K$ thẳng hàng.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} Người ta muốn làm một vườn rau có dạng hình chữ nhật $ABCD$ có diện tích $640m^2$, để tạo thêm cảnh quan xung quanh đẹp hơn, người ta mở rộng thêm bốn phần diện tích để trồng hoa, tạo thành một đường tròn đi như hình vẽ, biết tâm hình tròn trùng với giao điểm hai đường chéo của hình chữ nhật. Khi đó chọn kích thước cạnh $ABCD$ như thế nào để diện tích của bốn phần đất trồng hoa nhỏ nhất?
+
+\end{ex}
+
+\setcounterref{ex}{0}

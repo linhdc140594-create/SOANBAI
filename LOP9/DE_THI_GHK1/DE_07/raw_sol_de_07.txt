@@ -1,0 +1,1325 @@
+--- TRANG 101 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 7  
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Phương trình nào sau đây là phương trình bậc nhất hai ẩn?    
+A. 
+0
+x
+y
+−−
+= .    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2
+0
+x
+y
+−
++
+= .    
+C. 1
+1
+1
+2
+x
+y
++
+=
+.    
+ 
+ 
+ 
+ 
+ 
+D. 
+1
+2
+x
+xy
+y
++
+=
+.    
+Lời giải: Phương trình bậc nhất hai ẩn có dạng tổng quát là ax
+by
+c
++
+= , trong đó các hệ số 
+,a b không đồng thời bằng 0 và các ẩn có số mũ bằng 1.  
+Phương trình 
+0
+x
+y
+−−
+= thỏa mãn dạng này.    
+Đáp án đúng: A.    
+Câu 2. Phương trình 0
+5
+10
+x
+y
++
+=
+ có nghiệm tổng quát là    
+A. ( ;2)
+x
+ với x.    
+ 
+ 
+ 
+ 
+B. (2; )
+y với y.    
+C. ( ;0)
+x
+ với x.    
+ 
+ 
+ 
+ 
+D. (0; )
+y với y.    
+Lời giải: Rút gọn phương trình ta được 5
+10.
+y =
+ Suy ra 
+2
+y = . 
+Vì biến x không bị ràng buộc nên x nhận mọi giá trị thực ( x).  
+Nghiệm tổng quát của phương trình là ( ;2)
+x
+ với x.    
+Đáp án đúng: A.    
+Câu 3. Cặp số nào sau đây là nghiệm của hệ phương trình 
+2
+3
+1
+x
+y
+y
++
+=
+
+
+=
+
+    
+A. (2;1) .    
+ 
+ 
+B. (2; 1)
+−
+.     
+ 
+C. (1; 1)
+−
+.     
+         D. (1;1) .    
+
+
+--- TRANG 102 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Thay 
+1
+y = vào phương trình thứ nhất, ta được  
+2(1)
+3
+1
+x
+x
++
+=
+=
+ 
+Hệ phương trình có nghiệm là (1;1) .    
+Đáp án đúng: D.    
+Câu 4. Trong các hệ hai phương trình bậc nhất hai ẩn sau, hệ phương trình nào nhận cặp 
+số ( 1;3)
+−
+ làm nghiệm?    
+A. 2
+1
+2
+x
+y
+x
+y
++
+=
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+8
+5
+x
+y
+x
+y
++
+=
+
+−+
+=
+
+    
+C. 
+2
+3
+6
+x
+y
+x
+y
++
+=
+
+
+−
+= −
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+5
+4
+2
+2
+x
+y
+x
+y
+−
++
+=
+
+
++
+=
+
+    
+Lời giải: Thay 
+1
+x = − và 
+3
+y = vào hệ ở phương án C, ta có 1 3
+2
+−+ = và 3( 1)
+3
+6
+−
+−= −, thỏa 
+mãn cả hai phương trình.    
+Đáp án đúng: C.    
+Câu 5. Biết rằng hệ phương trình 5
+8
+3
+1
+x
+y
+x
+ay
+−
+=
+
+
+−
+=
+
+ có nghiệm (2;2). Giá trị của a là:    
+A. 
+1
+2
+a = −
+.     
+ 
+B. 
+5
+2
+a =
+.    
+ 
+ 
+C. 
+1
+a = .    
+ 
+      D. 
+2
+a = −.    
+Lời giải: Thay 
+2,
+2
+x
+y
+=
+=
+ vào phương trình thứ hai ta được  
+3(2)
+(2)
+1
+6
+2
+1
+2
+5
+5
+2
+a
+a
+a
+a
+−
+=
+−
+=
+=
+=
+. 
+Đáp án đúng: B.  
+
+
+--- TRANG 103 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 6. Phương trình (
+7)(
+2)
+0
+x
+x
+−
++
+= có nghiệm là:   A. 
+7;
+2
+x
+x
+=
+=
+.   B. 
+7;
+2
+x
+x
+=
+= −.   C. 
+7;
+2
+x
+x
+= −
+=
+.   D. 
+7;
+2
+x
+x
+= −
+= −.    
+Lời giải: Phương trình tích tương đương với 
+7
+0
+x −
+= hoặc 
+2
+0
+x +
+= .    
+Khi đó 
+7
+x =
+ hoặc 
+2
+x = −. 
+Đáp án đúng: B.    
+Câu 7. Cho tam giác MNP vuông tại N . Hệ thức nào sau đây là đúng?    
+ 
+A. 
+sin
+MN
+MP
+P
+=
+
+.    
+ 
+ 
+ 
+ 
+B. 
+cos
+MN
+MP
+P
+=
+
+.    
+C. 
+tan
+MN
+MP
+P
+=
+
+.    
+ 
+ 
+ 
+ 
+D. 
+cot
+MN
+MP
+P
+=
+
+.    
+Lời giải: Trong tam giác vuông MNP vuông tại N , cạnh đối của góc P là MN và cạnh 
+huyền là MP , do đó sin
+sin
+MN
+P
+hay MN
+MP
+P
+MP
+=
+=
+
+.   Đáp án đúng: A.    
+Câu 8. Số đo các cung AnB và AmB trong hình trên lần lượt là:    
+ 
+A. 120 và 300.     
+ 
+ 
+ 
+ 
+B. 60 và 60.    
+C. 60 và 300.    
+ 
+ 
+ 
+ 
+ 
+D. 60 và 120.    
+Lời giải: Góc ở tâm 
+60
+AOB
+
+=
+ chắn cung nhỏ AnB nên số đo cung nhỏ AnB bằng 60.  
+Số đo cung lớn AmB bằng 360
+60
+300
+
+
+
+−
+=
+.    
+
+
+--- TRANG 104 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Đáp án đúng: C.    
+Câu 9. Một cột đèn có bóng trên mặt đất dài 7,2 m . Các tia nắng mặt trời tạo với mặt đất 
+một góc xấp xỉ 42. Tính chiều cao xấp xỉ của cột đèn?    
+ 
+A. 6,48 m.     
+ 
+B. 8 m.    
+ 
+ 
+C. 4,82 m.     
+    D. 5,35 m .    
+Lời giải: Chiều cao cột đèn được tính bằng 7,2 tan42
+6,48 m
+
+
+
+.    
+Đáp án đúng: A.    
+Câu 10. Kết quả gọn của biểu thức 3
+3
+3
+8
+27
+64
++
+−
++
+−
+ là: 
+A. 5.    
+ 
+ 
+B. 5
+−.    
+ 
+ 
+C. 9.    
+ 
+ 
+D. 9
+−.    
+Lời giải: Ta có 3 8
+2
+= , 3 27
+3
+−
+= −, 3 64
+4
+−
+= −.  
+Thay vào biểu thức ta được 2
+( 3)
+( 4)
+5
++ −
++ −
+= −.    
+Đáp án đúng: B.    
+Câu 11. Cho tam giác MNE vuông tại M , đường cao MH . Hệ thức nào sau đây là đúng?    
+A. 
+2
+2
+2
+1
+1
+1
+MH
+MN
+ME
+=
++
+.     
+ 
+ 
+ 
+B. 
+2
+2
+2
+MH
+MN
+ME
+=
++
+.    
+C. 
+1
+1
+1
+MH
+MN
+ME
+=
++
+.    
+ 
+ 
+ 
+ 
+D. 
+2
+MH
+NE HE
+=
+
+.    
+Lời giải: Theo hệ thức lượng trong tam giác vuông, nghịch đảo bình phương đường cao 
+ứng với cạnh huyền bằng tổng nghịch đảo bình phương hai cạnh góc vuông.    
+
+
+--- TRANG 105 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Đáp án đúng: A.    
+Câu 12. Cho ABC
+
+ vuông tại A, đường cao AH , có 
+12 cm,
+20 cm
+AB
+BC
+=
+=
+. Khi đó độ 
+dài 
+,
+BH CH lần lượt là:    
+A. 
+7,2 cm;
+11,8 cm
+BH
+CH
+=
+=
+.    
+B. 
+9,2 cm;
+10,8 cm
+BH
+CH
+=
+=
+.    
+C. 
+7,2 cm;
+12,8 cm
+BH
+CH
+=
+=
+.    
+D. 
+7,2 cm;
+12 cm
+BH
+CH
+=
+=
+.    
+Lời giải: Áp dụng hệ thức lượng ta được 
+2
+2
+12
+20
+7,2 cm
+AB
+BH BC
+BH
+BH
+=
+
+=
+
+=
+ 
+Suy ra 
+20 7,2
+12,8 cm
+CH
+BC
+BH
+=
+−
+=
+−
+=
+.    
+Đáp án đúng: C. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho bất đẳng thức a
+b
+. Xét tính Đúng/Sai của các khẳng định sau:    
+a) 
+4
+4
+a
+b
+−
+−.    
+b) 3
+3
+a
+b
+−
+−
+.    
+c) 2
+3
+2
+3
+a
+b
+−
++ −
++ .    
+d) 5
+1
+5
+2
+a
+b
+−
+−.   
+Lời giải: 
+a) Đúng. Cộng cả hai vế của bất đẳng thức a
+b
+ với 4
+− ta được 
+4
+4
+a
+b
+−
+−.    
+
+
+--- TRANG 106 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+b) Sai. Nhân cả hai vế của bất đẳng thức a
+b
+
+ với số âm 3
+− thì bất đẳng thức phải đổi 
+chiều, ta được 3
+3
+a
+b
+−
+−
+.    
+c) Đúng. Nhân cả hai vế của a
+b
+ với 2
+− ta được 2
+2
+a
+b
+−
+−
+, sau đó cộng thêm 3 vào hai 
+vế ta được 2
+3
+2
+3
+a
+b
+−
++ −
++ .    
+d) Đúng. Ta có a
+b
+ nên 5
+5
+a
+b
+
+. Mặt khác 1
+2
+−−, cộng vế theo vế hai bất đẳng thức này 
+ta được 5
+1
+5
+2
+a
+b
+−
+−.    
+Câu 2. Cho ABC
+
+ vuông tại A, đường cao AH . Biết 
+6 cm,
+10 cm
+AC
+BC
+=
+=
+. Xét tính 
+Đúng/Sai của các khẳng định sau:    
+a) 
+3
+sin
+5
+B =
+.    
+b) 
+3
+tan
+4
+C =
+.    
+c) 
+4,8 cm
+AH =
+.    
+d) Chu vi của ABH
+
+ bằng 14,4 cm.    
+Lời giải: 
+Áp dụng định lý Pythagore cho tam giác ABC vuông tại A, ta tính được cạnh 
+2
+2
+2
+2
+10
+6
+8 cm
+AB
+BC
+AC
+=
+−
+=
+−
+=
+.    
+a) Đúng. Tỉ số lượng giác 
+6
+3
+sin
+10
+5
+AC
+B
+BC
+=
+=
+=
+.    
+b) Sai. Tỉ số lượng giác 
+8
+4
+tan
+6
+3
+AB
+C
+AC
+=
+=
+=
+ chứ không phải 3
+4 .    
+c) Đúng. Áp dụng hệ thức lượng trong tam giác vuông ABC , ta có AH BC
+AB AC
+
+=
+
+, từ 
+đó 
+10
+8 6
+AH 
+= , tính được 
+4,8 cm
+AH =
+.    
+
+
+--- TRANG 107 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+d) Sai. Xét tam giác vuông AHB, ta tính được hình chiếu 
+2
+2
+8
+6,4 cm
+10
+AB
+BH
+BC
+=
+=
+=
+. Chu vi 
+của tam giác ABH bằng tổng các cạnh 
+8
+6,4
+4,8
+19,2 cm
+AB
+BH
+AH
++
++
+= +
++
+=
+ 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Trong các phương trình sau: 
+(1) 
+3
+2
+0
+x
+y
+−
+=
+. 
+(2) 2
+0
+x
+y
++
+= . 
+(3) 
+2
+2
+12
+x
+y
+−
+=
+. 
+(4) 
+2
+3
+0
+x
+y
+z
++
++
+= . 
+Phương trình bậc nhất hai ẩn là phương trình số mấy?    
+Lời giải: Phương trình (1) có chứa 
+3y nên không phải bậc nhất. 
+Phương trình (2) có dạng ax
+by
+c
++
+= với 2x và y mũ 1 nên là phương trình bậc nhất hai ẩn.  
+Phương trình (3) chứa ẩn bậc 2. 
+Phương trình (4) có 3 ẩn. 
+Đáp án: Số (2). 
+Câu 2. Cho tam giác ABC vuông tại A, biết 
+12 cm
+AB =
+, 
+9 cm
+AC =
+, 
+15 cm
+BC =
+. Tính số 
+đo góc B (làm tròn đến độ).    
+Lời giải: Xét tam giác ABC vuông tại A: 
+12
+4
+cos
+0,8
+15
+5
+AB
+B
+BC
+=
+=
+=
+=
+ 
+ˆ
+arccos(0,8)
+37
+B
+
+=
+
+. Đáp án: 37. 
+ 
+ 
+
+
+--- TRANG 108 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình và hệ phương trình sau: 
+a)(
+)(
+)
+4
+5
+3
+2
+0.
+x
+x
++
+−
+=
+           b)
+4
+3
+4 .
+(
+1)
+1
+x x
+x
+x
++
+=
+−
+−
+          c) 
+( )
+( )
+3
+4
+1
+2
+6
+8 2
+x
+y
+x
+y
+−
+=
+−
++
+= −
+
+ 
+Lời giải. 
+a) (4
+5)(3
+2)
+0
+x
+x
++
+−
+= 
+4
+5
+0
+x+ = hoặc 3
+2
+0
+x−
+=  
+5
+4
+x = −
+ hoặc 
+2
+3
+x =
+ 
+Vậy tập nghiệm của phương trình là 
+5 2
+;
+4 3
+S
+
+
+= −
+
+
+
+
+. 
+b) 
+4
+3
+4
+(
+1)
+1
+x x
+x
+x
++
+=
+−
+− 
+Điều kiện xác định: 
+0
+x 
+ và 
+1
+x . 
+Quy đồng mẫu thức chung (
+1)
+x x −
+ và khử mẫu, ta được: 
+4
+3(
+1)
+4
+x
+x
++
+−
+=
+ 
+4
+3
+3
+4
+x
+x
++
+−=
+ 
+3
+1
+4
+x
+x
++ =
+ 
+1
+x = 
+So sánh với điều kiện xác định, giá trị 
+1
+x = không thỏa mãn. 
+Vậy phương trình vô nghiệm. 
+c) 
+3
+4
+(1)
+2
+6
+8
+(2)
+x
+y
+x
+y
+−
+=
+
+−
++
+= −
+
+ 
+
+
+--- TRANG 109 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Nhân hai vế của phương trình (1) với 2 , ta được hệ phương trình: 2
+6
+8
+2
+6
+8
+x
+y
+x
+y
+−
+=
+
+−
++
+= −
+
+ 
+Cộng vế theo vế hai phương trình, ta được 0
+0
+0
+x
+y
++
+= (luôn đúng với mọi x, y). 
+Vậy hệ phương trình có vô số nghiệm với nghiệm tổng quát là 
+4
+( ;
+)
+3
+x
+x
+−
+ với x. 
+Câu 2. Người ta cho thêm 1 kg nước vào dung dịch A (của axit 
+)
+X thì được dung dịch B 
+có nồng độ axit là 20%. Sau đó lại cho thêm 1 kg axit X vào dung dịch B thì được dung 
+dịch C có nồng độ axit là 
+1
+33
+%
+3
+. Tính nồng độ axit của dung dịch 
+.
+A 
+Lời giải. 
+Gọi khối lượng dung dịch A là x (kg) và khối lượng axit là y (kg) với điều kiện 
+0
+x
+y
+
+.    
+Thêm 1 kg nước được dung dịch B có nồng độ 20%: 
+ 
+1 hay 
+5
+1
+1
+5
+y
+x
+y
+x
+=
+−
+= −
++
+    
+Thêm tiếp 1 kg axit vào dung dịch B được dung dịch C có nồng độ 
+1
+33 %
+3
+: 
+ 
+1
+1 hay 
+3
+1
+2
+3
+y
+x
+y
+x
++
+=
+−
+=
++
+    
+Ta lập được hệ phương trình: 
+5
+1
+3
+1
+x
+y
+x
+y
+−
+= −
+
+−
+=
+
+   
+Giải hệ phương trình tìm được 
+4
+x =
+ và 
+1
+y = (thỏa mãn điều kiện).    
+Nồng độ axit của dung dịch A ban đầu là: 1 100%
+25%
+4 
+=
+ 
+ 
+ 
+ 
+
+
+--- TRANG 110 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 3. Một cầu trượt trong công viên có độ dốc là 28 và có độ cao là 2,1m. Tính độ dài 
+của mặt cầu trượt. (Làm tròn đến chữ số thập phân thứ nhất). 
+ 
+Lời giải. Gọi độ dài mặt cầu trượt là l (m). 
+Xét tam giác vuông biểu diễn cầu trượt với độ cao là cạnh đối diện góc 28 (2,1 m) và mặt 
+cầu trượt là cạnh huyền (l ), ta có: 
+2,1
+sin28
+l
+=
+ 
+Tính độ dài mặt cầu trượt: 
+2,1
+2,1
+4,47 m
+sin28
+0,4695
+l
+
+=
+
+
+ 
+Làm tròn đến chữ số thập phân thứ nhất, độ dài mặt cầu trượt là khoảng 4,5 m. 
+Câu 4. Cho tam giác ABC vuông tại A. Chứng minh rằng 
+2
+2
+sin
+sin
+1
+B
+C
++
+= . 
+Lời giải. 
+Trong tam giác ABC vuông tại A, hai góc nhọn B và C phụ nhau, nên ta có 
+ˆ
+ˆ
+90
+B
+C
+
++
+=
+. 
+Theo tính chất tỉ số lượng giác của hai góc phụ nhau, ta có cos
+sin
+C
+B
+=
+ và sin
+cos
+C
+B
+=
+. 
+Biểu thức ở vế trái được biến đổi thành: 
+2
+2
+2
+2
+sin
+sin
+sin
+cos
+1
+B
+C
+B
+B
++
+=
++
+= 
+Biểu thức được chứng minh hoàn chỉnh. 
+ 
+ 
+ 
+ 
+ 

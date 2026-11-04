@@ -1,0 +1,101 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_04 (TRÍCH ĐỀ 4)
+\begin{ex}
+Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$). Ba đường cao $AI, BK, CL$ cắt nhau tại trực tâm $H$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh các tứ giác $BIHL$ và $CIHK$ nội tiếp đường tròn.
+    \item Chứng minh $\widehat{AKL} = \widehat{IKC}$ và suy ra $KB$ là tia phân giác của $\widehat{LKI}$.
+    \item \textbf{(Phân hóa 9+):} Chứng minh trực tâm $H$ là tâm của đường tròn nội tiếp tam giác trực tâm $IKL$.
+\end{enumerate}
+\loigiai{
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.15]
+    % Định nghĩa bán kính ngoại tiếp
+    \def\r{3.2}
+    
+    % Tọa độ các đỉnh
+    \coordinate (O) at (0,0);
+    \coordinate (A) at (105:\r);
+    \coordinate (B) at (-155:\r);
+    \coordinate (C) at (-25:\r);
+    
+    % Chân các đường cao
+    \coordinate (I) at ($(B)!(A)!(C)$); % A chiếu lên BC
+    \coordinate (K) at ($(A)!(B)!(C)$); % B chiếu lên AC
+    \coordinate (L) at ($(A)!(C)!(B)$); % C chiếu lên AB
+    
+    % Trực tâm H
+    \coordinate (H) at (intersection of A--I and C--L);
+    
+    % Vẽ tam giác lớn và các đường cao
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    \draw[thick, blue!85!black] (A) -- (I);
+    \draw[thick, blue!85!black] (B) -- (K);
+    \draw[thick, blue!85!black] (C) -- (L);
+    
+    % Vẽ tam giác trực tâm IKL (màu cam đỏ nổi bật)
+    \draw[thick, red!85!black] (I) -- (K) -- (L) -- cycle;
+    
+    % Ký hiệu góc vuông
+    \pic[draw, angle radius=2.5mm]{right angle = A--I--C};
+    \pic[draw, angle radius=2.5mm]{right angle = B--K--A};
+    \pic[draw, angle radius=2.5mm]{right angle = C--L--B};
+    
+    % Điểm
+    \fill (A) circle (1.5pt) node[above] {$A$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill[red] (I) circle (1.5pt) node[below] {$I$};
+    \fill[red] (K) circle (1.5pt) node[above right] {$K$};
+    \fill[red] (L) circle (1.5pt) node[above left] {$L$};
+    \fill[blue!90!black] (H) circle (1.6pt) node[below left=1pt] {$H$};
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item \textbf{Chứng minh các tứ giác $BIHL$ và $CIHK$ nội tiếp đường tròn:}
+    \begin{itemize}
+        \item Do $AI, BK, CL$ là các đường cao của $\triangle ABC$ nên $AI \perp BC, BK \perp AC, CL \perp AB$.
+        \item Xét tứ giác $BIHL$ có: $\widehat{HIB} = 90^\circ$ và $\widehat{HLB} = 90^\circ$.
+        Suy ra $\widehat{HIB} + \widehat{HLB} = 90^\circ + 90^\circ = 180^\circ$.
+        Do đó tứ giác $BIHL$ nội tiếp đường tròn đường kính $BH$.
+        \item Xét tứ giác $CIHK$ có: $\widehat{HIC} = 90^\circ$ và $\widehat{HKC} = 90^\circ$.
+        Suy ra $\widehat{HIC} + \widehat{HKC} = 90^\circ + 90^\circ = 180^\circ$.
+        Do đó tứ giác $CIHK$ nội tiếp đường tròn đường kính $CH$.
+    \end{itemize}
+
+    \item \textbf{Chứng minh $\widehat{AKL} = \widehat{IKC}$ và $KB$ là tia phân giác của $\widehat{LKI}$:}
+    \begin{itemize}
+        \item Xét tứ giác $AKHL$ có $\widehat{AKH} = 90^\circ$ và $\widehat{ALH} = 90^\circ \implies \widehat{AKH} + \widehat{ALH} = 180^\circ$.
+        Do đó tứ giác $AKHL$ nội tiếp đường tròn đường kính $AH$.
+        Suy ra $\widehat{AKL} = \widehat{AHL}$ (hai góc nội tiếp cùng chắn cung $AL$).
+        \item Trong tứ giác nội tiếp $CIHK$ (đường kính $CH$), ta có:
+        $\widehat{IKC} = \widehat{IHC}$ (hai góc nội tiếp cùng chắn cung $IC$).
+        \item Mà $\widehat{AHL} = \widehat{IHC}$ (hai góc đối đỉnh vì $AI$ và $CL$ cắt nhau tại $H$).
+        Từ đó suy ra: $\widehat{AKL} = \widehat{IKC}$.
+        \item Vì $BK \perp AC$ tại $K$ nên:
+        \[
+        \widehat{AKL} + \widehat{LKB} = \widehat{AKB} = 90^\circ \implies \widehat{LKB} = 90^\circ - \widehat{AKL}.
+        \]
+        \[
+        \widehat{IKC} + \widehat{IKB} = \widehat{BKC} = 90^\circ \implies \widehat{IKB} = 90^\circ - \widehat{IKC}.
+        \]
+        Do $\widehat{AKL} = \widehat{IKC}$ nên $\widehat{LKB} = \widehat{IKB}$.
+        Vậy $KB$ (cũng chính là tia $KH$) là tia phân giác trong của góc $\widehat{LKI}$.
+    \end{itemize}
+
+    \item \textbf{Chứng minh trực tâm $H$ là tâm đường tròn nội tiếp tam giác trực tâm $IKL$:}
+    \begin{itemize}
+        \item Theo chứng minh câu b, tia $KH$ là tia phân giác trong của góc $\widehat{LKI}$ của $\triangle IKL$.
+        \item Chứng minh hoàn toàn tương tự đối với đỉnh $I$:
+        Xét tứ giác nội tiếp $BIHL$ có $\widehat{BLI} = \widehat{BHI}$ và tứ giác $CIHK$ có $\widehat{CHI} = \widehat{CKI}$, kết hợp với các góc đối đỉnh và góc phụ, ta chứng minh được:
+        \[
+        \widehat{BI L} = \widehat{CIK} \implies \widehat{LIH} = \widehat{KIH}.
+        \]
+        Do đó $IH$ là tia phân giác trong của góc $\widehat{LI K}$ của $\triangle IKL$.
+        \item Tương tự, $LH$ cũng là tia phân giác trong của góc $\widehat{ILK}$ của $\triangle IKL$.
+        \item Trong tam giác trực tâm $IKL$, ba đường thẳng $KH, IH, LH$ là ba đường phân giác trong cùng đồng quy tại điểm $H$.
+        \item Vậy trực tâm $H$ chính là tâm của đường tròn nội tiếp tam giác trực tâm $IKL$ (đpcm).
+    \end{itemize}
+\end{enumerate}
+}
+\end{ex}

@@ -1,0 +1,187 @@
+import os
+import subprocess
+
+def create_tree_tex(tex_path):
+    tex_content = r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, top=0.9cm, bottom=0.9cm, left=0.9cm, right=0.9cm}
+\usepackage{tikz}
+\usetikzlibrary{calc, positioning, shapes.geometric, arrows.meta, shadows}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries\color{blue!85!black} SƠ ĐỒ TƯ DUY NGƯỢC HÌNH CÂY THÔNG (PINE-TREE MINDMAP)}\\[2mm]
+    {\large\bfseries\color{red!80!black} BẺ KHÓA Ý PHÂN HÓA 9+: CHỨNG MINH $M, N, P$ THẲNG HÀNG}\\[1.5mm]
+    {\small\color{gray!80!black}\textit{(Dữ liệu thuần công thức logic toán học $\bullet$ Trích xuất từ Đề 12 / Tuyển tập 55 Đề Vào Lớp 10)}}
+\end{center}
+
+\vspace{2mm}
+
+\begin{center}
+\begin{tikzpicture}[
+    x=1cm, y=1cm,
+    font=\small,
+    >=Stealth,
+    arr_main/.style={-{Stealth[length=4.5mm, width=3mm]}, line width=1.8pt, red!85!black},
+    arr_sub/.style={-{Stealth[length=4mm, width=2.6mm]}, line width=1.5pt, blue!75!black},
+    arr_root/.style={-{Stealth[length=4.2mm, width=2.8mm]}, line width=1.6pt, teal!85!black},
+    % Styles for nodes
+    target_node/.style={
+        rectangle, draw=red!85!black, fill=red!15, line width=1.5pt, rounded corners=3mm,
+        inner sep=7pt, align=center, text width=9.8cm, drop shadow={opacity=0.2}
+    },
+    step_node/.style={
+        rectangle, draw=blue!80!black, fill=blue!8, line width=1.1pt, rounded corners=2.5mm,
+        inner sep=6pt, align=center, text width=12.2cm, drop shadow={opacity=0.15}
+    },
+    aux_node/.style={
+        rectangle, draw=orange!90!black, fill=orange!12, line width=1.4pt, rounded corners=2.5mm,
+        inner sep=7pt, align=center, text width=15.2cm, drop shadow={opacity=0.16}
+    },
+    core_node/.style={
+        rectangle, draw=blue!85!black, fill=blue!10, line width=1.2pt, rounded corners=2.5mm,
+        inner sep=6pt, align=center, text width=11.5cm, drop shadow={opacity=0.15}
+    },
+    branch_node/.style={
+        rectangle, draw=purple!80!black, fill=purple!8, line width=1.2pt, rounded corners=2.5mm,
+        inner sep=6pt, align=center, text width=7.8cm, drop shadow={opacity=0.14}
+    },
+    sim_node/.style={
+        rectangle, draw=blue!85!black, fill=blue!8, line width=1.2pt, rounded corners=2.5mm,
+        inner sep=7pt, align=center, text width=17.2cm, drop shadow={opacity=0.16}
+    },
+    root_box/.style={
+        rectangle, draw=teal!90!black, fill=teal!12, line width=1.4pt, rounded corners=3mm,
+        inner sep=7pt, align=center, text width=8.5cm, drop shadow={opacity=0.18}
+    },
+    base_node/.style={
+        rectangle, draw=teal!95!black, fill=teal!22, line width=1.6pt, rounded corners=3.5mm,
+        inner sep=8pt, align=center, text width=18.0cm, drop shadow={opacity=0.22}
+    }
+]
+
+% ================= LEVEL 1: ĐỈNH CÂY THÔNG (ĐÍCH ĐẾN) =================
+\node[target_node] (N1) at (0, 0) {
+    \textbf{\Large\color{red!85!black} [ĐÍCH ĐẾN]:\ $M, N, P$ THẲNG HÀNG}
+};
+
+% ================= LEVEL 2: ĐẶT TRÊN TRUNG TRỰC =================
+\node[step_node] (N2) at (0, -2.1) {
+    $\boldsymbol{N \in PM} \quad \left( PM \text{ là đường trung trực của } EF \text{ do } \begin{cases} ME=MF=\frac{1}{2}BC \\ PE=PF=R_{(AEF)} \end{cases}\right)$
+};
+
+% ================= LEVEL 3: QUY VỀ TRUNG ĐIỂM =================
+\node[step_node] (N3) at (0, -4.2) {
+    $\boldsymbol{NE = NF} \iff \boldsymbol{N \text{ là trung điểm đoạn thẳng } EF}$
+};
+
+% ================= LEVEL 4: KẺ ĐƯỜNG PHỤ TẠO TAM GIÁC VUÔNG =================
+\node[aux_node] (N4) at (0, -6.4) {
+    \textbf{\color{orange!90!black} [KẺ ĐƯỜNG PHỤ]:}\quad $\boldsymbol{EG \perp AC \quad (G \in AC)}$\\[1.5mm]
+    $\triangle EGF \text{ vuông tại } G \text{ có trung tuyến } GN = \frac{1}{2}EF \iff \boldsymbol{\triangle NGF \text{ cân tại } N} \iff \boldsymbol{\widehat{NGF} = \widehat{NFG}}$
+};
+
+% ================= LEVEL 5: GÓC CHUNG ĐÍCH =================
+\node[core_node] (N5_center) at (0, -8.7) {
+    \textbf{Quy về so sánh góc chung:}\quad $\boldsymbol{\widehat{NGF} = \widehat{AIC}}$
+};
+
+% ================= LEVEL 5.5: TÁCH 2 CÀNH THÔNG SANG TRÁI VÀ PHẢI =================
+\node[branch_node] (N5_left) at (-5.0, -11.1) {
+    \textbf{\color{purple!90!black} [NHÁNH GÓC 1]:}\\[1mm]
+    $\boldsymbol{\widehat{NFG} = \widehat{AFE} = \widehat{ABC}}$\\[1mm]
+    \textit{(Tứ giác $BEFC$ nội tiếp)}
+};
+
+\node[branch_node] (N5_right) at (5.0, -11.1) {
+    \textbf{\color{purple!90!black} [NHÁNH GÓC 2]:}\\[1mm]
+    $\boldsymbol{\widehat{AIC} = \widehat{ABC}}$\\[1mm]
+    \textit{(Góc nội tiếp cùng chắn $\stackrel{\frown}{AC}$ của $(O)$)}
+};
+
+% ================= LEVEL 6: TAM GIÁC ĐỒNG DẠNG (THÂN DƯỚI CÂY THÔNG) =================
+\node[sim_node] (N6) at (0, -13.8) {
+    $\boldsymbol{\triangle CNG \sim \triangle CAI \text{ (c-g-c, góc } \widehat{C} \text{ chung)}} \iff \dfrac{CG}{CN} = \dfrac{CI}{CA} \iff \boldsymbol{CG \cdot CA = CN \cdot CI}$
+};
+
+% ================= LEVEL 7: HAI RỄ GỐC CÂY THÔNG =================
+\node[root_box] (N7_left) at (-4.7, -16.3) {
+    \textbf{\color{teal!90!black} [RỄ TRÁI -- HỆ THỨC LƯỢNG]:}\\[1.5mm]
+    $\triangle AEC \text{ vuông tại } E, \text{ đường cao } EG$\\[1mm]
+    $\boldsymbol{\implies CG \cdot CA = CE^2}$
+};
+
+\node[root_box] (N7_right) at (4.7, -16.3) {
+    \textbf{\color{teal!90!black} [RỄ PHẢI -- KẾT QUẢ CÂU B1]:}\\[1.5mm]
+    $\triangle CEN \sim \triangle CIE \text{ (g-g)}$\\[1mm]
+    $\boldsymbol{\implies CN \cdot CI = CE^2}$
+};
+
+% ================= LEVEL 8: BỆ ĐỠ ĐIỂM KHỞI PHÁT (ĐẤT MẸ GỐC RỄ) =================
+\node[base_node] (N8) at (0, -18.8) {
+    $\boldsymbol{\Uparrow} \qquad \mathbf{CG \cdot CA = CN \cdot CI = CE^2} \qquad \boldsymbol{\Uparrow}$\\[1.5mm]
+    \textbf{\large\color{teal!95!black} [ĐIỂM KHỞI PHÁT TỰ NHIÊN -- BẮT ĐẦU TRÌNH BÀY BÀI TOÁN XUÔI]}
+};
+
+% ================= CÁC VÉC-TƠ CHỈ DÀI & ĐẬM TỪ DƯỚI LÊN TRÊN =================
+% Từ Base (N8) lên 2 Rễ (N7_left, N7_right)
+\draw[arr_root] (N8.north -| N7_left.south) -- (N7_left.south);
+\draw[arr_root] (N8.north -| N7_right.south) -- (N7_right.south);
+
+% Từ 2 Rễ (N7) lên Tỉ số đồng dạng (N6)
+\draw[arr_root] (N7_left.north) -- (N6.south -| N7_left.north);
+\draw[arr_root] (N7_right.north) -- (N6.south -| N7_right.north);
+
+% Từ N6 lên 2 nhánh góc
+\draw[arr_sub] (N6.north -| N5_left.south) -- (N5_left.south);
+\draw[arr_sub] (N6.north -| N5_right.south) -- (N5_right.south);
+
+% Từ 2 nhánh góc lên Góc chung (N5_center)
+\draw[arr_sub] (N5_left.north) -- (N5_center.south -| N5_left.north) -- (N5_center.south west);
+\draw[arr_sub] (N5_right.north) -- (N5_center.south -| N5_right.north) -- (N5_center.south east);
+
+% Trục thẳng đứng giữa
+\draw[arr_main] (N6.north) -- (0, -12.4) -- (N5_center.south);
+\draw[arr_main] (N5_center.north) -- (N4.south);
+\draw[arr_main] (N4.north) -- (N3.south);
+\draw[arr_main] (N3.north) -- (N2.south);
+\draw[arr_main] (N2.north) -- (N1.south);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{3mm}
+
+\begin{center}
+    \small\color{gray!85!black}
+    \textbf{Cơ chế tư duy:}\ \textit{Dò ngược từ Đất mẹ ($\uparrow$) lên Đỉnh ngọn để tìm đường phụ $\bullet$ Trình bày xuôi từ Đất mẹ ($\downarrow$) theo chiều các hệ thức.}
+\end{center}
+
+\end{document}
+"""
+    with open(tex_path, 'w', encoding='utf-8') as f:
+        f.write(tex_content)
+    print(f"Created: {tex_path}")
+
+if __name__ == "__main__":
+    tex_file = 'LOP9/CHUYEN_DE_9_PLUS/BAI_HINH_01/SO_DO_TU_DUY_HINH_THONG.tex'
+    pdf_file = 'LOP9/CHUYEN_DE_9_PLUS/BAI_HINH_01/SO_DO_TU_DUY_HINH_THONG.pdf'
+    
+    create_tree_tex(tex_file)
+    
+    work_dir = os.path.dirname(os.path.abspath(tex_file))
+    cmd = ['pdflatex', '-interaction=nonstopmode', os.path.basename(tex_file)]
+    res = subprocess.run(cmd, cwd=work_dir, capture_output=True, text=True)
+    
+    if os.path.exists(pdf_file):
+        print(f"SUCCESS: PDF created at {pdf_file}")
+        print(f"Size: {os.path.getsize(pdf_file)} bytes")
+    else:
+        print("Failed to compile. Output snippet:")
+        print(res.stdout[-800:])

@@ -1,0 +1,799 @@
+--- TRANG 62 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 1 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Tập hợp nào dưới đây là tập hợp số tự nhiên ? 
+A. 
+
+
+1;2;3;...
+=
+
+. 
+ 
+ 
+ 
+ 
+B. 
+
+
+0;1;2;3;...;100
+=
+
+.      
+C. 
+
+
+0;1;2;3;...
+=
+
+.  
+ 
+ 
+ 
+D. 
+
+
+0;2;4;6;...
+=
+
+. 
+Lời giải. Tập hợp số tự nhiên  bắt đầu từ 0 và kéo dài vô hạn (0,1,2,3,). Do đó, tập 
+hợp số tự nhiên được viết là 
+{0;1;2;3;
+}.
+=
+
+
+ 
+Đáp án đúng: C. 
+Câu 2. Với a, m, n là các số tự nhiên, khẳng định nào sau đây đúng? 
+A.  
+(
+)
+  
+:
+0, 
+m
+n
+m
+n
+a
+a
+a
+a
+m
+n
+−
+=
+
+
+.            
+B.  
+(
+)
+  
+: 
+  
+ 
+ 0
+m
+n
+m
+n
+a
+a
+a
+a
++
+=
+
+. 
+. 
+C.  
+(
+)
+.
+: 
+  
+ 
+ 0
+m
+n
+m n
+a
+a
+a
+a
+=
+
+.                      
+D.  
+(
+)
+: 
+   –  
+ 
+ 0
+m
+n
+a
+a
+m
+n
+a
+=
+
+.  
+Lời giải. Khi chia hai lũy thừa cùng cơ số (khác 0), ta giữ nguyên cơ số và lấy số mũ của 
+số bị chia trừ đi số mũ của số chia: 
+:
+m
+n
+m n
+a
+a
+a
+−
+=
+ (với 
+0,
+a
+m
+n
+
+
+). Đáp án đúng: A. 
+Câu 3. Thứ tự thực hiện phép tính nào sau đây là đúng đối với biểu thức không có dấu 
+ngoặc là gì? 
+A. Nhân và chia → Lũy thừa → Cộng và trừ . 
+B. Cộng và trừ → Nhân và chia → Lũy thừa. 
+C. Lũy thừa → Nhân và chia → Cộng và trừ. 
+D. Cộng và trừ → Nhân và chia →Nhân và chia. 
+
+
+--- TRANG 63 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Đối với biểu thức không có dấu ngoặc, thứ tự thực hiện đúng là: Tính lũy thừa 
+→ đến Nhân và chia → cuối cùng là Cộng và trừ. Đáp án đúng: C. 
+Câu 4.  Hình vuông ABCD có
+ 
+ 3 
+AB
+cm
+=
+, diện tích của hình vuông đó? 
+A. 3.  
+       
+ 
+B. 9.  
+           
+C. 12.  
+           
+D. 81. 
+Lời giải. Diện tích hình vuông bằng độ dài cạnh nhân với chính nó: 
+2
+3 3
+9 (cm )
+S = =
+. 
+Đáp án đúng: B. 
+Câu 5. Số 19 trong hệ La Mã được viết là  
+A. IX.  
+ 
+        B. IXX.  
+ 
+       C. XXI.  
+ 
+      D. XIX. 
+Lời giải. Số 19 được tách thành 10
+9
++ . Trong hệ La Mã, 10 viết là X , còn 9 viết là IX . 
+Khi ghép lại ta được XIX . Đáp án đúng: D. 
+Câu 6. Trong các phân số sau phân số nào là phân số tối giản ? 
+A. 26.
+39 
+ 
+B.  15
+12 . 
+ 
+ 
+C. 27
+42 . 
+ 
+ 
+D. 3
+16 . 
+Lời giải.  
+26
+2
+39
+3
+=
+ (chưa tối giản). 
+15
+5
+12
+4
+=
+ (chưa tối giản). 
+27
+9
+42
+14
+=
+ (chưa tối giản). 
+3
+16 có tử và mẫu chỉ có ước chung là 1 nên đây là phân số tối giản. 
+Đáp án đúng: D. 
+Câu 7. Tập hợp các chữ cái trong từ “PHONG NHA” là: 
+
+
+--- TRANG 64 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 
+
+P;H;O;N;G;N;H; A                                   B. 
+
+P;H;O;N;G;N; A 
+C. 
+
+H;O;N;G;P; A                                            D. 
+
+N; A;P;O;G 
+Lời giải. Liệt kê các chữ cái xuất hiện trong từ "
+ 
+"
+PHONG NHA theo đúng thứ tự từ trái 
+sang phải ta có: 
+,
+, ,
+,
+,
+,
+P H O N G N A. Đáp án đúng: B. 
+Câu 8.  Trong các số sau, số nào là bội của 7? 
+A. 15.  
+ 
+B. 20.  
+ 
+ 
+C. 25.  
+ 
+ 
+D. 35. 
+Lời giải.  Ta kiểm tra số chia hết cho 7 trong các đáp án thấy rằng 35:7
+5
+= là phép chia 
+hết, nên 35 là bội của 7. Đáp án đúng: D. 
+Câu 9. Thực hiện phép tính: 
+2
+3
+3
+3
++
+? 
+A. 45                            B. 36                           
+C. 432                        
+  D. 423 
+Lời giải. Ta có 
+2
+3
+3
+3
+9
+27
+36
++
+=
++
+=
+. 
+Đáp án đúng: B. 
+Câu 10. Từ hình bên có bao nhiêu hình vuông? 
+A. 4 hình vuông. 
+ 
+ 
+ 
+ 
+ 
+ 
+B. 5 hình vuông. 
+C. 6 hình vuông. 
+D. 8 hình vuông. 
+Lời giải. Hình vẽ gồm 4 hình vuông nhỏ ở 4 góc và 1 hình vuông lớn được ghép bởi 4 
+hình vuông nhỏ đó. Tổng cộng có: 4
+1
+5
++ = hình vuông. Đáp án đúng: B. 
+Câu 11. Tập hợp các ước của số 20 là: 
+A. Ư(20) = {1; 2; 4; 5; 10; 20}                  
+B. Ư(20) = {0; 1; 2; 4; 5; 10} 
+C. Ư(20) = {1; 2; 5; 10}                            
+D. Ư(20) = {1; 2; 10; 20} 
+
+
+--- TRANG 65 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Ta tìm các số tự nhiên mà 20 chia hết: 20 chia hết cho 1,2,4,5,10,20 . Vậy tập 
+hợp ước của 20 là U(20)
+{1;2;4;5;10;20}
+=
+. Đáp án đúng: A. 
+Câu 12. Ghép 6 tam giác đều có độ dài cạnh là 3 cm thành một lục giác đều. Khi đó độ 
+dài đường chéo chính là  
+A. 9 cm. 
+            
+B. 3 cm.              
+   C. 12 cm.  
+ 
+D. 6 cm. 
+Lời giải. Lục giác đều được ghép từ 6 tam giác đều cạnh 3 cm có đường chéo chính đi qua 
+tâm và bằng hai lần cạnh của tam giác đều:3 cm
+2
+6 cm
+
+=
+. Đáp án đúng: D. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho N là tập hợp các số tự nhiên chẵn nhỏ hơn 10. Các khẳng định sau đây đúng 
+hay sai? 
+a) Tập hợp N được viết theo cách liệt kê các phần tử là: 
+{0;2;4;6;8}
+N =
+. 
+b) Số phần tử của tập hợp N là 5 phần tử. 
+c) Số 10 thuộc tập hợp N (ký hiệu 10
+N
+
+). 
+d) Tập hợp N có thể được viết bằng cách chỉ ra tính chất đặc trưng cho các phần tử của 
+nó là: N ={ x, x là số chẵn}. 
+Lời giải. 
+a) ĐÚNG. Số tự nhiên chẵn bắt đầu từ 0 , nhỏ hơn 10 gồm các số: 0,2,4,6,8. 
+b) ĐÚNG. Tập hợp N có đúng 5 phần tử (0; 2; 4; 6; 8). 
+c) SAI. Đề bài cho điều kiện là số chẵn nhỏ hơn 10, nên số 10 không thuộc tập hợp N (ký 
+hiệu đúng phải là 10
+N
+
+). 
+d) ĐÚNG. Đây là cách viết tập hợp bằng cách chỉ ra tính chất đặc trưng. 
+
+
+--- TRANG 66 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Cho hình chữ nhật ABCD có độ dài cạnh 
+5 cm
+AB =
+ và 
+2 cm
+BC =
+. Các khẳng 
+định sau đây đúng hay sai? 
+a) Độ dài cạnh 
+5 cm
+CD =
+ và độ dài cạnh 
+2 cm
+AD =
+. 
+b) Chu vi của hình chữ nhật ABCD bằng 14 cm . 
+c) Diện tích của hình chữ nhật ABCD bằng 
+2
+10 cm . 
+d) Hình chữ nhật ABCD có 2 trục đối xứng. 
+Lời giải. 
+a) Đúng. Theo tính chất của hình chữ nhật, các cạnh đối diện bằng nhau nên 
+5 cm
+CD
+AB
+=
+=
+ và 
+2 cm
+AD
+BC
+=
+=
+. 
+b) Đúng. Chu vi hình chữ nhật bằng tổng chiều dài và chiều rộng nhân với 2 : 
+(5
+2) 2
+7 2
+14 cm
++
+
+=
+
+=
+. 
+c)  Đúng. Diện tích hình chữ nhật bằng chiều dài nhân với chiều rộng: 
+2
+5 2
+10 cm
+
+=
+. 
+d) Đúng. Hình chữ nhật có 2 trục đối xứng đi qua trung điểm các cặp cạnh đối. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Số liền trước của số nguyên tố nhỏ nhất là số mấy? 
+Lời giải. Số nguyên tố nhỏ nhất là 2 . Số liền trước của số 2 là 1. Đáp án: 1. 
+Câu 2. Mẹ Minh mua một túi gạo 15 kg loại 20 nghìn đồng mỗi 1 ki-lô-gam. Hỏi mẹ Minh 
+phải đưa cô bán hàng bao nhiêu tờ 50 000 đồng để trả vừa đủ số tiền mua gạo trên? 
+Lời giải. Số tiền mua gạo là: 15 20000
+300000
+
+=
+ (đồng). 
+Số tờ tiền loại 50000 đồng cần đưa là: 300 000:50 000
+6
+= (tờ). 
+Đáp án: 6 tờ. 
+
+
+--- TRANG 67 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính sau? (bằng cách hợp lí nếu có thể) 
+a)36
+75
+64
+25
+99
++
++
++
++
+ ; 
+0
+2
+2
+)2 024
+3.[5 .10
+(23 13) ]
+b
++
+−
+−
+; 
+2
+2
+)4 .65
+35.4
+1500
+c
++
+−
+. 
+Lời giải. 
+a) 36
+75
+64
+25
+99
++
++
++
++
+ 
+(36
+64)
+(75
+25)
+99
+=
++
++
++
++
+ 
+100
+100
+99
+299
+=
++
++
+=
+. 
+b) 
+0
+2
+2
+2024
+3.[5 .10
+(23 13) ]
++
+−
+−
+ 
+2
+1 3.[25.10 10 ]
+= +
+−
+ 
+1 3.(250 100)
+= +
+−
+ 
+1 3.150
+= +
+ 
+1
+450
+451
+= +
+=
+ 
+c) 
+2
+2
+4 .65
+35.4
+1500
++
+−
+ 
+2
+4 .(65
+35) 1500
+=
++
+−
+ 
+16.100 1500
+=
+−
+ 
+1600 1500
+100
+=
+−
+=
+. 
+Câu 2. Một mảnh vườn hình chữ nhật có chiều dài 42m và chiều rộng 30m.  
+a) Tính chu vi và diện tích của mảnh vườn.  
+b) Biết rằng mỗi túi hạt giống gieo vừa đủ 105 m2 đất và mỗi túi hạt giống giá 45 000 đồng. 
+Hỏi cần bao nhiêu túi hạt giống để gieo vừa hết mảnh vườn? Cần bao nhiêu tiền để mua 
+các túi hạt giống trên? 
+Lời giải 
+a) Chu vi mảnh vườn: (42
+30) 2
+144 (m)
++
+
+=
+. 
+
+
+--- TRANG 68 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Diện tích mảnh vườn: 
+2
+42 30
+1260 (m )
+
+=
+. 
+b) Số túi hạt giống cần dùng: 1260:105
+12 (túi)
+=
+. 
+Số tiền mua hạt giống: 12.45000
+540000
+=
+ (đồng). 
+Câu 3.   
+1) Vẽ hình chữ nhật ABCD biết cạnh  AB = 5cm và cạnh BC = 3cm  
+2) Một khoảng sân có dạng hình chữ nhật với chiều dài 9m và chiều rộng 4m. Người ta để 
+một phần của sân để trồng hoa (phần kẻ sọc), phần còn lại lát gạch (phần trắng).  
+a) Tính diện tích phần sân trồng hoa? 
+b) Nếu lát phần sân còn lại bằng những viên gạch hình vuông cạnh 40 cm thì cần bao 
+nhiêu viên gạch 
+(Coi diện tích khe giữa các viên gạch không đáng kể). 
+ 
+Lời giải 
+1) Cách vẽ hình chữ nhật ABCD (
+5cm,
+3cm
+AB
+BC
+=
+=
+): 
+Vẽ đoạn thẳng 
+5cm
+AB =
+. 
+Vẽ đường thẳng vuông góc với AB tại A , trên đó lấy đoạn thẳng 
+3cm
+AD =
+. 
+Vẽ đường thẳng vuông góc với AB tại B , trên đó lấy đoạn thẳng 
+3cm
+BC =
+. 
+Nối C và D ta được hình chữ nhật ABCD. 
+
+
+--- TRANG 69 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+2) a) Diện tích phần sân trồng hoa (hình chữ nhật có chiều dài 4m và chiều rộng 1m ): 
+2
+4.1
+4 (m )
+=
+ 
+b) Diện tích cả sân: 
+2
+9.4
+36 (m )
+=
+Diện tích phần sân lát gạch: 
+2
+36
+4
+32 (m )
+−
+=
+ 
+Đổi: 40 cm
+0,4 m
+=
+.  
+Diện tích một viên gạch hình vuông: 
+2
+0,4.0,4
+0,16 (m )
+=
+ 
+Số viên gạch cần dùng: 32:0,16
+200 (viên)
+=
+. 
+Câu 4.  
+a) Tính 
+2
+3
+4
+2020
+1 3
+3
+3
+3
+...
+3
+C = + +
++
++
++
++
+ 
+b) Tìm số tự nhiên n sao cho 
+(
+)(
+)
+2
+2
+5
+=
+−
++
+−
+p
+n
+n
+n
+ là số nguyên tố. 
+Lời giải 
+a) Ta có 
+2
+3
+4
+2020
+1 3
+3
+3
+3
+...
+3
+C = + +
++
++
++
++
+ 
+2
+3
+4
+5
+2021
+3
+3
+3
+3
+3
+3
+...
+3
+C =
++
++
++
++
++
++
+ 
+2
+2021
+2
+2020
+3
+(3
+3
+...
+3
+)
+(1 3
+3
+...
+3
+)
+C
+C
+−
+=
++
++
++
+−
++ +
++
++
+ 
+2021
+2
+3
+1
+C =
+− 

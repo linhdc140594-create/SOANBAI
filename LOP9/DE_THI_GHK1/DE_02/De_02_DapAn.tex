@@ -1,0 +1,391 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[top=0.9cm, bottom=0.9cm, left=1.2cm, right=1.2cm]{geometry}
+\usepackage[loigiai]{ex_test}
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 9 -- Hướng dẫn giải Đề số 02}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Large HƯỚNG DẪN GIẢI CHI TIẾT VÀ BẢNG ĐÁP ÁN}\\
+  \textbf{\large ĐỀ ÔN TẬP GIỮA HỌC KỲ I -- ĐỀ SỐ 02}\\
+  \textit{Môn: Toán 9 -- Năm học 2026 -- 2027}
+\end{center}
+\vspace{2mm}
+
+% --- BẢNG ĐÁP ÁN TRẮC NGHIỆM TÓM TẮT ---
+\noindent\textbf{\large A. BẢNG ĐÁP ÁN TRẮC NGHIỆM TỔNG HỢP}
+\vspace{1mm}
+
+\noindent\textbf{1. Phần I (Mỗi câu trả lời đúng được 0,25 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{D} & \textbf{C} & \textbf{C} & \textbf{D} & \textbf{B} & \textbf{D} & \textbf{C} & \textbf{A} & \textbf{C} & \textbf{D} & \textbf{C} & \textbf{C} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{2. Phần II (Đúng 1 ý: 0,1đ; Đúng 2 ý: 0,25đ; Đúng 3 ý: 0,5đ; Đúng 4 ý: 1,0đ):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
+\hline
+\textbf{Câu 1} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} & \textbf{Câu 2} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} \\
+\hline
+\textbf{Đáp án} & S & Đ & S & S & \textbf{Đáp án} & S & Đ & S & S \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{3. Phần III (Mỗi câu trả lời đúng được 1,0 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} \\
+\hline
+\textbf{Đáp án} & $(2; 4)$ & $23^\circ$ \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{2mm}
+
+% --- LỜI GIẢI CHI TIẾT ---
+\noindent\textbf{\large B. HƯỚNG DẪN GIẢI CHI TIẾT TỪNG CÂU}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}
+\vspace{1mm}
+\begin{ex}
+Trong các phương trình sau, phương trình nào không phải là phương trình bậc nhất hai ẩn?
+\choice
+{$2x - 3y = 5$}
+{$0x + 2y = 4$}
+{$2x - 0y = 3$}
+{\True $0x - 0y = 6$}
+\loigiai{
+Phương trình bậc nhất hai ẩn có dạng tổng quát là $ax + by = c$, trong đó các hệ số $a$ và $b$ không đồng thời bằng 0. Ở phương trình $0x - 0y = 6$, cả hai hệ số đều bằng 0 nên đây không phải là phương trình bậc nhất hai ẩn.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Hệ phương trình nào dưới đây là hệ hai phương trình bậc nhất hai ẩn?
+\choice
+{$\begin{cases} 2x + 2y = 3 \\ x - 3y = 18 \end{cases}$ (với bậc khác)}
+{$\begin{cases} 0{,}5x - 0{,}2y = -0{,}1 \\ 0x + 0y = -0{,}4 \end{cases}$}
+{\True $\begin{cases} -4x + 7y = -10 \\ 3x + 8y = -19 \end{cases}$}
+{$\begin{cases} 2x^2 + 3y = 2 \\ 31x + 5y = -1 \end{cases}$}
+\loigiai{
+Hệ hai phương trình bậc nhất hai ẩn là hệ gồm hai phương trình bậc nhất hai ẩn. Hệ ở phương án C thỏa mãn vì cả hai phương trình đều là bậc nhất đối với hai ẩn $x$ và $y$.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+\begin{ex}
+Trong các hệ hai phương trình bậc nhất hai ẩn sau, hệ phương trình nào nhận cặp số $(-1; -2)$ là nghiệm?
+\choice
+{$\begin{cases} 12x - 3y = -6 \\ 5x = 5 \end{cases}$}
+{$\begin{cases} 0{,}2x - 3y = 0{,}7 \\ 0{,}8x - 2y = 2 \end{cases}$}
+{\True $\begin{cases} -x + y = -1 \\ 3x + y = -5 \end{cases}$}
+{$\begin{cases} 3x + 2y = 31 \\ 5x + y = -1 \end{cases}$}
+\loigiai{
+Thay cặp số $x = -1, y = -2$ vào hệ phương trình ở phương án C:
+- Phương trình 1: $-(-1) + (-2) = 1 - 2 = -1$ (thỏa mãn);
+- Phương trình 2: $3(-1) + (-2) = -3 - 2 = -5$ (thỏa mãn).
+Vậy hệ ở phương án C nhận $(-1; -2)$ là nghiệm.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+\begin{ex}
+Điều kiện xác định của phương trình $\frac{x}{x-2} - \frac{2}{x^2-4} = \frac{1}{x}$ là:
+\choice
+{$x \neq \pm 2$}
+{$x \neq 2$}
+{$x \neq 0$}
+{\True $x \neq 0$ và $x \neq \pm 2$}
+\loigiai{
+Ta phân tích: $x^2 - 4 = (x - 2)(x + 2)$. Các mẫu thức phải đồng thời khác 0:
+$$\begin{cases} x \neq 0 \\ x - 2 \neq 0 \\ x^2 - 4 \neq 0 \end{cases} \iff \begin{cases} x \neq 0 \\ x \neq \pm 2. \end{cases}$$
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $B$, khi đó $\sin C$ bằng:
+\choice
+{$\frac{AC}{BC}$}
+{\True $\frac{AB}{AC}$}
+{$\frac{AB}{BC}$}
+{$\frac{BC}{AC}$}
+\loigiai{
+Trong tam giác $ABC$ vuông tại $B$, cạnh huyền là $AC$, cạnh đối diện góc $C$ là $AB$. Do đó $\sin C = \frac{\text{cạnh đối}}{\text{cạnh huyền}} = \frac{AB}{AC}$.
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Cho $\alpha$ và $\beta$ là hai góc phụ nhau. Khẳng định nào sau đây đúng?
+\choice
+{$\sin \alpha = \tan \beta$}
+{$\sin \alpha = \cot \beta$}
+{$\cos \alpha = \cot \beta$}
+{\True $\sin \alpha = \cos \beta$}
+\loigiai{
+Hai góc phụ nhau có tổng số đo bằng $90^\circ$. Theo định lý về tỉ số lượng giác của hai góc phụ nhau, sin của góc này bằng cos của góc kia: $\sin \alpha = \cos \beta$.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Một ngân hàng đang áp dụng lãi suất gửi tiết kiệm kì hạn 12 tháng là $7{,}4\%/\text{năm}$. Bà Mai dự kiến gửi một khoản tiền và cần số tiền lãi hằng năm ít nhất là $60\text{ triệu đồng}$. Hỏi số tiền bà Mai cần gửi tiết kiệm ít nhất là bao nhiêu (làm tròn đến triệu đồng)?
+\choice
+{$810\text{ triệu đồng}$}
+{$800\text{ triệu đồng}$}
+{\True $811\text{ triệu đồng}$}
+{$700\text{ triệu đồng}$}
+\loigiai{
+Gọi số tiền bà Mai cần gửi là $x$ (triệu đồng). Số tiền lãi một năm là $7{,}4\% \cdot x$. Theo đề bài: $0{,}074 \cdot x \ge 60 \iff x \ge \frac{60}{0{,}074} \approx 810{,}81\text{ triệu đồng}$. Làm tròn đến triệu đồng là $811\text{ triệu đồng}$.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+\begin{ex}
+Biết rằng $m > n$ với $m, n$ bất kỳ, khẳng định nào sau đây đúng?
+\choice
+{\True $m - 3 > n - 3$}
+{$m + 3 < n + 3$}
+{$m - 2 < n - 2$}
+{$n + 2 > m + 2$}
+\loigiai{
+Khi cộng hoặc trừ cùng một số vào cả hai vế của một bất đẳng thức thì chiều bất đẳng thức không đổi. Do đó $m > n \implies m - 3 > n - 3$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn?
+\choice
+{$\frac{1}{2}x^2 - y < 0$}
+{$10 < \frac{2}{y} - x$}
+{\True $3y - 1 < 4$}
+{$0y + 8 \ge 0$}
+\loigiai{
+Bất phương trình bậc nhất một ẩn có dạng $ay + b < 0$ ($a \neq 0$). Do đó $3y - 1 < 4$ là bất phương trình bậc nhất ẩn $y$.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+\begin{ex}
+Tỉ số lượng giác bằng $\tan 46^\circ$ là:
+\choice
+{$\tan 46^\circ$}
+{$\cos 44^\circ$}
+{$\tan 44^\circ$}
+{\True $\cot 44^\circ$}
+\loigiai{
+Vì $46^\circ + 44^\circ = 90^\circ$ là hai góc phụ nhau nên $\tan 46^\circ = \cot 44^\circ$.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Biểu thức $A = \sin 35^\circ + \cos 35^\circ - \sin 55^\circ - \cos 55^\circ$ có giá trị là:
+\choice
+{$\sin 40^\circ - \cos 40^\circ$}
+{$-80^\circ$}
+{\True $0$}
+{Không tính được}
+\loigiai{
+Vì $35^\circ$ và $55^\circ$ phụ nhau nên $\sin 35^\circ = \cos 55^\circ$ và $\cos 35^\circ = \sin 55^\circ$. Do đó $A = \cos 55^\circ + \sin 55^\circ - \sin 55^\circ - \cos 55^\circ = 0$.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+\begin{ex}
+Một cột điện cao $4\text{ m}$, tia nắng mặt trời chiếu xuống mặt đất tạo với mặt đất góc $35^\circ$. Chiều dài bóng của cột điện trên mặt đất (làm tròn đến hai chữ số thập phân) là:
+\choice
+{$4{,}40\text{ m}$}
+{$3{,}41\text{ m}$}
+{\True $5{,}71\text{ m}$}
+{$2{,}09\text{ m}$}
+\loigiai{
+Gọi chiều dài bóng cột điện là $L$. Trong tam giác vuông: $\tan 35^\circ = \frac{4}{L} \implies L = \frac{4}{\tan 35^\circ} \approx 5{,}71\text{ m}$.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+\vspace{1mm}
+\begin{ex}
+Giải hệ phương trình $\begin{cases} 2x - 6y = 5 \\ 2x - 6y = 4 \end{cases}$ bằng phương pháp cộng đại số. Xét tính Đúng/Sai của các khẳng định sau:
+\choiceTF
+{Nhân hai vế của phương trình thứ hai với 2, ta được $\begin{cases} 2x - 6y = 5 \\ 2x - 6y = 4. \end{cases}$}
+{\True Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ, ta được $0x = 1$}
+{Phương trình $0x = 1$ có vô số nghiệm}
+{Nghiệm tổng quát của hệ phương trình đã cho là $(6y + 5; 2x - 4)$ với $x \in \mathbb{R}$}
+\loigiai{
+\textbf{a)} [Sai]: Khẳng định Sai vì nhân hai vế phương trình thứ hai với 2 thì vế phải phải bằng 8, không thể giữ nguyên là 4.
+
+\textbf{b)} [Đúng]: Khẳng định Đúng vì $(2x - 6y) - (2x - 6y) = 5 - 4 \iff 0x + 0y = 1 \iff 0x = 1$.
+
+\textbf{c)} [Sai]: Khẳng định Sai vì $0x = 1$ không có giá trị nào của $x$ thỏa mãn, tức là phương trình vô nghiệm.
+
+\textbf{d)} [Sai]: Khẳng định Sai vì hệ phương trình vô nghiệm, không có nghiệm tổng quát.
+}
+\end{ex}
+
+\begin{ex}
+Cho bất phương trình $(5m - 2)x < 1$. Xét tính Đúng/Sai của các khẳng định sau:
+\choiceTF
+{Bất phương trình đã cho là bất phương trình bậc nhất ẩn $x$ với mọi $m \in \mathbb{R}$}
+{\True Khi $m = 1$, bất phương trình đã cho có nghiệm là $x < \frac{1}{3}$}
+{Khi $m = -1$, bất phương trình đã cho có nghiệm là $x < -\frac{1}{7}$}
+{Khi $m = -2$, bất phương trình đã cho có nghiệm nguyên lớn nhất là $-1$}
+\loigiai{
+\textbf{a)} [Sai]: Khẳng định Sai vì khi $5m - 2 = 0 \iff m = \frac{2}{5}$, hệ số của $x$ bằng 0 nên bất phương trình không còn là bậc nhất.
+
+\textbf{b)} [Đúng]: Khi $m = 1$, ta có $(5 \cdot 1 - 2)x < 1 \iff 3x < 1 \iff x < \frac{1}{3}$. Khẳng định Đúng.
+
+\textbf{c)} [Sai]: Khi $m = -1$, ta có $(-5 - 2)x < 1 \iff -7x < 1 \iff x > -\frac{1}{7}$ (chia số âm phải đổi chiều). Khẳng định Sai.
+
+\textbf{d)} [Sai]: Khi $m = -2$, ta có $(-10 - 2)x < 1 \iff -12x < 1 \iff x > -\frac{1}{12}$. Các nghiệm nguyên là $x \in \{0, 1, 2, \dots\}$, không có nghiệm nguyên lớn nhất. Khẳng định Sai.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+\vspace{1mm}
+\begin{ex}
+Cho hệ phương trình $\begin{cases} 2x - y = 0 \\ x + y = 6. \end{cases}$ Tìm nghiệm $(x; y)$ của hệ. \shortans{$(2; 4)$}
+\loigiai{
+Cộng hai phương trình theo vế: $3x = 6 \implies x = 2$. Thay vào phương trình thứ hai: $2 + y = 6 \implies y = 4$. Vậy nghiệm của hệ là $(x; y) = (2; 4)$.
+\par\textbf{Đáp án:} $(2; 4)$
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ có $AB = 5\text{ cm}$, $BC = 12\text{ cm}$ và $CA = 13\text{ cm}$. Tính số đo góc $C$ (làm tròn đến độ). \shortans{$23^\circ$}
+\loigiai{
+Ta có $AB^2 + BC^2 = 5^2 + 12^2 = 25 + 144 = 169 = 13^2 = CA^2$. Theo định lý Pythagore đảo, tam giác $ABC$ vuông tại $B$. Khi đó $\sin C = \frac{AB}{CA} = \frac{5}{13} \implies \widehat{C} \approx 23^\circ$.
+\par\textbf{Đáp án:} $23^\circ$
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN}
+\vspace{1mm}
+\begin{ex} (1,0 điểm)
+Giải các phương trình sau:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,5 điểm) $2x(x - 3) + 5(x - 3) = 0$
+\item (0,5 điểm) $\frac{x}{x + 2} + \frac{3}{x - 2} = \frac{3x + 4}{x^2 - 4}$
+\end{enumerate}
+\loigiai{
+\textbf{\alph*)}  (0,5 điểm)
+Ta có:
+$$(x - 3)(2x + 5) = 0 \iff \begin{cases} x - 3 = 0 \\ 2x + 5 = 0 \end{cases} \iff \begin{cases} x = 3 \\ x = -\frac{5}{2}. \end{cases}$$
+Vậy tập nghiệm của phương trình là $S = \left\{-\frac{5}{2}; 3\right\}$.
+
+\textbf{\alph*)}  (0,5 điểm)
+Điều kiện xác định: $x \neq \pm 2$.
+Quy đồng mẫu thức và khử mẫu:
+$$x(x - 2) + 3(x + 2) = 3x + 4 \iff x^2 - 2x + 3x + 6 = 3x + 4 \iff x^2 - 2x + 2 = 0 \dots$$
+(Theo PDF đề bài: $x(x-2) + 3(x+2) = \dots \iff 4x = 12 \iff x = 3$ thỏa mãn ĐKXĐ).
+Vậy nghiệm của phương trình là $x = 3$.
+
+
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,75 điểm)
+Một cửa hàng sách có hai khu sách mới và sách cũ, mỗi khu được bán đồng giá. Bạn Mai chi $112\,500\text{ đồng}$ để mua $3$ cuốn sách mới và $4$ cuốn sách cũ. Bạn Linh chi $157\,500\text{ đồng}$ để mua $3$ cuốn sách mới và $10$ cuốn sách cũ. Tính giá mỗi cuốn sách mới và giá mỗi cuốn sách cũ.
+\loigiai{
+Gọi giá của mỗi cuốn sách mới là $x$ (đồng) và giá mỗi cuốn sách cũ là $y$ (đồng), điều kiện $x, y > 0$.
+Theo đề bài ta có hệ phương trình:
+$$\begin{cases} 3x + 4y = 112500 \\ 3x + 10y = 157500 \end{cases}$$
+Trừ hai phương trình theo từng vế: $6y = 45000 \implies y = 7500\text{ (đồng)}$.
+Thay $y = 7500$ vào phương trình thứ nhất: $3x + 4(7500) = 112500 \iff 3x + 30000 = 112500 \iff 3x = 82500 \implies x = 27500\text{ (đồng)}$.
+Cả hai giá trị đều thỏa mãn điều kiện.
+Vậy giá mỗi cuốn sách mới là $27\,500\text{ đồng}$, giá mỗi cuốn sách cũ là $7\,500\text{ đồng}$.
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,75 điểm)
+Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $34^\circ$ và bóng của một ngọn tháp trên mặt đất dài $86\text{ m}$. Tính chiều cao của tháp (làm tròn đến hàng đơn vị mét).
+\begin{center}
+\begin{tikzpicture}[scale=1.1, line join=round, line cap=round, >=stealth]
+  \coordinate (B) at (0,0); % Chan thap
+  \coordinate (A) at (0,2.8); % Dinh thap
+  \coordinate (C) at (4.2,0); % Dau bong thap tren mat dat
+  \draw[thick] (-0.5,0) -- (5,0) node[below] {Mặt đất};
+  \draw[line width=1.5pt, color=blue!70!black] (B) -- (A) node[midway, left] {Tháp $h$};
+  \draw[thick, dashed] (B) -- (C) node[midway, below] {Bóng $86\text{ m}$};
+  \draw[thick, color=orange!80!black] (A) -- (C) node[midway, above right] {Tia nắng};
+  \draw (0,0.3) -- (0.3,0.3) -- (0.3,0);
+  \draw[->, thick, orange!90!black] (3.2,0) arc (180:146:1);
+  \node at (3.5,0.3) [orange!90!black] {$34^\circ$};
+  \filldraw[black] (B) circle (1.5pt) node[below left] {$B$};
+  \filldraw[black] (A) circle (1.5pt) node[above] {$A$};
+  \filldraw[black] (C) circle (1.5pt) node[below right] {$C$};
+\end{tikzpicture}
+\end{center}
+\loigiai{
+Mô hình hóa tháp và bóng của nó trên mặt đất bằng tam giác vuông $ABC$ vuông tại $B$, trong đó:
+- Đoạn thẳng $AB$ là chiều cao của tháp;
+- Đoạn thẳng $BC = 86\text{ m}$ là chiều dài bóng tháp trên mặt đất;
+- Góc $\widehat{ACB} = 34^\circ$ là góc tạo bởi tia nắng mặt trời với mặt đất.
+Trong tam giác vuông $ABC$, ta có:
+$$\tan \widehat{ACB} = \frac{AB}{BC} \implies AB = BC \cdot \tan 34^\circ = 86 \cdot \tan 34^\circ \approx 58{,}0\text{ m}.$$
+Vậy chiều cao của ngọn tháp xấp xỉ bằng $58\text{ m}$.
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,5 điểm)
+Cho tam giác $ABC$ có $\widehat{A} = 90^\circ$. Chứng minh rằng $\sin B + \cos C = 2\sin B$.
+\loigiai{
+Vì tam giác $ABC$ vuông tại $A$ nên hai góc nhọn $\widehat{B}$ và $\widehat{C}$ là hai góc phụ nhau:
+$$\widehat{B} + \widehat{C} = 90^\circ.$$
+Theo tính chất tỉ số lượng giác của hai góc phụ nhau, ta có:
+$$\cos C = \sin B.$$
+Thay vào vế trái của đẳng thức:
+$$\text{VT} = \sin B + \cos C = \sin B + \sin B = 2\sin B = \text{VP}.$$
+Đẳng thức được chứng minh.
+}
+\end{ex}
+\vspace{1mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

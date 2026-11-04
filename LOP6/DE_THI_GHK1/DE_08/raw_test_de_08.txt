@@ -1,0 +1,317 @@
+--- TRANG 29 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 8 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các số 23 755; 10 230; 17 280; 18 711. Số nào chia hết cho cả 2; 3; 5; 9 ? 
+A. 23 755. 
+ 
+   
+B. 10 230. 
+ 
+    C. 17 280.  
+       D. 18 711. 
+Câu 2. Cho 
+
+
+*
+12
+A
+x
+x
+=
+
+
+
+. Tập hợp A có số phần tử là: 
+A. 10. 
+B. 11. 
+C. 12. 
+   D. 13. 
+Câu 3. Cho 18 x và 7
+18
+x
+
+
+. Thì x có giá trị là:      
+ A. 2. 
+ 
+ 
+ 
+B. 3.             
+ 
+C. 6.  
+ 
+       D. 9. 
+Câu 4. Số nào sau đây không phải số nguyên tố?  
+A.  11. 
+ 
+B. 33.     
+ 
+ 
+C.  17. 
+ 
+D. 31. 
+Câu 5. Phân tích số 40 ra thừa số nguyên tố ta được kết quả đúng là 
+A. 2 4 5
+. 
+                    B. 
+32
+5
+. 
+                      C. 5 8
+. 
+                  D. 4 10.
+
+ 
+Câu 6. Cho hình lục giác đều ABCDEG. Nhận định nào sau đây là đúng 
+ 
+A.  OA
+OB
+OC
+OD
+OE
+OG
+=
+=
+=
+=
+=
+ 
+
+
+--- TRANG 30 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+B. OA
+OB
+OC
+OD
+OE
+OG
+
+
+
+
+
+ 
+C. OA
+OB
+OC
+OD
+OE
+OG
+
+
+
+
+
+ 
+D. OA
+OB
+OC
+OD
+OE
+OG
+
+
+
+
+
+ 
+Câu 7. Khẳng định nào sau đây là sai? 
+A. Hình chữ nhật và hình thoi có các cặp cạnh đối song song với nhau. 
+B. Hình lục giác đều có ba đường chéo chính bằng nhau. 
+C. Hình bình hành có hai cạnh đối bằng nhau. 
+D. Hình thoi có hai đường chéo bằng nhau. 
+Câu 8. Hình nào sau đây có các góc bằng nhau? 
+A. Hình thoi.  
+ 
+ 
+ 
+ 
+B. Hình chữ nhật. 
+ 
+C. Hình bình hành.  
+ 
+ 
+ 
+D. Hình thang cân. 
+Câu 9. Một hình thang cân có đáy lớn là a, đáy bé là b, chiều cao là h. Khi đó, công thức 
+tính diện tích hình thang đó là: 
+A. (
+)
+.
+2
+a
+b
+h
++
+
+ 
+B. (
+).
+2
+a
+b
+h
+−
+ 
+C. (
+)
+2.
+a
+b
+h
++
+
+ 
+D. 
+.
+2
+a
+b h
++ 
+ 
+Câu 10. Cho hình thoi ABCD , hai đường chéo AC và BD của hình thoi: 
+ 
+A. Bằng nhau. 
+ 
+B. Không vuông góc.  
+C. Vuông góc với nhau. 
+ 
+D. Cả A và B đều đúng. 
+Câu 11. Viết gọn tích 8 8 2 4
+ bằng lũy thừa cơ số 8 là: 
+A. 8.                          
+B. 
+2
+8 .                          
+ C. 
+3
+8 .                         
+D. 
+4
+8 . 
+Câu 12. Một mảnh vườn hình chữ nhật có chiều dài 5m, chiều rộng 3m . Bác Bình muốn 
+rào kín xung quanh mảnh vườn. Hỏi chiều dài hàng rào cần dùng là bao nhiêu mét? 
+
+
+--- TRANG 31 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+A. 16m . 
+ 
+B. 10m . 
+C. 8m . 
+ 
+D. 6m . 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho các hình sau: tam giác đều, hình vuông, lục giác đều, hình chữ nhật, hình 
+thoi, hình bình hành, hình thang cân. Xét tính đúng sai của các mệnh đề sau: 
+a) Hình tam giác đều, hình vuông, hình lục giác đều có tất cả các cạnh bằng nhau.   
+b) Có 2 hình có hai đường chéo vuông góc với nhau.   
+c) Có 3 hình có hai cạnh đối song song và các đường chéo bằng nhau.   
+d) Hình lục giác đều có độ dài đường chéo gấp đôi độ dài cạnh.   
+Câu 2. Một chiếc ô tô đang di chuyển với vận tốc ban đầu là 10 km/h . Sau mỗi giờ, vận 
+tốc tăng gấp đôi. Xét tính đúng sai của các mệnh đề sau: 
+a) Sau 1 giờ, ô tô chạy 20 km/h . 
+b) Sau 2 giờ, ô tô chạy 30 km/h . 
+c) Sau 3 giờ, ô tô chạy 80 km/h . 
+d) Sau 4 giờ, ô tô chạy 160 km/h . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+
+
+--- TRANG 32 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 1. Có bao nhiêu số tự nhiên m sao cho 5 < m < 10 và chia hết cho 3? 
+Câu 2. Một hình chử nhật có diện tích là 
+2
+120 
+ 
+cm và có chiều dài là 12 cm . Tính độ dài 
+chiều rộng của hình chữ nhật (đơn vị: cm). 
+Phần IV. Tự luận 
+Câu 1.  Thực hiện phép tính(Tính nhanh nếu có thể): 
+a) 127
+156
+73 144.
++
++
++
+ 
+b) 
+(
+)
+2
+2
+2026 – 20.3
+16 :2
++
+ 
+Câu 2. Tìm số tự nhiên x, biết: 
+1) 
+18
+15 
+x −
+=
+;                                        2) 18
+2(
+1)
+40
+x
++
+−
+=
+. 
+Câu 3. Một hình chử nhật có diện tích là 
+2
+220cm và có chiều dài là 22 cm. Tính độ dài 
+chiều rộng của hình chữ nhật (đơn vị: cm). 
+Câu 4. Không thực hiện tính tổng, chứng minh rằng 
+2
+3
+2021
+A= 1+4+4
+4
+...
+4
++
++
++
+ chia hết 
+cho 21. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

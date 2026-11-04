@@ -1,0 +1,239 @@
+\begin{tomtat}
+	\textbf{ĐỀ 03}
+\end{tomtat}
+\begin{ex}
+	Giải hệ phương trình $\begin{cases} 3x - 2y = 9 \\ x + 3y = -8 \end{cases}$
+	\loigiai{
+		Ta có hệ phương trình:
+		$$ \begin{cases} 3x - 2y = 9 & (1) \\ x + 3y = -8 & (2) \end{cases} $$
+		Từ phương trình (2), ta có thể biểu diễn $x$ theo $y$:
+		$x = -8 - 3y$.
+		Thay biểu thức của $x$ này vào phương trình (1):
+		\begin{align*}
+			3(-8 - 3y) - 2y &= 9 \\
+			-24 - 9y - 2y &= 9 \\
+			-11y &= 9 + 24 \\
+			-11y &= 33 \\
+			y &= \frac{33}{-11} \\
+			y &= -3
+		\end{align*}
+		Thay giá trị $y=-3$ trở lại vào biểu thức $x = -8 - 3y$:
+		\begin{align*}
+			x &= -8 - 3(-3) \\
+			x &= -8 + 9 \\
+			x &= 1
+		\end{align*}
+		Vậy nghiệm của hệ phương trình là $(x; y) = (1; -3)$.
+	}
+\end{ex}
+
+
+\begin{ex}
+	Rút gọn biểu thức $B = \left(2 + \frac{a+3\sqrt{a}}{\sqrt{a}+3}\right)\left(2 + \frac{a-3\sqrt{a}}{3-\sqrt{a}}\right)$, với $a \ge 0, a \ne 9$.
+	\loigiai{
+		Với điều kiện $a \ge 0, a \ne 9$, ta có:
+		\begin{align*}
+			B &= \left(2 + \frac{\sqrt{a}(\sqrt{a}+3)}{\sqrt{a}+3}\right)\left(2 + \frac{\sqrt{a}(\sqrt{a}-3)}{-(\sqrt{a}-3)}\right) \\
+			&= \left(2 + \sqrt{a}\right)\left(2 - \sqrt{a}\right) \\
+			&= 2^2 - (\sqrt{a})^2 \\
+			&= 4 - a
+		\end{align*}
+		Vậy biểu thức rút gọn là $B = 4-a$.
+	}
+\end{ex}
+
+
+\begin{ex}
+	Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2 - 7x + 4 = 0$. Không giải phương trình hãy tính giá trị của biểu thức $P = x_1 + x_2 - 3x_1x_2$.
+	\loigiai{
+		Phương trình đã cho là $x^2 - 7x + 4 = 0$.
+		Đây là phương trình bậc hai có dạng $ax^2+bx+c=0$ với $a=1$, $b=-7$, $c=4$.
+		Ta tính biệt thức $\Delta = b^2-4ac = (-7)^2 - 4(1)(4) = 49 - 16 = 33$.
+		Vì $\Delta = 33 > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.
+		
+		Theo hệ thức Vi-ét, ta có:
+		$$ \begin{cases} 
+			x_1+x_2 = \dfrac{-b}{a} = \dfrac{-(-7)}{1} = 7 \\ 
+			x_1x_2 = \dfrac{c}{a} = \dfrac{4}{1} = 4 
+		\end{cases} $$
+		Ta cần tính giá trị biểu thức $P = x_1 + x_2 - 3x_1x_2$.
+		Thay giá trị $x_1+x_2$ và $x_1x_2$ đã tính ở trên vào biểu thức $P$:
+		\begin{align*}
+			P &= (x_1+x_2) - 3(x_1x_2) \\
+			&= (7) - 3(4) \\
+			&= 7 - 12 \\
+			&= -5
+		\end{align*}
+		Vậy giá trị của biểu thức $P$ là -5.
+	}
+\end{ex}
+
+
+\begin{ex}
+	Một cái hộp đựng 3 viên bi đỏ và 2 viên bi xanh. Lấy lần lượt 2 viên bi từ cái hộp đó (không hoàn lại). Tính xác suất để lấy được 2 viên bi là bi xanh.
+	\loigiai{
+		Tổng số viên bi trong hộp là: $3 \text{ (đỏ)} + 2 \text{ (xanh)} = 5$ viên bi.
+		Ký hiệu 3 viên bi đỏ là Đ$_1$, Đ$_2$, Đ$_3$ và 2 viên bi xanh là X$_1$, X$_2$.
+		Ta lấy lần lượt 2 viên bi không hoàn lại. Mỗi kết quả là một cặp sắp thứ tự (viên thứ nhất, viên thứ hai).
+		Ta cần tính xác suất để cả hai viên bi lấy được đều là bi xanh.
+		
+		\textbf{Phương pháp: Liệt kê và đếm số trường hợp}
+		\begin{itemize}
+			\item \textbf{Không gian mẫu $\Omega$ (tất cả các kết quả có thể xảy ra khi lấy 2 viên bi):}
+			Số phần tử của không gian mẫu là $n(\Omega) = 5 \times 4 = 20$.
+			Các phần tử của không gian mẫu là:
+			\begin{itemize}
+				\item Lấy Đ$_1$ trước: (Đ$_1$, Đ$_2$), (Đ$_1$, Đ$_3$), (Đ$_1$, X$_1$), (Đ$_1$, X$_2$)
+				\item Lấy Đ$_2$ trước: (Đ$_2$, Đ$_1$), (Đ$_2$, Đ$_3$), (Đ$_2$, X$_1$), (Đ$_2$, X$_2$)
+				\item Lấy Đ$_3$ trước: (Đ$_3$, Đ$_1$), (Đ$_3$, Đ$_2$), (Đ$_3$, X$_1$), (Đ$_3$, X$_2$)
+				\item Lấy X$_1$ trước: (X$_1$, Đ$_1$), (X$_1$, Đ$_2$), (X$_1$, Đ$_3$), (X$_1$, X$_2$)
+				\item Lấy X$_2$ trước: (X$_2$, Đ$_1$), (X$_2$, Đ$_2$), (X$_2$, Đ$_3$), (X$_2$, X$_1$)
+			\end{itemize}
+			Tổng cộng có $4+4+4+4+4 = 20$ kết quả.
+			
+			\item \textbf{Biến cố A: "lấy được 2 viên bi xanh" (các kết quả thuận lợi):}
+			Các kết quả thuận lợi cho biến cố A là các cặp mà cả hai viên bi đều là bi xanh.
+			Từ danh sách không gian mẫu ở trên, ta chọn ra các cặp thỏa mãn:
+			\begin{itemize}
+				\item (X$_1$, X$_2$)
+				\item (X$_2$, X$_1$)
+			\end{itemize}
+			Vậy, số kết quả thuận lợi cho biến cố A là $n(A) = 2$.
+			
+			\item \textbf{Tính xác suất:}
+			Xác suất để lấy được 2 viên bi xanh là:
+			$$ P(A) = \frac{n(A)}{n(\Omega)} = \frac{2}{20} = \frac{1}{10} $$
+		\end{itemize}
+		\vspace{0.5cm}
+		Kết luận: Xác suất để lấy được 2 viên bi là bi xanh là $\dfrac{1}{10}$.
+	}
+\end{ex}
+
+
+
+\begin{ex}
+	Một nhà may A theo kế hoạch phải may 200 bộ quần áo đồng phục cho học sinh khối 6 của một trường THCS theo thời gian quy định (mỗi ngày nhà may A may được số bộ quần áo là như nhau). Khi thực hiện, do cải tiến kỹ thuật nên mỗi ngày nhà may A may thêm được 5 bộ quần áo và hoàn thành kế hoạch trước 2 ngày. Hỏi theo kế hoạch, mỗi ngày nhà may A may được bao nhiêu bộ quần áo đồng phục?
+	\loigiai{
+		Gọi số bộ quần áo đồng phục nhà may A dự định may mỗi ngày theo kế hoạch là $x$ (bộ).
+		Điều kiện: $x \in \mathbb{N}^*$ (x là số nguyên dương).
+		
+		Thời gian dự định để hoàn thành 200 bộ quần áo theo kế hoạch là: $\dfrac{200}{x}$ (ngày).
+		
+		Khi thực hiện, do cải tiến kỹ thuật, mỗi ngày nhà may A may được: $x+5$ (bộ).
+		Thời gian thực tế để hoàn thành 200 bộ quần áo là: $\dfrac{200}{x+5}$ (ngày).
+		
+		Vì nhà may hoàn thành kế hoạch trước 2 ngày so với thời gian quy định, nên ta có phương trình:
+		$$ \dfrac{200}{x} - \dfrac{200}{x+5} = 2 $$
+		Để giải phương trình, ta quy đồng mẫu số:
+		\begin{align*}
+			\frac{200(x+5)}{x(x+5)} - \frac{200x}{x(x+5)} &= \frac{2x(x+5)}{x(x+5)} \\
+			200(x+5) - 200x &= 2x(x+5) \\
+			200x + 1000 - 200x &= 2x^2 + 10x \\
+			1000 &= 2x^2 + 10x \\
+			2x^2 + 10x - 1000 &= 0
+		\end{align*}
+		Chia cả hai vế cho 2, ta được phương trình bậc hai:
+		$$ x^2 + 5x - 500 = 0 $$
+		Tính biệt thức $\Delta$:
+		$\Delta = b^2 - 4ac = 5^2 - 4(1)(-500) = 25 + 2000 = 2025$.
+		Vì $\Delta > 0$, phương trình có hai nghiệm phân biệt:
+		$\sqrt{\Delta} = \sqrt{2025} = 45$.
+		$$ x_1 = \frac{-b + \sqrt{\Delta}}{2a} = \frac{-5 + 45}{2(1)} = \frac{40}{2} = 20 $$
+		$$ x_2 = \frac{-b - \sqrt{\Delta}}{2a} = \frac{-5 - 45}{2(1)} = \frac{-50}{2} = -25 $$
+		Đối chiếu với điều kiện $x \in \mathbb{N}^*$, ta nhận nghiệm $x=20$ và loại nghiệm $x=-25$.
+		
+		Vậy, theo kế hoạch, mỗi ngày nhà may A may được 20 bộ quần áo đồng phục.
+	}
+\end{ex}
+
+\begin{ex}
+	Cho $\triangle ABC$ có 3 góc nhọn. Vẽ đường tròn tâm O đường kính BC. Đường tròn (O) cắt AB; AC lần lượt ở D và E. BE và CD cắt nhau ở H.
+	\begin{enumerate}
+		\item[a.] Chứng minh bốn điểm A, D, H, E cùng nằm trên một đường tròn. Xác định vị trí tâm I của đường tròn đó.
+		%\item[b.] Chứng minh: AE.AC=AB.AD 	Chứng minh: IE là tiếp tuyến của đường tròn (O)
+	\end{enumerate}
+	\loigiai{
+		\begin{center}
+			\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+				% Def
+				\def\r{3}
+				
+				% Coordinates
+				\coordinate (O) at (0,0);
+				\coordinate (B) at (-\r,0);
+				\coordinate (C) at (\r,0);
+				\coordinate (A) at (-2,5);
+				
+				\coordinate (D) at ($(A)!(C)!(B)$); % D la hinh chieu cua C len AB
+				\coordinate (E) at ($(A)!(B)!(C)$); % E la hinh chieu cua B len AC
+				
+				% De tim H, can \usetikzlibrary{intersections} o preamble
+				\path[name path=DC] (D) -- (C);
+				\path[name path=BE] (B) -- (E);
+				\coordinate[name intersections={of=DC and BE, by=H}]; % H la giao diem DC va BE
+				
+				\coordinate (I) at ($(A)!0.5!(H)$); % I la trung diem cua BC (gia dinh)
+				
+				% Draw
+				\draw (O) circle (\r); % Ve duong tron tam O ban kinh r
+				\draw (A) -- (B) -- (C) -- cycle; % Ve tam giac ABC
+				\draw (C) -- (D); % Ve duong cao CD (tu C xuong AB)
+				\draw (B) -- (E); % Ve duong cao BE (tu B xuong AC)
+				\draw (A) -- (H);
+				
+				% Ky hieu goc vuông bằng lệnh %\pic[draw, angle radius=3mm]{right angle = C--A--B};
+				% Vi du:
+				\pic[draw, angle radius=2mm]{right angle = C--D--A}; % Goc CDA vuong
+				\pic[draw, angle radius=2mm]{right angle = B--E--A}; % Goc BEA vuong
+				
+				% Fill 
+				\fill (O) circle (1.5pt);
+				\fill (B) circle (1.5pt);
+				\fill (C) circle (1.5pt);
+				\fill (A) circle (1.5pt);
+				\fill (D) circle (1.5pt);
+				\fill (E) circle (1.5pt);
+				\fill (H) circle (1.5pt);
+				\fill (I) circle (1.5pt);
+				
+				% Nodes	
+				\node[below left] at (O) {$O$};
+				\node[below left] at (B) {$B$};
+				\node[below right] at (C) {$C$};
+				\node[above] at (A) {$A$};
+				\node[above left] at (D) {$D$}; % Vi tri nhan co the can dieu chinh
+				\node[above right] at (E) {$E$}; % Vi tri nhan co the can dieu chinh
+				\node[below] at (H) {$H$}; % Vi tri nhan co the can dieu chinh
+				\node[left] at (I) {$I$}; % Vi tri nhan co the can dieu chinh
+				% Ve va danh dau doan thẳng bằng nhau
+			\end{tikzpicture}
+			
+		\end{center}
+		\begin{enumerate}
+			\item[a.] Chứng minh bốn điểm A, D, H, E cùng nằm trên một đường tròn. Xác định vị trí tâm I của đường tròn đó.
+			\item[b.] Chứng minh: AE.AC=AB.AD 	Chứng minh: IE là tiếp tuyến của đường tròn (O)
+			
+			\textbf{Chứng minh $AE.AC=AB.AD$}
+			
+			Xét $\triangle AEB$ và $\triangle ADC$
+			
+			$\widehat{ADH} = \widehat{AEB} = 90^\circ$
+			$\widehat{A}$ chung
+			
+			$\Rightarrow \triangle AEB \sim \triangle ADC$ (góc - góc)
+			$\Rightarrow AE \cdot AC = AB \cdot AD$
+			
+		
+			\textbf{IE là tiếp tuyến của đường tròn (O)}
+			
+			Ta có $IA=IH \Rightarrow IA=IE=IH = \frac{1}{2}AH$ (tính chất trung tuyến của tam giác vuông) $\Rightarrow \triangle IAE$ cân ở I $\Rightarrow \widehat{IEA} = \widehat{IAE}$.
+			
+			Mà $\widehat{IAE} = \widehat{EBC}$ (cùng phụ với góc ECB) và $\widehat{AEI} = \widehat{xEC}$ (đối đỉnh). Do $\triangle OEC$ cân ở O $\Rightarrow \widehat{OEC} = \widehat{OCE}$
+			
+			$\Rightarrow \widehat{xEC} + \widehat{CEO} = \widehat{EBC} + \widehat{ECB} = 90^\circ$. Hay $\widehat{xEO} = 90^\circ$
+			
+			Vậy $OE \perp IE$ tại điểm E nằm trên đường tròn (O) $\Rightarrow$ đpcm.
+			
+		\end{enumerate}
+		}
+\end{ex}

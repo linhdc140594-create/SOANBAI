@@ -1,0 +1,381 @@
+import os
+import subprocess
+
+def create_tex_file(output_tex_path):
+    tex_content = r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper, top=1.2cm, bottom=1.2cm, left=1.4cm, right=1.4cm}
+\usepackage{tikz}
+\usetikzlibrary{calc, intersections, angles, arrows.meta, shapes.geometric, positioning}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins, breakable}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{15pt}
+\lhead{\small\textbf{CHUYÊN ĐỀ 9+ | HÌNH HỌC VÀO 10}}
+\rhead{\small\textbf{BÀI 05: TRỰC TÂM ẨN \& TAM GIÁC TRỰC TÂM}}
+\cfoot{\thepage}
+
+% Custom tcolorbox styles
+\tcbset{
+    boxrule=0.8pt,
+    arc=2.5mm,
+    fonttitle=\bfseries\sffamily,
+    coltitle=white
+}
+
+\newtcolorbox{modelbox}[1]{
+    colback=blue!4!white,
+    colframe=blue!75!black,
+    title=#1
+}
+
+\newtcolorbox{formulabox}[1]{
+    colback=orange!3!white,
+    colframe=orange!85!black,
+    title=#1
+}
+
+\newtcolorbox{pedagogybox}[1]{
+    colback=teal!4!white,
+    colframe=teal!80!black,
+    title=#1
+}
+
+\newtcolorbox{solutionbox}[1]{
+    colback=green!4!white,
+    colframe=green!60!black,
+    title=#1
+}
+
+\newtcolorbox{exercisebox}[1]{
+    colback=purple!4!white,
+    colframe=purple!75!black,
+    title=#1
+}
+
+\begin{document}
+
+% ==============================================================
+% TRANG 1: ĐỀ BÀI VÀ HÌNH VẼ TIKZ TRỰC QUAN
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} TUYỆT PHẨM HÌNH HỌC 9+ VÀO LỚP 10 CHUYÊN \& CÔNG LẬP TOP ĐẦU}\\[2mm]
+    {\large\bfseries BÀI HÌNH 05: ĐƯỜNG KÍNH VUÔNG GÓC DÂY CUNG \& KỸ THUẬT TRỰC TÂM ẨN}\\[1mm]
+    \textit{(Trích xuất và phát triển từ Đề 05 - Tuyển tập 55 Đề Thi Tuyển Sinh Vào Lớp 10)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{modelbox}{I. ĐỀ BÀI TOÁN GỐC (TRÍCH ĐỀ 05)}
+Cho đường tròn $(O)$ và dây cung $AB$ không đi qua tâm. Gọi $H$ là trung điểm của $AB$, đường thẳng $HO$ cắt đường tròn $(O)$ tại hai điểm $C$ và $D$ ($C$ thuộc cung nhỏ $AB$). Lấy điểm $M$ thuộc đoạn $AH$ ($M$ khác $A$ và $H$), tia $CM$ cắt đường tròn $(O)$ tại điểm thứ hai là $N$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh bốn điểm $D, N, M, H$ cùng thuộc một đường tròn.
+    \item Gọi $I$ là giao điểm của hai đường thẳng $DN$ và $AB$, $K$ là giao điểm của hai đường thẳng $CI$ và $DM$. Chứng minh $CM \cdot CN = CK \cdot CI$.
+    \item \textbf{(Phân hóa 9+):} Chứng minh điểm $M$ là tâm của đường tròn nội tiếp tam giác trực tâm $HKN$.
+\end{enumerate}
+\end{modelbox}
+
+\vspace{1mm}
+
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.12]
+    % Định nghĩa tọa độ chuẩn xác tuyệt đối
+    \coordinate (O) at (0, 0);
+    \coordinate (D) at (0, 2.6);
+    \coordinate (C) at (0, -2.6);
+    \coordinate (H) at (0, -1.5);
+    \coordinate (A) at (-2.124, -1.5);
+    \coordinate (B) at (2.124, -1.5);
+    \coordinate (M) at (-1.1, -1.5);
+    \coordinate (N) at (-2.6, 0.0);
+    \coordinate (I) at (-4.1, -1.5);
+    \coordinate (K) at (-1.301, -2.251);
+    
+    % Vẽ đường tròn (O)
+    \draw[thick, teal] (O) circle (2.6);
+    
+    % Vẽ tam giác CDI và các cạnh
+    \draw[thick] (C) -- (D);
+    \draw[thick] (I) -- (B);
+    \draw[thick, blue!80!black] (D) -- (I);
+    \draw[thick, blue!80!black] (C) -- (I);
+    \draw[thick, blue!80!black] (C) -- (N);
+    \draw[thick, blue!80!black] (D) -- (K);
+    
+    % Vẽ tam giác trực tâm HKN (nổi bật màu đỏ cam)
+    \draw[thick, red!85!black] (H) -- (K) -- (N) -- cycle;
+    \draw[dashed, purple] (K) -- (M);
+    \draw[dashed, purple] (N) -- (M);
+    
+    % Ký hiệu góc vuông tại 3 chân đường cao H, N, K
+    \pic[draw, angle radius=2.5mm]{right angle = D--H--A};
+    \pic[draw, angle radius=2.5mm]{right angle = D--N--C};
+    \pic[draw, angle radius=2.5mm]{right angle = D--K--I};
+    
+    % Đánh dấu các điểm
+    \fill (O) circle (1.5pt) node[right=2pt] {$O$};
+    \fill (D) circle (1.5pt) node[above] {$D$};
+    \fill (C) circle (1.5pt) node[below] {$C$};
+    \fill (H) circle (1.5pt) node[below right=1pt] {$H$};
+    \fill (A) circle (1.5pt) node[above left] {$A$};
+    \fill (B) circle (1.5pt) node[above right] {$B$};
+    \fill[blue!90!black] (M) circle (1.6pt) node[above=2pt] {$M$};
+    \fill[red] (N) circle (1.5pt) node[above left] {$N$};
+    \fill (I) circle (1.5pt) node[left] {$I$};
+    \fill[red] (K) circle (1.5pt) node[right] {$K$};
+\end{tikzpicture}
+\end{center}
+
+\vspace{1mm}
+
+\begin{pedagogybox}{II. MỤC TIÊU TRỌNG TÂM \& BẢN ĐỒ TƯ DUY 9+}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Cốt lõi hình học:} Khám phá \textbf{"Trực tâm ẩn $M$"} trong tam giác lớn $CDI$. Hai đường cao $IH \perp CD$ và $CN \perp DI$ giao nhau tại $M \implies M$ là trực tâm của $\triangle CDI \implies DM \perp CI$ tại $K$.
+    \item \textbf{Đòn bẩy tư duy ngược:} Tam giác $HKN$ chính là tam giác trực tâm của $\triangle CDI$ (tạo bởi ba chân đường cao $H, K, N$). Kế thừa Bổ đề Bài 04, trực tâm của tam giác lớn đồng thời là tâm đường tròn nội tiếp của tam giác trực tâm, do đó $M$ là tâm nội tiếp của $\triangle HKN$!
+\end{itemize}
+\end{pedagogybox}
+
+\newpage
+
+% ==============================================================
+% TRANG 2: SƠ ĐỒ TƯ DUY NGƯỢC HÌNH CÂY THÔNG
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} SƠ ĐỒ TƯ DUY NGƯỢC HÌNH CÂY THÔNG (PINE-TREE FORMULA TREE)}\\[1.5mm]
+    {\large\bfseries BẺ KHÓA: CHỨNG MINH $M$ LÀ TÂM ĐƯỜNG TRÒN NỘI TIẾP $\triangle HKN$}\\[1mm]
+    \textit{(Quy tắc đọc ngược: Từ bệ đỡ khởi phát ở chân trang $\implies$ Hội tụ tại đỉnh ngọn)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{center}
+\begin{tikzpicture}[
+    x=1cm, y=1cm,
+    font=\footnotesize,
+    >=Stealth,
+    arr_main/.style={-{Stealth[length=3.8mm, width=2.4mm]}, line width=1.6pt, red!85!black},
+    arr_sub/.style={-{Stealth[length=3.4mm, width=2.2mm]}, line width=1.3pt, blue!75!black},
+    arr_root/.style={-{Stealth[length=3.6mm, width=2.4mm]}, line width=1.4pt, teal!85!black},
+    target_node/.style={
+        rectangle, draw=red!85!black, fill=red!15, line width=1.4pt, rounded corners=2.5mm,
+        inner sep=6pt, align=center, text width=11.5cm
+    },
+    step_node/.style={
+        rectangle, draw=blue!80!black, fill=blue!8, line width=1.1pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=13.5cm
+    },
+    aux_node/.style={
+        rectangle, draw=orange!90!black, fill=orange!12, line width=1.2pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=14.8cm
+    },
+    branch_node/.style={
+        rectangle, draw=purple!80!black, fill=purple!8, line width=1.1pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=7.2cm
+    },
+    sim_node/.style={
+        rectangle, draw=blue!85!black, fill=blue!8, line width=1.1pt, rounded corners=2mm,
+        inner sep=5pt, align=center, text width=15.5cm
+    },
+    base_node/.style={
+        rectangle, draw=teal!95!black, fill=teal!20, line width=1.4pt, rounded corners=3mm,
+        inner sep=6pt, align=center, text width=16.8cm
+    }
+]
+
+% Đỉnh cây thông
+\node[target_node] (T1) at (0, 0) {
+    \textbf{\large\color{red!85!black} [ĐÍCH ĐẾN]:\ $M$ LÀ TÂM NỘI TIẾP TAM GIÁC $HKN$}\\[1mm]
+    $\boldsymbol{\iff KM, NM, HM \text{ LÀ CÁC PHÂN GIÁC TRONG CỦA } \triangle HKN}$
+};
+
+% Tầng 2
+\node[step_node] (T2) at (0, -1.9) {
+    $\boldsymbol{\Uparrow} \quad \text{Phân giác trong đỉnh } K:\quad \boldsymbol{\widehat{MKH} = \widehat{MKN} \iff 90^\circ - \widehat{IKH} = 90^\circ - \widehat{CKN} \quad (DK \perp CI)}$
+};
+
+% Tầng 3
+\node[aux_node] (T3) at (0, -3.8) {
+    $\boldsymbol{\Uparrow} \quad \text{Quy về so sánh góc:}\quad \boldsymbol{\widehat{IKH} = \widehat{CKN} \iff \widehat{IMH} = \widehat{CDN}}$\\[1mm]
+    \textit{(Hai góc phụ nhau với $90^\circ$ qua góc vuông $\widehat{DKI} = \widehat{DKC} = 90^\circ$)}
+};
+
+% Tầng 4: Hai nhánh
+\node[branch_node] (T4_left) at (-4.2, -6.1) {
+    \textbf{\color{purple!90!black} [NHÁNH 1 -- TỨ GIÁC $HKMI$]:}\\[1mm]
+    $\widehat{MHI} = \widehat{MKI} = 90^\circ$\\[0.8mm]
+    $\implies HKMI \text{ nội tiếp đường kính } MI$\\[0.8mm]
+    $\boldsymbol{\implies \widehat{IKH} = \widehat{IMH}} \quad (\text{cùng chắn } \stackrel{\frown}{IH})$
+};
+
+\node[branch_node] (T4_right) at (4.2, -6.1) {
+    \textbf{\color{purple!90!black} [NHÁNH 2 -- TỨ GIÁC $DKNC$]:}\\[1mm]
+    $\widehat{DKC} = \widehat{DNC} = 90^\circ$\\[0.8mm]
+    $\implies DKNC \text{ nội tiếp đường kính } CD$\\[0.8mm]
+    $\boldsymbol{\implies \widehat{CKN} = \widehat{CDN}} \quad (\text{cùng chắn } \stackrel{\frown}{CN})$
+};
+
+% Tầng 5: Tam giác đồng dạng qua đối đỉnh
+\node[sim_node] (T5) at (0, -8.5) {
+    $\boldsymbol{\Uparrow} \quad \text{So sánh qua đối đỉnh:}\quad \boldsymbol{\widehat{IMH} = \widehat{DMN} = 90^\circ - \widehat{MDN} = \widehat{CDN}} \quad \left(\triangle IMH \backsim \triangle CDN\right)$
+};
+
+% Bệ đỡ khởi phát: Trực tâm ẩn M
+\node[base_node] (T6) at (0, -10.6) {
+    \textbf{\color{teal!95!black} [GỐC RỄ KHỞI PHÁT -- TRỰC TÂM ẨN $M$]:}\\[1mm]
+    $H \text{ là trung điểm } AB \implies CD \perp AB \text{ tại } H \implies \boldsymbol{IH \perp CD \text{ tại } H} \quad (\text{Đường cao 1})\\[0.8mm]
+    $N \in (O) \text{ đường kính } CD \implies \boldsymbol{CN \perp DI \text{ tại } N} \quad (\text{Đường cao 2})\\[0.8mm]
+    $\boldsymbol{\implies M = IH \cap CN \text{ LÀ TRỰC TÂM } \triangle CDI \implies DK \perp CI \text{ TẠI } K} \quad (\text{Đường cao 3})$
+};
+
+% Mũi tên liên kết
+\draw[arr_main] (T2.north) -- (T1.south);
+\draw[arr_main] (T3.north) -- (T2.south);
+\draw[arr_sub] (T4_left.north) to[out=90, in=210] (T3.south);
+\draw[arr_sub] (T4_right.north) to[out=90, in=330] (T3.south);
+\draw[arr_sub] (T5.north) to[out=150, in=270] (T4_left.south);
+\draw[arr_sub] (T5.north) to[out=30, in=270] (T4_right.south);
+\draw[arr_root] (T6.north) -- (T5.south);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{1mm}
+
+\begin{formulabox}{III. CÔNG THỨC VÀ BỔ ĐỀ CHỐT HẠ}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Bổ đề đường kính vuông góc dây cung:} $H$ là trung điểm dây cung $AB \implies CD \perp AB$ tại $H$.
+    \item \textbf{Kỹ thuật nhận diện Trực tâm ẩn:} Khi xuất hiện hai góc vuông $IH \perp CD$ và $CN \perp DI$, giao điểm $M$ chính là trực tâm của $\triangle CDI$, kéo theo đường thứ ba $DM \perp CI$ tại $K$.
+\end{itemize}
+\end{formulabox}
+
+\newpage
+
+% ==============================================================
+% TRANG 3: LỜI GIẢI XUÔI CHUẨN MỰC & BAREM ĐIỂM
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} LỜI GIẢI XUÔI CHUẨN MỰC \& BAREM ĐIỂM CHI TIẾT}\\[1.5mm]
+    {\large\bfseries BÀI TOÁN HÌNH HỌC 9+ (3,0 ĐIỂM - CHUẨN THI TUYỂN SINH VÀO LỚP 10)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{solutionbox}{LỜI GIẢI CHI TIẾT TỪNG BƯỚC}
+\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+    \item \textbf{Chứng minh bốn điểm $D, N, M, H$ cùng thuộc một đường tròn (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Vì $CD$ đi qua tâm $O$ nên $CD$ là đường kính của $(O)$. Điểm $N \in (O)$ nên $\widehat{CND} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn) $\implies \widehat{DNM} = 90^\circ$. \hfill \textbf{[0,25đ]}
+        \item Do $H$ là trung điểm của dây cung $AB$ không đi qua tâm nên đường kính $CD \perp AB$ tại $H$, suy ra $\widehat{DHM} = 90^\circ$. \hfill \textbf{[0,25đ]}
+        \item Xét tứ giác $DNMH$ có: $\widehat{DNM} + \widehat{DHM} = 90^\circ + 90^\circ = 180^\circ$.\\
+        Do đó tứ giác $DNMH$ nội tiếp đường tròn đường kính $DM$. Bốn điểm $D, N, M, H$ cùng thuộc đường tròn này. \hfill \textbf{[0,25đ]}
+    \end{itemize}
+
+    \vspace{1mm}
+    \item \textbf{Chứng minh $M$ là trực tâm $\triangle CDI$ và $CM \cdot CN = CK \cdot CI$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Xét $\triangle CDI$ có $CD \perp AB$ tại $H \implies IH \perp CD$ tại $H$, do đó $IH$ là đường cao hạ từ đỉnh $I$. Lại có $\widehat{CND} = 90^\circ \implies CN \perp DI$ tại $N$, do đó $CN$ là đường cao hạ từ đỉnh $C$. \hfill \textbf{[0,25đ]}
+        \item Hai đường cao $IH$ và $CN$ cắt nhau tại điểm $M$. Suy ra $M$ là trực tâm của $\triangle CDI$.\\
+        Do đó đường thẳng qua đỉnh thứ ba $D$ và $M$ là đường cao thứ ba: $DM \perp CI$ tại điểm $K = DM \cap CI \implies \widehat{CKM} = 90^\circ$. \hfill \textbf{[0,25đ]}
+        \item Xét hai tam giác vuông $\triangle CMK$ và $\triangle CIN$ có:
+        $\widehat{CKM} = \widehat{CNI} = 90^\circ$ và $\widehat{ICN}$ chung.\\
+        Suy ra $\triangle CMK \backsim \triangle CIN$ (g-g) $\implies \dfrac{CM}{CI} = \dfrac{CK}{CN} \implies CM \cdot CN = CK \cdot CI$ (đpcm). \hfill \textbf{[0,25đ]}
+    \end{itemize}
+
+    \vspace{1mm}
+    \item \textbf{Chứng minh $KM$ là tia phân giác trong của góc $\widehat{HKN}$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Tứ giác $HKMI$ có $\widehat{MHI} = \widehat{MKI} = 90^\circ \implies HKMI$ nội tiếp đường tròn đường kính $MI$.\\
+        Suy ra $\widehat{IKH} = \widehat{IMH}$ (hai góc nội tiếp cùng chắn cung $IH$). \hfill \textbf{[0,25đ]}
+        \item Tứ giác $DKNC$ có $\widehat{DKC} = \widehat{DNC} = 90^\circ \implies DKNC$ nội tiếp đường tròn đường kính $CD$.\\
+        Suy ra $\widehat{CKN} = \widehat{CDN}$ (hai góc nội tiếp cùng chắn cung $CN$). \hfill \textbf{[0,25đ]}
+        \item Lại có $\widehat{IMH} = \widehat{DMN}$ (đối đỉnh). Trong tam giác vuông $DMN$ vuông tại $N$, ta có $\widehat{DMN} = 90^\circ - \widehat{MDN} = \widehat{CDN}$. Suy ra $\widehat{IKH} = \widehat{CKN}$.\\
+        Vì $DM \perp CI$ tại $K$ nên: $\widehat{MKH} = 90^\circ - \widehat{IKH} = 90^\circ - \widehat{CKN} = \widehat{MKN}$.\\
+        Vậy $KM$ là tia phân giác trong của góc $\widehat{HKN}$. \hfill \textbf{[0,25đ]}
+    \end{itemize}
+
+    \vspace{1mm}
+    \item \textbf{Chứng minh điểm $M$ là tâm nội tiếp tam giác $HKN$ (0,75 điểm)}
+    \begin{itemize}[leftmargin=*, nosep]
+        \item Chứng minh hoàn toàn tương tự đối với đỉnh $N$, ta có $NM$ là tia phân giác trong của góc $\widehat{HNK}$. \hfill \textbf{[0,25đ]}
+        \item Tương tự đối với đỉnh $H$, ta cũng có $HM$ là tia phân giác trong của góc $\widehat{KHN}$. \hfill \textbf{[0,25đ]}
+        \item Trong tam giác trực tâm $HKN$, ba đường phân giác trong $KM, NM, HM$ cùng đồng quy tại điểm $M$.\\
+        Vậy điểm $M$ chính là tâm của đường tròn nội tiếp tam giác trực tâm $HKN$ (đpcm). \hfill \textbf{[0,25đ]}
+    \end{itemize}
+\end{enumerate}
+\end{solutionbox}
+
+\newpage
+
+% ==============================================================
+% TRANG 4: BÌNH LUẬN SƯ PHẠM & BÀI TẬP PHÁT TRIỂN
+% ==============================================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} BÌNH LUẬN SƯ PHẠM, BẪY TƯ DUY \& BÀI TẬP PHÁT TRIỂN}\\[1.5mm]
+    {\large\bfseries GIẢI MÃ NGHỆ THUẬT DẪN DẮT \& MỞ RỘNG TẦM NHÌN HÌNH HỌC 9+}
+\end{center}
+
+\vspace{1mm}
+
+\begin{pedagogybox}{I. NGHỆ THUẬT SƯ PHẠM: TẠI SAO LẠI NHẬN DIỆN ĐƯỢC TAM GIÁC CDI?}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Cội nguồn tư duy:} Đề bài cho điểm $M$ nằm tùy ý trên đoạn $AH$, tạo cảm giác bài toán là một bài hình động khó lường. Tuy nhiên, hai đường thẳng $AB$ và $CD$ vuông góc với nhau tại $H$, và điểm $N$ thuộc đường tròn đường kính $CD$ tạo ra góc vuông $\widehat{CND} = 90^\circ$.
+    \item \textbf{Kỹ thuật quy về trực tâm:} Hai góc vuông này cùng thuộc về các đỉnh của tam giác $CDI$. Khi nhận ra $M = IH \cap CN$ chính là trực tâm của $\triangle CDI$, điểm $M$ từ một điểm "di động đơn lẻ" lập tức trở thành tâm điểm kết nối toàn bộ hệ thống ba đường cao và ba chân đường cao $H, K, N$!
+    \item \textbf{4 câu hỏi dẫn dắt của Giáo viên trên lớp:}
+    \begin{enumerate}[label=\arabic*., nosep]
+        \item Đường kính $CD$ đi qua trung điểm $H$ của dây cung $AB$ cho ta tính chất vuông góc nào?
+        \item Góc $\widehat{CND}$ chắn nửa đường tròn đường kính $CD$ bằng bao nhiêu độ?
+        \item Hai đoạn thẳng $IH$ và $CN$ vuông góc với những cạnh nào của tam giác $CDI$? Vậy $M$ đóng vai trò gì?
+        \item Ba điểm $H, K, N$ tạo thành tam giác gì của tam giác $CDI$? Áp dụng Bổ đề Bài 04 ta suy ra điều gì về điểm $M$?
+    \end{enumerate}
+\end{itemize}
+\end{pedagogybox}
+
+\vspace{1mm}
+
+\begin{pedagogybox}{II. CÁC BẪY TƯ DUY VÀ SAI LẦM HỌC SINH THƯỜNG GẶP}
+\begin{itemize}[leftmargin=*, nosep]
+    \item \textbf{Bẫy 1 -- Dùng đại số tính độ dài phức tạp:} Nhiều học sinh ở câu b cố gắng tính độ dài các đoạn $CM, CN, CK, CI$ theo $R$ và khoảng cách $OH$. Cách tiếp cận này dẫn tới bế tắc vì tính toán cồng kềnh. Trong khi đó, việc nhận ra trực tâm $M \implies DM \perp CI$ tại $K$ cho ngay tam giác đồng dạng $\triangle CMK \backsim \triangle CIN$ trong đúng 2 dòng!
+    \item \textbf{Bẫy 2 -- Nhầm lẫn thứ tự các điểm trên dây cung $AB$:} Cần lưu ý $M \in AH$, $H$ là trung điểm $AB$ và $I = DN \cap AB$. Tùy thuộc vị trí của $M$, điểm $I$ nằm ngoài đoạn $AB$ về phía $A$.
+\end{itemize}
+\end{pedagogybox}
+
+\vspace{1mm}
+
+\begin{exercisebox}{III. BÀI TẬP PHÁT TRIỂN ĐỈNH CAO (LUYỆN TẬP 9+)}
+\textbf{Bài toán phát triển 1 (Đường tròn Euler 9 điểm):}\\
+Chứng minh rằng bốn điểm $H, K, N$ và trung điểm của ba đoạn thẳng $MC, MD, MI$ cùng nằm trên một đường tròn (Đường tròn Euler của $\triangle CDI$). Bán kính của đường tròn này bằng một nửa bán kính đường tròn ngoại tiếp $\triangle CDI$.\\[1mm]
+\textit{(Gợi ý: Áp dụng định lý về đường tròn Euler 9 điểm đi qua ba chân đường cao và ba trung điểm của các đoạn thẳng nối trực tâm với ba đỉnh).}\\[2mm]
+\textbf{Bài toán phát triển 2 (Hệ thống Trực tâm liên hoàn):}\\
+Kéo dài $KM$ cắt đường thẳng $CD$ tại điểm $P$. Chứng minh rằng điểm $P$ chính là trực tâm của tam giác $CNI$.\\[1mm]
+\textit{(Gợi ý: Chứng minh $IP \perp CN$ và $NP \perp CI$ bằng cách khai thác tính chất trực tâm kép trong tứ giác toàn phần).}
+\end{exercisebox}
+
+\end{document}
+"""
+    with open(output_tex_path, 'w', encoding='utf-8') as f:
+        f.write(tex_content)
+
+def compile_pdf(tex_path):
+    folder = os.path.dirname(tex_path)
+    base_name = os.path.splitext(os.path.basename(tex_path))[0]
+    cmd = ['pdflatex', '-interaction=nonstopmode', base_name + '.tex']
+    print(f"Compiling {base_name}.tex...")
+    res = subprocess.run(cmd, cwd=folder, capture_output=True, text=True, encoding='utf-8', errors='ignore')
+    if res.returncode == 0:
+        print(f"SUCCESS: {base_name}.pdf created!")
+    else:
+        print(f"Compilation finished (check output)")
+
+if __name__ == '__main__':
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    tex_file = os.path.join(base_dir, 'SO_DO_TU_DUY_NGUOC_HINH9.tex')
+    create_tex_file(tex_file)
+    compile_pdf(tex_file)

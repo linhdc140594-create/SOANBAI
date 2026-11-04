@@ -1,0 +1,135 @@
+{
+  "bai_toan": {
+    "ten_bai": "Hình học 9+ Đề 12 - Tuyển tập 55 Đề Tuyển Sinh Vào 10",
+    "mo_hinh": "Trực tâm tam giác nhọn, đường trung trực của EF đi qua trung điểm BC và tâm đường tròn ngoại tiếp tam giác AEF, hệ thức lượng và phương tích",
+    "gia_thiet": "Tam giác ABC nhọn nội tiếp (O; R), đường cao AD, BF, CE cắt nhau tại H. AD cắt (O) tại K, KE cắt (O) tại I. OM vuông góc BC tại M. P là tâm ngoại tiếp tam giác AEF. N là giao của CI và EF.",
+    "ket_luan_chinh": "1) CE^2 = CN . CI; 2) Ba điểm M, N, P thẳng hàng."
+  },
+  "so_do_tu_duy_nguoc": [
+    {
+      "tang": 1,
+      "dich_den": "M, N, P thẳng hàng",
+      "nhan_xet_cot_loi": "OM vuông góc BC nên M là trung điểm BC. Vì góc BEC = góc BFC = 90 độ nên E, F thuộc đường tròn đường kính BC, tâm M, suy ra ME = MF = BC/2. Mặt khác PE = PF vì P là tâm đường tròn ngoại tiếp tam giác AEF. Do đó M và P cùng thuộc đường trung trực của EF, tức đường thẳng PM là đường trung trực của EF.",
+      "cau_hoi_truy_nguoc": "Đường thẳng PM đã cố định là trung trực của EF. Muốn M, N, P thẳng hàng thì điểm N (đang nằm trên EF) phải có tính chất gì?",
+      "muc_tieu_con": "Chứng minh N thuộc đường trung trực của EF. Vì N nằm trên EF nên điều này tương đương N là trung điểm của EF."
+    },
+    {
+      "tang": 2,
+      "dich_den": "N là trung điểm của EF",
+      "cau_hoi_truy_nguoc": "EF là đoạn thẳng đứng một mình. Làm thế nào để gắn nó vào một hình quen thuộc có tính chất trung điểm?",
+      "vu_khi_duong_phu": "Kẻ EG vuông góc với AC tại G. Khi đó tam giác EGF vuông tại G có cạnh huyền EF. Với N nằm trên EF, nếu NG = NF thì góc NGF = góc NFG, suy ra góc NGE = 90 độ - góc NGF = 90 độ - góc NFG = góc NEG, nên NE = NG. Vậy NE = NG = NF và N là trung điểm EF. Do đó chỉ cần chứng minh tam giác NGF cân tại N.",
+      "muc_tieu_con": "Chứng minh góc NGF = góc NFG"
+    },
+    {
+      "tang": 3,
+      "dich_den": "góc NGF = góc NFG",
+      "cau_hoi_truy_nguoc": "Góc NFG liên hệ gì với các góc của tam giác ABC và đường tròn (O)?",
+      "suy_luan": "Tứ giác BEFC nội tiếp nên góc AFE = góc ABC. Vì AF = AB.cosA, AG = AE.cosA = AC.cos^2 A và AC.cosA < AB trong tam giác nhọn, nên AG < AF, tức G nằm giữa A và F. Do đó góc NFG = góc AFE = góc ABC. Trong (O), góc ABC = góc AIC (hai góc nội tiếp cùng chắn cung AC, B và I cùng phía với AC). Vậy cần chứng minh góc NGF = góc AIC.",
+      "muc_tieu_con": "Chứng minh góc NGF = góc AIC"
+    },
+    {
+      "tang": 4,
+      "dich_den": "góc NGF = góc AIC",
+      "cau_hoi_truy_nguoc": "Làm thế nào để chuyển mối quan hệ hai góc này về tam giác đồng dạng?",
+      "suy_luan": "Vì F nằm giữa G và C nên góc NGF = góc NGC. Xét tam giác CGN và tam giác CIA có góc C chung. Hai tam giác đồng dạng (c-g-c) khi và chỉ khi CG/CI = CN/CA, tương đương CG . CA = CN . CI. Khi đó góc CGN = góc CIA.",
+      "muc_tieu_con": "Chứng minh tích CG . CA = CN . CI"
+    },
+    {
+      "tang": 5,
+      "dich_den": "CG . CA = CN . CI (điểm khởi phát của lời giải xuôi)",
+      "cau_hoi_truy_nguoc": "Tại sao CG . CA lại bằng CN . CI?",
+      "suy_luan": "Trong tam giác AEC vuông tại E có đường cao EG, hệ thức lượng cho CG . CA = CE^2. Câu b1 đã chứng minh CE^2 = CN . CI. Suy ra CG . CA = CN . CI. Đây là mắt xích nối câu b1 với câu b2.",
+      "muc_tieu_con": "Đã đủ dữ kiện, chuyển sang trình bày lời giải xuôi: CG . CA = CN . CI => tam giác CGN đồng dạng tam giác CIA => góc NGF = góc ABC = góc NFG => NG = NF => N là trung điểm EF => N thuộc trung trực PM của EF => M, N, P thẳng hàng."
+    }
+  ],
+  "nghe_thuat_su_pham": {
+    "tai_sao_nghi_ra_duong_phu": "Điểm E đã có góc AEC = 90 độ. Hạ EG vuông góc AC tạo ra tam giác vuông EGF nhận EF làm cạnh huyền, đồng thời cho ngay hệ thức lượng CE^2 = CG . CA. Hệ thức này ghép trực tiếp với kết quả CE^2 = CN . CI ở câu trước.",
+    "chuoi_cau_hoi_dan_dat": [
+      "Câu hỏi 1: Điểm M và điểm P có tính chất đối xứng gì đối với đoạn thẳng EF?",
+      "Câu hỏi 2: Vậy muốn M, N, P thẳng hàng, điểm N bắt buộc phải có tính chất gì trên đoạn thẳng EF?",
+      "Câu hỏi 3: Đoạn thẳng EF đang lơ lửng, muốn chứng minh trung điểm ta nên gắn nó vào loại hình học nào?",
+      "Câu hỏi 4: Ta đã chứng minh CE^2 = CN . CI ở câu trước, làm sao tạo ra một tích đoạn thẳng mới bằng CE^2?"
+    ]
+  },
+  "barem_diem": [
+    {
+      "muc": "Câu a",
+      "diem": 0.75,
+      "noi_dung": "Chứng minh tứ giác BEHD nội tiếp đường tròn đường kính BH"
+    },
+    {
+      "muc": "Câu b1",
+      "diem": 0.75,
+      "noi_dung": "Chứng minh CE^2 = CN . CI qua hai tam giác đồng dạng CEN và CIE"
+    },
+    {
+      "muc": "Câu b2 - Ý 1",
+      "diem": 0.25,
+      "noi_dung": "Chứng minh PM là đường trung trực của đoạn thẳng EF"
+    },
+    {
+      "muc": "Câu b2 - Ý 2",
+      "diem": 0.25,
+      "noi_dung": "Kẻ đường phụ EG vuông góc AC, chứng minh tam giác CNG đồng dạng tam giác CAI"
+    },
+    {
+      "muc": "Câu b2 - Ý 3",
+      "diem": 0.25,
+      "noi_dung": "Chứng minh tam giác NGF cân tại N, suy ra N là trung điểm của EF"
+    },
+    {
+      "muc": "Câu b2 - Ý 4",
+      "diem": 0.25,
+      "noi_dung": "Từ PM là trung trực EF và N là trung điểm EF suy ra M, N, P thẳng hàng"
+    }
+  ],
+  "so_do_cong_thuc_nguoc": {
+    "tieu_de": "Sơ đồ công thức suy luận ngược thuần túy (Logic Formula Tree)",
+    "cau_b1": [
+      {
+        "dich": "CE^2 = CN . CI"
+      },
+      {
+        "suy_nguoc": "CE / CI = CN / CE"
+      },
+      {
+        "suy_nguoc": "ΔCEN ∼ ΔCIE (g-g)"
+      },
+      {
+        "suy_nguoc": "{ góc_ECI chung ; góc_CEN = góc_EIC }"
+      },
+      {
+        "suy_nguoc": "{ góc_CEN = góc_FEH = góc_FAH = góc_KAC (AEHF nội tiếp) ; góc_EIC = góc_KIC = góc_KAC ((O)) } (GIẢ THIẾT GỐC)"
+      }
+    ],
+    "cau_b2": [
+      {
+        "dich": "M, N, P thẳng hàng"
+      },
+      {
+        "suy_nguoc": "N ∈ PM (với PM là trung trực EF do ME = MF = BC/2 và PE = PF)"
+      },
+      {
+        "suy_nguoc": "N là trung điểm EF <=> NE = NF"
+      },
+      {
+        "suy_nguoc": "Kẻ EG ⊥ AC => ΔEGF vuông tại G có trung tuyến GN = NE = NF <=> ΔNGF cân tại N"
+      },
+      {
+        "suy_nguoc": "góc_NGF = góc_NFG"
+      },
+      {
+        "suy_nguoc": "góc_NGF = góc_AIC (do góc_NFG = góc_AFE = góc_ABC = góc_AIC)"
+      },
+      {
+        "suy_nguoc": "ΔCNG ∼ ΔCAI (c-g-c, góc_C chung)"
+      },
+      {
+        "suy_nguoc": "CG / CN = CI / CA <=> CG . CA = CN . CI"
+      },
+      {
+        "suy_nguoc": "{ CG . CA = CE^2 (hệ thức lượng ΔAEC vuông) ; CN . CI = CE^2 (kết quả câu b1) } => CG . CA = CN . CI (ĐIỂM XUẤT PHÁT)"
+      }
+    ]
+  }
+}

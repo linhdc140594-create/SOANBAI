@@ -1,0 +1,271 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 10 - BUỔI 01",
+  "title_p2": "TOÁN 6 - TUẦN 10 - BUỔI 01",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_10_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Nhiệt độ $5^\\circ\\text{C}$ dưới $0^\\circ\\text{C}$ được biểu diễn bằng số nguyên là:",
+          "$-5^\\circ\\text{C}$"
+        ],
+        [
+          "Điền kí hiệu thích hợp $(\\in, \\notin)$ vào chỗ chấm: $-7 \\;\\dots\\; \\mathbb{N}$",
+          "$\\notin$"
+        ],
+        [
+          "Số đối của số $-18$ là:",
+          "$18$"
+        ],
+        [
+          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $4$ đơn vị là:",
+          "$-4$"
+        ],
+        [
+          "Khoảng cách giữa điểm $-3$ và điểm $5$ trên trục số bằng:",
+          "$8$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-3 \\le x \\le 4$?",
+          "$8$"
+        ],
+        [
+          "Tổng tất cả các số nguyên $x$ thỏa mãn $-5 < x < 5$ bằng:",
+          "$0$"
+        ],
+        [
+          "Hình có tâm đối xứng trong: Vuông, Tam giác đều, Thang cân là:",
+          "Hình vuông"
+        ],
+        [
+          "Hình bình hành có đáy $15\\text{ cm}$, chiều cao tương ứng $8\\text{ cm}$. Diện tích là:",
+          "$120\\text{ cm}^2$"
+        ],
+        [
+          "Nhiệt độ Sa Pa sáng là $3^\\circ\\text{C}$, đêm giảm $5^\\circ\\text{C}$. Nhiệt độ ban đêm là:",
+          "$-2^\\circ\\text{C}$"
+        ]
+      ],
+      "q11": {
+        "a": "$36 + 148 + 64 + 52$",
+        "b": "$46 \\cdot 68 + 46 \\cdot 32$",
+        "c": "$7 \\cdot 2^3 - 36 : 3^2 + 2026^0$",
+        "d": "$160 : (28 - 12) + 4^2 \\cdot 3$",
+        "e": "$150 : [35 - (11 - 6)^2]$",
+        "f": "$120 : \\{50 - [35 - (10 - 5)^2]\\}$"
+      },
+      "q12": {
+        "a": "$3x - 17 = 28$",
+        "b": "$5(x + 7) - 15 = 45$",
+        "c": "Tập hợp các số nguyên $x$ sao cho $-3 \\le x < 4$",
+        "d": "$2 \\cdot 3^{x-1} + 17 = 71$"
+      },
+      "q13": {
+        "de": "Đỉnh núi Fansipan có độ cao $3\\,143\\text{ m}$ trên mực nước biển. Đáy Rãnh Mariana nằm ở độ sâu $10\\,994\\text{ m}$ dưới mực nước biển.",
+        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Fansipan và độ sâu đáy Rãnh Mariana so với mực nước biển.",
+        "b": "Tính khoảng cách theo phương thẳng đứng (độ chênh lệch độ cao) giữa đỉnh Fansipan và đáy Rãnh Mariana."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số $A = \\dfrac{n + 5}{n + 1}$ nhận giá trị là một số nguyên."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Độ sâu $20\\text{ m}$ dưới mực nước biển được biểu diễn bằng số nguyên là:",
+          "$-20\\text{ m}$"
+        ],
+        [
+          "Điền kí hiệu thích hợp $(\\in, \\notin)$ vào chỗ chấm: $-12 \\;\\dots\\; \\mathbb{Z}$",
+          "$\\in$"
+        ],
+        [
+          "Số đối của số $25$ là:",
+          "$-25$"
+        ],
+        [
+          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $6$ đơn vị là:",
+          "$-6$"
+        ],
+        [
+          "Khoảng cách giữa điểm $-4$ và điểm $6$ trên trục số bằng:",
+          "$10$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-4 \\le x \\le 5$?",
+          "$10$"
+        ],
+        [
+          "Tổng tất cả các số nguyên $x$ thỏa mãn $-6 < x < 6$ bằng:",
+          "$0$"
+        ],
+        [
+          "Chữ cái có cả trục và tâm đối xứng trong A, H, M, O là:",
+          "H, O"
+        ],
+        [
+          "Hình bình hành có đáy $16\\text{ cm}$, chiều cao tương ứng $9\\text{ cm}$. Diện tích là:",
+          "$144\\text{ cm}^2$"
+        ],
+        [
+          "Tàu ngầm ở độ cao $-30\\text{ m}$, lặn sâu thêm $20\\text{ m}$. Độ cao mới của tàu là:",
+          "$-50\\text{ m}$"
+        ]
+      ],
+      "q11": {
+        "a": "$47 + 136 + 53 + 64$",
+        "b": "$57 \\cdot 74 + 57 \\cdot 26$",
+        "c": "$8 \\cdot 2^3 - 45 : 3^2 + 2025^0$",
+        "d": "$180 : (35 - 17) + 5^2 \\cdot 2$",
+        "e": "$180 : [45 - (12 - 7)^2]$",
+        "f": "$160 : \\{50 - [35 - (12 - 7)^2]\\}$"
+      },
+      "q12": {
+        "a": "$4x - 19 = 37$",
+        "b": "$4(x + 8) - 18 = 46$",
+        "c": "Tập hợp các số nguyên $x$ sao cho $-4 < x \\le 3$",
+        "d": "$3 \\cdot 2^{x+1} - 15 = 33$"
+      },
+      "q13": {
+        "de": "Đỉnh núi Bà Đen có độ cao $986\\text{ m}$ trên mực nước biển. Một tàu ngầm nghiên cứu đại dương đang hoạt động ở độ sâu $450\\text{ m}$ dưới mực nước biển.",
+        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh núi Bà Đen và vị trí tàu ngầm so với mực nước biển.",
+        "b": "Tính khoảng cách theo phương thẳng đứng giữa đỉnh núi Bà Đen và vị trí tàu ngầm."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số $B = \\dfrac{n + 7}{n + 2}$ nhận giá trị là một số nguyên."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Một doanh nghiệp bị lỗ $15$ triệu đồng được biểu diễn bằng số nguyên là:",
+          "$-15\\text{ triệu}$"
+        ],
+        [
+          "Điền kí hiệu thích hợp $(\\in, \\notin)$ vào chỗ chấm: Số $0 \\;\\dots\\; \\mathbb{Z}^-$ (số nguyên âm)",
+          "$\\notin$"
+        ],
+        [
+          "Số đối của số $-36$ là:",
+          "$36$"
+        ],
+        [
+          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $7$ đơn vị là:",
+          "$-7$"
+        ],
+        [
+          "Khoảng cách giữa điểm $-5$ và điểm $3$ trên trục số bằng:",
+          "$8$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-5 < x \\le 3$?",
+          "$8$"
+        ],
+        [
+          "Tổng tất cả các số nguyên $x$ thỏa mãn $-4 < x \\le 4$ bằng:",
+          "$4$"
+        ],
+        [
+          "Hình bình hành có tất cả bao nhiêu tâm đối xứng?",
+          "$1$"
+        ],
+        [
+          "Hình bình hành có đáy $18\\text{ cm}$, chiều cao tương ứng $7\\text{ cm}$. Diện tích là:",
+          "$126\\text{ cm}^2$"
+        ],
+        [
+          "Tài khoản có $500\\,000\\text{ đ}$, rút $700\\,000\\text{ đ}$. Số dư tài khoản là:",
+          "$-200\\,000\\text{ đ}$"
+        ]
+      ],
+      "q11": {
+        "a": "$28 + 155 + 72 + 45$",
+        "b": "$68 \\cdot 63 + 68 \\cdot 37$",
+        "c": "$6 \\cdot 2^3 - 27 : 3^2 + 2024^0$",
+        "d": "$140 : (26 - 12) + 3^2 \\cdot 6$",
+        "e": "$210 : [55 - (13 - 8)^2]$",
+        "f": "$200 : \\{50 - [35 - (13 - 8)^2]\\}$"
+      },
+      "q12": {
+        "a": "$5x - 23 = 42$",
+        "b": "$6(x + 5) - 24 = 48$",
+        "c": "Tập hợp các số nguyên $x$ sao cho $-2 \\le x \\le 5$",
+        "d": "$4 \\cdot 3^{x-2} + 22 = 58$"
+      },
+      "q13": {
+        "de": "Đỉnh núi Mẫu Sơn có độ cao $1\\,541\\text{ m}$ trên mực nước biển. Vực thẳm Puerto Rico có độ sâu $8\\,376\\text{ m}$ dưới mực nước biển.",
+        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Mẫu Sơn và độ sâu đáy vực Puerto Rico so với mực nước biển.",
+        "b": "Tính khoảng cách theo phương thẳng đứng giữa đỉnh núi Mẫu Sơn và đáy vực Puerto Rico."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số $C = \\dfrac{n + 8}{n + 2}$ nhận giá trị là một số nguyên."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Năm $287$ trước Công nguyên được biểu diễn bằng số nguyên là:",
+          "$-287$"
+        ],
+        [
+          "Điền kí hiệu thích hợp $(\\subset, \\not\\subset)$ vào chỗ chấm: Tập hợp $\\mathbb{N} \\;\\dots\\; \\mathbb{Z}$",
+          "$\\subset$"
+        ],
+        [
+          "Số đối của số $0$ là:",
+          "$0$"
+        ],
+        [
+          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $9$ đơn vị là:",
+          "$-9$"
+        ],
+        [
+          "Khoảng cách giữa điểm $-6$ và điểm $4$ trên trục số bằng:",
+          "$10$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-2 \\le x < 7$?",
+          "$9$"
+        ],
+        [
+          "Tổng tất cả các số nguyên $x$ thỏa mãn $-5 \\le x < 5$ bằng:",
+          "$-5$"
+        ],
+        [
+          "Hình chữ nhật có tất cả bao nhiêu trục đối xứng?",
+          "$2$"
+        ],
+        [
+          "Hình bình hành có đáy $20\\text{ cm}$, chiều cao tương ứng $6\\text{ cm}$. Diện tích là:",
+          "$120\\text{ cm}^2$"
+        ],
+        [
+          "Kho đông lạnh ở $-8^\\circ\\text{C}$, nhân viên giảm thêm $4^\\circ\\text{C}$. Nhiệt độ mới là:",
+          "$-12^\\circ\\text{C}$"
+        ]
+      ],
+      "q11": {
+        "a": "$39 + 143 + 61 + 57$",
+        "b": "$79 \\cdot 81 + 79 \\cdot 19$",
+        "c": "$9 \\cdot 2^3 - 54 : 3^2 + 2027^0$",
+        "d": "$200 : (38 - 18) + 4^2 \\cdot 4$",
+        "e": "$240 : [65 - (14 - 9)^2]$",
+        "f": "$240 : \\{50 - [35 - (14 - 9)^2]\\}$"
+      },
+      "q12": {
+        "a": "$6x - 27 = 45$",
+        "b": "$3(x + 9) - 16 = 47$",
+        "c": "Tập hợp các số nguyên $x$ sao cho $-5 < x < 3$",
+        "d": "$5 \\cdot 2^{x-1} - 13 = 27$"
+      },
+      "q13": {
+        "de": "Đỉnh núi Pu Si Lung cao $3\\,083\\text{ m}$ trên mực nước biển. Bề mặt Biển Chết nằm ở độ sâu $430\\text{ m}$ dưới mực nước biển.",
+        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Pu Si Lung và bề mặt Biển Chết so với mực nước biển.",
+        "b": "Tính khoảng cách theo phương thẳng đứng giữa đỉnh Pu Si Lung và bề mặt Biển Chết."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số $D = \\dfrac{n + 6}{n + 3}$ nhận giá trị là một số nguyên."
+      }
+    }
+  }
+}

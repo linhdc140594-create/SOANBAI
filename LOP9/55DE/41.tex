@@ -1,0 +1,149 @@
+
+\begin{ex} % Câu 9
+	Rút gọn biểu thức $A = \left(\frac{1}{x-2\sqrt{x}} + \frac{\sqrt{x}}{\sqrt{x}-2}\right) : \frac{1+x}{x-4\sqrt{x}+4}$ (với $x>0; x \ne 4$)
+	\loigiai{
+		Điều kiện: $x>0; x \ne 4$.
+		Ta có:
+		$x-2\sqrt{x} = \sqrt{x}(\sqrt{x}-2)$
+		$x-4\sqrt{x}+4 = (\sqrt{x}-2)^2$
+		Xét phần trong ngoặc:
+		\begin{align*}
+			\frac{1}{x-2\sqrt{x}} + \frac{\sqrt{x}}{\sqrt{x}-2} &= \frac{1}{\sqrt{x}(\sqrt{x}-2)} + \frac{\sqrt{x} \cdot \sqrt{x}}{\sqrt{x}(\sqrt{x}-2)} \\
+			&= \frac{1+x}{\sqrt{x}(\sqrt{x}-2)}
+		\end{align*}
+		Vậy biểu thức $A$ trở thành:
+		\begin{align*}
+			A &= \frac{1+x}{\sqrt{x}(\sqrt{x}-2)} : \frac{1+x}{(\sqrt{x}-2)^2} \\
+			&= \frac{1+x}{\sqrt{x}(\sqrt{x}-2)} \cdot \frac{(\sqrt{x}-2)^2}{1+x}
+		\end{align*}
+		Vì $x>0$ nên $1+x > 0$. Vì $x \ne 4$ nên $\sqrt{x}-2 \ne 0$. Ta có thể rút gọn:
+		\begin{align*}
+			A &= \frac{\sqrt{x}-2}{\sqrt{x}}
+		\end{align*}
+		Vậy, với $x>0; x \ne 4$ thì $A = \frac{\sqrt{x}-2}{\sqrt{x}}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Giải hệ phương trình $ \begin{cases} x-3y=1 \\ 5x-4y=-17 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} x-3y=1 \quad &(1) \\ 5x-4y=-17 \quad &(2) \end{cases} $
+		Từ phương trình (1), ta có $x = 1+3y$.
+		Thế $x = 1+3y$ vào phương trình (2):
+		\begin{align*}
+			5(1+3y) - 4y &= -17 \\
+			5 + 15y - 4y &= -17 \\
+			11y &= -17 - 5 \\
+			11y &= -22 \\
+			y &= -2
+		\end{align*}
+		Thay $y=-2$ vào $x = 1+3y$:
+		\begin{align*}
+			x &= 1 + 3(-2) \\
+			x &= 1 - 6 \\
+			x &= -5
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (-5;-2)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 13
+	Cho phương trình $x^2 - 2x - 5 = 0$. Không giải phương trình, hãy tính giá trị biểu thức $A=(x_1-x_2)^2 - x_1x_2$.
+	\loigiai{
+		Phương trình đã cho là $x^2 - 2x - 5 = 0$.
+		Để phương trình có hai nghiệm phân biệt $x_1, x_2$, ta kiểm tra biệt thức:
+		$\Delta' = b'^2 - ac = (-1)^2 - 1(-5) = 1 + 5 = 6$.
+		Vì $\Delta' = 6 > 0$, phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.
+		
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = -\frac{-2}{1} = 2 \\ x_1 x_2 = \frac{-5}{1} = -5 \end{cases} $
+		Ta có biểu thức $A=(x_1-x_2)^2 - x_1x_2$.
+		Biến đổi $(x_1-x_2)^2$:
+		$(x_1-x_2)^2 = x_1^2 - 2x_1x_2 + x_2^2 = (x_1^2 + 2x_1x_2 + x_2^2) - 4x_1x_2 = (x_1+x_2)^2 - 4x_1x_2$.
+		Thay vào biểu thức A:
+		\begin{align*}
+			A &= ((x_1+x_2)^2 - 4x_1x_2) - x_1x_2 \\
+			&= (x_1+x_2)^2 - 5x_1x_2
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức A:
+		\begin{align*}
+			A &= (2)^2 - 5(-5) \\
+			&= 4 - (-25) \\
+			&= 4 + 25 \\
+			&= 29
+		\end{align*}
+		Vậy, giá trị của biểu thức $A = 29$.
+	}
+\end{ex}
+\begin{ex} % Câu 11
+	Gieo một con xúc xắc đồng chất 6 mặt. Tính xác suất biến cố số chấm mặt xuất hiện được là số nguyên tố.
+	\loigiai{
+		Không gian mẫu khi gieo một con xúc xắc là $\Omega = \{1; 2; 3; 4; 5; 6\}$.\\
+		Số phần tử của không gian mẫu là $n(\Omega) = 6$.\\
+		Gọi A là biến cố "số chấm mặt xuất hiện được là số nguyên tố".
+		Các phần tử của biến cố A là $A = \{2; 3; 5\}$.\\
+		Số phần tử của biến cố A là $n(A) = 3$.\\
+		Xác suất của biến cố A là:\\
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{3}{6} = \frac{1}{2}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 12
+	Một ca nô xuôi dòng 90 km và ngược dòng 48 km hết tất cả 9 giờ. Tính vận tốc thực của ca nô biết vận tốc dòng nước là 3 km/h và vận tốc thực của ca nô không thay đổi.
+	\loigiai{
+		Gọi $x$ (km/h) là vận tốc thực của ca nô.
+		Điều kiện: $x > 3$ (vì vận tốc ca nô phải lớn hơn vận tốc dòng nước để có thể ngược dòng).
+		
+		Vận tốc ca nô khi xuôi dòng là: $x + 3$ (km/h).
+		Thời gian ca nô đi xuôi dòng 90 km là: $ \frac{90}{x+3}$ (giờ).
+		
+		Vận tốc ca nô khi ngược dòng là: $x - 3$ (km/h).
+		Thời gian ca nô đi ngược dòng 48 km là: $ \frac{48}{x-3}$ (giờ).
+		
+		Tổng thời gian đi xuôi dòng và ngược dòng là 9 giờ, nên ta có phương trình:
+		\begin{align*}
+			\frac{90}{x+3} + \frac{48}{x-3} &= 9
+		\end{align*}
+		Nhân cả hai vế của phương trình với $(x+3)(x-3)$ để khử mẫu (với $x \ne \pm 3$):
+		\begin{align*}
+			90(x-3) + 48(x+3) &= 9(x+3)(x-3) \\
+			90x - 270 + 48x + 144 &= 9(x^2 - 9) \\
+			138x - 126 &= 9x^2 - 81 \\
+			9x^2 - 138x - 81 + 126 &= 0 \\
+			9x^2 - 138x + 45 &= 0
+		\end{align*}
+		Chia cả hai vế cho 3:
+		$3x^2 - 46x + 15 = 0$
+		Giải phương trình bậc hai này:
+		$\Delta = b^2 - 4ac = (-46)^2 - 4(3)(15)$
+		\begin{align*}
+			\Delta &= 2116 - 180 \\
+			\Delta &= 1936
+		\end{align*}
+		$\sqrt{\Delta} = \sqrt{1936} = 44$.
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-(-46) + 44}{2 \cdot 3} = \frac{46 + 44}{6} = \frac{90}{6} = 15$ (Thỏa mãn điều kiện $x>3$)
+		$x_2 = \frac{-(-46) - 44}{2 \cdot 3} = \frac{46 - 44}{6} = \frac{2}{6} = \frac{1}{3}$ (Không thỏa mãn điều kiện $x>3$)
+		Vậy, vận tốc thực của ca nô là 15 km/h.
+	}
+\end{ex}
+\begin{ex} % Câu 14
+	Cho tam giác ABC nhọn ($AB < AC$), nội tiếp $(O)$ có đường kính $AK$, hai đường cao $AD, BE$ cắt nhau tại $H$. Gọi $S$ là hình chiếu của $B$ trên $AK$.
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác $ABSE$ nội tiếp.
+		\item Tia $ES$ cắt $BC$ tại $M$. Gọi $F$ là hình chiếu của $H$ trên $AB$, $KM$ cắt $(O)$ tại $I$. Chứng minh $OM$ vuông góc với $BC$ và $AI, EF, BC$ đồng qui.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 15
+	\begin{enumerate}[a)]
+		\item Một mảnh đất có dạng hình chữ nhật $ABCD$. Trên mảnh đất đó người ta làm sân có dạng tứ giác $EFGH$ sao cho: $E, F, G, H$ lần lượt trên các cạnh $AB, BC, CD, DA$ và $AE = AH = CF = CG$. Tìm diện tích lớn nhất của sân biết $AB = 70\text{m}, BC = 30\text{m}$.
+		\item Cho $a, b, c$ là các số nguyên dương thỏa mãn $a+b+c=2021$.
+		Tìm GTNN của biểu thức: $P = \frac{a}{b+c} + \frac{b}{c+a} + \frac{c}{a+b}$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

@@ -1,0 +1,285 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": 9,
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 8 - ĐỀ SỐ 09",
+    "thoi_gian": "90 phút (không kể thời gian phát đề)",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Trong các biểu thức sau, biểu thức nào là đơn thức?",
+            "a": "$\\dfrac{1}{x} + y$",
+            "b": "$2xy^2$",
+            "c": "$(2 - x)y^2$",
+            "d": "$\\sqrt{x - y}$",
+            "da": "B",
+            "loigiai": "Đơn thức là biểu thức đại số chỉ gồm một số, một biến, hoặc một tích giữa các số và các biến. Biểu thức $2xy^2$ là đơn thức."
+        },
+        {
+            "cau": 2,
+            "de": "Tích của hai đơn thức $\\dfrac{1}{2}xy^3$ và $(-8x^2yz^2)$ có phần hệ số là:",
+            "a": "$\\dfrac{1}{2}$",
+            "b": "$-8$",
+            "c": "$-4$",
+            "d": "$7$",
+            "da": "C",
+            "loigiai": "Ta có: $\\dfrac{1}{2}xy^3 \\cdot (-8x^2yz^2) = -4x^3y^4z^2$. Phần hệ số là $-4$."
+        },
+        {
+            "cau": 3,
+            "de": "Hình thang cân là hình thang có:",
+            "a": "Hai góc kề một đáy bằng nhau",
+            "b": "Hai góc đối bằng nhau",
+            "c": "Hai cạnh đối bằng nhau",
+            "d": "Hai đường chéo vuông góc với nhau",
+            "da": "A",
+            "loigiai": "Theo định nghĩa, hình thang cân là hình thang có hai góc kề một đáy bằng nhau."
+        },
+        {
+            "cau": 4,
+            "de": "Kết quả khai triển biểu thức $(x - 2)(x - 2)$ là:",
+            "a": "$x^2 + 2x + 4$",
+            "b": "$x^2 + 4x + 4$",
+            "c": "$x^2 - 2x + 4$",
+            "d": "$x^2 - 4x + 4$",
+            "da": "D",
+            "loigiai": "Ta có: $(x - 2)(x - 2) = (x - 2)^2 = x^2 - 4x + 4$."
+        },
+        {
+            "cau": 5,
+            "de": "Chọn câu sai trong các câu sau:",
+            "a": "Tứ giác có 3 góc tù, 1 góc nhọn",
+            "b": "Tứ giác có 3 góc vuông, 1 góc nhọn",
+            "c": "Tứ giác có nhiều nhất 2 góc tù, nhiều nhất 2 góc nhọn",
+            "d": "Tứ giác có 3 góc nhọn, 1 góc tù",
+            "da": "B",
+            "loigiai": "Tổng 4 góc trong tứ giác bằng $360^\\circ$. Nếu có 3 góc vuông thì góc thứ tư phải bằng $360^\\circ - 3 \\cdot 90^\\circ = 90^\\circ$ (góc vuông), không thể là góc nhọn. Do đó B là câu sai."
+        },
+        {
+            "cau": 6,
+            "de": "Tứ giác có hai cạnh đối song song là:",
+            "a": "Hình thang cân",
+            "b": "Hình thang",
+            "c": "Hình bình hành",
+            "d": "Hình chữ nhật",
+            "da": "B",
+            "loigiai": "Theo định nghĩa, hình thang là tứ giác có hai cạnh đối song song."
+        },
+        {
+            "cau": 7,
+            "de": "Giá trị của biểu thức $A = x^3y + 7x^2y + 9$ tại $x = -1, y = 2$ là:",
+            "a": "$21$",
+            "b": "$25$",
+            "c": "$-7$",
+            "d": "$-3$",
+            "da": "A",
+            "loigiai": "Thay $x = -1, y = 2$ vào biểu thức $A$: $A = (-1)^3 \\cdot 2 + 7(-1)^2 \\cdot 2 + 9 = -2 + 14 + 9 = 21$."
+        },
+        {
+            "cau": 8,
+            "de": "Chọn đẳng thức sai trong các đẳng thức sau đây:",
+            "a": "$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$",
+            "b": "$(-a - b)^3 = -a^3 - 3a^2b - 3ab^2 - b^3$",
+            "c": "$(-a + b)^3 = -a^3 - 3a^2b + 3ab^2 + b^3$",
+            "d": "$(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$",
+            "da": "C",
+            "loigiai": "Khai triển: $(-a + b)^3 = (b - a)^3 = b^3 - 3b^2a + 3ba^2 - a^3 = -a^3 + 3a^2b - 3ab^2 + b^3 \\neq -a^3 - 3a^2b + 3ab^2 + b^3$. Do đó C sai."
+        },
+        {
+            "cau": 9,
+            "de": "Phân thức nào sau đây bằng với phân thức $\\dfrac{y}{3x}$ (với giả thiết các phân thức đều có nghĩa)?",
+            "a": "$\\dfrac{3y}{9xy^2}$",
+            "b": "$\\dfrac{2y^2}{9xy^2}$",
+            "c": "$\\dfrac{3y^2}{9xy}$",
+            "d": "$\\dfrac{3y}{9xy}$",
+            "da": "C",
+            "loigiai": "Rút gọn phân thức ở phương án C: $\\dfrac{3y^2}{9xy} = \\dfrac{3y \\cdot y}{3y \\cdot 3x} = \\dfrac{y}{3x}$."
+        },
+        {
+            "cau": 10,
+            "de": "Cho hình chóp tam giác đều có diện tích đáy bằng $6\\text{ cm}^2$ và chiều cao bằng $4\\text{ cm}$. Thể tích của hình chóp đó là:",
+            "a": "$8\\text{ cm}^3$",
+            "b": "$24\\text{ cm}^3$",
+            "c": "$12\\text{ cm}^3$",
+            "d": "$72\\text{ cm}^3$",
+            "da": "A",
+            "loigiai": "Thể tích hình chóp tam giác đều: $V = \\dfrac{1}{3} S \\cdot h = \\dfrac{1}{3} \\cdot 6 \\cdot 4 = 8\\text{ cm}^3$."
+        },
+        {
+            "cau": 11,
+            "de": "Hình thoi có chu vi bằng $20\\text{ cm}$ thì độ dài cạnh của nó bằng:",
+            "a": "$4\\text{ cm}$",
+            "b": "$5\\text{ cm}$",
+            "c": "$8\\text{ cm}$",
+            "d": "$9\\text{ cm}$",
+            "da": "B",
+            "loigiai": "Hình thoi có 4 cạnh bằng nhau nên độ dài mỗi cạnh là: $20 : 4 = 5\\text{ cm}$."
+        },
+        {
+            "cau": 12,
+            "de": "Hãy chọn câu sai:",
+            "a": "Tứ giác có hai cặp cạnh đối song song là hình bình hành",
+            "b": "Hình thang có hai góc kề một đáy bằng nhau là hình bình hành",
+            "c": "Tứ giác có hai cặp cạnh đối bằng nhau là hình bình hành",
+            "d": "Tứ giác có hai cặp góc đối bằng nhau là hình bình hành",
+            "da": "B",
+            "loigiai": "Hình thang có hai góc kề một đáy bằng nhau là hình thang cân, không nhất thiết là hình bình hành. Do đó B sai."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho hai đa thức $P = x(x - 2y) + y(y + 2x)$ và $Q = x^2 - 4y^2$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Rút gọn đa thức $P$ ta được $x^2 + y^2$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $P = x^2 - 2xy + y^2 + 2xy = x^2 + y^2$."
+            },
+            "y_b": {
+                "noi_dung": "Tại $x = 3$ và $y = 4$, giá trị của đa thức $P$ bằng $49$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Thay $x = 3, y = 4$ vào $P$: $P = 3^2 + 4^2 = 9 + 16 = 25 \\neq 49$."
+            },
+            "y_c": {
+                "noi_dung": "Phân tích đa thức $Q$ thành nhân tử ta được $(x - 2y)(x + 2y)$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Áp dụng hằng đẳng thức hiệu hai bình phương: $Q = x^2 - (2y)^2 = (x - 2y)(x + 2y)$."
+            },
+            "y_d": {
+                "noi_dung": "Với $x = 2y$ và $y \\neq 0$, phân thức $\\dfrac{P}{Q}$ không xác định.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Khi $x = 2y$ thì mẫu thức $Q = (2y)^2 - 4y^2 = 0$, nên phân thức không xác định."
+            }
+        },
+        {
+            "cau": 2,
+            "de": "Cho biểu thức $A = \\dfrac{x^2 - 6x + 9}{x^2 - 9}$ với $x \\neq \\pm 3$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Biến đổi tử thức $x^2 - 6x + 9$ thành bình phương của một hiệu ta được $(x - 3)^2$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $x^2 - 6x + 9 = (x - 3)^2$."
+            },
+            "y_b": {
+                "noi_dung": "Phân tích mẫu thức $x^2 - 9$ thành nhân tử ta được $(x - 3)(x + 3)$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $x^2 - 9 = (x - 3)(x + 3)$."
+            },
+            "y_c": {
+                "noi_dung": "Kết quả rút gọn của biểu thức $A$ là $\\dfrac{x + 3}{x - 3}$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Ta có $A = \\dfrac{(x - 3)^2}{(x - 3)(x + 3)} = \\dfrac{x - 3}{x + 3}$."
+            },
+            "y_d": {
+                "noi_dung": "Tại $x = 5$, giá trị của biểu thức bằng $\\dfrac{1}{4}$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Thay $x = 5$ vào biểu thức rút gọn: $A = \\dfrac{5 - 3}{5 + 3} = \\dfrac{2}{8} = \\dfrac{1}{4}$."
+            }
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Tìm $x$, biết: $x^2 - 16 - 2(x + 4) = 0$.",
+            "da": "$x = -4$ hoặc $x = 6$",
+            "loigiai": "Ta có:\n$(x - 4)(x + 4) - 2(x + 4) = 0 \\Leftrightarrow (x + 4)(x - 4 - 2) = 0 \\Leftrightarrow (x + 4)(x - 6) = 0$.\n\n- Trường hợp 1: $x + 4 = 0 \\Leftrightarrow x = -4$.\n\n- Trường hợp 2: $x - 6 = 0 \\Leftrightarrow x = 6$.\n\nVậy $x = -4$ hoặc $x = 6$."
+        },
+        {
+            "cau": 2,
+            "de": "Cho hình thoi $ABCD$ có $\\widehat{A} = 60^\\circ$ và độ dài cạnh $AB = 5\\text{ cm}$. Tính độ dài đường chéo $BD$.",
+            "da": "$5\\text{ cm}$",
+            "loigiai": "Trong hình thoi $ABCD$, hai cạnh kề bằng nhau: $AB = AD = 5\\text{ cm}$. Tam giác $ABD$ cân tại $A$ có $\\widehat{A} = 60^\\circ$ nên là tam giác đều. Do đó: $BD = AB = 5\\text{ cm}$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,0 điểm",
+            "de": "Thực hiện phép tính:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,35",
+                    "noi_dung": "$2x(3x - y) - (6x^2 - 2xy + 3)$",
+                    "loigiai": "$2x(3x - y) - (6x^2 - 2xy + 3) = 6x^2 - 2xy - 6x^2 + 2xy - 3 = -3$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,35",
+                    "noi_dung": "$(12x^3y^2 - 9x^2y^3 + 3x^2y^2) : (3x^2y)$",
+                    "loigiai": "$(12x^3y^2 - 9x^2y^3 + 3x^2y^2) : (3x^2y) = 12x^3y^2 : 3x^2y - 9x^2y^3 : 3x^2y + 3x^2y^2 : 3x^2y = 4xy - 3y^2 + y$."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,3",
+                    "noi_dung": "$(x + 2)^2 - (x - 2)^2$",
+                    "loigiai": "$(x + 2)^2 - (x - 2)^2 = (x^2 + 4x + 4) - (x^2 - 4x + 4) = 8x$."
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "0,75 điểm",
+            "de": "Tìm $x$, biết:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,35",
+                    "noi_dung": "$2x(x - 3) - 2x^2 = 10$",
+                    "loigiai": "$2x(x - 3) - 2x^2 = 10 \\Leftrightarrow 2x^2 - 6x - 2x^2 = 10 \\Leftrightarrow -6x = 10 \\Leftrightarrow x = -\\dfrac{5}{3}$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,4",
+                    "noi_dung": "$(x + 1)^2 - (x - 2)(x + 2) = 9$",
+                    "loigiai": "$(x + 1)^2 - (x - 2)(x + 2) = 9 \\Leftrightarrow (x^2 + 2x + 1) - (x^2 - 4) = 9 \\Leftrightarrow 2x + 5 = 9 \\Leftrightarrow 2x = 4 \\Leftrightarrow x = 2$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "0,75 điểm",
+            "de": "Một khối bê tông có dạng hình chóp tứ giác đều (đáy là hình vuông) có cạnh đáy $a = 0{,}5\\text{ m}$ và chiều cao $h = 0{,}6\\text{ m}$.",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.8, >=stealth]\n  \\coordinate (A) at (0,0);\n  \\coordinate (B) at (3,-0.7);\n  \\coordinate (C) at (5,0);\n  \\coordinate (D) at (2,0.7);\n  \\coordinate (H) at ($(A)!0.5!(C)$);\n  \\coordinate (S) at ($(H)+(0,3.2)$);\n  \\coordinate (I) at ($(B)!0.5!(C)$);\n  \\draw[dashed] (A)--(D)--(C);\n  \\draw[dashed] (S)--(D);\n  \\draw[dashed] (A)--(C) (B)--(D);\n  \\draw[dashed] (S)--(H);\n  \\draw[dashed] (H)--(I);\n  \\draw[thick] (S)--(A)--(B)--(C)--(S);\n  \\draw[thick] (S)--(B);\n  \\draw[thick, blue] (S)--(I);\n  \\fill (A) circle (1.2pt) node[left] {$A$};\n  \\fill (B) circle (1.2pt) node[below left] {$B$};\n  \\fill (C) circle (1.2pt) node[right] {$C$};\n  \\fill (D) circle (1.2pt) node[above right] {$D$};\n  \\fill (S) circle (1.2pt) node[above] {$S$};\n  \\fill (H) circle (1.2pt) node[below] {$H$};\n  \\fill (I) circle (1.2pt) node[below right] {$I$};\n  \\node[left] at ($(S)!0.5!(H)$) {\\footnotesize $h = 0{,}6\\text{ m}$};\n  \\node[below] at ($(A)!0.5!(B)$) {\\footnotesize $a = 0{,}5\\text{ m}$};\n  \\node[right] at ($(S)!0.5!(I)$) {\\footnotesize $d = 0{,}65\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,4",
+                    "noi_dung": "Tính thể tích khối bê tông.",
+                    "loigiai": "Diện tích đáy hình vuông của khối bê tông là: $S_{\\text{đáy}} = a^2 = 0{,}5 \\cdot 0{,}5 = 0{,}25\\text{ m}^2$.\n\nThể tích của khối bê tông là: $V = \\dfrac{1}{3} S_{\\text{đáy}} \\cdot h = \\dfrac{1}{3} \\cdot 0{,}25 \\cdot 0{,}6 = 0{,}05\\text{ m}^3$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,35",
+                    "noi_dung": "Người ta muốn sơn bốn mặt xung quanh của khối bê tông này. Biết chiều cao trung đoạn của hình chóp là $d = 0{,}65\\text{ m}$. Tính diện tích bề mặt cần sơn.",
+                    "loigiai": "Diện tích cần sơn chính là diện tích xung quanh của hình chóp tứ giác đều:\n\n$S_{xq} = 4 \\cdot \\left(\\dfrac{1}{2} a \\cdot d\\right) = 2 \\cdot a \\cdot d = 2 \\cdot 0{,}5 \\cdot 0{,}65 = 0{,}65\\text{ m}^2$."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 - 4x + y^2 + 6y + 15$.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Tìm giá trị nhỏ nhất của $A$.",
+                    "loigiai": "Biến đổi biểu thức $A$:\n\n$A = (x^2 - 4x + 4) + (y^2 + 6y + 9) + 2 = (x - 2)^2 + (y + 3)^2 + 2$.\n\nVì $(x - 2)^2 \\ge 0$ và $(y + 3)^2 \\ge 0$ với mọi $x, y$, nên $A \\ge 2$ với mọi $x, y$.\n\nDấu \"=\" xảy ra khi và chỉ khi: $\\begin{cases} x - 2 = 0 \\\\ y + 3 = 0 \\end{cases} \\Leftrightarrow \\begin{cases} x = 2 \\\\ y = -3 \\end{cases}$.\n\nVậy giá trị nhỏ nhất của $A$ là $2$, đạt được khi $x = 2$ và $y = -3$."
+                }
+            ]
+        }
+    ]
+}
+
+work_dir = r'd:\GitHub\SOANBAI-main\LOP8\DETHIGHK1\DE_09'
+json_path = os.path.join(work_dir, 'de_09.json')
+with open(json_path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Đã tạo thành công de_09.json!")
+

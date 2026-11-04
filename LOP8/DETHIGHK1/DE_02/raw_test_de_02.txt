@@ -1,0 +1,595 @@
+--- TRANG 6 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các biểu thức sau, biểu thức nào là đơn thức? 
+A. 1
+y
+x +
+ 
+ 
+ 
+B. 
+2
+5
+x z
+−
+ 
+ 
+ 
+C. 
+2
+(2
+)x y
+−
+  
+       D. 
+2
+2
+x − 
+Câu 2. Đơn thức nào sau đây đồng dạng với đơn thức 
+2
+3x y
+−
+? 
+A. 1
+2 xyx 
+ 
+ 
+B. 
+2
+3x yz 
+ 
+ 
+C. 
+2x y 
+ 
+       D. 
+2
+3x z
+−
+ 
+Câu 3. Cho đa thức 
+2
+2
+2
+2
+1
+1
+3
+3
+2
+4
+A
+xy
+x y
+xy
+x y
+= −
++
++
+−
+. Giá trị của A tại 
+2;
+3
+x
+y
+= −
+= là: 
+A. 
+15
+13
+A = −
+  
+ 
+B. 
+12
+A = −
+ 
+ 
+ 
+C. 
+15
+A = −
+ 
+ 
+      D. 
+14
+A =
+ 
+Câu 4. Giá trị của đa thức 
+2
+2
+3
+5
+2
+3
+B
+x y
+xy
+x y
+xy
+=
+−
+−
+−
+ tại 
+1
+3;
+2
+x
+y
+=
+= −
+ là: 
+A. 15
+2  
+ 
+ 
+B. 9  
+ 
+ 
+C. 15
+−
+ 
+ 
+         D. 
+33
+2
+−
+ 
+Câu 5. Khi thay biểu thức thích hợp vào dấu * của biểu thức 
+2
+(
+3 )(
+3 )
+*
+x
+y x
+y
+x
+−
++
+=
+− ta được: 
+A. 
+2
+3y 
+ 
+ 
+ 
+B. 
+2
+9y 
+ 
+ 
+C. 
+2
+6y 
+ 
+D. 
+2
+y 
+Câu 6. Số tự nhiên n nhỏ nhất để phép chia 
+2
+5
+:
+n
+x
+x thực hiện được là: 
+A. 1  
+ 
+ 
+B. 2  
+ 
+ 
+C. 3  
+ 
+ 
+D. 4 
+ 
+ 
+
+
+--- TRANG 7 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Kết quả khai triển biểu thức 
+2
+(
+2)
+x −
+ là: 
+A. 
+2
+2
+4
+x
+x
++
++
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+4
+4
+x
+x
++
++
+ 
+C. 
+2
+2
+4
+x
+x
+−
++  
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+4
+4
+x
+x
+−
++ 
+Câu 8. Cho tứ giác ABCD, biết ˆ
+ˆ
+ˆ
+80 ;
+65 ;
+110
+A
+B
+C
+
+
+
+=
+=
+=
+. Số đo ˆD là: 
+A. 105 
+ 
+ 
+B. 75  
+ 
+ 
+C. 65  
+ 
+ 
+D. 85 
+Câu 9. Hình thang có hai đường chéo bằng nhau là: 
+A. Hình bình hành  
+ 
+ 
+ 
+ 
+B. Hình vuông 
+C. Hình thang cân  
+ 
+ 
+ 
+ 
+D. Hình chữ nhật 
+Câu 10. Tổng số cạnh bên và cạnh đáy của một hình chóp tam giác đều là: 
+A. 4  
+ 
+ 
+B. 6  
+ 
+ 
+C. 8  
+ 
+ 
+D. 10 
+Câu 11. Diện tích xung quanh của hình chóp tứ giác đều bằng bao nhiêu lần diện tích một 
+mặt bên? 
+A. 2  
+ 
+ 
+B. 3  
+ 
+ 
+C. 4  
+ 
+ 
+D. 5 
+Câu 12. Tính thể tích của hình chóp ở bên trong hình hộp chữ nhật có đáy là hình vuông 
+cạnh 5 cm và chiều cao 6 cm: 
+ 
+A. 150
+³
+cm  
+ 
+ 
+ 
+ 
+ 
+B. 75 
+³
+cm 
+ 
+ 
+ 
+C. 50 
+³
+cm 
+ 
+   
+ 
+ 
+ 
+ 
+D. 37,5 
+³
+cm 
+ 
+
+
+--- TRANG 8 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+2
+(
+2)
+6
+12
+M
+x
+x
+x
+=
+−
++
+−
+ và đa thức 
+3
+2
+8
+N
+x
+x
+=
+−
+. Xét tính đúng sai 
+của các mệnh đề sau: 
+a) Khai triển hằng đẳng thức 
+3
+(
+2)
+x −
+ ta được 
+3
+2
+6
+12
+8
+x
+x
+x
+−
++
+−. 
+b) Rút gọn biểu thức M ta được 
+3
+8
+M
+x
+=
+−. 
+c) Phân tích đa thức N thành nhân tử ta được 2 (
+2)(
+2)
+x x
+x
+−
++
+. 
+d) Tại 
+2
+x =
+, giá trị của biểu thức M lớn hơn giá trị của biểu thức N . 
+Câu 2. Cho hình bình hành ABCD có ˆ
+110
+A
+
+=
+. Kẻ AH
+CD
+⊥
+ tại H và CK
+AB
+⊥
+ tại K . 
+Xét tính đúng sai của các mệnh đề sau: 
+a) Số đo của góc ˆC bằng 110. 
+b) Số đo của góc ˆD bằng 70. 
+c) Tứ giác AHCK là hình bình hành. 
+d) Số đo của góc 
+DAH bằng 30. 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tìm x , biết: 
+2
+6
+9
+0
+x
+x
+−
++
+= .  
+Câu 2. Cho tứ giác ABCD có ˆ
+70
+A
+
+=
+, ˆ
+110
+B
+
+=
+ và ˆ
+100
+C
+
+=
+. Tính số đo góc D . 
+Phần IV. Tự luận 
+Câu 1. Thu gọn các biểu thức sau : 
+a) 
+2
+3 (2
+5)
+6
+;
+x
+xy
+x y
+−
+−
+ 
+b) (
+)
+(
+)(
+)
+3
+2
+2
+12
+12
+:3
+1
+;
+x y
+x y
+xy
+x
+x
+xy
+−
+−
+−
++
+ 
+c) (
+)
+(
+)
+2
+2.
+3
+3
+x
+x
+−
++
++
+ 
+
+
+--- TRANG 9 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Tính nhanh giá trị của biểu thức:  
+a) 
+2
+A
+6
+9
+x
+x
+=
++
++ tại x
+97
+
+; 
+b) 
+3
+2
+B = 102 - 6.102 + 12.102 - 8. 
+Câu 3. Cho ABC
+
+nhọn, AB
+AC
+
+, các đường cao 
+;
+;
+AF BE CG cắt nhau tại H . Gọi M 
+là trung điểm của 
+.
+BC Trên tia đối của tia MH lấy điểm D sao cho MH
+MD
+=
+. 
+a) Tứ giác BHCD là hình gì? Vì sao? 
+b) Chứng minh : Tam giác ABD vuông tại B, tam giác ACD vuông tại C . 
+c) Gọi I là trung điểm của 
+.
+AD Chứng minh 
+.
+IA
+IB
+IC
+ID
+=
+=
+=
+ 
+Câu 4. Cho đa thức 
+2
+1
+23
+2
+G
+x
+bx
+=
++
++
+ với b là một số cho trước sao cho 1
+2
+b
++ là số nguyên.  
+Chứng minh rằng G luôn nhận giá trị nguyên tại mọi số nguyên x . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

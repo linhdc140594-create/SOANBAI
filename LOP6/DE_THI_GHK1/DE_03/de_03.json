@@ -1,0 +1,319 @@
+{
+  "de_so": 3,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 6",
+  "thoi_gian": "90 phút",
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho tập hợp $A = \\{1; 2; a; b\\}$. Khẳng định nào dưới đây là sai?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$1 \\in A$",
+        "B": "$a \\in A$",
+        "C": "$5 \\notin A$",
+        "D": "$b \\notin A$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Vì $b$ là một phần tử thuộc tập hợp $A$ nên khẳng định đúng là $b \\in A$. Do đó khẳng định $b \\notin A$ là sai."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Tập hợp nào dưới đây là tập hợp số tự nhiên?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$\\mathbb{N} = \\{1; 2; 3; \\dots\\}$",
+        "B": "$\\mathbb{N} = \\{0; 1; 2; 3; \\dots; 100\\}$",
+        "C": "$\\mathbb{N} = \\{0; 1; 2; 3; \\dots\\}$",
+        "D": "$\\mathbb{N} = \\{0; 2; 4; 6; \\dots\\}$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Tập hợp các số tự nhiên kí hiệu là $\\mathbb{N} = \\{0; 1; 2; 3; \\dots\\}$."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Số nào sau đây là bội của $17$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$51$",
+        "B": "$54$",
+        "C": "$56$",
+        "D": "$63$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Ta có $51 = 17 \\times 3 \\implies 51 \\ \\vdots \\ 17$ nên $51$ là bội của $17$."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Một nhà kho có $240$ bao gạo, chia đều vào $8$ dãy kệ. Sau đó, người ta lấy ra $15$ bao ở mỗi dãy kệ để chuyển đi nơi khác. Hỏi nhà kho còn lại bao nhiêu bao gạo?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$105$ bao",
+        "B": "$115$ bao",
+        "C": "$120$ bao",
+        "D": "$135$ bao"
+      },
+      "dap_an": "C",
+      "loi_giai": "Mỗi dãy kệ lúc đầu có: $240 : 8 = 30$ (bao). Sau khi lấy ra 15 bao, mỗi dãy còn: $30 - 15 = 15$ (bao). Số bao gạo còn lại trong kho là: $15 \\times 8 = 120$ (bao)."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Công thức tính chu vi của hình vuông có độ dài cạnh $a$ là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$C = a$",
+        "B": "$C = 4a$",
+        "C": "$C = 3a$",
+        "D": "$C = 5a$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Chu vi của hình vuông cạnh $a$ là tổng độ dài bốn cạnh bằng nhau: $C = 4a$."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Trong các hình dưới đây, hình nào là hình thoi?\\begin{center}\\begin{tikzpicture}[scale=0.6, line cap=round, line join=round]\\begin{scope}[xshift=0cm]\\draw[thick, blue!80!black] (0,0) rectangle (2.5,1.5);\\node[below=4pt, font=\\footnotesize] at (1.25,0) {Hình 1};\\end{scope}\\begin{scope}[xshift=4cm]\\draw[thick, blue!80!black] (1.25,1.5) -- (2.5,0.75) -- (1.25,0) -- (0,0.75) -- cycle;\\node[below=4pt, font=\\footnotesize] at (1.25,0) {Hình 2};\\end{scope}\\begin{scope}[xshift=8cm]\\draw[thick, blue!80!black] (0.5,1.5) -- (2.2,1.5) -- (2.8,0) -- (0,0) -- cycle;\\node[below=4pt, font=\\footnotesize] at (1.4,0) {Hình 3};\\end{scope}\\begin{scope}[xshift=12cm]\\draw[thick, blue!80!black] (0.8,1.5) -- (2.8,1.5) -- (2,0) -- (0,0) -- cycle;\\node[below=4pt, font=\\footnotesize] at (1.4,0) {Hình 4};\\end{scope}\\end{tikzpicture}\\end{center}",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hình 1",
+        "B": "Hình 2",
+        "C": "Hình 3",
+        "D": "Hình 4"
+      },
+      "dap_an": "B",
+      "loi_giai": "Hình 1 là hình chữ nhật, Hình 2 là hình thoi (có 4 cạnh bằng nhau), Hình 3 là hình thang, Hình 4 là hình bình hành."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Đọc lũy thừa $6^3$ và nêu cơ số, số mũ của nó:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Sáu mũ ba; cơ số là $6$, số mũ là $3$",
+        "B": "Sáu mũ ba; cơ số là $3$, số mũ là $6$",
+        "C": "Ba mũ sáu; cơ số là $3$, số mũ là $6$",
+        "D": "Ba mũ sáu; cơ số là $6$, số mũ là $3$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Lũy thừa $6^3$ đọc là \"sáu mũ ba\" (hoặc \"sáu lũy thừa ba\"); cơ số là $6$ và số mũ là $3$."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Khi viết gọn tích $3 \\cdot 2 \\cdot 6^2 \\cdot 6$ dưới dạng một lũy thừa, kết quả đúng là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$3^3 \\cdot 2^2$",
+        "B": "$6^3$",
+        "C": "$6^4$",
+        "D": "$2^3 \\cdot 3^2$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Ta có: $3 \\cdot 2 \\cdot 6^2 \\cdot 6 = 6 \\cdot 6^2 \\cdot 6 = 6^{1 + 2 + 1} = 6^4$."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Khẳng định nào sau đây là đặc trưng về cạnh của hình vuông?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Hai cạnh đối bằng nhau",
+        "B": "Hai đường chéo bằng nhau",
+        "C": "Bốn cạnh bằng nhau",
+        "D": "Hai đường chéo vuông góc"
+      },
+      "dap_an": "C",
+      "loi_giai": "Hình vuông có bốn cạnh bằng nhau và bốn góc bằng nhau (bằng $90^\\circ$)."
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Cho hình thang có độ dài hai đáy lần lượt là $6\\text{ cm}$ và $10\\text{ cm}$, chiều cao là $5\\text{ cm}$. Diện tích của hình thang đó là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$40\\text{ cm}^2$",
+        "B": "$50\\text{ cm}^2$",
+        "C": "$60\\text{ cm}^2$",
+        "D": "$70\\text{ cm}^2$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Diện tích hình thang là: $S = \\dfrac{(a + b) \\cdot h}{2} = \\dfrac{(6 + 10) \\cdot 5}{2} = \\dfrac{16 \\cdot 5}{2} = 40\\text{ cm}^2$."
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Cho tam giác đều $MNP$ có cạnh $MP = 6\\text{ cm}$. Độ dài các cạnh $MN$ và $NP$ lần lượt là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$2\\text{ cm}; 4\\text{ cm}$",
+        "B": "$3\\text{ cm}; 3\\text{ cm}$",
+        "C": "$1\\text{ cm}; 5\\text{ cm}$",
+        "D": "$6\\text{ cm}; 6\\text{ cm}$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Tam giác đều $MNP$ có 3 cạnh bằng nhau nên $MN = NP = MP = 6\\text{ cm}$."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Một hình thoi có độ dài hai đường chéo lần lượt là $2\\text{ cm}$ và $4\\text{ cm}$. Diện tích của hình thoi đó là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$4\\text{ cm}^2$",
+        "B": "$6\\text{ cm}^2$",
+        "C": "$8\\text{ cm}^2$",
+        "D": "$2\\text{ cm}^2$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Diện tích hình thoi là: $S = \\dfrac{m \\cdot n}{2} = \\dfrac{2 \\cdot 4}{2} = 4\\text{ cm}^2$."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho hình vuông $MNPQ$ có cạnh bằng $4\\text{ cm}$. Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "$MN = NP = PQ = QM = 4\\text{ cm}$.",
+          "dung_sai": true,
+          "giai_thich": "Hình vuông có bốn cạnh bằng nhau và bằng 4 cm. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "$MN$ và $NQ$ song song với nhau.",
+          "dung_sai": false,
+          "giai_thich": "$MN$ và $NQ$ cắt nhau tại đỉnh $N$, không song song. Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Mỗi góc ở các đỉnh của hình vuông bằng nhau và bằng $60^\\circ$.",
+          "dung_sai": false,
+          "giai_thich": "Mỗi góc ở các đỉnh của hình vuông bằng $90^\\circ$. Khẳng định sai."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Dùng thước và ê-ke vẽ được hình vuông $MNPQ$ có cạnh bằng $4\\text{ cm}$.",
+          "dung_sai": true,
+          "giai_thich": "Dùng thước và ê-ke hoàn toàn xác định được các góc vuông và độ dài 4 cm. Khẳng định đúng."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho các số: $355, 360, 257, 1617, 152$. Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Số $360$ chia hết cho $9$.",
+          "dung_sai": true,
+          "giai_thich": "Tổng các chữ số của 360 là $3 + 6 + 0 = 9 \\ \\vdots \\ 9$. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Số $1617$ chia hết cho $9$.",
+          "dung_sai": false,
+          "giai_thich": "Tổng các chữ số là $1 + 6 + 1 + 7 = 15$ không chia hết cho 9. Khẳng định sai."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Trong các số đã cho, có đúng hai số chia hết cho $9$.",
+          "dung_sai": false,
+          "giai_thich": "Chỉ có duy nhất số 360 chia hết cho 9. Khẳng định sai."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Số $257$ và số $152$ đều không chia hết cho $9$.",
+          "dung_sai": true,
+          "giai_thich": "Tổng các chữ số: $2+5+7=14$ và $1+5+2=8$ đều không chia hết cho 9. Khẳng định đúng."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Số lượng các số nguyên tố nhỏ hơn $10$ là bao nhiêu?",
+      "dap_an": "$4$",
+      "loi_giai": "Các số nguyên tố nhỏ hơn 10 là $\\{2; 3; 5; 7\\}$. Vậy có $4$ số."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Có bao nhiêu số tự nhiên $n$ thỏa mãn $1 < n \\le 9$?",
+      "dap_an": "$8$",
+      "loi_giai": "Các số tự nhiên thỏa mãn là $\\{2; 3; 4; 5; 6; 7; 8; 9\\}$. Số lượng phần tử là $9 - 2 + 1 = 8$ (số)."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "diem_tong": 1.0,
+      "noi_dung": "Thực hiện phép tính:",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$475 + 170 + 325 + 330$",
+          "diem": 0.25,
+          "loi_giai": "$475 + 170 + 325 + 330 = (475 + 325) + (170 + 330) = 800 + 500 = 1300$."
+        },
+        {
+          "y": "b",
+          "de": "$89 \\cdot 54 + 45 \\cdot 89 + 89$",
+          "diem": 0.25,
+          "loi_giai": "$89 \\cdot 54 + 45 \\cdot 89 + 89 = 89 \\cdot (54 + 45 + 1) = 89 \\cdot 100 = 8900$."
+        },
+        {
+          "y": "c",
+          "de": "$120 : \\left\\{ 54 - \\left[ 50 : 2 - (3^2 - 2 \\cdot 4) \\right] \\right\\}$",
+          "diem": 0.5,
+          "loi_giai": "$120 : \\left\\{ 54 - \\left[ 25 - (9 - 8) \\right] \\right\\} = 120 : \\left\\{ 54 - \\left[ 25 - 1 \\right] \\right\\} = 120 : \\left\\{ 54 - 24 \\right\\} = 120 : 30 = 4$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem_tong": 0.75,
+      "noi_dung": "Tìm số tự nhiên $x$, biết:",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$x - 15 = 2025$",
+          "diem": 0.25,
+          "loi_giai": "$x = 2025 + 15 \\implies x = 2040$."
+        },
+        {
+          "y": "b",
+          "de": "$39 + (x - 47) = 160$",
+          "diem": 0.5,
+          "loi_giai": "$x - 47 = 160 - 39$\\\n$x - 47 = 121$\\\n$x = 121 + 47 = 168$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem_tong": 0.75,
+      "noi_dung": "Mảnh vườn nhà ông An có dạng như hình vẽ dưới đây:\\\n\\begin{center}\n\\begin{tikzpicture}[scale=0.75, line cap=round, line join=round]\n  \\coordinate (F) at (0,0); \\coordinate (E) at (7,0); \\coordinate (D) at (7,2);\n  \\coordinate (C) at (4,2); \\coordinate (B) at (4,6); \\coordinate (A) at (0,6);\n  \\draw[thick, blue!80!black] (F) -- (E) -- (D) -- (C) -- (B) -- (A) -- cycle;\n  \\foreach \\p in {A,B,C,D,E,F} \\fill[red] (\\p) circle (2pt);\n  \\node[above left] at (A) {$A$};\n  \\node[above right] at (B) {$B$};\n  \\node[below left] at (C) {$C$};\n  \\node[above right] at (D) {$D$};\n  \\node[below right] at (E) {$E$};\n  \\node[below left] at (F) {$F$};\n  \\node[above] at (2,6) {$4\\text{ m}$};\n  \\node[right] at (4,4) {$4\\text{ m}$};\n  \\node[above] at (5.5,2) {$3\\text{ m}$};\n  \\node[right] at (7,1) {$2\\text{ m}$};\n  \\node[below] at (3.5,0) {$7\\text{ m}$};\n  \\node[left] at (0,3) {$6\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Ông An rào xung quanh mảnh vườn bằng dây thép gai. Hỏi ông An mua hết bao nhiêu tiền dây thép gai, biết mỗi mét dây thép gai có giá $50\\,000$ đồng?",
+          "diem": 0.5,
+          "loi_giai": "Chu vi mảnh vườn hình chữ L là:\\\n$C = AB + BC + CD + DE + EF + FA = 4 + 4 + 3 + 2 + 7 + 6 = 26\\text{ (m)}$.\\\nSố tiền mua dây thép gai để rào hết xung quanh mảnh vườn là:\\\n$26 \\times 50\\,000 = 1\\,300\\,000\\text{ (đồng)}$."
+        },
+        {
+          "y": "b",
+          "de": "Tính diện tích mảnh vườn của ông An.",
+          "diem": 0.25,
+          "loi_giai": "Chia mảnh vườn thành hai hình chữ nhật: hình chữ nhật thứ nhất kích thước $4\\text{ m} \\times 6\\text{ m}$ và hình chữ nhật thứ hai kích thước $3\\text{ m} \\times 2\\text{ m}$.\\\nDiện tích mảnh vườn của ông An là:\\\n$S = 4 \\times 6 + 3 \\times 2 = 24 + 6 = 30\\text{ (m}^2\\text{)}$."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem_tong": 0.5,
+      "noi_dung": "Cho tổng $B = 5 + 5^2 + 5^3 + \\dots + 5^8$. Chứng minh rằng $B$ chia hết cho $30$.",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Chứng minh $B \\ \\vdots \\ 30$.",
+          "diem": 0.5,
+          "loi_giai": "Ta nhóm hai số hạng liên tiếp với nhau:\\\n$B = (5 + 5^2) + (5^3 + 5^4) + (5^5 + 5^6) + (5^7 + 5^8)$\\\n$B = 5 \\cdot (1 + 5) + 5^3 \\cdot (1 + 5) + 5^5 \\cdot (1 + 5) + 5^7 \\cdot (1 + 5)$\\\n$B = 5 \\cdot 6 + 5^3 \\cdot 6 + 5^5 \\cdot 6 + 5^7 \\cdot 6$\\\n$B = 30 + 30 \\cdot 5^2 + 30 \\cdot 5^4 + 30 \\cdot 5^6$\\\n$B = 30 \\cdot (1 + 5^2 + 5^4 + 5^6)$.\\\nVì $30 \\ \\vdots \\ 30$ nên $B \\ \\vdots \\ 30$ (đpcm)."
+        }
+      ]
+    }
+  ]
+}
+

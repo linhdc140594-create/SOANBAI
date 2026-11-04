@@ -1,0 +1,240 @@
+import os
+import sys
+import json
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": "11",
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+    "mon": "Toán 6",
+    "thoi_gian": "90 phút",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Trong các số sau, số nào là bội của 5?",
+            "a": "$7$.",
+            "b": "$105$.",
+            "c": "$17$.",
+            "d": "$27$.",
+            "da": "B",
+            "loigiai": "Bội của 5 có chữ số tận cùng là 0 hoặc 5. Trong các số đã cho, số 105 chia hết cho 5."
+        },
+        {
+            "cau": 2,
+            "de": "Tìm $x$, biết $x + 20 = 42$:",
+            "a": "$22$.",
+            "b": "$62$.",
+            "c": "$2$.",
+            "d": "$18$.",
+            "da": "A",
+            "loigiai": "Ta có: $x = 42 - 20 = 22$."
+        },
+        {
+            "cau": 3,
+            "de": "Khẳng định nào sau đây là đúng?",
+            "a": "$4 \\in Ư(7)$.",
+            "b": "$5 \\in Ư(7)$.",
+            "c": "$6 \\in Ư(7)$.",
+            "d": "$7 \\in Ư(7)$.",
+            "da": "D",
+            "loigiai": "Tập hợp các ước của 7 là $Ư(7) = \\{1; 7\\}$. Do đó, $7 \\in Ư(7)$ là khẳng định đúng."
+        },
+        {
+            "cau": 4,
+            "de": "Cho $x \\in \\{5; 16; 25; 135\\}$ sao cho tổng $20 + 35 + x$ không chia hết cho 5. Khi đó $x$ có thể là:",
+            "a": "$5$.",
+            "b": "$16$.",
+            "c": "$25$.",
+            "d": "$135$.",
+            "da": "B",
+            "loigiai": "Vì 20 và 35 đều chia hết cho 5, nên để tổng $(20 + 35 + x)$ không chia hết cho 5 thì $x$ không chia hết cho 5. Trong tập đã cho, chỉ có số 16 không chia hết cho 5."
+        },
+        {
+            "cau": 5,
+            "de": "Trong các số sau, số nào chia hết cho cả 2 và 5?",
+            "a": "$2020$.",
+            "b": "$25$.",
+            "c": "$52$.",
+            "d": "$5$.",
+            "da": "A",
+            "loigiai": "Số chia hết cho cả 2 và 5 có chữ số tận cùng là 0. Do đó số 2020 thỏa mãn."
+        },
+        {
+            "cau": 6,
+            "de": "Tổng $3510 + 4353$ chia hết cho:",
+            "a": "$2$.",
+            "b": "$3$.",
+            "c": "$5$.",
+            "d": "$9$.",
+            "da": "B",
+            "loigiai": "Tổng các chữ số của 3510 là $3 + 5 + 1 + 0 = 9 \\ \\vdots \\ 3$; tổng các chữ số của 4353 là $4 + 3 + 5 + 3 = 15 \\ \\vdots \\ 3$. Do đó tổng $3510 + 4353$ chia hết cho 3."
+        },
+        {
+            "cau": 7,
+            "de": "Hình nào dưới đây là tam giác đều?",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.75, font=\\small]\n  \\begin{scope}[shift={(0,0)}]\n    \\coordinate (C) at (0,0); \\coordinate (B) at (2.4,0); \\coordinate (A) at (1.2, 2.078);\n    \\draw[thick] (A) -- (B) -- (C) -- cycle;\n    \\filldraw[blue] (A) circle (1.5pt) node[above] {$A$};\n    \\filldraw[blue] (B) circle (1.5pt) node[right] {$B$};\n    \\filldraw[blue] (C) circle (1.5pt) node[left] {$C$};\n    \\draw ($(A)!0.5!(B) + (-0.08,0.05)$) -- ($(A)!0.5!(B) + (0.08,-0.05)$);\n    \\draw ($(A)!0.5!(C) + (-0.08,-0.05)$) -- ($(A)!0.5!(C) + (0.08,0.05)$);\n    \\draw ($(B)!0.5!(C) + (0,-0.09)$) -- ($(B)!0.5!(C) + (0,0.09)$);\n    \\node at (1.2, -0.6) {\\textbf{Hình 1}};\n  \\end{scope}\n  \\begin{scope}[shift={(3.8,0)}]\n    \\coordinate (V) at (0,0); \\coordinate (X) at (2.4,0); \\coordinate (Y) at (0,2);\n    \\draw[thick] (V) -- (X) -- (Y) -- cycle; \\draw (0,0.3) -- (0.3,0.3) -- (0.3,0);\n    \\node[left] at (0,1) {$a$}; \\node[below] at (1.2,0) {$b$}; \\node[above right] at (1.2,1) {$c$};\n    \\node at (1.2, -0.6) {\\textbf{Hình 2}};\n  \\end{scope}\n  \\begin{scope}[shift={(7.6,0)}]\n    \\coordinate (D) at (0,0); \\coordinate (C3) at (2,0); \\coordinate (B3) at (2,2); \\coordinate (A3) at (0,2);\n    \\draw[thick] (A3) -- (B3) -- (C3) -- (D) -- cycle;\n    \\draw (0,1.75) -- (0.25,1.75) -- (0.25,2); \\draw (2,1.75) -- (1.75,1.75) -- (1.75,2); \\draw (0,0.25) -- (0.25,0.25) -- (0.25,0);\n    \\node at (1, -0.6) {\\textbf{Hình 3}};\n  \\end{scope}\n  \\begin{scope}[shift={(11.2,0)}]\n    \\coordinate (D4) at (0,0); \\coordinate (C4) at (2,0); \\coordinate (B4) at (2.6,1.8); \\coordinate (A4) at (0.6,1.8);\n    \\draw[thick] (A4) -- (B4) -- (C4) -- (D4) -- cycle;\n    \\node at (1.2, -0.6) {\\textbf{Hình 4}};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}",
+            "a": "Hình 1.",
+            "b": "Hình 2.",
+            "c": "Hình 3.",
+            "d": "Hình 4.",
+            "da": "A",
+            "loigiai": "Hình 1 có ký hiệu 3 cạnh bằng nhau nên là tam giác đều."
+        },
+        {
+            "cau": 8,
+            "de": "Kết quả của $7^{56} : 7^{51}$ viết dưới dạng một lũy thừa là:",
+            "a": "$7^5$.",
+            "b": "$7^6$.",
+            "c": "$7^{107}$.",
+            "d": "$7^4$.",
+            "da": "A",
+            "loigiai": "Khi chia hai lũy thừa cùng cơ số: $7^{56} : 7^{51} = 7^{56 - 51} = 7^5$."
+        },
+        {
+            "cau": 9,
+            "de": "Trong các hình dưới đây, hình nào là tam giác đều?",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.75, font=\\small]\n  \\begin{scope}[shift={(0,0)}]\n    \\coordinate (B) at (0,0); \\coordinate (C) at (2.4,0); \\coordinate (A) at (1.2, 2.078);\n    \\draw[thick, blue!80!black] (A) -- (B) -- (C) -- cycle;\n    \\node[above] at (A) {$A$}; \\node[below left] at (B) {$B$}; \\node[below right] at (C) {$C$};\n    \\draw ($(A)!0.5!(B) + (-0.08,0.05)$) -- ($(A)!0.5!(B) + (0.08,-0.05)$);\n    \\draw ($(A)!0.5!(C) + (-0.08,-0.05)$) -- ($(A)!0.5!(C) + (0.08,0.05)$);\n    \\draw ($(B)!0.5!(C) + (0,-0.09)$) -- ($(B)!0.5!(C) + (0,0.09)$);\n    \\node at (1.2, -0.6) {$\\Delta ABC$};\n  \\end{scope}\n  \\begin{scope}[shift={(3.8,0)}]\n    \\coordinate (D) at (0,0); \\coordinate (E) at (2.4,0); \\coordinate (F) at (0,2.4);\n    \\draw[thick, blue!80!black] (D) -- (E) -- (F) -- cycle; \\draw (0,0.3) -- (0.3,0.3) -- (0.3,0);\n    \\node[left] at (D) {$D$}; \\node[right] at (E) {$E$}; \\node[above] at (F) {$F$};\n    \\node at (1.2, -0.6) {$\\Delta DEF$};\n  \\end{scope}\n  \\begin{scope}[shift={(7.6,0)}]\n    \\coordinate (Q) at (0,0); \\coordinate (R) at (2.2,0); \\coordinate (P) at (1.1,2.4);\n    \\draw[thick, blue!80!black] (P) -- (Q) -- (R) -- cycle;\n    \\node[above] at (P) {$P$}; \\node[below left] at (Q) {$Q$}; \\node[below right] at (R) {$R$};\n    \\draw ($(P)!0.5!(Q) + (-0.08,0.05)$) -- ($(P)!0.5!(Q) + (0.08,-0.05)$);\n    \\draw ($(P)!0.5!(R) + (-0.08,-0.05)$) -- ($(P)!0.5!(R) + (0.08,0.05)$);\n    \\node at (1.1, -0.6) {$\\Delta PQR$};\n  \\end{scope}\n  \\begin{scope}[shift={(11.2,0)}]\n    \\coordinate (M) at (0,0.8); \\coordinate (H) at (1.6,0); \\coordinate (N) at (1.4,2.5);\n    \\draw[thick, blue!80!black] (M) -- (H) -- (N) -- cycle;\n    \\node[left] at (M) {$M$}; \\node[below] at (H) {$H$}; \\node[above] at (N) {$N$};\n    \\node[below left] at (0.8,0.4) {$5$}; \\node[above left] at (0.7,1.6) {$6$}; \\node[right] at (1.5,1.25) {$8$};\n    \\node at (0.8, -0.6) {$\\Delta MNH$};\n  \\end{scope}\n\\end{tikzpicture}\n\\end{center}",
+            "a": "Tam giác $ABC$.",
+            "b": "Tam giác $DEF$.",
+            "c": "Tam giác $PQR$.",
+            "d": "Tam giác $MNH$.",
+            "da": "A",
+            "loigiai": "Tam giác $ABC$ có ký hiệu ba cạnh bằng nhau nên là tam giác đều."
+        },
+        {
+            "cau": 10,
+            "de": "Cho hình bình hành $AKHE$ có $AK = 6\\text{ cm}, KH = 5\\text{ cm}$. Hãy chọn phát biểu đúng trong các phát biểu sau:",
+            "a": "$EH = 5\\text{ cm}, AE = 6\\text{ cm}$.",
+            "b": "$EH = 6\\text{ cm}, AE = 5\\text{ cm}$.",
+            "c": "$AH = 6\\text{ cm}, AE = 5\\text{ cm}$.",
+            "d": "$KH = 6\\text{ cm}, AH = 5\\text{ cm}$.",
+            "da": "B",
+            "loigiai": "Trong hình bình hành $AKHE$, các cạnh đối bằng nhau: $EH = AK = 6\\text{ cm}$ và $AE = KH = 5\\text{ cm}$."
+        },
+        {
+            "cau": 11,
+            "de": "Tập hợp $L = \\{x \\in \\mathbb{N}^* \\mid x \\text{ là số lẻ và } x \\le 9\\}$ được viết dưới dạng liệt kê các phần tử là:",
+            "a": "$\\{1; 3; 5; 7\\}$.",
+            "b": "$\\{1; 3; 5; 7; 9\\}$.",
+            "c": "$\\{1; 2; 3; 4; 5; 6; 7; 8\\}$.",
+            "d": "$\\{1; 2; 3; 4; 5; 6; 7; 8; 9\\}$.",
+            "da": "B",
+            "loigiai": "Các số tự nhiên khác 0, là số lẻ và nhỏ hơn hoặc bằng 9 là $1; 3; 5; 7; 9$. Do đó $L = \\{1; 3; 5; 7; 9\\}$."
+        },
+        {
+            "cau": 12,
+            "de": "Chu vi hình thoi $MNPQ$ có cạnh $MN = 5\\text{ cm}$ là:",
+            "a": "$20\\text{ cm}$.",
+            "b": "$15\\text{ cm}$.",
+            "c": "$25\\text{ cm}$.",
+            "d": "$10\\text{ cm}$.",
+            "da": "A",
+            "loigiai": "Hình thoi có 4 cạnh bằng nhau nên chu vi là: $4 \\times 5 = 20\\text{ (cm)}$."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Xét tính đúng/sai của các mệnh đề sau:",
+            "y_a": {"noi_dung": "Mọi số có chữ số tận cùng là 3; 6; 9 thì chia hết cho 3.", "da": "S", "giai": "Sai. Dấu hiệu chia hết cho 3 phụ thuộc vào tổng các chữ số chứ không phụ thuộc vào chữ số tận cùng. Ví dụ 13 tận cùng là 3 nhưng không chia hết cho 3."},
+            "y_b": {"noi_dung": "Để số $\\overline{212*}$ chia hết cho 2 thì $* \\in \\{4; 6; 8\\}$.", "da": "S", "giai": "Sai. Để chia hết cho 2 thì chữ số tận cùng phải là chẵn, tức là $* \\in \\{0; 2; 4; 6; 8\\}$ (thiếu 0 và 2)."},
+            "y_c": {"noi_dung": "Số chia hết cho 9 thì số đó chia hết cho 3.", "da": "D", "giai": "Đúng. Vì 9 chia hết cho 3 nên mọi số chia hết cho 9 đều chia hết cho 3."},
+            "y_d": {"noi_dung": "Các số có chữ số tận cùng là 0 hoặc 5 thì chia hết cho 5.", "da": "D", "giai": "Đúng. Đây là dấu hiệu nhận biết chia hết cho 5."}
+        },
+        {
+            "cau": 2,
+            "de": "Cho các số $a = 12, b = 18$ và $c = 30$. Xét tính đúng/sai của các mệnh đề sau:",
+            "y_a": {"noi_dung": "Số $a$ là bội của 4.", "da": "D", "giai": "Đúng. $12 = 4 \\cdot 3$ nên 12 là bội của 4."},
+            "y_b": {"noi_dung": "Số 6 là ước chung của cả ba số $a, b, c$.", "da": "D", "giai": "Đúng. Cả 12, 18, 30 đều chia hết cho 6."},
+            "y_c": {"noi_dung": "Ước chung lớn nhất của $a$ và $b$ là 12.", "da": "S", "giai": "Sai. $ƯCLN(12, 18) = 6$ chứ không phải 12."},
+            "y_d": {"noi_dung": "Bội chung nhỏ nhất của $a$ và $b$ là 36.", "da": "D", "giai": "Đúng. $BCNN(12, 18) = 36$."}
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Một hình lục giác đều có độ dài một cạnh bằng $5\\text{ cm}$. Tính chu vi của hình lục giác đều đó (theo đơn vị $\\text{cm}$).",
+            "da": "30",
+            "loigiai": "Chu vi hình lục giác đều là: $5 \\times 6 = 30\\text{ (cm)}$."
+        },
+        {
+            "cau": 2,
+            "de": "Một khu vườn hình chữ nhật có chiều dài $15\\text{ m}$ và chiều rộng $10\\text{ m}$. Người ta làm hàng rào xung quanh khu vườn và để lại một cửa ra vào rộng $2\\text{ m}$. Tính độ dài của hàng rào đó (theo đơn vị $\\text{m}$).",
+            "da": "48",
+            "loigiai": "Chu vi khu vườn là: $(15 + 10) \\cdot 2 = 50\\text{ (m)}$.\\\\Độ dài hàng rào là: $50 - 2 = 48\\text{ (m)}$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,0 điểm",
+            "de": "Tìm số tự nhiên $x$, biết:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "$x + 37 = 50$",
+                    "loigiai": "$x = 50 - 37 \\Rightarrow x = 13$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "$(x + 2) : 5 = 6$",
+                    "loigiai": "$x + 2 = 6 \\cdot 5 = 30 \\Rightarrow x = 30 - 2 = 28$."
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "1,0 điểm",
+            "de": "Tập hợp và bài toán thực tế tiết kiệm:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Viết tập hợp $A$ các số tự nhiên nhỏ hơn 8. Liệt kê các số nguyên tố trong tập hợp $A$?",
+                    "loigiai": "$A = \\{0; 1; 2; 3; 4; 5; 6; 7\\}$.\\\\Các số nguyên tố trong tập hợp $A$ là: $2; 3; 5; 7$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "Mỗi tháng An tiết kiệm $35\\,000$ đồng để mua một đôi giày thể thao. Sau 1 năm, An đã mua được đôi giày và còn lại $23\\,000$ đồng. Hỏi đôi giày An mua giá bao nhiêu đồng?",
+                    "loigiai": "Số tiền An tiết kiệm trong 1 năm (12 tháng) là: $35\\,000 \\cdot 12 = 420\\,000\\text{ (đồng)}$.\\\\Giá tiền đôi giày là: $420\\,000 - 23\\,000 = 397\\,000\\text{ (đồng)}$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "0,5 điểm",
+            "de": "Một khu vườn hình chữ nhật có chiều dài $20\\text{ m}$, chiều rộng ít hơn chiều dài $5\\text{ m}$. Người ta dự định rào xung quanh khu đất bằng 4 đường dây kẽm gai để trồng rau.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,25",
+                    "noi_dung": "Hỏi cần tất cả bao nhiêu mét dây kẽm gai để rào khu đất trên?",
+                    "loigiai": "Chiều rộng khu vườn là: $20 - 5 = 15\\text{ (m)}$.\\\\Chu vi khu vườn là: $(20 + 15) \\cdot 2 = 70\\text{ (m)}$.\\\\Số mét dây kẽm gai cần dùng để rào 4 đường là: $70 \\cdot 4 = 280\\text{ (m)}$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,25",
+                    "noi_dung": "Người nông dân thu hoạch được bao nhiêu kg rau trên khu vườn này, biết rằng cứ $1\\text{ m}^2$ thu hoạch được $2\\text{ kg}$ rau, diện tích lối đi và hệ thống thoát nước là $50\\text{ m}^2$?",
+                    "loigiai": "Diện tích khu vườn là: $20 \\cdot 15 = 300\\text{ (m}^2\\text{)}$.\\\\Diện tích đất thực tế trồng rau là: $300 - 50 = 250\\text{ (m}^2\\text{)}$.\\\\Số kg rau thu hoạch được là: $250 \\cdot 2 = 500\\text{ (kg)}$."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Không thực hiện tính tổng, chứng minh rằng $A = 1 + 4 + 4^2 + 4^3 + \\dots + 4^{2021}$ chia hết cho 21.",
+            "loigiai": "Tổng $A$ có $2022$ số hạng. Ta nhóm 3 số hạng liên tiếp vào một nhóm:\n\\begin{align*}\nA &= (1 + 4 + 4^2) + 4^3(1 + 4 + 4^2) + \\dots + 4^{2019}(1 + 4 + 4^2)\\\\\n&= 21 + 4^3 \\cdot 21 + \\dots + 4^{2019} \\cdot 21\\\\\n&= 21 \\cdot (1 + 4^3 + \\dots + 4^{2019}) \\ \\vdots \\ 21 \\quad \\text{(đpcm)}.\n\\end{align*}"
+        }
+    ]
+}
+
+out_path = r"d:\GitHub\SOANBAI-main\LOP6\DE_THI_GHK1\DE_11\de_11.json"
+with open(out_path, "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Saved de_11.json successfully!")
+

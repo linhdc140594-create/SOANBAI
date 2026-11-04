@@ -1,0 +1,151 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 10 - BUỔI 2",
+  "title_p2": "TOÁN 8 - TUẦN 10 - BUỔI 2",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_10_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        ["Cho $\\Delta ABC, M \\in AB, N \\in AC$ có $\\dfrac{AM}{MB} = \\dfrac{AN}{NC}$. Khi đó $MN \\dots BC$:", "\\parallel"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM=2, AB=6, BC=9\\text{ cm}$. Độ dài $MN$ là:", "3\\text{ cm}"],
+        ["Cho $\\Delta ABC$ có $DE \\parallel BC$. Biết $AD=3, DB=2$. Tỉ số $\\dfrac{DE}{BC}$ bằng:", "\\frac{3}{5}"],
+        ["Phân tích đa thức $3x^2 - 6x$ thành nhân tử được:", "3x(x - 2)"],
+        ["Phân tích đa thức $x^2 - 25$ thành nhân tử được:", "(x - 5)(x + 5)"],
+        ["Thu gọn biểu thức $x^2 + 6x + 9$ thành bình phương được:", "(x + 3)^2"],
+        ["Bậc của đa thức $P = 4x^3 y^2 - 5x^2 y^3 + 2xy - 1$ là:", "5"],
+        ["Kết quả của phép chia $(18x^5 y^4) : (6x^3 y^2)$ là:", "3x^2 y^2"],
+        ["Định lí Thalès đảo dùng để chứng minh hai đường thẳng:", "\\text{song song}"],
+        ["Bờ sông có $MN \\parallel AB$: $OM=4, MA=8, MN=6\\text{ m}$. Tính $AB$:", "18\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$3x(2x^2 - 5x + 3)$",
+        "b": "$(x - 1)(x + 4) - (x^2 - 4)$",
+        "c": "$(2x - 3)^2 + (2x + 3)^2$",
+        "d": "Phân tích nhân tử: $xy - 3x + 2y - 6$",
+        "e": "Phân tích nhân tử: $x^2 - y^2 + 4x + 4$",
+        "f": "Phân tích nhân tử: $x^2 - 7x + 12$"
+      },
+      "q12": {
+        "a": "$2x(x - 4) - 2x^2 = 16$",
+        "b": "$x(x - 3) - 5(x - 3) = 0$",
+        "c": "$(x - 2)^2 - 16 = 0$",
+        "d": "$(2x + 3)^2 = 49$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $M$, trên cạnh $AC$ lấy điểm $N$. Cho biết $AM = 4\\text{ cm}, MB = 6\\text{ cm}, AN = 6\\text{ cm}, NC = 9\\text{ cm}$ và $BC = 15\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Chứng minh rằng $MN \\parallel BC$.",
+        "b": "\\textbf{(1,0 điểm)} Tính độ dài đoạn thẳng $MN$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức $P = -x^2 + 6x + 2020$."
+      }
+    },
+    "102": {
+      "short": [
+        ["Cho $\\Delta ABC, M \\in AB, N \\in AC$ có $\\dfrac{AM}{AB} = \\dfrac{AN}{AC}$. Khi đó $MN \\dots BC$:", "\\parallel"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM=3, AB=9, BC=12\\text{ cm}$. Độ dài $MN$ là:", "4\\text{ cm}"],
+        ["Cho $\\Delta ABC$ có $DE \\parallel BC$. Biết $AD=4, DB=3$. Tỉ số $\\dfrac{DE}{BC}$ bằng:", "\\frac{4}{7}"],
+        ["Phân tích đa thức $4x^2 - 8x$ thành nhân tử được:", "4x(x - 2)"],
+        ["Phân tích đa thức $x^2 - 36$ thành nhân tử được:", "(x - 6)(x + 6)"],
+        ["Thu gọn biểu thức $x^2 - 8x + 16$ thành bình phương được:", "(x - 4)^2"],
+        ["Bậc của đa thức $Q = 6x^4 y - 2x^2 y^3 + 3x^3 y^2 - 9$ là:", "5"],
+        ["Kết quả của phép chia $(24x^6 y^5) : (8x^4 y^3)$ là:", "3x^2 y^2"],
+        ["Định lí Thalès thuận dùng để tính đại lượng nào của hình:", "\\text{độ dài cạnh}"],
+        ["Bờ sông có $MN \\parallel AB$: $OM=5, MA=10, MN=7\\text{ m}$. Tính $AB$:", "21\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$4x(2x^2 - 3x + 4)$",
+        "b": "$(x - 2)(x + 5) - (x^2 - 10)$",
+        "c": "$(3x - 2)^2 + (3x + 2)^2$",
+        "d": "Phân tích nhân tử: $xy - 4x + 3y - 12$",
+        "e": "Phân tích nhân tử: $x^2 - y^2 + 6x + 9$",
+        "f": "Phân tích nhân tử: $x^2 - 8x + 15$"
+      },
+      "q12": {
+        "a": "$3x(x - 3) - 3x^2 = 18$",
+        "b": "$x(x - 4) - 6(x - 4) = 0$",
+        "c": "$(x - 3)^2 - 25 = 0$",
+        "d": "$(2x - 1)^2 = 49$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $M$, trên cạnh $AC$ lấy điểm $N$. Cho biết $AM = 6\\text{ cm}, MB = 9\\text{ cm}, AN = 8\\text{ cm}, NC = 12\\text{ cm}$ và $BC = 20\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Chứng minh rằng $MN \\parallel BC$.",
+        "b": "\\textbf{(1,0 điểm)} Tính độ dài đoạn thẳng $MN$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức $Q = -x^2 + 8x + 2010$."
+      }
+    },
+    "103": {
+      "short": [
+        ["Cho $\\Delta ABC, M \\in AB, N \\in AC$ có $\\dfrac{MB}{AB} = \\dfrac{NC}{AC}$. Khi đó $MN \\dots BC$:", "\\parallel"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM=4, AB=10, BC=15\\text{ cm}$. Độ dài $MN$ là:", "6\\text{ cm}"],
+        ["Cho $\\Delta ABC$ có $DE \\parallel BC$. Biết $AD=2, DB=3$. Tỉ số $\\dfrac{DE}{BC}$ bằng:", "\\frac{2}{5}"],
+        ["Phân tích đa thức $5x^2 - 10x$ thành nhân tử được:", "5x(x - 2)"],
+        ["Phân tích đa thức $x^2 - 49$ thành nhân tử được:", "(x - 7)(x + 7)"],
+        ["Thu gọn biểu thức $x^2 + 10x + 25$ thành bình phương được:", "(x + 5)^2"],
+        ["Bậc của đa thức $R = 3x^5 y - 4x^3 y^3 + x^2 y - 7$ là:", "6"],
+        ["Kết quả của phép chia $(20x^5 y^3) : (5x^3 y)$ là:", "4x^2 y^2"],
+        ["Hệ quả Thalès tạo thành tam giác mới có ba cạnh:", "\\text{tương ứng tỉ lệ}"],
+        ["Bờ sông có $MN \\parallel AB$: $OM=3, MA=9, MN=5\\text{ m}$. Tính $AB$:", "20\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$2x(3x^2 - 4x + 5)$",
+        "b": "$(x - 3)(x + 7) - (x^2 - 21)$",
+        "c": "$(2x - 1)^2 + (2x + 1)^2$",
+        "d": "Phân tích nhân tử: $xy - 5x + 2y - 10$",
+        "e": "Phân tích nhân tử: $x^2 - y^2 + 8x + 16$",
+        "f": "Phân tích nhân tử: $x^2 - 9x + 20$"
+      },
+      "q12": {
+        "a": "$4x(x - 3) - 4x^2 = 24$",
+        "b": "$x(x - 2) - 7(x - 2) = 0$",
+        "c": "$(x - 4)^2 - 9 = 0$",
+        "d": "$(3x + 2)^2 = 64$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $M$, trên cạnh $AC$ lấy điểm $N$. Cho biết $AM = 3\\text{ cm}, MB = 6\\text{ cm}, AN = 4\\text{ cm}, NC = 8\\text{ cm}$ và $BC = 18\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Chứng minh rằng $MN \\parallel BC$.",
+        "b": "\\textbf{(1,0 điểm)} Tính độ dài đoạn thẳng $MN$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức $R = -x^2 + 10x + 2002$."
+      }
+    },
+    "104": {
+      "short": [
+        ["Cho $\\Delta ABC, M \\in AB, N \\in AC$ có $\\dfrac{AM}{MB} = \\dfrac{AN}{NC} = \\dfrac{1}{2}$. Khi đó $MN \\dots BC$:", "\\parallel"],
+        ["$\\Delta ABC, MN \\parallel BC$. Biết $AM=2, AB=8, BC=16\\text{ cm}$. Độ dài $MN$ là:", "4\\text{ cm}"],
+        ["Cho $\\Delta ABC$ có $DE \\parallel BC$. Biết $AD=5, DB=2$. Tỉ số $\\dfrac{DE}{BC}$ bằng:", "\\frac{5}{7}"],
+        ["Phân tích đa thức $2x^2 - 6x$ thành nhân tử được:", "2x(x - 3)"],
+        ["Phân tích đa thức $x^2 - 64$ thành nhân tử được:", "(x - 8)(x + 8)"],
+        ["Thu gọn biểu thức $x^2 - 12x + 36$ thành bình phương được:", "(x - 6)^2"],
+        ["Bậc của đa thức $S = 2x^4 y^2 - 5x^3 y^3 + 4xy^4 + 1$ là:", "6"],
+        ["Kết quả của phép chia $(35x^7 y^4) : (7x^5 y^2)$ là:", "5x^2 y^2"],
+        ["Đường thẳng song song một cạnh tam giác tạo ra các đoạn thẳng:", "\\text{tương ứng tỉ lệ}"],
+        ["Bờ sông có $MN \\parallel AB$: $OM=4, MA=12, MN=6\\text{ m}$. Tính $AB$:", "24\\text{ m}"]
+      ],
+      "q11": {
+        "a": "$3x(3x^2 - 2x + 4)$",
+        "b": "$(x - 2)(x + 6) - (x^2 - 12)$",
+        "c": "$(3x - 1)^2 + (3x + 1)^2$",
+        "d": "Phân tích nhân tử: $xy - 2x + 4y - 8$",
+        "e": "Phân tích nhân tử: $x^2 - y^2 + 10x + 25$",
+        "f": "Phân tích nhân tử: $x^2 - 7x + 10$"
+      },
+      "q12": {
+        "a": "$5x(x - 3) - 5x^2 = 30$",
+        "b": "$x(x - 5) - 4(x - 5) = 0$",
+        "c": "$(x - 5)^2 - 16 = 0$",
+        "d": "$(3x - 2)^2 = 64$"
+      },
+      "q13": {
+        "de": "Cho tam giác $ABC$. Trên cạnh $AB$ lấy điểm $M$, trên cạnh $AC$ lấy điểm $N$. Cho biết $AM = 5\\text{ cm}, MB = 10\\text{ cm}, AN = 6\\text{ cm}, NC = 12\\text{ cm}$ và $BC = 24\\text{ cm}$.",
+        "a": "\\textbf{(1,0 điểm)} Chứng minh rằng $MN \\parallel BC$.",
+        "b": "\\textbf{(1,0 điểm)} Tính độ dài đoạn thẳng $MN$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức $S = -x^2 + 4x + 2024$."
+      }
+    }
+  }
+}

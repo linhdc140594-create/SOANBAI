@@ -1,0 +1,330 @@
+--- TRANG 21 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 6 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Khẳng định nào sau đây là sai ? 
+Trong hình vuông: 
+A. Bốn cạnh bằng nhau. 
+ 
+B. Hai đường chéo song song với nhau. 
+C. Bốn góc ở các đỉnh là góc vuông. 
+ 
+D. Hai cạnh đối song song. 
+Câu 2. Cho tập hợp 
+}
+0;2;
+{
+4; ;
+A
+a b
+=
+. Khẳng định nào dưới đây sai ? 
+A. 5
+A
+
+. 
+ 
+ 
+B. a
+A
+
+.   
+ 
+ 
+C. 0
+A
+
+.    
+ 
+        D. 1
+A
+
+. 
+Câu 3. Cho tập hợp 
+
+
+* |
+4
+A
+x
+x
+=
+
+
+
+ . Số nào dưới đây là phần tử của A ? 
+A. 0 .  
+ 
+ 
+B. 4 .  
+ 
+ 
+C. 5 .  
+ 
+ 
+D. 6 . 
+Câu 4. Với a, m, n là các số tự nhiên, khẳng định nào sau đây đúng? 
+A.  am : an = am - n  (a ≠ 0, m ≥ n).            
+ 
+B.  am : an  = am + n (a ≠ 0).  
+C.  am : an  = am.n (a ≠ 0).                       
+ 
+ 
+D.  am : an  = m – n (a ≠ 0).  
+Câu 5. Kết quả của phép tính 256 – 98 + 137 là: 
+A. 21.  
+             
+B. 217. 
+               
+C. 259. 
+                D. 295. 
+Câu 6. Đối với biểu thức không có dấu ngoặc và chỉ có các phép tính: cộng, trừ, nhân, 
+chia, lũy thừa, thì thực hiện phép tính đúng là: 
+A. Nhân và chia → Lũy thừa → Cộng và trừ. 
+
+
+--- TRANG 22 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+B. Lũy thừa → Nhân và chia → Cộng và trừ. 
+C. Lũy thừa → Cộng và trừ→ Nhân và chia. 
+D. Cộng và trừ → Nhân và chia → Lũy thừa. 
+Câu 7. Cho các số 3;15;29. Số không là số nguyên tố trong các số đó là: 
+A. 3 .  
+ 
+B. 15.  
+ 
+ 
+C. 23.  
+ 
+      D. cả 3 số trên. 
+Câu 8.  Trong các số sau số nào chia hết cho 9? 
+A. 144               
+Β. 249            
+ 
+C. 379      
+ 
+      D. 199 
+Câu 9. Bạn An có ngày sinh là số nguyên tố lớn nhất nhỏ hơn 20, tháng sinh của bạn là số 
+nguyên tố nhỏ nhất. Vậy bạn An có ngày và tháng sinh là bao nhiêu? 
+A. Ngày 19 tháng 3.       
+ 
+ 
+ 
+B. Ngày 19 tháng 2 
+C. Ngày 7 tháng 2           
+ 
+ 
+ 
+D. Ngày 7 tháng 3 
+Câu 10. Hình nào dưới đây là tam giác đều 
+ 
+A. Hình 1.                        
+ 
+ 
+ 
+B. Hình 2.                   
+ 
+C. Hình 3.                   
+ 
+ 
+ 
+D. Hình 4. 
+Câu 11. Mỗi góc của lục giác đều có số đo bằng 
+A. 90. 
+ 
+ 
+B. 180. 
+ 
+ 
+C. . 
+ 
+     D. 60. 
+Câu 12. Một mảnh giấy hình chữ nhật có diện tích 120 cm2, độ dài một cạnh là 8 cm. Chu 
+vi của mảnh giấy là: 
+A. 34 cm.                   
+B. 40 cm.                    
+C. 46 cm.                     D. 54 cm. 
+
+
+--- TRANG 23 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hình vuông ABCD có cạnh bằng 4 cm . Xét tính đúng sai của các mệnh đề sau: 
+a) 
+4 cm
+AB
+BC
+CD
+DA
+=
+=
+=
+=
+. 
+b) AB và BD song song với nhau. 
+c) Mỗi góc ở các đỉnh của hình vuông bằng nhau và bằng 60. 
+d) Vẽ cạnh 
+4 cm
+AB =
+. Dùng thước êke vẽ các đường vuông góc với AB tại A và B , sau 
+đó lần lượt lấy các điểm D, C trên các đường đó sao cho 
+4 cm
+AD
+BC
+=
+=
+. Nối C với D 
+ta được hình vuông ABCD có cạnh 4 cm như đã cho. 
+Câu 2. Cho tập hợp 
+{
+10
+15}
+A
+x
+x
+=
+
+
+
+∣
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Tập hợp A được viết dưới dạng liệt kê các phần tử là: 
+{11;12;13;14;15}
+A =
+. 
+b) Số 10 thuộc tập hợp A (kí hiệu là 10
+A
+
+). 
+c) Trong tập hợp A , có đúng 2 phần tử là số nguyên tố. 
+d) Tổng của phần tử lớn nhất và phần tử bé nhất trong tập hợp A là một số chia hết cho 3. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm số tự nhiên x thỏa mãn 2
+4
+32
+x 
+=
+? 
+Câu 2. Một hình chữ nhật có chu vi bằng 28 cm và chiều dài bằng 8 cm . Tính diện tích 
+của hình chữ nhật đó? (đơn vị: 
+2
+cm ) 
+Phần IV. Tự luận 
+Câu 1.  Thực hiện phép tính (Tính hợp lí nếu có thể) 
+
+
+--- TRANG 24 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 12 25
+85:17
+205
+
++
+−
+. 
+ 
+b) 
+2
+2
+5 13
+5
+3
+
+−
+. 
+c) 
+(
+)
+2
+0
+57
+250: 7
+2
+3
+2025 .
+
+
+−
+−
+−
+
+
+
+ 
+ 
+Câu 2. Tìm số tự nhiên x thỏa mãn: 
+12
+45
+) x
+a
++
+=
+; 
+ 
+ 
+6
+3
+) 333 
+5 :5
+b
+x
+−
+=
+; 
+ 
+ 
+(
+)
+3
+2
+2  12.144.
+)c
+x +
+=
+ 
+Câu 3. Kích thước chuẩn của sân bóng đá mini cho 5 người là sân hình chữ nhật có chiều 
+dài tối thiểu 25m và tối đa là 42m, chiều rộng tối thiểu 15m và tối đa 25m. Trường THCS 
+A xây dựng sân bóng đá cỏ nhân tạo hình chữ nhật có chiều dài 30m, chiều rộng 20m.  
+a) Vẽ minh họa sân bóng đá hình chữ nhật ABCD có cạnh AB dài 3cm và cạnh BC 
+dài 2cm. 
+b) Tính diện tích sân bóng đó. 
+Câu 4. Một người bán 6 giỏ cam và xoài. Mỗi giỏ chỉ đựng hoặc cam hoặc xoài với số 
+lượng sau: 34 quả, 39 quả, 40 quả, 41 quả, 42 quả, 46 quả. Sau khi bán một giỏ xoài thì số 
+cam còn lại gấp 4 lần số xoài còn lại . Hãy cho biết giỏ nào đựng cam, giỏ nào đựng xoài? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

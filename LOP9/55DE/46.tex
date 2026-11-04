@@ -1,0 +1,234 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9 - Hệ phương trình
+	Giải hệ phương trình: $ \begin{cases} 2x - 3y = 3 \\ 3x + 2y = 11 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 2x - 3y = 3 \quad &(1) \\ 3x + 2y = 11 \quad &(2) \end{cases} $
+		Nhân phương trình (1) với 2 và phương trình (2) với 3:
+		$ \begin{cases} 4x - 6y = 6 \quad &(1') \\ 9x + 6y = 33 \quad &(2') \end{cases} $
+		Cộng vế theo vế của phương trình (1') và (2'):
+		\begin{align*}
+			(4x - 6y) + (9x + 6y) &= 6 + 33 \\
+			4x - 6y + 9x + 6y &= 39 \\
+			13x &= 39 \\
+			x &= 3
+		\end{align*}
+		Thay $x=3$ vào phương trình (1):
+		\begin{align*}
+			2(3) - 3y &= 3 \\
+			6 - 3y &= 3 \\
+			-3y &= 3 - 6 \\
+			-3y &= -3 \\
+			y &= 1
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (3;1)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 9 - Rút gọn biểu thức
+	Rút gọn biểu thức: $P=\left(\frac{\sqrt{x}-3}{x-1} + \frac{1}{x-\sqrt{x}}\right) : \left(1-\frac{1}{\sqrt{x}}\right)$ (với $x > 0, x \ne 1$)
+	\loigiai{
+		Điều kiện: $x > 0, x \ne 1$.
+		Ta có:
+		$x-1 = (\sqrt{x}-1)(\sqrt{x}+1)$
+		$x-\sqrt{x} = \sqrt{x}(\sqrt{x}-1)$
+		Xét phần trong ngoặc thứ nhất:
+		\begin{align*}
+			\frac{\sqrt{x}-3}{(\sqrt{x}-1)(\sqrt{x}+1)} + \frac{1}{\sqrt{x}(\sqrt{x}-1)} &= \frac{\sqrt{x}(\sqrt{x}-3) + (\sqrt{x}+1)}{\sqrt{x}(\sqrt{x}-1)(\sqrt{x}+1)} \\
+			&= \frac{x-3\sqrt{x} + \sqrt{x}+1}{\sqrt{x}(x-1)} \\
+			&= \frac{x-2\sqrt{x}+1}{\sqrt{x}(x-1)} \\
+			&= \frac{(\sqrt{x}-1)^2}{\sqrt{x}(\sqrt{x}-1)(\sqrt{x}+1)} \\
+			&= \frac{\sqrt{x}-1}{\sqrt{x}(\sqrt{x}+1)}
+		\end{align*}
+		Xét phần trong ngoặc thứ hai:
+		\begin{align*}
+			1-\frac{1}{\sqrt{x}} = \frac{\sqrt{x}-1}{\sqrt{x}}
+		\end{align*}
+		Vậy biểu thức $P$ trở thành:
+		\begin{align*}
+			P &= \frac{\sqrt{x}-1}{\sqrt{x}(\sqrt{x}+1)} : \frac{\sqrt{x}-1}{\sqrt{x}} \\
+			&= \frac{\sqrt{x}-1}{\sqrt{x}(\sqrt{x}+1)} \cdot \frac{\sqrt{x}}{\sqrt{x}-1}
+		\end{align*}
+		Vì $x \ne 1$ nên $\sqrt{x}-1 \ne 0$. Vì $x>0$ nên $\sqrt{x} \ne 0$. Ta có thể rút gọn:
+		\begin{align*}
+			P &= \frac{1}{\sqrt{x}+1}
+		\end{align*}
+		Vậy, với $x > 0, x \ne 1$ thì $P = \frac{1}{\sqrt{x}+1}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Cho phương trình $2x^2+6x-3=0$. Gọi $x_1, x_2$ là hai nghiệm (nếu có) của phương trình. Tính giá trị của biểu thức: $A = \frac{x_1}{x_2} + \frac{x_2}{x_1} + 2(x_1-1)(x_2-1) + 2028$.
+	\loigiai{
+		Phương trình đã cho là $2x^2+6x-3=0$.
+		Ta có $a=2, b=6, c=-3$.
+		$\Delta = b^2-4ac = 6^2 - 4(2)(-3) = 36 + 24 = 60 > 0$.
+		Vì $\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.\\
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = -\frac{6}{2} = -3 \\ x_1 x_2 = \frac{-3}{2} \end{cases} $\\
+		Ta biến đổi biểu thức A:
+		\begin{align*}
+			A &= \frac{x_1^2+x_2^2}{x_1x_2} + 2(x_1x_2 - x_1 - x_2 + 1) + 2028 \\
+			&= \frac{(x_1+x_2)^2 - 2x_1x_2}{x_1x_2} + 2(x_1x_2 - (x_1+x_2) + 1) + 2028
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức A:
+		\begin{align*}
+			A &= \frac{(-3)^2 - 2(-\frac{3}{2})}{-\frac{3}{2}} + 2\left(-\frac{3}{2} - (-3) + 1\right) + 2028 \\
+			&= \frac{9 + 3}{-\frac{3}{2}} + 2\left(-\frac{3}{2} + 3 + 1\right) + 2028 \\
+			&= \frac{12}{-\frac{3}{2}} + 2\left(-\frac{3}{2} + 4\right) + 2028 \\
+			&= 12 \cdot \left(-\frac{2}{3}\right) + 2\left(-\frac{3}{2} + \frac{8}{2}\right) + 2028 \\
+			&= -8 + 2\left(\frac{5}{2}\right) + 2028 \\
+			&= -8 + 5 + 2028 \\
+			&= -3 + 2028 \\
+			&= 2025
+		\end{align*}
+		Vậy, giá trị của biểu thức $A = 2025$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Một nhóm học sinh mua tổng cộng 11 ly gồm hai loại trà sữa và trà đào hết tổng cộng 120 nghìn đồng. Biết rằng giá mỗi ly trà sữa hơn mỗi ly trà đào 2 nghìn đồng và số tiền trả cho hai loại trà là như nhau. Hỏi nhóm bạn đó mua mỗi loại bao nhiêu ly?
+	\loigiai{
+		Gọi $x$ là số ly trà sữa đã mua.
+		Gọi $y$ là số ly trà đào đã mua.
+		(Điều kiện: $x, y$ là các số nguyên dương)
+		
+		Tổng số ly đã mua là 11, nên ta có phương trình:
+		$x + y = 11 \quad (1)$
+		
+		Tổng số tiền đã trả là 120 nghìn đồng.
+		Vì số tiền trả cho hai loại trà là như nhau, nên số tiền trả cho mỗi loại trà là:
+		$\frac{120}{2} = 60$ (nghìn đồng).
+		
+		Giá mỗi ly trà sữa là: $\frac{60}{x}$ (nghìn đồng/ly).
+		Giá mỗi ly trà đào là: $\frac{60}{y}$ (nghìn đồng/ly).
+		
+		Giá mỗi ly trà sữa hơn mỗi ly trà đào 2 nghìn đồng, nên ta có phương trình:
+		$\frac{60}{x} - \frac{60}{y} = 2 \quad (2)$
+		
+		Từ phương trình (1), suy ra $y = 11-x$.
+		Thế $y = 11-x$ vào phương trình (2) (với $x \ne 0, y \ne 0 \Rightarrow x \ne 11$):
+		\begin{align*}
+			\frac{60}{x} - \frac{60}{11-x} &= 2 \\
+			\text{Nhân cả hai vế với } x(11-x) \text{ để khử mẫu:} \\
+			60(11-x) - 60x &= 2x(11-x) \\
+			660 - 60x - 60x &= 22x - 2x^2 \\
+			660 - 120x &= 22x - 2x^2 \\
+			2x^2 - 120x - 22x + 660 &= 0 \\
+			2x^2 - 142x + 660 &= 0 \\
+			x^2 - 71x + 330 &= 0
+		\end{align*}
+		Giải phương trình bậc hai $x^2 - 71x + 330 = 0$:
+		$\Delta = b^2 - 4ac = (-71)^2 - 4(1)(330) = 5041 - 1320 = 3721$
+		$\sqrt{\Delta} = \sqrt{3721} = 61$
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-(-71) + 61}{2 \cdot 1} = \frac{71 + 61}{2} = \frac{132}{2} = 66$
+		$x_2 = \frac{-(-71) - 61}{2 \cdot 1} = \frac{71 - 61}{2} = \frac{10}{2} = 5$
+		
+		Trường hợp 1: $x = 66$ (số ly trà sữa)
+		Thì $y = 11 - 66 = -55$ (Loại vì số ly không thể âm).
+		
+		Trường hợp 2: $x = 5$ (số ly trà sữa)
+		Thì $y = 11 - 5 = 6$ (số ly trà đào). (Thỏa mãn)
+		
+		Kiểm tra lại:
+		Giá trà sữa: $\frac{60}{5} = 12$ nghìn đồng/ly.
+		Giá trà đào: $\frac{60}{6} = 10$ nghìn đồng/ly.
+		Giá trà sữa hơn giá trà đào: $12 - 10 = 2$ nghìn đồng (Đúng).
+		
+		Vậy, nhóm bạn đó mua 5 ly trà sữa và 6 ly trà đào.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Tháng sinh của các bạn trong tổ được tổ trưởng ghi lại trong bảng sau:
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			2 & 3 & 6 & 3 & 5 & 6 \\
+			\hline
+			5 & 6 & 5 & 2 & 2 & 2 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\begin{enumerate}[a)]
+		\item Lập bảng tần số tương đối của dấu hiệu.
+		\item Chọn 2 bạn bất kì. Tính xác suất để cả hai học sinh được chọn sinh vào tháng 6.
+	\end{enumerate}
+	\loigiai{
+		Tổng số bạn trong tổ là $6 \times 2 = 12$ bạn.
+		Ký hiệu các bạn theo tháng sinh để dễ liệt kê (giả sử không có bạn nào trùng tên):
+		\begin{itemize}
+			\item Tháng 2: B1, B2, B3, B4
+			\item Tháng 3: B5, B6
+			\item Tháng 5: B7, B8, B9
+			\item Tháng 6: B10, B11, B12
+		\end{itemize}
+		
+		\textbf{a) Lập bảng tần số tương đối của dấu hiệu.}
+		
+		Trước hết, ta lập bảng tần số từ dữ liệu đã cho:
+		\begin{itemize}
+			\item Tháng 2: xuất hiện 4 lần.
+			\item Tháng 3: xuất hiện 2 lần.
+			\item Tháng 5: xuất hiện 3 lần.
+			\item Tháng 6: xuất hiện 3 lần.
+		\end{itemize}
+		Tổng số học sinh: $4+2+3+3 = 12$.
+		
+		Bảng tần số và tần số tương đối:
+		\begin{center}
+			\begin{tabular}{|c|c|c|}
+				\hline
+				Tháng sinh (Giá trị) & Tần số (n) & Tần số tương đối (f) \\
+				\hline
+				2 & 4 & $\frac{4}{12} = \frac{1}{3} \approx 33,33\%$ \\
+				\hline
+				3 & 2 & $\frac{2}{12} = \frac{1}{6} \approx 16,67\%$ \\
+				\hline
+				5 & 3 & $\frac{3}{12} = \frac{1}{4} = 25\%$ \\
+				\hline
+				6 & 3 & $\frac{3}{12} = \frac{1}{4} = 25\%$ \\
+				\hline
+				\textbf{Tổng} & \textbf{N = 12} & \textbf{100\%} \\
+				\hline
+			\end{tabular}
+		\end{center}
+		
+		\textbf{b) Tính xác suất để cả hai học sinh được chọn sinh vào tháng 6.}
+		
+		Tổng số học sinh trong tổ là 12.
+		Số cách chọn ngẫu nhiên 2 bạn từ 12 bạn là $n(\Omega) = C_{12}^2 = \frac{12 \times 11}{2} = 66$ cách.
+		Số học sinh sinh vào tháng 6 là 3 bạn (B10, B11, B12).
+		Gọi A là biến cố "cả hai học sinh được chọn đều sinh vào tháng 6".
+		Các cặp 2 bạn được chọn mà cả hai đều sinh vào tháng 6 được liệt kê như sau:
+		\begin{itemize}
+			\item (B10, B11)
+			\item (B10, B12)
+			\item (B11, B12)
+		\end{itemize}
+		Có 3 cặp thỏa mãn. Vậy, số phần tử của biến cố A là $n(A) = 3$.
+		
+		Xác suất của biến cố A là:
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{3}{66} = \frac{1}{22}$.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho đường tròn đường kính $AB$. Dây $MN$ không đi qua tâm và vuông góc với $AB$ tại $I$. Trên cung nhỏ $MB$ lấy điểm $C$. Gọi $E$ là giao điểm của $AC$ và $MN$.
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác $BCEI$ nội tiếp.
+		\item Chứng minh $AM^2 = AC \cdot AE$ và $AM$ là tiếp tuyến của đường tròn ngoại tiếp tam giác $CME$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	\begin{enumerate}[a)]
+		\item Ông Chín muốn làm một cái thùng hình trụ bằng tôn không có nắp đựng được 314 lít nước. Hỏi ông Chín phải làm cái thùng có các kích thước như thế nào để hết ít vật liệu nhất?
+		\item Với ba số thực $x, y, z$ thỏa mãn $x^2+y^2+z^2 \le 8$.
+		Tìm giá trị nhỏ nhất của biểu thức: $T = 506xz - xy - yz$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

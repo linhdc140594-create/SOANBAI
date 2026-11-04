@@ -1,0 +1,380 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[top=0.9cm, bottom=0.9cm, left=1.2cm, right=1.2cm]{geometry}
+\usepackage[loigiai]{ex_test}
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 8 -- Hướng dẫn giải Đề số 03}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Large HƯỚNG DẪN GIẢI CHI TIẾT VÀ BẢNG ĐÁP ÁN}\\
+  \textbf{\large ĐỀ ÔN TẬP GIỮA HỌC KỲ I -- ĐỀ SỐ 03}\\
+  \textit{Môn: Toán 8 -- Năm học 2026 -- 2027}
+\end{center}
+\vspace{2mm}
+
+% --- BẢNG ĐÁP ÁN TRẮC NGHIỆM TÓM TẮT ---
+\noindent\textbf{\large A. BẢNG ĐÁP ÁN TRẮC NGHIỆM TỔNG HỢP}
+\vspace{1mm}
+
+\noindent\textbf{1. Phần I (Mỗi câu trả lời đúng được 0,25 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{B} & \textbf{C} & \textbf{B} & \textbf{D} & \textbf{A} & \textbf{D} & \textbf{D} & \textbf{A} & \textbf{C} & \textbf{D} & \textbf{A} & \textbf{B} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{2. Phần II (Đúng 1 ý: 0,1đ; 2 ý: 0,25đ; 3 ý: 0,5đ; 4 ý: 1,0đ):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} & \textbf{Câu} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} \\
+\hline
+\textbf{Câu 1} & \textbf{Đ} & \textbf{Đ} & \textbf{Đ} & \textbf{S} & \textbf{Câu 2} & \textbf{Đ} & \textbf{Đ} & \textbf{Đ} & \textbf{S} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{3. Phần III (Mỗi câu trả lời đúng được 1,0 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} \\
+\hline
+\textbf{Đáp án} & $\mathbf{x - 3}$ & $\mathbf{(x - y + 1)(x + y + 1)}$ \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{1.5mm}
+
+% --- B. LỜI GIẢI CHI TIẾT ---
+\noindent\textbf{\large B. LỜI GIẢI CHI TIẾT CÁC CÂU HỎI}
+\vspace{1mm}
+\begin{ex}
+Biểu thức nào sau đây là đơn thức?
+\choice
+{$x^3(1 + x)$}
+{\True $3xy^2z^5$}
+{$(xy + z)t$}
+{$\dfrac{2}{x} + y$}
+\loigiai{
+Đơn thức là biểu thức đại số chỉ gồm một số, hoặc một biến, hoặc một tích giữa các số và các biến. Biểu thức $3xy^2z^5$ là đơn thức.
+}
+\end{ex}
+
+\begin{ex}
+Cặp đơn thức nào sau đây là đồng dạng với nhau?
+\choice
+{$\dfrac{1}{2}x^2y$ và $2xy^2$}
+{$3xy$ và $-5x$}
+{\True $x^2y^4$ và $2x^2y^4$}
+{$-3xy$ và $-3xy^2$}
+\loigiai{
+Hai đơn thức đồng dạng có hệ số khác 0 và có cùng phần biến. Cặp đơn thức $x^2y^4$ và $2x^2y^4$ có cùng phần biến $x^2y^4$.
+}
+\end{ex}
+
+\begin{ex}
+Thực hiện phép chia đơn thức $5x^2y^2z$ cho $5xyz$ ta được kết quả là:
+\choice
+{$5xy$}
+{\True $xy$}
+{$yz$}
+{$25x^3y^3z^2$}
+\loigiai{
+Ta có: $5x^2y^2z : 5xyz = (5 : 5)(x^2 : x)(y^2 : y)(z : z) = xy$.
+}
+\end{ex}
+
+\begin{ex}
+Hằng đẳng thức $A^2 - B^2 = (A - B)(A + B)$ có tên là:
+\choice
+{Bình phương của một tổng}
+{Bình phương của một hiệu}
+{Tổng hai bình phương}
+{\True Hiệu hai bình phương}
+\loigiai{
+Công thức $A^2 - B^2 = (A - B)(A + B)$ là hằng đẳng thức hiệu hai bình phương.
+}
+\end{ex}
+
+\begin{ex}
+Tứ giác nào dưới đây là hình thoi?
+\choice
+{\True Tứ giác có 4 cạnh bằng nhau}
+{Tứ giác có hai đường chéo vuông góc}
+{Hình bình hành có hai đường chéo bằng nhau}
+{Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường}
+\loigiai{
+Theo định nghĩa, hình thoi là tứ giác có 4 cạnh bằng nhau.
+}
+\end{ex}
+
+\begin{ex}
+Hai đường chéo của hình chữ nhật có tính chất nào sau đây?
+\choice
+{Chúng vuông góc với nhau}
+{Chúng bằng nhau}
+{Chúng cắt nhau tại trung điểm của mỗi đường}
+{\True Chúng bằng nhau và cắt nhau tại trung điểm của mỗi đường}
+\loigiai{
+Trong hình chữ nhật, hai đường chéo bằng nhau và cắt nhau tại trung điểm của mỗi đường.
+}
+\end{ex}
+
+\begin{ex}
+Hình bình hành $ABCD$ có $\widehat{A} = 65^\circ$. Số đo góc $\widehat{C}$ là:
+\choice
+{$125^\circ$}
+{$95^\circ$}
+{$115^\circ$}
+{\True $65^\circ$}
+\loigiai{
+Trong hình bình hành, hai góc đối diện bằng nhau nên $\widehat{C} = \widehat{A} = 65^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$ có $M$ là trung điểm của $BC$, biết $BC = 10\text{ cm}$. Khi đó độ dài đoạn thẳng $AM$ bằng:
+\choice
+{\True $5\text{ cm}$}
+{$10\text{ cm}$}
+{$15\text{ cm}$}
+{$20\text{ cm}$}
+\loigiai{
+Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng một nửa cạnh huyền: $AM = \dfrac{1}{2}BC = \dfrac{1}{2} \cdot 10 = 5\text{ cm}$.
+}
+\end{ex}
+
+\begin{ex}
+Cho các tam giác có độ dài ba cạnh như sau. Tam giác nào là tam giác vuông?
+\choice
+{$15\text{ cm}; 8\text{ cm}; 10\text{ cm}$}
+{$6\text{ dm}; 8\text{ dm}; 9\text{ dm}$}
+{\True $5\text{ cm}; 4\text{ cm}; 3\text{ cm}$}
+{$2\text{ cm}; 3\text{ cm}; 4\text{ cm}$}
+\loigiai{
+Theo định lý Pythagoras đảo: $3^2 + 4^2 = 9 + 16 = 25 = 5^2$, do đó tam giác có độ dài ba cạnh $3\text{ cm}, 4\text{ cm}, 5\text{ cm}$ là tam giác vuông.
+}
+\end{ex}
+
+\begin{ex}
+Cho hình chữ nhật $ABCD$. Đoạn thẳng $AC$ bằng đoạn thẳng nào sau đây?
+\choice
+{$AB$}
+{$BC$}
+{$AD$}
+{\True $BD$}
+\loigiai{
+Trong hình chữ nhật $ABCD$, hai đường chéo $AC$ và $BD$ bằng nhau: $AC = BD$.
+}
+\end{ex}
+
+\begin{ex}
+Cho tứ giác $ABCD$, trong đó $\widehat{A} + \widehat{B} = 140^\circ$. Tổng $\widehat{C} + \widehat{D}$ bằng:
+\choice
+{\True $220^\circ$}
+{$200^\circ$}
+{$160^\circ$}
+{$130^\circ$}
+\loigiai{
+Tổng 4 góc của tứ giác bằng $360^\circ$. Do đó: $\widehat{C} + \widehat{D} = 360^\circ - (\widehat{A} + \widehat{B}) = 360^\circ - 140^\circ = 220^\circ$.
+}
+\end{ex}
+
+\begin{ex}
+Thể tích của một hình chóp tam giác đều có diện tích đáy bằng $15\text{ cm}^2$ và chiều cao bằng $6\text{ cm}$ là:
+\choice
+{$90\text{ cm}^3$}
+{\True $30\text{ cm}^3$}
+{$45\text{ cm}^3$}
+{$15\text{ cm}^3$}
+\loigiai{
+Thể tích hình chóp là: $V = \dfrac{1}{3} S_{\text{đáy}} \cdot h = \dfrac{1}{3} \cdot 15 \cdot 6 = 30\text{ (cm}^3\text{)}$.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+\vspace{1mm}
+\begin{ex}
+Cho hai biểu thức $A = (2x - 1)(x + 3) - 2x(x + 2)$ và $B = (6x^3y^2 - 9x^2y^3) : 3x^2y$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True Khai triển tích $(2x - 1)(x + 3)$ ta được $2x^2 + 5x - 3$}
+{\True Kết quả rút gọn của biểu thức $A$ là $x - 3$}
+{\True Kết quả của phép chia biểu thức $B$ là $2xy - 3y^2$}
+{Tại $x = 2$ và $y = 1$, giá trị của biểu thức $A$ gấp 2 lần giá trị của biểu thức $B$}
+\loigiai{
+\textbf{a)} Đúng. $(2x - 1)(x + 3) = 2x^2 + 6x - x - 3 = 2x^2 + 5x - 3$.
+
+\textbf{b)} Đúng. $A = (2x^2 + 5x - 3) - (2x^2 + 4x) = x - 3$.
+
+\textbf{c)} Đúng. $B = (6x^3y^2 - 9x^2y^3) : 3x^2y = 2xy - 3y^2$.
+
+\textbf{d)} Sai. Tại $x = 2, y = 1$: $A = 2 - 3 = -1$ và $B = 2 \cdot 2 \cdot 1 - 3 \cdot 1^2 = 1$. Vì $-1 \ne 2 \cdot 1$ nên khẳng định là sai.
+}
+\end{ex}
+
+\begin{ex}
+Cho hai đa thức $P = x^2 - 6x + 9 - y^2$ và $Q = 8x^3 - 27$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True Biến đổi $x^2 - 6x + 9$ thành bình phương của một hiệu ta được $(x - 3)^2$}
+{\True Phân tích đa thức $P$ thành nhân tử ta được $(x - y - 3)(x + y - 3)$}
+{\True Phân tích đa thức $Q$ thành nhân tử theo hằng đẳng thức hiệu hai lập phương ta được $(2x - 3)(4x^2 + 6x + 9)$}
+{Tại $x = 5$ và $y = 2$, giá trị của đa thức $P$ bằng 8}
+\loigiai{
+\textbf{a)} Đúng. $x^2 - 6x + 9 = (x - 3)^2$.
+
+\textbf{b)} Đúng. $P = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y) = (x - y - 3)(x + y - 3)$.
+
+\textbf{c)} Đúng. $Q = (2x)^3 - 3^3 = (2x - 3)(4x^2 + 6x + 9)$.
+
+\textbf{d)} Sai. Thay $x = 5, y = 2$ vào $P$: $P = (5 - 3)^2 - 2^2 = 2^2 - 4 = 0 \ne 8$.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+\vspace{1mm}
+\begin{ex}
+Rút gọn biểu thức: $A = (2x - 1)(x + 3) - 2x(x + 2)$. \shortans{$x - 3$}
+\loigiai{
+Ta có:
+$$A = (2x^2 + 6x - x - 3) - (2x^2 + 4x) = 2x^2 + 5x - 3 - 2x^2 - 4x = x - 3.$$
+Đáp số: $x - 3$.
+}
+\end{ex}
+
+\begin{ex}
+Phân tích đa thức sau thành nhân tử: $x^2 - y^2 + 2x + 1$. \shortans{$(x - y + 1)(x + y + 1)$}
+\loigiai{
+Nhóm các hạng tử tạo hằng đẳng thức:
+$$x^2 + 2x + 1 - y^2 = (x + 1)^2 - y^2 = (x + 1 - y)(x + 1 + y) = (x - y + 1)(x + y + 1).$$
+Đáp số: $(x - y + 1)(x + y + 1)$.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN (HƯỚNG DẪN GIẢI VÀ THANG ĐIỂM)}
+\vspace{1mm}
+\begin{ex} (2,0 điểm)
+Thực hiện phép tính:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=0pt, topsep=1pt]
+\item (0,5 điểm) Thu gọn và tính giá trị biểu thức $A = 5x^2y - 2xy + 3x^2y - xy$ tại $x = -1, y = 2$.
+\item (0,75 điểm) Thực hiện phép nhân: $B = 3xy(2x^2 - 5y^3)$.
+\item (0,75 điểm) Thực hiện phép chia: $C = (6x^3y^2 - 9x^2y^3) : 3x^2y^2$.
+\end{enumerate}
+\loigiai{
+\textbf{a)} \textit (0,5 điểm): Thu gọn đa thức: $A = (5x^2y + 3x^2y) + (-2xy - xy) = 8x^2y - 3xy$.
+Thay $x = -1, y = 2$: $A = 8(-1)^2(2) - 3(-1)(2) = 16 + 6 = 22$.
+
+\textbf{b)} \textit (0,75 điểm): $B = 3xy \cdot 2x^2 - 3xy \cdot 5y^3 = 6x^3y - 15xy^4$.
+
+\textbf{c)} \textit (0,75 điểm): $C = 6x^3y^2 : 3x^2y^2 - 9x^2y^3 : 3x^2y^2 = 2x - 3y$.
+
+
+}
+\end{ex}
+\vspace{0.5mm}
+
+\begin{ex} (1,5 điểm)
+Cho hai đa thức: $P = 2x^2y + 5x^3 - 2xy^2 + 6$ và $Q = x^3 + xy^2 - x^2y - 2$.
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=0pt, topsep=1pt]
+\item (0,75 điểm) Tính tổng của hai đa thức $P$ và $Q$.
+\item (0,75 điểm) Tìm đa thức $N$ sao cho $Q = P + N$.
+\end{enumerate}
+\loigiai{
+\textbf{a)} \textit (0,75 điểm): $\begin{aligned}[t] P + Q &= (5x^3 + x^3) + (2x^2y - x^2y) + (-2xy^2 + xy^2) + (6 - 2) \\ &= 6x^3 + x^2y - xy^2 + 4. \end{aligned}$
+
+\textbf{b)} \textit (0,75 điểm): Ta có $N = Q - P$:
+$$\begin{aligned} N &= (x^3 + xy^2 - x^2y - 2) - (2x^2y + 5x^3 - 2xy^2 + 6) \\ &= x^3 + xy^2 - x^2y - 2 - 2x^2y - 5x^3 + 2xy^2 - 6 \\ &= -4x^3 - 3x^2y + 3xy^2 - 8. \end{aligned}$$
+
+
+}
+\end{ex}
+\vspace{0.5mm}
+
+\begin{ex} (1,0 điểm)
+Khu vườn của nhà bác Hoa có dạng hình vuông. Bác Hoa muốn dành một mảnh đất hình chữ nhật ở góc khu vườn làm nhà để dụng cụ làm vườn (hình vẽ).
+\begin{center}
+\begin{tikzpicture}[scale=0.8, baseline=(current bounding box.center)]
+  \draw[thick, fill=green!10] (0,0) rectangle (4,4);
+  \draw[thick, fill=orange!25] (0,0) rectangle (2.2,1.3);
+  \node at (1.1,0.65) {\small Nhà kho};
+  \node at (2.5,2.6) {\small Khu vườn};
+  \draw[<->] (0,-0.3) -- (4,-0.3) node[midway, below] {\small $x$};
+  \draw[<->] (-0.3,0) -- (-0.3,4) node[midway, left] {\small $x$};
+  \draw[<->] (2.2,-0.3) -- (4,-0.3) node[midway, below] {\small $15\text{ m}$};
+  \draw[<->] (-0.3,1.3) -- (-0.3,4) node[midway, left] {\small $25\text{ m}$};
+\end{tikzpicture}
+\end{center}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=0pt, topsep=1pt]
+\item (0,5 điểm) Viết đa thức biểu thị chu vi của mảnh đất làm nhà.
+\item (0,5 điểm) Biết chu vi của mảnh đất làm nhà bằng $40\text{ m}$. Tính diện tích khu vườn hình vuông ban đầu.
+\end{enumerate}
+\loigiai{
+\textbf{a)} \textit (0,5 điểm): Mảnh đất hình chữ nhật có chiều dài là $x - 15\text{ (m)}$ và chiều rộng là $x - 25\text{ (m)}$.
+Đa thức biểu thị chu vi mảnh đất là:
+$$C = 2 \cdot [(x - 15) + (x - 25)] = 2(2x - 40) = 4x - 80\text{ (m)}.$$
+
+\textbf{b)} \textit (0,5 điểm): Theo bài ra: $4x - 80 = 40 \Rightarrow 4x = 120 \Rightarrow x = 30\text{ (m)}$.
+Cạnh khu vườn hình vuông ban đầu là $30\text{ m}$.
+Diện tích khu vườn ban đầu là: $S = 30 \times 30 = 900\text{ (m}^2\text{)}$.
+
+
+}
+\end{ex}
+\vspace{0.5mm}
+
+\begin{ex} (0,5 điểm)
+Cho các số thực $x, y$ thỏa mãn $x + y = 1$. Tìm giá trị nhỏ nhất của biểu thức $A = x^3 + y^3 + xy$.
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=0pt, topsep=1pt]
+\item (0,5 điểm) Tìm GTNN của $A$.
+\end{enumerate}
+\loigiai{
+\textbf{a)} \textit (0,5 điểm): Biến đổi biểu thức $A$:
+$$\begin{aligned} A &= (x + y)(x^2 - xy + y^2) + xy \\ &= 1 \cdot (x^2 - xy + y^2) + xy \\ &= x^2 + y^2. \end{aligned}$$
+Thay $y = 1 - x$ vào biểu thức, ta được:
+$$\begin{aligned} A &= x^2 + (1 - x)^2 = x^2 + 1 - 2x + x^2 \\ &= 2x^2 - 2x + 1 = 2\left(x^2 - x + \dfrac{1}{4}\right) + \dfrac{1}{2} \\ &= 2\left(x - \dfrac{1}{2}\right)^2 + \dfrac{1}{2}. \end{aligned}$$
+Vì $2\left(x - \dfrac{1}{2}\right)^2 \ge 0$ với mọi $x$, nên $A \ge \dfrac{1}{2}$.
+Dấu "$="$ xảy ra khi $x = \dfrac{1}{2} \Rightarrow y = 1 - \dfrac{1}{2} = \dfrac{1}{2}$.
+Vậy giá trị nhỏ nhất của $A$ là $\dfrac{1}{2}$, đạt được khi $x = y = \dfrac{1}{2}$.
+
+
+}
+\end{ex}
+\vspace{0.5mm}
+
+
+\enlargethispage{1.5cm}
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

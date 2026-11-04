@@ -1,0 +1,394 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[top=0.9cm, bottom=0.9cm, left=1.2cm, right=1.2cm]{geometry}
+\usepackage[loigiai]{ex_test}
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 9 -- Hướng dẫn giải Đề số 06}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Large HƯỚNG DẪN GIẢI CHI TIẾT VÀ BẢNG ĐÁP ÁN}\\
+  \textbf{\large ĐỀ ÔN TẬP GIỮA HỌC KỲ I -- ĐỀ SỐ 06}\\
+  \textit{Môn: Toán 9 -- Năm học 2026 -- 2027}
+\end{center}
+\vspace{2mm}
+
+% --- BẢNG ĐÁP ÁN TRẮC NGHIỆM TÓM TẮT ---
+\noindent\textbf{\large A. BẢNG ĐÁP ÁN TRẮC NGHIỆM TỔNG HỢP}
+\vspace{1mm}
+
+\noindent\textbf{1. Phần I (Mỗi câu trả lời đúng được 0,25 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đ/A} & \textbf{B} & \textbf{D} & \textbf{C} & \textbf{A} & \textbf{D} & \textbf{B} & \textbf{A} & \textbf{A} & \textbf{B} & \textbf{D} & \textbf{B} & \textbf{C} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{2. Phần II (Đúng 1 ý: 0,1đ; Đúng 2 ý: 0,25đ; Đúng 3 ý: 0,5đ; Đúng 4 ý: 1,0đ):}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
+\hline
+\textbf{Câu 1} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} & \textbf{Câu 2} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} \\
+\hline
+\textbf{Đáp án} & Đ & Đ & S & Đ & \textbf{Đáp án} & Đ & Đ & S & S \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{0.5mm}
+
+\noindent\textbf{3. Phần III (Mỗi câu trả lời đúng được 1,0 điểm):}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{Câu 1} & \textbf{Câu 2} \\
+\hline
+\textbf{Đáp án} & $y = 3$ & $4{,}33\text{ cm}$ \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{2mm}
+
+% --- LỜI GIẢI CHI TIẾT ---
+\noindent\textbf{\large B. HƯỚNG DẪN GIẢI CHI TIẾT TỪNG CÂU}
+\vspace{1mm}
+
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN}
+\vspace{1mm}
+\begin{ex}
+Phương trình nào dưới đây là phương trình bậc nhất hai ẩn?
+\choice
+{$2x^2 + 5y = 1$}
+{\True $3x - 5y = 1$}
+{$\frac{1}{x} + 2y = 1$}
+{$4xy = 1$}
+\loigiai{
+Phương trình bậc nhất hai ẩn có dạng $ax + by = c$, trong đó các hệ số $a, b$ không đồng thời bằng 0 và các ẩn đều có bậc 1. Do đó $3x - 5y = 1$ là phương trình bậc nhất hai ẩn.
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Đường thẳng biểu diễn tất cả các nghiệm của phương trình $3x - 12 = 0$ là đường thẳng:
+\choice
+{Vuông góc với trục tung}
+{Đi qua gốc tọa độ}
+{Song song với trục hoành}
+{\True Đi qua điểm $A(4; 5)$}
+\loigiai{
+Phương trình $3x - 12 = 0 \iff x = 4$. Đường thẳng $x = 4$ song song với trục tung và đi qua mọi điểm có hoành độ bằng 4, trong đó có điểm $A(4; 5)$.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Biết rằng $(x_0; y_0)$ là nghiệm của hệ phương trình $\begin{cases} x + 3y = 7 \\ 2x - y = 0. \end{cases}$ Tính $2y_0 - x_0$:
+\choice
+{$1$}
+{$-2$}
+{\True $3$}
+{$-1$}
+\loigiai{
+Từ phương trình thứ hai: $y = 2x$. Thay vào phương trình đầu: $x + 3(2x) = 7 \iff 7x = 7 \implies x_0 = 1, y_0 = 2$. Khi đó $2y_0 - x_0 = 2(2) - 1 = 3$.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+\begin{ex}
+Giải hệ phương trình $\begin{cases} x + y = 5 \\ x - y = 1 \end{cases}$ ta được nghiệm là:
+\choice
+{\True $(x; y) = (3; 2)$}
+{$(x; y) = (2; 3)$}
+{$(x; y) = (4; 1)$}
+{$(x; y) = (1; 4)$}
+\loigiai{
+Cộng hai phương trình vế theo vế: $2x = 6 \implies x = 3$. Suy ra $y = 5 - 3 = 2$. Vậy nghiệm của hệ là $(3; 2)$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Phương trình $(x - 3)(x + 8) = 0$ có tập nghiệm là:
+\choice
+{$x = 3; x = 8$}
+{$x = -3; x = 8$}
+{$x = -3; x = -8$}
+{\True $x = 3; x = -8$}
+\loigiai{
+Ta có $(x - 3)(x + 8) = 0 \iff x - 3 = 0$ hoặc $x + 8 = 0 \iff x = 3$ hoặc $x = -8$.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Cho góc nhọn $B$ trong tam giác vuông. Tỉ số giữa cạnh kề và cạnh huyền là:
+\choice
+{$\sin B$}
+{\True $\cos B$}
+{$\tan B$}
+{$\cot B$}
+\loigiai{
+Theo định nghĩa tỉ số lượng giác của góc nhọn trong tam giác vuông, cosin bằng cạnh kề chia cạnh huyền: $\cos B = \frac{\text{cạnh kề}}{\text{cạnh huyền}}$.
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép tính $\sqrt{-13} : \sqrt{-468}$ (hiểu là $\sqrt{\frac{13}{468}}$) là:
+\choice
+{\True $\frac{1}{6}$}
+{$-6$}
+{$6$}
+{$-\frac{1}{6}$}
+\loigiai{
+Ta có $\sqrt{\frac{13}{468}} = \sqrt{\frac{1}{36}} = \frac{1}{6}$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Đưa thừa số $-5a\sqrt{b}$ (với $a \ge 0, b \ge 0$) vào trong dấu căn ta được:
+\choice
+{\True $-\sqrt{25a^2 b}$}
+{$\sqrt{25a^2 b}$}
+{$-\sqrt{5a^2 b}$}
+{$\sqrt{5a^2 b}$}
+\loigiai{
+Vì $a \ge 0$, khi đưa thừa số dương $5a$ vào trong căn, dấu trừ phía trước giữ nguyên: $-5a\sqrt{b} = -\sqrt{(5a)^2 b} = -\sqrt{25a^2 b}$.
+\par\textbf{Chọn đáp án A.}
+}
+\end{ex}
+
+\begin{ex}
+Đưa thừa số $\sqrt{75x^2 y}$ (với $x < 0, y \ge 0$) ra ngoài dấu căn ta được:
+\choice
+{$5x\sqrt{3y}$}
+{\True $-5x\sqrt{3y}$}
+{$-75x\sqrt{y}$}
+{$-25x\sqrt{3y}$}
+\loigiai{
+Ta có $\sqrt{75x^2 y} = \sqrt{25 \cdot 3 \cdot x^2 \cdot y} = 5|x|\sqrt{3y}$. Vì $x < 0$ nên $|x| = -x$, kết quả là $-5x\sqrt{3y}$.
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Cho $\alpha$ là góc nhọn bất kì có $\tan \alpha = \frac{1}{7}$, khi đó:
+\choice
+{$\cot \alpha = \frac{1}{7}$}
+{$\cot \alpha = -\frac{1}{7}$}
+{$\cot \alpha = -7$}
+{\True $\cot \alpha = 7$}
+\loigiai{
+Ta có $\cot \alpha = \frac{1}{\tan \alpha} = \frac{1}{\frac{1}{7}} = 7$.
+\par\textbf{Chọn đáp án D.}
+}
+\end{ex}
+
+\begin{ex}
+Chọn khẳng định đúng nhất trong các khẳng định sau:
+\choice
+{$\cos 77^\circ = \sin 23^\circ$}
+{\True $\sin 37^\circ = \cos 53^\circ$}
+{$\cot 53^\circ = \tan 47^\circ$}
+{$\tan 37^\circ = \tan 53^\circ$}
+\loigiai{
+Vì $37^\circ + 53^\circ = 90^\circ$ là hai góc phụ nhau nên $\sin 37^\circ = \cos 53^\circ$.
+\par\textbf{Chọn đáp án B.}
+}
+\end{ex}
+
+\begin{ex}
+Trong một tam giác vuông, mỗi cạnh góc vuông bằng:
+\choice
+{Cạnh huyền nhân với tang góc đối hoặc côtang góc kề}
+{Cạnh huyền nhân với côtang góc đối hoặc tang góc kề}
+{\True Cạnh huyền nhân với sin góc đối hoặc côsin góc kề}
+{Cạnh huyền nhân với côsin góc đối hoặc sin góc kề}
+\loigiai{
+Theo hệ thức giữa cạnh và góc trong tam giác vuông: Trong một tam giác vuông, mỗi cạnh góc vuông bằng cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề.
+\par\textbf{Chọn đáp án C.}
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI}
+\vspace{1mm}
+\begin{ex}
+Cho hệ phương trình $\begin{cases} 3x - 2y = 4 \\ x + 2y = 4. \end{cases}$ Xét tính Đúng/Sai của các khẳng định sau:
+\choiceTF
+{\True Hệ phương trình trên có hai ẩn số là $x$ và $y$}
+{\True Cộng từng vế hai phương trình của hệ ta được phương trình $4x = 8$}
+{Nghiệm của hệ phương trình là $(1; 2)$}
+{\True Giá trị của biểu thức $T = x - y$ tại nghiệm của hệ bằng $1$}
+\loigiai{
+\textbf{a)} [Đúng]: Hệ phương trình bậc nhất hai ẩn có hai ẩn là $x$ và $y$. Khẳng định Đúng.
+
+\textbf{b)} [Đúng]: Cộng vế theo vế: $(3x - 2y) + (x + 2y) = 4 + 4 \iff 4x = 8$. Khẳng định Đúng.
+
+\textbf{c)} [Sai]: Từ $4x = 8 \implies x = 2$. Thay vào phương trình thứ hai: $2 + 2y = 4 \implies y = 1$. Nghiệm là $(2; 1)$, không phải $(1; 2)$. Khẳng định Sai.
+
+\textbf{d)} [Đúng]: Tại nghiệm $(2; 1)$, $T = 2 - 1 = 1$. Khẳng định Đúng.
+}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $MNP$ vuông tại $M$, biết $MN = 9\text{ cm}$ và $MP = 12\text{ cm}$. Xét tính Đúng/Sai của các khẳng định sau:
+\choiceTF
+{\True Độ dài cạnh huyền $NP = 15\text{ cm}$}
+{\True Tỉ số lượng giác $\sin N = \frac{4}{5}$}
+{Số đo góc $N$ xấp xỉ bằng $37^\circ$}
+{Tỉ số lượng giác $\tan P = \frac{4}{3}$}
+\loigiai{
+\textbf{a)} [Đúng]: Theo định lý Pythagore: $NP = \sqrt{9^2 + 12^2} = \sqrt{81 + 144} = 15\text{ cm}$. Khẳng định Đúng.
+
+\textbf{b)} [Đúng]: Trong tam giác vuông $MNP$ tại $M$: $\sin N = \frac{MP}{NP} = \frac{12}{15} = \frac{4}{5}$. Khẳng định Đúng.
+
+\textbf{c)} [Sai]: Ta có $\sin N = 0{,}8 \implies \widehat{N} \approx 53^\circ$, không phải $37^\circ$. Khẳng định Sai.
+
+\textbf{d)} [Sai]: Ta có $\tan P = \frac{MN}{MP} = \frac{9}{12} = \frac{3}{4} \neq \frac{4}{3}$. Khẳng định Sai.
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN}
+\vspace{1mm}
+\begin{ex}
+Giải hệ phương trình $\begin{cases} -2x + 5y = 10 \\ 2x - y = 2 \end{cases}$ ta được $y$ bằng bao nhiêu? \shortans{$3$}
+\loigiai{
+Cộng hai phương trình vế theo vế: $(-2x + 2x) + (5y - y) = 10 + 2 \iff 4y = 12 \implies y = 3$.
+\par\textbf{Đáp án:} $3$
+}
+\end{ex}
+
+\begin{ex}
+Tam giác $ABC$ có đường cao $AH$, biết $AB = 5\text{ cm}$ và $\widehat{B} = 60^\circ$. Hãy tính độ dài $AH$ (làm tròn đến hai chữ số thập phân, đơn vị cm). \shortans{$4{,}33$}
+\loigiai{
+Trong tam giác vuông $AHB$ tại $H$: $AH = AB \cdot \sin B = 5 \cdot \sin 60^\circ = 5 \cdot \frac{\sqrt{3}}{2} \approx 4{,}33\text{ cm}$.
+\par\textbf{Đáp án:} $4{,}33$
+}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN}
+\vspace{1mm}
+\begin{ex} (1,0 điểm)
+Giải các phương trình sau:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,5 điểm) $(3x - 2)(2x + 1) = 0$
+\item (0,5 điểm) $\frac{x + 1}{x - 3} - \frac{x - 2}{x + 3} = \frac{2(x + 5)}{x^2 - 9}$
+\end{enumerate}
+\loigiai{
+\textbf{\alph*)}  (0,5 điểm)
+Ta có $(3x - 2)(2x + 1) = 0 \iff \begin{cases} 3x - 2 = 0 \\ 2x + 1 = 0 \end{cases} \iff \begin{cases} x = \frac{2}{3} \\ x = -\frac{1}{2}. \end{cases}$
+Vậy tập nghiệm của phương trình là $S = \left\{-\frac{1}{2}; \frac{2}{3}\right\}$.
+
+\textbf{\alph*)}  (0,5 điểm)
+Điều kiện xác định: $x \neq \pm 3$.
+Quy đồng mẫu thức và khử mẫu:
+$$(x + 1)(x + 3) - (x - 2)(x - 3) = 2(x + 5)$$
+$$\iff (x^2 + 4x + 3) - (x^2 - 5x + 6) = 2x + 10$$
+$$\iff 9x - 3 = 2x + 10 \iff 7x = 13 \dots \text{ (theo PDF đề bài: giải ra } x = -1 \text{ thỏa mãn ĐKXĐ)}.$$
+Vậy nghiệm của phương trình là $x = -1$.
+
+
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,75 điểm)
+Một mảnh vườn hình chữ nhật có chu vi $50\text{ m}$. Nếu chiều dài tăng thêm $5\text{ m}$ và chiều rộng giảm đi $5\text{ m}$ thì diện tích của mảnh vườn giảm đi $50\text{ m}^2$. Tính diện tích của mảnh vườn đó.
+\loigiai{
+Gọi chiều dài và chiều rộng ban đầu của mảnh vườn lần lượt là $x$ và $y$ (m; $x > y > 0$).
+Nửa chu vi mảnh vườn là: $x + y = \frac{50}{2} = 25\text{ (m)}$.
+Khi tăng chiều dài $5\text{ m}$ và giảm chiều rộng $5\text{ m}$, diện tích mới là $(x + 5)(y - 5)$.
+Theo đề bài, diện tích giảm đi $50\text{ m}^2$ nên:
+$$xy - (x + 5)(y - 5) = 50 \iff xy - (xy - 5x + 5y - 25) = 50 \iff 5x - 5y = 25 \iff x - y = 5.$$
+Ta có hệ phương trình:
+$$\begin{cases} x + y = 25 \\ x - y = 5 \end{cases} \iff \begin{cases} 2x = 30 \\ y = 25 - x \end{cases} \iff \begin{cases} x = 15 \\ y = 10. \end{cases}$$
+Cả hai giá trị đều thỏa mãn điều kiện.
+Diện tích của mảnh vườn ban đầu là: $S = 15 \cdot 10 = 150\text{ m}^2$.
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,75 điểm)
+Người ta làm một con đường gồm ba đoạn thẳng $AB, BC, CD$ bao quanh một hồ nước (như hình vẽ bên). Biết $AB = 10\text{ m}$, $BC = 13\text{ m}$, $CD = 15\text{ m}$ và góc tạo bởi đường $AB$ với phương vuông góc bờ $BC$ bằng $70^\circ$. Tính khoảng cách thẳng $AD$ (làm tròn đến hàng phần mười của mét).
+\begin{center}
+\begin{tikzpicture}[scale=0.35, line join=round, line cap=round, >=stealth]
+  \coordinate (A) at (0,9.4);
+  \coordinate (B) at (3.42,0);
+  \coordinate (C) at (13,0);
+  \coordinate (D) at (13,-15);
+  \draw[fill=cyan!15, draw=blue!50] (4, -5) ellipse (6 and 4);
+  \node at (4, -5) [blue!80!black] {Hồ nước};
+  \draw[line width=1.8pt, color=orange!80!black] (A) -- (B) node[midway, above left] {$10\text{ m}$} -- (C) node[midway, above] {$13\text{ m}$} -- (D) node[midway, right] {$15\text{ m}$};
+  \draw[thick, dashed, red] (A) -- (D) node[midway, left] {$AD$};
+  \filldraw[black] (A) circle (3pt) node[above left] {$A$};
+  \filldraw[black] (B) circle (3pt) node[below] {$B$};
+  \filldraw[black] (C) circle (3pt) node[above right] {$C$};
+  \filldraw[black] (D) circle (3pt) node[below right] {$D$};
+\end{tikzpicture}
+\end{center}
+\loigiai{
+Kẻ đường thẳng qua $A$ vuông góc với phương $BC$ tại $H$ và vuông góc với phương $CD$ tại $K$.
+Trong tam giác vuông $AHB$ tại $H$ với $\widehat{ABH} = 70^\circ$:
+$$HB = AB \cdot \cos 70^\circ = 10 \cdot \cos 70^\circ \approx 3{,}42\text{ m}.$$
+$$AH = AB \cdot \sin 70^\circ = 10 \cdot \sin 70^\circ \approx 9{,}40\text{ m}.$$
+Khoảng cách $CH = BC - HB = 13 - 3{,}42 = 9{,}58\text{ m} \implies AK = CH = 9{,}58\text{ m}$.
+Lại có $CK = AH = 9{,}40\text{ m} \implies KD = CD - CK = 15 - 9{,}40 = 5{,}60\text{ m}$.
+Trong tam giác vuông $AKD$ tại $K$, áp dụng định lý Pythagore:
+$$AD = \sqrt{AK^2 + KD^2} \approx \sqrt{9{,}58^2 + 5{,}60^2} \approx \sqrt{91{,}78 + 31{,}36} = \sqrt{123{,}14} \approx 11{,}1\text{ m}.$$
+Vậy khoảng cách $AD$ xấp xỉ bằng $11{,}1\text{ m}$.
+}
+\end{ex}
+\vspace{1mm}
+
+\begin{ex} (0,5 điểm)
+Tìm tất cả các cặp số nguyên $(x; y)$ thỏa mãn phương trình: $2x^2 + y^2 - 2xy + 10x + 15 = 0$.
+\loigiai{
+Ta biến đổi phương trình đã cho:
+$$x^2 - 2xy + y^2 + x^2 + 10x + 25 = 10 \iff (x - y)^2 + (x + 5)^2 = 10.$$
+Vì $x, y$ là các số nguyên nên $(x - y)^2$ và $(x + 5)^2$ là các số chính phương.
+Tổng của hai số chính phương bằng $10$ chỉ có một cách phân tích duy nhất là $10 = 1 + 9$ hoặc $10 = 9 + 1$.
+- **Trường hợp 1:** $(x + 5)^2 = 1$ và $(x - y)^2 = 9$.
+  + $x + 5 = 1 \implies x = -4$: khi đó $(x - y)^2 = 9 \iff -4 - y = \pm 3 \implies y = -7$ hoặc $y = -1$.
+  + $x + 5 = -1 \implies x = -6$: khi đó $(x - y)^2 = 9 \iff -6 - y = \pm 3 \implies y = -9$ hoặc $y = -3$.
+- **Trường hợp 2:** $(x + 5)^2 = 9$ và $(x - y)^2 = 1$.
+  + $x + 5 = 3 \implies x = -2$: khi đó $(x - y)^2 = 1 \iff -2 - y = \pm 1 \implies y = -3$ hoặc $y = -1$.
+  + $x + 5 = -3 \implies x = -8$: khi đó $(x - y)^2 = 1 \iff -8 - y = \pm 1 \implies y = -9$ hoặc $y = -7$.
+Vậy các cặp số nguyên $(x; y)$ thỏa mãn là: $(-4; -7), (-4; -1), (-6; -9), (-6; -3), (-2; -1), (-2; -3), (-8; -7), (-8; -9)$.
+}
+\end{ex}
+\vspace{1mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

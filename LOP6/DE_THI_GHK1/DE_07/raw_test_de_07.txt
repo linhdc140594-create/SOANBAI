@@ -1,0 +1,307 @@
+--- TRANG 25 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 7  
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Viết tập hợp các chữ số của số 2025 ? 
+A. 
+
+2;0;2;5 .  
+ 
+ 
+ 
+ 
+B. 
+
+2;2;5 . 
+ 
+C. 
+
+2;0;2 .  
+ 
+ 
+ 
+ 
+D. 
+
+0;2;5 . 
+Câu 2. Hãy so sánh hai số tự nhiên 
+52 136 001
+n =
+ và 
+52 135 998?
+m =
+ 
+A. 
+.
+n
+m
+=
+                     
+B. 
+. 
+n
+m
+
+ 
+ 
+ 
+C. 
+.
+n
+m
+
+                      D. 
+.
+n
+m
+
+ 
+Câu 3. Tính vận tốc của một ô tô biết rằng trong 6 giờ ô tô đi được 324km. 
+A. 48 km/h                    
+B. 51 km/h                  
+C. 54 km/h                 D. 57 km/h 
+Câu 4. Công thức tính diện tích của hình bình hành là có độ dài cạnh a, b  và đường cao h: 
+ 
+A. S = ab. 
+ 
+B. S = 1
+2 ah. 
+C. S = 1
+2 bh. 
+ 
+D. S = ah. 
+Câu 5.  Bạn An có 125000 đồng mang đến tiệm tạp hóa để mua bút gel (bút nước), biết 
+bút gel Thiên Long GEL-B01 có giá khoảng 6900 đồng một chiếc. Hỏi bạn An có thể mua 
+được nhiều nhất bao nhiêu chiếc bút gel Thiên Long GEL-B01? 
+
+
+--- TRANG 26 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. 0 chiếc. 
+ 
+B. 18 chiếc. 
+ 
+C. 19 chiếc. 
+ 
+D. 10 chiếc. 
+Câu 6.  Hình nào sau đây có các cạnh bằng nhau? 
+A. Hình tam giác đều, hình thoi, hình thang cân. 
+B. Hình tam giác đều, hình bình hành, hình thang cân. 
+C. Hình tam giác đều, hình thoi, hình vuông. 
+D. Hình tam giác đều, hình bình hành, hình vuông. 
+Câu 7. Hãy chọn đáp án sai: Cho hình bình hành ABCD 
+ 
+A. AB = CD, AD = BC.                                                        C. AB = BC = CD = DA. 
+B. AB song song với CD, AD song song với BC.                D. Đáp án A và B. 
+Câu 8. Cho 24 x
+  và 10
+15
+x
+
+
+. Vậy x có giá trị bằng  
+A. 12.  
+ 
+  
+B. 13.             
+C. 14.  
+            D. 10. 
+Câu 9.  Biểu diễn tập hợp 
+
+
+1;2;3;4;5
+H =
+ bằng cách chỉ ra tính chất đặc trưng của nó là:  
+A. 
+.
+{
+|
+5}
+H
+x
+x
+=
+
+
+
+         
+ 
+ 
+B. 
+.
+{
+|
+5}
+H
+x
+x
+=
+
+
+
+ 
+C. 
+*
+5 .
+{
+|
+}
+H
+x
+x
+=
+
+
+
+       
+ 
+  
+D. 
+*
+5 .
+{
+|
+}
+H
+x
+x
+=
+
+
+
+ 
+Câu 10. Trong các phân số sau phân số nào là phân số tối giản ? 
+A. 26.
+39 
+ 
+ 
+B.  15
+12 . 
+ 
+ 
+C. 27
+42 . 
+ 
+ 
+D. 3
+16 . 
+Câu 11. Số tự nhiên nào sau đây là ước của 12? 
+A. 0.  
+ 
+ 
+B. 4.  
+ 
+ 
+C. 5.  
+ 
+ 
+D. 10. 
+
+
+--- TRANG 27 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 12. Nêu cách đọc số 123 875? 
+A. Một trăm hai ba nghìn tám trăm bảy mươi lăm. 
+B. Một hai ba nghìn tám bảy năm.  
+C. Một trăm hai ba tám trăm bảy năm. 
+D. Một trăm hai ba nghìn bảy trăm tám mươi lăm. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+2
+3
+5
+M =
+−. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+3
+2 là 6. 
+b) Khi tính giá trị biểu thức M , ta thực hiện phép nhân trước, phép trừ sau. 
+c) Giá trị của biểu thức M là 19. 
+d) Giá trị của biểu thức M là một số nguyên tố. 
+Câu 2.  Cho hình chữ nhật ABCD có chiều dài 
+8 cm
+AB =
+ và chiều rộng 
+6 cm
+BC =
+. Xét 
+tính đúng sai của các mệnh đề sau: 
+a) Bốn cạnh của hình chữ nhật ABCD có độ dài bằng nhau. 
+b) Các cạnh đối diện AB và CD song song và bằng nhau. 
+c) Hai đường chéo AC và BD vuông góc với nhau. 
+d) Chu vi của hình chữ nhật ABCD là 28 cm . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm các chữ số ,x y để số 35 98
+x
+y chia hết cho cả 2 , 5 và 9 ? 
+
+
+--- TRANG 28 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 2. Một hình thoi có độ dài hai đường chéo lần lượt là 8 cm và 10 cm . Tính diện tích 
+của hình thoi đó (đơn vị: 
+2
+cm )? 
+Phần IV. Tự luận 
+Câu 1. a) Thực hiện tính: 
+(
+)
+
+
+2
+2
+6250: 50 : 112
+32
+2 .5
+
+
+−
+−
+
+. 
+     b) Tìm x Ư (
+)
+30 và 
+10
+x 
+? 
+Câu 2. Phân tích các số sau ra thừa số nguyên tố. 
+a) 60;                                   b) 125. 
+ 
+Câu 3.  a) Vẽ tam giác đều có độ dài cạnh bằng 3 cm. 
+b) Tính chu vi và diện tích mảnh đất có hình vẽ dưới đây. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

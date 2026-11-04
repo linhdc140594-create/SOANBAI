@@ -1,0 +1,270 @@
+{
+  "de_so": 5,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 8 - ĐỀ SỐ 05",
+  "thoi_gian": "90 phút (không kể thời gian phát đề)",
+  "phan_I": [
+    {
+      "cau": 1,
+      "de": "Trong các biểu thức sau, biểu thức nào không là đa thức?",
+      "a": "$\\dfrac{5}{xy}$",
+      "b": "$12x^2y$",
+      "c": "$5$",
+      "d": "$x^2y + 3xy + 1$",
+      "da": "A",
+      "loigiai": "Biểu thức $\\dfrac{5}{xy}$ có chứa biến ở mẫu số nên không phải là đa thức."
+    },
+    {
+      "cau": 2,
+      "de": "Trong các đơn thức sau, đơn thức nào đồng dạng với đơn thức $-\\dfrac{3}{4}x^2y^3$?",
+      "a": "$-\\dfrac{3}{4}x^3y^2$",
+      "b": "$y^3x^2$",
+      "c": "$2xy$",
+      "d": "$3x^2y^3z$",
+      "da": "B",
+      "loigiai": "Hai đơn thức đồng dạng là hai đơn thức có hệ số khác 0 và có cùng phần biến. Đơn thức $y^3x^2 = x^2y^3$ có cùng phần biến với đơn thức đã cho."
+    },
+    {
+      "cau": 3,
+      "de": "Đơn thức $10x^3y^2z^3$ chia hết cho đơn thức nào sau đây?",
+      "a": "$5x^3y^3z^2$",
+      "b": "$-2x^4y^2z$",
+      "c": "$-9x^3yz^2$",
+      "d": "$2x^3y^3z^3$",
+      "da": "C",
+      "loigiai": "Xét đơn thức $-9x^3yz^2$, số mũ của các biến $x, y, z$ lần lượt là $3, 1, 2$ đều nhỏ hơn hoặc bằng số mũ tương ứng trong $10x^3y^2z^3$ (lần lượt là $3, 2, 3$). Do đó $10x^3y^2z^3$ chia hết cho $-9x^3yz^2$."
+    },
+    {
+      "cau": 4,
+      "de": "Kết quả phép tính $2x(x - 2y)$ bằng:",
+      "a": "$2x^2 - 2y^2$",
+      "b": "$2x^2 - 4y^2$",
+      "c": "$2x^2 - 2xy$",
+      "d": "$2x^2 - 4xy$",
+      "da": "D",
+      "loigiai": "Thực hiện nhân đơn thức với đa thức: $2x(x - 2y) = 2x \\cdot x - 2x \\cdot 2y = 2x^2 - 4xy$."
+    },
+    {
+      "cau": 5,
+      "de": "Kết quả phép tính $(x - 2y)(x + 2y)$ bằng:",
+      "a": "$x^2 - 2y^2$",
+      "b": "$(x + 2y)^2$",
+      "c": "$(x - 2y)^2$",
+      "d": "$x^2 - 4y^2$",
+      "da": "D",
+      "loigiai": "Áp dụng hằng đẳng thức hiệu hai bình phương: $(x - 2y)(x + 2y) = x^2 - (2y)^2 = x^2 - 4y^2$."
+    },
+    {
+      "cau": 6,
+      "de": "Đa thức $4x^2 - 9$ được phân tích thành nhân tử là:",
+      "a": "$(2x - 3)(2x + 3)$",
+      "b": "$(4x + 9)(4x - 9)$",
+      "c": "$(4x - 3)(4x + 3)$",
+      "d": "$(2x + 9)(2x - 9)$",
+      "da": "A",
+      "loigiai": "Biến đổi biểu thức về dạng hiệu hai bình phương: $4x^2 - 9 = (2x)^2 - 3^2 = (2x - 3)(2x + 3)$."
+    },
+    {
+      "cau": 7,
+      "de": "Giá trị của biểu thức $x^2 - 2xy + y^2 - 3$ tại $x = -1, y = 2$ là:",
+      "a": "$-6$",
+      "b": "$6$",
+      "c": "$12$",
+      "d": "$-12$",
+      "da": "B",
+      "loigiai": "Thu gọn biểu thức: $x^2 - 2xy + y^2 - 3 = (x - y)^2 - 3$. Thay $x = -1, y = 2$: $(-1 - 2)^2 - 3 = (-3)^2 - 3 = 9 - 3 = 6$."
+    },
+    {
+      "cau": 8,
+      "de": "Tổng số đo các góc trong một tứ giác bằng:",
+      "a": "$90^\\circ$",
+      "b": "$120^\\circ$",
+      "c": "$180^\\circ$",
+      "d": "$360^\\circ$",
+      "da": "D",
+      "loigiai": "Theo định lý về tổng các góc của một tứ giác, tổng số đo 4 góc luôn bằng $360^\\circ$."
+    },
+    {
+      "cau": 9,
+      "de": "Tứ giác $ABCD$ là hình bình hành nếu:",
+      "a": "$\\widehat{A} = \\widehat{C}$",
+      "b": "$\\widehat{B} = \\widehat{D}$",
+      "c": "$AB \\parallel CD$, $AB = AD$",
+      "d": "$\\widehat{A} = \\widehat{C}$ và $\\widehat{B} = \\widehat{D}$",
+      "da": "D",
+      "loigiai": "Dấu hiệu nhận biết hình bình hành: tứ giác có các góc đối bằng nhau là hình bình hành, tức là $\\widehat{A} = \\widehat{C}$ và $\\widehat{B} = \\widehat{D}$."
+    },
+    {
+      "cau": 10,
+      "de": "Độ dài cạnh hình thoi có hai đường chéo bằng $6\\text{ cm}$ và $8\\text{ cm}$ là:",
+      "a": "$21\\text{ cm}$",
+      "b": "$5\\text{ cm}$",
+      "c": "$14\\text{ cm}$",
+      "d": "$\\sqrt{11}\\text{ cm}$",
+      "da": "B",
+      "loigiai": "Hai đường chéo của hình thoi vuông góc và cắt nhau tại trung điểm. Nửa độ dài hai đường chéo là $3\\text{ cm}$ và $4\\text{ cm}$. Áp dụng định lý Pythagore: $a = \\sqrt{3^2 + 4^2} = 5\\text{ cm}$."
+    },
+    {
+      "cau": 11,
+      "de": "Cho hình chóp tam giác đều có diện tích đáy bằng $12\\text{ cm}^2$ và chiều cao bằng $5\\text{ cm}$. Thể tích của hình chóp đó là:",
+      "a": "$20\\text{ cm}^3$",
+      "b": "$60\\text{ cm}^3$",
+      "c": "$15\\text{ cm}^3$",
+      "d": "$30\\text{ cm}^3$",
+      "da": "A",
+      "loigiai": "Thể tích hình chóp là: $V = \\dfrac{1}{3} S \\cdot h = \\dfrac{1}{3} \\cdot 12 \\cdot 5 = 20\\text{ cm}^3$."
+    },
+    {
+      "cau": 12,
+      "de": "Kết quả phân tích đa thức $x^3 + 8$ thành nhân tử là:",
+      "a": "$(x + 2)(x^2 - 2x + 4)$",
+      "b": "$(x + 2)(x^2 + 2x + 4)$",
+      "c": "$(x - 2)(x^2 + 2x + 4)$",
+      "d": "$(x + 2)^3$",
+      "da": "A",
+      "loigiai": "Áp dụng hằng đẳng thức tổng hai lập phương: $x^3 + 8 = x^3 + 2^3 = (x + 2)(x^2 - 2x + 4)$."
+    }
+  ],
+  "phan_II": [
+    {
+      "cau": 1,
+      "de": "Cho biểu thức $P = \\left(\\dfrac{1}{x - 2} - \\dfrac{1}{x + 2}\\right) \\cdot \\dfrac{x^2 - 4}{4}$ với $x \\neq \\pm 2$. Xét tính đúng sai của các mệnh đề sau:",
+      "y_a": {
+        "noi_dung": "Mẫu thức chung của hai phân thức trong ngoặc là $x^2 - 4$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Mẫu thức chung là $(x - 2)(x + 2) = x^2 - 4$."
+      },
+      "y_b": {
+        "noi_dung": "Kết quả rút gọn biểu thức trong ngoặc là $\\dfrac{4}{x^2 - 4}$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Ta có: $\\dfrac{1}{x - 2} - \\dfrac{1}{x + 2} = \\dfrac{(x + 2) - (x - 2)}{x^2 - 4} = \\dfrac{4}{x^2 - 4}$."
+      },
+      "y_c": {
+        "noi_dung": "Giá trị của biểu thức $P$ sau khi rút gọn bằng $1$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} $P = \\dfrac{4}{x^2 - 4} \\cdot \\dfrac{x^2 - 4}{4} = 1$."
+      },
+      "y_d": {
+        "noi_dung": "Tại $x = 3$, giá trị của biểu thức $P$ bằng $3$.",
+        "da": "S",
+        "giai": "\\textbf{Sai.} Với mọi $x \\neq \\pm 2$, $P = 1$ luôn không đổi. Do đó tại $x = 3$ thì $P = 1 \\neq 3$."
+      }
+    },
+    {
+      "cau": 2,
+      "de": "Cho phương trình $(x - 3)(x + 3) - x(x - 2) = 5$. Xét tính đúng sai của các mệnh đề sau:",
+      "y_a": {
+        "noi_dung": "Khai triển tích $(x - 3)(x + 3)$ ta được $x^2 - 9$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Áp dụng hằng đẳng thức hiệu hai bình phương: $(x - 3)(x + 3) = x^2 - 9$."
+      },
+      "y_b": {
+        "noi_dung": "Biến đổi vế trái của phương trình ta được $2x - 9$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Ta có: $(x^2 - 9) - (x^2 - 2x) = x^2 - 9 - x^2 + 2x = 2x - 9$."
+      },
+      "y_c": {
+        "noi_dung": "Phương trình có nghiệm duy nhất $x = 7$.",
+        "da": "D",
+        "giai": "\\textbf{Đúng.} Phương trình tương đương $2x - 9 = 5 \\Leftrightarrow 2x = 14 \\Leftrightarrow x = 7$."
+      },
+      "y_d": {
+        "noi_dung": "Nghiệm $x = 7$ không là nghiệm của phương trình $3x - 5 = 16$.",
+        "da": "S",
+        "giai": "\\textbf{Sai.} Thay $x = 7$ vào: $3 \\cdot 7 - 5 = 21 - 5 = 16$, do đó $x = 7$ là nghiệm của phương trình $3x - 5 = 16$."
+      }
+    }
+  ],
+  "phan_III": [
+    {
+      "cau": 1,
+      "de": "Tìm $x$, biết: $(x + 2)^2 - x(x - 3) = 14$.",
+      "da": "$x = \\dfrac{10}{7}$",
+      "loigiai": "Ta có:\n$(x^2 + 4x + 4) - (x^2 - 3x) = 14$\n\n$\\Leftrightarrow x^2 + 4x + 4 - x^2 + 3x = 14$\n\n$\\Leftrightarrow 7x + 4 = 14$\n\n$\\Leftrightarrow 7x = 10 \\Leftrightarrow x = \\dfrac{10}{7}$."
+    },
+    {
+      "cau": 2,
+      "de": "Cho hình thang cân $ABCD$ có $\\widehat{A} = 105^\\circ$. Tính số đo góc $\\widehat{C}$?",
+      "da": "$75^\\circ$",
+      "loigiai": "Vì $AB \\parallel CD$ nên hai góc trong cùng phía bù nhau:\n$\\widehat{D} = 180^\\circ - \\widehat{A} = 180^\\circ - 105^\\circ = 75^\\circ$.\n\nVì $ABCD$ là hình thang cân nên hai góc kề một đáy bằng nhau, do đó: $\\widehat{C} = \\widehat{D} = 75^\\circ$."
+    }
+  ],
+  "phan_IV": [
+    {
+      "cau": 1,
+      "diem": "1,0 điểm",
+      "de": "Thực hiện phép tính (rút gọn nếu có thể):",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,35",
+          "noi_dung": "$(2x^2 + 3xy) + (x^2 - xy)$",
+          "loigiai": "Ta có: $(2x^2 + 3xy) + (x^2 - xy) = (2x^2 + x^2) + (3xy - xy) = 3x^2 + 2xy$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,35",
+          "noi_dung": "$(2x + y)(x - 3y)$",
+          "loigiai": "Ta có: $(2x + y)(x - 3y) = 2x^2 - 6xy + xy - 3y^2 = 2x^2 - 5xy - 3y^2$."
+        },
+        {
+          "y": "c",
+          "diem_y": "0,3",
+          "noi_dung": "$(9x^2y^3 - 6x^3y^2 + 4x^2y^2) : (3x^2y)$",
+          "loigiai": "Ta có: $(9x^2y^3 - 6x^3y^2 + 4x^2y^2) : (3x^2y) = 9x^2y^3 : 3x^2y - 6x^3y^2 : 3x^2y + 4x^2y^2 : 3x^2y = 3y^2 - 2xy + \\dfrac{4}{3}y$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem": "0,75 điểm",
+      "de": "Cho hai đa thức: $A = x^7 - 4x^3y^2 - 5xy + 7$ và $B = x^7 + 5x^3y^2 - 3xy - 3$.",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,4",
+          "noi_dung": "Tìm đa thức $C$ sao cho $C = A + B$.",
+          "loigiai": "$C = (x^7 - 4x^3y^2 - 5xy + 7) + (x^7 + 5x^3y^2 - 3xy - 3) = (x^7 + x^7) + (-4x^3y^2 + 5x^3y^2) + (-5xy - 3xy) + (7 - 3) = 2x^7 + x^3y^2 - 8xy + 4$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,35",
+          "noi_dung": "Tìm đa thức $D$ sao cho $A + D = B$.",
+          "loigiai": "Từ $A + D = B \\Rightarrow D = B - A$.\n$D = (x^7 + 5x^3y^2 - 3xy - 3) - (x^7 - 4x^3y^2 - 5xy + 7) = (x^7 - x^7) + (5x^3y^2 + 4x^3y^2) + (-3xy + 5xy) + (-3 - 7) = 9x^3y^2 + 2xy - 10$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem": "0,75 điểm",
+      "de": "Cho tam giác $ABC$ vuông cân tại $A$, đường trung tuyến $AM$. Gọi $N$ là trung điểm của $AC$. Vẽ điểm $D$ đối xứng với điểm $M$ qua $N$.",
+      "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.9, >=stealth]\n  \\coordinate (A) at (0,3);\n  \\coordinate (B) at (-3,0);\n  \\coordinate (C) at (3,0);\n  \\coordinate (M) at (0,0);\n  \\coordinate (N) at ($(A)!0.5!(C)$);\n  \\coordinate (D) at ($(N)!-1!(M)$);\n  \\draw[thick] (A)--(B)--(C)--cycle;\n  \\draw[thick] (A)--(M);\n  \\draw[thick] (A)--(D)--(C);\n  \\draw[thick, dashed] (M)--(D);\n  \\fill (A) circle (1.5pt) node[above left] {$A$};\n  \\fill (B) circle (1.5pt) node[left] {$B$};\n  \\fill (C) circle (1.5pt) node[right] {$C$};\n  \\fill (M) circle (1.5pt) node[below] {$M$};\n  \\fill (N) circle (1.5pt) node[above right] {$N$};\n  \\fill (D) circle (1.5pt) node[above right] {$D$};\n  \\draw (0.3,0) arc (0:90:0.3);\n  \\fill (0.15,0.15) circle (0.5pt);\n\\end{tikzpicture}\n\\end{center}",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,35",
+          "noi_dung": "Chứng minh $AM = MC$.",
+          "loigiai": "Trong tam giác $ABC$ vuông tại $A$, đường trung tuyến $AM$ ứng với cạnh huyền $BC$ có độ dài bằng nửa cạnh huyền: $AM = \\dfrac{1}{2}BC = MC$."
+        },
+        {
+          "y": "b",
+          "diem_y": "0,4",
+          "noi_dung": "Chứng minh tứ giác $ADCM$ là hình vuông.",
+          "loigiai": "Tứ giác $ADCM$ có hai đường chéo $AC$ và $MD$ cắt nhau tại trung điểm $N$ của mỗi đường, do đó $ADCM$ là hình bình hành.\n\nHình bình hành $ADCM$ có $AM = MC$ nên là hình thoi.\n\nTam giác $ABC$ cân tại $A$ có $AM$ là trung tuyến đồng thời là đường cao nên $AM \\perp BC$, tức là $\\widehat{AMC} = 90^\\circ$.\n\nHình thoi $ADCM$ có một góc vuông ($\\widehat{AMC} = 90^\\circ$) nên $ADCM$ là hình vuông."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem": "0,5 điểm",
+      "de": "Tìm giá trị nhỏ nhất của biểu thức: $M = 9x^2 + 6y^2 + 18x - 12xy - 12y - 27$.",
+      "cac_y": [
+        {
+          "y": "a",
+          "diem_y": "0,5",
+          "noi_dung": "Tìm giá trị nhỏ nhất của $M$.",
+          "loigiai": "Biến đổi biểu thức $M$:\n\n$M = (9x^2 - 12xy + 4y^2 + 18x - 12y + 9) + 2y^2 - 36$\n\n$= [(3x - 2y)^2 + 2 \\cdot (3x - 2y) \\cdot 3 + 3^2] + 2y^2 - 36$\n\n$= (3x - 2y + 3)^2 + 2y^2 - 36$.\n\nVì $(3x - 2y + 3)^2 \\ge 0$ và $2y^2 \\ge 0$ với mọi $x, y$, nên $M \\ge -36$.\n\nDấu \"=\" xảy ra khi và chỉ khi: $\\begin{cases} 2y^2 = 0 \\\\ 3x - 2y + 3 = 0 \\end{cases} \\Leftrightarrow \\begin{cases} y = 0 \\\\ x = -1 \\end{cases}$.\n\nVậy giá trị nhỏ nhất của $M$ là $-36$, đạt được khi $x = -1$ và $y = 0$."
+        }
+      ]
+    }
+  ]
+}

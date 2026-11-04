@@ -1,0 +1,122 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 13
+	Cho $a \ge 0$ và $a \ne 16$. Rút gọn biểu thức $P = \left(\frac{\sqrt{a}}{\sqrt{a}+4} + \frac{4}{\sqrt{a}-4}\right) : \frac{a+16}{\sqrt{a}+4}$
+	\loigiai{
+		Điều kiện: $a \ge 0, a \ne 16$.
+		Ta có:
+		\begin{align*}
+			P &= \left(\frac{\sqrt{a}(\sqrt{a}-4) + 4(\sqrt{a}+4)}{(\sqrt{a}+4)(\sqrt{a}-4)}\right) : \frac{a+16}{\sqrt{a}+4} \\
+			&= \left(\frac{a - 4\sqrt{a} + 4\sqrt{a} + 16}{a-16}\right) \cdot \frac{\sqrt{a}+4}{a+16} \\
+			&= \frac{a+16}{(\sqrt{a}-4)(\sqrt{a}+4)} \cdot \frac{\sqrt{a}+4}{a+16} \\
+			&= \frac{1}{\sqrt{a}-4}
+		\end{align*}
+		Vậy, với $a \ge 0, a \ne 16$ thì $P = \frac{1}{\sqrt{a}-4}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 14
+	Cho phương trình $2x^2-3x-1=0$. Không giải phương trình, hãy tính giá trị của biểu thức $A=\frac{1}{x_1^2}+\frac{1}{x_2^2}$
+	\loigiai{
+		Phương trình đã cho là $2x^2-3x-1=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = -\frac{-3}{2} = \frac{3}{2} \\ x_1 x_2 = \frac{-1}{2} \end{cases} $
+		Ta biến đổi biểu thức A:
+		\begin{align*}
+			A &= \frac{1}{x_1^2} + \frac{1}{x_2^2} \\
+			&= \frac{x_2^2 + x_1^2}{x_1^2 x_2^2} \\
+			&= \frac{(x_1+x_2)^2 - 2x_1 x_2}{(x_1 x_2)^2}
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức A:
+		\begin{align*}
+			A &= \frac{\left(\frac{3}{2}\right)^2 - 2\left(-\frac{1}{2}\right)}{\left(-\frac{1}{2}\right)^2} \\
+			&= \frac{\frac{9}{4} + 1}{\frac{1}{4}} \\
+			&= \frac{\frac{9}{4} + \frac{4}{4}}{\frac{1}{4}} \\
+			&= \frac{\frac{13}{4}}{\frac{1}{4}} \\
+			&= 13
+		\end{align*}
+		Vậy, giá trị của biểu thức $A = 13$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 15
+	Giải hệ phương trình $ \begin{cases} 2x+3y=5 \\ 4x-y=3 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 2x+3y=5 \quad &(1) \\ 4x-y=3 \quad &(2) \end{cases} $
+		Từ phương trình (2), suy ra $y = 4x-3$.
+		Thế $y = 4x-3$ vào phương trình (1):
+		\begin{align*}
+			2x + 3(4x-3) &= 5 \\
+			2x + 12x - 9 &= 5 \\
+			14x &= 5 + 9 \\
+			14x &= 14 \\
+			x &= 1
+		\end{align*}
+		Thay $x=1$ vào $y = 4x-3$:
+		\begin{align*}
+			y &= 4(1) - 3 \\
+			y &= 4 - 3 \\
+			y &= 1
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x; y) = (1; 1)$.
+	}
+\end{ex}
+\begin{ex}
+	Gieo một con xúc xắc cân đối đồng chất có 6 mặt. Tính xác suất của biến cố mặt xuất hiện có số chấm là số chia hết cho 3.
+	\loigiai{
+		Không gian mẫu khi gieo một con xúc xắc là $\Omega = \{1; 2; 3; 4; 5; 6\}$.\\
+		Số phần tử của không gian mẫu là $n(\Omega) = 6$.\\
+		Gọi A là biến cố "mặt xuất hiện có số chấm là số chia hết cho 3".\\
+		Các phần tử của biến cố A là $A = \{3; 6\}$.\\
+		Số phần tử của biến cố A là $n(A) = 2$.\\
+		Xác suất của biến cố A là:\\
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{2}{6} = \frac{1}{3}$.
+	}
+\end{ex}
+
+\begin{ex}
+	Giải bài toán sau bằng cách lập phương trình:
+	Một người đi xe đạp từ A đến B cách nhau 24 km. Khi đi từ B trở về A, người đó tăng vận tốc thêm 4 km/h, vì vậy thời gian về ít hơn thời gian đi là 30 phút. Tính vận tốc của người đi xe đạp khi đi từ A đến B.
+	\loigiai{
+		Gọi $x$ (km/h) là vận tốc của người đi xe đạp khi đi từ A đến B.
+		Điều kiện: $x > 0$.\\
+		Thời gian người đó đi từ A đến B là: $\frac{24}{x}$ (giờ).\\
+		Khi đi từ B trở về A, vận tốc của người đó là: $x + 4$ (km/h).\\
+		Thời gian người đó đi từ B trở về A là: $ \frac{24}{x+4}$ (giờ).\\
+		Đổi 30 phút = $\frac{1}{2}$ giờ.\\
+		Theo đề bài, thời gian về ít hơn thời gian đi là 30 phút, nên ta có phương trình:\\
+		\begin{align*}
+			\frac{24}{x} - \frac{24}{x+4} &= \frac{1}{2} \\
+			\text{Nhân cả hai vế với } 2x(x+4)\text{ (mẫu chung)}: \\
+			24 \cdot 2(x+4) - 24 \cdot 2x &= x(x+4) \\
+			48(x+4) - 48x &= x^2 + 4x \\
+			48x + 192 - 48x &= x^2 + 4x \\
+			192 &= x^2 + 4x \\
+			x^2 + 4x - 192 &= 0
+		\end{align*}
+		Giải phương trình bậc hai $x^2 + 4x - 192 = 0$:
+		$\Delta = b^2 - 4ac = 4^2 - 4 \cdot 1 \cdot (-192) = 16 + 768 = 784$
+		$\sqrt{\Delta} = \sqrt{784} = 28$
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-b + \sqrt{\Delta}}{2a} = \frac{-4 + 28}{2 \cdot 1} = \frac{24}{2} = 12$ (Thỏa mãn điều kiện $x>0$)
+		$x_2 = \frac{-b - \sqrt{\Delta}}{2a} = \frac{-4 - 28}{2 \cdot 1} = \frac{-32}{2} = -16$ (Không thỏa mãn điều kiện $x>0$)
+		Vậy, vận tốc của người đi xe đạp khi đi từ A đến B là 12 km/h.
+	}
+\end{ex}
+\begin{ex} % Câu 17
+	Cho đường tròn $(O)$, bán kính $R$, đường kính $AB$. Đường thẳng nằm ngoài đường tròn $d_1, d_2$ là các đường thẳng lần lượt qua $A, B$ và cùng vuông góc với đường kính $AB$. Qua điểm $H$ bất kì thuộc nửa đường tròn kẻ tiếp tuyến thứ ba cắt các tiếp tuyến qua $A, B$ tại $M, N$; $OM, ON$ cắt đường tròn lần lượt tại $E, F$. Gọi giao điểm của $ON$ và $HB$ là $G$; $OM$ và $HA$ là $K$, kẻ $HJ \perp AB$ ($J \in AB$).
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác $AOHM$ nội tiếp.
+		\item Chứng minh $JG^2 + JK^2 = R^2$. Xác định vị trí của $M, N$ để diện tích tam giác $MON$ đạt giá trị nhỏ nhất.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 18
+	Cho 3 số thực dương $x, y, z$ thỏa mãn điều kiện: $x^2 \ge y^2 + z^2$.
+	Tìm giá trị nhỏ nhất của biểu thức: $P = \frac{1}{x^2}(y^2+z^2) + \frac{7x^2}{2}\left(\frac{1}{y^2}+\frac{1}{z^2}\right) + 2025$
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

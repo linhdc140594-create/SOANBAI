@@ -1,0 +1,1515 @@
+--- TRANG 120 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Phương trình nào sau đây là phương trình bậc nhất hai ẩn?    
+A. 
+2
+4
+2
+0
+x −
+=    
+ 
+ 
+ 
+ 
+B. 5
+1
+3(
+4)
+y
+y
+−=
+−
+    
+C. 7
+5
+2
+y
+x +
+=    
+ 
+ 
+ 
+ 
+D. 
+2
+8
+2
+0
+x
+y
++
+=
+    
+Lời giải: Phương trình bậc nhất hai ẩn có dạng ax
+by
+c
++
+= với các hệ số ,a b không đồng 
+thời bằng 0 .  
+Phương trình 7
+5
+2
+y
+x +
+= có thể viết lại thành 
+1
+7
+5
+2
+x
+y
++
+= , đây là phương trình bậc nhất hai 
+ẩn x và y .    
+Đáp án đúng: C    
+Câu 2. Cặp số (2;0) là nghiệm của hệ phương trình nào sau đây?    
+A. 
+2
+2
+2
+4
+x
+y
+x
+y
+−
+=
+
+
++
+=
+
+    
+ 
+ 
+ 
+ 
+B. 2
+1
+3
+8
+x
+y
+x
+y
+−
+= −
+
+−
+=
+
+    
+C. 2
+1
+3
+7
+x
+y
+x
+y
+−
+= −
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+D. 4
+2
+0
+3
+5
+x
+y
+x
+y
+−
+=
+
+−
+=
+
+    
+Lời giải: Thay 
+2
+x =
+ và 
+0
+y = vào từng phương trình của hệ ở phương án A:  
+Phương trình thứ nhất: 2
+2 0
+2
+−=
+ (thỏa mãn).    
+Phương trình thứ hai: 2 2
+0
+4
++
+=
+ (thỏa mãn).    
+Đáp án đúng: A    
+
+
+--- TRANG 121 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 3. Hệ phương trình nào sau đây là hệ hai phương trình bậc nhất hai ẩn?    
+A. 
+2
+3
+2
+3
+2
+4
+x
+y
+x
+y
+−
+=
+
++
+=
+
+    
+ 
+ 
+ 
+ 
+B. 
+3
+1
+5
+3
+8
+x
+y
+x
+y
+−
+= −
+
+
+−
+=
+
+    
+C. 
+3
+2
+1
+3
+7
+x
+y
+x
+y
+
+−
+= −
+−
+=
+
+    
+ 
+ 
+ 
+ 
+D. 
+2
+2
+4
+2
+0
+3
+5
+x
+y
+x
+y
+
+−
+=
+
+−
+=
+
+    
+Lời giải: Hệ hai phương trình bậc nhất hai ẩn gồm hai phương trình, trong đó mỗi phương 
+trình đều là phương trình bậc nhất đối với hai biến.  
+Ở phương án B, cả hai phương trình 
+3
+1
+x
+y
+−
+= − và 5
+3
+8
+x
+y
+−
+= đều là phương trình bậc nhất 
+hai ẩn. Đáp án đúng: B    
+Câu 4. Khẳng định nào sau đây đúng?    
+A. 
+A B
+A
+B
+
+=
+
+ (
+0;
+0
+A
+B
+
+)    
+ 
+B. 
+A B
+A
+B
+
+=
+
+ (
+0;
+0
+A
+B
+
+
+)    
+C. 
+A B
+A
+B
+
+=
+
+ (
+0
+AB )    
+ 
+ 
+D. 
+A B
+A
+B
+
+=
+
+ (
+0;
+0
+A
+B
+
+)    
+Lời giải: Với hai số A và B không âm (
+0
+A và 
+0
+B ), ta có 
+A B
+A
+B
+
+=
+
+.   
+Đáp án đúng: B    
+Câu 5. Với 
+3
+a , kết quả rút gọn của biểu thức 
+2
+(
+3)
+2(
+1)
+a
+a
+−
+−
++
+ là:    
+A. 1 3a
+−
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+a
+−−    
+C. 
+5
+a
+−−     
+ 
+ 
+ 
+ 
+D. 5 3a
+−
+    
+Lời giải: 
+Áp dụng hằng đẳng thức 
+2
+|
+|
+A
+A
+=
+, ta có 
+2
+(
+3)
+|
+3|
+a
+a
+−
+=
+−
+. 
+Vì 
+3
+a  nên 
+3
+0
+a −, do đó |
+3|
+(
+3)
+3
+a
+a
+a
+−
+= −
+−
+= −. 
+Thay vào biểu thức ta được: (3
+)
+2(
+1)
+3
+2
+2
+1 3
+a
+a
+a
+a
+a
+−
+−
++
+= −−
+−
+= −
+.   Đáp án đúng: A    
+
+
+--- TRANG 122 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 6. Kết quả của phép tính 
+49 0,36
+169
+
+ là:    
+A. 21
+65    
+ 
+ 
+B. 35
+33    
+ 
+ 
+C. 42
+13    
+ 
+          D. 42
+169    
+Lời giải: Ta có 
+49 0,36
+49
+0,36
+7 0,6
+4,2
+42
+21
+169
+13
+13
+130
+65
+169
+
+
+
+=
+=
+=
+=
+=
+    
+Đáp án đúng: A    
+Câu 7. Cho a
+b
+, kết luận nào sau đây không đúng?    
+A. a
+b
+−−     
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2
+a
+b
+−
+
+−    
+C. 
+0
+a
+b
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 2
+2
+a
+b
+
+    
+Lời giải: 
+Từ a
+b
+, khi trừ cả hai vế cho 2 ta thu được 
+2
+2
+a
+b
+−
+−. 
+Do đó, kết luận 
+2
+2
+a
+b
+−
+
+− ở phương án B là không đúng.    
+Đáp án đúng: B    
+Câu 8. Cho tam giác MNP vuông tại M có đường cao MH và góc ˆN
+
+=
+. Tỉ số lượng 
+giác cos bằng:   
+ 
+A. NH
+MN    
+ 
+ 
+B. MP
+MH    
+ 
+ 
+C. MP
+MN    
+ 
+         D. MH
+NM    
+ 
+ 
+
+
+--- TRANG 123 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: 
+Xét tam giác MNH vuông tại H , góc ˆN
+
+=
+ có cạnh kề là NH và cạnh huyền là MN . 
+Theo định nghĩa tỉ số lượng giác, cos
+NH
+MN
+=
+.    
+Đáp án đúng: A    
+Câu 9. Trong hình vẽ, bạn Minh đứng ở vị trí điểm M , bạn Nam đứng ở vị trí N ở cùng 
+một bên lề đường và cây xanh C nằm đối diện vị trí Nam đứng ở phía bên kia đường. Biết 
+3,9 m
+MN =
+ và góc 
+72
+NMC
+
+=
+. Tính khoảng cách từ Minh đến cây xanh C (làm tròn kết 
+quả đến hàng đơn vị).    
+ 
+A. 12 m    
+ 
+ 
+ 
+ 
+ 
+ 
+B. 13 m    
+ 
+ 
+ 
+C. 12,7 m     
+   
+ 
+ 
+ 
+ 
+D. 12,6 m    
+Lời giải: 
+Tam giác MNC vuông tại N , khoảng cách từ Minh đến cây xanh C chính là độ dài cạnh 
+huyền MC . Ta có 
+ˆ
+cos
+MN
+M
+MC
+=
+, dẫn đến 
+3,9
+12,62 m
+cos72
+cos72
+MN
+MC
+
+
+=
+=
+
+. 
+Làm tròn đến hàng đơn vị, ta được 13 m.   Đáp án đúng: B    
+ 
+ 
+
+
+--- TRANG 124 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 10. Cho a
+b
+, khi đó ta có:    
+A. 2
+2
+a
+b
+
+     
+ 
+ 
+ 
+ 
+ 
+B. 2
+2
+a
+b
+−
+−
+    
+C. 2
+3
+2
+3
+a
+b
+−
+−     
+ 
+ 
+ 
+ 
+D. 3 5
+3 5
+a
+b
+−
+−
+    
+Lời giải: 
+Từ a
+b
+, nhân hai vế với số dương 2 ta được 2
+2
+a
+b
+
+. 
+Tiếp tục trừ hai vế cho 3 ta thu được bất đẳng thức 2
+3
+2
+3
+a
+b
+−
+−.    
+Đáp án đúng: C    
+Câu 11. Cho bất đẳng thức 2
+3
+a
+b
+a
++ 
+. Vế trái của bất đẳng thức là:    
+A. 3a    
+ 
+ 
+B. b    
+ 
+ 
+C. 2a  
+ 
+       D. 2a
+b
++    
+Lời giải: Biểu thức nằm ở phía bên trái của dấu bất đẳng thức  là 2a
+b
++ .    
+Đáp án đúng: D    
+Câu 12. Cho tam giác ABC vuông tại A. Tỉ số sinB bằng:    
+A. AB
+BC    
+ 
+ 
+B. AC
+BC   
+ 
+ 
+ C. AB
+AC    
+ 
+       D. AC
+AB    
+Lời giải: Trong tam giác vuông ABC vuông tại A, cạnh đối diện với góc B là AC và cạnh 
+huyền là BC .  
+Tỉ số sinB bằng độ dài cạnh đối chia cho độ dài cạnh huyền, tức là AC
+BC .    
+Đáp án đúng: B 
+ 
+ 
+ 
+ 
+
+
+--- TRANG 125 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hệ phương trình 2
+4
+2
+x
+y
+x
+y
++
+=
+
+−
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Cặp số (2;0) là nghiệm của phương trình thứ nhất. 
+b) Cộng từng vế hai phương trình của hệ ta được phương trình 3
+6
+x = . 
+c) Nghiệm của hệ phương trình là (2;0) . 
+d) Giá trị biểu thức 
+2
+2
+M
+x
+y
+=
+−
+ tại nghiệm của hệ bằng 4 . 
+Lời giải. 
+a) Đúng. Thay 
+2
+x =
+ và 
+0
+y = vào phương trình 2
+4
+x
+y
++
+=
+ ta được 2(2)
+0
+4
++
+= , thỏa mãn. 
+b) Đúng. Cộng vế với vế hai phương trình: (2
+)
+(
+)
+4
+2
+x
+y
+x
+y
++
++
+−
+=
++ , rút gọn thành 3
+6
+x = . 
+c) Đúng. Từ 3
+6
+x = tính được 
+2
+x =
+, thay vào phương trình thứ hai tính được 2
+2
+y
+−
+= , suy 
+ra 
+0
+y = . Nghiệm của hệ là (2;0) . 
+d) Đúng. Thay nghiệm (2;0) vào biểu thức M : 
+2
+2
+2
+0
+4
+M =
+−
+=
+. 
+Câu 2. Cho tam giác ABC vuông tại A, đường cao AH . Biết 
+2 cm
+BH =
+ và 
+8 cm
+CH =
+. 
+Xét tính Đúng/Sai của các khẳng định sau: 
+a) Độ dài đường cao 
+4 cm
+AH =
+. 
+b) Độ dài cạnh huyền 
+10 cm
+BC =
+. 
+c) Độ dài cạnh 
+20 cm
+AB =
+. 
+d) Giá trị của 
+2
+sin
+5
+B =
+. 
+Lời giải.  
+a) Đúng. Áp dụng hệ thức lượng 
+2
+2 8
+16
+AH
+BH CH
+=
+
+= =
+, suy ra 
+4 cm
+AH =
+. 
+
+
+--- TRANG 126 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+b) Đúng. Cạnh huyền 
+2 8 10 cm
+BC
+BH
+CH
+=
++
+=
++ =
+. 
+c) Đúng. Áp dụng hệ thức lượng 
+2
+2 10
+20
+AB
+BH BC
+=
+
+= 
+=
+, suy ra 
+20 cm
+AB =
+. 
+d) Đúng. Xét tam giác ABH vuông tại H , ta có 
+4
+4
+2
+sin
+20
+2 5
+5
+AH
+B
+AB
+=
+=
+=
+=
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Giải hệ phương trình 3
+2
+4
+2
+4
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Tìm nghiệm ( ; )
+x y . 
+Lời giải: Cộng hai phương trình vế theo vế: (3
+)
+( 2
+2 )
+4
+4
+x
+x
+y
+y
++
++ −
++
+=
++ 
+4
+8
+2
+x
+x
+= 
+= 
+Thay 
+2
+x =
+ vào phương trình thứ hai: 2
+2
+4
+2
+2
+1
+y
+y
+y
++
+=
+
+=
+
+= 
+Đáp án: ( ; )
+(2;1)
+x y =
+. 
+Câu 2. Cho tam giác ABC vuông tại A, đường cao AH . Biết 
+6 cm
+AB =
+ và 
+8 cm
+AC =
+. 
+Tính độ dài đường cao AH . 
+Lời giải: Áp dụng định lý Pythagore tính cạnh huyền BC: 
+2
+2
+2
+2
+6
+8
+100
+10 cm
+BC
+AB
+AC
+=
++
+=
++
+=
+=
+ 
+Áp dụng hệ thức lượng về cạnh và đường cao ta được: 
+6 8
+10
+AH
+=
+
+ 
+48
+10
+4,8 cm
+AH
+AH
+=
+
+=
+ 
+Đáp án: 4,8 cm. 
+ 
+ 
+ 
+
+
+--- TRANG 127 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần IV. Tự luận 
+Câu 1. Giải các hệ phương trình sau: 
+3
+2
+)
+2
+5
+x
+y
+a
+x
+y
++
+=
+
++
+=
+
+; 
+ 
+4
+3
+1
+) 2
+3
+13
+x
+y
+b
+x
+y
+−
+= −
+
+
++
+=
+
+. 
+Lời giải. 
+a) 
+3
+2
+2
+5
+x
+y
+x
+y
++
+=
+
++
+=
+
+    
+Trừ vế theo vế phương trình thứ nhất cho phương trình thứ hai, ta được:
+(
+3 )
+(
+2 )
+2 5
+x
+y
+x
+y
++
+−
++
+=
+− 
+3
+y = −    
+Thay 
+3
+y = − vào phương trình thứ nhất: 
+3( 3)
+2
+9
+2
+11
+x
+x
+x
++
+−
+=
+−
+=
+=
+    
+Vậy hệ phương trình có nghiệm duy nhất là ( ; )
+(11; 3)
+x y =
+−
+.   
+ b) 4
+3
+1
+2
+3
+13
+x
+y
+x
+y
+−
+= −
+
+
++
+=
+
+    
+Cộng vế theo vế hai phương trình, ta được: 
+(4
+3 )
+(2
+3 )
+1 13
+x
+y
+x
+y
+−
++
++
+= −+
+ 
+6
+12
+2
+x
+x
+=
+=
+    
+Thay 
+2
+x =
+ vào phương trình thứ hai ta được 
+
+
+--- TRANG 128 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+2(2)
+3
+13
+4
+3
+13
+3
+9
+3
+y
+y
+y
+y
++
+=
++
+=
+=
+=
+    
+Vậy hệ phương trình có nghiệm duy nhất là ( ; )
+(2;3)
+x y =
+.  
+Câu 2. Trong kỳ thi tuyển sinh vào lớp 10 Trung học phổ thông, tổng số học sinh dự thi 
+của hai trường THCS A và B là 180 em, tổng số học sinh trúng tuyển là 157 em. Tính số 
+học sinh dự thi và số học sinh trúng tuyển của từng trường. Biết trường A có 90% học 
+sinh dự thi trúng tuyển và trường B có 85% học sinh dự thi trúng tuyển.  
+Lời giải. 
+Gọi số học sinh dự thi của trường A và trường B lần lượt là x và y (đơn vị học sinh; điều 
+kiện ,
+*, ,
+180
+x y
+x y
+
+
+
+).    
+Tổng số học sinh dự thi của hai trường là 180 em, nên ta có phương trình:
+180
+x
+y
++
+=
+    
+Số học sinh trúng tuyển của trường A là 0,9x và của trường B là 0,85y .    
+Tổng số học sinh trúng tuyển là 157 em, nên ta có phương trình: 0,9
+0,85
+157
+x
+y
++
+=
+    
+Ta lập được hệ phương trình: 
+180
+0,9
+0,85
+157
+x
+y
+x
+y
++
+=
+
+
++
+=
+
+    
+Giải hệ phương trình trên, ta tìm được nghiệm: 
+80
+x =
+ và 
+100
+y =
+ (thỏa mãn điều kiện).    
+Vậy trường A có 80 học sinh dự thi có 72 học sinh trúng tuyển và trường B có 100 học sinh 
+dự thi có 85 học sinh trúng tuyển. 
+Câu 3. a) Cho tam giác DEF vuông tại D có DE = 9 cm, 
+F
+35
+=
+. Hãy giải tam giác vuông 
+DEF (độ dài các cạnh làm tròn đến số thập phân thứ hai).  
+b) Hai chiếc thuyền A và B ở vị trí được minh họa như hình sau. Tính khoảng cách giữa 
+chúng. (làm tròn đến đề - xi - mét). Biết độ dài IK
+500m
+=
+; 
+
+o
+o
+AKB
+15 ;AKI
+50
+=
+=
+.  
+
+
+--- TRANG 129 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ 
+Lời giải. 
+a) Ta có góc nhọn ˆ
+ˆ
+90
+90
+35
+55
+E
+F
+
+
+
+
+=
+−
+=
+−
+=
+.    
+Cạnh góc vuông 
+tan
+9 tan55
+12,85 cm
+DF
+DE
+E
+
+=
+
+= 
+
+.    
+Cạnh huyền 
+9
+15,69 cm
+sin
+sin35
+DE
+EF
+F
+
+=
+=
+
+.   
+b) Xét tam giác vuông AIK vuông tại I có 
+
+tan
+500 tan50
+595,88 m
+AI
+IK
+AKI
+
+=
+
+=
+
+
+ 
+   Xét tam giác vuông BIK vuông tại I với góc 
+
+
+50
+15
+65
+BKI
+AKI
+AKB
+
+
+
+=
++
+=
++
+=
+có  
+  
+tan65
+500 tan65
+1072,25 m
+BI
+IK
+
+
+=
+
+=
+
+
+  
+Khoảng cách giữa hai chiếc thuyền A và B là đoạn thẳng AB: 
+1072,25 595,88
+476,37 m
+AB
+BI
+AI
+=
+−
+
+−
+=
+ 
+Vậy khoảng cách giữa hai thuyền là khoảng 476,4 m. 
+Câu 4. Cho các số thực ,x y thỏa mãn 
+2
+2
+4
+2
+5
+0
+x
+y
+x
+y
++
+−
++
++ =
+. Tính giá trị của biểu thức 
+2026
+2026
+(
+3)
+(
+2)
+P
+x
+y
+=
+−
++
++
+. 
+Lời giải. 
+Biến đổi phương trình giả thiết về tổng các bình phương: 
+2
+2
+(
+4
+4)
+(
+2
+1)
+0
+x
+x
+y
+y
+−
++
++
++
++
+= 
+
+
+--- TRANG 130 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+2
+2
+(
+2)
+(
+1)
+0
+x
+y
+−
++
++
+= 
+Vì các bình phương luôn không âm với mọi số thực, nên tổng bằng 0 khi và chỉ khi mỗi 
+số hạng đồng thời bằng 0 . Suy ra  
+2
+0
+2
+1
+0
+1
+x
+x
+y
+y
+−
+=
+=
+
+
+
+
+
++ =
+= −
+
+
+ 
+Thay 
+2
+x =
+ và 
+1
+y = − vào biểu thức P ta được 
+2026
+2026
+2026
+2026
+(2 3)
+( 1 2)
+( 1)
+(1)
+1 1
+2
+P =
+−
++ −+
+= −
++
+= + =
+ 
+Vậy giá trị của biểu thức P là 2 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

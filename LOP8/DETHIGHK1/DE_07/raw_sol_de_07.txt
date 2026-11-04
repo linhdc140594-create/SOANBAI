@@ -1,0 +1,1611 @@
+--- TRANG 99 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 7  
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các biểu thức sau, biểu thức nào không phải là đơn thức? 
+A. 
+2
+2xy
+−
+ 
+ 
+ 
+B. 7  
+ 
+C. 
+2
+x
+y
++
+ 
+ 
+ 
+D. 
+3x y 
+Lời giải: Đơn thức là biểu thức chỉ gồm một số, một biến hoặc một tích giữa các số và biến. 
+Biểu thức 
+2
+x
+y
++
+ chứa phép cộng giữa các biến nên là đa thức, không phải là đơn thức. 
+Đáp án đúng: C. 
+Câu 2. Cặp đơn thức nào sau đây là hai đơn thức đồng dạng? 
+A. 
+2
+2x y và 
+2
+2xy 
+ 
+ 
+ 
+B. 
+3
+2
+3x y
+−
+ và 
+3
+2
+5x y 
+C. 
+2
+4x và 
+3
+4x 
+ 
+ 
+ 
+D. 
+2x y và xy 
+Lời giải: Hai đơn thức đồng dạng có hệ số khác 0 và có cùng phần biến. Hai đơn thức 
+3
+2
+3x y
+−
+ và 
+3
+2
+5x y có cùng phần biến là 
+3
+2
+x y . Đáp án đúng: B. 
+Câu 3. Bậc của đa thức 
+2
+4
+5
+2
+3
+2
+5
+Q
+x y
+x y
+x y
+=
+−
++
+− là: 
+A. 6  
+ 
+ 
+B. 5  
+ 
+C. 4  
+ 
+ 
+D. 3 
+Lời giải: Hạng tử 
+2
+4
+x y có bậc là 2
+4
+6
++
+= . 
+Hạng tử 
+5
+3x y
+−
+ có bậc là 5 1
+6
++ = . 
+Hạng tử 
+2
+2x y có bậc là 2
+1
+3
++ = . 
+Bậc của đa thức Q là bậc của hạng tử có bậc cao nhất, do đó bậc của Q bằng 6 . 
+Đáp án đúng: A. 
+
+
+--- TRANG 100 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 4. Kết quả của phép nhân 
+2
+3
+(2
+)
+x
+x
+y
+−
+
+−
+ là: 
+A. 
+3
+2
+6
+3
+x
+x y
+−
+−
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+2
+6
+3
+x
+x y
+−
++
+ 
+C. 
+2
+2
+6
+3
+x
+x y
+−
++
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+6
+3
+x
+x y
+−
+ 
+Lời giải: Thực hiện nhân đơn thức với từng hạng tử của đa thức:  
+2
+2
+3
+2
+3
+2
+( 3
+)
+6
+3
+x
+x
+x
+y
+x
+x y
+−
+
+−−
+
+= −
++
+ 
+Đáp án đúng: B. 
+Câu 5. Biểu thức 
+2
+2
+4
+x
+y
+−
+ được viết dưới dạng tích là: 
+A. 
+2
+(
+2 )
+x
+y
+−
+  
+ 
+ 
+ 
+ 
+B. (
+4 )(
+4 )
+x
+y x
+y
+−
++
+ 
+C. (
+2 )(
+2 )
+x
+y x
+y
+−
++
+  
+ 
+ 
+ 
+D. 
+2
+(
+2 )
+x
+y
++
+ 
+Lời giải: Áp dụng hằng đẳng thức hiệu hai bình phương: 
+2
+2
+2
+2
+4
+(2 )
+(
+2 )(
+2 )
+x
+y
+x
+y
+x
+y x
+y
+−
+=
+−
+=
+−
++
+. 
+Đáp án đúng: C. 
+Câu 6. Đa thức 
+2
+6
+9
+x
+x
+−
++ được viết dưới dạng bình phương của một hiệu là: 
+A. 
+2
+(
+3)
+x −
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+(
+3)
+x +
+ 
+ 
+ 
+C. 
+2
+(
+9)
+x −
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+(
+9)
+x +
+ 
+Lời giải: Áp dụng hằng đẳng thức bình phương của một hiệu: 
+2
+2
+2
+2
+6
+9
+2
+3
+3
+(
+3)
+x
+x
+x
+x
+x
+−
++
+=
+−+
+=
+−
+ 
+Đáp án đúng: A. 
+Câu 7. Kết quả của phép tính 
+3
+4
+2
+( 15
+):(3
+)
+x y
+xy
+−
+ là: 
+A. 
+2
+2
+5x y
+−
+ 
+ 
+ 
+B. 
+2
+2
+5x y 
+ 
+C. 
+4
+6
+5x y
+−
+ 
+ 
+ 
+D. 
+2
+5x y
+−
+ 
+Lời giải: Chia hệ số cho hệ số và chia từng lũy thừa của biến: 
+
+
+--- TRANG 101 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+3
+4
+2
+2
+2
+( 15:3) (
+: ) (
+:
+)
+5
+x
+x
+y
+y
+x y
+−
+
+
+= −
+ 
+Đáp án đúng: A. 
+Câu 8. Cho tứ giác EFGH có ˆ
+70
+E
+
+=
+, ˆ
+110
+F
+
+=
+, ˆ
+80
+G
+
+=
+. Số đo góc H là: 
+A. 100 
+ 
+ 
+B. 90  
+ 
+C. 80  
+ 
+ 
+D. 110 
+Lời giải: Tổng các góc trong tứ giác bằng 360. Số đo góc H bằng: 
+360
+(70
+110
+80 )
+360
+260
+100
+
+
+
+
+
+
+
+−
++
++
+=
+−
+=
+ 
+Đáp án đúng: A. 
+Câu 9. Tứ giác có các cạnh đối song song là: 
+A. Hình thang 
+ 
+ 
+ 
+ 
+B. Hình bình hành 
+C. Hình thoi  
+ 
+ 
+ 
+ 
+D. Hình chữ nhật 
+Lời giải: Theo định nghĩa, hình bình hành là tứ giác có các cạnh đối song song. 
+Đáp án đúng: B. 
+Câu 10. Hình bình hành có hai đường chéo vuông góc với nhau là: 
+A. Hình chữ nhật 
+ 
+ 
+ 
+ 
+B. Hình vuông 
+C. Hình thoi  
+ 
+ 
+ 
+ 
+D. Hình thang cân 
+Lời giải: Theo dấu hiệu nhận biết, hình bình hành có hai đường chéo vuông góc với nhau 
+là hình thoi. Đáp án đúng: C. 
+Câu 11. Mặt đáy của hình chóp tam giác đều là: 
+A. Tam giác vuông  
+ 
+ 
+ 
+B. Tam giác cân 
+C. Tam giác đều 
+ 
+ 
+ 
+ 
+D. Hình vuông 
+Lời giải: Theo định nghĩa hình chóp tam giác đều, mặt đáy của hình chóp là một tam giác 
+đều. Đáp án đúng: C. 
+
+
+--- TRANG 102 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 12. Cho hình chóp tam giác đều có độ dài cạnh đáy bằng 4 cm và độ dài trung đoạn 
+bằng 9 cm . Diện tích xung quanh của hình chóp đó là: 
+A. 
+2
+54 cm 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+108 cm 
+ 
+ 
+ 
+C. 
+2
+36 cm 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+27 cm 
+Lời giải: Chu vi đáy của hình chóp tam giác đều: 
+3 4
+12 cm
+C = 
+=
+. 
+Diện tích xung quanh: 
+2
+1
+1 12 9
+54 cm
+2
+2
+xq
+S
+C d
+=
+
+
+=
+
+
+=
+ 
+Đáp án đúng: A. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+2
+1
+2
+:
+4
+2
+2
+x
+A
+x
+x
+x
+
+
+=
++
+
+
+−
++
+−
+
+
+ với 
+2
+x . Xét tính đúng sai của các mệnh 
+đề sau: 
+a) Mẫu thức chung của hai phân thức trong ngoặc là 
+2
+4
+x −. 
+b) Kết quả rút gọn biểu thức trong ngoặc là 
+2
+2
+2
+4
+x
+x
+−
+−
+. 
+c) Kết quả rút gọn của biểu thức A là 
+1
+2
+x
+x
+−
++
+. 
+d) Có đúng 2 giá trị nguyên của x để biểu thức A nhận giá trị nguyên. 
+Lời giải. 
+a) Đúng. Mẫu thức chung là 
+2
+(
+2)(
+2)
+4
+x
+x
+x
+−
++
+=
+−. 
+b) Đúng. Biểu thức trong ngoặc bằng 
+2
+2
+(
+2)
+2
+2
+4
+4
+x
+x
+x
+x
+x
++
+−
+−
+=
+−
+−
+. 
+c) Đúng. Ta có 
+2(
+1)
+2
+1
+(
+2)(
+2)
+2
+2
+x
+x
+x
+A
+x
+x
+x
+−
+−
+−
+=
+
+=
+−
++
++
+. 
+
+
+--- TRANG 103 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+d) Sai. Biến đổi 
+3
+1
+2
+A
+x
+= −
++
+. Để A nguyên thì 
+2
+x +
+ thuộc tập ước của 3 là { 1; 3}
+
+. Do 
+đó 
+{ 1; 3;1; 5}
+x−−
+−
+, gồm 4 giá trị nguyên thỏa mãn điều kiện 
+2
+x . 
+Câu 2. Hàm số bậc nhất 
+(
+1)
+2
+3
+y
+m
+x
+m
+=
+−
++
+− (với 
+1
+m ) có đồ thị là đường thẳng ( )
+d . Xét 
+tính đúng sai của các mệnh đề sau: 
+a) Với 
+2
+m = , hàm số đồng biến trên . 
+b) Với 
+0
+m = , đồ thị ( )
+d đi qua điểm 
+(1; 4)
+A
+−
+. 
+c) Đường thẳng ( )
+d song song với đường thẳng 
+2
+1
+y
+x
+=
++ khi 
+3
+m =
+. 
+d) Khoảng cách từ gốc tọa độ O đến đường thẳng ( )
+d khi 
+2
+m =
+ bằng 
+5 . 
+Lời giải. 
+a) Đúng. Khi 
+2
+m = , hệ số 
+2 1
+1
+0
+a =
+−=  nên hàm số đồng biến trên . 
+b) Đúng. Khi 
+0
+m = , hàm số trở thành 
+3
+y
+x
+= −−. Thay 
+1
+x = ta được 
+4
+y = −, do đó đồ thị 
+đi qua điểm 
+(1; 4)
+A
+−
+. 
+c) Đúng. Đường thẳng ( )
+d song song với 
+2
+1
+y
+x
+=
++ khi 
+1
+2
+m −=
+ và 2
+3
+1
+m −
+. Giá trị 
+3
+m =
+ 
+thỏa mãn cả hai điều kiện này. 
+d) Sai. Khi 
+2
+m = , đường thẳng là 
+1
+y
+x
+=
++ . Đồ thị cắt hai trục tọa độ tại 
+( 1;0)
+B −
+ và 
+(0;1).
+C
+Khoảng cách từ O đến ( )
+d bằng 
+2
+2
+1 1
+2
+5
+2
+1
+1
+
+=
+
++
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính giá trị của biểu thức 
+2
+2
+(
+2 )
+(
+2 )
+A
+x
+y
+x
+y
+=
++
+−
+−
+ tại 
+25
+x =
+ và 
+1
+2
+y =
+. 
+Lời giải.  
+Khai triển và thu gọn biểu thức A : 
+2
+2
+2
+2
+(
+4
+4
+)
+(
+4
+4
+)
+A
+x
+xy
+y
+x
+xy
+y
+=
++
++
+−
+−
++
+ 
+
+
+--- TRANG 104 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+2
+2
+2
+4
+4
+4
+4
+A
+x
+xy
+y
+x
+xy
+y
+=
++
++
+−
++
+−
+ 
+8
+A
+xy
+=
+ 
+Thay 
+25
+x =
+ và 
+1
+2
+y =
+ vào biểu thức đã thu gọn: 
+1
+8 25
+100
+2
+A = 
+
+=
+ 
+Đáp án: 100. 
+Câu 2. Tìm các giá trị của x , biết: 
+3
+4
+0
+x
+x
+−
+=
+. 
+Lời giải.  
+Phân tích vế trái thành nhân tử: 
+2
+(
+4)
+0
+x x −
+=
+(
+2)(
+2)
+0
+x x
+x
+−
++
+=
+ 
+Giải từng trường hợp:
+0
+x =
+ 
+2
+0
+2
+x
+x
+−
+=
+
+=
+ 
+2
+0
+2
+x
+x
++
+=
+
+= − 
+Đáp án: 
+0
+x =
+, 
+2
+x =
+, 
+2
+x = −. 
+Phần IV. Tự luận 
+Câu 1. Rút gọn các biểu thức: 
+a) 
+(
+)
+2
+5
+3
+2
+6
+y
+x
+x
+y
+x
+−
+−
+;                                       b) (
+) (
+)
+2
+4
+4
+2
+2
+3
+3
+9
+15
+:
+x y
+x y
+xy
+xy
+−
++
+; 
+c) (
+) (
+)
+2
+2
+-
+3
+3
+x
+x
+−
++
+. 
+Lời giải. 
+a) 
+2
+3 (2
+5)
+6
+x
+xy
+x y
+−
+−
+    
+2
+2
+6
+15
+6
+x y
+x
+x y
+=
+−
+−
+ 
+15x
+= −
+. 
+
+
+--- TRANG 105 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) 
+4
+4
+2
+2
+3
+2
+(3
+9
+15
+):(
+)
+x y
+x y
+xy
+xy
+−
++
+    
+4
+4
+2
+2
+2
+2
+3
+2
+3
+:
+9
+:
+15
+:
+x y
+xy
+x y
+xy
+xy
+xy
+=
+−
++
+ 
+3
+2
+3
+9
+15
+x y
+x
+y
+=
+−
++
+. 
+c) 
+2
+2
+(
+3)
+(
+3)
+x
+x
+−
+−
++
+ 
+2
+2
+(
+6
+9)
+(
+6
+9)
+x
+x
+x
+x
+=
+−
++
+−
++
++
+ 
+2
+2
+6
+9
+6
+9
+x
+x
+x
+x
+=
+−
++
+−
+−
+− 
+12x
+= −
+. 
+Câu 2. Tìm x , biết: 
+a) 
+2
+2 (
+5)
+2
+20
+x x
+x
+−
+−
+=
+; 
+b) 
+2
+(
+3)
+(
+2)
+11
+x
+x x
++
+−
+−
+=
+; 
+ 
+c) 
+2
+9
+(
+3)(2
+1)
+0
+x
+x
+x
+−+
+−
++
+=
+. 
+Lời giải. 
+a) 
+2
+2 (
+5)
+2
+20
+x x
+x
+−
+−
+=
+ 
+2
+2
+2
+10
+2
+20
+x
+x
+x
+−
+−
+=
+ 
+10
+20
+x
+−
+=
+ 
+20
+10
+x = −
+ 
+2
+x = − 
+Vậy 
+2
+x = −. 
+b) 
+2
+(
+3)
+(
+2)
+11
+x
+x x
++
+−
+−
+=
+ 
+2
+2
+(
+6
+9)
+(
+2 )
+11
+x
+x
+x
+x
++
++
+−
+−
+=
+ 
+2
+2
+6
+9
+2
+11
+x
+x
+x
+x
++
++
+−
++
+=
+ 
+8
+9
+11
+x +
+=
+ 
+8
+11 9
+x =
+− 
+
+
+--- TRANG 106 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+8
+2
+x =
+ 
+1
+4
+x =
+ 
+Vậy 
+1
+4
+x =
+. 
+c) 
+2
+9
+(
+3)(2
+1)
+0
+x
+x
+x
+−+
+−
++
+=
+ 
+(
+3)(
+3)
+(
+3)(2
+1)
+0
+x
+x
+x
+x
+−
++
++
+−
++
+=
+ 
+(
+3)[(
+3)
+(2
+1)]
+0
+x
+x
+x
+−
++
++
++
+=
+ 
+(
+3)(3
+4)
+0
+x
+x
+−
++
+= 
+• Trường hợp 1: 
+3
+0
+x −
+= 
+3
+x = 
+• Trường hợp 2:3
+4
+0
+x +
+=
+ 
+3
+4
+x = − 
+4
+3
+x = −
+ 
+Vậy 
+3
+x = hoặc 
+4
+3
+x
+−
+=
+ 
+Câu 3. Do ảnh hưởng của một cơn bão, một cây cột điện có phương thẳng đứng đã bị gió 
+bão làm gãy ngang thân (như hình vẽ bên dưới), ngọn cây cột điện chạm đất cách gốc 4m, 
+chiều cao từ gốc cây cột điện đến điểm gãy là 3m. Tính chiều cao ban đầu của cây cột điện. 
+ 
+ 
+ 
+  
+ 
+ 
+3m
+4m
+B
+A
+C
+
+
+--- TRANG 107 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+Gọi tam giác ABC mô tả cây cột điện bị gãy như hình vẽ, vuông tại A .  
+Trong đó 
+3 m
+AB =
+ là chiều cao từ gốc đến điểm gãy. 
+4 m
+AC =
+ là khoảng cách từ gốc đến 
+ngọn cây chạm đất. BC là độ dài phần cột điện bị gãy gập xuống.    
+Áp dụng định lý Pythagore cho tam giác ABC vuông tại A , ta có:   
+2
+2
+2
+BC
+AB
+AC
+=
++
+ 
+2
+2
+2
+3
+4
+9 16
+25
+BC =
++
+=
++
+=
+ 
+5 (m)
+BC =
+ 
+Chiều cao ban đầu của cây cột điện là: 
+3
+5
+8 (m)
+AB
+BC
++
+=
++
+=
+ 
+Vậy chiều cao ban đầu của cây cột điện là 8 m .    
+Câu 4. Tìm giá trị nhỏ nhất của biểu thức: 
+2
+2
+2
+2
+4
+2026
+P
+x
+y
+xy
+y
+=
++
+−
+−
++
+ 
+Lời giải. 
+2
+2
+2
+(
+2
+)
+(
+4
+4)
+2022
+P
+x
+xy
+y
+y
+y
+=
+−
++
++
+−
++
++
+ 
+2
+2
+(
+)
+(
+2)
+2022
+P
+x
+y
+y
+=
+−
++
+−
++
+. 
+Vì 
+2
+(
+)
+0
+x
+y
+−
+
+ và 
+2
+(
+2)
+0
+y −
+
+ với mọi ,x y . 
+Do đó 
+2022
+P 
+ với mọi ,x y . 
+Đẳng thức xảy ra khi 
+2
+0
+y −
+=
+ và 
+0
+x
+y
+−
+=
+, tương ứng 
+2
+x
+y
+=
+= . 
+Vậy giá trị nhỏ nhất của P là 2022 , đạt được khi 
+2
+x
+y
+=
+= . 
+ 
+ 
+ 
+ 
+ 

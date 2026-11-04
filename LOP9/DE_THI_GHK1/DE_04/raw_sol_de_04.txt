@@ -1,0 +1,1225 @@
+--- TRANG 73 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 4 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Với điều kiện nào của x thì phương trình 
+2
+3
+x
+x
++
+= có nghĩa:    
+A. 
+0
+x     
+ 
+ 
+B. 
+0
+x 
+    
+ 
+ 
+C. 
+0
+x =
+    
+ 
+         D. 
+0
+x     
+Lời giải: Mẫu thức của phân thức trong phương trình là x . 
+Điều kiện để phương trình có nghĩa là mẫu thức phải khác 0 , tức là 
+0
+x 
+.    
+Đáp án đúng: B.    
+Câu 2. Phương trình (
+1)(
+2)(
+3)
+0
+x
+x
+x
+−
+−
+−
+= có số nghiệm là:    
+A. 1     
+ 
+ 
+B. 2    
+ 
+ 
+C. 3    
+ 
+ 
+D. 4    
+Lời giải: Phương trình tích tương đương với các trường hợp 
+1
+0
+x −= , 
+2
+0
+x −
+= hoặc 
+3
+0
+x −= . Suy ra phương trình có 3 nghiệm phân biệt là 
+1
+x = , 
+2
+x =
+, 
+3
+x = .    
+Đáp án đúng: C.    
+Câu 3. Trong các hệ thức sau hệ thức nào không là phương trình bậc nhất hai ẩn?    
+A. 3
+2
+0
+x
+y
++
+=    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+y =    
+C. 0
+0
+2
+x
+y
++
+=    
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+x
+y
++
+=
+   
+Lời giải: Phương trình bậc nhất hai ẩn có dạng tổng quát ax
+by
+c
++
+= , trong đó các hệ số a 
+và b không đồng thời bằng 0 . 
+Ở hệ thức 0
+0
+2
+x
+y
++
+= , cả hai hệ số đều bằng 0 nên đây không phải là phương trình bậc 
+nhất hai ẩn.   Đáp án đúng: C.    
+
+
+--- TRANG 74 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 4. Trong các hệ phương trình sau hệ nào không phải là hệ hai phương trình bậc nhất 
+hai ẩn?    
+A. 
+2
+3
+0
+0
+5
+x
+y
+x
+y
+−
+=
+
+
++
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+B. 2
+0
+6
+5
+4
+1
+x
+y
+x
+y
++
+= −
+
+
++
+= −
+
+    
+C. 5
+10
+3
+2
+6
+y
+x
+y
+=
+
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 4
+7
+9
+1,2
+3
+0
+x
+y
+x
+y
++
+= −
+
+−
++
+=
+
+    
+Lời giải: Hệ phương trình ở phương án A có phương trình thứ hai 0
+0
+5
+x
+y
++
+= không phải 
+là phương trình bậc nhất hai ẩn vì cả hai hệ số của ẩn đều bằng 0 , do đó hệ này không phải 
+là hệ hai phương trình bậc nhất hai ẩn.   Đáp án đúng: A.    
+Câu 5. Cặp số (1;2) là nghiệm của hệ phương trình nào sau đây?    
+A. 2
+6
+5
+4
+1
+x
+x
+y
+= −
+
+
++
+= −
+
+     
+ 
+ 
+ 
+ 
+B. 5
+10
+3
+2
+6
+y
+x
+y
+=
+
+
+−
+=
+
+    
+C. 6
+12
+10
+2
+6
+y
+x
+y
+=
+
+
+−
+=
+
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+6
+12
+10
+2
+6
+x
+y
+x
+y
+−
++
+=
+
+
+−
+=
+
+    
+Lời giải: Thay 
+1
+x = và 
+2
+y = vào hệ phương trình ở phương án C, ta có 6 2
+12
+
+=
+ (đúng) và 
+10 1 2 2
+10
+4
+6
+−=
+−
+= (đúng), thỏa mãn cả hai phương trình của hệ.   Đáp án đúng: C.   
+Câu 6. Cho a
+b
+. Trong các khẳng định sau, khẳng định nào sai?    
+A. 
+2
+2
+a
+b
++
+
++    
+ 
+ 
+ 
+ 
+ 
+B. 3
+3
+a
+b
+
+    
+C. 5
+5
+a
+b
+−
+−
+    
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+a
+b
+−+
+−+    
+Lời giải: Từ bất đẳng thức a
+b
+, khi nhân cả hai vế với 1
+− ta được a
+b
+−−, cộng thêm 2 
+vào hai vế ta được 
+2
+2
+a
+b
+−+
+−+ .  
+Do đó khẳng định 
+2
+2
+a
+b
+−+
+−+ là khẳng định sai.    
+Đáp án đúng: D.    
+
+
+--- TRANG 75 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 7. Giá trị của biểu thức 
+sin58
+cos60
+tan37
+tan53
+sin30
+cos32
+N
+
+
+
+
+
+
+=
+−
++
+
++
+ là:    
+A. 2    
+ 
+ 
+B. 0    
+ 
+ 
+C. 1     
+ 
+ 
+D. 3  
+Lời giải: Vì 58
+32
+90
+
+
+
++
+=
+ nên sin58
+cos32
+
+
+=
+, suy ra sin58
+1
+cos32
+
+= .    
+Vì 37
+53
+90
+
+
+
++
+=
+ nên tan37
+cot53
+
+
+=
+, suy ra tan37 tan53
+1
+
+
+
+= .    
+Ta có 
+1
+cos60
+2
+=
+ và 
+1
+sin30
+2
+=
+.    
+Thay vào biểu thức: 
+1
+1
+1
+1
+2
+2
+2
+N = −
++ +
+=
+.   Đáp án đúng: A.    
+Câu 8. Nghiệm của phương trình 
+1 (
+3)
+0
+3
+x
+x
+
+
++
+−
+=
+
+
+
+
+ là:    
+A. 
+1
+3
+x = −
+     
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+3
+x =
+    
+C. 
+1
+3
+x = −
+ và 
+3
+x =    
+ 
+ 
+ 
+ 
+D. 
+1
+3
+x = −
+ và 
+3
+x = −    
+Lời giải: Phương trình tích tương đương với hai trường hợp 
+1
+1
+0
+3
+3
+x
+x
++
+=
+
+= −
+ hoặc 
+3
+0
+3
+x
+x
+−=
+
+= .   Đáp án đúng: C.    
+Câu 9. Cho tam giác ABC vuông tại A. Hệ thức nào sau đây là đúng?   
+A. 
+tan
+AB
+AC
+B
+=
+
+     
+ 
+ 
+ 
+ 
+B. 
+cos
+AB
+AC
+B
+=
+
+    
+C. 
+cos
+AB
+AC
+C
+=
+
+     
+ 
+ 
+ 
+ 
+D. 
+tan
+AB
+AC
+C
+=
+
+    
+Lời giải: Trong tam giác vuông ABC vuông tại A, ta có tan
+AB
+C
+AC
+=
+. Suy ra 
+tan .
+AB
+AC
+C
+=
+
+Đáp án đúng: D.   
+
+
+--- TRANG 76 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 10. Một ngôi nhà có bậc thềm AH cao 50 cm . Người ta làm một chiếc cầu xe AB dài 
+1 m. Khi đó góc tạo bởi chiếc cầu xe và mặt đất bằng:    
+ 
+A. 60    
+ 
+ 
+B. 50    
+ 
+ 
+C. 30    
+ 
+ 
+D. 45    
+Lời giải: Đổi đơn vị 1 m
+100 cm
+=
+.  
+Xét tam giác AHB vuông tại H , ta có 
+50
+1
+sin
+100
+2
+AH
+B
+AB
+=
+=
+=
+.  
+Do đó số đo góc tạo bởi cầu xe và mặt đất là ˆ
+30
+B
+
+=
+.   Đáp án đúng: C. 
+Câu 11. Cho hệ phương trình 
+3
+1
+x
+y
+x
+y
++
+=
+
+−
+=
+
+. Nghiệm của hệ phương trình là: 
+A. (2;1) 
+ 
+ 
+B. (1;2) 
+ 
+ 
+C. (3;0) 
+ 
+      D. (2; 1)
+− 
+Lời giải: Cộng vế theo vế hai phương trình của hệ ta được 2
+4
+x = , suy ra 
+2
+x =
+.  
+Thay vào phương trình thứ nhất ta được 2
+3
+y
++
+= , suy ra 
+1
+y = .  
+Vậy nghiệm của hệ phương trình là (2;1) . Đáp án đúng: A. 
+Câu 12. Cho tam giác ABC vuông tại A, đường cao AH. Biết 
+4 cm
+BH =
+, 
+9 cm
+HC =
+. Độ 
+dài đường cao AH bằng: 
+A. 6 cm 
+ 
+ 
+B. 36 cm 
+ 
+ 
+C. 5 cm 
+ 
+       D. 13 cm 
+Lời giải: Ta có 
+2
+4 9
+36
+AH
+BH HC
+=
+
+= =
+. Suy ra 
+6 cm
+AH =
+. Đáp án đúng: A. 
+ 
+ 
+ 
+
+
+--- TRANG 77 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1.  Cho hệ phương trình 3
+6
+7
+3
+6
+3
+x
+y
+x
+y
+−
+=
+
+
+−
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Nếu nhân hai vế của phương trình thứ hai với 2 thì hệ phương trình thay đổi giá trị 
+nghiệm. 
+b) Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ, ta được phương 
+trình 0
+4
+x =
+. 
+c) Phương trình 0
+4
+x =
+ là phương trình vô nghiệm. 
+d) Hệ phương trình đã cho có nghiệm duy nhất. 
+Lời giải: 
+a) Đúng. Thay đổi hệ số của phương trình mà không giữ nguyên tính tương đương sẽ làm 
+thay đổi tập nghiệm của hệ. 
+b) Đúng. Lấy vế trừ vế: (3
+6 )
+(3
+6 )
+7
+3
+x
+y
+x
+y
+−
+−
+−
+=
+−, tức là 0
+4
+x =
+. 
+c) Đúng. Phương trình 0
+4
+x =
+ không có giá trị nào của x thỏa mãn nên vô nghiệm. 
+d) Sai. Hệ phương trình vô nghiệm nên không có nghiệm duy nhất. 
+Câu 2. Cho tam giác DEF vuông tại D , biết 
+6 cm
+DE =
+ và 
+8 cm
+DF =
+. Xét tính Đúng/Sai 
+của các khẳng định sau: 
+a) Độ dài cạnh huyền 
+10 cm
+EF =
+. 
+b) Tỉ số lượng giác 
+4
+tan
+3
+E =
+. 
+c) Số đo góc E xấp xỉ bằng 53. 
+d) Độ dài đường cao xuất phát từ đỉnh D bằng 4,8 cm. 
+ 
+
+
+--- TRANG 78 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải:  
+a) Đúng. Theo định lý Pythagore, 
+2
+2
+6
+8
+100
+10 cm
+EF =
++
+=
+=
+. 
+b) Đúng. Trong tam giác vuông DEF, 
+8
+4
+tan
+6
+3
+DF
+E
+DE
+=
+=
+=
+. 
+c) Đúng. Với 
+4
+tan
+3
+E =
+, số đo góc E xấp xỉ bằng 53. 
+d) Đúng. Áp dụng hệ thức lượng, đường cao ứng với cạnh huyền bằng  
+6 8
+4,8 cm
+10
+DE DF
+EF
+
+
+=
+=
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hệ phương trình 
+5
+21
+6
+3
+45
+x
+y
+x
+y
+−
+=
+
+−
++
+= −
+
+. Biết 
+0
+0
+(
+;
+)
+x y là nghiệm, tính 
+0
+0
+T
+x
+y
+=
++
+. 
+Lời giải: 
+Nhân phương trình đầu với 6: 6
+30
+126
+6
+3
+45
+x
+y
+x
+y
+−
+=
+
+−
++
+= −
+
+. 
+Cộng hai phương trình: 27
+81
+3
+y
+y
+−
+=
+
+= −. 
+Thay vào phương trình đầu: 
+5( 3)
+21
+6
+x
+x
+−
+−
+=
+
+=
+. Tổng 
+6
+( 3)
+3
+T =
++ −
+= . 
+Đáp án: 3. 
+Câu 2. Cho góc ở tâm 
+45
+AOC
+
+=
+ và 
+30
+COB
+
+=
+. Số đo cung nhỏ AB bằng bao nhiêu? 
+ 
+
+
+--- TRANG 79 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Số đo cung nhỏ AB bằng tổng số đo hai cung nhỏ AC và CB: 
+
+
+
+sd
+45
+30
+75
+AB
+AOC
+COB
+
+
+
+=
++
+=
++
+=
+ 
+Đáp án: 75. 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình sau 
+a) (
+)(
+)
+3
+7
+0
+x
+x
+−
++
+= . 
+ 
+            b) 
+(
+)(
+)
+5
+3
+3
+4
+2
+1
+2
+1
+x
+x
+x
+x
+x
++
++
+=
++
+−
++
+−
+. 
+Lời giải. 
+a) (
+3)(
+7)
+0
+x
+x
+−
++
+=
+    
+3
+0
+x
+
+−= hoặc 
+7
+0
+x +
+=    
+3
+x
+
+= hoặc 
+7
+x = −. 
+Vậy tập nghiệm của phương trình là 
+{3; 7}
+S =
+−
+.    
+b) 
+5
+3
+3
+4
+2
+1
+(
+2)(
+1)
+x
+x
+x
+x
+x
++
++
+=
++
+−
++
+−
+ (ĐKXĐ: 
+2,
+1
+x
+x
+−
+) 
+5(
+1)
+3(
+2)
+3
+4
+x
+x
+x
+
+−
++
++
+=
++ 
+5
+5 3
+6
+3
+4
+x
+x
+x
+
+−+
++
+=
++ 
+8
+1
+3
+4
+x
+x
+
++ =
++ 
+5
+3
+x
+
+= 
+3
+5
+x
+
+=
+ (thỏa mãn điều kiện) 
+Vậy 
+3
+5
+x =
+. 
+Câu 2.  Nhân dịp ngày Giỗ Tổ Hùng Vương, một siêu thị điện máy đã giảm giá nhiều mặt 
+hàng để kích cầu mua sắm. Gía niêm yết của một chiếc tủ lạnh và một chiếc máy giặt có 
+
+
+--- TRANG 80 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+tổng số tiền là 25,4 triệu đồng. Tuy nhiên, trong dịp này tủ lạnh giảm 40% giá niêm yết và 
+máy giặt giảm 25% giá niêm yết. Vì thế, cô Liên đã mua hai mặt hàng trên với tổng số tiền 
+16,77 triệu đồng. Hỏi giá niêm yết của mỗi mặt hàng trên là bao nhiêu? 
+Lời giải. Gọi giá niêm yết của tủ lạnh và máy giặt lần lượt là x và y (triệu đồng; 
+0
+,
+25,4
+x y
+
+
+).    
+Tổng giá niêm yết là 25,4 triệu đồng nên ta có phương trình: 
+25,4
+x
+y
++
+=
+.    
+Giá của tủ lạnh sau khi giảm 40% là 0,6x và của máy giặt sau khi giảm 25% là 0,75y.    
+Tổng số tiền mua là 16,77 triệu đồng nên ta có phương trình: 0,6
+0,75
+16,77
+x
+y
++
+=
+.    
+Ta có hệ phương trình: 
+25,4
+0,6
+0,75
+16,77
+x
+y
+x
+y
++
+=
+
+
++
+=
+
+    
+Giải hệ phương trình trên, ta được nghiệm: 
+15,2
+x =
+ và 
+10,2
+y =
+ (thỏa mãn điều kiện).    
+Vậy giá niêm yết của tủ lạnh là 15,2 triệu đồng và máy giặt là 10,2 triệu đồng. 
+Câu 3.  
+Một người đứng cách chân tháp 13,65 m nhìn lên đỉnh tháp với phương nhìn hợp với 
+phương nằm ngang một góc bằng 58
+. Biết mắt của người đó cách chân của mình một 
+khoảng 1,55 m, hỏi tháp cao bao nhiêu mét (làm tròn đến chữ số thập phân thứ hai)? 
+ 
+13,65 m
+58°
+1,55 m
+
+
+--- TRANG 81 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải. Chiều cao phần tháp tính từ tầm mắt trở lên là: 
+13,65 tan58
+21,844 m
+h
+
+=
+
+
+.    
+Tổng chiều cao của tháp (cộng thêm khoảng cách từ mắt đến mặt đất 1,55 m) là: 
+21,844 1,55
+23,394 m
+h =
++
+=
+.    
+Làm tròn đến chữ số thập phân thứ hai, chiều cao của tháp là 23,39 m. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

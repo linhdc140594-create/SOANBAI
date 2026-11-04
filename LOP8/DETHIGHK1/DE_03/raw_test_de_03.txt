@@ -1,0 +1,535 @@
+--- TRANG 10 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Biểu thức nào sau đây là đơn thức? 
+A. 
+3
+(1
+)
+x x
++
+  
+ 
+B. 
+2
+5
+3xy z 
+ 
+ 
+C. (
+)
+xy
+z t
++
+  
+      D. 
+2
+x
+y
++
+ 
+Câu 2. Cặp đơn thức nào sau đây là đồng dạng với nhau? 
+A. 
+2
+1
+2 x y và 
+2
+2xy 
+ 
+ 
+ 
+ 
+ 
+B. 3xy và 5x
+−
+ 
+ 
+ 
+C. 
+2
+4
+x y và 
+2
+4
+2x y 
+ 
+ 
+ 
+ 
+ 
+D. 3xy
+−
+ và 
+2
+3xy
+−
+ 
+Câu 3. Thực hiện phép chia đơn thức 
+2
+2
+5x y z cho 5xyz ta được kết quả là: 
+A. 5xy  
+ 
+ 
+B. xy   
+ 
+ 
+C. yz   
+ 
+   D. 
+3
+3
+2
+25x y z 
+Câu 4. Hằng đẳng thức 
+2
+2
+(
+)(
+)
+A
+B
+A
+B A
+B
+−
+=
+−
++
+ có tên là: 
+A. Bình phương của một tổng 
+ 
+ 
+ 
+B. Bình phương của một hiệu 
+C. Tổng hai bình phương  
+ 
+ 
+ 
+D. Hiệu hai bình phương 
+Câu 5. Tứ giác nào dưới đây là hình thoi? 
+A. Tứ giác có 4 cạnh bằng nhau 
+ 
+ 
+ 
+ 
+B. Tứ giác có hai đường chéo vuông góc 
+C. Hình bình hành có hai đường chéo bằng nhau 
+D. Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường 
+ 
+ 
+
+
+--- TRANG 11 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 6. Hai đường chéo của hình chữ nhật có tính chất nào sau đây? 
+A. Chúng vuông góc với nhau 
+ 
+ 
+ 
+ 
+B. Chúng bằng nhau 
+C. Chúng cắt nhau tại trung điểm của mỗi đường 
+D. Chúng bằng nhau và cắt nhau tại trung điểm của mỗi đường 
+Câu 7. Hình bình hành ABCD có ˆ
+65
+A
+
+=
+. Số đo ˆC là: 
+A. 125 
+ 
+ 
+B. 95  
+ 
+ 
+C. 115 
+ 
+ 
+D. 65 
+Câu 8. Cho ABC
+
+ vuông tại A có M là trung điểm của BC , biết 
+10 cm
+BC =
+. Khi đó 
+AM bằng: 
+A. 5 cm 
+ 
+ 
+B. 10 cm 
+ 
+ 
+C. 10 cm  
+      D. 20 cm 
+Câu 9. Cho các tam giác có độ dài ba cạnh như sau. Hỏi tam giác nào là tam giác vuông? 
+A. 15 cm;8 cm;10 cm 
+ 
+ 
+ 
+ 
+B. 6 dm;8 dm;9 dm 
+C. 5 cm;4 cm;3 cm  
+ 
+ 
+ 
+ 
+D. 2 cm;3 cm;4 cm 
+Câu 10. Cho hình chữ nhật ABCD. Đoạn thẳng AC bằng đoạn thẳng nào sau đây? 
+A. AB  
+ 
+ 
+B. BC  
+ 
+ 
+C. AD  
+ 
+ 
+D. BD 
+Câu 11. Cho tứ giác ABCD, trong đó ˆ
+ˆ
+140
+A
+B
+
++
+=
+. Tổng ˆ
+ˆ
+C
+D
++
+ bằng: 
+A. 220 
+ 
+ 
+B. 200 
+ 
+ 
+C. 160 
+ 
+      D. 130 
+Câu 12. Thể tích của một hình chóp tam giác đều có diện tích đáy bằng 
+2
+15 cm và chiều 
+cao bằng 6 cm là: 
+A. 
+3
+90 cm 
+ 
+ 
+B. 
+3
+30 cm 
+ 
+ 
+C. 
+3
+45 cm 
+ 
+     D. 
+3
+15 cm 
+ 
+ 
+
+
+--- TRANG 12 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai biểu thức 
+(2
+1)(
+3)
+2 (
+2)
+A
+x
+x
+x x
+=
+−
++
+−
++
+ và 
+3
+2
+2
+3
+2
+(6
+9
+):3
+B
+x y
+x y
+x y
+=
+−
+. Xét tính 
+đúng sai của các mệnh đề sau: 
+a) Khai triển tích (2
+1)(
+3)
+x
+x
+−
++
+ ta được 
+2
+2
+5
+3
+x
+x
++
+−. 
+b) Kết quả rút gọn của biểu thức A là 
+3
+x −. 
+c) Kết quả của phép chia biểu thức B là 
+2
+2
+3
+xy
+y
+−
+. 
+d) Tại 
+2
+x =
+ và 
+1
+y = , giá trị của biểu thức A gấp 2 lần giá trị của biểu thức B . 
+Câu 2. Cho hai đa thức 
+2
+2
+6
+9
+P
+x
+x
+y
+=
+−
++
+−
+ và 
+3
+8
+27
+Q
+x
+=
+−
+. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Biến đổi 
+2
+6
+9
+x
+x
+−
++ thành bình phương của một hiệu ta được 
+2
+(
+3)
+x −
+. 
+b) Phân tích đa thức P thành nhân tử ta được (
+3)(
+3)
+x
+y
+x
+y
+−
+−
++
+−
+. 
+c) Phân tích đa thức Q thành nhân tử theo hằng đẳng thức hiệu hai lập phương ta được 
+2
+(2
+3)(4
+6
+9)
+x
+x
+x
+−
++
++
+. 
+d) Tại 
+5
+x = và 
+2
+y = , giá trị của đa thức P bằng 8 . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Rút gọn biểu thức: 
+(2
+1)(
+3)
+2 (
+2)
+A
+x
+x
+x x
+=
+−
++
+−
++
+. 
+Câu 2. Phân tích đa thức sau thành nhân tử: 
+2
+2
+4
+2
+1
+x
+y
+x
+−
++
++ . 
+ 
+ 
+ 
+
+
+--- TRANG 13 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần IV. Tự luận 
+Câu 1. a) Thu gọn và tính giá trị biểu thức: 
+2
+2
+5
+2
+3
+A
+x y
+xy
+x y
+xy
+=
+−
++
+−
+ tại 
+1,
+2
+x
+y
+= −
+=
+.  
+b) Thực hiện phép nhân: 
+2
+2
+3
+(2
+5 )
+B
+xy
+x
+y
+=
+−
+  
+c) Thực hiện phép chia: 
+3
+2
+2
+3
+2
+2
+(6
+9
+) :3
+C
+x y
+x y
+x y
+=
+−
+ 
+Câu 2. Cho hai đa thức sau: 
+2
+3
+2
+3
+2
+2
+2
+5
+2
+6
+P
+x y
+x
+xy
+Q
+x
+xy
+x y
+=
++
+−
++
+=
++
+−
+−
+ 
+a) Tính tổng của đa thức P và Q. 
+b) Tìm đa thức N sao cho Q = P + N. 
+Câu 3. Khu vườn của nhà bác Hoa có dạng hình vuông. Bác Hoa muốn dành một mảnh 
+đất có dạng hình chữ nhật ở góc khu vườn làm nhà để dụng cụ làm vườn (hình vẽ). 
+a) Viết đa thức biểu thị chu vi của mảnh đất làm nhà. 
+b) Biết chu vi của mảnh đất dành để làm nhà bằng 40 m . Tính diện tích của khu vườn 
+hình vuông ban đầu. 
+ 
+Câu 4. Cho 
+1
+x
+y
++
+= . Tìm GTNN của biểu thức 
+3
+3
+.
+A
+x
+y
+xy
+=
++
++
+ 
+ 
+ 
+ 
+ 
+ 
+ 

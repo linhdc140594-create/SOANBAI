@@ -1,0 +1,304 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[top=1.0cm, bottom=1.0cm, left=1.2cm, right=1.2cm]{geometry}
+\usepackage[dethi]{ex_test}
+\SAOPTN{widthSA=3.2,heightSA=0.62}
+
+\setlength{\headheight}{15pt}
+\setlength{\parskip}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 8 -- Đề số 08}}
+\lhead{\textit{Bộ đề ôn tập Giữa học kì I}}
+\cfoot{\thepage}
+
+\begin{document}
+
+% --- KHUNG TIÊU ĐỀ ĐỀ THI ---
+\noindent
+\begin{tabularx}{\linewidth}{X r}
+\textbf{TRƯỜNG THCS: \dotfill} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I} \\
+\textbf{Họ và tên: \dotfill} & \textbf{NĂM HỌC 2026 -- 2027} \\
+\textbf{Lớp: \dotfill \quad SBD: \dotfill} & \textbf{Môn: TOÁN 8} \\
+\hline
+\end{tabularx}
+\vspace{2mm}
+
+\begin{center}
+  \textbf{\large ĐỀ ÔN TẬP GIỮA HỌC KỲ I -- ĐỀ SỐ 08}\\
+  \textit{Thời gian làm bài: 90 phút (Không kể thời gian phát đề)}
+\end{center}
+\vspace{1mm}
+
+% --- PHẦN I ---
+\noindent\textbf{\large PHẦN I. CÂU TRẮC NGHIỆM NHIỀU PHƯƠNG ÁN LỰA CHỌN (3,0 điểm)}
+
+\textit{Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án duy nhất.}
+
+\vspace{1mm}
+\begin{ex}
+Giá trị của biểu thức $A = x^2 + 2y - 1$ tại $x = 1$ và $y = -1$ là:
+\choice
+{$-1$}
+{\True $-2$}
+{$1$}
+{$2$}
+\end{ex}
+
+\begin{ex}
+Trong các đơn thức sau, đơn thức nào đồng dạng với đơn thức $5x^2y$?
+\choice
+{$5xy$}
+{$4xy^2$}
+{$7a^2b$}
+{\True $-3x^2y$}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép nhân $(a + 2)(a - 2)$ bằng:
+\choice
+{$a^2 + 4$}
+{\True $a^2 - 4$}
+{$a^2 - 2$}
+{$a^2 - 1$}
+\end{ex}
+
+\begin{ex}
+Giá trị của đa thức $-x^3y^2 + 2x$ tại $x = -1; y = 0$ là:
+\choice
+{$2$}
+{\True $-2$}
+{$-1$}
+{$1$}
+\end{ex}
+
+\begin{ex}
+Biểu thức $(2x - y)^2$ có biểu thức khai triển là:
+\choice
+{$x^2 + 2xy + 2y^2$}
+{$x^2 - 2xy + 2y^2$}
+{$x^2 + 4xy + 4y^2$}
+{\True $4x^2 - 4xy + y^2$}
+\end{ex}
+
+\begin{ex}
+Đơn thức nào sau đây đồng dạng với đơn thức $-3x^2y$?
+\choice
+{$\dfrac{1}{2}xy$}
+{$3x^2yz$}
+{\True $-2x^2y$}
+{$-3x^2z$}
+\end{ex}
+
+\begin{ex}
+Tích $(2x - 3)(2x + 3)$ có kết quả bằng:
+\choice
+{$4x^2 + 12x + 9$}
+{\True $4x^2 - 9$}
+{$2x - 3$}
+{$4x - 9$}
+\end{ex}
+
+\begin{ex}
+Các góc của một tứ giác có thể là:
+\choice
+{Bốn góc nhọn}
+{Bốn góc tù}
+{\True Bốn góc vuông}
+{Một góc vuông, ba góc nhọn}
+\end{ex}
+
+\begin{ex}
+Hình chữ nhật có hai đường chéo như thế nào?
+\choice
+{\True Bằng nhau và cắt nhau tại trung điểm mỗi đường}
+{Bằng nhau}
+{Cắt nhau tại trung điểm mỗi đường}
+{Vuông góc với nhau}
+\end{ex}
+
+\begin{ex}
+Cho tam giác $ABC$ vuông tại $A$ như hình vẽ bên. Tính $x$:
+\begin{center}
+\begin{tikzpicture}[scale=0.18, >=stealth]
+  \coordinate (A) at (0,0);
+  \coordinate (C) at (24,0);
+  \coordinate (B) at (0,10);
+  \draw[thick] (A)--(C)--(B)--cycle;
+  \draw (1.5,0) |- (0,1.5);
+  \fill (A) circle (1.5pt) node[below left] {$A$};
+  \fill (B) circle (1.5pt) node[above left] {$B$};
+  \fill (C) circle (1.5pt) node[below right] {$C$};
+  \node[left] at ($(A)!0.5!(B)$) {$x$};
+  \node[below] at ($(A)!0.5!(C)$) {$24\text{ cm}$};
+  \node[above right] at ($(B)!0.5!(C)$) {$26\text{ cm}$};
+\end{tikzpicture}
+\end{center}
+\choice
+{$x = 13\text{ cm}$}
+{\True $x = 10\text{ cm}$}
+{$x = 20\text{ cm}$}
+{$x = 2\text{ cm}$}
+\end{ex}
+
+\begin{ex}
+Tam giác nào là tam giác vuông trong các tam giác có độ dài ba cạnh sau?
+\choice
+{$10\text{ m}; 13\text{ m}; 15\text{ m}$}
+{$7\text{ mm}; 8\text{ mm}; 10\text{ mm}$}
+{$6\text{ dm}; 7\text{ dm}; 9\text{ dm}$}
+{\True $9\text{ cm}; 12\text{ cm}; 15\text{ cm}$}
+\end{ex}
+
+\begin{ex}
+Cho hình chóp tứ giác đều có cạnh đáy bằng $10\text{ cm}$, chiều cao bằng $9\text{ cm}$. Thể tích của hình chóp tứ giác đều là:
+\choice
+{$30\text{ cm}^3$}
+{$45\text{ cm}^3$}
+{\True $300\text{ cm}^3$}
+{$450\text{ cm}^3$}
+\end{ex}
+
+
+\vspace{1mm}
+\noindent\textbf{BẢNG TRẢ LỜI TRẮC NGHIỆM PHẦN I:}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Chọn} & \rule{0pt}{0.65cm} & & & & & & & & & & & \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{2mm}
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN II. CÂU TRẮC NGHIỆM ĐÚNG SAI (2,0 điểm)}
+
+\textit{Thí sinh trả lời câu 1 và câu 2. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\vspace{1mm}
+\begin{ex}
+Cho hai biểu thức $A = (x - 2)^2 - (x - 1)(x + 3)$ và $B = x^3 - 6x^2y + 12xy^2 - 8y^3$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True Khai triển hằng đẳng thức $(x - 2)^2$ ta được $x^2 - 4x + 4$}
+{\True Kết quả rút gọn của biểu thức $A$ là $-6x + 7$}
+{\True Viết đa thức $B$ dưới dạng lập phương của một hiệu ta được $(x - 2y)^3$}
+{Tại $x = 1$, giá trị của biểu thức $A$ bằng $-1$}
+\end{ex}
+
+\begin{ex}
+Cho hình chữ nhật $ABCD$ có $AB = 2AD$. Gọi $M$ là trung điểm của cạnh $AB$. Xét tính đúng sai của các mệnh đề sau:
+\choiceTF
+{\True Hai đường chéo $AC$ và $BD$ có độ dài bằng nhau}
+{\True Tam giác $ADM$ là tam giác vuông cân tại $A$}
+{Số đo góc $\widehat{AMD}$ bằng $60^\circ$}
+{\True Hai đường thẳng $DM$ và $MC$ vuông góc với nhau}
+\end{ex}
+
+
+\noindent\textbf{BẢNG TRẢ LỜI PHẦN II:}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c||c|c|c|c|c|}
+\hline
+\textbf{Câu 1} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} & \textbf{Câu 2} & \textbf{a)} & \textbf{b)} & \textbf{c)} & \textbf{d)} \\
+\hline
+\textbf{Đ/S} & \rule{0pt}{0.6cm} & & & & \textbf{Đ/S} & & & & \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{2mm}
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN III. CÂU HỎI TRẢ LỜI NGẮN (2,0 điểm)}
+
+\textit{Thí sinh trả lời câu 1 và câu 2. Điền kết quả vào ô trống tương ứng.}
+
+\vspace{1mm}
+\begin{ex}
+Tìm $x$, biết: $x^2 - 16 - 2(x + 4) = 0$. \shortans{$x = -4$ hoặc $x = 6$}
+\end{ex}
+
+\begin{ex}
+Cho hình thoi $ABCD$ có $\widehat{A} = 60^\circ$ và độ dài cạnh $AB = 5\text{ cm}$. Tính độ dài đường chéo $BD$. \shortans{$5\text{ cm}$}
+\end{ex}
+
+
+\setcounter{ex}{0}
+\noindent\textbf{\large PHẦN IV. TỰ LUẬN (3,0 điểm)}
+
+\textit{Thí sinh trình bày chi tiết lời giải vào giấy làm bài.}
+
+\vspace{1mm}
+\begin{ex} (1,0 điểm)
+Rút gọn các biểu thức sau:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,5 điểm) $2x(x^2 + y) - x(2y + 1) - x(2x^2 - 21y)$
+\item (0,5 điểm) $5x(6y - x^2) + 3y(y - 10x) - 3y(y - 1) + 15x^3$
+\end{enumerate}
+\end{ex}
+\vspace{0.5mm}
+
+\begin{ex} (0,75 điểm)
+Tìm $x$, biết:
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,35 điểm) $x(x - 2) - x^2 + 6 = 0$
+\item (0,4 điểm) $(x + 3)^2 - (x - 1)(x + 1) = 16$
+\end{enumerate}
+\end{ex}
+\vspace{0.5mm}
+
+\begin{ex} (0,75 điểm)
+Cho tam giác $ABC$, trung tuyến $AM$. Qua $M$ kẻ đường thẳng song song với $AC$ cắt $AB$ ở $E$, qua $M$ kẻ đường thẳng song song với $AB$ cắt $AC$ ở $F$.
+\begin{center}
+\begin{tikzpicture}[scale=0.9, >=stealth]
+  \coordinate (A) at (1.5,3);
+  \coordinate (B) at (0,0);
+  \coordinate (C) at (5,0);
+  \coordinate (M) at ($(B)!0.5!(C)$);
+  \coordinate (E) at ($(A)!0.5!(B)$);
+  \coordinate (F) at ($(A)!0.5!(C)$);
+  \draw[thick] (A)--(B)--(C)--cycle;
+  \draw[thick] (A)--(M);
+  \draw[thick, blue] (M)--(E);
+  \draw[thick, blue] (M)--(F);
+  \fill (A) circle (1.5pt) node[above] {$A$};
+  \fill (B) circle (1.5pt) node[left] {$B$};
+  \fill (C) circle (1.5pt) node[right] {$C$};
+  \fill (M) circle (1.5pt) node[below] {$M$};
+  \fill (E) circle (1.5pt) node[above left] {$E$};
+  \fill (F) circle (1.5pt) node[above right] {$F$};
+\end{tikzpicture}
+\end{center}
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,4 điểm) Chứng minh tứ giác $AEMF$ là hình bình hành.
+\item (0,35 điểm) Nếu $\widehat{BAC} = 90^\circ$, chứng minh tứ giác $AEMF$ là hình chữ nhật. Từ đó suy ra $EF = \dfrac{1}{2}BC$.
+\end{enumerate}
+\end{ex}
+\vspace{0.5mm}
+
+\begin{ex} (0,5 điểm)
+Chứng minh rằng giá trị biểu thức sau không phụ thuộc vào giá trị của biến $x$:
+$$A = (x + 2)^3 - (x - 2)^3 - 12(x + 1)(x - 1)$$
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=2pt]
+\item (0,5 điểm) Chứng minh giá trị của $A$ không phụ thuộc vào $x$.
+\end{enumerate}
+\end{ex}
+\vspace{0.5mm}
+
+
+\begin{center}
+\rule{4cm}{0.4pt}\\
+\textit{--- HẾT ---}
+\end{center}
+\end{document}

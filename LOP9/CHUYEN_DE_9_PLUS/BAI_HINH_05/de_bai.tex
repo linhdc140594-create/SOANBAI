@@ -1,0 +1,105 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_05 (TRÍCH ĐỀ 5)
+\begin{ex}
+Cho đường tròn $(O)$ và dây cung $AB$ không đi qua tâm. Gọi $H$ là trung điểm của $AB$, đường thẳng $HO$ cắt đường tròn $(O)$ tại hai điểm $C$ và $D$ ($C$ thuộc cung nhỏ $AB$). Lấy điểm $M$ thuộc đoạn $AH$ ($M$ khác $A$ và $H$), tia $CM$ cắt đường tròn $(O)$ tại điểm thứ hai là $N$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh bốn điểm $D, N, M, H$ cùng thuộc một đường tròn.
+    \item Gọi $I$ là giao điểm của hai đường thẳng $DN$ và $AB$, $K$ là giao điểm của hai đường thẳng $CI$ và $DM$. Chứng minh $CM \cdot CN = CK \cdot CI$.
+    \item \textbf{(Phân hóa 9+):} Chứng minh điểm $M$ là tâm của đường tròn nội tiếp tam giác trực tâm $HKN$.
+\end{enumerate}
+\loigiai{
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.15]
+    % Định nghĩa tọa độ chuẩn xác tuyệt đối
+    \coordinate (O) at (0, 0);
+    \coordinate (D) at (0, 2.6);
+    \coordinate (C) at (0, -2.6);
+    \coordinate (H) at (0, -1.5);
+    \coordinate (A) at (-2.124, -1.5);
+    \coordinate (B) at (2.124, -1.5);
+    \coordinate (M) at (-1.1, -1.5);
+    \coordinate (N) at (-2.6, 0.0);
+    \coordinate (I) at (-4.1, -1.5);
+    \coordinate (K) at (-1.301, -2.251);
+    
+    % Vẽ đường tròn (O)
+    \draw[thick, teal] (O) circle (2.6);
+    
+    % Vẽ tam giác CDI và các cạnh
+    \draw[thick] (C) -- (D);
+    \draw[thick] (I) -- (B);
+    \draw[thick, blue!80!black] (D) -- (I);
+    \draw[thick, blue!80!black] (C) -- (I);
+    \draw[thick, blue!80!black] (C) -- (N);
+    \draw[thick, blue!80!black] (D) -- (K);
+    
+    % Vẽ tam giác trực tâm HKN (nổi bật màu đỏ cam)
+    \draw[thick, red!85!black] (H) -- (K) -- (N) -- cycle;
+    \draw[dashed, purple] (K) -- (M);
+    \draw[dashed, purple] (N) -- (M);
+    
+    % Ký hiệu góc vuông tại 3 chân đường cao H, N, K
+    \pic[draw, angle radius=2.5mm]{right angle = D--H--A};
+    \pic[draw, angle radius=2.5mm]{right angle = D--N--C};
+    \pic[draw, angle radius=2.5mm]{right angle = D--K--I};
+    
+    % Đánh dấu các điểm
+    \fill (O) circle (1.5pt) node[right=2pt] {$O$};
+    \fill (D) circle (1.5pt) node[above] {$D$};
+    \fill (C) circle (1.5pt) node[below] {$C$};
+    \fill (H) circle (1.5pt) node[below right=1pt] {$H$};
+    \fill (A) circle (1.5pt) node[above left] {$A$};
+    \fill (B) circle (1.5pt) node[above right] {$B$};
+    \fill[blue!90!black] (M) circle (1.6pt) node[above=2pt] {$M$};
+    \fill[red] (N) circle (1.5pt) node[above left] {$N$};
+    \fill (I) circle (1.5pt) node[left] {$I$};
+    \fill[red] (K) circle (1.5pt) node[right] {$K$};
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item \textbf{Chứng minh bốn điểm $D, N, M, H$ cùng thuộc một đường tròn:}
+    \begin{itemize}
+        \item Vì $CD$ đi qua tâm $O$ nên $CD$ là đường kính của đường tròn $(O)$.
+        \item Điểm $N$ thuộc đường tròn $(O)$ đường kính $CD$ nên $\widehat{CND} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn), suy ra $\widehat{DNM} = 90^\circ$.
+        \item Vì $H$ là trung điểm của dây cung $AB$ không qua tâm nên đường kính $CD \perp AB$ tại $H$, suy ra $\widehat{DHM} = 90^\circ$.
+        \item Xét tứ giác $DNMH$ có $\widehat{DNM} + \widehat{DHM} = 90^\circ + 90^\circ = 180^\circ$.
+        \item Do đó tứ giác $DNMH$ nội tiếp đường tròn đường kính $DM$. Bốn điểm $D, N, M, H$ cùng nằm trên đường tròn này.
+    \end{itemize}
+
+    \item \textbf{Chứng minh $CM \cdot CN = CK \cdot CI$:}
+    \begin{itemize}
+        \item Xét tam giác $CDI$ có:
+        \begin{itemize}
+            \item $IH \perp CD$ tại $H$ (do $CD \perp AB$ tại $H$), nên $IH$ là đường cao thứ nhất hạ từ đỉnh $I$.
+            \item $DN \perp CN$ tại $N$ (do $\widehat{CND} = 90^\circ$), nên $CN \perp DI$ tại $N$. Suy ra $CN$ là đường cao thứ hai hạ từ đỉnh $C$.
+            \item Hai đường cao $IH$ (chính là đường thẳng $AB$) và $CN$ cắt nhau tại điểm $M$.
+        \end{itemize}
+        \item Do đó, điểm $M$ chính là \textbf{trực tâm của tam giác $CDI$}.
+        \item Suy ra đường thẳng đi qua đỉnh thứ ba $D$ và trực tâm $M$ là đường cao thứ ba: $DM \perp CI$ tại điểm $K = DM \cap CI \implies \widehat{CKM} = 90^\circ$.
+        \item Xét hai tam giác vuông $\triangle CMK$ và $\triangle CIN$ có:
+        \[
+        \widehat{CKM} = \widehat{CNI} = 90^\circ \quad \text{và} \quad \widehat{ICN} \text{ là góc chung.}
+        \]
+        Suy ra $\triangle CMK \backsim \triangle CIN$ (g-g).
+        \item Do đó ta có tỉ số đồng dạng: $\dfrac{CM}{CI} = \dfrac{CK}{CN} \implies CM \cdot CN = CK \cdot CI$ (đpcm).
+    \end{itemize}
+
+    \item \textbf{Chứng minh điểm $M$ là tâm đường tròn nội tiếp tam giác trực tâm $HKN$:}
+    \begin{itemize}
+        \item Trong tam giác $CDI$, ba đường cao $IH, CN, DK$ cắt nhau tại trực tâm $M$. Ba chân đường cao lần lượt là $H, N, K$.
+        \item Tam giác $HKN$ chính là \textbf{tam giác trực tâm (Orthic Triangle)} của tam giác $CDI$.
+        \item Theo bổ đề tam giác trực tâm: \textit{Ba đường cao của tam giác ban đầu đồng thời là ba đường phân giác trong của tam giác trực tâm tạo bởi ba chân đường cao.}
+        \item Cụ thể, xét tại đỉnh $K$:
+        Tứ giác $HKMI$ nội tiếp (đường kính $MI$) và tứ giác $DKNC$ nội tiếp (đường kính $CD$).\\
+        Kết hợp với các góc phụ nhau của đường cao $DK \perp CI$, ta có:
+        \[
+        \widehat{MKH} = \widehat{MKN} \implies KM \text{ là tia phân giác trong của góc } \widehat{HKN}.
+        \]
+        \item Chứng minh tương tự tại đỉnh $N$, ta có $NM$ là tia phân giác trong của góc $\widehat{HNK}$.
+        \item Chứng minh tương tự tại đỉnh $H$, ta có $HM$ là tia phân giác trong của góc $\widehat{KHN}$.
+        \item Ba đường phân giác trong $KM, NM, HM$ của $\triangle HKN$ cùng đồng quy tại điểm $M$.
+        \item Vậy điểm $M$ chính là tâm của đường tròn nội tiếp tam giác trực tâm $HKN$ (đpcm).
+    \end{itemize}
+\end{enumerate}
+}
+\end{ex}

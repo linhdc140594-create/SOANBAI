@@ -1,0 +1,114 @@
+{
+  "bai_toan": {
+    "ma_bai": "BAI_HINH_04",
+    "nguon": "Đề 04 - Tuyển tập 55 Đề Thi Vào Lớp 10",
+    "mo_hinh": "Tam giác trực tâm IKL (Orthic Triangle) & Trực tâm H là tâm đường tròn nội tiếp",
+    "de_bai": "Cho tam giác ABC có ba góc nhọn (AB < AC). Ba đường cao AI, BK, CL cắt nhau tại trực tâm H. a) Chứng minh các tứ giác BIHL và CIHK nội tiếp đường tròn. b) Chứng minh góc AKL = góc IKC và suy ra KB là tia phân giác của góc LKI. c) Chứng minh trực tâm H là tâm của đường tròn nội tiếp tam giác trực tâm IKL."
+  },
+  "mo_hinh_cot_loi": {
+    "bo_de_1": "Hệ thống ba tứ giác nội tiếp đường kính các đoạn nối đỉnh với trực tâm: AKHL (đường kính AH), BIHL (đường kính BH), CIHK (đường kính CH). Các tứ giác này liên kết góc tại đỉnh của tam giác trực tâm với góc tại trực tâm H.",
+    "bo_de_2": "Sự chuyển hóa vai trò: Ba đường cao AI, BK, CL của tam giác ABC trở thành ba đường phân giác trong của tam giác trực tâm IKL. Giao điểm của ba đường cao (trực tâm H) trở thành tâm đường tròn nội tiếp của tam giác trực tâm IKL.",
+    "diem_nghen": "Học sinh thường lúng túng khi chứng minh một điểm là tâm nội tiếp vì nghĩ phải kẻ bán kính hoặc hạ đường vuông góc, thay vì chứng minh giao điểm của hai đường phân giác trong nhờ tính chất hai góc phụ nhau với 90 độ."
+  },
+  "so_do_tu_duy_nguoc": [
+    {
+      "tang": 1,
+      "tieu_de": "TẦNG 1: XÁC ĐỊNH ĐÍCH ĐẾN",
+      "muc_tieu": "Chứng minh H là tâm đường tròn nội tiếp tam giác trực tâm IKL",
+      "cong_thuc": "H = KH \\cap IH \\cap LH \\quad (KH, IH, LH \\text{ là các phân giác trong của } \\triangle IKL)",
+      "cau_hoi_truy_van": "Để chứng minh một điểm là tâm đường tròn nội tiếp của một tam giác, ta cần chứng minh điểm đó thỏa mãn tính chất gì?",
+      "phan_tich_logic": "Tâm đường tròn nội tiếp của một tam giác là giao điểm của ba đường phân giác trong của tam giác đó. Do đó, ta chỉ cần chứng minh hai trong ba đoạn thẳng KH, IH, LH là các tia phân giác trong của các góc tương ứng của tam giác IKL.",
+      "huong_suy_luan_nguoc": "Làm thế nào để chứng minh tia KH là tia phân giác trong của góc LKI?"
+    },
+    {
+      "tang": 2,
+      "tieu_de": "TẦNG 2: MỤC TIÊU PHÂN GIÁC TRONG ĐỈNH K",
+      "muc_tieu": "Chứng minh góc LKB = góc IKB",
+      "cong_thuc": "\\widehat{LKB} = \\widehat{IKB} \\iff KB \\ (KH) \\text{ là tia phân giác trong của } \\widehat{LKI}",
+      "cau_hoi_truy_van": "Tia KB (cũng là tia KH) nằm giữa hai tia KL và KI. Cần chứng minh hai góc con nào bằng nhau?",
+      "phan_tich_logic": "Đoạn thẳng BK là đường cao của tam giác ABC nên BK vuông góc với AC. Để chứng minh góc LKB = góc IKB, ta sử dụng tính chất hai góc phụ nhau với góc 90 độ.",
+      "huong_suy_luan_nguoc": "Hai góc LKB và IKB phụ với những góc nào tại đỉnh K?"
+    },
+    {
+      "tang": 3,
+      "tieu_de": "TẦNG 3: QUY VỀ GÓC PHỤ NHAU VỚI 90 ĐỘ",
+      "muc_tieu": "Chứng minh góc AKL = góc IKC",
+      "cong_thuc": "\\begin{cases} \\widehat{LKB} = 90^\\circ - \\widehat{AKL} \\\\ \\widehat{IKB} = 90^\\circ - \\widehat{IKC} \\end{cases} \\implies \\widehat{LKB} = \\widehat{IKB} \\iff \\widehat{AKL} = \\widehat{IKC}",
+      "cau_hoi_truy_van": "Vì sao hai góc LKB và IKB lại phụ nhau với góc AKL và IKC?",
+      "phan_tich_logic": "Vì BK vuông góc với AC tại K nên góc AKB = 90 độ và góc BKC = 90 độ. Do đó góc LKB = 90 độ - góc AKL và góc IKB = 90 độ - góc IKC. Để chứng minh hai góc bằng nhau, ta quy về chứng minh góc AKL = góc IKC.",
+      "huong_suy_luan_nguoc": "Làm sao kết nối hai góc nằm tách biệt AKL và IKC qua trung gian?"
+    },
+    {
+      "tang": 4,
+      "tieu_de": "TẦNG 4: CHUYỂN GÓC QUA HAI TỨ GIÁC NỘI TIẾP CHỨA TRỰC TÂM H",
+      "muc_tieu": "Chuyển góc AKL và IKC về góc tại đỉnh H",
+      "cong_thuc": "\\begin{cases} \\text{Tứ giác } AKHL \\text{ nội tiếp (đường kính } AH) \\implies \\widehat{AKL} = \\widehat{AHL} \\\\ \\text{Tứ giác } CIHK \\text{ nội tiếp (đường kính } CH) \\implies \\widehat{IKC} = \\widehat{IHC} \\end{cases}",
+      "cau_hoi_truy_van": "Điểm K nằm trên những đường tròn nội tiếp tứ giác nào chứa đỉnh H?",
+      "phan_tich_logic": "Tứ giác AKHL có góc AKH = ALH = 90 độ nên nội tiếp đường tròn đường kính AH => góc AKL = góc AHL (cùng chắn cung AL). Tứ giác CIHK có góc HIC = HKC = 90 độ nên nội tiếp đường tròn đường kính CH => góc IKC = góc IHC (cùng chắn cung IC). Do đó ta quy về so sánh góc AHL và IHC.",
+      "huong_suy_luan_nguoc": "Hai góc AHL và IHC có quan hệ hình học gì với nhau?"
+    },
+    {
+      "tang": 5,
+      "tieu_de": "TẦNG 5: ĐIỀU KIỆN KHỞI PHÁT - HAI GÓC ĐỐI ĐỈNH",
+      "muc_tieu": "Xác lập góc AHL = góc IHC từ tính chất trực tâm H",
+      "cong_thuc": "A, H, I \\text{ thẳng hàng và } C, H, L \\text{ thẳng hàng} \\implies \\widehat{AHL} = \\widehat{IHC} \\quad (\\text{hai góc đối đỉnh})",
+      "cau_hoi_truy_van": "Tại sao góc AHL bằng góc IHC?",
+      "phan_tich_logic": "Theo định nghĩa trực tâm, H là giao điểm của hai đường cao AI và CL. Do đó ba điểm A, H, I thẳng hàng và ba điểm C, H, L thẳng hàng. Suy ra góc AHL và góc IHC là hai góc đối đỉnh, hiển nhiên bằng nhau!",
+      "huong_suy_luan_nguoc": "Chuỗi lập luận đã truy ngược hoàn toàn về giả thiết gốc ban đầu!"
+    }
+  ],
+  "cay_thong_cong_thuc": {
+    "dinh_ngon": "\\boxed{\\mathbf{H \\text{ LÀ TÂM ĐƯỜNG TRÒN NỘI TIẾP } \\triangle IKL}}",
+    "than_cay": [
+      "\\Updownarrow",
+      "KH, IH, LH \\text{ là các đường phân giác trong của tam giác trực tâm } IKL",
+      "\\Uparrow",
+      "\\widehat{LKB} = \\widehat{IKB} \\iff 90^\\circ - \\widehat{AKL} = 90^\\circ - \\widehat{IKC} \\quad (BK \\perp AC)",
+      "\\Uparrow",
+      "\\widehat{AKL} = \\widehat{IKC} \\iff \\widehat{AHL} = \\widehat{IHC}",
+      "\\Uparrow",
+      "\\widehat{AHL} = \\widehat{IHC} \\quad (\\text{Hai góc đối đỉnh tại trực tâm } H)"
+    ],
+    "hai_nhanh": {
+      "nhanh_trai": "\\text{Tứ giác } AKHL \\text{ nội tiếp (đường kính } AH) \\implies \\widehat{AKL} = \\widehat{AHL} \\quad (\\text{cùng chắn } \\stackrel{\\frown}{AL})",
+      "nhanh_phai": "\\text{Tứ giác } CIHK \\text{ nội tiếp (đường kính } CH) \\implies \\widehat{IKC} = \\widehat{IHC} \\quad (\\text{cùng chắn } \\stackrel{\\frown}{IC})"
+    },
+    "goc_re": "AI \\perp BC, \\ CL \\perp AB \\text{ cắt nhau tại } H \\implies A, H, I \\text{ thẳng hàng và } C, H, L \\text{ thẳng hàng}"
+  },
+  "binh_luan_su_pham": {
+    "tai_sao_nghi_ra": "Tam giác trực tâm IKL là một trong những mô hình hình học đẹp nhất của toán học cổ điển. Ba đường cao của tam giác lớn ABC đóng vai trò là các trục đối xứng góc của tam giác trực tâm. Để nhận ra KB là tia phân giác, ta không so sánh trực tiếp hai góc nhọn LKB và IKB mà nhìn sang hai góc 'phần bù' của chúng với góc 90 độ, đó là góc AKL và góc IKC. Khi hai góc này được nhúng vào các tứ giác nội tiếp đường kính AH và CH, chúng lập tức quy về cặp góc đối đỉnh tại trực tâm H!",
+    "cau_hoi_goi_mo": [
+      "Câu 1: Tâm đường tròn nội tiếp của một tam giác được xác định bởi giao điểm của những đường nào?",
+      "Câu 2: BK là đường cao của tam giác ABC, vậy BK vuông góc với AC tạo ra những góc 90 độ nào tại đỉnh K?",
+      "Câu 3: Góc AKL và góc IKC lần lượt thuộc các tứ giác nội tiếp nào chứa điểm H?",
+      "Câu 4: Hai góc AHL và IHC có vị trí như thế nào đối với giao điểm H của hai đường cao AI và CL?"
+    ],
+    "sai_lam_thuong_gap": "Học sinh thường chỉ chứng minh được KH là một tia phân giác rồi vội vàng kết luận H là tâm nội tiếp mà quên mất phải khẳng định tương tự cho tia phân giác thứ hai (IH hoặc LH). Ngoài ra, nhiều em vẽ hình đặc biệt (tam giác cân) dẫn tới nhầm lẫn tính chất.",
+    "bai_tap_tuong_tu": [
+      "Bài toán phát triển 1 (Đồng dạng kinh điển): Chứng minh tam giác AKL đồng dạng với tam giác ABC theo tỉ số đồng dạng k = cos A, và diện tích tam giác IKL bằng (1 - cos^2 A - cos^2 B - cos^2 C) . S_ABC.",
+      "Bài toán phát triển 2 (Cực trị Fagnano): Trong tất cả các tam giác có ba đỉnh nằm trên ba cạnh của tam giác nhọn ABC, chứng minh tam giác trực tâm IKL có chu vi nhỏ nhất."
+    ]
+  },
+  "loi_giai_chi_tiet": [
+    {
+      "buoc": "Bước 1: Chứng minh các tứ giác BIHL và CIHK nội tiếp đường tròn",
+      "noi_dung": "Vì AI vuông góc BC, CL vuông góc AB nên góc HIB = 90 độ và HLB = 90 độ => HIB + HLB = 180 độ => Tứ giác BIHL nội tiếp đường tròn đường kính BH. Tương tự, HIC = 90 độ và HKC = 90 độ => HIC + HKC = 180 độ => Tứ giác CIHK nội tiếp đường tròn đường kính CH.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 2: Chứng minh góc AKL = góc IKC",
+      "noi_dung": "Xét tứ giác AKHL có góc AKH = ALH = 90 độ => AKH + ALH = 180 độ => Tứ giác AKHL nội tiếp đường tròn đường kính AH => góc AKL = góc AHL (hai góc nội tiếp cùng chắn cung AL). Trong tứ giác nội tiếp CIHK (đường kính CH), ta có góc IKC = góc IHC (hai góc nội tiếp cùng chắn cung IC). Mà góc AHL = góc IHC (hai góc đối đỉnh do AI và CL cắt nhau tại H). Do đó góc AKL = góc IKC.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 3: Chứng minh KB là tia phân giác trong của góc LKI",
+      "noi_dung": "Vì BK vuông góc AC tại K nên góc LKB = 90 độ - góc AKL và góc IKB = 90 độ - góc IKC. Do góc AKL = góc IKC nên góc LKB = góc IKB. Suy ra tia KB (tức tia KH) là tia phân giác trong của góc LKI của tam giác IKL.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 4: Chứng minh trực tâm H là tâm đường tròn nội tiếp tam giác IKL",
+      "noi_dung": "Chứng minh hoàn toàn tương tự, ta có tia IH là tia phân giác trong của góc LIK và tia LH là tia phân giác trong của góc ILK của tam giác IKL. Ba đường phân giác trong KH, IH, LH cùng đồng quy tại điểm H. Vậy trực tâm H là tâm của đường tròn nội tiếp tam giác trực tâm IKL (đpcm).",
+      "diem": "0.75đ"
+    }
+  ]
+}

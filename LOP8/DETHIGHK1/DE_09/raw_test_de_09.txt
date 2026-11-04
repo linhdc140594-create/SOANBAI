@@ -1,0 +1,607 @@
+--- TRANG 34 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 9 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Trong các biểu thức sau, biểu thức nào là đơn thức?    
+A. 1
+y
+x +
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2xy    
+C. 
+2
+(2
+)
+x y
+−
+    
+ 
+ 
+ 
+ 
+D. 
+x
+y
+−
+   
+Câu 2. Tích của hai đơn thức 
+3
+1
+2 xy và 
+2
+( 8 )
+x
+y xz
+−
+ có phần hệ số là    
+A. 1
+2    
+ 
+ 
+B. 8
+−    
+ 
+ 
+C. 4
+−    
+ 
+ 
+D. 7    
+Câu 3. Hình thang cân là hình thang có    
+A. Hai góc kề một đáy bằng nhau.    
+B. Hai góc đối bằng nhau.    
+C. Hai cạnh đối bằng nhau.    
+D. Hai đường chéo bằng nhau.    
+Câu 4. Kết quả khai triển biểu thức (
+2)(
+2)
+x
+x
+−
+−
+ là    
+A. 
+2
+2
+4
+x
+x
++
++
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+4
+4
+x
+x
++
++
+    
+C. 
+2
+2
+4
+x
+x
+−
++  
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+4
+4
+x
+x
+−
++    
+ 
+ 
+ 
+
+
+--- TRANG 35 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 5. Chọn câu sai trong các câu sau:    
+A. Tứ giác có 3 góc tù, 1 góc nhọn.    
+B. Tứ giác có 3 góc vuông, 1 góc nhọn.    
+C. Tứ giác có nhiều nhất 2 góc tù, nhiều nhất 2 góc nhọn.    
+D. Tứ giác có 3 góc nhọn, 1 góc tù.    
+Câu 6. Tứ giác có hai cạnh đối song song là    
+A. Hình thang cân.    
+ 
+ 
+ 
+ 
+B. Hình thang.    
+C. Hình bình hành.    
+ 
+ 
+ 
+ 
+D. Hình chữ nhật.    
+Câu 7. Giá trị của biểu thức 
+3
+2
+7
+9
+A
+x y
+x y
+=
++
++ tại 
+1,
+2
+x
+y
+= −
+=
+ là    
+A. 21   
+ 
+ 
+B. 25   
+ 
+ 
+C. 7
+−    
+ 
+ 
+D. 3
+−   
+Câu 8. Chọn đẳng thức sai trong các đẳng thức sau đây:    
+A. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
++
+=
++
++
++
+     
+ 
+ 
+B. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
+−−
+= −
+−
+−
+−
+    
+C. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
+−+
+= −
+−
++
++
+    
+ 
+ 
+D. 
+3
+3
+2
+2
+3
+(
+)
+3
+3
+a
+b
+a
+a b
+ab
+b
+−
+=
+−
++
+−
+  
+Câu 9. Phân thức nào sau đây bằng với phân thức 3
+y
+x (với giả thiết các phân thức đều có 
+nghĩa)?    
+A. 
+2
+2
+3
+9
+y
+xy    
+ 
+ 
+B. 
+2
+2
+9
+y
+xy    
+ 
+ 
+C. 
+2
+3
+9
+y
+xy    
+ 
+        D. 
+2
+3
+9
+y
+xy   
+Câu 10. Cho hình chóp tam giác đều có diện tích đáy bằng 
+2
+6 cm và chiều cao bằng 4 cm . 
+Thể tích của hình chóp đó là: 
+A. 
+3
+8 cm 
+ 
+ 
+B. 
+3
+24 cm 
+ 
+ 
+C. 
+3
+12 cm 
+ 
+     D. 
+3
+72 cm 
+Câu 11. Hình thoi có chu vi bằng 20 cm thì độ dài cạnh của nó bằng: 
+A. 4 cm   
+ 
+ 
+B. 5 cm   
+ 
+ 
+C. 8 cm    
+ 
+       D. 9 cm    
+
+
+--- TRANG 36 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 12. Hãy chọn câu sai:    
+A. Tứ giác có hai cặp cạnh đối song song là hình bình hành.    
+B. Hình thang có hai góc kề một đáy bằng nhau là hình bình hành.    
+C. Tứ giác có hai cặp cạnh đối bằng nhau là hình bình hành.    
+D. Tứ giác có hai cặp góc đối bằng nhau là hình bình hành.    
+Phần II. Trắc nghiệm đúng sai  
+Câu 1. Cho hai đa thức 
+(
+2 )
+(
+2 )
+P
+x x
+y
+y y
+x
+=
+−
++
++
+ và 
+2
+2
+4
+Q
+x
+y
+=
+−
+. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Rút gọn đa thức P ta được 
+2
+2
+x
+y
++
+. 
+b) Tại 
+3
+x = và 
+4
+y = , giá trị của đa thức P bằng 49 . 
+c) Phân tích đa thức Q thành nhân tử ta được (
+2 )(
+2 )
+x
+y
+x
+y
+−
++
+. 
+d) Với 
+2
+x
+y
+=
+ và 
+0
+y , phân thức P
+Q không xác định. 
+Câu 2. Cho biểu thức 
+2
+2
+6
+9
+9
+x
+x
+A
+x
+−
++
+=
+−
+ với 
+3
+x . Xét tính đúng sai của các mệnh đề sau: 
+a) Biến đổi tử thức 
+2
+6
+9
+x
+x
+−
++ thành bình phương của một hiệu ta được 
+2
+(
+3)
+x −
+. 
+b) Phân tích mẫu thức 
+2
+9
+x − thành nhân tử ta được (
+3)(
+3)
+x
+x
+−
++
+. 
+c) Kết quả rút gọn của biểu thức A là 
+3
+3
+x
+x
++
+−
+. 
+d) Tại 
+5
+x = , giá trị của biểu thức A bằng 1
+4 . 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tìm x , biết: 
+2
+16
+2(
+4)
+0
+x
+x
+−
+−
++
+= . 
+Câu 2. Cho hình thoi ABCD có ˆ
+60
+A
+
+=
+ và độ dài cạnh 
+5 cm
+AB =
+. Tính độ dài đường chéo BD. 
+
+
+--- TRANG 37 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 
+2
+2 (3
+)
+(6
+2
+3)
+x
+x
+y
+x
+xy
+−
+−
+−
++
+ 
+b) 
+3
+2
+2
+3
+2
+2
+2
+(12
+9
+3
+):(3
+)
+x y
+x y
+x y
+x y
+−
++
+ 
+c) 
+2
+2
+(
+2)
+(
+2)
+x
+x
++
+−
+−
+ 
+Câu 2. Tìm x , biết: 
+a) 
+2
+2 (
+3)
+2
+10
+x x
+x
+−
+−
+=
+ 
+b) 
+2
+(
+1)
+(
+2)(
+2)
+9
+x
+x
+x
++
+−
+−
++
+=
+ 
+Câu 3. Một khối bê tông có dạng hình chóp tứ giác đều (đáy là hình vuông) có cạnh đáy 
+0.5 m
+a =
+ và chiều cao 
+0.6 m
+h =
+. 
+a) Tính thể tích khối bê tông. 
+b) Người ta muốn sơn bốn mặt xung quanh của khối bê tông này. Biết chiều cao trung 
+đoạn của hình chóp là 
+0.65 m
+d =
+. Tính diện tích bề mặt cần sơn. 
+Câu 4. Tìm giá trị nhỏ nhất của biểu thức: 
+2
+2
+4
+6
+15
+A
+x
+x
+y
+y
+=
+−
++
++
++
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

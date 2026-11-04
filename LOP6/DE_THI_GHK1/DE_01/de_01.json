@@ -1,0 +1,325 @@
+{
+  "de_so": 1,
+  "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027",
+  "mon": "Toán 6",
+  "thoi_gian": "90 phút",
+  "phan_I_trac_nghiem": [
+    {
+      "cau": 1,
+      "noi_dung": "Tập hợp nào dưới đây là tập hợp số tự nhiên?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$\\mathbb{N} = \\{1; 2; 3; \\dots\\}$",
+        "B": "$\\mathbb{N} = \\{0; 1; 2; 3; \\dots; 100\\}$",
+        "C": "$\\mathbb{N} = \\{0; 1; 2; 3; \\dots\\}$",
+        "D": "$\\mathbb{N} = \\{0; 2; 4; 6; \\dots\\}$"
+      },
+      "dap_an": "C",
+      "loi_giai": "Tập hợp các số tự nhiên được kí hiệu là $\\mathbb{N}$, gồm các số $0, 1, 2, 3, \\dots$ kéo dài vô hạn. Do đó $\\mathbb{N} = \\{0; 1; 2; 3; \\dots\\}$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Với $a, m, n$ là các số tự nhiên, khẳng định nào sau đây là đúng?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$a^m : a^n = a^{m-n}$ ($a \\neq 0, m \\geq n$)",
+        "B": "$a^m : a^n = a^{m+n}$ ($a \\neq 0$)",
+        "C": "$a^m \\cdot a^n = a^{m:n}$ ($a \\neq 0$)",
+        "D": "$a^m : a^n = m - n$ ($a \\neq 0$)"
+      },
+      "dap_an": "A",
+      "loi_giai": "Theo quy tắc chia hai lũy thừa cùng cơ số: Khi chia hai lũy thừa cùng cơ số (khác 0), ta giữ nguyên cơ số và trừ các số mũ: $a^m : a^n = a^{m-n}$ ($a \\neq 0, m \\geq n$)."
+    },
+    {
+      "cau": 3,
+      "noi_dung": "Thứ tự thực hiện phép tính nào sau đây là đúng đối với biểu thức không có dấu ngoặc?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "Nhân và chia $\\to$ Lũy thừa $\\to$ Cộng và trừ",
+        "B": "Cộng và trừ $\\to$ Nhân và chia $\\to$ Lũy thừa",
+        "C": "Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ",
+        "D": "Cộng và trừ $\\to$ Lũy thừa $\\to$ Nhân và chia"
+      },
+      "dap_an": "C",
+      "loi_giai": "Đối với biểu thức không có dấu ngoặc, thứ tự thực hiện phép tính chuẩn là: Lũy thừa $\\to$ Nhân và chia $\\to$ Cộng và trừ."
+    },
+    {
+      "cau": 4,
+      "noi_dung": "Hình vuông $ABCD$ có cạnh $AB = 3\\text{ cm}$. Diện tích của hình vuông đó là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$3\\text{ cm}^2$",
+        "B": "$9\\text{ cm}^2$",
+        "C": "$12\\text{ cm}^2$",
+        "D": "$81\\text{ cm}^2$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Diện tích hình vuông $ABCD$ là: $S = a^2 = 3^2 = 9\\text{ cm}^2$."
+    },
+    {
+      "cau": 5,
+      "noi_dung": "Số $19$ trong hệ La Mã được viết là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "IX",
+        "B": "IXX",
+        "C": "XXI",
+        "D": "XIX"
+      },
+      "dap_an": "D",
+      "loi_giai": "Ta phân tích $19 = 10 + 9$. Trong chữ số La Mã: $10$ là $\\mathrm{X}$ và $9$ là $\\mathrm{IX}$. Do đó $19$ được viết là $\\mathrm{XIX}$."
+    },
+    {
+      "cau": 6,
+      "noi_dung": "Trong các phân số sau, phân số nào là phân số tối giản?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$\\dfrac{26}{39}$",
+        "B": "$\\dfrac{15}{12}$",
+        "C": "$\\dfrac{27}{42}$",
+        "D": "$\\dfrac{3}{16}$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Ta có: $\\dfrac{26}{39} = \\dfrac{2}{3}$ (chia cho 13); $\\dfrac{15}{12} = \\dfrac{5}{4}$ (chia cho 3); $\\dfrac{27}{42} = \\dfrac{9}{14}$ (chia cho 3). Phân số $\\dfrac{3}{16}$ có $\\text{ƯCLN}(3, 16) = 1$ nên là phân số tối giản."
+    },
+    {
+      "cau": 7,
+      "noi_dung": "Tập hợp các chữ cái trong cụm từ “PHONG NHA” là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$\\{P; H; O; N; G; N; H; A\\}$",
+        "B": "$\\{P; H; O; N; G; A\\}$",
+        "C": "$\\{H; O; N; G; P; A\\}$",
+        "D": "$\\{N; A; P; O; G\\}$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Khi viết tập hợp các chữ cái của một từ, mỗi chữ cái chỉ được liệt kê một lần. Các chữ cái trong từ “PHONG NHA” gồm $P, H, O, N, G, A$. Do đó tập hợp là $\\{P; H; O; N; G; A\\}$."
+    },
+    {
+      "cau": 8,
+      "noi_dung": "Trong các số sau, số nào là bội của $7$?",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$15$",
+        "B": "$20$",
+        "C": "$25$",
+        "D": "$35$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Ta có $35 : 7 = 5$ (chia hết) nên $35$ là bội của $7$."
+    },
+    {
+      "cau": 9,
+      "noi_dung": "Thực hiện phép tính $3^2 + 3^3$ được kết quả là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$45$",
+        "B": "$36$",
+        "C": "$432$",
+        "D": "$423$"
+      },
+      "dap_an": "B",
+      "loi_giai": "Ta có: $3^2 + 3^3 = 9 + 27 = 36$."
+    },
+    {
+      "cau": 10,
+      "noi_dung": "Từ hình bên có bao nhiêu hình vuông?",
+      "hinh_tikz": "\\begin{tikzpicture}[scale=0.7, baseline=(current bounding box.center), line cap=round, line join=round]\n  \\draw[step=1cm, thick, blue!80!black] (0,0) grid (2,2);\n\\end{tikzpicture}",
+      "lua_chon": {
+        "A": "$4$ hình vuông",
+        "B": "$5$ hình vuông",
+        "C": "$6$ hình vuông",
+        "D": "$8$ hình vuông"
+      },
+      "dap_an": "B",
+      "loi_giai": "Có $4$ hình vuông nhỏ kích thước $1 \\times 1$ và $1$ hình vuông lớn kích thước $2 \\times 2$. Tổng cộng có $4 + 1 = 5$ hình vuông."
+    },
+    {
+      "cau": 11,
+      "noi_dung": "Tập hợp tất cả các ước của số $20$ là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$\\text{Ư}(20) = \\{1; 2; 4; 5; 10; 20\\}$",
+        "B": "$\\text{Ư}(20) = \\{0; 1; 2; 4; 5; 10\\}$",
+        "C": "$\\text{Ư}(20) = \\{1; 2; 5; 10\\}$",
+        "D": "$\\text{Ư}(20) = \\{1; 2; 10; 20\\}$"
+      },
+      "dap_an": "A",
+      "loi_giai": "Lấy $20$ chia lần lượt cho các số từ $1$ đến $20$, các phép chia hết cho ta tập ước: $\\text{Ư}(20) = \\{1; 2; 4; 5; 10; 20\\}$."
+    },
+    {
+      "cau": 12,
+      "noi_dung": "Ghép $6$ tam giác đều có độ dài cạnh $3\\text{ cm}$ thành một lục giác đều. Khi đó độ dài đường chéo chính của lục giác đều là:",
+      "hinh_tikz": null,
+      "lua_chon": {
+        "A": "$9\\text{ cm}$",
+        "B": "$3\\text{ cm}$",
+        "C": "$12\\text{ cm}$",
+        "D": "$6\\text{ cm}$"
+      },
+      "dap_an": "D",
+      "loi_giai": "Lục giác đều gồm 6 tam giác đều ghép lại chung một đỉnh tâm. Đường chéo chính của lục giác đều đi qua tâm và bằng tổng độ dài 2 cạnh của tam giác đều: $3 + 3 = 6\\text{ cm}$."
+    }
+  ],
+  "phan_II_dung_sai": [
+    {
+      "cau": 1,
+      "noi_dung": "Cho $N$ là tập hợp các số tự nhiên chẵn nhỏ hơn $10$. Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Tập hợp $N$ được viết theo cách liệt kê các phần tử là $N = \\{0; 2; 4; 6; 8\\}$.",
+          "dung_sai": true,
+          "giai_thich": "Các số tự nhiên chẵn nhỏ hơn 10 là 0, 2, 4, 6, 8. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Số phần tử của tập hợp $N$ là $5$ phần tử.",
+          "dung_sai": true,
+          "giai_thich": "Tập hợp $N$ gồm 5 phần tử $\\{0, 2, 4, 6, 8\\}$. Khẳng định đúng."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Số $10$ thuộc tập hợp $N$ (kí hiệu $10 \\in N$).",
+          "dung_sai": false,
+          "giai_thich": "Tập hợp $N$ chỉ gồm các số chẵn nhỏ hơn 10 nên 10 không thuộc $N$ ($10 \\notin N$). Khẳng định sai."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Tập hợp $N$ có thể được viết bằng cách chỉ ra tính chất đặc trưng là $N = \\{x \\in \\mathbb{N} \\mid x \\text{ là số chẵn}\\}$.",
+          "dung_sai": false,
+          "giai_thich": "Cách viết này biểu diễn toàn bộ các số tự nhiên chẵn vô hạn, thiếu điều kiện giới hạn $x < 10$. Khẳng định sai."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Cho hình chữ nhật $ABCD$ có độ dài cạnh $AB = 5\\text{ cm}$ và $BC = 2\\text{ cm}$. Các khẳng định sau đây đúng hay sai?",
+      "cac_y": [
+        {
+          "y": "a",
+          "khang_dinh": "Độ dài cạnh $CD = 5\\text{ cm}$ và độ dài cạnh $AD = 2\\text{ cm}$.",
+          "dung_sai": true,
+          "giai_thich": "Hình chữ nhật có các cặp cạnh đối diện bằng nhau: $CD = AB = 5\\text{ cm}$, $AD = BC = 2\\text{ cm}$. Khẳng định đúng."
+        },
+        {
+          "y": "b",
+          "khang_dinh": "Chu vi của hình chữ nhật $ABCD$ bằng $14\\text{ cm}$.",
+          "dung_sai": true,
+          "giai_thich": "Chu vi hình chữ nhật là: $C = (AB + BC) \\times 2 = (5 + 2) \\times 2 = 14\\text{ cm}$. Khẳng định đúng."
+        },
+        {
+          "y": "c",
+          "khang_dinh": "Diện tích của hình chữ nhật $ABCD$ bằng $10\\text{ cm}^2$.",
+          "dung_sai": true,
+          "giai_thich": "Diện tích hình chữ nhật là: $S = AB \\times BC = 5 \\times 2 = 10\\text{ cm}^2$. Khẳng định đúng."
+        },
+        {
+          "y": "d",
+          "khang_dinh": "Hình chữ nhật $ABCD$ có $2$ trục đối xứng.",
+          "dung_sai": true,
+          "giai_thich": "Hình chữ nhật có 2 trục đối xứng là hai đường trung trực của hai cặp cạnh đối diện. Khẳng định đúng."
+        }
+      ]
+    }
+  ],
+  "phan_III_tra_loi_ngan": [
+    {
+      "cau": 1,
+      "noi_dung": "Số liền trước của số nguyên tố nhỏ nhất là số mấy?",
+      "dap_an": "$1$",
+      "loi_giai": "Số nguyên tố nhỏ nhất là số $2$. Số tự nhiên liền trước của số $2$ là số $1$."
+    },
+    {
+      "cau": 2,
+      "noi_dung": "Mẹ Minh mua một túi gạo $15\\text{ kg}$ loại $20\\,000$ đồng mỗi $1\\text{ kg}$. Hỏi mẹ Minh phải đưa cô bán hàng bao nhiêu tờ tiền loại $50\\,000$ đồng để vừa đủ thanh toán tiền mua gạo trên?",
+      "dap_an": "$6$",
+      "loi_giai": "Tổng số tiền mua gạo là: $15 \\times 20\\,000 = 300\\,000$ đồng. Số tờ tiền loại $50\\,000$ đồng cần trả là: $300\\,000 : 50\\,000 = 6$ (tờ)."
+    }
+  ],
+  "phan_IV_tu_luan": [
+    {
+      "cau": 1,
+      "diem_tong": 1.0,
+      "noi_dung": "Thực hiện phép tính (tính hợp lí nếu có thể):",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "$36 + 75 + 64 + 25 + 99$",
+          "diem": 0.25,
+          "loi_giai": "$36 + 75 + 64 + 25 + 99 = (36 + 64) + (75 + 25) + 99 = 100 + 100 + 99 = 299$."
+        },
+        {
+          "y": "b",
+          "de": "$2024^0 + 3 \\cdot [5^2 \\cdot 10 - (23 - 13)^2]$",
+          "diem": 0.5,
+          "loi_giai": "Ta có:\\\n$2024^0 + 3 \\cdot [5^2 \\cdot 10 - (23 - 13)^2] = 1 + 3 \\cdot [25 \\cdot 10 - 10^2] = 1 + 3 \\cdot [250 - 100] = 1 + 3 \\cdot 150 = 1 + 450 = 451$."
+        },
+        {
+          "y": "c",
+          "de": "$4^2 \\cdot 65 + 35 \\cdot 4^2 - 1500$",
+          "diem": 0.25,
+          "loi_giai": "Ta có:\\\n$4^2 \\cdot 65 + 35 \\cdot 4^2 - 1500 = 16 \\cdot (65 + 35) - 1500 = 16 \\cdot 100 - 1500 = 1600 - 1500 = 100$."
+        }
+      ]
+    },
+    {
+      "cau": 2,
+      "diem_tong": 0.75,
+      "noi_dung": "Một mảnh vườn hình chữ nhật có chiều dài $42\\text{ m}$ và chiều rộng $30\\text{ m}$.",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Tính chu vi và diện tích của mảnh vườn.",
+          "diem": 0.5,
+          "loi_giai": "Chu vi mảnh vườn hình chữ nhật là:\\\n$(42 + 30) \\times 2 = 144\\text{ (m)}$.\\\nDiện tích mảnh vườn hình chữ nhật là:\\\n$42 \\times 30 = 1260\\text{ (m}^2\\text{)}$."
+        },
+        {
+          "y": "b",
+          "de": "Biết rằng mỗi túi hạt giống gieo vừa đủ $105\\text{ m}^2$ đất và mỗi túi hạt giống có giá $45\\,000$ đồng. Hỏi cần bao nhiêu túi hạt giống để gieo vừa hết mảnh vườn và cần bao nhiêu tiền để mua số túi hạt giống đó?",
+          "diem": 0.25,
+          "loi_giai": "Số túi hạt giống cần dùng để gieo hết mảnh vườn là:\\\n$1260 : 105 = 12\\text{ (túi)}$.\\\nSố tiền cần dùng để mua các túi hạt giống là:\\\n$12 \\times 45\\,000 = 540\\,000\\text{ (đồng)}$."
+        }
+      ]
+    },
+    {
+      "cau": 3,
+      "diem_tong": 0.75,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "1",
+          "de": "Vẽ hình chữ nhật $ABCD$ biết cạnh $AB = 5\\text{ cm}$ và cạnh $BC = 3\\text{ cm}$.",
+          "diem": 0.25,
+          "loi_giai": "Học sinh dùng thước thẳng và ê-ke vẽ đúng hình chữ nhật $ABCD$ có chiều dài $AB = CD = 5\\text{ cm}$ và chiều rộng $BC = AD = 3\\text{ cm}$:\n\\begin{center}\n\\begin{tikzpicture}[scale=0.8, line cap=round, line join=round]\n  \\draw[step=0.5cm, gray!25, very thin] (-0.5,-0.5) grid (5.5,3.5);\n  \\draw[thick, blue!80!black] (0,0) rectangle (5,3);\n  \\foreach \\p/\\pos in {(0,3)/above left, (5,3)/above right, (5,0)/below right, (0,0)/below left} {\n    \\fill[red] \\p circle (2pt);\n  }\n  \\node[above left] at (0,3) {$A$};\n  \\node[above right] at (5,3) {$B$};\n  \\node[below right] at (5,0) {$C$};\n  \\node[below left] at (0,0) {$D$};\n  \\node[above] at (2.5,3) {$5\\text{ cm}$};\n  \\node[right] at (5,1.5) {$3\\text{ cm}$};\n\\end{tikzpicture}\n\\end{center}"
+        },
+        {
+          "y": "2",
+          "de": "Một khoảng sân có dạng hình chữ nhật với chiều dài $9\\text{ m}$ và chiều rộng $4\\text{ m}$. Người ta dành một phần của sân để trồng hoa (phần kẻ sọc trong hình bên), phần còn lại dùng để lát gạch (phần màu trắng).\\\n\\begin{center}\n\\begin{tikzpicture}[scale=0.75, line cap=round, line join=round, >=Stealth]\n  \\coordinate (A) at (0,4); \\coordinate (B) at (9,4); \\coordinate (C) at (9,0); \\coordinate (D) at (0,0);\n  \\coordinate (E) at (8,4); \\coordinate (F) at (8,0);\n  \\fill[pattern=north east lines, pattern color=blue!70] (E) rectangle (C);\n  \\draw[thick, blue!80!black] (D) rectangle (B);\n  \\draw[thick, blue!80!black] (E) -- (F);\n  \\foreach \\p in {A,B,C,D,E,F} \\fill[red] (\\p) circle (2.2pt);\n  \\draw[<->, thick] (-0.35,0) -- (-0.35,4) node[midway, left=2pt, font=\\bfseries] {$4\\text{ m}$};\n  \\draw[<->, thick] (0,-0.45) -- (9,-0.45) node[midway, below=2pt, font=\\bfseries] {$9\\text{ m}$};\n  \\draw[<->, thick] (8,4.45) -- (9,4.45) node[midway, above=2pt, font=\\bfseries] {$1\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}\\\na) Tính diện tích phần sân dùng để trồng hoa.\\\nb) Nếu lát phần sân còn lại bằng những viên gạch hình vuông cạnh $40\\text{ cm}$ thì cần bao nhiêu viên gạch? (Coi diện tích mạch ghép giữa các viên gạch là không đáng kể).",
+          "diem": 0.5,
+          "loi_giai": "a) Phần sân trồng hoa là hình chữ nhật có chiều rộng $1\\text{ m}$ và chiều dài $4\\text{ m}$.\\\nDiện tích phần sân trồng hoa là: $1 \\times 4 = 4\\text{ (m}^2\\text{)}$.\\\n\\\nb) Diện tích của toàn bộ khoảng sân là: $9 \\times 4 = 36\\text{ (m}^2\\text{)}$.\\\nDiện tích phần sân cần lát gạch là: $36 - 4 = 32\\text{ (m}^2\\text{)} = 320\\,000\\text{ (cm}^2\\text{)}$.\\\nDiện tích của mỗi viên gạch hình vuông là: $40 \\times 40 = 1600\\text{ (cm}^2\\text{)}$.\\\nSố viên gạch cần dùng để lát phần sân còn lại là: $320\\,000 : 1600 = 200\\text{ (viên)}$."
+        }
+      ]
+    },
+    {
+      "cau": 4,
+      "diem_tong": 0.5,
+      "noi_dung": "",
+      "cac_y": [
+        {
+          "y": "a",
+          "de": "Tính tổng $C = 1 + 3 + 3^2 + 3^3 + 3^4 + \\dots + 3^{2020}$.",
+          "diem": 0.25,
+          "loi_giai": "Ta có: $C = 1 + 3 + 3^2 + 3^3 + 3^4 + \\dots + 3^{2020}$.\\\nNhân cả hai vế với 3:\\\n$3C = 3 + 3^2 + 3^3 + 3^4 + \\dots + 3^{2021}$.\\\nTrừ vế với vế:\\\n$3C - C = (3 + 3^2 + \\dots + 3^{2021}) - (1 + 3 + \\dots + 3^{2020})$\\\n$\\implies 2C = 3^{2021} - 1 \\implies C = \\dfrac{3^{2021} - 1}{2}$."
+        },
+        {
+          "y": "b",
+          "de": "Tìm số tự nhiên $n$ sao cho $p = (n - 2)(n^2 + n - 5)$ là một số nguyên tố.",
+          "diem": 0.25,
+          "loi_giai": "Vì $p$ là số nguyên tố nên tích $p = (n - 2)(n^2 + n - 5)$ chỉ có hai ước tự nhiên là 1 và chính nó.\\\nDo đó một trong hai thừa số phải bằng 1 và thừa số còn lại phải là số nguyên tố.\\\n\\\n$\\bullet$ Trường hợp 1: $n - 2 = 1 \\implies n = 3$.\\\nKhi đó $p = 1 \\cdot (3^2 + 3 - 5) = 1 \\cdot (9 + 3 - 5) = 7$ (là số nguyên tố, thỏa mãn).\\\n\\\n$\\bullet$ Trường hợp 2: $n^2 + n - 5 = 1 \\implies n^2 + n - 6 = 0 \\implies (n - 2)(n + 3) = 0$.\\\nVì $n$ là số tự nhiên nên $n = 2$. Khi đó $n - 2 = 0 \\implies p = 0$ (không phải số nguyên tố, loại).\\\n\\\nVậy số tự nhiên cần tìm là $n = 3$."
+        }
+      ]
+    }
+  ]
+}
+

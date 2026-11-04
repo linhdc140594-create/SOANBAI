@@ -1,0 +1,144 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9
+	Rút gọn biểu thức: $P=\frac{x-4}{\sqrt{x}+2} \cdot \left(\frac{1}{x-2\sqrt{x}}-\frac{1}{\sqrt{x}}\right)$ với $x>0, x \ne 4$.
+	\loigiai{
+		Điều kiện: $x>0, x \ne 4$.
+		Ta có:
+		$\frac{x-4}{\sqrt{x}+2} = \frac{(\sqrt{x}-2)(\sqrt{x}+2)}{\sqrt{x}+2} = \sqrt{x}-2$.
+		Phần trong ngoặc:
+		\begin{align*}
+			\frac{1}{x-2\sqrt{x}}-\frac{1}{\sqrt{x}} &= \frac{1}{\sqrt{x}(\sqrt{x}-2)}-\frac{\sqrt{x}-2}{\sqrt{x}(\sqrt{x}-2)} \\
+			&= \frac{1-(\sqrt{x}-2)}{\sqrt{x}(\sqrt{x}-2)} \\
+			&= \frac{1-\sqrt{x}+2}{\sqrt{x}(\sqrt{x}-2)} \\
+			&= \frac{3-\sqrt{x}}{\sqrt{x}(\sqrt{x}-2)}
+		\end{align*}
+		Vậy biểu thức $P$ trở thành:
+		\begin{align*}
+			P &= (\sqrt{x}-2) \cdot \frac{3-\sqrt{x}}{\sqrt{x}(\sqrt{x}-2)}
+		\end{align*}
+		Vì $x \ne 4$ nên $\sqrt{x}-2 \ne 0$. Ta có thể rút gọn:
+		\begin{align*}
+			P &= \frac{3-\sqrt{x}}{\sqrt{x}}
+		\end{align*}
+		Vậy, với $x>0, x \ne 4$ thì $P = \frac{3-\sqrt{x}}{\sqrt{x}}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Biết phương trình $x^2-4x-7=0$ có hai nghiệm $x_1; x_2$. Không giải phương trình, tính giá trị của biểu thức: $P=x_1^2+x_2^2-(x_1-3)(x_2-3)$.
+	\loigiai{
+		Phương trình đã cho là $x^2-4x-7=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = - \frac{-4}{1} = 4 \\ x_1 x_2 = \frac{-7}{1} = -7 \end{cases} $
+		Ta biến đổi biểu thức P:
+		\begin{align*}
+			P &= x_1^2+x_2^2-(x_1-3)(x_2-3) \\
+			&= (x_1+x_2)^2 - 2x_1x_2 - (x_1x_2 - 3x_1 - 3x_2 + 9) \\
+			&= (x_1+x_2)^2 - 2x_1x_2 - x_1x_2 + 3(x_1+x_2) - 9 \\
+			&= (x_1+x_2)^2 - 3x_1x_2 + 3(x_1+x_2) - 9
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào biểu thức P:
+		\begin{align*}
+			P &= (4)^2 - 3(-7) + 3(4) - 9 \\
+			&= 16 - (-21) + 12 - 9 \\
+			&= 16 + 21 + 12 - 9 \\
+			&= 37 + 12 - 9 \\
+			&= 49 - 9 \\
+			&= 40
+		\end{align*}
+		Vậy, giá trị của biểu thức $P = 40$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Giải hệ phương trình: $ \begin{cases} x+3y=7 \\ 2x-y=3 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} x+3y=7 \quad &(1) \\ 2x-y=3 \quad &(2) \end{cases} $
+		Từ phương trình (2), suy ra $y = 2x-3$.
+		Thế $y = 2x-3$ vào phương trình (1):
+		\begin{align*}
+			x + 3(2x-3) &= 7 \\
+			x + 6x - 9 &= 7 \\
+			7x &= 7 + 9 \\
+			7x &= 16 \\
+			x &= \frac{16}{7}
+		\end{align*}
+		Thay $x=\frac{16}{7}$ vào $y = 2x-3$:
+		\begin{align*}
+			y &= 2\left(\frac{16}{7}\right) - 3 \\
+			y &= \frac{32}{7} - \frac{21}{7} \\
+			y &= \frac{11}{7}
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = \left(\frac{16}{7};\frac{11}{7}\right)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 12 - Phần 1 (Xác suất bi)
+	Trong hộp có 8 viên bi màu Đỏ, còn lại là bi màu Xanh và bi màu Vàng; các viên bi có thể tích và chất liệu giống nhau. Biết xác suất để lấy ra là viên bi Đỏ là $\frac{1}{3}$. Tính số viên bi có trong hộp?
+	\loigiai{
+		Gọi $N$ là tổng số viên bi có trong hộp.
+		Số viên bi màu Đỏ là 8.
+		Xác suất để lấy ra một viên bi Đỏ là $P(\text{Đỏ}) = \frac{\text{Số bi Đỏ}}{\text{Tổng số bi}} = \frac{8}{N}$.
+		Theo đề bài, xác suất này bằng $\frac{1}{3}$.
+		Vậy, ta có phương trình:
+		\begin{align*}
+			\frac{8}{N} &= \frac{1}{3} \\
+			N \cdot 1 &= 8 \cdot 3 \\
+			N &= 24
+		\end{align*}
+		Vậy, trong hộp có tổng cộng 24 viên bi.
+	}
+\end{ex}
+
+\begin{ex} % Câu 12 - Phần 2 (Bài toán vận tải)
+	Một đội xe dự định chở 20 tấn hàng. Khi thực hiện đội được bổ sung thêm 2 xe nên mỗi xe chở ít hơn dự định ban đầu 0,5 tấn. Tính số xe ban đầu của đội? (Biết các xe chở như nhau)
+	\loigiai{
+		Gọi $x$ là số xe ban đầu của đội. (Điều kiện: $x$ là số nguyên dương)
+		Số tấn hàng mỗi xe dự định chở là: $\frac{20}{x}$ (tấn/xe).
+		
+		Khi thực hiện, số xe của đội là: $x+2$ (xe).
+		Số tấn hàng mỗi xe thực tế chở là: $\frac{20}{x+2}$ (tấn/xe).
+		
+		Theo đề bài, mỗi xe thực tế chở ít hơn dự định ban đầu 0,5 tấn (tức là $\frac{1}{2}$ tấn), nên ta có phương trình:
+		$\frac{20}{x} - \frac{20}{x+2} = \frac{1}{2}$
+		
+		Nhân cả hai vế của phương trình với $2x(x+2)$ để khử mẫu (với $x \ne 0, x \ne -2$):
+		\begin{align*}
+			20 \cdot 2(x+2) - 20 \cdot 2x &= x(x+2) \\
+			40(x+2) - 40x &= x^2 + 2x \\
+			40x + 80 - 40x &= x^2 + 2x \\
+			80 &= x^2 + 2x \\
+			x^2 + 2x - 80 &= 0
+		\end{align*}
+		Giải phương trình bậc hai $x^2 + 2x - 80 = 0$:
+		$\Delta' = b'^2 - ac = (1)^2 - 1(-80) = 1 + 80 = 81$
+		$\sqrt{\Delta'} = \sqrt{81} = 9$
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-1 + 9}{1} = 8$ (Thỏa mãn điều kiện $x>0$)
+		$x_2 = \frac{-1 - 9}{1} = -10$ (Không thỏa mãn điều kiện $x>0$)
+		
+		Vậy, số xe ban đầu của đội là 8 xe.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho nửa đường tròn $(O)$, đường kính $BC$. Gọi $A$ là 1 điểm cố định trên nửa đường tròn. $D$ là 1 điểm bất kỳ trên cung $AC$. Hai đoạn $BD$ và $AC$ cắt nhau tại $M$. Kẻ $MK$ vuông góc với $BC$ tại $K$.
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác $CDMK$ nội tiếp.
+		\item Đường thẳng đi qua $A$ và vuông góc với $BC$ cắt $BD$ tại $E$.
+		Chứng minh: $\triangle AEM \sim \triangle DCK$ và tỉ số $\frac{BD \cdot EM}{AM}$ có giá trị không đổi khi $D$ di chuyển trên cung $AC$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	\begin{enumerate}[a)]
+		\item Có 5 chiếc mũ, trong đó có 2 mũ trắng và 3 mũ đỏ. Ba người thông minh A, B, C lần lượt đội 3 chiếc mũ trong 5 chiếc mũ trên; không ai biết mình đội mũ gì. Sau khi A nhìn B và C thì A nói: "Tôi không biết mình đội mũ gì.". Sau khi B nghe A nói và B nhìn C thì B nói: "Tôi cũng không biết mình đội mũ gì.". Sau khi nghe cả A và B nói thì C liền nói: "Tôi biết mình đội mũ gì.". Hỏi, C đội mũ gì?
+		\item Cho ba số dương $a, b, c$ thỏa mãn điều kiện $\frac{1}{a} + \frac{1}{b} + \frac{1}{c} \le 3$.
+		Tìm GTNN của biểu thức: $P = \frac{a}{1+b^2} + \frac{b}{1+c^2} + \frac{c}{1+a^2} + \frac{ab+bc+ca}{2}$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

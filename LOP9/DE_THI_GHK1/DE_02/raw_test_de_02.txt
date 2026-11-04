@@ -1,0 +1,657 @@
+--- TRANG 6 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các phương trình sau phương trình nào không phải là phương trình bậc nhất 
+hai ẩn? 
+A. 2
+3
+5
+x
+y
+−
+= . 
+ 
+ 
+ 
+ 
+ 
+B. 0
+2
+4
+x
+y
++
+=
+. 
+C. 2
+0
+3
+x
+y
+−
+= . 
+ 
+ 
+ 
+ 
+ 
+D. 0
+0
+6
+x
+y
+−
+= . 
+Câu 2. Hệ phương trình nào dưới đây là hệ hai phương trình bậc nhất hai ẩn? 
+A. 
+2
+2
+3
+1
+3
+18
+x
+y
+x
+
++
+=
+−
+=
+
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0,5
+0,2
+0,1
+0
+0
+0,4
+x
+y
+x
+y
+−
+= −
+
+
++
+= −
+
+ 
+C. 
+4
+7
+10
+3
+8
+19
+x
+y
+x
+y
+−
++
+= −
+
+
++
+= −
+
+  
+ 
+ 
+ 
+ 
+D. 
+2
+2
+3
+2
+31
+5
+1
+x
+y
+x
+y
++
+=
+
+
++
+= −
+
+ 
+Câu 3. Trong các hệ hai phương trình bậc nhất hai ẩn sau, hệ phương trình nào nhận cặp 
+số ( 1; 2)
+−−
+ là nghiệm? 
+A. 12
+3
+6
+5
+5
+x
+y
+x
+−
+= −
+
+−
+=
+
+ 
+ 
+ 
+ 
+ 
+ 
+B. 0,2
+3
+0,7
+0,8
+2
+x
+y
+x
+y
+−
+=
+
+−−
+=
+
+ 
+C. 
+1
+3
+2
+x
+y
+x
+y
+−+
+=
+
+
++
+= −
+
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+31
+5
+1
+x
+y
+x
+y
++
+=
+
+
++
+= −
+
+ 
+Câu 4.  Điều kiện xác định của phương trình 
+2
+2
+18
+1
+2
+4
+x
+x
+x
+−
+=
+−
+−
+ là: 
+A. 
+2
+x  
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+x  
+ 
+ 
+ 
+C. 
+0
+x  
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+0,
+2
+x
+x
+
+ 
+
+
+--- TRANG 7 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 5. Cho tam giác ABC vuông tại B , khi đó sinC bằng: 
+A. AC
+BC 
+ 
+ 
+B. AB
+AC 
+ 
+ 
+C. AB
+BC 
+ 
+         D. BC
+AC 
+Câu 6. Cho  và  là hai góc phụ nhau thì: 
+A. sin
+tan
+
+
+=
+ 
+ 
+ 
+ 
+ 
+ 
+B. sin
+cot
+
+
+=
+ 
+C. cos
+cot
+
+
+=
+ 
+ 
+ 
+ 
+ 
+ 
+D. sin
+cos
+
+
+=
+ 
+Câu 7. Một ngân hàng đang áp dụng lãi suất gửi tiết kiệm kì hạn 12 tháng là 7,4% trên 
+một năm. Bà Mai dự kiến gửi một khoản tiền vào ngân hàng này và cần số tiền lãi hằng 
+năm ít nhất là 60 triệu để chi tiêu. Hỏi số tiền bà Mai cần gửi tiết kiệm ít nhất là bao nhiêu? 
+(Làm tròn đến triệu đồng)    
+A. 810 triệu đồng.  
+ 
+ 
+ 
+ 
+B. 800 triệu đồng. 
+C. 811 triệu đồng.  
+ 
+ 
+ 
+ 
+D. 700 triệu đồng. 
+Câu 8. Biết rằng m
+n
+
+ với 
+,
+m n bất kỳ, chọn câu đúng: 
+A. 
+3
+3
+m
+n
+−
+− 
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+3
+m
+n
++ 
++ 
+C. 
+2
+2
+m
+n
+−
+
+− 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+n
+m
++
+
++ 
+Câu 9. Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn? 
+A. 
+2
+1
+0
+2
+x
+y
+−
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+10
+2
+y
+x
+
+−
+ 
+C. 3
+1
+4
+y
+−
+  
+ 
+ 
+ 
+ 
+ 
+D. 0
+0
+8
+y
++
+ 
+Câu 10. Tỉ số lượng giác bằng tan46 là: 
+A. tan46 
+ 
+ 
+B. cos44 
+ 
+ 
+C. tan44 
+ 
+      D. cot44 
+ 
+ 
+
+
+--- TRANG 8 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 11. Biểu thức 
+sin35
+cos35
+sin55
+cos55
+A
+
+
+
+
+=
++
+−
+−
+ có giá trị là: 
+A. sin40
+cos40
+
+
+−
+−
+  
+ 
+ 
+ 
+ 
+B. 80
+−
+ 
+C. 0  
+ 
+ 
+ 
+ 
+ 
+ 
+D. Không tính được 
+Câu 12. Một cột điện cao 4 m , tia nắng mặt trời chiếu xuống mặt đất tạo với mặt đất góc 
+35. Khi đó chiều dài bóng của cột điện trên mặt đất (làm tròn đến chữ số thập phân thứ 
+hai) là: 
+A. 4,40 m 
+ 
+ 
+B. 3,41 m 
+ 
+ 
+C. 5,71 m 
+ 
+     D. 2,09 m 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Giải hệ phương trình 2
+6
+5
+2
+6
+4
+x
+y
+x
+y
+−
+=
+
+
+−
+=
+
+ bằng phương pháp cộng đại số theo các bước 
+phía dưới. Xét tính Đúng/Sai của các khẳng định sau:  
+a) Nhân hai vế của phương trình thứ hai với 2, ta được: 2
+6
+5
+2
+6
+4
+x
+y
+x
+y
+−
+=
+
+
+−
+=
+
+.    
+b) Trừ từng vế phương trình thứ nhất cho phương trình thứ hai của hệ, ta được 0
+1
+x = .    
+c) Phương trình 0
+1
+x = vô số nghiệm.   
+d) Nghiệm tổng quát của hệ phương trình đã cho là (6
+5;2
+4)
+y
+x
++
+−
+ với x tùy ý.    
+Câu 2. Cho bất phương trình 
+(5
+2)
+1
+m
+x −
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Bất phương trình đã cho là bất phương trình bậc nhất ẩn x với m tùy ý.    
+b) Khi 
+1
+m = , bất phương trình đã cho có nghiệm là 
+3
+5
+x 
+.   
+c) Khi 
+1
+m = −, bất phương trình đã cho có nghiệm là 
+1
+5
+x 
+.    
+d) Khi 
+2
+m = −, bất phương trình đã cho có nghiệm nguyên lớn nhất là 1
+−. 
+
+
+--- TRANG 9 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hệ phương trình 2
+0
+6
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Tìm nghiệm ( ; )
+x y . 
+Câu 2. Cho tam giác ABC có 
+5 cm
+AB =
+, 
+12 cm
+BC =
+ và 
+13 cm
+CA =
+. Tính số đo góc C 
+(làm tròn đến độ). 
+Phần IV. Tự luận 
+Câu 1. Giải các phương trình sau: 
+a) 2 (
+3)
+5(
+3)
+0;
+x x
+x
+−
++
+−
+=
+ 
+ 
+ 
+b) 
+2
+2
+3
+3
+4
+.
+2
+2
+4
+8
+x
+x
+x
+x
+x
+x
++
+=
++
+−
++
++
+ 
+Câu 2. Một cửa hàng sách có hai khu sách mới và sách cũ, mỗi khu được bán đồng giá. 
+Mai chi 112 500 đồng để mua 3 cuốn sách mới và 4 cuốn sách cũ, còn Linh chi 157 500 
+đồng đề mua 10 cuốn sách cũ và 3 cuốn sách mới. Tính giá mỗi cuốn sách mới và giá mỗi 
+cuốn sách cũ. 
+Câu 3. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng 34 và bóng của một 
+ngọn tháp trên mặt đất dài 86m. Tính chiều cao của tháp (làm tròn đến mét). (Kết quả làm 
+tròn đến chữ số thập phân thứ nhất) 
+ 
+Câu 4. Cho tam giác ABC có 
+o
+A
+90
+=
+. Chứng minh rằng sinB
+cosC
+2sinB
++
+=
+. 
+ 
+ 
+ 

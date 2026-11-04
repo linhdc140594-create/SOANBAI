@@ -1,0 +1,301 @@
+--- TRANG 18 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 5 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho A gồm các số tự nhiên nhỏ hơn 5, tập A được viết như thế nào? 
+A. 
+
+
+1;2;3;4 .
+A =
+ 
+ 
+ 
+ 
+ 
+B. 
+
+
+0;1;2;3;4 
+A =
+. 
+C. 
+
+
+1;2;3;4;5 .
+A =
+  
+ 
+ 
+ 
+D. 
+
+
+0;1;2;3;4;5 .
+A =
+ 
+Câu 2. Kết quả của phép tính 52.5 là: 
+A. 5.  
+ 
+B. 52.  
+ 
+ 
+C.53.  
+ 
+ 
+  D. 252. 
+Câu 3. Số 
+4
+2 bằng: 
+A. 
+2
+4 . 
+B. 
+3
+3 . 
+C. 
+51 . 
+D. 
+2
+2
+2
+2
++
+. 
+Câu 4. Số chia hết cho 5 nhưng không chia hết cho 3 là: 
+A. 325.                      B. 240.                            C. 225.                         D. 600. 
+Câu 5. Số nào dưới đây là một bội chung của 3; 4; 5? 
+A. 120.                        
+B. 190.                            C. 145.                         D. 150. 
+Câu 6. Tam giác ABC là tam giác đều, khi đó: 
+A. AB
+BC
+CA
+
+
+. 
+B. AB
+BC
+CA
+
+
+. 
+C. Độ dài 3 cạnh AB, BC, CA khác nhau. 
+D. AB
+BC
+AC
+=
+=
+. 
+Câu 7. Chọn phát biểu đúng trong các phát biểu sau. 
+A. 0 là bội của mọi số tự nhiên.   
+B. Các số nguyên tố nhỏ hơn 12 là 1; 2; 5; 7. 
+
+
+--- TRANG 19 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. 1 là số nguyên tố nhỏ nhất.  
+D. Số 2 là số nguyên tố chẵn duy nhất. 
+Câu 8. Công thức nào sau đây thể hiện tính chất phân phối của phép nhân đối với phép 
+cộng? 
+A. (
+)
+a b
+c
+ab
+ac
++
+=
++
+ . 
+ 
+ 
+ 
+B. 
+(
+)
+(
+)
+a
+b
+c
+a
+b
+c
++
++
+=
++
++
+ .  
+C. ab
+ba
+=
+.  
+ 
+ 
+ 
+ 
+D. (
+)
+(
+)
+ab c
+a bc
+=
+. 
+Câu 9.  Phát biểu nào dưới đây là sai? 
+A. Hình vuông có hai đường chéo vuông góc với nhau. 
+B. Hình lục giác đều có sáu góc bằng nhau. 
+C. Hình tam giác đều có ba đường chéo bằng nhau. 
+D. Hình vuông có bốn góc bằng nhau bằng 900. 
+Câu 10. Cho M = {a; 5; b; c} và N ={d; 3; e; 7} khẳng định sai là: 
+A. 5
+.
+N
+
+ 
+ 
+ 
+B. 3
+.
+N
+
+ 
+ 
+ 
+C. 
+.
+a
+M
+
+       
+   D. 
+.
+c
+M
+
+ 
+Câu 11. Trong các số sau số nào chia hết cho 5 
+A. 553.                
+ 
+B. 12340.             
+ 
+C. 578.      
+ 
+    D. 786. 
+Câu 12. Hình nào trong các hình sau có 2 cạnh đối song song và 2 đường chéo bằng 
+nhau? 
+A. Hình bình hành.      
+ 
+ 
+ 
+ 
+B. Hình thang cân. 
+C. Hình thoi.                
+ 
+ 
+ 
+ 
+D. Hình tam giác đều. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét tính đúng sai của các mệnh đề sau: 
+
+
+--- TRANG 20 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 11 là số nguyên tố. 
+b) 15 là số nguyên tố. 
+c) 17 là số nguyên tố. 
+d) 21 là số nguyên tố. 
+Câu 2. Cho 15 số tự nhiên đầu tiên (từ 0 đến 14). Xét tính đúng sai của các mệnh đề sau: 
+a) Trong các số đã cho, có 2 số chia hết cho cả 2 và 5. 
+b) Trong các số đã cho, có 5 số chia hết cho 9. 
+c) Trong các số đã cho, có 6 số là số nguyên tố. 
+d) Trong các số đã cho, có 5 số là bội của 3. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính diện tích của một hình vuông có chu vi bằng 36 cm (đơn vị: 
+2
+cm ). 
+Câu 2. Tìm số tự nhiên x nhỏ nhất khác 0 sao cho 
+12
+x
+ và 
+18
+x
+. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 
+2
+2
+3.5
+16:2
+−
+; 
+ 
+b) 
+2
+20
+30
+(5 1)
+
+
+−
+−
+−
+
+. 
+Câu 2. Tìm số tự nhiên x, biết: 
+a) 
+–15
+2025.
+x
+=
+ 
+b) 
+(
+)
+39
+– 47
+160.
+x
++
+=
+ 
+Câu 3. Bạn Ánh đi tập gym mỗi ngày. Lượng calo tiêu hao trung bình khi tập mỗi buổi 
+như sau: 
+Câu 4. Tìm số tự nhiên n sao cho (
+) (
+)
+5
+14 
+2
+n
+n
++
++
+
+? 

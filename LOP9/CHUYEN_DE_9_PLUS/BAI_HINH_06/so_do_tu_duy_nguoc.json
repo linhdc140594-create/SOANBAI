@@ -1,0 +1,110 @@
+{
+  "bai_toan": {
+    "ma_bai": "BAI_HINH_06",
+    "nguon": "Đề 06 - Tuyển tập 55 Đề Thi Vào Lớp 10",
+    "mo_hinh": "Hai tiếp tuyến KE, KF từ trung điểm đường cao AH và Ngũ giác nội tiếp đường kính OK (O, D, E, K, F)",
+    "de_bai": "Cho tam giác ABC có ba góc nhọn (AB < AC), đường tròn (O) đường kính BC cắt các cạnh AB, AC lần lượt tại E và F. Gọi H là giao điểm của BF và CE, đoạn thẳng AH cắt BC tại D. a) Chứng minh tứ giác AEHF nội tiếp đường tròn và xác định tâm K của đường tròn đó. b) Chứng minh KE và KF là các tiếp tuyến của đường tròn (O) đường kính BC. c) Chứng minh năm điểm O, D, E, K, F cùng thuộc một đường tròn đường kính OK, và OK là đường trung trực của đoạn thẳng EF."
+  },
+  "mo_hinh_cot_loi": {
+    "bo_de_1": "Bổ đề Tiếp tuyến kép từ trung điểm đường cao: Trung điểm K của đường cao AH là điểm mà từ đó kẻ được hai tiếp tuyến KE và KF tới đường tròn (O) đường kính BC.",
+    "bo_de_2": "Bổ đề Cạnh huyền chung OK: Cả ba điểm E, D, F đều nhìn đoạn thẳng nối hai tâm OK dưới một góc vuông 90 độ (góc KEO = 90 độ do tiếp tuyến, góc KDO = 90 độ do chân đường cao, góc KFO = 90 độ do tiếp tuyến). Do đó 5 điểm O, D, E, K, F cùng nằm trên đường tròn đường kính OK.",
+    "diem_nghen": "Học sinh thường lúng túng khi chứng minh năm điểm cùng thuộc một đường tròn vì quen chứng minh tứ giác nội tiếp. Điểm mấu chốt là nhận ra cạnh huyền chung OK của ba tam giác vuông độc lập."
+  },
+  "so_do_tu_duy_nguoc": [
+    {
+      "tang": 1,
+      "tieu_de": "TẦNG 1: XÁC ĐỊNH ĐÍCH ĐẾN",
+      "muc_tieu": "Chứng minh 5 điểm O, D, E, K, F cùng thuộc đường tròn đường kính OK",
+      "cong_thuc": "O, D, E, K, F \\in (M, \\frac{OK}{2}) \\iff \\widehat{KEO} = \\widehat{KDO} = \\widehat{KFO} = 90^\\circ",
+      "cau_hoi_truy_van": "Để chứng minh 5 điểm cùng thuộc đường tròn đường kính OK, ta cần chứng minh điều gì về các góc tạo bởi ba điểm E, D, F với đoạn OK?",
+      "phan_tich_logic": "Một điểm thuộc đường tròn đường kính OK khi và chỉ khi điểm đó nhìn đoạn OK dưới một góc vuông 90 độ. Do đó ta cần chứng minh ba góc KEO, KDO, KFO đều bằng 90 độ.",
+      "huong_suy_luan_nguoc": "Tại sao các góc KEO, KDO, KFO lại bằng 90 độ?"
+    },
+    {
+      "tang": 2,
+      "tieu_de": "TẦNG 2: XÁC LẬP BA GÓC VUÔNG ĐỘC LẬP",
+      "muc_tieu": "Chứng minh KE vuông góc OE, KD vuông góc OD, KF vuông góc OF",
+      "cong_thuc": "\\begin{cases} KE \\perp OE \\iff \\widehat{KEO} = 90^\\circ \\quad (KE \\text{ là tiếp tuyến của } (O)) \\\\ AD \\perp BC \\iff \\widehat{KDO} = 90^\\circ \\quad (D \\text{ là chân đường cao}) \\\\ KF \\perp OF \\iff \\widehat{KFO} = 90^\\circ \\quad (KF \\text{ là tiếp tuyến của } (O)) \\end{cases}",
+      "cau_hoi_truy_van": "Góc KDO đã vuông chưa? Còn hai góc KEO và KFO vuông vì lý do gì?",
+      "phan_tich_logic": "Góc KDO = 90 độ do AD là đường cao hạ từ trực tâm H xuống BC. Hai góc KEO và KFO bằng 90 độ vì KE và KF là hai tiếp tuyến của đường tròn (O).",
+      "huong_suy_luan_nguoc": "Làm thế nào để chứng minh KE là tiếp tuyến của đường tròn (O)?"
+    },
+    {
+      "tang": 3,
+      "tieu_de": "TẦNG 3: KỸ THUẬT PHÂN RÃ GÓC BẸT CHỨNG MINH TIẾP TUYẾN",
+      "muc_tieu": "Chứng minh góc KEO = 90 độ qua tổng hai góc đáy tam giác cân",
+      "cong_thuc": "\\widehat{KEO} = 180^\\circ - (\\widehat{KEA} + \\widehat{OEB}) = 180^\\circ - (\\widehat{KAE} + \\widehat{OBE}) = 180^\\circ - 90^\\circ = 90^\\circ",
+      "cau_hoi_truy_van": "Ba điểm A, E, B thẳng hàng tạo thành góc bẹt 180 độ. Góc KEO liên hệ như thế nào với góc KEA và OEB?",
+      "phan_tich_logic": "Góc AEB là góc bẹt 180 độ, nên góc KEO = 180 độ - (góc KEA + góc OEB). Nhờ hai tam giác cân đỉnh K và đỉnh O, ta đưa về góc KAE + góc OBE.",
+      "huong_suy_luan_nguoc": "Tại sao góc KAE + góc OBE lại bằng 90 độ?"
+    },
+    {
+      "tang": 4,
+      "tieu_de": "TẦNG 4: HAI TAM GIÁC CÂN VÀ TỔNG GÓC PHỤ NHAU",
+      "muc_tieu": "Quy đổi về hai góc nhọn phụ nhau trong tam giác vuông ABD",
+      "cong_thuc": "\\begin{cases} \\triangle KAE \\text{ cân tại } K \\ (KE=KA=\\frac{AH}{2}) \\implies \\widehat{KEA} = \\widehat{KAE} \\\\ \\triangle OBE \\text{ cân tại } O \\ (OE=OB=R) \\implies \\widehat{OEB} = \\widehat{OBE} \\end{cases} \\quad \\text{và} \\quad \\widehat{BAD} + \\widehat{ABD} = 90^\\circ \\ (\\triangle ABD \\text{ vuông tại } D)",
+      "cau_hoi_truy_van": "Vì sao KE = KA và OE = OB?",
+      "phan_tich_logic": "Tam giác AEH vuông tại E có K là trung điểm cạnh huyền AH => trung tuyến KE = KA = AH/2 => tam giác KAE cân tại K. OE và OB cùng là bán kính của (O) => tam giác OBE cân tại O.",
+      "huong_suy_luan_nguoc": "Yếu tố khởi phát nào tạo ra các tam giác vuông và trực tâm H?"
+    },
+    {
+      "tang": 5,
+      "tieu_de": "TẦNG 5: ĐIỀU KIỆN KHỞI PHÁT - GÓC NỘI TIẾP NỬA ĐƯỜNG TRÒN",
+      "muc_tieu": "Xác lập H là trực tâm tam giác ABC từ đường tròn đường kính BC",
+      "cong_thuc": "E, F \\in (O) \\text{ đường kính } BC \\implies \\widehat{BEC} = \\widehat{BFC} = 90^\\circ \\implies H \\text{ là trực tâm } \\triangle ABC \\implies AD \\perp BC \\text{ tại } D",
+      "cau_hoi_truy_van": "Tại sao CE vuông góc AB và BF vuông góc AC?",
+      "phan_tich_logic": "E và F thuộc đường tròn (O) đường kính BC nên góc BEC và BFC là các góc nội tiếp chắn nửa đường tròn. Suy ra CE và BF là hai đường cao, giao điểm H là trực tâm, kéo theo AD vuông góc BC.",
+      "huong_suy_luan_nguoc": "Chuỗi lập luận đã truy ngược hoàn toàn về giả thiết gốc ban đầu!"
+    }
+  ],
+  "cay_thong_cong_thuc": {
+    "dinh_ngon": "\\boxed{\\mathbf{5 \\text{ ĐIỂM } O, D, E, K, F \\text{ CÙNG THUỘC ĐƯỜNG TRÒN ĐƯỜNG KÍNH } OK}}",
+    "than_cay": [
+      "\\Updownarrow",
+      "\\widehat{KEO} = \\widehat{KDO} = \\widehat{KFO} = 90^\\circ \\quad (\\text{Cùng nhìn đoạn } OK \\text{ dưới góc } 90^\\circ)",
+      "\\Uparrow",
+      "\\text{Đoạn } OK \\text{ là cạnh huyền chung của 3 tam giác vuông } \\triangle KEO, \\triangle KDO, \\triangle KFO"
+    ],
+    "hai_nhanh": {
+      "nhanh_trai": "KE \\perp OE \\iff \\widehat{KEO} = 180^\\circ - (\\widehat{KAE} + \\widehat{OBE}) = 90^\\circ \\quad (\\text{Tiếp tuyến } KE)",
+      "nhanh_phai": "KF \\perp OF \\iff \\widehat{KFO} = 180^\\circ - (\\widehat{KAF} + \\widehat{OCF}) = 90^\\circ \\quad (\\text{Tiếp tuyến } KF)"
+    },
+    "goc_re": "H \\text{ là trực tâm } \\triangle ABC \\implies AD \\perp BC \\text{ tại } D \\implies \\widehat{KDO} = 90^\\circ \\quad \\& \\quad K \\text{ là trung điểm } AH"
+  },
+  "binh_luan_su_pham": {
+    "tai_sao_nghi_ra": "Khi gặp bài toán chứng minh 5 điểm cùng thuộc một đường tròn, thay vì chứng minh nối tiếp hai tứ giác nội tiếp rời rạc, vũ khí mạnh nhất là tìm ra một đoạn thẳng cố định đóng vai trò cạnh huyền chung của các góc vuông 90 độ. Ở đây, trung điểm đường cao K và trung điểm cạnh đáy O tạo ra đoạn thẳng OK. Ba điểm E, D, F lần lượt là hai tiếp điểm và một chân đường cao, hiển nhiên cùng nhìn đoạn nối hai tâm OK dưới góc 90 độ!",
+    "cau_hoi_goi_mo": [
+      "Câu 1: Đoạn thẳng AH có trung điểm là K, tam giác AEH vuông tại E cho ta hệ thức độ dài nào về KE?",
+      "Câu 2: Đoạn thẳng BC có trung điểm là O, bán kính OE và OB có tính chất gì?",
+      "Câu 3: Góc KEO được tính như thế nào qua góc bẹt AEB? Tổng hai góc đáy tam giác cân liên hệ gì với góc vuông tại D?",
+      "Câu 4: Ba điểm E, D, F cùng nhìn đoạn thẳng nào dưới một góc 90 độ? Từ đó suy ra kết luận gì về ngũ giác ODEKF?"
+    ],
+    "sai_lam_thuong_gap": "Học sinh thường quên chứng minh KF là tiếp tuyến (cần chứng minh tương tự hoặc trình bày rõ ràng) mà chỉ chứng minh KE rồi ngộ nhận cho KF. Ở câu chứng minh đường trung trực, cần khẳng định đủ hai cặp đoạn bằng nhau: KE = KF và OE = OF.",
+    "bai_tap_tuong_tu": [
+      "Bài toán phát triển 1: Gọi S là giao điểm của EF và BC. Chứng minh S, E, K, F, D có mối liên hệ điều hòa, và SD . SO = SE . SF = SB . SC.",
+      "Bài toán phát triển 2: Chứng minh đường thẳng nối trực tâm H với trọng tâm G của tam giác ABC đi qua tâm đường tròn ngoại tiếp ngũ giác ODEKF."
+    ]
+  },
+  "loi_giai_chi_tiet": [
+    {
+      "buoc": "Bước 1: Chứng minh tứ giác AEHF nội tiếp đường tròn tâm K đường kính AH",
+      "noi_dung": "Vì E, F thuộc đường tròn (O) đường kính BC nên góc BEC = 90 độ và BFC = 90 độ (góc nội tiếp chắn nửa đường tròn) => CE vuông góc AB tại E và BF vuông góc AC tại F. Xét tứ giác AEHF có góc AEH + AFH = 90 độ + 90 độ = 180 độ => Tứ giác AEHF nội tiếp đường tròn đường kính AH. Tâm K của đường tròn này là trung điểm của AH.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 2: Chứng minh KE và KF là các tiếp tuyến của đường tròn (O)",
+      "noi_dung": "Trong tam giác vuông AEH vuông tại E có trung tuyến KE = KA = AH/2 => tam giác KAE cân tại K => góc KEA = KAE. Lại có OE = OB = R => tam giác OBE cân tại O => góc OEB = OBE. Ta có góc KEO = 180 độ - (KEA + OEB) = 180 độ - (KAE + OBE). Mà tam giác ABD vuông tại D có góc KAE + OBE = 90 độ, nên góc KEO = 180 độ - 90 độ = 90 độ => KE vuông góc OE tại E thuộc (O) => KE là tiếp tuyến của (O). Chứng minh tương tự, KF vuông góc OF tại F thuộc (O) => KF là tiếp tuyến của (O).",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 3: Chứng minh năm điểm O, D, E, K, F cùng thuộc đường tròn đường kính OK",
+      "noi_dung": "Ta có: góc KEO = 90 độ (do KE là tiếp tuyến), góc KFO = 90 độ (do KF là tiếp tuyến). Lại có H là trực tâm tam giác ABC nên AH vuông góc BC tại D => góc KDO = 90 độ. Do đó ba điểm E, D, F cùng nhìn đoạn thẳng OK dưới một góc vuông 90 độ, suy ra năm điểm O, D, E, K, F cùng thuộc đường tròn đường kính OK (đpcm).",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 4: Chứng minh OK là đường trung trực của đoạn thẳng EF",
+      "noi_dung": "Vì KE và KF là hai tiếp tuyến cắt nhau tại K của đường tròn (O) nên KE = KF. Lại có OE = OF = R (bán kính của (O)). Do đó K và O cùng cách đều hai đầu mút của đoạn thẳng EF, suy ra đường thẳng OK chính là đường trung trực của đoạn thẳng EF (đpcm).",
+      "diem": "0.75đ"
+    }
+  ]
+}

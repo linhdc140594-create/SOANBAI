@@ -91,3 +91,11 @@ Mỗi khi nhận yêu cầu làm phiếu kiểm tra cho bất kỳ tuần/buổi
   \dongke{#1}%
 }
 ```
+
+---
+
+## 🤖 QUY TẮC BỔ SUNG: CHỮA CÂU HÌNH VÀ CÂU BẤT ĐẲNG THỨC BẰNG API
+* Khi nhận bất kỳ đề thi nào cần soạn đề và lời giải:
+  - Đối với các câu **Hình học** và **Bất đẳng thức / Cực trị phân hóa (câu điểm 9+ / 10)**:
+  - **Bắt buộc sử dụng API** (qua các script gọi `APIVN_BASE_URL`, `APIVN_API_KEY` từ `.env`, model `claude-sonnet-5-5`) để tham vấn, phản biện, giải chi tiết từng bước, kiểm chứng chặt chẽ các trường hợp/điều kiện dấu bằng và xây dựng barem điểm tối ưu trước khi đưa vào bản PDF Lời giải chính thức.
+

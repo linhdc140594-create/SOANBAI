@@ -1,0 +1,655 @@
+--- TRANG 26 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 7  
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các biểu thức sau, biểu thức nào không phải là đơn thức? 
+A. 
+2
+2xy
+−
+ 
+ 
+ 
+B. 7  
+ 
+C. 
+2
+x
+y
++
+ 
+ 
+ 
+D. 
+3x y 
+Câu 2. Cặp đơn thức nào sau đây là hai đơn thức đồng dạng? 
+A. 
+2
+2x y và 
+2
+2xy 
+ 
+ 
+ 
+B. 
+3
+2
+3x y
+−
+ và 
+3
+2
+5x y 
+C. 
+2
+4x và 
+3
+4x 
+ 
+ 
+ 
+D. 
+2x y và xy 
+Câu 3. Bậc của đa thức 
+2
+4
+5
+2
+3
+2
+5
+Q
+x y
+x y
+x y
+=
+−
++
+− là: 
+A. 6  
+ 
+ 
+B. 5  
+ 
+C. 4  
+ 
+ 
+D. 3 
+Câu 4. Kết quả của phép nhân 
+2
+3
+(2
+)
+x
+x
+y
+−
+
+−
+ là: 
+A. 
+3
+2
+6
+3
+x
+x y
+−
+−
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+2
+6
+3
+x
+x y
+−
++
+ 
+C. 
+2
+2
+6
+3
+x
+x y
+−
++
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+6
+3
+x
+x y
+−
+ 
+Câu 5. Biểu thức 
+2
+2
+4
+x
+y
+−
+ được viết dưới dạng tích là: 
+A. 
+2
+(
+2 )
+x
+y
+−
+  
+ 
+ 
+ 
+ 
+B. (
+4 )(
+4 )
+x
+y x
+y
+−
++
+ 
+C. (
+2 )(
+2 )
+x
+y x
+y
+−
++
+  
+ 
+ 
+ 
+D. 
+2
+(
+2 )
+x
+y
++
+ 
+Câu 6. Đa thức 
+2
+6
+9
+x
+x
+−
++ được viết dưới dạng bình phương của một hiệu là: 
+A. 
+2
+(
+3)
+x −
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+(
+3)
+x +
+ 
+ 
+ 
+C. 
+2
+(
+9)
+x −
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+(
+9)
+x +
+ 
+
+
+--- TRANG 27 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 7. Kết quả của phép tính 
+3
+4
+2
+( 15
+):(3
+)
+x y
+xy
+−
+ là: 
+A. 
+2
+2
+5x y
+−
+ 
+ 
+ 
+B. 
+2
+2
+5x y 
+ 
+C. 
+4
+6
+5x y
+−
+ 
+ 
+ 
+D. 
+2
+5x y
+−
+ 
+Câu 8. Cho tứ giác EFGH có ˆ
+70
+E
+
+=
+, ˆ
+110
+F
+
+=
+, ˆ
+80
+G
+
+=
+. Số đo góc H là: 
+A. 100 
+ 
+ 
+B. 90  
+ 
+C. 80  
+ 
+ 
+D. 110 
+Câu 9. Tứ giác có các cạnh đối song song là: 
+A. Hình thang 
+ 
+ 
+ 
+ 
+B. Hình bình hành 
+C. Hình thoi  
+ 
+ 
+ 
+ 
+D. Hình chữ nhật 
+Câu 10. Hình bình hành có hai đường chéo vuông góc với nhau là: 
+A. Hình chữ nhật 
+ 
+ 
+ 
+ 
+B. Hình vuông 
+C. Hình thoi  
+ 
+ 
+ 
+ 
+D. Hình thang cân 
+Câu 11. Mặt đáy của hình chóp tam giác đều là: 
+A. Tam giác vuông  
+ 
+ 
+ 
+B. Tam giác cân 
+C. Tam giác đều 
+ 
+ 
+ 
+ 
+D. Hình vuông 
+Câu 12. Cho hình chóp tam giác đều có độ dài cạnh đáy bằng 4 cm và độ dài trung đoạn 
+bằng 9 cm . Diện tích xung quanh của hình chóp đó là: 
+A. 
+2
+54 cm 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+108 cm 
+ 
+ 
+ 
+C. 
+2
+36 cm 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+27 cm 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+2
+1
+2
+:
+4
+2
+2
+x
+A
+x
+x
+x
+
+
+=
++
+
+
+−
++
+−
+
+
+ với 
+2
+x . Xét tính đúng sai của các mệnh 
+đề sau: 
+
+
+--- TRANG 28 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Mẫu thức chung của hai phân thức trong ngoặc là 
+2
+4
+x −. 
+b) Kết quả rút gọn biểu thức trong ngoặc là 
+2
+2
+2
+4
+x
+x
+−
+−
+. 
+c) Kết quả rút gọn của biểu thức A là 
+1
+2
+x
+x
+−
++
+. 
+d) Có đúng 2 giá trị nguyên của x để biểu thức A nhận giá trị nguyên. 
+Câu 2. Hàm số bậc nhất 
+(
+1)
+2
+3
+y
+m
+x
+m
+=
+−
++
+− (với 
+1
+m ) có đồ thị là đường thẳng ( )
+d . Xét 
+tính đúng sai của các mệnh đề sau: 
+a) Với 
+2
+m = , hàm số đồng biến trên . 
+b) Với 
+0
+m = , đồ thị ( )
+d đi qua điểm 
+(1; 4)
+A
+−
+. 
+c) Đường thẳng ( )
+d song song với đường thẳng 
+2
+1
+y
+x
+=
++ khi 
+3
+m =
+. 
+d) Khoảng cách từ gốc tọa độ O đến đường thẳng ( )
+d khi 
+2
+m =
+ bằng 
+5 . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính giá trị của biểu thức 
+2
+2
+(
+2 )
+(
+2 )
+A
+x
+y
+x
+y
+=
++
+−
+−
+ tại 
+25
+x =
+ và 
+1
+2
+y =
+. 
+Câu 2. Tìm các giá trị của x , biết: 
+3
+4
+0
+x
+x
+−
+=
+. 
+Phần IV. Tự luận 
+Câu 1. Rút gọn các biểu thức: 
+a) 
+(
+)
+2
+5
+3
+2
+6
+y
+x
+x
+y
+x
+−
+−
+;                                       b) (
+) (
+)
+2
+4
+4
+2
+2
+3
+3
+9
+15
+:
+x y
+x y
+xy
+xy
+−
++
+; 
+c) (
+) (
+)
+2
+2
+-
+3
+3
+x
+x
+−
++
+. 
+Câu 2. Tìm x , biết: 
+a) 
+2
+2 (
+5)
+2
+20
+x x
+x
+−
+−
+=
+; 
+b) 
+2
+(
+3)
+(
+2)
+11
+x
+x x
++
+−
+−
+=
+; 
+ 
+c) 
+2
+9
+(
+3)(2
+1)
+0
+x
+x
+x
+−+
+−
++
+=
+. 
+Câu 3. Do ảnh hưởng của một cơn bão, một cây cột điện có phương thẳng đứng đã bị gió 
+
+
+--- TRANG 29 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+bão làm gãy ngang thân (như hình vẽ bên dưới), ngọn cây cột điện chạm đất cách gốc 4m, 
+chiều cao từ gốc cây cột điện đến điểm gãy là 3m. Tính chiều cao ban đầu của cây cột điện. 
+ 
+ 
+ 
+  
+ 
+ 
+Câu 4. Tìm giá trị nhỏ nhất của biểu thức: 
+2
+2
+2
+2
+4
+2026
+P
+x
+y
+xy
+y
+=
++
+−
+−
++
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3m
+4m
+B
+A
+C

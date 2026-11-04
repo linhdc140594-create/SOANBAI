@@ -1,0 +1,64 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_18 (TRÍCH ĐỀ 18)
+\begin{ex}
+% Câu 13
+	Cho tam giác $ABC$ vuông tại $A$. Lấy điểm $M$ bất kì trên đoạn $AC$, đường tròn đường kính $CM$ cắt hai đường thẳng $BM, BC$ lần lượt tại $D, N$.
+	\begin{enumerate}
+		\item[a)] Chứng minh bốn điểm $A, B, C, D$ cùng nằm trên một đường tròn.
+		\item[b)] Chứng minh: $BM \cdot BD = BN \cdot BC$ và các đường thẳng $AB, MN, CD$ cùng đi qua một điểm.
+	\end{enumerate}
+\loigiai{
+{
+	\begin{center}
+	\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+		% Def
+		\def\r{3} % This was in your template, not used in this specific drawing directly
+		
+		% Coordinates
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (0,5);
+		\coordinate (C) at (4,0);
+		\coordinate (T) at (0,-2);
+		\coordinate (D) at (14/5, -3/5);  % (2.8, -0.6)
+		\coordinate (N) at (140/41, 30/41); % approx (3.41, 0.73)
+		\coordinate (M) at (5/2, 0);    % (2.5, 0)
+		\coordinate (I) at (13/4, 0);   % (3.25, 0)
+		
+		% Draw
+		% Draw circle (I, MC/2), radius is 0.75
+		\draw (I) circle (0.75);
+		
+		% Draw B-T-C-B
+		\draw (B) -- (T) -- (C) -- cycle;
+		
+		% Draw M-A-D-M-C-N-M-B
+		\draw (M) -- (A) -- (D) -- (M) -- (C) -- (N) -- (M) -- (B);
+		
+		% Fill points
+		\fill (A) circle (1.5pt);
+		\fill (B) circle (1.5pt);
+		\fill (C) circle (1.5pt);
+		\fill (T) circle (1.5pt);
+		\fill (D) circle (1.5pt);
+		\fill (N) circle (1.5pt);
+		\fill (M) circle (1.5pt);
+		\fill (I) circle (1.5pt);
+		
+		% Node points
+		\node[below left] at (A) {$A$};
+		\node[above left] at (B) {$B$};
+		\node[below right] at (C) {$C$};
+		\node[below left] at (T) {$T$};
+		\node[below right] at (D) {$D$};
+		\node[above right] at (N) {$N$};
+		\node[below] at (M) {$M$}; % M is on x-axis, below should be fine
+		\node[below right] at (I) {$I$}; % I is on x-axis, below right
+		
+		% Ky hieu goc vuong
+		\pic[draw, angle radius=3mm]{right angle = C--A--B}; % BAC
+		\pic[draw, angle radius=3mm]{right angle = M--N--C}; % MNC
+		\pic[draw, angle radius=3mm]{right angle = M--D--C}; % MDC
+		
+	\end{tikzpicture}	
+	\end{center}
+}
+\end{ex}

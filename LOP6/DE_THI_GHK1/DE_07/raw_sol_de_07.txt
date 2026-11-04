@@ -1,0 +1,652 @@
+--- TRANG 108 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ĐỀ SỐ 7  
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+
+
+--- TRANG 109 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Viết tập hợp các chữ số của số 2025 ? 
+A. 
+
+2;0;2;5 .  
+ 
+ 
+ 
+ 
+B. 
+
+2;2;5 . 
+ 
+C. 
+
+2;0;2 .  
+ 
+ 
+ 
+ 
+D. 
+
+0;2;5 . 
+Lời giải. Số 2025 gồm các chữ số 2, 0, 5. Trong một tập hợp, mỗi phần tử chỉ được viết 
+một lần. Do đó, tập hợp các chữ số là {0;2;5}. Đáp án đúng: D. 
+Câu 2. Hãy so sánh hai số tự nhiên 
+52 136 001
+n =
+ và 
+52 135 998?
+m =
+ 
+A. 
+.
+n
+m
+=
+                     
+B. 
+. 
+n
+m
+
+ 
+ 
+ 
+C. 
+.
+n
+m
+
+                      D. 
+.
+n
+m
+
+ 
+Lời giải. So sánh hai số từ hàng cao nhất đến hàng thấp nhất:  
+• Hai số có cùng các chữ số ở hàng chục triệu, hàng triệu, hàng trăm nghìn và hàng 
+chục nghìn.  
+• Ở hàng nghìn, ta có 6
+5
+
+.  
+Do đó n
+m
+
+.  Đáp án đúng: B. 
+Câu 3. Tính vận tốc của một ô tô biết rằng trong 6 giờ ô tô đi được 324km. 
+A. 48 km/h                    
+B. 51 km/h                  
+C. 54 km/h                 D. 57 km/h 
+Lời giải. Vận tốc của ô tô là: 
+324:6
+54 (km/h)
+v =
+=
+.  
+Đáp án đúng: C. 
+ 
+Câu 4. Công thức tính diện tích của hình bình hành là có độ dài cạnh a, b  và đường cao h: 
+
+
+--- TRANG 110 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+A. S = ab. 
+ 
+B. S = 1
+2 ah. 
+C. S = 1
+2 bh. 
+ 
+D. S = ah. 
+Lời giải. Diện tích hình bình hành bằng độ dài cạnh đáy nhân với chiều cao tương ứng. 
+Trên hình vẽ, chiều cao h vuông góc với cạnh đáy a , do đó S
+ah
+=
+.  
+Đáp án đúng: D. 
+Câu 5.  Bạn An có 125000 đồng mang đến tiệm tạp hóa để mua bút gel (bút nước), biết 
+bút gel Thiên Long GEL-B01 có giá khoảng 6900 đồng một chiếc. Hỏi bạn An có thể mua 
+được nhiều nhất bao nhiêu chiếc bút gel Thiên Long GEL-B01? 
+A. 0 chiếc. 
+ 
+B. 18 chiếc. 
+ 
+C. 19 chiếc. 
+ 
+D. 10 chiếc. 
+Lời giải. Ta thực hiện phép chia:125000:6900
+18 (du 800)
+=
+. 
+Vậy bạn An có thể mua được nhiều nhất 18 chiếc bút. Đáp án đúng: B. 
+Câu 6.  Hình nào sau đây có các cạnh bằng nhau? 
+A. Hình tam giác đều, hình thoi, hình thang cân. 
+B. Hình tam giác đều, hình bình hành, hình thang cân. 
+C. Hình tam giác đều, hình thoi, hình vuông. 
+D. Hình tam giác đều, hình bình hành, hình vuông. 
+
+
+--- TRANG 111 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. Tam giác đều có 3 cạnh bằng nhau, hình thoi có 4 cạnh bằng nhau, hình vuông có 
+4 cạnh bằng nhau. 
+Đáp án đúng: C. 
+Câu 7. Hãy chọn đáp án sai: Cho hình bình hành ABCD 
+ 
+A. AB = CD, AD = BC.                                                        C. AB = BC = CD = DA. 
+B. AB song song với CD, AD song song với BC.                D. Đáp án A và B. 
+Lời giải. Hình bình hành có các cạnh đối bằng nhau ( AB
+CD
+=
+, AD
+BC
+=
+). Khẳng định 
+AB
+BC
+CD
+DA
+=
+=
+=
+ chỉ đúng với hình thoi hoặc hình vuông, không đúng với hình bình 
+hành tổng quát.  
+Đáp án đúng: C. 
+Câu 8. Cho 24 x
+  và 10
+15
+x
+
+
+. Vậy x có giá trị bằng  
+A. 12.  
+ 
+  
+B. 13.             
+C. 14.  
+            D. 10. 
+Lời giải. Các ước của 24 là 1;2;3;4;6;8;12;24. Giá trị thỏa mãn 10
+15
+x
+
+
+ là 
+12
+x =
+. Đáp 
+án đúng: A. 
+Câu 9.  Biểu diễn tập hợp 
+
+
+1;2;3;4;5
+H =
+ bằng cách chỉ ra tính chất đặc trưng của nó là:  
+A. 
+.
+{
+|
+5}
+H
+x
+x
+=
+
+
+
+         
+ 
+ 
+B. 
+.
+{
+|
+5}
+H
+x
+x
+=
+
+
+
+ 
+C. 
+*
+5 .
+{
+|
+}
+H
+x
+x
+=
+
+
+
+       
+ 
+  
+D. 
+*
+5 .
+{
+|
+}
+H
+x
+x
+=
+
+
+
+ 
+Lời giải. Tập hợp H gồm các số tự nhiên khác 0 nhỏ hơn hoặc bằng 5, viết là 
+*
+{
+5}
+H
+x
+x
+=
+
+
+∣
+. Đáp án đúng: C. 
+ 
+
+
+--- TRANG 112 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 10. Trong các phân số sau phân số nào là phân số tối giản ? 
+A. 26.
+39 
+ 
+ 
+B.  15
+12 . 
+ 
+ 
+C. 27
+42 . 
+ 
+ 
+D. 3
+16 . 
+Lời giải.  
+26
+2
+39
+3
+=
+ 
+15
+5
+12
+4
+=
+ 
+27
+9
+42
+14
+=
+. 
+Phân số 3
+16 có tử số và mẫu số không cùng chia hết cho số tự nhiên nào lớn hơn 1, nên là 
+phân số tối giản. 
+Đáp án đúng: D. 
+Câu 11. Số tự nhiên nào sau đây là ước của 12? 
+A. 0.  
+ 
+ 
+B. 4.  
+ 
+ 
+C. 5.  
+ 
+ 
+D. 10. 
+Lời giải. Ta có 12: 4
+3
+= , nên 4 là ước của 12. Đáp án đúng: B. 
+Câu 12. Nêu cách đọc số 123 875? 
+A. Một trăm hai ba nghìn tám trăm bảy mươi lăm. 
+B. Một hai ba nghìn tám bảy năm.  
+C. Một trăm hai ba tám trăm bảy năm. 
+D. Một trăm hai ba nghìn bảy trăm tám mươi lăm. 
+Lời giải. Số 123875 đọc là "Một trăm hai ba nghìn tám trăm bảy mươi lăm". 
+Đáp án đúng: A. 
+
+
+--- TRANG 113 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+3
+2
+3
+5
+M =
+−. Xét tính đúng sai của các mệnh đề sau: 
+a) Giá trị của lũy thừa 
+3
+2 là 6. 
+b) Khi tính giá trị biểu thức M , ta thực hiện phép nhân trước, phép trừ sau. 
+c) Giá trị của biểu thức M là 19. 
+d) Giá trị của biểu thức M là một số nguyên tố. 
+Lời giải.  
+a) Sai. Giá trị của lũy thừa 
+3
+2 là 2 2 2
+8
+
+= . 
+b) Sai. Theo quy tắc thứ tự thực hiện phép tính, ta phải tính lũy thừa trước, sau đó đến phép 
+nhân, và cuối cùng mới thực hiện phép trừ. 
+c) Đúng. Ta tính được 
+8 3
+5
+24
+5
+19
+M = −
+=
+−
+=
+. 
+d) Đúng. Số 19 lớn hơn 1 và chỉ có hai ước là 1 và 19 nên đây là số nguyên tố. 
+Câu 2.  Cho hình chữ nhật ABCD có chiều dài 
+8 cm
+AB =
+ và chiều rộng 
+6 cm
+BC =
+. Xét 
+tính đúng sai của các mệnh đề sau: 
+a) Bốn cạnh của hình chữ nhật ABCD có độ dài bằng nhau. 
+b) Các cạnh đối diện AB và CD song song và bằng nhau. 
+c) Hai đường chéo AC và BD vuông góc với nhau. 
+d) Chu vi của hình chữ nhật ABCD là 28 cm . 
+Lời giải. 
+a) Sai. Hình chữ nhật chỉ có các cạnh đối diện bằng nhau, không phải bốn cạnh bằng nhau. 
+
+
+--- TRANG 114 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+b) Đúng. Trong hình chữ nhật, các cặp cạnh đối diện luôn song song và có độ dài bằng nhau. 
+c) Sai. Hai đường chéo của hình chữ nhật bằng nhau nhưng không vuông góc với nhau. 
+d) Đúng. Chu vi hình chữ nhật được tính bằng (8
+6) 2
+28 cm
++
+
+=
+. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tìm các chữ số ,x y để số 35 98
+x
+y chia hết cho cả 2 , 5 và 9 ? 
+Lời giải. Để số 35 98
+x
+y chia hết cho cả 2 và 5 thì 
+0
+y = . 
+Ta có số 35 980
+x
+.  
+Để số này chia hết cho 9 thì tổng các chữ số (3
+5
+9
+8
+0) 9
+x
++ +
++
++ +
+, tức là (25
+) 9
+x
++
+. 
+Do x là chữ số nên 
+2
+x =
+. 
+Đáp án: 
+2;
+0
+x
+y
+=
+= . 
+Câu 2. Một hình thoi có độ dài hai đường chéo lần lượt là 8 cm và 10 cm . Tính diện tích 
+của hình thoi đó (đơn vị: 
+2
+cm )? 
+Lời giải. Diện tích của hình thoi là: 
+2
+(8 10): 2
+40 (cm )
+
+=
+. 
+Đáp án: 40 . 
+Phần IV. Tự luận 
+Câu 1. a) Thực hiện tính: 
+(
+)
+
+
+2
+2
+6250: 50 : 112
+32
+2 .5
+
+
+−
+−
+
+. 
+     b) Tìm x Ư (
+)
+30 và 
+10
+x 
+? 
+Lời giải. 
+a) 
+2
+2
+6250:{50 :[112
+(32
+2
+5)]}
+−
+−
+
+ 
+6250:{2500:[112
+(32
+20)]}
+=
+−
+−
+ 
+
+
+--- TRANG 115 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+6250:{2500:[112 12]}
+=
+−
+ 
+6250:{2500:100}
+=
+ 
+6250: 25
+250
+=
+=
+.  
+b) 
+(30)
+{1;2;3;5;6;10;15;30}
+U
+=
+ 
+Vì 
+10
+x 
+ nên 
+{1;2;3;5;6}
+x
+. 
+Câu 2. Phân tích các số sau ra thừa số nguyên tố. 
+a) 60;                                   b) 125. 
+Lời giải.  
+a) 
+2
+60
+2
+3 5
+=
+. 
+b) 
+3
+125
+5
+=
+. 
+ 
+Câu 3.  a) Vẽ tam giác đều có độ dài cạnh bằng 3 cm. 
+b) Tính chu vi và diện tích mảnh đất có hình vẽ dưới đây. 
+ 
+Lời giải. 
+a) Cách vẽ tam giác đều cạnh 3 cm :  
+• Vẽ đoạn thẳng 
+3 cm
+AB =
+. 
+
+
+--- TRANG 116 ---
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+• Dùng compa vẽ đường tròn tâm A bán kính 3 cm và đường tròn tâm B bán kính 
+3 cm .  
+• Hai đường tròn cắt nhau tại điểm C .  
+• Nối C với A và B ta được tam giác đều ABC cạnh 3 cm . 
+b) Độ dài hai cạnh còn thiếu: 
+24 15
+9 (cm)
+CD =
+−
+=
+ và 
+18
+9
+9 (cm)
+DE =
+−
+=
+. 
+Chu vi mảnh đất: 15
+9
+9
+9
+24 18
+84 (cm)
++
++
++
++
++
+=
+. 
+Diện tích mảnh đất bằng tổng diện tích hai hình chữ nhật ABCG và GFED : 
+2
+15 9
+24 9
+135
+216
+351 (cm )
++
+=
++
+=
+. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

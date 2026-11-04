@@ -1,0 +1,153 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9
+	Rút gọn các biểu thức sau:
+	$P=\left(\frac{3\sqrt{x}+6}{x-4}+\frac{\sqrt{x}}{\sqrt{x}-2}\right) \cdot \frac{\sqrt{x}-3}{x-9}$ (Với $x \ge 0; x \ne 4, x \ne 9$)
+	\loigiai{
+		Điều kiện: $x \ge 0; x \ne 4, x \ne 9$.
+		Ta có:
+		\begin{align*}
+			P &= \left(\frac{3\sqrt{x}+6}{(\sqrt{x}-2)(\sqrt{x}+2)}+\frac{\sqrt{x}(\sqrt{x}+2)}{(\sqrt{x}-2)(\sqrt{x}+2)}\right) \cdot \frac{\sqrt{x}-3}{(\sqrt{x}-3)(\sqrt{x}+3)} \\
+			&= \frac{3\sqrt{x}+6+x+2\sqrt{x}}{(\sqrt{x}-2)(\sqrt{x}+2)} \cdot \frac{1}{\sqrt{x}+3} \\
+			&= \frac{x+5\sqrt{x}+6}{(\sqrt{x}-2)(\sqrt{x}+2)} \cdot \frac{1}{\sqrt{x}+3} \\
+			&= \frac{(\sqrt{x}+2)(\sqrt{x}+3)}{(\sqrt{x}-2)(\sqrt{x}+2)} \cdot \frac{1}{\sqrt{x}+3} \\
+			&= \frac{\sqrt{x}+3}{\sqrt{x}-2} \cdot \frac{1}{\sqrt{x}+3} \\
+			&= \frac{1}{\sqrt{x}-2}
+		\end{align*}
+		Vậy, với $x \ge 0; x \ne 4, x \ne 9$ thì $P = \frac{1}{\sqrt{x}-2}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Giải hệ phương trình $ \begin{cases} x+y=5 \\ 2x-y=1 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} x+y=5 \quad &(1) \\ 2x-y=1 \quad &(2) \end{cases} $
+		Cộng vế theo vế của phương trình (1) và (2), ta được:
+		\begin{align*}
+			(x+y) + (2x-y) &= 5+1 \\
+			x+y+2x-y &= 6 \\
+			3x &= 6 \\
+			x &= 2
+		\end{align*}
+		Thay $x=2$ vào phương trình (1):
+		\begin{align*}
+			2+y &= 5 \\
+			y &= 5-2 \\
+			y &= 3
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (2;3)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Gọi $x_1, x_2$ là hai nghiệm của phương trình: $x^2-3x-7=0$. Không giải phương trình, hãy tính các giá trị của các biểu thức: $N=(3x_1+x_2)(3x_2+x_1) \cdot |x_1-x_2|$.
+	\loigiai{
+		Phương trình đã cho là $x^2-3x-7=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = - \frac{-3}{1} = 3 \\ x_1 x_2 = \frac{-7}{1} = -7 \end{cases} $
+		Biến đổi phần $(3x_1+x_2)(3x_2+x_1)$:
+		\begin{align*}
+			(3x_1+x_2)(3x_2+x_1) &= 9x_1x_2 + 3x_1^2 + 3x_2^2 + x_1x_2 \\
+			&= 10x_1x_2 + 3(x_1^2+x_2^2) \\
+			&= 10x_1x_2 + 3((x_1+x_2)^2 - 2x_1x_2) \\
+			&= 10x_1x_2 + 3(x_1+x_2)^2 - 6x_1x_2 \\
+			&= 4x_1x_2 + 3(x_1+x_2)^2
+		\end{align*}
+		Thay giá trị từ hệ thức Vi-ét vào:
+		$4(-7) + 3(3)^2 = -28 + 3(9) = -28 + 27 = -1$.
+		
+		Tính $|x_1-x_2|$:
+		$(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2 = (3)^2 - 4(-7) = 9 + 28 = 37$.
+		Suy ra $|x_1-x_2| = \sqrt{37}$.
+		
+		Vậy, giá trị của biểu thức N là:
+		\begin{align*}
+			N &= (-1) \cdot \sqrt{37} \\
+			&= -\sqrt{37}
+		\end{align*}
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Một hộp có 20 viên bi với kích thước và khối lượng như nhau. Bạn An viết lên các viên bi đó các số $1, 2, 3, \dots, 20$; hai viên bi khác nhau thì viết hai số khác nhau. Xét phép thử “Lấy ngẫu nhiên một viên bi trong hộp”. Tính xác suất biến cố: “Số xuất hiện trên viên bi được lấy ra chia cho 7 dư 1”.
+	\loigiai{
+		Không gian mẫu $\Omega$ là tập hợp các số được viết trên 20 viên bi.
+		Các phần tử của không gian mẫu là:
+		$\Omega = \{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20\}$.
+		Số phần tử của không gian mẫu là $n(\Omega) = 20$.
+		
+		Gọi A là biến cố: “Số xuất hiện trên viên bi được lấy ra chia cho 7 dư 1”. các phần tử của biến cố A là $A = \{1, 8, 15\}$.
+		Số phần tử của biến cố A là $n(A) = 3$.
+		
+		Xác suất của biến cố A là:
+		$P(A) = \frac{n(A)}{n(\Omega)} = \frac{3}{20}$.
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Một ô tô đi quãng đường AB với vận tốc 50km/h rồi đi tiếp quãng đường BC với vận tốc 45km/h. Biết quãng đường tổng cộng dài 165km và thời gian ô tô đi trên quãng đường AB ít hơn thời gian đi trên quãng đường BC là 30 phút. Tính thời gian ô tô đi trên mỗi quãng đường?
+	\loigiai{
+		Gọi $x$ (km) là độ dài quãng đường AB.
+		Điều kiện: $0 < x < 165$.
+		
+		Khi đó, độ dài quãng đường BC là: $165 - x$ (km).
+		
+		Thời gian ô tô đi trên quãng đường AB là:
+		$t_{AB} = \frac{\text{Quãng đường AB}}{\text{Vận tốc trên AB}} = \frac{x}{50}$ (giờ).
+		
+		Thời gian ô tô đi trên quãng đường BC là:
+		$t_{BC} = \frac{\text{Quãng đường BC}}{\text{Vận tốc trên BC}} = \frac{165-x}{45}$ (giờ).
+		
+		Đổi 30 phút = $\frac{1}{2}$ giờ = 0,5 giờ.
+		
+		Theo đề bài, thời gian ô tô đi trên quãng đường AB ít hơn thời gian đi trên quãng đường BC là 30 phút, nên ta có phương trình:
+		$t_{BC} - t_{AB} = 0,5$
+		Hoặc $t_{AB} = t_{BC} - 0,5$
+		\begin{align*}
+			\frac{x}{50} &= \frac{165-x}{45} - 0,5
+		\end{align*}
+		Để giải phương trình, ta quy đồng mẫu số. Mẫu số chung nhỏ nhất của 50 và 45 là 450.
+		Nhân cả hai vế của phương trình với 450:
+		\begin{align*}
+			450 \cdot \frac{x}{50} &= 450 \cdot \frac{165-x}{45} - 450 \cdot 0,5 \\
+			9x &= 10(165-x) - 225 \\
+			9x &= 1650 - 10x - 225 \\
+			9x + 10x &= 1650 - 225 \\
+			19x &= 1425 \\
+			x &= \frac{1425}{19} \\
+			x &= 75
+		\end{align*}
+		Vậy, quãng đường AB dài 75 km.
+		Quãng đường BC dài là $165 - 75 = 90$ km.
+		
+		Bây giờ, ta tính thời gian ô tô đi trên mỗi quãng đường:
+		Thời gian đi trên quãng đường AB là:
+		$t_{AB} = \frac{x}{50} = \frac{75}{50} = 1,5$ (giờ).
+		
+		Thời gian đi trên quãng đường BC là:
+		$t_{BC} = \frac{165-x}{45} = \frac{165-75}{45} = \frac{90}{45} = 2$ (giờ).
+		
+		Kiểm tra lại điều kiện thời gian: $t_{BC} - t_{AB} = 2 - 1,5 = 0,5$ giờ (đúng bằng 30 phút).
+		
+		Vậy, thời gian ô tô đi trên quãng đường AB là 1,5 giờ (hay 1 giờ 30 phút).
+		Thời gian ô tô đi trên quãng đường BC là 2 giờ.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho nửa đường tròn $(O)$ đường kính $AB$. Điểm $M$ thuộc nửa đường tròn, điểm $C$ thuộc đoạn $OA$. Trên nửa mặt phẳng bờ là đường thẳng $AB$ chứa điểm $M$ vẽ tiếp tuyến $Ax, By$. Đường thẳng qua $M$ vuông góc với $MC$ cắt $Ax, By$ lần lượt tại $P$ và $Q$; $AM$ cắt $CP$ tại $E$, $BM$ cắt $CQ$ tại $F$.
+	\begin{enumerate}[a)]
+		\item Chứng minh bốn điểm $A; P; M; C$ nằm trên một đường tròn.
+		\item Chứng minh góc $PCQ = 90^\circ$ và $AB \parallel EF$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	\begin{enumerate}[a)]
+		\item Một trang chữ của một tạp chí cần diện tích là $384\text{cm}^2$. Lề trên, lề dưới là $3\text{cm}$; lề phải, lề trái là $2\text{cm}$. Hỏi chiều ngang và chiều dọc tối ưu của trang giấy lần lượt là bao nhiêu để diện tích trang giấy là nhỏ nhất?
+		\item Cho các số thực dương $a, b, c$ thoả mãn $a+b+c = \frac{1}{abc}$.
+		Tìm giá trị nhỏ nhất của biểu thức $P = (a+b)(a+c)$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

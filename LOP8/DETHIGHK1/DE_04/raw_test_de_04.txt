@@ -1,0 +1,602 @@
+--- TRANG 14 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 4 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Trong các biểu thức sau, biểu thức nào là đơn thức? 
+A. 
+2
+3x y . 
+ 
+ 
+B. 2x
+y
++
+. 
+ 
+ 
+C. 
+2
+1
+x −. 
+ 
+ 
+D. x
+y . 
+Câu 2. Đơn thức nào sau đây đồng dạng với đơn thức 
+2
+3
+5x y
+−
+? 
+A. 
+3
+2
+2x y 
+ 
+ 
+B. 
+2
+3
+7x y 
+ 
+ 
+C. 
+3
+5xy
+−
+ 
+ 
+       D. 
+2
+2
+3x y 
+Câu 3. Bậc của đa thức 
+2
+3
+3
+3
+4
+5
+2
+1
+P
+x y
+x y
+xy
+=
+−
++
+− là: 
+A. 5  
+ 
+ 
+B. 6  
+ 
+ 
+C. 4  
+ 
+ 
+D. 2 
+Câu 4. Kết quả của phép nhân 
+2
+2
+(
+3 )
+x
+x
+y
+
+−
+ là: 
+A. 
+3
+2
+3
+x
+y
+−
+  
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+2
+6
+x
+xy
+−
+  
+ 
+ 
+C. 
+2
+2
+6
+x
+xy
+−
+  
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+2
+6
+x
+xy
++
+ 
+Câu 5. Kết quả của phép chia 
+4
+3
+2
+12
+:3
+x y
+x y là: 
+A. 
+2
+2
+4x y 
+ 
+ 
+B. 
+2
+3
+4x y 
+ 
+ 
+C. 
+6
+4
+4x y 
+ 
+       D. 
+2
+2
+9x y 
+Câu 6. Khai triển hằng đẳng thức 
+2
+(
+3 )
+x
+y
+−
+ ta được kết quả là: 
+A. 
+2
+2
+6
+9
+x
+xy
+y
+−
++
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+2
+3
+9
+x
+xy
+y
+−
++
+ 
+C. 
+2
+2
+9
+x
+y
+−
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+6
+9
+x
+xy
+y
++
++
+ 
+ 
+ 
+
+
+--- TRANG 15 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Biểu thức 
+2
+16
+x −
+ được viết dưới dạng tích là: 
+A. (
+16)(
+16)
+x
+x
+−
++
+ 
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+(
+4)
+x −
+ 
+C. (
+4)(
+4)
+x
+x
+−
++
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+(
+4)
+x +
+ 
+Câu 8. Tổng số đo các góc trong một tứ giác bằng: 
+A. 180 
+ 
+ 
+B. 360 
+ 
+ 
+C. 270 
+ 
+ 
+D. 90 
+Câu 9. Cho tứ giác ABCD có ˆ
+80
+A
+
+=
+, ˆ
+100
+B
+
+=
+, ˆ
+110
+C
+
+=
+. Số đo góc D là: 
+A. 70  
+ 
+ 
+B. 80  
+ 
+ 
+C. 90  
+ 
+         D. 100 
+Câu 10. Hình bình hành có một góc vuông là: 
+A. Hình thoi  
+ 
+ 
+ 
+ 
+ 
+B. Hình thang cân 
+C. Hình chữ nhật 
+ 
+ 
+ 
+ 
+ 
+D. Hình vuông 
+Câu 11. Các mặt bên của hình chóp tam giác đều là: 
+A. Các tam giác đều  
+ 
+ 
+ 
+ 
+B. Các tam giác cân 
+C. Các tam giác vuông 
+ 
+ 
+ 
+ 
+D. Các hình chữ nhật 
+Câu 12. Cho hình chóp tứ giác đều có độ dài cạnh đáy bằng 5 cm và độ dài trung đoạn 
+bằng 6 cm . Diện tích xung quanh của hình chóp đó là: 
+A. 
+2
+30 cm 
+ 
+ 
+B. 
+2
+60 cm 
+ 
+ 
+C. 
+2
+120 cm  
+     D. 
+2
+15 cm 
+II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+2
+(
+2)
+(
+1)(
+1)
+2 (
+2)
+A
+x
+x
+x
+x x
+=
++
++
+−
++
+−
++
+. Xét tính đúng sai của các mệnh 
+đề sau: 
+a) Khai triển hằng đẳng thức 
+2
+(
+2)
+x +
+ ta được 
+2
+4
+4
+x
+x
++
++
+. 
+b) Kết quả của tích (
+1)(
+1)
+x
+x
+−
++
+ là 
+2
+1
+x −. 
+
+
+--- TRANG 16 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) Kết quả rút gọn của biểu thức A bằng 3. 
+d) Giá trị của biểu thức A phụ thuộc vào giá trị của biến x . 
+Câu 2. Cho tam giác ABC vuông tại A , gọi M là trung điểm của cạnh huyền BC. Từ M 
+kẻ MD
+AB
+⊥
+ tại D và ME
+AC
+⊥
+ tại E . Xét tính đúng sai của các mệnh đề sau: 
+a) Tứ giác ADME có 3 góc vuông nên là hình chữ nhật. 
+b) Điểm D là trung điểm của đoạn thẳng AB. 
+c) Hai đường chéo AM và DE vuông góc với nhau tại trung điểm mỗi đường. 
+d) Cho 
+6 cm
+AB =
+ và 
+8 cm
+AC =
+, độ dài đoạn thẳng DE bằng 5 cm . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Tính giá trị của biểu thức 
+2
+6
+9
+M
+x
+x
+=
+−
++ tại 
+103
+x =
+. 
+Câu 2. Cho hình bình hành ABCD có ˆ
+110
+A
+
+=
+. Tính số đo các góc còn lại của hình bình hành? 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính 
+a) 
+3
+1
+(2xy
+4y
+8x)
+y
+2
+
+
+−
+−
+
+
+
+
+;                  
+b) (
+)(
+)
+2
+3
+2
+x
+2x
+y
+x
+x y;
+x
+y
+−
++
+−
++
+−
+ 
+c) (
+) (
+)
+13
+15
+10
+14
+10
+14
+12x y
+6x y
+:
+3x y
+.
+−
++
+−
+ 
+Câu 2. Phân tích các đa thức sau thành nhân tử: 
+a) 
+2
+16
+−
+x
+; 
+b) 
+2
+2
+3
+2
+8
+8
+−
++
+x
+x y
+xy ; 
+c) 
+2
+2
+2
+2
+4
+2
+4
++
++
+−
+−
+x
+x
+y
+y
+y
+x
+xy . 
+
+
+--- TRANG 17 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 3. Cho tam giác ABC ( AB < AC). Gọi M, N lần lượt là trung điểm của các cạnh BC, 
+AC. Trên tia đối của tia MN lấy điểm D sao cho MN = MD. 
+a) Tứ giác BNCD là hình gì ? Vì sao ? 
+b) Gọi I là trung điểm của BN. Chứng minh ba điểm A, I, D thẳng hàng.  
+c) Tìm điều kiện của tam giác ABC để tứ giác BNCD là hình thang cân. 
+Câu 4. Tính nhanh giá trị biểu thức sau: 
+(
+)(
+)(
+)(
+)
+2
+4
+8
+16
+8. 3
+1 3
+1 3
+1 3
+1
+A =
++
++
++
++
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

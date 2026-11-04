@@ -1,0 +1,99 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_08 (TRÍCH ĐỀ 8)
+\begin{ex}
+Cho tam giác $ABC$ nhọn. Đường tròn $(O)$ đường kính $BC$ cắt $AB, AC$ lần lượt tại $E$ và $D$; $BD$ cắt $CE$ tại $H$, $AH$ cắt $BC$ tại $I$. Từ $A$ kẻ tiếp tuyến $AM, AN$ của đường tròn $(O)$ ($M, N$ là tiếp điểm).
+	\begin{enumerate}
+		\item[a)] Chứng minh tứ giác $AEHD$ nội tiếp.
+		\item[b)] Chứng minh $AB \cdot BE = BI \cdot BC$ từ đó suy ra $AB \cdot BE + AC \cdot CD = BC^2$.
+	\end{enumerate}
+\loigiai{
+{
+		\begin{center}
+			\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+				% Def
+				\def\r{3} % r=3cm
+				
+				% Coordinates
+				\coordinate (O) at (0,0);
+				\coordinate (B) at (-\r,0);
+				\coordinate (C) at (\r,0);
+				\coordinate (A) at (-1,5);
+				
+				\coordinate (E) at ($(A)!(C)!(B)$); % E la hinh chieu cua C len AB
+				\coordinate (D) at ($(A)!(B)!(C)$); % D la hinh chieu cua B len AC
+				% I la hinh chieu cua A len BC. Vi BC nam tren truc Ox, I se co hoanh do cua A va tung do 0.
+				\coordinate (I) at ($(A|-O)!(A)!(B)$); % Cach khac: \coordinate (I) at (-1,0);
+				% Hoac: \coordinate (I) at ($(B)!(A)!(C)$);
+				
+				% H la giao diem cua BD va CE (gia su H la truc tam)
+				\path[name path=BD_line] (B) -- (D);
+				\path[name path=CE_line] (C) -- (E);
+				\coordinate[name intersections={of=BD_line and CE_line, by=H}];
+				
+				% Dinh nghia duong tron duong kinh AO
+				\coordinate (K1) at ($(A)!0.5!(O)$); % K1 la trung diem AO, tam duong tron duong kinh AO
+				\path let \p1 = ($(A)-(O)$), \n1 = {veclen(\x1,\y1)/2} in 
+				[name path=circle_diam_AO, draw=none] (K1) circle (\n1);
+				
+				% Dinh nghia duong tron duong kinh BC (chinh la duong tron (O,r))
+				\path [name path=circle_diam_BC, draw=none] (O) circle (\r);
+				
+				% Tim giao diem M, N cua hai duong tron tren
+				% Su dung mot ten tam thoi cho N de tranh xung dot neu N da duoc dinh nghia
+				\coordinate[name intersections={of=circle_diam_AO and circle_diam_BC, by={M,N_intersect}}];
+				% Doi ten N_intersect thanh N de su dung trong cac lenh ve sau
+				\coordinate (N) at (N_intersect);
+				
+				% Draw
+				\draw (O) circle (\r); % Ve duong tron (O,r)
+				
+				\draw (A) -- (B) -- (C) -- cycle; % Ve A-B-C-A
+				\draw (A) -- (I); % Ve A-I
+				\draw (B) -- (D); % Ve B-D
+				\draw (C) -- (E); % Ve C-E
+				
+				\draw[dashed] (O) -- (M); % Ve net dut O-M
+				\draw[dashed] (O) -- (N); % Ve net dut O-N
+				
+				\draw (A) -- (M) -- (I) -- (N) -- cycle; % Ve A-M-I-N-A
+				
+				% Ky hieu goc vuong
+				% Can \usetikzlibrary{angles, quotes} o preamble
+				\pic[draw, angle radius=2.5mm]{right angle = A--M--O}; % Goc AMO vuong
+				\pic[draw, angle radius=2.5mm]{right angle = A--N--O}; % Goc ANO vuong
+				
+				% Goc AEH: E la chan duong cao tu C. Neu H la truc tam, H nam tren CE.
+				% Ky hieu goc vuong tai E do CE vuong goc AB
+				\pic[draw, angle radius=2.5mm]{right angle = C--E--A}; % Goc CEA vuong (hoac CEB)
+				% Goc ADH: D la chan duong cao tu B. Neu H la truc tam, H nam tren BD.
+				% Ky hieu goc vuong tai D do BD vuong goc AC
+				\pic[draw, angle radius=2.5mm]{right angle = B--D--A}; % Goc BDA vuong (hoac BDC)
+				
+				% Fill 
+				\fill (O) circle (1.5pt);
+				\fill (A) circle (1.5pt);
+				\fill (B) circle (1.5pt);
+				\fill (C) circle (1.5pt);
+				\fill (E) circle (1.5pt);
+				\fill (D) circle (1.5pt);
+				\fill (I) circle (1.5pt);
+				\fill (H) circle (1.5pt);
+				\fill (M) circle (1.5pt);
+				\fill (N) circle (1.5pt);
+				% \fill (K1) circle (1pt); % Trung diem K1 khong can hien thi
+				
+				% Nodes	
+				\node[below left] at (O) {$O$};
+				\node[above] at (A) {$A$};
+				\node[below left] at (B) {$B$};
+				\node[below right] at (C) {$C$};
+				\node[above left] at (E) {$E$};
+				\node[below] at (D) {$D$};
+				\node[below] at (I) {$I$};
+				\node[left] at (H) {$H$}; % Vi tri H co the can dieu chinh
+				\node[left] at (M) {$M$}; % Vi tri M co the can dieu chinh
+				\node[right] at (N) {$N$};  % Vi tri N co the can dieu chinh
+			\end{tikzpicture}
+			
+		\end{center}
+}
+\end{ex}

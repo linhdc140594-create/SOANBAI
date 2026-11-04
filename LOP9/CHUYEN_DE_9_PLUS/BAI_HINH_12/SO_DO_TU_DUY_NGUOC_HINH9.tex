@@ -1,0 +1,343 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[vietnamese]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\geometry{a4paper,top=1.6cm,bottom=1.6cm,left=1.6cm,right=1.6cm}
+\usepackage{tikz}
+\usetikzlibrary{calc,intersections,angles,arrows.meta,shapes.geometric,positioning}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\small\textbf{TOÁN 9+ | BẺ KHÓA HÌNH HỌC VÀO LỚP 10}}
+\rhead{\small\textbf{MÔ HÌNH TRỰC TÂM \& PHƯƠNG TÍCH}}
+\cfoot{\thepage}
+
+% Custom tcolorbox styles
+\tcbset{
+    boxrule=0.8pt,
+    arc=2.5mm,
+    fonttitle=\bfseries\sffamily,
+    coltitle=white
+}
+
+\newtcolorbox{modelbox}[1]{
+    colback=blue!4!white,
+    colframe=blue!75!black,
+    title=#1
+}
+
+\newtcolorbox{formulabox}[1]{
+    colback=orange!3!white,
+    colframe=orange!85!black,
+    title=#1
+}
+
+\newtcolorbox{pedagogybox}[1]{
+    colback=teal!4!white,
+    colframe=teal!80!black,
+    title=#1
+}
+
+\newtcolorbox{solutionbox}[1]{
+    colback=green!4!white,
+    colframe=green!60!black,
+    title=#1
+}
+
+\newtcolorbox{exercisebox}[1]{
+    colback=purple!4!white,
+    colframe=purple!75!black,
+    title=#1
+}
+
+\begin{document}
+
+% ==========================================
+% TRANG 1: ĐỀ BÀI VÀ HÌNH VẼ TIKZ TRỰC QUAN
+% ==========================================
+\begin{center}
+    {\Large\bfseries\color{blue!80!black} TUYỆT PHẨM HÌNH HỌC 9+ VÀO LỚP 10 CHUYÊN \& CÔNG LẬP TOP ĐẦU}\\[2mm]
+    {\large\bfseries PHƯƠNG PHÁP TƯ DUY NGƯỢC (REVERSE THINKING) BẺ KHÓA Ý C, D PHÂN HÓA}\\[1mm]
+    \textit{(Trích xuất và phát triển từ Đề 12 - Tuyển tập 55 Đề Thi Tuyển Sinh Vào Lớp 10)}
+\end{center}
+
+\vspace{1mm}
+
+\begin{modelbox}{I. ĐỀ BÀI TOÁN GỐC (TRÍCH ĐỀ 12)}
+Cho tam giác $ABC$ có ba góc nhọn nội tiếp đường tròn $(O; R)$. Các đường cao $AD, BF, CE$ của tam giác $ABC$ cắt nhau tại $H$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh tứ giác $BEHD$ nội tiếp một đường tròn.
+    \item Kéo dài $AD$ cắt đường tròn $(O)$ tại điểm thứ hai $K$. Kéo dài $KE$ cắt đường tròn $(O)$ tại điểm thứ hai $I$. Kẻ $OM$ vuông góc với $BC$ tại $M$. Gọi $P$ là tâm đường tròn ngoại tiếp tam giác $AEF$. Gọi $N$ là giao điểm của $CI$ và $EF$.
+    \begin{enumerate}[label=\textbf{\arabic*)}]
+        \item Chứng minh $CE^2 = CN \cdot CI$.
+        \item Chứng minh ba điểm $M, N, P$ thẳng hàng.
+    \end{enumerate}
+\end{enumerate}
+\end{modelbox}
+
+\vspace{2mm}
+
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.35]
+    \def\r{3.2}
+    
+    \coordinate (O) at (0,0);
+    \coordinate (A) at (110:\r);
+    \coordinate (B) at (-160:\r);
+    \coordinate (C) at (-20:\r);
+    
+    \coordinate (E) at ($(A)!(C)!(B)$);
+    \coordinate (F) at ($(A)!(B)!(C)$);
+    \coordinate (D) at ($(B)!(A)!(C)$);
+    \coordinate (G) at ($(A)!(E)!(C)$);
+    
+    \path[name path=lineCE_H] (C) -- ($(C)!1.5!(E)$);
+    \path[name path=lineBF_H] (B) -- ($(B)!1.5!(F)$);
+    \path[name intersections={of=lineCE_H and lineBF_H, by=H}];
+    
+    \coordinate (K) at ($2*(D)-(H)$);
+    
+    \coordinate (P) at ($(A)!0.5!(H)$);
+    \coordinate (M) at ($(B)!0.5!(C)$);
+    \coordinate (N) at ($(E)!0.5!(F)$);
+    
+    \path[name path=lineCN_I] (C) -- ($(C)!2.5!(N)$);
+    \path[name path=lineKE_I] (K) -- ($(K)!2.5!(E)$);
+    \path[name intersections={of=lineCN_I and lineKE_I, by=I}];
+    
+    % Draw circles & main lines
+    \draw[thick, blue!80!black] (O) circle (\r);
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    \draw[blue!70!black] (B) -- (F);
+    \draw[blue!70!black] (C) -- (E);
+    \draw[red!80!black, thick] (E) -- (G);
+    \draw[teal!80!black] (A) -- (K);
+    \draw[teal!80!black] (K) -- (I) -- (C);
+    \draw[dashed, gray] (O) -- (M);
+    \draw[purple!80!black, thick] (E) -- (F);
+    \draw[red!80!black, very thick] (P) -- (M);
+    \draw[teal!80!black] (N) -- (G);
+    
+    % Points
+    \fill (O) circle (1.5pt) node[below left] {$O$};
+    \fill (A) circle (1.5pt) node[above] {$A$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill (E) circle (1.5pt) node[above left] {$E$};
+    \fill (F) circle (1.5pt) node[above right] {$F$};
+    \fill (D) circle (1.5pt) node[below right] {$D$};
+    \fill (G) circle (1.5pt) node[right, red!80!black] {$G$};
+    \fill (H) circle (1.5pt) node[left] {$H$};
+    \fill (K) circle (1.5pt) node[below] {$K$};
+    \fill (P) circle (1.5pt) node[right, red!80!black] {$P$};
+    \fill (M) circle (1.5pt) node[below, red!80!black] {$M$};
+    \fill (N) circle (1.5pt) node[below, red!80!black] {$N$};
+    \fill (I) circle (1.5pt) node[left] {$I$};
+    
+    % Right angles
+    \pic[draw, angle radius=2.5mm]{right angle = A--D--B};
+    \pic[draw, angle radius=2.5mm]{right angle = O--M--C};
+    \pic[draw, angle radius=2.5mm]{right angle = A--E--C};
+    \pic[draw, angle radius=2.5mm]{right angle = B--F--C};
+    \pic[draw, red!80!black, angle radius=2.5mm]{right angle = A--G--E};
+\end{tikzpicture}
+\end{center}
+
+\newpage
+
+% ==============================================================
+% TRANG 2: SƠ ĐỒ CÔNG THỨC SUY LUẬN NGƯỢC THUẦN TÚY (FORMULA TREE)
+% ==============================================================
+\begin{formulabox}{II. SƠ ĐỒ CÔNG THỨC SUY LUẬN NGƯỢC THUẦN TÚY (LOGIC FORMULA TREE)}
+
+\textbf{\color{orange!90!black} 1. CÂY CÔNG THỨC SUY LUẬN NGƯỢC CHO CÂU B1 ($CE^2 = CN \cdot CI$):}
+\vspace{1mm}
+
+\noindent
+\begin{tikzpicture}[
+    every node/.style={align=center, font=\footnotesize},
+    box/.style={rectangle, draw=blue!75!black, fill=blue!5, thick, rounded corners=1.5mm, inner sep=4pt, text width=16.2cm},
+    headbox/.style={rectangle, draw=red!80!black, fill=red!8, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.2cm},
+    basebox/.style={rectangle, draw=teal!85!black, fill=teal!10, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.2cm},
+    arr/.style={-{Stealth[length=2.5mm]}, very thick, red!80!black}
+]
+
+\node[headbox] (b1_1) {
+    \textbf{\color{red!80!black} [ĐÍCH ĐẾN B1]:} \quad $\boldsymbol{CE^2 = CN \cdot CI}$
+};
+
+\node[box, below=0.25cm of b1_1] (b1_2) {
+    $\boldsymbol{\Uparrow} \quad \dfrac{CE}{CI} = \dfrac{CN}{CE}$ \quad $\boldsymbol{\Longleftarrow}$ \quad $\boldsymbol{\triangle CEN \sim \triangle CIE \text{ (g-g)}}$
+};
+
+\node[basebox, below=0.25cm of b1_2] (b1_3) {
+    $\boldsymbol{\Uparrow} \quad \begin{cases} \widehat{ECI} \text{ chung} \\ \widehat{CEN} = \widehat{EIC} \end{cases} \quad \boldsymbol{\Longleftarrow} \quad \begin{cases} \widehat{CEN} = \widehat{FEH} = \widehat{FAH} = \widehat{KAC} \quad (\text{tứ giác } AEHF \text{ nội tiếp}) \\ \widehat{EIC} = \widehat{KIC} = \widehat{KAC} \quad (\text{hai góc nội tiếp cùng chắn } \stackrel{\frown}{KC} \text{ của } (O)) \end{cases}$
+};
+
+\draw[arr] (b1_3) -- (b1_2);
+\draw[arr] (b1_2) -- (b1_1);
+
+\end{tikzpicture}
+
+\vspace{3mm}
+\hrule
+\vspace{3mm}
+
+\textbf{\color{orange!90!black} 2. CÂY CÔNG THỨC SUY LUẬN NGƯỢC CHO CÂU B2 PHÂN HÓA 9+ ($M, N, P$ THẲNG HÀNG):}
+\vspace{1.5mm}
+
+\noindent
+\begin{tikzpicture}[
+    every node/.style={align=center, font=\footnotesize},
+    box/.style={rectangle, draw=blue!75!black, fill=blue!5, thick, rounded corners=1.5mm, inner sep=3.5pt, text width=16.2cm},
+    headbox/.style={rectangle, draw=red!80!black, fill=red!10, very thick, rounded corners=1.5mm, inner sep=4pt, text width=16.2cm},
+    actionbox/.style={rectangle, draw=orange!85!black, fill=orange!10, thick, rounded corners=1.5mm, inner sep=3.5pt, text width=16.2cm},
+    basebox/.style={rectangle, draw=teal!85!black, fill=teal!12, very thick, rounded corners=1.5mm, inner sep=4.5pt, text width=16.2cm},
+    arr/.style={-{Stealth[length=2.5mm]}, very thick, red!80!black}
+]
+
+\node[headbox] (b2_1) {
+    \textbf{\color{red!80!black} [ĐÍCH ĐẾN CUỐI CÙNG]:} \quad $\boldsymbol{M, N, P \text{ THẲNG HÀNG}}$
+};
+
+\node[box, below=0.25cm of b2_1] (b2_2) {
+    $\boldsymbol{\Uparrow} \quad N \in PM \quad \text{với } PM \text{ là đường trung trực của } EF \quad \left(\text{do } \begin{cases} ME = MF = \frac{1}{2}BC \quad (\triangle EBC, \triangle FBC \text{ vuông}) \\ PE = PF = R_{(AEF)} \quad (P \text{ là tâm } (AEF)) \end{cases}\right)$
+};
+
+\node[actionbox, below=0.25cm of b2_2] (b2_3) {
+    $\boldsymbol{\Uparrow} \quad \boldsymbol{NE = NF} \quad (N \text{ là trung điểm } EF) \quad \boldsymbol{\Longleftarrow} \quad \text{\textbf{KẺ ĐƯỜNG PHỤ:}} \ EG \perp AC \ (G \in AC)$
+};
+
+\node[box, below=0.25cm of b2_3] (b2_4) {
+    $\boldsymbol{\Uparrow} \quad \triangle EGF \text{ vuông tại } G \text{ có trung tuyến } GN \iff NG = NE = NF \iff \boldsymbol{\triangle NGF \text{ cân tại } N} \iff \boldsymbol{\widehat{NGF} = \widehat{NFG}}$
+};
+
+\node[box, below=0.25cm of b2_4] (b2_5) {
+    $\boldsymbol{\Uparrow} \quad \begin{cases} \widehat{NFG} = \widehat{AFE} = \widehat{ABC} \quad (\text{tứ giác } BEFC \text{ nội tiếp}) \\ \widehat{ABC} = \widehat{AIC} \quad (\text{hai góc nội tiếp cùng chắn cung } \stackrel{\frown}{AC} \text{ của } (O)) \end{cases} \quad \boldsymbol{\implies} \quad \boldsymbol{\widehat{NGF} = \widehat{AIC}}$
+};
+
+\node[box, below=0.25cm of b2_5] (b2_6) {
+    $\boldsymbol{\Uparrow} \quad \boldsymbol{\triangle CNG \sim \triangle CAI \text{ (c-g-c, góc } \widehat{C} \text{ chung)}} \quad \boldsymbol{\Longleftarrow} \quad \dfrac{CG}{CN} = \dfrac{CI}{CA} \iff \boldsymbol{CG \cdot CA = CN \cdot CI}$
+};
+
+\node[basebox, below=0.25cm of b2_6] (b2_7) {
+    $\boldsymbol{\Uparrow} \quad \begin{cases} \boldsymbol{CG \cdot CA = CE^2} \quad (\text{Hệ thức lượng trong } \triangle AEC \text{ vuông tại } E, \text{ đường cao } EG) \\ \boldsymbol{CN \cdot CI = CE^2} \quad (\text{Kết quả chứng minh từ Câu b1}) \end{cases} \quad \boldsymbol{\implies} \quad \mathbf{CG \cdot CA = CN \cdot CI = CE^2}$\\
+    \vspace{0.5mm}
+    \textbf{\color{teal!90!black} [ĐIỂM KHỞI PHÁT TỰ NHIÊN - BẮT ĐẦU ĐỂ TRÌNH BÀY LỜI GIẢI XUÔI]}
+};
+
+\draw[arr] (b2_7) -- (b2_6);
+\draw[arr] (b2_6) -- (b2_5);
+\draw[arr] (b2_5) -- (b2_4);
+\draw[arr] (b2_4) -- (b2_3);
+\draw[arr] (b2_3) -- (b2_2);
+\draw[arr] (b2_2) -- (b2_1);
+
+\end{tikzpicture}
+
+\end{formulabox}
+
+\newpage
+
+% ==============================================================
+% TRANG 3: LỜI GIẢI XUÔI CHUẨN MỰC & BAREM ĐIỂM CHI TIẾT VÀO 10
+% ==============================================================
+\begin{solutionbox}{III. LỜI GIẢI XUÔI CHUẨN MỰC \& BAREM ĐIỂM VÀO 10}
+
+\textbf{1. Câu a) Chứng minh tứ giác $BEHD$ nội tiếp (0,75 điểm)}
+\begin{itemize}[leftmargin=5mm]
+    \item Vì $AD, BE$ là các đường cao của $\triangle ABC \Rightarrow \widehat{BDH} = 90^\circ$ và $\widehat{BEH} = 90^\circ$.
+    \item Tứ giác $BEHD$ có $\widehat{BDH} + \widehat{BEH} = 90^\circ + 90^\circ = 180^\circ$.
+    \item Mà hai góc này ở vị trí đối nhau, nên tứ giác $BEHD$ nội tiếp đường tròn đường kính $BH$. \hfill \textit{(0,75đ)}
+\end{itemize}
+
+\vspace{1.5mm}
+\textbf{2. Câu b1) Chứng minh $CE^2 = CN \cdot CI$ (0,75 điểm)}
+\begin{itemize}[leftmargin=5mm]
+    \item Tứ giác $AEHF$ có $\widehat{AEH} + \widehat{AFH} = 90^\circ + 90^\circ = 180^\circ \Rightarrow AEHF$ nội tiếp đường tròn.
+    \item Trong đường tròn ngoại tiếp $AEHF$: $\widehat{FEH} = \widehat{FAH}$ (cùng chắn cung $FH$) hay $\widehat{CEN} = \widehat{KAC}$ (1).
+    \item Trong đường tròn $(O)$: $\widehat{KAC} = \widehat{KIC}$ (hai góc nội tiếp cùng chắn cung $KC$) hay $\widehat{KAC} = \widehat{EIC}$ (2).
+    \item Từ (1) và (2) suy ra $\widehat{CEN} = \widehat{EIC}$.
+    \item Xét $\triangle CEN$ và $\triangle CIE$ có: $\widehat{ECI}$ chung, $\widehat{CEN} = \widehat{EIC}$ (cmt)
+    $\Rightarrow \triangle CEN \sim \triangle CIE$ (g-g).
+    \item Suy ra $\dfrac{CE}{CI} = \dfrac{CN}{CE} \implies CE^2 = CN \cdot CI$ (đpcm). \hfill \textit{(0,75đ)}
+\end{itemize}
+
+\vspace{1.5mm}
+\textbf{3. Câu b2) Chứng minh ba điểm $M, N, P$ thẳng hàng (1,00 điểm)}
+\begin{itemize}[leftmargin=5mm]
+    \item \textbf{Bước 1: Chứng minh $PM$ là trung trực của $EF$ (0,25đ)}
+    \begin{itemize}
+        \item $\triangle OBC$ cân tại $O$ có $OM \perp BC \Rightarrow M$ là trung điểm $BC$.
+        \item $\triangle EBC$ vuông tại $E$ có $EM = \frac{1}{2}BC$; $\triangle FBC$ vuông tại $F$ có $FM = \frac{1}{2}BC \Rightarrow ME = MF$.
+        \item $P$ là tâm đường tròn ngoại tiếp $\triangle AEF \Rightarrow PE = PF$.
+        \item Do đó $PM$ là đường trung trực của đoạn thẳng $EF$. (*)
+    \end{itemize}
+    \item \textbf{Bước 2: Kẻ đường phụ và chứng minh tam giác đồng dạng (0,25đ)}
+    \begin{itemize}
+        \item Kẻ $EG \perp AC$ tại $G$ ($G \in AC$).
+        \item Áp dụng hệ thức lượng vào $\triangle AEC$ vuông tại $E$, đường cao $EG$: $CE^2 = CG \cdot CA$.
+        \item Theo câu b1: $CE^2 = CN \cdot CI \Rightarrow CG \cdot CA = CN \cdot CI \Rightarrow \dfrac{CG}{CN} = \dfrac{CI}{CA}$.
+        \item Xét $\triangle CNG$ và $\triangle CAI$ có: $\widehat{ICA}$ chung; $\dfrac{CG}{CN} = \dfrac{CI}{CA}$ (cmt)
+        $\Rightarrow \triangle CNG \sim \triangle CAI$ (c-g-c) $\Rightarrow \widehat{NGC} = \widehat{CIA}$.
+    \end{itemize}
+    \item \textbf{Bước 3: Chuyển đổi góc và chứng minh $N$ là trung điểm $EF$ (0,25đ)}
+    \begin{itemize}
+        \item Trong $(O)$: $\widehat{CIA} = \widehat{CBA}$ (cùng chắn cung $AC$).
+        \item Tứ giác $BEFC$ có $\widehat{BEC}=\widehat{BFC}=90^\circ$ nên nội tiếp $\Rightarrow \widehat{AFE} = \widehat{ABC}$.
+        \item Suy ra $\widehat{NGF} = \widehat{AFE} = \widehat{NFG} \Rightarrow \triangle NGF$ cân tại $N \Rightarrow NG = NF$.
+        \item Lại có $\widehat{NGE} = 90^\circ - \widehat{NGF} = 90^\circ - \widehat{NFG} = \widehat{NEG} \Rightarrow \triangle NGE$ cân tại $N \Rightarrow NG = NE$.
+        \item Suy ra $NE = NF$, tức là $N$ là trung điểm của đoạn thẳng $EF$. (**)
+    \end{itemize}
+    \item \textbf{Bước 4: Kết luận thẳng hàng (0,25đ)}
+    \begin{itemize}
+        \item Từ (*) và (**) suy ra $N \in PM$, do đó ba điểm $M, N, P$ thẳng hàng (đpcm). \hfill \textit{(1,00đ)}
+    \end{itemize}
+\end{itemize}
+
+\end{solutionbox}
+
+\newpage
+
+% ==============================================================
+% TRANG 4: BÌNH LUẬN SƯ PHẠM & BÀI TẬP PHÁT TRIỂN TƯƠNG ĐƯƠNG
+% ==============================================================
+\begin{pedagogybox}{IV. BÌNH LUẬN SƯ PHẠM: NGHỆ THUẬT ĐẶT CÂU HỎI TRÊN LỚP TOÁN 9+}
+\textbf{Làm thế nào để học sinh tự nghĩ ra kẻ $EG \perp AC$ mà không phải học vẹt?}
+\begin{enumerate}[leftmargin=5mm]
+    \item \textbf{Thầy hỏi 1:} \textit{"Đường thẳng $PM$ có mối quan hệ gì với đoạn thẳng $EF$?"}\\
+    $\to$ \textbf{Trò trả lời:} $ME = MF = \frac{1}{2}BC$ và $PE = PF \Rightarrow PM$ là đường trung trực của $EF$.
+    \item \textbf{Thầy hỏi 2:} \textit{"Vậy muốn $M, N, P$ thẳng hàng, điểm $N$ bắt buộc phải là điểm gì của $EF$?"}\\
+    $\to$ \textbf{Trò trả lời:} $N$ phải thuộc đường trung trực của $EF$, tức là $N$ phải là trung điểm của $EF$.
+    \item \textbf{Thầy hỏi 3:} \textit{"Đoạn thẳng $EF$ đang nằm lơ lửng, muốn chứng minh $N$ là trung điểm của nó, mô hình tam giác nào mạnh nhất trong hình học THCS?"}\\
+    $\to$ \textbf{Trò trả lời:} Gắn vào tam giác vuông để dùng tính chất: Trong tam giác vuông, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền ($NG = NE = NF$).
+    \item \textbf{Thầy hỏi 4:} \textit{"Đỉnh nào đã có sẵn góc vuông để hạ vuông góc tạo tam giác vuông chứa cạnh huyền $EF$?"}\\
+    $\to$ \textbf{Trò trả lời:} Đỉnh $E$ có $\widehat{AEC} = 90^\circ$, hạ $EG \perp AC$ thì vừa có $\triangle EGF$ vuông tại $G$, vừa sinh ra $CG \cdot CA = CE^2$ để khớp nối hoàn hảo với $CE^2 = CN \cdot CI$!
+\end{enumerate}
+\end{pedagogybox}
+
+\vspace{2mm}
+
+\begin{exercisebox}{V. BÀI TẬP PHÁT TRIỂN TƯƠNG ĐƯƠNG (LUYỆN TẬP TẠI LỚP / VỀ NHÀ)}
+\textbf{Bài 1 (Trích Đề 6 - Tuyển tập 55 Đề):} Cho $\triangle ABC$ nhọn, đường tròn $(O)$ đường kính $BC$ cắt $AB, AC$ lần lượt tại $E$ và $F$. Gọi $H$ là giao điểm của $BF$ và $CE$, $AH$ cắt $BC$ tại $D$.
+\begin{enumerate}[label=\alph*)]
+    \item Chứng minh tứ giác $AEHF$ nội tiếp và xác định tâm $K$ của đường tròn này.
+    \item Chứng minh $KE$ là tiếp tuyến của đường tròn $(O)$ và năm điểm $O, D, E, K, F$ cùng thuộc một đường tròn.
+    \item \textit{(Phân hóa 9+):} Gọi $M$ là trung điểm của $AH$. Chứng minh $OM \perp EF$.
+\end{enumerate}
+
+\vspace{1mm}
+\textbf{Bài 2 (Trích Đề 11 - Tuyển tập 55 Đề):} Cho $\triangle ABC$ nhọn nội tiếp $(O)$. Các đường cao $BD, CE$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là trung điểm của $BC$ và $AH$.
+\begin{enumerate}[label=\alph*)]
+    \item Chứng minh $\widehat{NDM} = \widehat{NEM}$.
+    \item Gọi $K, L$ lần lượt là giao điểm của $OM$ với $CE$, $MN$ với $BD$. Chứng minh $KL \parallel AC$.
+\end{enumerate}
+\end{exercisebox}
+
+\end{document}

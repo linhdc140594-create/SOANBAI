@@ -1,0 +1,116 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_06 (TRÍCH ĐỀ 6)
+\begin{ex}
+Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$), đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $F$ ($E \ne B, F \ne C$). Gọi $H$ là giao điểm của $BF$ và $CE$, đoạn thẳng $AH$ cắt $BC$ tại $D$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh tứ giác $AEHF$ nội tiếp đường tròn và xác định tâm $K$ của đường tròn đó.
+    \item Chứng minh $KE$ và $KF$ là các tiếp tuyến của đường tròn $(O)$ đường kính $BC$.
+    \item \textbf{(Phân hóa 9+):} Chứng minh năm điểm $O, D, E, K, F$ cùng thuộc một đường tròn đường kính $OK$, và $OK$ là đường trung trực của đoạn thẳng $EF$.
+\end{enumerate}
+\loigiai{
+\begin{center}
+\begin{tikzpicture}[line join = round, line cap=round, >=stealth, font=\footnotesize, scale=1.15]
+    % Định nghĩa các tham số
+    \def\r{3.0}
+    
+    % Tọa độ các đỉnh chính
+    \coordinate (O) at (0,0);
+    \coordinate (B) at (-\r,0);
+    \coordinate (C) at (\r,0);
+    \coordinate (A) at (-0.9, 4.3);
+    
+    % Chân các đường cao
+    \coordinate (E) at ($(A)!(C)!(B)$); % C chiếu lên AB
+    \coordinate (F) at ($(A)!(B)!(C)$); % B chiếu lên AC
+    \coordinate (D) at ($(B)!(A)!(C)$); % A chiếu lên BC
+    
+    % Trực tâm H và tâm K của đường tròn (K)
+    \coordinate (H) at (intersection of C--E and B--F);
+    \coordinate (K) at ($(A)!0.5!(H)$);
+    
+    % Trung điểm OK là tâm đường tròn đi qua 5 điểm
+    \coordinate (M) at ($(O)!0.5!(K)$);
+    
+    % Vẽ đường tròn (O)
+    \draw[thick, teal] (O) circle (\r);
+    
+    % Vẽ đường tròn đường kính OK đi qua 5 điểm (nét đứt màu tím)
+    \draw[dashed, purple!80!black] let \p1 = ($(M)-(O)$), \n1 = {veclen(\x1,\y1)} in (M) circle (\n1);
+    
+    % Vẽ tam giác ABC và các đường thẳng
+    \draw[thick] (A) -- (B) -- (C) -- cycle;
+    \draw[thick, blue!80!black] (A) -- (D);
+    \draw[thick, blue!80!black] (B) -- (F);
+    \draw[thick, blue!80!black] (C) -- (E);
+    
+    % Vẽ các tiếp tuyến KE, KF và đoạn OK, EF
+    \draw[thick, red!85!black] (K) -- (E);
+    \draw[thick, red!85!black] (K) -- (F);
+    \draw[thick, orange!90!black] (O) -- (E);
+    \draw[thick, orange!90!black] (O) -- (F);
+    \draw[thick, purple!90!black] (O) -- (K);
+    \draw[dashed, blue!85!black] (E) -- (F);
+    
+    % Ký hiệu góc vuông
+    \pic[draw, angle radius=2.5mm]{right angle = C--E--B};
+    \pic[draw, angle radius=2.5mm]{right angle = B--F--C};
+    \pic[draw, angle radius=2.5mm]{right angle = A--D--B};
+    \pic[draw, red, angle radius=2.5mm]{right angle = K--E--O};
+    \pic[draw, red, angle radius=2.5mm]{right angle = K--F--O};
+    
+    % Đánh dấu các điểm
+    \fill (O) circle (1.5pt) node[below] {$O$};
+    \fill (B) circle (1.5pt) node[below left] {$B$};
+    \fill (C) circle (1.5pt) node[below right] {$C$};
+    \fill (A) circle (1.5pt) node[above] {$A$};
+    \fill (E) circle (1.5pt) node[above left] {$E$};
+    \fill (F) circle (1.5pt) node[above right] {$F$};
+    \fill (D) circle (1.5pt) node[below] {$D$};
+    \fill (H) circle (1.5pt) node[below right=1pt] {$H$};
+    \fill[red] (K) circle (1.5pt) node[left] {$K$};
+\end{tikzpicture}
+\end{center}
+
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item \textbf{Chứng minh tứ giác $AEHF$ nội tiếp và xác định tâm $K$:}
+    \begin{itemize}
+        \item Vì $E, F$ thuộc đường tròn $(O)$ đường kính $BC$ nên $\widehat{BEC} = 90^\circ$ và $\widehat{BFC} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn).
+        \item Suy ra $CE \perp AB \implies \widehat{AEH} = 90^\circ$ và $BF \perp AC \implies \widehat{AFH} = 90^\circ$.
+        \item Xét tứ giác $AEHF$ có: $\widehat{AEH} + \widehat{AFH} = 90^\circ + 90^\circ = 180^\circ$.
+        \item Do đó tứ giác $AEHF$ nội tiếp đường tròn đường kính $AH$.
+        \item Tâm $K$ của đường tròn này là trung điểm của đoạn thẳng $AH$.
+    \end{itemize}
+
+    \item \textbf{Chứng minh $KE$ và $KF$ là các tiếp tuyến của đường tròn $(O)$:}
+    \begin{itemize}
+        \item Trong tam giác $ABC$, hai đường cao $BF$ và $CE$ cắt nhau tại $H \implies H$ là trực tâm của $\triangle ABC$. Suy ra $AD \perp BC$ tại $D$.
+        \item Xét $\triangle AEH$ vuông tại $E$ có $K$ là trung điểm cạnh huyền $AH$, nên trung tuyến $KE = KA = \dfrac{AH}{2} \implies \triangle KAE$ cân tại $K \implies \widehat{KEA} = \widehat{KAE}$.
+        \item Lại có $OE = OB = R$ (bán kính của $(O)$) nên $\triangle OBE$ cân tại $O \implies \widehat{OEB} = \widehat{OBE}$.
+        \item Do đó:
+        \[
+        \widehat{KEO} = 180^\circ - (\widehat{KEA} + \widehat{OEB}) = 180^\circ - (\widehat{KAE} + \widehat{OBE}).
+        \]
+        \item Mặt khác, trong tam giác vuông $ABD$ vuông tại $D$ ($AD \perp BC$), ta có hai góc nhọn phụ nhau:
+        \[
+        \widehat{BAD} + \widehat{ABD} = 90^\circ \iff \widehat{KAE} + \widehat{OBE} = 90^\circ.
+        \]
+        \item Suy ra $\widehat{KEO} = 180^\circ - 90^\circ = 90^\circ \implies KE \perp OE$ tại điểm $E \in (O)$.\\
+        Vậy $KE$ là tiếp tuyến của đường tròn $(O)$ tại điểm $E$.
+        \item Chứng minh hoàn toàn tương tự trong tam giác vuông $ACD$ vuông tại $D$, ta có $\widehat{KFO} = 90^\circ \implies KF \perp OF$ tại điểm $F \in (O)$.\\
+        Vậy $KF$ cũng là tiếp tuyến của đường tròn $(O)$ tại điểm $F$.
+    \end{itemize}
+
+    \item \textbf{Chứng minh năm điểm $O, D, E, K, F$ cùng thuộc đường tròn đường kính $OK$:}
+    \begin{itemize}
+        \item Theo chứng minh câu b, ta có:
+        \begin{itemize}
+            \item $\widehat{KEO} = 90^\circ \implies \triangle KEO$ vuông tại $E$, nội tiếp đường tròn đường kính $OK$.
+            \item $\widehat{KFO} = 90^\circ \implies \triangle KFO$ vuông tại $F$, nội tiếp đường tròn đường kính $OK$.
+        \end{itemize}
+        \item Mặt khác, do $AD \perp BC$ tại $D$ nên $\widehat{KDO} = 90^\circ \implies \triangle KDO$ vuông tại $D$, nội tiếp đường tròn đường kính $OK$.
+        \item Do đó, ba điểm $E, D, F$ cùng nhìn đoạn thẳng $OK$ dưới một góc vuông $90^\circ$.
+        \item Suy ra năm điểm $O, D, E, K, F$ cùng thuộc đường tròn đường kính $OK$ (đpcm).
+        \item \textbf{Chứng minh $OK$ là đường trung trực của $EF$:} Vì $KE$ và $KF$ là hai tiếp tuyến cắt nhau tại $K$ của $(O)$ nên $KE = KF$. Lại có $OE = OF = R$. Do đó hai điểm $K$ và $O$ cùng cách đều hai đầu mút của đoạn thẳng $EF$, suy ra $OK$ là đường trung trực của đoạn thẳng $EF$ (đpcm).
+    \end{itemize}
+\end{enumerate}
+}
+\end{ex}

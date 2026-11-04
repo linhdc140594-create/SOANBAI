@@ -1,0 +1,170 @@
+
+\textbf{II. PHẦN TỰ LUẬN}
+\begin{ex} % Câu 9
+	Rút gọn biểu thức $A = \left(\frac{1}{\sqrt{x}-1} - \frac{1}{x-\sqrt{x}}\right) : \frac{\sqrt{x}+1}{3\sqrt{x}}$ với $x > 0$ và $x \ne 1$.
+	\loigiai{
+		Điều kiện: $x > 0, x \ne 1$.
+		Ta có $x-\sqrt{x} = \sqrt{x}(\sqrt{x}-1)$.
+		Xét phần trong ngoặc:
+		\begin{align*}
+			\frac{1}{\sqrt{x}-1} - \frac{1}{x-\sqrt{x}} &= \frac{1}{\sqrt{x}-1} - \frac{1}{\sqrt{x}(\sqrt{x}-1)} \\
+			&= \frac{\sqrt{x} - 1}{\sqrt{x}(\sqrt{x}-1)}
+		\end{align*}
+		Vì $x \ne 1$, nên $\sqrt{x}-1 \ne 0$. Ta có thể rút gọn:
+		$$ \frac{\sqrt{x} - 1}{\sqrt{x}(\sqrt{x}-1)} = \frac{1}{\sqrt{x}} $$
+		Vậy biểu thức $A$ trở thành:
+		\begin{align*}
+			A &= \frac{1}{\sqrt{x}} : \frac{\sqrt{x}+1}{3\sqrt{x}} \\
+			&= \frac{1}{\sqrt{x}} \cdot \frac{3\sqrt{x}}{\sqrt{x}+1}
+		\end{align*}
+		Vì $x>0$, nên $\sqrt{x} \ne 0$. Ta có thể rút gọn:
+		\begin{align*}
+			A &= \frac{3}{\sqrt{x}+1}
+		\end{align*}
+		Vậy, với $x > 0, x \ne 1$ thì $A = \frac{3}{\sqrt{x}+1}$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 10
+	Giải hệ phương trình: $ \begin{cases} 2x-y=8 \\ 3x+y=2 \end{cases} $
+	\loigiai{
+		Ta có hệ phương trình:
+		$ \begin{cases} 2x-y=8 \quad &(1) \\ 3x+y=2 \quad &(2) \end{cases} $
+		Cộng vế theo vế của phương trình (1) và (2), ta được:
+		\begin{align*}
+			(2x-y) + (3x+y) &= 8+2 \\
+			2x - y + 3x + y &= 10 \\
+			5x &= 10 \\
+			x &= 2
+		\end{align*}
+		Thay $x=2$ vào phương trình (2):
+		\begin{align*}
+			3(2) + y &= 2 \\
+			6 + y &= 2 \\
+			y &= 2 - 6 \\
+			y &= -4
+		\end{align*}
+		Vậy, nghiệm của hệ phương trình là $(x;y) = (2;-4)$.
+	}
+\end{ex}
+
+\begin{ex} % Câu 11
+	Quãng đường AB dài 90 km. Một người đi xe máy từ A đến B. Khi đến B, người đó quay trở về A ngay với vận tốc lớn hơn vận tốc lúc đi là 9km/h. Thời gian kể từ lúc bắt đầu đi từ A đến lúc trở về A là 4 giờ 30 phút. Tính vận tốc xe máy lúc đi từ A đến B?
+	\loigiai{
+		Gọi $x$ (km/h) là vận tốc xe máy lúc đi từ A đến B.
+		Điều kiện: $x > 0$.
+		Thời gian đi từ A đến B là: $t_1 = \frac{90}{x}$ (giờ).
+		Vận tốc lúc quay trở về A là: $x+9$ (km/h).
+		Thời gian đi từ B về A là: $t_2 = \frac{90}{x+9}$ (giờ).
+		Tổng thời gian đi và về là 4 giờ 30 phút = $4,5$ giờ = $\frac{9}{2}$ giờ.
+		Ta có phương trình:
+		$t_1 + t_2 = \frac{9}{2}$
+		\begin{align*}
+			\frac{90}{x} + \frac{90}{x+9} &= \frac{9}{2}
+		\end{align*}
+		Chia cả hai vế cho 9:
+		\begin{align*}
+			\frac{10}{x} + \frac{10}{x+9} &= \frac{1}{2}
+		\end{align*}
+		Nhân cả hai vế với $2x(x+9)$ để khử mẫu (với $x \ne 0, x \ne -9$):
+		\begin{align*}
+			10 \cdot 2(x+9) + 10 \cdot 2x &= x(x+9) \\
+			20(x+9) + 20x &= x^2 + 9x \\
+			20x + 180 + 20x &= x^2 + 9x \\
+			40x + 180 &= x^2 + 9x \\
+			x^2 + 9x - 40x - 180 &= 0 \\
+			x^2 - 31x - 180 &= 0
+		\end{align*}
+		Giải phương trình bậc hai $x^2 - 31x - 180 = 0$:
+		$\Delta = b^2 - 4ac = (-31)^2 - 4(1)(-180) = 961 + 720 = 1681$
+		$\sqrt{\Delta} = \sqrt{1681} = 41$.
+		Phương trình có hai nghiệm phân biệt:
+		$x_1 = \frac{-(-31) + 41}{2 \cdot 1} = \frac{31 + 41}{2} = \frac{72}{2} = 36$ (Thỏa mãn điều kiện $x>0$)
+		$x_2 = \frac{-(-31) - 41}{2 \cdot 1} = \frac{31 - 41}{2} = \frac{-10}{2} = -5$ (Không thỏa mãn điều kiện $x>0$)
+		Vậy, vận tốc xe máy lúc đi từ A đến B là 36 km/h.
+	}
+\end{ex}
+
+\begin{ex} % Câu 12
+	Biết $x_1; x_2$ là nghiệm của phương trình $x^2-2x-1=0$. Không giải phương trình, hãy tính giá trị của biểu thức: $A=\frac{3x_1^2+3x_2^2}{x_1^2+2x_2-1}$.
+	\loigiai{
+		Phương trình đã cho là $x^2-2x-1=0$.
+		Theo hệ thức Vi-ét, ta có:
+		$ \begin{cases} x_1 + x_2 = - \frac{-2}{1} = 2 \\ x_1 x_2 = \frac{-1}{1} = -1 \end{cases} $
+		Vì $x_1$ là nghiệm của phương trình nên $x_1^2 - 2x_1 - 1 = 0 \Rightarrow x_1^2 = 2x_1 + 1$.
+		Tương tự, $x_2^2 = 2x_2 + 1$.
+		
+		Tính tử số:
+		\begin{align*}
+			3x_1^2+3x_2^2 &= 3(x_1^2+x_2^2) \\
+			&= 3((x_1+x_2)^2 - 2x_1x_2) \\
+			&= 3((2)^2 - 2(-1)) \\
+			&= 3(4 + 2) \\
+			&= 3(6) \\
+			&= 18
+		\end{align*}
+		Tính mẫu số:
+		$x_1^2+2x_2-1$.
+		Thay $x_1^2 = 2x_1+1$ vào mẫu số:
+		\begin{align*}
+			x_1^2+2x_2-1 &= (2x_1+1) + 2x_2 - 1 \\
+			&= 2x_1 + 2x_2 \\
+			&= 2(x_1+x_2) \\
+			&= 2(2) \\
+			&= 4
+		\end{align*}
+		Vậy, giá trị của biểu thức A là:
+		\begin{align*}
+			A &= \frac{18}{4} \\
+			&= \frac{9}{2}
+		\end{align*}
+	}
+\end{ex}
+\begin{ex} % Câu 12
+	Trên một dãy phố đi bộ ở thành phố Hà Tĩnh có 4 quán nước A, B, C, D để du khách nghỉ chân. Hai bạn An và Bình mỗi bạn chọn ngẫu nhiên một quán nước. Em hãy mô tả không gian mẫu của phép thử và tính xác suất để hai bạn cùng vào một quán.
+	\loigiai{
+		Gọi các quán nước là A, B, C, D.
+		Bạn An có 4 cách chọn quán.
+		Bạn Bình có 4 cách chọn quán.
+		
+		\textbf{Mô tả không gian mẫu của phép thử:}
+		Không gian mẫu $\Omega$ là tập hợp tất cả các cặp quán nước mà An và Bình có thể chọn. Mỗi phần tử của không gian mẫu có dạng (Quán An chọn, Quán Bình chọn).
+		Liệt kê các phần tử của không gian mẫu:
+		\begin{itemize}
+			\item An chọn A: (A,A), (A,B), (A,C), (A,D)
+			\item An chọn B: (B,A), (B,B), (B,C), (B,D)
+			\item An chọn C: (C,A), (C,B), (C,C), (C,D)
+			\item An chọn D: (D,A), (D,B), (D,C), (D,D)
+		\end{itemize}
+		Vậy, không gian mẫu $\Omega = \{ (A,A), (A,B), (A,C), (A,D), (B,A), (B,B), (B,C), (B,D), (C,A), (C,B), (C,C), (C,D), (D,A), (D,B), (D,C), (D,D) \}$.
+		Số phần tử của không gian mẫu là $n(\Omega) = 4 \times 4 = 16$.
+		
+		\textbf{Tính xác suất để hai bạn cùng vào một quán:}
+		Gọi E là biến cố "hai bạn An và Bình cùng vào một quán".
+		Các kết quả thuận lợi cho biến cố E là các trường hợp An và Bình chọn cùng một quán:
+		$E = \{ (A,A), (B,B), (C,C), (D,D) \}$.
+		Số phần tử của biến cố E là $n(E) = 4$.
+		
+		Xác suất của biến cố E là:
+		$P(E) = \frac{n(E)}{n(\Omega)} = \frac{4}{16} = \frac{1}{4}$.
+	}
+\end{ex}
+\begin{ex} % Câu 13
+	Cho tam giác ABC có ba góc nhọn nội tiếp trong đường tròn $(O;R)$. Các đường cao AD, BE và CF cắt nhau tại H. Gọi M và N thứ tự là giao điểm thứ hai của đường tròn $(O;R)$ với BE và CF.
+	\begin{enumerate}[a)]
+		\item Chứng minh tứ giác BCEF nội tiếp đường tròn.
+		\item Chứng minh $\widehat{NMB} = \widehat{BEF}$; AO cắt EF tại K. Gọi P, Q lần lượt là trung điểm của EF và DK. Chứng minh 3 điểm A, P, Q thẳng hàng.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\begin{ex} % Câu 14
+	\begin{enumerate}[a)]
+		\item Một rạp chiếu phim có 120 ghế, giá vé hiện tại là 100 nghìn đồng mỗi vé. Với giá vé này, tất cả các ghế đều được bán hết cho mỗi suất chiếu. Ban quản lý rạp phim đang xem xét việc tăng giá vé để tối ưu hóa doanh thu. Sau khi thử nghiệm, rạp phim nhận thấy cứ mỗi lần tăng giá thêm 5 nghìn đồng, số ghế bị bỏ trống sẽ tăng thêm 4 ghế. Hỏi mức giá vé mới là bao nhiêu để rạp phim đạt doanh thu lớn nhất?
+		\item Cho 3 số thực dương $x, y, z$ thỏa mãn điều kiện: $x^2 \ge y^2 + z^2$.
+		Tìm giá trị nhỏ nhất của biểu thức: $P = \frac{1}{x^2}(y^2+z^2) + \frac{7x^2}{2}\left(\frac{1}{y^2}+\frac{1}{z^2}\right) + 2023$.
+	\end{enumerate}
+	\loigiai{}
+\end{ex}
+
+\setcounterref{ex}{0}

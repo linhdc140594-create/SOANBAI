@@ -1,0 +1,41 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_02 (TRÍCH ĐỀ 2)
+\begin{ex}
+Cho đường tròn $(O)$, bán kính $R (R>0)$ và dây cung $BC$ cố định. Một điểm $A$ chuyển động trên cung lớn $BC$ sao cho tam giác $ABC$ có ba góc nhọn. Kẻ các đường cao $AD, BE$ của tam giác $ABC$ cắt nhau tại $H$.
+\begin{enumerate}[label=\textbf{\alph*)}]
+    \item Chứng minh rằng tứ giác $DHEC$ nội tiếp một đường tròn.
+    \item Kẻ đường kính $AM$ của đường tròn $(O)$ và $OI$ vuông góc với $BC$ tại $I$. Chứng minh rằng $I$ là trung điểm của $HM$.
+    \item Khi $BC$ cố định, xác định vị trí của $A$ trên đường tròn $(O)$ để tích $DH \cdot DA$ đạt giá trị lớn nhất.
+\end{enumerate}
+\loigiai{
+\begin{itemize}
+    \item[a)] Ta có $AD \perp BC$ tại $D \Rightarrow \widehat{HDC} = 90^\circ$.\\
+    $BE \perp AC$ tại $E \Rightarrow \widehat{HEC} = 90^\circ$.\\
+    Tứ giác $DHEC$ có $\widehat{HDC} + \widehat{HEC} = 90^\circ + 90^\circ = 180^\circ$.\\
+    Mà hai góc này ở vị trí đối nhau, nên tứ giác $DHEC$ nội tiếp đường tròn đường kính $HC$.
+    
+    \item[b)] Vì $AM$ là đường kính của $(O)$ nên $\widehat{ABM} = 90^\circ$ và $\widehat{ACM} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn).\\
+    $\Rightarrow MB \perp AB$ và $MC \perp AC$.\\
+    Mặt khác, $H$ là trực tâm của $\triangle ABC \Rightarrow CH \perp AB$ và $BH \perp AC$.\\
+    Từ đó suy ra $BH \parallel MC$ (cùng $\perp AC$) và $CH \parallel MB$ (cùng $\perp AB$).\\
+    Do đó tứ giác $BHCM$ là hình bình hành.\\
+    Vì $OI \perp BC$ tại $I$ nên $I$ là trung điểm của dây cung $BC$.\\
+    Trong hình bình hành $BHCM$, hai đường chéo $BC$ và $HM$ cắt nhau tại trung điểm của mỗi đường.\\
+    Mà $I$ là trung điểm của $BC$ nên $I$ cũng là trung điểm của $HM$ (đpcm).
+    
+    \item[c)] Kéo dài $AD$ cắt đường tròn $(O)$ tại điểm thứ hai $K$ ($K \neq A$).\\
+    Ta có $\widehat{KBC} = \widehat{KAC}$ (hai góc nội tiếp cùng chắn $\stackrel{\frown}{KC}$).\\
+    Mặt khác $\widehat{HBD} = \widehat{CAD}$ (cùng phụ với $\widehat{ACB}$).\\
+    Suy ra $\widehat{KBD} = \widehat{HBD}$, do đó $BD$ vừa là đường cao vừa là đường phân giác trong $\triangle HBK \Rightarrow \triangle HBK$ cân tại $B$.\\
+    Suy ra $BD$ là đường trung trực của $HK \Rightarrow DH = DK$.\\
+    Khi đó: $DH \cdot DA = DK \cdot DA$.\\
+    Xét hai tam giác $\triangle DBK$ và $\triangle DAC$ có:
+    $\widehat{BDK} = \widehat{ADC} = 90^\circ$; $\widehat{BKD} = \widehat{ACD}$ (cùng chắn $\stackrel{\frown}{AB}$).\\
+    $\Rightarrow \triangle DBK \sim \triangle DAC$ (g-g) $\Rightarrow \dfrac{DK}{DC} = \dfrac{DB}{DA} \Rightarrow DK \cdot DA = DB \cdot DC$.\\
+    Suy ra $DH \cdot DA = DB \cdot DC$.\\
+    Áp dụng bất đẳng thức Cauchy cho hai đoạn thẳng dương $DB$ và $DC$:
+    $$DB \cdot DC \le \left(\dfrac{DB + DC}{2}\right)^2 = \left(\dfrac{BC}{2}\right)^2 = IB^2$$
+    Vì dây cung $BC$ cố định nên độ dài $BC$ không đổi, do đó giá trị lớn nhất của $DH \cdot DA$ là $\dfrac{BC^2}{4}$.\\
+    Dấu “=” xảy ra khi và chỉ khi $DB = DC \iff D \equiv I \iff \triangle ABC$ cân tại $A \iff A$ là điểm chính giữa của cung lớn $BC$.
+\end{itemize}
+}
+\end{ex}

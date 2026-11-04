@@ -1,0 +1,285 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": 7,
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 8 - ĐỀ SỐ 07",
+    "thoi_gian": "90 phút (không kể thời gian phát đề)",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Trong các biểu thức sau, biểu thức nào không phải là đơn thức?",
+            "a": "$-2xy^2$",
+            "b": "$7$",
+            "c": "$x + 2y$",
+            "d": "$3xy$",
+            "da": "C",
+            "loigiai": "Đơn thức là biểu thức chỉ gồm một số, một biến hoặc một tích giữa các số và biến. Biểu thức $x + 2y$ chứa phép cộng giữa các biến nên là đa thức, không phải là đơn thức."
+        },
+        {
+            "cau": 2,
+            "de": "Cặp đơn thức nào sau đây là hai đơn thức đồng dạng?",
+            "a": "$2x^2y$ và $2xy^2$",
+            "b": "$-3x^3y^2$ và $5x^3y^2$",
+            "c": "$4x^2$ và $4x^3$",
+            "d": "$2xy$ và $xy^2$",
+            "da": "B",
+            "loigiai": "Hai đơn thức đồng dạng có hệ số khác 0 và có cùng phần biến. Hai đơn thức $-3x^3y^2$ và $5x^3y^2$ có cùng phần biến là $x^3y^2$."
+        },
+        {
+            "cau": 3,
+            "de": "Bậc của đa thức $Q = x^2y^4 - 3x^5y + 2x^2y - 5$ là:",
+            "a": "6",
+            "b": "5",
+            "c": "4",
+            "d": "3",
+            "da": "A",
+            "loigiai": "Hạng tử $x^2y^4$ có bậc là $2 + 4 = 6$; hạng tử $-3x^5y$ có bậc là $5 + 1 = 6$; hạng tử $2x^2y$ có bậc là $2 + 1 = 3$. Bậc của đa thức là bậc của hạng tử có bậc cao nhất, do đó bậc của $Q$ bằng 6."
+        },
+        {
+            "cau": 4,
+            "de": "Kết quả của phép nhân $-3x^2 \\cdot (2x - y)$ là:",
+            "a": "$-6x^3 - 3x^2y$",
+            "b": "$-6x^3 + 3x^2y$",
+            "c": "$-6x^2 + 3x^2y$",
+            "d": "$6x^3 - 3x^2y$",
+            "da": "B",
+            "loigiai": "Thực hiện phép nhân đơn thức với đa thức: $-3x^2 \\cdot 2x - (-3x^2) \\cdot y = -6x^3 + 3x^2y$."
+        },
+        {
+            "cau": 5,
+            "de": "Biểu thức $x^2 - 4y^2$ được viết dưới dạng tích là:",
+            "a": "$(x - 2y)^2$",
+            "b": "$(x - 4y)(x + 4y)$",
+            "c": "$(x - 2y)(x + 2y)$",
+            "d": "$(x + 2y)^2$",
+            "da": "C",
+            "loigiai": "Áp dụng hằng đẳng thức hiệu hai bình phương: $x^2 - 4y^2 = x^2 - (2y)^2 = (x - 2y)(x + 2y)$."
+        },
+        {
+            "cau": 6,
+            "de": "Đa thức $x^2 - 6x + 9$ được viết dưới dạng bình phương của một hiệu là:",
+            "a": "$(x - 3)^2$",
+            "b": "$(x + 3)^2$",
+            "c": "$(x - 9)^2$",
+            "d": "$(x + 9)^2$",
+            "da": "A",
+            "loigiai": "Áp dụng hằng đẳng thức bình phương của một hiệu: $x^2 - 6x + 9 = x^2 - 2 \\cdot x \\cdot 3 + 3^2 = (x - 3)^2$."
+        },
+        {
+            "cau": 7,
+            "de": "Kết quả của phép tính $(-15x^3y^4) : (3xy^2)$ là:",
+            "a": "$-5x^2y^2$",
+            "b": "$5x^2y^2$",
+            "c": "$-5x^4y^6$",
+            "d": "$-5x^2y$",
+            "da": "A",
+            "loigiai": "Chia hệ số cho hệ số và chia phần biến cho phần biến: $(-15 : 3)(x^3 : x)(y^4 : y^2) = -5x^2y^2$."
+        },
+        {
+            "cau": 8,
+            "de": "Cho tứ giác $EFGH$ có $\\widehat{E} = 70^\\circ$, $\\widehat{F} = 110^\\circ$, $\\widehat{G} = 80^\\circ$. Số đo góc $H$ là:",
+            "a": "$100^\\circ$",
+            "b": "$90^\\circ$",
+            "c": "$80^\\circ$",
+            "d": "$110^\\circ$",
+            "da": "A",
+            "loigiai": "Tổng các góc trong một tứ giác bằng $360^\\circ$. Do đó: $\\widehat{H} = 360^\\circ - (70^\\circ + 110^\\circ + 80^\\circ) = 360^\\circ - 260^\\circ = 100^\\circ$."
+        },
+        {
+            "cau": 9,
+            "de": "Tứ giác có các cạnh đối song song là:",
+            "a": "Hình thang",
+            "b": "Hình bình hành",
+            "c": "Hình chữ nhật",
+            "d": "Hình thoi",
+            "da": "B",
+            "loigiai": "Theo định nghĩa, hình bình hành là tứ giác có các cạnh đối song song."
+        },
+        {
+            "cau": 10,
+            "de": "Hình bình hành có hai đường chéo vuông góc với nhau là:",
+            "a": "Hình chữ nhật",
+            "b": "Hình thang cân",
+            "c": "Hình thoi",
+            "d": "Hình vuông",
+            "da": "C",
+            "loigiai": "Theo dấu hiệu nhận biết, hình bình hành có hai đường chéo vuông góc với nhau là hình thoi."
+        },
+        {
+            "cau": 11,
+            "de": "Mặt đáy của hình chóp tam giác đều là hình gì?",
+            "a": "Tam giác cân",
+            "b": "Tam giác vuông",
+            "c": "Tam giác đều",
+            "d": "Tam giác vuông cân",
+            "da": "C",
+            "loigiai": "Theo định nghĩa hình chóp tam giác đều, mặt đáy của hình chóp là một tam giác đều."
+        },
+        {
+            "cau": 12,
+            "de": "Cho hình chóp tam giác đều có độ dài cạnh đáy bằng $4\\text{ cm}$ và độ dài trung đoạn bằng $9\\text{ cm}$. Diện tích xung quanh của hình chóp đó là:",
+            "a": "$54\\text{ cm}^2$",
+            "b": "$108\\text{ cm}^2$",
+            "c": "$36\\text{ cm}^2$",
+            "d": "$27\\text{ cm}^2$",
+            "da": "A",
+            "loigiai": "Chu vi đáy của hình chóp tam giác đều: $C = 3 \\cdot 4 = 12\\text{ cm}$. Diện tích xung quanh: $S_{xq} = \\dfrac{1}{2} C \\cdot d = \\dfrac{1}{2} \\cdot 12 \\cdot 9 = 54\\text{ cm}^2$."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho biểu thức $A = \\left(\\dfrac{x}{x^2 - 4} + \\dfrac{1}{x + 2}\\right) : \\dfrac{2}{x - 2}$ với $x \\neq \\pm 2$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Mẫu thức chung của hai phân thức trong ngoặc là $x^2 - 4$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Mẫu thức chung là $(x - 2)(x + 2) = x^2 - 4$."
+            },
+            "y_b": {
+                "noi_dung": "Kết quả rút gọn biểu thức trong ngoặc là $\\dfrac{2x - 2}{x^2 - 4}$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Ta có: $\\dfrac{x}{x^2 - 4} + \\dfrac{x - 2}{x^2 - 4} = \\dfrac{2x - 2}{x^2 - 4}$."
+            },
+            "y_c": {
+                "noi_dung": "Kết quả rút gọn của biểu thức $A$ là $\\dfrac{x - 1}{x + 2}$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $A = \\dfrac{2(x - 1)}{(x - 2)(x + 2)} \\cdot \\dfrac{x - 2}{2} = \\dfrac{x - 1}{x + 2}$."
+            },
+            "y_d": {
+                "noi_dung": "Có đúng 2 giá trị nguyên của $x$ để biểu thức $A$ nhận giá trị nguyên.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Ta có $A = \\dfrac{x + 2 - 3}{x + 2} = 1 - \\dfrac{3}{x + 2}$. Để $A$ nguyên thì $x + 2 \\in \\{\\pm 1; \\pm 3\\} \\Rightarrow x \\in \\{-1; -3; 1; -5\\}$ (gồm 4 giá trị nguyên thỏa mãn $x \\neq \\pm 2$)."
+            }
+        },
+        {
+            "cau": 2,
+            "de": "Hàm số bậc nhất $y = (m - 1)x + 2m - 3$ (với $m \\neq 1$) có đồ thị là đường thẳng $(d)$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Với $m = 2$, hàm số đồng biến trên $\\mathbb{R}$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Khi $m = 2$, hệ số $a = 2 - 1 = 1 > 0$ nên hàm số đồng biến trên $\\mathbb{R}$."
+            },
+            "y_b": {
+                "noi_dung": "Với $m = 0$, đồ thị $(d)$ đi qua điểm $A(1; -4)$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Khi $m = 0$, hàm số là $y = -x - 3$. Thay $x = 1 \\Rightarrow y = -4$, nên đồ thị đi qua $A(1; -4)$."
+            },
+            "y_c": {
+                "noi_dung": "Đường thẳng $(d)$ song song với đường thẳng $y = 2x + 1$ khi $m = 3$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Đường thẳng $(d)$ song song với $y = 2x + 1$ khi $m - 1 = 2 \\Leftrightarrow m = 3$ và $2m - 3 = 3 \\neq 1$ (thỏa mãn)."
+            },
+            "y_d": {
+                "noi_dung": "Khoảng cách từ gốc tọa độ $O$ đến đường thẳng $(d)$ khi $m = 2$ bằng $\\sqrt{5}$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Khi $m = 2$, đường thẳng là $x - y + 1 = 0$. Khoảng cách từ $O(0;0)$ đến $(d)$ là $d = \\dfrac{|1|}{\\sqrt{1^2 + (-1)^2}} = \\dfrac{\\sqrt{2}}{2} \\neq \\sqrt{5}$."
+            }
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Tính giá trị của biểu thức $A = (x + 2y)^2 - (x - 2y)^2$ tại $x = 25$ và $y = \\dfrac{1}{2}$.",
+            "da": "100",
+            "loigiai": "Khai triển và thu gọn biểu thức $A$:\n\n$A = (x^2 + 4xy + 4y^2) - (x^2 - 4xy + 4y^2) = 8xy$.\n\nThay $x = 25$ và $y = \\dfrac{1}{2}$ vào biểu thức, ta được: $A = 8 \\cdot 25 \\cdot \\dfrac{1}{2} = 100$."
+        },
+        {
+            "cau": 2,
+            "de": "Tìm các giá trị của $x$, biết: $x^3 - 4x = 0$.",
+            "da": "$x = 0; x = 2; x = -2$",
+            "loigiai": "Phân tích vế trái thành nhân tử:\n\n$x(x^2 - 4) = 0 \\Leftrightarrow x(x - 2)(x + 2) = 0$.\n\nSuy ra $x = 0$ hoặc $x = 2$ hoặc $x = -2$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,0 điểm",
+            "de": "Rút gọn các biểu thức sau:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,35",
+                    "noi_dung": "$3x(2xy - 5) - 6x^2y$",
+                    "loigiai": "$3x(2xy - 5) - 6x^2y = 6x^2y - 15x - 6x^2y = -15x$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,35",
+                    "noi_dung": "$(3x^4y^4 - 9x^2y^2 + 15xy^3) : (xy^2)$",
+                    "loigiai": "$(3x^4y^4 - 9x^2y^2 + 15xy^3) : (xy^2) = 3x^4y^4 : xy^2 - 9x^2y^2 : xy^2 + 15xy^3 : xy^2 = 3x^3y^2 - 9x + 15y$."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,3",
+                    "noi_dung": "$(x - 3)^2 - (x + 3)^2$",
+                    "loigiai": "$(x - 3)^2 - (x + 3)^2 = (x^2 - 6x + 9) - (x^2 + 6x + 9) = -12x$."
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "0,75 điểm",
+            "de": "Tìm $x$, biết:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,25",
+                    "noi_dung": "$2x(x - 5) - 2x^2 = 20$",
+                    "loigiai": "$2x(x - 5) - 2x^2 = 20 \\Leftrightarrow 2x^2 - 10x - 2x^2 = 20 \\Leftrightarrow -10x = 20 \\Leftrightarrow x = -2$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,25",
+                    "noi_dung": "$(x + 3)^2 - x(x - 2) = 11$",
+                    "loigiai": "$(x + 3)^2 - x(x - 2) = 11 \\Leftrightarrow x^2 + 6x + 9 - x^2 + 2x = 11 \\Leftrightarrow 8x + 9 = 11 \\Leftrightarrow 8x = 2 \\Leftrightarrow x = \\dfrac{1}{4}$."
+                },
+                {
+                    "y": "c",
+                    "diem_y": "0,25",
+                    "noi_dung": "$x^2 - 9 + (x - 3)(2x + 1) = 0$",
+                    "loigiai": "$x^2 - 9 + (x - 3)(2x + 1) = 0 \\Leftrightarrow (x - 3)(x + 3) + (x - 3)(2x + 1) = 0 \\Leftrightarrow (x - 3)[(x + 3) + (2x + 1)] = 0 \\Leftrightarrow (x - 3)(3x + 4) = 0 \\Leftrightarrow x = 3$ hoặc $x = -\\dfrac{4}{3}$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "0,75 điểm",
+            "de": "Do ảnh hưởng của một cơn bão, một cây cột điện có phương thẳng đứng đã bị gió bão làm gãy ngang thân (như hình vẽ bên dưới), ngọn cây cột điện chạm đất cách gốc $4\\text{ m}$, chiều cao từ gốc cây cột điện đến điểm gãy là $3\\text{ m}$. Tính chiều cao ban đầu của cây cột điện.",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.8, >=stealth]\n  \\coordinate (A) at (4,0);\n  \\coordinate (C) at (0,0);\n  \\coordinate (B) at (4,3);\n  \\draw[thick] (C)--(A)--(B)--cycle;\n  \\draw[dashed, brown!60!black, line width=1.5pt] (B)--(4,5.5);\n  \\draw[line width=2pt, brown!80!black] (A)--(B);\n  \\draw[line width=2pt, brown!80!black] (B)--(C);\n  \\draw[thick] (-0.5,0)--(5,0);\n  \\fill (A) circle (1.5pt) node[below right] {$A$};\n  \\fill (B) circle (1.5pt) node[above right] {$B$};\n  \\fill (C) circle (1.5pt) node[below left] {$C$};\n  \\draw (3.7,0) |- (4,0.3);\n  \\node[right] at ($(A)!0.5!(B)$) {$3\\text{ m}$};\n  \\node[below] at ($(A)!0.5!(C)$) {$4\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,75",
+                    "noi_dung": "Tính chiều cao ban đầu của cây cột điện.",
+                    "loigiai": "Mô hình hóa hình ảnh cây cột điện bị gãy bằng tam giác $ABC$ vuông tại $A$.\n\nTrong đó $AB = 3\\text{ m}$ là chiều cao từ gốc đến điểm gãy, $AC = 4\\text{ m}$ là khoảng cách từ gốc đến ngọn chạm đất, $BC$ là độ dài đoạn cột điện bị gãy gập xuống.\n\nÁp dụng định lý Pythagore trong tam giác vuông $ABC$:\n$BC^2 = AB^2 + AC^2 = 3^2 + 4^2 = 9 + 16 = 25 \\Rightarrow BC = 5\\text{ m}$.\n\nChiều cao ban đầu của cây cột điện là: $AB + BC = 3 + 5 = 8\\text{ m}$."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Tìm giá trị nhỏ nhất của biểu thức: $P = x^2 + 2y^2 - 2xy - 4y + 2026$.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Tìm giá trị nhỏ nhất của $P$.",
+                    "loigiai": "Biến đổi biểu thức $P$:\n\n$P = (x^2 - 2xy + y^2) + (y^2 - 4y + 4) + 2022 = (x - y)^2 + (y - 2)^2 + 2022$.\n\nVì $(x - y)^2 \\ge 0$ và $(y - 2)^2 \\ge 0$ với mọi $x, y$, nên $P \\ge 2022$ với mọi $x, y$.\n\nDấu \"=\" xảy ra khi và chỉ khi: $\\begin{cases} y - 2 = 0 \\\\ x - y = 0 \\end{cases} \\Leftrightarrow x = y = 2$.\n\nVậy giá trị nhỏ nhất của $P$ là $2022$, đạt được khi $x = y = 2$."
+                }
+            ]
+        }
+    ]
+}
+
+work_dir = r'd:\GitHub\SOANBAI-main\LOP8\DETHIGHK1\DE_07'
+json_path = os.path.join(work_dir, 'de_07.json')
+with open(json_path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Đã tạo thành công de_07.json!")
+

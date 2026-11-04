@@ -1,0 +1,313 @@
+--- TRANG 6 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 2 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Tập hợp các chữ cái trong từ “CHĂM HỌC” là: 
+A. {C; H; Ă; M; H; O; C}               
+B. {H; Ă; M; O}             
+  
+C. {C; H; Ă; M; O}                  
+ 
+D. {C; H; Ă; M; H; O} 
+Câu 2. Số liền sau của số 2022 là 
+A. 
+.
+2023 
+B. 
+.
+2020 
+C. 
+.
+2022 
+D. 
+.
+2024  
+Câu 3. Nếu 
+3
+a và 
+3
+b thì tổng a
+b
++
+chia hết cho  
+A. 0 .                                  B. 6 .                                C. 3 . 
+D. 9 . 
+Câu 4. Tổng nào sau đây chia hết cho 7  
+A. 35
+155
+280
++
++
+.                                                   B. 140
+497
+634
++
++
+.      
+C. 51 140
+910
++
++
+.                                                    D. 35
+420
+763
++
++
+. 
+Câu 5. Chọn câu đúng 
+A. 4
+5
+−. 
+ 
+B. 2
+0
+
+. 
+ 
+C. 0
+3
+−. 
+ 
+D. 2
+5
+−−. 
+Câu 6. Khẳng định nào dưới đây đúng? 
+A. Hình bình hành có 4 góc bằng nhau. 
+B. Hình lục giác đều có 3 đường chéo chính cùng đi qua một điểm. 
+C. Tam giác đều là tam giác có 3 góc vuông. 
+D. Hình chữ nhật có hai đường chéo bằng nhau và vuông góc với nhau.  
+ 
+
+
+--- TRANG 7 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Cho tam giác ABC đều có cạnh 
+7cm
+AB =
+. Chu vi của tam giác ABC là:  
+A. 21 cm . 
+ 
+B. 49 cm . 
+ 
+C. 
+2
+21 cm . 
+ 
+D. 
+2
+49 cm . 
+Câu 8. Hình nào sau đây không phải là lục giác đều? 
+ 
+A. Hình 3. 
+B. Hình 2. 
+C. Hình 1. 
+D. Hình 4. 
+Câu 9. Chọn cách phân tích ra thừa số nguyên tố đúng.  
+A. 32
+2 16
+=
+
+.                 
+ 
+ 
+ 
+   B. 32
+8 4
+= 
+.                    
+C. 
+5
+32
+2
+=
+.           
+ 
+   
+ 
+ 
+   D. 32
+2 4 4
+=
+. 
+Câu 10. Trong các số sau, số nào chia hết cho 2 và 5 ? 
+ A. 2020 .            
+ 
+B. 25 .          
+  
+C.52.      
+ 
+         D.5 . 
+Câu 11.  Trong các hình sau hình có hai đường chéo không bằng nhau là 
+A. hình chữ nhật. 
+ 
+B. hình thang cân. 
+ 
+C. hình vuông.  
+ 
+D. hình bình hành 
+Câu 12. Nếu có hai miếng bìa hình thang cân với kích thước như hình sau, ta ghép được 
+các hình nào sau đây? 
+ 
+Hình 4
+Hình 3
+Hình 2
+Hình 1
+3cm
+3cm
+3cm
+
+
+--- TRANG 8 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+A. Hình vuông, hình chữ nhật. 
+B. Hình vuông, hình bình hành.  
+C. Hình bình hành, lục giác đều.  
+D. Lục giác đều, hình thang cân. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Xét trong 20 số tự nhiên đầu tiên. Các khẳng định sau đây đúng hay sai? 
+a) Trong các số đã cho, có 3 số chia hết cho cả 2 và 5.  
+b) Trong các số đã cho, có 6 số chia hết cho 9. 
+c) Trong các số đã cho, có 8 số là số nguyên tố. 
+d) Trong các số đã cho, có 6 số là bội của 3.  
+Câu 2. Xét việc phân tích số 40 ra thừa số nguyên tố. Các khẳng định sau đây đúng hay sai? 
+a) Phân tích số 40 ra thừa số nguyên tố ta được kết quả là 
+3
+40
+2
+5
+=
+. 
+b) Kết quả phân tích số 40 ra thừa số nguyên tố là 40
+4 10
+=
+
+. 
+c) Kết quả phân tích số 40 ra thừa số nguyên tố là 40
+2 4 5
+=
+. 
+d) Số 40 có tất cả 3 thừa số nguyên tố là 2, 3 và 5. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Có bao nhiêu  số tự nhiên m sao cho 5 < m < 15 và chia hết cho 3? 
+Câu 2. Tìm số tự nhiên x lớn nhất thỏa mãn 120 x
+ và 150 x
+? 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính (tính hợp lí nếu có) 
+a)
+4
+2
+3 : 3 ; 
+ 
+ 
+b)
+(
+)
+2
+3
+80
+4.5
+3.2
+−
+−
+;  
+ 
+c) 23.75
+25.10
+25.13
++
++
+. 
+
+
+--- TRANG 9 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 2. Tìm x, biết:  
+a) 
+; 
+ 
+     b) 
+20
+x
+; 
+35
+x
+ và 400
+500
+x
+
+
+. 
+Câu 3. Cô giáo chủ nhiệm muốn chia 72 quyển vở, 48 bút bi và 60 gói bánh thành một số 
+phần thưởng như nhau để trao trong dịp sơ kết học kì. Hỏi có thể chia được nhiều nhất bao 
+nhiêu phần thưởng? Khi đó mỗi phần thưởng có bao nhiêu quyển vở, bút bi và gói bánh?  
+Câu 4.  
+a) Cho số tự nhiên x thoả mãn 
+1
+2
+3
+3
+2.3
+270
+x
+x
+x
++
++
++
+−
+=
+. 
+Hỏi x là số nguyên tố hay hợp số ? 
+b) Tìm hai số tự nhiên biết tích của chúng bằng 144, ƯCLN của chúng bằng 6 . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 120
+5(2
+)
+20
+−
++
+=
+x

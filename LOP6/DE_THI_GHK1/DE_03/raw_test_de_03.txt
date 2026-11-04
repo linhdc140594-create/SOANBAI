@@ -1,0 +1,355 @@
+--- TRANG 10 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 3 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho tập hợp 
+
+
+A
+1; 2; a; b
+=
+. Khẳng định nào dưới đây sai? 
+A. 1
+A
+
+. 
+ 
+  
+B. a
+A
+
+. 
+ 
+ 
+C. 5
+A
+
+. 
+ 
+      D. b
+A
+
+. 
+Câu 2. Tập hợp nào dưới đây là tập hợp số tự nhiên ? 
+A.
+
+
+1;2;3;...
+N =
+. 
+ 
+ 
+ 
+ 
+ 
+B.
+
+
+0;1;2;3;...;100
+N =
+.      
+C.
+
+
+0;1;2;3;...
+N =
+.  
+ 
+ 
+ 
+ 
+D.
+
+
+0;2;4;6;...
+N =
+. 
+Câu 3. Số nào sau đây là bội của 17? 
+A. 51.                   
+  
+B. 54. 
+ 
+ 
+C. 56. 
+ 
+     D. 63. 
+Câu 4. Một nhà kho có 240 bao gạo, chia đều vào 8 dãy kệ. Sau đó, người ta lấy ra 15 
+bao ở mỗi dãy để chuyển đi nơi khác. Hỏi nhà kho còn lại bao nhiêu bao gạo? 
+A. 105 bao. 
+ 
+B. 115 bao. 
+ 
+C. 120 bao. 
+ 
+D. 135 bao. 
+Câu 5. Công thức tính chu vi của hình vuông có độ dài cạnh a là 
+ 
+A. C
+a
+=
+. 
+                           
+B. 
+4
+C
+a
+=
+. 
+ 
+ 
+C. 
+3
+C
+a
+=
+. 
+ 
+D. 
+5
+C
+a
+=
+. 
+Câu 6. Trong các hình dưới đây, hình nào là hình thoi?  
+
+
+--- TRANG 11 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+A. Hình 1. 
+B. Hình 2. 
+C. Hình 3. 
+D. Hình 4. 
+Câu 7. Đọc lũy thừa sau và nêu cơ số, số mũ của nó: 63 
+A. Sáu mũ ba; cơ số là 6, số mũ là 3. 
+B. Sáu mũ ba; cơ số là 3, số mũ là 6. 
+C. Ba mũ sáu; cơ số là 3, số mũ là 6. 
+ 
+D. Ba mũ sáu; cơ số là 6, số mũ là 3. 
+Câu 8. Khi viết gọn tích 
+2
+3.2.6 .6 bằng cách dùng luỹ thừa, kết quả đúng là : 
+ A. 
+2
+33 .2 . 
+ 
+  
+ 
+ 
+ 
+ 
+ B. 
+3
+6 . 
+             
+ C. 
+4
+6 . 
+ 
+                        
+ 
+ 
+ D. 
+3
+2
+2 .3 . 
+Câu 9.  Trong hình vuông có: 
+A. Hai cạnh đối bằng nhau. 
+ 
+B. Hai đường chéo bằng nhau. 
+C. Bốn cạnh bằng nhau. 
+ 
+D. Hai đường chéo vuông góc. 
+Câu 10. Cho hình thang có độ dài hai đáy là 6 cm và 10 cm, chiều cao là 5 cm. Diện tích 
+của hình thang là: 
+A. 40 cm2                  
+B. 50 cm2                  
+ C. 60 cm2                   D. 70 cm2 
+Câu 11. Cho tam giác đều MNP có MP = 6cm. Độ dài MN và NP lần lượt là: 
+A. 2cm; 4cm. .                 
+ 
+ 
+ 
+ 
+B. 3cm; 3cm.               
+C. 1cm; 5cm.           
+   
+ 
+ 
+ 
+D. 6cm; 6cm. 
+Câu 12. Cho hình thoi, biết độ dài hai đường chéo là 2cm và 4cm. Thì diện tích hình thoi là: 
+A. 4.                                   B. 6.  
+ C. 8. 
+       D. 2. 
+Hình 4
+Hình 3
+Hình 2
+Hình 1
+
+
+--- TRANG 12 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hình vuông MNPQ có cạnh bằng 4 cm . Các khẳng định sau đây đúng hay sai? 
+a) 
+4 cm
+MN
+NP
+PQ
+QM
+=
+=
+=
+=
+. 
+b) MN và NQ song song với nhau. 
+c) Mỗi góc ở các đỉnh của hình vuông bằng nhau và bằng 60. 
+d) Vẽ cạnh 
+4 cm
+MN =
+. Dùng thước êke vẽ các đường vuông góc với MN tại M và N , 
+sau đó lần lượt lấy các điểm Q, P trên các đường đó sao cho 
+4 cm
+MQ
+NP
+=
+=
+. Nối P với 
+Q ta được hình vuông MNPQ có cạnh 4 cm như đã cho. 
+Câu 2. Cho các số: 355, 360, 257, 1617, 152. Các khẳng định sau đây đúng hay sai? 
+a) Số 360 chia hết cho 9. 
+b) Số 1617 chia hết cho 9. 
+c) Trong các số đã cho, có đúng hai số chia hết cho 9. 
+d) Số 257 và số 152 đều không chia hết cho 9. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Số các số nguyên tố nhỏ hơn 10 là ? 
+Câu 2. Có bao nhiêu số tự nhiên n thỏa mãn 1
+ 9
+n
+
+? 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 475 170
+325 
+330;
++
++
++
+ 
+b) 89 54
+45 89
+89;
+
++
+
++
+ 
+
+
+--- TRANG 13 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+c) 
+2
+.
+120: 54
+50:2
+3
+2.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+−
+−
+ 
+Câu 2. Tìm số tự nhiên x, biết: 
+a) 
+–15
+2025
+x
+=
+; 
+b) 
+(
+)
+39
+– 47
+160
+x
++
+=
+. 
+Câu 3.  Mảnh vườn nhà ông An có dạng như hình vẽ dưới đây. 
+ 
+a) Ông An rào xung quanh mảnh vườn bằng dây thép gai. Hỏi ông An mua hết bao 
+nhiêu tiền dây thép gai. Biết mỗi mét dây thép có giá 50000 đồng. 
+b) Tính diện tích mảnh vườn của ông An. 
+Câu 4. Cho B = 5 + 52 + 53 + ... + 58. Chứng minh B chia hết cho 30. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3 m
+2 m
+A
+B
+C
+D
+E
+F
+7 m
+6 m
+4 m
+4 m

@@ -1,0 +1,402 @@
+--- TRANG 57 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 15 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 6 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Cho tập hợp
+
+
+  ; 5 ;  ; 7 
+A
+a
+b
+=
+ . Cách viết nào sau đây đúng: 
+A.5
+A
+
+ .                                    B. 0
+A
+
+. 
+     C.7
+A
+
+ . 
+        D. a
+A
+
+ 
+Câu 2. Cho hình vẽ sau: 
+ 
+Trong hình vẽ trên có: 
+A. 2 hình thang, 3 hình lục giác đều, 3 hình tam giác đều. 
+B. 2 hình thoi, 3 hình lục giác đều, 2 hình thang cân. 
+C. 3 hình lục giác đều, 2 hình thang cân, 2 hình tam giác đều. 
+D. 2 hình tam giác đều, 1 hình lục giác đều, 4 hình thoi. 
+Câu 3. Các số La mã XII; XXIII; XXIX được đọc lần lượt là: 
+A. 12;23;29.  
+ 
+ 
+ 
+ 
+ 
+B. 12;23;28. 
+C. 11;23;28.  
+ 
+ 
+ 
+ 
+ 
+D. 11;23;29. 
+Câu 4. Cho M = {1; 2; 3; 4; 5; 6} khẳng định đúng là: 
+A. 5
+.
+M
+
+              
+ 
+B. 4
+.
+M
+
+         
+ 
+C. 8
+.
+M
+
+                       D. 6
+.
+M
+
+ 
+Câu 5. Trong các khẳng định sau, khẳng định sai là? 
+A. 
+3
+4
+7
+2 .2
+2 .
+=
+  
+ 
+B. 
+0
+201
+0.
+=
+  
+ 
+C. 
+7
+5
+5 :5
+25.
+=
+ 
+    D. 
+4
+2
+16.
+=
+ 
+
+
+--- TRANG 58 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Câu 6. Giá trị của biểu thức 
+2
+22
+2.(3
+1)
+−
++
+ bằng  
+A. 8.  
+ 
+ 
+B. 140. 
+    
+ 
+C. 200. 
+ 
+   D. 2. 
+Câu 7.  Số nào sau đây là số nguyên tố?  
+A. 6.   
+          
+B. 1.                              
+C. 7.  
+             D. 0. 
+Câu 8. ƯCLN(8, 20, 4) là   
+A. 1. 
+             
+ 
+B. 20.                        
+C. 4.                          D. 8. 
+Câu 9.  Cho A gồm các số tự nhiên nhỏ hơn 5, tập A được viết như thế nào? 
+A. 
+
+.
+1; 2; 3; 4
+A =
+  
+ 
+ 
+ 
+B. 
+
+.
+0; 1; 2; 3; 4
+A =
+ 
+ 
+C. 
+
+.
+1; 2; 3; 4; 5
+A =
+ 
+ 
+ 
+ 
+D. 
+
+
+0; 1; 2;
+.
+ 3; 4; 5
+A =
+ 
+Câu 10. Cho hình vuông ABCD . Khẳng định nào sau đây là sai? 
+A. Hình vuông ABCD có bốn cạnh bằng nhau: AB
+BC
+CD
+DA
+=
+=
+=
+. 
+B. Hình vuông ABCD có bốn góc ở mỗi đỉnh 
+, , ,
+A B C D bằng nhau. 
+C. Hình vuông ABCD có hai đường chéo bằng nhau: AC
+BD
+=
+. 
+D. Hình vuông ABCD có hai cặp cạnh đối song song: AB và BC; CD và DA. 
+Câu 11. Hình thang cân không có tính chất nào dưới đây? 
+A. Hai cạnh bên bằng nhau. 
+B. Hai đường chéo bằng nhau. 
+C. Hai cạnh đáy song song. 
+D. Hai góc kề một cạnh bên bằng nhau. 
+Câu 12. Trong các số sau 2; 7; 11; 21 số nào hợp số? 
+A. 2.              
+ 
+B. 7.             
+ 
+ C. 21.              
+     
+D. 11. 
+
+
+--- TRANG 59 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho tập hợp 
+{
+5
+10}
+X
+x
+x
+=
+
+
+
+∣
+. Xét tính đúng sai của các mệnh đề sau: 
+a) Tập hợp X gồm 5 phần tử. 
+b) Số 10 là một phần tử thuộc tập hợp X . 
+c) Giá trị của biểu thức 
+2
+2
+3
+4
++
+ là một phần tử thuộc tập hợp X . 
+d) Tổng tất cả các phần tử trong tập hợp X bằng 35. 
+Câu 2. Cho hình tam giác đều ABC có chu vi bằng 18 cm. Xét tính đúng sai của các mệnh 
+đề sau: 
+a) Độ dài mỗi cạnh của tam giác ABC là 6 cm . 
+b) Ba góc tại các đỉnh 
+, ,
+A B C của tam giác ABC bằng nhau. 
+c) Ghép 6 tam giác đều bằng nhau có cạnh 6 cm ta sẽ tạo thành một hình lục giác đều cạnh 
+6 cm . 
+d) Chu vi của hình lục giác đều được tạo thành ở trên là 48 cm . 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Một trường Trung học cơ sở có 220 học sinh đi tham quan .Nhà trường cần thuê ít 
+nhất bao nhiêu xe ô tô 45 chổ ngồi để đủ chổ cho tất cả học sinh? 
+Câu 2. Hình chữ nhật có chiều dài và chiều rộng lần lượt là 6cm và 4cm , chu vi hình chữ 
+nhật là bao nhiêu? 
+Phần IV. Tự luận 
+Câu 1. Thực hiện các phép tính sau (tính hợp lí nếu có thể) 
+
+
+--- TRANG 60 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 270:3:5
+4;
+−
+                                                      b) 
+3
+3
+2
+4
+9 .2
+4 : 2 ;
+−
+ 
+c) 867
+(167
+80);
+−
++
+                                                 d) 
+
+
+
+
+−
+−
+
+
+3
+3
+2
+600: 450: 450 (4.5
+2 .5 )
+. 
+Câu 2. Tìm số tự nhiên x , biết: 
+a) 
+15
+35
+x −
+=
+; 
+ 
+ 
+ 
+ 
+b) 
+2
+2 (
+15)
+5
+2
+x
+
++
+=
+; 
+c) 128
+3 (
+4)
+23
+x
+−
++
+=
+; 
+ 
+ 
+ 
+d) 
+15
+x
+ và 0
+60
+x
+
+
+. 
+Câu 3. Một nền nhà hình chữ nhật của gia đình Bác An có chiều dài là 12m, chiều rộng là 8m. 
+a) Tính diện tích nền nhà hình chữ nhật đó. 
+b) Bác An dự định lát nền bằng những viên gạch men hình vuông có cạnh là 40cm. 
+Hỏi Bác An phải dùng hết bao nhiêu viên gạch men để lát kín nền nhà đó? (biết 
+diện tích mạch vữa là không đáng kể). 
+Câu 4. Cho biểu thức  
+21
+120
+2 
+ 21
+25
+B =
++
++
+. Chứng minh rằng A  là hợp số? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+--- TRANG 61 ---
+ 
+ 
+ 
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

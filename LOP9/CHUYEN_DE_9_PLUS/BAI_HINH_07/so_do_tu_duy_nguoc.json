@@ -1,0 +1,114 @@
+{
+  "bai_toan": {
+    "ma_bai": "BAI_HINH_07",
+    "nguon": "Đề 07 - Tuyển tập 55 Đề Thi Vào Lớp 10",
+    "mo_hinh": "Tam giác đồng dạng xoay AHK và ABN kết hợp Kỹ thuật Tam giác cân kép chứng minh trung điểm",
+    "de_bai": "Cho tam giác nhọn ABC nội tiếp trong đường tròn (O) có AB < AC. Trên cung nhỏ AC lấy điểm M khác A thỏa mãn MA < MC. Vẽ đường kính MN của đường tròn (O). Gọi H và K lần lượt là hình chiếu vuông góc của điểm A trên các đường thẳng MB và MN. a) Chứng minh bốn điểm A, H, K, M cùng thuộc một đường tròn đường kính AM. b) Chứng minh tam giác AHK đồng dạng với tam giác ABN và AH . AN = AK . AB. c) Chứng minh đường thẳng HK cắt đoạn thẳng AB tại đúng trung điểm của AB."
+  },
+  "mo_hinh_cot_loi": {
+    "bo_de_1": "Bổ đề Tam giác đồng dạng xoay: Hai góc nội tiếp cùng chắn một cung trong tứ giác nội tiếp AHKM và trong đường tròn (O) chuyển giao qua lại: góc AHK = góc AMN = góc ABN và góc AKH = góc AMB = góc ANB => tam giác AHK đồng dạng tam giác ABN (g-g).",
+    "bo_de_2": "Bổ đề Tam giác cân kép chứng minh trung điểm cạnh huyền: Trong tam giác vuông AHB tại H, điểm E thuộc cạnh huyền AB thỏa mãn EA = EB khi và chỉ khi EA = EH = EB. Ta quy việc chứng minh trung điểm về chứng minh hai tam giác cân độc lập EAH và EHB.",
+    "diem_nghen": "Học sinh thường bế tắc khi muốn chứng minh E là trung điểm của AB vì cố gắng tính tỉ số độ dài đại số hoặc dùng Menelaus/Ceva. Điểm mấu chốt là nhận ra AH song song với BN (cùng vuông góc với MB), tạo ra góc so le trong góc EAH = góc ABN, bằng đúng góc EHA từ tứ giác nội tiếp!"
+  },
+  "so_do_tu_duy_nguoc": [
+    {
+      "tang": 1,
+      "tieu_de": "TẦNG 1: XÁC ĐỊNH ĐÍCH ĐẾN",
+      "muc_tieu": "Chứng minh E = HK cắt AB là trung điểm của đoạn thẳng AB",
+      "cong_thuc": "EA = EB = \\frac{1}{2}AB \\iff E \\text{ là trung điểm của } AB",
+      "cau_hoi_truy_van": "Để chứng minh điểm E nằm trên cạnh huyền AB của tam giác vuông AHB là trung điểm, ta có thể chứng minh qua đoạn thẳng trung gian nào?",
+      "phan_tich_logic": "Trong tam giác vuông AHB vuông tại H, đường trung tuyến ứng với cạnh huyền bằng nửa cạnh huyền: EH = EA = EB. Do đó để chứng minh EA = EB, ta chỉ cần chứng minh EA = EH và EB = EH.",
+      "huong_suy_luan_nguoc": "Làm thế nào để chứng minh EA = EH và EB = EH?"
+    },
+    {
+      "tang": 2,
+      "tieu_de": "TẦNG 2: MỤC TIÊU HAI TAM GIÁC CÂN ĐỘC LẬP TẠI ĐỈNH E",
+      "muc_tieu": "Chứng minh tam giác EAH cân tại E và tam giác EHB cân tại E",
+      "cong_thuc": "\\begin{cases} \\triangle EAH \\text{ cân tại } E \\iff \\widehat{EHA} = \\widehat{EAH} \\\\ \\triangle EHB \\text{ cân tại } E \\iff \\widehat{EHB} = \\widehat{EBH} \\end{cases}",
+      "cau_hoi_truy_van": "Hai tam giác EAH và EHB có liên hệ góc như thế nào qua góc vuông tại H?",
+      "phan_tich_logic": "Vì tam giác AHB vuông tại H nên góc EHA + góc EHB = góc AHB = 90 độ, và góc EAH + góc EBH = 90 độ. Do đó nếu góc EHA = góc EAH thì hiển nhiên góc EHB = 90 độ - góc EHA = 90 độ - góc EAH = góc EBH! Nghĩa là ta chỉ cần chứng minh duy nhất một cặp góc bằng nhau: góc EHA = góc EAH.",
+      "huong_suy_luan_nguoc": "Làm sao chứng minh góc EHA = góc EAH?"
+    },
+    {
+      "tang": 3,
+      "tieu_de": "TẦNG 3: BẮC CẦU QUA GÓC TRUNG GIAN ABN",
+      "muc_tieu": "Chứng minh góc EHA = góc ABN và góc EAH = góc ABN",
+      "cong_thuc": "\\begin{cases} \\widehat{EHA} = \\widehat{AHK} = \\widehat{AMN} = \\widehat{ABN} \\quad (\\text{Góc nội tiếp chắn } \\stackrel{\\frown}{AN}) \\\\ \\widehat{EAH} = \\widehat{HAB} = \\widehat{ABN} \\quad (\\text{Hai góc so le trong do } AH \\parallel BN) \\end{cases}",
+      "cau_hoi_truy_van": "Góc EHA bằng góc nào trong đường tròn ngoại tiếp tứ giác AHKM? Góc EAH bằng góc nào khi AH song song BN?",
+      "phan_tich_logic": "Tứ giác AHKM nội tiếp => góc AHK = góc AMN = góc ABN (cùng chắn cung AN trong (O)). Lại có AH song song BN nên hai góc so le trong bằng nhau: góc HAB = góc ABN. Do đó góc EHA = góc EAH!",
+      "huong_suy_luan_nguoc": "Tại sao đường thẳng AH lại song song với đường thẳng BN?"
+    },
+    {
+      "tang": 4,
+      "tieu_de": "TẦNG 4: QUAN HỆ VUÔNG GÓC VÀ SONG SONG",
+      "muc_tieu": "Chứng minh AH song song BN vì cùng vuông góc với MB",
+      "cong_thuc": "\\begin{cases} AH \\perp MB \\quad (\\text{theo giả thiết hình chiếu } H) \\\\ BN \\perp MB \\quad (\\widehat{MBN} = 90^\\circ \\text{ chắn nửa đường tròn}) \\end{cases} \\implies AH \\parallel BN",
+      "cau_hoi_truy_van": "Tại sao góc MBN bằng 90 độ?",
+      "phan_tich_logic": "Điểm B thuộc đường tròn (O) và MN là đường kính của (O). Theo tính chất góc nội tiếp chắn nửa đường tròn, góc MBN = 90 độ, tức là BN vuông góc với MB.",
+      "huong_suy_luan_nguoc": "Giả thiết gốc nào quy định MN là đường kính?"
+    },
+    {
+      "tang": 5,
+      "tieu_de": "TẦNG 5: ĐIỀU KIỆN KHỞI PHÁT - ĐƯỜNG KÍNH MN CỦA ĐƯỜNG TRÒN (O)",
+      "muc_tieu": "Xác lập góc MBN = 90 độ và tứ giác AHKM nội tiếp từ đường kính MN",
+      "cong_thuc": "MN \\text{ là đường kính của } (O) \\implies \\widehat{MBN} = 90^\\circ \\quad \\& \\quad \\widehat{AHM} = \\widehat{AKM} = 90^\\circ \\implies AHKM \\text{ nội tiếp}",
+      "cau_hoi_truy_van": "Giả thiết bài toán cho những đường vuông góc nào?",
+      "phan_tich_logic": "MN là đường kính của (O) và H, K là hình chiếu của A lên MB, MN. Mọi suy luận đều khởi phát trực tiếp từ các góc vuông tạo bởi đường kính và hình chiếu này.",
+      "huong_suy_luan_nguoc": "Chuỗi lập luận đã truy ngược hoàn toàn về giả thiết gốc ban đầu!"
+    }
+  ],
+  "cay_thong_cong_thuc": {
+    "dinh_ngon": "\\boxed{\\mathbf{E = HK \\cap AB \\text{ LÀ TRUNG ĐIỂM CỦA } AB \\iff EA = EB = \\dfrac{AB}{2}}}",
+    "than_cay": [
+      "\\Updownarrow",
+      "EA = EH = EB \\quad (\\triangle AHB \\text{ vuông tại } H)",
+      "\\Uparrow",
+      "\\triangle EAH \\text{ cân tại } E \\ (EA=EH) \\quad \\& \\quad \\triangle EHB \\text{ cân tại } E \\ (EB=EH)",
+      "\\Uparrow",
+      "\\widehat{EHA} = \\widehat{EAH} \\iff \\widehat{EHB} = 90^\\circ - \\widehat{EHA} = 90^\\circ - \\widehat{EAH} = \\widehat{EBH}",
+      "\\Uparrow",
+      "\\widehat{EHA} = \\widehat{ABN} \\quad \\text{và} \\quad \\widehat{EAH} = \\widehat{ABN}"
+    ],
+    "hai_nhanh": {
+      "nhanh_trai": "\\text{Tứ giác } AHKM \\text{ nội tiếp} \\implies \\widehat{EHA} = \\widehat{AHK} = \\widehat{AMN} = \\widehat{ABN} \\quad (\\text{cùng chắn } \\stackrel{\\frown}{AN})",
+      "nhanh_phai": "AH \\parallel BN \\implies \\widehat{EAH} = \\widehat{HAB} = \\widehat{ABN} \\quad (\\text{Hai góc so le trong})"
+    },
+    "goc_re": "AH \\perp MB \\text{ và } BN \\perp MB \\ (\\widehat{MBN}=90^\\circ \\text{ chắn nửa đường tròn đường kính } MN) \\implies AH \\parallel BN"
+  },
+  "binh_luan_su_pham": {
+    "tai_sao_nghi_ra": "Điểm mấu chốt của bài toán là sự kết hợp giữa Tam giác đồng dạng và Tam giác vuông AHB. Khi bài toán yêu cầu chứng minh E là trung điểm của AB (với E là giao điểm của HK và AB), học sinh thường lúng túng vì HK không phải là đường trung tuyến hiển nhiên. Nhưng trong tam giác vuông AHB, trung điểm E của cạnh huyền AB luôn có tính chất vàng: EA = EH = EB. Đảo ngược tính chất này thành việc chứng minh tam giác EAH cân tại E là chìa khóa mở toang toàn bộ bài toán!",
+    "cau_hoi_goi_mo": [
+      "Câu 1: Đoạn thẳng MN là đường kính của (O), vậy góc MBN bằng bao nhiêu độ? Quan hệ giữa AH và BN là gì?",
+      "Câu 2: Vì AH song song với BN, góc EAH (tức góc HAB) bằng góc nào theo tính chất so le trong?",
+      "Câu 3: Trong đường tròn ngoại tiếp tứ giác AHKM và đường tròn (O), góc EHA (tức góc AHK) bằng góc nào?",
+      "Câu 4: So sánh hai góc EHA và EAH, ta suy ra tam giác EAH có tính chất gì? Từ đó trong tam giác vuông AHB, điểm E là điểm gì của cạnh huyền AB?"
+    ],
+    "sai_lam_thuong_gap": "Học sinh thường ngộ nhận góc EHB = góc EBH mà không giải thích qua phần bù của góc 90 độ; hoặc quên chứng minh góc MBN = 90 độ trước khi kết luận AH song song BN.",
+    "bai_tap_tuong_tu": [
+      "Bài toán phát triển 1 (Bán kính đường tròn Euler): Chứng minh rằng bán kính đường tròn ngoại tiếp tam giác AHK bằng R . sin(góc AMB).",
+      "Bài toán phát triển 2 (Hệ thức lượng giác nâng cao): Chứng minh rằng HK = AM . sin(góc ABN) và diện tích tam giác AHK bằng 1/4 . S_ABN khi M là điểm chính giữa cung AC."
+    ]
+  },
+  "loi_giai_chi_tiet": [
+    {
+      "buoc": "Bước 1: Chứng minh bốn điểm A, H, K, M cùng thuộc đường tròn đường kính AM",
+      "noi_dung": "Theo giả thiết, AH vuông góc MB tại H nên góc AHM = 90 độ. AK vuông góc MN tại K nên góc AKM = 90 độ. Xét tứ giác AHKM có hai đỉnh H và K cùng nhìn đoạn AM dưới góc vuông 90 độ => Tứ giác AHKM nội tiếp đường tròn đường kính AM.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 2: Chứng minh tam giác AHK đồng dạng tam giác ABN và AH . AN = AK . AB",
+      "noi_dung": "Trong đường tròn ngoại tiếp tứ giác AHKM ta có góc AHK = góc AMK (cùng chắn cung AK). Trong (O) ta có góc AMK = AMN = ABN (cùng chắn cung AN) => góc AHK = ABN. Tương tự, góc AKH = AMH = AMB = ANB (cùng chắn cung AB) => góc AKH = ANB. Do đó tam giác AHK đồng dạng tam giác ABN (g-g) => AH/AB = AK/AN => AH . AN = AK . AB.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 3: Chứng minh tam giác EAH cân tại E",
+      "noi_dung": "Gọi E là giao điểm của HK và AB. Vì MN là đường kính của (O) nên góc MBN = 90 độ (góc nội tiếp chắn nửa đường tròn) => BN vuông góc MB. Lại có AH vuông góc MB nên AH song song BN => góc EAH = ABN (hai góc so le trong). Mặt khác, theo câu b ta có góc EHA = AHK = ABN. Suy ra góc EHA = EAH, do đó tam giác EAH cân tại E => EA = EH.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 4: Chứng minh tam giác EHB cân tại E và kết luận E là trung điểm AB",
+      "noi_dung": "Xét tam giác AHB vuông tại H, ta có: góc EHB = 90 độ - EHA và góc EBH = 90 độ - EAH. Do góc EHA = EAH nên góc EHB = EBH => tam giác EHB cân tại E => EB = EH. Từ đó suy ra EA = EB = EH = AB/2. Vậy đường thẳng HK cắt đoạn thẳng AB tại đúng trung điểm E của AB (đpcm).",
+      "diem": "0.75đ"
+    }
+  ]
+}

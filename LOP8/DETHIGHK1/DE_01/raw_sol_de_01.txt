@@ -1,0 +1,1747 @@
+--- TRANG 42 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 1 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1.  Biểu thức nào là đơn thức? 
+A. 
+2
+5
+.
+x y   
+ 
+      
+ 
+ 
+ 
+B. 2
+1.
+xy +
+               
+ 
+C. 3
+2 .
+x −
+ 
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+2
+7.
+x +
+ 
+Lời giải. Đơn thức là biểu thức đại số chỉ gồm một số, một biến, hoặc một tích giữa các số 
+và các biến. 
+2
+5x y là một đơn thức. Các biểu thức còn lại là đa thức. 
+Đáp án đúng: A. 
+Câu 2. Đơn thức đồng dạng với đơn thức 
+3
+5x yz là: 
+A. 
+2
+.
+-30x yz  
+ 
+ 
+ 
+ 
+B. 
+3
+.
+x y z 
+C. -30xyz. 
+ 
+ 
+ 
+ 
+ 
+D. 
+3
+5
+40x y
+.z 
+Lời giải. Hai đơn thức đồng dạng là hai đơn thức có hệ số khác 0 và có cùng phần biến. 
+Đơn thức 
+3x yz có cùng phần biến 
+3x yz với đơn thức đã cho. 
+Đáp án đúng: B. 
+Câu 3. Đa thức 
+3
+4
+2
+1
+5
+0,5
+2
+A
+x yz
+xy
+x y
+=
++
+−
+có bậc là 
+A. 3 .                     
+ 
+      B. 4.                                    C. 5.                                   D. 6. 
+Lời giải. Bậc của hạng tử 
+3
+5x yz là 3 1 1
+5
++ + = . 
+Bậc của hạng tử 1
+2 xy là 1 1
+2
++ =
+. 
+Bậc của hạng tử 
+4
+2
+0,5x y
+−
+ là 4
+2
+6
++
+=
+. 
+
+
+--- TRANG 43 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Bậc của đa thức A là bậc của hạng tử có bậc cao nhất là 6 . 
+Đáp án đúng: D. 
+Câu 4. Cho hình chóp tam giác đều .A BCD như hình vẽ bên. Đoạn thẳng nào sau đây là 
+trung đoạn của hình chóp? 
+ 
+A. 
+.
+AC                                    
+ B. 
+.
+AM 
+C. 
+.
+BN                                     
+ 
+ 
+  D. 
+.
+AP 
+Lời giải. Trung đoạn của hình chóp đều là đường cao vẽ từ đỉnh của mặt bên xuống cạnh 
+đáy tương ứng. Quan sát hình vẽ, đoạn thẳng AM
+BC
+⊥
+ tại M là đường cao của mặt 
+ABC , do đó AM là trung đoạn của hình chóp.  
+Đáp án đúng: B. 
+Câu 5. Tổng các góc của một tứ giác bằng 
+A. 360 .
+ 
+ 
+ 
+ 
+ 
+ 
+B. 180 .
+ 
+ 
+ 
+ 
+C. 270 .
+ 
+ 
+ 
+ 
+ 
+ 
+D. 120 .
+ 
+Lời giải. Theo định lý tổng các góc trong một tứ giác, tổng số đo 4 góc của một tứ giác 
+bằng 360. Đáp án đúng: A. 
+Câu 6. Giá trị của biểu thức 
+3
+2
+3
+3
+1
+−
++
+−
+x
+x
+x
+ tại x = 2 là:  
+A. 0. 
+B. 1. 
+    C. 2.  
+ 
+ 
+D. 16. 
+Lời giải. Ta có hằng đẳng thức: 
+3
+2
+3
+3
+3
+1
+(
+1)
+x
+x
+x
+x
+−
++
+−=
+−
+. Thay 
+2
+x =
+ vào biểu thức: 
+3
+3
+(2 1)
+1
+1
+−
+=
+= . 
+
+
+--- TRANG 44 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Đáp án đúng: B. 
+Câu 7. Kết quả của phép tính 
+2
+2
+a
+b
+a
+b
+b
+a
+−
+−
+−
+−
+−
+ là 
+A. 1
+−; 
+ 
+       B. 1; 
+ 
+ 
+C. a
+b
+b
+a
+−
+−
+; 
+ 
+      D. 
+4
+a
+b
+a
+b
++
+−
+−
+. 
+Lời giải. Đổi dấu phân thức thứ hai: 
+2
+2
+b
+b
+b
+a
+a
+b
+−
+−
+−
+= +
+−
+−
+. 
+Thực hiện cộng hai phân thức cùng mẫu: 
+2
+2
+(
+2)
+(2
+)
+1
+a
+b
+a
+b
+a
+b
+a
+b
+a
+b
+a
+b
+a
+b
+−
+−
+−
++
+−
+−
++
+=
+=
+=
+−
+−
+−
+−
+. 
+Đáp án đúng: B. 
+Câu 8. Cho tam giác ABC vuông tại A có AB = 3cm, AC = 4 cm thì độ dài cạnh BC bằng  
+A. 5
+.
+cm 
+ 
+ 
+B. 6
+.
+cm 
+ 
+ 
+C. 7
+.
+cm 
+ 
+         D. 8
+.
+cm 
+Lời giải. Áp dụng định lý Pythagoras cho ABC
+
+ vuông tại A :
+2
+2
+2
+2
+2
+3
+4
+9 16
+25
+BC
+AB
+AC
+=
++
+=
++
+=
++
+=
+ 
+25
+5 cm.
+BC =
+=
+ 
+Đáp án đúng: A. 
+Câu 9. Hình chữ nhật là tứ giác có: 
+A. 4 góc vuông. 
+ 
+ 
+ 
+               B. 2 góc kề một cạnh bằng nhau. 
+C. 2 góc kề một cạnh cùng bằng 900.                  D. 2 góc kề một cạnh bù nhau. 
+Lời giải. Theo định nghĩa, hình chữ nhật là tứ giác có 4 góc vuông. 
+Đáp án đúng: A. 
+Câu 10. Hình bình hành có 2 cạnh kề bằng nhau là hình gì? 
+A. Hình chữ nhật.         
+ 
+ 
+ 
+    B. Hình vuông. 
+     
+
+
+--- TRANG 45 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+C. Hình thoi.             
+ 
+ 
+  
+    D. Hình thang. 
+Lời giải. Theo dấu hiệu nhận biết, hình bình hành có hai cạnh kề bằng nhau là hình thoi. 
+Đáp án đúng: C. 
+Câu 11. Cho hình thang cân ABCD có AB//CD và A
+125
+=
+. Tính C . 
+A. 125 .
+ 
+ 
+ 
+ 
+ 
+ 
+B. 65 .
+ 
+C. 90 . 
+ 
+ 
+ 
+ 
+ 
+D. 55 . 
+Lời giải. Do 
+/ /
+AB
+CD nên ˆ
+ˆ
+180
+A
+D
+
++
+=
+ (hai góc trong cùng phía). 
+Suy ra  ˆ
+180
+125
+55
+D
+
+
+
+=
+−
+=
+. 
+Do ABCD là hình thang cân nên hai góc kề một đáy bằng nhau. Khi đó ˆ
+ˆ
+55
+C
+D
+
+=
+=
+. 
+Đáp án đúng: D. 
+Câu 12. Tìm câu sai trong các câu sau? 
+A. Hình chữ nhật có hai cạnh kề bằng nhau là hình vuông. 
+B. Hình chữ nhật có hai đường chéo vuông góc là hình vuông. 
+ 
+C. Hình chữ nhật có một đường chéo là đường phân giác của một góc vuông. 
+D. Hình chữ nhật có bốn góc vuông là hình vuông. 
+Lời giải. Các câu A, B, C đều là các dấu hiệu nhận biết hình vuông đúng từ hình chữ nhật. 
+Câu D sai vì hình chữ nhật đều có 4 góc vuông, nhưng chưa đủ để hình chữ nhật đó trở 
+thành hình vuông.  
+Đáp án đúng: D. 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hai đa thức 
+2
+2
+3
+2
+5
+A
+x y
+xy
+=
+−
++ và 
+2
+2
+1
+B
+x y
+xy
+=
++
+−. Xét tính đúng sai của các 
+mệnh đề sau: 
+
+
+--- TRANG 46 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Bậc của đa thức A bằng 3 . 
+b) Tổng của hai đa thức 
+2
+2
+4
+4
+A
+B
+x y
+xy
++
+=
+−
++
+. 
+c) Tại 
+1
+x = và 
+1
+y = −, giá trị của đa thức B bằng 1. 
+d) Tích của đa thức A với đơn thức 2xy là 
+3
+2
+2
+3
+6
+4
+10
+x y
+x y
+xy
+−
++
+. 
+Lời giải. 
+a) Đúng. Đa thức A gồm các hạng tử 
+2
+3x y (bậc 3), 
+2
+2xy
+−
+ (bậc 3) và 5 (bậc 0). Bậc cao 
+nhất của các hạng tử là 3 , nên bậc của đa thức A bằng 3 . 
+b) Đúng. Thực hiện cộng hai đa thức ta được: 
+2
+2
+2
+2
+(3
+2
+5)
+(
+1)
+A
+B
+x y
+xy
+x y
+xy
++
+=
+−
++
++
++
+−
+2
+2
+2
+2
+2
+2
+(3
+)
+( 2
+)
+(5 1)
+4
+4
+A
+B
+x y
+x y
+xy
+xy
+x y
+xy
++
+=
++
++ −
++
++
+−
+=
+−
++
+ 
+c) Sai. Thay 
+1
+x = và 
+1.
+y = − vào đa thức B : 
+2
+2
+1 ( 1) 1 ( 1)
+1
+1 1 1
+1
+B =
+−
++ −
+−= −+ −= −. 
+Do đó giá trị 
+1
+B = là sai. 
+d) Đúng. Thực hiện phép nhân đơn thức với đa thức: 
+2
+2
+2
+2
+2
+(3
+2
+5) 2
+3
+2
+2
+2
+5 2
+A
+xy
+x y
+xy
+xy
+x y
+xy
+xy
+xy
+xy
+
+=
+−
++
+
+=
+
+−
+
++ 
+ 
+3
+2
+2
+3
+6
+4
+10
+x y
+x y
+xy
+=
+−
++
+ 
+Câu 2. Cho biểu thức 
+2
+(
+3)
+(
+3)(
+3)
+P
+x
+x
+x
+=
++
+−
+−
++
+ và đa thức 
+3
+4
+Q
+x
+x
+=
+−
+. Xét tính đúng sai 
+của các mệnh đề sau: 
+a) Khai triển hằng đẳng thức 
+2
+(
+3)
+x +
+ ta được 
+2
+6
+9
+x
+x
++
++ . 
+b) Kết quả rút gọn của biểu thức P là 6
+18
+x +
+. 
+c) Phân tích đa thức Q thành nhân tử ta được (
+2)(
+2)
+x x
+x
+−
++
+. 
+d) Tại 
+3
+x = −, giá trị của biểu thức P bằng 12. 
+
+
+--- TRANG 47 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Lời giải. 
+a) Đúng. Áp dụng hằng đẳng thức bình phương của một tổng:  
+2
+2
+2
+2
+(
+3)
+2
+3
+3
+6
+9
+x
+x
+x
+x
+x
++
+=
++ +
+=
++
++ . 
+b) Đúng. Áp dụng hằng đẳng thức hiệu hai bình phương cho 
+2
+(
+3)(
+3)
+9
+x
+x
+x
+−
++
+=
+−: 
+2
+2
+2
+2
+(
+6
+9)
+(
+9)
+6
+9
+9
+6
+18
+P
+x
+x
+x
+x
+x
+x
+x
+=
++
++
+−
+−
+=
++
++
+−
++
+=
++
+ 
+c) Đúng. Thực hiện phân tích đa thức Q thành nhân tử bằng cách đặt nhân tử chung và 
+dùng hằng đẳng thức: 
+2
+2
+2
+(
+4)
+(
+2 )
+(
+2)(
+2)
+Q
+x x
+x x
+x x
+x
+=
+−
+=
+−
+=
+−
++
+ 
+d) Sai. Thay 
+3
+x = − vào biểu thức P đã rút gọn:
+6 ( 3)
+18
+18 18
+0
+P =
+−
++
+= −
++
+=
+. Do đó khẳng 
+định giá trị bằng 12 là sai. 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Cho hai đa thức 
+2
+2
+3
+5
+A
+x y
+xy
+=
+−
++ và 
+2
+3
+2
+B
+x y
+xy
+=
++
+−. Tính A
+B
++
+. 
+Lời giải: Thực hiện cộng hai đa thức ta được 
+2
+2
+(2
+3
+5)
+(
+3
+2)
+A
+B
+x y
+xy
+x y
+xy
++
+=
+−
++
++
++
+−
+. 
+2
+2
+(2
+)
+( 3
+3
+)
+(5
+2)
+A
+B
+x y
+x y
+xy
+xy
++
+=
++
++ −
++
++
+−
+ 
+2
+3
+3
+A
+B
+x y
++
+=
++ 
+Đáp án: 
+2
+3
+3
+x y + . 
+Câu 2. Rút gọn biểu thức 
+2
+(
+3)
+(
+3)(
+3)
+P
+x
+x
+x
+=
++
+−
+−
++
+. 
+Lời giải. Áp dụng hằng đẳng thức 
+2
+2
+2
+(
+)
+2
+a
+b
+a
+ab
+b
++
+=
++
++
+ và 
+2
+2
+(
+)(
+)
+a
+b a
+b
+a
+b
+−
++
+=
+−
+ ta được:
+2
+2
+(
+3)
+6
+9
+x
+x
+x
++
+=
++
++ và 
+2
+(
+3)(
+3)
+9
+x
+x
+x
+−
++
+=
+−. 
+Thay vào biểu thức P ta được:
+2
+2
+(
+6
+9)
+(
+9)
+P
+x
+x
+x
+=
++
++
+−
+−
+ 
+
+
+--- TRANG 48 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+2
+2
+6
+9
+9
+P
+x
+x
+x
+=
++
++
+−
++ 
+6
+18
+P
+x
+=
++
+ 
+Đáp án: 6
+18
+x +
+. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 
+(
+)
+xy x
+y
++
+  
+                                          
+b) (
+)
+(
+)
+2
+2
+2
+6
+x
+x x
+−
++
+−
+  
+ 
+c) (
+)
+(
+)
+2
+2
+4
+3
+2
+4
+2
+5
+4
+2
+3
+x
+xy
+y
+x
+x y
+x y
+xy
+: xy
+−
+−
+−
++
+−
+                             
+Lời giải. 
+a) 
+(
+)
+xy x
+y
++
+    
+xy x
+xy y
+=
++
+
+ 
+2
+2
+x y
+xy
+=
++
+. 
+b) 
+2
+(
+2)
+2 (
+6)
+x
+x x
+−
++
+−
+    
+2
+2
+(
+4
+4)
+(2
+12 )
+x
+x
+x
+x
+=
+−
++
++
+−
+ 
+2
+2
+2
+4
+12
+4
+x
+x
+x
+x
+=
++
+−
+−
++ 
+2
+3
+16
+4
+x
+x
+=
+−
++ . 
+c) 
+2
+2
+4
+3
+2
+4
+(2
+5
+4
+)
+(2
+3
+):
+x
+xy
+y
+x
+x y
+x y
+xy
+xy
+−
+−
+−
++
+−
+    
+3
+2
+2
+3
+2
+3
+(2
+5
+4
+)
+(2
+3
+)
+x
+x y
+xy
+x
+x y
+y
+=
+−
+−
+−
++
+−
+ 
+3
+2
+2
+3
+2
+3
+2
+5
+4
+2
+3
+x
+x y
+xy
+x
+x y
+y
+=
+−
+−
+−
+−
++
+ 
+3
+3
+2
+2
+2
+3
+(2
+2
+)
+( 5
+3
+)
+4
+x
+x
+x y
+x y
+xy
+y
+=
+−
++ −
+−
+−
++
+ 
+2
+2
+3
+8
+4
+x y
+xy
+y
+= −
+−
++
+. 
+Câu 2. Phân tích các đa thức sau thành nhân tử: 
+
+
+--- TRANG 49 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) 
+2
+4
+12
+x
+x
+−
+  
+ 
+ 
+ 
+b) 
+3
+2
+4
+4
+x
+x
+x
+−
++
+ 
+c) 
+2
+2
+5
+5
+x
+y
+x
+y
+−
+−
+−
+  
+ 
+ 
+d) 
+2
+2
+2
+16
+x
+xy
+y
++
++
+−
+ 
+Lời giải. 
+a) 
+2
+4
+12
+x
+x
+−
+    
+4 (
+3)
+x x
+=
+−
+. 
+b) 
+3
+2
+4
+4
+x
+x
+x
+−
++
+    
+2
+(
+4
+4)
+x x
+x
+=
+−
++
+ 
+2
+(
+2)
+x x
+=
+−
+. 
+c) 
+2
+2
+5
+5
+x
+y
+x
+y
+−
+−
+−
+    
+2
+2
+(
+)
+(5
+5 )
+x
+y
+x
+y
+=
+−
+−
++
+ 
+(
+)(
+)
+5(
+)
+x
+y x
+y
+x
+y
+=
+−
++
+−
++
+ 
+(
+)(
+5)
+x
+y x
+y
+=
++
+−
+−
+. 
+d) 
+2
+2
+2
+16
+x
+xy
+y
++
++
+−
+    
+2
+2
+(
+)
+4
+x
+y
+=
++
+−
+ 
+(
+4)(
+4)
+x
+y
+x
+y
+=
++
+−
++
++
+. 
+Câu 3. Cho tam giác ABC vuông tại A (AB <AC). Gọi I là trung điểm của BC. Qua I vẽ 
+IM vuông góc với AB tại M, IN vuông góc với AC tại N. 
+a. Chứng minh rằng: AMIN là hình chữ nhật. 
+b. Lấy  D trên tia IN sao cho N là  trung  điểm  của ID. Chứng minh rằng tứ giác ADCI là 
+hình thoi. 
+c. Kẻ AH vuông góc với BC tại H, chứng minh MH vuông góc với HN 
+Lời giải. 
+
+
+--- TRANG 50 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+a) Chứng minh AMIN là hình chữ nhật.    
+Xét tứ giác AMIN , ta có: 
+
+90
+MAN
+
+=
+ (do ABC
+
+ vuông tại A )    
+
+90
+AMI
+
+=
+ (do IM
+AB
+⊥
+)    
+
+90
+ANI
+
+=
+ (do IN
+AC
+⊥
+)    
+Tứ giác AMIN có 3 góc vuông nên AMIN là hình chữ nhật.    
+b) Chứng minh tứ giác ADCI là hình thoi:    
+Trong ABC
+
+, ta có I là trung điểm BC và 
+/ /
+IN
+AB (cùng vuông góc với AC ).    
+Suy ra N là trung điểm của AC .    
+Xét tứ giác ADCI có hai đường chéo AC và ID cắt nhau tại trung điểm N của mỗi đường. 
+Do đó ADCI là hình bình hành.    
+Mặt khác, AC
+ID
+⊥
+ tại N (vì IN
+AC
+⊥
+).    
+Do đó hình bình hành ADCI có hai đường chéo vuông góc với nhau nên ADCI là hình thoi.    
+c) Chứng minh MH
+HN
+⊥
+:    
+Vì AMIN là hình chữ nhật nên 
+,
+, ,
+A M I N cùng thuộc đường tròn đường kính AI . 
+Xét 
+AHI
+
+ vuông tại H ( AH
+BC
+⊥
+), ta có H cũng nằm trên đường tròn đường kính AI .  
+Do đó, 5 điểm 
+,
+,
+, ,
+A M H I N cùng thuộc đường tròn đường kính MN .  
+Điểm H thuộc đường tròn đường kính MN suy ra 
+90
+MHN
+
+=
+.Vậy MH
+HN
+⊥
+.    
+Câu 4. Cho các số x,y thỏa mãn điều kiện: 
++
++
+=
+2
+2
+2x
+10y – 6xy – 6x – 2y
+10
+0 . 
+Tính giá trị biểu thức 
+(
+)
++
+−
+−
+=
+2018
+2018
+x
+y
+4
+y
+A
+x
+? 
+Lời giải. 
+
+
+--- TRANG 51 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Biến đổi phương trình ban đầu ta được: 
+2
+2
+2
+10
+6
+6
+2
+10
+0
+x
+y
+xy
+x
+y
++
+−
+−
+−
++
+=
+2
+2
+2
+2
+(
+6
+9
+)
+(
+6
+9)
+(
+2
+1)
+0
+x
+xy
+y
+x
+x
+y
+y
+−
++
++
+−
++
++
+−
++
+= 
+2
+2
+2
+(
+3 )
+(
+3)
+(
+1)
+0
+x
+y
+x
+y
+−
++
+−
++
+−
+= . 
+Vì 
+2
+(
+3 )
+0
+x
+y
+−
+, 
+2
+(
+3)
+0
+x −
+, 
+2
+(
+1)
+0
+y −
+
+ với mọi ,x y . Đẳng thức xảy ra khi và chỉ khi 
+3
+0,
+3
+0
+x
+y
+x
+−
+=
+−
+=
+ và 
+1
+0
+y −=
+. Suy ra 
+3
+x = và 
+1
+y = . 
+Thay 
+3
+x = và 
+1
+y = vào biểu thức A ta được: 
+2018
+2018
+2018
+(3 1 4)
+1
+0
+1
+1
+3
+3
+3
+A
++ −
+−
+−
+=
+=
+= −. 
+Vậy 
+1
+3
+A = −
+.    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

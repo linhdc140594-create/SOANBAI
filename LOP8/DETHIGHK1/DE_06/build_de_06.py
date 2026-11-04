@@ -1,0 +1,274 @@
+# -*- coding: utf-8 -*-
+import json
+import os
+import sys
+
+sys.stdout.reconfigure(encoding='utf-8')
+
+data = {
+    "de_so": 6,
+    "tieu_de": "ĐỀ ÔN TẬP GIỮA KÌ I - MÔN TOÁN 8 - ĐỀ SỐ 06",
+    "thoi_gian": "90 phút (không kể thời gian phát đề)",
+    "phan_I": [
+        {
+            "cau": 1,
+            "de": "Đơn thức $-36a^2b^2x^2y^2$ (với $a, b$ là các hằng số) có hệ số là:",
+            "a": "$-36a^2b^2$",
+            "b": "$-36$",
+            "c": "$36a^2b^2$",
+            "d": "$36a^2$",
+            "da": "A",
+            "loigiai": "Hệ số của đơn thức bao gồm toàn bộ phần hằng số đứng trước các biến, do đó hệ số là $-36a^2b^2$."
+        },
+        {
+            "cau": 2,
+            "de": "Đơn thức nào sau đây đồng dạng với đơn thức $-3x^2y$?",
+            "a": "$3x^2yz$",
+            "b": "$xy^2$",
+            "c": "$\\dfrac{1}{2}xyx$",
+            "d": "$-3x^2z$",
+            "da": "C",
+            "loigiai": "Rút gọn đơn thức ở phương án C: $\\dfrac{1}{2}xyx = \\dfrac{1}{2}x^2y$, đơn thức này có cùng phần biến $x^2y$ với đơn thức $-3x^2y$."
+        },
+        {
+            "cau": 3,
+            "de": "Tích của đơn thức $6xy$ và đa thức $2x^2 - 3y$ là đa thức:",
+            "a": "$12x^3y + 18xy^2$",
+            "b": "$12x^3y - 18xy^2$",
+            "c": "$12x^2y + 18xy^2$",
+            "d": "$12x^2y - 18xy^2$",
+            "da": "B",
+            "loigiai": "Thực hiện phép nhân: $6xy \\cdot (2x^2 - 3y) = 6xy \\cdot 2x^2 - 6xy \\cdot 3y = 12x^3y - 18xy^2$."
+        },
+        {
+            "cau": 4,
+            "de": "Điều kiện của số tự nhiên $n$ để phép chia $(4x^{10}y - xy^7 + x^5y^4) : 2x^n y^n$ là phép chia hết:",
+            "a": "$n = 0$",
+            "b": "$n \\in \\{0; 1\\}$",
+            "c": "$n = 1$",
+            "d": "$n = 5$",
+            "da": "B",
+            "loigiai": "Đa thức chia hết cho đơn thức khi số mũ của mỗi biến trong đơn thức chia nhỏ hơn hoặc bằng số mũ nhỏ nhất của biến đó trong các hạng tử của đa thức. Số mũ nhỏ nhất của $x$ và $y$ trong đa thức là $1$, do đó $n \\le 1$. Vì $n$ là số tự nhiên nên $n \\in \\{0; 1\\}$."
+        },
+        {
+            "cau": 5,
+            "de": "Hình bình hành cần có thêm điều kiện nào sau đây thì trở thành hình chữ nhật?",
+            "a": "Có một góc vuông",
+            "b": "Có hai cạnh kề bằng nhau",
+            "c": "Có hai đường chéo vuông góc",
+            "d": "Có hai đường chéo cắt nhau tại trung điểm mỗi đường",
+            "da": "A",
+            "loigiai": "Theo dấu hiệu nhận biết, hình bình hành có một góc vuông là hình chữ nhật."
+        },
+        {
+            "cau": 6,
+            "de": "Tích của hai đơn thức $7x^2y$ và $(-xy)$ bằng:",
+            "a": "$-7x^3y^2$",
+            "b": "$7x^3y^2$",
+            "c": "$-7x^2y$",
+            "d": "$6x^3y^2$",
+            "da": "A",
+            "loigiai": "Ta có: $7x^2y \\cdot (-xy) = 7 \\cdot (-1) \\cdot (x^2 \\cdot x) \\cdot (y \\cdot y) = -7x^3y^2$."
+        },
+        {
+            "cau": 7,
+            "de": "Kết quả thu gọn của biểu thức $(x + 3)^2 - (x - 3)^2$ là:",
+            "a": "$0$",
+            "b": "$18$",
+            "c": "$12x + 18$",
+            "d": "$12x$",
+            "da": "D",
+            "loigiai": "Áp dụng hằng đẳng thức hiệu hai bình phương: $(x + 3)^2 - (x - 3)^2 = [(x + 3) - (x - 3)][(x + 3) + (x - 3)] = 6 \\cdot 2x = 12x$."
+        },
+        {
+            "cau": 8,
+            "de": "Cho hình vẽ sau, trung đoạn của hình chóp tứ giác đều $S.ABCD$ là đoạn thẳng:",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.75, >=stealth]\n  \\coordinate (A) at (0,0);\n  \\coordinate (B) at (2.8,-0.7);\n  \\coordinate (C) at (4.8,0);\n  \\coordinate (D) at (2,0.7);\n  \\coordinate (H) at ($(A)!0.5!(C)$);\n  \\coordinate (S) at ($(H)+(0,3.2)$);\n  \\coordinate (I) at ($(B)!0.5!(C)$);\n  \\draw[dashed] (A)--(D)--(C);\n  \\draw[dashed] (S)--(D);\n  \\draw[dashed] (A)--(C) (B)--(D);\n  \\draw[dashed] (S)--(H);\n  \\draw[dashed] (H)--(I);\n  \\draw[thick] (S)--(A)--(B)--(C)--(S);\n  \\draw[thick] (S)--(B);\n  \\draw[thick, blue] (S)--(I);\n  \\fill (A) circle (1.2pt) node[left] {$A$};\n  \\fill (B) circle (1.2pt) node[below left] {$B$};\n  \\fill (C) circle (1.2pt) node[right] {$C$};\n  \\fill (D) circle (1.2pt) node[above right] {$D$};\n  \\fill (S) circle (1.2pt) node[above] {$S$};\n  \\fill (H) circle (1.2pt) node[below] {$H$};\n  \\fill (I) circle (1.2pt) node[below right] {$I$};\n\\end{tikzpicture}\n\\end{center}",
+            "a": "$SI$",
+            "b": "$SA$",
+            "c": "$SH$",
+            "d": "$HI$",
+            "da": "A",
+            "loigiai": "Trung đoạn của hình chóp tứ giác đều là đường cao của mặt bên xuất phát từ đỉnh hình chóp. Trong hình, đoạn thẳng $SI$ là đường cao của mặt bên tam giác $SBC$."
+        },
+        {
+            "cau": 9,
+            "de": "Hình chóp tứ giác đều có mặt đáy là hình gì?",
+            "a": "Tam giác đều",
+            "b": "Hình chữ nhật",
+            "c": "Hình vuông",
+            "d": "Hình thoi",
+            "da": "C",
+            "loigiai": "Theo định nghĩa, hình chóp tứ giác đều có mặt đáy là hình vuông."
+        },
+        {
+            "cau": 10,
+            "de": "Tứ giác là hình bình hành nếu:",
+            "a": "Tứ giác có hai góc kề một cạnh bằng nhau",
+            "b": "Tứ giác có hai cạnh kề bằng nhau",
+            "c": "Tứ giác có các cạnh đối bằng nhau",
+            "d": "Tứ giác có hai đường chéo bằng nhau",
+            "da": "C",
+            "loigiai": "Dấu hiệu nhận biết hình bình hành: tứ giác có các cạnh đối bằng nhau là hình bình hành."
+        },
+        {
+            "cau": 11,
+            "de": "Khẳng định nào sau đây là đúng?",
+            "a": "Tứ giác có hai đường chéo vuông góc với nhau là hình bình hành",
+            "b": "Tứ giác có hai đường chéo bằng nhau là hình thang cân",
+            "c": "Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành",
+            "d": "Hình thang có hai cạnh bằng nhau là hình thang cân",
+            "da": "C",
+            "loigiai": "Theo dấu hiệu nhận biết, tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là hình bình hành."
+        },
+        {
+            "cau": 12,
+            "de": "Cho tam giác $ABC$ vuông tại $A$ có $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính đường tròn ngoại tiếp tam giác $ABC$ bằng:",
+            "a": "$10\\text{ cm}$",
+            "b": "$14\\text{ cm}$",
+            "c": "$5\\text{ cm}$",
+            "d": "$7\\text{ cm}$",
+            "da": "C",
+            "loigiai": "Cạnh huyền $BC = \\sqrt{AB^2 + AC^2} = \\sqrt{6^2 + 8^2} = 10\\text{ cm}$. Tâm đường tròn ngoại tiếp tam giác vuông là trung điểm cạnh huyền, bán kính $R = \\dfrac{BC}{2} = 5\\text{ cm}$."
+        }
+    ],
+    "phan_II": [
+        {
+            "cau": 1,
+            "de": "Cho biểu thức $A = \\dfrac{x^2 - 4x + 4}{x - 2} + \\dfrac{x^2 - 9}{x + 3}$ với $x \\neq 2$ và $x \\neq -3$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Biến đổi $x^2 - 4x + 4$ thành bình phương của một hiệu ta được $(x - 2)^2$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Áp dụng hằng đẳng thức: $x^2 - 4x + 4 = (x - 2)^2$."
+            },
+            "y_b": {
+                "noi_dung": "Kết quả rút gọn phân thức $\\dfrac{x^2 - 9}{x + 3}$ là $x + 3$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Ta có $\\dfrac{x^2 - 9}{x + 3} = \\dfrac{(x - 3)(x + 3)}{x + 3} = x - 3$."
+            },
+            "y_c": {
+                "noi_dung": "Kết quả rút gọn của biểu thức $A$ là $2x - 5$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $A = \\dfrac{(x - 2)^2}{x - 2} + \\dfrac{(x - 3)(x + 3)}{x + 3} = (x - 2) + (x - 3) = 2x - 5$."
+            },
+            "y_d": {
+                "noi_dung": "Tại $x = 4$, giá trị của biểu thức $A$ bằng $3$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Thay $x = 4$ vào biểu thức rút gọn: $A = 2 \\cdot 4 - 5 = 3$."
+            }
+        },
+        {
+            "cau": 2,
+            "de": "Cho hình bình hành $ABCD$ có $AB = 2AD$. Gọi $M, N$ lần lượt là trung điểm của $AB$ và $CD$. Xét tính đúng sai của các mệnh đề sau:",
+            "y_a": {
+                "noi_dung": "Tứ giác $AMCN$ là hình bình hành.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Ta có $AM \\parallel NC$ và $AM = NC = \\dfrac{1}{2}AB$, do đó $AMCN$ là hình bình hành."
+            },
+            "y_b": {
+                "noi_dung": "Tứ giác $AMND$ là hình thoi.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} Tứ giác $AMND$ có $AM \\parallel DN$ và $AM = DN = AD$ nên là hình bình hành có hai cạnh kề bằng nhau, do đó $AMND$ là hình thoi."
+            },
+            "y_c": {
+                "noi_dung": "Đoạn thẳng $AN$ vuông góc với đoạn thẳng $DM$.",
+                "da": "D",
+                "giai": "\\textbf{Đúng.} $AN$ và $DM$ là hai đường chéo của hình thoi $AMND$ nên $AN \\perp DM$."
+            },
+            "y_d": {
+                "noi_dung": "Cho $\\widehat{A} = 60^\\circ$, số đo góc $\\widehat{AMD}$ bằng $120^\\circ$.",
+                "da": "S",
+                "giai": "\\textbf{Sai.} Tam giác $AMD$ có $AM = AD$ và $\\widehat{A} = 60^\\circ$ nên là tam giác đều, do đó $\\widehat{AMD} = 60^\\circ$."
+            }
+        }
+    ],
+    "phan_III": [
+        {
+            "cau": 1,
+            "de": "Tìm $x$, biết: $2x(x - 5) - x + 5 = 0$.",
+            "da": "$x = 5$ hoặc $x = \\dfrac{1}{2}$",
+            "loigiai": "Ta có: $2x(x - 5) - (x - 5) = 0 \\Leftrightarrow (x - 5)(2x - 1) = 0$.\n\n- Trường hợp 1: $x - 5 = 0 \\Leftrightarrow x = 5$.\n\n- Trường hợp 2: $2x - 1 = 0 \\Leftrightarrow x = \\dfrac{1}{2}$.\n\nVậy $x = 5$ hoặc $x = \\dfrac{1}{2}$."
+        },
+        {
+            "cau": 2,
+            "de": "Cho hình chữ nhật $ABCD$ có $AB = 8\\text{ cm}$ và $BC = 6\\text{ cm}$. Tính độ dài đường chéo $AC$.",
+            "da": "$10\\text{ cm}$",
+            "loigiai": "Áp dụng định lý Pythagore trong tam giác vuông $ABC$ vuông tại $B$:\n\n$AC^2 = AB^2 + BC^2 = 8^2 + 6^2 = 64 + 36 = 100$.\n\nSuy ra $AC = \\sqrt{100} = 10\\text{ cm}$."
+        }
+    ],
+    "phan_IV": [
+        {
+            "cau": 1,
+            "diem": "1,0 điểm",
+            "de": "Thực hiện phép tính:",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "$xy(x^2 - 5xy^2)$",
+                    "loigiai": "$xy(x^2 - 5xy^2) = xy \\cdot x^2 - xy \\cdot 5xy^2 = x^3y - 5x^2y^3$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,5",
+                    "noi_dung": "$(12x^4y^3 - 5x^3y^2 + 9x^2y^2) : (-3x^2y^2)$",
+                    "loigiai": "$(12x^4y^3 - 5x^3y^2 + 9x^2y^2) : (-3x^2y^2) = 12x^4y^3 : (-3x^2y^2) - 5x^3y^2 : (-3x^2y^2) + 9x^2y^2 : (-3x^2y^2) = -4x^2y + \\dfrac{5}{3}x - 3$."
+                }
+            ]
+        },
+        {
+            "cau": 2,
+            "diem": "0,75 điểm",
+            "de": "Cho hai đa thức: $M = xy - 3x^2y^2 + x^4 - 5y^3$ và $N = x^4 - 5y^3 - 2x^2y^2 - xy$.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,4",
+                    "noi_dung": "Tìm đa thức $P = M - N$.",
+                    "loigiai": "$P = (xy - 3x^2y^2 + x^4 - 5y^3) - (x^4 - 5y^3 - 2x^2y^2 - xy) = (x^4 - x^4) + (-5y^3 + 5y^3) + (-3x^2y^2 + 2x^2y^2) + (xy + xy) = -x^2y^2 + 2xy$."
+                },
+                {
+                    "y": "b",
+                    "diem_y": "0,35",
+                    "noi_dung": "Tính giá trị của đa thức $P$ tại $x = -1, y = -1$.",
+                    "loigiai": "Thay $x = -1, y = -1$ vào $P$: $P = -(-1)^2 \\cdot (-1)^2 + 2(-1)(-1) = -(1 \\cdot 1) + 2 = -1 + 2 = 1$."
+                }
+            ]
+        },
+        {
+            "cau": 3,
+            "diem": "0,75 điểm",
+            "de": "Tháp tài chính Bitexco có 68 tầng (không kể các tầng hầm). Biết rằng khi tòa tháp có bóng $MP$ in trên mặt đất dài $47{,}5\\text{ m}$ thì cùng thời điểm đó có một cột cờ $AB$ cao $12\\text{ m}$ có bóng $AP$ in trên mặt đất dài $2{,}12\\text{ m}$ (như hình vẽ). Tính chiều cao $MN$ của tháp tài chính Bitexco theo đơn vị mét (làm tròn kết quả đến hàng đơn vị).",
+            "hinh_ve": "\\begin{center}\n\\begin{tikzpicture}[scale=0.9, >=stealth]\n  \\coordinate (M) at (0,0);\n  \\coordinate (N) at (0,3.6);\n  \\coordinate (P) at (6,0);\n  \\coordinate (A) at (4.4,0);\n  \\coordinate (B) at (4.4,0.96);\n  \\draw[thick] (M)--(P)--(N)--cycle;\n  \\draw[thick, blue] (A)--(B);\n  \\draw[line width=1.5pt, brown!70!black] (M)--(N);\n  \\fill (M) circle (1.5pt) node[below left] {$M$};\n  \\fill (N) circle (1.5pt) node[above left] {$N$};\n  \\fill (P) circle (1.5pt) node[below right] {$P$};\n  \\fill (A) circle (1.5pt) node[below] {$A$};\n  \\fill (B) circle (1.5pt) node[above right] {$B$};\n  \\node[left] at ($(M)!0.5!(N)$) {Tháp $MN$};\n  \\node[above right] at ($(A)!0.5!(B)$) {\\footnotesize $12\\text{ m}$};\n  \\node[below] at ($(A)!0.5!(P)$) {\\footnotesize $2{,}12\\text{ m}$};\n  \\node[below] at ($(M)!0.5!(A)$) {\\footnotesize $MP = 47{,}5\\text{ m}$};\n\\end{tikzpicture}\n\\end{center}",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,75",
+                    "noi_dung": "Tính chiều cao $MN$ của tháp Bitexco.",
+                    "loigiai": "Tòa tháp Bitexco $MN$ và cột cờ $AB$ đều dựng vuông góc với mặt đất $MP$, do đó $AB \\parallel MN$.\n\nXét tam giác $NMP$ có $AB \\parallel MN$, theo định lý Ta-lét ta có: $\\dfrac{AB}{MN} = \\dfrac{AP}{MP}$.\n\nThay số: $\\dfrac{12}{MN} = \\dfrac{2{,}12}{47{,}5} \\Rightarrow MN = \\dfrac{12 \\cdot 47{,}5}{2{,}12} = \\dfrac{570}{2{,}12} \\approx 268{,}87\\text{ m}$.\n\nLàm tròn đến hàng đơn vị, chiều cao của tháp xấp xỉ $269\\text{ m}$."
+                }
+            ]
+        },
+        {
+            "cau": 4,
+            "diem": "0,5 điểm",
+            "de": "Chứng minh rằng $A = x^2 + 2xy + 4y^2 + 6y + 5 > 0$ với mọi $x, y$.",
+            "cac_y": [
+                {
+                    "y": "a",
+                    "diem_y": "0,5",
+                    "noi_dung": "Chứng minh $A > 0$ với mọi $x, y$.",
+                    "loigiai": "Ta biến đổi biểu thức $A$ như sau:\n\n$A = (x^2 + 2xy + y^2) + (3y^2 + 6y + 3) + 2$\n\n$= (x + y)^2 + 3(y^2 + 2y + 1) + 2$\n\n$= (x + y)^2 + 3(y + 1)^2 + 2$.\n\nVì $(x + y)^2 \\ge 0$ và $3(y + 1)^2 \\ge 0$ với mọi $x, y$, nên $(x + y)^2 + 3(y + 1)^2 + 2 \\ge 2 > 0$ với mọi $x, y$.\n\nVậy $A > 0$ với mọi $x, y$."
+                }
+            ]
+        }
+    ]
+}
+
+work_dir = r'd:\GitHub\SOANBAI-main\LOP8\DETHIGHK1\DE_06'
+json_path = os.path.join(work_dir, 'de_06.json')
+with open(json_path, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Đã tạo thành công de_06.json!")
+

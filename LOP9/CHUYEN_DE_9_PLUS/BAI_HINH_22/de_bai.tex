@@ -1,0 +1,76 @@
+% BÀI TOÁN HÌNH HỌC - BAI_HINH_22 (TRÍCH ĐỀ 22)
+\begin{ex}
+Cho điểm A nằm ngoài đường tròn tâm O bán kính R. Từ A kẻ đường thẳng (d) không đi qua tâm O, cắt (O) tại B và C (B nằm giữa A và C). Các tiếp tuyến với đường tròn (O) tại B và C cắt nhau tại D. Từ D kẻ DH vuông góc với AO (H nằm trên AO), DH cắt cung nhỏ BC tại M. Gọi I là giao điểm của DO và BC.
+	\begin{enumerate}
+		\item[a)] Chứng minh bốn điểm O, H, D, C thuộc một đường tròn.
+		\item[b)] Chứng minh:
+		\begin{itemize}
+			\item[+)] $OH \cdot OA = OI \cdot OD$.
+			\item[+)] AM là tiếp tuyến của đường tròn (O).
+		\end{itemize}
+	\end{enumerate}
+\loigiai{
+{
+	\begin{center}
+	\begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\footnotesize,scale=1]
+		% Def
+		\def\r{3}
+		\def\a{5}
+		\pgfmathsetmacro{\alphadeg}{acos(\r/\a)} 
+		\def\kparam{5/8}
+		
+		% Coordinates
+		\coordinate (O) at (0,0);
+		\coordinate (D) at (\a,0);
+		\coordinate (C) at (\alphadeg:\r);
+		\coordinate (B) at (-\alphadeg:\r); 
+		
+		\coordinate (I) at ($(B)!0.5!(C)$);
+		
+		\coordinate (A) at ($(B) - \kparam*($(C)-(B)$)$);
+		
+		\coordinate (H) at ($(O)!(D)!(A)$);
+		
+		\path [name path = c1] (O) circle (\r);
+		\path [name path = oa] (O)--(A);
+		\path [name intersections={of=c1 and oa, by={K}}];
+		
+		\path [name path = dh] (D)--(H);
+		\path [name intersections={of=c1 and dh, by={M}}];
+		
+		% Draw 
+		\draw (O) circle (\r); 
+		
+		\draw (O) -- (C) -- (D) -- (B) -- cycle;
+		\draw (D) -- (O) -- (A) -- (C);
+		\draw (D) -- (H);
+		\draw[dashed] (O) -- (M) -- (A);
+		\draw[dashed] (M) -- (K);
+		
+		% Fill points (theo hướng dẫn của bạn)
+		\fill (O) circle (1.5pt);
+		\fill (D) circle (1.5pt);
+		\fill (C) circle (1.5pt);
+		\fill (B) circle (1.5pt);
+		\fill (I) circle (1.5pt);
+		\fill (A) circle (1.5pt);
+		\fill (H) circle (1.5pt);
+		\fill (K) circle (1.5pt);
+		\fill (M) circle (1.5pt);
+		
+		% Node points (theo hướng dẫn của bạn)
+		\node[below left] at (O) {$O$};
+		\node[below right] at (D) {$D$};
+		\node[above right] at (C) {$C$};
+		\node[below right] at (B) {$B$};
+		\node[below] at (I) {$I$};
+		\node[below] at (A) {$A$};
+		\node[left] at (H) {$H$};
+		\node[below left] at (K) {$K$};
+		\node[above right] at (M) {$M$};
+		
+	\end{tikzpicture}	
+		
+	\end{center}
+}
+\end{ex}

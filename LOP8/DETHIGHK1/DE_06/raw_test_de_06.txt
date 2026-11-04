@@ -1,0 +1,468 @@
+--- TRANG 22 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ĐỀ SỐ 6 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 8 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+(Thí sinh trả lời từ câu 1 đến câu 12,  mỗi câu hỏi học sinh chỉ chọn một phương án) 
+Câu 1. Đơn thức 
+2
+2
+2
+2
+36a b x y
+−
+ (với ,a b là các hằng số) có hệ số là:    
+A. 
+2
+2
+36a b
+−
+  
+ 
+B. 36
+−
+ 
+ 
+ 
+C. 
+2
+2
+36a b     
+         D. 
+2
+36a    
+Câu 2. Đơn thức nào sau đây đồng dạng với đơn thức 
+2
+3x y
+−
+?    
+A. 
+2
+3x yz    
+ 
+ 
+B. 
+2
+xy    
+ 
+ 
+C. 1
+2 xyx    
+ 
+       D. 
+2
+3x z
+−
+    
+Câu 3. Tích của đa thức 6xy và đa thức 
+2
+2
+3
+x
+y
+−
+ là đa thức:    
+A. 
+3
+2
+12
+18
+x y
+xy
++
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+3
+2
+12
+18
+x y
+xy
+−
+    
+C. 
+2
+2
+12
+18
+x y
+xy
++
+     
+ 
+ 
+ 
+ 
+D. 
+2
+2
+12
+18
+x y
+xy
+−
+    
+Câu 4. Điều kiện của số tự nhiên n để phép chia 
+10
+7
+5
+4
+(4
+): 2
+n
+n
+x y
+xy
+x y
+x y
+−
++
+ là phép chia hết:    
+A. 
+0
+n =
+    
+ 
+ 
+B. 
+{0;1}
+n
+     
+ 
+C. 
+1
+n =    
+ 
+         D. 
+5
+n =    
+Câu 5. Hình bình hành cần có thêm điều kiện nào sau đây thì trở thành hình chữ nhật?    
+A. Có một góc vuông.    
+B. Có hai cạnh kề bằng nhau.    
+C. Có hai đường chéo vuông góc.    
+D. Có hai đường chéo cắt nhau tại trung điểm mỗi đường.    
+Câu 6. Tích của hai đơn thức 
+2
+7x y và (
+)
+xy
+−
+ bằng:    
+A. 
+3
+2
+7x y
+−
+     
+ 
+B. 
+3
+2
+7x y    
+ 
+ 
+C. 
+2
+7x y
+−
+     
+       D. 
+3
+2
+6x y    
+
+
+--- TRANG 23 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 7. Kết quả thu gọn của biểu thức 
+2
+2
+(
+3)
+(
+3)
+x
+x
++
+−
+−
+ là:    
+A. 0    
+ 
+ 
+B. 18   
+ 
+ 
+C. 12
+18
+x +
+     
+      D. 12x 
+Câu 8. Cho hình vẽ sau, trung đoạn của hình chóp tứ giác đều .
+S ABCD là đoạn thẳng:    
+ 
+A. SI  
+ 
+ 
+B. SA  
+ 
+ 
+C. SH 
+ 
+ 
+D. HI 
+Câu 9. Hình chóp tứ giác đều có mặt đáy là hình gì?    
+A. Tam giác đều.     
+ 
+ 
+ 
+ 
+B. Hình chữ nhật.    
+C. Hình vuông.    
+ 
+ 
+ 
+ 
+ 
+D. Hình thoi.    
+Câu 10. Tứ giác là hình bình hành nếu:    
+A. Tứ giác có hai góc kề một cạnh bằng nhau    
+B. Tứ giác có hai cạnh kề bằng nhau    
+C. Tứ giác có các cạnh đối bằng nhau    
+D. Tứ giác có hai đường chéo bằng nhau    
+Câu 11. Khẳng định nào sau đây là đúng:    
+A. Tứ giác có hai đường chéo vuông góc với nhau là hình bình hành.    
+B. Tứ giác có hai đường chéo bằng nhau là hình thang cân.    
+C. Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.    
+D. Hình thang có hai cạnh bằng nhau là hình thang cân.    
+
+
+--- TRANG 24 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+Câu 12. Khẳng định nào sau đây là đúng?    
+A. Tứ giác có hai đường chéo vuông góc với nhau là hình bình hành.    
+B. Tứ giác có hai đường chéo bằng nhau là hình thang cân.    
+C. Tứ giác có hai đường chéo cắt nhau tại trung điểm mỗi đường là hình bình hành.    
+D. Hình thang có hai cạnh bằng nhau là hình thang cân.    
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho biểu thức 
+2
+2
+4
+4
+9
+2
+3
+x
+x
+x
+A
+x
+x
+−
++
+−
+=
++
+−
++
+ với 
+2
+x 
+ và 
+3
+x −. Xét tính đúng sai của các 
+mệnh đề sau: 
+a) Biến đổi 
+2
+4
+4
+x
+x
+−
++ thành bình phương của một hiệu ta được 
+2
+(
+2)
+x −
+. 
+b) Kết quả rút gọn phân thức 
+2
+9
+3
+x
+x
+−
++
+ là 
+3
+x + . 
+c) Kết quả rút gọn của biểu thức A là 2
+5
+x −. 
+d) Tại 
+4
+x =
+, giá trị của biểu thức A bằng 3 . 
+Câu 2. Cho hình bình hành ABCD có 
+2
+AB
+AD
+=
+. Gọi M, N lần lượt là trung điểm của AB 
+và CD. Xét tính đúng sai của các mệnh đề sau: 
+a) Tứ giác AMCN là hình bình hành. 
+b) Tứ giác AMND là hình thoi. 
+c) Đoạn thẳng AN vuông góc với đoạn thẳng DM. 
+d) Cho ˆ
+60
+A
+
+=
+, số đo góc 
+AMD bằng 120. 
+ 
+ 
+
+
+--- TRANG 25 ---
+ 
+ Sưu tầm và biên soạn: Lê Minh Kha 0399653362 
+ 
+ 
+Phần III. Câu trả lời ngắn 
+Câu 1. Tìm x , biết: 2 (
+5)
+5
+0
+x x
+x
+−
+−
++
+= . 
+Câu 2. Cho hình chữ nhật ABCD có 
+8 cm
+AB =
+ và 
+6 cm
+BC =
+. Tính độ dài đường chéo AC. 
+Phần IV. Tự luận 
+Câu 1. Thực hiện phép tính: 
+a) 
+(
+)
+2
+2
+ 
+;
+xy x - 5xy
+ 
+ 
+ 
+ 
+b)(
+) (
+)
+4
+3
+3
+2
+2
+2
+2
+2 .
+12x y - 5x y + 9x y : -3x y
+  
+Câu 2. Cho hai đa thức  
+2
+2
+4
+3
+4
+3
+2
+2
+3
+5
+5
+2
+M
+xy
+x y
+x
+y
+N
+x
+y
+x y
+xy
+=
+−
++
+−
+=
+−
+−
+−
+ 
+a) Tìm đa thức P
+M
+N
+=
+−
+. 
+b) Tính giá trị của đa thức P tại 
+1;
+1
+x
+y
+= −
+= −. 
+Câu 3. Tháp tài chính Bitexco có 68 tầng (không kể các 
+tầng hầm). Biết rằng khi tòa tháp có bóng MP in trên mặt 
+đất dài 47,5 m thì cùng thời điểm đó có một cột cờAB cao 
+12 m có bóng AP in trên mặt đất dài 2,12 m (như hình vẽ). 
+Tính chiều cao MN của tháp tài chính Bitexco theo đơn vị 
+mét (Làm tròn kết quả đến hàng đơn vị). 
+Câu 4. Chứng minh rằng 
+2
+2
+2
+4
+6
+5
+0
+A
+x
+xy
+y
+y
+=
++
++
++
++
+ với mọi , .
+x y 
+ 
+ 
+ 
+ 
+ 

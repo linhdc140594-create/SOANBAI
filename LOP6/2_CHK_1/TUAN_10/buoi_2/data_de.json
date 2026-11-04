@@ -1,0 +1,271 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 10 - BUỔI 02",
+  "title_p2": "TOÁN 6 - TUẦN 10 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_10_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Điền dấu thích hợp ($<, >, =$): $-15 \\; \\dots \\; 0$",
+          "$<$"
+        ],
+        [
+          "Điền dấu thích hợp ($<, >, =$): $-18 \\; \\dots \\; -12$",
+          "$<$"
+        ],
+        [
+          "Giá trị của biểu thức $|-19|$ là:",
+          "$19$"
+        ],
+        [
+          "Số nhỏ nhất trong dãy: $-12; 5; -8; 0; -15$ là:",
+          "$-15$"
+        ],
+        [
+          "Số nguyên liền trước của số $-8$ là:",
+          "$-9$"
+        ],
+        [
+          "Số nguyên âm lớn nhất có 2 chữ số là:",
+          "$-10$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = 7$?",
+          "$2$"
+        ],
+        [
+          "Hình thoi có tất cả bao nhiêu trục đối xứng?",
+          "$2$"
+        ],
+        [
+          "Hình thang cân có hai đáy $24\\text{ cm}, 16\\text{ cm}$, cao $10\\text{ cm}$. Diện tích là:",
+          "$200\\text{ cm}^2$"
+        ],
+        [
+          "Nhiệt độ Moscow $-8^\\circ\\text{C}$, Bắc Kinh $-3^\\circ\\text{C}$. Nơi nào lạnh hơn?",
+          "Moscow"
+        ]
+      ],
+      "q11": {
+        "a": "$48 + 157 + 52 + 43$",
+        "b": "$38 \\cdot 73 + 38 \\cdot 27$",
+        "c": "$5 \\cdot 2^3 - |-27| : 3^2 + 2026^0$",
+        "d": "$180 : (32 - 14) + 4^2 \\cdot 3$",
+        "e": "$200 : [45 - (12 - 7)^2]$",
+        "f": "$160 : \\{60 - [45 - (13 - 8)^2]\\}$"
+      },
+      "q12": {
+        "a": "$|x| = 8$",
+        "b": "$|x - 3| = 5$",
+        "c": "Liệt kê và tính tổng các số nguyên $x$: $-5 \\le x < 6$",
+        "d": "$(x + 5)(x - 3) = 0$"
+      },
+      "q13": {
+        "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & Hà Nội & Bắc Kinh & Moscow & Tokyo & New York \\\\\\hline \\textbf{Nhiệt độ} & $16^\\circ\\text{C}$ & $-4^\\circ\\text{C}$ & $-12^\\circ\\text{C}$ & $5^\\circ\\text{C}$ & $-2^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
+        "a": "Sắp xếp nhiệt độ của 5 thành phố trên theo thứ tự từ thấp đến cao (tăng dần).",
+        "b": "Thành phố nào có nhiệt độ thấp nhất, thành phố nào cao nhất? Tính độ chênh lệch nhiệt độ giữa hai thành phố đó."
+      },
+      "q14": {
+        "de": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn phương trình: $(x - 1)(y + 2) = 5$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Điền dấu thích hợp ($<, >, =$): $-24 \\; \\dots \\; 0$",
+          "$<$"
+        ],
+        [
+          "Điền dấu thích hợp ($<, >, =$): $-25 \\; \\dots \\; -30$",
+          "$>$"
+        ],
+        [
+          "Giá trị của biểu thức $|-27|$ là:",
+          "$27$"
+        ],
+        [
+          "Số nhỏ nhất trong dãy: $-9; 7; -14; 0; -6$ là:",
+          "$-14$"
+        ],
+        [
+          "Số nguyên liền sau của số $-15$ là:",
+          "$-14$"
+        ],
+        [
+          "Số nguyên âm nhỏ nhất có 2 chữ số là:",
+          "$-99$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = 9$?",
+          "$2$"
+        ],
+        [
+          "Tam giác đều có tất cả bao nhiêu trục đối xứng?",
+          "$3$"
+        ],
+        [
+          "Hình thang cân có hai đáy $25\\text{ cm}, 15\\text{ cm}$, cao $12\\text{ cm}$. Diện tích là:",
+          "$240\\text{ cm}^2$"
+        ],
+        [
+          "Nhiệt độ Seoul $-5^\\circ\\text{C}$, Tokyo $2^\\circ\\text{C}$. Nơi nào ấm hơn?",
+          "Tokyo"
+        ]
+      ],
+      "q11": {
+        "a": "$39 + 146 + 61 + 54$",
+        "b": "$49 \\cdot 65 + 49 \\cdot 35$",
+        "c": "$6 \\cdot 2^3 - |-36| : 3^2 + 2025^0$",
+        "d": "$160 : (29 - 13) + 5^2 \\cdot 2$",
+        "e": "$150 : [35 - (11 - 6)^2]$",
+        "f": "$180 : \\{60 - [55 - (14 - 9)^2]\\}$"
+      },
+      "q12": {
+        "a": "$|x| = 12$",
+        "b": "$|x - 4| = 6$",
+        "c": "Liệt kê và tính tổng các số nguyên $x$: $-6 < x \\le 7$",
+        "d": "$(x + 7)(x - 4) = 0$"
+      },
+      "q13": {
+        "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & London & Paris & Berlin & Ottawa & Seoul \\\\\\hline \\textbf{Nhiệt độ} & $3^\\circ\\text{C}$ & $1^\\circ\\text{C}$ & $-5^\\circ\\text{C}$ & $-14^\\circ\\text{C}$ & $-3^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
+        "a": "Sắp xếp nhiệt độ của 5 thành phố trên theo thứ tự từ thấp đến cao (tăng dần).",
+        "b": "Thành phố nào có nhiệt độ thấp nhất, thành phố nào cao nhất? Tính độ chênh lệch nhiệt độ giữa hai thành phố đó."
+      },
+      "q14": {
+        "de": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn phương trình: $(x - 2)(y + 1) = 3$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Điền dấu thích hợp ($<, >, =$): $0 \\; \\dots \\; -35$",
+          "$>$"
+        ],
+        [
+          "Điền dấu thích hợp ($<, >, =$): $-42 \\; \\dots \\; -37$",
+          "$<$"
+        ],
+        [
+          "Giá trị của biểu thức $|-35|$ là:",
+          "$35$"
+        ],
+        [
+          "Số lớn nhất trong dãy: $-16; -3; -20; 0; -1$ là:",
+          "$0$"
+        ],
+        [
+          "Số nguyên liền trước của số $-12$ là:",
+          "$-13$"
+        ],
+        [
+          "Số nguyên âm lớn nhất là số nào?",
+          "$-1$"
+        ],
+        [
+          "Số nguyên $x$ thỏa mãn $|x| = 0$ là:",
+          "$0$"
+        ],
+        [
+          "Hình tròn có tất cả bao nhiêu trục đối xứng?",
+          "Vô số"
+        ],
+        [
+          "Hình thang cân có hai đáy $28\\text{ cm}, 12\\text{ cm}$, cao $15\\text{ cm}$. Diện tích là:",
+          "$300\\text{ cm}^2$"
+        ],
+        [
+          "Ngăn đông $-18^\\circ\\text{C}$, ngăn mát $4^\\circ\\text{C}$. Ngăn nào lạnh hơn?",
+          "Ngăn đông"
+        ]
+      ],
+      "q11": {
+        "a": "$53 + 138 + 47 + 62$",
+        "b": "$58 \\cdot 82 + 58 \\cdot 18$",
+        "c": "$7 \\cdot 2^3 - |-45| : 3^2 + 2024^0$",
+        "d": "$210 : (36 - 15) + 3^2 \\cdot 6$",
+        "e": "$280 : [65 - (13 - 8)^2]$",
+        "f": "$200 : \\{70 - [55 - (12 - 7)^2]\\}$"
+      },
+      "q12": {
+        "a": "$|x| = 15$",
+        "b": "$|x - 2| = 7$",
+        "c": "Liệt kê và tính tổng các số nguyên $x$: $-4 \\le x \\le 5$",
+        "d": "$(x + 6)(x - 2) = 0$"
+      },
+      "q13": {
+        "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & Madrid & Warsaw & Helsinki & Kyiv & Rome \\\\\\hline \\textbf{Nhiệt độ} & $8^\\circ\\text{C}$ & $-6^\\circ\\text{C}$ & $-11^\\circ\\text{C}$ & $-7^\\circ\\text{C}$ & $10^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
+        "a": "Sắp xếp nhiệt độ của 5 thành phố trên theo thứ tự từ thấp đến cao (tăng dần).",
+        "b": "Thành phố nào có nhiệt độ thấp nhất, thành phố nào cao nhất? Tính độ chênh lệch nhiệt độ giữa hai thành phố đó."
+      },
+      "q14": {
+        "de": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn phương trình: $(x + 1)(y - 3) = 7$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Điền dấu thích hợp ($<, >, =$): $0 \\; \\dots \\; -48$",
+          "$>$"
+        ],
+        [
+          "Điền dấu thích hợp ($<, >, =$): $-56 \\; \\dots \\; -65$",
+          "$>$"
+        ],
+        [
+          "Giá trị của biểu thức $|-48|$ là:",
+          "$48$"
+        ],
+        [
+          "Số lớn nhất trong dãy: $-25; -7; -30; -2; -11$ là:",
+          "$-2$"
+        ],
+        [
+          "Số nguyên liền sau của số $-20$ là:",
+          "$-19$"
+        ],
+        [
+          "Số nguyên âm nhỏ nhất có 1 chữ số là:",
+          "$-9$"
+        ],
+        [
+          "Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = -5$?",
+          "$0$"
+        ],
+        [
+          "Hình lục giác đều có tất cả bao nhiêu trục đối xứng?",
+          "$6$"
+        ],
+        [
+          "Hình thang cân có hai đáy $30\\text{ cm}, 14\\text{ cm}$, cao $10\\text{ cm}$. Diện tích là:",
+          "$220\\text{ cm}^2$"
+        ],
+        [
+          "Sa Pa $-1^\\circ\\text{C}$, Mẫu Sơn $-4^\\circ\\text{C}$. Nơi nào rét hơn?",
+          "Mẫu Sơn"
+        ]
+      ],
+      "q11": {
+        "a": "$26 + 165 + 74 + 35$",
+        "b": "$67 \\cdot 76 + 67 \\cdot 24$",
+        "c": "$8 \\cdot 2^3 - |-18| : 3^2 + 2027^0$",
+        "d": "$240 : (42 - 18) + 4^2 \\cdot 4$",
+        "e": "$300 : [75 - (14 - 9)^2]$",
+        "f": "$240 : \\{80 - [65 - (15 - 10)^2]\\}$"
+      },
+      "q12": {
+        "a": "$|x| = 9$",
+        "b": "$|x - 5| = 4$",
+        "c": "Liệt kê và tính tổng các số nguyên $x$: $-7 < x < 6$",
+        "d": "$(x + 8)(x - 5) = 0$"
+      },
+      "q13": {
+        "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & Chicago & Toronto & Oslo & Vienna & Bangkok \\\\\\hline \\textbf{Nhiệt độ} & $-9^\\circ\\text{C}$ & $-8^\\circ\\text{C}$ & $-13^\\circ\\text{C}$ & $-1^\\circ\\text{C}$ & $25^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
+        "a": "Sắp xếp nhiệt độ của 5 thành phố trên theo thứ tự từ thấp đến cao (tăng dần).",
+        "b": "Thành phố nào có nhiệt độ thấp nhất, thành phố nào cao nhất? Tính độ chênh lệch nhiệt độ giữa hai thành phố đó."
+      },
+      "q14": {
+        "de": "Tìm tất cả các cặp số nguyên $(x, y)$ thỏa mãn phương trình: $(x + 2)(y - 1) = 11$."
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "bai_toan": {
+    "ma_bai": "BAI_HINH_05",
+    "nguon": "Đề 05 - Tuyển tập 55 Đề Thi Vào Lớp 10",
+    "mo_hinh": "Đường kính vuông góc dây cung, Trực tâm ẩn M của tam giác CDI và Tam giác trực tâm HKN",
+    "de_bai": "Cho đường tròn (O) và dây cung AB không đi qua tâm. Gọi H là trung điểm của AB, đường thẳng HO cắt đường tròn (O) tại hai điểm C và D (C thuộc cung nhỏ AB). Lấy điểm M thuộc đoạn AH (M khác A và H), tia CM cắt đường tròn (O) tại điểm thứ hai là N. a) Chứng minh bốn điểm D, N, M, H cùng thuộc một đường tròn. b) Gọi I là giao điểm của hai đường thẳng DN và AB, K là giao điểm của hai đường thẳng CI và DM. Chứng minh CM . CN = CK . CI. c) Chứng minh điểm M là tâm của đường tròn nội tiếp tam giác trực tâm HKN."
+  },
+  "mo_hinh_cot_loi": {
+    "bo_de_1": "Đường kính đi qua trung điểm dây cung thì vuông góc với dây cung: H là trung điểm AB => CD vuông góc AB tại H => IH vuông góc CD trong tam giác CDI.",
+    "bo_de_2": "Mô hình Trực tâm ẩn: Trong tam giác CDI, IH vuông góc CD và CN vuông góc DI (do góc CND = 90 độ chắn nửa đường tròn). Hai đường cao này cắt nhau tại M => M là trực tâm của tam giác CDI => đường cao thứ ba DM vuông góc CI tại K.",
+    "diem_nghen": "Học sinh không nhận diện được tam giác bao quát là CDI và trực tâm M. Khi phát hiện M là trực tâm, ba điểm H, K, N chính là ba chân đường cao, bài toán chứng minh tâm nội tiếp quy về đúng Bổ đề Tam giác trực tâm ở Bài 04."
+  },
+  "so_do_tu_duy_nguoc": [
+    {
+      "tang": 1,
+      "tieu_de": "TẦNG 1: XÁC ĐỊNH ĐÍCH ĐẾN",
+      "muc_tieu": "Chứng minh M là tâm đường tròn nội tiếp tam giác trực tâm HKN",
+      "cong_thuc": "M = KM \\cap NM \\cap HM \\quad (KM, NM, HM \\text{ là các phân giác trong của } \\triangle HKN)",
+      "cau_hoi_truy_van": "Để chứng minh điểm M là tâm đường tròn nội tiếp tam giác HKN, ta cần chứng minh điều gì?",
+      "phan_tich_logic": "Tâm đường tròn nội tiếp của một tam giác là giao điểm của ba đường phân giác trong. Do đó ta cần chứng minh KM, NM, HM lần lượt là các tia phân giác trong của các góc của tam giác trực tâm HKN.",
+      "huong_suy_luan_nguoc": "Làm thế nào để chứng minh tia KM là tia phân giác trong của góc HKN?"
+    },
+    {
+      "tang": 2,
+      "tieu_de": "TẦNG 2: MỤC TIÊU PHÂN GIÁC TRONG ĐỈNH K",
+      "muc_tieu": "Chứng minh góc MKH = góc MKN",
+      "cong_thuc": "\\widehat{MKH} = \\widehat{MKN} \\iff KM \\text{ là tia phân giác trong của } \\widehat{HKN}",
+      "cau_hoi_truy_van": "Đường thẳng CI vuông góc với DK tại K, vậy góc MKH và MKN có quan hệ gì với góc IKH và CKN?",
+      "phan_tich_logic": "Vì DM vuông góc với CI tại K nên góc DKC = góc DKI = 90 độ. Từ đó góc MKH = 90 độ - góc IKH và góc MKN = 90 độ - góc CKN. Do đó ta quy về chứng minh góc IKH = góc CKN.",
+      "huong_suy_luan_nguoc": "Làm sao chứng minh góc IKH = góc CKN qua các tứ giác nội tiếp?"
+    },
+    {
+      "tang": 3,
+      "tieu_de": "TẦNG 3: QUY VỀ HAI GÓC PHỤ NHAU VỚI 90 ĐỘ",
+      "muc_tieu": "Chứng minh góc IKH = góc CKN",
+      "cong_thuc": "\\begin{cases} \\widehat{MKH} = 90^\\circ - \\widehat{IKH} \\\\ \\widehat{MKN} = 90^\\circ - \\widehat{CKN} \\end{cases} \\implies \\widehat{MKH} = \\widehat{MKN} \\iff \\widehat{IKH} = \\widehat{CKN}",
+      "cau_hoi_truy_van": "Hai góc IKH và CKN lần lượt thuộc những tứ giác nội tiếp nào?",
+      "phan_tich_logic": "Điểm K là chân đường cao của tam giác CDI. Tứ giác HKMI có góc MHI = MKI = 90 độ nên nội tiếp đường tròn đường kính MI => góc IKH = góc IMH. Tứ giác DKNC có góc DKC = DNC = 90 độ nên nội tiếp đường tròn đường kính CD => góc CKN = góc CDN.",
+      "huong_suy_luan_nguoc": "Làm thế nào so sánh góc IMH và góc CDN?"
+    },
+    {
+      "tang": 4,
+      "tieu_de": "TẦNG 4: CHUYỂN GÓC QUA HAI TAM GIÁC VUÔNG ĐỒNG DẠNG",
+      "muc_tieu": "Chứng minh góc IMH = góc CDN",
+      "cong_thuc": "\\widehat{IMH} = \\widehat{DMN} = 90^\\circ - \\widehat{MDN} = \\widehat{CDN} \\quad (\\text{do } \\triangle IMH \\backsim \\triangle CDN)",
+      "cau_hoi_truy_van": "Tại sao góc IMH bằng góc CDN?",
+      "phan_tich_logic": "Góc IMH đối đỉnh với góc DMN. Trong tam giác vuông DMN vuông tại N (vì góc CND = 90 độ), ta có góc DMN + MDN = 90 độ => góc DMN = 90 độ - CDN. Mặt khác trong tam giác vuông CDI vuông tại... không, tam giác DHI vuông tại H nên góc DIH + HDI = 90 độ. Suy ra góc IMH = góc CDN!",
+      "huong_suy_luan_nguoc": "Điểm nghẽn gốc được kích hoạt từ đâu?"
+    },
+    {
+      "tang": 5,
+      "tieu_de": "TẦNG 5: ĐIỀU KIỆN KHỞI PHÁT - TRỰC TÂM ẨN M CỦA TAM GIÁC CDI",
+      "muc_tieu": "Xác lập M là trực tâm tam giác CDI từ đường kính CD và trung điểm H",
+      "cong_thuc": "IH \\perp CD \\text{ tại } H, \\ CN \\perp DI \\text{ tại } N \\implies M \\text{ là trực tâm của } \\triangle CDI \\implies DK \\perp CI \\text{ tại } K",
+      "cau_hoi_truy_van": "Tại sao IH vuông góc CD và CN vuông góc DI?",
+      "phan_tich_logic": "CD là đường kính đi qua trung điểm H của dây AB nên CD vuông góc AB tại H => IH vuông góc CD. N thuộc đường tròn đường kính CD nên góc CND = 90 độ => CN vuông góc DI. Hai đường cao cắt nhau tại M nên M là trực tâm tam giác CDI.",
+      "huong_suy_luan_nguoc": "Chuỗi truy ngược đã kết nối hoàn toàn về giả thiết gốc ban đầu!"
+    }
+  ],
+  "cay_thong_cong_thuc": {
+    "dinh_ngon": "\\boxed{\\mathbf{M \\text{ LÀ TÂM ĐƯỜNG TRÒN NỘI TIẾP } \\triangle HKN}}",
+    "than_cay": [
+      "\\Updownarrow",
+      "KM, NM, HM \\text{ là các đường phân giác trong của tam giác trực tâm } HKN",
+      "\\Uparrow",
+      "\\widehat{MKH} = \\widehat{MKN} \\iff 90^\\circ - \\widehat{IKH} = 90^\\circ - \\widehat{CKN} \\quad (DK \\perp CI)",
+      "\\Uparrow",
+      "\\widehat{IKH} = \\widehat{CKN} \\iff \\widehat{IMH} = \\widehat{CDN}",
+      "\\Uparrow",
+      "\\widehat{IMH} = \\widehat{DMN} = 90^\\circ - \\widehat{MDN} = \\widehat{CDN}"
+    ],
+    "hai_nhanh": {
+      "nhanh_trai": "\\text{Tứ giác } HKMI \\text{ nội tiếp (đường kính } MI) \\implies \\widehat{IKH} = \\widehat{IMH} \\quad (\\text{cùng chắn } \\stackrel{\\frown}{IH})",
+      "nhanh_phai": "\\text{Tứ giác } DKNC \\text{ nội tiếp (đường kính } CD) \\implies \\widehat{CKN} = \\widehat{CDN} \\quad (\\text{cùng chắn } \\stackrel{\\frown}{CN})"
+    },
+    "goc_re": "IH \\perp CD \\text{ tại } H, \\ CN \\perp DI \\text{ tại } N \\implies M \\text{ LÀ TRỰC TÂM } \\triangle CDI \\implies DK \\perp CI \\text{ TẠI } K"
+  },
+  "binh_luan_su_pham": {
+    "tai_sao_nghi_ra": "Điểm đắt giá nhất của bài toán là sự xuất hiện của 'Trực tâm ẩn M'. Bài toán không hề cho tam giác CDI từ trước, mà chỉ cho điểm M thuộc đoạn AH. Nhưng khi nối CN và DN, ta thấy ngay hai đường vuông góc: IH vuông góc CD (tính chất đường kính qua trung điểm dây cung) và CN vuông góc DI (góc nội tiếp chắn nửa đường tròn). Giao điểm M của hai đường cao này lập tức biến CDI thành tam giác chủ đạo, và ba điểm H, K, N trở thành ba chân đường cao. Khi đó toàn bộ bài toán quy về Bổ đề tam giác trực tâm kinh điển!",
+    "cau_hoi_goi_mo": [
+      "Câu 1: Đường kính CD vuông góc với dây cung AB tại trung điểm H tạo ra đường cao nào?",
+      "Câu 2: Điểm N thuộc đường tròn đường kính CD sinh ra góc vuông nào? Đoạn thẳng CN là đường cao của tam giác nào?",
+      "Câu 3: Giao điểm M của hai đường thẳng AB và CN có vai trò gì trong tam giác CDI?",
+      "Câu 4: Ba điểm H, K, N có vị trí như thế nào đối với tam giác CDI? Hãy vận dụng tính chất của tam giác trực tâm để suy ra kết quả!"
+    ],
+    "sai_lam_thuong_gap": "Học sinh thường sa vào tính toán độ dài đại số phức tạp để chứng minh tích CM . CN = CK . CI mà không nhận ra đây chỉ là hệ thức lượng của tam giác đồng dạng suy ra từ trực tâm M. Ở câu c, nhiều học sinh vẽ hình lộn xộn, không nhìn ra tam giác CDI nên không thể chứng minh được phân giác.",
+    "bai_tap_tuong_tu": [
+      "Bài toán phát triển 1: Chứng minh bốn điểm H, K, N, O cùng thuộc một đường tròn (Đường tròn Euler 9 điểm của tam giác CDI).",
+      "Bài toán phát triển 2: Kéo dài KM cắt CD tại P. Chứng minh P là trực tâm của tam giác CNI."
+    ]
+  },
+  "loi_giai_chi_tiet": [
+    {
+      "buoc": "Bước 1: Chứng minh bốn điểm D, N, M, H cùng thuộc đường tròn đường kính DM",
+      "noi_dung": "Vì CD là đường kính của (O) và N thuộc (O) nên góc CND = 90 độ (góc nội tiếp chắn nửa đường tròn) => góc DNM = 90 độ. Do H là trung điểm dây cung AB không qua tâm nên CD vuông góc AB tại H => góc DHM = 90 độ. Xét tứ giác DNMH có góc DNM + DHM = 90 độ + 90 độ = 180 độ. Do đó tứ giác DNMH nội tiếp đường tròn đường kính DM.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 2: Chứng minh M là trực tâm tam giác CDI và CM . CN = CK . CI",
+      "noi_dung": "Xét tam giác CDI có: IH vuông góc CD tại H và CN vuông góc DI tại N. Hai đường cao IH và CN cắt nhau tại M, do đó M là trực tâm tam giác CDI => đường thẳng DM vuông góc CI tại K. Xét hai tam giác vuông CMK và CIN có góc C chung, góc CKM = CNI = 90 độ => tam giác CMK đồng dạng tam giác CIN (g-g) => CM/CI = CK/CN => CM . CN = CK . CI.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 3: Chứng minh KM là tia phân giác trong của góc HKN",
+      "noi_dung": "Tứ giác HKMI có góc MHI = MKI = 90 độ nên nội tiếp đường tròn đường kính MI => góc IKH = IMH. Tứ giác DKNC có góc DKC = DNC = 90 độ nên nội tiếp đường tròn đường kính CD => góc CKN = CDN. Lại có góc IMH = DMN (đối đỉnh) = 90 độ - MDN = CDN. Suy ra góc IKH = CKN. Vì DM vuông góc CI tại K nên góc MKH = 90 độ - IKH = 90 độ - CKN = MKN. Vậy KM là tia phân giác trong của góc HKN.",
+      "diem": "0.75đ"
+    },
+    {
+      "buoc": "Bước 4: Chứng minh điểm M là tâm đường tròn nội tiếp tam giác HKN",
+      "noi_dung": "Chứng minh hoàn toàn tương tự, ta có NM là tia phân giác trong của góc HNK và HM là tia phân giác trong của góc KHN. Ba đường phân giác trong KM, NM, HM của tam giác trực tâm HKN cùng đồng quy tại điểm M. Vậy M là tâm của đường tròn nội tiếp tam giác trực tâm HKN (đpcm).",
+      "diem": "0.75đ"
+    }
+  ]
+}

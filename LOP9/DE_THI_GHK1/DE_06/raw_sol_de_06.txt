@@ -1,0 +1,1347 @@
+--- TRANG 92 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+ĐỀ SỐ 6 
+ 
+ĐỀ ÔN TẬP GIỮA KÌ I 2026 – 2027 
+Môn: Toán 9 
+Thời gian làm bài: 90 phút, không kể thời gian phát đề 
+Phần I. Câu trắc nghiệm nhiều phương án lựa chọn 
+Câu 1. Phương trình nào dưới đây là phương trình bậc nhất hai ẩn?    
+A. 
+2
+2
+5
+x
+y
++
+= .    
+ 
+ 
+ 
+ 
+ 
+B. 3
+5
+1
+x
+y
+−
+= .    
+C. 1
+2
+y
+x +
+= .    
+ 
+ 
+ 
+ 
+ 
+D. 
+4
+xy = .    
+Lời giải: Phương trình bậc nhất hai ẩn có dạng tổng quát là ax
+by
+c
++
+= , trong đó các hệ số 
+,a b không đồng thời bằng 0 và các ẩn có số mũ bằng 1.  
+Phương trình 3
+5
+1
+x
+y
+−
+= thỏa mãn điều kiện này.    
+Đáp án đúng: B.    
+Câu 2. Đường thẳng biểu diễn tất cả các nghiệm của phương trình 3
+12
+0
+x−
+= ?    
+A. Vuông góc với trục tung.    
+ 
+ 
+ 
+B. Đi qua gốc tọa độ.    
+C. Song song với trục hoành.    
+ 
+ 
+ 
+D. Đi qua điểm 
+(4;5)
+A
+.    
+Lời giải: Phương trình 3
+12
+0
+x−
+= có nghiệm 
+4
+x =
+ 
+Đường thẳng này có phương trình 
+4
+x =
+, biểu diễn tập hợp các điểm có hoành độ bằng 4 , 
+do đó nó đi qua điểm 
+(4;5)
+A
+. Đáp án đúng: D.    
+Câu 3. Biết rằng 
+0
+0
+(
+;
+)
+x y là nghiệm của hệ phương trình 
+3
+7
+2
+0
+x
+y
+x
+y
++
+=
+
+
+−
+=
+
+. Tính 
+0
+0
+2
+x
+y
+−
+:    
+A. 1     
+ 
+ 
+B. 2
+−    
+ 
+ 
+C. 3    
+ 
+ 
+D. 1
+−    
+Lời giải: Từ phương trình thứ hai ta có 
+2
+y
+x
+=
+.  
+Thay vào phương trình đầu: 
+3(2 )
+7
+x
+x
++
+= . Khi đó 
+1
+x = . Suy ra 
+2(1)
+2
+y =
+= .  
+
+
+--- TRANG 93 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Nghiệm của hệ là (1;2) , tức 
+0
+0
+1,
+2
+x
+y
+=
+=
+.    
+Thay vào biểu thức: 
+0
+0
+2
+2(2) 1
+3
+y
+x
+−
+=
+−=   
+Đáp án đúng: C.    
+Câu 4. Giải hệ phương trình 
+5
+1
+x
+y
+x
+y
++
+=
+
+−
+=
+
+ ta được nghiệm là:  
+A. ( ; )
+(3;2)
+x y =
+    
+ 
+ 
+ 
+ 
+ 
+B. ( ; )
+(2;3)
+x y =
+    
+C. ( ; )
+(4;1)
+x y =
+    
+ 
+ 
+ 
+ 
+ 
+D. ( ; )
+(1;4)
+x y =
+    
+Lời giải: Cộng vế theo vế hai phương trình ta được 2
+6
+3
+x
+x
+=
+
+= , suy ra 
+5 3
+2
+y = −= .  
+Vậy nghiệm của hệ phương trình là (3;2).   
+ Đáp án đúng: A.    
+Câu 5. Phương trình (
+3)(
+8)
+0
+x
+x
+−
++
+= có nghiệm là:    
+A. 
+3;
+8
+x
+x
+=
+=    
+ 
+ 
+ 
+ 
+ 
+B. 
+3;
+8
+x
+x
+= −
+=    
+C. 
+3;
+8
+x
+x
+= −
+= −    
+ 
+ 
+ 
+ 
+ 
+D. 
+3;
+8
+x
+x
+=
+= −    
+Lời giải: Phương trình tích tương đương với 
+3
+0
+3
+x
+x
+−=
+
+= hoặc 
+8
+0
+8
+x
+x
++ =
+
+= −.    
+Đáp án đúng: D.    
+Câu 6. Cho góc nhọn B trong tam giác vuông. Tỉ số cạnh kề trên cạnh huyền là:   
+ A. sinB    
+ 
+ 
+B. cosB    
+ 
+ 
+C. tanB    
+ 
+        D. cot B    
+Lời giải: Theo định nghĩa tỉ số lượng giác của góc nhọn trong tam giác vuông, cosin bằng 
+cạnh kề chia cho cạnh huyền. Đáp án đúng: B 
+Câu 7. Kết quả của phép tính (
+13):(
+468)
+−
+−
+ là:    
+A. 1
+6    
+ 
+ 
+B. 6
+−    
+ 
+ 
+C. 6    
+ 
+ 
+D. 
+1
+6
+−
+    
+
+
+--- TRANG 94 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Ta có 
+13
+13
+1
+1
+(
+13):(
+468)
+468
+36
+6
+468
+−
+−
+=
+=
+=
+=
+.    
+Đáp án đúng: A.    
+Câu 8. Đưa thừa số 5a b
+−
+ (với 
+0;
+0
+a
+b
+
+) vào trong dấu căn ta được    
+A. 
+2
+25a b
+−
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+2
+25a b     
+ 
+ 
+C. 
+2
+5a b
+−
+     
+ 
+ 
+ 
+ 
+ 
+D. 
+2
+5a b    
+Lời giải: Vì 
+0
+a 
+, ta có 5
+(5 )
+a b
+a
+b
+−
+= −
+.  
+Khi đưa thừa số dương 5a vào trong căn, dấu trừ ở phía trước được giữ nguyên:  
+2
+2
+(5 )
+25
+a
+b
+a b
+−
+
+= −
+. 
+Đáp án đúng: A.   
+Câu 9. Đưa thừa số 
+2
+75x y (với 
+0;
+0
+x
+y
+
+) ra ngoài dấu căn ta được   
+A. 5
+3
+x
+y     
+ 
+ 
+ 
+ 
+ 
+B. 5
+3
+x
+y
+−
+    
+C. 75x
+y
+−
+    
+ 
+ 
+ 
+ 
+ 
+D. 25
+3
+x
+y
+−
+ 
+Lời giải: Ta có 
+2
+2
+2
+2
+75
+25 3
+5
+3
+| 5 |
+3
+x y
+x
+y
+x
+y
+x
+y
+=
+
+
+=
+
+
+=
+.  
+Do điều kiện 
+0
+x  nên |5 |
+5
+x
+x
+= −
+, kết quả là 5
+3
+x
+y
+−
+. 
+Đáp án đúng: B. 
+Câu 10. Cho  là góc nhọn bất kì có 
+1
+tan
+7
+=
+, khi đó:    
+A. 
+1
+cot
+7
+=
+    
+ 
+ 
+ 
+ 
+ 
+B. 
+1
+cot
+7
+
+−
+=
+    
+C. cot
+7
+= −    
+ 
+ 
+ 
+ 
+ 
+D. cot
+7
+=
+    
+
+
+--- TRANG 95 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Lời giải: Ta có 
+1
+1
+cot
+7
+1
+tan
+7
+
+
+=
+=
+= .   Đáp án đúng: D.    
+Câu 11. Hãy chọn câu đúng nhất:    
+A. cos77
+sin23
+
+
+=
+     
+ 
+ 
+ 
+ 
+B. sin37
+cos53
+
+
+=
+    
+C. cot53
+tan47
+
+
+=
+     
+ 
+ 
+ 
+ 
+D. tan37
+tan53
+
+
+=
+    
+Lời giải: Hai góc phụ nhau có tổng số đo bằng 90 thì sin góc này bằng cos góc kia.  
+Vì 37
+53
+90
+
+
+
++
+=
+ nên sin37
+cos53
+
+
+=
+.    
+Đáp án đúng: B.    
+Câu 12. Trong một tam giác vuông, mỗi cạnh góc vuông bằng:    
+A. Cạnh huyền nhân với tan góc đối hoặc nhân với côtang góc kề.    
+B. Cạnh huyền nhân với côtang góc đối hoặc nhân với tan góc kề.    
+C. Cạnh huyền nhân với sin góc đối hoặc nhân với côsin góc kề.    
+D. Cạnh huyền nhân với côsin góc đối hoặc nhân với sin góc kề.    
+Lời giải: Theo hệ thức giữa cạnh và góc trong tam giác vuông, cạnh góc vuông bằng cạnh 
+huyền nhân với sin góc đối (hoặc nhân với côsin góc kề).    
+Đáp án đúng: C 
+Phần II. Trắc nghiệm đúng sai  
+(Thí sinh trả lời câu 1 và câu 2, mỗi ý a) b) c) d) thí sinh chọn đúng hoặc sai) 
+Câu 1. Cho hệ phương trình 3
+2
+4
+2
+4
+x
+y
+x
+y
+−
+=
+
++
+=
+
+. Xét tính Đúng/Sai của các khẳng định sau: 
+a) Hệ phương trình trên có hai ẩn số là x và y . 
+b) Cộng từng vế hai phương trình của hệ ta được phương trình 4
+8
+x = . 
+c) Nghiệm của hệ phương trình là (1;2) . 
+
+
+--- TRANG 96 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+d) Giá trị của biểu thức T
+x
+y
+=
+−
+ bằng 1. 
+Lời giải: 
+a) Đúng. Hệ phương trình gồm hai ẩn số là x và y . 
+b) Đúng. Cộng vế với vế hai phương trình: (3
+2 )
+(
+2 )
+4
+4
+x
+y
+x
+y
+−
++
++
+=
++ , tức là 4
+8
+x = . 
+c) Sai. Từ 4
+8
+x = tính được 
+2
+x =
+, thay vào phương trình thứ hai tính được 2
+2
+4
+y
++
+= , tức 
+là 
+1
+y = . Nghiệm của hệ là (2;1) chứ không phải (1;2) . 
+d) Đúng. Thay nghiệm (2;1) vào biểu thức T : 
+2 1 1
+T =
+−= . 
+Câu 2. Cho tam giác MNP vuông tại M , biết 
+9 cm
+MN =
+ và 
+12 cm
+MP =
+. Xét tính 
+Đúng/Sai của các khẳng định sau: 
+a) Độ dài cạnh huyền 
+15 cm
+NP =
+. 
+b) Tỉ số lượng giác 
+4
+sin
+5
+N =
+. 
+c) Số đo góc N xấp xỉ bằng 37. 
+d) Tỉ số 
+4
+tan
+3
+P =
+. 
+Lời giải: 
+a) Đúng. Theo định lý Pythagore, 
+2
+2
+9
+12
+225
+15 cm
+NP =
++
+=
+=
+. 
+b) Đúng. Trong tam giác vuông MNP, 
+12
+4
+sin
+15
+5
+MP
+N
+NP
+=
+=
+=
+. 
+c) Sai. Với 
+4
+sin
+0,8
+5
+N =
+=
+, số đo góc N xấp xỉ bằng 53 chứ không phải 37. 
+d) Sai. Tỉ số 
+9
+3
+tan
+12
+4
+MN
+P
+MP
+=
+=
+=
+ chứ không phải 4
+3 . 
+ 
+
+
+--- TRANG 97 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Phần III. Câu trả lời ngắn 
+(Thí sinh trả lời câu 1 và câu 2) 
+Câu 1. Giải hệ phương trình 
+2
+5
+10
+2
+2
+x
+y
+x
+y
+−
++
+=
+
+
+−
+=
+
+ ta được y bằng bao nhiêu?   
+Lời giải: Cộng hai phương trình vế theo vế: ( 2
+2 )
+(5
+)
+10
+2
+x
+x
+y
+y
+−
++
++
+−
+=
++ 
+4
+12
+y =
+ 
+3
+y = 
+Đáp án: 
+3
+y = . 
+Câu 2. Tam giác ABC có đường cao AH , biết 
+5 cm
+AB =
+ và ˆ
+60
+B
+
+=
+. Hãy tính độ dài 
+AH (làm tròn đến chữ số thập phân thứ hai).    
+Lời giải: Xét tam giác AHB vuông tại H : 
+3
+sin
+5 sin60
+5
+4,33 cm
+2
+AH
+AB
+B
+
+=
+
+= 
+= 
+
+ 
+Đáp án: 4,33 cm. 
+Phần IV. Tự luận 
+Câu 1. Giải phương trình. 
+a)  (
+)(
+)
+3
+2
+2
+1
+0
+x
+x
+−
++
+= ;  
+ 
+ 
+ 
+b)  
+2
+2
+1
+2
+2(
+5)
+3
+3
+9
+x
+x
+x
+x
+x
+x
++
+−
++
++
+=
+−
++
+−
+ 
+Lời giải. 
+ a) (3
+2)(2
+1)
+0
+x
+x
+−
++
+=    
+3
+2
+0
+x−
+= hoặc 2
+1
+0
+x+ =     
+2
+3
+x =
+ hoặc 
+1
+2
+x = −
+. 
+Vậy tập nghiệm của phương trình là 
+2
+1
+;
+3
+2
+S
+
+
+=
+−
+
+
+
+
+.    
+b) 
+2
+2
+1
+2
+2(
+5)
+3
+3
+9
+x
+x
+x
+x
+x
+x
++
+−
++
++
+=
+−
++
+−
+    
+Điều kiện xác định: 
+3
+x  và 
+3
+x −. 
+
+
+--- TRANG 98 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Quy đồng mẫu thức hai vế và khử mẫu, ta được: 
+2
+(
+1)(
+3)
+(
+2)(
+3)
+2(
+5)
+x
+x
+x
+x
+x
++
++
++
+−
+−
+=
++
+    
+2
+2
+2
+4
+3
+5
+6
+2
+10
+x
+x
+x
+x
+x
++
++ +
+−
++
+=
++
+    
+2
+2
+2
+9
+2
+10
+x
+x
+x
+−+
+=
++
+    
+1
+x
+−=    
+1
+x = − (thỏa mãn điều kiện). 
+Vậy nghiệm của phương trình là 
+1
+x = −.  
+Câu 2. Một mảnh vườn hình chữ nhật có chu vi 50 m
+ . Nếu chiều dài tăng thêm 5m
+ 
+ và 
+chiều rộng giảm đi 5m
+ 
+ thì diện tích của mảnh vườn giảm đi 
+2
+50 m
+ 
+. Tính diện tích của 
+mảnh vườn đó. 
+Lời giải. Gọi chiều dài và chiều rộng của mảnh vườn lần lượt là x và y (đơn vị mét; điều 
+kiện 
+0
+x
+y
+
+). 
+Chu vi mảnh vườn là 50 m nên nửa chu vi là 25 m, ta có phương trình: 
+25
+x
+y
++
+=
+.    
+Chiều dài sau khi tăng là 
+5
+x + , chiều rộng sau khi giảm là 
+5
+y −.  
+Diện tích mới giảm đi 
+2
+50 m so với diện tích ban đầu, nên ta có phương trình: 
+(
+5)(
+5)
+50
+xy
+x
+y
+−
++
+−
+=
+ 
+(
+5
+5
+25)
+50
+xy
+xy
+x
+y
+−
+−
++
+−
+=
+ 
+5
+5
+25
+5
+x
+y
+x
+y
+−
+=
+
+−
+= .    
+Kết hợp hai phương trình, ta có hệ phương trình:
+25
+5
+x
+y
+x
+y
++
+=
+
+−
+=
+
+    
+Cộng vế theo vế hai phương trình ta được 2
+30
+x =
+, tức là 
+15
+x =
+.  
+Thay vào tìm được 
+10
+y =
+ (thỏa mãn điều kiện).    
+Diện tích ban đầu của mảnh vườn là: 
+2
+15 10
+150 m
+
+=
+.  
+
+
+--- TRANG 99 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Câu 3. Người ta làm một con đường gồm ba đoạn thẳng 
+,
+,
+AB BC CD bao quanh hồ 
+nước như hình vẽ sau. Tính khoảng cách AD . 
+ 
+Lời giải. Kẻ đường vuông góc từ điểm A vuông góc xuống đường thẳng chứa BC tại điểm 
+H và vuông góc xuống đường thẳng chứa CD tại điểm K. 
+Tứ giác AHCK là hình chữ nhật (vì có 3 góc vuông), nên AH
+CK
+=
+ và AK
+CH
+=
+. 
+Xét tam giác vuông AHB vuông tại H (với góc tại B cho trong hình là 70): 
+cos70
+10 cos70
+3,42 m
+HB
+AB
+
+
+=
+
+=
+
+
+. 
+sin70
+10 sin70
+9,40 m
+AH
+AB
+
+
+=
+
+=
+
+
+. 
+Ta có 
+13 m
+BC =
+ và 
+15 m
+CD =
+:
+13 3,42
+9,58 m
+CH
+BC
+HB
+=
+−
+=
+−
+=
+.  
+Do đó 
+9,58 m
+AK =
+.
+9,40 m
+CK
+AH
+=
+=
+.  
+Suy ra 
+15 9,40
+5,60 m
+KD
+CD
+CK
+=
+−
+=
+−
+=
+. 
+Xét tam giác vuông AKD vuông tại K, áp dụng định lý Pythagore tính khoảng cách AD: 
+2
+2
+2
+2
+2
+9,58
+5,60
+91,78 31,36
+123,14
+AD
+AK
+KD
+=
++
+
++
+
++
+=
+ 
+123,14
+11,1 m
+AD =
+
+ 
+Câu 4. Tìm tất cả các cặp số nguyên (x; y) thỏa mãn   
+2
+2
+2
+2
+10
+15
+0
+x
+y
+xy
+x
++
+−
++
++
+= . 
+Lời giải. Phương trình tương đương với: 
+  
+2
+2
+(
+)
+(
+5)
+10
+x
+y
+x
+−
++
++
+=
+    
+
+
+--- TRANG 100 ---
+ 
+Sưu tầm và biên soạn: Lê Minh Kha 03996533622 
+Vì ,x y nguyên nên 
+2
+(
+5)
+x +
+ và 
+2
+(
+)
+x
+y
+−
+ là các số chính phương có tổng bằng 10, ta có bảng 
+giá trị sau:    
+2
+(
+5)
+x +
+ 
+2
+(
+)
+x
+y
+−
+ 
+x 
+y 
+1 
+9 
+4
+− hoặc 6
+− 
+7, 1, 9, 3
+−
+−−− 
+9 
+1 
+2
+− hoặc 8
+− 
+1, 3, 7, 9
+−−−
+− 
+Các cặp số nguyên ( ; )
+x y thỏa mãn là: 
+( 4; 7),( 4; 1),( 6; 9),( 6; 3),( 2; 1),( 2; 3),( 8; 7),( 8; 9)
+−−
+−−
+−−
+−−
+−−
+−−
+−−
+−−
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
