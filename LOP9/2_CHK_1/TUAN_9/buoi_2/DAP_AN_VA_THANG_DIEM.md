@@ -84,25 +84,14 @@
 
 ### CÂU 13 (2,5 ĐIỂM): BÀI TOÁN HÌNH HỌC VỀ ĐƯỜNG TRÒN ĐƯỜNG KÍNH & DÂY CUNG
 
-#### Mã đề 101:
-* **a) (1,5 điểm): Chứng minh $\Delta ABC$ vuông tại $C$. Tính $BC, CH$ và khoảng cách từ $O$ đến $AC$.**
-  - Điểm $C$ thuộc nửa đường tròn đường kính $AB \implies \widehat{ACB} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn), suy ra $\Delta ABC$ vuông tại $C$ *(0,5 đ)*.
-  - Áp dụng định lí Pythagore trong tam giác vuông $ABC$:
-    $$BC = \sqrt{AB^2 - AC^2} = \sqrt{10^2 - 6^2} = 8\text{ cm} \quad \text{*(0,25 đ)*.}$$
-  - Áp dụng hệ thức lượng trong tam giác vuông $ABC$ có đường cao $CH$:
-    $$CH \cdot AB = AC \cdot BC \implies CH = \dfrac{AC \cdot BC}{AB} = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm} \quad \text{*(0,25 đ)*.}$$
-  - Vì $M$ là trung điểm dây $AC$ nên $OM \perp AC$ tại $M$ (định lí đường kính đi qua trung điểm dây). Khoảng cách từ $O$ đến $AC$ là $OM$.
-  - Trong tam giác vuông $OAM$: $OA = R = 5\text{ cm}, AM = \dfrac{AC}{2} = 3\text{ cm}$.
-    $$OM = \sqrt{OA^2 - AM^2} = \sqrt{5^2 - 3^2} = 4\text{ cm} \quad \text{*(0,5 đ)*.}$$
+#### Áp dụng chung cho cả 4 mã đề (101, 102, 103, 104):
+* **a) (1,0 điểm): Chứng minh $\Delta ABC$ vuông tại $C$.**
+  - Điểm $C$ thuộc nửa đường tròn đường kính $AB \implies \widehat{ACB} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn) *(0,5 đ)*.
+  - Suy ra tam giác $ABC$ vuông tại $C$ *(0,5 đ)*.
 
-* **b) (1,0 điểm): Chứng minh 4 điểm $C, H, O, M$ cùng thuộc một đường tròn.**
-  - Ta có $CH \perp AB$ tại $H \implies \widehat{CHO} = 90^\circ$. Tam giác $CHO$ vuông tại $H$ nên nội tiếp đường tròn đường kính $OC$ *(0,5 đ)*.
-  - Ta có $OM \perp AC$ tại $M \implies \widehat{CMO} = 90^\circ$. Tam giác $CMO$ vuông tại $M$ nên nội tiếp đường tròn đường kính $OC$ *(0,25 đ)*.
-  - Vậy 4 điểm $C, H, O, M$ cùng thuộc đường tròn đường kính $OC$ *(0,25 đ)*.
-
-#### Mã đề 102, 103, 104:
-* Trình bày tương tự với các số liệu tương ứng:
-  - Mã 102: $BC = 6\text{ cm}, CH = 4{,}8\text{ cm}, OM = 3\text{ cm}$.
-  - Mã 103: $BC = 16\text{ cm}, CH = 9{,}6\text{ cm}, OM = 8\text{ cm}$.
-  - Mã 104: $BC = 12\text{ cm}, CH = 9{,}6\text{ cm}, OM = 6\text{ cm}$.
+* **b) (1,5 điểm): Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \perp AC$ và 4 điểm $C, H, O, M$ cùng thuộc một đường tròn.**
+  - Tam giác $OAC$ có $OA = OC = R$ nên cân tại $O$. Do $M$ là trung điểm của dây $AC$ nên đường trung tuyến $OM$ đồng thời là đường cao $\implies OM \perp AC$ tại $M \implies \widehat{CMO} = 90^\circ$ *(0,5 đ)*.
+  - Vì $CH \perp AB$ tại $H \implies \widehat{CHO} = 90^\circ$. Tam giác $CHO$ vuông tại $H$ nên nội tiếp đường tròn đường kính $OC$ (tâm là trung điểm của $OC$) *(0,5 đ)*.
+  - Vì $OM \perp AC$ tại $M \implies \widehat{CMO} = 90^\circ$. Tam giác $CMO$ vuông tại $M$ nên nội tiếp đường tròn đường kính $OC$ (tâm là trung điểm của $OC$) *(0,25 đ)*.
+  - Do đó cả 4 điểm $C, H, O, M$ cùng thuộc đường tròn đường kính $OC$ *(0,25 đ)*.
 

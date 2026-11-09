@@ -28,51 +28,51 @@
 
 #### Mã đề 101:
 * **a) (1,25 điểm):** Giải hệ phương trình:
-  $$\begin{cases} \dfrac{2}{x - 1} + \dfrac{1}{y + 2} = 4 \\ \dfrac{1}{x - 1} - \dfrac{2}{y + 2} = -3 \end{cases}$$
-  - Điều kiện xác định: $x \ne 1, y \ne -2$ *(0,25 đ)*.
-  - Đặt $u = \dfrac{1}{x - 1}, v = \dfrac{1}{y + 2}$. Hệ phương trình trở thành:
-    $$\begin{cases} 2u + v = 4 \\ u - 2v = -3 \end{cases} \iff \begin{cases} 4u + 2v = 8 \\ u - 2v = -3 \end{cases} \iff \begin{cases} 5u = 5 \\ v = 4 - 2u \end{cases} \iff \begin{cases} u = 1 \\ v = 2 \end{cases} \quad \text{*(0,5 đ)*.}$$
-  - Trả lại ẩn ban đầu:
-    $$\begin{cases} \dfrac{1}{x - 1} = 1 \\ \dfrac{1}{y + 2} = 2 \end{cases} \iff \begin{cases} x - 1 = 1 \\ y + 2 = \dfrac{1}{2} \end{cases} \iff \begin{cases} x = 2 \\ y = -\dfrac{3}{2} \end{cases} \quad \text{(thỏa mãn điều kiện)} \quad \text{*(0,25 đ)*.}$$
-  - Kết luận: Hệ phương trình có nghiệm duy nhất $(x; y) = \left(2; -\dfrac{3}{2}\right)$ *(0,25 đ)*.
+  $$\begin{cases} 2x + 3y = 7 \\ 3x - y = 5 \end{cases}$$
+  - Nhân cả hai vế của phương trình thứ hai với $3$, ta được hệ:
+    $$\begin{cases} 2x + 3y = 7 \\ 9x - 3y = 15 \end{cases} \quad \text{*(0,25 đ)*.}$$
+  - Cộng từng vế hai phương trình của hệ:
+    $$11x = 22 \iff x = 2 \quad \text{*(0,5 đ)*.}$$
+  - Thay $x = 2$ vào phương trình $3x - y = 5$:
+    $$3 \cdot 2 - y = 5 \iff 6 - y = 5 \iff y = 1 \quad \text{*(0,25 đ)*.}$$
+  - Kết luận: Hệ phương trình có nghiệm duy nhất $(x; y) = (2; 1)$ *(0,25 đ)*.
 
-* **b) (1,25 điểm):** Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ với $x > 0, x \ne 1$.
+* **b) (1,25 điểm):** Cho biểu thức $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ với $x > 0, x \ne 1$. Rút gọn biểu thức $P$.
   - Quy đồng mẫu thức trong ngoặc với mẫu thức chung là $\sqrt{x}(\sqrt{x} - 1)$:
     $$\dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{\sqrt{x}(\sqrt{x} - 1)} = \dfrac{x - 1}{\sqrt{x}(\sqrt{x} - 1)} = \dfrac{(\sqrt{x} - 1)(\sqrt{x} + 1)}{\sqrt{x}(\sqrt{x} - 1)} = \dfrac{\sqrt{x} + 1}{\sqrt{x}} \quad \text{*(0,5 đ)*.}$$
+  - Rút gọn phân thức chia:
+    $$\dfrac{\sqrt{x} + 1}{x - 1} = \dfrac{\sqrt{x} + 1}{(\sqrt{x} - 1)(\sqrt{x} + 1)} = \dfrac{1}{\sqrt{x} - 1} \quad \text{*(0,25 đ)*.}$$
   - Thực hiện phép chia:
-    $$P = \dfrac{\sqrt{x} + 1}{\sqrt{x}} : \dfrac{\sqrt{x} + 1}{(\sqrt{x} - 1)(\sqrt{x} + 1)} = \dfrac{\sqrt{x} + 1}{\sqrt{x}} \cdot \dfrac{(\sqrt{x} - 1)(\sqrt{x} + 1)}{\sqrt{x} + 1} = \dfrac{x - 1}{\sqrt{x}} \text{ hoặc quy đổi gọn } \dfrac{\sqrt{x}+1}{\sqrt{x}} \quad \text{*(0,5 đ)*.}$$
-    *(Ghi chú: $P = \left(\dfrac{x-1}{\sqrt{x}(\sqrt{x}-1)}\right) \cdot \dfrac{x-1}{\sqrt{x}+1} = \dfrac{\sqrt{x}+1}{\sqrt{x}}$).*
-  - Thay $x = 9$ (thỏa mãn ĐKXĐ): $P = \dfrac{\sqrt{9} + 1}{\sqrt{9}} = \dfrac{3 + 1}{3} = \dfrac{4}{3}$ *(0,25 đ)*.
+    $$P = \dfrac{\sqrt{x} + 1}{\sqrt{x}} : \dfrac{1}{\sqrt{x} - 1} = \dfrac{\sqrt{x} + 1}{\sqrt{x}} \cdot (\sqrt{x} - 1) = \dfrac{x - 1}{\sqrt{x}} \quad \text{*(0,25 đ)*.}$$
+  - Kết luận: Với $x > 0, x \ne 1$ thì $P = \dfrac{x - 1}{\sqrt{x}}$ *(0,25 đ)*.
 
 ---
 
 #### Mã đề 102:
-* **a) (1,25 điểm):** ĐKXĐ: $x \ne -1, y \ne 1$.
-  - Đặt $u = \dfrac{1}{x + 1}, v = \dfrac{1}{y - 1} \implies \begin{cases} 3u + 2v = 5 \\ u - v = 0 \end{cases} \iff \begin{cases} u = 1 \\ v = 1 \end{cases}$ *(0,75 đ)*.
-  - $\implies x + 1 = 1 \iff x = 0; y - 1 = 1 \iff y = 2$ (TMĐK). Nghiệm: $(x; y) = (0; 2)$ *(0,5 đ)*.
-* **b) (1,25 điểm):**
-  - Rút gọn: $P = \dfrac{\sqrt{x} + 2}{\sqrt{x}}$ *(0,75 đ)*.
-  - Tại $x = 16$ (TMĐK): $P = \dfrac{\sqrt{16} + 2}{\sqrt{16}} = \dfrac{4 + 2}{4} = \dfrac{3}{2}$ *(0,5 đ)*.
+* **a) (1,25 điểm):** Giải hệ $\begin{cases} 3x - y = 7 \\ 2x + 3y = 12 \end{cases} \iff \begin{cases} 9x - 3y = 21 \\ 2x + 3y = 12 \end{cases} \iff \begin{cases} 11x = 33 \\ y = 3x - 7 \end{cases} \iff \begin{cases} x = 3 \\ y = 2 \end{cases}$ *(1,0 đ)*.
+  - Kết luận: Hệ có nghiệm duy nhất $(x; y) = (3; 2)$ *(0,25 đ)*.
+* **b) (1,25 điểm):** Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 2} - \dfrac{4}{x - 2\sqrt{x}} \right) : \dfrac{\sqrt{x} + 2}{x - 4}$ với $x > 0, x \ne 4$.
+  - Trong ngoặc: $\dfrac{x - 4}{\sqrt{x}(\sqrt{x} - 2)} = \dfrac{\sqrt{x} + 2}{\sqrt{x}}$ *(0,5 đ)*.
+  - Chia phân thức: $P = \dfrac{\sqrt{x} + 2}{\sqrt{x}} : \dfrac{1}{\sqrt{x} - 2} = \dfrac{x - 4}{\sqrt{x}}$ *(0,5 đ)*.
+  - Kết luận: Với $x > 0, x \ne 4$ thì $P = \dfrac{x - 4}{\sqrt{x}}$ *(0,25 đ)*.
 
 ---
 
 #### Mã đề 103:
-* **a) (1,25 điểm):** ĐKXĐ: $x \ne 2, y \ne -1$.
-  - Đặt $u = \dfrac{1}{x - 2}, v = \dfrac{1}{y + 1} \implies \begin{cases} 2u + 3v = 5 \\ 4u - v = 3 \end{cases} \iff \begin{cases} u = 1 \\ v = 1 \end{cases}$ *(0,75 đ)*.
-  - $\implies x - 2 = 1 \iff x = 3; y + 1 = 1 \iff y = 0$ (TMĐK). Nghiệm: $(x; y) = (3; 0)$ *(0,5 đ)*.
-* **b) (1,25 điểm):**
-  - Rút gọn: $P = \dfrac{\sqrt{x} + 3}{\sqrt{x}}$ *(0,75 đ)*.
-  - Tại $x = 4$ (TMĐK): $P = \dfrac{\sqrt{4} + 3}{\sqrt{4}} = \dfrac{2 + 3}{2} = \dfrac{5}{2}$ *(0,5 đ)*.
+* **a) (1,25 điểm):** Giải hệ $\begin{cases} 2x + y = 8 \\ 3x - 2y = 5 \end{cases} \iff \begin{cases} 4x + 2y = 16 \\ 3x - 2y = 5 \end{cases} \iff \begin{cases} 7x = 21 \\ y = 8 - 2x \end{cases} \iff \begin{cases} x = 3 \\ y = 2 \end{cases}$ *(1,0 đ)*.
+  - Kết luận: Hệ có nghiệm duy nhất $(x; y) = (3; 2)$ *(0,25 đ)*.
+* **b) (1,25 điểm):** Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 3} - \dfrac{9}{x - 3\sqrt{x}} \right) : \dfrac{\sqrt{x} + 3}{x - 9}$ với $x > 0, x \ne 9$.
+  - Rút gọn tương tự: $P = \dfrac{\sqrt{x} + 3}{\sqrt{x}} \cdot (\sqrt{x} - 3) = \dfrac{x - 9}{\sqrt{x}}$ *(1,0 đ)*.
+  - Kết luận: Với $x > 0, x \ne 9$ thì $P = \dfrac{x - 9}{\sqrt{x}}$ *(0,25 đ)*.
 
 ---
 
 #### Mã đề 104:
-* **a) (1,25 điểm):** ĐKXĐ: $x \ne -2, y \ne 3$.
-  - Đặt $u = \dfrac{1}{x + 2}, v = \dfrac{1}{y - 3} \implies \begin{cases} u + 2v = 3 \\ 3u - v = 2 \end{cases} \iff \begin{cases} u = 1 \\ v = 1 \end{cases}$ *(0,75 đ)*.
-  - $\implies x + 2 = 1 \iff x = -1; y - 3 = 1 \iff y = 4$ (TMĐK). Nghiệm: $(x; y) = (-1; 4)$ *(0,5 đ)*.
-* **b) (1,25 điểm):**
-  - Rút gọn: $P = \dfrac{\sqrt{x} + 1}{\sqrt{x}}$ *(0,75 đ)*.
-  - Tại $x = 25$ (TMĐK): $P = \dfrac{\sqrt{25} + 1}{\sqrt{25}} = \dfrac{5 + 1}{5} = \dfrac{6}{5}$ *(0,5 đ)*.
+* **a) (1,25 điểm):** Giải hệ $\begin{cases} 2x + 3y = 8 \\ 3x - y = 1 \end{cases} \iff \begin{cases} 2x + 3y = 8 \\ 9x - 3y = 3 \end{cases} \iff \begin{cases} 11x = 11 \\ y = 3x - 1 \end{cases} \iff \begin{cases} x = 1 \\ y = 2 \end{cases}$ *(1,0 đ)*.
+  - Kết luận: Hệ có nghiệm duy nhất $(x; y) = (1; 2)$ *(0,25 đ)*.
+* **b) (1,25 điểm):** Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ với $x > 0, x \ne 1$.
+  - Rút gọn tương tự: $P = \dfrac{\sqrt{x} + 1}{\sqrt{x}} \cdot (\sqrt{x} - 1) = \dfrac{x - 1}{\sqrt{x}}$ *(1,0 đ)*.
+  - Kết luận: Với $x > 0, x \ne 1$ thì $P = \dfrac{x - 1}{\sqrt{x}}$ *(0,25 đ)*.
 
 ---
 
@@ -90,7 +90,6 @@
   $$v_{\text{thực}} = \dfrac{x + y}{2} = \dfrac{27 + 21}{2} = 24\text{ km/h} \quad \text{*(0,5 đ)*.}$$
 * Vận tốc dòng nước là:
   $$v_{\text{nước}} = \dfrac{x - y}{2} = \dfrac{27 - 21}{2} = 3\text{ km/h} \quad \text{*(0,25 đ)*.}$$
-*(Chú ý: Học sinh gọi trực tiếp vận tốc thực $v$ và vận tốc dòng $u$, lập đúng hệ và giải đúng vẫn cho điểm tối đa).*
 
 ---
 
@@ -115,19 +114,18 @@
 ### CÂU 13 (2,5 ĐIỂM): HÌNH HỌC TIẾP TUYẾN CỦA ĐƯỜNG TRÒN
 
 #### Mã đề 101:
-* **a) (1,25 điểm):** Chứng minh $AC$ là tiếp tuyến của $(O)$:
-  - Tam giác $OBC$ có $OB = OC = R$ nên $\Delta OBC$ cân tại $O$ *(0,25 đ)*.
-  - Đoạn $OH \perp BC$ tại $H$ nên $OH$ đồng thời là đường phân giác của góc $\widehat{BOC}$, suy ra $\widehat{BOA} = \widehat{COA}$ *(0,25 đ)*.
-  - Xét $\Delta OBA$ và $\Delta OCA$ có:
-    + $OB = OC = R$;
-    + $\widehat{BOA} = \widehat{COA}$ (chứng minh trên);
-    + $OA$ là cạnh chung *(0,25 đ)*.
-  - Suy ra $\Delta OBA = \Delta OCA$ (c-g-c) $\implies \widehat{OCA} = \widehat{OBA} = 90^\circ$ *(0,25 đ)*.
-  - Do đó $AC \perp OC$ tại điểm $C \in (O)$, vậy $AC$ là tiếp tuyến của đường tròn $(O)$ *(0,25 đ)*.
+* **a) (1,25 điểm):** Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn:
+  - Do $AB$ là tiếp tuyến của $(O)$ tại tiếp điểm $B$ nên $AB \perp OB \implies \widehat{ABO} = 90^\circ$ *(0,25 đ)*.
+  - Tam giác $ABO$ vuông tại $B$ nên tam giác $ABO$ nội tiếp đường tròn đường kính $OA$. Suy ra ba điểm $A, B, O$ cùng thuộc đường tròn đường kính $OA$ (1) *(0,25 đ)*.
+  - Do $AC$ là tiếp tuyến của $(O)$ tại tiếp điểm $C$ nên $AC \perp OC \implies \widehat{ACO} = 90^\circ$ *(0,25 đ)*.
+  - Tam giác $ACO$ vuông tại $C$ nên tam giác $ACO$ nội tiếp đường tròn đường kính $OA$. Suy ra ba điểm $A, C, O$ cùng thuộc đường tròn đường kính $OA$ (2) *(0,25 đ)*.
+  - Từ (1) và (2) suy ra bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ (với tâm là trung điểm của $OA$) *(0,25 đ)*.
 
 * **b) (1,25 điểm):** Chứng minh $BD \parallel OA$ và tính độ dài $BC$:
+  - Vì $AB, AC$ là hai tiếp tuyến của $(O)$ cắt nhau tại $A$ nên $AB = AC$. Lại có $OB = OC = R$.
+    Do đó $OA$ là đường trung trực của đoạn thẳng $BC$, suy ra $OA \perp BC$ tại $H$ *(0,25 đ)*.
   - Điểm $B$ thuộc đường tròn đường kính $CD$ nên $\widehat{CBD} = 90^\circ \implies BD \perp BC$ *(0,25 đ)*.
-  - Lại có $OA \perp BC$ (giả thiết), do đó $BD \parallel OA$ (cùng vuông góc với $BC$) *(0,25 đ)*.
+  - Lại có $OA \perp BC$ (chứng minh trên), do đó $BD \parallel OA$ (vì cùng vuông góc với $BC$) *(0,25 đ)*.
   - Áp dụng định lí Pythagore trong tam giác vuông $OBA$ (vuông tại $B$):
     $$AB = \sqrt{OA^2 - OB^2} = \sqrt{5^2 - 3^2} = 4\text{ cm} \quad \text{*(0,25 đ)*.}$$
   - Áp dụng hệ thức lượng trong tam giác vuông $OBA$ với đường cao $BH$:
@@ -138,15 +136,19 @@
 ---
 
 #### Mã đề 102:
-* **a) (1,25 điểm):** Chứng minh tương tự $\Delta OBA = \Delta OCA \implies \widehat{OCA} = 90^\circ \implies AC$ là tiếp tuyến của $(O)$ *(1,25 đ)*.
+* **a) (1,25 điểm):**
+  - $\widehat{ABO} = 90^\circ \implies A, B, O$ thuộc đường tròn đường kính $OA$ *(0,5 đ)*.
+  - $\widehat{ACO} = 90^\circ \implies A, C, O$ thuộc đường tròn đường kính $OA$ *(0,5 đ)*.
+  - Suy ra 4 điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ *(0,25 đ)*.
 * **b) (1,25 điểm):**
-  - Chứng minh $BD \parallel OA$ (cùng vuông góc với $BC$) *(0,5 đ)*.
+  - Chứng minh $OA \perp BC$ và $BD \perp BC \implies BD \parallel OA$ *(0,5 đ)*.
   - $AB = \sqrt{10^2 - 6^2} = 8\text{ cm}$; $BH = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm} \implies BC = 2 \cdot 4{,}8 = 9{,}6\text{ cm}$ *(0,75 đ)*.
 
 ---
 
 #### Mã đề 103:
-* **a) (1,25 điểm):** Chứng minh tương tự $\Delta OBA = \Delta OCA \implies \widehat{OCA} = 90^\circ \implies AC$ là tiếp tuyến của $(O)$ *(1,25 đ)*.
+* **a) (1,25 điểm):**
+  - Chứng minh 4 điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ (tương tự) *(1,25 đ)*.
 * **b) (1,25 điểm):**
   - Chứng minh $BD \parallel OA$ (cùng vuông góc với $BC$) *(0,5 đ)*.
   - $AB = \sqrt{15^2 - 9^2} = 12\text{ cm}$; $BH = \dfrac{9 \cdot 12}{15} = 7{,}2\text{ cm} \implies BC = 2 \cdot 7{,}2 = 14{,}4\text{ cm}$ *(0,75 đ)*.
@@ -154,8 +156,8 @@
 ---
 
 #### Mã đề 104:
-* **a) (1,25 điểm):** Chứng minh tương tự $\Delta OBA = \Delta OCA \implies \widehat{OCA} = 90^\circ \implies AC$ là tiếp tuyến của $(O)$ *(1,25 đ)*.
+* **a) (1,25 điểm):**
+  - Chứng minh 4 điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ (tương tự) *(1,25 đ)*.
 * **b) (1,25 điểm):**
   - Chứng minh $BD \parallel OA$ (cùng vuông góc với $BC$) *(0,5 đ)*.
   - $AB = \sqrt{20^2 - 12^2} = 16\text{ cm}$; $BH = \dfrac{12 \cdot 16}{20} = 9{,}6\text{ cm} \implies BC = 2 \cdot 9{,}6 = 19{,}2\text{ cm}$ *(0,75 đ)*.
-

@@ -62,41 +62,23 @@
 
 * **Mã đề 101:**
   - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} 2(x + y) + 3(x - y) = 4 \\ (x + y) - 2(x - y) = 9 \end{cases}$$
-    * Đặt $u = x + y, v = x - y$. Hệ trở thành: $\begin{cases} 2u + 3v = 4 \\ u - 2v = 9 \end{cases} \iff \begin{cases} u = 5 \\ v = -2 \end{cases}$.
-    * Suy ra: $\begin{cases} x + y = 5 \\ x - y = -2 \end{cases} \iff \begin{cases} 2x = 3 \\ 2y = 7 \end{cases} \iff \begin{cases} x = \dfrac{3}{2} \\ y = \dfrac{7}{2} \end{cases}$. Nghiệm $(x; y) = \left(\dfrac{3}{2}; \dfrac{7}{2}\right)$.
-  - $b)$ (1,25 điểm): Cho biểu thức $Q = \dfrac{\sqrt{x} + 3}{\sqrt{x} + 1}$ với $x \ge 0$. Tìm các giá trị nguyên của $x$ để biểu thức $Q$ nhận giá trị nguyên.
-    * Ta có: $Q = \dfrac{\sqrt{x} + 1 + 2}{\sqrt{x} + 1} = 1 + \dfrac{2}{\sqrt{x} + 1}$.
-    * Để $Q$ nhận giá trị nguyên thì $\dfrac{2}{\sqrt{x} + 1}$ phải là số nguyên $\implies \sqrt{x} + 1 \in \text{Ư}(2) = \{1; 2\}$.
-    * Do $\sqrt{x} \ge 0 \implies \sqrt{x} + 1 \ge 1$:
-      - Trường hợp 1: $\sqrt{x} + 1 = 1 \iff \sqrt{x} = 0 \iff x = 0$ (thỏa mãn).
-      - Trường hợp 2: $\sqrt{x} + 1 = 2 \iff \sqrt{x} = 1 \iff x = 1$ (thỏa mãn).
-    * Kết luận: $x \in \{0; 1\}$.
+    $$\begin{cases} 3x + y = 10 \\ 2x - 3y = 3 \end{cases} \iff \begin{cases} 9x + 3y = 30 \\ 2x - 3y = 3 \end{cases} \iff \begin{cases} 11x = 33 \\ y = 10 - 3x \end{cases} \iff \begin{cases} x = 3 \\ y = 1 \end{cases}$$
+    Nghiệm $(x; y) = (3; 1)$.
+  - $b)$ (1,25 điểm): Cho biểu thức $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} + 2} + \dfrac{4\sqrt{x}}{x - 4} \right) : \dfrac{\sqrt{x} + 2}{x - 4}$ với $x > 0, x \ne 4$. Rút gọn biểu thức $P$.
+    * Quy đồng trong ngoặc: $\dfrac{x + 2\sqrt{x}}{x - 4} = \dfrac{\sqrt{x}(\sqrt{x} + 2)}{x - 4}$.
+    * Rút gọn $P = \dfrac{\sqrt{x}(\sqrt{x} + 2)}{x - 4} \cdot \dfrac{x - 4}{\sqrt{x} + 2} = \sqrt{x}$.
 
 * **Mã đề 102:**
-  - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} 3(x + y) + 2(x - y) = 13 \\ 2(x + y) - (x - y) = 4 \end{cases}$$
-    * Đặt $u = x + y, v = x - y \implies \begin{cases} 3u + 2v = 13 \\ 2u - v = 4 \end{cases} \iff \begin{cases} u = 3 \\ v = 2 \end{cases}$.
-    * Suy ra $\begin{cases} x + y = 3 \\ x - y = 2 \end{cases} \iff x = \dfrac{5}{2}, y = \dfrac{1}{2}$.
-  - $b)$ (1,25 điểm): Cho $Q = \dfrac{\sqrt{x} + 4}{\sqrt{x} + 1}$ ($x \ge 0$). Tìm các giá trị nguyên của $x$ để $Q$ nhận giá trị nguyên.
-    * $Q = 1 + \dfrac{3}{\sqrt{x} + 1} \implies \sqrt{x} + 1 \in \text{Ư}(3) = \{1; 3\}$.
-    * $\sqrt{x} + 1 = 1 \iff x = 0$; $\sqrt{x} + 1 = 3 \iff \sqrt{x} = 2 \iff x = 4$. Kết luận: $x \in \{0; 4\}$.
+  - $a)$ (1,25 điểm): Giải hệ $\begin{cases} 2x + 5y = 12 \\ 3x - y = 1 \end{cases} \iff \begin{cases} 17x = 17 \\ y = 3x - 1 \end{cases} \iff \begin{cases} x = 1 \\ y = 2 \end{cases}$. Nghiệm $(1; 2)$.
+  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} + 3} + \dfrac{6\sqrt{x}}{x - 9} \right) : \dfrac{\sqrt{x} + 3}{x - 9}$ ($x > 0, x \ne 9$). Rút gọn $P = \sqrt{x}$.
 
 * **Mã đề 103:**
-  - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} 4(x + y) + (x - y) = 11 \\ (x + y) - 3(x - y) = -7 \end{cases}$$
-    * Đặt $u = x + y, v = x - y \implies \begin{cases} 4u + v = 11 \\ u - 3v = -7 \end{cases} \iff \begin{cases} u = 2 \\ v = 3 \end{cases}$.
-    * Suy ra $\begin{cases} x + y = 2 \\ x - y = 3 \end{cases} \iff x = \dfrac{5}{2}, y = -\dfrac{1}{2}$.
-  - $b)$ (1,25 điểm): Cho $Q = \dfrac{\sqrt{x} + 5}{\sqrt{x} + 2}$ ($x \ge 0$). Tìm các giá trị nguyên của $x$ để $Q$ nhận giá trị nguyên.
-    * $Q = 1 + \dfrac{3}{\sqrt{x} + 2}$. Vì $\sqrt{x} + 2 \ge 2$ nên $\sqrt{x} + 2 = 3 \iff \sqrt{x} = 1 \iff x = 1$. Kết luận: $x = 1$.
+  - $a)$ (1,25 điểm): Giải hệ $\begin{cases} 3x - 2y = 7 \\ x + 3y = 6 \end{cases} \iff \begin{cases} 11y = 11 \\ x = 6 - 3y \end{cases} \iff \begin{cases} x = 3 \\ y = 1 \end{cases}$. Nghiệm $(3; 1)$.
+  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} + 1} + \dfrac{2\sqrt{x}}{x - 1} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ ($x > 0, x \ne 1$). Rút gọn $P = \sqrt{x}$.
 
 * **Mã đề 104:**
-  - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} 2(x + y) + (x - y) = 7 \\ 3(x + y) - 2(x - y) = 7 \end{cases}$$
-    * Đặt $u = x + y, v = x - y \implies \begin{cases} 2u + v = 7 \\ 3u - 2v = 7 \end{cases} \iff \begin{cases} u = 3 \\ v = 1 \end{cases}$.
-    * Suy ra $\begin{cases} x + y = 3 \\ x - y = 1 \end{cases} \iff x = 2, y = 1$.
-  - $b)$ (1,25 điểm): Cho $Q = \dfrac{\sqrt{x} + 7}{\sqrt{x} + 3}$ ($x \ge 0$). Tìm các giá trị nguyên của $x$ để $Q$ nhận giá trị nguyên.
-    * $Q = 1 + \dfrac{4}{\sqrt{x} + 3}$. Vì $\sqrt{x} + 3 \ge 3$ nên $\sqrt{x} + 3 = 4 \iff \sqrt{x} = 1 \iff x = 1$. Kết luận: $x = 1$.
+  - $a)$ (1,25 điểm): Giải hệ $\begin{cases} 2x + 3y = 13 \\ 4x - y = 5 \end{cases} \iff \begin{cases} 14x = 28 \\ y = 4x - 5 \end{cases} \iff \begin{cases} x = 2 \\ y = 3 \end{cases}$. Nghiệm $(2; 3)$.
+  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} + 4} + \dfrac{8\sqrt{x}}{x - 16} \right) : \dfrac{\sqrt{x} + 4}{x - 16}$ ($x > 0, x \ne 16$). Rút gọn $P = \sqrt{x}$.
 
 ---
 
@@ -126,34 +108,28 @@
 
 Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.
 * **Mã đề 101:** Cho $R = 15\text{ cm}, OM = 25\text{ cm}$.
-  - $a)$ (1,25 điểm): Chứng minh $OM \perp AB$ tại $H$ và tính độ dài đoạn thẳng $AB$.
-    * Theo tính chất hai tiếp tuyến cắt nhau ta có: $MA = MB$ ($0{,}25$đ).
-    * Lại có $OA = OB = R$. Suy ra $OM$ là đường trung trực của đoạn thẳng $AB$ ($0{,}25$đ).
-    * Do đó $OM \perp AB$ tại trung điểm $H$ của $AB$ ($0{,}25$đ).
-    * Áp dụng định lí Pythagore trong $\Delta OAM$ vuông tại $A$:
-      $$MA = \sqrt{OM^2 - OA^2} = \sqrt{25^2 - 15^2} = \sqrt{625 - 225} = 20\text{ cm} \quad \text{($0{,}25$đ).}$$
+  - $a)$ (1,25 điểm): Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.
+    * Do $MA$ là tiếp tuyến tại $A \implies \widehat{MAO} = 90^\circ \implies M, A, O$ thuộc đường tròn đường kính $OM$ ($0{,}5$đ).
+    * Do $MB$ là tiếp tuyến tại $B \implies \widehat{MBO} = 90^\circ \implies M, B, O$ thuộc đường tròn đường kính $OM$ ($0{,}5$đ).
+    * Suy ra 4 điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($0{,}25$đ).
+  - $b)$ (1,25 điểm): Chứng minh $AC \parallel OM$ và tính độ dài đoạn thẳng $AB$.
+    * $MA = MB, OA = OB \implies OM$ là trung trực của $AB \implies OM \perp AB$ tại $H$ ($0{,}25$đ).
+    * $\triangle ABC$ vuông tại $A$ (do $BC$ là đường kính) $\implies AC \perp AB$ ($0{,}25$đ).
+    * Suy ra $AC \parallel OM$ (vì cùng $\perp AB$) ($0{,}25$đ).
+    * Áp dụng Pythagore trong $\Delta OAM$ vuông tại $A$:
+      $$MA = \sqrt{OM^2 - OA^2} = \sqrt{25^2 - 15^2} = 20\text{ cm} \quad \text{($0{,}25$đ).}$$
     * Áp dụng hệ thức lượng trong $\Delta OAM$ vuông tại $A$, đường cao $AH$:
-      $$AH \cdot OM = OA \cdot MA \implies AH = \dfrac{15 \cdot 20}{25} = 12\text{ cm} \implies AB = 2 \cdot AH = 24\text{ cm} \quad \text{($0{,}25$đ).}$$
-  - $b)$ (1,25 điểm): Chứng minh $AC \parallel OM$ và tính diện tích tam giác $MAB$.
-    * Điểm $A$ thuộc đường tròn đường kính $BC$ nên $\widehat{BAC} = 90^\circ \implies AC \perp AB$ ($0{,}25$đ).
-    * Lại có $OM \perp AB$ (theo ý a). Suy ra $AC \parallel OM$ (cùng vuông góc với $AB$) ($0{,}25$đ).
-    * Áp dụng hệ thức lượng trong $\Delta OAM$ vuông tại $A$:
-      $$OH = \dfrac{OA^2}{OM} = \dfrac{15^2}{25} = 9\text{ cm} \implies MH = OM - OH = 25 - 9 = 16\text{ cm} \quad \text{($0{,}25$đ).}$$
-    * Diện tích tam giác $MAB$ là:
-      $$S_{MAB} = \dfrac{1}{2} AB \cdot MH = \dfrac{1}{2} \cdot 24 \cdot 16 = 192\text{ cm}^2 \quad \text{($0{,}5$đ).}$$
+      $$AH = \dfrac{OA \cdot MA}{OM} = \dfrac{15 \cdot 20}{25} = 12\text{ cm} \implies AB = 2 \cdot AH = 24\text{ cm} \quad \text{($0{,}25$đ).}$$
 
 * **Mã đề 102:** Cho $R = 6\text{ cm}, OM = 10\text{ cm}$.
-  - $a)$ Chứng minh $OM \perp AB$ tại $H$. $MA = \sqrt{10^2 - 6^2} = 8\text{ cm}$; $AH = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm} \implies AB = 9{,}6\text{ cm}$ ($1{,}25$đ).
-  - $b)$ Chứng minh $AC \parallel OM$. $OH = \dfrac{6^2}{10} = 3{,}6\text{ cm} \implies MH = 10 - 3{,}6 = 6{,}4\text{ cm}$.
-    $S_{MAB} = \dfrac{1}{2} \cdot 9{,}6 \cdot 6{,}4 = 30{,}72\text{ cm}^2$ ($1{,}25$đ).
+  - $a)$ Chứng minh bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($1{,}25$đ).
+  - $b)$ $AC \parallel OM$. $MA = 8\text{ cm}; AH = 4{,}8\text{ cm} \implies AB = 9{,}6\text{ cm}$ ($1{,}25$đ).
 
 * **Mã đề 103:** Cho $R = 9\text{ cm}, OM = 15\text{ cm}$.
-  - $a)$ $MA = 12\text{ cm}$; $AH = \dfrac{9 \cdot 12}{15} = 7{,}2\text{ cm} \implies AB = 14{,}4\text{ cm}$ ($1{,}25$đ).
-  - $b)$ $AC \parallel OM$. $OH = \dfrac{9^2}{15} = 5{,}4\text{ cm} \implies MH = 15 - 5{,}4 = 9{,}6\text{ cm}$.
-    $S_{MAB} = \dfrac{1}{2} \cdot 14{,}4 \cdot 9{,}6 = 69{,}12\text{ cm}^2$ ($1{,}25$đ).
+  - $a)$ Chứng minh bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($1{,}25$đ).
+  - $b)$ $AC \parallel OM$. $MA = 12\text{ cm}; AH = 7{,}2\text{ cm} \implies AB = 14{,}4\text{ cm}$ ($1{,}25$đ).
 
 * **Mã đề 104:** Cho $R = 12\text{ cm}, OM = 20\text{ cm}$.
-  - $a)$ $MA = 16\text{ cm}$; $AH = \dfrac{12 \cdot 16}{20} = 9{,}6\text{ cm} \implies AB = 19{,}2\text{ cm}$ ($1{,}25$đ).
-  - $b)$ $AC \parallel OM$. $OH = \dfrac{12^2}{20} = 7{,}2\text{ cm} \implies MH = 20 - 7{,}2 = 12{,}8\text{ cm}$.
-    $S_{MAB} = \dfrac{1}{2} \cdot 19{,}2 \cdot 12{,}8 = 122{,}88\text{ cm}^2$ ($1{,}25$đ).
+  - $a)$ Chứng minh bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($1{,}25$đ).
+  - $b)$ $AC \parallel OM$. $MA = 16\text{ cm}; AH = 9{,}6\text{ cm} \implies AB = 19{,}2\text{ cm}$ ($1{,}25$đ).
 

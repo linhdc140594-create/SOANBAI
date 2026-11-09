@@ -63,39 +63,23 @@
 
 * **Mã đề 101:**
   - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} \dfrac{2}{x - 1} + \dfrac{1}{y + 2} = 4 \\ \dfrac{1}{x - 1} - \dfrac{2}{y + 2} = -3 \end{cases}$$
-    * ĐKXĐ: $x \ne 1, y \ne -2$. Đặt $u = \dfrac{1}{x - 1}, v = \dfrac{1}{y + 2}$. Hệ trở thành: $\begin{cases} 2u + v = 4 \\ u - 2v = -3 \end{cases} \iff \begin{cases} u = 1 \\ v = 2 \end{cases}$.
-    * Suy ra: $\begin{cases} \dfrac{1}{x - 1} = 1 \iff x = 2 \\ \dfrac{1}{y + 2} = 2 \iff y = -\dfrac{3}{2} \end{cases}$ (thỏa mãn ĐKXĐ). Nghiệm $(x; y) = \left(2; -\dfrac{3}{2}\right)$.
-  - $b)$ (1,25 điểm): Cho biểu thức $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ với $x > 0, x \ne 1$.
-    * Rút gọn: $P = \dfrac{x - 1}{\sqrt{x}(\sqrt{x} - 1)} \cdot \dfrac{(\sqrt{x} - 1)(\sqrt{x} + 1)}{\sqrt{x} + 1} = \dfrac{\sqrt{x} + 1}{\sqrt{x}}$.
-    * Tính giá trị của $P$ tại $x = 9$: Thay $x = 9$ (TMĐK) vào $P$, ta được $P = \dfrac{\sqrt{9} + 1}{\sqrt{9}} = \dfrac{3 + 1}{3} = \dfrac{4}{3}$.
+    $$\begin{cases} 2x + 3y = 7 \\ 3x - y = 5 \end{cases} \iff \begin{cases} 2x + 3y = 7 \\ 9x - 3y = 15 \end{cases} \iff \begin{cases} 11x = 22 \\ y = 3x - 5 \end{cases} \iff \begin{cases} x = 2 \\ y = 1 \end{cases}$$
+    Nghiệm $(x; y) = (2; 1)$.
+  - $b)$ (1,25 điểm): Cho biểu thức $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ với $x > 0, x \ne 1$. Rút gọn biểu thức $P$.
+    * Quy đồng trong ngoặc: $\dfrac{x - 1}{\sqrt{x}(\sqrt{x} - 1)} = \dfrac{\sqrt{x} + 1}{\sqrt{x}}$.
+    * Rút gọn $P = \dfrac{\sqrt{x} + 1}{\sqrt{x}} : \dfrac{1}{\sqrt{x} - 1} = \dfrac{x - 1}{\sqrt{x}}$.
 
 * **Mã đề 102:**
-  - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} \dfrac{3}{x + 1} + \dfrac{2}{y - 1} = 5 \\ \dfrac{1}{x + 1} - \dfrac{1}{y - 1} = 0 \end{cases}$$
-    * ĐKXĐ: $x \ne -1, y \ne 1$. Đặt $u = \dfrac{1}{x + 1}, v = \dfrac{1}{y - 1} \implies \begin{cases} 3u + 2v = 5 \\ u - v = 0 \end{cases} \iff u = 1, v = 1$.
-    * Suy ra: $x + 1 = 1 \iff x = 0; y - 1 = 1 \iff y = 2$ (TMĐK). Nghiệm $(0; 2)$.
-  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 2} - \dfrac{4}{x - 2\sqrt{x}} \right) : \dfrac{\sqrt{x} + 2}{x - 4}$ với $x > 0, x \ne 4$.
-    * Rút gọn: $P = \dfrac{\sqrt{x} + 2}{\sqrt{x}}$.
-    * Tính giá trị của $P$ tại $x = 16$: Thay $x = 16$ vào $P$, ta được $P = \dfrac{\sqrt{16} + 2}{\sqrt{16}} = \dfrac{4 + 2}{4} = \dfrac{3}{2}$.
+  - $a)$ (1,25 điểm): Giải hệ $\begin{cases} 3x - y = 7 \\ 2x + 3y = 12 \end{cases} \iff \begin{cases} 11x = 33 \\ y = 3x - 7 \end{cases} \iff \begin{cases} x = 3 \\ y = 2 \end{cases}$. Nghiệm $(3; 2)$.
+  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 2} - \dfrac{4}{x - 2\sqrt{x}} \right) : \dfrac{\sqrt{x} + 2}{x - 4}$ ($x > 0, x \ne 4$). Rút gọn $P = \dfrac{x - 4}{\sqrt{x}}$.
 
 * **Mã đề 103:**
-  - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} \dfrac{2}{x - 2} + \dfrac{3}{y + 1} = 5 \\ \dfrac{4}{x - 2} - \dfrac{1}{y + 1} = 3 \end{cases}$$
-    * ĐKXĐ: $x \ne 2, y \ne -1$. Đặt $u = \dfrac{1}{x - 2}, v = \dfrac{1}{y + 1} \implies \begin{cases} 2u + 3v = 5 \\ 4u - v = 3 \end{cases} \iff u = 1, v = 1$.
-    * Suy ra: $x - 2 = 1 \iff x = 3; y + 1 = 1 \iff y = 0$ (TMĐK). Nghiệm $(3; 0)$.
-  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 3} - \dfrac{9}{x - 3\sqrt{x}} \right) : \dfrac{\sqrt{x} + 3}{x - 9}$ với $x > 0, x \ne 9$.
-    * Rút gọn: $P = \dfrac{\sqrt{x} + 3}{\sqrt{x}}$.
-    * Tính giá trị của $P$ tại $x = 4$: Thay $x = 4$ vào $P$, ta được $P = \dfrac{\sqrt{4} + 3}{\sqrt{4}} = \dfrac{2 + 3}{2} = \dfrac{5}{2}$.
+  - $a)$ (1,25 điểm): Giải hệ $\begin{cases} 2x + y = 8 \\ 3x - 2y = 5 \end{cases} \iff \begin{cases} 7x = 21 \\ y = 8 - 2x \end{cases} \iff \begin{cases} x = 3 \\ y = 2 \end{cases}$. Nghiệm $(3; 2)$.
+  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 3} - \dfrac{9}{x - 3\sqrt{x}} \right) : \dfrac{\sqrt{x} + 3}{x - 9}$ ($x > 0, x \ne 9$). Rút gọn $P = \dfrac{x - 9}{\sqrt{x}}$.
 
 * **Mã đề 104:**
-  - $a)$ (1,25 điểm): Giải hệ phương trình:
-    $$\begin{cases} \dfrac{1}{x + 2} + \dfrac{2}{y - 3} = 3 \\ \dfrac{3}{x + 2} - \dfrac{1}{y - 3} = 2 \end{cases}$$
-    * ĐKXĐ: $x \ne -2, y \ne 3$. Đặt $u = \dfrac{1}{x + 2}, v = \dfrac{1}{y - 3} \implies \begin{cases} u + 2v = 3 \\ 3u - v = 2 \end{cases} \iff u = 1, v = 1$.
-    * Suy ra: $x + 2 = 1 \iff x = -1; y - 3 = 1 \iff y = 4$ (TMĐK). Nghiệm $(-1; 4)$.
-  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ với $x > 0, x \ne 1$.
-    * Rút gọn: $P = \dfrac{\sqrt{x} + 1}{\sqrt{x}}$.
-    * Tính giá trị của $P$ tại $x = 25$: Thay $x = 25$ vào $P$, ta được $P = \dfrac{\sqrt{25} + 1}{\sqrt{25}} = \dfrac{5 + 1}{5} = \dfrac{6}{5}$.
+  - $a)$ (1,25 điểm): Giải hệ $\begin{cases} 2x + 3y = 8 \\ 3x - y = 1 \end{cases} \iff \begin{cases} 11x = 11 \\ y = 3x - 1 \end{cases} \iff \begin{cases} x = 1 \\ y = 2 \end{cases}$. Nghiệm $(1; 2)$.
+  - $b)$ (1,25 điểm): Cho $P = \left( \dfrac{\sqrt{x}}{\sqrt{x} - 1} - \dfrac{1}{x - \sqrt{x}} \right) : \dfrac{\sqrt{x} + 1}{x - 1}$ ($x > 0, x \ne 1$). Rút gọn $P = \dfrac{x - 1}{\sqrt{x}}$.
 
 ---
 
@@ -123,36 +107,28 @@
 
 #### CÂU 13 (2,5 ĐIỂM): HÌNH HỌC TIẾP TUYẾN CỦA ĐƯỜNG TRÒN
 
-Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ tiếp tuyến $AB$ với đường tròn $(O)$ ($B$ là tiếp điểm). Kẻ dây $BC \perp OA$ tại $H$ ($C \ne B$).
+Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.
 * **Mã đề 101:** Cho $R = 3\text{ cm}, OA = 5\text{ cm}$.
-  - $a)$ (1,25 điểm): Chứng minh đường thẳng $AC$ là tiếp tuyến của đường tròn $(O)$.
-    * Tam giác $OBC$ có $OB = OC = R$ nên $\Delta OBC$ cân tại $O$ ($0{,}25$đ).
-    * Đoạn $OH \perp BC$ tại $H$ nên $OH$ đồng thời là đường phân giác của $\widehat{BOC} \implies \widehat{BOA} = \widehat{COA}$ ($0{,}25$đ).
-    * Xét $\Delta OBA$ và $\Delta OCA$ có:
-      - $OB = OC = R$;
-      - $\widehat{BOA} = \widehat{COA}$ (chứng minh trên);
-      - Cạnh $OA$ chung ($0{,}25$đ).
-    * Suy ra $\Delta OBA = \Delta OCA$ (c-g-c) $\implies \widehat{OCA} = \widehat{OBA} = 90^\circ$ ($0{,}25$đ).
-    * Vì $AC \perp OC$ tại điểm $C \in (O)$ nên $AC$ là tiếp tuyến của đường tròn $(O)$ (đpcm) ($0{,}25$đ).
+  - $a)$ (1,25 điểm): Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.
+    * Do $AB$ là tiếp tuyến tại $B \implies \widehat{ABO} = 90^\circ \implies A, B, O$ cùng thuộc đường tròn đường kính $OA$ ($0{,}5$đ).
+    * Do $AC$ là tiếp tuyến tại $C \implies \widehat{ACO} = 90^\circ \implies A, C, O$ cùng thuộc đường tròn đường kính $OA$ ($0{,}5$đ).
+    * Suy ra bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($0{,}25$đ).
   - $b)$ (1,25 điểm): Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \parallel OA$ và tính độ dài đoạn thẳng $BC$.
-    * Điểm $B$ thuộc đường tròn đường kính $CD$ nên $\widehat{CBD} = 90^\circ \implies BD \perp BC$ ($0{,}25$đ).
-    * Lại có $OA \perp BC$ (theo giả thiết), suy ra $BD \parallel OA$ (cùng vuông góc với $BC$) ($0{,}25$đ).
-    * Áp dụng định lí Pythagore trong $\Delta OBA$ vuông tại $B$:
-      $$AB = \sqrt{OA^2 - OB^2} = \sqrt{5^2 - 3^2} = 4\text{ cm} \quad \text{($0{,}25$đ).}$$
-    * Áp dụng hệ thức lượng trong $\Delta OBA$ vuông tại $B$, đường cao $BH$:
-      $$BH \cdot OA = OB \cdot AB \implies BH = \dfrac{3 \cdot 4}{5} = 2{,}4\text{ cm} \quad \text{($0{,}25$đ).}$$
-    * Vì $OA \perp BC$ tại $H$ nên $H$ là trung điểm của dây $BC \implies BC = 2 \cdot BH = 2 \cdot 2{,}4 = 4{,}8\text{ cm}$ ($0{,}25$đ).
+    * $AB = AC, OB = OC \implies OA$ là trung trực của $BC \implies OA \perp BC$ tại $H$ ($0{,}25$đ).
+    * $B \in (O)$ đường kính $CD \implies \widehat{CBD} = 90^\circ \implies BD \perp BC$ ($0{,}25$đ).
+    * Suy ra $BD \parallel OA$ (cùng $\perp BC$) ($0{,}25$đ).
+    * Trong $\Delta OBA$ vuông tại $B$: $AB = \sqrt{OA^2 - OB^2} = \sqrt{5^2 - 3^2} = 4\text{ cm}$ ($0{,}25$đ).
+    * Đường cao $BH$: $BH = \dfrac{OB \cdot AB}{OA} = \dfrac{3 \cdot 4}{5} = 2{,}4\text{ cm} \implies BC = 2BH = 4{,}8\text{ cm}$ ($0{,}25$đ).
 
 * **Mã đề 102:** Cho $R = 6\text{ cm}, OA = 10\text{ cm}$.
-  - $a)$ Chứng minh tương tự $\Delta OBA = \Delta OCA \implies \widehat{OCA} = 90^\circ \implies AC$ là tiếp tuyến ($1{,}25$đ).
-  - $b)$ $BD \perp BC, OA \perp BC \implies BD \parallel OA$.
-    $AB = \sqrt{10^2 - 6^2} = 8\text{ cm}$; $BH = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm} \implies BC = 9{,}6\text{ cm}$ ($1{,}25$đ).
+  - $a)$ Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($1{,}25$đ).
+  - $b)$ $BD \parallel OA$. $AB = 8\text{ cm}; BH = 4{,}8\text{ cm} \implies BC = 9{,}6\text{ cm}$ ($1{,}25$đ).
 
 * **Mã đề 103:** Cho $R = 9\text{ cm}, OA = 15\text{ cm}$.
-  - $a)$ Chứng minh $AC$ là tiếp tuyến của $(O)$ ($1{,}25$đ).
-  - $b)$ Chứng minh $BD \parallel OA$. $AB = \sqrt{15^2 - 9^2} = 12\text{ cm}$; $BH = \dfrac{9 \cdot 12}{15} = 7{,}2\text{ cm} \implies BC = 14{,}4\text{ cm}$ ($1{,}25$đ).
+  - $a)$ Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($1{,}25$đ).
+  - $b)$ $BD \parallel OA$. $AB = 12\text{ cm}; BH = 7{,}2\text{ cm} \implies BC = 14{,}4\text{ cm}$ ($1{,}25$đ).
 
 * **Mã đề 104:** Cho $R = 12\text{ cm}, OA = 20\text{ cm}$.
-  - $a)$ Chứng minh $AC$ là tiếp tuyến của $(O)$ ($1{,}25$đ).
-  - $b)$ Chứng minh $BD \parallel OA$. $AB = \sqrt{20^2 - 12^2} = 16\text{ cm}$; $BH = \dfrac{12 \cdot 16}{20} = 9{,}6\text{ cm} \implies BC = 19{,}2\text{ cm}$ ($1{,}25$đ).
+  - $a)$ Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($1{,}25$đ).
+  - $b)$ $BD \parallel OA$. $AB = 16\text{ cm}; BH = 9{,}6\text{ cm} \implies BC = 19{,}2\text{ cm}$ ($1{,}25$đ).
 

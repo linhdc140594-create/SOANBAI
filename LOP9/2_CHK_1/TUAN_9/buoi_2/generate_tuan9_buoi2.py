@@ -191,7 +191,7 @@ def main():
     vsa = "0.6mm"
     ob11 = 20
     dk12 = 16
-    dk13 = 16
+    dk13 = 17
     vspace_mid = "1.2mm"
     
     print(f"Generating TeX with vsa={vsa}, ob11={ob11}, dk12={dk12}, dk13={dk13}...")
@@ -201,7 +201,7 @@ def main():
         
     print("Compiling pdflatex...")
     cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
-    res = subprocess.run(cmd, cwd=CUR_DIR, capture_output=True, text=True)
+    res = subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
     if not os.path.exists(pdf_path):
         print("Compilation failed! Log:")

@@ -11,7 +11,7 @@
    - Nắm vững tính chất đặc trưng của Hình thoi (hai đường chéo vuông góc, là đường phân giác) và Hình vuông (kết hợp đầy đủ tính chất của hình chữ nhật và hình thoi).
    - Nắm vững dấu hiệu nhận biết Hình thoi và Hình vuông; sơ đồ chuyển hóa giữa các tứ giác đặc biệt.
    - Vận dụng tính chất đường chéo hình bình hành/hình chữ nhật để chứng minh hai đoạn thẳng song song, bằng nhau, ba điểm thẳng hàng.
-   - Củng cố Đại số: Phân tích đa thức thành nhân tử nâng cao (nhóm hạng tử, phối hợp hằng đẳng thức, tách hạng tử tam thức bậc hai $x^2 + bx + c$), tìm $x$ phương trình tích.
+   - Củng cố Đại số: Phép nhân đơn thức/đa thức, các hằng đẳng thức đáng nhớ (bình phương, lập phương), phép chia đa thức cho đơn thức, rút gọn biểu thức và tìm $x$.
 
 2. **Kỹ năng:**
    - Kỹ năng suy luận hình học nhiều bước, phối hợp giữa tam giác cân và tứ giác đặc biệt.
@@ -28,7 +28,7 @@
 | Phần / Câu | Số câu/ý | Điểm | Thời gian (phút) | Dạng câu hỏi & Quy cách trình bày |
 | :--- | :---: | :---: | :---: | :--- |
 | **Câu 1 $\to$ 10** | 10 câu | **2,5 đ** *(0,25 đ/câu)* | 10 | Trả lời ngắn, lệnh `\shortans`, ô kết quả `KQ: [   ]` bo góc mép phải, bố trí 2 cột Trang 1. |
-| **Câu 11** | 6 ý | **3,0 đ** *(0,5 đ/ý)* | 15 | Thực hiện phép tính & Phân tích đa thức thành nhân tử. Bảng $3 \times 2$, dùng **`\oBaiTap[5]`** lấp kín đáy Trang 1. |
+| **Câu 11** | 6 ý | **3,0 đ** *(0,5 đ/ý)* | 15 | Thực hiện phép tính & Rút gọn biểu thức. Bảng $3 \times 2$, dùng **`\oBaiTap[5]`** lấp kín đáy Trang 1. |
 | **Câu 12** | 4 ý | **2,0 đ** *(0,5 đ/ý)* | 10 | Tìm số hữu tỉ / số thực $x$. Bảng $2 \times 2$, dùng **`\oBaiTap[5]`** đầu Trang 2. |
 | **Câu 13** | 2 ý | **2,0 đ** *(1,0 đ/ý)* | 8 | Bài toán Hình học tam giác cân, hình chữ nhật & hình bình hành. Ghép đề + hình TikZ vào box, bài giải **`\dongkeHaiCot{10}`**. |
 | **Câu 14** | 1 ý | **0,5 đ** | 2 | Vận dụng cao điểm 10: Tìm GTLN của tam thức bậc hai $-x^2 + 2ax + b$. Box bài giải **`\dongkeHaiCot{6}`** chạm sát đáy Trang 2. |
@@ -41,55 +41,59 @@
 ### 1. PHẦN TRẢ LỜI NGẮN (CÂU 1 ĐẾN CÂU 10 - 2,5 ĐIỂM)
 
 | Câu | Nội dung kiến thức | Mã đề 101 | Mã đề 102 | Mã đề 103 | Mã đề 104 |
-| :---: | :--- | :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: | :---: | :--- |
 | **1** | Bậc đơn thức nhiều biến | Bậc của $A = 5x^4 y^2 z^2$ là: **$8$** | Bậc của $B = -3x^3 y^3 z^3$ là: **$9$** | Bậc của $C = 4x^5 y z^2$ là: **$8$** | Bậc của $D = -6x^2 y^4 z^3$ là: **$9$** |
 | **2** | Bậc đa thức sau thu gọn | Bậc của $P = 5x^2 y^2 - 3x^3 - 5x^2 y^2 + 2x^3 + 8$ là: **$3$** | Bậc của $Q = 4x^3 y - 2xy^2 - 4x^3 y + 5xy^2 - 1$ là: **$3$** | Bậc của $R = 3x^4 y - 4x^2 y^2 - 3x^4 y + x^2 y^2 + 7$ là: **$4$** | Bậc của $S = 6x y^3 - 5x^2 + 9 - 6x y^3 + 2x^2$ là: **$2$** |
 | **3** | Tính giá trị biểu thức | $M = 3x^2 y - 2xy$ tại $x=1, y=-3$ bằng: **$-3$** | $N = 2x^2 y - 4xy$ tại $x=1, y=-2$ bằng: **$4$** | $P = 4x^2 y - 3xy$ tại $x=-1, y=2$ bằng: **$14$** | $Q = 2x^2 y - 5xy$ tại $x=-1, y=3$ bằng: **$21$** |
 | **4** | Khai triển hằng đẳng thức | $(x-4)(x+4) = x^2 - a \implies a =$ **$16$** | $(x-5)(x+5) = x^2 - b \implies b =$ **$25$** | $(x-6)(x+6) = x^2 - c \implies c =$ **$36$** | $(x-7)(x+7) = x^2 - d \implies d =$ **$49$** |
 | **5** | Tính nhanh dùng $a^2 - b^2$ | Tính nhanh: $101^2 - 1 =$ **$10\,200$** | Tính nhanh: $201^2 - 1 =$ **$40\,400$** | Tính nhanh: $102^2 - 4 =$ **$10\,400$** | Tính nhanh: $99^2 - 1 =$ **$9\,800$** |
-| **6** | Phân tích thành bình phương | $x^2 - 8x + 16 =$ **$(x-4)^2$** | $x^2 - 10x + 25 =$ **$(x-5)^2$** | $x^2 + 12x + 36 =$ **$(x+6)^2$** | $x^2 + 14x + 49 =$ **$(x+7)^2$** |
+| **6** | Viết dạng bình phương | $x^2 - 8x + 16 =$ **$(x-4)^2$** | $x^2 - 10x + 25 =$ **$(x-5)^2$** | $x^2 + 12x + 36 =$ **$(x+6)^2$** | $x^2 + 14x + 49 =$ **$(x+7)^2$** |
 | **7** | Chia đa thức cho đơn thức | $(15x^3 y^2 - 9x^2 y) : (3x^2 y) =$ **$5xy - 3$** | $(18x^4 y^3 - 12x^3 y^2) : (6x^3 y^2) =$ **$3xy - 2$** | $(20x^3 y^3 - 15x^2 y^2) : (5x^2 y^2) =$ **$4xy - 3$** | $(14x^4 y^2 - 7x^2 y) : (7x^2 y) =$ **$2x^2 y - 1$** |
 | **8** | Chu vi và cạnh hình thoi | Hình thoi chu vi $28\text{ cm}$, cạnh dài: **$7\text{ cm}$** | Hình thoi chu vi $36\text{ cm}$, cạnh dài: **$9\text{ cm}$** | Hình thoi chu vi $32\text{ cm}$, cạnh dài: **$8\text{ cm}$** | Hình thoi chu vi $48\text{ cm}$, cạnh dài: **$12\text{ cm}$** |
 | **9** | Dấu hiệu nhận biết hình vuông | Hình chữ nhật có 2 đường chéo vuông góc là: **Hình vuông** | Hình chữ nhật có 2 cạnh kề bằng nhau là: **Hình vuông** | Hình thoi có 1 góc vuông là: **Hình vuông** | Hình thoi có 2 đường chéo bằng nhau là: **Hình vuông** |
-| **10** | Toán thực tế diện tích hình thoi | Hai đường chéo $6\text{ m}$ và $8\text{ m}$, diện tích là: **$24\text{ m}^2$** | Hai đường chéo $10\text{ m}$ và $12\text{ m}$, diện tích là: **$60\text{ m}^2$** | Hai đường chéo $8\text{ m}$ và $14\text{ m}$, diện tích là: **$56\text{ m}^2$** | Hai đường chéo $12\text{ m}$ và $16\text{ m}$, diện tích là: **$96\text{ m}^2$** |
+| **10** | Diện tích hình thoi | Hai đường chéo $6\text{ m}$ và $8\text{ m}$, diện tích: **$24\text{ m}^2$** | Hai đường chéo $10\text{ m}$ và $12\text{ m}$, diện tích: **$60\text{ m}^2$** | Hai đường chéo $8\text{ m}$ và $14\text{ m}$, diện tích: **$56\text{ m}^2$** | Hai đường chéo $12\text{ m}$ và $16\text{ m}$, diện tích: **$96\text{ m}^2$** |
 
 ---
 
 ### 2. PHẦN TỰ LUẬN - TRANG 1 & TRANG 2
 
-#### CÂU 11 (3,0 ĐIỂM): THỰC HIỆN PHÉP TÍNH & PHÂN TÍCH NHÂN TỬ
+#### CÂU 11 (3,0 ĐIỂM): THỰC HIỆN PHÉP TÍNH & RÚT GỌN BIỂU THỨC
 
 * **Mã đề 101:**
   - $a) 3x(2x^2 - 5x + 3) = 6x^3 - 15x^2 + 9x$
   - $b) (2x - 1)(x + 4) - 2x^2 = 2x^2 + 7x - 4 - 2x^2 = 7x - 4$
   - $c) (2x - 3)^2 + (2x + 3)^2 = 4x^2 - 12x + 9 + 4x^2 + 12x + 9 = 8x^2 + 18$
-  - $d) x^2 - xy + 3x - 3y = x(x - y) + 3(x - y) = (x - y)(x + 3)$
-  - $e) x^2 - 4y^2 + 2x + 1 = (x^2 + 2x + 1) - 4y^2 = (x + 1)^2 - (2y)^2 = (x + 1 - 2y)(x + 1 + 2y)$
-  - $f) x^2 - 5x + 6 = x^2 - 2x - 3x + 6 = x(x - 2) - 3(x - 2) = (x - 2)(x - 3)$
+  - $d) (16x^4 y^3 - 12x^3 y^2 + 8x^2 y^2) : (4x^2 y^2) = 4x^2 y - 3x + 2$
+  - $e) (2x + 3)^2 - 4x(x + 3) = 4x^2 + 12x + 9 - 4x^2 - 12x = 9$
+  - $f)$ Cho $P = x^3 - 6x^2 + 12x - 8$. Tính giá trị của $P$ tại $x = 22$:
+    $$P = (x - 2)^3 = (22 - 2)^3 = 20^3 = 8\,000$$
 
 * **Mã đề 102:**
   - $a) 2x(3x^2 - 4x + 5) = 6x^3 - 8x^2 + 10x$
   - $b) (3x - 1)(x + 2) - 3x^2 = 3x^2 + 5x - 2 - 3x^2 = 5x - 2$
   - $c) (3x - 2)^2 + (3x + 2)^2 = 9x^2 - 12x + 4 + 9x^2 + 12x + 4 = 18x^2 + 8$
-  - $d) x^2 - xy + 4x - 4y = x(x - y) + 4(x - y) = (x - y)(x + 4)$
-  - $e) x^2 - 9y^2 + 4x + 4 = (x^2 + 4x + 4) - 9y^2 = (x + 2)^2 - (3y)^2 = (x + 2 - 3y)(x + 2 + 3y)$
-  - $f) x^2 - 7x + 12 = x^2 - 3x - 4x + 12 = (x - 3)(x - 4)$
+  - $d) (15x^4 y^2 - 10x^3 y^3 + 5x^3 y^2) : (5x^3 y^2) = 3x - 2y + 1$
+  - $e) (3x + 2)^2 - 3x(3x + 4) = 9x^2 + 12x + 4 - 9x^2 - 12x = 4$
+  - $f)$ Cho $Q = x^3 + 6x^2 + 12x + 8$. Tính giá trị của $Q$ tại $x = 18$:
+    $$Q = (x + 2)^3 = (18 + 2)^3 = 20^3 = 8\,000$$
 
 * **Mã đề 103:**
   - $a) 4x(2x^2 - 3x + 4) = 8x^3 - 12x^2 + 16x$
   - $b) (2x - 3)(x + 5) - 2x^2 = 2x^2 + 7x - 15 - 2x^2 = 7x - 15$
   - $c) (x - 4)^2 + (x + 4)^2 = x^2 - 8x + 16 + x^2 + 8x + 16 = 2x^2 + 32$
-  - $d) x^2 - xy + 5x - 5y = x(x - y) + 5(x - y) = (x - y)(x + 5)$
-  - $e) x^2 - 16y^2 + 6x + 9 = (x^2 + 6x + 9) - 16y^2 = (x + 3)^2 - (4y)^2 = (x + 3 - 4y)(x + 3 + 4y)$
-  - $f) x^2 - 6x + 8 = x^2 - 2x - 4x + 8 = (x - 2)(x - 4)$
+  - $d) (18x^3 y^3 - 12x^2 y^4 + 6x^2 y^3) : (6x^2 y^3) = 3xy - 2y + 1$
+  - $e) (2x + 5)^2 - 4x(x + 5) = 4x^2 + 20x + 25 - 4x^2 - 20x = 25$
+  - $f)$ Cho $R = x^3 - 9x^2 + 27x - 27$. Tính giá trị của $R$ tại $x = 23$:
+    $$R = (x - 3)^3 = (23 - 3)^3 = 20^3 = 8\,000$$
 
 * **Mã đề 104:**
   - $a) 5x(2x^2 - 4x + 3) = 10x^3 - 20x^2 + 15x$
   - $b) (3x - 2)(x + 4) - 3x^2 = 3x^2 + 10x - 8 - 3x^2 = 10x - 8$
   - $c) (2x - 1)^2 + (2x + 1)^2 = 4x^2 - 4x + 1 + 4x^2 + 4x + 1 = 8x^2 + 2$
-  - $d) x^2 - xy + 2x - 2y = x(x - y) + 2(x - y) = (x - y)(x + 2)$
-  - $e) x^2 - 25y^2 + 8x + 16 = (x^2 + 8x + 16) - 25y^2 = (x + 4)^2 - (5y)^2 = (x + 4 - 5y)(x + 4 + 5y)$
-  - $f) x^2 - 8x + 15 = x^2 - 3x - 5x + 15 = (x - 3)(x - 5)$
+  - $d) (20x^4 y^3 - 15x^3 y^3 + 10x^3 y^2) : (5x^3 y^2) = 4xy - 3y + 2$
+  - $e) (3x + 1)^2 - 3x(3x + 2) = 9x^2 + 6x + 1 - 9x^2 - 6x = 1$
+  - $f)$ Cho $S = x^3 + 9x^2 + 27x + 27$. Tính giá trị của $S$ tại $x = 17$:
+    $$S = (x + 3)^3 = (17 + 3)^3 = 20^3 = 8\,000$$
 
 ---
 
@@ -97,26 +101,26 @@
 
 * **Mã đề 101:**
   - $a) 4x(x - 3) - 4x^2 = -24 \iff -12x = -24 \iff x = 2$
-  - $b) x(x - 6) + 4(x - 6) = 0 \iff (x - 6)(x + 4) = 0 \iff x \in \{6; -4\}$
-  - $c) (x - 2)^2 - 25 = 0 \iff (x - 2 - 5)(x - 2 + 5) = 0 \iff x \in \{7; -3\}$
+  - $b) (x - 1)(x + 4) - x^2 = 8 \iff 3x - 4 = 8 \iff 3x = 12 \iff x = 4$
+  - $c) (x - 2)^2 - 25 = 0 \iff (x - 2)^2 = 25 \iff x - 2 = \pm 5 \iff x \in \{7; -3\}$
   - $d) (2x + 3)^2 = 49 \iff 2x + 3 = \pm 7 \iff x \in \{2; -5\}$
 
 * **Mã đề 102:**
   - $a) 3x(x - 4) - 3x^2 = -36 \iff -12x = -36 \iff x = 3$
-  - $b) x(x - 7) + 2(x - 7) = 0 \iff (x - 7)(x + 2) = 0 \iff x \in \{7; -2\}$
-  - $c) (x - 3)^2 - 36 = 0 \iff (x - 3 - 6)(x - 3 + 6) = 0 \iff x \in \{9; -3\}$
+  - $b) (x - 2)(x + 5) - x^2 = 5 \iff 3x - 10 = 5 \iff 3x = 15 \iff x = 5$
+  - $c) (x - 3)^2 - 36 = 0 \iff (x - 3)^2 = 36 \iff x - 3 = \pm 6 \iff x \in \{9; -3\}$
   - $d) (2x - 1)^2 = 49 \iff 2x - 1 = \pm 7 \iff x \in \{4; -3\}$
 
 * **Mã đề 103:**
   - $a) 5x(x - 2) - 5x^2 = -40 \iff -10x = -40 \iff x = 4$
-  - $b) x(x - 5) + 3(x - 5) = 0 \iff (x - 5)(x + 3) = 0 \iff x \in \{5; -3\}$
-  - $c) (x - 4)^2 - 49 = 0 \iff (x - 4 - 7)(x - 4 + 7) = 0 \iff x \in \{11; -3\}$
+  - $b) (x - 1)(x + 5) - x^2 = 7 \iff 4x - 5 = 7 \iff 4x = 12 \iff x = 3$
+  - $c) (x - 4)^2 - 49 = 0 \iff (x - 4)^2 = 49 \iff x - 4 = \pm 7 \iff x \in \{11; -3\}$
   - $d) (2x - 3)^2 = 25 \iff 2x - 3 = \pm 5 \iff x \in \{4; -1\}$
 
 * **Mã đề 104:**
   - $a) 2x(x - 5) - 2x^2 = -30 \iff -10x = -30 \iff x = 3$
-  - $b) x(x - 8) + 2(x - 8) = 0 \iff (x - 8)(x + 2) = 0 \iff x \in \{8; -2\}$
-  - $c) (x - 1)^2 - 64 = 0 \iff (x - 1 - 8)(x - 1 + 8) = 0 \iff x \in \{9; -7\}$
+  - $b) (x - 2)(x + 4) - x^2 = 6 \iff 2x - 8 = 6 \iff 2x = 14 \iff x = 7$
+  - $c) (x - 1)^2 - 64 = 0 \iff (x - 1)^2 = 64 \iff x - 1 = \pm 8 \iff x \in \{9; -7\}$
   - $d) (3x + 1)^2 = 64 \iff 3x + 1 = \pm 8 \iff x \in \{\dfrac{7}{3}; -3\}$
 
 ---

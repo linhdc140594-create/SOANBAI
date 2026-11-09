@@ -1,0 +1,229 @@
+import subprocess
+import os
+import pypdf
+
+CUR_DIR = os.path.dirname(os.path.abspath(__file__))
+
+def generate_pdf():
+    tex_path = os.path.join(CUR_DIR, "Bang_Dap_An_Tuan_10_Toan5.tex")
+    pdf_path = os.path.join(CUR_DIR, "Bang_Dap_An_Tuan_10_Toan5.pdf")
+    
+    tex_content = r'''\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage[top=0.8cm, bottom=0.8cm, left=0.8cm, right=0.8cm]{geometry}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.35}
+
+\begin{document}
+\pagestyle{empty}
+
+% Header
+\begin{center}
+  {\fontsize{15}{18}\selectfont\bfseries BẢNG ĐÁP ÁN PHIẾU BÀI TẬP CUỐI TUẦN -- TOÁN LỚP 5}\\[3pt]
+  {\fontsize{12}{15}\selectfont\bfseries\color{blue!80!black} TUẦN 10: PHÉP CỘNG VÀ PHÉP TRỪ SỐ THẬP PHÂN}\\[2pt]
+  {\small\itshape (Bộ 7 mã đề: 501 -- 502 -- 503 -- 504 -- 505 -- 506 -- 507 \quad|\quad Lớp Toán Thầy Lĩnh)}
+\end{center}
+
+\vspace{1.5mm}
+
+% PHẦN I: TRẮC NGHIỆM
+{\bfseries\large I. ĐÁP ÁN PHẦN TRẮC NGHIỆM (3,0 ĐIỂM -- 0,25 ĐIỂM/CÂU)}
+\vspace{1.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash\bfseries}p{1.4cm}|*{12}{>{\centering\arraybackslash}X|}}
+\hline
+\rowcolor{blue!15}
+Mã đề & C1 & C2 & C3 & C4 & C5 & C6 & C7 & C8 & C9 & C10 & C11 & C12 \\
+\hline
+501 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+\rowcolor{gray!8}
+502 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+503 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+\rowcolor{gray!8}
+504 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+505 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+\rowcolor{gray!8}
+506 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+507 & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{A} & \textbf{B} & \textbf{A} \\
+\hline
+\end{tabularx}
+
+\vspace{4.0mm}
+
+% PHẦN II: TỰ LUẬN
+{\bfseries\large II. ĐÁP ÁN PHẦN TỰ LUẬN (7,0 ĐIỂM)}
+\vspace{1.5mm}
+
+\noindent
+\begingroup
+\setlength{\tabcolsep}{3pt}
+\begin{tabularx}{\linewidth}{|>{\centering\arraybackslash\bfseries}p{0.9cm}|>{\centering\arraybackslash}p{3.3cm}|>{\centering\arraybackslash}p{4.4cm}|>{\centering\arraybackslash}p{4.7cm}|>{\centering\arraybackslash}p{2.1cm}|>{\centering\arraybackslash}X|}
+\hline
+\rowcolor{blue!15}
+\textbf{Mã} & 
+\textbf{Bài 1 (2,0đ)} \newline\small (Đặt tính rồi tính) & 
+\textbf{Bài 2 (1,5đ)} \newline\small (Tìm $x$) & 
+\textbf{Bài 3 (1,0đ)} \newline\small (Điền số thích hợp) & 
+\textbf{Bài 4 (1,5đ)} \newline\small (Giải toán) & 
+\textbf{Bài 5 (1,0đ)} \newline\small (Nâng cao) \tabularnewline
+\hline
+% Mã 501
+\textbf{501} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $73{,}83$ & \textbf{b)} $45{,}22$ \\
+\textbf{c)} $185{,}15$ & \textbf{d)} $55{,}35$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 26{,}7$ & \textbf{b)} $x = 42{,}3$ \\
+\textbf{c)} $x = 36{,}7$ & \textbf{d)} $x = 8$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $4{,}25\text{ m}$ & \textbf{b)} $7{,}35\text{ km}$ \\
+\textbf{c)} $5{,}6\text{ kg}$ & \textbf{d)} $3{,}045\text{ tấn}$
+\end{tabular} & 
+$10{,}1\text{ tấn}$ & 
+$A = 20$ \tabularnewline
+\hline
+% Mã 502
+\rowcolor{gray!8}
+\textbf{502} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $91{,}74$ & \textbf{b)} $47{,}02$ \\
+\textbf{c)} $183{,}42$ & \textbf{d)} $51{,}25$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 26{,}7$ & \textbf{b)} $x = 49{,}2$ \\
+\textbf{c)} $x = 36{,}8$ & \textbf{d)} $x = 8{,}6$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $5{,}48\text{ m}$ & \textbf{b)} $9{,}42\text{ km}$ \\
+\textbf{c)} $6{,}35\text{ kg}$ & \textbf{d)} $4{,}08\text{ tấn}$
+\end{tabular} & 
+$38{,}9\text{ km}$ & 
+$B = 30$ \tabularnewline
+\hline
+% Mã 503
+\textbf{503} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $84{,}92$ & \textbf{b)} $36{,}84$ \\
+\textbf{c)} $212{,}25$ & \textbf{d)} $44{,}16$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 33{,}2$ & \textbf{b)} $x = 52{,}3$ \\
+\textbf{c)} $x = 36{,}8$ & \textbf{d)} $x = 8{,}3$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $6{,}35\text{ m}$ & \textbf{b)} $5{,}68\text{ km}$ \\
+\textbf{c)} $7{,}45\text{ kg}$ & \textbf{d)} $5{,}12\text{ tấn}$
+\end{tabular} & 
+$2{,}65\text{ tấn}$ & 
+$C = 20$ \tabularnewline
+\hline
+% Mã 504
+\rowcolor{gray!8}
+\textbf{504} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $93{,}13$ & \textbf{b)} $36{,}85$ \\
+\textbf{c)} $194{,}08$ & \textbf{d)} $53{,}65$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 37{,}7$ & \textbf{b)} $x = 63{,}5$ \\
+\textbf{c)} $x = 43{,}7$ & \textbf{d)} $x = 9{,}8$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $7{,}65\text{ m}$ & \textbf{b)} $8{,}25\text{ km}$ \\
+\textbf{c)} $4{,}8\text{ kg}$ & \textbf{d)} $6{,}035\text{ tấn}$
+\end{tabular} & 
+$0{,}35\text{ km}$ \newline\scriptsize (hoặc $350\text{ m}$) & 
+$D = 5{,}4$ \tabularnewline
+\hline
+% Mã 505
+\textbf{505} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $88{,}23$ & \textbf{b)} $37{,}13$ \\
+\textbf{c)} $194{,}34$ & \textbf{d)} $45{,}52$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 43{,}8$ & \textbf{b)} $x = 62{,}3$ \\
+\textbf{c)} $x = 46{,}8$ & \textbf{d)} $x = 9{,}7$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $8{,}45\text{ m}$ & \textbf{b)} $6{,}15\text{ km}$ \\
+\textbf{c)} $9{,}25\text{ kg}$ & \textbf{d)} $7{,}05\text{ tấn}$
+\end{tabular} & 
+$39{,}75\text{ kg}$ & 
+$E = 20$ \tabularnewline
+\hline
+% Mã 506
+\rowcolor{gray!8}
+\textbf{506} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $85{,}23$ & \textbf{b)} $42{,}02$ \\
+\textbf{c)} $217{,}08$ & \textbf{d)} $52{,}35$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 48{,}8$ & \textbf{b)} $x = 68{,}3$ \\
+\textbf{c)} $x = 41{,}6$ & \textbf{d)} $x = 10{,}6$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $9{,}52\text{ m}$ & \textbf{b)} $7{,}48\text{ km}$ \\
+\textbf{c)} $8{,}125\text{ kg}$ & \textbf{d)} $5{,}065\text{ tấn}$
+\end{tabular} & 
+$10{,}65\text{ tấn}$ & 
+$F = 8{,}6$ \tabularnewline
+\hline
+% Mã 507
+\textbf{507} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $93{,}25$ & \textbf{b)} $40{,}74$ \\
+\textbf{c)} $224{,}36$ & \textbf{d)} $56{,}25$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $x = 55{,}9$ & \textbf{b)} $x = 78{,}5$ \\
+\textbf{c)} $x = 44{,}1$ & \textbf{d)} $x = 11{,}7$
+\end{tabular} & 
+\begin{tabular}{@{}l@{\hspace{6pt}}l@{}}
+\textbf{a)} $12{,}85\text{ m}$ & \textbf{b)} $9{,}65\text{ km}$ \\
+\textbf{c)} $5{,}375\text{ kg}$ & \textbf{d)} $8{,}09\text{ tấn}$
+\end{tabular} & 
+$2{,}5\text{ km}$ & 
+$G = 14{,}5$ \tabularnewline
+\hline
+\end{tabularx}
+\endgroup
+
+\vfill
+\begin{center}
+  \footnotesize\color{gray!80}
+  \textit{Hệ thống Phiếu Bài Tập Cuối Tuần -- Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn)}
+\end{center}
+
+\end{document}
+'''
+    with open(tex_path, 'w', encoding='utf-8') as f:
+        f.write(tex_content)
+        
+    cmd = ["pdflatex", "-interaction=nonstopmode", "Bang_Dap_An_Tuan_10_Toan5.tex"]
+    subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    
+    if os.path.exists(pdf_path):
+        reader = pypdf.PdfReader(pdf_path)
+        print("Page count:", len(reader.pages))
+    else:
+        print("Compilation failed!")
+
+if __name__ == "__main__":
+    generate_pdf()

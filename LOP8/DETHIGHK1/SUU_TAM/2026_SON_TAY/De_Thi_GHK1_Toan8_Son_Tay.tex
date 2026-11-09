@@ -1,0 +1,385 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usetikzlibrary{calc,angles,quotes,arrows.meta,patterns}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[top=0.6cm, bottom=0.6cm, left=1.0cm, right=1.0cm]{geometry}
+\usepackage[dethi]{ex_test}
+\SAOPTN{widthSA=2.5,heightSA=0.55}
+
+\setlength{\headheight}{11pt}
+\setlength{\headsep}{6pt}
+\setlength{\parskip}{0pt}
+\setlength{\theorempreskipamount}{1.0pt}
+\setlength{\theorempostskipamount}{1.0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\textit{Môn Toán 8 -- Đề kiểm tra GHK I Thị xã Sơn Tây}}
+\lhead{\textit{Năm học 2026 -- 2027}}
+\cfoot{\textit{Trang \thepage/2}}
+
+\begin{document}
+
+% --- KHUNG TIÊU ĐỀ ĐỀ THI ---
+\noindent
+\begin{tabularx}{\linewidth}{X r}
+\textbf{UBND THỊ XÃ SƠN TÂY} & \textbf{ĐỀ KIỂM TRA ĐỊNH KỲ GIỮA HỌC KỲ I} \\
+\textbf{PHÒNG GIÁO DỤC VÀ ĐÀO TẠO} & \textbf{NĂM HỌC 2026 -- 2027 -- Môn: TOÁN 8} \\
+\textbf{ĐỀ CHÍNH THỨC} & \textit{Thời gian làm bài: 90 phút (không kể thời gian phát đề)} \\
+\hline
+\end{tabularx}
+\vspace{0.8mm}
+\noindent
+\begin{tabularx}{\linewidth}{X r}
+\textbf{Họ và tên học sinh: \dotfill} & \textbf{Lớp: \dotfill \quad SBD: \dotfill} \\
+\end{tabularx}
+\vspace{1.2mm}
+
+% --- PHẦN I ---
+\noindent\textbf{\large PHẦN I. Câu trắc nghiệm nhiều phương án lựa chọn (3,0 điểm).}
+
+\textit{Thí sinh trả lời từ câu 1 đến câu 12. Mỗi câu hỏi thí sinh chỉ chọn một phương án.}
+
+\begin{ex}
+Biểu thức nào sau đây là đơn thức?
+\choice
+{$x + y$}
+{\True $-3x^2y^3$}
+{$\dfrac{5}{x}$}
+{$x^2 - 1$}
+\end{ex}
+
+\begin{ex}
+Hệ số của đơn thức $-\dfrac{2}{3}x^2y^3$ là
+\choice
+{$\dfrac{2}{3}$}
+{$5$}
+{\True $-\dfrac{2}{3}$}
+{$3$}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép nhân $2x(x - 3)$ là
+\choice
+{\True $2x^2 - 6x$}
+{$2x^2 - 3$}
+{$2x^2 - 3x$}
+{$x^2 - 6x$}
+\end{ex}
+
+\begin{ex}
+Kết quả của phép chia $12x^3y^2 : 4xy$ là
+\choice
+{$3x^3y^2$}
+{$8x^2y$}
+{$3xy$}
+{\True $3x^2y$}
+\end{ex}
+
+\begin{ex}
+Với mọi số thực $a, b$, ta có $(a - b)^2$ bằng
+\choice
+{$a^2 - b^2$}
+{$a^2 + 2ab + b^2$}
+{\True $a^2 - 2ab + b^2$}
+{$a^2 - ab + b^2$}
+\end{ex}
+
+\begin{ex}
+Biểu thức $x^2 + 6x + 9$ được viết dưới dạng bình phương của một tổng là
+\choice
+{$(x + 9)^2$}
+{\True $(x + 3)^2$}
+{$(x - 3)^2$}
+{$(3x + 1)^2$}
+\end{ex}
+
+\begin{ex}
+Tổng số đo các góc của một tứ giác bằng
+\choice
+{$180^\circ$}
+{$270^\circ$}
+{$540^\circ$}
+{\True $360^\circ$}
+\end{ex}
+
+\begin{ex}
+Hình thang cân là hình thang có
+\choice
+{\True hai góc kề một đáy bằng nhau}
+{hai cạnh bên song song}
+{hai đường chéo vuông góc}
+{hai cạnh đáy bằng nhau}
+\end{ex}
+
+\begin{ex}
+Tứ giác có hai đường chéo cắt nhau tại trung điểm của mỗi đường là
+\choice
+{hình thang cân}
+{hình thang vuông}
+{\True hình bình hành}
+{tứ giác có hai góc vuông}
+\end{ex}
+
+\begin{ex}
+Trong hình thoi, hai đường chéo
+\choice
+{luôn bằng nhau}
+{song song với nhau}
+{bằng hai cạnh kề}
+{\True vuông góc với nhau}
+\end{ex}
+
+% Câu 11 có hình vẽ bên phải
+\noindent
+\refstepcounter{ex}%
+\begin{tabularx}{\linewidth}{@{}X c@{}}
+\textbf{\color{violet}Câu \arabic{ex}.} Cho hình chữ nhật $ABCD$ có hai đường chéo cắt nhau tại $O$ và $AC = 10\text{ cm}$ (hình bên). Độ dài đoạn thẳng $OB$ là &
+\begin{tikzpicture}[scale=0.55, baseline=(current bounding box.center)]
+  \coordinate (A) at (0,1.8);
+  \coordinate (B) at (3.2,1.8);
+  \coordinate (C) at (3.2,0);
+  \coordinate (D) at (0,0);
+  \coordinate (O) at (1.6,0.9);
+  \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+  \draw (A) -- (C);
+  \draw (B) -- (D);
+  \fill (O) circle (1.2pt);
+  \node[above left] at (A) {\footnotesize $A$};
+  \node[above right] at (B) {\footnotesize $B$};
+  \node[below right] at (C) {\footnotesize $C$};
+  \node[below left] at (D) {\footnotesize $D$};
+  \node[below] at (O) {\footnotesize $O$};
+\end{tikzpicture}
+\end{tabularx}
+\vspace{0.5mm}
+\choice
+{$10\text{ cm}$}
+{\True $5\text{ cm}$}
+{$20\text{ cm}$}
+{$2{,}5\text{ cm}$}
+
+% Câu 12 có hình vẽ bên phải
+\noindent
+\refstepcounter{ex}%
+\begin{tabularx}{\linewidth}{@{}X c@{}}
+\textbf{\color{violet}Câu \arabic{ex}.} Cho tam giác $ABC$, điểm $M$ thuộc cạnh $AB$, điểm $N$ thuộc cạnh $AC$ sao cho $MN \parallel BC$ (hình bên). Khẳng định nào sau đây đúng? &
+\begin{tikzpicture}[scale=0.58, baseline=(current bounding box.center)]
+  \coordinate (A) at (1.2,1.8);
+  \coordinate (B) at (0,0);
+  \coordinate (C) at (3.0,0);
+  \coordinate (M) at ($(A)!0.55!(B)$);
+  \coordinate (N) at ($(A)!0.55!(C)$);
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \draw[thick] (M) -- (N);
+  \node[above] at (A) {\footnotesize $A$};
+  \node[below left] at (B) {\footnotesize $B$};
+  \node[below right] at (C) {\footnotesize $C$};
+  \node[left] at (M) {\footnotesize $M$};
+  \node[right] at (N) {\footnotesize $N$};
+\end{tikzpicture}
+\end{tabularx}
+\vspace{0.5mm}
+\choice
+{\True $\dfrac{AM}{AB} = \dfrac{AN}{AC}$}
+{$\dfrac{AM}{MB} = \dfrac{AC}{AN}$}
+{$\dfrac{AM}{AB} = \dfrac{NC}{AC}$}
+{$\dfrac{MB}{AB} = \dfrac{AN}{AC}$}
+
+% --- PHẦN II (Trang 1 có Câu 13) ---
+\vspace{1mm}
+\noindent\textbf{\large PHẦN II. Câu trắc nghiệm đúng sai (2,0 điểm).}
+
+\textit{Thí sinh trả lời từ câu 13 đến câu 14. Trong mỗi ý a), b), c), d) ở mỗi câu, thí sinh chọn đúng hoặc sai.}
+
+\begin{ex}
+Cho hai đa thức $A = x^2 - 2xy + 3$ và $B = 2x^2 + 2xy - 1$.
+\choiceTF
+{\True Đa thức $A$ có bậc là 2}
+{\True $A + B = 3x^2 + 2$}
+{$B - A = x^2 + 4xy + 2$}
+{\True $A + y^2 \ge 3$ với mọi giá trị của $x, y$}
+\end{ex}
+
+\clearpage
+
+% ========================================================
+% TRANG 2: CÂU 14 -> CÂU 21
+% ========================================================
+
+% Câu 14 có hình vẽ bên phải
+\noindent
+\refstepcounter{ex}%
+\begin{tabularx}{\linewidth}{@{}X c@{}}
+\textbf{\color{violet}Câu \arabic{ex}.} Cho hình bình hành $ABCD$ có $AB = 6\text{ cm}$, $AD = 4\text{ cm}$, $\widehat{BAD} = 60^\circ$. Tia phân giác của góc $ADC$ cắt cạnh $AB$ tại $E$ (hình bên). &
+\begin{tikzpicture}[scale=0.58, baseline=(current bounding box.center)]
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3.8,0);
+  \coordinate (D) at (60:2.3);
+  \coordinate (C) at ($(D)+(3.8,0)$);
+  \coordinate (E) at (2.3,0);
+  \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+  \draw[thick] (D) -- (E);
+  \node[below left] at (A) {\footnotesize $A$};
+  \node[below right] at (B) {\footnotesize $B$};
+  \node[above right] at (C) {\footnotesize $C$};
+  \node[above left] at (D) {\footnotesize $D$};
+  \node[below] at (E) {\footnotesize $E$};
+  \draw pic[draw, angle radius=3.2mm, "$60^\circ$", angle eccentricity=1.9] {angle = B--A--D};
+  \draw pic[draw, angle radius=3.0mm] {angle = A--D--E};
+  \draw pic[draw, angle radius=3.8mm] {angle = A--D--E};
+  \draw pic[draw, angle radius=3.0mm] {angle = E--D--C};
+  \draw pic[draw, angle radius=3.8mm] {angle = E--D--C};
+  \node[left] at ($(A)!0.5!(D)$) {\footnotesize $4\text{ cm}$};
+  \draw[<->] ($(A)+(0,-0.42)$) -- node[below] {\footnotesize $6\text{ cm}$} ($(B)+(0,-0.42)$);
+\end{tikzpicture}
+\end{tabularx}
+\vspace{0.5mm}
+\choiceTF
+{$CD = 4\text{ cm}$}
+{\True Hai đường chéo $AC$ và $BD$ cắt nhau tại trung điểm của mỗi đường}
+{\True $\widehat{ABC} = 120^\circ$}
+{$EB = 4\text{ cm}$}
+
+% --- PHẦN III ---
+\vspace{1mm}
+\noindent\textbf{\large PHẦN III. Câu trắc nghiệm trả lời ngắn (2,0 điểm).}
+
+\textit{Thí sinh trả lời từ câu 15 đến câu 18.}
+
+\begin{ex}
+Tìm bậc của đa thức $M = 3x^4y - x^2y^2 + 5xy - 7$. \hfill \shortans{$5$}
+\end{ex}
+
+\begin{ex}
+Tính nhanh giá trị của biểu thức $73^2 - 27^2$. \hfill \shortans{$4600$}
+\end{ex}
+
+% Câu 17 có hình vẽ bên phải
+\noindent
+\refstepcounter{ex}%
+\begin{tabularx}{\linewidth}{@{}X c@{}}
+\textbf{\color{violet}Câu \arabic{ex}.} Cho hình thang cân $ABCD$ ($AB \parallel CD$) có $\widehat{D} = 65^\circ$ (hình bên). Tính số đo góc $ABC$ (đơn vị: độ).
+\vspace{2mm}
+
+\noindent\shortans{$115$} &
+\begin{tikzpicture}[scale=0.55, baseline=(current bounding box.center)]
+  \coordinate (D) at (0,0);
+  \coordinate (C) at (3.6,0);
+  \coordinate (A) at (0.8,1.6);
+  \coordinate (B) at (2.8,1.6);
+  \draw[thick] (A) -- (B) -- (C) -- (D) -- cycle;
+  \node[above left] at (A) {\footnotesize $A$};
+  \node[above right] at (B) {\footnotesize $B$};
+  \node[below right] at (C) {\footnotesize $C$};
+  \node[below left] at (D) {\footnotesize $D$};
+  \draw ($(A)!0.5!(D)+(-0.08,0.04)$) -- ($(A)!0.5!(D)+(0.08,-0.04)$);
+  \draw ($(B)!0.5!(C)+(-0.08,-0.04)$) -- ($(B)!0.5!(C)+(0.08,0.04)$);
+  \draw pic[draw, angle radius=3.8mm, "$65^\circ$", angle eccentricity=1.7] {angle = C--D--A};
+\end{tikzpicture}
+\end{tabularx}
+
+% Câu 18 có hình vẽ bên phải
+\noindent
+\refstepcounter{ex}%
+\begin{tabularx}{\linewidth}{@{}X c@{}}
+\textbf{\color{violet}Câu \arabic{ex}.} Mặt cắt của một mái nhà có dạng tam giác $ABC$, thanh đỡ $DE$ song song với $BC$ ($D$ thuộc $AB$, $E$ thuộc $AC$). Biết $AD = 1{,}2\text{ m}$, $DB = 1{,}8\text{ m}$, $AE = 1{,}5\text{ m}$ (hình bên). Tính độ dài $AC$ (đơn vị: mét).
+\vspace{2mm}
+
+\noindent\shortans{$3{,}75$} &
+\begin{tikzpicture}[scale=0.62, baseline=(current bounding box.center)]
+  \coordinate (A) at (1.5,2.2);
+  \coordinate (B) at (0,0);
+  \coordinate (C) at (3.4,0);
+  \coordinate (D) at ($(A)!0.4!(B)$);
+  \coordinate (E) at ($(A)!0.4!(C)$);
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \draw[thick] (D) -- (E);
+  \node[above] at (A) {\footnotesize $A$};
+  \node[below left] at (B) {\footnotesize $B$};
+  \node[below right] at (C) {\footnotesize $C$};
+  \node[left] at (D) {\footnotesize $D$};
+  \node[right] at (E) {\footnotesize $E$};
+  \node[above left] at ($(A)!0.5!(D)$) {\scriptsize $1{,}2\text{ m}$};
+  \node[below left] at ($(D)!0.5!(B)$) {\scriptsize $1{,}8\text{ m}$};
+  \node[above right] at ($(A)!0.5!(E)$) {\scriptsize $1{,}5\text{ m}$};
+\end{tikzpicture}
+\end{tabularx}
+
+% --- PHẦN IV ---
+\vspace{1mm}
+\noindent\textbf{\large PHẦN IV. Tự luận (3,0 điểm).}
+
+\textit{Thí sinh trình bày chi tiết lời giải vào giấy làm bài.}
+
+\begin{ex} (1,0 điểm)
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1.5pt]
+  \item (0,5 điểm) Rút gọn biểu thức $A = (2x - 1)(x + 3) - 2x(x + 2)$.
+  \item (0,5 điểm) Tìm $x$, biết: $(x + 3)^2 - (x - 2)(x + 2) = 19$.
+\end{enumerate}
+\end{ex}
+
+\begin{ex} (1,0 điểm)
+Một mảnh vườn hình chữ nhật có chiều dài $(2x + 5)\text{ m}$ và chiều rộng $(x + 3)\text{ m}$ ($x > 0$). Người ta dành một phần đất hình vuông cạnh $x\text{ m}$ để đào ao, phần còn lại trồng rau.
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1.5pt]
+  \item (0,5 điểm) Viết đa thức thu gọn biểu thị diện tích phần đất trồng rau.
+  \item (0,5 điểm) Tính diện tích phần đất trồng rau khi $x = 4$.
+\end{enumerate}
+\end{ex}
+
+% Câu 21 có hình vẽ bên phải
+\noindent
+\refstepcounter{ex}%
+\begin{tabularx}{\linewidth}{@{}X c@{}}
+\textbf{\color{violet}Câu \arabic{ex}} (1,0 điểm). Cho tam giác $ABC$ vuông tại $A$, $M$ là trung điểm của $BC$. Kẻ $MD$ vuông góc với $AB$ ($D \in AB$), $ME$ vuông góc với $AC$ ($E \in AC$).
+\begin{enumerate}[label=\textbf{\alph*)}, leftmargin=0.8cm, itemsep=1.5pt]
+  \item (0,5 điểm) Chứng minh tứ giác $ADME$ là hình chữ nhật.
+  \item (0,5 điểm) Gọi $F$ là điểm đối xứng với $M$ qua $E$. Chứng minh tứ giác $AMCF$ là hình thoi.
+\end{enumerate} &
+\begin{tikzpicture}[scale=0.68, baseline=(current bounding box.center)]
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (0,2.6);
+  \coordinate (C) at (3.3,0);
+  \coordinate (M) at ($(B)!0.5!(C)$);
+  \coordinate (D) at (0, 1.3);
+  \coordinate (E) at (1.65, 0);
+  \coordinate (F) at (1.65, -1.3);
+  
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \draw[thick] (M) -- (D);
+  \draw[thick] (M) -- (E);
+  \draw[thick] (A) -- (M);
+  \draw[dashed] (E) -- (F);
+  \draw[dashed] (A) -- (F);
+  \draw[dashed] (C) -- (F);
+  
+  \node[below left] at (A) {\footnotesize $A$};
+  \node[above left] at (B) {\footnotesize $B$};
+  \node[below right] at (C) {\footnotesize $C$};
+  \node[above right] at (M) {\footnotesize $M$};
+  \node[left] at (D) {\footnotesize $D$};
+  \node[above right] at (E) {\footnotesize $E$};
+  \node[below] at (F) {\footnotesize $F$};
+  
+  \draw pic[draw, angle radius=2.0mm] {right angle = B--A--C};
+  \draw pic[draw, angle radius=2.0mm] {right angle = A--D--M};
+  \draw pic[draw, angle radius=2.0mm] {right angle = M--E--C};
+  
+  \draw ($(M)!0.5!(E)+(-0.06,0)$) -- ($(M)!0.5!(E)+(0.06,0)$);
+  \draw ($(E)!0.5!(F)+(-0.06,0)$) -- ($(E)!0.5!(F)+(0.06,0)$);
+\end{tikzpicture}
+\end{tabularx}
+
+\vspace{2mm}
+\begin{center}
+  \textbf{--- HẾT ---}\\
+  \textit{Cán bộ coi thi không giải thích gì thêm.}
+\end{center}
+
+\end{document}

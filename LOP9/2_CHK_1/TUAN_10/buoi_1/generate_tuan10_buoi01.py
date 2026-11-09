@@ -31,12 +31,12 @@ def get_tikz_buoi1():
   
   \draw (0.8, 0.2) -- (0.6, 0.2) -- (0.6, 0);
   
-  \fill (O) circle (1.2pt) node[below left=-1pt] {$O$};
+  \fill (O) circle (1.2pt) node[left=1pt] {$O$};
   \fill (A) circle (1.2pt) node[right=1pt] {$A$};
   \fill (B) circle (1.2pt) node[above=1pt] {$B$};
   \fill (C) circle (1.2pt) node[below=1pt] {$C$};
   \fill (D) circle (1.2pt) node[above left=-1pt] {$D$};
-  \fill (H) circle (1.2pt) node[below left=-1pt] {$H$};
+  \fill (H) circle (1.2pt) node[above right=-1pt] {$H$};
 \end{tikzpicture}'''
 
 def build_tex(data, vsa="0.5mm", ob11=19, dk12=15, dk13=15, vspace_mid="1.2mm"):

@@ -185,7 +185,7 @@ def build_tex(data, vspace_short="2.3mm", ob11=5, ob12=5, dk13=11, dk14=7):
         # Cau 11
         q11 = cd["q11"]
         p1 += f'''\\vspace{{0.2mm}}
-\\noindent\\textbf{{Câu 11 (3,0 điểm). Thực hiện phép tính và phân tích đa thức thành nhân tử:}}
+\\noindent\\textbf{{Câu 11 (3,0 điểm). Thực hiện phép tính (rút gọn nếu có thể):}}
 \\vspace{{0.8mm}}
 
 \\noindent
@@ -286,7 +286,7 @@ def main():
     pdf_path = os.path.join(CUR_DIR, f"{base_name}.pdf")
     
     vspace_short = "2.3mm"
-    ob11 = 6
+    ob11 = 5
     ob12 = 5
     dk13 = 11
     dk14 = 7
@@ -298,7 +298,7 @@ def main():
         
     print("Compiling pdflatex...")
     cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
-    res = subprocess.run(cmd, cwd=CUR_DIR, capture_output=True, text=True)
+    res = subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
     if not os.path.exists(pdf_path):
         print("Compilation failed! Log:")

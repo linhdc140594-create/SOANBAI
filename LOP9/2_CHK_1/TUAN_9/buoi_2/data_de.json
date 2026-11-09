@@ -58,9 +58,9 @@
       ],
       "c12": "Hai ô tô khởi hành cùng một lúc từ hai tỉnh $A$ và $B$ cách nhau $180\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $2$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $10\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
       "c13": {
-        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 10\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 6\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
-        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
-        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB$. Lấy điểm $C$ thuộc nửa đường tròn ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,0 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$.",
+        "b": "\\textbf{b) (1,5 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
       }
     },
     "102": {
@@ -118,9 +118,9 @@
       ],
       "c12": "Hai ô tô khởi hành cùng một lúc từ hai địa điểm $A$ và $B$ cách nhau $200\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $2$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $20\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
       "c13": {
-        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 10\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 8\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
-        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
-        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB$. Lấy điểm $C$ thuộc nửa đường tròn ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,0 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$.",
+        "b": "\\textbf{b) (1,5 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
       }
     },
     "103": {
@@ -178,9 +178,9 @@
       ],
       "c12": "Hai ô tô khởi hành cùng một lúc từ hai tỉnh $A$ và $B$ cách nhau $210\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $3$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $10\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
       "c13": {
-        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 20\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 12\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
-        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
-        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB$. Lấy điểm $C$ thuộc nửa đường tròn ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,0 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$.",
+        "b": "\\textbf{b) (1,5 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
       }
     },
     "104": {
@@ -238,9 +238,9 @@
       ],
       "c12": "Hai ô tô khởi hành cùng một lúc từ hai tỉnh $A$ và $B$ cách nhau $240\\text{ km}$, đi ngược chiều nhau và gặp nhau sau $3$ giờ. Biết rằng vận tốc của ô tô đi từ $A$ lớn hơn vận tốc của ô tô đi từ $B$ là $20\\text{ km/h}$. Tính vận tốc của mỗi ô tô.",
       "c13": {
-        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB = 20\\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 16\\text{ cm}$ ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
-        "a": "\\textbf{a) (1,5 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$. Tính độ dài $BC, CH$ và khoảng cách từ tâm $O$ đến dây $AC$.",
-        "b": "\\textbf{b) (1,0 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
+        "gt": "Cho nửa đường tròn $(O; R)$ có đường kính $AB$. Lấy điểm $C$ thuộc nửa đường tròn ($C \\ne A, C \\ne B$). Kẻ $CH \\perp AB$ tại $H$ ($H \\in AB$).",
+        "a": "\\textbf{a) (1,0 điểm)} Chứng minh $\\Delta ABC$ vuông tại $C$.",
+        "b": "\\textbf{b) (1,5 điểm)} Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \\perp AC$ và $4$ điểm $C, H, O, M$ cùng thuộc một đường tròn."
       }
     }
   }

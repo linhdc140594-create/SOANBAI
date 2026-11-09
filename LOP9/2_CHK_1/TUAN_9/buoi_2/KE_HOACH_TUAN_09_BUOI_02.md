@@ -33,7 +33,7 @@
 | **Câu 1 $\to$ 10** | 10 câu | **2,5 đ** *(0,25 đ/câu)* | 10 | Trả lời ngắn, lệnh `\shortans`, ô kết quả bo góc mép phải, bố trí 2 cột Trang 1. |
 | **Câu 11** | 2 ý | **2,5 đ** *(1,25 đ/ý)* | 15 | Đại số tổng hợp (Hệ PT quy chuẩn & Rút gọn căn thức). Bảng $1 \times 2$, dùng **`\oBaiTap[21]`** lấp kín đáy Trang 1. |
 | **Câu 12** | 1 bài | **2,5 đ** | 10 | Giải bài toán bằng cách lập hệ phương trình (Toán chuyển động ngược chiều). Box `tabularx`, bài giải **`\dongke{16}`** trên Trang 2. |
-| **Câu 13** | 2 ý | **2,5 đ** *(1,5 đ + 1,0 đ)* | 10 | Bài toán Hình học nửa đường tròn và dây cung (có hình TikZ). Box `tabularx`, bài giải **`\dongke{17}`** chạm sát đáy Trang 2. |
+| **Câu 13** | 2 ý | **2,5 đ** *(1,0 đ + 1,5 đ)* | 10 | Bài toán Hình học nửa đường tròn và dây cung (có hình TikZ). Box `tabularx`, bài giải **`\dongke{17}`** chạm sát đáy Trang 2. |
 | **Tổng cộng** | **15 câu/ý** | **10,0 đ** | **45** | **Khít mép giấy cả 2 trang, chuẩn 100% cấu trúc thi vào Lớp 10.** |
 
 ---
@@ -118,32 +118,16 @@
 
 #### CÂU 13 (2,5 ĐIỂM): BÀI TOÁN HÌNH HỌC VỀ ĐƯỜNG TRÒN ĐƯỜNG KÍNH & DÂY CUNG (TRANG 2)
 
-* **Mã đề 101:**
-  - **Đề bài:** Cho nửa đường tròn $(O; R)$ có đường kính $AB = 10\text{ cm}$. Lấy điểm $C$ thuộc nửa đường tròn sao cho $AC = 6\text{ cm}$ ($C \ne A, C \ne B$). Kẻ $CH \perp AB$ tại $H$ ($H \in AB$).
-  - **a) (1,5 điểm):** Chứng minh tam giác $ABC$ vuông tại $C$. Tính độ dài $BC$, độ dài đường cao $CH$ và khoảng cách từ tâm $O$ đến dây $AC$.
+* **Áp dụng chung cho cả 4 mã đề (101, 102, 103, 104):**
+  - **Đề bài:** Cho nửa đường tròn $(O; R)$ có đường kính $AB$. Lấy điểm $C$ thuộc nửa đường tròn ($C \ne A, C \ne B$). Kẻ $CH \perp AB$ tại $H$ ($H \in AB$).
+  - **a) (1,0 điểm):** Chứng minh tam giác $ABC$ vuông tại $C$.
     *(Lời giải:
-    - Điểm $C$ thuộc nửa đường tròn đường kính $AB \implies \widehat{ACB} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn), do đó $\Delta ABC$ vuông tại $C$ (0,5 đ).
-    - Áp dụng định lí Pythagore trong $\Delta ABC$ vuông tại $C$:
-      $$BC = \sqrt{AB^2 - AC^2} = \sqrt{10^2 - 6^2} = \sqrt{64} = 8\text{ cm} \quad \text{(0,25 đ).}$$
-    - Áp dụng hệ thức lượng trong tam giác vuông $ABC$ có đường cao $CH$:
-      $$CH \cdot AB = AC \cdot BC \implies CH = \dfrac{AC \cdot BC}{AB} = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm} \quad \text{(0,25 đ).}$$
-    - Gọi $M$ là trung điểm của $AC$. Vì tam giác $OAC$ cân tại $O$ ($OA = OC = R = 5\text{ cm}$) nên đường trung tuyến $OM$ đồng thời là đường cao $\implies OM \perp AC$ tại $M$. Do đó khoảng cách từ $O$ đến dây $AC$ chính là đoạn thẳng $OM$.
-    - Trong $\Delta OAM$ vuông tại $M$: $AM = \dfrac{AC}{2} = 3\text{ cm}, OA = 5\text{ cm} \implies OM = \sqrt{OA^2 - AM^2} = \sqrt{5^2 - 3^2} = 4\text{ cm}$ (0,5 đ))*.
-  - **b) (1,0 điểm):** Chứng minh 4 điểm $C, H, O, M$ cùng thuộc một đường tròn.
+    - Điểm $C$ thuộc nửa đường tròn đường kính $AB \implies \widehat{ACB} = 90^\circ$ (góc nội tiếp chắn nửa đường tròn) (0,5 đ).
+    - Suy ra $\Delta ABC$ vuông tại $C$ (0,5 đ))*.
+  - **b) (1,5 điểm):** Gọi $M$ là trung điểm của $AC$. Chứng minh $OM \perp AC$ và 4 điểm $C, H, O, M$ cùng thuộc một đường tròn.
     *(Lời giải:
+    - Tam giác $OAC$ có $OA = OC = R$ nên cân tại $O$. Do $M$ là trung điểm của dây $AC$ nên đường trung tuyến $OM$ đồng thời là đường cao $\implies OM \perp AC$ tại $M \implies \widehat{CMO} = 90^\circ$ (0,5 đ).
     - Ta có $CH \perp AB$ tại $H \implies \widehat{CHO} = 90^\circ$. Tam giác $CHO$ vuông tại $H$ nên nội tiếp đường tròn đường kính $OC$, tâm là trung điểm của $OC$ (0,5 đ).
     - Ta có $OM \perp AC$ tại $M \implies \widehat{CMO} = 90^\circ$. Tam giác $CMO$ vuông tại $M$ nên cũng nội tiếp đường tròn đường kính $OC$, tâm là trung điểm của $OC$ (0,25 đ).
     - Do đó cả 4 điểm $C, H, O, M$ cùng thuộc đường tròn đường kính $OC$ (0,25 đ))*.
-
-* **Mã đề 102:** Nửa đường tròn $(O)$ đường kính $AB = 10\text{ cm}$, lấy $C$ sao cho $AC = 8\text{ cm}$. Kẻ $CH \perp AB$. Gọi $M$ là trung điểm $AC$.
-  - $a)$ (1,5 đ): $\Delta ABC$ vuông tại $C$. $BC = \sqrt{10^2 - 8^2} = 6\text{ cm}$. $CH = \dfrac{8 \cdot 6}{10} = 4{,}8\text{ cm}$. $OM = \sqrt{5^2 - 4^2} = 3\text{ cm}$.
-  - $b)$ (1,0 đ): Chứng minh 4 điểm $C, H, O, M$ cùng thuộc đường tròn đường kính $OC$.
-
-* **Mã đề 103:** Nửa đường tròn $(O)$ đường kính $AB = 20\text{ cm}$, lấy $C$ sao cho $AC = 12\text{ cm}$. Kẻ $CH \perp AB$. Gọi $M$ là trung điểm $AC$.
-  - $a)$ (1,5 đ): $\Delta ABC$ vuông tại $C$. $BC = \sqrt{20^2 - 12^2} = 16\text{ cm}$. $CH = \dfrac{12 \cdot 16}{20} = 9{,}6\text{ cm}$. $OM = \sqrt{10^2 - 6^2} = 8\text{ cm}$.
-  - $b)$ (1,0 đ): Chứng minh 4 điểm $C, H, O, M$ cùng thuộc đường tròn đường kính $OC$.
-
-* **Mã đề 104:** Nửa đường tròn $(O)$ đường kính $AB = 20\text{ cm}$, lấy $C$ sao cho $AC = 16\text{ cm}$. Kẻ $CH \perp AB$. Gọi $M$ là trung điểm $AC$.
-  - $a)$ (1,5 đ): $\Delta ABC$ vuông tại $C$. $BC = \sqrt{20^2 - 16^2} = 12\text{ cm}$. $CH = \dfrac{16 \cdot 12}{20} = 9{,}6\text{ cm}$. $OM = \sqrt{10^2 - 8^2} = 6\text{ cm}$.
-  - $b)$ (1,0 đ): Chứng minh 4 điểm $C, H, O, M$ cùng thuộc đường tròn đường kính $OC$.
 
