@@ -1,0 +1,318 @@
+# -*- coding: utf-8 -*-
+"""
+Tự động hóa biên soạn Phiếu Bài Tập Chuyên Đề: Giải bài toán bằng cách lập hệ phương trình (Toán 9)
+Chuẩn hóa: Chính xác 4 trang A4 (2 tờ in 2 mặt), thẩm mỹ sư phạm cao cấp.
+Đơn vị: Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn)
+"""
+import os
+import subprocess
+import pypdf
+
+TEX_CONTENT = r"""\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.85cm, right=0.85cm]{geometry}
+
+% Hệ màu sắc nhận diện sư phạm cao cấp
+\definecolor{mainblue}{RGB}{16, 68, 120}
+\definecolor{subblue}{RGB}{242, 247, 254}
+\definecolor{darkred}{RGB}{168, 32, 28}
+\definecolor{lightgraybg}{RGB}{248, 249, 250}
+\definecolor{headerblue}{RGB}{25, 80, 140}
+
+% Khung Phương pháp trọng tâm
+\newtcolorbox{khungpp}[1][]{
+  colback=subblue, colframe=mainblue, coltitle=white,
+  fonttitle=\bfseries\small\sffamily, title={#1},
+  arc=1.0mm, boxrule=0.6pt,
+  left=2.0mm, right=2.0mm, top=0.8mm, bottom=0.8mm
+}
+
+% Khung Ví dụ mẫu thực chiến
+\newtcolorbox{vidubox}[1][]{
+  colback=white, colframe=mainblue!85, coltitle=white,
+  fonttitle=\bfseries\small\sffamily, title={#1},
+  arc=1.0mm, boxrule=0.5pt,
+  left=2.0mm, right=2.0mm, top=0.8mm, bottom=0.8mm
+}
+
+% Khung Barem & Lưu ý tránh bẫy
+\newtcolorbox{khungluuy}[1][]{
+  colback=red!4, colframe=darkred, coltitle=white,
+  fonttitle=\bfseries\small\sffamily, title={#1},
+  arc=1.0mm, boxrule=0.6pt,
+  left=2.0mm, right=2.0mm, top=0.8mm, bottom=0.8mm
+}
+
+% Dòng kẻ chấm mờ chuẩn viết tay học sinh
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=16.5pt%
+  \vspace{0.3mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.2mm}%
+  \endgroup%
+}
+
+% Hộp đáp số nhanh góc phải
+\newcommand{\oDapSo}[1]{%
+  \hfill\smash{\fbox{\footnotesize\bfseries\color{mainblue} ĐS: #1}}%
+}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty}
+
+% =============================================================================
+% TRANG 1/4: TỔNG QUAN PHƯƠNG PHÁP & DẠNG 1: TOÁN CHUYỂN ĐỘNG
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|r|}
+\hline
+\textbf{\color{mainblue}CHUYÊN ĐỀ TOÁN 9: GIẢI BÀI TOÁN BẰNG CÁCH LẬP HỆ PHƯƠNG TRÌNH} & \textbf{\color{darkred}LỚP TOÁN THẦY LĨNH} \\
+\textit{Bộ tài liệu rèn luyện trọng tâm thi vào Lớp 10 chất lượng cao} & \textbf{Trang 1/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\begin{khungpp}[I. QUY TRÌNH 3 BƯỚC VÀNG GIẢI BÀI TOÁN BẰNG CÁCH LẬP HỆ PHƯƠNG TRÌNH]
+\begin{enumerate}[leftmargin=*,itemsep=0.6pt,topsep=0pt,partopsep=0pt]
+  \item \textbf{Bước 1: Lập hệ phương trình (Then chốt):}
+  \begin{itemize}[leftmargin=*,itemsep=0.3pt]
+    \item \textbf{Chọn 2 ẩn số:} Đặt tên ẩn ($x, y$), ghi rõ \textbf{đơn vị} và \textbf{điều kiện thích hợp} (Ví dụ: $x, y > 0$; $x, y \in \mathbb{N}^*$; $x > y > 0$).
+    \item \textbf{Lập bảng phân tích dữ kiện:} Xác định rõ 3 cột đại lượng liên hệ và các đối tượng tham gia.
+    \item \textbf{Thiết lập 2 phương trình:} Biểu diễn các đại lượng chưa biết qua ẩn và các đại lượng đã biết, dựa vào hai mối quan hệ độc lập trong bài để lập hệ hai phương trình bậc nhất hai ẩn.
+  \end{itemize}
+  \item \textbf{Bước 2: Giải hệ phương trình:} Dùng phương pháp \textbf{cộng đại số}, phương pháp \textbf{thế} hoặc \textbf{đặt ẩn phụ}.
+  \item \textbf{Bước 3: Đối chiếu điều kiện và Kết luận:} Kiểm tra nghiệm có thỏa mãn điều kiện đặt ra ban đầu hay không, sau đó viết câu trả lời kết luận rõ ràng (có kèm đơn vị).
+\end{enumerate}
+\end{khungpp}
+
+\vspace{0.8mm}
+
+\noindent{\large\textbf{\color{mainblue}II. DẠNG 1: TOÁN CHUYỂN ĐỘNG (ĐƯỜNG BỘ \& ĐƯỜNG THỦY)}}
+
+\vspace{0.5mm}
+\noindent$\blacktriangleright$ \textbf{1. Công thức cốt lõi:} $S = v \cdot t \iff v = \dfrac{S}{t} \iff t = \dfrac{S}{v}$. Chuyển động đường thủy: $v_{\text{xuôi}} = v_{\text{thực}} + v_{\text{nước}}$; $v_{\text{ngược}} = v_{\text{thực}} - v_{\text{nước}}$.\\
+$\blacktriangleright$ \textbf{2. Bảng phân tích đại lượng mẫu (Đi ngược chiều gặp nhau):}
+\begin{center}
+\small
+\begin{tabular}{|l|c|c|c|l|}
+\hline
+\textbf{Đối tượng} & \textbf{Vận tốc (km/h)} & \textbf{Thời gian (h)} & \textbf{Quãng đường (km)} & \textbf{Mối quan hệ lập PT} \\ \hline
+Xe thứ nhất (từ $A$) & $x$ ($x > 0$) & $t_1$ & $S_1 = x \cdot t_1$ & \multirow{2}{*}{$S_1 + S_2 = S_{AB}$ (ngược chiều)} \\ \cline{1-4}
+Xe thứ hai (từ $B$) & $y$ ($y > 0$) & $t_2$ & $S_2 = y \cdot t_2$ & $S_1 - S_2 = S_{AB}$ (đuổi kịp) \\ \hline
+\end{tabular}
+\end{center}
+
+\vspace{-0.5mm}
+\begin{vidubox}[Ví dụ mẫu 1 (Chuyển động ngược chiều và cùng chiều)]
+Hai ô tô khởi hành cùng lúc từ hai địa điểm $A$ và $B$ cách nhau $120\text{ km}$, đi ngược chiều và gặp nhau sau $1{,}5$ giờ. Nếu hai xe đi cùng chiều (xe đi từ $A$ đi theo hướng về $B$) thì sau $6$ giờ xe đi từ $A$ đuổi kịp xe đi từ $B$. Tính vận tốc của mỗi xe.\\
+\textit{Lời giải tóm tắt:} Gọi vận tốc xe đi từ $A$ là $x\text{ (km/h)}$, xe đi từ $B$ là $y\text{ (km/h)}$ ($x > y > 0$).\\
+Đi ngược chiều gặp nhau sau $1{,}5\text{ h} \implies 1{,}5x + 1{,}5y = 120 \iff x + y = 80$ (1).\\
+Đi cùng chiều đuổi kịp sau $6\text{ h} \implies 6x - 6y = 120 \iff x - y = 20$ (2).\\
+Từ (1) và (2) ta có hệ: $\begin{cases} x + y = 80 \\ x - y = 20 \end{cases} \iff \begin{cases} x = 50\text{ (TM)} \\ y = 30\text{ (TM)} \end{cases}$. Vậy vận tốc hai xe là $50\text{ km/h}$ và $30\text{ km/h}$.
+\end{vidubox}
+
+\vspace{0.8mm}
+\noindent{\bfseries\color{darkred}$\blacktriangleright$ BÀI TẬP TỰ LUYỆN DẠNG 1 (CÓ PHÂN TÍCH ĐẠI LƯỢNG):}
+
+\vspace{0.5mm}
+\noindent\textbf{Bài 1 (Khởi hành lệch thời điểm).} Quãng đường $AB$ dài $180\text{ km}$. Một ô tô khởi hành từ $A$. Sau đó $30$ phút ($0{,}5$ giờ), một ô tô thứ hai khởi hành từ $B$ đi ngược chiều với xe thứ nhất. Hai xe gặp nhau sau khi xe thứ hai đi được $1{,}5$ giờ. Biết mỗi giờ xe thứ hai đi nhanh hơn xe thứ nhất $10\text{ km}$. Tính vận tốc của mỗi ô tô. \oDapSo{$v_1 = 45\text{ km/h}; v_2 = 55\text{ km/h}$}
+\dongke{4}
+
+\noindent\textbf{Bài 2 (Canô xuôi dòng và ngược dòng).} Một canô chạy trên một khúc sông dài $90\text{ km}$. Thời gian canô chạy xuôi dòng hết $3$ giờ và ngược dòng hết $4$ giờ $30$ phút ($4{,}5$ giờ). Tính vận tốc riêng của canô khi nước yên lặng và vận tốc của dòng nước. \oDapSo{$v_{\text{canô}} = 25\text{ km/h}; v_{\text{nước}} = 5\text{ km/h}$}
+\dongke{4}
+
+\newpage
+% =============================================================================
+% TRANG 2/4: DẠNG 2: TOÁN NĂNG SUẤT & CÔNG VIỆC CHUNG - RIÊNG, VÒI NƯỚC
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|r|}
+\hline
+\textbf{\color{mainblue}CHUYÊN ĐỀ TOÁN 9: GIẢI BÀI TOÁN BẰNG CÁCH LẬP HỆ PHƯƠNG TRÌNH} & \textbf{\color{darkred}LỚP TOÁN THẦY LĨNH} \\
+\textit{Dạng 2: Năng suất -- Công việc làm chung, làm riêng -- Vòi nước} & \textbf{Trang 2/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\begin{khungpp}[I. PHƯƠNG PHÁP QUY ƯỚC TOÀN BỘ CÔNG VIỆC LÀ 1 ĐƠN VỊ]
+\begin{itemize}[leftmargin=*,itemsep=0.5pt,topsep=0pt]
+  \item \textbf{Công thức gốc:} $\text{Khối lượng CV} = \text{Năng suất trong 1 đơn vị thời gian} \times \text{Thời gian làm}$.
+  \item \textbf{Quy ước vàng:} Coi toàn bộ công việc cần hoàn thành (hoặc đầy bể nước) là \textbf{$1$ đơn vị}.
+  \item Gọi thời gian làm riêng của hai đối tượng là $x, y$ ($x, y > T_{\text{chung}}$). Trong $1$ giờ, mỗi đối tượng làm được $\dfrac{1}{x}$ và $\dfrac{1}{y}$ (công việc). Phương trình làm chung: $\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{T_{\text{chung}}}$.
+\end{itemize}
+\end{khungpp}
+
+\vspace{0.8mm}
+
+\begin{vidubox}[Ví dụ mẫu 2 (Hai tổ công nhân cùng làm chung một công việc)]
+Hai tổ công nhân cùng làm chung một công việc thì hoàn thành trong $12$ giờ. Nếu tổ I làm trong $4$ giờ rồi nghỉ, tổ II làm tiếp trong $6$ giờ nữa thì cả hai tổ hoàn thành được $40\%$ ($\dfrac{2}{5}$) công việc. Hỏi nếu làm riêng thì mỗi tổ phải mất bao lâu để xong công việc?\\
+\textit{Lời giải:} Gọi thời gian tổ I làm một mình xong việc là $x$ (giờ), tổ II là $y$ (giờ) ($x, y > 12$).\\
+Trong $1$ giờ: Tổ I làm được $\dfrac{1}{x}$ (công việc); Tổ II làm được $\dfrac{1}{y}$ (công việc).\\
+Hai tổ cùng làm chung xong trong $12$ giờ nên: $\dfrac{1}{x} + \dfrac{1}{y} = \dfrac{1}{12}$ (1).\\
+Tổ I làm $4$ giờ, tổ II làm $6$ giờ hoàn thành $40\% = \dfrac{2}{5}$ công việc nên: $\dfrac{4}{x} + \dfrac{6}{y} = \dfrac{2}{5}$ (2).\\
+Từ (1) và (2) ta có hệ: $\begin{cases} \frac{1}{x} + \frac{1}{y} = \frac{1}{12} \\[3pt] \frac{4}{x} + \frac{6}{y} = \frac{2}{5} \end{cases} \iff \begin{cases} u + v = \frac{1}{12} \\ 4u + 6v = \frac{2}{5} \end{cases} \iff \begin{cases} u = \frac{1}{20} \implies x = 20\text{ (TM)} \\ v = \frac{1}{30} \implies y = 30\text{ (TM)} \end{cases}$.\\
+\textit{Kết luận:} Tổ I làm một mình mất $20$ giờ, tổ II làm một mình mất $30$ giờ.
+\end{vidubox}
+
+\vspace{0.8mm}
+\noindent{\bfseries\color{darkred}$\blacktriangleright$ BÀI TẬP TỰ LUYỆN DẠNG 2 (RÈN KỸ NĂNG ĐẶT ẨN PHỤ):}
+
+\vspace{0.5mm}
+\noindent\textbf{Bài 3 (Hai vòi nước cùng chảy vào bể rỗng).} Hai vòi nước cùng chảy vào một bể rỗng thì sau $6$ giờ đầy bể. Nếu mở vòi I chảy trong $2$ giờ rồi mở vòi II chảy trong $3$ giờ thì cả hai vòi chảy được $\dfrac{2}{5}$ bể nước. Hỏi nếu chảy riêng thì mỗi vòi mất bao lâu đầy bể? \oDapSo{Vòi I: $10$ giờ; Vòi II: $15$ giờ}
+\dongke{4}
+
+\noindent\textbf{Bài 4 (Hai tổ sản xuất vượt mức kế hoạch).} Theo kế hoạch, hai tổ sản xuất phải làm $720$ sản phẩm. Thực tế, tổ I vượt mức kế hoạch $15\%$, tổ II vượt mức $12\%$, nên cả hai tổ đã sản xuất được tất cả $819$ sản phẩm. Tính số sản phẩm mỗi tổ phải làm theo kế hoạch. \oDapSo{Tổ I: $420$ sp; Tổ II: $300$ sp}
+\dongke{4}
+
+\noindent\textbf{Bài 5 (Vận chuyển hàng cứu trợ theo ngày).} Hai đội xe vận tải nhận nhiệm vụ chuyển $140$ tấn hàng cứu trợ. Đội I vận chuyển trong $3$ ngày và đội II trong $4$ ngày thì hoàn thành. Biết mỗi ngày đội I chuyển nhiều hơn đội II là $5$ tấn hàng. Tính số tấn hàng mỗi đội chuyển được trong một ngày. \oDapSo{Đội I: $20$ tấn/ngày; Đội II: $15$ tấn/ngày}
+\dongke{4}
+
+\newpage
+% =============================================================================
+% TRANG 3/4: DẠNG 3: TOÁN HÌNH HỌC THỰC TẾ & QUAN HỆ SỐ, CẤU TẠO SỐ
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|r|}
+\hline
+\textbf{\color{mainblue}CHUYÊN ĐỀ TOÁN 9: GIẢI BÀI TOÁN BẰNG CÁCH LẬP HỆ PHƯƠNG TRÌNH} & \textbf{\color{darkred}LỚP TOÁN THẦY LĨNH} \\
+\textit{Dạng 3: Toán hình học thực tế -- Quan hệ số \& Cấu tạo số} & \textbf{Trang 3/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\begin{khungpp}[I. PHƯƠNG PHÁP XỬ LÝ HÌNH HỌC \& CẤU TẠO SỐ]
+\begin{itemize}[leftmargin=*,itemsep=0.5pt,topsep=0pt]
+  \item \textbf{1. Mảnh đất hình chữ nhật thay đổi kích thước:} Chiều dài $x$, chiều rộng $y$ ($x > y > 0$). Nửa chu vi: $x + y = p$. Diện tích ban đầu: $S = xy$. Khi thay đổi: $(x \pm a)(y \pm b) = xy \pm \Delta S \iff \pm bx \pm ay = \text{Hằng số}$ (Đưa về hệ bậc nhất hai ẩn).
+  \item \textbf{2. Cấu tạo số tự nhiên hai chữ số:} Số ban đầu: $\overline{xy} = 10x + y$ ($x \in \{1,\dots,9\}; y \in \{0,\dots,9\}$; $x, y \in \mathbb{N}$). Khi đổi chỗ: $\overline{yx} = 10y + x$. Chèn chữ số $0$ vào giữa: $\overline{x0y} = 100x + y$.
+\end{itemize}
+\end{khungpp}
+
+\vspace{0.8mm}
+
+\begin{vidubox}[Ví dụ mẫu 3 (Mảnh vườn hình chữ nhật thay đổi kích thước)]
+Một mảnh vườn hình chữ nhật có chu vi bằng $80\text{ m}$. Nếu tăng chiều rộng thêm $3\text{ m}$ và giảm chiều dài đi $2\text{ m}$ thì diện tích mảnh vườn tăng thêm $24\text{ m}^2$. Hãy tính diện tích mảnh vườn đó lúc ban đầu.\\
+\textit{Lời giải:} Gọi chiều dài ban đầu là $x\text{ (m)}$, chiều rộng ban đầu là $y\text{ (m)}$ ($x > y > 0$).\\
+Nửa chu vi mảnh vườn là: $80 : 2 = 40\text{ (m)} \implies x + y = 40$ (1).\\
+Diện tích ban đầu: $xy\text{ (m}^2\text{)}$. Chiều dài mới: $x - 2\text{ (m)}$; Chiều rộng mới: $y + 3\text{ (m)}$.\\
+Diện tích mới tăng $24\text{ m}^2$ nên: $(x - 2)(y + 3) = xy + 24 \iff 3x - 2y = 30$ (2).\\
+Từ (1) và (2) ta có hệ: $\begin{cases} x + y = 40 \\ 3x - 2y = 30 \end{cases} \iff \begin{cases} 2x + 2y = 80 \\ 3x - 2y = 30 \end{cases} \iff \begin{cases} 5x = 110 \\ y = 40 - x \end{cases} \iff \begin{cases} x = 22\text{ (TM)} \\ y = 18\text{ (TM)} \end{cases}$.\\
+Diện tích ban đầu của mảnh vườn là: $S = 22 \times 18 = 396\text{ (m}^2\text{)}$.
+\end{vidubox}
+
+\vspace{0.8mm}
+\noindent{\bfseries\color{darkred}$\blacktriangleright$ BÀI TẬP TỰ LUYỆN DẠNG 3 (BÁM SÁT ĐỀ THI TUYỂN SINH):}
+
+\vspace{0.5mm}
+\noindent\textbf{Bài 6 (Thửa ruộng hình chữ nhật). }Một thửa ruộng hình chữ nhật có chiều dài hơn chiều rộng $15\text{ m}$. Nếu giảm chiều dài đi $2\text{ m}$ và tăng chiều rộng thêm $3\text{ m}$ thì diện tích thửa ruộng tăng thêm $44\text{ m}^2$. Tính kích thước ban đầu của thửa ruộng. \oDapSo{Dài: $35\text{ m}$; Rộng: $20\text{ m}$}
+\dongke{4}
+
+\noindent\textbf{Bài 7 (Tìm số tự nhiên có hai chữ số). }Tìm một số tự nhiên có hai chữ số, biết chữ số hàng chục lớn hơn hàng đơn vị là $2$. Nếu đổi chỗ hai chữ số cho nhau thì được số mới nhỏ hơn số ban đầu là $18$ đơn vị, đồng thời tổng của số ban đầu với số mới bằng $110$. \oDapSo{Số cần tìm là: $64$}
+\dongke{4}
+
+\noindent\textbf{Bài 8 (Mở rộng diện tích sân trường). }Một sân trường hình chữ nhật có chu vi $120\text{ m}$. Để làm sân thể thao, trường mở rộng chiều dài thêm $5\text{ m}$ và chiều rộng thêm $3\text{ m}$ thì diện tích tăng thêm $245\text{ m}^2$. Tính diện tích sân trường lúc ban đầu. \oDapSo{Dài $35\text{ m}$, Rộng $25\text{ m} \implies S = 875\text{ m}^2$}
+\dongke{4}
+
+\newpage
+% =============================================================================
+% TRANG 4/4: DẠNG 4: TOÁN PHẦN TRĂM, KINH TẾ, MUA SẮM & NÂNG CAO VÀO 10
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|r|}
+\hline
+\textbf{\color{mainblue}CHUYÊN ĐỀ TOÁN 9: GIẢI BÀI TOÁN BẰNG CÁCH LẬP HỆ PHƯƠNG TRÌNH} & \textbf{\color{darkred}LỚP TOÁN THẦY LĨNH} \\
+\textit{Dạng 4: Kinh tế thực tế -- Chiết khấu -- Nồng độ dung dịch \& Đột phá điểm 9-10} & \textbf{Trang 4/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\begin{khungpp}[I. PHƯƠNG PHÁP XỬ LÝ TOÁN KINH TẾ \& PHẦN TRĂM]
+\begin{itemize}[leftmargin=*,itemsep=0.5pt,topsep=0pt]
+  \item \textbf{Giá bán sau chiết khấu:} $\text{Giá mới} = \text{Giá niêm yết} \times (1 - \text{Tỉ lệ giảm giá})$.
+  \item \textbf{Nồng độ dung dịch:} Khối lượng chất tan $= m_{\text{dung dịch}} \times C\%$.
+  \item \textbf{Sản xuất vượt mức/hụt mức:} Sản lượng thực tế $= \text{Kế hoạch} \times (1 \pm \text{Tỉ lệ } \%)$.
+\end{itemize}
+\end{khungpp}
+
+\vspace{0.8mm}
+
+\begin{vidubox}[Ví dụ mẫu 4 (Mua sắm thực tế có chiết khấu khuyến mãi)]
+Bác An mua hai món hàng A và B có tổng giá niêm yết là $600\,000$ đồng. Nhân dịp khuyến mãi, cửa hàng giảm giá món A là $10\%$ và món B là $20\%$, nên bác An chỉ phải thanh toán tổng cộng $500\,000$ đồng. Hỏi giá niêm yết của mỗi món hàng là bao nhiêu?\\
+\textit{Lời giải:} Gọi giá niêm yết của món hàng A là $x$ (đồng), món B là $y$ (đồng) ($0 < x, y < 600\,000$).\\
+Tổng giá niêm yết là $600\,000$ đ $\implies x + y = 600\,000$ (1).\\
+Thực tế số tiền bác An trả cho món A là $0{,}9x$ (đồng), món B là $0{,}8y$ (đồng).\\
+Tổng tiền thanh toán thực tế là $500\,000$ đ $\implies 0{,}9x + 0{,}8y = 500\,000$ (2).\\
+Từ (1) và (2) ta có hệ: $\begin{cases} x + y = 600\,000 \\ 0{,}9x + 0{,}8y = 500\,000 \end{cases} \iff \begin{cases} x = 200\,000\text{ (TM)} \\ y = 400\,000\text{ (TM)} \end{cases}$.\\
+Vậy giá niêm yết của món hàng A là $200\,000$ đồng, món hàng B là $400\,000$ đồng.
+\end{vidubox}
+
+\vspace{0.8mm}
+\noindent{\bfseries\color{darkred}$\blacktriangleright$ BÀI TẬP TỰ LUYỆN DẠNG 4 (KINH TẾ, DUNG DỊCH \& VÀO 10):}
+
+\vspace{0.5mm}
+\noindent\textbf{Bài 9 (Mua vé xem phim \& Combo bắp nước).} Nhóm học sinh mua vé xem phim và combo bắp nước. Lần 1 mua $4$ vé xem phim và $3$ combo hết $380\,000$ đ. Lần 2 mua $2$ vé và $4$ combo cùng loại hết $340\,000$ đ. Tính giá tiền $1$ vé xem phim và $1$ combo. \oDapSo{Vé: $50\,000$ đ; Combo: $60\,000$ đ}
+\dongke{2}
+
+\noindent\textbf{Bài 10 (Pha chế dung dịch hóa học). }Cần pha trộn hai loại dung dịch muối nồng độ $10\%$ và $15\%$ để thu được $500\text{ gam}$ dung dịch muối nồng độ $12\%$. Tính số gam dung dịch muối mỗi loại cần lấy. \oDapSo{DD $10\%$: $300\text{ g}$; DD $15\%$: $200\text{ g}$}
+\dongke{2}
+
+\noindent\textbf{Bài 11 (Toán sản xuất tháng 1 -- tháng 2 thi vào 10). }Trong tháng đầu, hai tổ sản xuất được $800$ sản phẩm. Sang tháng hai, tổ I vượt mức $15\%$, tổ II giảm $10\%$, nên cả hai tổ làm được $845$ sản phẩm. Tính số sản phẩm mỗi tổ làm trong tháng đầu. \oDapSo{Tổ I: $500$ sp; Tổ II: $300$ sp}
+\dongke{2}
+
+\vspace{0.5mm}
+
+\begin{khungluuy}[4 TIÊU CHÍ BAREM CHẤM ĐIỂM THI VÀO 10 \& BẪY CẦN TRÁNH TUYỆT ĐỐI]
+\begin{enumerate}[leftmargin=*,itemsep=0.3pt,topsep=0pt]
+  \item \textbf{Đặt ẩn \& Điều kiện ($0{,}25$đ):} Phải ghi đơn vị và điều kiện thực tế (số người/sp $\in \mathbb{N}^*$; thời gian, vận tốc $>0$).
+  \item \textbf{Biểu diễn đại lượng \& Đổi đơn vị ($0{,}75$đ):} Đổi $30$ phút $= 0{,}5$ giờ, $45$ phút $= 0{,}75$ giờ trước khi lập hệ.
+  \item \textbf{Lập hệ PT \& Giải chính xác ($1{,}0$đ):} Trình bày rõ phương pháp giải (thế/cộng/đặt ẩn phụ $u, v$). Tránh nhầm dấu khi quy đồng.
+  \item \textbf{Đối chiếu điều kiện \& Kết luận ($0{,}5$đ):} Luôn ghi chữ ``(thỏa mãn)'' hoặc ``(loại)'' và kết luận câu trả lời bằng chữ có đơn vị.
+\end{enumerate}
+\end{khungluuy}
+
+\end{document}
+"""
+
+def generate_pdf():
+    tex_path = "Chuyen_De_Giai_Toan_Bang_Cach_Lap_He_Phuong_Trinh.tex"
+    with open(tex_path, "w", encoding="utf-8") as f:
+        f.write(TEX_CONTENT)
+    print(f"Đã lưu file LaTeX: {tex_path}")
+
+    # Chạy pdflatex 2 lần để giải quyết triệt để layout
+    for i in range(2):
+        cmd = ["pdflatex", "-interaction=nonstopmode", tex_path]
+        subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    
+    pdf_path = "Chuyen_De_Giai_Toan_Bang_Cach_Lap_He_Phuong_Trinh.pdf"
+    if os.path.exists(pdf_path):
+        reader = pypdf.PdfReader(pdf_path)
+        count = len(reader.pages)
+        print(f"==> BIÊN DỊCH THÀNH CÔNG! SỐ TRANG THỰC TẾ: {count} TRANG.")
+        return count
+    else:
+        print("Lỗi biên dịch LaTeX!")
+        return -1
+
+if __name__ == "__main__":
+    count = generate_pdf()
+    assert count == 4, f"LỖI: Số trang là {count}, không phải 4 trang!"
+    print("HOÀN THÀNH: Đạt chuẩn chính xác 4 trang A4 tuyệt đối.")

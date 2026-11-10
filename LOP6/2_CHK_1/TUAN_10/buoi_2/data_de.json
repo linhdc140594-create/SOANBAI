@@ -14,7 +14,7 @@
           "$<$"
         ],
         [
-          "Giá trị của biểu thức $|-19|$ là:",
+          "Số đối của số $-19$ là:",
           "$19$"
         ],
         [
@@ -30,8 +30,8 @@
           "$-10$"
         ],
         [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = 7$?",
-          "$2$"
+          "Có bao nhiêu số nguyên $x$ thỏa mãn $-3 < x \\le 3$?",
+          "$6$"
         ],
         [
           "Hình thoi có tất cả bao nhiêu trục đối xứng?",
@@ -49,16 +49,16 @@
       "q11": {
         "a": "$48 + 157 + 52 + 43$",
         "b": "$38 \\cdot 73 + 38 \\cdot 27$",
-        "c": "$5 \\cdot 2^3 - |-27| : 3^2 + 2026^0$",
+        "c": "$5 \\cdot 2^3 - 27 : 3^2 + 2026^0$",
         "d": "$180 : (32 - 14) + 4^2 \\cdot 3$",
         "e": "$200 : [45 - (12 - 7)^2]$",
         "f": "$160 : \\{60 - [45 - (13 - 8)^2]\\}$"
       },
       "q12": {
-        "a": "$|x| = 8$",
-        "b": "$|x - 3| = 5$",
-        "c": "Liệt kê và tính tổng các số nguyên $x$: $-5 \\le x < 6$",
-        "d": "$(x + 5)(x - 3) = 0$"
+        "a": "$4x - 15 = 49$",
+        "b": "$6(x + 4) - 25 = 35$",
+        "c": "Liệt kê các số nguyên $x$ thỏa mãn: $-4 \\le x < 3$",
+        "d": "$3 \\cdot 2^{x+1} - 12 = 36$"
       },
       "q13": {
         "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & Hà Nội & Bắc Kinh & Moscow & Tokyo & New York \\\\\\hline \\textbf{Nhiệt độ} & $16^\\circ\\text{C}$ & $-4^\\circ\\text{C}$ & $-12^\\circ\\text{C}$ & $5^\\circ\\text{C}$ & $-2^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
@@ -80,7 +80,7 @@
           "$>$"
         ],
         [
-          "Giá trị của biểu thức $|-27|$ là:",
+          "Số đối của số $-27$ là:",
           "$27$"
         ],
         [
@@ -96,8 +96,8 @@
           "$-99$"
         ],
         [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = 9$?",
-          "$2$"
+          "Có bao nhiêu số nguyên $x$ thỏa mãn $-3 \\le x < 3$?",
+          "$6$"
         ],
         [
           "Tam giác đều có tất cả bao nhiêu trục đối xứng?",
@@ -115,16 +115,16 @@
       "q11": {
         "a": "$39 + 146 + 61 + 54$",
         "b": "$49 \\cdot 65 + 49 \\cdot 35$",
-        "c": "$6 \\cdot 2^3 - |-36| : 3^2 + 2025^0$",
+        "c": "$6 \\cdot 2^3 - 36 : 3^2 + 2025^0$",
         "d": "$160 : (29 - 13) + 5^2 \\cdot 2$",
         "e": "$150 : [35 - (11 - 6)^2]$",
         "f": "$180 : \\{60 - [55 - (14 - 9)^2]\\}$"
       },
       "q12": {
-        "a": "$|x| = 12$",
-        "b": "$|x - 4| = 6$",
-        "c": "Liệt kê và tính tổng các số nguyên $x$: $-6 < x \\le 7$",
-        "d": "$(x + 7)(x - 4) = 0$"
+        "a": "$3x - 14 = 52$",
+        "b": "$5(x + 3) - 18 = 42$",
+        "c": "Liệt kê các số nguyên $x$ thỏa mãn: $-5 < x \\le 2$",
+        "d": "$2 \\cdot 3^{x+1} - 15 = 39$"
       },
       "q13": {
         "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & London & Paris & Berlin & Ottawa & Seoul \\\\\\hline \\textbf{Nhiệt độ} & $3^\\circ\\text{C}$ & $1^\\circ\\text{C}$ & $-5^\\circ\\text{C}$ & $-14^\\circ\\text{C}$ & $-3^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
@@ -146,7 +146,7 @@
           "$<$"
         ],
         [
-          "Giá trị của biểu thức $|-35|$ là:",
+          "Số đối của số $-35$ là:",
           "$35$"
         ],
         [
@@ -162,7 +162,7 @@
           "$-1$"
         ],
         [
-          "Số nguyên $x$ thỏa mãn $|x| = 0$ là:",
+          "Số nguyên liền sau của số $-1$ là:",
           "$0$"
         ],
         [
@@ -181,16 +181,16 @@
       "q11": {
         "a": "$53 + 138 + 47 + 62$",
         "b": "$58 \\cdot 82 + 58 \\cdot 18$",
-        "c": "$7 \\cdot 2^3 - |-45| : 3^2 + 2024^0$",
+        "c": "$7 \\cdot 2^3 - 45 : 3^2 + 2024^0$",
         "d": "$210 : (36 - 15) + 3^2 \\cdot 6$",
         "e": "$280 : [65 - (13 - 8)^2]$",
         "f": "$200 : \\{70 - [55 - (12 - 7)^2]\\}$"
       },
       "q12": {
-        "a": "$|x| = 15$",
-        "b": "$|x - 2| = 7$",
-        "c": "Liệt kê và tính tổng các số nguyên $x$: $-4 \\le x \\le 5$",
-        "d": "$(x + 6)(x - 2) = 0$"
+        "a": "$5x - 18 = 67$",
+        "b": "$7(x + 2) - 24 = 32$",
+        "c": "Liệt kê các số nguyên $x$ thỏa mãn: $-3 \\le x \\le 4$",
+        "d": "$4 \\cdot 2^{x+2} - 18 = 46$"
       },
       "q13": {
         "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & Madrid & Warsaw & Helsinki & Kyiv & Rome \\\\\\hline \\textbf{Nhiệt độ} & $8^\\circ\\text{C}$ & $-6^\\circ\\text{C}$ & $-11^\\circ\\text{C}$ & $-7^\\circ\\text{C}$ & $10^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",
@@ -212,7 +212,7 @@
           "$>$"
         ],
         [
-          "Giá trị của biểu thức $|-48|$ là:",
+          "Số đối của số $-48$ là:",
           "$48$"
         ],
         [
@@ -228,8 +228,8 @@
           "$-9$"
         ],
         [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = -5$?",
-          "$0$"
+          "Tập hợp các số nguyên lớn hơn $-2$ và nhỏ hơn $2$ có bao nhiêu phần tử?",
+          "$3$"
         ],
         [
           "Hình lục giác đều có tất cả bao nhiêu trục đối xứng?",
@@ -247,16 +247,16 @@
       "q11": {
         "a": "$26 + 165 + 74 + 35$",
         "b": "$67 \\cdot 76 + 67 \\cdot 24$",
-        "c": "$8 \\cdot 2^3 - |-18| : 3^2 + 2027^0$",
+        "c": "$8 \\cdot 2^3 - 18 : 3^2 + 2027^0$",
         "d": "$240 : (42 - 18) + 4^2 \\cdot 4$",
         "e": "$300 : [75 - (14 - 9)^2]$",
         "f": "$240 : \\{80 - [65 - (15 - 10)^2]\\}$"
       },
       "q12": {
-        "a": "$|x| = 9$",
-        "b": "$|x - 5| = 4$",
-        "c": "Liệt kê và tính tổng các số nguyên $x$: $-7 < x < 6$",
-        "d": "$(x + 8)(x - 5) = 0$"
+        "a": "$4x - 23 = 45$",
+        "b": "$4(x + 5) - 22 = 38$",
+        "c": "Liệt kê các số nguyên $x$ thỏa mãn: $-6 < x < 2$",
+        "d": "$5 \\cdot 2^{x+1} - 25 = 55$"
       },
       "q13": {
         "de": "Bảng ghi nhận nhiệt độ lúc 6 giờ sáng mùa đông tại 5 thành phố lớn:\\par\\vspace{0.5mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|c|}\\hline \\textbf{Thành phố} & Chicago & Toronto & Oslo & Vienna & Bangkok \\\\\\hline \\textbf{Nhiệt độ} & $-9^\\circ\\text{C}$ & $-8^\\circ\\text{C}$ & $-13^\\circ\\text{C}$ & $-1^\\circ\\text{C}$ & $25^\\circ\\text{C}$ \\\\\\hline\\end{tabular}}\\vspace{0.5mm}",

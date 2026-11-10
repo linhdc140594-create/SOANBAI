@@ -112,7 +112,7 @@ def build_tex(data, ob11=7, ob12_ab=5, ob12_cd=7, dk13=10, dk14=7):
 
 \\vspace{{1.2mm}}
 
-\\noindent\\textbf{{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}}
+\\noindent\\textbf{{Câu 12 (2,0 điểm). Tìm $x$, biết:}}
 \\vspace{{0.5mm}}
 
 \\noindent
@@ -180,7 +180,7 @@ def main():
         with open(tex_path, 'w', encoding='utf-8') as f:
             f.write(tex_content)
         
-        res = subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, capture_output=True, text=True)
+        res = subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         if os.path.exists(pdf_path):
             reader = pypdf.PdfReader(pdf_path)
             num_pages = len(reader.pages)
@@ -196,7 +196,7 @@ def main():
         with open(tex_path, 'w', encoding='utf-8') as f:
             f.write(tex_content)
         # 2nd run for references
-        subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, capture_output=True, text=True)
+        subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         print("SUCCESS! Final PDF generated with exactly 8 pages.")
     else:
         print("Could not find parameters yielding 8 pages automatically!")

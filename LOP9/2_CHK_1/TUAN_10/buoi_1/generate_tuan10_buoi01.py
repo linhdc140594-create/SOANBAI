@@ -13,33 +13,12 @@ def load_data():
 def get_tikz_buoi1():
     return r'''\begin{tikzpicture}[scale=0.72, >=stealth, line join=round, line cap=round]
   \coordinate (O) at (0, 0);
-  \coordinate (A) at (3.2, 0);
-  \coordinate (B) at (0.8, 1.386);
-  \coordinate (C) at (0.8, -1.386);
-  \coordinate (D) at (-0.8, 1.386);
-  \coordinate (H) at (0.8, 0);
-  
+  \path (-1.8, -1.8) rectangle (3.2, 1.8);
   \draw[thick] (O) circle (1.6);
-  \draw[thick] (A) -- (B);
-  \draw[thick] (A) -- (C);
-  \draw[thick] (O) -- (A);
-  \draw[thick] (O) -- (B);
-  \draw[thick] (O) -- (C);
-  \draw[thick] (B) -- (C);
-  \draw[thick, blue!85!black] (C) -- (D);
-  \draw[thick, red!85!black] (B) -- (D);
-  
-  \draw (0.8, 0.2) -- (0.6, 0.2) -- (0.6, 0);
-  
   \fill (O) circle (1.2pt) node[left=1pt] {$O$};
-  \fill (A) circle (1.2pt) node[right=1pt] {$A$};
-  \fill (B) circle (1.2pt) node[above=1pt] {$B$};
-  \fill (C) circle (1.2pt) node[below=1pt] {$C$};
-  \fill (D) circle (1.2pt) node[above left=-1pt] {$D$};
-  \fill (H) circle (1.2pt) node[above right=-1pt] {$H$};
 \end{tikzpicture}'''
 
-def build_tex(data, vsa="0.5mm", ob11=19, dk12=15, dk13=15, vspace_mid="1.2mm"):
+def build_tex(data, vsa="0.5mm", ob11=19, dk12=15, dk13=16, vspace_mid="1.2mm"):
     t_p1 = data["title_p1"]
     t_p2 = data["title_p2"]
     codes = data["codes"]
@@ -197,7 +176,7 @@ def main():
     vsa = "0.5mm"
     ob11 = 19
     dk12 = 15
-    dk13 = 15
+    dk13 = 16
     vspace_mid = "1.2mm"
     
     print(f"Generating TeX with vsa={vsa}, ob11={ob11}, dk12={dk12}, dk13={dk13}...")
@@ -207,11 +186,10 @@ def main():
         
     print("Compiling pdflatex...")
     cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
-    res = subprocess.run(cmd, cwd=CUR_DIR, capture_output=True, text=True)
+    res = subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     
     if not os.path.exists(pdf_path):
-        print("Compilation failed! Log:")
-        print(res.stdout[-2000:])
+        print("Compilation failed!")
         return
         
     reader = pypdf.PdfReader(pdf_path)

@@ -13,31 +13,9 @@ def load_data():
 def get_tikz_buoi2():
     return r'''\begin{tikzpicture}[scale=0.72, >=stealth, line join=round, line cap=round]
   \coordinate (O) at (0, 0);
-  \coordinate (M) at (2.7, 0);
-  \coordinate (A) at (0.833, 1.247);
-  \coordinate (B) at (0.833, -1.247);
-  \coordinate (C) at (-0.833, 1.247);
-  \coordinate (H) at (0.833, 0);
-  
+  \path (-1.7, -1.7) rectangle (3.0, 1.7);
   \draw[thick] (O) circle (1.5);
-  \draw[thick] (M) -- (A);
-  \draw[thick] (M) -- (B);
-  \draw[thick] (O) -- (M);
-  \draw[thick] (O) -- (A);
-  \draw[thick] (O) -- (B);
-  \draw[thick] (A) -- (B);
-  \draw[thick] (B) -- (C);
-  \draw[thick, blue!85!black] (A) -- (C);
-  
-  % Right angle mark at H
-  \draw (0.833, 0.2) -- (0.633, 0.2) -- (0.633, 0);
-  
   \fill (O) circle (1.2pt) node[left=1pt] {$O$};
-  \fill (M) circle (1.2pt) node[right=1pt] {$M$};
-  \fill (A) circle (1.2pt) node[above=1pt] {$A$};
-  \fill (B) circle (1.2pt) node[below=1pt] {$B$};
-  \fill (C) circle (1.2pt) node[above left=-1pt] {$C$};
-  \fill (H) circle (1.2pt) node[above right=-1pt] {$H$};
 \end{tikzpicture}'''
 
 def build_tex(data, vsa="0.5mm", ob11=19, dk12=15, dk13=15, vspace_mid="1.2mm"):
@@ -211,11 +189,10 @@ def main():
             f.write(tex_content)
             
         cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
-        res = subprocess.run(cmd, cwd=CUR_DIR, capture_output=True, text=True)
+        res = subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         
         if not os.path.exists(pdf_path):
-            print("Compilation error! Log:")
-            print(res.stdout[-1500:])
+            print("Compilation error!")
             return
             
         reader = pypdf.PdfReader(pdf_path)
@@ -224,7 +201,7 @@ def main():
         
         if num_pages == 8:
             print(">>> SUCCESS: Exactly 8 pages! Re-running pdflatex for cross-references... <<<")
-            subprocess.run(cmd, cwd=CUR_DIR, capture_output=True, text=True)
+            subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             return
 
     print("Warning: None of the standard configs gave 8 pages.")

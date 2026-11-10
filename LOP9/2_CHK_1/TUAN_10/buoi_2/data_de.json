@@ -24,7 +24,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$. Cho $R = 15\\text{ cm}, OM = 25\\text{ cm}$, tính độ dài đoạn thẳng $AB$."
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và $\\Delta OHB \\sim \\Delta OBM$ (từ đó suy ra $OH \\cdot OM = R^2$)."
       }
     },
     "102": {
@@ -48,7 +48,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$. Cho $R = 6\\text{ cm}, OM = 10\\text{ cm}$, tính độ dài đoạn thẳng $AB$."
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và $\\Delta OHB \\sim \\Delta OBM$ (từ đó suy ra $OH \\cdot OM = R^2$)."
       }
     },
     "103": {
@@ -72,7 +72,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$. Cho $R = 9\\text{ cm}, OM = 15\\text{ cm}$, tính độ dài đoạn thẳng $AB$."
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và $\\Delta OHB \\sim \\Delta OBM$ (từ đó suy ra $OH \\cdot OM = R^2$)."
       }
     },
     "104": {
@@ -96,7 +96,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$. Cho $R = 12\\text{ cm}, OM = 20\\text{ cm}$, tính độ dài đoạn thẳng $AB$."
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $AC \\parallel OM$ và $\\Delta OHB \\sim \\Delta OBM$ (từ đó suy ra $OH \\cdot OM = R^2$)."
       }
     }
   }

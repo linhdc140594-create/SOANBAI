@@ -121,43 +121,24 @@
   - Tam giác $ACO$ vuông tại $C$ nên tam giác $ACO$ nội tiếp đường tròn đường kính $OA$. Suy ra ba điểm $A, C, O$ cùng thuộc đường tròn đường kính $OA$ (2) *(0,25 đ)*.
   - Từ (1) và (2) suy ra bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ (với tâm là trung điểm của $OA$) *(0,25 đ)*.
 
-* **b) (1,25 điểm):** Chứng minh $BD \parallel OA$ và tính độ dài $BC$:
+* **b) (1,25 điểm):** Chứng minh $BD \parallel OA$ và $\Delta BCD \sim \Delta HOA$ (suy ra $BC \cdot OA = CD \cdot OH$):
   - Vì $AB, AC$ là hai tiếp tuyến của $(O)$ cắt nhau tại $A$ nên $AB = AC$. Lại có $OB = OC = R$.
     Do đó $OA$ là đường trung trực của đoạn thẳng $BC$, suy ra $OA \perp BC$ tại $H$ *(0,25 đ)*.
   - Điểm $B$ thuộc đường tròn đường kính $CD$ nên $\widehat{CBD} = 90^\circ \implies BD \perp BC$ *(0,25 đ)*.
   - Lại có $OA \perp BC$ (chứng minh trên), do đó $BD \parallel OA$ (vì cùng vuông góc với $BC$) *(0,25 đ)*.
-  - Áp dụng định lí Pythagore trong tam giác vuông $OBA$ (vuông tại $B$):
-    $$AB = \sqrt{OA^2 - OB^2} = \sqrt{5^2 - 3^2} = 4\text{ cm} \quad \text{*(0,25 đ)*.}$$
-  - Áp dụng hệ thức lượng trong tam giác vuông $OBA$ với đường cao $BH$:
-    $$BH \cdot OA = OB \cdot AB \implies BH = \dfrac{OB \cdot AB}{OA} = \dfrac{3 \cdot 4}{5} = 2{,}4\text{ cm} \quad \text{*(0,25 đ)*.}$$
-  - Vì $OA \perp BC$ tại $H$ nên $H$ là trung điểm của dây $BC$, do đó:
-    $$BC = 2 \cdot BH = 2 \cdot 2{,}4 = 4{,}8\text{ cm} \quad \text{*(0,25 đ)*.}$$
+  - Vì $BD \parallel OA$ nên $\widehat{BDC} = \widehat{HOA}$ (hai góc đồng vị) *(0,25 đ)*.
+  - Xét $\Delta BCD$ và $\Delta HOA$ có:
+    $$\begin{cases} \widehat{CBD} = \widehat{AHO} = 90^\circ \\ \widehat{BDC} = \widehat{HOA} \quad \text{(chứng minh trên)} \end{cases}$$
+    Suy ra $\Delta BCD \sim \Delta HOA$ (g-g) *(0,25 đ)*.
+  - Từ đó ta có tỉ số đồng dạng:
+    $$\dfrac{BC}{HO} = \dfrac{CD}{OA} \implies BC \cdot OA = CD \cdot OH \quad (\text{hay } BC \cdot OA = 2R \cdot OH) \quad \text{*(điều phải chứng minh)*.}$$
 
 ---
 
-#### Mã đề 102:
-* **a) (1,25 điểm):**
-  - $\widehat{ABO} = 90^\circ \implies A, B, O$ thuộc đường tròn đường kính $OA$ *(0,5 đ)*.
-  - $\widehat{ACO} = 90^\circ \implies A, C, O$ thuộc đường tròn đường kính $OA$ *(0,5 đ)*.
-  - Suy ra 4 điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ *(0,25 đ)*.
-* **b) (1,25 điểm):**
+#### Mã đề 102, 103, 104:
+*(Các mã đề 102, 103, 104 có câu hỏi hình học hoàn toàn tương đương và các bước chứng minh đồng nhất với Mã đề 101)*.
+* **a) (1,25 điểm):** Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$.
+* **b) (1,25 điểm):** 
   - Chứng minh $OA \perp BC$ và $BD \perp BC \implies BD \parallel OA$ *(0,5 đ)*.
-  - $AB = \sqrt{10^2 - 6^2} = 8\text{ cm}$; $BH = \dfrac{6 \cdot 8}{10} = 4{,}8\text{ cm} \implies BC = 2 \cdot 4{,}8 = 9{,}6\text{ cm}$ *(0,75 đ)*.
-
----
-
-#### Mã đề 103:
-* **a) (1,25 điểm):**
-  - Chứng minh 4 điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ (tương tự) *(1,25 đ)*.
-* **b) (1,25 điểm):**
-  - Chứng minh $BD \parallel OA$ (cùng vuông góc với $BC$) *(0,5 đ)*.
-  - $AB = \sqrt{15^2 - 9^2} = 12\text{ cm}$; $BH = \dfrac{9 \cdot 12}{15} = 7{,}2\text{ cm} \implies BC = 2 \cdot 7{,}2 = 14{,}4\text{ cm}$ *(0,75 đ)*.
-
----
-
-#### Mã đề 104:
-* **a) (1,25 điểm):**
-  - Chứng minh 4 điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ (tương tự) *(1,25 đ)*.
-* **b) (1,25 điểm):**
-  - Chứng minh $BD \parallel OA$ (cùng vuông góc với $BC$) *(0,5 đ)*.
-  - $AB = \sqrt{20^2 - 12^2} = 16\text{ cm}$; $BH = \dfrac{12 \cdot 16}{20} = 9{,}6\text{ cm} \implies BC = 2 \cdot 9{,}6 = 19{,}2\text{ cm}$ *(0,75 đ)*.
+  - Chứng minh $\widehat{BDC} = \widehat{HOA}$ (đồng vị) $\implies \Delta BCD \sim \Delta HOA$ (g-g) *(0,5 đ)*.
+  - Suy ra hệ thức $BC \cdot OA = CD \cdot OH$ *(0,25 đ)*.

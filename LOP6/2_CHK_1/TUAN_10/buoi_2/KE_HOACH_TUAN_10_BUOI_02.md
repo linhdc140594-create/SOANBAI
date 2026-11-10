@@ -50,11 +50,11 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **1** | So sánh số âm với số 0 | Điền dấu thích hợp ($<, >, =$): $-15$ ... $0$<br>$\to$ **KQ: $<$** | Điền dấu thích hợp ($<, >, =$): $-24$ ... $0$<br>$\to$ **KQ: $<$** | Điền dấu thích hợp ($<, >, =$): $0$ ... $-35$<br>$\to$ **KQ: $>$** | Điền dấu thích hợp ($<, >, =$): $0$ ... $-48$<br>$\to$ **KQ: $>$** |
 | **2** | So sánh hai số nguyên âm | Điền dấu thích hợp ($<, >, =$): $-18$ ... $-12$<br>$\to$ **KQ: $<$** | Điền dấu thích hợp ($<, >, =$): $-25$ ... $-30$<br>$\to$ **KQ: $>$** | Điền dấu thích hợp ($<, >, =$): $-42$ ... $-37$<br>$\to$ **KQ: $<$** | Điền dấu thích hợp ($<, >, =$): $-56$ ... $-65$<br>$\to$ **KQ: $>$** |
-| **3** | Giá trị tuyệt đối | Giá trị của $|-19|$ là:<br>$\to$ **KQ: $19$** | Giá trị của $|-27|$ là:<br>$\to$ **KQ: $27$** | Giá trị của $|-35|$ là:<br>$\to$ **KQ: $35$** | Giá trị của $|-48|$ là:<br>$\to$ **KQ: $48$** |
+| **3** | Số đối của số nguyên âm | Số đối của số $-19$ là:<br>$\to$ **KQ: $19$** | Số đối của số $-27$ là:<br>$\to$ **KQ: $27$** | Số đối của số $-35$ là:<br>$\to$ **KQ: $35$** | Số đối của số $-48$ là:<br>$\to$ **KQ: $48$** |
 | **4** | Tìm số nhỏ nhất / lớn nhất | Số nhỏ nhất trong dãy: $-12; 5; -8; 0; -15$ là:<br>$\to$ **KQ: $-15$** | Số nhỏ nhất trong dãy: $-9; 7; -14; 0; -6$ là:<br>$\to$ **KQ: $-14$** | Số lớn nhất trong dãy: $-16; -3; -20; 0; -1$ là:<br>$\to$ **KQ: $0$** | Số lớn nhất trong dãy: $-25; -7; -30; -2; -11$ là:<br>$\to$ **KQ: $-2$** |
 | **5** | Số liền trước / liền sau | Số nguyên liền trước của số $-8$ là:<br>$\to$ **KQ: $-9$** | Số nguyên liền sau của số $-15$ là:<br>$\to$ **KQ: $-14$** | Số nguyên liền trước của số $-12$ là:<br>$\to$ **KQ: $-13$** | Số nguyên liền sau của số $-20$ là:<br>$\to$ **KQ: $-19$** |
 | **6** | Số nguyên âm lớn nhất/nhỏ nhất | Số nguyên âm lớn nhất có 2 chữ số là:<br>$\to$ **KQ: $-10$** | Số nguyên âm nhỏ nhất có 2 chữ số là:<br>$\to$ **KQ: $-99$** | Số nguyên âm lớn nhất là số nào?<br>$\to$ **KQ: $-1$** | Số nguyên âm nhỏ nhất có 1 chữ số là:<br>$\to$ **KQ: $-9$** |
-| **7** | Phương trình GTTĐ ngắn | Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = 7$?<br>$\to$ **KQ: $2$** | Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = 9$?<br>$\to$ **KQ: $2$** | Số nguyên $x$ thỏa mãn $|x| = 0$ là:<br>$\to$ **KQ: $0$** | Có bao nhiêu số nguyên $x$ thỏa mãn $|x| = -5$?<br>$\to$ **KQ: $0$** |
+| **7** | Số lượng số nguyên thỏa mãn BĐT | Có bao nhiêu số nguyên $x$ thỏa mãn $-3 < x \le 3$?<br>$\to$ **KQ: $6$** | Có bao nhiêu số nguyên $x$ thỏa mãn $-3 \le x < 3$?<br>$\to$ **KQ: $6$** | Số nguyên liền sau của số $-1$ là:<br>$\to$ **KQ: $0$** | Tập hợp các số nguyên lớn hơn $-2$ và nhỏ hơn $2$ có bao nhiêu phần tử?<br>$\to$ **KQ: $3$** |
 | **8** | Trục đối xứng hình phẳng | Hình thoi có bao nhiêu trục đối xứng?<br>$\to$ **KQ: $2$** | Tam giác đều có bao nhiêu trục đối xứng?<br>$\to$ **KQ: $3$** | Hình tròn có bao nhiêu trục đối xứng?<br>$\to$ **KQ: Vô số** | Hình lục giác đều có bao nhiêu trục đối xứng?<br>$\to$ **KQ: $6$** |
 | **9** | Diện tích hình thang cân | Hình thang cân đáy lớn $24\text{ cm}$, đáy nhỏ $16\text{ cm}$, cao $10\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $200\text{ cm}^2$** | Hình thang cân đáy lớn $25\text{ cm}$, đáy nhỏ $15\text{ cm}$, cao $12\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $240\text{ cm}^2$** | Hình thang cân đáy lớn $28\text{ cm}$, đáy nhỏ $12\text{ cm}$, cao $15\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $300\text{ cm}^2$** | Hình thang cân đáy lớn $30\text{ cm}$, đáy nhỏ $14\text{ cm}$, cao $10\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $220\text{ cm}^2$** |
 | **10** | Toán thực tế so sánh nhiệt độ | Moscow $-8^\circ\text{C}$, Bắc Kinh $-3^\circ\text{C}$. Nơi nào lạnh hơn?<br>$\to$ **KQ: Moscow** | Seoul $-5^\circ\text{C}$, Tokyo $2^\circ\text{C}$. Nơi nào ấm hơn?<br>$\to$ **KQ: Tokyo** | Ngăn đông $-18^\circ\text{C}$, ngăn mát $4^\circ\text{C}$. Ngăn nào lạnh hơn?<br>$\to$ **KQ: Ngăn đông** | Sa Pa $-1^\circ\text{C}$, Mẫu Sơn $-4^\circ\text{C}$. Nơi nào rét hơn?<br>$\to$ **KQ: Mẫu Sơn** |
@@ -68,7 +68,7 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 * **Mã đề 101:**
   - a) $48 + 157 + 52 + 43 = (48 + 52) + (157 + 43) = 100 + 200 = 300$.
   - b) $38 \cdot 73 + 38 \cdot 27 = 38 \cdot (73 + 27) = 38 \cdot 100 = 3800$.
-  - c) $5 \cdot 2^3 - |-27| : 3^2 + 2026^0 = 5 \cdot 8 - 27 : 9 + 1 = 40 - 3 + 1 = 38$.
+  - c) $5 \cdot 2^3 - 27 : 3^2 + 2026^0 = 5 \cdot 8 - 27 : 9 + 1 = 40 - 3 + 1 = 38$.
   - d) $180 : (32 - 14) + 4^2 \cdot 3 = 180 : 18 + 16 \cdot 3 = 10 + 48 = 58$.
   - e) $200 : [45 - (12 - 7)^2] = 200 : [45 - 25] = 200 : 20 = 10$.
   - f) $160 : \{60 - [45 - (13 - 8)^2]\} = 160 : \{60 - [45 - 25]\} = 160 : \{60 - 20\} = 160 : 40 = 4$.
@@ -76,7 +76,7 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 * **Mã đề 102:**
   - a) $39 + 146 + 61 + 54 = (39 + 61) + (146 + 54) = 100 + 200 = 300$.
   - b) $49 \cdot 65 + 49 \cdot 35 = 49 \cdot (65 + 35) = 49 \cdot 100 = 4900$.
-  - c) $6 \cdot 2^3 - |-36| : 3^2 + 2025^0 = 6 \cdot 8 - 36 : 9 + 1 = 48 - 4 + 1 = 45$.
+  - c) $6 \cdot 2^3 - 36 : 3^2 + 2025^0 = 6 \cdot 8 - 36 : 9 + 1 = 48 - 4 + 1 = 45$.
   - d) $160 : (29 - 13) + 5^2 \cdot 2 = 160 : 16 + 25 \cdot 2 = 10 + 50 = 60$.
   - e) $150 : [35 - (11 - 6)^2] = 150 : [35 - 25] = 150 : 10 = 15$.
   - f) $180 : \{60 - [55 - (14 - 9)^2]\} = 180 : \{60 - [55 - 25]\} = 180 : \{60 - 30\} = 180 : 30 = 6$.
@@ -84,7 +84,7 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 * **Mã đề 103:**
   - a) $53 + 138 + 47 + 62 = (53 + 47) + (138 + 62) = 100 + 200 = 300$.
   - b) $58 \cdot 82 + 58 \cdot 18 = 58 \cdot (82 + 18) = 58 \cdot 100 = 5800$.
-  - c) $7 \cdot 2^3 - |-45| : 3^2 + 2024^0 = 7 \cdot 8 - 45 : 9 + 1 = 56 - 5 + 1 = 52$.
+  - c) $7 \cdot 2^3 - 45 : 3^2 + 2024^0 = 7 \cdot 8 - 45 : 9 + 1 = 56 - 5 + 1 = 52$.
   - d) $210 : (36 - 15) + 3^2 \cdot 6 = 210 : 21 + 9 \cdot 6 = 10 + 54 = 64$.
   - e) $280 : [65 - (13 - 8)^2] = 280 : [65 - 25] = 280 : 40 = 7$.
   - f) $200 : \{70 - [55 - (12 - 7)^2]\} = 200 : \{70 - [55 - 25]\} = 200 : \{70 - 30\} = 200 : 40 = 5$.
@@ -92,46 +92,42 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 * **Mã đề 104:**
   - a) $26 + 165 + 74 + 35 = (26 + 74) + (165 + 35) = 100 + 200 = 300$.
   - b) $67 \cdot 76 + 67 \cdot 24 = 67 \cdot (76 + 24) = 67 \cdot 100 = 6700$.
-  - c) $8 \cdot 2^3 - |-18| : 3^2 + 2027^0 = 8 \cdot 8 - 18 : 9 + 1 = 64 - 2 + 1 = 63$.
+  - c) $8 \cdot 2^3 - 18 : 3^2 + 2027^0 = 8 \cdot 8 - 18 : 9 + 1 = 64 - 2 + 1 = 63$.
   - d) $240 : (42 - 18) + 4^2 \cdot 4 = 240 : 24 + 16 \cdot 4 = 10 + 64 = 74$.
   - e) $300 : [75 - (14 - 9)^2] = 300 : [75 - 25] = 300 : 50 = 6$.
   - f) $240 : \{80 - [65 - (15 - 10)^2]\} = 240 : \{80 - [65 - 25]\} = 240 : \{80 - 40\} = 240 : 40 = 6$.
 
 ---
 
-#### CÂU 12 (2,0 ĐIỂM): TÌM SỐ NGUYÊN $x$, BIẾT (MỖI Ý 0,5 ĐIỂM)
+#### CÂU 12 (2,0 ĐIỂM): TÌM $x$, BIẾT (MỖI Ý 0,5 ĐIỂM)
 
 * **Mã đề 101:**
-  - a) $|x| = 8 \implies x = 8$ hoặc $x = -8$.
-  - b) $|x - 3| = 5 \implies x - 3 = 5$ hoặc $x - 3 = -5 \implies x = 8$ hoặc $x = -2$.
-  - c) Cho $-5 \le x < 6$. Liệt kê các số nguyên $x$ và tính tổng $S$ của chúng:
-    $x \in \{-5; -4; -3; -2; -1; 0; 1; 2; 3; 4; 5\}$.
-    $S = [(-5) + 5] + [(-4) + 4] + [(-3) + 3] + [(-2) + 2] + [(-1) + 1] + 0 = 0$.
-  - d) $(x + 5)(x - 3) = 0 \implies x + 5 = 0$ hoặc $x - 3 = 0 \implies x = -5$ hoặc $x = 3$.
+  - a) $4x - 15 = 49 \implies 4x = 64 \implies x = 16$.
+  - b) $6(x + 4) - 25 = 35 \implies 6(x + 4) = 60 \implies x + 4 = 10 \implies x = 6$.
+  - c) Liệt kê các số nguyên $x$ thỏa mãn $-4 \le x < 3$:
+    $x \in \{-4; -3; -2; -1; 0; 1; 2\}$.
+  - d) $3 \cdot 2^{x+1} - 12 = 36 \implies 3 \cdot 2^{x+1} = 48 \implies 2^{x+1} = 16 = 2^4 \implies x + 1 = 4 \implies x = 3$.
 
 * **Mã đề 102:**
-  - a) $|x| = 12 \implies x = 12$ hoặc $x = -12$.
-  - b) $|x - 4| = 6 \implies x - 4 = 6$ hoặc $x - 4 = -6 \implies x = 10$ hoặc $x = -2$.
-  - c) Cho $-6 < x \le 7$. Liệt kê các số nguyên $x$ và tính tổng $S$ của chúng:
-    $x \in \{-5; -4; -3; -2; -1; 0; 1; 2; 3; 4; 5; 6; 7\}$.
-    $S = 0 + 6 + 7 = 13$.
-  - d) $(x + 7)(x - 4) = 0 \implies x + 7 = 0$ hoặc $x - 4 = 0 \implies x = -7$ hoặc $x = 4$.
+  - a) $3x - 14 = 52 \implies 3x = 66 \implies x = 22$.
+  - b) $5(x + 3) - 18 = 42 \implies 5(x + 3) = 60 \implies x + 3 = 12 \implies x = 9$.
+  - c) Liệt kê các số nguyên $x$ thỏa mãn $-5 < x \le 2$:
+    $x \in \{-4; -3; -2; -1; 0; 1; 2\}$.
+  - d) $2 \cdot 3^{x+1} - 15 = 39 \implies 2 \cdot 3^{x+1} = 54 \implies 3^{x+1} = 27 = 3^3 \implies x + 1 = 3 \implies x = 2$.
 
 * **Mã đề 103:**
-  - a) $|x| = 15 \implies x = 15$ hoặc $x = -15$.
-  - b) $|x - 2| = 7 \implies x - 2 = 7$ hoặc $x - 2 = -7 \implies x = 9$ hoặc $x = -5$.
-  - c) Cho $-4 \le x \le 5$. Liệt kê các số nguyên $x$ và tính tổng $S$ của chúng:
-    $x \in \{-4; -3; -2; -1; 0; 1; 2; 3; 4; 5\}$.
-    $S = 0 + 5 = 5$.
-  - d) $(x + 6)(x - 2) = 0 \implies x + 6 = 0$ hoặc $x - 2 = 0 \implies x = -6$ hoặc $x = 2$.
+  - a) $5x - 18 = 67 \implies 5x = 85 \implies x = 17$.
+  - b) $7(x + 2) - 24 = 32 \implies 7(x + 2) = 56 \implies x + 2 = 8 \implies x = 6$.
+  - c) Liệt kê các số nguyên $x$ thỏa mãn $-3 \le x \le 4$:
+    $x \in \{-3; -2; -1; 0; 1; 2; 3; 4\}$.
+  - d) $4 \cdot 2^{x+2} - 18 = 46 \implies 4 \cdot 2^{x+2} = 64 \implies 2^{x+2} = 16 = 2^4 \implies x + 2 = 4 \implies x = 2$.
 
 * **Mã đề 104:**
-  - a) $|x| = 9 \implies x = 9$ hoặc $x = -9$.
-  - b) $|x - 5| = 4 \implies x - 5 = 4$ hoặc $x - 5 = -4 \implies x = 9$ hoặc $x = 1$.
-  - c) Cho $-7 < x < 6$. Liệt kê các số nguyên $x$ và tính tổng $S$ của chúng:
-    $x \in \{-6; -5; -4; -3; -2; -1; 0; 1; 2; 3; 4; 5\}$.
-    $S = -6 + 0 = -6$.
-  - d) $(x + 8)(x - 5) = 0 \implies x + 8 = 0$ hoặc $x - 5 = 0 \implies x = -8$ hoặc $x = 5$.
+  - a) $4x - 23 = 45 \implies 4x = 68 \implies x = 17$.
+  - b) $4(x + 5) - 22 = 38 \implies 4(x + 5) = 60 \implies x + 5 = 15 \implies x = 10$.
+  - c) Liệt kê các số nguyên $x$ thỏa mãn $-6 < x < 2$:
+    $x \in \{-5; -4; -3; -2; -1; 0; 1\}$.
+  - d) $5 \cdot 2^{x+1} - 25 = 55 \implies 5 \cdot 2^{x+1} = 80 \implies 2^{x+1} = 16 = 2^4 \implies x + 1 = 4 \implies x = 3$.
 
 ---
 

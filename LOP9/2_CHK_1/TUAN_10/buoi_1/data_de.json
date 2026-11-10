@@ -24,7 +24,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$. Cho $R = 3\\text{ cm}, OA = 5\\text{ cm}$, tính độ dài đoạn thẳng $BC$."
+        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$ và $\\Delta BCD \\sim \\Delta HOA$ (từ đó suy ra $BC \\cdot OA = CD \\cdot OH$)."
       }
     },
     "102": {
@@ -48,7 +48,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$. Cho $R = 6\\text{ cm}, OA = 10\\text{ cm}$, tính độ dài đoạn thẳng $BC$."
+        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$ và $\\Delta BCD \\sim \\Delta HOA$ (từ đó suy ra $BC \\cdot OA = CD \\cdot OH$)."
       }
     },
     "103": {
@@ -72,7 +72,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$. Cho $R = 9\\text{ cm}, OA = 15\\text{ cm}$, tính độ dài đoạn thẳng $BC$."
+        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$ và $\\Delta BCD \\sim \\Delta HOA$ (từ đó suy ra $BC \\cdot OA = CD \\cdot OH$)."
       }
     },
     "104": {
@@ -96,7 +96,7 @@
       "c13": {
         "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
         "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
-        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$. Cho $R = 12\\text{ cm}, OA = 20\\text{ cm}$, tính độ dài đoạn thẳng $BC$."
+        "b": "\\textbf{b) (1,25 điểm)} Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \\parallel OA$ và $\\Delta BCD \\sim \\Delta HOA$ (từ đó suy ra $BC \\cdot OA = CD \\cdot OH$)."
       }
     }
   }

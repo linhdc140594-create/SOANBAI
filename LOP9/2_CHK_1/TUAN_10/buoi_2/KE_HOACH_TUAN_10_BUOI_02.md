@@ -107,29 +107,16 @@
 #### CÂU 13 (2,5 ĐIỂM): HÌNH HỌC TÍNH CHẤT HAI TIẾP TUYẾN CẮT NHAU
 
 Cho đường tròn $(O; R)$ và điểm $M$ nằm bên ngoài đường tròn. Qua $M$ kẻ hai tiếp tuyến $MA, MB$ với đường tròn $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $BC$ của đường tròn $(O)$. Đoạn thẳng $OM$ cắt $AB$ tại $H$.
-* **Mã đề 101:** Cho $R = 15\text{ cm}, OM = 25\text{ cm}$.
-  - $a)$ (1,25 điểm): Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.
-    * Do $MA$ là tiếp tuyến tại $A \implies \widehat{MAO} = 90^\circ \implies M, A, O$ thuộc đường tròn đường kính $OM$ ($0{,}5$đ).
-    * Do $MB$ là tiếp tuyến tại $B \implies \widehat{MBO} = 90^\circ \implies M, B, O$ thuộc đường tròn đường kính $OM$ ($0{,}5$đ).
-    * Suy ra 4 điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($0{,}25$đ).
-  - $b)$ (1,25 điểm): Chứng minh $AC \parallel OM$ và tính độ dài đoạn thẳng $AB$.
-    * $MA = MB, OA = OB \implies OM$ là trung trực của $AB \implies OM \perp AB$ tại $H$ ($0{,}25$đ).
-    * $\triangle ABC$ vuông tại $A$ (do $BC$ là đường kính) $\implies AC \perp AB$ ($0{,}25$đ).
-    * Suy ra $AC \parallel OM$ (vì cùng $\perp AB$) ($0{,}25$đ).
-    * Áp dụng Pythagore trong $\Delta OAM$ vuông tại $A$:
-      $$MA = \sqrt{OM^2 - OA^2} = \sqrt{25^2 - 15^2} = 20\text{ cm} \quad \text{($0{,}25$đ).}$$
-    * Áp dụng hệ thức lượng trong $\Delta OAM$ vuông tại $A$, đường cao $AH$:
-      $$AH = \dfrac{OA \cdot MA}{OM} = \dfrac{15 \cdot 20}{25} = 12\text{ cm} \implies AB = 2 \cdot AH = 24\text{ cm} \quad \text{($0{,}25$đ).}$$
+* **a) (1,25 điểm):** Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn.
+  - Do $MA$ là tiếp tuyến tại $A \implies \widehat{MAO} = 90^\circ \implies M, A, O$ thuộc đường tròn đường kính $OM$ ($0{,}5$đ).
+  - Do $MB$ là tiếp tuyến tại $B \implies \widehat{MBO} = 90^\circ \implies M, B, O$ thuộc đường tròn đường kính $OM$ ($0{,}5$đ).
+  - Suy ra 4 điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($0{,}25$đ).
+* **b) (1,25 điểm):** Chứng minh $AC \parallel OM$ và $\Delta OHB \sim \Delta OBM$ (từ đó suy ra $OH \cdot OM = R^2$).
+  - $MA = MB, OA = OB \implies OM$ là trung trực của $AB \implies OM \perp AB$ tại $H$ ($0{,}25$đ).
+  - $\triangle ABC$ vuông tại $A$ (do $BC$ là đường kính) $\implies AC \perp AB$ ($0{,}25$đ).
+  - Suy ra $AC \parallel OM$ (vì cùng $\perp AB$) ($0{,}25$đ).
+  - Xét $\Delta OHB$ và $\Delta OBM$ có $\widehat{OHB} = \widehat{OBM} = 90^\circ$ và góc $\widehat{BOM}$ chung $\implies \Delta OHB \sim \Delta OBM$ (g-g) ($0{,}25$đ).
+  - Tỉ số đồng dạng: $\dfrac{OH}{OB} = \dfrac{OB}{OM} \implies OH \cdot OM = OB^2 = R^2$ ($0{,}25$đ).
 
-* **Mã đề 102:** Cho $R = 6\text{ cm}, OM = 10\text{ cm}$.
-  - $a)$ Chứng minh bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($1{,}25$đ).
-  - $b)$ $AC \parallel OM$. $MA = 8\text{ cm}; AH = 4{,}8\text{ cm} \implies AB = 9{,}6\text{ cm}$ ($1{,}25$đ).
-
-* **Mã đề 103:** Cho $R = 9\text{ cm}, OM = 15\text{ cm}$.
-  - $a)$ Chứng minh bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($1{,}25$đ).
-  - $b)$ $AC \parallel OM$. $MA = 12\text{ cm}; AH = 7{,}2\text{ cm} \implies AB = 14{,}4\text{ cm}$ ($1{,}25$đ).
-
-* **Mã đề 104:** Cho $R = 12\text{ cm}, OM = 20\text{ cm}$.
-  - $a)$ Chứng minh bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $OM$ ($1{,}25$đ).
-  - $b)$ $AC \parallel OM$. $MA = 16\text{ cm}; AH = 9{,}6\text{ cm} \implies AB = 19{,}2\text{ cm}$ ($1{,}25$đ).
+*(Áp dụng đồng bộ cho cả 4 mã đề 101, 102, 103, 104).*
 

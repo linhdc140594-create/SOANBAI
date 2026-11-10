@@ -108,27 +108,17 @@
 #### CÂU 13 (2,5 ĐIỂM): HÌNH HỌC TIẾP TUYẾN CỦA ĐƯỜNG TRÒN
 
 Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Qua $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.
-* **Mã đề 101:** Cho $R = 3\text{ cm}, OA = 5\text{ cm}$.
-  - $a)$ (1,25 điểm): Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.
-    * Do $AB$ là tiếp tuyến tại $B \implies \widehat{ABO} = 90^\circ \implies A, B, O$ cùng thuộc đường tròn đường kính $OA$ ($0{,}5$đ).
-    * Do $AC$ là tiếp tuyến tại $C \implies \widehat{ACO} = 90^\circ \implies A, C, O$ cùng thuộc đường tròn đường kính $OA$ ($0{,}5$đ).
-    * Suy ra bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($0{,}25$đ).
-  - $b)$ (1,25 điểm): Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \parallel OA$ và tính độ dài đoạn thẳng $BC$.
-    * $AB = AC, OB = OC \implies OA$ là trung trực của $BC \implies OA \perp BC$ tại $H$ ($0{,}25$đ).
-    * $B \in (O)$ đường kính $CD \implies \widehat{CBD} = 90^\circ \implies BD \perp BC$ ($0{,}25$đ).
-    * Suy ra $BD \parallel OA$ (cùng $\perp BC$) ($0{,}25$đ).
-    * Trong $\Delta OBA$ vuông tại $B$: $AB = \sqrt{OA^2 - OB^2} = \sqrt{5^2 - 3^2} = 4\text{ cm}$ ($0{,}25$đ).
-    * Đường cao $BH$: $BH = \dfrac{OB \cdot AB}{OA} = \dfrac{3 \cdot 4}{5} = 2{,}4\text{ cm} \implies BC = 2BH = 4{,}8\text{ cm}$ ($0{,}25$đ).
+* **a) (1,25 điểm):** Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.
+  - Do $AB$ là tiếp tuyến tại $B \implies \widehat{ABO} = 90^\circ \implies A, B, O$ cùng thuộc đường tròn đường kính $OA$ ($0{,}5$đ).
+  - Do $AC$ là tiếp tuyến tại $C \implies \widehat{ACO} = 90^\circ \implies A, C, O$ cùng thuộc đường tròn đường kính $OA$ ($0{,}5$đ).
+  - Suy ra bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($0{,}25$đ).
+* **b) (1,25 điểm):** Kẻ đường kính $CD$ của $(O)$. Chứng minh $BD \parallel OA$ và $\Delta BCD \sim \Delta HOA$ (từ đó suy ra $BC \cdot OA = CD \cdot OH$).
+  - $AB = AC, OB = OC \implies OA$ là trung trực của $BC \implies OA \perp BC$ tại $H$ ($0{,}25$đ).
+  - $B \in (O)$ đường kính $CD \implies \widehat{CBD} = 90^\circ \implies BD \perp BC$ ($0{,}25$đ).
+  - Suy ra $BD \parallel OA$ (cùng $\perp BC$) ($0{,}25$đ).
+  - Vì $BD \parallel OA$ nên $\widehat{BDC} = \widehat{HOA}$ (hai góc đồng vị) ($0{,}25$đ).
+  - Xét $\Delta BCD$ và $\Delta HOA$ có $\widehat{DBC} = \widehat{AHO} = 90^\circ$ và $\widehat{BDC} = \widehat{HOA} \implies \Delta BCD \sim \Delta HOA$ (g-g) ($0{,}25$đ).
+  - Tỉ số đồng dạng: $\dfrac{BC}{HO} = \dfrac{CD}{OA} \implies BC \cdot OA = CD \cdot OH$ (hay $BC \cdot OA = 2R \cdot OH$).
 
-* **Mã đề 102:** Cho $R = 6\text{ cm}, OA = 10\text{ cm}$.
-  - $a)$ Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($1{,}25$đ).
-  - $b)$ $BD \parallel OA$. $AB = 8\text{ cm}; BH = 4{,}8\text{ cm} \implies BC = 9{,}6\text{ cm}$ ($1{,}25$đ).
-
-* **Mã đề 103:** Cho $R = 9\text{ cm}, OA = 15\text{ cm}$.
-  - $a)$ Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($1{,}25$đ).
-  - $b)$ $BD \parallel OA$. $AB = 12\text{ cm}; BH = 7{,}2\text{ cm} \implies BC = 14{,}4\text{ cm}$ ($1{,}25$đ).
-
-* **Mã đề 104:** Cho $R = 12\text{ cm}, OA = 20\text{ cm}$.
-  - $a)$ Chứng minh bốn điểm $A, B, O, C$ cùng thuộc đường tròn đường kính $OA$ ($1{,}25$đ).
-  - $b)$ $BD \parallel OA$. $AB = 16\text{ cm}; BH = 9{,}6\text{ cm} \implies BC = 19{,}2\text{ cm}$ ($1{,}25$đ).
+*(Áp dụng đồng bộ cho cả 4 mã đề 101, 102, 103, 104).*
 
