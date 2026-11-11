@@ -1,5 +1,6 @@
 # BAREM ĐÁP ÁN & THANG ĐIỂM CHI TIẾT
 ## PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 10 - BUỔI 01
+### CHỦ ĐỀ: ÔN TẬP TOÀN DIỆN THI GIỮA HỌC KỲ 1 (SỐ TỰ NHIÊN & HÌNH HỌC TRỰC QUAN)
 ### Bốn mã đề tương đương: 101, 102, 103, 104
 ### Đơn vị biên soạn: Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn)
 
@@ -9,16 +10,16 @@
 
 | Câu | Nội dung kiểm tra | Mã đề 101 | Mã đề 102 | Mã đề 103 | Mã đề 104 |
 | :---: | :--- | :---: | :---: | :---: | :---: |
-| **Câu 1** | Viết số nguyên đại lượng thực tế | $-5^\circ\text{C}$ | $-20\text{ m}$ | $-15\text{ triệu}$ | $-287$ |
-| **Câu 2** | Kí hiệu quan hệ tập hợp | $\notin$ | $\in$ | $\notin$ | $\subset$ |
-| **Câu 3** | Tìm số đối của số nguyên | $18$ | $-25$ | $36$ | $0$ |
-| **Câu 4** | Đọc tọa độ điểm trên trục số | $-4$ | $-6$ | $-7$ | $-9$ |
-| **Câu 5** | Khoảng cách giữa 2 điểm trục số | $8$ | $10$ | $8$ | $10$ |
-| **Câu 6** | Số lượng số nguyên trong khoảng | $8$ | $10$ | $8$ | $9$ |
-| **Câu 7** | Tổng các số nguyên đối nhau | $0$ | $0$ | $4$ | $-5$ |
-| **Câu 8** | Nhận biết tâm/trục đối xứng | Hình vuông | H, O | $1$ | $2$ |
-| **Câu 9** | Diện tích hình bình hành | $120\text{ cm}^2$ | $144\text{ cm}^2$ | $126\text{ cm}^2$ | $120\text{ cm}^2$ |
-| **Câu 10** | Toán thực tế số nguyên ngắn | $-2^\circ\text{C}$ | $-50\text{ m}$ | $-200\,000\text{ đ}$ | $-12^\circ\text{C}$ |
+| **Câu 1** | Số phần tử của tập hợp | $7$ | $8$ | $9$ | $8$ |
+| **Câu 2** | Tính giá trị biểu thức lũy thừa | $44$ | $14$ | $16$ | $19$ |
+| **Câu 3** | Nhân chia lũy thừa cùng cơ số | $5^5$ | $3^6$ | $2^7$ | $7^5$ |
+| **Câu 4** | Nhận biết hợp số | $39$ | $51$ | $49$ | $91$ |
+| **Câu 5** | Dấu hiệu chia hết cho 9 | $4$ | $4$ | $1$ | $3$ |
+| **Câu 6** | Tìm ƯCLN | $12$ | $14$ | $15$ | $16$ |
+| **Câu 7** | Tìm BCNN | $36$ | $60$ | $60$ | $72$ |
+| **Câu 8** | Tính chất hình học trực quan | $3$ | $32\text{ cm}$ | $9\text{ cm}$ | $28\text{ cm}$ |
+| **Câu 9** | Diện tích hình thoi | $90\text{ cm}^2$ | $70\text{ cm}^2$ | $96\text{ cm}^2$ | $90\text{ cm}^2$ |
+| **Câu 10** | Toán thực tế chia túi quà (ƯCLN) | $15\text{ túi}$ | $12\text{ phần}$ | $8\text{ nhóm}$ | $20\text{ ngăn}$ |
 
 ---
 
@@ -61,97 +62,116 @@
 
 ---
 
-### CÂU 12 (2,0 ĐIỂM): TÌM SỐ TỰ NHIÊN / SỐ NGUYÊN $x$ (MỖI Ý 0,5 ĐIỂM)
+### CÂU 12 (2,0 ĐIỂM): TÌM SỐ TỰ NHIÊN $x$, BIẾT (MỖI Ý 0,5 ĐIỂM)
 
 #### Mã đề 101:
 * **a)** $3x - 17 = 28 \implies 3x = 28 + 17 = 45$ *(0,25đ)* $\implies x = 45 : 3 = 15$ *(0,25đ)*.
 * **b)** $5(x + 7) - 15 = 45 \implies 5(x + 7) = 60 \implies x + 7 = 12$ *(0,25đ)* $\implies x = 12 - 7 = 5$ *(0,25đ)*.
-* **c)** Vì $x \in \mathbb{Z}$ và $-3 \le x < 4$ *(0,25đ)* nên $x \in \{-3; -2; -1; 0; 1; 2; 3\}$ *(0,25đ)*.
+* **c)** Vì $x \;\vdots\; 12$ và $x \;\vdots\; 18$ nên $x \in BC(12, 18)$.
+  Ta có: $12 = 2^2 \cdot 3$; $18 = 2 \cdot 3^2 \implies BCNN(12, 18) = 2^2 \cdot 3^2 = 36$ *(0,25đ)*.
+  Suy ra $x \in BC(12, 18) = B(36) = \{0; 36; 72; 108; \dots\}$.
+  Vì $50 < x < 100$ nên $x = 72$ *(0,25đ)*.
 * **d)** $2 \cdot 3^{x-1} + 17 = 71 \implies 2 \cdot 3^{x-1} = 54 \implies 3^{x-1} = 27 = 3^3$ *(0,25đ)* $\implies x - 1 = 3 \implies x = 4$ *(0,25đ)*.
 
 #### Mã đề 102:
 * **a)** $4x - 19 = 37 \implies 4x = 56$ *(0,25đ)* $\implies x = 14$ *(0,25đ)*.
 * **b)** $4(x + 8) - 18 = 46 \implies 4(x + 8) = 64 \implies x + 8 = 16$ *(0,25đ)* $\implies x = 8$ *(0,25đ)*.
-* **c)** Vì $x \in \mathbb{Z}$ và $-4 < x \le 3$ *(0,25đ)* nên $x \in \{-3; -2; -1; 0; 1; 2; 3\}$ *(0,25đ)*.
+* **c)** Vì $x \;\vdots\; 15$ và $x \;\vdots\; 20$ nên $x \in BC(15, 20)$.
+  Ta có: $15 = 3 \cdot 5$; $20 = 2^2 \cdot 5 \implies BCNN(15, 20) = 2^2 \cdot 3 \cdot 5 = 60$ *(0,25đ)*.
+  Suy ra $x \in BC(15, 20) = B(60) = \{0; 60; 120; 180; \dots\}$.
+  Vì $80 < x < 150$ nên $x = 120$ *(0,25đ)*.
 * **d)** $3 \cdot 2^{x+1} - 15 = 33 \implies 3 \cdot 2^{x+1} = 48 \implies 2^{x+1} = 16 = 2^4$ *(0,25đ)* $\implies x + 1 = 4 \implies x = 3$ *(0,25đ)*.
 
 #### Mã đề 103:
 * **a)** $5x - 23 = 42 \implies 5x = 65$ *(0,25đ)* $\implies x = 13$ *(0,25đ)*.
 * **b)** $6(x + 5) - 24 = 48 \implies 6(x + 5) = 72 \implies x + 5 = 12$ *(0,25đ)* $\implies x = 7$ *(0,25đ)*.
-* **c)** Vì $x \in \mathbb{Z}$ và $-2 \le x \le 5$ *(0,25đ)* nên $x \in \{-2; -1; 0; 1; 2; 3; 4; 5\}$ *(0,25đ)*.
+* **c)** Vì $x \;\vdots\; 12$ và $x \;\vdots\; 15$ nên $x \in BC(12, 15)$.
+  Ta có: $12 = 2^2 \cdot 3$; $15 = 3 \cdot 5 \implies BCNN(12, 15) = 2^2 \cdot 3 \cdot 5 = 60$ *(0,25đ)*.
+  Suy ra $x \in BC(12, 15) = B(60) = \{0; 60; 120; 180; \dots\}$.
+  Vì $70 < x < 140$ nên $x = 120$ *(0,25đ)*.
 * **d)** $4 \cdot 3^{x-2} + 22 = 58 \implies 4 \cdot 3^{x-2} = 36 \implies 3^{x-2} = 9 = 3^2$ *(0,25đ)* $\implies x - 2 = 2 \implies x = 4$ *(0,25đ)*.
 
 #### Mã đề 104:
 * **a)** $6x - 27 = 45 \implies 6x = 72$ *(0,25đ)* $\implies x = 12$ *(0,25đ)*.
 * **b)** $3(x + 9) - 16 = 47 \implies 3(x + 9) = 63 \implies x + 9 = 21$ *(0,25đ)* $\implies x = 12$ *(0,25đ)*.
-* **c)** Vì $x \in \mathbb{Z}$ và $-5 < x < 3$ *(0,25đ)* nên $x \in \{-4; -3; -2; -1; 0; 1; 2\}$ *(0,25đ)*.
+* **c)** Vì $x \;\vdots\; 18$ và $x \;\vdots\; 24$ nên $x \in BC(18, 24)$.
+  Ta có: $18 = 2 \cdot 3^2$; $24 = 2^3 \cdot 3 \implies BCNN(18, 24) = 2^3 \cdot 3^2 = 72$ *(0,25đ)*.
+  Suy ra $x \in BC(18, 24) = B(72) = \{0; 72; 144; 216; \dots\}$.
+  Vì $100 < x < 180$ nên $x = 144$ *(0,25đ)*.
 * **d)** $5 \cdot 2^{x-1} - 13 = 27 \implies 5 \cdot 2^{x-1} = 40 \implies 2^{x-1} = 8 = 2^3$ *(0,25đ)* $\implies x - 1 = 3 \implies x = 4$ *(0,25đ)*.
 
 ---
 
-### CÂU 13 (2,0 ĐIỂM): BÀI TOÁN THỰC TẾ SỐ NGUYÊN (MỖI Ý 1,0 ĐIỂM)
+### CÂU 13 (2,0 ĐIỂM): BÀI TOÁN THỰC TẾ HÌNH HỌC (MỖI Ý 1,0 ĐIỂM)
 
 #### Mã đề 101:
 * **a) (1,0 điểm):**
-  - Độ cao đỉnh núi Fansipan so với mực nước biển là $+3\,143\text{ m}$ (hoặc $3\,143\text{ m}$) *(0,5đ)*.
-  - Độ sâu đáy Rãnh Mariana so với mực nước biển là $-10\,994\text{ m}$ *(0,5đ)*.
+  - Chu vi của mảnh vườn hình chữ nhật là:
+    $$(20 + 12) \cdot 2 = 64\text{ (m)}$$ *(0,5đ)*.
+  - Diện tích của mảnh vườn hình chữ nhật là:
+    $$20 \cdot 12 = 240\text{ (m}^2\text{)}$$ *(0,5đ)*.
 * **b) (1,0 điểm):**
-  - Khoảng cách theo phương thẳng đứng (chênh lệch độ cao) giữa đỉnh Fansipan và đáy Rãnh Mariana là:
-    $$3\,143 - (-10\,994) = 3\,143 + 10\,994 = 14\,137\text{ (m)}$$ *(0,75đ)*.
-  - Kết luận: Khoảng cách giữa hai vị trí là $14\,137\text{ m}$ *(0,25đ)*.
+  - Chiều dài hàng rào bao quanh mảnh vườn (đã trừ cổng $2\text{ m}$) là:
+    $$64 - 2 = 62\text{ (m)}$$ *(0,5đ)*.
+  - Số tiền bác An cần để làm hàng rào là:
+    $$62 \cdot 150\,000 = 9\,300\,000\text{ (đồng)}$$ *(0,5đ)*.
 
 #### Mã đề 102:
 * **a) (1,0 điểm):**
-  - Độ cao đỉnh núi Bà Đen là $+986\text{ m}$ (hoặc $986\text{ m}$) *(0,5đ)*.
-  - Vị trí của tàu ngầm là $-450\text{ m}$ *(0,5đ)*.
+  - Chu vi mảnh vườn: $(25 + 10) \cdot 2 = 70\text{ (m)}$ *(0,5đ)*.
+  - Diện tích mảnh vườn: $25 \cdot 10 = 250\text{ (m}^2\text{)}$ *(0,5đ)*.
 * **b) (1,0 điểm):**
-  - Khoảng cách giữa đỉnh núi Bà Đen và vị trí tàu ngầm là:
-    $$986 - (-450) = 986 + 450 = 1\,436\text{ (m)}$$ *(0,75đ)*.
-  - Kết luận: Khoảng cách giữa hai vị trí là $1\,436\text{ m}$ *(0,25đ)*.
+  - Chiều dài hàng rào cần làm: $70 - 2 = 68\text{ (m)}$ *(0,5đ)*.
+  - Số tiền bác Bình cần là: $68 \cdot 160\,000 = 10\,880\,000\text{ (đồng)}$ *(0,5đ)*.
 
 #### Mã đề 103:
 * **a) (1,0 điểm):**
-  - Độ cao đỉnh núi Mẫu Sơn là $+1\,541\text{ m}$ (hoặc $1\,541\text{ m}$) *(0,5đ)*.
-  - Vị trí đáy vực Puerto Rico là $-8\,376\text{ m}$ *(0,5đ)*.
+  - Chu vi mảnh vườn: $(18 + 12) \cdot 2 = 60\text{ (m)}$ *(0,5đ)*.
+  - Diện tích mảnh vườn: $18 \cdot 12 = 216\text{ (m}^2\text{)}$ *(0,5đ)*.
 * **b) (1,0 điểm):**
-  - Khoảng cách theo phương thẳng đứng là:
-    $$1\,541 - (-8\,376) = 1\,541 + 8\,376 = 9\,917\text{ (m)}$$ *(0,75đ)*.
-  - Kết luận: Khoảng cách giữa hai vị trí là $9\,917\text{ m}$ *(0,25đ)*.
+  - Chiều dài hàng rào cần làm: $60 - 3 = 57\text{ (m)}$ *(0,5đ)*.
+  - Số tiền bác Cường cần là: $57 \cdot 180\,000 = 10\,260\,000\text{ (đồng)}$ *(0,5đ)*.
 
 #### Mã đề 104:
 * **a) (1,0 điểm):**
-  - Độ cao đỉnh núi Pu Si Lung là $+3\,083\text{ m}$ (hoặc $3\,083\text{ m}$) *(0,5đ)*.
-  - Vị trí bề mặt Biển Chết là $-430\text{ m}$ *(0,5đ)*.
+  - Chu vi mảnh vườn: $(24 + 15) \cdot 2 = 78\text{ (m)}$ *(0,5đ)*.
+  - Diện tích mảnh vườn: $24 \cdot 15 = 360\text{ (m}^2\text{)}$ *(0,5đ)*.
 * **b) (1,0 điểm):**
-  - Khoảng cách theo phương thẳng đứng là:
-    $$3\,083 - (-430) = 3\,083 + 430 = 3\,513\text{ (m)}$$ *(0,75đ)*.
-  - Kết luận: Khoảng cách giữa hai vị trí là $3\,513\text{ m}$ *(0,25đ)*.
+  - Chiều dài hàng rào cần làm: $78 - 3 = 75\text{ (m)}$ *(0,5đ)*.
+  - Số tiền bác Dũng cần là: $75 \cdot 200\,000 = 15\,000\,000\text{ (đồng)}$ *(0,5đ)*.
 
 ---
 
-### CÂU 14 (0,5 ĐIỂM): BÀI TOÁN NÂNG CAO (CHIA HẾT TRONG $\mathbb{Z}$)
+### CÂU 14 (0,5 ĐIỂM): BÀI TOÁN VẬN DỤNG CAO (CHIA HẾT CỦA TỔNG DÃY LŨY THỪA)
 
 #### Mã đề 101:
-* Biến đổi: $A = \dfrac{n + 5}{n + 1} = \dfrac{n + 1 + 4}{n + 1} = 1 + \dfrac{4}{n + 1}$ *(0,25đ)*.
-* Để $A \in \mathbb{Z}$ thì $4 \ \vdots \ (n + 1) \implies n + 1 \in Ư(4) = \{1; -1; 2; -2; 4; -4\}$.
-  Suy ra: $n \in \{0; -2; 1; -3; 3; -5\}$.
-  Kết luận: Vậy $n \in \{-5; -3; -2; 0; 1; 3\}$ *(0,25đ)*.
+* Nhóm các số hạng thành từng cặp:
+  $$A = (3 + 3^2) + (3^3 + 3^4) + \dots + (3^{59} + 3^{60})$$ *(0,25đ)*.
+* Đặt thừa số chung:
+  $$A = 3 \cdot (1 + 3) + 3^3 \cdot (1 + 3) + \dots + 3^{59} \cdot (1 + 3)$$
+  $$A = 3 \cdot 4 + 3^3 \cdot 4 + \dots + 3^{59} \cdot 4 = 4 \cdot (3 + 3^3 + \dots + 3^{59})$$
+  Vì $4 \;\vdots\; 4$ nên $A \;\vdots\; 4$ (đpcm) *(0,25đ)*.
 
 #### Mã đề 102:
-* Biến đổi: $B = \dfrac{n + 7}{n + 2} = \dfrac{n + 2 + 5}{n + 2} = 1 + \dfrac{5}{n + 2}$ *(0,25đ)*.
-* Để $B \in \mathbb{Z}$ thì $(n + 2) \in Ư(5) = \{1; -1; 5; -5\}$.
-  Suy ra: $n \in \{-1; -3; 3; -7\}$.
-  Kết luận: Vậy $n \in \{-7; -3; -1; 3\}$ *(0,25đ)*.
+* Nhóm cặp:
+  $$B = (2 + 2^2) + (2^3 + 2^4) + \dots + (2^{59} + 2^{60})$$ *(0,25đ)*.
+* Đặt thừa số chung:
+  $$B = 2 \cdot (1 + 2) + 2^3 \cdot (1 + 2) + \dots + 2^{59} \cdot (1 + 2)$$
+  $$B = 2 \cdot 3 + 2^3 \cdot 3 + \dots + 2^{59} \cdot 3 = 3 \cdot (2 + 2^3 + \dots + 2^{59})$$
+  Vì $3 \;\vdots\; 3$ nên $B \;\vdots\; 3$ (đpcm) *(0,25đ)*.
 
 #### Mã đề 103:
-* Biến đổi: $C = \dfrac{n + 8}{n + 2} = \dfrac{n + 2 + 6}{n + 2} = 1 + \dfrac{6}{n + 2}$ *(0,25đ)*.
-* Để $C \in \mathbb{Z}$ thì $(n + 2) \in Ư(6) = \{1; -1; 2; -2; 3; -3; 6; -6\}$.
-  Suy ra: $n \in \{-1; -3; 0; -4; 1; -5; 4; -8\}$.
-  Kết luận: Vậy $n \in \{-8; -5; -4; -3; -1; 0; 1; 4\}$ *(0,25đ)*.
+* Nhóm cặp:
+  $$C = (4 + 4^2) + (4^3 + 4^4) + \dots + (4^{59} + 4^{60})$$ *(0,25đ)*.
+* Đặt thừa số chung:
+  $$C = 4 \cdot (1 + 4) + 4^3 \cdot (1 + 4) + \dots + 4^{59} \cdot (1 + 4)$$
+  $$C = 4 \cdot 5 + 4^3 \cdot 5 + \dots + 4^{59} \cdot 5 = 5 \cdot (4 + 4^3 + \dots + 4^{59})$$
+  Vì $5 \;\vdots\; 5$ nên $C \;\vdots\; 5$ (đpcm) *(0,25đ)*.
 
 #### Mã đề 104:
-* Biến đổi: $D = \dfrac{n + 6}{n + 3} = \dfrac{n + 3 + 3}{n + 3} = 1 + \dfrac{3}{n + 3}$ *(0,25đ)*.
-* Để $D \in \mathbb{Z}$ thì $(n + 3) \in Ư(3) = \{1; -1; 3; -3\}$.
-  Suy ra: $n \in \{-2; -4; 0; -6\}$.
-  Kết luận: Vậy $n \in \{-6; -4; -2; 0\}$ *(0,25đ)*.
-
+* Nhóm cặp:
+  $$D = (5 + 5^2) + (5^3 + 5^4) + \dots + (5^{59} + 5^{60})$$ *(0,25đ)*.
+* Đặt thừa số chung:
+  $$D = 5 \cdot (1 + 5) + 5^3 \cdot (1 + 5) + \dots + 5^{59} \cdot (1 + 5)$$
+  $$D = 5 \cdot 6 + 5^3 \cdot 6 + \dots + 5^{59} \cdot 6 = 6 \cdot (5 + 5^3 + \dots + 5^{59})$$
+  Vì $6 \;\vdots\; 6$ nên $D \;\vdots\; 6$ (đpcm) *(0,25đ)*.

@@ -6,44 +6,44 @@
     "101": {
       "short": [
         [
-          "Nhiệt độ $5^\\circ\\text{C}$ dưới $0^\\circ\\text{C}$ được biểu diễn bằng số nguyên là:",
-          "$-5^\\circ\\text{C}$"
+          "Cho tập hợp $A = \\{x \\in \\mathbb{N} \\mid 5 \\le x < 12\\}$. Số phần tử của tập hợp $A$ là:",
+          "$7$"
         ],
         [
-          "Điền kí hiệu thích hợp $(\\in, \\notin)$ vào chỗ chấm: $-7 \\;\\dots\\; \\mathbb{N}$",
-          "$\\notin$"
+          "Giá trị của biểu thức $2^4 \\cdot 5 - 3^2 \\cdot 4$ bằng:",
+          "$44$"
         ],
         [
-          "Số đối của số $-18$ là:",
-          "$18$"
+          "Kết quả phép tính $5^8 : 5^5 \\cdot 5^2$ viết dưới dạng lũy thừa là:",
+          "$5^5$"
         ],
         [
-          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $4$ đơn vị là:",
-          "$-4$"
+          "Trong các số: $13, 19, 29, 39$, số nào là hợp số?",
+          "$39$"
         ],
         [
-          "Khoảng cách giữa điểm $-3$ và điểm $5$ trên trục số bằng:",
-          "$8$"
+          "Chữ số $x$ để số $\\overline{14x}$ chia hết cho $9$ là:",
+          "$4$"
         ],
         [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-3 \\le x \\le 4$?",
-          "$8$"
+          "Ước chung lớn nhất của $24$ và $36$ bằng:",
+          "$12$"
         ],
         [
-          "Tổng tất cả các số nguyên $x$ thỏa mãn $-5 < x < 5$ bằng:",
-          "$0$"
+          "Bội chung nhỏ nhất của $12$ và $18$ bằng:",
+          "$36$"
         ],
         [
-          "Hình có tâm đối xứng trong: Vuông, Tam giác đều, Thang cân là:",
-          "Hình vuông"
+          "Số đường chéo chính của một hình lục giác đều là:",
+          "$3$"
         ],
         [
-          "Hình bình hành có đáy $15\\text{ cm}$, chiều cao tương ứng $8\\text{ cm}$. Diện tích là:",
-          "$120\\text{ cm}^2$"
+          "Hình thoi có hai đường chéo $12\\text{ cm}$ và $15\\text{ cm}$. Diện tích là:",
+          "$90\\text{ cm}^2$"
         ],
         [
-          "Nhiệt độ Sa Pa sáng là $3^\\circ\\text{C}$, đêm giảm $5^\\circ\\text{C}$. Nhiệt độ ban đêm là:",
-          "$-2^\\circ\\text{C}$"
+          "Có $30$ cuốn vở và $45$ cái bút chia đều vào các túi quà. Số túi quà nhiều nhất là:",
+          "$15\\text{ túi}$"
         ]
       ],
       "q11": {
@@ -57,59 +57,59 @@
       "q12": {
         "a": "$3x - 17 = 28$",
         "b": "$5(x + 7) - 15 = 45$",
-        "c": "Tập hợp các số nguyên $x$ sao cho $-3 \\le x < 4$",
+        "c": "$x \\;\\vdots\\; 12,\\; x \\;\\vdots\\; 18$ và $50 < x < 100$",
         "d": "$2 \\cdot 3^{x-1} + 17 = 71$"
       },
       "q13": {
-        "de": "Đỉnh núi Fansipan có độ cao $3\\,143\\text{ m}$ trên mực nước biển. Đáy Rãnh Mariana nằm ở độ sâu $10\\,994\\text{ m}$ dưới mực nước biển.",
-        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Fansipan và độ sâu đáy Rãnh Mariana so với mực nước biển.",
-        "b": "Tính khoảng cách theo phương thẳng đứng (độ chênh lệch độ cao) giữa đỉnh Fansipan và đáy Rãnh Mariana."
+        "de": "Bác An có một mảnh vườn hình chữ nhật có chiều dài $20\\text{ m}$ và chiều rộng $12\\text{ m}$.",
+        "a": "Tính chu vi và diện tích của mảnh vườn đó.",
+        "b": "Bác An dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $2\\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $150\\,000$ đồng. Hỏi bác An cần bao nhiêu tiền để làm hàng rào?"
       },
       "q14": {
-        "de": "Tìm tất cả các số nguyên $n$ để phân số $A = \\dfrac{n + 5}{n + 1}$ nhận giá trị là một số nguyên."
+        "de": "Cho biểu thức $A = 3 + 3^2 + 3^3 + \\dots + 3^{60}$. Chứng minh rằng $A$ chia hết cho $4$."
       }
     },
     "102": {
       "short": [
         [
-          "Độ sâu $20\\text{ m}$ dưới mực nước biển được biểu diễn bằng số nguyên là:",
-          "$-20\\text{ m}$"
+          "Cho tập hợp $B = \\{x \\in \\mathbb{N} \\mid 8 \\le x < 16\\}$. Số phần tử của tập hợp $B$ là:",
+          "$8$"
         ],
         [
-          "Điền kí hiệu thích hợp $(\\in, \\notin)$ vào chỗ chấm: $-12 \\;\\dots\\; \\mathbb{Z}$",
-          "$\\in$"
+          "Giá trị của biểu thức $3^3 \\cdot 2 - 2^3 \\cdot 5$ bằng:",
+          "$14$"
         ],
         [
-          "Số đối của số $25$ là:",
-          "$-25$"
+          "Kết quả phép tính $3^9 : 3^6 \\cdot 3^3$ viết dưới dạng lũy thừa là:",
+          "$3^6$"
         ],
         [
-          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $6$ đơn vị là:",
-          "$-6$"
+          "Trong các số: $23, 31, 41, 51$, số nào là hợp số?",
+          "$51$"
         ],
         [
-          "Khoảng cách giữa điểm $-4$ và điểm $6$ trên trục số bằng:",
-          "$10$"
+          "Chữ số $x$ để số $\\overline{23x}$ chia hết cho $9$ là:",
+          "$4$"
         ],
         [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-4 \\le x \\le 5$?",
-          "$10$"
+          "Ước chung lớn nhất của $28$ và $42$ bằng:",
+          "$14$"
         ],
         [
-          "Tổng tất cả các số nguyên $x$ thỏa mãn $-6 < x < 6$ bằng:",
-          "$0$"
+          "Bội chung nhỏ nhất của $15$ và $20$ bằng:",
+          "$60$"
         ],
         [
-          "Chữ cái có cả trục và tâm đối xứng trong A, H, M, O là:",
-          "H, O"
+          "Một hình thoi có cạnh $8\\text{ cm}$. Chu vi của hình thoi đó là:",
+          "$32\\text{ cm}$"
         ],
         [
-          "Hình bình hành có đáy $16\\text{ cm}$, chiều cao tương ứng $9\\text{ cm}$. Diện tích là:",
-          "$144\\text{ cm}^2$"
+          "Hình thoi có hai đường chéo $14\\text{ cm}$ và $10\\text{ cm}$. Diện tích là:",
+          "$70\\text{ cm}^2$"
         ],
         [
-          "Tàu ngầm ở độ cao $-30\\text{ m}$, lặn sâu thêm $20\\text{ m}$. Độ cao mới của tàu là:",
-          "$-50\\text{ m}$"
+          "Có $36$ hộp sữa và $48$ gói bánh chia đều vào các phần quà. Số phần quà nhiều nhất là:",
+          "$12\\text{ phần}$"
         ]
       ],
       "q11": {
@@ -123,59 +123,59 @@
       "q12": {
         "a": "$4x - 19 = 37$",
         "b": "$4(x + 8) - 18 = 46$",
-        "c": "Tập hợp các số nguyên $x$ sao cho $-4 < x \\le 3$",
+        "c": "$x \\;\\vdots\\; 15,\\; x \\;\\vdots\\; 20$ và $80 < x < 150$",
         "d": "$3 \\cdot 2^{x+1} - 15 = 33$"
       },
       "q13": {
-        "de": "Đỉnh núi Bà Đen có độ cao $986\\text{ m}$ trên mực nước biển. Một tàu ngầm nghiên cứu đại dương đang hoạt động ở độ sâu $450\\text{ m}$ dưới mực nước biển.",
-        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh núi Bà Đen và vị trí tàu ngầm so với mực nước biển.",
-        "b": "Tính khoảng cách theo phương thẳng đứng giữa đỉnh núi Bà Đen và vị trí tàu ngầm."
+        "de": "Bác Bình có một mảnh vườn hình chữ nhật có chiều dài $25\\text{ m}$ và chiều rộng $10\\text{ m}$.",
+        "a": "Tính chu vi và diện tích của mảnh vườn đó.",
+        "b": "Bác Bình dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $2\\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $160\\,000$ đồng. Hỏi bác Bình cần bao nhiêu tiền để làm hàng rào?"
       },
       "q14": {
-        "de": "Tìm tất cả các số nguyên $n$ để phân số $B = \\dfrac{n + 7}{n + 2}$ nhận giá trị là một số nguyên."
+        "de": "Cho biểu thức $B = 2 + 2^2 + 2^3 + \\dots + 2^{60}$. Chứng minh rằng $B$ chia hết cho $3$."
       }
     },
     "103": {
       "short": [
         [
-          "Một doanh nghiệp bị lỗ $15$ triệu đồng được biểu diễn bằng số nguyên là:",
-          "$-15\\text{ triệu}$"
+          "Cho tập hợp $C = \\{x \\in \\mathbb{N} \\mid 7 \\le x \\le 15\\}$. Số phần tử của tập hợp $C$ là:",
+          "$9$"
         ],
         [
-          "Điền kí hiệu thích hợp $(\\in, \\notin)$ vào chỗ chấm: Số $0 \\;\\dots\\; \\mathbb{Z}^-$ (số nguyên âm)",
-          "$\\notin$"
+          "Giá trị của biểu thức $2^5 \\cdot 3 - 4^2 \\cdot 5$ bằng:",
+          "$16$"
         ],
         [
-          "Số đối của số $-36$ là:",
-          "$36$"
+          "Kết quả phép tính $2^{10} : 2^7 \\cdot 2^4$ viết dưới dạng lũy thừa là:",
+          "$2^7$"
         ],
         [
-          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $7$ đơn vị là:",
-          "$-7$"
+          "Trong các số: $19, 29, 49, 59$, số nào là hợp số?",
+          "$49$"
         ],
         [
-          "Khoảng cách giữa điểm $-5$ và điểm $3$ trên trục số bằng:",
-          "$8$"
-        ],
-        [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-5 < x \\le 3$?",
-          "$8$"
-        ],
-        [
-          "Tổng tất cả các số nguyên $x$ thỏa mãn $-4 < x \\le 4$ bằng:",
-          "$4$"
-        ],
-        [
-          "Hình bình hành có tất cả bao nhiêu tâm đối xứng?",
+          "Chữ số $x$ để số $\\overline{35x}$ chia hết cho $9$ là:",
           "$1$"
         ],
         [
-          "Hình bình hành có đáy $18\\text{ cm}$, chiều cao tương ứng $7\\text{ cm}$. Diện tích là:",
-          "$126\\text{ cm}^2$"
+          "Ước chung lớn nhất của $30$ và $45$ bằng:",
+          "$15$"
         ],
         [
-          "Tài khoản có $500\\,000\\text{ đ}$, rút $700\\,000\\text{ đ}$. Số dư tài khoản là:",
-          "$-200\\,000\\text{ đ}$"
+          "Bội chung nhỏ nhất của $12$ và $15$ bằng:",
+          "$60$"
+        ],
+        [
+          "Một tam giác đều có chu vi $27\\text{ cm}$. Độ dài mỗi cạnh của tam giác đó là:",
+          "$9\\text{ cm}$"
+        ],
+        [
+          "Hình thoi có hai đường chéo $16\\text{ cm}$ và $12\\text{ cm}$. Diện tích là:",
+          "$96\\text{ cm}^2$"
+        ],
+        [
+          "Có $24$ bạn nam và $32$ bạn nữ chia đều vào các nhóm. Số nhóm nhiều nhất là:",
+          "$8\\text{ nhóm}$"
         ]
       ],
       "q11": {
@@ -189,59 +189,59 @@
       "q12": {
         "a": "$5x - 23 = 42$",
         "b": "$6(x + 5) - 24 = 48$",
-        "c": "Tập hợp các số nguyên $x$ sao cho $-2 \\le x \\le 5$",
+        "c": "$x \\;\\vdots\\; 12,\\; x \\;\\vdots\\; 15$ và $70 < x < 140$",
         "d": "$4 \\cdot 3^{x-2} + 22 = 58$"
       },
       "q13": {
-        "de": "Đỉnh núi Mẫu Sơn có độ cao $1\\,541\\text{ m}$ trên mực nước biển. Vực thẳm Puerto Rico có độ sâu $8\\,376\\text{ m}$ dưới mực nước biển.",
-        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Mẫu Sơn và độ sâu đáy vực Puerto Rico so với mực nước biển.",
-        "b": "Tính khoảng cách theo phương thẳng đứng giữa đỉnh núi Mẫu Sơn và đáy vực Puerto Rico."
+        "de": "Bác Cường có một mảnh vườn hình chữ nhật có chiều dài $18\\text{ m}$ và chiều rộng $12\\text{ m}$.",
+        "a": "Tính chu vi và diện tích của mảnh vườn đó.",
+        "b": "Bác Cường dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $3\\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $180\\,000$ đồng. Hỏi bác Cường cần bao nhiêu tiền để làm hàng rào?"
       },
       "q14": {
-        "de": "Tìm tất cả các số nguyên $n$ để phân số $C = \\dfrac{n + 8}{n + 2}$ nhận giá trị là một số nguyên."
+        "de": "Cho biểu thức $C = 4 + 4^2 + 4^3 + \\dots + 4^{60}$. Chứng minh rằng $C$ chia hết cho $5$."
       }
     },
     "104": {
       "short": [
         [
-          "Năm $287$ trước Công nguyên được biểu diễn bằng số nguyên là:",
-          "$-287$"
+          "Cho tập hợp $D = \\{x \\in \\mathbb{N} \\mid 6 < x \\le 14\\}$. Số phần tử của tập hợp $D$ là:",
+          "$8$"
         ],
         [
-          "Điền kí hiệu thích hợp $(\\subset, \\not\\subset)$ vào chỗ chấm: Tập hợp $\\mathbb{N} \\;\\dots\\; \\mathbb{Z}$",
-          "$\\subset$"
+          "Giá trị của biểu thức $5^2 \\cdot 4 - 3^3 \\cdot 3$ bằng:",
+          "$19$"
         ],
         [
-          "Số đối của số $0$ là:",
-          "$0$"
+          "Kết quả phép tính $7^7 : 7^4 \\cdot 7^2$ viết dưới dạng lũy thừa là:",
+          "$7^5$"
         ],
         [
-          "Điểm ở bên trái gốc $0$ và cách gốc $0$ một khoảng $9$ đơn vị là:",
-          "$-9$"
+          "Trong các số: $31, 61, 71, 91$, số nào là hợp số?",
+          "$91$"
         ],
         [
-          "Khoảng cách giữa điểm $-6$ và điểm $4$ trên trục số bằng:",
-          "$10$"
+          "Chữ số $x$ để số $\\overline{42x}$ chia hết cho $9$ là:",
+          "$3$"
         ],
         [
-          "Có bao nhiêu số nguyên $x$ thỏa mãn điều kiện $-2 \\le x < 7$?",
-          "$9$"
+          "Ước chung lớn nhất của $32$ và $48$ bằng:",
+          "$16$"
         ],
         [
-          "Tổng tất cả các số nguyên $x$ thỏa mãn $-5 \\le x < 5$ bằng:",
-          "$-5$"
+          "Bội chung nhỏ nhất của $18$ và $24$ bằng:",
+          "$72$"
         ],
         [
-          "Hình chữ nhật có tất cả bao nhiêu trục đối xứng?",
-          "$2$"
+          "Một hình vuông có diện tích $49\\text{ cm}^2$. Chu vi của hình vuông đó là:",
+          "$28\\text{ cm}$"
         ],
         [
-          "Hình bình hành có đáy $20\\text{ cm}$, chiều cao tương ứng $6\\text{ cm}$. Diện tích là:",
-          "$120\\text{ cm}^2$"
+          "Hình thoi có hai đường chéo $18\\text{ cm}$ và $10\\text{ cm}$. Diện tích là:",
+          "$90\\text{ cm}^2$"
         ],
         [
-          "Kho đông lạnh ở $-8^\\circ\\text{C}$, nhân viên giảm thêm $4^\\circ\\text{C}$. Nhiệt độ mới là:",
-          "$-12^\\circ\\text{C}$"
+          "Có $40$ cuốn truyện và $60$ cuốn SGK chia đều vào các ngăn. Số ngăn nhiều nhất là:",
+          "$20\\text{ ngăn}$"
         ]
       ],
       "q11": {
@@ -255,16 +255,16 @@
       "q12": {
         "a": "$6x - 27 = 45$",
         "b": "$3(x + 9) - 16 = 47$",
-        "c": "Tập hợp các số nguyên $x$ sao cho $-5 < x < 3$",
+        "c": "$x \\;\\vdots\\; 18,\\; x \\;\\vdots\\; 24$ và $100 < x < 180$",
         "d": "$5 \\cdot 2^{x-1} - 13 = 27$"
       },
       "q13": {
-        "de": "Đỉnh núi Pu Si Lung cao $3\\,083\\text{ m}$ trên mực nước biển. Bề mặt Biển Chết nằm ở độ sâu $430\\text{ m}$ dưới mực nước biển.",
-        "a": "Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Pu Si Lung và bề mặt Biển Chết so với mực nước biển.",
-        "b": "Tính khoảng cách theo phương thẳng đứng giữa đỉnh Pu Si Lung và bề mặt Biển Chết."
+        "de": "Bác Dũng có một mảnh vườn hình chữ nhật có chiều dài $24\\text{ m}$ và chiều rộng $15\\text{ m}$.",
+        "a": "Tính chu vi và diện tích của mảnh vườn đó.",
+        "b": "Bác Dũng dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $3\\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $200\\,000$ đồng. Hỏi bác Dũng cần bao nhiêu tiền để làm hàng rào?"
       },
       "q14": {
-        "de": "Tìm tất cả các số nguyên $n$ để phân số $D = \\dfrac{n + 6}{n + 3}$ nhận giá trị là một số nguyên."
+        "de": "Cho biểu thức $D = 5 + 5^2 + 5^3 + \\dots + 5^{60}$. Chứng minh rằng $D$ chia hết cho $6$."
       }
     }
   }

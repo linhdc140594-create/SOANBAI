@@ -10,7 +10,7 @@ def load_data():
     with open(json_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-def build_tex(data, ob11=7, ob12_ab=5, ob12_cd=7, dk13=11, dk14=7):
+def build_tex(data, ob11=7, ob12_ab=5, ob12_cd=7, dk13=12, dk14=8):
     t_p1 = data["title_p1"]
     t_p2 = data["title_p2"]
     codes = data["codes"]
@@ -112,7 +112,7 @@ def build_tex(data, ob11=7, ob12_ab=5, ob12_cd=7, dk13=11, dk14=7):
 
 \\vspace{{1.2mm}}
 
-\\noindent\\textbf{{Câu 12 (2,0 điểm). Tìm số tự nhiên / số nguyên $x$, biết:}}
+\\noindent\\textbf{{Câu 12 (2,0 điểm). Tìm số tự nhiên $x$, biết:}}
 \\vspace{{0.5mm}}
 
 \\noindent
@@ -168,8 +168,8 @@ def main():
     ob11 = 7
     ob12_ab = 5
     ob12_cd = 7
-    dk13 = 11
-    dk14 = 7
+    dk13 = 12
+    dk14 = 8
     
     print(f"Generating TeX with ob11={ob11}, ob12_ab={ob12_ab}, ob12_cd={ob12_cd}, dk13={dk13}, dk14={dk14}...")
     tex_content = build_tex(data, ob11=ob11, ob12_ab=ob12_ab, ob12_cd=ob12_cd, dk13=dk13, dk14=dk14)
@@ -177,9 +177,9 @@ def main():
         f.write(tex_content)
         
     print("Compiling pdflatex (run 1)...")
-    subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, capture_output=True, text=True)
+    subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, capture_output=True, text=True, errors='replace')
     print("Compiling pdflatex (run 2)...")
-    res = subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, capture_output=True, text=True)
+    res = subprocess.run(["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"], cwd=CUR_DIR, capture_output=True, text=True, errors='replace')
     
     if not os.path.exists(pdf_path):
         print("Compilation failed! Log:")

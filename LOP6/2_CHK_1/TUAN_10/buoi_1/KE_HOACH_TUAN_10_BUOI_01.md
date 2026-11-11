@@ -1,6 +1,6 @@
 # KẾ HOẠCH NỘI DUNG & MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ
 ## TOÁN 6 - TUẦN 10 - BUỔI 01
-### CHỦ ĐỀ: BÀI 13: TẬP HỢP CÁC SỐ NGUYÊN (LÀM QUEN SỐ ÂM, TẬP HỢP $\mathbb{Z}$, TRỤC SỐ, SỐ ĐỐI)
+### CHỦ ĐỀ: ÔN TẬP TOÀN DIỆN THI GIỮA HỌC KỲ 1 (SỐ TỰ NHIÊN & HÌNH HỌC TRỰC QUAN)
 ### Bám sát chương trình SGK mới (Kết nối tri thức với cuộc sống & Cánh diều)
 ### Đơn vị biên soạn: Lớp Toán Thầy Lĩnh (loptoanthaylinh.vn)
 
@@ -8,17 +8,17 @@
 
 ## 🎯 I. MỤC TIÊU ÔN TẬP & ĐÁNH GIÁ (TUẦN 10 - BUỔI 01)
 
-1. **Kiến thức trọng tâm:**
-   - Hiểu rõ ý nghĩa thực tế và nhu cầu sử dụng số nguyên âm trong đời sống (nhiệt độ dưới $0^\circ\text{C}$, độ sâu dưới mực nước biển, số tiền nợ/lỗ, niên đại trước Công nguyên).
-   - Nắm vững cấu trúc tập hợp các số nguyên $\mathbb{Z}$: $\mathbb{Z} = \{\dots, -3, -2, -1, 0, 1, 2, 3, \dots\}$. Nhận biết số $0$ không phải là số nguyên âm, cũng không phải là số nguyên dương.
-   - Sử dụng thành thạo các kí hiệu tập hợp: $\in, \notin, \subset$ (đặc biệt $\mathbb{N} \subset \mathbb{Z}$).
-   - Biểu diễn số nguyên trên trục số nằm ngang (gốc $0$, chiều dương từ trái sang phải).
-   - Khái niệm và tính chất của số đối: Số đối của $a$ là $-a$, số đối của $-a$ là $a$, số đối của $0$ là $0$. Hai điểm biểu diễn hai số đối nhau nằm ở hai phía và cách đều điểm gốc $0$.
+1. **Kiến thức trọng tâm (Tuyệt đối không có số nguyên - 100% trọng tâm Giữa HK1):**
+   - **Tập hợp & Số tự nhiên:** Kí hiệu $\in, \notin, \subset$, số phần tử của tập hợp, tập $\mathbb{N}, \mathbb{N}^*$.
+   - **Thứ tự thực hiện phép tính & Lũy thừa:** Thứ tự ưu tiên tính lũy thừa $\to$ nhân, chia $\to$ cộng, trừ; thứ tự mở ngoặc $( ) \to [ ] \to \{ \}$; các công thức lũy thừa cùng cơ số $a^m \cdot a^n = a^{m+n}$, $a^m : a^n = a^{m-n}$, quy ước $a^0 = 1$.
+   - **Tính chia hết & Số nguyên tố:** Dấu hiệu chia hết cho 2, 3, 5, 9; nhận biết số nguyên tố, hợp số; phân tích ra thừa số nguyên tố.
+   - **Ước chung & Bội chung:** Quy tắc tìm ƯCLN và BCNN; tìm tập hợp ước chung, bội chung thông qua ƯCLN, BCNN; giải bài toán tìm số tự nhiên $x$ thỏa mãn khoảng.
+   - **Hình học trực quan:** Nhận biết đặc điểm cạnh, góc, đường chéo của tam giác đều, hình vuông, hình lục giác đều, hình thoi, hình chữ nhật, hình bình hành, hình thang cân; công thức chu vi và diện tích.
 2. **Kỹ năng tính toán & Giải quyết vấn đề:**
-   - Tiếp tục duy trì kỹ năng tính toán chuẩn mực với 6 ý tính toán toàn diện (giao hoán kết hợp tròn trăm, nhân phân phối, lũy thừa, ngoặc tròn, ngoặc vuông, ngoặc nhọn).
-   - Giải phương trình tìm số tự nhiên / số nguyên $x$: phương trình bậc nhất, phương trình có ngoặc, phương trình lũy thừa và dạng liệt kê tập hợp số nguyên trong khoảng.
-   - Vận dụng số nguyên vào bài toán thực tế: Đọc hiểu và viết số nguyên cho các đại lượng thực tế, tính chênh lệch độ cao địa lý.
-3. **Vận dụng cao:** Phương pháp tìm số nguyên $n$ để phân số $\dfrac{n + a}{n + b}$ nhận giá trị nguyên (bài toán chia hết trong tập số nguyên $\mathbb{Z}$).
+   - Kỹ năng tính toán nhanh, hợp lý (giao hoán, kết hợp tròn trăm, tròn chục, tính chất phân phối của phép nhân đối với phép cộng).
+   - Giải phương trình tìm số tự nhiên $x$: bậc nhất, có dấu ngoặc, lũy thừa và tìm $x$ thông qua BCNN thỏa mãn điều kiện khoảng.
+   - Vận dụng kiến thức hình học vào bài toán thực tế: Tính chu vi, diện tích mảnh vườn hình chữ nhật và chi phí làm hàng rào có trừ cổng ra vào.
+3. **Vận dụng cao:** Chứng minh tổng dãy lũy thừa chia hết cho một số nguyên (bài toán ghép cặp phân loại điểm 10).
 
 ---
 
@@ -27,13 +27,13 @@
 * **Quy cách:** Chuẩn thiết kế mới Layout Gold Standard (Header 1 dòng, bỏ chủ đề/thời gian, bỏ khung họ tên, 10 câu trả lời ngắn `\shortans`).
 * **Thời gian làm bài:** 45 phút – Đóng gói trọn vẹn 4 mã đề hoán vị ($101, 102, 103, 104$) trong đúng **8 trang PDF**.
 
-| Câu | Dạng bài | Nội dung kiến thức kiểm tra chuẩn Tuần 10 - Buổi 1 | Điểm | Định dạng trình bày & Dòng kẻ |
+| Câu | Dạng bài | Nội dung kiến thức kiểm tra chuẩn Ôn thi GHK1 | Điểm | Định dạng trình bày & Dòng kẻ |
 | :---: | :---: | :--- | :---: | :--- |
-| **Câu 1 $\to$ 10** | **Trả lời ngắn** | **Bao quát toàn diện kiến thức Số nguyên & Hình phẳng:**<br>1. Viết số nguyên biểu diễn đại lượng thực tế<br>2. Nhận biết quan hệ phần tử và tập hợp $\mathbb{N}, \mathbb{Z}$<br>3. Tìm số đối của một số nguyên cho trước<br>4. Đọc tọa độ điểm biểu diễn trên trục số<br>5. Tính khoảng cách giữa hai điểm trên trục số<br>6. Đếm số lượng số nguyên thỏa mãn điều kiện khoảng<br>7. Tính tổng các số nguyên đối nhau trong khoảng đối xứng<br>8. Nhận biết tâm đối xứng / trục đối xứng hình phẳng<br>9. Tính diện tích hình bình hành theo đáy và chiều cao<br>10. Bài toán thực tế ngắn về thay đổi nhiệt độ / độ cao | **2,5 đ**<br>*(0,25 đ/câu)* | Dùng `\shortans`, có ô đáp số bo góc mép phải |
+| **Câu 1 $\to$ 10** | **Trả lời ngắn** | **Bao quát toàn diện kiến thức Số tự nhiên & Hình học trực quan:**<br>1. Tìm số phần tử của tập hợp số tự nhiên<br>2. Tính giá trị biểu thức lũy thừa ngắn<br>3. Nhân, chia lũy thừa cùng cơ số<br>4. Nhận biết số nguyên tố / hợp số<br>5. Tìm chữ số để số chia hết cho 9<br>6. Tìm ƯCLN của hai số<br>7. Tìm BCNN của hai số<br>8. Tính chất hình phẳng (đường chéo lục giác đều, chu vi tam giác đều / hình thoi / hình vuông)<br>9. Tính diện tích hình thoi theo độ dài hai đường chéo<br>10. Bài toán thực tế ngắn ứng dụng ƯCLN chia túi quà | **2,5 đ**<br>*(0,25 đ/câu)* | Dùng `\shortans`, có ô đáp số bo góc mép phải |
 | **Câu 11** | **Tự luận (Đại số)** | **Thực hiện phép tính (hợp lý nếu có thể) - 6 ý:**<br>- a) Cộng tính nhanh giao hoán, kết hợp tròn trăm<br>- b) Nhân phân phối đặt thừa số chung: $a \cdot b + a \cdot c$<br>- c) Phối hợp phép tính lũy thừa và nhân chia: $a \cdot 2^3 - b : 3^2 + c^0$<br>- d) Biểu thức có dấu ngoặc tròn: $K : (A - B) + C^2 \cdot D$<br>- e) Biểu thức chứa dấu ngoặc vuông và tròn: $K : [A - (B - C)^2]$<br>- f) Biểu thức nhiều tầng ngoặc: $K : \{A - [B - (C - D)^2]\}$ | **3,0 đ**<br>*(0,5 đ/ý)* | Bảng $3 \times 2$, mỗi ô `\oBaiTap[7]` (7 dòng kẻ mờ/ô) $\to$ **chạm sát mép đáy Trang 1** |
-| **Câu 12** | **Tự luận (Đại số)** | **Tìm số tự nhiên / số nguyên $x$, biết (4 ý):**<br>- a) Phương trình cơ bản: $ax - b = c$ (`\oBaiTap[5]`)<br>- b) Phương trình có dấu ngoặc: $a(x + b) - c = d$ (`\oBaiTap[5]`)<br>- c) Liệt kê tập hợp các số nguyên $x$ thỏa mãn khoảng: $-a \le x < b$ (**`\oBaiTap[7]`**)<br>- d) Phương trình chứa lũy thừa: $a \cdot b^{x \pm c} \pm d = e$ (**`\oBaiTap[7]`**) | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, hàng 1 `\oBaiTap[5]`, hàng 2 `\oBaiTap[7]` |
-| **Câu 13** | **Tự luận (Thực tế)** | **Bài toán thực tế đại lượng số nguyên (Độ cao địa lý):**<br>Cho bảng dữ liệu độ cao của đỉnh núi trên đất liền và rãnh sâu / tàu ngầm dưới mực nước biển.<br>- **a) (1,0 đ)** Dùng số nguyên thích hợp để biểu diễn độ cao/độ sâu các địa điểm.<br>- **b) (1,0 đ)** Tính khoảng cách theo phương thẳng đứng (chênh lệch độ cao) giữa hai địa điểm. | **2,0 đ**<br>*(1,0 đ/ý)* | Khung bảng đóng hộp, có bài giải `\dongke{11}` |
-| **Câu 14** | **Tự luận (Nâng cao)** | **Tìm số nguyên $n$ để phân số nguyên:**<br>Tìm tất cả các số nguyên $n$ để biểu thức phân số $P = \dfrac{n + a}{n + b}$ nhận giá trị là một số nguyên. | **0,5 đ** | Khung bảng đóng hộp, có bài giải `\dongke{7}` $\to$ **chạm sát mép đáy Trang 2** |
+| **Câu 12** | **Tự luận (Đại số)** | **Tìm số tự nhiên $x$, biết (4 ý):**<br>- a) Phương trình cơ bản: $ax - b = c$ (`\oBaiTap[5]`)<br>- b) Phương trình có dấu ngoặc: $a(x + b) - c = d$ (`\oBaiTap[5]`)<br>- c) Tìm $x$ qua Bội chung: $x \;\vdots\; a,\; x \;\vdots\; b$ và $m < x < n$ (**`\oBaiTap[7]`**)<br>- d) Phương trình chứa lũy thừa: $a \cdot b^{x \pm c} \pm d = e$ (**`\oBaiTap[7]`**) | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, hàng 1 `\oBaiTap[5]`, hàng 2 `\oBaiTap[7]` |
+| **Câu 13** | **Tự luận (Hình học thực tế)** | **Bài toán thực tế khu vườn hình chữ nhật:**<br>- **a) (1,0 đ)** Tính chu vi và diện tích mảnh vườn.<br>- **b) (1,0 đ)** Tính chi phí làm hàng rào bao quanh mảnh vườn (có trừ cổng vào). | **2,0 đ**<br>*(1,0 đ/ý)* | Khung bảng đóng hộp, có bài giải `\dongke{11}` |
+| **Câu 14** | **Tự luận (Nâng cao)** | **Chia hết của tổng dãy lũy thừa:**<br>Chứng minh tổng dãy lũy thừa $S = a + a^2 + a^3 + \dots + a^{60}$ chia hết cho một số nguyên. | **0,5 đ** | Khung bảng đóng hộp, có bài giải `\dongke{7}` $\to$ **chạm sát mép đáy Trang 2** |
 
 $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}0\text{ ĐIỂM}$$
 
@@ -45,16 +45,16 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 
 | Câu | Nội dung kiểm tra | Mã đề 101 | Mã đề 102 | Mã đề 103 | Mã đề 104 |
 | :---: | :--- | :---: | :---: | :---: | :---: |
-| **1** | Viết số nguyên thực tế | Nhiệt độ $5^\circ\text{C}$ dưới $0^\circ\text{C}$ được biểu diễn là:<br>$\to$ **KQ: $-5^\circ\text{C}$** | Độ sâu $20\text{ m}$ dưới mực nước biển được biểu diễn là:<br>$\to$ **KQ: $-20\text{ m}$** | Một cửa hàng bị lỗ $15$ triệu đồng được biểu diễn là:<br>$\to$ **KQ: $-15\text{ triệu}$** | Năm $287$ trước Công nguyên được biểu diễn là:<br>$\to$ **KQ: $-287$** |
-| **2** | Quan hệ phần tử và tập hợp | Điền kí hiệu ($\in, \notin$): Số $-7$ ... $\mathbb{N}$<br>$\to$ **KQ: $\notin$** | Điền kí hiệu ($\in, \notin$): Số $-12$ ... $\mathbb{Z}$<br>$\to$ **KQ: $\in$** | Điền kí hiệu ($\in, \notin$): Số $0$ ... $\mathbb{Z}^-$ (số nguyên âm)<br>$\to$ **KQ: $\notin$** | Điền kí hiệu ($\subset, \not\subset$): Tập hợp $\mathbb{N}$ ... $\mathbb{Z}$<br>$\to$ **KQ: $\subset$** |
-| **3** | Tìm số đối của số nguyên | Số đối của số $-18$ là:<br>$\to$ **KQ: $18$** | Số đối của số $25$ là:<br>$\to$ **KQ: $-25$** | Số đối của số $-36$ là:<br>$\to$ **KQ: $36$** | Số đối của số $0$ là:<br>$\to$ **KQ: $0$** |
-| **4** | Đọc tọa độ trên trục số | Điểm $A$ nằm bên trái gốc $0$ và cách gốc $0$ một khoảng $4$ đơn vị biểu diễn số:<br>$\to$ **KQ: $-4$** | Điểm $B$ nằm bên trái gốc $0$ và cách gốc $0$ một khoảng $6$ đơn vị biểu diễn số:<br>$\to$ **KQ: $-6$** | Điểm $C$ nằm bên trái gốc $0$ và cách gốc $0$ một khoảng $7$ đơn vị biểu diễn số:<br>$\to$ **KQ: $-7$** | Điểm $D$ nằm bên trái gốc $0$ và cách gốc $0$ một khoảng $9$ đơn vị biểu diễn số:<br>$\to$ **KQ: $-9$** |
-| **5** | Khoảng cách trên trục số | Khoảng cách giữa điểm $-3$ và điểm $5$ trên trục số là:<br>$\to$ **KQ: $8$** | Khoảng cách giữa điểm $-4$ và điểm $6$ trên trục số là:<br>$\to$ **KQ: $10$** | Khoảng cách giữa điểm $-5$ và điểm $3$ trên trục số là:<br>$\to$ **KQ: $8$** | Khoảng cách giữa điểm $-6$ và điểm $4$ trên trục số là:<br>$\to$ **KQ: $10$** |
-| **6** | Số lượng số nguyên trong khoảng | Có bao nhiêu số nguyên $x$ thỏa mãn $-3 \le x \le 4$?<br>$\to$ **KQ: $8$** | Có bao nhiêu số nguyên $x$ thỏa mãn $-4 \le x \le 5$?<br>$\to$ **KQ: $10$** | Có bao nhiêu số nguyên $x$ thỏa mãn $-5 < x \le 3$?<br>$\to$ **KQ: $8$** | Có bao nhiêu số nguyên $x$ thỏa mãn $-2 \le x < 7$?<br>$\to$ **KQ: $9$** |
-| **7** | Tổng các số nguyên đối nhau | Tổng các số nguyên $x$ thỏa mãn $-5 < x < 5$ bằng:<br>$\to$ **KQ: $0$** | Tổng các số nguyên $x$ thỏa mãn $-6 < x < 6$ bằng:<br>$\to$ **KQ: $0$** | Tổng các số nguyên $x$ thỏa mãn $-4 < x \le 4$ bằng:<br>$\to$ **KQ: $4$** | Tổng các số nguyên $x$ thỏa mãn $-5 \le x < 5$ bằng:<br>$\to$ **KQ: $-5$** |
-| **8** | Nhận biết đối xứng hình học | Hình nào luôn có tâm đối xứng: Hình vuông, Tam giác đều, Thang cân?<br>$\to$ **KQ: Hình vuông** | Chữ cái nào vừa có trục đối xứng vừa có tâm đối xứng trong: A, H, M, O?<br>$\to$ **KQ: H, O** | Hình bình hành có bao nhiêu tâm đối xứng?<br>$\to$ **KQ: $1$** | Hình chữ nhật có bao nhiêu trục đối xứng?<br>$\to$ **KQ: $2$** |
-| **9** | Diện tích hình bình hành | Hình bình hành có đáy $15\text{ cm}$, chiều cao tương ứng $8\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $120\text{ cm}^2$** | Hình bình hành có đáy $16\text{ cm}$, chiều cao tương ứng $9\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $144\text{ cm}^2$** | Hình bình hành có đáy $18\text{ cm}$, chiều cao tương ứng $7\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $126\text{ cm}^2$** | Hình bình hành có đáy $20\text{ cm}$, chiều cao tương ứng $6\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $120\text{ cm}^2$** |
-| **10** | Toán thực tế số nguyên ngắn | Nhiệt độ tại Sa Pa sáng là $3^\circ\text{C}$, đêm giảm $5^\circ\text{C}$. Nhiệt độ ban đêm là:<br>$\to$ **KQ: $-2^\circ\text{C}$** | Tàu ngầm ở độ cao $-30\text{ m}$, lặn sâu thêm $20\text{ m}$. Độ cao mới là:<br>$\to$ **KQ: $-50\text{ m}$** | Tài khoản có $500\,000$ đ, rút $700\,000$ đ. Số dư tài khoản là:<br>$\to$ **KQ: $-200\,000\text{ đ}$** | Phòng đông lạnh ở $-8^\circ\text{C}$, điều chỉnh giảm thêm $4^\circ\text{C}$. Nhiệt độ mới là:<br>$\to$ **KQ: $-12^\circ\text{C}$** |
+| **1** | Số phần tử của tập hợp | Cho $A = \{x \in \mathbb{N} \mid 5 \le x < 12\}$. Số phần tử của tập hợp $A$ là:<br>$\to$ **KQ: $7$** | Cho $B = \{x \in \mathbb{N} \mid 8 \le x < 16\}$. Số phần tử của tập hợp $B$ là:<br>$\to$ **KQ: $8$** | Cho $C = \{x \in \mathbb{N} \mid 7 \le x \le 15\}$. Số phần tử của tập hợp $C$ là:<br>$\to$ **KQ: $9$** | Cho $D = \{x \in \mathbb{N} \mid 6 < x \le 14\}$. Số phần tử của tập hợp $D$ là:<br>$\to$ **KQ: $8$** |
+| **2** | Tính giá trị biểu thức lũy thừa | Giá trị của biểu thức $2^4 \cdot 5 - 3^2 \cdot 4$ bằng:<br>$\to$ **KQ: $44$** | Giá trị của biểu thức $3^3 \cdot 2 - 2^3 \cdot 5$ bằng:<br>$\to$ **KQ: $14$** | Giá trị của biểu thức $2^5 \cdot 3 - 4^2 \cdot 5$ bằng:<br>$\to$ **KQ: $16$** | Giá trị của biểu thức $5^2 \cdot 4 - 3^3 \cdot 3$ bằng:<br>$\to$ **KQ: $19$** |
+| **3** | Nhân chia lũy thừa cùng cơ số | Kết quả phép tính $5^8 : 5^5 \cdot 5^2$ viết dưới dạng lũy thừa là:<br>$\to$ **KQ: $5^5$** | Kết quả phép tính $3^9 : 3^6 \cdot 3^3$ viết dưới dạng lũy thừa là:<br>$\to$ **KQ: $3^6$** | Kết quả phép tính $2^{10} : 2^7 \cdot 2^4$ viết dưới dạng lũy thừa là:<br>$\to$ **KQ: $2^7$** | Kết quả phép tính $7^7 : 7^4 \cdot 7^2$ viết dưới dạng lũy thừa là:<br>$\to$ **KQ: $7^5$** |
+| **4** | Nhận biết hợp số | Trong các số: $13, 19, 29, 39$, số nào là hợp số?<br>$\to$ **KQ: $39$** | Trong các số: $23, 31, 41, 51$, số nào là hợp số?<br>$\to$ **KQ: $51$** | Trong các số: $19, 29, 49, 59$, số nào là hợp số?<br>$\to$ **KQ: $49$** | Trong các số: $31, 61, 71, 91$, số nào là hợp số?<br>$\to$ **KQ: $91$** |
+| **5** | Dấu hiệu chia hết cho 9 | Chữ số $x$ để số $\overline{14x}$ chia hết cho $9$ là:<br>$\to$ **KQ: $4$** | Chữ số $x$ để số $\overline{23x}$ chia hết cho $9$ là:<br>$\to$ **KQ: $4$** | Chữ số $x$ để số $\overline{35x}$ chia hết cho $9$ là:<br>$\to$ **KQ: $1$** | Chữ số $x$ để số $\overline{42x}$ chia hết cho $9$ là:<br>$\to$ **KQ: $3$** |
+| **6** | Tìm ƯCLN | Ước chung lớn nhất của $24$ và $36$ bằng:<br>$\to$ **KQ: $12$** | Ước chung lớn nhất của $28$ và $42$ bằng:<br>$\to$ **KQ: $14$** | Ước chung lớn nhất của $30$ và $45$ bằng:<br>$\to$ **KQ: $15$** | Ước chung lớn nhất của $32$ và $48$ bằng:<br>$\to$ **KQ: $16$** |
+| **7** | Tìm BCNN | Bội chung nhỏ nhất của $12$ và $18$ bằng:<br>$\to$ **KQ: $36$** | Bội chung nhỏ nhất của $15$ và $20$ bằng:<br>$\to$ **KQ: $60$** | Bội chung nhỏ nhất của $12$ và $15$ bằng:<br>$\to$ **KQ: $60$** | Bội chung nhỏ nhất của $18$ và $24$ bằng:<br>$\to$ **KQ: $72$** |
+| **8** | Tính chất hình học trực quan | Số đường chéo chính của một hình lục giác đều là:<br>$\to$ **KQ: $3$** | Một hình thoi có cạnh $8\text{ cm}$. Chu vi hình thoi đó là:<br>$\to$ **KQ: $32\text{ cm}$** | Một tam giác đều có chu vi $27\text{ cm}$. Cạnh tam giác đó là:<br>$\to$ **KQ: $9\text{ cm}$** | Một hình vuông có diện tích $49\text{ cm}^2$. Chu vi hình vuông là:<br>$\to$ **KQ: $28\text{ cm}$** |
+| **9** | Diện tích hình thoi | Hình thoi có hai đường chéo $12\text{ cm}$ và $15\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $90\text{ cm}^2$** | Hình thoi có hai đường chéo $14\text{ cm}$ và $10\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $70\text{ cm}^2$** | Hình thoi có hai đường chéo $16\text{ cm}$ và $12\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $96\text{ cm}^2$** | Hình thoi có hai đường chéo $18\text{ cm}$ và $10\text{ cm}$. Diện tích là:<br>$\to$ **KQ: $90\text{ cm}^2$** |
+| **10** | Toán thực tế chia túi quà (ƯCLN) | Có $30$ quyển vở và $45$ cái bút chia đều vào các túi quà. Số túi quà nhiều nhất là:<br>$\to$ **KQ: $15\text{ túi}$** | Có $36$ hộp sữa và $48$ gói bánh chia đều vào các phần quà. Số phần quà nhiều nhất là:<br>$\to$ **KQ: $12\text{ phần}$** | Có $24$ bạn nam và $32$ bạn nữ chia đều vào các nhóm. Số nhóm nhiều nhất là:<br>$\to$ **KQ: $8\text{ nhóm}$** | Có $40$ cuốn truyện và $60$ cuốn SGK chia đều vào các ngăn. Số ngăn nhiều nhất là:<br>$\to$ **KQ: $20\text{ ngăn}$** |
 
 ---
 
@@ -96,94 +96,124 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 
 ---
 
-#### CÂU 12 (2,0 ĐIỂM): TÌM SỐ TỰ NHIÊN / SỐ NGUYÊN $x$, BIẾT (MỖI Ý 0,5 ĐIỂM)
+#### CÂU 12 (2,0 ĐIỂM): TÌM SỐ TỰ NHIÊN $x$, BIẾT (MỖI Ý 0,5 ĐIỂM)
 
 * **Mã đề 101:**
   - a) $3x - 17 = 28 \implies 3x = 45 \implies x = 15$.
   - b) $5(x + 7) - 15 = 45 \implies 5(x + 7) = 60 \implies x + 7 = 12 \implies x = 5$.
-  - c) Viết tập hợp các số nguyên $x$ thỏa mãn: $-3 \le x < 4$ $\implies x \in \{-3; -2; -1; 0; 1; 2; 3\}$.
+  - c) $x \;\vdots\; 12,\; x \;\vdots\; 18$ và $50 < x < 100$.
+    *Bài giải:* Vì $x \;\vdots\; 12$ và $x \;\vdots\; 18$ nên $x \in BC(12, 18)$.
+    Ta có $12 = 2^2 \cdot 3$; $18 = 2 \cdot 3^2 \implies BCNN(12, 18) = 2^2 \cdot 3^2 = 36$.
+    Suy ra $x \in BC(12, 18) = B(36) = \{0; 36; 72; 108; \dots\}$.
+    Vì $50 < x < 100$ nên $x = 72$.
   - d) $2 \cdot 3^{x-1} + 17 = 71 \implies 2 \cdot 3^{x-1} = 54 \implies 3^{x-1} = 27 = 3^3 \implies x - 1 = 3 \implies x = 4$.
 
 * **Mã đề 102:**
   - a) $4x - 19 = 37 \implies 4x = 56 \implies x = 14$.
   - b) $4(x + 8) - 18 = 46 \implies 4(x + 8) = 64 \implies x + 8 = 16 \implies x = 8$.
-  - c) Viết tập hợp các số nguyên $x$ thỏa mãn: $-4 < x \le 3$ $\implies x \in \{-3; -2; -1; 0; 1; 2; 3\}$.
+  - c) $x \;\vdots\; 15,\; x \;\vdots\; 20$ và $80 < x < 150$.
+    *Bài giải:* Vì $x \;\vdots\; 15$ và $x \;\vdots\; 20$ nên $x \in BC(15, 20)$.
+    Ta có $15 = 3 \cdot 5$; $20 = 2^2 \cdot 5 \implies BCNN(15, 20) = 2^2 \cdot 3 \cdot 5 = 60$.
+    Suy ra $x \in BC(15, 20) = B(60) = \{0; 60; 120; 180; \dots\}$.
+    Vì $80 < x < 150$ nên $x = 120$.
   - d) $3 \cdot 2^{x+1} - 15 = 33 \implies 3 \cdot 2^{x+1} = 48 \implies 2^{x+1} = 16 = 2^4 \implies x + 1 = 4 \implies x = 3$.
 
 * **Mã đề 103:**
   - a) $5x - 23 = 42 \implies 5x = 65 \implies x = 13$.
   - b) $6(x + 5) - 24 = 48 \implies 6(x + 5) = 72 \implies x + 5 = 12 \implies x = 7$.
-  - c) Viết tập hợp các số nguyên $x$ thỏa mãn: $-2 \le x \le 5$ $\implies x \in \{-2; -1; 0; 1; 2; 3; 4; 5\}$.
+  - c) $x \;\vdots\; 12,\; x \;\vdots\; 15$ và $70 < x < 140$.
+    *Bài giải:* Vì $x \;\vdots\; 12$ và $x \;\vdots\; 15$ nên $x \in BC(12, 15)$.
+    Ta có $12 = 2^2 \cdot 3$; $15 = 3 \cdot 5 \implies BCNN(12, 15) = 2^2 \cdot 3 \cdot 5 = 60$.
+    Suy ra $x \in BC(12, 15) = B(60) = \{0; 60; 120; 180; \dots\}$.
+    Vì $70 < x < 140$ nên $x = 120$.
   - d) $4 \cdot 3^{x-2} + 22 = 58 \implies 4 \cdot 3^{x-2} = 36 \implies 3^{x-2} = 9 = 3^2 \implies x - 2 = 2 \implies x = 4$.
 
 * **Mã đề 104:**
   - a) $6x - 27 = 45 \implies 6x = 72 \implies x = 12$.
   - b) $3(x + 9) - 16 = 47 \implies 3(x + 9) = 63 \implies x + 9 = 21 \implies x = 12$.
-  - c) Viết tập hợp các số nguyên $x$ thỏa mãn: $-5 < x < 3$ $\implies x \in \{-4; -3; -2; -1; 0; 1; 2\}$.
+  - c) $x \;\vdots\; 18,\; x \;\vdots\; 24$ và $100 < x < 180$.
+    *Bài giải:* Vì $x \;\vdots\; 18$ và $x \;\vdots\; 24$ nên $x \in BC(18, 24)$.
+    Ta có $18 = 2 \cdot 3^2$; $24 = 2^3 \cdot 3 \implies BCNN(18, 24) = 2^3 \cdot 3^2 = 72$.
+    Suy ra $x \in BC(18, 24) = B(72) = \{0; 72; 144; 216; \dots\}$.
+    Vì $100 < x < 180$ nên $x = 144$.
   - d) $5 \cdot 2^{x-1} - 13 = 27 \implies 5 \cdot 2^{x-1} = 40 \implies 2^{x-1} = 8 = 2^3 \implies x - 1 = 3 \implies x = 4$.
 
 ---
 
-#### CÂU 13 (2,0 ĐIỂM): BÀI TOÁN THỰC TẾ ĐẠI LƯỢNG SỐ NGUYÊN (MỖI Ý 1,0 ĐIỂM)
+#### CÂU 13 (2,0 ĐIỂM): BÀI TOÁN THỰC TẾ HÌNH HỌC (MỖI Ý 1,0 ĐIỂM)
 
 * **Mã đề 101:**
-  Độ cao của đỉnh núi Fansipan là $3\,143\text{ m}$ trên mực nước biển. Độ sâu của đáy Rãnh Mariana là $10\,994\text{ m}$ dưới mực nước biển.
-  - a) Dùng số nguyên thích hợp để biểu diễn độ cao của đỉnh Fansipan và độ sâu của đáy Rãnh Mariana so với mực nước biển.
-    *Bài giải:* Đỉnh Fansipan: $+3\,143\text{ m}$ (hoặc $3\,143\text{ m}$). Đáy Rãnh Mariana: $-10\,994\text{ m}$.
-  - b) Tính khoảng cách theo phương thẳng đứng (chênh lệch độ cao) giữa đỉnh núi Fansipan và đáy Rãnh Mariana.
-    *Bài giải:* Khoảng cách giữa hai vị trí là: $3\,143 - (-10\,994) = 3\,143 + 10\,994 = 14\,137\text{ (m)}$.
+  Bác An có một mảnh vườn hình chữ nhật có chiều dài $20\text{ m}$ và chiều rộng $12\text{ m}$.
+  - a) Tính chu vi và diện tích của mảnh vườn đó.
+  - b) Bác An dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $2\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $150\,000$ đồng. Hỏi bác An cần bao nhiêu tiền để làm hàng rào?
+  *Bài giải:*
+  - a) Chu vi mảnh vườn là: $(20 + 12) \cdot 2 = 64\text{ (m)}$.
+       Diện tích mảnh vườn là: $20 \cdot 12 = 240\text{ (m}^2\text{)}$.
+  - b) Chiều dài hàng rào cần làm là: $64 - 2 = 62\text{ (m)}$.
+       Chi phí làm hàng rào là: $62 \cdot 150\,000 = 9\,300\,000\text{ (đồng)}$.
 
 * **Mã đề 102:**
-  Đỉnh núi Bà Đen có độ cao $986\text{ m}$ trên mực nước biển. Một tàu ngầm nghiên cứu đang lặn ở độ sâu $450\text{ m}$ dưới mực nước biển.
-  - a) Dùng số nguyên thích hợp để biểu diễn độ cao của đỉnh núi Bà Đen và vị trí của tàu ngầm so với mực nước biển.
-    *Bài giải:* Đỉnh núi Bà Đen: $+986\text{ m}$ (hoặc $986\text{ m}$). Vị trí tàu ngầm: $-450\text{ m}$.
-  - b) Tính khoảng cách theo phương thẳng đứng giữa đỉnh núi Bà Đen và vị trí của tàu ngầm.
-    *Bài giải:* Khoảng cách giữa hai vị trí là: $986 - (-450) = 986 + 450 = 1\,436\text{ (m)}$.
+  Bác Bình có một mảnh vườn hình chữ nhật có chiều dài $25\text{ m}$ và chiều rộng $10\text{ m}$.
+  - a) Tính chu vi và diện tích của mảnh vườn đó.
+  - b) Bác Bình dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $2\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $160\,000$ đồng. Hỏi bác Bình cần bao nhiêu tiền để làm hàng rào?
+  *Bài giải:*
+  - a) Chu vi mảnh vườn là: $(25 + 10) \cdot 2 = 70\text{ (m)}$.
+       Diện tích mảnh vườn là: $25 \cdot 10 = 250\text{ (m}^2\text{)}$.
+  - b) Chiều dài hàng rào cần làm là: $70 - 2 = 68\text{ (m)}$.
+       Chi phí làm hàng rào là: $68 \cdot 160\,000 = 10\,880\,000\text{ (đồng)}$.
 
 * **Mã đề 103:**
-  Đỉnh núi Mẫu Sơn có độ cao $1\,541\text{ m}$ trên mực nước biển. Vực thẳm Puerto Rico có độ sâu $8\,376\text{ m}$ dưới mực nước biển.
-  - a) Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Mẫu Sơn và độ sâu đáy vực Puerto Rico so với mực nước biển.
-    *Bài giải:* Đỉnh Mẫu Sơn: $+1\,541\text{ m}$ (hoặc $1\,541\text{ m}$). Vực Puerto Rico: $-8\,376\text{ m}$.
-  - b) Tính khoảng cách theo phương thẳng đứng giữa đỉnh núi Mẫu Sơn và đáy vực Puerto Rico.
-    *Bài giải:* Khoảng cách giữa hai vị trí là: $1\,541 - (-8\,376) = 1\,541 + 8\,376 = 9\,917\text{ (m)}$.
+  Bác Cường có một mảnh vườn hình chữ nhật có chiều dài $18\text{ m}$ và chiều rộng $12\text{ m}$.
+  - a) Tính chu vi và diện tích của mảnh vườn đó.
+  - b) Bác Cường dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $3\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $180\,000$ đồng. Hỏi bác Cường cần bao nhiêu tiền để làm hàng rào?
+  *Bài giải:*
+  - a) Chu vi mảnh vườn là: $(18 + 12) \cdot 2 = 60\text{ (m)}$.
+       Diện tích mảnh vườn là: $18 \cdot 12 = 216\text{ (m}^2\text{)}$.
+  - b) Chiều dài hàng rào cần làm là: $60 - 3 = 57\text{ (m)}$.
+       Chi phí làm hàng rào là: $57 \cdot 180\,000 = 10\,260\,000\text{ (đồng)}$.
 
 * **Mã đề 104:**
-  Đỉnh núi Pu Si Lung cao $3\,083\text{ m}$ trên mực nước biển. Bề mặt Biển Chết nằm ở độ sâu $430\text{ m}$ dưới mực nước biển.
-  - a) Dùng số nguyên thích hợp để biểu diễn độ cao đỉnh Pu Si Lung và bề mặt Biển Chết so với mực nước biển.
-    *Bài giải:* Đỉnh Pu Si Lung: $+3\,083\text{ m}$ (hoặc $3\,083\text{ m}$). Bề mặt Biển Chết: $-430\text{ m}$.
-  - b) Tính khoảng cách theo phương thẳng đứng giữa đỉnh Pu Si Lung và bề mặt Biển Chết.
-    *Bài giải:* Khoảng cách giữa hai vị trí là: $3\,083 - (-430) = 3\,083 + 430 = 3\,513\text{ (m)}$.
+  Bác Dũng có một mảnh vườn hình chữ nhật có chiều dài $24\text{ m}$ và chiều rộng $15\text{ m}$.
+  - a) Tính chu vi và diện tích của mảnh vườn đó.
+  - b) Bác Dũng dự định làm hàng rào bao quanh mảnh vườn (để lại một cổng ra vào rộng $3\text{ m}$). Biết chi phí làm mỗi mét hàng rào là $200\,000$ đồng. Hỏi bác Dũng cần bao nhiêu tiền để làm hàng rào?
+  *Bài giải:*
+  - a) Chu vi mảnh vườn là: $(24 + 15) \cdot 2 = 78\text{ (m)}$.
+       Diện tích mảnh vườn là: $24 \cdot 15 = 360\text{ (m}^2\text{)}$.
+  - b) Chiều dài hàng rào cần làm là: $78 - 3 = 75\text{ (m)}$.
+       Chi phí làm hàng rào là: $75 \cdot 200\,000 = 15\,000\,000\text{ (đồng)}$.
 
 ---
 
-#### CÂU 14 (0,5 ĐIỂM): BÀI TOÁN NÂNG CAO (CHIA HẾT TRONG TẬP SỐ NGUYÊN $\mathbb{Z}$)
+#### CÂU 14 (0,5 ĐIỂM): BÀI TOÁN NÂNG CAO (CHIA HẾT CỦA TỔNG DÃY LŨY THỪA)
 
-* **Mã đề 101:** Tìm tất cả các số nguyên $n$ để phân số $A = \dfrac{n + 5}{n + 1}$ nhận giá trị là một số nguyên.
+* **Mã đề 101:** Cho biểu thức $A = 3 + 3^2 + 3^3 + \dots + 3^{60}$. Chứng minh rằng $A$ chia hết cho $4$.
   - *Bài giải:*
-    Ta có: $A = \dfrac{n + 1 + 4}{n + 1} = 1 + \dfrac{4}{n + 1}$.
-    Để $A \in \mathbb{Z}$ thì $(n + 1) \in Ư(4) = \{1; -1; 2; -2; 4; -4\}$.
-    Ta có bảng giá trị:
-    $$n + 1 \in \{1; -1; 2; -2; 4; -4\} \implies n \in \{0; -2; 1; -3; 3; -5\}$$
-    Vậy $n \in \{-5; -3; -2; 0; 1; 3\}$.
+    Ta có:
+    $$A = (3 + 3^2) + (3^3 + 3^4) + \dots + (3^{59} + 3^{60})$$
+    $$A = 3 \cdot (1 + 3) + 3^3 \cdot (1 + 3) + \dots + 3^{59} \cdot (1 + 3)$$
+    $$A = 3 \cdot 4 + 3^3 \cdot 4 + \dots + 3^{59} \cdot 4 = 4 \cdot (3 + 3^3 + \dots + 3^{59})$$
+    Vì $4 \;\vdots\; 4$ nên $A \;\vdots\; 4$ (đpcm).
 
-* **Mã đề 102:** Tìm tất cả các số nguyên $n$ để phân số $B = \dfrac{n + 7}{n + 2}$ nhận giá trị là một số nguyên.
+* **Mã đề 102:** Cho biểu thức $B = 2 + 2^2 + 2^3 + \dots + 2^{60}$. Chứng minh rằng $B$ chia hết cho $3$.
   - *Bài giải:*
-    Ta có: $B = \dfrac{n + 2 + 5}{n + 2} = 1 + \dfrac{5}{n + 2}$.
-    Để $B \in \mathbb{Z}$ thì $(n + 2) \in Ư(5) = \{1; -1; 5; -5\}$.
-    Ta có: $n + 2 \in \{1; -1; 5; -5\} \implies n \in \{-1; -3; 3; -7\}$.
-    Vậy $n \in \{-7; -3; -1; 3\}$.
+    Ta có:
+    $$B = (2 + 2^2) + (2^3 + 2^4) + \dots + (2^{59} + 2^{60})$$
+    $$B = 2 \cdot (1 + 2) + 2^3 \cdot (1 + 2) + \dots + 2^{59} \cdot (1 + 2)$$
+    $$B = 2 \cdot 3 + 2^3 \cdot 3 + \dots + 2^{59} \cdot 3 = 3 \cdot (2 + 2^3 + \dots + 2^{59})$$
+    Vì $3 \;\vdots\; 3$ nên $B \;\vdots\; 3$ (đpcm).
 
-* **Mã đề 103:** Tìm tất cả các số nguyên $n$ để phân số $C = \dfrac{n + 8}{n + 2}$ nhận giá trị là một số nguyên.
+* **Mã đề 103:** Cho biểu thức $C = 4 + 4^2 + 4^3 + \dots + 4^{60}$. Chứng minh rằng $C$ chia hết cho $5$.
   - *Bài giải:*
-    Ta có: $C = \dfrac{n + 2 + 6}{n + 2} = 1 + \dfrac{6}{n + 2}$.
-    Để $C \in \mathbb{Z}$ thì $(n + 2) \in Ư(6) = \{1; -1; 2; -2; 3; -3; 6; -6\}$.
-    Ta có: $n + 2 \in \{1; -1; 2; -2; 3; -3; 6; -6\} \implies n \in \{-1; -3; 0; -4; 1; -5; 4; -8\}$.
-    Vậy $n \in \{-8; -5; -4; -3; -1; 0; 1; 4\}$.
+    Ta có:
+    $$C = (4 + 4^2) + (4^3 + 4^4) + \dots + (4^{59} + 4^{60})$$
+    $$C = 4 \cdot (1 + 4) + 4^3 \cdot (1 + 4) + \dots + 4^{59} \cdot (1 + 4)$$
+    $$C = 4 \cdot 5 + 4^3 \cdot 5 + \dots + 4^{59} \cdot 5 = 5 \cdot (4 + 4^3 + \dots + 4^{59})$$
+    Vì $5 \;\vdots\; 5$ nên $C \;\vdots\; 5$ (đpcm).
 
-* **Mã đề 104:** Tìm tất cả các số nguyên $n$ để phân số $D = \dfrac{n + 6}{n + 3}$ nhận giá trị là một số nguyên.
+* **Mã đề 104:** Cho biểu thức $D = 5 + 5^2 + 5^3 + \dots + 5^{60}$. Chứng minh rằng $D$ chia hết cho $6$.
   - *Bài giải:*
-    Ta có: $D = \dfrac{n + 3 + 3}{n + 3} = 1 + \dfrac{3}{n + 3}$.
-    Để $D \in \mathbb{Z}$ thì $(n + 3) \in Ư(3) = \{1; -1; 3; -3\}$.
-    Ta có: $n + 3 \in \{1; -1; 3; -3\} \implies n \in \{-2; -4; 0; -6\}$.
-    Vậy $n \in \{-6; -4; -2; 0\}$.
-
+    Ta có:
+    $$D = (5 + 5^2) + (5^3 + 5^4) + \dots + (5^{59} + 5^{60})$$
+    $$D = 5 \cdot (1 + 5) + 5^3 \cdot (1 + 5) + \dots + 5^{59} \cdot (1 + 5)$$
+    $$D = 5 \cdot 6 + 5^3 \cdot 6 + \dots + 5^{59} \cdot 6 = 6 \cdot (5 + 5^3 + \dots + 5^{59})$$
+    Vì $6 \;\vdots\; 6$ nên $D \;\vdots\; 6$ (đpcm).

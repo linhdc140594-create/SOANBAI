@@ -34,27 +34,28 @@ Tuần 10 là tuần học **bản lề mở đầu Chương 3 (Số nguyên)** 
         ┌───────────────────────┴───────────────────────┐
         ▼                                               ▼
      BUỔI 01                                         BUỔI 02
-  Bài 13: Tập hợp số nguyên $\mathbb{Z}$      Bài 13 & 14: So sánh số nguyên & GTTĐ
-(Làm quen số âm, Trục số, Số đối)            (Thứ tự trong $\mathbb{Z}$, Bất đẳng thức kép)
+  Ôn thi Giữa Học Kỳ 1 (GHK1)                 Bài 13 & 14: Làm quen & So sánh số nguyên
+(Số tự nhiên & Hình học trực quan)           (Thứ tự trong $\mathbb{Z}$, Bất đẳng thức kép)
 ```
 
 ### 1. Buổi 01: [KE_HOACH_TUAN_10_BUOI_01.md](buoi_1/KE_HOACH_TUAN_10_BUOI_01.md)
-* **Chủ đề:** **Bài 13: Làm quen với số nguyên âm & Tập hợp các số nguyên $\mathbb{Z}$**.
-* **Trọng tâm kiến thức:**
-  * Ý nghĩa thực tế của số nguyên âm (nhiệt độ, độ sâu, nợ/lỗ, năm trước CN).
-  * Tập hợp $\mathbb{Z}$, quan hệ giữa $\mathbb{N}$ và $\mathbb{Z}$ ($\mathbb{N} \subset \mathbb{Z}$).
-  * Biểu diễn số nguyên trên trục số nằm ngang, khoảng cách từ một điểm đến gốc $0$.
-  * Khái niệm số đối: Tìm số đối của số nguyên, tính chất tổng các số đối.
+* **Chủ đề:** **Ôn tập toàn diện thi Giữa Học Kỳ 1 (Số tự nhiên & Hình học trực quan)**.
+* **Trọng tâm kiến thức (100% không dùng số nguyên):**
+  * Tập hợp & Phần tử của tập hợp, kí hiệu $\in, \notin$, tìm số phần tử.
+  * Phép tính lũy thừa, nhân chia lũy thừa cùng cơ số ($a^m \cdot a^n, a^m : a^n$).
+  * Nhận biết số nguyên tố, hợp số, dấu hiệu chia hết cho 2, 3, 5, 9.
+  * Tìm ƯCLN và BCNN của các số; ứng dụng giải bài toán thực tế chia tổ / túi quà.
+  * Tính chất hình học trực quan: Đường chéo lục giác đều, chu vi tam giác đều / hình thoi / hình vuông, diện tích hình thoi.
   * Tự luận tính toán: 6 ý thực hiện phép tính số học chuẩn mực (bảng $3 \times 2$, `\oBaiTap[7]`).
-  * Tự luận tìm $x$: Phương trình cơ bản, phương trình có ngoặc, tìm số nguyên $x$ trong khoảng.
-  * Bài toán thực tế: Đọc hiểu, ghi số nguyên biểu diễn độ cao địa lý / nhiệt độ các trạm khí tượng.
-  * Bài toán nâng cao: Tìm số nguyên $n$ để phân số $\dfrac{n + a}{n - b}$ nhận giá trị nguyên.
+  * Tự luận tìm $x$: Phương trình cơ bản, có ngoặc, tìm $x \in BC(a, b)$ thỏa mãn khoảng, và phương trình lũy thừa.
+  * Bài toán thực tế: Chu vi, diện tích mảnh vườn hình chữ nhật và chi phí làm hàng rào có trừ cổng ra vào (`\dongke{12}`).
+  * Bài toán nâng cao: Chứng minh tổng dãy lũy thừa chia hết cho một số nguyên (`\dongke{8}`).
 * **Cấu trúc thang điểm 10 chuẩn:**
   * **Câu 1 $\to$ Câu 10 (2,5 điểm):** 10 câu trả lời ngắn dùng `\shortans` ($0{,}25$ đ/câu).
   * **Câu 11 (3,0 điểm):** Thực hiện phép tính gồm **6 ý ($a, b, c, d, e, f$)**, mỗi ý $0{,}5$đ (Bảng $3 \times 2$, dùng `\oBaiTap[7]`).
-  * **Câu 12 (2,0 điểm):** Tìm số tự nhiên / số nguyên $x$ (4 ý $a, b, c, d$), mỗi ý $0{,}5$đ (Bảng $2 \times 2$, hàng 1 `\oBaiTap[5]`, hàng 2 `\oBaiTap[7]`).
-  * **Câu 13 (2,0 điểm):** Bài toán thực tế biểu diễn và tính toán đại lượng số nguyên (2 ý $a, b$), mỗi ý $1{,}0$đ (Khung box `\dongke{11}`).
-  * **Câu 14 (0,5 điểm):** Bài toán nâng cao chia hết trong tập số nguyên $\mathbb{Z}$ (Khung box `\dongke{7}`).
+  * **Câu 12 (2,0 điểm):** Tìm số tự nhiên $x$ (4 ý $a, b, c, d$), mỗi ý $0{,}5$đ (Bảng $2 \times 2$, hàng 1 `\oBaiTap[5]`, hàng 2 `\oBaiTap[7]`).
+  * **Câu 13 (2,0 điểm):** Bài toán thực tế hình học mảnh vườn hình chữ nhật (2 ý $a, b$), mỗi ý $1{,}0$đ (Khung box `\dongke{12}`).
+  * **Câu 14 (0,5 điểm):** Bài toán nâng cao chia hết tổng dãy lũy thừa (Khung box `\dongke{8}`).
 * **Thư mục làm việc:** [`buoi_1/`](buoi_1/)
 
 ---
