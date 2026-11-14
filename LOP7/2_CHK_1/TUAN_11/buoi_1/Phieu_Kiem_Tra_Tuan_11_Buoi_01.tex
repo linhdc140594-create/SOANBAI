@@ -1,0 +1,640 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=2.6,heightSA=0.62}
+\setlength{\parskip}{0pt}
+
+% Dong ke cham mo chuan viet tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Khu vuc bai lam chia 2 cot co vach ngan mo o giua
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.5mm}%
+  \noindent%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+  \hfill%
+  {\color{gray!60}\vrule}%
+  \hfill%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+}
+
+% Dinh nghia o bai tap tu luan trong bang
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 101 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Trong $\Delta ABC$, góc xen giữa hai cạnh $AB$ và $BC$ là: \shortans{\widehat{B}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Để $\Delta ABC = \Delta DEF$ (c.g.c) khi $AB=DE, AC=DF$, cần thêm: \shortans{\widehat{A} = \widehat{D}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC = \Delta MNP$ (c.g.c), $\widehat{A}=55^\circ, \widehat{B}=65^\circ$. Khi đó $\widehat{P}$ bằng: \shortans{60^\circ}\par\vspace{2.2mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC = \Delta MNP$ (c.g.c), biết $BC = 7\text{ cm}$. Độ dài cạnh $NP$ là: \shortans{7\text{ cm}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của căn bậc hai số học $\sqrt{144} - \sqrt{49}$ bằng: \shortans{5}\par\vspace{2.2mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm số hữu tỉ $x > 0$, biết $\left|x - \dfrac{1}{2}\right| = \dfrac{3}{2}$: \shortans{x = 2}\par\vspace{2.2mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Cho $\Delta ABC, \Delta DEF$ vuông tại $A, D$, có $AB=DE$. Cần thêm điều kiện: \shortans{AC = DF}\par\vspace{2.2mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Cho $\Delta OAB = \Delta OCD$, biết $CD = 38\text{ m}$. Độ dài cạnh $AB$ là: \shortans{38\text{ m}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Giá trị của biểu thức $\left(-\dfrac{1}{3}\right)^2 \cdot 9 + (-1)^{2026}$ bằng: \shortans{2}\par\vspace{2.2mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Cho $AB$ cắt $CD$ tại trung điểm $O$ mỗi đoạn. Khi đó $\Delta OAC$ bằng: \shortans{\Delta OBD}\par\vspace{2.2mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{5}{13} + \dfrac{4}{7} + \dfrac{8}{13} - \dfrac{11}{7}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{4}{7} \cdot \left(-\dfrac{2}{5}\right) + \dfrac{4}{7} \cdot \left(-\dfrac{3}{5}\right) + \dfrac{11}{7}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(-\dfrac{1}{2}\right)^3 : \dfrac{1}{4} + \left(\dfrac{3}{4}\right)^0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\sqrt{\dfrac{16}{25}} - \left|-\dfrac{2}{5}\right| + \sqrt{\dfrac{4}{25}}$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{3}{4} - \left[ \dfrac{1}{2} + \left(\dfrac{3}{8} - \dfrac{5}{8}\right) \right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{4^3 \cdot 9^2}{6^4}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 101 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$x + \dfrac{2}{5} = \dfrac{7}{10}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{2}{3}x - \dfrac{1}{2} = \dfrac{5}{6}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(x - \dfrac{1}{2}\right)^2 = \dfrac{9}{16}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left|2x - \dfrac{1}{3}\right| = \dfrac{5}{3}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho góc nhọn $\widehat{xOy}$. Trên tia $Ox$ lấy điểm $A$, trên tia $Oy$ lấy điểm $B$ sao cho $OA = OB$. Gọi $Ot$ là tia phân giác của góc $\widehat{xOy}$. Trên tia $Ot$ lấy điểm $M$ ($M \neq O$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Chứng minh rằng $\Delta OAM = \Delta OBM$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Gọi $H$ là giao điểm của $OM$ và $AB$. Chứng minh rằng $MA = MB$ và $OM \perp AB$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+  \coordinate (O) at (0, 0);
+  \coordinate (X) at (3.5, 0);
+  \coordinate (Y) at (2.2, 2.6);
+  \coordinate (T) at (3.4, 1.58);
+  \coordinate (A) at (2.4, 0);
+  \coordinate (B) at (1.54, 1.84);
+  \coordinate (M) at (2.72, 1.27);
+  \coordinate (H) at (1.97, 0.92);
+
+  \draw[->] (O) -- (X) node[below right=-2pt] {{\footnotesize $x$}};
+  \draw[->] (O) -- (Y) node[above left=-2pt] {{\footnotesize $y$}};
+  \draw[->] (O) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+
+  \draw[thick] (O) -- (A);
+  \draw[thick] (O) -- (B);
+  \draw[thick] (A) -- (M);
+  \draw[thick] (B) -- (M);
+  \draw[thick] (A) -- (B);
+
+  % Vach danh dau OA = OB
+  \draw (1.15, -0.1) -- (1.15, 0.1);
+  \draw (1.25, -0.1) -- (1.25, 0.1);
+  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
+  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
+
+  % Cung goc bang nhau tai O
+  \draw (0.45, 0) arc (0:25:0.45);
+  \draw (0.407, 0.19) arc (25:50:0.45);
+
+  \fill (O) circle (1.3pt) node[below left=-1pt] {{$O$}};
+  \fill (A) circle (1.3pt) node[below=1pt] {{$A$}};
+  \fill (B) circle (1.3pt) node[above left=-1pt] {{$B$}};
+  \fill (M) circle (1.3pt) node[right=2pt] {{$M$}};
+  \fill (H) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$H$}};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 2| + |x - 7|$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 102 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Trong $\Delta MNP$, góc xen giữa hai cạnh $MN$ và $MP$ là: \shortans{\widehat{M}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Để $\Delta MNP = \Delta QRS$ (c.g.c) khi $MN=QR, NP=RS$, cần thêm: \shortans{\widehat{N} = \widehat{R}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC = \Delta MNP$ (c.g.c), $\widehat{M}=50^\circ, \widehat{N}=70^\circ$. Khi đó $\widehat{C}$ bằng: \shortans{60^\circ}\par\vspace{2.2mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC = \Delta MNP$ (c.g.c), biết $AC = 6\text{ cm}$. Độ dài cạnh $MP$ là: \shortans{6\text{ cm}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của căn bậc hai số học $\sqrt{169} - \sqrt{64}$ bằng: \shortans{5}\par\vspace{2.2mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm số hữu tỉ $x > 0$, biết $\left|x - \dfrac{3}{2}\right| = \dfrac{5}{2}$: \shortans{x = 4}\par\vspace{2.2mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Cho $\Delta MNP, \Delta DEF$ vuông tại $M, D$, có $MN=DE$. Cần thêm điều kiện: \shortans{MP = DF}\par\vspace{2.2mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Cho $\Delta OAB = \Delta OCD$, biết $CD = 45\text{ m}$. Độ dài cạnh $AB$ là: \shortans{45\text{ m}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Giá trị của biểu thức $\left(-\dfrac{1}{4}\right)^2 \cdot 16 + (-1)^{2024}$ bằng: \shortans{2}\par\vspace{2.2mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Cho $MN$ cắt $PQ$ tại trung điểm $I$ mỗi đoạn. Khi đó $\Delta IMP$ bằng: \shortans{\Delta INQ}\par\vspace{2.2mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{3}{11} + \dfrac{5}{8} + \dfrac{8}{11} - \dfrac{13}{8}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{5}{9} \cdot \left(-\dfrac{3}{7}\right) + \dfrac{5}{9} \cdot \left(-\dfrac{4}{7}\right) + \dfrac{14}{9}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(-\dfrac{1}{3}\right)^2 \cdot 18 - \left(\dfrac{5}{7}\right)^0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\sqrt{\dfrac{25}{49}} - \left|-\dfrac{3}{7}\right| + \sqrt{\dfrac{9}{49}}$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{5}{6} - \left[ \dfrac{2}{3} + \left(\dfrac{1}{4} - \dfrac{3}{4}\right) \right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{8^2 \cdot 9^3}{6^5}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 102 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$x + \dfrac{3}{4} = \dfrac{7}{8}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{3}{4}x - \dfrac{2}{3} = \dfrac{5}{6}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(x - \dfrac{1}{3}\right)^2 = \dfrac{4}{9}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left|2x - \dfrac{1}{2}\right| = \dfrac{3}{2}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho góc nhọn $\widehat{mIn}$. Trên tia $Im$ lấy điểm $E$, trên tia $In$ lấy điểm $F$ sao cho $IE = IF$. Gọi $It$ là tia phân giác của góc $\widehat{mIn}$. Trên tia $It$ lấy điểm $K$ ($K \neq I$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Chứng minh rằng $\Delta IEK = \Delta IFK$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Gọi $H$ là giao điểm của $IK$ và $EF$. Chứng minh rằng $KE = KF$ và $IK \perp EF$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+  \coordinate (I) at (0, 0);
+  \coordinate (M) at (3.5, 0);
+  \coordinate (N) at (2.2, 2.6);
+  \coordinate (T) at (3.4, 1.58);
+  \coordinate (E) at (2.4, 0);
+  \coordinate (F) at (1.54, 1.84);
+  \coordinate (K) at (2.72, 1.27);
+  \coordinate (H) at (1.97, 0.92);
+
+  \draw[->] (I) -- (M) node[below right=-2pt] {{\footnotesize $m$}};
+  \draw[->] (I) -- (N) node[above left=-2pt] {{\footnotesize $n$}};
+  \draw[->] (I) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+
+  \draw[thick] (I) -- (E);
+  \draw[thick] (I) -- (F);
+  \draw[thick] (E) -- (K);
+  \draw[thick] (F) -- (K);
+  \draw[thick] (E) -- (F);
+
+  % Vach danh dau IE = IF
+  \draw (1.15, -0.1) -- (1.15, 0.1);
+  \draw (1.25, -0.1) -- (1.25, 0.1);
+  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
+  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
+
+  % Cung goc bang nhau tai I
+  \draw (0.45, 0) arc (0:25:0.45);
+  \draw (0.407, 0.19) arc (25:50:0.45);
+
+  \fill (I) circle (1.3pt) node[below left=-1pt] {{$I$}};
+  \fill (E) circle (1.3pt) node[below=1pt] {{$E$}};
+  \fill (F) circle (1.3pt) node[above left=-1pt] {{$F$}};
+  \fill (K) circle (1.3pt) node[right=2pt] {{$K$}};
+  \fill (H) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$H$}};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 3| + |x - 8|$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 103 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Trong $\Delta DEF$, góc xen giữa hai cạnh $DE$ và $EF$ là: \shortans{\widehat{E}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Để $\Delta ABC = \Delta MNP$ (c.g.c) khi $BC=NP, AC=MP$, cần thêm: \shortans{\widehat{C} = \widehat{P}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta DEF = \Delta GHK$ (c.g.c), $\widehat{D}=45^\circ, \widehat{E}=75^\circ$. Khi đó $\widehat{K}$ bằng: \shortans{60^\circ}\par\vspace{2.2mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta DEF = \Delta MNP$ (c.g.c), biết $EF = 10\text{ cm}$. Độ dài cạnh $NP$ là: \shortans{10\text{ cm}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của căn bậc hai số học $\sqrt{196} - \sqrt{81}$ bằng: \shortans{5}\par\vspace{2.2mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm số hữu tỉ $x > 0$, biết $\left|x - \dfrac{1}{3}\right| = \dfrac{5}{3}$: \shortans{x = 2}\par\vspace{2.2mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Cho $\Delta ABC, \Delta MNP$ vuông tại $B, N$, có $BA=NM$. Cần thêm điều kiện: \shortans{BC = NP}\par\vspace{2.2mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Cho $\Delta OAB = \Delta OCD$, biết $CD = 52\text{ m}$. Độ dài cạnh $AB$ là: \shortans{52\text{ m}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Giá trị của biểu thức $\left(-\dfrac{1}{5}\right)^2 \cdot 25 + (-1)^{2028}$ bằng: \shortans{2}\par\vspace{2.2mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Cho $EF$ cắt $GH$ tại trung điểm $K$ mỗi đoạn. Khi đó $\Delta KEG$ bằng: \shortans{\Delta KFH}\par\vspace{2.2mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{7}{15} + \dfrac{2}{9} + \dfrac{8}{15} - \dfrac{11}{9}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{3}{8} \cdot \left(-\dfrac{1}{6}\right) + \dfrac{3}{8} \cdot \left(-\dfrac{5}{6}\right) + \dfrac{11}{8}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(-\dfrac{1}{2}\right)^4 : \dfrac{1}{8} + \left(\dfrac{2}{3}\right)^0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\sqrt{\dfrac{36}{81}} - \left|-\dfrac{1}{9}\right| + \sqrt{\dfrac{16}{81}}$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{4}{5} - \left[ \dfrac{1}{2} + \left(\dfrac{1}{10} - \dfrac{3}{10}\right) \right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{27^2 \cdot 4^4}{6^6}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 103 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$x - \dfrac{1}{3} = \dfrac{5}{6}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{3}{5}x + \dfrac{1}{2} = \dfrac{11}{10}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(x + \dfrac{1}{2}\right)^2 = \dfrac{25}{16}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left|3x - \dfrac{1}{2}\right| = \dfrac{5}{2}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho góc nhọn $\widehat{xAy}$. Trên tia $Ax$ lấy điểm $B$, trên tia $Ay$ lấy điểm $C$ sao cho $AB = AC$. Gọi $At$ là tia phân giác của góc $\widehat{xAy}$. Trên tia $At$ lấy điểm $M$ ($M \neq A$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Chứng minh rằng $\Delta ABM = \Delta ACM$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Gọi $D$ là giao điểm của $AM$ và $BC$. Chứng minh rằng $MB = MC$ và $AM \perp BC$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+  \coordinate (A) at (0, 0);
+  \coordinate (X) at (3.5, 0);
+  \coordinate (Y) at (2.2, 2.6);
+  \coordinate (T) at (3.4, 1.58);
+  \coordinate (B) at (2.4, 0);
+  \coordinate (C) at (1.54, 1.84);
+  \coordinate (M) at (2.72, 1.27);
+  \coordinate (D) at (1.97, 0.92);
+
+  \draw[->] (A) -- (X) node[below right=-2pt] {{\footnotesize $x$}};
+  \draw[->] (A) -- (Y) node[above left=-2pt] {{\footnotesize $y$}};
+  \draw[->] (A) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+
+  \draw[thick] (A) -- (B);
+  \draw[thick] (A) -- (C);
+  \draw[thick] (B) -- (M);
+  \draw[thick] (C) -- (M);
+  \draw[thick] (B) -- (C);
+
+  % Vach danh dau AB = AC
+  \draw (1.15, -0.1) -- (1.15, 0.1);
+  \draw (1.25, -0.1) -- (1.25, 0.1);
+  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
+  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
+
+  % Cung goc bang nhau tai A
+  \draw (0.45, 0) arc (0:25:0.45);
+  \draw (0.407, 0.19) arc (25:50:0.45);
+
+  \fill (A) circle (1.3pt) node[below left=-1pt] {{$A$}};
+  \fill (B) circle (1.3pt) node[below=1pt] {{$B$}};
+  \fill (C) circle (1.3pt) node[above left=-1pt] {{$C$}};
+  \fill (M) circle (1.3pt) node[right=2pt] {{$M$}};
+  \fill (D) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$D$}};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 1| + |x - 6|$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 104 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Trong $\Delta HIK$, góc xen giữa hai cạnh $HK$ và $IK$ là: \shortans{\widehat{K}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Để $\Delta DEF = \Delta HKM$ (c.g.c) khi $DE=HK, EF=KM$, cần thêm: \shortans{\widehat{E} = \widehat{K}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC = \Delta DEF$ (c.g.c), $\widehat{D}=60^\circ, \widehat{E}=50^\circ$. Khi đó $\widehat{C}$ bằng: \shortans{70^\circ}\par\vspace{2.2mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Cho $\Delta ABC = \Delta HIK$ (c.g.c), biết $AC = 7\text{ cm}$. Độ dài cạnh $HK$ là: \shortans{7\text{ cm}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của căn bậc hai số học $\sqrt{225} - \sqrt{100}$ bằng: \shortans{5}\par\vspace{2.2mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm số hữu tỉ $x > 0$, biết $\left|x - \dfrac{2}{3}\right| = \dfrac{7}{3}$: \shortans{x = 3}\par\vspace{2.2mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Cho $\Delta DEF, \Delta HIK$ vuông tại $E, I$, có $EF=IK$. Cần thêm điều kiện: \shortans{ED = IH}\par\vspace{2.2mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Cho $\Delta OAB = \Delta OCD$, biết $CD = 65\text{ m}$. Độ dài cạnh $AB$ là: \shortans{65\text{ m}}\par\vspace{2.2mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Giá trị của biểu thức $\left(-\dfrac{1}{2}\right)^3 \cdot (-8) + (-1)^{2030}$ bằng: \shortans{2}\par\vspace{2.2mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Cho $AB$ cắt $CD$ tại trung điểm $O$ mỗi đoạn. Khi đó $\Delta OAD$ bằng: \shortans{\Delta OBC}\par\vspace{2.2mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{4}{17} + \dfrac{3}{5} + \dfrac{13}{17} - \dfrac{8}{5}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{6}{11} \cdot \left(-\dfrac{2}{7}\right) + \dfrac{6}{11} \cdot \left(-\dfrac{5}{7}\right) + \dfrac{17}{11}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(-\dfrac{1}{4}\right)^2 \cdot 32 - \left(\dfrac{7}{9}\right)^0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\sqrt{\dfrac{49}{64}} - \left|-\dfrac{3}{8}\right| + \sqrt{\dfrac{4}{64}}$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{5}{6} - \left[ \dfrac{1}{2} + \left(\dfrac{1}{12} - \dfrac{5}{12}ight) \right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{16^2 \cdot 25^2}{20^3}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 7 TUAN 11 BUOI 01 - MA DE 104 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 7 - TUẦN 11 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$x - \dfrac{2}{5} = \dfrac{3}{10}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{4}{5}x + \dfrac{1}{3} = \dfrac{17}{15}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left(x + \dfrac{2}{3}\right)^2 = \dfrac{16}{9}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left|3x - \dfrac{1}{4}\right| = \dfrac{7}{4}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho góc nhọn $\widehat{pSq}$. Trên tia $Sp$ lấy điểm $M$, trên tia $Sq$ lấy điểm $N$ sao cho $SM = SN$. Gọi $St$ là tia phân giác của góc $\widehat{pSq}$. Trên tia $St$ lấy điểm $P$ ($P \neq S$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Chứng minh rằng $\Delta SMP = \Delta SNP$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Gọi $K$ là giao điểm của $SP$ và $MN$. Chứng minh rằng $PM = PN$ và $SP \perp MN$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+  \coordinate (S) at (0, 0);
+  \coordinate (P_axis) at (3.5, 0);
+  \coordinate (Q_axis) at (2.2, 2.6);
+  \coordinate (T) at (3.4, 1.58);
+  \coordinate (M) at (2.4, 0);
+  \coordinate (N) at (1.54, 1.84);
+  \coordinate (P) at (2.72, 1.27);
+  \coordinate (K) at (1.97, 0.92);
+
+  \draw[->] (S) -- (P_axis) node[below right=-2pt] {{\footnotesize $p$}};
+  \draw[->] (S) -- (Q_axis) node[above left=-2pt] {{\footnotesize $q$}};
+  \draw[->] (S) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+
+  \draw[thick] (S) -- (M);
+  \draw[thick] (S) -- (N);
+  \draw[thick] (M) -- (P);
+  \draw[thick] (N) -- (P);
+  \draw[thick] (M) -- (N);
+
+  % Vach danh dau SM = SN
+  \draw (1.15, -0.1) -- (1.15, 0.1);
+  \draw (1.25, -0.1) -- (1.25, 0.1);
+  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
+  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
+
+  % Cung goc bang nhau tai S
+  \draw (0.45, 0) arc (0:25:0.45);
+  \draw (0.407, 0.19) arc (25:50:0.45);
+
+  \fill (S) circle (1.3pt) node[below left=-1pt] {{$S$}};
+  \fill (M) circle (1.3pt) node[below=1pt] {{$M$}};
+  \fill (N) circle (1.3pt) node[above left=-1pt] {{$N$}};
+  \fill (P) circle (1.3pt) node[right=2pt] {{$P$}};
+  \fill (K) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$K$}};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = |x - 4| + |x - 9|$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+\end{document}

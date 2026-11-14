@@ -1,0 +1,425 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=2.8,heightSA=0.62}
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ chuẩn viết tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= MA DE 101 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 11 - BUỔI 2} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Kết quả của phép tính $15 - 28$ là: \shortans{-13}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Kết quả của phép tính $25 - (-15)$ là: \shortans{40}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Kết quả của phép tính $(-35) - (-15)$ là: \shortans{-20}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Kết quả của phép tính $0 - (-35)$ là: \shortans{35}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(a - b)$, kết quả là: \shortans{-a + b}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Khoảng cách giữa điểm $-5$ và điểm $8$ trên trục số là: \shortans{13}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Hình vừa có trục đối xứng vừa có tâm đối xứng là: \shortans{\text{Hình chữ nhật}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tâm đối xứng của hình bình hành $ABCD$ là: \shortans{\text{Giao điểm 2 đường chéo}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có đáy $12\text{ cm}$, cao $8\text{ cm}$. Diện tích là: \shortans{96\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Đỉnh núi $2500\text{ m}$, vực sâu $-800\text{ m}$. Chênh lệch độ cao là: \shortans{3300\text{ m}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$174 - 274$} & \oBaiTap[7]{b)}{$(-125) - (-225)$} \\
+\hline
+\oBaiTap[7]{c)}{$(2026 - 175) - 2026$} & \oBaiTap[7]{d)}{$(148 - 65) - (48 - 65)$} \\
+\hline
+\oBaiTap[7]{e)}{$240 - [160 - (12 - 7)^2]$} & \oBaiTap[7]{f)}{$-(138 - 256) + (-256 + 38)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 101 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 11 - BUỔI 2 | Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 25 = -15$} & \oBaiTap[5]{b)}{$18 - x = 28$} \\
+\hline
+\oBaiTap[6]{c)}{$x - (-14) = -26$} & \oBaiTap[6]{d)}{$35 - (x + 12) = 15$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Nhà toán học Pythagoras sinh năm $570\text{ TCN}$ (năm $-570$) và mất năm $495\text{ TCN}$ (năm $-495$). Nhà bác học Archimedes sinh năm $287\text{ TCN}$ (năm $-287$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tuổi thọ của nhà toán học Pythagoras.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Nhà bác học Archimedes sinh ra sau nhà toán học Pythagoras bao nhiêu năm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{12}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{n + 5}{n - 2}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 11 - BUỔI 2} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Kết quả của phép tính $18 - 32$ là: \shortans{-14}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Kết quả của phép tính $32 - (-18)$ là: \shortans{50}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Kết quả của phép tính $(-42) - (-12)$ là: \shortans{-30}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Kết quả của phép tính $0 - (-48)$ là: \shortans{48}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(x + y)$, kết quả là: \shortans{-x - y}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Khoảng cách giữa điểm $-7$ và điểm $9$ trên trục số là: \shortans{16}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Hình vừa có trục đối xứng vừa có tâm đối xứng là: \shortans{\text{Hình thoi}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tâm đối xứng của hình chữ nhật $MNPQ$ là: \shortans{\text{Giao điểm 2 đường chéo}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có đáy $15\text{ cm}$, cao $6\text{ cm}$. Diện tích là: \shortans{90\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Đỉnh núi $3143\text{ m}$, rãnh sâu $-1200\text{ m}$. Chênh lệch độ cao là: \shortans{4343\text{ m}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$186 - 286$} & \oBaiTap[7]{b)}{$(-135) - (-235)$} \\
+\hline
+\oBaiTap[7]{c)}{$(2025 - 184) - 2025$} & \oBaiTap[7]{d)}{$(156 - 72) - (56 - 72)$} \\
+\hline
+\oBaiTap[7]{e)}{$250 - [170 - (14 - 9)^2]$} & \oBaiTap[7]{f)}{$-(145 - 268) + (-268 + 45)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 11 - BUỔI 2 | Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 30 = -18$} & \oBaiTap[5]{b)}{$24 - x = 36$} \\
+\hline
+\oBaiTap[6]{c)}{$x - (-16) = -24$} & \oBaiTap[6]{d)}{$40 - (x + 15) = 15$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Nhà toán học Thales sinh năm $624\text{ TCN}$ (năm $-624$) và mất năm $546\text{ TCN}$ (năm $-546$). Nhà toán học Pythagoras sinh năm $570\text{ TCN}$ (năm $-570$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tuổi thọ của nhà toán học Thales.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Nhà toán học Pythagoras sinh ra sau nhà toán học Thales bao nhiêu năm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{12}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{n + 4}{n - 1}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 11 - BUỔI 2} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Kết quả của phép tính $14 - 29$ là: \shortans{-15}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Kết quả của phép tính $45 - (-15)$ là: \shortans{60}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Kết quả của phép tính $(-56) - (-26)$ là: \shortans{-30}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Kết quả của phép tính $(-65) - 0$ là: \shortans{-65}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(m - n + p)$, kết quả là: \shortans{-m + n - p}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Khoảng cách giữa điểm $-6$ và điểm $12$ trên trục số là: \shortans{18}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Hình vừa có trục đối xứng vừa có tâm đối xứng là: \shortans{\text{Hình vuông}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tâm đối xứng của hình thoi $ABCD$ là: \shortans{\text{Giao điểm 2 đường chéo}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có đáy $16\text{ cm}$, cao $7\text{ cm}$. Diện tích là: \shortans{112\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Khí cầu ở cao $1200\text{ m}$, tàu ngầm $-150\text{ m}$. Chênh lệch độ cao là: \shortans{1350\text{ m}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$192 - 292$} & \oBaiTap[7]{b)}{$(-145) - (-245)$} \\
+\hline
+\oBaiTap[7]{c)}{$(2024 - 192) - 2024$} & \oBaiTap[7]{d)}{$(164 - 83) - (64 - 83)$} \\
+\hline
+\oBaiTap[7]{e)}{$260 - [180 - (13 - 8)^2]$} & \oBaiTap[7]{f)}{$-(154 - 275) + (-275 + 54)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 11 - BUỔI 2 | Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 35 = -20$} & \oBaiTap[5]{b)}{$22 - x = 37$} \\
+\hline
+\oBaiTap[6]{c)}{$x - (-18) = -22$} & \oBaiTap[6]{d)}{$45 - (x + 18) = 15$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Nhà triết học Socrates sinh năm $470\text{ TCN}$ (năm $-470$) và mất năm $399\text{ TCN}$ (năm $-399$). Nhà triết học Plato sinh năm $427\text{ TCN}$ (năm $-427$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tuổi thọ của nhà triết học Socrates.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Nhà triết học Plato sinh ra sau nhà triết học Socrates bao nhiêu năm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{12}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{n + 2}{n - 1}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 11 - BUỔI 2} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Kết quả của phép tính $16 - 32$ là: \shortans{-16}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Kết quả của phép tính $28 - (-22)$ là: \shortans{50}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Kết quả của phép tính $(-68) - (-18)$ là: \shortans{-50}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Kết quả của phép tính $(-72) - 0$ là: \shortans{-72}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(-a + b - c)$, kết quả là: \shortans{a - b + c}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Khoảng cách giữa điểm $-8$ và điểm $10$ trên trục số là: \shortans{18}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Hình có tâm đối xứng nhưng KHÔNG có trục đối xứng là: \shortans{\text{Hình bình hành}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tâm đối xứng của đường tròn $(O)$ là: \shortans{\text{Tâm } O}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có đáy $14\text{ cm}$, cao $9\text{ cm}$. Diện tích là: \shortans{126\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Máy bay ở cao $8500\text{ m}$, đáy biển $-500\text{ m}$. Chênh lệch độ cao là: \shortans{9000\text{ m}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$168 - 268$} & \oBaiTap[7]{b)}{$(-155) - (-255)$} \\
+\hline
+\oBaiTap[7]{c)}{$(2023 - 165) - 2023$} & \oBaiTap[7]{d)}{$(172 - 94) - (72 - 94)$} \\
+\hline
+\oBaiTap[7]{e)}{$270 - [190 - (15 - 10)^2]$} & \oBaiTap[7]{f)}{$-(162 - 284) + (-284 + 62)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 11 - BUỔI 2 | Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 40 = -22$} & \oBaiTap[5]{b)}{$26 - x = 42$} \\
+\hline
+\oBaiTap[6]{c)}{$x - (-15) = -25$} & \oBaiTap[6]{d)}{$50 - (x + 20) = 15$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Nhà triết học Plato sinh năm $427\text{ TCN}$ (năm $-427$) và mất năm $347\text{ TCN}$ (năm $-347$). Nhà triết học Aristotle sinh năm $384\text{ TCN}$ (năm $-384$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tuổi thọ của nhà triết học Plato.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Nhà triết học Aristotle sinh ra sau nhà triết học Plato bao nhiêu năm?\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{12}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{n + 8}{n - 3}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+\end{document}

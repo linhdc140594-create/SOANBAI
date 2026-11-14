@@ -1,0 +1,151 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 11 - BUỔI 2",
+  "title_p2": "TOÁN 6 - TUẦN 11 - BUỔI 2",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_11_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        ["Kết quả của phép tính $15 - 28$ là:", "-13"],
+        ["Kết quả của phép tính $25 - (-15)$ là:", "40"],
+        ["Kết quả của phép tính $(-35) - (-15)$ là:", "-20"],
+        ["Kết quả của phép tính $0 - (-35)$ là:", "35"],
+        ["Bỏ dấu ngoặc của biểu thức $-(a - b)$, kết quả là:", "-a + b"],
+        ["Khoảng cách giữa điểm $-5$ và điểm $8$ trên trục số là:", "13"],
+        ["Hình vừa có trục đối xứng vừa có tâm đối xứng là:", "\\text{Hình chữ nhật}"],
+        ["Tâm đối xứng của hình bình hành $ABCD$ là:", "\\text{Giao điểm 2 đường chéo}"],
+        ["Hình bình hành có đáy $12\\text{ cm}$, cao $8\\text{ cm}$. Diện tích là:", "96\\text{ cm}^2"],
+        ["Đỉnh núi $2500\\text{ m}$, vực sâu $-800\\text{ m}$. Chênh lệch độ cao là:", "3300\\text{ m}"]
+      ],
+      "q11": {
+        "a": "174 - 274",
+        "b": "(-125) - (-225)",
+        "c": "(2026 - 175) - 2026",
+        "d": "(148 - 65) - (48 - 65)",
+        "e": "240 - [160 - (12 - 7)^2]",
+        "f": "-(138 - 256) + (-256 + 38)"
+      },
+      "q12": {
+        "a": "x - 25 = -15",
+        "b": "18 - x = 28",
+        "c": "x - (-14) = -26",
+        "d": "35 - (x + 12) = 15"
+      },
+      "q13": {
+        "de": "Nhà toán học Pythagoras sinh năm $570\\text{ TCN}$ (năm $-570$) và mất năm $495\\text{ TCN}$ (năm $-495$). Nhà bác học Archimedes sinh năm $287\\text{ TCN}$ (năm $-287$).",
+        "a": "Tính tuổi thọ của nhà toán học Pythagoras.",
+        "b": "Nhà bác học Archimedes sinh ra sau nhà toán học Pythagoras bao nhiêu năm?"
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{n + 5}{n - 2}$."
+      }
+    },
+    "102": {
+      "short": [
+        ["Kết quả của phép tính $18 - 32$ là:", "-14"],
+        ["Kết quả của phép tính $32 - (-18)$ là:", "50"],
+        ["Kết quả của phép tính $(-42) - (-12)$ là:", "-30"],
+        ["Kết quả của phép tính $0 - (-48)$ là:", "48"],
+        ["Bỏ dấu ngoặc của biểu thức $-(x + y)$, kết quả là:", "-x - y"],
+        ["Khoảng cách giữa điểm $-7$ và điểm $9$ trên trục số là:", "16"],
+        ["Hình vừa có trục đối xứng vừa có tâm đối xứng là:", "\\text{Hình thoi}"],
+        ["Tâm đối xứng của hình chữ nhật $MNPQ$ là:", "\\text{Giao điểm 2 đường chéo}"],
+        ["Hình bình hành có đáy $15\\text{ cm}$, cao $6\\text{ cm}$. Diện tích là:", "90\\text{ cm}^2"],
+        ["Đỉnh núi $3143\\text{ m}$, rãnh sâu $-1200\\text{ m}$. Chênh lệch độ cao là:", "4343\\text{ m}"]
+      ],
+      "q11": {
+        "a": "186 - 286",
+        "b": "(-135) - (-235)",
+        "c": "(2025 - 184) - 2025",
+        "d": "(156 - 72) - (56 - 72)",
+        "e": "250 - [170 - (14 - 9)^2]",
+        "f": "-(145 - 268) + (-268 + 45)"
+      },
+      "q12": {
+        "a": "x - 30 = -18",
+        "b": "24 - x = 36",
+        "c": "x - (-16) = -24",
+        "d": "40 - (x + 15) = 15"
+      },
+      "q13": {
+        "de": "Nhà toán học Thales sinh năm $624\\text{ TCN}$ (năm $-624$) và mất năm $546\\text{ TCN}$ (năm $-546$). Nhà toán học Pythagoras sinh năm $570\\text{ TCN}$ (năm $-570$).",
+        "a": "Tính tuổi thọ của nhà toán học Thales.",
+        "b": "Nhà toán học Pythagoras sinh ra sau nhà toán học Thales bao nhiêu năm?"
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{n + 4}{n - 1}$."
+      }
+    },
+    "103": {
+      "short": [
+        ["Kết quả của phép tính $14 - 29$ là:", "-15"],
+        ["Kết quả của phép tính $45 - (-15)$ là:", "60"],
+        ["Kết quả của phép tính $(-56) - (-26)$ là:", "-30"],
+        ["Kết quả của phép tính $(-65) - 0$ là:", "-65"],
+        ["Bỏ dấu ngoặc của biểu thức $-(m - n + p)$, kết quả là:", "-m + n - p"],
+        ["Khoảng cách giữa điểm $-6$ và điểm $12$ trên trục số là:", "18"],
+        ["Hình vừa có trục đối xứng vừa có tâm đối xứng là:", "\\text{Hình vuông}"],
+        ["Tâm đối xứng của hình thoi $ABCD$ là:", "\\text{Giao điểm 2 đường chéo}"],
+        ["Hình bình hành có đáy $16\\text{ cm}$, cao $7\\text{ cm}$. Diện tích là:", "112\\text{ cm}^2"],
+        ["Khí cầu ở cao $1200\\text{ m}$, tàu ngầm $-150\\text{ m}$. Chênh lệch độ cao là:", "1350\\text{ m}"]
+      ],
+      "q11": {
+        "a": "192 - 292",
+        "b": "(-145) - (-245)",
+        "c": "(2024 - 192) - 2024",
+        "d": "(164 - 83) - (64 - 83)",
+        "e": "260 - [180 - (13 - 8)^2]",
+        "f": "-(154 - 275) + (-275 + 54)"
+      },
+      "q12": {
+        "a": "x - 35 = -20",
+        "b": "22 - x = 37",
+        "c": "x - (-18) = -22",
+        "d": "45 - (x + 18) = 15"
+      },
+      "q13": {
+        "de": "Nhà triết học Socrates sinh năm $470\\text{ TCN}$ (năm $-470$) và mất năm $399\\text{ TCN}$ (năm $-399$). Nhà triết học Plato sinh năm $427\\text{ TCN}$ (năm $-427$).",
+        "a": "Tính tuổi thọ của nhà triết học Socrates.",
+        "b": "Nhà triết học Plato sinh ra sau nhà triết học Socrates bao nhiêu năm?"
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{n + 2}{n - 1}$."
+      }
+    },
+    "104": {
+      "short": [
+        ["Kết quả của phép tính $16 - 32$ là:", "-16"],
+        ["Kết quả của phép tính $28 - (-22)$ là:", "50"],
+        ["Kết quả của phép tính $(-68) - (-18)$ là:", "-50"],
+        ["Kết quả của phép tính $(-72) - 0$ là:", "-72"],
+        ["Bỏ dấu ngoặc của biểu thức $-(-a + b - c)$, kết quả là:", "a - b + c"],
+        ["Khoảng cách giữa điểm $-8$ và điểm $10$ trên trục số là:", "18"],
+        ["Hình có tâm đối xứng nhưng KHÔNG có trục đối xứng là:", "\\text{Hình bình hành}"],
+        ["Tâm đối xứng của đường tròn $(O)$ là:", "\\text{Tâm } O"],
+        ["Hình bình hành có đáy $14\\text{ cm}$, cao $9\\text{ cm}$. Diện tích là:", "126\\text{ cm}^2"],
+        ["Máy bay ở cao $8500\\text{ m}$, đáy biển $-500\\text{ m}$. Chênh lệch độ cao là:", "9000\\text{ m}"]
+      ],
+      "q11": {
+        "a": "168 - 268",
+        "b": "(-155) - (-255)",
+        "c": "(2023 - 165) - 2023",
+        "d": "(172 - 94) - (72 - 94)",
+        "e": "270 - [190 - (15 - 10)^2]",
+        "f": "-(162 - 284) + (-284 + 62)"
+      },
+      "q12": {
+        "a": "x - 40 = -22",
+        "b": "26 - x = 42",
+        "c": "x - (-15) = -25",
+        "d": "50 - (x + 20) = 15"
+      },
+      "q13": {
+        "de": "Nhà triết học Plato sinh năm $427\\text{ TCN}$ (năm $-427$) và mất năm $347\\text{ TCN}$ (năm $-347$). Nhà triết học Aristotle sinh năm $384\\text{ TCN}$ (năm $-384$).",
+        "a": "Tính tuổi thọ của nhà triết học Plato.",
+        "b": "Nhà triết học Aristotle sinh ra sau nhà triết học Plato bao nhiêu năm?"
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $n$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{n + 8}{n - 3}$."
+      }
+    }
+  }
+}

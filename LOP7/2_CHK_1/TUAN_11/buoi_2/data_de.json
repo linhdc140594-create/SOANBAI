@@ -1,0 +1,271 @@
+{
+  "base_filename": "Phieu_Kiem_Tra_Tuan_11_Buoi_02",
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 11 - BUỔI 02",
+  "title_p2": "TOÁN 7 - TUẦN 11 - BUỔI 02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Trong $\\Delta ABC$, cạnh kề hai góc $\\widehat{B}$ và $\\widehat{C}$ là:",
+          "BC"
+        ],
+        [
+          "Để $\\Delta ABC = \\Delta DEF$ (g.c.g) khi $\\widehat{B}=\\widehat{E}, BC=EF$, cần thêm:",
+          "\\widehat{C} = \\widehat{F}"
+        ],
+        [
+          "Cho $\\Delta ABC, \\Delta DEF$ vuông tại $A, D$, $BC=EF$. Cần thêm góc nhọn:",
+          "\\widehat{B} = \\widehat{E}"
+        ],
+        [
+          "Cho $\\Delta ABC, \\Delta DEF$ vuông tại $A, D$, $AB=DE$. Cần thêm góc nhọn:",
+          "\\widehat{B} = \\widehat{E}"
+        ],
+        [
+          "Cho $\\Delta ABC = \\Delta DEF$ (g.c.g), $\\widehat{A}=70^\\circ, \\widehat{B}=45^\\circ$. Khi đó $\\widehat{F}$ bằng:",
+          "65^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC = \\Delta MNP$ (g.c.g), biết $AC = 10\\text{ cm}$. Độ dài cạnh $MP$ là:",
+          "10\\text{ cm}"
+        ],
+        [
+          "Giá trị của biểu thức $3\\sqrt{16} - 2\\sqrt{25}$ bằng:",
+          "2"
+        ],
+        [
+          "Tìm số hữu tỉ $x < 0$, biết $|x + 1| = 3$:",
+          "x = -4"
+        ],
+        [
+          "Đo ra tàu qua $\\Delta ABC = \\Delta ABD$. Biết $AD = 62\\text{ m}$. Khi đó $AC = $",
+          "62\\text{ m}"
+        ],
+        [
+          "Trong tam giác vuông, một góc nhọn bằng $35^\\circ$ thì góc nhọn kia bằng:",
+          "55^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{4}{15} - \\dfrac{5}{12} + \\dfrac{11}{15} - \\dfrac{7}{12}$",
+        "b": "$\\dfrac{3}{5} \\cdot \\dfrac{7}{11} + \\dfrac{3}{5} \\cdot \\dfrac{4}{11} + \\dfrac{2}{5}$",
+        "c": "$\\left(-\\dfrac{2}{3}\\right)^2 : \\dfrac{8}{9} + \\left(-\\dfrac{1}{2}\\right)^3 \\cdot 4$",
+        "d": "$\\sqrt{\\dfrac{49}{100}} - \\left|-\\dfrac{3}{10}\\right| + \\sqrt{0{,}36}$",
+        "e": "$\\dfrac{2}{3} - \\left[ \\dfrac{1}{6} - \\left(\\dfrac{3}{4} - \\dfrac{1}{2}\\right) \\right]$",
+        "f": "$\\dfrac{9^3 \\cdot 2^6}{6^5}$"
+      },
+      "q12": {
+        "a": "$x - \\dfrac{3}{4} = \\dfrac{1}{8}$",
+        "b": "$\\dfrac{3}{4}x + \\dfrac{1}{3} = \\dfrac{5}{6}$",
+        "c": "$\\left(2x - \\dfrac{1}{2}\\right)^2 = \\dfrac{9}{4}$",
+        "d": "$3\\left|x - \\dfrac{1}{2}\\right| - \\dfrac{1}{4} = \\dfrac{5}{4}$"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $AB$ có trung điểm là $I$. Qua $I$ kẻ đường thẳng $xy$ (đường thẳng $xy$ không vuông góc với $AB$). Từ $A$ kẻ $AH \\perp xy$ tại $H$, từ $B$ kẻ $BK \\perp xy$ tại $K$.",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta AHI = \\Delta BKI$ (cạnh huyền - góc nhọn).",
+        "b": "(1,0 điểm) Chứng minh rằng $AH = BK$ và $AH \\parallel BK$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{12}{|x - 3| + 4}$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Trong $\\Delta MNP$, cạnh kề hai góc $\\widehat{M}$ và $\\widehat{P}$ là:",
+          "MP"
+        ],
+        [
+          "Để $\\Delta MNP = \\Delta QRS$ (g.c.g) khi $\\widehat{M}=\\widehat{Q}, MN=QR$, cần thêm:",
+          "\\widehat{N} = \\widehat{R}"
+        ],
+        [
+          "Cho $\\Delta MNP, \\Delta GHK$ vuông tại $M, G$, $NP=HK$. Cần thêm góc nhọn:",
+          "\\widehat{N} = \\widehat{H}"
+        ],
+        [
+          "Cho $\\Delta MNP, \\Delta DEF$ vuông tại $M, D$, $MP=DF$. Cần thêm góc nhọn:",
+          "\\widehat{P} = \\widehat{F}"
+        ],
+        [
+          "Cho $\\Delta ABC = \\Delta MNP$ (g.c.g), $\\widehat{A}=65^\\circ, \\widehat{B}=55^\\circ$. Khi đó $\\widehat{P}$ bằng:",
+          "60^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC = \\Delta MNP$ (g.c.g), biết $BC = 8\\text{ cm}$. Độ dài cạnh $NP$ là:",
+          "8\\text{ cm}"
+        ],
+        [
+          "Giá trị của biểu thức $2\\sqrt{49} - 3\\sqrt{16}$ bằng:",
+          "2"
+        ],
+        [
+          "Tìm số hữu tỉ $x < 0$, biết $|x + 2| = 5$:",
+          "x = -7"
+        ],
+        [
+          "Đo ra tàu qua $\\Delta ABC = \\Delta ABD$. Biết $AD = 75\\text{ m}$. Khi đó $AC = $",
+          "75\\text{ m}"
+        ],
+        [
+          "Trong tam giác vuông, một góc nhọn bằng $40^\\circ$ thì góc nhọn kia bằng:",
+          "50^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{5}{18} - \\dfrac{7}{16} + \\dfrac{13}{18} - \\dfrac{9}{16}$",
+        "b": "$\\dfrac{4}{7} \\cdot \\dfrac{5}{13} + \\dfrac{4}{7} \\cdot \\dfrac{8}{13} + \\dfrac{3}{7}$",
+        "c": "$\\left(-\\dfrac{3}{4}\\right)^2 : \\dfrac{9}{8} + \\left(-\\dfrac{1}{3}\\right)^2 \\cdot (-9)$",
+        "d": "$\\sqrt{\\dfrac{81}{100}} - \\left|-\\dfrac{4}{10}\\right| + \\sqrt{0{,}25}$",
+        "e": "$\\dfrac{3}{4} - \\left[ \\dfrac{1}{4} - \\left(\\dfrac{5}{6} - \\dfrac{1}{3}\\right) \\right]$",
+        "f": "$\\dfrac{8^3 \\cdot 3^8}{6^7}$"
+      },
+      "q12": {
+        "a": "$x - \\dfrac{2}{3} = \\dfrac{1}{6}$",
+        "b": "$\\dfrac{2}{5}x + \\dfrac{1}{2} = \\dfrac{9}{10}$",
+        "c": "$\\left(2x - \\dfrac{1}{3}\\right)^2 = \\dfrac{25}{9}$",
+        "d": "$2\\left|x - \\dfrac{2}{3}\\right| - \\dfrac{1}{3} = \\dfrac{5}{3}$"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $CD$ có trung điểm là $O$. Qua $O$ kẻ đường thẳng $mn$ (đường thẳng $mn$ không vuông góc với $CD$). Từ $C$ kẻ $CE \\perp mn$ tại $E$, từ $D$ kẻ $DF \\perp mn$ tại $F$.",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta CEO = \\Delta DFO$ (cạnh huyền - góc nhọn).",
+        "b": "(1,0 điểm) Chứng minh rằng $CE = DF$ và $CE \\parallel DF$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{15}{|x - 2| + 5}$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Trong $\\Delta DEF$, cạnh kề hai góc $\\widehat{D}$ và $\\widehat{E}$ là:",
+          "DE"
+        ],
+        [
+          "Để $\\Delta ABC = \\Delta MNP$ (g.c.g) khi $\\widehat{A}=\\widehat{M}, AC=MP$, cần thêm:",
+          "\\widehat{C} = \\widehat{P}"
+        ],
+        [
+          "Cho $\\Delta ABC, \\Delta MNP$ vuông tại $B, N$, $AC=MP$. Cần thêm góc nhọn:",
+          "\\widehat{A} = \\widehat{M}"
+        ],
+        [
+          "Cho $\\Delta ABC, \\Delta MNP$ vuông tại $B, N$, $BC=NP$. Cần thêm góc nhọn:",
+          "\\widehat{C} = \\widehat{P}"
+        ],
+        [
+          "Cho $\\Delta DEF = \\Delta GHK$ (g.c.g), $\\widehat{D}=50^\\circ, \\widehat{E}=80^\\circ$. Khi đó $\\widehat{K}$ bằng:",
+          "50^\\circ"
+        ],
+        [
+          "Cho $\\Delta DEF = \\Delta MNP$ (g.c.g), biết $DF = 8\\text{ cm}$. Độ dài cạnh $MP$ là:",
+          "8\\text{ cm}"
+        ],
+        [
+          "Giá trị của biểu thức $4\\sqrt{25} - 2\\sqrt{81}$ bằng:",
+          "2"
+        ],
+        [
+          "Tìm số hữu tỉ $x < 0$, biết $|x + 3| = 4$:",
+          "x = -7"
+        ],
+        [
+          "Đo ra tàu qua $\\Delta ABC = \\Delta ABD$. Biết $AD = 84\\text{ m}$. Khi đó $AC = $",
+          "84\\text{ m}"
+        ],
+        [
+          "Trong tam giác vuông, một góc nhọn bằng $25^\\circ$ thì góc nhọn kia bằng:",
+          "65^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{3}{14} - \\dfrac{5}{9} + \\dfrac{11}{14} - \\dfrac{4}{9}$",
+        "b": "$\\dfrac{5}{8} \\cdot \\dfrac{4}{9} + \\dfrac{5}{8} \\cdot \\dfrac{5}{9} + \\dfrac{3}{8}$",
+        "c": "$\\left(-\\dfrac{1}{2}\\right)^3 : \\dfrac{1}{8} + \\left(-\\dfrac{2}{5}\\right)^0$",
+        "d": "$\\sqrt{\\dfrac{64}{100}} - \\left|-\\dfrac{1}{10}\\right| + \\sqrt{0{,}09}$",
+        "e": "$\\dfrac{5}{6} - \\left[ \\dfrac{1}{3} - \\left(\\dfrac{3}{4} - \\dfrac{1}{4}\\right) \\right]$",
+        "f": "$\\dfrac{25^2 \\cdot 2^5}{10^4}$"
+      },
+      "q12": {
+        "a": "$x + \\dfrac{1}{4} = \\dfrac{5}{8}$",
+        "b": "$\\dfrac{4}{5}x - \\dfrac{1}{2} = \\dfrac{3}{10}$",
+        "c": "$\\left(3x - \\dfrac{1}{2}\\right)^2 = \\dfrac{25}{4}$",
+        "d": "$4\\left|x - \\dfrac{1}{3}\\right| - \\dfrac{2}{3} = \\dfrac{10}{3}$"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $MN$ có trung điểm là $E$. Qua $E$ kẻ đường thẳng $pq$ (đường thẳng $pq$ không vuông góc với $MN$). Từ $M$ kẻ $MP \\perp pq$ tại $P$, từ $N$ kẻ $NQ \\perp pq$ tại $Q$.",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta MPE = \\Delta NQE$ (cạnh huyền - góc nhọn).",
+        "b": "(1,0 điểm) Chứng minh rằng $MP = NQ$ và $MP \\parallel NQ$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{18}{|x - 5| + 6}$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Trong $\\Delta HIK$, cạnh kề hai góc $\\widehat{I}$ và $\\widehat{K}$ là:",
+          "IK"
+        ],
+        [
+          "Để $\\Delta DEF = \\Delta HIK$ (g.c.g) khi $\\widehat{E}=\\widehat{I}, EF=IK$, cần thêm:",
+          "\\widehat{F} = \\widehat{K}"
+        ],
+        [
+          "Cho $\\Delta DEF, \\Delta HIK$ vuông tại $E, I$, $DF=HK$. Cần thêm góc nhọn:",
+          "\\widehat{D} = \\widehat{H}"
+        ],
+        [
+          "Cho $\\Delta DEF, \\Delta HIK$ vuông tại $E, I$, $DE=HI$. Cần thêm góc nhọn:",
+          "\\widehat{D} = \\widehat{H}"
+        ],
+        [
+          "Cho $\\Delta ABC = \\Delta DEF$ (g.c.g), $\\widehat{A}=75^\\circ, \\widehat{B}=35^\\circ$. Khi đó $\\widehat{F}$ bằng:",
+          "70^\\circ"
+        ],
+        [
+          "Cho $\\Delta ABC = \\Delta HIK$ (g.c.g), biết $AB = 6\\text{ cm}$. Độ dài cạnh $HI$ là:",
+          "6\\text{ cm}"
+        ],
+        [
+          "Giá trị của biểu thức $5\\sqrt{9} - 2\\sqrt{36}$ bằng:",
+          "3"
+        ],
+        [
+          "Tìm số hữu tỉ $x < 0$, biết $|x + 1| = 5$:",
+          "x = -6"
+        ],
+        [
+          "Đo ra tàu qua $\\Delta ABC = \\Delta ABD$. Biết $AD = 96\\text{ m}$. Khi đó $AC = $",
+          "96\\text{ m}"
+        ],
+        [
+          "Trong tam giác vuông, một góc nhọn bằng $48^\\circ$ thì góc nhọn kia bằng:",
+          "42^\\circ"
+        ]
+      ],
+      "q11": {
+        "a": "$\\dfrac{6}{19} - \\dfrac{3}{8} + \\dfrac{13}{19} - \\dfrac{5}{8}$",
+        "b": "$\\dfrac{2}{9} \\cdot \\dfrac{7}{15} + \\dfrac{2}{9} \\cdot \\dfrac{8}{15} + \\dfrac{7}{9}$",
+        "c": "$\\left(-\\dfrac{1}{3}\\right)^3 \\cdot 27 + \\left(\\dfrac{4}{9}\\right)^0$",
+        "d": "$\\sqrt{\\dfrac{121}{100}} - \\left|-\\dfrac{5}{10}\\right| + \\sqrt{0{,}16}$",
+        "e": "$\\dfrac{4}{5} - \\left[ \\dfrac{1}{5} - \\left(\\dfrac{7}{10} - \\dfrac{3}{10}\\right) \\right]$",
+        "f": "$\\dfrac{27^3 \\cdot 2^8}{6^8}$"
+      },
+      "q12": {
+        "a": "$x + \\dfrac{2}{5} = \\dfrac{9}{10}$",
+        "b": "$\\dfrac{5}{6}x - \\dfrac{1}{4} = \\dfrac{7}{12}$",
+        "c": "$\\left(2x + \\dfrac{1}{4}\\right)^2 = \\dfrac{49}{16}$",
+        "d": "$2\\left|x - \\dfrac{3}{4}\\right| - \\dfrac{1}{2} = \\dfrac{3}{2}$"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $EF$ có trung điểm là $K$. Qua $K$ kẻ đường thẳng $uv$ (đường thẳng $uv$ không vuông góc với $EF$). Từ $E$ kẻ $EG \\perp uv$ tại $G$, từ $F$ kẻ $FH \\perp uv$ tại $H$.",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta EGK = \\Delta FHK$ (cạnh huyền - góc nhọn).",
+        "b": "(1,0 điểm) Chứng minh rằng $EG = FH$ và $EG \\parallel FH$."
+      },
+      "q14": {
+        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{20}{|x - 1| + 4}$."
+      }
+    }
+  }
+}
