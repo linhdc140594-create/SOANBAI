@@ -1,0 +1,161 @@
+import json
+import os
+
+CUR_DIR = os.path.dirname(os.path.abspath(__file__))
+
+data = {
+    "base_filename": "Phieu_Kiem_Tra_Tuan_11_Buoi_02",
+    "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 11 - BUỔI 02",
+    "title_p2": "TOÁN 8 - TUẦN 11 - BUỔI 02",
+    "codes": {
+        "101": {
+            "short": [
+                ("Cho $\\Delta ABC$ có $AD$ là phân giác góc $A$. Khi đó tỉ số $\\dfrac{DB}{DC}$ bằng:", "\\dfrac{AB}{AC}"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$ ($AB=4, AC=6, DB=2\\text{ cm}$). Tính $DC$:", "3\\text{ cm}"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$, $\\dfrac{DB}{DC} = \\dfrac{2}{3}$ và $AB=6\\text{ cm}$. Độ dài $AC$ là:", "9\\text{ cm}"),
+                ("Điều kiện xác định của phân thức đại số $\\dfrac{2x+1}{x-3}$ là:", "x \\neq 3"),
+                ("Giá trị của $x$ để phân thức $\\dfrac{x-5}{x+2} = 0$ là:", "5"),
+                ("Rút gọn phân thức đại số $\\dfrac{x^2-9}{x-3}$, ta được kết quả là:", "x + 3"),
+                ("Phân thức đối của phân thức $\\dfrac{x-1}{x+2}$ là:", "\\dfrac{1-x}{x+2}"),
+                ("Giá trị của phân thức $\\dfrac{x^2-1}{x-1}$ tại $x=9$ bằng:", "10"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$ ($AB=30, AC=45, BC=50\\text{ m}$). Tính $DB$:", "20\\text{ m}"),
+                ("Trong tam giác vuông, một góc nhọn bằng $38^\\circ$. Số đo góc nhọn còn lại là:", "52^\\circ")
+            ],
+            "q11": {
+                "a": "$\\dfrac{6x^3 y^2}{9x^2 y^3}$",
+                "b": "$\\dfrac{3x - 6}{x^2 - 4}$",
+                "c": "$\\dfrac{x^2 - 6x + 9}{x^2 - 9}$",
+                "d": "$\\dfrac{3 - x}{x^2 - 9}$",
+                "e": "$\\dfrac{x^2 - 5x + 6}{x^2 - 4}$",
+                "f": "Rút gọn $P = \\dfrac{x^2 + 2x}{x^2 - 4}$, tính $P$ tại $x = 3$."
+            },
+            "q12": {
+                "a": "$(x - 3)(2x + 1) = 0$",
+                "b": "$(2x - 1)^2 - 9 = 0$",
+                "c": "$x^2 - 7x + 12 = 0$",
+                "d": "$x(x - 2) + 3(x - 2) = 0$"
+            },
+            "q13": {
+                "de": "Cho $\\Delta ABC$ vuông tại $A$ ($AB = 6\\text{ cm}, AC = 8\\text{ cm}$), phân giác $AD$ ($D \\in BC$).",
+                "a": "(1,0 điểm) Tính cạnh $BC$, tỉ số $\\dfrac{DB}{DC}$ và độ dài các đoạn thẳng $DB, DC$.",
+                "b": "(1,0 điểm) Kẻ $DH \\perp AB$ tại $H$. Chứng minh $\\Delta AHD$ vuông cân và tính $DH$."
+            },
+            "q14": {
+                "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{6}{x^2 - 4x + 7}$."
+            }
+        },
+        "102": {
+            "short": [
+                ("Cho $\\Delta MNP$ có $MK$ là phân giác góc $M$. Khi đó tỉ số $\\dfrac{KN}{KP}$ bằng:", "\\dfrac{MN}{MP}"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$ ($AB=6, AC=9, DB=4\\text{ cm}$). Tính $DC$:", "6\\text{ cm}"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$, $\\dfrac{DB}{DC} = \\dfrac{3}{4}$ và $AB=9\\text{ cm}$. Độ dài $AC$ là:", "12\\text{ cm}"),
+                ("Điều kiện xác định của phân thức đại số $\\dfrac{3x-2}{x-4}$ là:", "x \\neq 4"),
+                ("Giá trị của $x$ để phân thức $\\dfrac{x-7}{x+3} = 0$ là:", "7"),
+                ("Rút gọn phân thức đại số $\\dfrac{x^2-16}{x-4}$, ta được kết quả là:", "x + 4"),
+                ("Phân thức đối của phân thức $\\dfrac{x-3}{x+1}$ là:", "\\dfrac{3-x}{x+1}"),
+                ("Giá trị của phân thức $\\dfrac{x^2-4}{x-2}$ tại $x=8$ bằng:", "10"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$ ($AB=20, AC=30, BC=40\\text{ m}$). Tính $DB$:", "16\\text{ m}"),
+                ("Trong tam giác vuông, một góc nhọn bằng $42^\\circ$. Số đo góc nhọn còn lại là:", "48^\\circ")
+            ],
+            "q11": {
+                "a": "$\\dfrac{8x^4 y^2}{12x^3 y^3}$",
+                "b": "$\\dfrac{4x - 12}{x^2 - 9}$",
+                "c": "$\\dfrac{x^2 + 8x + 16}{x^2 - 16}$",
+                "d": "$\\dfrac{4 - x}{x^2 - 16}$",
+                "e": "$\\dfrac{x^2 - 7x + 12}{x^2 - 9}$",
+                "f": "Rút gọn $P = \\dfrac{x^2 + 3x}{x^2 - 9}$, tính $P$ tại $x = 4$."
+            },
+            "q12": {
+                "a": "$(x - 4)(2x + 1) = 0$",
+                "b": "$(2x - 1)^2 - 25 = 0$",
+                "c": "$x^2 - 5x + 6 = 0$",
+                "d": "$x(x - 3) + 4(x - 3) = 0$"
+            },
+            "q13": {
+                "de": "Cho $\\Delta MNP$ vuông tại $M$ ($MN = 6\\text{ cm}, MP = 8\\text{ cm}$), phân giác $MK$ ($K \\in NP$).",
+                "a": "(1,0 điểm) Tính cạnh $NP$, tỉ số $\\dfrac{KN}{KP}$ và độ dài các đoạn thẳng $KN, KP$.",
+                "b": "(1,0 điểm) Kẻ $KH \\perp MN$ tại $H$. Chứng minh $\\Delta MHK$ vuông cân và tính $KH$."
+            },
+            "q14": {
+                "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{8}{x^2 - 6x + 13}$."
+            }
+        },
+        "103": {
+            "short": [
+                ("Cho $\\Delta DEF$ có $DH$ là phân giác góc $D$. Khi đó tỉ số $\\dfrac{HE}{HF}$ bằng:", "\\dfrac{DE}{DF}"),
+                ("Cho $\\Delta MNP$ có phân giác $MK$ ($MN=5, MP=10, KN=3\\text{ cm}$). Tính $KP$:", "6\\text{ cm}"),
+                ("Cho $\\Delta MNP$ có phân giác $MK$, $\\dfrac{KN}{KP} = \\dfrac{2}{5}$ và $MN=4\\text{ cm}$. Độ dài $MP$ là:", "10\\text{ cm}"),
+                ("Điều kiện xác định của phân thức đại số $\\dfrac{x+5}{x+2}$ là:", "x \\neq -2"),
+                ("Giá trị của $x$ để phân thức $\\dfrac{x+4}{x-1} = 0$ là:", "-4"),
+                ("Rút gọn phân thức đại số $\\dfrac{x^2-25}{x-5}$, ta được kết quả là:", "x + 5"),
+                ("Phân thức đối của phân thức $\\dfrac{x-2}{x+5}$ là:", "\\dfrac{2-x}{x+5}"),
+                ("Giá trị của phân thức $\\dfrac{x^2-9}{x-3}$ tại $x=7$ bằng:", "10"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$ ($AB=25, AC=50, BC=60\\text{ m}$). Tính $DB$:", "20\\text{ m}"),
+                ("Trong tam giác vuông, một góc nhọn bằng $28^\\circ$. Số đo góc nhọn còn lại là:", "62^\\circ")
+            ],
+            "q11": {
+                "a": "$\\dfrac{10x^3 y^3}{15x^2 y^4}$",
+                "b": "$\\dfrac{5x - 20}{x^2 - 16}$",
+                "c": "$\\dfrac{x^2 - 10x + 25}{x^2 - 25}$",
+                "d": "$\\dfrac{5 - x}{x^2 - 25}$",
+                "e": "$\\dfrac{x^2 - 6x + 8}{x^2 - 4}$",
+                "f": "Rút gọn $P = \\dfrac{x^2 + 4x}{x^2 - 16}$, tính $P$ tại $x = 5$."
+            },
+            "q12": {
+                "a": "$(x - 2)(3x + 1) = 0$",
+                "b": "$(3x - 1)^2 - 16 = 0$",
+                "c": "$x^2 - 6x + 8 = 0$",
+                "d": "$x(x - 4) + 2(x - 4) = 0$"
+            },
+            "q13": {
+                "de": "Cho $\\Delta ABC$ vuông tại $A$ ($AB = 9\\text{ cm}, AC = 12\\text{ cm}$), phân giác $AD$ ($D \\in BC$).",
+                "a": "(1,0 điểm) Tính cạnh $BC$, tỉ số $\\dfrac{DB}{DC}$ và độ dài các đoạn thẳng $DB, DC$.",
+                "b": "(1,0 điểm) Kẻ $DH \\perp AB$ tại $H$. Chứng minh $\\Delta AHD$ vuông cân và tính $DH$."
+            },
+            "q14": {
+                "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{10}{x^2 - 2x + 6}$."
+            }
+        },
+        "104": {
+            "short": [
+                ("Cho $\\Delta ABC$ có $BE$ là phân giác góc $B$. Khi đó tỉ số $\\dfrac{EA}{EC}$ bằng:", "\\dfrac{BA}{BC}"),
+                ("Cho $\\Delta DEF$ có phân giác $DH$ ($DE=4, DF=8, HE=3\\text{ cm}$). Tính $HF$:", "6\\text{ cm}"),
+                ("Cho $\\Delta DEF$ có phân giác $DH$, $\\dfrac{HE}{HF} = \\dfrac{3}{5}$ và $DE=6\\text{ cm}$. Độ dài $DF$ là:", "10\\text{ cm}"),
+                ("Điều kiện xác định của phân thức đại số $\\dfrac{4x-1}{x+5}$ là:", "x \\neq -5"),
+                ("Giá trị của $x$ để phân thức $\\dfrac{x-6}{x+1} = 0$ là:", "6"),
+                ("Rút gọn phân thức đại số $\\dfrac{x^2-36}{x-6}$, ta được kết quả là:", "x + 6"),
+                ("Phân thức đối của phân thức $\\dfrac{x-4}{x+3}$ là:", "\\dfrac{4-x}{x+3}"),
+                ("Giá trị của phân thức $\\dfrac{x^2-16}{x-4}$ tại $x=6$ bằng:", "10"),
+                ("Cho $\\Delta ABC$ có phân giác $AD$ ($AB=35, AC=70, BC=90\\text{ m}$). Tính $DB$:", "30\\text{ m}"),
+                ("Trong tam giác vuông, một góc nhọn bằng $34^\\circ$. Số đo góc nhọn còn lại là:", "56^\\circ")
+            ],
+            "q11": {
+                "a": "$\\dfrac{14x^4 y^3}{21x^3 y^4}$",
+                "b": "$\\dfrac{2x - 10}{x^2 - 25}$",
+                "c": "$\\dfrac{x^2 + 4x + 4}{x^2 - 4}$",
+                "d": "$\\dfrac{2 - x}{x^2 - 4}$",
+                "e": "$\\dfrac{x^2 - 8x + 15}{x^2 - 9}$",
+                "f": "Rút gọn $P = \\dfrac{x^2 + 2x}{x^2 - 4}$, tính $P$ tại $x = 4$."
+            },
+            "q12": {
+                "a": "$(x - 5)(2x + 1) = 0$",
+                "b": "$(2x + 1)^2 - 9 = 0$",
+                "c": "$x^2 - 8x + 15 = 0$",
+                "d": "$x(x - 5) + 3(x - 5) = 0$"
+            },
+            "q13": {
+                "de": "Cho $\\Delta DEF$ vuông tại $D$ ($DE = 6\\text{ cm}, DF = 8\\text{ cm}$), phân giác $DI$ ($I \\in EF$).",
+                "a": "(1,0 điểm) Tính cạnh $EF$, tỉ số $\\dfrac{IE}{IF}$ và độ dài các đoạn thẳng $IE, IF$.",
+                "b": "(1,0 điểm) Kẻ $IK \\perp DE$ tại $K$. Chứng minh $\\Delta DKI$ vuông cân và tính $IK$."
+            },
+            "q14": {
+                "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{12}{x^2 - 8x + 20}$."
+            }
+        }
+    }
+}
+
+with open(os.path.join(CUR_DIR, 'data_de.json'), 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print("Updated data_de.json for Buoi 02 successfully!")

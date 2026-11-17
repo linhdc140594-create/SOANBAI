@@ -1,0 +1,596 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=2.8,heightSA=0.62}
+\setlength{\parskip}{0pt}
+
+% Dong ke cham mo chuan viet tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Khu vuc bai lam chia 2 cot co vach ngan mo o giua
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.5mm}%
+  \noindent%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+  \hfill%
+  {\color{gray!60}\vrule}%
+  \hfill%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+}
+
+% Dinh nghia o bai tap tu luan trong bang
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 101 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta ABC$ có $AD$ là phân giác góc $A$. Khi đó tỉ số $\dfrac{DB}{DC}$ bằng: \shortans{\dfrac{AB}{AC}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$ ($AB=4, AC=6, DB=2\text{ cm}$). Tính $DC$: \shortans{3\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$, $\dfrac{DB}{DC} = \dfrac{2}{3}$ và $AB=6\text{ cm}$. Độ dài $AC$ là: \shortans{9\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điều kiện xác định của phân thức đại số $\dfrac{2x+1}{x-3}$ là: \shortans{x \neq 3}\par\vspace{2.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của $x$ để phân thức $\dfrac{x-5}{x+2} = 0$ là: \shortans{5}\par\vspace{2.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn phân thức đại số $\dfrac{x^2-9}{x-3}$, ta được kết quả là: \shortans{x + 3}\par\vspace{2.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Phân thức đối của phân thức $\dfrac{x-1}{x+2}$ là: \shortans{\dfrac{1-x}{x+2}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Giá trị của phân thức $\dfrac{x^2-1}{x-1}$ tại $x=9$ bằng: \shortans{10}\par\vspace{2.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$ ($AB=30, AC=45, BC=50\text{ m}$). Tính $DB$: \shortans{20\text{ m}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Trong tam giác vuông, một góc nhọn bằng $38^\circ$. Số đo góc nhọn còn lại là: \shortans{52^\circ}\par\vspace{2.6mm}
+\vspace{0.4mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[4]{a) (0,5 điểm)}{$\dfrac{6x^3 y^2}{9x^2 y^3}$} & 
+\oBaiTap[4]{b) (0,5 điểm)}{$\dfrac{3x - 6}{x^2 - 4}$} \\
+\hline
+\oBaiTap[4]{c) (0,5 điểm)}{$\dfrac{x^2 - 6x + 9}{x^2 - 9}$} & 
+\oBaiTap[4]{d) (0,5 điểm)}{$\dfrac{3 - x}{x^2 - 9}$} \\
+\hline
+\oBaiTap[4]{e) (0,5 điểm)}{$\dfrac{x^2 - 5x + 6}{x^2 - 4}$} & 
+\oBaiTap[4]{f) (0,5 điểm)}{Rút gọn $P = \dfrac{x^2 + 2x}{x^2 - 4}$, tính $P$ tại $x = 3$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 101 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$(x - 3)(2x + 1) = 0$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$(2x - 1)^2 - 9 = 0$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$x^2 - 7x + 12 = 0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$x(x - 2) + 3(x - 2) = 0$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho $\Delta ABC$ vuông tại $A$ ($AB = 6\text{ cm}, AC = 8\text{ cm}$), phân giác $AD$ ($D \in BC$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Tính cạnh $BC$, tỉ số $\dfrac{DB}{DC}$ và độ dài các đoạn thẳng $DB, DC$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Kẻ $DH \perp AB$ tại $H$. Chứng minh $\Delta AHD$ vuông cân và tính $DH$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
+  \coordinate (A) at (0, 0);
+  \coordinate (B) at (0, 2.7);
+  \coordinate (C) at (3.6, 0);
+  \coordinate (D) at (1.54, 1.54);
+  \coordinate (H) at (0, 1.54);
+
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \draw[thick] (A) -- (D);
+  \draw[thick] (D) -- (H);
+
+  % Vuong goc tai A va H
+  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
+  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
+
+  % Cung goc bang nhau tai A (45 do)
+  \draw (0.42, 0) arc (0:45:0.42);
+  \draw (0.30, 0.30) arc (45:90:0.42);
+
+  \fill (A) circle (1.3pt) node[below left=-1pt] {$A$};
+  \fill (B) circle (1.3pt) node[above] {$B$};
+  \fill (C) circle (1.3pt) node[below right=-1pt] {$C$};
+  \fill (D) circle (1.3pt) node[above right=-1pt] {$D$};
+  \fill (H) circle (1.3pt) node[left] {$H$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị lớn nhất của biểu thức: $B = \dfrac{6}{x^2 - 4x + 7}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 102 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta MNP$ có $MK$ là phân giác góc $M$. Khi đó tỉ số $\dfrac{KN}{KP}$ bằng: \shortans{\dfrac{MN}{MP}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$ ($AB=6, AC=9, DB=4\text{ cm}$). Tính $DC$: \shortans{6\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$, $\dfrac{DB}{DC} = \dfrac{3}{4}$ và $AB=9\text{ cm}$. Độ dài $AC$ là: \shortans{12\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điều kiện xác định của phân thức đại số $\dfrac{3x-2}{x-4}$ là: \shortans{x \neq 4}\par\vspace{2.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của $x$ để phân thức $\dfrac{x-7}{x+3} = 0$ là: \shortans{7}\par\vspace{2.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn phân thức đại số $\dfrac{x^2-16}{x-4}$, ta được kết quả là: \shortans{x + 4}\par\vspace{2.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Phân thức đối của phân thức $\dfrac{x-3}{x+1}$ là: \shortans{\dfrac{3-x}{x+1}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Giá trị của phân thức $\dfrac{x^2-4}{x-2}$ tại $x=8$ bằng: \shortans{10}\par\vspace{2.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$ ($AB=20, AC=30, BC=40\text{ m}$). Tính $DB$: \shortans{16\text{ m}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Trong tam giác vuông, một góc nhọn bằng $42^\circ$. Số đo góc nhọn còn lại là: \shortans{48^\circ}\par\vspace{2.6mm}
+\vspace{0.4mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[4]{a) (0,5 điểm)}{$\dfrac{8x^4 y^2}{12x^3 y^3}$} & 
+\oBaiTap[4]{b) (0,5 điểm)}{$\dfrac{4x - 12}{x^2 - 9}$} \\
+\hline
+\oBaiTap[4]{c) (0,5 điểm)}{$\dfrac{x^2 + 8x + 16}{x^2 - 16}$} & 
+\oBaiTap[4]{d) (0,5 điểm)}{$\dfrac{4 - x}{x^2 - 16}$} \\
+\hline
+\oBaiTap[4]{e) (0,5 điểm)}{$\dfrac{x^2 - 7x + 12}{x^2 - 9}$} & 
+\oBaiTap[4]{f) (0,5 điểm)}{Rút gọn $P = \dfrac{x^2 + 3x}{x^2 - 9}$, tính $P$ tại $x = 4$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 102 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$(x - 4)(2x + 1) = 0$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$(2x - 1)^2 - 25 = 0$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$x^2 - 5x + 6 = 0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$x(x - 3) + 4(x - 3) = 0$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho $\Delta MNP$ vuông tại $M$ ($MN = 6\text{ cm}, MP = 8\text{ cm}$), phân giác $MK$ ($K \in NP$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Tính cạnh $NP$, tỉ số $\dfrac{KN}{KP}$ và độ dài các đoạn thẳng $KN, KP$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Kẻ $KH \perp MN$ tại $H$. Chứng minh $\Delta MHK$ vuông cân và tính $KH$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
+  \coordinate (M) at (0, 0);
+  \coordinate (N) at (0, 2.7);
+  \coordinate (P) at (3.6, 0);
+  \coordinate (K) at (1.54, 1.54);
+  \coordinate (H) at (0, 1.54);
+
+  \draw[thick] (M) -- (N) -- (P) -- cycle;
+  \draw[thick] (M) -- (K);
+  \draw[thick] (K) -- (H);
+
+  % Vuong goc tai M va H
+  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
+  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
+
+  % Cung goc bang nhau tai M (45 do)
+  \draw (0.42, 0) arc (0:45:0.42);
+  \draw (0.30, 0.30) arc (45:90:0.42);
+
+  \fill (M) circle (1.3pt) node[below left=-1pt] {$M$};
+  \fill (N) circle (1.3pt) node[above] {$N$};
+  \fill (P) circle (1.3pt) node[below right=-1pt] {$P$};
+  \fill (K) circle (1.3pt) node[above right=-1pt] {$K$};
+  \fill (H) circle (1.3pt) node[left] {$H$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị lớn nhất của biểu thức: $B = \dfrac{8}{x^2 - 6x + 13}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 103 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta DEF$ có $DH$ là phân giác góc $D$. Khi đó tỉ số $\dfrac{HE}{HF}$ bằng: \shortans{\dfrac{DE}{DF}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta MNP$ có phân giác $MK$ ($MN=5, MP=10, KN=3\text{ cm}$). Tính $KP$: \shortans{6\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta MNP$ có phân giác $MK$, $\dfrac{KN}{KP} = \dfrac{2}{5}$ và $MN=4\text{ cm}$. Độ dài $MP$ là: \shortans{10\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điều kiện xác định của phân thức đại số $\dfrac{x+5}{x+2}$ là: \shortans{x \neq -2}\par\vspace{2.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của $x$ để phân thức $\dfrac{x+4}{x-1} = 0$ là: \shortans{-4}\par\vspace{2.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn phân thức đại số $\dfrac{x^2-25}{x-5}$, ta được kết quả là: \shortans{x + 5}\par\vspace{2.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Phân thức đối của phân thức $\dfrac{x-2}{x+5}$ là: \shortans{\dfrac{2-x}{x+5}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Giá trị của phân thức $\dfrac{x^2-9}{x-3}$ tại $x=7$ bằng: \shortans{10}\par\vspace{2.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$ ($AB=25, AC=50, BC=60\text{ m}$). Tính $DB$: \shortans{20\text{ m}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Trong tam giác vuông, một góc nhọn bằng $28^\circ$. Số đo góc nhọn còn lại là: \shortans{62^\circ}\par\vspace{2.6mm}
+\vspace{0.4mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[4]{a) (0,5 điểm)}{$\dfrac{10x^3 y^3}{15x^2 y^4}$} & 
+\oBaiTap[4]{b) (0,5 điểm)}{$\dfrac{5x - 20}{x^2 - 16}$} \\
+\hline
+\oBaiTap[4]{c) (0,5 điểm)}{$\dfrac{x^2 - 10x + 25}{x^2 - 25}$} & 
+\oBaiTap[4]{d) (0,5 điểm)}{$\dfrac{5 - x}{x^2 - 25}$} \\
+\hline
+\oBaiTap[4]{e) (0,5 điểm)}{$\dfrac{x^2 - 6x + 8}{x^2 - 4}$} & 
+\oBaiTap[4]{f) (0,5 điểm)}{Rút gọn $P = \dfrac{x^2 + 4x}{x^2 - 16}$, tính $P$ tại $x = 5$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 103 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$(x - 2)(3x + 1) = 0$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$(3x - 1)^2 - 16 = 0$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$x^2 - 6x + 8 = 0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$x(x - 4) + 2(x - 4) = 0$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho $\Delta ABC$ vuông tại $A$ ($AB = 9\text{ cm}, AC = 12\text{ cm}$), phân giác $AD$ ($D \in BC$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Tính cạnh $BC$, tỉ số $\dfrac{DB}{DC}$ và độ dài các đoạn thẳng $DB, DC$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Kẻ $DH \perp AB$ tại $H$. Chứng minh $\Delta AHD$ vuông cân và tính $DH$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
+  \coordinate (A) at (0, 0);
+  \coordinate (B) at (0, 2.7);
+  \coordinate (C) at (3.6, 0);
+  \coordinate (D) at (1.54, 1.54);
+  \coordinate (H) at (0, 1.54);
+
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \draw[thick] (A) -- (D);
+  \draw[thick] (D) -- (H);
+
+  % Vuong goc tai A va H
+  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
+  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
+
+  % Cung goc bang nhau tai A (45 do)
+  \draw (0.42, 0) arc (0:45:0.42);
+  \draw (0.30, 0.30) arc (45:90:0.42);
+
+  \fill (A) circle (1.3pt) node[below left=-1pt] {$A$};
+  \fill (B) circle (1.3pt) node[above] {$B$};
+  \fill (C) circle (1.3pt) node[below right=-1pt] {$C$};
+  \fill (D) circle (1.3pt) node[above right=-1pt] {$D$};
+  \fill (H) circle (1.3pt) node[left] {$H$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị lớn nhất của biểu thức: $B = \dfrac{10}{x^2 - 2x + 6}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 104 =================
+% ========================= TRANG 1/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Cho $\Delta ABC$ có $BE$ là phân giác góc $B$. Khi đó tỉ số $\dfrac{EA}{EC}$ bằng: \shortans{\dfrac{BA}{BC}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Cho $\Delta DEF$ có phân giác $DH$ ($DE=4, DF=8, HE=3\text{ cm}$). Tính $HF$: \shortans{6\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Cho $\Delta DEF$ có phân giác $DH$, $\dfrac{HE}{HF} = \dfrac{3}{5}$ và $DE=6\text{ cm}$. Độ dài $DF$ là: \shortans{10\text{ cm}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điều kiện xác định của phân thức đại số $\dfrac{4x-1}{x+5}$ là: \shortans{x \neq -5}\par\vspace{2.6mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Giá trị của $x$ để phân thức $\dfrac{x-6}{x+1} = 0$ là: \shortans{6}\par\vspace{2.6mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Rút gọn phân thức đại số $\dfrac{x^2-36}{x-6}$, ta được kết quả là: \shortans{x + 6}\par\vspace{2.6mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Phân thức đối của phân thức $\dfrac{x-4}{x+3}$ là: \shortans{\dfrac{4-x}{x+3}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Giá trị của phân thức $\dfrac{x^2-16}{x-4}$ tại $x=6$ bằng: \shortans{10}\par\vspace{2.6mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Cho $\Delta ABC$ có phân giác $AD$ ($AB=35, AC=70, BC=90\text{ m}$). Tính $DB$: \shortans{30\text{ m}}\par\vspace{2.6mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Trong tam giác vuông, một góc nhọn bằng $34^\circ$. Số đo góc nhọn còn lại là: \shortans{56^\circ}\par\vspace{2.6mm}
+\vspace{0.4mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[4]{a) (0,5 điểm)}{$\dfrac{14x^4 y^3}{21x^3 y^4}$} & 
+\oBaiTap[4]{b) (0,5 điểm)}{$\dfrac{2x - 10}{x^2 - 25}$} \\
+\hline
+\oBaiTap[4]{c) (0,5 điểm)}{$\dfrac{x^2 + 4x + 4}{x^2 - 4}$} & 
+\oBaiTap[4]{d) (0,5 điểm)}{$\dfrac{2 - x}{x^2 - 4}$} \\
+\hline
+\oBaiTap[4]{e) (0,5 điểm)}{$\dfrac{x^2 - 8x + 15}{x^2 - 9}$} & 
+\oBaiTap[4]{f) (0,5 điểm)}{Rút gọn $P = \dfrac{x^2 + 2x}{x^2 - 4}$, tính $P$ tại $x = 4$.} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= TOAN 8 TUAN 11 BUOI 02 - MA DE 104 =================
+% ========================= TRANG 2/2 ==========================================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 11 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm $x$, biết:}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$(x - 5)(2x + 1) = 0$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$(2x + 1)^2 - 9 = 0$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$x^2 - 8x + 15 = 0$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$x(x - 5) + 3(x - 5) = 0$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.68\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho $\Delta DEF$ vuông tại $D$ ($DE = 6\text{ cm}, DF = 8\text{ cm}$), phân giác $DI$ ($I \in EF$).\par\vspace{0.4mm}
+\textbf{a)} (1,0 điểm) Tính cạnh $EF$, tỉ số $\dfrac{IE}{IF}$ và độ dài các đoạn thẳng $IE, IF$.\par\vspace{0.4mm}
+\textbf{b)} (1,0 điểm) Kẻ $IK \perp DE$ tại $K$. Chứng minh $\Delta DKI$ vuông cân và tính $IK$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.30\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
+  \coordinate (D) at (0, 0);
+  \coordinate (E) at (0, 2.7);
+  \coordinate (F) at (3.6, 0);
+  \coordinate (I) at (1.54, 1.54);
+  \coordinate (K) at (0, 1.54);
+
+  \draw[thick] (D) -- (E) -- (F) -- cycle;
+  \draw[thick] (D) -- (I);
+  \draw[thick] (I) -- (K);
+
+  % Vuong goc tai D va K
+  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
+  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
+
+  % Cung goc bang nhau tai D (45 do)
+  \draw (0.42, 0) arc (0:45:0.42);
+  \draw (0.30, 0.30) arc (45:90:0.42);
+
+  \fill (D) circle (1.3pt) node[below left=-1pt] {$D$};
+  \fill (E) circle (1.3pt) node[above] {$E$};
+  \fill (F) circle (1.3pt) node[below right=-1pt] {$F$};
+  \fill (I) circle (1.3pt) node[above right=-1pt] {$I$};
+  \fill (K) circle (1.3pt) node[left] {$K$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{11}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị lớn nhất của biểu thức: $B = \dfrac{12}{x^2 - 8x + 20}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+\end{document}

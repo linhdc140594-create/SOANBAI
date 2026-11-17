@@ -1,0 +1,105 @@
+# THẨM ĐỊNH ĐỀ VÀ HƯỚNG DẪN CHẤM
+
+## I. Thẩm định đề
+
+**1. Về nội dung – chương trình:** Đề bám đúng yêu cầu cần đạt của chương trình GDPT 2018 (môn Toán 9), huy động đúng 4 đơn vị kiến thức thuộc chủ đề *Đường tròn – Góc với đường tròn*:
+- Tính chất hai tiếp tuyến cắt nhau (AB = AC; OA là phân giác góc A, OA là trung trực của dây BC);
+- Quan hệ vuông góc giữa đường kính – dây – tiếp tuyến;
+- Góc ở tâm và số đo cung; công thức độ dài cung tròn $l=\dfrac{\pi Rn}{180}$;
+- Góc nội tiếp chắn nửa đường tròn và dấu hiệu hai đường thẳng song song (từ vuông góc đến song song).
+
+**2. Về cấu trúc – phân bậc:** Câu a gồm 2 ý độc lập (chứng minh – tính toán) nên chấm được cả *Thông hiểu* và *Vận dụng*; câu b thuần chứng minh, đòi hỏi học sinh biết "nối" kết quả câu a với góc nội tiếp 90° → mức *Vận dụng*. Đề không đánh đố, phù hợp đề kiểm tra 45 phút hoặc đề giữa kì.
+
+**3. Ưu điểm số liệu:** $R=6$, $n=120^\circ$ cho $l=4\pi$ — kết quả đẹp, không phải làm tròn sớm, lại kiểm tra được học sinh có dùng đúng $\pi$ hay không. Góc $120^\circ<180^\circ$ nên cụm "cung nhỏ BC" không gây nhập nhằng.
+
+**4. Lưu ý khi ra đề (nếu được chỉnh):** Nên ghi rõ "cung nhỏ BC **của đường tròn (O)**" (đã có) và bổ sung ý "chứng minh H là trung điểm của BC" thì barem câu a sẽ tự nhiên hơn (0,25 cho ý này thay vì phải tách nhỏ bước tính). Với $R=6$, $n=120^\circ$ có thể hỏi thêm $BC=6\sqrt3$ cm để tăng phân hóa.
+
+---
+
+## II. Lời giải chi tiết
+
+### Câu a (1,25 điểm)
+
+**1. Chứng minh $OA \perp BC$ tại $H$.**
+
+- $AB$, $AC$ là hai tiếp tuyến của $(O)$ cắt nhau tại $A$ nên theo tính chất hai tiếp tuyến cắt nhau: $AB = AC$.
+- Lại có $OB = OC = R$ (bán kính).
+- Từ đó $O$ và $A$ đều cách đều $B$ và $C$, suy ra $OA$ là đường trung trực của đoạn thẳng $BC$.
+
+Vậy $OA \perp BC$ tại $H$ và $H$ là trung điểm của $BC$ (tức $HB = HC$).
+
+> *Cách 2 (tương đương, chấp nhận trọn điểm):* $\triangle ABO=\triangle ACO$ (c.c.c) vì $AB=AC$, $OB=OC$, $AO$ chung $\Rightarrow \widehat{AOB}=\widehat{AOC}$. Tam giác $OBC$ cân tại $O$ có $OH$ là đường phân giác nên cũng là đường cao $\Rightarrow OH \perp BC$.
+
+**2. Tính độ dài cung nhỏ $BC$.**
+
+- $\widehat{BOC}=120^\circ$ là góc ở tâm chắn cung $BC$. Vì $120^\circ<180^\circ$ nên cung **nhỏ** $BC$ có số đo bằng $120^\circ$, tức $n=120^\circ$.
+- Độ dài cung nhỏ $BC$:
+$$l=\frac{\pi R n}{180}=\frac{\pi\cdot 6\cdot 120}{180}=4\pi\ (\text{cm}) \approx 12,57\ \text{cm}.$$
+
+**Kết luận:** $l_{BC}=4\pi\ \text{cm}\approx 12,6\ \text{cm}$.
+
+*(Giá trị trung gian để giám khảo đối chiếu nhanh: $OH=R\cos60^\circ=3$ cm; $BH=R\sin60^\circ=3\sqrt3$ cm; $BC=6\sqrt3$ cm; $OA=12$ cm; $AB=AC=6\sqrt3$ cm.)*
+
+### Câu b (1,25 điểm)
+
+- $BD$ là đường kính của $(O)$ nên $D\in(O)$ và $\widehat{BCD}$ là góc nội tiếp chắn nửa đường tròn.
+- Do đó $\widehat{BCD}=90^\circ$, hay $CD \perp BC$. $\quad (1)$
+- Theo câu a: $OA \perp BC$. $\quad (2)$
+- Từ $(1)$ và $(2)$: hai đường thẳng $CD$ và $OA$ cùng vuông góc với $BC$, suy ra $CD \parallel OA$.
+
+**Kết luận:** $CD \parallel OA$ (đpcm).
+
+---
+
+## III. BAREM CHI TIẾT (thang 2,5 điểm, chia tới 0,25)
+
+### Câu a — 1,25 điểm
+
+| Bước | Nội dung chấm | Điểm |
+|---|---|---|
+| 1 | Nêu được $AB=AC$ (tính chất hai tiếp tuyến cắt nhau) **và** $OB=OC=R$ | 0,25 |
+| 2 | Lập luận $O$, $A$ cùng thuộc đường trung trực của $BC$ $\Rightarrow OA$ là trung trực của $BC$ | 0,25 |
+| 3 | Kết luận $OA \perp BC$ tại $H$ (ghi nhận thêm $H$ là trung điểm $BC$ — không bắt buộc) | 0,25 |
+| 4 | Lập luận $\widehat{BOC}=120^\circ<180^\circ$ nên cung nhỏ $BC$ có số đo $120^\circ$; viết đúng công thức $l=\dfrac{\pi Rn}{180}$ | 0,25 |
+| 5 | Thay số đúng: $l=\dfrac{\pi\cdot6\cdot120}{180}=4\pi$ cm $\approx 12,57$ cm (có đơn vị cm) | 0,25 |
+|  | **Cộng câu a** | **1,25** |
+
+### Câu b — 1,25 điểm
+
+| Bước | Nội dung chấm | Điểm |
+|---|---|---|
+| 1 | Chỉ ra $D\in(O)$, $BD$ là đường kính (nên cung $BCD$ là nửa đường tròn) | 0,25 |
+| 2 | Nêu đúng định lí góc nội tiếp chắn nửa đường tròn: $\widehat{BCD}=90^\circ$ | 0,25 |
+| 3 | Suy ra $CD \perp BC$ | 0,25 |
+| 4 | Khẳng định lại $OA \perp BC$ (kết quả câu a) và lập luận hai đường thẳng cùng vuông góc với $BC$ | 0,25 |
+| 5 | Kết luận $CD \parallel OA$ (có nêu căn cứ "từ vuông góc đến song song") | 0,25 |
+|  | **Cộng câu b** | **1,25** |
+|  | **TỔNG** | **2,50** |
+
+### Quy ước chấm (nhất quán cho cả 4 mã đề)
+
+- **Vẽ hình:** nếu tổ chức chấm có 0,25đ hình vẽ thì **gộp bước 3 và bước 4 của câu a** làm một (0,25), dành 0,25 cho hình vẽ đúng (đủ $B$, $C$, $H$, $OA\perp BC$; câu b vẽ thêm đường kính $BD$ và nối $CD$). Hình sai/thiếu kí hiệu vuông góc: trừ 0,25.
+- Học sinh dùng **Cách 2** ở câu a: vẫn cho trọn 0,75 của phần chứng minh, chỉ yêu cầu lập luận tam giác cân có đường phân giác là đường cao.
+- Câu a: nếu chỉ ghi "$OA$ là trung trực của $BC$" mà **không** chứng minh $AB=AC$ và $OB=OC$: trừ 0,25 (bước 1).
+- Câu b: nếu viết "$CD \perp BC$ và $OA \perp BC$ nên song song" mà **không** nêu $\widehat{BCD}=90^\circ$ do góc nội tiếp chắn nửa đường tròn: trừ 0,25 (bước 2).
+- **Lỗi thường gặp – trừ đúng 0,25 một lần:** dùng $l=\dfrac{\pi d n}{360}$ nhưng thay nhầm $d=6$; nhầm số đo cung lớn $240^\circ$; thiếu đơn vị cm; để kết quả dạng số thập phân làm tròn quá sớm ($l\approx 12$ cm).
+- Chấp nhận cả $4\pi$ cm, $12,56$ cm, $12,6$ cm; **không** chấp nhận kết quả không có $\pi$ dạng $12$ cm tròn.
+
+---
+
+## IV. NHẬN XÉT TÍNH TƯƠNG ĐƯƠNG VỚI CÁC MÃ 102 – 103 – 104
+
+| Mã | $R$ (cm) | $\widehat{BOC}$ | $R\cdot n$ | Công thức thay số | Kết quả |
+|---|---|---|---|---|---|
+| 101 (gốc) | 6 | $120^\circ$ | 720 | $\dfrac{\pi\cdot6\cdot120}{180}$ | $4\pi\approx12,57$ cm |
+| 102 | 9 | $80^\circ$ | 720 | $\dfrac{\pi\cdot9\cdot80}{180}$ | $4\pi\approx12,57$ cm |
+| 103 | 8 | $90^\circ$ | 720 | $\dfrac{\pi\cdot8\cdot90}{180}$ | $4\pi\approx12,57$ cm |
+| 104 | 12 | $60^\circ$ | 720 | $\dfrac{\pi\cdot12\cdot60}{180}$ | $4\pi\approx12,57$ cm |
+
+**Kết luận thẩm định: 4 mã đề tương đương — dùng chung một barem.**
+
+1. **Tương đương về cấu trúc:** cả 4 mã chỉ thay cặp số liệu $(R;n)$ ở câu a, giữ nguyên 100% yêu cầu chứng minh. Câu b **không phụ thuộc số liệu** nên 1,25đ câu b giống hệt nhau ở cả 4 mã.
+2. **Tương đương về độ khó:** số bước giải như nhau, phép tính đều là nhân–chia số tự nhiên với $\pi$, không mã nào phải làm tròn giữa chừng hay dùng lượng giác.
+3. **Tương đương về đáp số (có chủ đích):** tích $R\cdot n=720$ ở cả 4 mã nên $l=\dfrac{720\pi}{180}=4\pi$ cm. Đây là thiết kế tốt: học sinh **không thể đoán – dò mã đề** qua đáp số, đồng thời giám khảo chỉ cần nhớ một đáp số duy nhất, hạn chế sai sót khi chấm chéo.
+4. **Tương đương về điều kiện "cung nhỏ":** $120^\circ, 80^\circ, 90^\circ, 60^\circ$ đều $<180^\circ$, nên ở mọi mã, cung nhỏ $BC$ có số đo đúng bằng $\widehat{BOC}$ — không mã nào phát sinh tranh cãi cung lớn/nhỏ. Cần giữ nguyên ràng buộc $n<180^\circ$ nếu sau này thay số.
+5. **Cảnh báo khi hoán đổi mã:** chỉ được thay số ở câu a. Nếu thay số **vào câu b** (ví dụ thêm "cho $AB=...$") sẽ phá vỡ tính tương đương và phải viết lại barem. Ngoài ra, do kết quả trùng nhau, giám khảo phải chấm **theo bước lập luận**, tuyệt đối không cho điểm tối đa chỉ vì "khoanh đúng $4\pi$".

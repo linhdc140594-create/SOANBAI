@@ -1,0 +1,151 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 11 - BUỔI 1",
+  "title_p2": "TOÁN 6 - TUẦN 11 - BUỔI 1",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_11_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        ["Kết quả của phép tính $(-15) + (-25)$ là:", "-40"],
+        ["Kết quả của phép tính $45 + (-20)$ là:", "25"],
+        ["Kết quả của phép tính $(-65) + 30$ là:", "-35"],
+        ["Kết quả của phép tính $(-2026) + 2026$ là:", "0"],
+        ["Số nguyên thích hợp điền vào chỗ chấm $(-37) + \\dots = 0$ là:", "37"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ chấm: $(-12) + (-18) \\; \\dots \\; 0$", "<"],
+        ["Trong các chữ cái N, F, A, G, chữ cái có trục đối xứng là:", "A"],
+        ["Trong các chữ cái A, S, M, E, chữ cái có tâm đối xứng là:", "S"],
+        ["Một hình thoi có độ dài cạnh $8\\text{ cm}$. Chu vi hình thoi đó là:", "32\\text{ cm}"],
+        ["Nhiệt độ Sa Pa lúc sáng $-2^\\circ\\text{C}$, trưa tăng $7^\\circ\\text{C}$. Nhiệt độ trưa là:", "5^\\circ\\text{C}"]
+      ],
+      "q11": {
+        "a": "(-124) + (-76)",
+        "b": "(-165) + 215",
+        "c": "145 + (-68) + (-145) + 68",
+        "d": "(-45) + 183 + (-55) + 17",
+        "e": "(-125) + 25 \\cdot 2^2",
+        "f": "(-342) + [342 + (-158)]"
+      },
+      "q12": {
+        "a": "x + 18 = 10",
+        "b": "x + (-25) = -15",
+        "c": "3x + (-14) = 16",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-5 \\le x < 6$"
+      },
+      "q13": {
+        "de": "Đầu ngày, số dư tài khoản ngân hàng của một cửa hàng là $50\\text{ triệu đồng}$. Trong ngày, cửa hàng thực hiện 4 giao dịch (tiền thu vào ghi dấu $+$, tiền chi ra ghi dấu $-$) được ghi nhận trong bảng sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Giao dịch} & GD 1 (Thu tiền hàng) & GD 2 (Nhập hàng mới) & GD 3 (Thu dịch vụ) & GD 4 (Trả tiền thuê) \\\\\\hline \\textbf{Số tiền} & $+35\\text{ triệu đồng}$ & $-40\\text{ triệu đồng}$ & $+25\\text{ triệu đồng}$ & $-30\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng số tiền thu vào và tổng số tiền chi ra của cửa hàng trong ngày hôm đó.",
+        "b": "Tính số dư tài khoản của cửa hàng vào cuối ngày hôm đó."
+      },
+      "q14": {
+        "de": "Tính giá trị của biểu thức: $S = 1 + (-2) + 3 + (-4) + 5 + (-6) + \\dots + 2025 + (-2026)$."
+      }
+    },
+    "102": {
+      "short": [
+        ["Kết quả của phép tính $(-18) + (-22)$ là:", "-40"],
+        ["Kết quả của phép tính $58 + (-30)$ là:", "28"],
+        ["Kết quả của phép tính $(-72) + 22$ là:", "-50"],
+        ["Kết quả của phép tính $2025 + (-2025)$ là:", "0"],
+        ["Số nguyên thích hợp điền vào chỗ chấm $\\dots + 48 = 0$ là:", "-48"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ chấm: $35 + (-15) \\; \\dots \\; 0$", ">"],
+        ["Trong các chữ cái P, M, R, S, chữ cái có trục đối xứng là:", "M"],
+        ["Trong các chữ cái B, Z, P, C, chữ cái có tâm đối xứng là:", "Z"],
+        ["Một hình thoi có độ dài cạnh $12\\text{ cm}$. Chu vi hình thoi đó là:", "48\\text{ cm}"],
+        ["Nhiệt độ Mẫu Sơn lúc sáng $-4^\\circ\\text{C}$, trưa tăng $8^\\circ\\text{C}$. Nhiệt độ trưa là:", "4^\\circ\\text{C}"]
+      ],
+      "q11": {
+        "a": "(-135) + (-65)",
+        "b": "(-175) + 235",
+        "c": "156 + (-74) + (-156) + 74",
+        "d": "(-38) + 164 + (-62) + 36",
+        "e": "(-150) + 30 \\cdot 2^2",
+        "f": "(-425) + [425 + (-172)]"
+      },
+      "q12": {
+        "a": "x + 24 = 14",
+        "b": "x + (-30) = -18",
+        "c": "2x + (-16) = 24",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-6 < x \\le 5$"
+      },
+      "q13": {
+        "de": "Đầu ngày, số dư tài khoản ngân hàng của một cửa hàng là $60\\text{ triệu đồng}$. Trong ngày, cửa hàng thực hiện 4 giao dịch (tiền thu vào ghi dấu $+$, tiền chi ra ghi dấu $-$) được ghi nhận trong bảng sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Giao dịch} & GD 1 (Thu tiền hàng) & GD 2 (Nhập hàng mới) & GD 3 (Thu dịch vụ) & GD 4 (Trả tiền thuê) \\\\\\hline \\textbf{Số tiền} & $+45\\text{ triệu đồng}$ & $-50\\text{ triệu đồng}$ & $+30\\text{ triệu đồng}$ & $-35\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng số tiền thu vào và tổng số tiền chi ra của cửa hàng trong ngày hôm đó.",
+        "b": "Tính số dư tài khoản của cửa hàng vào cuối ngày hôm đó."
+      },
+      "q14": {
+        "de": "Tính giá trị của biểu thức: $S = 1 + (-2) + 3 + (-4) + 5 + (-6) + \\dots + 2023 + (-2024)$."
+      }
+    },
+    "103": {
+      "short": [
+        ["Kết quả của phép tính $(-16) + (-34)$ là:", "-50"],
+        ["Kết quả của phép tính $62 + (-22)$ là:", "40"],
+        ["Kết quả của phép tính $(-84) + 34$ là:", "-50"],
+        ["Kết quả của phép tính $(-1985) + 1985$ là:", "0"],
+        ["Số nguyên thích hợp điền vào chỗ chấm $(-56) + \\dots = 0$ là:", "56"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ chấm: $(-45) + (-25) \\; \\dots \\; 0$", "<"],
+        ["Trong các chữ cái Q, Y, L, J, chữ cái có trục đối xứng là:", "Y"],
+        ["Trong các chữ cái N, D, F, G, chữ cái có tâm đối xứng là:", "N"],
+        ["Một hình thoi có độ dài cạnh $15\\text{ cm}$. Chu vi hình thoi đó là:", "60\\text{ cm}"],
+        ["Tàu ngầm ở độ sâu $-35\\text{ m}$, sau đó nổi lên thêm $15\\text{ m}$. Độ sâu mới là:", "-20\\text{ m}"]
+      ],
+      "q11": {
+        "a": "(-148) + (-52)",
+        "b": "(-185) + 255",
+        "c": "168 + (-83) + (-168) + 83",
+        "d": "(-47) + 172 + (-53) + 28",
+        "e": "(-180) + 35 \\cdot 2^2",
+        "f": "(-516) + [516 + (-184)]"
+      },
+      "q12": {
+        "a": "x + 32 = 20",
+        "b": "x + (-35) = -20",
+        "c": "4x + (-18) = 22",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-4 \\le x < 5$"
+      },
+      "q13": {
+        "de": "Đầu ngày, số dư tài khoản ngân hàng của một cửa hàng là $70\\text{ triệu đồng}$. Trong ngày, cửa hàng thực hiện 4 giao dịch (tiền thu vào ghi dấu $+$, tiền chi ra ghi dấu $-$) được ghi nhận trong bảng sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Giao dịch} & GD 1 (Thu tiền hàng) & GD 2 (Nhập hàng mới) & GD 3 (Thu dịch vụ) & GD 4 (Trả tiền thuê) \\\\\\hline \\textbf{Số tiền} & $+40\\text{ triệu đồng}$ & $-60\\text{ triệu đồng}$ & $+35\\text{ triệu đồng}$ & $-45\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng số tiền thu vào và tổng số tiền chi ra của cửa hàng trong ngày hôm đó.",
+        "b": "Tính số dư tài khoản của cửa hàng vào cuối ngày hôm đó."
+      },
+      "q14": {
+        "de": "Tính giá trị của biểu thức: $S = 1 + (-2) + 3 + (-4) + 5 + (-6) + \\dots + 2027 + (-2028)$."
+      }
+    },
+    "104": {
+      "short": [
+        ["Kết quả của phép tính $(-27) + (-23)$ là:", "-50"],
+        ["Kết quả của phép tính $75 + (-35)$ là:", "40"],
+        ["Kết quả của phép tính $(-95) + 45$ là:", "-50"],
+        ["Kết quả của phép tính $1994 + (-1994)$ là:", "0"],
+        ["Số nguyên thích hợp điền vào chỗ chấm $\\dots + 65 = 0$ là:", "-65"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ chấm: $60 + (-20) \\; \\dots \\; 0$", ">"],
+        ["Trong các chữ cái K, T, G, R, chữ cái có trục đối xứng là:", "T"],
+        ["Trong các chữ cái H, V, W, Y, chữ cái có tâm đối xứng là:", "H"],
+        ["Một hình thoi có độ dài cạnh $25\\text{ cm}$. Chu vi hình thoi đó là:", "100\\text{ cm}"],
+        ["Tàu ngầm ở độ sâu $-40\\text{ m}$, sau đó nổi lên thêm $25\\text{ m}$. Độ sâu mới là:", "-15\\text{ m}"]
+      ],
+      "q11": {
+        "a": "(-156) + (-44)",
+        "b": "(-195) + 275",
+        "c": "172 + (-95) + (-172) + 95",
+        "d": "(-29) + 158 + (-71) + 42",
+        "e": "(-200) + 40 \\cdot 2^2",
+        "f": "(-635) + [635 + (-196)]"
+      },
+      "q12": {
+        "a": "x + 28 = 16",
+        "b": "x + (-40) = -25",
+        "c": "3x + (-15) = 18",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-5 < x \\le 4$"
+      },
+      "q13": {
+        "de": "Đầu ngày, số dư tài khoản ngân hàng của một cửa hàng là $80\\text{ triệu đồng}$. Trong ngày, cửa hàng thực hiện 4 giao dịch (tiền thu vào ghi dấu $+$, tiền chi ra ghi dấu $-$) được ghi nhận trong bảng sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Giao dịch} & GD 1 (Thu tiền hàng) & GD 2 (Nhập hàng mới) & GD 3 (Thu dịch vụ) & GD 4 (Trả tiền thuê) \\\\\\hline \\textbf{Số tiền} & $+50\\text{ triệu đồng}$ & $-65\\text{ triệu đồng}$ & $+40\\text{ triệu đồng}$ & $-45\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng số tiền thu vào và tổng số tiền chi ra của cửa hàng trong ngày hôm đó.",
+        "b": "Tính số dư tài khoản của cửa hàng vào cuối ngày hôm đó."
+      },
+      "q14": {
+        "de": "Tính giá trị của biểu thức: $S = 1 + (-2) + 3 + (-4) + 5 + (-6) + \\dots + 2021 + (-2022)$."
+      }
+    }
+  }
+}
