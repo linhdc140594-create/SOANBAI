@@ -11,9 +11,8 @@ def load_data():
         return json.load(f)
 
 def get_tikz_buoi2():
-    return r'''\begin{tikzpicture}[scale=0.72, >=stealth, line join=round, line cap=round]
+    return r'''\begin{tikzpicture}[scale=1.08, >=stealth, line join=round, line cap=round]
   \coordinate (O) at (0, 0);
-  \path (-1.7, -1.7) rectangle (3.0, 1.7);
   \draw[thick] (O) circle (1.5);
   \fill (O) circle (1.2pt) node[left=1pt] {$O$};
 \end{tikzpicture}'''
