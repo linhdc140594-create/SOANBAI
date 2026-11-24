@@ -61,9 +61,9 @@
         "d": "$3\\left|x - \\dfrac{1}{2}\\right| - \\dfrac{1}{4} = \\dfrac{5}{4}$"
       },
       "q13": {
-        "de": "Cho đoạn thẳng $AB$ có trung điểm là $I$. Qua $I$ kẻ đường thẳng $xy$ (đường thẳng $xy$ không vuông góc với $AB$). Từ $A$ kẻ $AH \\perp xy$ tại $H$, từ $B$ kẻ $BK \\perp xy$ tại $K$.",
-        "a": "(1,0 điểm) Chứng minh rằng $\\Delta AHI = \\Delta BKI$ (cạnh huyền - góc nhọn).",
-        "b": "(1,0 điểm) Chứng minh rằng $AH = BK$ và $AH \\parallel BK$."
+        "de": "Cho góc $\\widehat{xOy}$ nhọn. Trên tia $Ox$ lấy hai điểm $B$ và $C$, trên tia $Oy$ lấy hai điểm $D$ và $E$ sao cho $OB = OD$ và $OC = OE$ ($B$ nằm giữa $O$ và $C$).",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta ODC = \\Delta OBE$.",
+        "b": "(1,0 điểm) Chứng minh rằng $DC = BE$."
       },
       "q14": {
         "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{12}{|x - 3| + 4}$."
@@ -127,9 +127,9 @@
         "d": "$2\\left|x - \\dfrac{2}{3}\\right| - \\dfrac{1}{3} = \\dfrac{5}{3}$"
       },
       "q13": {
-        "de": "Cho đoạn thẳng $CD$ có trung điểm là $O$. Qua $O$ kẻ đường thẳng $mn$ (đường thẳng $mn$ không vuông góc với $CD$). Từ $C$ kẻ $CE \\perp mn$ tại $E$, từ $D$ kẻ $DF \\perp mn$ tại $F$.",
-        "a": "(1,0 điểm) Chứng minh rằng $\\Delta CEO = \\Delta DFO$ (cạnh huyền - góc nhọn).",
-        "b": "(1,0 điểm) Chứng minh rằng $CE = DF$ và $CE \\parallel DF$."
+        "de": "Cho góc $\\widehat{xOy}$ nhọn. Trên tia $Ox$ lấy hai điểm $M$ và $N$, trên tia $Oy$ lấy hai điểm $P$ và $Q$ sao cho $OM = OP$ và $ON = OQ$ ($M$ nằm giữa $O$ và $N$).",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta OPN = \\Delta OMQ$.",
+        "b": "(1,0 điểm) Chứng minh rằng $PN = MQ$."
       },
       "q14": {
         "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{15}{|x - 2| + 5}$."
@@ -193,9 +193,9 @@
         "d": "$4\\left|x - \\dfrac{1}{3}\\right| - \\dfrac{2}{3} = \\dfrac{10}{3}$"
       },
       "q13": {
-        "de": "Cho đoạn thẳng $MN$ có trung điểm là $E$. Qua $E$ kẻ đường thẳng $pq$ (đường thẳng $pq$ không vuông góc với $MN$). Từ $M$ kẻ $MP \\perp pq$ tại $P$, từ $N$ kẻ $NQ \\perp pq$ tại $Q$.",
-        "a": "(1,0 điểm) Chứng minh rằng $\\Delta MPE = \\Delta NQE$ (cạnh huyền - góc nhọn).",
-        "b": "(1,0 điểm) Chứng minh rằng $MP = NQ$ và $MP \\parallel NQ$."
+        "de": "Cho góc $\\widehat{mIn}$ nhọn. Trên tia $Im$ lấy hai điểm $A$ và $B$, trên tia $In$ lấy hai điểm $C$ và $D$ sao cho $IA = IC$ và $IB = ID$ ($A$ nằm giữa $I$ và $B$).",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta ICB = \\Delta IAD$.",
+        "b": "(1,0 điểm) Chứng minh rằng $CB = AD$."
       },
       "q14": {
         "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{18}{|x - 5| + 6}$."
@@ -259,9 +259,9 @@
         "d": "$2\\left|x - \\dfrac{3}{4}\\right| - \\dfrac{1}{2} = \\dfrac{3}{2}$"
       },
       "q13": {
-        "de": "Cho đoạn thẳng $EF$ có trung điểm là $K$. Qua $K$ kẻ đường thẳng $uv$ (đường thẳng $uv$ không vuông góc với $EF$). Từ $E$ kẻ $EG \\perp uv$ tại $G$, từ $F$ kẻ $FH \\perp uv$ tại $H$.",
-        "a": "(1,0 điểm) Chứng minh rằng $\\Delta EGK = \\Delta FHK$ (cạnh huyền - góc nhọn).",
-        "b": "(1,0 điểm) Chứng minh rằng $EG = FH$ và $EG \\parallel FH$."
+        "de": "Cho góc $\\widehat{xAy}$ nhọn. Trên tia $Ax$ lấy hai điểm $E$ và $F$, trên tia $Ay$ lấy hai điểm $G$ và $H$ sao cho $AE = AG$ và $AF = AH$ ($E$ nằm giữa $A$ và $F$).",
+        "a": "(1,0 điểm) Chứng minh rằng $\\Delta AGF = \\Delta AEH$.",
+        "b": "(1,0 điểm) Chứng minh rằng $GF = EH$."
       },
       "q14": {
         "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{20}{|x - 1| + 4}$."

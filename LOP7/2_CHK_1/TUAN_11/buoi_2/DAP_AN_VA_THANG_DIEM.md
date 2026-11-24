@@ -73,24 +73,38 @@
 
 ---
 
-### CÂU 13 (2,0 ĐIỂM). HÌNH HỌC PHẲNG (TAM GIÁC VUÔNG & G-C-G)
+### CÂU 13 (2,0 ĐIỂM). HÌNH HỌC PHẲNG (TAM GIÁC BẰNG NHAU C-G-C - VÍ DỤ 3)
 
 #### 🔹 MÃ ĐỀ 101:
-* **a) (1,0 điểm): Chứng minh rằng $\Delta AHI = \Delta BKI$ (cạnh huyền - góc nhọn).**
-  - Vì $AH \perp xy$ tại $H$ và $BK \perp xy$ tại $K$ nên $\Delta AHI$ vuông tại $H$ và $\Delta BKI$ vuông tại $K$ ($\widehat{AHI} = \widehat{BKI} = 90^\circ$). *(0,25đ)*
-  - Xét hai tam giác vuông $\Delta AHI$ và $\Delta BKI$, ta có:
-    + $IA = IB$ (vì $I$ là trung điểm của đoạn thẳng $AB$). *(0,25đ)*
-    + $\widehat{AIH} = \widehat{BIK}$ (hai góc đối đỉnh). *(0,25đ)*
-  - Do đó, $\Delta AHI = \Delta BKI$ (trường hợp cạnh huyền - góc nhọn). *(0,25đ)*
+* **Hình vẽ (0,25 điểm):**
+  - Vẽ đúng góc $\widehat{xOy}$ nhọn; lấy điểm $B, C \in Ox$ ($B$ nằm giữa $O$ và $C$); điểm $D, E \in Oy$ ($D$ nằm giữa $O$ và $E$) sao cho $OB = OD, OC = OE$; vẽ hai đoạn thẳng chéo $DC$ và $BE$. *(0,25đ)*
+* **a) (1,0 điểm): Chứng minh rằng $\Delta ODC = \Delta OBE$.**
+  - Xét $\Delta ODC$ và $\Delta OBE$, ta có:
+    + $OD = OB$ (theo giả thiết). *(0,25đ)*
+    + $\widehat{DOC} = \widehat{BOE} = \widehat{xOy}$ (góc chung). *(0,25đ)*
+    + $OC = OE$ (theo giả thiết). *(0,25đ)*
+  - Do đó, $\Delta ODC = \Delta OBE$ (c-g-c). *(0,25đ)*
+* **b) (0,75 điểm): Chứng minh rằng $DC = BE$.**
+  - Vì $\Delta ODC = \Delta OBE$ (theo chứng minh ở câu a). *(0,25đ)*
+  - Suy ra $DC = BE$ (hai cạnh tương ứng). *(0,5đ)*
 
-* **b) (1,0 điểm): Chứng minh rằng $AH = BK$ và $AH \parallel BK$.**
-  - Vì $\Delta AHI = \Delta BKI$ (theo chứng minh câu a), suy ra:
-    $AH = BK$ (hai cạnh tương ứng). *(0,5đ)*
-  - Mặt khác, ta có:
-    + $AH \perp xy$ (giả thiết).
-    + $BK \perp xy$ (giả thiết).
-    Suy ra $AH \parallel BK$ (vì hai đường thẳng phân biệt cùng vuông góc với đường thẳng thứ ba thì song song với nhau). *(0,5đ)*
-    *(Hoặc chứng minh qua hai góc so le trong $\widehat{HAI} = \widehat{KBI}$).*
+---
+
+#### 🔹 MÃ ĐỀ 102:
+* **a) (1,25 điểm):** Xét $\Delta OPN$ và $\Delta OMQ$, có: $OP = OM$ (gt); góc $\widehat{O}$ chung; $ON = OQ$ (gt) $\implies \Delta OPN = \Delta OMQ$ (c-g-c).
+* **b) (0,75 điểm):** Từ $\Delta OPN = \Delta OMQ \implies PN = MQ$ (hai cạnh tương ứng).
+
+---
+
+#### 🔹 MÃ ĐỀ 103:
+* **a) (1,25 điểm):** Xét $\Delta ICB$ và $\Delta IAD$, có: $IC = IA$ (gt); góc $\widehat{I}$ chung; $IB = ID$ (gt) $\implies \Delta ICB = \Delta IAD$ (c-g-c).
+* **b) (0,75 điểm):** Từ $\Delta ICB = \Delta IAD \implies CB = AD$ (hai cạnh tương ứng).
+
+---
+
+#### 🔹 MÃ ĐỀ 104:
+* **a) (1,25 điểm):** Xét $\Delta AGF$ và $\Delta AEH$, có: $AG = AE$ (gt); góc $\widehat{A}$ chung; $AF = AH$ (gt) $\implies \Delta AGF = \Delta AEH$ (c-g-c).
+* **b) (0,75 điểm):** Từ $\Delta AGF = \Delta AEH \implies GF = EH$ (hai cạnh tương ứng).
 
 ---
 

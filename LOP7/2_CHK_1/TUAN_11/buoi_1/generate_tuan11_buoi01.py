@@ -13,152 +13,48 @@ def load_data():
 
 def make_tikz(code):
     if code == "101":
-        return r'''\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
   \coordinate (O) at (0, 0);
-  \coordinate (X) at (3.5, 0);
-  \coordinate (Y) at (2.2, 2.6);
-  \coordinate (T) at (3.4, 1.58);
-  \coordinate (A) at (2.4, 0);
-  \coordinate (B) at (1.54, 1.84);
-  \coordinate (M) at (2.72, 1.27);
-  \coordinate (H) at (1.97, 0.92);
+  \coordinate (X) at (3.8, 0);
+  \coordinate (Y) at (2.4, 2.8);
 
-  \draw[->] (O) -- (X) node[below right=-2pt] {{\footnotesize $x$}};
-  \draw[->] (O) -- (Y) node[above left=-2pt] {{\footnotesize $y$}};
-  \draw[->] (O) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+  \draw[thick, ->] (O) -- (X) node[below right=-2pt] {$x$};
+  \draw[thick, ->] (O) -- (Y) node[above left=-2pt] {$y$};
 
-  \draw[thick] (O) -- (A);
-  \draw[thick] (O) -- (B);
-  \draw[thick] (A) -- (M);
-  \draw[thick] (B) -- (M);
-  \draw[thick] (A) -- (B);
-
-  % Vach danh dau OA = OB
-  \draw (1.15, -0.1) -- (1.15, 0.1);
-  \draw (1.25, -0.1) -- (1.25, 0.1);
-  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
-  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
-
-  % Cung goc bang nhau tai O
-  \draw (0.45, 0) arc (0:25:0.45);
-  \draw (0.407, 0.19) arc (25:50:0.45);
-
-  \fill (O) circle (1.3pt) node[below left=-1pt] {{$O$}};
-  \fill (A) circle (1.3pt) node[below=1pt] {{$A$}};
-  \fill (B) circle (1.3pt) node[above left=-1pt] {{$B$}};
-  \fill (M) circle (1.3pt) node[right=2pt] {{$M$}};
-  \fill (H) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$H$}};
+  \fill (O) circle (1.3pt) node[below left=-1pt] {$O$};
 \end{tikzpicture}'''
     elif code == "102":
-        return r'''\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
   \coordinate (I) at (0, 0);
-  \coordinate (M) at (3.5, 0);
-  \coordinate (N) at (2.2, 2.6);
-  \coordinate (T) at (3.4, 1.58);
-  \coordinate (E) at (2.4, 0);
-  \coordinate (F) at (1.54, 1.84);
-  \coordinate (K) at (2.72, 1.27);
-  \coordinate (H) at (1.97, 0.92);
+  \coordinate (M) at (3.8, 0);
+  \coordinate (N) at (2.4, 2.8);
 
-  \draw[->] (I) -- (M) node[below right=-2pt] {{\footnotesize $m$}};
-  \draw[->] (I) -- (N) node[above left=-2pt] {{\footnotesize $n$}};
-  \draw[->] (I) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+  \draw[thick, ->] (I) -- (M) node[below right=-2pt] {$m$};
+  \draw[thick, ->] (I) -- (N) node[above left=-2pt] {$n$};
 
-  \draw[thick] (I) -- (E);
-  \draw[thick] (I) -- (F);
-  \draw[thick] (E) -- (K);
-  \draw[thick] (F) -- (K);
-  \draw[thick] (E) -- (F);
-
-  % Vach danh dau IE = IF
-  \draw (1.15, -0.1) -- (1.15, 0.1);
-  \draw (1.25, -0.1) -- (1.25, 0.1);
-  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
-  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
-
-  % Cung goc bang nhau tai I
-  \draw (0.45, 0) arc (0:25:0.45);
-  \draw (0.407, 0.19) arc (25:50:0.45);
-
-  \fill (I) circle (1.3pt) node[below left=-1pt] {{$I$}};
-  \fill (E) circle (1.3pt) node[below=1pt] {{$E$}};
-  \fill (F) circle (1.3pt) node[above left=-1pt] {{$F$}};
-  \fill (K) circle (1.3pt) node[right=2pt] {{$K$}};
-  \fill (H) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$H$}};
+  \fill (I) circle (1.3pt) node[below left=-1pt] {$I$};
 \end{tikzpicture}'''
     elif code == "103":
-        return r'''\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
   \coordinate (A) at (0, 0);
-  \coordinate (X) at (3.5, 0);
-  \coordinate (Y) at (2.2, 2.6);
-  \coordinate (T) at (3.4, 1.58);
-  \coordinate (B) at (2.4, 0);
-  \coordinate (C) at (1.54, 1.84);
-  \coordinate (M) at (2.72, 1.27);
-  \coordinate (D) at (1.97, 0.92);
+  \coordinate (X) at (3.8, 0);
+  \coordinate (Y) at (2.4, 2.8);
 
-  \draw[->] (A) -- (X) node[below right=-2pt] {{\footnotesize $x$}};
-  \draw[->] (A) -- (Y) node[above left=-2pt] {{\footnotesize $y$}};
-  \draw[->] (A) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+  \draw[thick, ->] (A) -- (X) node[below right=-2pt] {$x$};
+  \draw[thick, ->] (A) -- (Y) node[above left=-2pt] {$y$};
 
-  \draw[thick] (A) -- (B);
-  \draw[thick] (A) -- (C);
-  \draw[thick] (B) -- (M);
-  \draw[thick] (C) -- (M);
-  \draw[thick] (B) -- (C);
-
-  % Vach danh dau AB = AC
-  \draw (1.15, -0.1) -- (1.15, 0.1);
-  \draw (1.25, -0.1) -- (1.25, 0.1);
-  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
-  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
-
-  % Cung goc bang nhau tai A
-  \draw (0.45, 0) arc (0:25:0.45);
-  \draw (0.407, 0.19) arc (25:50:0.45);
-
-  \fill (A) circle (1.3pt) node[below left=-1pt] {{$A$}};
-  \fill (B) circle (1.3pt) node[below=1pt] {{$B$}};
-  \fill (C) circle (1.3pt) node[above left=-1pt] {{$C$}};
-  \fill (M) circle (1.3pt) node[right=2pt] {{$M$}};
-  \fill (D) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$D$}};
+  \fill (A) circle (1.3pt) node[below left=-1pt] {$A$};
 \end{tikzpicture}'''
     else:  # 104
-        return r'''\begin{tikzpicture}[scale=0.76, >=stealth, line join=round, line cap=round]
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
   \coordinate (S) at (0, 0);
-  \coordinate (P_axis) at (3.5, 0);
-  \coordinate (Q_axis) at (2.2, 2.6);
-  \coordinate (T) at (3.4, 1.58);
-  \coordinate (M) at (2.4, 0);
-  \coordinate (N) at (1.54, 1.84);
-  \coordinate (P) at (2.72, 1.27);
-  \coordinate (K) at (1.97, 0.92);
+  \coordinate (P) at (3.8, 0);
+  \coordinate (Q) at (2.4, 2.8);
 
-  \draw[->] (S) -- (P_axis) node[below right=-2pt] {{\footnotesize $p$}};
-  \draw[->] (S) -- (Q_axis) node[above left=-2pt] {{\footnotesize $q$}};
-  \draw[->] (S) -- (T) node[above right=-2pt] {{\footnotesize $t$}};
+  \draw[thick, ->] (S) -- (P) node[below right=-2pt] {$p$};
+  \draw[thick, ->] (S) -- (Q) node[above left=-2pt] {$q$};
 
-  \draw[thick] (S) -- (M);
-  \draw[thick] (S) -- (N);
-  \draw[thick] (M) -- (P);
-  \draw[thick] (N) -- (P);
-  \draw[thick] (M) -- (N);
-
-  % Vach danh dau SM = SN
-  \draw (1.15, -0.1) -- (1.15, 0.1);
-  \draw (1.25, -0.1) -- (1.25, 0.1);
-  \draw (0.72 - 0.07, 0.86 - 0.05) -- (0.72 + 0.07, 0.86 + 0.05);
-  \draw (0.80 - 0.07, 0.96 - 0.05) -- (0.80 + 0.07, 0.96 + 0.05);
-
-  % Cung goc bang nhau tai S
-  \draw (0.45, 0) arc (0:25:0.45);
-  \draw (0.407, 0.19) arc (25:50:0.45);
-
-  \fill (S) circle (1.3pt) node[below left=-1pt] {{$S$}};
-  \fill (M) circle (1.3pt) node[below=1pt] {{$M$}};
-  \fill (N) circle (1.3pt) node[above left=-1pt] {{$N$}};
-  \fill (P) circle (1.3pt) node[right=2pt] {{$P$}};
-  \fill (K) circle (1.3pt) node[above left=-1pt, fill=white, inner sep=0.8pt] {{$K$}};
+  \fill (S) circle (1.3pt) node[below left=-1pt] {$S$};
 \end{tikzpicture}'''
 
 def build_tex(data, vspace_short="1.2mm", ob11=5, ob12=5, dk13=10, dk14=6):
@@ -312,13 +208,13 @@ def build_tex(data, vspace_short="1.2mm", ob11=5, ob12=5, dk13=10, dk14=6):
 \\begin{{tabularx}}{{\\linewidth}}{{|X|}}
 \\hline
 \\vspace{{0.5mm}}
-\\begin{{minipage}}[t]{{0.68\\linewidth}}
+\\begin{{minipage}}[t]{{0.57\\linewidth}}
 \\vspace{{0pt}}
 \\textbf{{Câu 13 (2,0 điểm).}} {q13["de"]}\\par\\vspace{{0.4mm}}
 \\textbf{{a)}} {q13["a"]}\\par\\vspace{{0.4mm}}
 \\textbf{{b)}} {q13["b"]}
 \\end{{minipage}}\\hfill
-\\begin{{minipage}}[t]{{0.30\\linewidth}}
+\\begin{{minipage}}[t]{{0.41\\linewidth}}
 \\vspace{{0pt}}\\centering
 {tikz_code}
 \\end{{minipage}}\\par
@@ -363,6 +259,7 @@ def check_margins(pdf_path):
     pix2.save(os.path.join(CUR_DIR, "page_2.png"))
     print("Exported page_1.png and page_2.png successfully.")
     
+    margins = []
     # Measure bottom margins of page 1 and page 2
     for page_idx in [0, 1]:
         pix = doc[page_idx].get_pixmap(dpi=150)
@@ -375,6 +272,8 @@ def check_margins(pdf_path):
             margin_bottom_px = h - last_row
             margin_bottom_mm = (margin_bottom_px / 150) * 25.4
             print(f"Page {page_idx+1} bottom margin: {margin_bottom_mm:.2f} mm")
+            margins.append(margin_bottom_mm)
+    return margins
 
 
 def main():
@@ -385,13 +284,22 @@ def main():
     
     candidates = [
         ("2.2mm", 5, 5, 11, 6),
+        ("2.2mm", 5, 5, 10, 6),
         ("2.0mm", 5, 5, 11, 6),
+        ("2.0mm", 5, 5, 10, 6),
         ("1.8mm", 5, 5, 11, 6),
-        ("1.5mm", 5, 5, 11, 6),
+        ("1.8mm", 5, 5, 10, 6),
+        ("1.6mm", 5, 5, 11, 6),
+        ("1.6mm", 5, 5, 10, 6),
+        ("1.4mm", 5, 5, 10, 6),
     ]
     
+    best_config = None
+    best_margins = None
+    best_score = float('inf')
+    
     for vspace_short, ob11, ob12, dk13, dk14 in candidates:
-        print(f"Trying vspace_short={vspace_short}, ob11={ob11}, ob12={ob12}, dk13={dk13}, dk14={dk14}...")
+        print(f"\nTrying vspace_short={vspace_short}, ob11={ob11}, ob12={ob12}, dk13={dk13}, dk14={dk14}...")
         tex_content = build_tex(data, vspace_short=vspace_short, ob11=ob11, ob12=ob12, dk13=dk13, dk14=dk14)
         with open(tex_path, 'w', encoding='utf-8') as f:
             f.write(tex_content)
@@ -405,10 +313,27 @@ def main():
             print(f"-> Result: {num_pages} pages")
             if num_pages == 8:
                 print(">>> SUCCESS! Exactly 8 pages! Checking margins...")
-                check_margins(pdf_path)
-                return
+                margins = check_margins(pdf_path)
+                score = sum(abs(m - 12.5) for m in margins)
+                if all(10.0 <= m <= 15.0 for m in margins):
+                    print(">>> PERFECT! Margins are within the ideal gold standard (10-15 mm)!")
+                    return
+                if score < best_score:
+                    best_score = score
+                    best_config = (vspace_short, ob11, ob12, dk13, dk14)
+                    best_margins = margins
             
-    print("Could not find configuration with exactly 8 pages.")
+    if best_config:
+        print(f"\n>>> Applying best found 8-page config: {best_config} with margins {best_margins}")
+        vspace_short, ob11, ob12, dk13, dk14 = best_config
+        tex_content = build_tex(data, vspace_short=vspace_short, ob11=ob11, ob12=ob12, dk13=dk13, dk14=dk14)
+        with open(tex_path, 'w', encoding='utf-8') as f:
+            f.write(tex_content)
+        cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
+        subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        check_margins(pdf_path)
+    else:
+        print("Could not find configuration with exactly 8 pages.")
 
 if __name__ == "__main__":
     main()

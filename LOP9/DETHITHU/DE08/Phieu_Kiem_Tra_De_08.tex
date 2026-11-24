@@ -1,0 +1,832 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{colortbl}
+\usepackage{tikz}
+\usetikzlibrary{angles, quotes, intersections, calc}
+\usepackage{xcolor}
+\usepackage[top=0.8cm, bottom=0.8cm, left=1.1cm, right=1.1cm]{geometry}
+
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\fboxsep}{3.5pt}
+\setlength{\fboxrule}{0.5pt}
+
+% Dòng kẻ chấm mờ cự ly chuẩn viết tay (18.5pt)
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{0.6mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!55}\dotfill}\par%
+  }%
+  \vspace{0.3mm}%
+  \endgroup%
+}
+
+% Dòng kẻ chia 2 cột có vách ngăn mờ ở giữa
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.3mm}%
+  \arrayrulecolor{gray!40}%
+  \begin{tabularx}{\linewidth}{@{}X|X@{}}
+    \dongke{#1} & \dongke{#1}
+  \end{tabularx}%
+  \arrayrulecolor{black}%
+}
+
+% Khung bao quanh bài tập tự luận
+\newcommand{\khungBaiTap}[1]{%
+  \vspace{0.6mm}%
+  \noindent\fbox{%
+    \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \vspace{0.3mm}%
+      #1%
+      \vspace{0.3mm}%
+    }%
+  }%
+  \vspace{0.5mm}%
+}
+
+% Câu trắc nghiệm 4 phương án trên 1 hàng
+\newcommand{\cauTN}[6]{%
+  \noindent\textbf{Câu #1.} #2\par\vspace{0.1mm}%
+  \noindent%
+  \makebox[0.25\linewidth][l]{\textbf{A.} #3}%
+  \makebox[0.25\linewidth][l]{\textbf{B.} #4}%
+  \makebox[0.25\linewidth][l]{\textbf{C.} #5}%
+  \makebox[0.25\linewidth][l]{\textbf{D.} #6}\par\vspace{0.6mm}%
+}
+
+\begin{document}
+\pagestyle{empty}
+\fontsize{10.2pt}{13.2pt}\selectfont
+% =============================================================================
+% ========================= MÃ ĐỀ: 101 - TRANG 1/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 101 -- Trang 1/4} \\
+\textit{Lớp Toán Thầy Lĩnh -- Thời gian làm bài: 120 phút} & \textit{(Đề gồm 04 trang)} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-1.5mm]{0pt}{6.8mm}\textbf{Họ và tên học sinh:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.4cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,0 điểm)}
+
+\cauTN{1}{Giải phương trình sau: $(2x+6)(x-3)=0$.}{$-3$ và $3$}{$-6$ và $3$}{$3$}{$-3$}
+\cauTN{2}{Giải bất phương trình sau: $5x-12>6x-15$.}{$x>3$}{$x>-3$}{$x<3$}{$x<-3$}
+\cauTN{3}{Giá trị của biểu thức $\dfrac{1}{2-\sqrt{3}}+\dfrac{1}{2+\sqrt{3}}$ là:}{$2\sqrt{3}$}{$4$}{$-4$}{$-2\sqrt{3}$}
+\cauTN{4}{Tính thể tích $V$ của hình cầu có bán kính $R=3\text{ cm}$:}{$35\pi\text{ cm}^3$}{$36\pi\text{ cm}^3$}{$36{,}5\pi\text{ cm}^3$}{$37\pi\text{ cm}^3$}
+\cauTN{5}{Một cột đèn có bóng trên mặt đất dài $8{,}5\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $52^\circ$. Chiều cao của cột đèn (làm tròn đến chữ số thập phân thứ nhất) là:}{$10{,}8\text{ m}$}{$10{,}9\text{ cm}$}{$10{,}8\text{ cm}$}{$10{,}9\text{ m}$}
+\cauTN{6}{Tìm điều kiện xác định của biểu thức $\dfrac{2}{\sqrt{x^2-4x+4}}$:}{$x>2$}{$x<2$}{$x \ne 2$}{$x=2$}
+\cauTN{7}{Ba bạn Việt, Nam, Lào được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: "Việt không ngồi ngoài cùng bên phải" là:}{$\dfrac{1}{3}$}{$\dfrac{2}{3}$}{$1$}{$\dfrac{4}{3}$}
+\cauTN{8}{Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-5x+3-2x=0$. Tính giá trị của $x_1+x_2$:}{$7$}{$-5$}{$5$}{$-7$}
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (8,0 điểm)}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\vspace{0.3mm}
+\textbf{Bài 1 (1,0 điểm).} Giải hệ phương trình:
+\vspace{-1.0mm}
+\[ \begin{cases} 4x + 3y = 1 \\ 2x - 3y = 11 \end{cases} \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+&
+\vspace{0.3mm}
+\textbf{Bài 2 (1,0 điểm).} Rút gọn biểu thức sau:
+\vspace{-1.0mm}
+\[ A = \left(\dfrac{2}{\sqrt{x}-2} - \dfrac{\sqrt{x}+4}{x-4}\right) : \dfrac{\sqrt{x}}{\sqrt{x}+2} \quad (x > 0,\; x \ne 4) \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 101 - TRANG 2/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 101 -- Trang 2/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm).} Cho phương trình $x^2 - 2x - 4 = 0$, không giải phương trình, hãy tính giá trị của biểu thức: $T = x_1^2 - x_2(2-x_2) - 2x_1$%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{12}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Bạn An chơi trò chơi gieo đồng thời hai con xúc xắc cân đối đồng chất I và II. Tính xác suất của biến cố: \textit{“Có đúng 1 con xúc xắc xuất hiện mặt 6 chấm”}.%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{8}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hội trường có 300 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 2 dãy và mỗi dãy xếp thêm 1 ghế thì trong hội trường có tất cả 351 ghế. Hỏi lúc đầu hội trường có bao nhiêu dãy ghế?%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{11}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 101 - TRANG 3/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 101 -- Trang 3/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \noindent
+  \begin{minipage}[t]{0.58\linewidth}
+    \vspace{0pt}%
+    \textbf{Bài 6 (2,0 điểm).} Cho tam giác $ABC$ nhọn ($AB < AC$). Đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $D$; $BD$ cắt $CE$ tại $H$, đường thẳng $AH$ cắt $BC$ tại $I$. Từ điểm $A$ kẻ các tiếp tuyến $AM, AN$ với đường tròn $(O)$ ($M, N$ là các tiếp điểm).\par\vspace{0.8mm}
+    \textbf{a) (1,0 điểm)} Chứng minh tứ giác $AEHD$ nội tiếp một đường tròn.\par\vspace{0.6mm}
+    \textbf{b) (1,0 điểm)} Chứng minh $AB \cdot BE = BI \cdot BC$, từ đó suy ra $AB \cdot BE + AC \cdot CD = BC^2$.
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.40\linewidth}
+    \vspace{0pt}%
+    \centering
+    \begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\scriptsize,scale=0.72]
+  \def\r{2.2}
+  \coordinate (O) at (0,0);
+  \coordinate (B) at (-\r,0);
+  \coordinate (C) at (\r,0);
+  \coordinate (A) at (-0.6,3.6);
+  
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \fill (A) circle (1.2pt);
+  \fill (B) circle (1.2pt);
+  \fill (C) circle (1.2pt);
+  
+  \node[above] at (A) {$A$};
+  \node[below left] at (B) {$B$};
+  \node[below right] at (C) {$C$};
+  
+  % Chừa khoảng không gian bên dưới BC và xung quanh để học sinh tự vẽ hình
+  \path (-\r-0.4, -\r-0.2) rectangle (\r+0.4, 3.8);
+\end{tikzpicture}
+  \end{minipage}
+  \par\vspace{0.6mm}%
+  \noindent\textit{Bài giải:}\par\vspace{0.3mm}%
+  \arrayrulecolor{gray!40}%
+  \begin{tabularx}{\linewidth}{@{}X|X@{}}
+    \dongke{32} & \dongke{32}
+  \end{tabularx}%
+  \arrayrulecolor{black}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 101 - TRANG 4/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 101 -- Trang 4/4} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7a (0,5 điểm).} Một xí nghiệp sản xuất 180 sản phẩm loại I và 180 sản phẩm loại II trong thời gian 5 giờ. Mỗi giờ sản xuất được số sản phẩm loại I nhiều hơn số sản phẩm loại II là 30 sản phẩm. Hỏi mỗi giờ xí nghiệp sản xuất được bao nhiêu sản phẩm mỗi loại?%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{17}%
+}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7b (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = 4x + \dfrac{1}{4x} - \dfrac{4\sqrt{x}+3}{x+1} + 2027$ với $x > 0$.%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{16}%
+}
+
+\vspace{1.5mm}
+\noindent\textit{(Ghi chú: Thí sinh không được sử dụng tài liệu. Cán bộ coi thi không giải thích gì thêm.)}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 102 - TRANG 1/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 102 -- Trang 1/4} \\
+\textit{Lớp Toán Thầy Lĩnh -- Thời gian làm bài: 120 phút} & \textit{(Đề gồm 04 trang)} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-1.5mm]{0pt}{6.8mm}\textbf{Họ và tên học sinh:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.4cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,0 điểm)}
+
+\cauTN{1}{Giải phương trình sau: $(2x-8)(x+2)=0$.}{$4$ và $-2$}{$-4$ và $2$}{$4$}{$-2$}
+\cauTN{2}{Giải bất phương trình sau: $4x-10>5x-14$.}{$x>4$}{$x<4$}{$x>-4$}{$x<-4$}
+\cauTN{3}{Giá trị của biểu thức $\dfrac{1}{3-\sqrt{8}}+\dfrac{1}{3+\sqrt{8}}$ là:}{$6$}{$2\sqrt{8}$}{$-6$}{$3$}
+\cauTN{4}{Tính thể tích $V$ của hình cầu có bán kính $R=6\text{ cm}$:}{$288\pi\text{ cm}^3$}{$144\pi\text{ cm}^3$}{$72\pi\text{ cm}^3$}{$576\pi\text{ cm}^3$}
+\cauTN{5}{Một cột cờ có bóng trên mặt đất dài $7{,}5\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $55^\circ$. Chiều cao của cột cờ (làm tròn đến chữ số thập phân thứ nhất) là:}{$10{,}7\text{ m}$}{$10{,}6\text{ m}$}{$10{,}8\text{ m}$}{$10{,}5\text{ m}$}
+\cauTN{6}{Tìm điều kiện xác định của biểu thức $\dfrac{3}{\sqrt{x^2-6x+9}}$:}{$x \ne 3$}{$x>3$}{$x<3$}{$x=3$}
+\cauTN{7}{Ba bạn An, Bình, Cúc được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: "An ngồi ở vị trí chính giữa" là:}{$\dfrac{1}{3}$}{$\dfrac{2}{3}$}{$\dfrac{1}{2}$}{$\dfrac{1}{6}$}
+\cauTN{8}{Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-3x+5-3x=0$. Tính giá trị của $x_1+x_2$:}{$-6$}{$6$}{$5$}{$-5$}
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (8,0 điểm)}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\vspace{0.3mm}
+\textbf{Bài 1 (1,0 điểm).} Giải hệ phương trình:
+\vspace{-1.0mm}
+\[ \begin{cases} 3x + 2y = 12 \\ 5x - 2y = 4 \end{cases} \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+&
+\vspace{0.3mm}
+\textbf{Bài 2 (1,0 điểm).} Rút gọn biểu thức sau:
+\vspace{-1.0mm}
+\[ A = \left(\dfrac{3}{\sqrt{x}-3} - \dfrac{\sqrt{x}+9}{x-9}\right) : \dfrac{\sqrt{x}}{\sqrt{x}+3} \quad (x > 0,\; x \ne 9) \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 102 - TRANG 2/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 102 -- Trang 2/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm).} Cho phương trình $x^2 - 3x - 5 = 0$, không giải phương trình, hãy tính giá trị của biểu thức: $T = x_1^2 - x_2(3-x_2) - 3x_1$%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{12}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Bạn Bình chơi trò chơi gieo đồng thời hai con xúc xắc cân đối đồng chất I và II. Tính xác suất của biến cố: \textit{“Có đúng 1 con xúc xắc xuất hiện mặt 1 chấm”}.%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{8}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hội trường có 360 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 1 dãy và mỗi dãy xếp thêm 1 ghế thì trong hội trường có tất cả 400 ghế. Hỏi lúc đầu hội trường có bao nhiêu dãy ghế (biết số dãy ghế ban đầu nhiều hơn 20)?%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{11}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 102 - TRANG 3/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 102 -- Trang 3/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \noindent
+  \begin{minipage}[t]{0.58\linewidth}
+    \vspace{0pt}%
+    \textbf{Bài 6 (2,0 điểm).} Cho tam giác $ABC$ nhọn ($AB < AC$). Đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $D$; $BD$ cắt $CE$ tại $H$, đường thẳng $AH$ cắt $BC$ tại $I$. Từ điểm $A$ kẻ các tiếp tuyến $AM, AN$ với đường tròn $(O)$ ($M, N$ là các tiếp điểm).\par\vspace{0.8mm}
+    \textbf{a) (1,0 điểm)} Chứng minh tứ giác $AEHD$ nội tiếp một đường tròn.\par\vspace{0.6mm}
+    \textbf{b) (1,0 điểm)} Chứng minh $AB \cdot BE = BI \cdot BC$, từ đó suy ra $AB \cdot BE + AC \cdot CD = BC^2$.
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.40\linewidth}
+    \vspace{0pt}%
+    \centering
+    \begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\scriptsize,scale=0.72]
+  \def\r{2.2}
+  \coordinate (O) at (0,0);
+  \coordinate (B) at (-\r,0);
+  \coordinate (C) at (\r,0);
+  \coordinate (A) at (-0.6,3.6);
+  
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \fill (A) circle (1.2pt);
+  \fill (B) circle (1.2pt);
+  \fill (C) circle (1.2pt);
+  
+  \node[above] at (A) {$A$};
+  \node[below left] at (B) {$B$};
+  \node[below right] at (C) {$C$};
+  
+  % Chừa khoảng không gian bên dưới BC và xung quanh để học sinh tự vẽ hình
+  \path (-\r-0.4, -\r-0.2) rectangle (\r+0.4, 3.8);
+\end{tikzpicture}
+  \end{minipage}
+  \par\vspace{0.6mm}%
+  \noindent\textit{Bài giải:}\par\vspace{0.3mm}%
+  \arrayrulecolor{gray!40}%
+  \begin{tabularx}{\linewidth}{@{}X|X@{}}
+    \dongke{32} & \dongke{32}
+  \end{tabularx}%
+  \arrayrulecolor{black}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 102 - TRANG 4/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 102 -- Trang 4/4} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7a (0,5 điểm).} Một xí nghiệp sản xuất 120 sản phẩm loại I và 120 sản phẩm loại II trong thời gian 5 giờ. Mỗi giờ sản xuất được số sản phẩm loại I nhiều hơn số sản phẩm loại II là 20 sản phẩm. Hỏi mỗi giờ xí nghiệp sản xuất được bao nhiêu sản phẩm mỗi loại?%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{17}%
+}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7b (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = 4x + \dfrac{1}{4x} - \dfrac{4\sqrt{x}+3}{x+1} + 2027$ với $x > 0$.%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{16}%
+}
+
+\vspace{1.5mm}
+\noindent\textit{(Ghi chú: Thí sinh không được sử dụng tài liệu. Cán bộ coi thi không giải thích gì thêm.)}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 103 - TRANG 1/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 103 -- Trang 1/4} \\
+\textit{Lớp Toán Thầy Lĩnh -- Thời gian làm bài: 120 phút} & \textit{(Đề gồm 04 trang)} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-1.5mm]{0pt}{6.8mm}\textbf{Họ và tên học sinh:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.4cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,0 điểm)}
+
+\cauTN{1}{Giải phương trình sau: $(3x+9)(x-2)=0$.}{$-3$ và $2$}{$3$ và $-2$}{$-3$}{$2$}
+\cauTN{2}{Giải bất phương trình sau: $3x-8>5x-12$.}{$x<2$}{$x>2$}{$x<-2$}{$x>-2$}
+\cauTN{3}{Giá trị của biểu thức $\dfrac{1}{\sqrt{5}-2}-\dfrac{1}{\sqrt{5}+2}$ là:}{$2\sqrt{5}$}{$-4$}{$4$}{$1$}
+\cauTN{4}{Tính thể tích $V$ của hình cầu có bán kính $R=3\text{ dm}$:}{$18\pi\text{ dm}^3$}{$27\pi\text{ dm}^3$}{$36\pi\text{ dm}^3$}{$45\pi\text{ dm}^3$}
+\cauTN{5}{Một tháp truyền hình có bóng trên mặt đất dài $9{,}0\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $50^\circ$. Chiều cao tháp (làm tròn đến chữ số thập phân thứ nhất) là:}{$10{,}5\text{ m}$}{$10{,}7\text{ m}$}{$10{,}9\text{ m}$}{$11{,}0\text{ m}$}
+\cauTN{6}{Tìm điều kiện xác định của biểu thức $\dfrac{1}{\sqrt{x^2-8x+16}}$:}{$x>4$}{$x \ne 4$}{$x<4$}{$x=4$}
+\cauTN{7}{Ba bạn Mai, Lan, Cúc được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: "Mai ngồi ở một trong hai đầu ghế" là:}{$\dfrac{1}{3}$}{$\dfrac{1}{2}$}{$\dfrac{2}{3}$}{$\dfrac{5}{6}$}
+\cauTN{8}{Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-4x+2-4x=0$. Tính giá trị của $x_1+x_2$:}{$2$}{$-8$}{$8$}{$-2$}
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (8,0 điểm)}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\vspace{0.3mm}
+\textbf{Bài 1 (1,0 điểm).} Giải hệ phương trình:
+\vspace{-1.0mm}
+\[ \begin{cases} 2x + 5y = 19 \\ 4x - 5y = -1 \end{cases} \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+&
+\vspace{0.3mm}
+\textbf{Bài 2 (1,0 điểm).} Rút gọn biểu thức sau:
+\vspace{-1.0mm}
+\[ A = \left(\dfrac{2}{\sqrt{x}-1} - \dfrac{\sqrt{x}+2}{x-1}\right) : \dfrac{\sqrt{x}}{\sqrt{x}+1} \quad (x > 0,\; x \ne 1) \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 103 - TRANG 2/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 103 -- Trang 2/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm).} Cho phương trình $x^2 - 4x - 3 = 0$, không giải phương trình, hãy tính giá trị của biểu thức: $T = x_1^2 - x_2(4-x_2) - 4x_1$%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{12}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Bạn Cường chơi trò chơi gieo đồng thời hai con xúc xắc cân đối đồng chất I và II. Tính xác suất của biến cố: \textit{“Có ít nhất 1 con xúc xắc xuất hiện mặt 6 chấm”}.%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{8}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một phòng họp có 240 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 2 dãy và mỗi dãy xếp thêm 1 ghế thì trong phòng họp có tất cả 286 ghế. Hỏi lúc đầu phòng họp có bao nhiêu dãy ghế (biết số dãy ghế ít hơn 22 dãy)?%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{11}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 103 - TRANG 3/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 103 -- Trang 3/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \noindent
+  \begin{minipage}[t]{0.58\linewidth}
+    \vspace{0pt}%
+    \textbf{Bài 6 (2,0 điểm).} Cho tam giác $ABC$ nhọn ($AB < AC$). Đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $D$; $BD$ cắt $CE$ tại $H$, đường thẳng $AH$ cắt $BC$ tại $I$. Từ điểm $A$ kẻ các tiếp tuyến $AM, AN$ với đường tròn $(O)$ ($M, N$ là các tiếp điểm).\par\vspace{0.8mm}
+    \textbf{a) (1,0 điểm)} Chứng minh tứ giác $AEHD$ nội tiếp một đường tròn.\par\vspace{0.6mm}
+    \textbf{b) (1,0 điểm)} Chứng minh $AB \cdot BE = BI \cdot BC$, từ đó suy ra $AB \cdot BE + AC \cdot CD = BC^2$.
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.40\linewidth}
+    \vspace{0pt}%
+    \centering
+    \begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\scriptsize,scale=0.72]
+  \def\r{2.2}
+  \coordinate (O) at (0,0);
+  \coordinate (B) at (-\r,0);
+  \coordinate (C) at (\r,0);
+  \coordinate (A) at (-0.6,3.6);
+  
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \fill (A) circle (1.2pt);
+  \fill (B) circle (1.2pt);
+  \fill (C) circle (1.2pt);
+  
+  \node[above] at (A) {$A$};
+  \node[below left] at (B) {$B$};
+  \node[below right] at (C) {$C$};
+  
+  % Chừa khoảng không gian bên dưới BC và xung quanh để học sinh tự vẽ hình
+  \path (-\r-0.4, -\r-0.2) rectangle (\r+0.4, 3.8);
+\end{tikzpicture}
+  \end{minipage}
+  \par\vspace{0.6mm}%
+  \noindent\textit{Bài giải:}\par\vspace{0.3mm}%
+  \arrayrulecolor{gray!40}%
+  \begin{tabularx}{\linewidth}{@{}X|X@{}}
+    \dongke{32} & \dongke{32}
+  \end{tabularx}%
+  \arrayrulecolor{black}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 103 - TRANG 4/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 103 -- Trang 4/4} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7a (0,5 điểm).} Một xí nghiệp sản xuất 240 sản phẩm loại I và 240 sản phẩm loại II trong thời gian 5 giờ. Mỗi giờ sản xuất được số sản phẩm loại I nhiều hơn số sản phẩm loại II là 40 sản phẩm. Hỏi mỗi giờ xí nghiệp sản xuất được bao nhiêu sản phẩm mỗi loại?%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{17}%
+}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7b (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = 4x + \dfrac{1}{4x} - \dfrac{4\sqrt{x}+3}{x+1} + 2027$ với $x > 0$.%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{16}%
+}
+
+\vspace{1.5mm}
+\noindent\textit{(Ghi chú: Thí sinh không được sử dụng tài liệu. Cán bộ coi thi không giải thích gì thêm.)}
+
+\newpage
+
+% =============================================================================
+% ========================= MÃ ĐỀ: 104 - TRANG 1/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 104 -- Trang 1/4} \\
+\textit{Lớp Toán Thầy Lĩnh -- Thời gian làm bài: 120 phút} & \textit{(Đề gồm 04 trang)} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|p{3.5cm}|}
+\hline
+\rule[-1.5mm]{0pt}{6.8mm}\textbf{Họ và tên học sinh:} \dotfill & \textbf{Lớp:} \makebox[2cm]{\dotfill} \\
+\hline
+\end{tabularx}
+
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.4cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (2,0 điểm)}
+
+\cauTN{1}{Giải phương trình sau: $(3x-6)(x+4)=0$.}{$2$ và $-4$}{$-2$ và $4$}{$2$}{$-4$}
+\cauTN{2}{Giải bất phương trình sau: $6x-15>8x-21$.}{$x>3$}{$x<-3$}{$x<3$}{$x>-3$}
+\cauTN{3}{Giá trị của biểu thức $\dfrac{1}{2-\sqrt{3}}-\dfrac{1}{2+\sqrt{3}}$ là:}{$4$}{$2\sqrt{3}$}{$-2\sqrt{3}$}{$1$}
+\cauTN{4}{Tính thể tích $V$ của hình cầu có đường kính $d=6\text{ cm}$:}{$36\pi\text{ cm}^3$}{$288\pi\text{ cm}^3$}{$144\pi\text{ cm}^3$}{$18\pi\text{ cm}^3$}
+\cauTN{5}{Một tòa nhà có bóng trên mặt đất dài $6{,}5\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $60^\circ$. Chiều cao tòa nhà (làm tròn đến chữ số thập phân thứ nhất) là:}{$11{,}1\text{ m}$}{$11{,}2\text{ m}$}{$11{,}3\text{ m}$}{$11{,}5\text{ m}$}
+\cauTN{6}{Tìm điều kiện xác định của biểu thức $\dfrac{5}{\sqrt{x^2-10x+25}}$:}{$x=5$}{$x>5$}{$x<5$}{$x \ne 5$}
+\cauTN{7}{Ba bạn Dũng, Tuấn, Huy được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: "Dũng không ngồi ở đầu ghế bên trái" là:}{$\dfrac{1}{3}$}{$\dfrac{1}{6}$}{$\dfrac{1}{2}$}{$\dfrac{2}{3}$}
+\cauTN{8}{Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-2x+1-3x=0$. Tính giá trị của $x_1+x_2$:}{$1$}{$-5$}{$-1$}{$5$}
+\vspace{0.4mm}
+\noindent\textbf{\large PHẦN II. TỰ LUẬN (8,0 điểm)}
+\vspace{0.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\vspace{0.3mm}
+\textbf{Bài 1 (1,0 điểm).} Giải hệ phương trình:
+\vspace{-1.0mm}
+\[ \begin{cases} 5x + 3y = 21 \\ 3x - 3y = 3 \end{cases} \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+&
+\vspace{0.3mm}
+\textbf{Bài 2 (1,0 điểm).} Rút gọn biểu thức sau:
+\vspace{-1.0mm}
+\[ A = \left(\dfrac{3}{\sqrt{x}-2} - \dfrac{2\sqrt{x}+6}{x-4}\right) : \dfrac{\sqrt{x}}{\sqrt{x}+2} \quad (x > 0,\; x \ne 4) \]
+\vspace{-2.0mm}
+\noindent\textit{Bài giải:}\par
+\dongke{14}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 104 - TRANG 2/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 104 -- Trang 2/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 3 (1,0 điểm).} Cho phương trình $x^2 - 5x - 2 = 0$, không giải phương trình, hãy tính giá trị của biểu thức: $T = x_1^2 - x_2(5-x_2) - 5x_1$%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{12}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 4 (1,0 điểm).} Bạn Dũng chơi trò chơi gieo đồng thời hai con xúc xắc cân đối đồng chất I và II. Tính xác suất của biến cố: \textit{“Có đúng 1 con xúc xắc xuất hiện mặt 5 chấm”}.%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{8}%
+}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \textbf{Bài 5 (1,0 điểm).} Một hội trường có 280 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 1 dãy và mỗi dãy xếp thêm 2 ghế thì trong hội trường có tất cả 330 ghế. Hỏi lúc đầu hội trường có bao nhiêu dãy ghế (biết số dãy ghế ban đầu nhiều hơn 12 dãy)?%
+  \par\vspace{0.3mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{11}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 104 - TRANG 3/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 104 -- Trang 3/4} \\
+\hline
+\end{tabularx}
+
+\vspace{0.6mm}
+
+\khungBaiTap{%
+  \noindent
+  \begin{minipage}[t]{0.58\linewidth}
+    \vspace{0pt}%
+    \textbf{Bài 6 (2,0 điểm).} Cho tam giác $ABC$ nhọn ($AB < AC$). Đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $D$; $BD$ cắt $CE$ tại $H$, đường thẳng $AH$ cắt $BC$ tại $I$. Từ điểm $A$ kẻ các tiếp tuyến $AM, AN$ với đường tròn $(O)$ ($M, N$ là các tiếp điểm).\par\vspace{0.8mm}
+    \textbf{a) (1,0 điểm)} Chứng minh tứ giác $AEHD$ nội tiếp một đường tròn.\par\vspace{0.6mm}
+    \textbf{b) (1,0 điểm)} Chứng minh $AB \cdot BE = BI \cdot BC$, từ đó suy ra $AB \cdot BE + AC \cdot CD = BC^2$.
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.40\linewidth}
+    \vspace{0pt}%
+    \centering
+    \begin{tikzpicture}[line join = round, line cap=round,>=stealth,font=\scriptsize,scale=0.72]
+  \def\r{2.2}
+  \coordinate (O) at (0,0);
+  \coordinate (B) at (-\r,0);
+  \coordinate (C) at (\r,0);
+  \coordinate (A) at (-0.6,3.6);
+  
+  \draw[thick] (A) -- (B) -- (C) -- cycle;
+  \fill (A) circle (1.2pt);
+  \fill (B) circle (1.2pt);
+  \fill (C) circle (1.2pt);
+  
+  \node[above] at (A) {$A$};
+  \node[below left] at (B) {$B$};
+  \node[below right] at (C) {$C$};
+  
+  % Chừa khoảng không gian bên dưới BC và xung quanh để học sinh tự vẽ hình
+  \path (-\r-0.4, -\r-0.2) rectangle (\r+0.4, 3.8);
+\end{tikzpicture}
+  \end{minipage}
+  \par\vspace{0.6mm}%
+  \noindent\textit{Bài giải:}\par\vspace{0.3mm}%
+  \arrayrulecolor{gray!40}%
+  \begin{tabularx}{\linewidth}{@{}X|X@{}}
+    \dongke{32} & \dongke{32}
+  \end{tabularx}%
+  \arrayrulecolor{black}%
+}
+
+\newpage
+% =============================================================================
+% ========================= MÃ ĐỀ: 104 - TRANG 4/4 =========================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{ĐỀ THI THỬ VÀO LỚP 10 THPT (ĐỀ 08) -- TOÁN 9} & \textbf{Mã đề: 104 -- Trang 4/4} \\
+\hline
+\end{tabularx}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7a (0,5 điểm).} Một xí nghiệp sản xuất 150 sản phẩm loại I và 150 sản phẩm loại II trong thời gian 5 giờ. Mỗi giờ sản xuất được số sản phẩm loại I nhiều hơn số sản phẩm loại II là 25 sản phẩm. Hỏi mỗi giờ xí nghiệp sản xuất được bao nhiêu sản phẩm mỗi loại?%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{17}%
+}
+
+\vspace{1.5mm}
+
+\khungBaiTap{%
+  \textbf{Bài 7b (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức: $A = 4x + \dfrac{1}{4x} - \dfrac{4\sqrt{x}+3}{x+1} + 2027$ với $x > 0$.%
+  \par\vspace{0.4mm}%
+  \noindent\textit{Bài giải:}\par%
+  \dongkeHaiCot{16}%
+}
+
+\vspace{1.5mm}
+\noindent\textit{(Ghi chú: Thí sinh không được sử dụng tài liệu. Cán bộ coi thi không giải thích gì thêm.)}
+
+\newpage
+\end{document}

@@ -6,265 +6,265 @@
     "101": {
       "short": [
         [
-          "Cho $\\Delta ABC$ có $AD$ là phân giác góc $A$. Khi đó tỉ số $\\dfrac{DB}{DC}$ bằng:",
-          "\\dfrac{AB}{AC}"
+          "Cho hai đoạn thẳng $AB = 6\\text{ cm}, CD = 8\\text{ cm}$. Tỉ số $\\dfrac{AB}{CD} =$",
+          "\\dfrac{3}{4}"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$ ($AB=4, AC=6, DB=2\\text{ cm}$). Tính $DC$:",
-          "3\\text{ cm}"
+          "Cho $\\Delta ABC$ có $DE \\parallel BC$, $AD = 3\\text{ cm}, DB = 2\\text{ cm}, AE = 6\\text{ cm}$. Khi đó $EC =$",
+          "4\\text{ cm}"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$, $\\dfrac{DB}{DC} = \\dfrac{2}{3}$ và $AB=6\\text{ cm}$. Độ dài $AC$ là:",
-          "9\\text{ cm}"
+          "Cho $\\Delta ABC$ có $MN \\parallel BC$, $\\dfrac{AM}{AB} = \\dfrac{2}{3}, BC = 15\\text{ cm}$. Khi đó $MN =$",
+          "10\\text{ cm}"
         ],
         [
-          "Điều kiện xác định của phân thức đại số $\\dfrac{2x+1}{x-3}$ là:",
-          "x \\neq 3"
+          "Kết quả của phép nhân $2x(3x^2 - 4x + 1)$ là:",
+          "6x^3 - 8x^2 + 2x"
         ],
         [
-          "Giá trị của $x$ để phân thức $\\dfrac{x-5}{x+2} = 0$ là:",
-          "5"
+          "Khai triển hằng đẳng thức $(2x - 3)^2$, ta được kết quả là:",
+          "4x^2 - 12x + 9"
         ],
         [
-          "Rút gọn phân thức đại số $\\dfrac{x^2-9}{x-3}$, ta được kết quả là:",
-          "x + 3"
+          "Phân tích đa thức $5x^2 - 10xy$ thành nhân tử, ta được:",
+          "5x(x - 2y)"
         ],
         [
-          "Phân thức đối của phân thức $\\dfrac{x-1}{x+2}$ là:",
-          "\\dfrac{1-x}{x+2}"
+          "Phân tích đa thức $9x^2 - 25$ thành nhân tử, ta được:",
+          "(3x - 5)(3x + 5)"
         ],
         [
-          "Giá trị của phân thức $\\dfrac{x^2-1}{x-1}$ tại $x=9$ bằng:",
-          "10"
+          "Tính nhanh giá trị biểu thức $73^2 + 27^2 + 54 \\cdot 73 =$",
+          "10\\,000"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$ ($AB=30, AC=45, BC=50\\text{ m}$). Tính $DB$:",
-          "20\\text{ m}"
+          "Cọc cao $2\\text{ m}$ bóng $1{,}5\\text{ m}$. Cây có bóng $6\\text{ m}$. Chiều cao cây là:",
+          "8\\text{ m}"
         ],
         [
-          "Trong tam giác vuông, một góc nhọn bằng $38^\\circ$. Số đo góc nhọn còn lại là:",
-          "52^\\circ"
+          "Cho $\\Delta ABC$, $M \\in AB, N \\in AC$. ĐK để $MN \\parallel BC$ là:",
+          "\\dfrac{AM}{MB} = \\dfrac{AN}{NC}"
         ]
       ],
       "q11": {
-        "a": "$\\dfrac{6x^3 y^2}{9x^2 y^3}$",
-        "b": "$\\dfrac{3x - 6}{x^2 - 4}$",
-        "c": "$\\dfrac{x^2 - 6x + 9}{x^2 - 9}$",
-        "d": "$\\dfrac{3 - x}{x^2 - 9}$",
-        "e": "$\\dfrac{x^2 - 5x + 6}{x^2 - 4}$",
-        "f": "Rút gọn $P = \\dfrac{x^2 + 2x}{x^2 - 4}$, tính $P$ tại $x = 3$."
+        "a": "$(3x^2y - 2xy^2) + (2x^2y + 5xy^2)$",
+        "b": "$(5x^3 - 3x^2 + 4) - (2x^3 - 3x^2 - 5)$",
+        "c": "$2x^2(3x^2 - 4x + 1)$",
+        "d": "$(2x - 3)(x^2 - 2x + 1)$",
+        "e": "$(12x^4y^3 - 8x^3y^2) : 4x^2y^2$",
+        "f": "$(2x^3 - 5x^2 + 6x - 2) : (2x - 1)$"
       },
       "q12": {
-        "a": "$(x - 3)(2x + 1) = 0$",
-        "b": "$(2x - 1)^2 - 9 = 0$",
-        "c": "$x^2 - 7x + 12 = 0$",
-        "d": "$x(x - 2) + 3(x - 2) = 0$"
+        "a": "$4x^2 - 12x$",
+        "b": "$9x^2 - 16$",
+        "c": "$xy - 2y + 3x - 6$",
+        "d": "$x^2 - 2xy + y^2 - 25$"
       },
       "q13": {
-        "de": "Cho $\\Delta ABC$ vuông tại $A$ ($AB = 6\\text{ cm}, AC = 8\\text{ cm}$), phân giác $AD$ ($D \\in BC$).",
-        "a": "(1,0 điểm) Tính cạnh $BC$, tỉ số $\\dfrac{DB}{DC}$ và độ dài các đoạn thẳng $DB, DC$.",
-        "b": "(1,0 điểm) Kẻ $DH \\perp AB$ tại $H$. Chứng minh $\\Delta AHD$ vuông cân và tính $DH$."
+        "de": "Cho tam giác $ABC$ nhọn ($AB < AC$), có $AB = 12\\text{ cm}, AC = 15\\text{ cm}$. Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 4\\text{ cm}$, trên cạnh $AC$ lấy điểm $E$ sao cho $AE = 5\\text{ cm}$.",
+        "a": "(1,0 điểm) Chứng minh rằng $DE \\parallel BC$.",
+        "b": "(1,0 điểm) Biết $BC = 18\\text{ cm}$. Tính độ dài đoạn thẳng $DE$ và độ dài đoạn thẳng $DB$."
       },
       "q14": {
-        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{6}{x^2 - 4x + 7}$."
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 - 6x + 13$."
       }
     },
     "102": {
       "short": [
         [
-          "Cho $\\Delta MNP$ có $MK$ là phân giác góc $M$. Khi đó tỉ số $\\dfrac{KN}{KP}$ bằng:",
-          "\\dfrac{MN}{MP}"
+          "Cho hai đoạn thẳng $MN = 4\\text{ cm}, PQ = 10\\text{ cm}$. Tỉ số $\\dfrac{MN}{PQ} =$",
+          "\\dfrac{2}{5}"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$ ($AB=6, AC=9, DB=4\\text{ cm}$). Tính $DC$:",
+          "Cho $\\Delta ABC$ có $DE \\parallel BC$, $AD = 2\\text{ cm}, DB = 4\\text{ cm}, AE = 3\\text{ cm}$. Khi đó $EC =$",
           "6\\text{ cm}"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$, $\\dfrac{DB}{DC} = \\dfrac{3}{4}$ và $AB=9\\text{ cm}$. Độ dài $AC$ là:",
+          "Cho $\\Delta ABC$ có $MN \\parallel BC$, $\\dfrac{AM}{AB} = \\dfrac{3}{4}, BC = 16\\text{ cm}$. Khi đó $MN =$",
           "12\\text{ cm}"
         ],
         [
-          "Điều kiện xác định của phân thức đại số $\\dfrac{3x-2}{x-4}$ là:",
-          "x \\neq 4"
+          "Kết quả của phép nhân $3x(2x^2 - 5x + 2)$ là:",
+          "6x^3 - 15x^2 + 6x"
         ],
         [
-          "Giá trị của $x$ để phân thức $\\dfrac{x-7}{x+3} = 0$ là:",
-          "7"
+          "Khai triển hằng đẳng thức $(3x - 2)^2$, ta được kết quả là:",
+          "9x^2 - 12x + 4"
         ],
         [
-          "Rút gọn phân thức đại số $\\dfrac{x^2-16}{x-4}$, ta được kết quả là:",
-          "x + 4"
+          "Phân tích đa thức $6x^2 - 12xy$ thành nhân tử, ta được:",
+          "6x(x - 2y)"
         ],
         [
-          "Phân thức đối của phân thức $\\dfrac{x-3}{x+1}$ là:",
-          "\\dfrac{3-x}{x+1}"
+          "Phân tích đa thức $4x^2 - 49$ thành nhân tử, ta được:",
+          "(2x - 7)(2x + 7)"
         ],
         [
-          "Giá trị của phân thức $\\dfrac{x^2-4}{x-2}$ tại $x=8$ bằng:",
-          "10"
+          "Tính nhanh giá trị biểu thức $84^2 + 16^2 + 32 \\cdot 84 =$",
+          "10\\,000"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$ ($AB=20, AC=30, BC=40\\text{ m}$). Tính $DB$:",
-          "16\\text{ m}"
+          "Cọc cao $2\\text{ m}$ bóng $1{,}2\\text{ m}$. Tháp có bóng $9\\text{ m}$. Chiều cao tháp là:",
+          "15\\text{ m}"
         ],
         [
-          "Trong tam giác vuông, một góc nhọn bằng $42^\\circ$. Số đo góc nhọn còn lại là:",
-          "48^\\circ"
+          "Cho $\\Delta ABC$, $D \\in AB, E \\in AC$. ĐK để $DE \\parallel BC$ là:",
+          "\\dfrac{AD}{AB} = \\dfrac{AE}{AC}"
         ]
       ],
       "q11": {
-        "a": "$\\dfrac{8x^4 y^2}{12x^3 y^3}$",
-        "b": "$\\dfrac{4x - 12}{x^2 - 9}$",
-        "c": "$\\dfrac{x^2 + 8x + 16}{x^2 - 16}$",
-        "d": "$\\dfrac{4 - x}{x^2 - 16}$",
-        "e": "$\\dfrac{x^2 - 7x + 12}{x^2 - 9}$",
-        "f": "Rút gọn $P = \\dfrac{x^2 + 3x}{x^2 - 9}$, tính $P$ tại $x = 4$."
+        "a": "$(4x^2y - 3xy^2) + (x^2y + 6xy^2)$",
+        "b": "$(6x^3 - 4x^2 + 5) - (2x^3 - 4x^2 - 3)$",
+        "c": "$3x^2(2x^2 - 3x + 1)$",
+        "d": "$(2x - 1)(x^2 - 3x + 2)$",
+        "e": "$(15x^4y^3 - 9x^3y^2) : 3x^2y^2$",
+        "f": "$(2x^3 - 7x^2 + 7x - 2) : (2x - 1)$"
       },
       "q12": {
-        "a": "$(x - 4)(2x + 1) = 0$",
-        "b": "$(2x - 1)^2 - 25 = 0$",
-        "c": "$x^2 - 5x + 6 = 0$",
-        "d": "$x(x - 3) + 4(x - 3) = 0$"
+        "a": "$5x^2 - 15x$",
+        "b": "$16x^2 - 25$",
+        "c": "$xy - 3y + 4x - 12$",
+        "d": "$x^2 - 2xy + y^2 - 36$"
       },
       "q13": {
-        "de": "Cho $\\Delta MNP$ vuông tại $M$ ($MN = 6\\text{ cm}, MP = 8\\text{ cm}$), phân giác $MK$ ($K \\in NP$).",
-        "a": "(1,0 điểm) Tính cạnh $NP$, tỉ số $\\dfrac{KN}{KP}$ và độ dài các đoạn thẳng $KN, KP$.",
-        "b": "(1,0 điểm) Kẻ $KH \\perp MN$ tại $H$. Chứng minh $\\Delta MHK$ vuông cân và tính $KH$."
+        "de": "Cho tam giác $MNP$ nhọn ($MN < MP$), có $MN = 12\\text{ cm}, MP = 16\\text{ cm}$. Trên cạnh $MN$ lấy điểm $D$ sao cho $MD = 3\\text{ cm}$, trên cạnh $MP$ lấy điểm $E$ sao cho $ME = 4\\text{ cm}$.",
+        "a": "(1,0 điểm) Chứng minh rằng $DE \\parallel NP$.",
+        "b": "(1,0 điểm) Biết $NP = 20\\text{ cm}$. Tính độ dài đoạn thẳng $DE$ và độ dài đoạn thẳng $DN$."
       },
       "q14": {
-        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{8}{x^2 - 6x + 13}$."
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 - 8x + 25$."
       }
     },
     "103": {
       "short": [
         [
-          "Cho $\\Delta DEF$ có $DH$ là phân giác góc $D$. Khi đó tỉ số $\\dfrac{HE}{HF}$ bằng:",
-          "\\dfrac{DE}{DF}"
+          "Cho hai đoạn thẳng $AB = 9\\text{ cm}, CD = 12\\text{ cm}$. Tỉ số $\\dfrac{AB}{CD} =$",
+          "\\dfrac{3}{4}"
         ],
         [
-          "Cho $\\Delta MNP$ có phân giác $MK$ ($MN=5, MP=10, KN=3\\text{ cm}$). Tính $KP$:",
-          "6\\text{ cm}"
+          "Cho $\\Delta ABC$ có $DE \\parallel BC$, $AD = 4\\text{ cm}, DB = 2\\text{ cm}, AE = 8\\text{ cm}$. Khi đó $EC =$",
+          "4\\text{ cm}"
         ],
         [
-          "Cho $\\Delta MNP$ có phân giác $MK$, $\\dfrac{KN}{KP} = \\dfrac{2}{5}$ và $MN=4\\text{ cm}$. Độ dài $MP$ là:",
-          "10\\text{ cm}"
+          "Cho $\\Delta ABC$ có $MN \\parallel BC$, $\\dfrac{AM}{AB} = \\dfrac{2}{5}, BC = 20\\text{ cm}$. Khi đó $MN =$",
+          "8\\text{ cm}"
         ],
         [
-          "Điều kiện xác định của phân thức đại số $\\dfrac{x+5}{x+2}$ là:",
-          "x \\neq -2"
+          "Kết quả của phép nhân $2x(4x^2 - 3x + 2)$ là:",
+          "8x^3 - 6x^2 + 4x"
         ],
         [
-          "Giá trị của $x$ để phân thức $\\dfrac{x+4}{x-1} = 0$ là:",
-          "-4"
+          "Khai triển hằng đẳng thức $(2x - 5)^2$, ta được kết quả là:",
+          "4x^2 - 20x + 25"
         ],
         [
-          "Rút gọn phân thức đại số $\\dfrac{x^2-25}{x-5}$, ta được kết quả là:",
-          "x + 5"
+          "Phân tích đa thức $4x^2 - 12xy$ thành nhân tử, ta được:",
+          "4x(x - 3y)"
         ],
         [
-          "Phân thức đối của phân thức $\\dfrac{x-2}{x+5}$ là:",
-          "\\dfrac{2-x}{x+5}"
+          "Phân tích đa thức $16x^2 - 9$ thành nhân tử, ta được:",
+          "(4x - 3)(4x + 3)"
         ],
         [
-          "Giá trị của phân thức $\\dfrac{x^2-9}{x-3}$ tại $x=7$ bằng:",
-          "10"
+          "Tính nhanh giá trị biểu thức $68^2 + 32^2 + 64 \\cdot 68 =$",
+          "10\\,000"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$ ($AB=25, AC=50, BC=60\\text{ m}$). Tính $DB$:",
-          "20\\text{ m}"
+          "Cọc cao $1{,}8\\text{ m}$ bóng $1{,}2\\text{ m}$. Cây có bóng $8\\text{ m}$. Chiều cao cây là:",
+          "12\\text{ m}"
         ],
         [
-          "Trong tam giác vuông, một góc nhọn bằng $28^\\circ$. Số đo góc nhọn còn lại là:",
-          "62^\\circ"
+          "Cho $\\Delta ABC$, $M \\in AB, N \\in AC$. ĐK để $MN \\parallel BC$ là:",
+          "\\dfrac{AM}{AB} = \\dfrac{AN}{AC}"
         ]
       ],
       "q11": {
-        "a": "$\\dfrac{10x^3 y^3}{15x^2 y^4}$",
-        "b": "$\\dfrac{5x - 20}{x^2 - 16}$",
-        "c": "$\\dfrac{x^2 - 10x + 25}{x^2 - 25}$",
-        "d": "$\\dfrac{5 - x}{x^2 - 25}$",
-        "e": "$\\dfrac{x^2 - 6x + 8}{x^2 - 4}$",
-        "f": "Rút gọn $P = \\dfrac{x^2 + 4x}{x^2 - 16}$, tính $P$ tại $x = 5$."
+        "a": "$(5x^2y - 4xy^2) + (2x^2y + 7xy^2)$",
+        "b": "$(7x^3 - 5x^2 + 6) - (3x^3 - 5x^2 - 4)$",
+        "c": "$2x^2(4x^2 - 3x + 2)$",
+        "d": "$(3x - 1)(x^2 - 2x + 1)$",
+        "e": "$(16x^4y^3 - 12x^3y^2) : 4x^2y^2$",
+        "f": "$(3x^3 - 7x^2 + 5x - 1) : (3x - 1)$"
       },
       "q12": {
-        "a": "$(x - 2)(3x + 1) = 0$",
-        "b": "$(3x - 1)^2 - 16 = 0$",
-        "c": "$x^2 - 6x + 8 = 0$",
-        "d": "$x(x - 4) + 2(x - 4) = 0$"
+        "a": "$6x^2 - 18x$",
+        "b": "$25x^2 - 4$",
+        "c": "$xy - 4y + 2x - 8$",
+        "d": "$x^2 - 2xy + y^2 - 49$"
       },
       "q13": {
-        "de": "Cho $\\Delta ABC$ vuông tại $A$ ($AB = 9\\text{ cm}, AC = 12\\text{ cm}$), phân giác $AD$ ($D \\in BC$).",
-        "a": "(1,0 điểm) Tính cạnh $BC$, tỉ số $\\dfrac{DB}{DC}$ và độ dài các đoạn thẳng $DB, DC$.",
-        "b": "(1,0 điểm) Kẻ $DH \\perp AB$ tại $H$. Chứng minh $\\Delta AHD$ vuông cân và tính $DH$."
+        "de": "Cho tam giác $ABC$ nhọn ($AB < AC$), có $AB = 10\\text{ cm}, AC = 15\\text{ cm}$. Trên cạnh $AB$ lấy điểm $M$ sao cho $AM = 4\\text{ cm}$, trên cạnh $AC$ lấy điểm $N$ sao cho $AN = 6\\text{ cm}$.",
+        "a": "(1,0 điểm) Chứng minh rằng $MN \\parallel BC$.",
+        "b": "(1,0 điểm) Biết $BC = 25\\text{ cm}$. Tính độ dài đoạn thẳng $MN$ và độ dài đoạn thẳng $MB$."
       },
       "q14": {
-        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{10}{x^2 - 2x + 6}$."
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 - 10x + 31$."
       }
     },
     "104": {
       "short": [
         [
-          "Cho $\\Delta ABC$ có $BE$ là phân giác góc $B$. Khi đó tỉ số $\\dfrac{EA}{EC}$ bằng:",
-          "\\dfrac{BA}{BC}"
+          "Cho hai đoạn thẳng $EF = 6\\text{ cm}, GH = 15\\text{ cm}$. Tỉ số $\\dfrac{EF}{GH} =$",
+          "\\dfrac{2}{5}"
         ],
         [
-          "Cho $\\Delta DEF$ có phân giác $DH$ ($DE=4, DF=8, HE=3\\text{ cm}$). Tính $HF$:",
-          "6\\text{ cm}"
+          "Cho $\\Delta ABC$ có $DE \\parallel BC$, $AD = 3\\text{ cm}, DB = 6\\text{ cm}, AE = 4\\text{ cm}$. Khi đó $EC =$",
+          "8\\text{ cm}"
         ],
         [
-          "Cho $\\Delta DEF$ có phân giác $DH$, $\\dfrac{HE}{HF} = \\dfrac{3}{5}$ và $DE=6\\text{ cm}$. Độ dài $DF$ là:",
-          "10\\text{ cm}"
+          "Cho $\\Delta ABC$ có $MN \\parallel BC$, $\\dfrac{AM}{AB} = \\dfrac{3}{5}, BC = 25\\text{ cm}$. Khi đó $MN =$",
+          "15\\text{ cm}"
         ],
         [
-          "Điều kiện xác định của phân thức đại số $\\dfrac{4x-1}{x+5}$ là:",
-          "x \\neq -5"
+          "Kết quả của phép nhân $3x(3x^2 - 4x + 1)$ là:",
+          "9x^3 - 12x^2 + 3x"
         ],
         [
-          "Giá trị của $x$ để phân thức $\\dfrac{x-6}{x+1} = 0$ là:",
-          "6"
+          "Khai triển hằng đẳng thức $(3x - 1)^2$, ta được kết quả là:",
+          "9x^2 - 6x + 1"
         ],
         [
-          "Rút gọn phân thức đại số $\\dfrac{x^2-36}{x-6}$, ta được kết quả là:",
-          "x + 6"
+          "Phân tích đa thức $7x^2 - 14xy$ thành nhân tử, ta được:",
+          "7x(x - 2y)"
         ],
         [
-          "Phân thức đối của phân thức $\\dfrac{x-4}{x+3}$ là:",
-          "\\dfrac{4-x}{x+3}"
+          "Phân tích đa thức $25x^2 - 36$ thành nhân tử, ta được:",
+          "(5x - 6)(5x + 6)"
         ],
         [
-          "Giá trị của phân thức $\\dfrac{x^2-16}{x-4}$ tại $x=6$ bằng:",
-          "10"
+          "Tính nhanh giá trị biểu thức $77^2 + 23^2 + 46 \\cdot 77 =$",
+          "10\\,000"
         ],
         [
-          "Cho $\\Delta ABC$ có phân giác $AD$ ($AB=35, AC=70, BC=90\\text{ m}$). Tính $DB$:",
-          "30\\text{ m}"
+          "Cọc cao $2\\text{ m}$ bóng $1{,}5\\text{ m}$. Cột cờ có bóng $7{,}5\\text{ m}$. Chiều cao cột cờ là:",
+          "10\\text{ m}"
         ],
         [
-          "Trong tam giác vuông, một góc nhọn bằng $34^\\circ$. Số đo góc nhọn còn lại là:",
-          "56^\\circ"
+          "Cho $\\Delta ABC$, $D \\in AB, E \\in AC$. ĐK để $DE \\parallel BC$ là:",
+          "\\dfrac{AD}{DB} = \\dfrac{AE}{EC}"
         ]
       ],
       "q11": {
-        "a": "$\\dfrac{14x^4 y^3}{21x^3 y^4}$",
-        "b": "$\\dfrac{2x - 10}{x^2 - 25}$",
-        "c": "$\\dfrac{x^2 + 4x + 4}{x^2 - 4}$",
-        "d": "$\\dfrac{2 - x}{x^2 - 4}$",
-        "e": "$\\dfrac{x^2 - 8x + 15}{x^2 - 9}$",
-        "f": "Rút gọn $P = \\dfrac{x^2 + 2x}{x^2 - 4}$, tính $P$ tại $x = 4$."
+        "a": "$(2x^2y - 5xy^2) + (3x^2y + 8xy^2)$",
+        "b": "$(5x^3 - 2x^2 + 7) - (x^3 - 2x^2 - 1)$",
+        "c": "$3x^2(3x^2 - 4x + 2)$",
+        "d": "$(2x - 3)(x^2 - 3x + 2)$",
+        "e": "$(18x^4y^3 - 12x^3y^2) : 6x^2y^2$",
+        "f": "$(2x^3 - 9x^2 + 13x - 6) : (2x - 3)$"
       },
       "q12": {
-        "a": "$(x - 5)(2x + 1) = 0$",
-        "b": "$(2x + 1)^2 - 9 = 0$",
-        "c": "$x^2 - 8x + 15 = 0$",
-        "d": "$x(x - 5) + 3(x - 5) = 0$"
+        "a": "$3x^2 - 12x$",
+        "b": "$4x^2 - 49$",
+        "c": "$xy - 5y + 3x - 15$",
+        "d": "$x^2 - 2xy + y^2 - 64$"
       },
       "q13": {
-        "de": "Cho $\\Delta DEF$ vuông tại $D$ ($DE = 6\\text{ cm}, DF = 8\\text{ cm}$), phân giác $DI$ ($I \\in EF$).",
-        "a": "(1,0 điểm) Tính cạnh $EF$, tỉ số $\\dfrac{IE}{IF}$ và độ dài các đoạn thẳng $IE, IF$.",
-        "b": "(1,0 điểm) Kẻ $IK \\perp DE$ tại $K$. Chứng minh $\\Delta DKI$ vuông cân và tính $IK$."
+        "de": "Cho tam giác $DEF$ nhọn ($DE < DF$), có $DE = 12\\text{ cm}, DF = 18\\text{ cm}$. Trên cạnh $DE$ lấy điểm $M$ sao cho $DM = 4\\text{ cm}$, trên cạnh $DF$ lấy điểm $N$ sao cho $DN = 6\\text{ cm}$.",
+        "a": "(1,0 điểm) Chứng minh rằng $MN \\parallel EF$.",
+        "b": "(1,0 điểm) Biết $EF = 21\\text{ cm}$. Tính độ dài đoạn thẳng $MN$ và độ dài đoạn thẳng $ME$."
       },
       "q14": {
-        "de": "Tìm giá trị lớn nhất của biểu thức: $B = \\dfrac{12}{x^2 - 8x + 20}$."
+        "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = x^2 - 4x + 15$."
       }
     }
   }

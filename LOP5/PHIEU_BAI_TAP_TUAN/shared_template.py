@@ -205,10 +205,34 @@ def render_tex(week_num: int, week_title: str, ma_de_list: list, grade: int = 5)
             else:
                 p1 += f"\n\\cauTN{{{i}}}{{{q_fix}}}{{{a_fix}}}{{{b_fix}}}{{{c_fix}}}{{{d_fix}}}"
 
-        # BÀI 1: ĐẶT TÍNH RỒI TÍNH (4 Ý) - TRANG 1
+        # BÀI 1: ĐẶT TÍNH RỒI TÍNH
         def fmt_b1(val):
             val = val.strip()
             return val if val.startswith("$") else f"${val}$"
+
+        if len(b1) == 8:
+            b1_table = f"""\\begin{{tabularx}}{{\\linewidth}}{{|X|X|X|X|}}
+\\hline
+\\oDatTinh[4]{{a)}}{{{fmt_b1(b1[0])}}} & 
+\\oDatTinh[4]{{b)}}{{{fmt_b1(b1[1])}}} & 
+\\oDatTinh[4]{{c)}}{{{fmt_b1(b1[2])}}} & 
+\\oDatTinh[4]{{d)}}{{{fmt_b1(b1[3])}}} \\tabularnewline
+\\hline
+\\oDatTinh[4]{{e)}}{{{fmt_b1(b1[4])}}} & 
+\\oDatTinh[4]{{f)}}{{{fmt_b1(b1[5])}}} & 
+\\oDatTinh[4]{{g)}}{{{fmt_b1(b1[6])}}} & 
+\\oDatTinh[4]{{h)}}{{{fmt_b1(b1[7])}}} \\tabularnewline
+\\hline
+\\end{{tabularx}}"""
+        else:
+            b1_table = f"""\\begin{{tabularx}}{{\\linewidth}}{{|X|X|X|X|}}
+\\hline
+\\oDatTinh[4]{{a)}}{{{fmt_b1(b1[0])}}} & 
+\\oDatTinh[4]{{b)}}{{{fmt_b1(b1[1])}}} & 
+\\oDatTinh[4]{{c)}}{{{fmt_b1(b1[2])}}} & 
+\\oDatTinh[4]{{d)}}{{{fmt_b1(b1[3])}}} \\tabularnewline
+\\hline
+\\end{{tabularx}}"""
 
         p1 += f"""
 
@@ -219,17 +243,43 @@ def render_tex(week_num: int, week_title: str, ma_de_list: list, grade: int = 5)
 \\vspace{{0.4mm}}
 
 \\noindent
-\\begin{{tabularx}}{{\\linewidth}}{{|X|X|X|X|}}
-\\hline
-\\oDatTinh[4]{{a)}}{{{fmt_b1(b1[0])}}} & 
-\\oDatTinh[4]{{b)}}{{{fmt_b1(b1[1])}}} & 
-\\oDatTinh[4]{{c)}}{{{fmt_b1(b1[2])}}} & 
-\\oDatTinh[4]{{d)}}{{{fmt_b1(b1[3])}}} \\tabularnewline
-\\hline
-\\end{{tabularx}}
+{b1_table}
 
 \\newpage
 """
+
+        # BÀI 3: ĐỔI ĐƠN VỊ
+        if len(b3) == 8:
+            b3_block = f"""% BÀI 3: ĐỔI ĐƠN VỊ (8 Ý - 2 CỘT)
+\\khungBaiTap{{%
+  \\textbf{{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}}\\par\\vspace{{0.6mm}}
+  \\noindent
+  \\begin{{minipage}}[t]{{0.485\\linewidth}}
+    \\textbf{{a)}} ${b3[0][0]} = \\dotfill\\,{b3[0][1]}$\\par\\vspace{{1.2mm}}
+    \\textbf{{b)}} ${b3[1][0]} = \\dotfill\\,{b3[1][1]}$\\par\\vspace{{1.2mm}}
+    \\textbf{{c)}} ${b3[2][0]} = \\dotfill\\,{b3[2][1]}$\\par\\vspace{{1.2mm}}
+    \\textbf{{d)}} ${b3[3][0]} = \\dotfill\\,{b3[3][1]}$\\par
+  \\end{{minipage}}\\hfill
+  \\begin{{minipage}}[t]{{0.485\\linewidth}}
+    \\textbf{{e)}} ${b3[4][0]} = \\dotfill\\,{b3[4][1]}$\\par\\vspace{{1.2mm}}
+    \\textbf{{f)}} ${b3[5][0]} = \\dotfill\\,{b3[5][1]}$\\par\\vspace{{1.2mm}}
+    \\textbf{{g)}} ${b3[6][0]} = \\dotfill\\,{b3[6][1]}$\\par\\vspace{{1.2mm}}
+    \\textbf{{h)}} ${b3[7][0]} = \\dotfill\\,{b3[7][1]}$\\par
+  \\end{{minipage}}
+}}"""
+        else:
+            b3_block = f"""% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
+\\khungBaiTap{{%
+  \\textbf{{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}}\\par\\vspace{{0.8mm}}
+  \\noindent
+  a) ${b3[0][0]} = \\dotfill\\,{b3[0][1]}$\\par\\vspace{{1.4mm}}
+  \\noindent
+  b) ${b3[1][0]} = \\dotfill\\,{b3[1][1]}$\\par\\vspace{{1.4mm}}
+  \\noindent
+  c) ${b3[2][0]} = \\dotfill\\,{b3[2][1]}$\\par\\vspace{{1.4mm}}
+  \\noindent
+  d) ${b3[3][0]} = \\dotfill\\,{b3[3][1]}$\\par
+}}"""
 
         # Trang 2: Tự luận (tiếp theo)
         p2 = f"""% -------------------- TRANG 2: MẶT SAU --------------------
@@ -264,18 +314,7 @@ def render_tex(week_num: int, week_title: str, ma_de_list: list, grade: int = 5)
 
 \\vspace{{0.8mm}}
 
-% BÀI 3: ĐỔI ĐƠN VỊ (4 Ý - 1 CỘT TỪ TRÊN XUỐNG)
-\\khungBaiTap{{%
-  \\textbf{{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}}\\par\\vspace{{0.8mm}}
-  \\noindent
-  a) ${b3[0][0]} = \\dotfill\\,{b3[0][1]}$\\par\\vspace{{1.4mm}}
-  \\noindent
-  b) ${b3[1][0]} = \\dotfill\\,{b3[1][1]}$\\par\\vspace{{1.4mm}}
-  \\noindent
-  c) ${b3[2][0]} = \\dotfill\\,{b3[2][1]}$\\par\\vspace{{1.4mm}}
-  \\noindent
-  d) ${b3[3][0]} = \\dotfill\\,{b3[3][1]}$\\par
-}}
+{b3_block}
 
 \\vspace{{0.8mm}}
 
@@ -337,14 +376,21 @@ def render_markdown_answers(week_num: int, week_title: str, topics: list, ma_de_
         md += f"### 📌 MÃ ĐỀ: {code}\n\n"
 
         # Bài 1
-        md += "**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**\n"
         b1 = item["bai1"]
         ans1 = item["bai1_ans"]
-        for idx_l, letter in enumerate(['a', 'b', 'c', 'd']):
+        if len(b1) == 8:
+            md += "**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**\n"
+            letters_b1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+            pts_b1 = "0,25đ"
+        else:
+            md += "**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**\n"
+            letters_b1 = ['a', 'b', 'c', 'd']
+            pts_b1 = "0,5đ"
+
+        for idx_l, letter in enumerate(letters_b1):
             clean_b1 = b1[idx_l].replace("$", "").strip()
             clean_ans = ans1[idx_l].replace("$", "").strip()
-            pts = "0,5đ"
-            md += f"- {letter}) ${clean_b1} = \\mathbf{{{clean_ans}}}$ *({pts})*\n"
+            md += f"- {letter}) ${clean_b1} = \\mathbf{{{clean_ans}}}$ *({pts_b1})*\n"
         md += "\n"
 
         # Bài 2
@@ -356,12 +402,19 @@ def render_markdown_answers(week_num: int, week_title: str, topics: list, ma_de_
         md += f"- d) ${b2[3][0]} \\implies {b2[3][1]} \\implies \\mathbf{{{b2[3][2]}}}$ *(0,35đ)*\n\n"
 
         # Bài 3
-        md += "**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**\n"
         b3 = item["bai3"]
-        md += f"- a) ${b3[0][0]} = \\mathbf{{{b3[0][2]}}}\\,{b3[0][1]}$ *(0,25đ)*\n"
-        md += f"- b) ${b3[1][0]} = \\mathbf{{{b3[1][2]}}}\\,{b3[1][1]}$ *(0,25đ)*\n"
-        md += f"- c) ${b3[2][0]} = \\mathbf{{{b3[2][2]}}}\\,{b3[2][1]}$ *(0,25đ)*\n"
-        md += f"- d) ${b3[3][0]} = \\mathbf{{{b3[3][2]}}}\\,{b3[3][1]}$ *(0,25đ)*\n\n"
+        if len(b3) == 8:
+            md += "**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**\n"
+            letters_b3 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+            pts_b3 = "0,125đ"
+        else:
+            md += "**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**\n"
+            letters_b3 = ['a', 'b', 'c', 'd']
+            pts_b3 = "0,25đ"
+
+        for idx_l, letter in enumerate(letters_b3):
+            md += f"- {letter}) ${b3[idx_l][0]} = \\mathbf{{{b3[idx_l][2]}}}\\,{b3[idx_l][1]}$ *({pts_b3})*\n"
+        md += "\n"
 
         # Bài 4
         md += "**Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**\n"

@@ -1,0 +1,425 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=2.8,heightSA=0.62}
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ chuẩn viết tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= MA DE 101 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 1} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(x - 8)$, ta được kết quả là: \shortans{-x + 8}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $+(-15 + x)$, ta được kết quả là: \shortans{-15 + x}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $(-45) + 18 + 45$ là: \shortans{18}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(a - b + 7)$, ta được kết quả là: \shortans{-a + b - 7}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Điền vào chỗ trống: $15 - x - y = 15 - (\dots)$ là: \shortans{x + y}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-25) + (-30) \; \dots \; 0$ \shortans{<}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Biển báo giao thông hình tam giác đều có số trục đối xứng là: \shortans{3}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Trong các chữ cái A, M, S, E, chữ cái có tâm đối xứng là: \shortans{S}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình chữ nhật có chiều dài $12\text{ cm}$, chiều rộng $5\text{ cm}$. Diện tích là: \shortans{60\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nhiệt độ trưa $24^\circ\text{C}$, đêm $16^\circ\text{C}$. Độ chênh lệch nhiệt độ là: \shortans{8^\circ\text{C}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$125 - (45 - 125)$} & \oBaiTap[7]{b)}{$(-75) - (25 - 180)$} \\
+\hline
+\oBaiTap[7]{c)}{$(345 - 67) - (345 - 167)$} & \oBaiTap[7]{d)}{$150 - [85 - (15 - 50)]$} \\
+\hline
+\oBaiTap[7]{e)}{$48 - 5 \cdot (-2)^3$} & \oBaiTap[7]{f)}{$(15 - 28 + 49) - (15 - 28 - 51)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 101 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 1 | Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 15 = -28$} & \oBaiTap[5]{b)}{$24 - (x + 10) = 45$} \\
+\hline
+\oBaiTap[6]{c)}{$18 - (12 - x) = -15$} & \oBaiTap[6]{d)}{Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-4 < x \le 3$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\par\vspace{0.4mm}\centerline{\begin{tabular}{|l|c|c|c|c|}\hline \textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\hline \textbf{Lợi nhuận} & $-45\text{ triệu đồng}$ & $+120\text{ triệu đồng}$ & $-65\text{ triệu đồng}$ & $+150\text{ triệu đồng}$ \\\hline\end{tabular}}\vspace{0.4mm}\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{6}{x - 1}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 1} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(y - 5)$, ta được kết quả là: \shortans{-y + 5}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $+(-20 + y)$, ta được kết quả là: \shortans{-20 + y}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $(-56) + 27 + 56$ là: \shortans{27}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(x - y + 9)$, ta được kết quả là: \shortans{-x + y - 9}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Điền vào chỗ trống: $20 - a - b = 20 - (\dots)$ là: \shortans{a + b}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-40) + (-25) \; \dots \; 0$ \shortans{>}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Biển báo giao thông hình tròn có số trục đối xứng là: \shortans{\text{Vô số}}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Trong các chữ cái A, B, O, M, chữ cái có tâm đối xứng là: \shortans{O}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Một hình chữ nhật có chiều dài $15\text{ cm}$, chiều rộng $6\text{ cm}$. Diện tích là: \shortans{90\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nhiệt độ trưa $22^\circ\text{C}$, đêm $15^\circ\text{C}$. Độ chênh lệch nhiệt độ là: \shortans{7^\circ\text{C}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$135 - (55 - 135)$} & \oBaiTap[7]{b)}{$(-85) - (15 - 170)$} \\
+\hline
+\oBaiTap[7]{c)}{$(456 - 78) - (456 - 178)$} & \oBaiTap[7]{d)}{$160 - [95 - (20 - 45)]$} \\
+\hline
+\oBaiTap[7]{e)}{$52 - 4 \cdot (-3)^2$} & \oBaiTap[7]{f)}{$(24 - 37 + 63) - (24 - 37 - 37)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 1 | Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 18 = -32$} & \oBaiTap[5]{b)}{$32 - (x + 12) = 50$} \\
+\hline
+\oBaiTap[6]{c)}{$25 - (15 - x) = -10$} & \oBaiTap[6]{d)}{Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-5 < x \le 4$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\par\vspace{0.4mm}\centerline{\begin{tabular}{|l|c|c|c|c|}\hline \textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\hline \textbf{Lợi nhuận} & $-50\text{ triệu đồng}$ & $+130\text{ triệu đồng}$ & $-70\text{ triệu đồng}$ & $+160\text{ triệu đồng}$ \\\hline\end{tabular}}\vspace{0.4mm}\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{6}{x + 1}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 1} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(a - 12)$, ta được kết quả là: \shortans{-a + 12}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $+(-35 + a)$, ta được kết quả là: \shortans{-35 + a}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $(-63) + 35 + 63$ là: \shortans{35}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(m - n + 5)$, ta được kết quả là: \shortans{-m + n - 5}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Điền vào chỗ trống: $30 - m - n = 30 - (\dots)$ là: \shortans{m + n}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-18) + (-20) \; \dots \; 0$ \shortans{<}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Một hình vuông có số trục đối xứng là: \shortans{4}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Trong các chữ cái N, E, C, D, chữ cái có tâm đối xứng là: \shortans{N}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có đáy $14\text{ cm}$, chiều cao $5\text{ cm}$. Diện tích là: \shortans{70\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nhiệt độ cao nhất $5^\circ\text{C}$, thấp nhất $-3^\circ\text{C}$. Độ chênh lệch là: \shortans{8^\circ\text{C}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$145 - (65 - 145)$} & \oBaiTap[7]{b)}{$(-65) - (35 - 190)$} \\
+\hline
+\oBaiTap[7]{c)}{$(567 - 89) - (567 - 189)$} & \oBaiTap[7]{d)}{$170 - [75 - (30 - 65)]$} \\
+\hline
+\oBaiTap[7]{e)}{$65 - 3 \cdot (-2)^4$} & \oBaiTap[7]{f)}{$(36 - 48 + 72) - (36 - 48 - 28)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 1 | Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 22 = -35$} & \oBaiTap[5]{b)}{$40 - (x + 15) = 62$} \\
+\hline
+\oBaiTap[6]{c)}{$30 - (20 - x) = -12$} & \oBaiTap[6]{d)}{Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-3 < x \le 4$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\par\vspace{0.4mm}\centerline{\begin{tabular}{|l|c|c|c|c|}\hline \textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\hline \textbf{Lợi nhuận} & $-60\text{ triệu đồng}$ & $+140\text{ triệu đồng}$ & $-80\text{ triệu đồng}$ & $+170\text{ triệu đồng}$ \\\hline\end{tabular}}\vspace{0.4mm}\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{6}{x - 2}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 1} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(b - 9)$, ta được kết quả là: \shortans{-b + 9}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $+(-42 + b)$, ta được kết quả là: \shortans{-42 + b}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Giá trị của biểu thức $(-74) + 42 + 74$ là: \shortans{42}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Bỏ dấu ngoặc của biểu thức $-(p - q + 8)$, ta được kết quả là: \shortans{-p + q - 8}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Điền vào chỗ trống: $45 - p - q = 45 - (\dots)$ là: \shortans{p + q}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-50) + (-35) \; \dots \; 0$ \shortans{>}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Một hình chữ nhật có số trục đối xứng là: \shortans{2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Trong các chữ cái H, V, K, T, chữ cái có tâm đối xứng là: \shortans{H}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có đáy $16\text{ cm}$, chiều cao $4\text{ cm}$. Diện tích là: \shortans{64\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nhiệt độ cao nhất $4^\circ\text{C}$, thấp nhất $-2^\circ\text{C}$. Độ chênh lệch là: \shortans{6^\circ\text{C}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$155 - (75 - 155)$} & \oBaiTap[7]{b)}{$(-55) - (45 - 160)$} \\
+\hline
+\oBaiTap[7]{c)}{$(678 - 92) - (678 - 192)$} & \oBaiTap[7]{d)}{$180 - [65 - (25 - 70)]$} \\
+\hline
+\oBaiTap[7]{e)}{$70 - 6 \cdot (-2)^3$} & \oBaiTap[7]{f)}{$(42 - 59 + 81) - (42 - 59 - 19)$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 1 | Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$x - 25 = -40$} & \oBaiTap[5]{b)}{$45 - (x + 20) = 75$} \\
+\hline
+\oBaiTap[6]{c)}{$35 - (25 - x) = -14$} & \oBaiTap[6]{d)}{Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-4 < x \le 5$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\par\vspace{0.4mm}\centerline{\begin{tabular}{|l|c|c|c|c|}\hline \textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\hline \textbf{Lợi nhuận} & $-55\text{ triệu đồng}$ & $+125\text{ triệu đồng}$ & $-75\text{ triệu đồng}$ & $+180\text{ triệu đồng}$ \\\hline\end{tabular}}\vspace{0.4mm}\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{9}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \dfrac{6}{x + 2}$.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+\end{document}

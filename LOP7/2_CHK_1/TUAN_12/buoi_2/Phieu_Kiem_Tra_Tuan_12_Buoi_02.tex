@@ -1,0 +1,560 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=2.6,heightSA=0.62}
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ chuẩn viết tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Khu vực bài làm chia 2 cột có vách ngăn mờ ở giữa
+\newcommand{\dongkeHaiCot}[1]{%
+  \par\vspace{0.5mm}%
+  \noindent%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+  \hfill%
+  {\color{gray!60}\vrule}%
+  \hfill%
+  \begin{minipage}[t]{0.485\linewidth}%
+    \dongke{#1}%
+  \end{minipage}%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][5]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= MA DE 101 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 12 - BUỔI 02} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Đường trung trực của đoạn $AB$ đi qua điểm nào của $AB$? \shortans{Trung điểm}\par\vspace{2.0mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} $M$ thuộc trung trực của $AB$. Biết $MA = 6\text{ cm}$. Tính $MB =$ \shortans{6\text{ cm}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} $M$ thuộc trung trực $AB$ ($M \notin AB$). $\triangle MAB$ là tam giác gì? \shortans{Tam giác cân}\par\vspace{2.0mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Giao điểm ba đường trung trực của tam giác cách đều ba yếu tố nào? \shortans{Ba đỉnh}\par\vspace{2.0mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} $\triangle ABC$ cân tại $A$. Trung trực của cạnh đáy $BC$ đi qua điểm nào? \shortans{Đỉnh A}\par\vspace{2.0mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm $x$, biết: $\dfrac{x}{6} = \dfrac{5}{2}$. Kết quả là: \shortans{15}\par\vspace{2.0mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của $\sqrt{\dfrac{121}{144}} =$ \shortans{\dfrac{11}{12}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tính giá trị: $|-7{,}5| - |-2{,}5| =$ \shortans{5}\par\vspace{2.0mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tính giá trị: $\left(-\dfrac{2}{5}\right)^2 =$ \shortans{\dfrac{4}{25}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Trạm $K$ cách đều hai điểm $A, B$. Khi đó $K$ nằm trên đường nào? \shortans{Trung trực}\par\vspace{2.0mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{3}{8} - \left(-\dfrac{5}{6}\right) - \dfrac{7}{8} + \dfrac{1}{6}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{7}{11} \cdot \left(-\dfrac{5}{9}\right) + \dfrac{7}{11} \cdot \left(-\dfrac{4}{9}\right)$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\sqrt{\dfrac{81}{4}} - 1{,}5 \cdot \sqrt{\dfrac{4}{9}}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(-\dfrac{1}{2}\right)^3 \cdot 8 - \left(-\dfrac{2}{3}\right)^2 \cdot 9$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{5}{6} - \left[\dfrac{1}{3} - \left(\dfrac{1}{2} - \dfrac{5}{6}\right)\right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{6^3 \cdot 2^4}{3^2 \cdot 4^3}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 101 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 7 - TUẦN 12 - BUỔI 02 | Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{x}{12} = \dfrac{-3}{4}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{3}{5}x - \dfrac{1}{2} = -\dfrac{7}{10}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left|x + \dfrac{2}{3}ight| = \dfrac{5}{6}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(x - \dfrac{1}{2}ight)^3 = -\dfrac{8}{27}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.62\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho đoạn thẳng $AB$. Đường trung trực $d$ của đoạn thẳng $AB$ cắt $AB$ tại $I$. Lấy điểm $M \in d$ ($M \ne I$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Chứng minh $\triangle MAI = \triangle MBI$. Suy ra $MA = MB$ và $\triangle MAB$ cân tại $M$.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Lấy $N$ thuộc tia đối của tia $IM$ ($N \ne I$). Chứng minh $NA = NB$ và $MN$ là phân giác $\widehat{AMB}$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \coordinate (A) at (-1.7, 0);
+  \coordinate (B) at (1.7, 0);
+  \coordinate (I) at (0, 0);
+  \coordinate (M) at (0, 1.4);
+  \coordinate (N) at (0, -1.1);
+
+  \draw[thick] (A) -- (B);
+  \draw[thick] (0, -1.4) -- (0, 1.7) node[above right=-2pt] {$d$};
+
+  \draw (0, 0.18) -- (0.18, 0.18) -- (0.18, 0);
+
+  \fill (A) circle (1.2pt) node[below left=-1pt] {$A$};
+  \fill (B) circle (1.2pt) node[below right=-1pt] {$B$};
+  \fill (I) circle (1.2pt) node[below left=-2pt] {$I$};
+  \fill (M) circle (1.2pt) node[left] {$M$};
+  \fill (N) circle (1.2pt) node[left] {$N$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức $P = |x - 2| + |x - 7|$ và giá trị của $x$ tương ứng (với $x \in \mathbb{R}$).\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 12 - BUỔI 02} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Đường trung trực của đoạn $AB$ tạo với $AB$ góc bao nhiêu độ? \shortans{90^\circ}\par\vspace{2.0mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} $M$ thuộc trung trực của $CD$. Biết $MC = 8\text{ cm}$. Tính $MD =$ \shortans{8\text{ cm}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} $N$ thuộc trung trực $PQ$ ($N \notin PQ$). $\triangle NPQ$ là tam giác gì? \shortans{Tam giác cân}\par\vspace{2.0mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Giao điểm ba đường trung trực của $\triangle ABC$ là tâm đường tròn đi qua: \shortans{Ba đỉnh}\par\vspace{2.0mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} $\triangle MNP$ cân tại $M$. Trung trực của cạnh đáy $NP$ đi qua điểm nào? \shortans{Đỉnh M}\par\vspace{2.0mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm $x$, biết: $\dfrac{x}{8} = \dfrac{3}{2}$. Kết quả là: \shortans{12}\par\vspace{2.0mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của $\sqrt{\dfrac{169}{196}} =$ \shortans{\dfrac{13}{14}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tính giá trị: $|-8{,}6| - |-3{,}6| =$ \shortans{5}\par\vspace{2.0mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tính giá trị: $\left(-\dfrac{3}{4}\right)^2 =$ \shortans{\dfrac{9}{16}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Hai điểm $A, B$ đối xứng qua $d$. Điểm $M \in d$. Khi đó $\triangle MAB$ là: \shortans{Tam giác cân}\par\vspace{2.0mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{5}{12} - \left(-\dfrac{3}{7}\right) - \dfrac{11}{12} + \dfrac{4}{7}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{8}{13} \cdot \left(-\dfrac{7}{10}\right) + \dfrac{8}{13} \cdot \left(-\dfrac{3}{10}\right)$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\sqrt{\dfrac{121}{4}} - 2{,}5 \cdot \sqrt{\dfrac{4}{25}}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(-\dfrac{1}{3}\right)^2 \cdot 18 - \left(-\dfrac{1}{2}\right)^4 \cdot 32$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{7}{12} - \left[\dfrac{1}{4} - \left(\dfrac{2}{3} - \dfrac{7}{12}\right)\right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{10^3 \cdot 2^3}{5^2 \cdot 4^3}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 7 - TUẦN 12 - BUỔI 02 | Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{x}{15} = \dfrac{-2}{5}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{4}{7}x - \dfrac{1}{3} = -\dfrac{10}{21}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left|x + \dfrac{1}{2}ight| = \dfrac{3}{4}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(x - \dfrac{1}{3}ight)^3 = -\dfrac{1}{27}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.62\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho đoạn thẳng $CD$. Đường trung trực $d$ của đoạn thẳng $CD$ cắt $CD$ tại $H$. Lấy điểm $P \in d$ ($P \ne H$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Chứng minh $\triangle PCH = \triangle PDH$. Suy ra $PC = PD$ và $\triangle PCD$ cân tại $P$.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Lấy $Q$ thuộc tia đối của tia $HP$ ($Q \ne H$). Chứng minh $QC = QD$ và $PQ$ là phân giác $\widehat{CPD}$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \coordinate (C) at (-1.7, 0);
+  \coordinate (D) at (1.7, 0);
+  \coordinate (H) at (0, 0);
+  \coordinate (P) at (0, 1.4);
+  \coordinate (Q) at (0, -1.1);
+
+  \draw[thick] (C) -- (D);
+  \draw[thick] (0, -1.4) -- (0, 1.7) node[above right=-2pt] {$d$};
+
+  \draw (0, 0.18) -- (0.18, 0.18) -- (0.18, 0);
+
+  \fill (C) circle (1.2pt) node[below left=-1pt] {$C$};
+  \fill (D) circle (1.2pt) node[below right=-1pt] {$D$};
+  \fill (H) circle (1.2pt) node[below left=-2pt] {$H$};
+  \fill (P) circle (1.2pt) node[left] {$P$};
+  \fill (Q) circle (1.2pt) node[left] {$Q$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức $P = |x - 3| + |x - 8|$ và giá trị của $x$ tương ứng (với $x \in \mathbb{R}$).\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 12 - BUỔI 02} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Đường thẳng vuông góc tại trung điểm của đoạn thẳng gọi là: \shortans{Đường trung trực}\par\vspace{2.0mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} $P$ thuộc trung trực của $EF$. Biết $PE = 9\text{ cm}$. Tính $PF =$ \shortans{9\text{ cm}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} $E$ thuộc trung trực $CD$ ($E \notin CD$). $\triangle ECD$ là tam giác gì? \shortans{Tam giác cân}\par\vspace{2.0mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điểm $O$ cách đều ba đỉnh của tam giác là giao điểm của ba đường: \shortans{Trung trực}\par\vspace{2.0mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} $\triangle DEF$ cân tại $D$. Trung trực của cạnh đáy $EF$ đi qua điểm nào? \shortans{Đỉnh D}\par\vspace{2.0mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm $x$, biết: $\dfrac{x}{9} = \dfrac{4}{3}$. Kết quả là: \shortans{12}\par\vspace{2.0mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của $\sqrt{\dfrac{81}{100}} =$ \shortans{\dfrac{9}{10}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tính giá trị: $|-9{,}4| - |-4{,}4| =$ \shortans{5}\par\vspace{2.0mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tính giá trị: $\left(-\dfrac{2}{3}\right)^4 =$ \shortans{\dfrac{16}{81}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Điểm $K$ cách đều ba đỉnh của $\triangle ABC$. $K$ là giao điểm ba đường gì? \shortans{Trung trực}\par\vspace{2.0mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{4}{9} - \left(-\dfrac{3}{5}\right) - \dfrac{13}{9} + \dfrac{2}{5}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{9}{14} \cdot \left(-\dfrac{8}{15}\right) + \dfrac{9}{14} \cdot \left(-\dfrac{7}{15}\right)$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\sqrt{\dfrac{49}{4}} - 1{,}5 \cdot \sqrt{\dfrac{16}{9}}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(-\dfrac{1}{2}\right)^4 \cdot 48 - \left(-\dfrac{1}{3}\right)^3 \cdot 27$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{3}{4} - \left[\dfrac{1}{2} - \left(\dfrac{5}{6} - \dfrac{7}{12}\right)\right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{12^2 \cdot 3^3}{4^2 \cdot 9^2}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 7 - TUẦN 12 - BUỔI 02 | Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{x}{16} = \dfrac{-3}{8}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{2}{5}x - \dfrac{3}{4} = -\dfrac{19}{20}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left|x + \dfrac{3}{4}ight| = \dfrac{7}{8}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(x - \dfrac{1}{4}ight)^3 = -\dfrac{1}{8}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.62\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho đoạn thẳng $MN$. Đường trung trực $d$ của đoạn thẳng $MN$ cắt $MN$ tại $K$. Lấy điểm $E \in d$ ($E \ne K$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Chứng minh $\triangle EKM = \triangle EKN$. Suy ra $EM = EN$ và $\triangle EMN$ cân tại $E$.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Lấy $F$ thuộc tia đối của tia $KE$ ($F \ne K$). Chứng minh $FM = FN$ và $EF$ là phân giác $\widehat{MEN}$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \coordinate (M) at (-1.7, 0);
+  \coordinate (N) at (1.7, 0);
+  \coordinate (K) at (0, 0);
+  \coordinate (E) at (0, 1.4);
+  \coordinate (F) at (0, -1.1);
+
+  \draw[thick] (M) -- (N);
+  \draw[thick] (0, -1.4) -- (0, 1.7) node[above right=-2pt] {$d$};
+
+  \draw (0, 0.18) -- (0.18, 0.18) -- (0.18, 0);
+
+  \fill (M) circle (1.2pt) node[below left=-1pt] {$M$};
+  \fill (N) circle (1.2pt) node[below right=-1pt] {$N$};
+  \fill (K) circle (1.2pt) node[below left=-2pt] {$K$};
+  \fill (E) circle (1.2pt) node[left] {$E$};
+  \fill (F) circle (1.2pt) node[left] {$F$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức $P = |x - 1| + |x - 6|$ và giá trị của $x$ tương ứng (với $x \in \mathbb{R}$).\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 12 - BUỔI 02} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Điểm $I$ là trung điểm của $AB, d \perp AB$ tại $I$. $d$ gọi là: \shortans{Đường trung trực}\par\vspace{2.0mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} $K$ thuộc trung trực của $MN$. Biết $KM = 7\text{ cm}$. Tính $KN =$ \shortans{7\text{ cm}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} $H$ thuộc trung trực $AB$ ($H \notin AB$). $\triangle HAB$ là tam giác gì? \shortans{Tam giác cân}\par\vspace{2.0mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Điểm cách đều ba đỉnh của tam giác gọi là tâm đường tròn: \shortans{Ngoại tiếp}\par\vspace{2.0mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} $\triangle HIK$ cân tại $H$. Trung trực của cạnh đáy $IK$ đi qua điểm nào? \shortans{Đỉnh H}\par\vspace{2.0mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Tìm $x$, biết: $\dfrac{x}{10} = \dfrac{7}{5}$. Kết quả là: \shortans{14}\par\vspace{2.0mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Giá trị của $\sqrt{\dfrac{49}{64}} =$ \shortans{\dfrac{7}{8}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Tính giá trị: $|-6{,}8| - |-1{,}8| =$ \shortans{5}\par\vspace{2.0mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Tính giá trị: $\left(-\dfrac{3}{5}\right)^2 =$ \shortans{\dfrac{9}{25}}\par\vspace{2.0mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Điểm $M$ cách đều hai điểm $A, B$. Khi đó khoảng cách $MA$ và $MB$ là: \shortans{Bằng nhau}\par\vspace{2.0mm}
+\vspace{0.2mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{7}{15} - \left(-\dfrac{4}{9}ight) - \dfrac{22}{15} + \dfrac{5}{9}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{11}{17} \cdot \left(-\dfrac{9}{16}ight) + \dfrac{11}{17} \cdot \left(-\dfrac{7}{16}ight)$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\sqrt{\dfrac{144}{25}} - 1{,}2 \cdot \sqrt{\dfrac{25}{16}}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(-\dfrac{1}{5}\right)^2 \cdot 50 - \left(-\dfrac{1}{2}\right)^3 \cdot 16$} \\
+\hline
+\oBaiTap[5]{e) (0,5 điểm)}{$\dfrac{5}{8} - \left[\dfrac{1}{4} - \left(\dfrac{7}{8} - \dfrac{3}{4}ight)\right]$} & 
+\oBaiTap[5]{f) (0,5 điểm)}{$\dfrac{15^2 \cdot 2^4}{5^2 \cdot 6^2}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 7 - TUẦN 12 - BUỔI 02 | Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số hữu tỉ $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a) (0,5 điểm)}{$\dfrac{x}{18} = \dfrac{-5}{6}$} & 
+\oBaiTap[5]{b) (0,5 điểm)}{$\dfrac{3}{4}x - \dfrac{2}{5} = -\dfrac{13}{20}$} \\
+\hline
+\oBaiTap[5]{c) (0,5 điểm)}{$\left|x + \dfrac{1}{3}ight| = \dfrac{5}{6}$} & 
+\oBaiTap[5]{d) (0,5 điểm)}{$\left(x - \dfrac{1}{2}ight)^3 = -\dfrac{27}{8}$} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\begin{minipage}[t]{0.62\linewidth}
+\vspace{0pt}
+\textbf{Câu 13 (2,0 điểm).} Cho đoạn thẳng $EF$. Đường trung trực $d$ của đoạn thẳng $EF$ cắt $EF$ tại $O$. Lấy điểm $A \in d$ ($A \ne O$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Chứng minh $\triangle AOE = \triangle AOF$. Suy ra $AE = AF$ và $\triangle AEF$ cân tại $A$.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Lấy $B$ thuộc tia đối của tia $OA$ ($B \ne O$). Chứng minh $BE = BF$ và $AB$ là phân giác $\widehat{EAF}$.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.36\linewidth}
+\vspace{0pt}\centering
+\begin{tikzpicture}[scale=0.85, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \coordinate (E) at (-1.7, 0);
+  \coordinate (F) at (1.7, 0);
+  \coordinate (O) at (0, 0);
+  \coordinate (A) at (0, 1.4);
+  \coordinate (B) at (0, -1.1);
+
+  \draw[thick] (E) -- (F);
+  \draw[thick] (0, -1.4) -- (0, 1.7) node[above right=-2pt] {$d$};
+
+  \draw (0, 0.18) -- (0.18, 0.18) -- (0.18, 0);
+
+  \fill (E) circle (1.2pt) node[below left=-1pt] {$E$};
+  \fill (F) circle (1.2pt) node[below right=-1pt] {$F$};
+  \fill (O) circle (1.2pt) node[below left=-2pt] {$O$};
+  \fill (A) circle (1.2pt) node[left] {$A$};
+  \fill (B) circle (1.2pt) node[left] {$B$};
+\end{tikzpicture}
+\end{minipage}\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.5mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm giá trị nhỏ nhất của biểu thức $P = |x - 4| + |x - 9|$ và giá trị của $x$ tương ứng (với $x \in \mathbb{R}$).\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongkeHaiCot{6}
+\\ \hline
+\end{tabularx}
+\end{document}

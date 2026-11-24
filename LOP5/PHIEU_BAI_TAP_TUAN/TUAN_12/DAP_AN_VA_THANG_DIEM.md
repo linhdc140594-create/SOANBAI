@@ -28,11 +28,15 @@
 
 ### 📌 MÃ ĐỀ: 501
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $34{,}5 \times 2{,}4 = \mathbf{82{,}8}$ *(0,5đ)*
-- b) $86{,}4 : 3{,}6 = \mathbf{24}$ *(0,5đ)*
-- c) $45{,}8 + 12{,}4 \times 3 = \mathbf{83}$ *(0,5đ)*
-- d) $(75{,}6 - 28{,}4) : 4 = \mathbf{11{,}8}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $45{,}8 + 27{,}64 = \mathbf{73{,}44}$ *(0,25đ)*
+- b) $84{,}5 - 39{,}28 = \mathbf{45{,}22}$ *(0,25đ)*
+- c) $28{,}6 \times 4 = \mathbf{114{,}4}$ *(0,25đ)*
+- d) $34{,}5 \times 2{,}4 = \mathbf{82{,}8}$ *(0,25đ)*
+- e) $75{,}6 : 4 = \mathbf{18{,}9}$ *(0,25đ)*
+- f) $45 : 12 = \mathbf{3{,}75}$ *(0,25đ)*
+- g) $86{,}4 : 3{,}6 = \mathbf{24}$ *(0,25đ)*
+- h) $18 : 2{,}4 = \mathbf{7{,}5}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 3{,}5 - 4{,}2 = 9{,}8 \implies x \times 3{,}5 = 14 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -40,11 +44,15 @@
 - c) $48 : x - 3{,}6 = 2{,}4 \implies 48 : x = 6 \implies \mathbf{x = 8}$ *(0,35đ)*
 - d) $(x + 2{,}5) \times 4 = 26 \implies x + 2{,}5 = 6{,}5 \implies \mathbf{x = 4}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $3{,}8 \times 0{,}1 = \mathbf{0{,}38}\,\dots$ *(0,25đ)*
-- b) $45{,}6 : 0{,}1 = \mathbf{456}\,\dots$ *(0,25đ)*
-- c) $7{,}25 \times 100 = \mathbf{725}\,\dots$ *(0,25đ)*
-- d) $180 : 100 = \mathbf{1{,}8}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $4{,}5\,\text{m} = \mathbf{45}\,\text{dm}$ *(0,125đ)*
+- b) $3\,\text{m}\,25\,\text{cm} = \mathbf{3{,}25}\,\text{m}$ *(0,125đ)*
+- c) $2{,}8\,\text{tấn} = \mathbf{2\,800}\,\text{kg}$ *(0,125đ)*
+- d) $4\,\text{tấn}\,350\,\text{kg} = \mathbf{4{,}35}\,\text{tấn}$ *(0,125đ)*
+- e) $3{,}5\,\text{ha} = \mathbf{35\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $4{,}2\,\text{km}^2 = \mathbf{420}\,\text{ha}$ *(0,125đ)*
+- g) $5\,\text{m}^2\,45\,\text{dm}^2 = \mathbf{5{,}45}\,\text{m}^2$ *(0,125đ)*
+- h) $8\,500\,\text{m}^2 = \mathbf{0{,}85}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một cửa hàng nhập về 12,5 tạ gạo. Ngày thứ nhất cửa hàng bán được 40% số gạo đó, ngày thứ hai bán được 65% số gạo còn lại. Mỗi ki-lô-gam gạo cửa hàng bán với giá 18 000 đồng. Hỏi sau hai ngày, cửa hàng thu được tất cả bao nhiêu tiền bán gạo?
@@ -64,11 +72,15 @@
 
 ### 📌 MÃ ĐỀ: 502
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $28{,}4 \times 3{,}5 = \mathbf{99{,}4}$ *(0,5đ)*
-- b) $94{,}5 : 4{,}5 = \mathbf{21}$ *(0,5đ)*
-- c) $52{,}6 + 14{,}5 \times 2 = \mathbf{81{,}6}$ *(0,5đ)*
-- d) $(84{,}8 - 36{,}8) : 6 = \mathbf{8}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $52{,}6 + 34{,}75 = \mathbf{87{,}35}$ *(0,25đ)*
+- b) $73{,}2 - 45{,}36 = \mathbf{27{,}84}$ *(0,25đ)*
+- c) $35{,}4 \times 5 = \mathbf{177}$ *(0,25đ)*
+- d) $28{,}4 \times 3{,}5 = \mathbf{99{,}4}$ *(0,25đ)*
+- e) $87{,}5 : 5 = \mathbf{17{,}5}$ *(0,25đ)*
+- f) $54 : 15 = \mathbf{3{,}6}$ *(0,25đ)*
+- g) $94{,}5 : 4{,}5 = \mathbf{21}$ *(0,25đ)*
+- h) $27 : 3{,}6 = \mathbf{7{,}5}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 4{,}5 - 5{,}6 = 12{,}4 \implies x \times 4{,}5 = 18 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -76,11 +88,15 @@
 - c) $60 : x - 4{,}2 = 3{,}8 \implies 60 : x = 8 \implies \mathbf{x = 7{,}5}$ *(0,35đ)*
 - d) $(x + 3{,}5) \times 5 = 35 \implies x + 3{,}5 = 7 \implies \mathbf{x = 3{,}5}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $5{,}4 \times 0{,}1 = \mathbf{0{,}54}\,\dots$ *(0,25đ)*
-- b) $68{,}5 : 0{,}1 = \mathbf{685}\,\dots$ *(0,25đ)*
-- c) $9{,}45 \times 100 = \mathbf{945}\,\dots$ *(0,25đ)*
-- d) $260 : 100 = \mathbf{2{,}6}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $6{,}8\,\text{m} = \mathbf{68}\,\text{dm}$ *(0,125đ)*
+- b) $5\,\text{m}\,40\,\text{cm} = \mathbf{5{,}4}\,\text{m}$ *(0,125đ)*
+- c) $3{,}5\,\text{tấn} = \mathbf{3\,500}\,\text{kg}$ *(0,125đ)*
+- d) $6\,\text{tấn}\,250\,\text{kg} = \mathbf{6{,}25}\,\text{tấn}$ *(0,125đ)*
+- e) $4{,}8\,\text{ha} = \mathbf{48\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $3{,}6\,\text{km}^2 = \mathbf{360}\,\text{ha}$ *(0,125đ)*
+- g) $8\,\text{m}^2\,50\,\text{dm}^2 = \mathbf{8{,}5}\,\text{m}^2$ *(0,125đ)*
+- h) $6\,400\,\text{m}^2 = \mathbf{0{,}64}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một bể nước hình hộp chữ nhật có chiều dài 2,5 m, chiều rộng 1,6 m và chiều cao 1,2 m. Người ta dùng một máy bơm có công suất 0,8 m³ nước mỗi giờ để bơm nước vào bể. Hỏi sau 2 giờ, máy bơm được bao nhiêu mét khối nước và lượng nước trong bể chiếm bao nhiêu phần trăm thể tích bể?
@@ -100,11 +116,15 @@
 
 ### 📌 MÃ ĐỀ: 503
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $36{,}5 \times 2{,}8 = \mathbf{102{,}2}$ *(0,5đ)*
-- b) $98{,}4 : 4{,}1 = \mathbf{24}$ *(0,5đ)*
-- c) $63{,}4 + 16{,}2 \times 3 = \mathbf{112}$ *(0,5đ)*
-- d) $(92{,}4 - 36{,}4) : 7 = \mathbf{8}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $38{,}5 + 46{,}82 = \mathbf{85{,}32}$ *(0,25đ)*
+- b) $91{,}4 - 56{,}37 = \mathbf{35{,}03}$ *(0,25đ)*
+- c) $24{,}8 \times 6 = \mathbf{148{,}8}$ *(0,25đ)*
+- d) $36{,}5 \times 2{,}8 = \mathbf{102{,}2}$ *(0,25đ)*
+- e) $98{,}4 : 6 = \mathbf{16{,}4}$ *(0,25đ)*
+- f) $36 : 8 = \mathbf{4{,}5}$ *(0,25đ)*
+- g) $98{,}4 : 4{,}1 = \mathbf{24}$ *(0,25đ)*
+- h) $36 : 4{,}5 = \mathbf{8}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 5{,}5 - 6{,}8 = 15{,}2 \implies x \times 5{,}5 = 22 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -112,11 +132,15 @@
 - c) $72 : x - 3{,}5 = 4{,}5 \implies 72 : x = 8 \implies \mathbf{x = 9}$ *(0,35đ)*
 - d) $(x + 4{,}5) \times 6 = 45 \implies x + 4{,}5 = 7{,}5 \implies \mathbf{x = 3}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $7{,}6 \times 0{,}1 = \mathbf{0{,}76}\,\dots$ *(0,25đ)*
-- b) $82{,}4 : 0{,}1 = \mathbf{824}\,\dots$ *(0,25đ)*
-- c) $12{,}6 \times 100 = \mathbf{1\,260}\,\dots$ *(0,25đ)*
-- d) $350 : 100 = \mathbf{3{,}5}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $7{,}2\,\text{m} = \mathbf{72}\,\text{dm}$ *(0,125đ)*
+- b) $4\,\text{m}\,65\,\text{cm} = \mathbf{4{,}65}\,\text{m}$ *(0,125đ)*
+- c) $4{,}2\,\text{tấn} = \mathbf{4\,200}\,\text{kg}$ *(0,125đ)*
+- d) $5\,\text{tấn}\,450\,\text{kg} = \mathbf{5{,}45}\,\text{tấn}$ *(0,125đ)*
+- e) $5{,}2\,\text{ha} = \mathbf{52\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $2{,}5\,\text{km}^2 = \mathbf{250}\,\text{ha}$ *(0,125đ)*
+- g) $7\,\text{m}^2\,35\,\text{dm}^2 = \mathbf{7{,}35}\,\text{m}^2$ *(0,125đ)*
+- h) $9\,200\,\text{m}^2 = \mathbf{0{,}92}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một xưởng may nhận may 150 bộ quần áo. Ngày đầu xưởng may được 30% số bộ quần áo. Ngày thứ hai may được 45% số bộ quần áo còn lại. Mỗi bộ quần áo xưởng nhận được 120 000 đồng tiền công. Hỏi sau hai ngày, xưởng thu được bao nhiêu tiền công?
@@ -136,11 +160,15 @@
 
 ### 📌 MÃ ĐỀ: 504
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $42{,}5 \times 3{,}2 = \mathbf{136}$ *(0,5đ)*
-- b) $115{,}2 : 3{,}6 = \mathbf{32}$ *(0,5đ)*
-- c) $58{,}4 + 18{,}5 \times 2 = \mathbf{95{,}4}$ *(0,5đ)*
-- d) $(105{,}6 - 45{,}6) : 6 = \mathbf{10}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $64{,}7 + 28{,}56 = \mathbf{93{,}26}$ *(0,25đ)*
+- b) $82{,}3 - 47{,}48 = \mathbf{34{,}82}$ *(0,25đ)*
+- c) $42{,}5 \times 4 = \mathbf{170}$ *(0,25đ)*
+- d) $42{,}5 \times 3{,}2 = \mathbf{136}$ *(0,25đ)*
+- e) $105{,}6 : 8 = \mathbf{13{,}2}$ *(0,25đ)*
+- f) $63 : 14 = \mathbf{4{,}5}$ *(0,25đ)*
+- g) $115{,}2 : 3{,}6 = \mathbf{32}$ *(0,25đ)*
+- h) $42 : 3{,}5 = \mathbf{12}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 6{,}5 - 8{,}4 = 17{,}6 \implies x \times 6{,}5 = 26 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -148,11 +176,15 @@
 - c) $84 : x - 4{,}5 = 3{,}5 \implies 84 : x = 8 \implies \mathbf{x = 10{,}5}$ *(0,35đ)*
 - d) $(x + 5{,}5) \times 4 = 36 \implies x + 5{,}5 = 9 \implies \mathbf{x = 3{,}5}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $8{,}5 \times 0{,}1 = \mathbf{0{,}85}\,\dots$ *(0,25đ)*
-- b) $96{,}2 : 0{,}1 = \mathbf{962}\,\dots$ *(0,25đ)*
-- c) $15{,}8 \times 100 = \mathbf{1\,580}\,\dots$ *(0,25đ)*
-- d) $420 : 100 = \mathbf{4{,}2}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $8{,}5\,\text{m} = \mathbf{85}\,\text{dm}$ *(0,125đ)*
+- b) $6\,\text{m}\,15\,\text{cm} = \mathbf{6{,}15}\,\text{m}$ *(0,125đ)*
+- c) $5{,}4\,\text{tấn} = \mathbf{5\,400}\,\text{kg}$ *(0,125đ)*
+- d) $7\,\text{tấn}\,500\,\text{kg} = \mathbf{7{,}5}\,\text{tấn}$ *(0,125đ)*
+- e) $6{,}4\,\text{ha} = \mathbf{64\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $4{,}8\,\text{km}^2 = \mathbf{480}\,\text{ha}$ *(0,125đ)*
+- g) $9\,\text{m}^2\,60\,\text{dm}^2 = \mathbf{9{,}6}\,\text{m}^2$ *(0,125đ)*
+- h) $5\,800\,\text{m}^2 = \mathbf{0{,}58}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một cửa hàng bán 3,6 tấn gạo trong ba ngày. Ngày thứ nhất bán được 25% số gạo. Ngày thứ hai bán được 60% số gạo còn lại. Mỗi tấn gạo cửa hàng bán được lãi 1 200 000 đồng. Hỏi ngày thứ ba cửa hàng bán được bao nhiêu tấn gạo và tiền lãi bán gạo ngày thứ ba là bao nhiêu?
@@ -172,11 +204,15 @@
 
 ### 📌 MÃ ĐỀ: 505
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $45{,}6 \times 2{,}5 = \mathbf{114}$ *(0,5đ)*
-- b) $126 : 4{,}2 = \mathbf{30}$ *(0,5đ)*
-- c) $64{,}5 + 15{,}5 \times 3 = \mathbf{111}$ *(0,5đ)*
-- d) $(118{,}4 - 46{,}4) : 8 = \mathbf{9}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $47{,}8 + 39{,}45 = \mathbf{87{,}25}$ *(0,25đ)*
+- b) $95{,}2 - 38{,}64 = \mathbf{56{,}56}$ *(0,25đ)*
+- c) $32{,}6 \times 5 = \mathbf{163}$ *(0,25đ)*
+- d) $45{,}6 \times 2{,}5 = \mathbf{114}$ *(0,25đ)*
+- e) $118{,}4 : 8 = \mathbf{14{,}8}$ *(0,25đ)*
+- f) $75 : 12 = \mathbf{6{,}25}$ *(0,25đ)*
+- g) $126 : 4{,}2 = \mathbf{30}$ *(0,25đ)*
+- h) $54 : 4{,}5 = \mathbf{12}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 7{,}5 - 9{,}6 = 20{,}4 \implies x \times 7{,}5 = 30 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -184,11 +220,15 @@
 - c) $96 : x - 5{,}2 = 4{,}8 \implies 96 : x = 10 \implies \mathbf{x = 9{,}6}$ *(0,35đ)*
 - d) $(x + 6{,}5) \times 5 = 45 \implies x + 6{,}5 = 9 \implies \mathbf{x = 2{,}5}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $9{,}2 \times 0{,}1 = \mathbf{0{,}92}\,\dots$ *(0,25đ)*
-- b) $112{,}4 : 0{,}1 = \mathbf{1\,124}\,\dots$ *(0,25đ)*
-- c) $18{,}5 \times 100 = \mathbf{1\,850}\,\dots$ *(0,25đ)*
-- d) $540 : 100 = \mathbf{5{,}4}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $9{,}4\,\text{m} = \mathbf{94}\,\text{dm}$ *(0,125đ)*
+- b) $7\,\text{m}\,35\,\text{cm} = \mathbf{7{,}35}\,\text{m}$ *(0,125đ)*
+- c) $6{,}5\,\text{tấn} = \mathbf{6\,500}\,\text{kg}$ *(0,125đ)*
+- d) $8\,\text{tấn}\,650\,\text{kg} = \mathbf{8{,}65}\,\text{tấn}$ *(0,125đ)*
+- e) $7{,}5\,\text{ha} = \mathbf{75\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $5{,}6\,\text{km}^2 = \mathbf{560}\,\text{ha}$ *(0,125đ)*
+- g) $4\,\text{m}^2\,85\,\text{dm}^2 = \mathbf{4{,}85}\,\text{m}^2$ *(0,125đ)*
+- h) $7\,200\,\text{m}^2 = \mathbf{0{,}72}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một mảnh vườn hình chữ nhật có chiều dài 18,5 m và chiều rộng 12 m. Người ta trồng rau trên 70% diện tích mảnh vườn, phần còn lại làm lối đi. Cứ mỗi mét vuông trồng rau thu hoạch được 2,5 kg rau, giá bán 1 kg rau là 12 000 đồng. Hỏi số rau thu hoạch được bán hết thì thu được bao nhiêu tiền?
@@ -208,11 +248,15 @@
 
 ### 📌 MÃ ĐỀ: 506
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $48{,}5 \times 2{,}4 = \mathbf{116{,}4}$ *(0,5đ)*
-- b) $144 : 4{,}8 = \mathbf{30}$ *(0,5đ)*
-- c) $72{,}8 + 16{,}5 \times 2 = \mathbf{105{,}8}$ *(0,5đ)*
-- d) $(132{,}6 - 52{,}6) : 8 = \mathbf{10}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $58{,}6 + 27{,}84 = \mathbf{86{,}44}$ *(0,25đ)*
+- b) $86{,}4 - 49{,}35 = \mathbf{37{,}05}$ *(0,25đ)*
+- c) $26{,}8 \times 6 = \mathbf{160{,}8}$ *(0,25đ)*
+- d) $48{,}5 \times 2{,}4 = \mathbf{116{,}4}$ *(0,25đ)*
+- e) $132{,}6 : 6 = \mathbf{22{,}1}$ *(0,25đ)*
+- f) $42 : 8 = \mathbf{5{,}25}$ *(0,25đ)*
+- g) $144 : 4{,}8 = \mathbf{30}$ *(0,25đ)*
+- h) $63 : 3{,}5 = \mathbf{18}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 8{,}5 - 11{,}2 = 22{,}8 \implies x \times 8{,}5 = 34 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -220,11 +264,15 @@
 - c) $120 : x - 6{,}4 = 5{,}6 \implies 120 : x = 12 \implies \mathbf{x = 10}$ *(0,35đ)*
 - d) $(x + 7{,}5) \times 4 = 40 \implies x + 7{,}5 = 10 \implies \mathbf{x = 2{,}5}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $11{,}4 \times 0{,}1 = \mathbf{1{,}14}\,\dots$ *(0,25đ)*
-- b) $135{,}6 : 0{,}1 = \mathbf{1\,356}\,\dots$ *(0,25đ)*
-- c) $24{,}5 \times 100 = \mathbf{2\,450}\,\dots$ *(0,25đ)*
-- d) $680 : 100 = \mathbf{6{,}8}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $5{,}6\,\text{m} = \mathbf{56}\,\text{dm}$ *(0,125đ)*
+- b) $8\,\text{m}\,45\,\text{cm} = \mathbf{8{,}45}\,\text{m}$ *(0,125đ)*
+- c) $4{,}8\,\text{tấn} = \mathbf{4\,800}\,\text{kg}$ *(0,125đ)*
+- d) $9\,\text{tấn}\,150\,\text{kg} = \mathbf{9{,}15}\,\text{tấn}$ *(0,125đ)*
+- e) $8{,}2\,\text{ha} = \mathbf{82\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $6{,}4\,\text{km}^2 = \mathbf{640}\,\text{ha}$ *(0,125đ)*
+- g) $6\,\text{m}^2\,75\,\text{dm}^2 = \mathbf{6{,}75}\,\text{m}^2$ *(0,125đ)*
+- h) $4\,500\,\text{m}^2 = \mathbf{0{,}45}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một cửa hàng nhập 2,4 tấn đường. Ngày thứ nhất bán được 35% số đường, ngày thứ hai bán được 50% số đường còn lại. Mỗi ki-lô-gam đường bán ra cửa hàng lãi 2 500 đồng. Hỏi sau hai ngày, cửa hàng lãi được bao nhiêu tiền từ số đường đã bán?
@@ -244,11 +292,15 @@
 
 ### 📌 MÃ ĐỀ: 507
 
-**Bài 1 (2,0 điểm - 0,5 điểm/ý): Đặt tính rồi tính**
-- a) $54{,}5 \times 2{,}8 = \mathbf{152{,}6}$ *(0,5đ)*
-- b) $168 : 5{,}6 = \mathbf{30}$ *(0,5đ)*
-- c) $81{,}5 + 14{,}5 \times 3 = \mathbf{125}$ *(0,5đ)*
-- d) $(145{,}6 - 65{,}6) : 8 = \mathbf{10}$ *(0,5đ)*
+**Bài 1 (2,0 điểm - 0,25 điểm/ý): Đặt tính rồi tính**
+- a) $62{,}5 + 38{,}76 = \mathbf{101{,}26}$ *(0,25đ)*
+- b) $94{,}1 - 58{,}47 = \mathbf{35{,}63}$ *(0,25đ)*
+- c) $34{,}5 \times 4 = \mathbf{138}$ *(0,25đ)*
+- d) $54{,}5 \times 2{,}8 = \mathbf{152{,}6}$ *(0,25đ)*
+- e) $145{,}6 : 8 = \mathbf{18{,}2}$ *(0,25đ)*
+- f) $57 : 12 = \mathbf{4{,}75}$ *(0,25đ)*
+- g) $168 : 5{,}6 = \mathbf{30}$ *(0,25đ)*
+- h) $72 : 4{,}5 = \mathbf{16}$ *(0,25đ)*
 
 **Bài 2 (1,5 điểm): Tìm $x$**
 - a) $x \times 9{,}5 - 12{,}5 = 25{,}5 \implies x \times 9{,}5 = 38 \implies \mathbf{x = 4}$ *(0,4đ)*
@@ -256,11 +308,15 @@
 - c) $144 : x - 7{,}5 = 4{,}5 \implies 144 : x = 12 \implies \mathbf{x = 12}$ *(0,35đ)*
 - d) $(x + 8{,}5) \times 4 = 44 \implies x + 8{,}5 = 11 \implies \mathbf{x = 2{,}5}$ *(0,35đ)*
 
-**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**
-- a) $14{,}8 \times 0{,}1 = \mathbf{1{,}48}\,\dots$ *(0,25đ)*
-- b) $158{,}2 : 0{,}1 = \mathbf{1\,582}\,\dots$ *(0,25đ)*
-- c) $32{,}5 \times 100 = \mathbf{3\,250}\,\dots$ *(0,25đ)*
-- d) $850 : 100 = \mathbf{8{,}5}\,\dots$ *(0,25đ)*
+**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**
+- a) $6{,}4\,\text{m} = \mathbf{64}\,\text{dm}$ *(0,125đ)*
+- b) $9\,\text{m}\,25\,\text{cm} = \mathbf{9{,}25}\,\text{m}$ *(0,125đ)*
+- c) $5{,}6\,\text{tấn} = \mathbf{5\,600}\,\text{kg}$ *(0,125đ)*
+- d) $7\,\text{tấn}\,850\,\text{kg} = \mathbf{7{,}85}\,\text{tấn}$ *(0,125đ)*
+- e) $9{,}6\,\text{ha} = \mathbf{96\,000}\,\text{m}^2$ *(0,125đ)*
+- f) $7{,}5\,\text{km}^2 = \mathbf{750}\,\text{ha}$ *(0,125đ)*
+- g) $8\,\text{m}^2\,40\,\text{dm}^2 = \mathbf{8{,}4}\,\text{m}^2$ *(0,125đ)*
+- h) $6\,800\,\text{m}^2 = \mathbf{0{,}68}\,\text{ha}$ *(0,125đ)*
 
 **Bài 4 (1,5 điểm): Bài toán giải có lời văn (Chương trình Lớp 5)**
 - *Đề bài:* Một gia đình dùng hết 28,5 m³ nước trong tháng. Giá 1 m³ nước là 9 500 đồng. Ngoài ra, gia đình phải trả thêm 10% phí bảo vệ môi trường trên tổng tiền nước. Hỏi tổng số tiền gia đình phải trả trong tháng là bao nhiêu?

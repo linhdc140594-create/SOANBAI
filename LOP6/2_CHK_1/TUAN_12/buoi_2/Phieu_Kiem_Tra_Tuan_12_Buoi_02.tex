@@ -1,0 +1,425 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\SAOPTN{widthSA=2.8,heightSA=0.62}
+\setlength{\parskip}{0pt}
+
+% Dòng kẻ chấm mờ chuẩn viết tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Định nghĩa ô bài tập tự luận trong bảng
+\newcommand{\oBaiTap}[3][6]{%
+  \vspace{1.0mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= MA DE 101 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 2} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Tính: $(-7) \cdot 8 =$ \shortans{-56}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính: $(-12) \cdot (-5) =$ \shortans{60}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Tính giá trị: $(-3)^3 =$ \shortans{-27}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Tính nhanh: $14 \cdot (-6) + 14 \cdot (-4) =$ \shortans{-140}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tích của 3 số âm và 2 số dương mang dấu gì? \shortans{Âm}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$): $(-8) \cdot (-11) \dots 0$ \shortans{>}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Hình nào không có trục đối xứng: Hình chữ nhật hay Hình bình hành? \shortans{Hình bình hành}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Chữ cái nào không có tâm đối xứng: H, N, S, E? \shortans{E}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình thoi có hai đường chéo $8\text{ cm}$ và $10\text{ cm}$. Diện tích là: \shortans{40\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nhiệt độ $-2^\circ\text{C}$, giảm $3^\circ\text{C}$/giờ. Sau 4 giờ nhiệt độ là: \shortans{-14^\circ\text{C}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$(-12) \cdot 5 + (-40)$} & \oBaiTap[7]{b)}{$(-25) \cdot 37 \cdot (-4)$} \\
+\hline
+\oBaiTap[7]{c)}{$38 \cdot (-43) + 38 \cdot (-57)$} & \oBaiTap[7]{d)}{$145 \cdot (-32) + (-145) \cdot 68$} \\
+\hline
+\oBaiTap[7]{e)}{$(-2)^3 \cdot 5 - (-3)^2 \cdot 4$} & \oBaiTap[7]{f)}{$(-35) \cdot 68 + (-35) \cdot 33 + 35$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 101 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 2 | Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$4x = -36$} & \oBaiTap[5]{b)}{$3x + 18 = -6$} \\
+\hline
+\oBaiTap[6]{c)}{$(x - 5)(x + 7) = 0$} & \oBaiTap[6]{d)}{Cho $x \in \mathbb{Z}$ và $-4 \le x \le 3$. Tính tích của tất cả các số nguyên $x$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một cửa hàng thể thao nhập về 100 chiếc áo bóng đá. Trong tháng đầu: Đợt 1 bán được 70 chiếc áo, mỗi chiếc lãi $40$ nghìn đồng (ghi $+40$). Đợt 2 thanh lý nốt 30 chiếc áo còn lại, mỗi chiếc chịu lỗ $25$ nghìn đồng (ghi $-25$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng số tiền lãi cửa hàng thu được từ đợt bán hàng đầu tiên.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cửa hàng sau cả hai đợt và cho biết cửa hàng lãi hay lỗ bao nhiêu.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số $A = \dfrac{5}{x - 2}$ nhận giá trị là một số nguyên.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 2} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Tính: $(-9) \cdot 6 =$ \shortans{-54}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính: $(-15) \cdot (-4) =$ \shortans{60}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Tính giá trị: $(-2)^5 =$ \shortans{-32}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Tính nhanh: $18 \cdot (-7) + 18 \cdot (-3) =$ \shortans{-180}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tích của 4 số âm và 3 số dương mang dấu gì? \shortans{Dương}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$): $(-15) \cdot 9 \dots 0$ \shortans{<}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Số trục đối xứng của hình thoi là: \shortans{2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Hình tam giác đều có tâm đối xứng không? \shortans{Không}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình thoi có hai đường chéo $12\text{ cm}$ và $6\text{ cm}$. Diện tích là: \shortans{36\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Tàu ngầm ở $-20\text{ m}$, lặn sâu thêm $5\text{ m}$/phút. Sau 6 phút độ cao là: \shortans{-50\text{ m}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$(-15) \cdot 4 + (-40)$} & \oBaiTap[7]{b)}{$(-25) \cdot 49 \cdot (-4)$} \\
+\hline
+\oBaiTap[7]{c)}{$47 \cdot (-64) + 47 \cdot (-36)$} & \oBaiTap[7]{d)}{$165 \cdot (-27) + (-165) \cdot 73$} \\
+\hline
+\oBaiTap[7]{e)}{$(-2)^4 \cdot 3 - (-3)^3 \cdot 2$} & \oBaiTap[7]{f)}{$(-45) \cdot 57 + (-45) \cdot 44 + 45$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 2 | Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$5x = -45$} & \oBaiTap[5]{b)}{$4x + 25 = -7$} \\
+\hline
+\oBaiTap[6]{c)}{$(x - 6)(x + 8) = 0$} & \oBaiTap[6]{d)}{Cho $x \in \mathbb{Z}$ và $-5 \le x \le 2$. Tính tích của tất cả các số nguyên $x$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một cửa hàng thể thao nhập về 100 chiếc áo bóng đá. Trong tháng đầu: Đợt 1 bán được 60 chiếc áo, mỗi chiếc lãi $50$ nghìn đồng (ghi $+50$). Đợt 2 thanh lý nốt 40 chiếc áo còn lại, mỗi chiếc chịu lỗ $20$ nghìn đồng (ghi $-20$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng số tiền lãi cửa hàng thu được từ đợt bán hàng đầu tiên.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cửa hàng sau cả hai đợt và cho biết cửa hàng lãi hay lỗ bao nhiêu.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số $A = \dfrac{5}{x + 2}$ nhận giá trị là một số nguyên.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 2} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Tính: $(-6) \cdot 8 =$ \shortans{-48}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính: $(-20) \cdot (-3) =$ \shortans{60}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Tính giá trị: $(-4)^3 =$ \shortans{-64}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Tính nhanh: $25 \cdot (-8) + 25 \cdot (-2) =$ \shortans{-250}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tích của 5 số âm và 1 số dương mang dấu gì? \shortans{Âm}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$): $12 \cdot (-14) \dots 0$ \shortans{<}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Số trục đối xứng của hình lục giác đều là: \shortans{6}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Hình nào không có tâm đối xứng: Hình vuông hay Hình thang cân? \shortans{Hình thang cân}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có cạnh đáy $15\text{ cm}$, chiều cao $6\text{ cm}$. Diện tích là: \shortans{90\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Nhiệt độ $4^\circ\text{C}$, giảm $3^\circ\text{C}$/giờ. Sau 5 giờ nhiệt độ là: \shortans{-11^\circ\text{C}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$(-16) \cdot 5 + (-20)$} & \oBaiTap[7]{b)}{$(-125) \cdot 26 \cdot (-8)$} \\
+\hline
+\oBaiTap[7]{c)}{$56 \cdot (-72) + 56 \cdot (-28)$} & \oBaiTap[7]{d)}{$175 \cdot (-35) + (-175) \cdot 65$} \\
+\hline
+\oBaiTap[7]{e)}{$(-3)^2 \cdot 6 - (-2)^3 \cdot 7$} & \oBaiTap[7]{f)}{$(-55) \cdot 76 + (-55) \cdot 25 + 55$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 2 | Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$6x = -48$} & \oBaiTap[5]{b)}{$3x + 22 = -5$} \\
+\hline
+\oBaiTap[6]{c)}{$(x - 4)(x + 9) = 0$} & \oBaiTap[6]{d)}{Cho $x \in \mathbb{Z}$ và $-3 \le x \le 5$. Tính tích của tất cả các số nguyên $x$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một cửa hàng thể thao nhập về 100 chiếc áo bóng đá. Trong tháng đầu: Đợt 1 bán được 80 chiếc áo, mỗi chiếc lãi $35$ nghìn đồng (ghi $+35$). Đợt 2 thanh lý nốt 20 chiếc áo còn lại, mỗi chiếc chịu lỗ $30$ nghìn đồng (ghi $-30$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng số tiền lãi cửa hàng thu được từ đợt bán hàng đầu tiên.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cửa hàng sau cả hai đợt và cho biết cửa hàng lãi hay lỗ bao nhiêu.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số $A = \dfrac{5}{x - 3}$ nhận giá trị là một số nguyên.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT TRUOC (TRANG 1/2) =============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 2} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{Điểm số} & \centering\textbf{Lời nhận xét của thầy cô} \tabularnewline
+\rule{0pt}{1.8cm} & \\
+\hline
+\end{tabularx}
+
+\vspace{1.0mm}
+\noindent\textbf{Câu 1 (0,25 điểm).} Tính: $(-7) \cdot 9 =$ \shortans{-63}\par\vspace{0.25mm}
+\noindent\textbf{Câu 2 (0,25 điểm).} Tính: $(-16) \cdot (-5) =$ \shortans{80}\par\vspace{0.25mm}
+\noindent\textbf{Câu 3 (0,25 điểm).} Tính giá trị: $(-5)^3 =$ \shortans{-125}\par\vspace{0.25mm}
+\noindent\textbf{Câu 4 (0,25 điểm).} Tính nhanh: $32 \cdot (-6) + 32 \cdot (-4) =$ \shortans{-320}\par\vspace{0.25mm}
+\noindent\textbf{Câu 5 (0,25 điểm).} Tích của 6 số âm và 4 số dương mang dấu gì? \shortans{Dương}\par\vspace{0.25mm}
+\noindent\textbf{Câu 6 (0,25 điểm).} Điền dấu thích hợp ($<, >, =$): $(-13) \cdot (-7) \dots 0$ \shortans{>}\par\vspace{0.25mm}
+\noindent\textbf{Câu 7 (0,25 điểm).} Chữ cái nào không có trục đối xứng: H, M, N, A? \shortans{N}\par\vspace{0.25mm}
+\noindent\textbf{Câu 8 (0,25 điểm).} Chữ cái nào không có tâm đối xứng: I, O, X, M? \shortans{M}\par\vspace{0.25mm}
+\noindent\textbf{Câu 9 (0,25 điểm).} Hình bình hành có cạnh đáy $18\text{ cm}$, chiều cao $5\text{ cm}$. Diện tích là: \shortans{90\text{ cm}^2}\par\vspace{0.25mm}
+\noindent\textbf{Câu 10 (0,25 điểm).} Tàu ngầm ở $-30\text{ m}$, lặn sâu thêm $4\text{ m}$/phút. Sau 8 phút độ cao là: \shortans{-62\text{ m}}\par\vspace{0.25mm}
+
+\vspace{0.3mm}
+\noindent\textbf{Câu 11 (3,0 điểm). Thực hiện phép tính (hợp lý nếu có thể):}
+\vspace{0.4mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[7]{a)}{$(-18) \cdot 5 + (-10)$} & \oBaiTap[7]{b)}{$(-125) \cdot 38 \cdot (-8)$} \\
+\hline
+\oBaiTap[7]{c)}{$65 \cdot (-81) + 65 \cdot (-19)$} & \oBaiTap[7]{d)}{$185 \cdot (-42) + (-185) \cdot 58$} \\
+\hline
+\oBaiTap[7]{e)}{$(-2)^3 \cdot 6 - (-4)^2 \cdot 3$} & \oBaiTap[7]{f)}{$(-65) \cdot 82 + (-65) \cdot 19 + 65$} \\
+\hline
+\end{tabularx}
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - MAT SAU (TRANG 2/2) ==============
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\centering\textbf{TOÁN 6 - TUẦN 12 - BUỔI 2 | Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent\textbf{Câu 12 (2,0 điểm). Tìm số nguyên $x$, biết:}
+\vspace{0.5mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTap[5]{a)}{$7x = -56$} & \oBaiTap[5]{b)}{$4x + 28 = -8$} \\
+\hline
+\oBaiTap[6]{c)}{$(x - 7)(x + 5) = 0$} & \oBaiTap[6]{d)}{Cho $x \in \mathbb{Z}$ và $-6 \le x \le 1$. Tính tích của tất cả các số nguyên $x$.} \\
+\hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 13 (2,0 điểm).} Một cửa hàng thể thao nhập về 100 chiếc áo bóng đá. Trong tháng đầu: Đợt 1 bán được 75 chiếc áo, mỗi chiếc lãi $40$ nghìn đồng (ghi $+40$). Đợt 2 thanh lý nốt 25 chiếc áo còn lại, mỗi chiếc chịu lỗ $20$ nghìn đồng (ghi $-20$).\par\vspace{0.3mm}
+\textbf{a) (1,0 điểm)} Tính tổng số tiền lãi cửa hàng thu được từ đợt bán hàng đầu tiên.\par\vspace{0.3mm}
+\textbf{b) (1,0 điểm)} Tính tổng lợi nhuận của cửa hàng sau cả hai đợt và cho biết cửa hàng lãi hay lỗ bao nhiêu.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{10}
+\\ \hline
+\end{tabularx}
+
+\vspace{1.2mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|}
+\hline
+\vspace{0.4mm}
+\textbf{Câu 14 (0,5 điểm).} Tìm tất cả các số nguyên $x$ để phân số $A = \dfrac{5}{x + 3}$ nhận giá trị là một số nguyên.\par
+\vspace{0.4mm}
+\noindent\textit{Bài giải:}\dongke{8}
+\\ \hline
+\end{tabularx}
+\end{document}

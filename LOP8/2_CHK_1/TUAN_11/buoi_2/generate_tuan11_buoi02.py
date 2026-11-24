@@ -13,85 +13,43 @@ def load_data():
 
 def make_tikz(code):
     if code in ["101", "103"]:
-        return r'''\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
-  \coordinate (A) at (0, 0);
-  \coordinate (B) at (0, 2.7);
-  \coordinate (C) at (3.6, 0);
-  \coordinate (D) at (1.54, 1.54);
-  \coordinate (H) at (0, 1.54);
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
+  \coordinate (B) at (0, 0);
+  \coordinate (C) at (4.0, 0);
+  \coordinate (A) at (1.2, 2.6);
 
   \draw[thick] (A) -- (B) -- (C) -- cycle;
-  \draw[thick] (A) -- (D);
-  \draw[thick] (D) -- (H);
 
-  % Vuong goc tai A va H
-  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
-  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
-
-  % Cung goc bang nhau tai A (45 do)
-  \draw (0.42, 0) arc (0:45:0.42);
-  \draw (0.30, 0.30) arc (45:90:0.42);
-
-  \fill (A) circle (1.3pt) node[below left=-1pt] {$A$};
-  \fill (B) circle (1.3pt) node[above] {$B$};
+  \fill (A) circle (1.3pt) node[above] {$A$};
+  \fill (B) circle (1.3pt) node[below left=-1pt] {$B$};
   \fill (C) circle (1.3pt) node[below right=-1pt] {$C$};
-  \fill (D) circle (1.3pt) node[above right=-1pt] {$D$};
-  \fill (H) circle (1.3pt) node[left] {$H$};
 \end{tikzpicture}'''
     elif code == "102":
-        return r'''\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
-  \coordinate (M) at (0, 0);
-  \coordinate (N) at (0, 2.7);
-  \coordinate (P) at (3.6, 0);
-  \coordinate (K) at (1.54, 1.54);
-  \coordinate (H) at (0, 1.54);
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
+  \coordinate (N) at (0, 0);
+  \coordinate (P) at (4.0, 0);
+  \coordinate (M) at (1.2, 2.6);
 
   \draw[thick] (M) -- (N) -- (P) -- cycle;
-  \draw[thick] (M) -- (K);
-  \draw[thick] (K) -- (H);
 
-  % Vuong goc tai M va H
-  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
-  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
-
-  % Cung goc bang nhau tai M (45 do)
-  \draw (0.42, 0) arc (0:45:0.42);
-  \draw (0.30, 0.30) arc (45:90:0.42);
-
-  \fill (M) circle (1.3pt) node[below left=-1pt] {$M$};
-  \fill (N) circle (1.3pt) node[above] {$N$};
+  \fill (M) circle (1.3pt) node[above] {$M$};
+  \fill (N) circle (1.3pt) node[below left=-1pt] {$N$};
   \fill (P) circle (1.3pt) node[below right=-1pt] {$P$};
-  \fill (K) circle (1.3pt) node[above right=-1pt] {$K$};
-  \fill (H) circle (1.3pt) node[left] {$H$};
 \end{tikzpicture}'''
     else:  # 104
-        return r'''\begin{tikzpicture}[scale=0.75, >=stealth, line join=round, line cap=round]
-  \coordinate (D) at (0, 0);
-  \coordinate (E) at (0, 2.7);
-  \coordinate (F) at (3.6, 0);
-  \coordinate (I) at (1.54, 1.54);
-  \coordinate (K) at (0, 1.54);
+        return r'''\begin{tikzpicture}[scale=0.8, >=stealth, line join=round, line cap=round]
+  \coordinate (E) at (0, 0);
+  \coordinate (F) at (4.0, 0);
+  \coordinate (D) at (1.2, 2.6);
 
   \draw[thick] (D) -- (E) -- (F) -- cycle;
-  \draw[thick] (D) -- (I);
-  \draw[thick] (I) -- (K);
 
-  % Vuong goc tai D va K
-  \draw (0, 0.2) -- (0.2, 0.2) -- (0.2, 0);
-  \draw (0, 1.34) -- (0.2, 1.34) -- (0.2, 1.54);
-
-  % Cung goc bang nhau tai D (45 do)
-  \draw (0.42, 0) arc (0:45:0.42);
-  \draw (0.30, 0.30) arc (45:90:0.42);
-
-  \fill (D) circle (1.3pt) node[below left=-1pt] {$D$};
-  \fill (E) circle (1.3pt) node[above] {$E$};
+  \fill (D) circle (1.3pt) node[above] {$D$};
+  \fill (E) circle (1.3pt) node[below left=-1pt] {$E$};
   \fill (F) circle (1.3pt) node[below right=-1pt] {$F$};
-  \fill (I) circle (1.3pt) node[above right=-1pt] {$I$};
-  \fill (K) circle (1.3pt) node[left] {$K$};
 \end{tikzpicture}'''
 
-def build_tex(data, vspace_short="2.4mm", ob11=4, ob12=5, dk13=11, dk14=6):
+def build_tex(data, vspace_short="2.0mm", ob11=4, ob12=5, dk13=11, dk14=7):
     t_p1 = data["title_p1"]
     t_p2 = data["title_p2"]
     codes = data["codes"]
@@ -184,7 +142,7 @@ def build_tex(data, vspace_short="2.4mm", ob11=4, ob12=5, dk13=11, dk14=6):
         # Cau 11
         q11 = cd["q11"]
         p1 += f'''\\vspace{{0.4mm}}
-\\noindent\\textbf{{Câu 11 (3,0 điểm). Rút gọn các phân thức đại số sau:}}
+\\noindent\\textbf{{Câu 11 (3,0 điểm). Thực hiện các phép tính sau:}}
 \\vspace{{0.6mm}}
 
 \\noindent
@@ -222,7 +180,7 @@ def build_tex(data, vspace_short="2.4mm", ob11=4, ob12=5, dk13=11, dk14=6):
 
 \\vspace{{1.2mm}}
 
-\\noindent\\textbf{{Câu 12 (2,0 điểm). Tìm $x$, biết:}}
+\\noindent\\textbf{{Câu 12 (2,0 điểm). Phân tích các đa thức sau thành nhân tử:}}
 \\vspace{{0.6mm}}
 
 \\noindent
@@ -242,13 +200,13 @@ def build_tex(data, vspace_short="2.4mm", ob11=4, ob12=5, dk13=11, dk14=6):
 \\begin{{tabularx}}{{\\linewidth}}{{|X|}}
 \\hline
 \\vspace{{0.5mm}}
-\\begin{{minipage}}[t]{{0.68\\linewidth}}
+\\begin{{minipage}}[t]{{0.57\\linewidth}}
 \\vspace{{0pt}}
 \\textbf{{Câu 13 (2,0 điểm).}} {q13["de"]}\\par\\vspace{{0.4mm}}
 \\textbf{{a)}} {q13["a"]}\\par\\vspace{{0.4mm}}
 \\textbf{{b)}} {q13["b"]}
 \\end{{minipage}}\\hfill
-\\begin{{minipage}}[t]{{0.30\\linewidth}}
+\\begin{{minipage}}[t]{{0.41\\linewidth}}
 \\vspace{{0pt}}\\centering
 {tikz_code}
 \\end{{minipage}}\\par
@@ -316,13 +274,16 @@ def main():
     pdf_path = os.path.join(CUR_DIR, f"{base_name}.pdf")
     
     candidates = [
-        ("2.6mm", 4, 5, 11, 6),
-        ("2.4mm", 4, 5, 11, 6),
-        ("2.2mm", 4, 5, 11, 6),
-        ("2.5mm", 4, 5, 11, 6),
-        ("2.0mm", 4, 5, 11, 6),
-        ("2.2mm", 4, 5, 10, 7),
+        ("3.2mm", 5, 5, 10, 7),
+        ("3.1mm", 5, 5, 10, 7),
+        ("3.0mm", 5, 5, 10, 7),
+        ("2.9mm", 5, 5, 10, 7),
+        ("2.8mm", 5, 5, 10, 7),
     ]
+    
+    best_config = None
+    best_margins = None
+    best_score = float('inf')
     
     for vspace_short, ob11, ob12, dk13, dk14 in candidates:
         print(f"\n--- Testing config: vspace_short={vspace_short}, ob11={ob11}, ob12={ob12}, dk13={dk13}, dk14={dk14} ---")
@@ -340,16 +301,26 @@ def main():
             if num_pages == 8:
                 print(">>> SUCCESS! Exactly 8 pages! Checking margins...")
                 margins = check_margins(pdf_path)
+                score = sum(abs(m - 12.5) for m in margins)
                 if all(10.0 <= m <= 15.0 for m in margins):
                     print(">>> PERFECT! Margins are within the ideal gold standard (10-15 mm)!")
                     return
-                else:
-                    print("Page margins tested:", margins)
-                    if all(9.0 <= m <= 16.0 for m in margins):
-                        print("Acceptable margin candidate found!")
-                        return
+                if score < best_score:
+                    best_score = score
+                    best_config = (vspace_short, ob11, ob12, dk13, dk14)
+                    best_margins = margins
             
-    print("Optimization completed.")
+    if best_config:
+        print(f"\n>>> Applying best found 8-page config: {best_config} with margins {best_margins}")
+        vspace_short, ob11, ob12, dk13, dk14 = best_config
+        tex_content = build_tex(data, vspace_short=vspace_short, ob11=ob11, ob12=ob12, dk13=dk13, dk14=dk14)
+        with open(tex_path, 'w', encoding='utf-8') as f:
+            f.write(tex_content)
+        cmd = ["pdflatex", "-interaction=nonstopmode", f"{base_name}.tex"]
+        subprocess.run(cmd, cwd=CUR_DIR, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        check_margins(pdf_path)
+    else:
+        print("Optimization completed.")
 
 if __name__ == "__main__":
     main()

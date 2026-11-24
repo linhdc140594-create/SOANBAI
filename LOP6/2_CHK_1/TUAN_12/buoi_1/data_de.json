@@ -1,0 +1,151 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 6 - TUẦN 12 - BUỔI 1",
+  "title_p2": "TOÁN 6 - TUẦN 12 - BUỔI 1",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_12_Buoi_01",
+  "codes": {
+    "101": {
+      "short": [
+        ["Bỏ dấu ngoặc của biểu thức $-(x - 8)$, ta được kết quả là:", "-x + 8"],
+        ["Bỏ dấu ngoặc của biểu thức $+(-15 + x)$, ta được kết quả là:", "-15 + x"],
+        ["Giá trị của biểu thức $(-45) + 18 + 45$ là:", "18"],
+        ["Bỏ dấu ngoặc của biểu thức $-(a - b + 7)$, ta được kết quả là:", "-a + b - 7"],
+        ["Điền vào chỗ trống: $15 - x - y = 15 - (\\dots)$ là:", "x + y"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-25) + (-30) \\; \\dots \\; 0$", "<"],
+        ["Biển báo giao thông hình tam giác đều có số trục đối xứng là:", "3"],
+        ["Trong các chữ cái A, M, S, E, chữ cái có tâm đối xứng là:", "S"],
+        ["Hình chữ nhật có chiều dài $12\\text{ cm}$, chiều rộng $5\\text{ cm}$. Diện tích là:", "60\\text{ cm}^2"],
+        ["Nhiệt độ trưa $24^\\circ\\text{C}$, đêm $16^\\circ\\text{C}$. Độ chênh lệch nhiệt độ là:", "8^\\circ\\text{C}"]
+      ],
+      "q11": {
+        "a": "125 - (45 - 125)",
+        "b": "(-75) - (25 - 180)",
+        "c": "(345 - 67) - (345 - 167)",
+        "d": "150 - [85 - (15 - 50)]",
+        "e": "48 - 5 \\cdot (-2)^3",
+        "f": "(15 - 28 + 49) - (15 - 28 - 51)"
+      },
+      "q12": {
+        "a": "x - 15 = -28",
+        "b": "24 - (x + 10) = 45",
+        "c": "18 - (12 - x) = -15",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-4 < x \\le 3$"
+      },
+      "q13": {
+        "de": "Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\\\\hline \\textbf{Lợi nhuận} & $-45\\text{ triệu đồng}$ & $+120\\text{ triệu đồng}$ & $-65\\text{ triệu đồng}$ & $+150\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).",
+        "b": "Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{6}{x - 1}$."
+      }
+    },
+    "102": {
+      "short": [
+        ["Bỏ dấu ngoặc của biểu thức $-(y - 5)$, ta được kết quả là:", "-y + 5"],
+        ["Bỏ dấu ngoặc của biểu thức $+(-20 + y)$, ta được kết quả là:", "-20 + y"],
+        ["Giá trị của biểu thức $(-56) + 27 + 56$ là:", "27"],
+        ["Bỏ dấu ngoặc của biểu thức $-(x - y + 9)$, ta được kết quả là:", "-x + y - 9"],
+        ["Điền vào chỗ trống: $20 - a - b = 20 - (\\dots)$ là:", "a + b"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-40) + (-25) \\; \\dots \\; 0$", ">"],
+        ["Biển báo giao thông hình tròn có số trục đối xứng là:", "\\text{Vô số}"],
+        ["Trong các chữ cái A, B, O, M, chữ cái có tâm đối xứng là:", "O"],
+        ["Một hình chữ nhật có chiều dài $15\\text{ cm}$, chiều rộng $6\\text{ cm}$. Diện tích là:", "90\\text{ cm}^2"],
+        ["Nhiệt độ trưa $22^\\circ\\text{C}$, đêm $15^\\circ\\text{C}$. Độ chênh lệch nhiệt độ là:", "7^\\circ\\text{C}"]
+      ],
+      "q11": {
+        "a": "135 - (55 - 135)",
+        "b": "(-85) - (15 - 170)",
+        "c": "(456 - 78) - (456 - 178)",
+        "d": "160 - [95 - (20 - 45)]",
+        "e": "52 - 4 \\cdot (-3)^2",
+        "f": "(24 - 37 + 63) - (24 - 37 - 37)"
+      },
+      "q12": {
+        "a": "x - 18 = -32",
+        "b": "32 - (x + 12) = 50",
+        "c": "25 - (15 - x) = -10",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-5 < x \\le 4$"
+      },
+      "q13": {
+        "de": "Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\\\\hline \\textbf{Lợi nhuận} & $-50\\text{ triệu đồng}$ & $+130\\text{ triệu đồng}$ & $-70\\text{ triệu đồng}$ & $+160\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).",
+        "b": "Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{6}{x + 1}$."
+      }
+    },
+    "103": {
+      "short": [
+        ["Bỏ dấu ngoặc của biểu thức $-(a - 12)$, ta được kết quả là:", "-a + 12"],
+        ["Bỏ dấu ngoặc của biểu thức $+(-35 + a)$, ta được kết quả là:", "-35 + a"],
+        ["Giá trị của biểu thức $(-63) + 35 + 63$ là:", "35"],
+        ["Bỏ dấu ngoặc của biểu thức $-(m - n + 5)$, ta được kết quả là:", "-m + n - 5"],
+        ["Điền vào chỗ trống: $30 - m - n = 30 - (\\dots)$ là:", "m + n"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-18) + (-20) \\; \\dots \\; 0$", "<"],
+        ["Một hình vuông có số trục đối xứng là:", "4"],
+        ["Trong các chữ cái N, E, C, D, chữ cái có tâm đối xứng là:", "N"],
+        ["Hình bình hành có đáy $14\\text{ cm}$, chiều cao $5\\text{ cm}$. Diện tích là:", "70\\text{ cm}^2"],
+        ["Nhiệt độ cao nhất $5^\\circ\\text{C}$, thấp nhất $-3^\\circ\\text{C}$. Độ chênh lệch là:", "8^\\circ\\text{C}"]
+      ],
+      "q11": {
+        "a": "145 - (65 - 145)",
+        "b": "(-65) - (35 - 190)",
+        "c": "(567 - 89) - (567 - 189)",
+        "d": "170 - [75 - (30 - 65)]",
+        "e": "65 - 3 \\cdot (-2)^4",
+        "f": "(36 - 48 + 72) - (36 - 48 - 28)"
+      },
+      "q12": {
+        "a": "x - 22 = -35",
+        "b": "40 - (x + 15) = 62",
+        "c": "30 - (20 - x) = -12",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-3 < x \\le 4$"
+      },
+      "q13": {
+        "de": "Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\\\\hline \\textbf{Lợi nhuận} & $-60\\text{ triệu đồng}$ & $+140\\text{ triệu đồng}$ & $-80\\text{ triệu đồng}$ & $+170\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).",
+        "b": "Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{6}{x - 2}$."
+      }
+    },
+    "104": {
+      "short": [
+        ["Bỏ dấu ngoặc của biểu thức $-(b - 9)$, ta được kết quả là:", "-b + 9"],
+        ["Bỏ dấu ngoặc của biểu thức $+(-42 + b)$, ta được kết quả là:", "-42 + b"],
+        ["Giá trị của biểu thức $(-74) + 42 + 74$ là:", "42"],
+        ["Bỏ dấu ngoặc của biểu thức $-(p - q + 8)$, ta được kết quả là:", "-p + q - 8"],
+        ["Điền vào chỗ trống: $45 - p - q = 45 - (\\dots)$ là:", "p + q"],
+        ["Điền dấu thích hợp ($<, >, =$) vào chỗ trống: $-(-50) + (-35) \\; \\dots \\; 0$", ">"],
+        ["Một hình chữ nhật có số trục đối xứng là:", "2"],
+        ["Trong các chữ cái H, V, K, T, chữ cái có tâm đối xứng là:", "H"],
+        ["Hình bình hành có đáy $16\\text{ cm}$, chiều cao $4\\text{ cm}$. Diện tích là:", "64\\text{ cm}^2"],
+        ["Nhiệt độ cao nhất $4^\\circ\\text{C}$, thấp nhất $-2^\\circ\\text{C}$. Độ chênh lệch là:", "6^\\circ\\text{C}"]
+      ],
+      "q11": {
+        "a": "155 - (75 - 155)",
+        "b": "(-55) - (45 - 160)",
+        "c": "(678 - 92) - (678 - 192)",
+        "d": "180 - [65 - (25 - 70)]",
+        "e": "70 - 6 \\cdot (-2)^3",
+        "f": "(42 - 59 + 81) - (42 - 59 - 19)"
+      },
+      "q12": {
+        "a": "x - 25 = -40",
+        "b": "45 - (x + 20) = 75",
+        "c": "35 - (25 - x) = -14",
+        "d": "Liệt kê và tính tổng các số nguyên $x$ thỏa mãn: $-4 < x \\le 5$"
+      },
+      "q13": {
+        "de": "Một công ty may mặc xuất khẩu theo dõi kết quả kinh doanh trong năm và ghi nhận lợi nhuận qua từng quý (số tiền lãi ghi số dương, số tiền lỗ ghi số âm) như sau:\\par\\vspace{0.4mm}\\centerline{\\begin{tabular}{|l|c|c|c|c|}\\hline \\textbf{Quý trong năm} & Quý 1 & Quý 2 & Quý 3 & Quý 4 \\\\\\hline \\textbf{Lợi nhuận} & $-55\\text{ triệu đồng}$ & $+125\\text{ triệu đồng}$ & $-75\\text{ triệu đồng}$ & $+180\\text{ triệu đồng}$ \\\\\\hline\\end{tabular}}\\vspace{0.4mm}",
+        "a": "Tính tổng lợi nhuận của công ty trong nửa đầu năm (Quý 1 và Quý 2).",
+        "b": "Tính tổng lợi nhuận của cả năm và cho biết cả năm công ty lãi hay lỗ bao nhiêu tiền."
+      },
+      "q14": {
+        "de": "Tìm tất cả các số nguyên $x$ để phân số sau nhận giá trị là một số nguyên: $A = \\dfrac{6}{x + 2}$."
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "base_filename": "Phieu_Kiem_Tra_Tuan_12_Buoi_02",
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 7 - TUẦN 12 - BUỔI 02",
+  "title_p2": "TOÁN 7 - TUẦN 12 - BUỔI 02",
+  "codes": {
+    "101": {
+      "short": [
+        ["Đường trung trực của đoạn $AB$ đi qua điểm nào của $AB$?", "Trung điểm"],
+        ["$M$ thuộc trung trực của $AB$. Biết $MA = 6\\text{ cm}$. Tính $MB =$", "6\\text{ cm}"],
+        ["$M$ thuộc trung trực $AB$ ($M \\notin AB$). $\\triangle MAB$ là tam giác gì?", "Tam giác cân"],
+        ["Giao điểm ba đường trung trực của tam giác cách đều ba yếu tố nào?", "Ba đỉnh"],
+        ["$\\triangle ABC$ cân tại $A$. Trung trực của cạnh đáy $BC$ đi qua điểm nào?", "Đỉnh A"],
+        ["Tìm $x$, biết: $\\dfrac{x}{6} = \\dfrac{5}{2}$. Kết quả là:", "15"],
+        ["Giá trị của $\\sqrt{\\dfrac{121}{144}} =$", "\\dfrac{11}{12}"],
+        ["Tính giá trị: $|-7{,}5| - |-2{,}5| =$", "5"],
+        ["Tính giá trị: $\\left(-\\dfrac{2}{5}\\right)^2 =$", "\\dfrac{4}{25}"],
+        ["Trạm $K$ cách đều hai điểm $A, B$. Khi đó $K$ nằm trên đường nào?", "Trung trực"]
+      ],
+      "q11": {
+        "a": "\\dfrac{3}{8} - \\left(-\\dfrac{5}{6}\\right) - \\dfrac{7}{8} + \\dfrac{1}{6}",
+        "b": "\\dfrac{7}{11} \\cdot \\left(-\\dfrac{5}{9}\\right) + \\dfrac{7}{11} \\cdot \\left(-\\dfrac{4}{9}\\right)",
+        "c": "\\sqrt{\\dfrac{81}{4}} - 1{,}5 \\cdot \\sqrt{\\dfrac{4}{9}}",
+        "d": "\\left(-\\dfrac{1}{2}\\right)^3 \\cdot 8 - \\left(-\\dfrac{2}{3}\\right)^2 \\cdot 9",
+        "e": "\\dfrac{5}{6} - \\left[\\dfrac{1}{3} - \\left(\\dfrac{1}{2} - \\dfrac{5}{6}\\right)\\right]",
+        "f": "\\dfrac{6^3 \\cdot 2^4}{3^2 \\cdot 4^3}"
+      },
+      "q12": {
+        "a": "\\dfrac{x}{12} = \\dfrac{-3}{4}",
+        "b": "\\dfrac{3}{5}x - \\dfrac{1}{2} = -\\dfrac{7}{10}",
+        "c": "\\left|x + \\dfrac{2}{3}\right| = \\dfrac{5}{6}",
+        "d": "\\left(x - \\dfrac{1}{2}\right)^3 = -\\dfrac{8}{27}"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $AB$. Đường trung trực $d$ của đoạn thẳng $AB$ cắt $AB$ tại $I$. Lấy điểm $M \\in d$ ($M \\ne I$).",
+        "a": "Chứng minh $\\triangle MAI = \\triangle MBI$. Suy ra $MA = MB$ và $\\triangle MAB$ cân tại $M$.",
+        "b": "Lấy $N$ thuộc tia đối của tia $IM$ ($N \\ne I$). Chứng minh $NA = NB$ và $MN$ là phân giác $\\widehat{AMB}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 2| + |x - 7|$ và giá trị của $x$ tương ứng (với $x \\in \\mathbb{R}$)."
+      }
+    },
+    "102": {
+      "short": [
+        ["Đường trung trực của đoạn $AB$ tạo với $AB$ góc bao nhiêu độ?", "90^\\circ"],
+        ["$M$ thuộc trung trực của $CD$. Biết $MC = 8\\text{ cm}$. Tính $MD =$", "8\\text{ cm}"],
+        ["$N$ thuộc trung trực $PQ$ ($N \\notin PQ$). $\\triangle NPQ$ là tam giác gì?", "Tam giác cân"],
+        ["Giao điểm ba đường trung trực của $\\triangle ABC$ là tâm đường tròn đi qua:", "Ba đỉnh"],
+        ["$\\triangle MNP$ cân tại $M$. Trung trực của cạnh đáy $NP$ đi qua điểm nào?", "Đỉnh M"],
+        ["Tìm $x$, biết: $\\dfrac{x}{8} = \\dfrac{3}{2}$. Kết quả là:", "12"],
+        ["Giá trị của $\\sqrt{\\dfrac{169}{196}} =$", "\\dfrac{13}{14}"],
+        ["Tính giá trị: $|-8{,}6| - |-3{,}6| =$", "5"],
+        ["Tính giá trị: $\\left(-\\dfrac{3}{4}\\right)^2 =$", "\\dfrac{9}{16}"],
+        ["Hai điểm $A, B$ đối xứng qua $d$. Điểm $M \\in d$. Khi đó $\\triangle MAB$ là:", "Tam giác cân"]
+      ],
+      "q11": {
+        "a": "\\dfrac{5}{12} - \\left(-\\dfrac{3}{7}\\right) - \\dfrac{11}{12} + \\dfrac{4}{7}",
+        "b": "\\dfrac{8}{13} \\cdot \\left(-\\dfrac{7}{10}\\right) + \\dfrac{8}{13} \\cdot \\left(-\\dfrac{3}{10}\\right)",
+        "c": "\\sqrt{\\dfrac{121}{4}} - 2{,}5 \\cdot \\sqrt{\\dfrac{4}{25}}",
+        "d": "\\left(-\\dfrac{1}{3}\\right)^2 \\cdot 18 - \\left(-\\dfrac{1}{2}\\right)^4 \\cdot 32",
+        "e": "\\dfrac{7}{12} - \\left[\\dfrac{1}{4} - \\left(\\dfrac{2}{3} - \\dfrac{7}{12}\\right)\\right]",
+        "f": "\\dfrac{10^3 \\cdot 2^3}{5^2 \\cdot 4^3}"
+      },
+      "q12": {
+        "a": "\\dfrac{x}{15} = \\dfrac{-2}{5}",
+        "b": "\\dfrac{4}{7}x - \\dfrac{1}{3} = -\\dfrac{10}{21}",
+        "c": "\\left|x + \\dfrac{1}{2}\right| = \\dfrac{3}{4}",
+        "d": "\\left(x - \\dfrac{1}{3}\right)^3 = -\\dfrac{1}{27}"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $CD$. Đường trung trực $d$ của đoạn thẳng $CD$ cắt $CD$ tại $H$. Lấy điểm $P \\in d$ ($P \\ne H$).",
+        "a": "Chứng minh $\\triangle PCH = \\triangle PDH$. Suy ra $PC = PD$ và $\\triangle PCD$ cân tại $P$.",
+        "b": "Lấy $Q$ thuộc tia đối của tia $HP$ ($Q \\ne H$). Chứng minh $QC = QD$ và $PQ$ là phân giác $\\widehat{CPD}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 3| + |x - 8|$ và giá trị của $x$ tương ứng (với $x \\in \\mathbb{R}$)."
+      }
+    },
+    "103": {
+      "short": [
+        ["Đường thẳng vuông góc tại trung điểm của đoạn thẳng gọi là:", "Đường trung trực"],
+        ["$P$ thuộc trung trực của $EF$. Biết $PE = 9\\text{ cm}$. Tính $PF =$", "9\\text{ cm}"],
+        ["$E$ thuộc trung trực $CD$ ($E \\notin CD$). $\\triangle ECD$ là tam giác gì?", "Tam giác cân"],
+        ["Điểm $O$ cách đều ba đỉnh của tam giác là giao điểm của ba đường:", "Trung trực"],
+        ["$\\triangle DEF$ cân tại $D$. Trung trực của cạnh đáy $EF$ đi qua điểm nào?", "Đỉnh D"],
+        ["Tìm $x$, biết: $\\dfrac{x}{9} = \\dfrac{4}{3}$. Kết quả là:", "12"],
+        ["Giá trị của $\\sqrt{\\dfrac{81}{100}} =$", "\\dfrac{9}{10}"],
+        ["Tính giá trị: $|-9{,}4| - |-4{,}4| =$", "5"],
+        ["Tính giá trị: $\\left(-\\dfrac{2}{3}\\right)^4 =$", "\\dfrac{16}{81}"],
+        ["Điểm $K$ cách đều ba đỉnh của $\\triangle ABC$. $K$ là giao điểm ba đường gì?", "Trung trực"]
+      ],
+      "q11": {
+        "a": "\\dfrac{4}{9} - \\left(-\\dfrac{3}{5}\\right) - \\dfrac{13}{9} + \\dfrac{2}{5}",
+        "b": "\\dfrac{9}{14} \\cdot \\left(-\\dfrac{8}{15}\\right) + \\dfrac{9}{14} \\cdot \\left(-\\dfrac{7}{15}\\right)",
+        "c": "\\sqrt{\\dfrac{49}{4}} - 1{,}5 \\cdot \\sqrt{\\dfrac{16}{9}}",
+        "d": "\\left(-\\dfrac{1}{2}\\right)^4 \\cdot 48 - \\left(-\\dfrac{1}{3}\\right)^3 \\cdot 27",
+        "e": "\\dfrac{3}{4} - \\left[\\dfrac{1}{2} - \\left(\\dfrac{5}{6} - \\dfrac{7}{12}\\right)\\right]",
+        "f": "\\dfrac{12^2 \\cdot 3^3}{4^2 \\cdot 9^2}"
+      },
+      "q12": {
+        "a": "\\dfrac{x}{16} = \\dfrac{-3}{8}",
+        "b": "\\dfrac{2}{5}x - \\dfrac{3}{4} = -\\dfrac{19}{20}",
+        "c": "\\left|x + \\dfrac{3}{4}\right| = \\dfrac{7}{8}",
+        "d": "\\left(x - \\dfrac{1}{4}\right)^3 = -\\dfrac{1}{8}"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $MN$. Đường trung trực $d$ của đoạn thẳng $MN$ cắt $MN$ tại $K$. Lấy điểm $E \\in d$ ($E \\ne K$).",
+        "a": "Chứng minh $\\triangle EKM = \\triangle EKN$. Suy ra $EM = EN$ và $\\triangle EMN$ cân tại $E$.",
+        "b": "Lấy $F$ thuộc tia đối của tia $KE$ ($F \\ne K$). Chứng minh $FM = FN$ và $EF$ là phân giác $\\widehat{MEN}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 1| + |x - 6|$ và giá trị của $x$ tương ứng (với $x \\in \\mathbb{R}$)."
+      }
+    },
+    "104": {
+      "short": [
+        ["Điểm $I$ là trung điểm của $AB, d \\perp AB$ tại $I$. $d$ gọi là:", "Đường trung trực"],
+        ["$K$ thuộc trung trực của $MN$. Biết $KM = 7\\text{ cm}$. Tính $KN =$", "7\\text{ cm}"],
+        ["$H$ thuộc trung trực $AB$ ($H \\notin AB$). $\\triangle HAB$ là tam giác gì?", "Tam giác cân"],
+        ["Điểm cách đều ba đỉnh của tam giác gọi là tâm đường tròn:", "Ngoại tiếp"],
+        ["$\\triangle HIK$ cân tại $H$. Trung trực của cạnh đáy $IK$ đi qua điểm nào?", "Đỉnh H"],
+        ["Tìm $x$, biết: $\\dfrac{x}{10} = \\dfrac{7}{5}$. Kết quả là:", "14"],
+        ["Giá trị của $\\sqrt{\\dfrac{49}{64}} =$", "\\dfrac{7}{8}"],
+        ["Tính giá trị: $|-6{,}8| - |-1{,}8| =$", "5"],
+        ["Tính giá trị: $\\left(-\\dfrac{3}{5}\\right)^2 =$", "\\dfrac{9}{25}"],
+        ["Điểm $M$ cách đều hai điểm $A, B$. Khi đó khoảng cách $MA$ và $MB$ là:", "Bằng nhau"]
+      ],
+      "q11": {
+        "a": "\\dfrac{7}{15} - \\left(-\\dfrac{4}{9}\right) - \\dfrac{22}{15} + \\dfrac{5}{9}",
+        "b": "\\dfrac{11}{17} \\cdot \\left(-\\dfrac{9}{16}\right) + \\dfrac{11}{17} \\cdot \\left(-\\dfrac{7}{16}\right)",
+        "c": "\\sqrt{\\dfrac{144}{25}} - 1{,}2 \\cdot \\sqrt{\\dfrac{25}{16}}",
+        "d": "\\left(-\\dfrac{1}{5}\\right)^2 \\cdot 50 - \\left(-\\dfrac{1}{2}\\right)^3 \\cdot 16",
+        "e": "\\dfrac{5}{8} - \\left[\\dfrac{1}{4} - \\left(\\dfrac{7}{8} - \\dfrac{3}{4}\right)\\right]",
+        "f": "\\dfrac{15^2 \\cdot 2^4}{5^2 \\cdot 6^2}"
+      },
+      "q12": {
+        "a": "\\dfrac{x}{18} = \\dfrac{-5}{6}",
+        "b": "\\dfrac{3}{4}x - \\dfrac{2}{5} = -\\dfrac{13}{20}",
+        "c": "\\left|x + \\dfrac{1}{3}\right| = \\dfrac{5}{6}",
+        "d": "\\left(x - \\dfrac{1}{2}\right)^3 = -\\dfrac{27}{8}"
+      },
+      "q13": {
+        "de": "Cho đoạn thẳng $EF$. Đường trung trực $d$ của đoạn thẳng $EF$ cắt $EF$ tại $O$. Lấy điểm $A \\in d$ ($A \\ne O$).",
+        "a": "Chứng minh $\\triangle AOE = \\triangle AOF$. Suy ra $AE = AF$ và $\\triangle AEF$ cân tại $A$.",
+        "b": "Lấy $B$ thuộc tia đối của tia $OA$ ($B \\ne O$). Chứng minh $BE = BF$ và $AB$ là phân giác $\\widehat{EAF}$."
+      },
+      "q14": {
+        "de": "Tìm giá trị nhỏ nhất của biểu thức $P = |x - 4| + |x - 9|$ và giá trị của $x$ tương ứng (với $x \\in \\mathbb{R}$)."
+      }
+    }
+  }
+}

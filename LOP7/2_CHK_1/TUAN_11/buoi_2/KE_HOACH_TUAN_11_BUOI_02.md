@@ -30,8 +30,8 @@
 | **1** | Trả lời ngắn (Short Answer) | 10 câu | 2,5 đ | Trang 1 (Đầu trang) | Lệnh `\shortans`, ô bo góc `KQ: [   ]` sát mép phải. |
 | **2** | Thực hiện phép tính | 6 ý ($a \to f$) | 3,0 đ | Trang 1 (Cuối trang) | Bảng $3 \times 2$, dùng `\oBaiTap[5]` lấp kín 100% lề dưới. |
 | **3** | Tìm số hữu tỉ $x$ | 4 ý ($a \to d$) | 2,0 đ | Trang 2 (Đầu trang) | Bảng $2 \times 2$, dùng `\oBaiTap[5]`. |
-| **4** | Hình học G-C-G & Tam giác vuông | 2 ý ($a, b$) | 2,0 đ | Trang 2 (Giữa trang) | Ghép box `tabularx` có hình TikZ, bài giải `\dongkeHaiCot{11}`. |
-| **5** | Vận dụng cao điểm 10 | 1 bài | 0,5 đ | Trang 2 (Cuối trang) | Ghép box `tabularx`, bài giải `\dongkeHaiCot{7}` sát lề dưới. |
+| **4** | Hình học: Tam giác bằng nhau (C-G-C) - Ví dụ 3 | 2 ý ($a, b$) | 2,0 đ | Trang 2 (Giữa trang) | Ghép box `tabularx` có hình TikZ góc nhọn thoáng, bài giải `\dongkeHaiCot{10}`. |
+| **5** | Vận dụng cao điểm 10 | 1 bài | 0,5 đ | Trang 2 (Cuối trang) | Ghép box `tabularx`, bài giải `\dongkeHaiCot{5}` sát lề dưới. |
 | **TỔNG** | | **23 mục** | **10,0 đ** | **2 mặt A4** | **Chính xác 8 trang PDF cho 4 mã đề (101-104)** |
 
 ---
@@ -102,20 +102,20 @@
 
 ---
 
-### 4. CÂU 13 (2,0 ĐIỂM - HÌNH HỌC CHỨNG MINH G-C-G & TAM GIÁC VUÔNG - 2 Ý $A, B$)
+### 4. CÂU 13 (2,0 ĐIỂM - HÌNH HỌC TAM GIÁC BẰNG NHAU C-G-C: VÍ DỤ 3)
 
-* **Mã đề 101:** Cho đoạn thẳng $AB$ có trung điểm là $I$. Qua $I$ kẻ đường thẳng $xy$ (đường thẳng $xy$ không vuông góc với $AB$). Từ $A$ kẻ $AH \perp xy$ tại $H$, từ $B$ kẻ $BK \perp xy$ tại $K$.
-  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta AHI = \Delta BKI$ (cạnh huyền - góc nhọn).
-  - $b)$ (1,0 điểm): Chứng minh rằng $AH = BK$ và $AH \parallel BK$.
-* **Mã đề 102:** Cho đoạn thẳng $CD$ có trung điểm là $O$. Qua $O$ kẻ đường thẳng $mn$ (đường thẳng $mn$ không vuông góc với $CD$). Từ $C$ kẻ $CE \perp mn$ tại $E$, từ $D$ kẻ $DF \perp mn$ tại $F$.
-  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta CEO = \Delta DFO$.
-  - $b)$ (1,0 điểm): Chứng minh rằng $CE = DF$ và $CE \parallel DF$.
-* **Mã đề 103:** Cho đoạn thẳng $MN$ có trung điểm là $E$. Qua $E$ kẻ đường thẳng $pq$ (đường thẳng $pq$ không vuông góc với $MN$). Từ $M$ kẻ $MP \perp pq$ tại $P$, từ $N$ kẻ $NQ \perp pq$ tại $Q$.
-  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta MPE = \Delta NQE$.
-  - $b)$ (1,0 điểm): Chứng minh rằng $MP = NQ$ và $MP \parallel NQ$.
-* **Mã đề 104:** Cho đoạn thẳng $EF$ có trung điểm là $K$. Qua $K$ kẻ đường thẳng $uv$ (đường thẳng $uv$ không vuông góc với $EF$). Từ $E$ kẻ $EG \perp uv$ tại $G$, từ $F$ kẻ $FH \perp uv$ tại $H$.
-  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta EGK = \Delta FHK$.
-  - $b)$ (1,0 điểm): Chứng minh rằng $EG = FH$ và $EG \parallel FH$.
+* **Mã đề 101:** Cho góc $\widehat{xOy}$ nhọn. Trên tia $Ox$ lấy hai điểm $B$ và $C$, trên tia $Oy$ lấy hai điểm $D$ và $E$ sao cho $OB = OD$ và $OC = OE$ ($B$ nằm giữa $O$ và $C$).
+  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta ODC = \Delta OBE$.
+  - $b)$ (1,0 điểm): Chứng minh rằng $DC = BE$.
+* **Mã đề 102:** Cho góc $\widehat{xOy}$ nhọn. Trên tia $Ox$ lấy hai điểm $M$ và $N$, trên tia $Oy$ lấy hai điểm $P$ và $Q$ sao cho $OM = OP$ và $ON = OQ$ ($M$ nằm giữa $O$ và $N$).
+  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta OPN = \Delta OMQ$.
+  - $b)$ (1,0 điểm): Chứng minh rằng $PN = MQ$.
+* **Mã đề 103:** Cho góc $\widehat{mIn}$ nhọn. Trên tia $Im$ lấy hai điểm $A$ và $B$, trên tia $In$ lấy hai điểm $C$ và $D$ sao cho $IA = IC$ và $IB = ID$ ($A$ nằm giữa $I$ và $B$).
+  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta ICB = \Delta IAD$.
+  - $b)$ (1,0 điểm): Chứng minh rằng $CB = AD$.
+* **Mã đề 104:** Cho góc $\widehat{xAy}$ nhọn. Trên tia $Ax$ lấy hai điểm $E$ và $F$, trên tia $Ay$ lấy hai điểm $G$ và $H$ sao cho $AE = AG$ và $AF = AH$ ($E$ nằm giữa $A$ và $F$).
+  - $a)$ (1,0 điểm): Chứng minh rằng $\Delta AGF = \Delta AEH$.
+  - $b)$ (1,0 điểm): Chứng minh rằng $GF = EH$.
 
 ---
 

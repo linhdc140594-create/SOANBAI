@@ -1,0 +1,332 @@
+{
+  "base_filename": "Phieu_Kiem_Tra_De_08",
+  "title": "ĐỀ THI THỬ TUYỂN SINH VÀO LỚP 10 THPT (ĐỀ 08)",
+  "subtitle": "MÔN TOÁN 9 - NĂM HỌC: 2026 - 2027",
+  "time": "120 phút",
+  "codes": {
+    "101": {
+      "tn": [
+        {
+          "cau": "Giải phương trình sau: $(2x+6)(x-3)=0$.",
+          "a": "$-3$ và $3$",
+          "b": "$-6$ và $3$",
+          "c": "$3$",
+          "d": "$-3$",
+          "ans": "A"
+        },
+        {
+          "cau": "Giải bất phương trình sau: $5x-12>6x-15$.",
+          "a": "$x>3$",
+          "b": "$x>-3$",
+          "c": "$x<3$",
+          "d": "$x<-3$",
+          "ans": "C"
+        },
+        {
+          "cau": "Giá trị của biểu thức $\\dfrac{1}{2-\\sqrt{3}}+\\dfrac{1}{2+\\sqrt{3}}$ là:",
+          "a": "$2\\sqrt{3}$",
+          "b": "$4$",
+          "c": "$-4$",
+          "d": "$-2\\sqrt{3}$",
+          "ans": "B"
+        },
+        {
+          "cau": "Tính thể tích $V$ của hình cầu có bán kính $R=3\\text{ cm}$:",
+          "a": "$35\\pi\\text{ cm}^3$",
+          "b": "$36\\pi\\text{ cm}^3$",
+          "c": "$36{,}5\\pi\\text{ cm}^3$",
+          "d": "$37\\pi\\text{ cm}^3$",
+          "ans": "B"
+        },
+        {
+          "cau": "Một cột đèn có bóng trên mặt đất dài $8{,}5\\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $52^\\circ$. Chiều cao của cột đèn (làm tròn đến chữ số thập phân thứ nhất) là:",
+          "a": "$10{,}8\\text{ m}$",
+          "b": "$10{,}9\\text{ cm}$",
+          "c": "$10{,}8\\text{ cm}$",
+          "d": "$10{,}9\\text{ m}$",
+          "ans": "D"
+        },
+        {
+          "cau": "Tìm điều kiện xác định của biểu thức $\\dfrac{2}{\\sqrt{x^2-4x+4}}$:",
+          "a": "$x>2$",
+          "b": "$x<2$",
+          "c": "$x \\ne 2$",
+          "d": "$x=2$",
+          "ans": "C"
+        },
+        {
+          "cau": "Ba bạn Việt, Nam, Lào được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: \"Việt không ngồi ngoài cùng bên phải\" là:",
+          "a": "$\\dfrac{1}{3}$",
+          "b": "$\\dfrac{2}{3}$",
+          "c": "$1$",
+          "d": "$\\dfrac{4}{3}$",
+          "ans": "B"
+        },
+        {
+          "cau": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-5x+3-2x=0$. Tính giá trị của $x_1+x_2$:",
+          "a": "$7$",
+          "b": "$-5$",
+          "c": "$5$",
+          "d": "$-7$",
+          "ans": "A"
+        }
+      ],
+      "b1": "\\begin{cases} 4x + 3y = 1 \\\\ 2x - 3y = 11 \\end{cases}",
+      "b2": "A = \\left(\\dfrac{2}{\\sqrt{x}-2} - \\dfrac{\\sqrt{x}+4}{x-4}\\right) : \\dfrac{\\sqrt{x}}{\\sqrt{x}+2} \\quad (x > 0,\\; x \\ne 4)",
+      "b3": "x^2 - 2x - 4 = 0",
+      "b3_expr": "T = x_1^2 - x_2(2-x_2) - 2x_1",
+      "b4_name": "An",
+      "b4_event": "Có đúng 1 con xúc xắc xuất hiện mặt 6 chấm",
+      "b5_text": "Một hội trường có 300 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 2 dãy và mỗi dãy xếp thêm 1 ghế thì trong hội trường có tất cả 351 ghế. Hỏi lúc đầu hội trường có bao nhiêu dãy ghế?",
+      "b7a_sp1": 180,
+      "b7a_sp2": 180,
+      "b7a_time": 5,
+      "b7a_diff": 30
+    },
+    "102": {
+      "tn": [
+        {
+          "cau": "Giải phương trình sau: $(2x-8)(x+2)=0$.",
+          "a": "$4$ và $-2$",
+          "b": "$-4$ và $2$",
+          "c": "$4$",
+          "d": "$-2$",
+          "ans": "A"
+        },
+        {
+          "cau": "Giải bất phương trình sau: $4x-10>5x-14$.",
+          "a": "$x>4$",
+          "b": "$x<4$",
+          "c": "$x>-4$",
+          "d": "$x<-4$",
+          "ans": "B"
+        },
+        {
+          "cau": "Giá trị của biểu thức $\\dfrac{1}{3-\\sqrt{8}}+\\dfrac{1}{3+\\sqrt{8}}$ là:",
+          "a": "$6$",
+          "b": "$2\\sqrt{8}$",
+          "c": "$-6$",
+          "d": "$3$",
+          "ans": "A"
+        },
+        {
+          "cau": "Tính thể tích $V$ của hình cầu có bán kính $R=6\\text{ cm}$:",
+          "a": "$288\\pi\\text{ cm}^3$",
+          "b": "$144\\pi\\text{ cm}^3$",
+          "c": "$72\\pi\\text{ cm}^3$",
+          "d": "$576\\pi\\text{ cm}^3$",
+          "ans": "A"
+        },
+        {
+          "cau": "Một cột cờ có bóng trên mặt đất dài $7{,}5\\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $55^\\circ$. Chiều cao của cột cờ (làm tròn đến chữ số thập phân thứ nhất) là:",
+          "a": "$10{,}7\\text{ m}$",
+          "b": "$10{,}6\\text{ m}$",
+          "c": "$10{,}8\\text{ m}$",
+          "d": "$10{,}5\\text{ m}$",
+          "ans": "A"
+        },
+        {
+          "cau": "Tìm điều kiện xác định của biểu thức $\\dfrac{3}{\\sqrt{x^2-6x+9}}$:",
+          "a": "$x \\ne 3$",
+          "b": "$x>3$",
+          "c": "$x<3$",
+          "d": "$x=3$",
+          "ans": "A"
+        },
+        {
+          "cau": "Ba bạn An, Bình, Cúc được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: \"An ngồi ở vị trí chính giữa\" là:",
+          "a": "$\\dfrac{1}{3}$",
+          "b": "$\\dfrac{2}{3}$",
+          "c": "$\\dfrac{1}{2}$",
+          "d": "$\\dfrac{1}{6}$",
+          "ans": "A"
+        },
+        {
+          "cau": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-3x+5-3x=0$. Tính giá trị của $x_1+x_2$:",
+          "a": "$-6$",
+          "b": "$6$",
+          "c": "$5$",
+          "d": "$-5$",
+          "ans": "B"
+        }
+      ],
+      "b1": "\\begin{cases} 3x + 2y = 12 \\\\ 5x - 2y = 4 \\end{cases}",
+      "b2": "A = \\left(\\dfrac{3}{\\sqrt{x}-3} - \\dfrac{\\sqrt{x}+9}{x-9}\\right) : \\dfrac{\\sqrt{x}}{\\sqrt{x}+3} \\quad (x > 0,\\; x \\ne 9)",
+      "b3": "x^2 - 3x - 5 = 0",
+      "b3_expr": "T = x_1^2 - x_2(3-x_2) - 3x_1",
+      "b4_name": "Bình",
+      "b4_event": "Có đúng 1 con xúc xắc xuất hiện mặt 1 chấm",
+      "b5_text": "Một hội trường có 360 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 1 dãy và mỗi dãy xếp thêm 1 ghế thì trong hội trường có tất cả 400 ghế. Hỏi lúc đầu hội trường có bao nhiêu dãy ghế (biết số dãy ghế ban đầu nhiều hơn 20)?",
+      "b7a_sp1": 120,
+      "b7a_sp2": 120,
+      "b7a_time": 5,
+      "b7a_diff": 20
+    },
+    "103": {
+      "tn": [
+        {
+          "cau": "Giải phương trình sau: $(3x+9)(x-2)=0$.",
+          "a": "$-3$ và $2$",
+          "b": "$3$ và $-2$",
+          "c": "$-3$",
+          "d": "$2$",
+          "ans": "A"
+        },
+        {
+          "cau": "Giải bất phương trình sau: $3x-8>5x-12$.",
+          "a": "$x<2$",
+          "b": "$x>2$",
+          "c": "$x<-2$",
+          "d": "$x>-2$",
+          "ans": "A"
+        },
+        {
+          "cau": "Giá trị của biểu thức $\\dfrac{1}{\\sqrt{5}-2}-\\dfrac{1}{\\sqrt{5}+2}$ là:",
+          "a": "$2\\sqrt{5}$",
+          "b": "$-4$",
+          "c": "$4$",
+          "d": "$1$",
+          "ans": "C"
+        },
+        {
+          "cau": "Tính thể tích $V$ của hình cầu có bán kính $R=3\\text{ dm}$:",
+          "a": "$18\\pi\\text{ dm}^3$",
+          "b": "$27\\pi\\text{ dm}^3$",
+          "c": "$36\\pi\\text{ dm}^3$",
+          "d": "$45\\pi\\text{ dm}^3$",
+          "ans": "C"
+        },
+        {
+          "cau": "Một tháp truyền hình có bóng trên mặt đất dài $9{,}0\\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $50^\\circ$. Chiều cao tháp (làm tròn đến chữ số thập phân thứ nhất) là:",
+          "a": "$10{,}5\\text{ m}$",
+          "b": "$10{,}7\\text{ m}$",
+          "c": "$10{,}9\\text{ m}$",
+          "d": "$11{,}0\\text{ m}$",
+          "ans": "B"
+        },
+        {
+          "cau": "Tìm điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x^2-8x+16}}$:",
+          "a": "$x>4$",
+          "b": "$x \\ne 4$",
+          "c": "$x<4$",
+          "d": "$x=4$",
+          "ans": "B"
+        },
+        {
+          "cau": "Ba bạn Mai, Lan, Cúc được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: \"Mai ngồi ở một trong hai đầu ghế\" là:",
+          "a": "$\\dfrac{1}{3}$",
+          "b": "$\\dfrac{1}{2}$",
+          "c": "$\\dfrac{2}{3}$",
+          "d": "$\\dfrac{5}{6}$",
+          "ans": "C"
+        },
+        {
+          "cau": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-4x+2-4x=0$. Tính giá trị của $x_1+x_2$:",
+          "a": "$2$",
+          "b": "$-8$",
+          "c": "$8$",
+          "d": "$-2$",
+          "ans": "C"
+        }
+      ],
+      "b1": "\\begin{cases} 2x + 5y = 19 \\\\ 4x - 5y = -1 \\end{cases}",
+      "b2": "A = \\left(\\dfrac{2}{\\sqrt{x}-1} - \\dfrac{\\sqrt{x}+2}{x-1}\\right) : \\dfrac{\\sqrt{x}}{\\sqrt{x}+1} \\quad (x > 0,\\; x \\ne 1)",
+      "b3": "x^2 - 4x - 3 = 0",
+      "b3_expr": "T = x_1^2 - x_2(4-x_2) - 4x_1",
+      "b4_name": "Cường",
+      "b4_event": "Có ít nhất 1 con xúc xắc xuất hiện mặt 6 chấm",
+      "b5_text": "Một phòng họp có 240 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 2 dãy và mỗi dãy xếp thêm 1 ghế thì trong phòng họp có tất cả 286 ghế. Hỏi lúc đầu phòng họp có bao nhiêu dãy ghế (biết số dãy ghế ít hơn 22 dãy)?",
+      "b7a_sp1": 240,
+      "b7a_sp2": 240,
+      "b7a_time": 5,
+      "b7a_diff": 40
+    },
+    "104": {
+      "tn": [
+        {
+          "cau": "Giải phương trình sau: $(3x-6)(x+4)=0$.",
+          "a": "$2$ và $-4$",
+          "b": "$-2$ và $4$",
+          "c": "$2$",
+          "d": "$-4$",
+          "ans": "A"
+        },
+        {
+          "cau": "Giải bất phương trình sau: $6x-15>8x-21$.",
+          "a": "$x>3$",
+          "b": "$x<-3$",
+          "c": "$x<3$",
+          "d": "$x>-3$",
+          "ans": "C"
+        },
+        {
+          "cau": "Giá trị của biểu thức $\\dfrac{1}{2-\\sqrt{3}}-\\dfrac{1}{2+\\sqrt{3}}$ là:",
+          "a": "$4$",
+          "b": "$2\\sqrt{3}$",
+          "c": "$-2\\sqrt{3}$",
+          "d": "$1$",
+          "ans": "B"
+        },
+        {
+          "cau": "Tính thể tích $V$ của hình cầu có đường kính $d=6\\text{ cm}$:",
+          "a": "$36\\pi\\text{ cm}^3$",
+          "b": "$288\\pi\\text{ cm}^3$",
+          "c": "$144\\pi\\text{ cm}^3$",
+          "d": "$18\\pi\\text{ cm}^3$",
+          "ans": "A"
+        },
+        {
+          "cau": "Một tòa nhà có bóng trên mặt đất dài $6{,}5\\text{ m}$. Các tia nắng mặt trời tạo với mặt đất một góc xấp xỉ bằng $60^\\circ$. Chiều cao tòa nhà (làm tròn đến chữ số thập phân thứ nhất) là:",
+          "a": "$11{,}1\\text{ m}$",
+          "b": "$11{,}2\\text{ m}$",
+          "c": "$11{,}3\\text{ m}$",
+          "d": "$11{,}5\\text{ m}$",
+          "ans": "C"
+        },
+        {
+          "cau": "Tìm điều kiện xác định của biểu thức $\\dfrac{5}{\\sqrt{x^2-10x+25}}$:",
+          "a": "$x=5$",
+          "b": "$x>5$",
+          "c": "$x<5$",
+          "d": "$x \\ne 5$",
+          "ans": "D"
+        },
+        {
+          "cau": "Ba bạn Dũng, Tuấn, Huy được xếp ngẫu nhiên ngồi trên một hàng ghế có ba chỗ ngồi. Xác suất của biến cố: \"Dũng không ngồi ở đầu ghế bên trái\" là:",
+          "a": "$\\dfrac{1}{3}$",
+          "b": "$\\dfrac{1}{6}$",
+          "c": "$\\dfrac{1}{2}$",
+          "d": "$\\dfrac{2}{3}$",
+          "ans": "D"
+        },
+        {
+          "cau": "Gọi $x_1, x_2$ là hai nghiệm của phương trình $x^2-2x+1-3x=0$. Tính giá trị của $x_1+x_2$:",
+          "a": "$1$",
+          "b": "$-5$",
+          "c": "$-1$",
+          "d": "$5$",
+          "ans": "D"
+        }
+      ],
+      "b1": "\\begin{cases} 5x + 3y = 21 \\\\ 3x - 3y = 3 \\end{cases}",
+      "b2": "A = \\left(\\dfrac{3}{\\sqrt{x}-2} - \\dfrac{2\\sqrt{x}+6}{x-4}\\right) : \\dfrac{\\sqrt{x}}{\\sqrt{x}+2} \\quad (x > 0,\\; x \\ne 4)",
+      "b3": "x^2 - 5x - 2 = 0",
+      "b3_expr": "T = x_1^2 - x_2(5-x_2) - 5x_1",
+      "b4_name": "Dũng",
+      "b4_event": "Có đúng 1 con xúc xắc xuất hiện mặt 5 chấm",
+      "b5_text": "Một hội trường có 280 ghế ngồi được xếp đều thành từng dãy (số ghế trên mỗi dãy bằng nhau). Nếu kê thêm 1 dãy và mỗi dãy xếp thêm 2 ghế thì trong hội trường có tất cả 330 ghế. Hỏi lúc đầu hội trường có bao nhiêu dãy ghế (biết số dãy ghế ban đầu nhiều hơn 12 dãy)?",
+      "b7a_sp1": 150,
+      "b7a_sp2": 150,
+      "b7a_time": 5,
+      "b7a_diff": 25
+    }
+  },
+  "b6_shared": {
+    "de": "Cho tam giác $ABC$ nhọn ($AB < AC$). Đường tròn $(O)$ đường kính $BC$ cắt các cạnh $AB, AC$ lần lượt tại $E$ và $D$; $BD$ cắt $CE$ tại $H$, đường thẳng $AH$ cắt $BC$ tại $I$. Từ điểm $A$ kẻ các tiếp tuyến $AM, AN$ với đường tròn $(O)$ ($M, N$ là các tiếp điểm).",
+    "cau_a": "Chứng minh tứ giác $AEHD$ nội tiếp một đường tròn.",
+    "cau_b": "Chứng minh $AB \\cdot BE = BI \\cdot BC$, từ đó suy ra $AB \\cdot BE + AC \\cdot CD = BC^2$."
+  },
+  "b7b_shared": {
+    "de": "Tìm giá trị nhỏ nhất của biểu thức: $A = 4x + \\dfrac{1}{4x} - \\dfrac{4\\sqrt{x}+3}{x+1} + 2027$ với $x > 0$."
+  }
+}

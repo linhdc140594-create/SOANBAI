@@ -15,136 +15,52 @@ def load_data():
 
 def make_tikz(code):
     if code == "101":
-        return r'''\begin{tikzpicture}[scale=0.82, >=stealth, line join=round, line cap=round]
-  \coordinate (I) at (0, 0);
-  \coordinate (X) at (-2.3, 0);
-  \coordinate (Y) at (2.3, 0);
-  \coordinate (A) at (-1.35, 1.3);
-  \coordinate (B) at (1.35, -1.3);
-  \coordinate (H) at (-1.35, 0);
-  \coordinate (K) at (1.35, 0);
+        return r'''\begin{tikzpicture}[scale=0.78, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \def\a{54}
+  \coordinate (O) at (0,0);
 
-  \draw[<->] (X) node[left=-2pt] {{\footnotesize $x$}} -- (Y) node[right=-2pt] {{\footnotesize $y$}};
+  \draw[->, thick] (O) -- (4.5,0) node[below] {$x$};
+  \draw[->, thick] (O) -- (\a:4.5) node[above] {$y$};
 
-  \draw[thick] (A) -- (B);
-  \draw[thick] (A) -- (H);
-  \draw[thick] (B) -- (K);
+  \draw (0.7,0) arc (0:\a:0.7);
 
-  \draw (-1.35, 0.2) -- (-1.15, 0.2) -- (-1.15, 0);
-  \draw (1.35, -0.2) -- (1.15, -0.2) -- (1.15, 0);
-
-  \draw (-0.72, 0.6) -- (-0.62, 0.73);
-  \draw (-0.68, 0.55) -- (-0.58, 0.68);
-  \draw (0.62, -0.73) -- (0.72, -0.6);
-  \draw (0.58, -0.68) -- (0.68, -0.55);
-
-  \draw (-0.35, 0) arc (180:136:0.35);
-  \draw (0.35, 0) arc (0:-44:0.35);
-
-  \fill (I) circle (1.3pt) node[below right=-1pt, fill=white, inner sep=0.6pt] {{$I$}};
-  \fill (A) circle (1.3pt) node[above left=-1pt] {{$A$}};
-  \fill (B) circle (1.3pt) node[below right=-1pt] {{$B$}};
-  \fill (H) circle (1.3pt) node[below left=-1pt] {{$H$}};
-  \fill (K) circle (1.3pt) node[above right=-1pt] {{$K$}};
+  \fill (O) circle (1.4pt) node[below left=-1pt] {$O$};
 \end{tikzpicture}'''
     elif code == "102":
-        return r'''\begin{tikzpicture}[scale=0.82, >=stealth, line join=round, line cap=round]
-  \coordinate (O) at (0, 0);
-  \coordinate (M) at (-2.3, 0);
-  \coordinate (N) at (2.3, 0);
-  \coordinate (C) at (-1.35, 1.3);
-  \coordinate (D) at (1.35, -1.3);
-  \coordinate (E) at (-1.35, 0);
-  \coordinate (F) at (1.35, 0);
+        return r'''\begin{tikzpicture}[scale=0.78, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \def\a{54}
+  \coordinate (O) at (0,0);
 
-  \draw[<->] (M) node[left=-2pt] {{\footnotesize $m$}} -- (N) node[right=-2pt] {{\footnotesize $n$}};
+  \draw[->, thick] (O) -- (4.5,0) node[below] {$x$};
+  \draw[->, thick] (O) -- (\a:4.5) node[above] {$y$};
 
-  \draw[thick] (C) -- (D);
-  \draw[thick] (C) -- (E);
-  \draw[thick] (D) -- (F);
+  \draw (0.7,0) arc (0:\a:0.7);
 
-  \draw (-1.35, 0.2) -- (-1.15, 0.2) -- (-1.15, 0);
-  \draw (1.35, -0.2) -- (1.15, -0.2) -- (1.15, 0);
-
-  \draw (-0.72, 0.6) -- (-0.62, 0.73);
-  \draw (-0.68, 0.55) -- (-0.58, 0.68);
-  \draw (0.62, -0.73) -- (0.72, -0.6);
-  \draw (0.58, -0.68) -- (0.68, -0.55);
-
-  \draw (-0.35, 0) arc (180:136:0.35);
-  \draw (0.35, 0) arc (0:-44:0.35);
-
-  \fill (O) circle (1.3pt) node[below right=-1pt, fill=white, inner sep=0.6pt] {{$O$}};
-  \fill (C) circle (1.3pt) node[above left=-1pt] {{$C$}};
-  \fill (D) circle (1.3pt) node[below right=-1pt] {{$D$}};
-  \fill (E) circle (1.3pt) node[below left=-1pt] {{$E$}};
-  \fill (F) circle (1.3pt) node[above right=-1pt] {{$F$}};
+  \fill (O) circle (1.4pt) node[below left=-1pt] {$O$};
 \end{tikzpicture}'''
     elif code == "103":
-        return r'''\begin{tikzpicture}[scale=0.82, >=stealth, line join=round, line cap=round]
-  \coordinate (E) at (0, 0);
-  \coordinate (P_axis) at (-2.3, 0);
-  \coordinate (Q_axis) at (2.3, 0);
-  \coordinate (M) at (-1.35, 1.3);
-  \coordinate (N) at (1.35, -1.3);
-  \coordinate (P) at (-1.35, 0);
-  \coordinate (Q) at (1.35, 0);
+        return r'''\begin{tikzpicture}[scale=0.78, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \def\a{54}
+  \coordinate (I) at (0,0);
 
-  \draw[<->] (P_axis) node[left=-2pt] {{\footnotesize $p$}} -- (Q_axis) node[right=-2pt] {{\footnotesize $q$}};
+  \draw[->, thick] (I) -- (4.5,0) node[below] {$m$};
+  \draw[->, thick] (I) -- (\a:4.5) node[above] {$n$};
 
-  \draw[thick] (M) -- (N);
-  \draw[thick] (M) -- (P);
-  \draw[thick] (N) -- (Q);
+  \draw (0.7,0) arc (0:\a:0.7);
 
-  \draw (-1.35, 0.2) -- (-1.15, 0.2) -- (-1.15, 0);
-  \draw (1.35, -0.2) -- (1.15, -0.2) -- (1.15, 0);
-
-  \draw (-0.72, 0.6) -- (-0.62, 0.73);
-  \draw (-0.68, 0.55) -- (-0.58, 0.68);
-  \draw (0.62, -0.73) -- (0.72, -0.6);
-  \draw (0.58, -0.68) -- (0.68, -0.55);
-
-  \draw (-0.35, 0) arc (180:136:0.35);
-  \draw (0.35, 0) arc (0:-44:0.35);
-
-  \fill (E) circle (1.3pt) node[below right=-1pt, fill=white, inner sep=0.6pt] {{$E$}};
-  \fill (M) circle (1.3pt) node[above left=-1pt] {{$M$}};
-  \fill (N) circle (1.3pt) node[below right=-1pt] {{$N$}};
-  \fill (P) circle (1.3pt) node[below left=-1pt] {{$P$}};
-  \fill (Q) circle (1.3pt) node[above right=-1pt] {{$Q$}};
+  \fill (I) circle (1.4pt) node[below left=-1pt] {$I$};
 \end{tikzpicture}'''
     else:  # 104
-        return r'''\begin{tikzpicture}[scale=0.82, >=stealth, line join=round, line cap=round]
-  \coordinate (K) at (0, 0);
-  \coordinate (U) at (-2.3, 0);
-  \coordinate (V) at (2.3, 0);
-  \coordinate (E) at (-1.35, 1.3);
-  \coordinate (F) at (1.35, -1.3);
-  \coordinate (G) at (-1.35, 0);
-  \coordinate (H) at (1.35, 0);
+        return r'''\begin{tikzpicture}[scale=0.78, line cap=round, line join=round, >=stealth, font=\footnotesize]
+  \def\a{54}
+  \coordinate (A) at (0,0);
 
-  \draw[<->] (U) node[left=-2pt] {{\footnotesize $u$}} -- (V) node[right=-2pt] {{\footnotesize $v$}};
+  \draw[->, thick] (A) -- (4.5,0) node[below] {$x$};
+  \draw[->, thick] (A) -- (\a:4.5) node[above] {$y$};
 
-  \draw[thick] (E) -- (F);
-  \draw[thick] (E) -- (G);
-  \draw[thick] (F) -- (H);
+  \draw (0.7,0) arc (0:\a:0.7);
 
-  \draw (-1.35, 0.2) -- (-1.15, 0.2) -- (-1.15, 0);
-  \draw (1.35, -0.2) -- (1.15, -0.2) -- (1.15, 0);
-
-  \draw (-0.72, 0.6) -- (-0.62, 0.73);
-  \draw (-0.68, 0.55) -- (-0.58, 0.68);
-  \draw (0.62, -0.73) -- (0.72, -0.6);
-  \draw (0.58, -0.68) -- (0.68, -0.55);
-
-  \draw (-0.35, 0) arc (180:136:0.35);
-  \draw (0.35, 0) arc (0:-44:0.35);
-
-  \fill (K) circle (1.3pt) node[below right=-1pt, fill=white, inner sep=0.6pt] {{$K$}};
-  \fill (E) circle (1.3pt) node[above left=-1pt] {{$E$}};
-  \fill (F) circle (1.3pt) node[below right=-1pt] {{$F$}};
-  \fill (G) circle (1.3pt) node[below left=-1pt] {{$G$}};
-  \fill (H) circle (1.3pt) node[above right=-1pt] {{$H$}};
+  \fill (A) circle (1.4pt) node[below left=-1pt] {$A$};
 \end{tikzpicture}'''
 
 def build_tex(data, vspace_short="2.2mm", ob11=5, ob12=5, dk13=11, dk14=6):
@@ -365,10 +281,9 @@ def main():
     pdf_path = os.path.join(CUR_DIR, f"{base_name}.pdf")
     
     candidates = [
+        ("3.0mm", 5, 5, 10, 5),
+        ("3.0mm", 5, 5, 9, 6),
         ("3.0mm", 5, 5, 10, 6),
-        ("2.8mm", 5, 5, 10, 6),
-        ("2.6mm", 5, 5, 10, 6),
-        ("2.5mm", 5, 5, 10, 6),
     ]
     
     for vspace_short, ob11, ob12, dk13, dk14 in candidates:
