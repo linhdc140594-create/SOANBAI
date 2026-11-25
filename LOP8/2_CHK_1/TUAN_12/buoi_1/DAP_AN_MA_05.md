@@ -54,17 +54,17 @@
   - Phân tích mẫu thức $x^2 - 36 = (x - 6)(x + 6)$ và rút gọn:
     $$\dfrac{(x - 6)(y + 2)}{(x - 6)(x + 6)} = \dfrac{y + 2}{x + 6}$$ *(0,25đ)*
 
-* **e) (0,5 điểm):** $\dfrac{x^2 - 9x + 20}{x^2 - 16}$
-  - Tách tử thức thành nhân tử: $x^2 - 9x + 20 = x^2 - 4x - 5x + 20 = (x - 4)(x - 5)$:
-    $$\dfrac{(x - 4)(x - 5)}{(x - 4)(x + 4)}$$ *(0,25đ)*
-  - Rút gọn nhân tử chung $(x - 4)$:
-    $$= \dfrac{x - 5}{x + 4}$$ *(0,25đ)*
+* **e) (0,5 điểm):** $\dfrac{x^2 - 7x}{x^2 - 49}$
+  - Đặt nhân tử chung $x$ ở tử và dùng hằng đẳng thức hiệu hai bình phương ở mẫu:
+    $$\dfrac{x(x - 7)}{(x - 7)(x + 7)}$$ *(0,25đ)*
+  - Rút gọn nhân tử chung $(x - 7)$:
+    $$= \dfrac{x}{x + 7}$$ *(0,25đ)*
 
-* **f) (0,5 điểm):** $\dfrac{x^3 - 64}{x^2 + 4x + 16}$
-  - Áp dụng hằng đẳng thức hiệu hai lập phương $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$:
-    $$x^3 - 64 = x^3 - 4^3 = (x - 4)(x^2 + 4x + 16)$$ *(0,25đ)*
-  - Rút gọn nhân tử $(x^2 + 4x + 16)$:
-    $$= x - 4$$ *(0,25đ)*
+* **f) (0,5 điểm):** $\dfrac{x^2 - 12x + 36}{x^2 - 36}$
+  - Áp dụng hằng đẳng thức bình phương một hiệu ở tử và hiệu hai bình phương ở mẫu:
+    $$\dfrac{(x - 6)^2}{(x - 6)(x + 6)}$$ *(0,25đ)*
+  - Rút gọn nhân tử chung $(x - 6)$:
+    $$= \dfrac{x - 6}{x + 6}$$ *(0,25đ)*
 
 ---
 
@@ -93,13 +93,10 @@
   - Kết luận: Vậy $x = -7$. *(0,25đ)*
   > *Lưu ý sư phạm khi giảng:* Nhắc nhở học sinh tuyệt đối không được quên ĐKXĐ. Nếu giải ra $x = 7$ phải loại.
 
-* **d) (0,5 điểm):** $x^2 - 8x + 7 = 0$
-  - Tách hạng tử bậc nhất đưa về phương trình tích:
-    $$x^2 - x - 7x + 7 = 0 \iff x(x - 1) - 7(x - 1) = 0$$
-    $$\iff (x - 1)(x - 7) = 0$$ *(0,25đ)*
-  - Giải phương trình:
-    $$\left[\begin{aligned} x - 1 &= 0 \\ x - 7 &= 0 \end{aligned}\right. \iff \left[\begin{aligned} x &= 1 \\ x &= 7 \end{aligned}\right.$$
-  - Kết luận: Vậy $x \in \{1; 7\}$. *(0,25đ)*
+* **d) (0,5 điểm):** $x^2 - 12x + 36 = 0$
+  - Áp dụng hằng đẳng thức bình phương của một hiệu:
+    $$(x - 6)^2 = 0 \iff x - 6 = 0 \iff x = 6.$$ *(0,25đ)*
+  - Kết luận: Vậy $x = 6$. *(0,25đ)*
 
 ---
 

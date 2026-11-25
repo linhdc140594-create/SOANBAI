@@ -1,0 +1,361 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage[top=0.6cm, bottom=0.6cm, left=0.6cm, right=0.6cm]{geometry}
+\usepackage[dethi]{ex_test}
+
+\setlength{\parskip}{0pt}
+
+% Dong ke cham mo chuan viet tay
+\newcommand{\dongke}[1]{%
+  \begingroup%
+  \setlength{\parskip}{0pt}%
+  \baselineskip=18.5pt%
+  \vspace{1.0mm}%
+  \foreach \i in {1,...,#1}{%
+    \noindent{\color{gray!60}\dotfill}\par%
+  }%
+  \vspace{0.6mm}%
+  \endgroup%
+}
+
+% Dinh nghia o bai tap tu luan trong bang cho Trang 1 va Trang 2
+\newcommand{\oBaiTapMot}[3][5]{%
+  \vspace{1.6mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+\newcommand{\oBaiTapHai}[3][6]{%
+  \vspace{0.6mm}%
+  \noindent\textbf{#2} #3\par%
+  \dongke{#1}%
+}
+
+\begin{document}
+\pagestyle{empty}
+% =============================================================================
+% ========================= MA DE 101 - TRANG 1/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU RÈN LUYỆN TOÁN 8 - TUẦN 12 - BUỔI 01} & \textbf{Mã đề: 101 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+\noindent\textbf{Bài 1 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapMot[5]{a) (0,5 điểm)}{$\dfrac{3x + 9}{x^2 - 9}$} & 
+\oBaiTapMot[5]{b) (0,5 điểm)}{$\dfrac{4x + 16}{x^2 - 16}$} \\
+\hline
+\oBaiTapMot[5]{c) (0,5 điểm)}{$\dfrac{x^2 - 16}{(x + 4)^2}$} & 
+\oBaiTapMot[5]{d) (0,5 điểm)}{$\dfrac{x^2 - 25}{(x + 5)^2}$} \\
+\hline
+\oBaiTapMot[5]{e) (0,5 điểm)}{$\dfrac{x^2 - 6x + 9}{2x - 6}$} & 
+\oBaiTapMot[5]{f) (0,5 điểm)}{$\dfrac{x^2 - 8x + 16}{3x - 12}$} \\
+\hline
+\oBaiTapMot[5]{g) (0,5 điểm)}{$\dfrac{x^2 - 3x}{x^2 - 9}$} & 
+\oBaiTapMot[5]{h) (0,5 điểm)}{$\dfrac{x^2 + 4x}{x^2 - 16}$} \\
+\hline
+\oBaiTapMot[5]{i) (0,5 điểm)}{$\dfrac{x^2 - 4x + 4}{x^2 - 4}$} & 
+\oBaiTapMot[5]{j) (0,5 điểm)}{$\dfrac{x^2 + 6x + 9}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 101 - TRANG 2/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 12 - BUỔI 01 (RÈN LUYỆN RÚT GỌN PHÂN THỨC)} & \textbf{Mã đề: 101 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.4mm}
+\noindent\textbf{Bài 2 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapHai[6]{a) (0,5 điểm)}{$\dfrac{5x + 10}{x^2 - 4}$} & 
+\oBaiTapHai[6]{b) (0,5 điểm)}{$\dfrac{2x - 8}{x^2 - 16}$} \\
+\hline
+\oBaiTapHai[6]{c) (0,5 điểm)}{$\dfrac{x^2 - 36}{(x - 6)^2}$} & 
+\oBaiTapHai[6]{d) (0,5 điểm)}{$\dfrac{x^2 - 49}{(x - 7)^2}$} \\
+\hline
+\oBaiTapHai[6]{e) (0,5 điểm)}{$\dfrac{x - 3}{9 - x^2}$} & 
+\oBaiTapHai[6]{f) (0,5 điểm)}{$\dfrac{x - 5}{25 - x^2}$} \\
+\hline
+\oBaiTapHai[6]{g) (0,5 điểm)}{$\dfrac{xy - 2y + 3x - 6}{x^2 - 4}$} & 
+\oBaiTapHai[6]{h) (0,5 điểm)}{$\dfrac{xy + 3y + 2x + 6}{x^2 - 9}$} \\
+\hline
+\oBaiTapHai[6]{i) (0,5 điểm)}{$\dfrac{xy - 4y + 3x - 12}{x^2 - 16}$} & 
+\oBaiTapHai[6]{j) (0,5 điểm)}{$\dfrac{xy + 5y - 2x - 10}{x^2 - 25}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - TRANG 1/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU RÈN LUYỆN TOÁN 8 - TUẦN 12 - BUỔI 01} & \textbf{Mã đề: 102 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+\noindent\textbf{Bài 1 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapMot[5]{a) (0,5 điểm)}{$\dfrac{2x + 6}{x^2 - 9}$} & 
+\oBaiTapMot[5]{b) (0,5 điểm)}{$\dfrac{5x + 20}{x^2 - 16}$} \\
+\hline
+\oBaiTapMot[5]{c) (0,5 điểm)}{$\dfrac{x^2 - 25}{(x + 5)^2}$} & 
+\oBaiTapMot[5]{d) (0,5 điểm)}{$\dfrac{x^2 - 36}{(x + 6)^2}$} \\
+\hline
+\oBaiTapMot[5]{e) (0,5 điểm)}{$\dfrac{x^2 - 4x + 4}{3x - 6}$} & 
+\oBaiTapMot[5]{f) (0,5 điểm)}{$\dfrac{x^2 - 10x + 25}{2x - 10}$} \\
+\hline
+\oBaiTapMot[5]{g) (0,5 điểm)}{$\dfrac{x^2 - 4x}{x^2 - 16}$} & 
+\oBaiTapMot[5]{h) (0,5 điểm)}{$\dfrac{x^2 + 3x}{x^2 - 9}$} \\
+\hline
+\oBaiTapMot[5]{i) (0,5 điểm)}{$\dfrac{x^2 - 6x + 9}{x^2 - 9}$} & 
+\oBaiTapMot[5]{j) (0,5 điểm)}{$\dfrac{x^2 + 8x + 16}{x^2 - 16}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 102 - TRANG 2/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 12 - BUỔI 01 (RÈN LUYỆN RÚT GỌN PHÂN THỨC)} & \textbf{Mã đề: 102 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.4mm}
+\noindent\textbf{Bài 2 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapHai[6]{a) (0,5 điểm)}{$\dfrac{4x + 8}{x^2 - 4}$} & 
+\oBaiTapHai[6]{b) (0,5 điểm)}{$\dfrac{3x - 12}{x^2 - 16}$} \\
+\hline
+\oBaiTapHai[6]{c) (0,5 điểm)}{$\dfrac{x^2 - 49}{(x - 7)^2}$} & 
+\oBaiTapHai[6]{d) (0,5 điểm)}{$\dfrac{x^2 - 64}{(x - 8)^2}$} \\
+\hline
+\oBaiTapHai[6]{e) (0,5 điểm)}{$\dfrac{x - 4}{16 - x^2}$} & 
+\oBaiTapHai[6]{f) (0,5 điểm)}{$\dfrac{x - 2}{4 - x^2}$} \\
+\hline
+\oBaiTapHai[6]{g) (0,5 điểm)}{$\dfrac{xy - 3y + 2x - 6}{x^2 - 9}$} & 
+\oBaiTapHai[6]{h) (0,5 điểm)}{$\dfrac{xy + 4y + 3x + 12}{x^2 - 16}$} \\
+\hline
+\oBaiTapHai[6]{i) (0,5 điểm)}{$\dfrac{xy - 5y + 2x - 10}{x^2 - 25}$} & 
+\oBaiTapHai[6]{j) (0,5 điểm)}{$\dfrac{xy + 2y - 3x - 6}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - TRANG 1/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU RÈN LUYỆN TOÁN 8 - TUẦN 12 - BUỔI 01} & \textbf{Mã đề: 103 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+\noindent\textbf{Bài 1 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapMot[5]{a) (0,5 điểm)}{$\dfrac{4x + 12}{x^2 - 9}$} & 
+\oBaiTapMot[5]{b) (0,5 điểm)}{$\dfrac{3x + 12}{x^2 - 16}$} \\
+\hline
+\oBaiTapMot[5]{c) (0,5 điểm)}{$\dfrac{x^2 - 9}{(x + 3)^2}$} & 
+\oBaiTapMot[5]{d) (0,5 điểm)}{$\dfrac{x^2 - 49}{(x + 7)^2}$} \\
+\hline
+\oBaiTapMot[5]{e) (0,5 điểm)}{$\dfrac{x^2 - 8x + 16}{2x - 8}$} & 
+\oBaiTapMot[5]{f) (0,5 điểm)}{$\dfrac{x^2 - 6x + 9}{4x - 12}$} \\
+\hline
+\oBaiTapMot[5]{g) (0,5 điểm)}{$\dfrac{x^2 - 5x}{x^2 - 25}$} & 
+\oBaiTapMot[5]{h) (0,5 điểm)}{$\dfrac{x^2 + 2x}{x^2 - 4}$} \\
+\hline
+\oBaiTapMot[5]{i) (0,5 điểm)}{$\dfrac{x^2 - 8x + 16}{x^2 - 16}$} & 
+\oBaiTapMot[5]{j) (0,5 điểm)}{$\dfrac{x^2 + 4x + 4}{x^2 - 4}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 103 - TRANG 2/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 12 - BUỔI 01 (RÈN LUYỆN RÚT GỌN PHÂN THỨC)} & \textbf{Mã đề: 103 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.4mm}
+\noindent\textbf{Bài 2 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapHai[6]{a) (0,5 điểm)}{$\dfrac{3x + 6}{x^2 - 4}$} & 
+\oBaiTapHai[6]{b) (0,5 điểm)}{$\dfrac{4x - 16}{x^2 - 16}$} \\
+\hline
+\oBaiTapHai[6]{c) (0,5 điểm)}{$\dfrac{x^2 - 16}{(x - 4)^2}$} & 
+\oBaiTapHai[6]{d) (0,5 điểm)}{$\dfrac{x^2 - 25}{(x - 5)^2}$} \\
+\hline
+\oBaiTapHai[6]{e) (0,5 điểm)}{$\dfrac{x - 6}{36 - x^2}$} & 
+\oBaiTapHai[6]{f) (0,5 điểm)}{$\dfrac{x - 3}{9 - x^2}$} \\
+\hline
+\oBaiTapHai[6]{g) (0,5 điểm)}{$\dfrac{xy - 4y + 2x - 8}{x^2 - 16}$} & 
+\oBaiTapHai[6]{h) (0,5 điểm)}{$\dfrac{xy + 2y + 5x + 10}{x^2 - 4}$} \\
+\hline
+\oBaiTapHai[6]{i) (0,5 điểm)}{$\dfrac{xy - 2y + 4x - 8}{x^2 - 4}$} & 
+\oBaiTapHai[6]{j) (0,5 điểm)}{$\dfrac{xy + 3y - 4x - 12}{x^2 - 9}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - TRANG 1/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{PHIẾU RÈN LUYỆN TOÁN 8 - TUẦN 12 - BUỔI 01} & \textbf{Mã đề: 104 - Trang 1/2} \\
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|p{3.2cm}|X|}
+\hline
+\centering\textbf{ĐIỂM SỐ} & \centering\textbf{LỜI NHẬN XÉT CỦA THẦY CÔ} \tabularnewline
+\hline
+\rule{0pt}{1.8cm} & \tabularnewline
+\hline
+\end{tabularx}
+
+\vspace{2.6mm}
+\noindent\textbf{Bài 1 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapMot[5]{a) (0,5 điểm)}{$\dfrac{5x + 15}{x^2 - 9}$} & 
+\oBaiTapMot[5]{b) (0,5 điểm)}{$\dfrac{2x + 8}{x^2 - 16}$} \\
+\hline
+\oBaiTapMot[5]{c) (0,5 điểm)}{$\dfrac{x^2 - 36}{(x + 6)^2}$} & 
+\oBaiTapMot[5]{d) (0,5 điểm)}{$\dfrac{x^2 - 4}{(x + 2)^2}$} \\
+\hline
+\oBaiTapMot[5]{e) (0,5 điểm)}{$\dfrac{x^2 - 10x + 25}{3x - 15}$} & 
+\oBaiTapMot[5]{f) (0,5 điểm)}{$\dfrac{x^2 - 4x + 4}{5x - 10}$} \\
+\hline
+\oBaiTapMot[5]{g) (0,5 điểm)}{$\dfrac{x^2 - 2x}{x^2 - 4}$} & 
+\oBaiTapMot[5]{h) (0,5 điểm)}{$\dfrac{x^2 + 5x}{x^2 - 25}$} \\
+\hline
+\oBaiTapMot[5]{i) (0,5 điểm)}{$\dfrac{x^2 - 10x + 25}{x^2 - 25}$} & 
+\oBaiTapMot[5]{j) (0,5 điểm)}{$\dfrac{x^2 + 10x + 25}{x^2 - 25}$} \\
+\hline
+\end{tabularx}
+
+\newpage
+% =============================================================================
+% ========================= MA DE 104 - TRANG 2/2 =============================
+% =============================================================================
+\noindent
+\begin{tabularx}{\linewidth}{|X|c|}
+\hline
+\textbf{TOÁN 8 - TUẦN 12 - BUỔI 01 (RÈN LUYỆN RÚT GỌN PHÂN THỨC)} & \textbf{Mã đề: 104 - Trang 2/2} \\
+\hline
+\end{tabularx}
+
+\vspace{1.4mm}
+\noindent\textbf{Bài 2 (5,0 điểm). Rút gọn các phân thức đại số sau:}
+\vspace{0.8mm}
+
+\noindent
+\begin{tabularx}{\linewidth}{|X|X|}
+\hline
+\oBaiTapHai[6]{a) (0,5 điểm)}{$\dfrac{6x + 12}{x^2 - 4}$} & 
+\oBaiTapHai[6]{b) (0,5 điểm)}{$\dfrac{5x - 20}{x^2 - 16}$} \\
+\hline
+\oBaiTapHai[6]{c) (0,5 điểm)}{$\dfrac{x^2 - 9}{(x - 3)^2}$} & 
+\oBaiTapHai[6]{d) (0,5 điểm)}{$\dfrac{x^2 - 36}{(x - 6)^2}$} \\
+\hline
+\oBaiTapHai[6]{e) (0,5 điểm)}{$\dfrac{x - 7}{49 - x^2}$} & 
+\oBaiTapHai[6]{f) (0,5 điểm)}{$\dfrac{x - 4}{16 - x^2}$} \\
+\hline
+\oBaiTapHai[6]{g) (0,5 điểm)}{$\dfrac{xy - 5y + 3x - 15}{x^2 - 25}$} & 
+\oBaiTapHai[6]{h) (0,5 điểm)}{$\dfrac{xy + 5y + 3x + 15}{x^2 - 25}$} \\
+\hline
+\oBaiTapHai[6]{i) (0,5 điểm)}{$\dfrac{xy - 3y + 4x - 12}{x^2 - 9}$} & 
+\oBaiTapHai[6]{j) (0,5 điểm)}{$\dfrac{xy + 4y - 2x - 8}{x^2 - 16}$} \\
+\hline
+\end{tabularx}
+\end{document}

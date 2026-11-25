@@ -43,8 +43,8 @@
 | Câu | Dạng bài | Nội dung kiến thức kiểm tra chuẩn Tuần 12 - Buổi 1 | Điểm | Định dạng trình bày & Dòng kẻ |
 | :---: | :---: | :--- | :---: | :--- |
 | **Câu 1 $\to$ 10** | **Trả lời ngắn** | **Bao quát toàn diện Thalès, Pythagore & Phân thức đại số:**<br>1. Tính độ dài cạnh theo Định lí Pythagore trong tam giác vuông<br>2. Tính đoạn thẳng song song theo Hệ quả Định lí Thalès: $\dfrac{MN}{BC} = \dfrac{AM}{AB}$<br>3. Tính độ dài đoạn thẳng theo Định lí Thalès ($DE \parallel BC$)<br>4. Tìm điều kiện xác định của phân thức bậc nhất: $x \ne x_0$<br>5. Tính giá trị của phân thức tại giá trị cụ thể của $x$<br>6. Rút gọn phân thức đơn thức: $\dfrac{a x^m y^n}{b x^p y^q}$<br>7. Tìm $x$ để phân thức nhận giá trị bằng $0$<br>8. Tính chất cơ bản của phân thức: điền đa thức vào chỗ trống<br>9. Bài toán thực tế Thalès: Đo chiều cao cột cờ qua bóng nắng<br>10. Rút gọn nhanh phân thức hằng đẳng thức hiệu hai bình phương | **2,5 đ**<br>*(0,25 đ/câu)* | Dùng lệnh `\shortans`, ô đáp số bo góc mép phải |
-| **Câu 11** | **Tự luận (Đại số)** | **Rút gọn các phân thức đại số sau (6 ý):**<br>- a) Phân tích nhân tử chung bậc nhất: $\dfrac{k(x+a)}{x^2 - a^2}$<br>- b) Hiệu hai bình phương ở tử, bình phương tổng ở mẫu: $\dfrac{x^2 - a^2}{(x + a)^2}$<br>- c) Hằng đẳng thức bình phương một hiệu ở tử: $\dfrac{x^2 - 2ax + a^2}{k(x - a)}$<br>- d) Nhóm hạng tử 4 số hạng ở tử: $\dfrac{xy - ay + bx - ab}{x^2 - a^2}$<br>- e) Tách hạng tử bậc hai (tam thức bậc hai): $\dfrac{x^2 - (a+b)x + ab}{x^2 - b^2}$<br>- f) Hằng đẳng thức tổng/hiệu hai lập phương: $\dfrac{x^3 \pm a^3}{x^2 \mp ax + a^2}$ | **3,0 đ**<br>*(0,5 đ/ý)* | Bảng $3 \times 2$, mỗi ô `\oBaiTap[5]` (5 dòng kẻ mờ/ô) $\to$ **chạm sát mép đáy Trang 1** |
-| **Câu 12** | **Tự luận (Đại số)** | **Tìm $x$, biết (4 ý):**<br>- a) Phương trình tỉ lệ thức đưa về bậc nhất: $\dfrac{ax + b}{m} = \dfrac{cx + d}{n}$<br>- b) Phương trình tích dạng $(ax + b)(cx + d) = 0$<br>- c) Tìm $x$ để phân thức bằng $0$ (có đối chiếu điều kiện mẫu khác $0$)<br>- d) Phương trình bậc hai giải bằng phân tích thành nhân tử: $x^2 - Sx + P = 0$ | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[5]` |
+| **Câu 11** | **Tự luận (Đại số)** | **Rút gọn các phân thức đại số sau (6 ý):**<br>- a) Phân tích nhân tử chung bậc nhất: $\dfrac{k(x+a)}{x^2 - a^2}$<br>- b) Hiệu hai bình phương ở tử, bình phương tổng ở mẫu: $\dfrac{x^2 - a^2}{(x + a)^2}$<br>- c) Hằng đẳng thức bình phương một hiệu ở tử: $\dfrac{x^2 - 2ax + a^2}{k(x - a)}$<br>- d) Nhóm hạng tử 4 số hạng ở tử: $\dfrac{xy - ay + bx - ab}{x^2 - a^2}$<br>- e) Đặt nhân tử chung đơn thức biến $x$: $\dfrac{x^2 - ax}{x^2 - a^2}$<br>- f) Phối hợp hằng đẳng thức $(A-B)^2$ và $A^2 - B^2$: $\dfrac{x^2 - 2ax + a^2}{x^2 - a^2}$ | **3,0 đ**<br>*(0,5 đ/ý)* | Bảng $3 \times 2$, mỗi ô `\oBaiTap[5]` (5 dòng kẻ mờ/ô) $\to$ **chạm sát mép đáy Trang 1** |
+| **Câu 12** | **Tự luận (Đại số)** | **Tìm $x$, biết (4 ý):**<br>- a) Phương trình tỉ lệ thức đưa về bậc nhất: $\dfrac{ax + b}{m} = \dfrac{cx + d}{n}$<br>- b) Phương trình tích dạng $(ax + b)(cx + d) = 0$<br>- c) Tìm $x$ để phân thức bằng $0$ (có đối chiếu điều kiện mẫu khác $0$)<br>- d) Phương trình hằng đẳng thức bậc hai cơ bản: $x^2 - 2ax + a^2 = 0 \iff (x - a)^2 = 0$ | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[5]` |
 | **Câu 13** | **Tự luận (Hình học)** | **Bài toán hình học phẳng Pythagore & Hệ quả Thalès (2 ý a, b):**<br>Cho $\triangle ABC$ vuông tại $A$ có $AB = 6\text{ cm}, AC = 8\text{ cm}$.<br>- **a) (1,0 đ)** Tính độ dài cạnh huyền $BC$.<br>- **b) (1,0 đ)** Trên cạnh $AB$ lấy điểm $D$ sao cho $AD = 3\text{ cm}$. Kẻ đường thẳng qua $D$ song song với $BC$ cắt cạnh $AC$ tại $E$. Tính độ dài các đoạn thẳng $AE$ và $DE$. | **2,0 đ**<br>*(1,0 đ/ý)* | Minipage đề `0.62\linewidth` + TikZ $\triangle ABC$ `0.36\linewidth`, bài giải 2 cột `\dongkeHaiCot{10}` |
 | **Câu 14** | **Tự luận (Cực trị)** | **Bài toán cực trị phân hóa điểm 10 (GTLN của phân thức):**<br>Tìm giá trị lớn nhất của biểu thức: $A = \dfrac{k}{x^2 - 2ax + b}$ với $x \in \mathbb{R}$. | **0,5 đ** | Khung bảng đóng hộp, bài giải 2 cột `\dongkeHaiCot{6}` $\to$ **chạm sát mép đáy Trang 2** |
 
@@ -80,32 +80,32 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
   - $b) \dfrac{x^2 - 16}{(x + 4)^2} = \dfrac{(x-4)(x+4)}{(x+4)^2} = \dfrac{x-4}{x+4}$
   - $c) \dfrac{x^2 - 6x + 9}{2x - 6} = \dfrac{(x-3)^2}{2(x-3)} = \dfrac{x-3}{2}$
   - $d) \dfrac{xy - 2y + 3x - 6}{x^2 - 4} = \dfrac{y(x-2)+3(x-2)}{(x-2)(x+2)} = \dfrac{(x-2)(y+3)}{(x-2)(x+2)} = \dfrac{y+3}{x+2}$
-  - $e) \dfrac{x^2 - 5x + 6}{x^2 - 9} = \dfrac{(x-2)(x-3)}{(x-3)(x+3)} = \dfrac{x-2}{x+3}$
-  - $f) \dfrac{x^3 - 8}{x^2 + 2x + 4} = \dfrac{(x-2)(x^2+2x+4)}{x^2+2x+4} = x - 2$
+  - $e) \dfrac{x^2 - 3x}{x^2 - 9} = \dfrac{x(x-3)}{(x-3)(x+3)} = \dfrac{x}{x+3}$
+  - $f) \dfrac{x^2 - 4x + 4}{x^2 - 4} = \dfrac{(x-2)^2}{(x-2)(x+2)} = \dfrac{x-2}{x+2}$
 
 * **Mã đề 102:**
   - $a) \dfrac{4x + 12}{x^2 - 9} = \dfrac{4(x+3)}{(x-3)(x+3)} = \dfrac{4}{x-3}$
   - $b) \dfrac{x^2 - 25}{(x + 5)^2} = \dfrac{(x-5)(x+5)}{(x+5)^2} = \dfrac{x-5}{x+5}$
   - $c) \dfrac{x^2 - 8x + 16}{3x - 12} = \dfrac{(x-4)^2}{3(x-4)} = \dfrac{x-4}{3}$
   - $d) \dfrac{xy - 3y + 2x - 6}{x^2 - 9} = \dfrac{y(x-3)+2(x-3)}{(x-3)(x+3)} = \dfrac{(x-3)(y+2)}{(x-3)(x+3)} = \dfrac{y+2}{x+3}$
-  - $e) \dfrac{x^2 - 6x + 8}{x^2 - 16} = \dfrac{(x-2)(x-4)}{(x-4)(x+4)} = \dfrac{x-2}{x+4}$
-  - $f) \dfrac{x^3 - 27}{x^2 + 3x + 9} = \dfrac{(x-3)(x^2+3x+9)}{x^2+3x+9} = x - 3$
+  - $e) \dfrac{x^2 - 4x}{x^2 - 16} = \dfrac{x(x-4)}{(x-4)(x+4)} = \dfrac{x}{x+4}$
+  - $f) \dfrac{x^2 - 6x + 9}{x^2 - 9} = \dfrac{(x-3)^2}{(x-3)(x+3)} = \dfrac{x-3}{x+3}$
 
 * **Mã đề 103:**
   - $a) \dfrac{5x + 10}{x^2 - 4} = \dfrac{5(x+2)}{(x-2)(x+2)} = \dfrac{5}{x-2}$
   - $b) \dfrac{x^2 - 36}{(x + 6)^2} = \dfrac{(x-6)(x+6)}{(x+6)^2} = \dfrac{x-6}{x+6}$
   - $c) \dfrac{x^2 - 4x + 4}{3x - 6} = \dfrac{(x-2)^2}{3(x-2)} = \dfrac{x-2}{3}$
   - $d) \dfrac{xy - 4y + 3x - 12}{x^2 - 16} = \dfrac{y(x-4)+3(x-4)}{(x-4)(x+4)} = \dfrac{(x-4)(y+3)}{(x-4)(x+4)} = \dfrac{y+3}{x+4}$
-  - $e) \dfrac{x^2 - 7x + 10}{x^2 - 25} = \dfrac{(x-2)(x-5)}{(x-5)(x+5)} = \dfrac{x-2}{x+5}$
-  - $f) \dfrac{x^3 + 8}{x^2 - 2x + 4} = \dfrac{(x+2)(x^2-2x+4)}{x^2-2x+4} = x + 2$
+  - $e) \dfrac{x^2 - 5x}{x^2 - 25} = \dfrac{x(x-5)}{(x-5)(x+5)} = \dfrac{x}{x+5}$
+  - $f) \dfrac{x^2 - 8x + 16}{x^2 - 16} = \dfrac{(x-4)^2}{(x-4)(x+4)} = \dfrac{x-4}{x+4}$
 
 * **Mã đề 104:**
   - $a) \dfrac{2x + 8}{x^2 - 16} = \dfrac{2(x+4)}{(x-4)(x+4)} = \dfrac{2}{x-4}$
   - $b) \dfrac{x^2 - 49}{(x + 7)^2} = \dfrac{(x-7)(x+7)}{(x+7)^2} = \dfrac{x-7}{x+7}$
   - $c) \dfrac{x^2 - 10x + 25}{2x - 10} = \dfrac{(x-5)^2}{2(x-5)} = \dfrac{x-5}{2}$
   - $d) \dfrac{xy - 5y + 2x - 10}{x^2 - 25} = \dfrac{y(x-5)+2(x-5)}{(x-5)(x+5)} = \dfrac{(x-5)(y+2)}{(x-5)(x+5)} = \dfrac{y+2}{x+5}$
-  - $e) \dfrac{x^2 - 8x + 12}{x^2 - 36} = \dfrac{(x-2)(x-6)}{(x-6)(x+6)} = \dfrac{x-2}{x+6}$
-  - $f) \dfrac{x^3 + 27}{x^2 - 3x + 9} = \dfrac{(x+3)(x^2-3x+9)}{x^2-3x+9} = x + 3$
+  - $e) \dfrac{x^2 - 6x}{x^2 - 36} = \dfrac{x(x-6)}{(x-6)(x+6)} = \dfrac{x}{x+6}$
+  - $f) \dfrac{x^2 - 10x + 25}{x^2 - 25} = \dfrac{(x-5)^2}{(x-5)(x+5)} = \dfrac{x-5}{x+5}$
 
 ---
 
@@ -115,25 +115,25 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
   - $a) \dfrac{2x - 1}{3} = \dfrac{x + 2}{2} \iff 2(2x - 1) = 3(x + 2) \iff 4x - 2 = 3x + 6 \iff x = 8$
   - $b) (2x - 6)(x + 5) = 0 \iff 2x - 6 = 0$ hoặc $x + 5 = 0 \iff x = 3$ hoặc $x = -5$
   - $c) \dfrac{x^2 - 9}{x - 3} = 0 \iff$ ĐKXĐ: $x \ne 3$. Phân thức $\iff x + 3 = 0 \iff x = -3$ (thỏa mãn)
-  - $d) x^2 - 4x + 3 = 0 \iff x(x - 1) - 3(x - 1) = 0 \iff (x - 1)(x - 3) = 0 \iff x = 1$ hoặc $x = 3$
+  - $d) x^2 - 6x + 9 = 0 \iff (x - 3)^2 = 0 \iff x = 3$
 
 * **Mã đề 102:**
   - $a) \dfrac{3x - 1}{4} = \dfrac{x + 3}{2} \iff 3x - 1 = 2(x + 3) \iff 3x - 1 = 2x + 6 \iff x = 7$
   - $b) (3x - 9)(x + 4) = 0 \iff 3x - 9 = 0$ hoặc $x + 4 = 0 \iff x = 3$ hoặc $x = -4$
   - $c) \dfrac{x^2 - 16}{x - 4} = 0 \iff$ ĐKXĐ: $x \ne 4$. Phân thức $\iff x + 4 = 0 \iff x = -4$ (thỏa mãn)
-  - $d) x^2 - 5x + 4 = 0 \iff x(x - 1) - 4(x - 1) = 0 \iff (x - 1)(x - 4) = 0 \iff x = 1$ hoặc $x = 4$
+  - $d) x^2 - 8x + 16 = 0 \iff (x - 4)^2 = 0 \iff x = 4$
 
 * **Mã đề 103:**
   - $a) \dfrac{2x + 1}{5} = \dfrac{x - 1}{2} \iff 2(2x + 1) = 5(x - 1) \iff 4x + 2 = 5x - 5 \iff x = 7$
   - $b) (2x - 8)(x + 3) = 0 \iff 2x - 8 = 0$ hoặc $x + 3 = 0 \iff x = 4$ hoặc $x = -3$
   - $c) \dfrac{x^2 - 25}{x - 5} = 0 \iff$ ĐKXĐ: $x \ne 5$. Phân thức $\iff x + 5 = 0 \iff x = -5$ (thỏa mãn)
-  - $d) x^2 - 6x + 5 = 0 \iff x(x - 1) - 5(x - 1) = 0 \iff (x - 1)(x - 5) = 0 \iff x = 1$ hoặc $x = 5$
+  - $d) x^2 - 4x + 4 = 0 \iff (x - 2)^2 = 0 \iff x = 2$
 
 * **Mã đề 104:**
   - $a) \dfrac{3x + 2}{5} = \dfrac{x + 2}{2} \iff 2(3x + 2) = 5(x + 2) \iff 6x + 4 = 5x + 10 \iff x = 6$
   - $b) (3x - 12)(x + 2) = 0 \iff 3x - 12 = 0$ hoặc $x + 2 = 0 \iff x = 4$ hoặc $x = -2$
   - $c) \dfrac{x^2 - 36}{x - 6} = 0 \iff$ ĐKXĐ: $x \ne 6$. Phân thức $\iff x + 6 = 0 \iff x = -6$ (thỏa mãn)
-  - $d) x^2 - 7x + 6 = 0 \iff x(x - 1) - 6(x - 1) = 0 \iff (x - 1)(x - 6) = 0 \iff x = 1$ hoặc $x = 6$
+  - $d) x^2 - 10x + 25 = 0 \iff (x - 5)^2 = 0 \iff x = 5$
 
 ---
 
