@@ -45,10 +45,9 @@
 | **Câu 1 $\to$ 10** | **Trả lời ngắn** | **Bao quát toàn diện Đường trung trực & Đại số 7:**<br>1. Định nghĩa đường trung trực của đoạn thẳng<br>2. Tính chất cách đều hai mút: $M \in d \implies MA = MB$<br>3. Tam giác tạo bởi điểm trên trung trực với hai mút ($MAB$ cân tại $M$)<br>4. Tính chất giao điểm ba đường trung trực cách đều ba đỉnh<br>5. Đường trung trực của cạnh đáy trong tam giác cân đi qua đỉnh đối diện<br>6. Tỉ lệ thức cơ bản tìm $x$: $\dfrac{x}{a} = \dfrac{b}{c}$<br>7. Căn bậc hai số học: $\sqrt{\dfrac{a^2}{b^2}}$<br>8. Giá trị tuyệt đối của số thực: $\|-a\| - \|b\|$<br>9. Lũy thừa số hữu tỉ: $\left(-\dfrac{a}{b}\right)^n$<br>10. Bài toán thực tế ngắn về vị trí cách đều hai điểm | **2,5 đ**<br>*(0,25 đ/câu)* | Dùng lệnh `\shortans`, có ô đáp số bo góc mép phải |
 | **Câu 11** | **Tự luận (Đại số)** | **Thực hiện phép tính (hợp lý nếu có thể) - 6 ý:**<br>- a) Nhóm phân số cùng mẫu và số nguyên: $\dfrac{a}{b} - \left(-\dfrac{c}{d}\right) - \dots$<br>- b) Tính nhanh bằng phân phối phép nhân: $\dfrac{a}{b} \cdot \left(-\dfrac{c}{m}\right) + \dfrac{a}{b} \cdot \left(-\dfrac{d}{m}\right)$<br>- c) Phối hợp căn bậc hai số học và số thập phân<br>- d) Phối hợp lũy thừa cơ số âm và thứ tự phép tính<br>- e) Biểu thức chứa nhiều tầng ngoặc tròn, ngoặc vuông<br>- f) Rút gọn lũy thừa cơ số khác nhau đưa về tích các lũy thừa cơ số nguyên tố $2, 3$ | **3,0 đ**<br>*(0,5 đ/ý)* | Bảng $3 \times 2$, mỗi ô `\oBaiTap[5]` (5 dòng kẻ mờ/ô) $\to$ **chạm sát mép đáy Trang 1** |
 | **Câu 12** | **Tự luận (Đại số)** | **Tìm số hữu tỉ $x$, biết (4 ý):**<br>- a) Tìm $x$ trong tỉ lệ thức cơ bản: $\dfrac{x}{a} = \dfrac{-b}{c}$<br>- b) Phương trình bậc nhất: $\dfrac{a}{b}x - \dfrac{c}{d} = -\dfrac{m}{n}$<br>- c) Phương trình chứa giá trị tuyệt đối: $\left\|x + \dfrac{a}{b}\right\| = \dfrac{c}{d}$<br>- d) Phương trình lũy thừa bậc ba: $\left(x - \dfrac{a}{b}\right)^3 = -\dfrac{c^3}{d^3}$ | **2,0 đ**<br>*(0,5 đ/ý)* | Bảng $2 \times 2$, mỗi ô `\oBaiTap[5]` |
-| **Câu 13** | **Tự luận (Hình học)** | **Bài toán hình học phẳng về Đường trung trực (2 ý a, b):**<br>Cho đoạn thẳng $AB$. Đường trung trực $d$ cắt $AB$ tại $I$. Lấy điểm $M \in d$ ($M \ne I$).<br>- **a) (1,0 đ)** Chứng minh $\triangle MAI = \triangle MBI \implies MA = MB$ và $\triangle MAB$ cân tại $M$.<br>- **b) (1,0 đ)** Lấy $N$ thuộc tia đối của $IM$ ($N \ne I$). Chứng minh $NA = NB$ và $MN$ là tia phân giác của $\widehat{AMB}$. | **2,0 đ**<br>*(1,0 đ/ý)* | Khung bảng đóng hộp, hình vẽ TikZ, bài giải 2 cột `\dongkeHaiCot{10}` |
-| **Câu 14** | **Tự luận (Cực trị)** | **Bài toán cực trị phân hóa điểm 10 (Bất đẳng thức $\mathbf{\|A\| + \|B\| \ge \|A + B\|}$):**<br>Tìm giá trị nhỏ nhất của biểu thức: $P = \|x - a\| + \|x - b\|$ (với $a < b$). | **0,5 đ** | Khung bảng đóng hộp, bài giải 2 cột `\dongkeHaiCot{6}` $\to$ **chạm sát mép đáy Trang 2** |
+| **Câu 13** | **Tự luận (Hình học)** | **Tam giác cân & Tính chất tia phân giác (2 ý a, b):**<br>Cho tam giác $ABC$ cân tại $A$ ($\widehat{A} < 90^\circ$), có $AD$ là tia phân giác của $\widehat{BAC}$ ($D \in BC$). Từ $D$ kẻ $DE \perp AB$ ($E \in AB$) và $DF \perp AC$ ($F \in AC$).<br>- **a) (1,25 đ)** Chứng minh $DB = DC$.<br>- **b) (1,25 đ)** Chứng minh $DE = DF$. | **2,5 đ**<br>*(1,25 đ/ý)* | Khung bảng đóng hộp full width, không hình vẽ, bài giải 2 cột `\dongkeHaiCot{21}` $\to$ **chạm sát mép đáy Trang 2** |
 
-$$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}0\text{ ĐIỂM}$$
+$$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}5 = 10{,}0\text{ ĐIỂM}$$
 
 ---
 
@@ -137,43 +136,27 @@ $$\implies \text{TỔNG ĐIỂM: } 2{,}5 + 3{,}0 + 2{,}0 + 2{,}0 + 0{,}5 = 10{,}
 
 ---
 
-#### CÂU 13 (2,0 ĐIỂM): HÌNH HỌC PHẲNG VỀ ĐƯỜNG TRUNG TRỰC
+#### CÂU 13 (2,5 ĐIỂM): TAM GIÁC CÂN VÀ TÍNH CHẤT TIA PHÂN GIÁC
 
-* **Mã đề 101:** Cho đoạn thẳng $AB$. Đường trung trực $d$ của đoạn thẳng $AB$ cắt $AB$ tại $I$. Lấy điểm $M \in d$ ($M \ne I$).
-  - *Hình vẽ đúng (đoạn thẳng $AB$, trung điểm $I$, đường trung trực $d$, các điểm $M, N$):* **$0{,}25$ đ**
-  - **a) (1,0 đ):**
-    + Do $d$ là đường trung trực của $AB$ nên $d \perp AB$ tại $I$ và $IA = IB$.  
-      $\implies \widehat{MIA} = \widehat{MIB} = 90^\circ$. *(Chỉ ra điều kiện: $0{,}25$đ)*
-    + Xét hai tam giác vuông $\triangle MAI$ và $\triangle MBI$ (vuông tại $I$) có:  
-      $IA = IB$; $MI$ là cạnh chung.  
-      $\implies \triangle MAI = \triangle MBI$ (hai cạnh góc vuông c.g.v - c.g.v). *($0{,}25$đ)*
-    + $\implies MA = MB$ (hai cạnh tương ứng). *($0{,}25$đ)*
-    + Tam giác $MAB$ có $MA = MB \implies \triangle MAB$ cân tại $M$.
-  - **b) (1,0 đ):** Lấy điểm $N$ thuộc tia đối của tia $IM$ ($N \ne I$).
-    + Do $N \in d$ (đường thẳng $d$ chứa tia đối của $IM$) và $d$ là đường trung trực của $AB$, nên theo tính chất đường trung trực ta có $NA = NB$ (hoặc chứng minh $\triangle NAI = \triangle NBI$). *($0{,}25$đ)*
-    + Xét $\triangle MAN$ và $\triangle MBN$ có:  
-      $MA = MB$ (chứng minh câu a); $NA = NB$ (chứng minh trên); $MN$ là cạnh chung.  
-      $\implies \triangle MAN = \triangle MBN$ (c-c-c). *($0{,}25$đ)*
-    + $\implies \widehat{AMN} = \widehat{BMN}$ (hai góc tương ứng). *($0{,}25$đ)*
-    + Vậy $MN$ là tia phân giác của góc $\widehat{AMB}$. *($0{,}25$đ)*
+* **Mã đề 101:** Cho tam giác $ABC$ cân tại $A$ ($\widehat{A} < 90^\circ$), có $AD$ là tia phân giác của $\widehat{BAC}$ ($D \in BC$). Từ $D$ kẻ $DE \perp AB$ ($E \in AB$) và $DF \perp AC$ ($F \in AC$).
+  - **a) (1,25 đ):**
+    + Do tam giác $ABC$ cân tại $A$ nên $AB = AC$. *($0{,}25$đ)*
+    + Xét $\triangle ABD$ và $\triangle ACD$ có:
+      - $AB = AC$ (do $\triangle ABC$ cân tại $A$) *($0{,}25$đ)*
+      - $\widehat{BAD} = \widehat{CAD}$ ($AD$ là tia phân giác của $\widehat{BAC}$) *($0{,}25$đ)*
+      - $AD$ là cạnh chung. *($0{,}25$đ)*
+    + $\implies \triangle ABD = \triangle ACD$ (c.g.c).
+    + $\implies DB = DC$ (hai cạnh tương ứng). *($0{,}25$đ)*
+  - **b) (1,25 đ):**
+    + Vì $DE \perp AB$ tại $E$ nên $\triangle ADE$ vuông tại $E$.  
+      Vì $DF \perp AC$ tại $F$ nên $\triangle ADF$ vuông tại $F$. *($0{,}25$đ)*
+    + Xét hai tam giác vuông $\triangle ADE$ và $\triangle ADF$ có:
+      - $AD$ là cạnh huyền chung *($0{,}25$đ)*
+      - $\widehat{EAD} = \widehat{FAD}$ ($AD$ là tia phân giác của $\widehat{BAC}$) *($0{,}25$đ)*
+    + $\implies \triangle ADE = \triangle ADF$ (cạnh huyền - góc nhọn). *($0{,}25$đ)*
+    + $\implies DE = DF$ (hai cạnh tương ứng). *($0{,}25$đ)*
 
-*(Mã đề 102 dùng đoạn thẳng $CD$, trung điểm $H$, điểm $P, Q$; Mã đề 103 dùng đoạn thẳng $MN$, trung điểm $K$, điểm $E, F$; Mã đề 104 dùng đoạn thẳng $EF$, trung điểm $O$, điểm $A, B$ – barem điểm tương ứng 100%)*
-
----
-
-#### CÂU 14 (0,5 ĐIỂM): BÀI TOÁN CỰC TRỊ PHÂN HÓA ĐIỂM 10
-
-* **Mã đề 101:** Tìm giá trị nhỏ nhất của biểu thức $P = |x - 2| + |x - 7|$ và giá trị của $x$ tương ứng (với $x \in \mathbb{R}$).
-  - Ta có: $P = |x - 2| + |x - 7| = |x - 2| + |7 - x|$.
-  - Áp dụng bất đẳng thức $|A| + |B| \ge |A + B|$, ta có:
-    $$P = |x - 2| + |7 - x| \ge |(x - 2) + (7 - x)| = |5| = 5 \quad (0{,}25\text{ đ})$$
-  - Dấu "$=$" xảy ra khi và chỉ khi:
-    $$(x - 2)(7 - x) \ge 0 \iff (x - 2)(x - 7) \le 0 \iff 2 \le x \le 7$$
-  - Vậy **giá trị nhỏ nhất của $P$ là $5$, đạt được khi $2 \le x \le 7$**. *($0{,}25$ đ)*
-
-* **Mã đề 102:** Tìm giá trị nhỏ nhất của $P = |x - 3| + |x - 8|$ và giá trị của $x$ tương ứng. GTLN là $5$ khi $3 \le x \le 8$.
-* **Mã đề 103:** Tìm giá trị nhỏ nhất của $P = |x - 1| + |x - 6|$ và giá trị của $x$ tương ứng. GTLN là $5$ khi $1 \le x \le 6$.
-* **Mã đề 104:** Tìm giá trị nhỏ nhất của $P = |x - 4| + |x - 9|$ và giá trị của $x$ tương ứng. GTLN là $5$ khi $4 \le x \le 9$.
+*(Mã đề 102 dùng $\triangle MNP$ cân tại $M$, phân giác $MD$, $DE \perp MN, DF \perp MP$; Mã đề 103 dùng $\triangle DEF$ cân tại $D$, phân giác $DM$, $MH \perp DE, MK \perp DF$; Mã đề 104 dùng $\triangle HIK$ cân tại $H$, phân giác $HD$, $DE \perp HI, DF \perp HK$ – cấu trúc chứng minh và barem điểm tương ứng 100%)*
 
 ---
 

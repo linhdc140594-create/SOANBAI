@@ -1,0 +1,247 @@
+{
+  "title_p1": "PHIẾU KIỂM TRA ĐỊNH KỲ TOÁN 9 - TUẦN 12 - BUỔI 02",
+  "title_p2": "TOÁN 9 - TUẦN 12 - BUỔI 02",
+  "base_filename": "Phieu_Kiem_Tra_Tuan_12_Buoi_02",
+  "codes": {
+    "101": {
+      "short": [
+        [
+          "Cho $(O; 6\\text{ cm})$, cung tròn có số đo $60^\\circ$. Độ dài cung là:",
+          "2\\pi\\text{ cm}"
+        ],
+        [
+          "$\\triangle ABC$ vuông tại $A$, $AB = 6\\text{ cm}, AC = 8\\text{ cm}$. Bán kính ngoại tiếp là:",
+          "5\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 5\\text{ cm})$, dây $AB = 8\\text{ cm}$. Khoảng cách từ $O$ đến $AB$ là:",
+          "3\\text{ cm}"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{(3 - \\sqrt{10})^2} = $",
+          "\\sqrt{10} - 3"
+        ],
+        [
+          "Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 2}}$ là:",
+          "x > 2"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{75} - \\sqrt{27} + \\sqrt{12} = $",
+          "4\\sqrt{3}"
+        ],
+        [
+          "Hệ phương trình $\\begin{cases} x + 2y = 8 \\\\ x - y = 2 \\end{cases}$ có nghiệm $(x; y)$ là:",
+          "(4; 2)"
+        ],
+        [
+          "Tam giác vuông có hai cạnh góc vuông $6\\text{ cm}, 8\\text{ cm}$. Đường cao là:",
+          "4{,}8\\text{ cm}"
+        ],
+        [
+          "Từ $A$ kẻ tiếp tuyến $AB$ với $(O; 5\\text{ cm})$, biết $OA = 13\\text{ cm}$. Độ dài $AB = $",
+          "12\\text{ cm}"
+        ],
+        [
+          "Bánh xe có bán kính $30\\text{ cm}$, khi lăn $10$ vòng đi được:",
+          "6\\pi\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 2x - 3y = 1 \\\\ 3x + 2y = 8 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức $P = \\left(\\dfrac{\\sqrt{x}}{\\sqrt{x} + 1} + \\dfrac{2\\sqrt{x}}{x - 1}\\right) : \\dfrac{\\sqrt{x} + 1}{x - 1}$ với $x \\ge 0, x \\ne 1$.\\par Rút gọn biểu thức $P$."
+        ]
+      ],
+      "c12": "Theo kế hoạch, hai tổ công nhân phải may tổng cộng $800$ bộ quần áo. Thực tế, nhờ cải tiến kỹ thuật nên tổ I đã may vượt mức $15\\%$, tổ II đã may vượt mức $20\\%$ so với kế hoạch, do đó cả hai tổ đã may được tất cả $945$ bộ quần áo. Hỏi theo kế hoạch, mỗi tổ phải may bao nhiêu bộ quần áo?",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $OA \\perp BC$ tại $H$. Kẻ đường kính $BD$ của đường tròn $(O)$, chứng minh $CD \\parallel OA$."
+      }
+    },
+    "102": {
+      "short": [
+        [
+          "Cho $(O; 9\\text{ cm})$, cung tròn có số đo $40^\\circ$. Độ dài cung là:",
+          "2\\pi\\text{ cm}"
+        ],
+        [
+          "$\\triangle ABC$ vuông tại $A$, $AB = 9\\text{ cm}, AC = 12\\text{ cm}$. Bán kính ngoại tiếp là:",
+          "7{,}5\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 10\\text{ cm})$, dây $AB = 16\\text{ cm}$. Khoảng cách từ $O$ đến $AB$ là:",
+          "6\\text{ cm}"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{(4 - \\sqrt{15})^2} = $",
+          "4 - \\sqrt{15}"
+        ],
+        [
+          "Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 7}}$ là:",
+          "x > 7"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{50} - \\sqrt{18} + \\sqrt{8} = $",
+          "4\\sqrt{2}"
+        ],
+        [
+          "Hệ phương trình $\\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases}$ có nghiệm $(x; y)$ là:",
+          "(3; 1)"
+        ],
+        [
+          "Tam giác vuông có hai cạnh góc vuông $9\\text{ cm}, 12\\text{ cm}$. Đường cao là:",
+          "7{,}2\\text{ cm}"
+        ],
+        [
+          "Từ $A$ kẻ tiếp tuyến $AB$ với $(O; 6\\text{ cm})$, biết $OA = 10\\text{ cm}$. Độ dài $AB = $",
+          "8\\text{ cm}"
+        ],
+        [
+          "Bánh xe có bán kính $35\\text{ cm}$, khi lăn $10$ vòng đi được:",
+          "7\\pi\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 3x + 2y = 7 \\\\ 2x - 3y = -4 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức $P = \\left(\\dfrac{\\sqrt{x}}{\\sqrt{x} + 2} + \\dfrac{4\\sqrt{x}}{x - 4}\\right) : \\dfrac{\\sqrt{x} + 2}{x - 4}$ với $x \\ge 0, x \\ne 4$.\\par Rút gọn biểu thức $P$."
+        ]
+      ],
+      "c12": "Theo kế hoạch, hai tổ công nhân phải sản xuất tổng cộng $700$ chi tiết máy. Thực tế, tổ I làm vượt mức $15\\%$, tổ II làm vượt mức $20\\%$ so với kế hoạch, do đó cả hai tổ đã sản xuất được $820$ chi tiết máy. Hỏi theo kế hoạch, mỗi tổ phải sản xuất bao nhiêu chi tiết máy?",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $OA \\perp BC$ tại $H$. Kẻ đường kính $BD$ của đường tròn $(O)$, chứng minh $CD \\parallel OA$."
+      }
+    },
+    "103": {
+      "short": [
+        [
+          "Cho $(O; 4\\text{ cm})$, cung tròn có số đo $90^\\circ$. Độ dài cung là:",
+          "2\\pi\\text{ cm}"
+        ],
+        [
+          "$\\triangle ABC$ vuông tại $A$, $AB = 5\\text{ cm}, AC = 12\\text{ cm}$. Bán kính ngoại tiếp là:",
+          "6{,}5\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 13\\text{ cm})$, dây $AB = 24\\text{ cm}$. Khoảng cách từ $O$ đến $AB$ là:",
+          "5\\text{ cm}"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{(5 - \\sqrt{27})^2} = $",
+          "3\\sqrt{3} - 5"
+        ],
+        [
+          "Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 5}}$ là:",
+          "x > 5"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{48} - \\sqrt{12} + \\sqrt{27} = $",
+          "5\\sqrt{3}"
+        ],
+        [
+          "Hệ phương trình $\\begin{cases} 3x - y = 7 \\\\ x + y = 5 \\end{cases}$ có nghiệm $(x; y)$ là:",
+          "(3; 2)"
+        ],
+        [
+          "Tam giác vuông có hai cạnh góc vuông $3\\text{ cm}, 4\\text{ cm}$. Đường cao là:",
+          "2{,}4\\text{ cm}"
+        ],
+        [
+          "Từ $A$ kẻ tiếp tuyến $AB$ với $(O; 8\\text{ cm})$, biết $OA = 17\\text{ cm}$. Độ dài $AB = $",
+          "15\\text{ cm}"
+        ],
+        [
+          "Bánh xe có bán kính $25\\text{ cm}$, khi lăn $10$ vòng đi được:",
+          "5\\pi\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 3x - 2y = 4 \\\\ 2x + 3y = 7 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức $P = \\left(\\dfrac{\\sqrt{x}}{\\sqrt{x} + 3} + \\dfrac{6\\sqrt{x}}{x - 9}\\right) : \\dfrac{\\sqrt{x} + 3}{x - 9}$ với $x \\ge 0, x \\ne 9$.\\par Rút gọn biểu thức $P$."
+        ]
+      ],
+      "c12": "Theo kế hoạch, hai tổ công nhân phải dệt tổng cộng $600$ chiếc áo len. Khi thực hiện, tổ I đã dệt vượt mức $10\\%$, tổ II đã dệt vượt mức $15\\%$ so với kế hoạch, do đó cả hai tổ đã dệt được tất cả $670$ chiếc áo len. Hỏi theo kế hoạch, mỗi tổ phải dệt bao nhiêu chiếc áo len?",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $OA \\perp BC$ tại $H$. Kẻ đường kính $BD$ của đường tròn $(O)$, chứng minh $CD \\parallel OA$."
+      }
+    },
+    "104": {
+      "short": [
+        [
+          "Cho $(O; 10\\text{ cm})$, cung tròn có số đo $36^\\circ$. Độ dài cung là:",
+          "2\\pi\\text{ cm}"
+        ],
+        [
+          "$\\triangle ABC$ vuông tại $A$, $AB = 8\\text{ cm}, AC = 15\\text{ cm}$. Bán kính ngoại tiếp là:",
+          "8{,}5\\text{ cm}"
+        ],
+        [
+          "Cho $(O; 15\\text{ cm})$, dây $AB = 24\\text{ cm}$. Khoảng cách từ $O$ đến $AB$ là:",
+          "9\\text{ cm}"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{(2 - \\sqrt{5})^2} = $",
+          "\\sqrt{5} - 2"
+        ],
+        [
+          "Điều kiện xác định của biểu thức $\\dfrac{1}{\\sqrt{x - 8}}$ là:",
+          "x > 8"
+        ],
+        [
+          "Tính giá trị của biểu thức $\\sqrt{32} - \\sqrt{8} + \\sqrt{18} = $",
+          "5\\sqrt{2}"
+        ],
+        [
+          "Hệ phương trình $\\begin{cases} x + y = 6 \\\\ 2x - y = 3 \\end{cases}$ có nghiệm $(x; y)$ là:",
+          "(3; 3)"
+        ],
+        [
+          "Tam giác vuông có hai cạnh góc vuông $12\\text{ cm}, 16\\text{ cm}$. Đường cao là:",
+          "9{,}6\\text{ cm}"
+        ],
+        [
+          "Từ $A$ kẻ tiếp tuyến $AB$ với $(O; 9\\text{ cm})$, biết $OA = 15\\text{ cm}$. Độ dài $AB = $",
+          "12\\text{ cm}"
+        ],
+        [
+          "Bánh xe có bán kính $40\\text{ cm}$, khi lăn $10$ vòng đi được:",
+          "8\\pi\\text{ m}"
+        ]
+      ],
+      "c11": [
+        [
+          "a) (1,25 điểm)",
+          "Giải hệ phương trình:\\par $\\begin{cases} 2x + 3y = 8 \\\\ 3x - 2y = -1 \\end{cases}$"
+        ],
+        [
+          "b) (1,25 điểm)",
+          "Cho biểu thức $P = \\left(\\dfrac{\\sqrt{x}}{\\sqrt{x} + 4} + \\dfrac{8\\sqrt{x}}{x - 16}\\right) : \\dfrac{\\sqrt{x} + 4}{x - 16}$ với $x \\ge 0, x \\ne 16$.\\par Rút gọn biểu thức $P$."
+        ]
+      ],
+      "c12": "Theo kế hoạch, hai đội công nhân phải trồng tổng cộng $500$ cây xanh. Trong đợt thi đua, đội I đã trồng vượt mức $15\\%$, đội II đã trồng vượt mức $10\\%$ so với kế hoạch, do đó cả hai đội đã trồng được tất cả $565$ cây xanh. Hỏi theo kế hoạch, mỗi đội phải trồng bao nhiêu cây xanh?",
+      "c13": {
+        "gt": "Cho đường tròn $(O; R)$ và điểm $A$ nằm bên ngoài đường tròn. Từ $A$ kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O)$ ($B, C$ là các tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.",
+        "a": "\\textbf{a) (1,25 điểm)} Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn.",
+        "b": "\\textbf{b) (1,25 điểm)} Chứng minh $OA \\perp BC$ tại $H$. Kẻ đường kính $BD$ của đường tròn $(O)$, chứng minh $CD \\parallel OA$."
+      }
+    }
+  }
+}

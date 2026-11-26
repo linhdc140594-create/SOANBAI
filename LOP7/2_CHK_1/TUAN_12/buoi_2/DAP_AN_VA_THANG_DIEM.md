@@ -94,41 +94,24 @@
 
 ---
 
-### CÂU 13 (2,0 ĐIỂM): HÌNH HỌC PHẲNG VỀ ĐƯỜNG TRUNG TRỰC
+### CÂU 13 (2,5 ĐIỂM): TAM GIÁC CÂN VÀ TÍNH CHẤT TIA PHÂN GIÁC
 
 * **Mã đề 101:**
-  - *Hình vẽ đúng:* $0{,}25$ đ
-  - **a) (1,0 đ):**
-    + Vì $d$ là đường trung trực của $AB$ cắt $AB$ tại $I$ nên $d \perp AB$ tại $I$ và $IA = IB$.  
-      $\implies \widehat{MIA} = \widehat{MIB} = 90^\circ$. *(Chỉ ra điều kiện: $0{,}25$đ)*
-    + Xét hai tam giác vuông $\triangle MAI$ và $\triangle MBI$ có:  
-      $MI$ là cạnh chung; $IA = IB$ ($I$ là trung điểm $AB$).  
-      $\implies \triangle MAI = \triangle MBI$ (hai cạnh góc vuông c.g.v - c.g.v). *($0{,}25$đ)*
-    + $\implies MA = MB$ (hai cạnh tương ứng). *($0{,}25$đ)*
-    + Tam giác $MAB$ có $MA = MB \implies \triangle MAB$ cân tại $M$.
-  - **b) (1,0 đ):**
-    + Vì điểm $N$ thuộc tia đối của tia $IM$ nên $N \in d$ (đường trung trực của $AB$).  
-      Theo tính chất đường trung trực (hoặc xét $\triangle NAI = \triangle NBI$), ta có $NA = NB$. *($0{,}25$đ)*
-    + Xét $\triangle MAN$ và $\triangle MBN$ có:  
-      $MA = MB$ (chứng minh câu a); $NA = NB$ (chứng minh trên); $MN$ là cạnh chung.  
-      $\implies \triangle MAN = \triangle MBN$ (c-c-c). *($0{,}25$đ)*
-    + $\implies \widehat{AMN} = \widehat{BMN}$ (hai góc tương ứng). *($0{,}25$đ)*
-    + Vậy $MN$ là tia phân giác của góc $\widehat{AMB}$. *($0{,}25$đ)*
+  - **a) (1,25 đ):**
+    + Do tam giác $ABC$ cân tại $A$ nên $AB = AC$. *($0{,}25$đ)*
+    + Xét $\triangle ABD$ và $\triangle ACD$ có:
+      - $AB = AC$ (do $\triangle ABC$ cân tại $A$) *($0{,}25$đ)*
+      - $\widehat{BAD} = \widehat{CAD}$ ($AD$ là tia phân giác của $\widehat{BAC}$) *($0{,}25$đ)*
+      - $AD$ là cạnh chung. *($0{,}25$đ)*
+    + $\implies \triangle ABD = \triangle ACD$ (c.g.c).
+    + $\implies DB = DC$ (hai cạnh tương ứng). *($0{,}25$đ)*
+  - **b) (1,25 đ):**
+    + Vì $DE \perp AB$ tại $E$ nên $\triangle ADE$ vuông tại $E$.  
+      Vì $DF \perp AC$ tại $F$ nên $\triangle ADF$ vuông tại $F$. *($0{,}25$đ)*
+    + Xét hai tam giác vuông $\triangle ADE$ và $\triangle ADF$ có:
+      - $AD$ là cạnh huyền chung *($0{,}25$đ)*
+      - $\widehat{EAD} = \widehat{FAD}$ ($AD$ là tia phân giác của $\widehat{BAC}$) *($0{,}25$đ)*
+    + $\implies \triangle ADE = \triangle ADF$ (cạnh huyền - góc nhọn). *($0{,}25$đ)*
+    + $\implies DE = DF$ (hai cạnh tương ứng). *($0{,}25$đ)*
 
-*(Mã đề 102 dùng đoạn thẳng $CD$, trung điểm $H$, điểm $P, Q$; Mã đề 103 dùng đoạn thẳng $MN$, trung điểm $K$, điểm $E, F$; Mã đề 104 dùng đoạn thẳng $EF$, trung điểm $O$, điểm $A, B$ – barem điểm tương ứng 100%)*
-
----
-
-### CÂU 14 (0,5 ĐIỂM): BÀI TOÁN CỰC TRỊ PHÂN HÓA ĐIỂM 10
-
-* **Mã đề 101:** Tìm giá trị nhỏ nhất của biểu thức $P = |x - 2| + |x - 7|$ và giá trị của $x$ tương ứng (với $x \in \mathbb{R}$).
-  - Ta có $|x - 7| = |7 - x|$. Do đó:
-    $$P = |x - 2| + |7 - x|$$
-    Áp dụng bất đẳng thức $|A| + |B| \ge |A + B|$, ta có:
-    $$P \ge |(x - 2) + (7 - x)| = |5| = 5 \quad (0{,}25\text{ đ})$$
-  - Dấu "$=$" xảy ra khi và chỉ khi $(x - 2)(7 - x) \ge 0 \iff 2 \le x \le 7$.
-  - Vậy **giá trị nhỏ nhất của $P$ là $5$, đạt được khi $2 \le x \le 7$**. *($0{,}25$ đ)*
-
-* **Mã đề 102:** $P = |x - 3| + |8 - x| \ge 5$. Dấu "$=$" xảy ra khi $3 \le x \le 8$. Vậy $\min P = 5$ khi $3 \le x \le 8$.
-* **Mã đề 103:** $P = |x - 1| + |6 - x| \ge 5$. Dấu "$=$" xảy ra khi $1 \le x \le 6$. Vậy $\min P = 5$ khi $1 \le x \le 6$.
-* **Mã đề 104:** $P = |x - 4| + |9 - x| \ge 5$. Dấu "$=$" xảy ra khi $4 \le x \le 9$. Vậy $\min P = 5$ khi $4 \le x \le 9$.
+*(Mã đề 102 dùng $\triangle MNP$ cân tại $M$, phân giác $MD$, $DE \perp MN, DF \perp MP$; Mã đề 103 dùng $\triangle DEF$ cân tại $D$, phân giác $DM$, $MH \perp DE, MK \perp DF$; Mã đề 104 dùng $\triangle HIK$ cân tại $H$, phân giác $HD$, $DE \perp HI, DF \perp HK$ – cấu trúc chứng minh và barem điểm tương ứng 100%)*
