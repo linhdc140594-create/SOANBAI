@@ -1,0 +1,124 @@
+\documentclass[border=0pt]{standalone}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes.geometric,shadows}
+\usepackage{xcolor}
+
+\definecolor{primary}{RGB}{15, 40, 85}       % Xanh navy trang nhã
+\definecolor{secondary}{RGB}{195, 135, 30}   % Vàng kim hổ phách
+\definecolor{goldlight}{RGB}{252, 247, 235}  % Nền kem vàng ấm
+\definecolor{accentred}{RGB}{195, 40, 30}    % Đỏ thiện nguyện
+\definecolor{cardbg}{RGB}{255, 255, 255}     % Trắng thẻ thông tin
+\definecolor{textdark}{RGB}{30, 40, 55}      % Chữ đậm
+\definecolor{zaloblue}{RGB}{0, 104, 255}     % Xanh Zalo
+
+\begin{document}
+\begin{tikzpicture}[x=1cm, y=1cm]
+
+  % 1. NỀN POSTER
+  \clip (0, 0) rectangle (14, 20);
+  \fill[goldlight] (0, 0) rectangle (14, 20);
+
+  % Họa tiết nền trang trí
+  \fill[secondary!12] (0, 20) circle (4.8cm);
+  \fill[primary!8] (14, 0) circle (5.2cm);
+
+  % Dải viền đỉnh
+  \fill[primary] (0, 18.7) rectangle (14, 20);
+  \fill[secondary] (0, 18.5) rectangle (14, 18.7);
+
+  % 2. BANNER ĐỈNH
+  \node[white, font=\large\bfseries] at (7, 19.35) {KHÓA HỌC THIỆN NGUYỆN -- ĐỒNG HÀNH CÙNG HỌC SINH};
+
+  % 3. TIÊU ĐỀ CHÍNH
+  \node[primary, font=\fontsize{21pt}{25pt}\selectfont\bfseries, align=center] at (7, 17.55) {
+    LỚP THI THỬ \& ÔN THI MÔN TOÁN
+  };
+  \node[accentred, font=\fontsize{12pt}{15pt}\selectfont\bfseries, align=center] at (7, 16.7) {
+    HƯỚNG TỚI KỲ THI THỬ CỦA SỞ GD\&ĐT (24/12/2026)
+  };
+
+  % 4. BADGE MIỄN PHÍ HOÀN TOÀN
+  \node[draw=secondary, line width=1.5pt, fill=secondary!18, rounded corners=6pt, inner sep=5pt] at (7, 15.75) {
+    \bfseries\color{accentred}\large \hspace{6pt} \checkmark\ HOÀN TOÀN MIỄN PHÍ -- 100\% HỌC PHÍ 0 ĐỒNG \hspace{6pt}
+  };
+
+  % 5. CÁC THẺ THÔNG TIN (CARDS)
+  % Card 1: Thời gian & Lịch học
+  \draw[fill=cardbg, draw=secondary!50, line width=1pt, rounded corners=7pt] (0.8, 13.7) rectangle (13.2, 14.95);
+  \node[anchor=west, textdark] at (1.2, 14.32) {
+    \begin{tabular}{ll}
+      \bfseries\color{primary}\large Lịch học: & \large\bfseries Sáng Chủ Nhật hàng tuần \\
+      \bfseries\color{primary}\large Thời gian: & \large\bfseries 8h15 -- 11h00 (Bắt đầu từ tuần này)
+    \end{tabular}
+  };
+
+  % Card 2: Địa điểm & Môn thi
+  \draw[fill=cardbg, draw=secondary!50, line width=1pt, rounded corners=7pt] (0.8, 12.25) rectangle (13.2, 13.5);
+  \node[anchor=west, textdark] at (1.2, 12.87) {
+    \begin{tabular}{ll}
+      \bfseries\color{primary}\large Địa điểm: & \large\bfseries Chùa Hương Sơn \textit{(Không gian thanh tịnh, yên tĩnh, tập trung cao)} \\
+      \bfseries\color{primary}\large Môn thi: & \large\bfseries Môn Toán \textit{(Đề thi bám sát cấu trúc đề của Sở GD\&ĐT)}
+    \end{tabular}
+  };
+
+  % Card 3: Mục tiêu & Quyền lợi học sinh
+  \draw[fill=cardbg, draw=secondary!50, line width=1pt, rounded corners=7pt] (0.8, 9.75) rectangle (13.2, 12.05);
+  \node[anchor=north west, textdark] at (1.1, 11.9) {
+    \begin{minipage}{11.8cm}
+      {\color{primary}\bfseries\large QUYỀN LỢI CỦA CÁC EM KHI THAM GIA:}
+      \vspace{1.5mm}
+      \begin{itemize}\setlength{\itemsep}{0.8mm}\setlength{\parskip}{0pt}
+        \item \textbf{Cọ xát áp lực phòng thi thật:} Rèn kỹ năng làm bài, căn chuẩn thời gian.
+        \item \textbf{Đề thi chuẩn cấu trúc Sở:} Bám sát ma trận đề thi phân hóa năng lực.
+        \item \textbf{Chữa bài chi tiết từng câu:} Phân tích lỗi sai hay mắc, bù đắp lỗ hổng kiến thức.
+        \item \textbf{Được kèm cặp tận tình:} Hướng dẫn phương pháp trình bày để đạt điểm tối đa.
+      \end{itemize}
+    \end{minipage}
+  };
+
+  % 6. KHUNG CẢNH BÁO GIỚI HẠN SỐ LƯỢNG
+  \draw[fill=accentred!10, draw=accentred, line width=1.2pt, rounded corners=7pt] (0.8, 8.05) rectangle (13.2, 9.55);
+  \node[align=center, textdark] at (7, 8.8) {
+    {\bfseries\color{accentred}\large \textbullet\ SỐ LƯỢNG HỌC SINH ĐĂNG KÝ CÓ HẠN \textbullet}\\[1.5mm]
+    \large Do không gian phòng học tại Chùa Hương Sơn có hạn để bảo đảm chất lượng kèm cặp,\\
+    \bfseries Thầy sẽ chốt danh sách ngay khi nhận đủ số lượng học sinh đăng ký!
+  };
+
+  % 7. KHUNG QR CODE & ĐĂNG KÝ VÀO NHÓM ZALO
+  \draw[fill=white, draw=primary!70, line width=1.2pt, rounded corners=8pt] (0.8, 4.45) rectangle (13.2, 7.85);
+
+  % Ảnh QR Code bên trái
+  \node[inner sep=2pt, draw=secondary!60, line width=1pt, rounded corners=4pt, fill=white] at (2.8, 6.15) {
+    \includegraphics[width=2.8cm, height=2.8cm]{qr_zalo_group.png}
+  };
+  \node[textdark, font=\bfseries\footnotesize] at (2.8, 4.75) {QUÉT MÃ QR ZALO};
+
+  % Thông tin hướng dẫn bên phải
+  \node[anchor=west, textdark] at (4.6, 6.15) {
+    \begin{minipage}{8.0cm}
+      {\color{zaloblue}\bfseries\Large THAM GIA NHÓM ZALO ÔN THI}\\[2mm]
+      \large Quý Phụ huynh \& các em Học sinh dùng ứng dụng \textbf{Zalo quét mã QR bên cạnh} hoặc truy cập đường link:\\[2mm]
+      \textbf{\color{primary}\normalsize https://zalo.me/g/2rh61hlwzqwacwbog8ge}\\[2.5mm]
+      \bfseries\color{accentred}\normalsize \textit{(Vào nhóm sớm để nhận lịch thi thử \& tài liệu ôn tập)}
+    \end{minipage}
+  };
+
+  % 8. DẢI FOOTER CHÂN TRANG
+  \fill[primary] (0, 0) rectangle (14, 4.1);
+  \fill[secondary] (0, 4.1) rectangle (14, 4.25);
+
+  \node[white, align=center] at (7, 2.7) {
+    {\fontsize{13pt}{15pt}\selectfont\bfseries LỚP TOÁN THẦY LĨNH -- GIEO DUYÊN TRI THỨC}\\[1.5mm]
+    {\normalsize \textit{Tâm huyết đồng hành cùng các em vượt qua kỳ thi với kết quả cao nhất!}}\\[2mm]
+    {\bfseries\color{secondary!95}\large Hotline / Zalo: Thầy Lĩnh \hspace{8pt}|\hspace{8pt} Website: loptoanthaylinh.vn}
+  };
+
+  \node[white!75, font=\footnotesize] at (7, 0.9) {
+    Kính nhờ Quý Phụ huynh chia sẻ thông tin lớp học thiện nguyện tới các bạn học sinh có nhu cầu!
+  };
+
+\end{tikzpicture}
+\end{document}

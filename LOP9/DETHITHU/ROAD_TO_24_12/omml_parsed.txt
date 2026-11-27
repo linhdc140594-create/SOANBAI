@@ -1,0 +1,105 @@
+[0] SỞ GIÁO DỤC VÀ ĐÀO TẠO HÀ TĨNH
+[1] ĐỀ THAM KHẢO
+[2] (Đề kiểm tra có 03 trang, gồm 04 phần)
+[3] KIỂM TRA CUỐI HỌC KỲ I
+[4] NĂM HỌC 2026 - 2027
+[5] MÔN: TOÁN – LỚP 9
+[6] Thời gian làm bài: ... phút, không kể thời gian phát đề
+[7] Họ, tên thí sinh: .........................................................................  Số báo danh: ...............................
+[8] I. TRẮC NGHIỆM KHÁCH QUAN (7,0 điểm)
+[9] Phần 1. Trắc nghiệm nhiều lựa chọn (3,0 điểm). Từ câu 1 đến câu 12 thí sinh chọn đáp án đúng nhất trong 4 đáp án A, B, C, D rồi ghi vào bài làm.
+[10] Câu 1. Giá trị của biểu thức ()/()()/()()/()()/()()/()()/()()/()()/()()/()()/()()/()()/() bằng
+[11] A. -16
+[12] B. 16
+[13] C. -2sqrt(2)
+[14] D. 2sqrt(2)
+[15] Câu 2. Cho tam giác  vuông tại , góc nhọn . Khẳng định nào sau đây là đúng?
+[16] A. .
+[17] B. .
+[18] C. .
+[19] D. .
+[20] Câu 3. Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn?
+[21] A. .
+[22] B. .
+[23] C. .
+[24] D. .
+[25] Câu 4. Nếu  thì bất đẳng thức nào sau đây luôn đúng?
+[26] A. .
+[27] B. .
+[28] C. .
+[29] D. .
+[30] Câu 5. Căn bậc hai số học của  là
+[31] A.  và .
+[32] B. .
+[33] C. .
+[34] D. .
+[35] Câu 6. Điều kiện xác định của căn thức  là
+[36] A. .
+[37] B. .
+[38] C. .
+[39] D. .
+[40] Câu 7. Với mọi số thực dương , giá trị của  bằng
+[41] A. .
+[42] B. .
+[43] C. .
+[44] D. .
+[45] Câu 8. Giá trị của  bằng
+[46] A. .
+[47] B. .
+[48] C. .
+[49] D. .
+[50] Câu 9. Trong (O; R) có công thức tính độ dài cung tròn n0 là
+[51] A. .
+[52] B. .
+[53] C. .
+[54] D. .
+[55] Câu 10. Cho đường tròn  và đường thẳng  có khoảng cách từ  đến  bằng  Vị trí tương đối của đường thẳng  và đường tròn  là
+[56] A. Cắt nhau.
+[57] B. Không giao nhau.
+[58] C. Tiếp xúc nhau.
+[59] D. Trùng nhau.
+[60] Câu 11. Cho hai đường tròn  và  có khoảng cách hai tâm . Vị trí tương đối của hai đường tròn  và  là
+[61] A. Tiếp xúc trong.
+[62] B. Tiếp xúc ngoài.
+[63] C. Cắt nhau.
+[64] D. Đựng nhau.
+[65] Câu 12. Trên đường tròn , cho góc ở tâm . Số đo của cung nhỏ  bằng
+[66] A. .
+[67] B. .
+[68] C. .
+[69] D. .
+[70] Phần 2. Trắc nghiệm Đúng – Sai (2,0 điểm). Trong mỗi ý a), b), c), d) ở câu 13, câu 14 học sinh chọn đúng hoặc sai và viết chữ “Đ” hoặc “S” cho mỗi ý vào bài làm.
+[71] Câu 13. Xét bài toán: “Hai tổ sản xuất được giao làm 800 sản phẩm trong 1 thời gian quy định, nhờ tăng năng suất lao động, tổ 1 vượt mức 10%, tổ hai vượt mức 20% nên cả hai tổ đã làm được 910 sản phẩm”. Gọi số sản phẩm tổ 1 và tổ 2 làm theo kế hoạch lần lượt là (sp)
+[72] (). Xét tính đúng sai của các khẳng định sau
+[73] Phát biểu
+[74] Đúng
+[75] Sai
+[76] a) Theo kế hoạch phải sản xuất 800 sp nên ta có phương trình .
+[77] b) Khi tổ 1 vượt mức 10%, tổ hai vượt mức 20% nên cả hai tổ đã làm được 910 sản phẩm nên
+[78] c) Hệ phương trình biểu diễn mối quan hệ giữa  và  là
+[79] d) Vậy theo kế hoạch số sản phẩm tổ 1 làm được là  (sản phẩm) và số sản phẩm tổ 2 làm được là  (sản phẩm)
+[80] Câu 14. Cho đường tròn  và điểm  nằm ngoài đường tròn sao cho . Từ  kẻ hai tiếp tuyến ,  với đường tròn  (,  là các tiếp điểm). Xét tính đúng sai của các khẳng định sau
+[81] Phát biểu
+[82] Đúng
+[83] Sai
+[84] a) Tam giác  vuông tại  và có độ dài cạnh .
+[85] b) .
+[86] c) Diện tích hình tròn bằng .
+[87] d) Chu vi của tam giác  bằng 25,5 cm
+[88] Phần 3. Trắc nghiệm trả lời ngắn (2,0 điểm). Từ câu 15 đến câu 18 thí sinh chỉ ghi kết quả vào bài làm.
+[89] Câu 15. Nghiệm của bất phương trình  là.
+[90] Câu 16. Giá trị của biểu thức là.
+[91] Câu 17. Một tòa tháp có bóng trên mặt đất dài 15 m, biết rằng góc tạo bởi tia nắng mặt trời với mặt đất là 55o (xem hình vẽ). Tính chiều cao của tòa tháp (làm tròn đến chữ số thập phân thứ hai của mét).
+[92] Câu 18. Một bánh Pizza hình tròn có đường kính  được cắt thành  miếng đều nhau có dạng hình quạt tròn. Tính diện tích bề mặt của một miếng bánh Pizza đó (lấy , làm tròn kết quả đến chữ số thập phân thứ nhất, đơn vị: ).
+[93] II. TỰ LUẬN (3,0 điểm). Thí sinh trình bày lời giải chi tiết vào tờ giấy thi.
+[94] Câu 19 (1,0 điểm).
+[95] a) (0,5 điểm) Giải hệ phương trình: .
+[96] b) (0,5 điểm) Cho  và . Rút gọn biểu thức
+[97] Câu 20 (1,5 điểm). Cho đường tròn tâm O, đường kính AB. Trên tiếp tuyến của đường tròn (O) tại A lấy điểm M (M khác A). Từ M vẽ tiếp tuyến thứ hai MC với (O) (C là tiếp điểm).
+[98] a) Chứng minh rằng: Bốn điểm A, M, C, O cùng nằm trên một đường tròn.
+[99] b) Kẻ CH vuông góc với AB (), MB cắt (O) tại điểm thứ hai là K và cắt CH tại N. Gọi I là giao điểm của MO và AC. Chứng minh: MA2 = MK.MB và NI//AB.
+[100] Câu 21 (0,5 điểm).
+[101] a) (0,25 điểm) Một trang trại chăn nuôi dự định xây dựng một hầm chứa với thể tích  để chứa chất thải chăn nuôi và tạo khí sinh học. Dự kiến hầm chứa có dạng hình hộp chữ nhật có chiều sâu bằng chiều rộng. Hãy xác định các kích thước đáy (dài, rộng) của hầm chứa để thi công tiết kiệm nguyên liệu nhất (không tính đến bề dày của thành hầm).
+[102] b) (0,25 điểm) Cho a, b, c là các số thực dương thỏa mãn: . Tìm giá trị nhỏ nhất của biểu thức:
+[103] ────────── HẾT ──────────(Thí sinh không được sử dụng tài liệu; Cán bộ coi thi không giải thích gì thêm)
+[104] Họ và tên học sinh: ...................................................... Số báo danh: ................

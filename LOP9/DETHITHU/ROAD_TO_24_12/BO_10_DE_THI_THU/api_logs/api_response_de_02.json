@@ -1,0 +1,30 @@
+{
+  "cau13": {
+    "de_bai": "Quãng đường AB dài 180 km. Lúc 7 giờ sáng, một ô tô khởi hành từ A đi về B với vận tốc 50 km/h. Cùng lúc đó, một xe máy khởi hành từ B đi về A với vận tốc 40 km/h. Coi hai xe chuyển động thẳng đều trên quãng đường AB. Xét tính đúng/sai của các khẳng định sau:",
+    "a": "Sau 1 giờ kể từ lúc khởi hành, ô tô đi được quãng đường 50 km.",
+    "b": "Hai xe gặp nhau lúc 9 giờ sáng.",
+    "c": "Chỗ hai xe gặp nhau cách A một khoảng 80 km.",
+    "d": "Sau 1,5 giờ kể từ lúc khởi hành, khoảng cách giữa hai xe là 45 km.",
+    "dap_an": ["Đ", "Đ", "S", "Đ"],
+    "giai_thich": "a) Đúng: s = 50.1 = 50 km. b) Đúng: tổng vận tốc 50 + 40 = 90 km/h nên thời gian gặp nhau là 180 : 90 = 2 giờ, tức lúc 9 giờ. c) Sai: chỗ gặp cách A là 50.2 = 100 km (cách B là 80 km). d) Đúng: sau 1,5 giờ hai xe đi được 90.1,5 = 135 km, còn cách nhau 180 - 135 = 45 km."
+  },
+  "cau17": {
+    "de_bai": "Từ đỉnh một ngọn hải đăng cao 50 m so với mực nước biển, người quan sát nhìn thấy một con tàu dưới một góc hạ 30° (so với phương nằm ngang). Coi chân hải đăng và con tàu cùng nằm trên mặt nước biển phẳng. Tính khoảng cách từ chân hải đăng đến con tàu (làm tròn kết quả đến hàng phần mười của mét).",
+    "dap_an": "86,6",
+    "loi_giai": "Gọi A là đỉnh hải đăng, B là chân hải đăng, C là vị trí con tàu. Tam giác ABC vuông tại B, AB = 50 m. Do góc hạ bằng 30° nên góc ACB = 30° (hai góc so le trong). Khi đó BC = AB / tan 30° = 50√3 ≈ 86,6 m."
+  },
+  "cau20": {
+    "de_bai": "Cho đường tròn (O; R) và dây AB không đi qua tâm O. Qua O kẻ đường thẳng vuông góc với AB tại H, đường thẳng này cắt tiếp tuyến tại A của đường tròn (O) tại điểm C.\na) Chứng minh CB là tiếp tuyến của đường tròn (O).\nb) Cho R = 5 cm và AB = 8 cm. Tính độ dài đoạn thẳng OC.",
+    "a_cm": "Vì OH ⊥ AB tại H nên H là trung điểm của AB (đường kính, hay đường thẳng qua tâm, vuông góc với dây thì đi qua trung điểm của dây). Do đó CH là đường trung trực của AB, suy ra CA = CB. Xét hai tam giác OAC và OBC có: OA = OB (= R), CA = CB (chứng minh trên), OC chung. Vậy ΔOAC = ΔOBC (c.c.c), suy ra góc OBC = góc OAC. Vì CA là tiếp tuyến tại A nên CA ⊥ OA, tức góc OAC = 90°. Suy ra góc OBC = 90°, hay CB ⊥ OB tại B thuộc (O). Vậy CB là tiếp tuyến của đường tròn (O).\n\nb) Vì H là trung điểm AB nên AH = AB/2 = 4 cm. Tam giác OAH vuông tại H nên OH = √(OA² - AH²) = √(25 - 16) = 3 cm. Tam giác OAC vuông tại A có đường cao AH nên OA² = OH.OC, suy ra OC = OA²/OH = 25/3 cm (khoảng 8,33 cm).",
+    "b_cm": "OC = 25/3 cm. Có thể kiểm tra: AH² = OH.HC nên HC = 16/3, suy ra OC = OH + HC = 3 + 16/3 = 25/3 cm.",
+    "barem": "Vẽ hình đúng đến câu a: 0,25đ. Câu a (0,75đ): chứng minh H là trung điểm AB và CA = CB: 0,25đ; chứng minh ΔOAC = ΔOBC: 0,25đ; suy ra góc OBC = 90° và kết luận CB là tiếp tuyến: 0,25đ. Câu b (0,5đ): tính AH = 4 cm và OH = 3 cm: 0,25đ; áp dụng hệ thức lượng OA² = OH.OC, tính được OC = 25/3 cm: 0,25đ. Tổng: 1,5đ."
+  },
+  "cau21": {
+    "a_de_bai": "Một bể bơi không nắp có dạng hình hộp chữ nhật, đáy là hình vuông và thể tích bằng 32 m³. Người ta cần lát gạch men toàn bộ mặt đáy và bốn mặt xung quanh bên trong bể. Hỏi diện tích cần lát nhỏ nhất là bao nhiêu mét vuông? Khi đó cạnh đáy và chiều sâu của bể là bao nhiêu?",
+    "a_giai": "Gọi cạnh đáy là x (m), chiều sâu là h (m), x > 0, h > 0. Thể tích: x²h = 32, suy ra h = 32/x². Diện tích cần lát: S = x² + 4xh = x² + 128/x = x² + 64/x + 64/x. Áp dụng bất đẳng thức Cauchy cho ba số dương: S ≥ 3.∛(x².(64/x).(64/x)) = 3.∛4096 = 3.16 = 48. Dấu bằng xảy ra khi x² = 64/x, tức x³ = 64, suy ra x = 4, khi đó h = 32/16 = 2. Vậy diện tích lát nhỏ nhất là 48 m², đạt được khi cạnh đáy bằng 4 m và chiều sâu bằng 2 m.",
+    "a_dap_an": "48 m² (cạnh đáy 4 m, chiều sâu 2 m)",
+    "b_de_bai": "Cho ba số thực dương a, b, c thoả mãn a + b + c = 6. Tìm giá trị nhỏ nhất của biểu thức P = 1/a + 4/b + 9/c.",
+    "b_giai": "Viết P = 1²/a + 2²/b + 3²/c. Áp dụng bất đẳng thức Cauchy-Schwarz dạng Engel: P ≥ (1 + 2 + 3)²/(a + b + c) = 36/6 = 6. Dấu bằng xảy ra khi a/1 = b/2 = c/3 = (a + b + c)/(1 + 2 + 3) = 1, tức a = 1, b = 2, c = 3 (thoả mãn a + b + c = 6). Vậy giá trị nhỏ nhất của P bằng 6, đạt được khi (a; b; c) = (1; 2; 3).",
+    "b_dap_an": "6 (khi a = 1, b = 2, c = 3)"
+  }
+}

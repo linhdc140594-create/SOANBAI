@@ -1,0 +1,87 @@
+# LỜI GIẢI VÀ BAREM
+
+## CÂU 20 (1,5 điểm)
+
+**Hình vẽ:** (O; R), đường kính AB; MA ⊥ AB tại A; MC là tiếp tuyến tại C; CH ⊥ AB; MB cắt (O) tại K và cắt CH tại N.
+
+### a) (0,75 điểm)
+
+**Bước 1.** MA, MC là các tiếp tuyến của (O) nên MA ⊥ OA và MC ⊥ OC. Do đó ∠MAO = ∠MCO = 90°. **(0,25đ)**
+
+**Bước 2.** Gọi I là trung điểm của MO.
+- Tam giác MAO vuông tại A, có AI là trung tuyến ứng với cạnh huyền nên IA = IM = IO = MO/2.
+- Tam giác MCO vuông tại C, có CI là trung tuyến ứng với cạnh huyền nên IC = IM = IO = MO/2. **(0,25đ)**
+
+**Bước 3.** Suy ra IA = IM = IO = IC, nên bốn điểm A, M, C, O cùng nằm trên đường tròn tâm I, đường kính MO. **(0,25đ)**
+
+### b) (0,75 điểm)
+
+**Chứng minh MA² = MK·MB**
+
+K thuộc (O) đường kính AB nên ∠AKB = 90°, tức AK ⊥ MB tại K. Tam giác MAB vuông tại A (vì MA ⊥ AB) có đường cao AK. Theo hệ thức lượng trong tam giác vuông: **MA² = MK·MB**. **(0,25đ)**
+
+**Chứng minh N là trung điểm của CH**
+
+*Bước 1 (CH ∥ MA).* CH ⊥ AB và MA ⊥ AB nên CH ∥ MA. Trong tam giác BAM, vì NH ∥ MA nên theo định lí Thales:
+
+NH/MA = BH/BA. (1)
+
+*Bước 2 (dựng E).* C ≠ B, vì nếu C ≡ B thì MB là tiếp tuyến, kéo theo MA = MB, vô lí do MB là cạnh huyền của tam giác MAB vuông tại A. Gọi E là giao điểm của tia BC và đường thẳng MA. Trong tam giác BAE, vì CH ∥ EA nên:
+
+CH/EA = BH/BA. (2) **(0,25đ)**
+
+*Bước 3 (M là trung điểm của AE).* Ta có MA = MC và OA = OC, nên OM là đường trung trực của AC, suy ra OM ⊥ AC. Mặt khác BC ⊥ AC (góc nội tiếp chắn nửa đường tròn). Do đó OM ∥ BE. Trong tam giác ABE, O là trung điểm của AB và OM ∥ BE nên M là trung điểm của AE, tức EA = 2MA.
+
+*Bước 4.* Từ (1) và (2): CH/EA = NH/MA, suy ra CH = NH·EA/MA = 2NH. Điểm N thuộc đoạn CH, vì CH nằm trong đường tròn và N là giao điểm của CH với MB. Vậy **N là trung điểm của CH**. **(0,25đ)**
+
+---
+
+## CÂU 21 (0,5 điểm)
+
+### a) (0,25 điểm)
+
+Gọi cạnh đáy là x (m, x > 0) và chiều sâu là h (m, h > 0).
+
+**Bước 1.** Thể tích: x²h = 32, suy ra h = 32/x². Diện tích vật liệu (bể không nắp, gồm đáy và 4 mặt bên):
+
+S = x² + 4xh = x² + 128/x. **(0,10đ)**
+
+**Bước 2.** Áp dụng AM-GM cho ba số dương:
+
+S = x² + 64/x + 64/x ≥ 3·∛(x² · 64/x · 64/x) = 3·∛4096 = 3·16 = 48. **(0,075đ)**
+
+**Bước 3 (điều kiện dấu bằng).** Dấu "=" xảy ra khi x² = 64/x, tức x³ = 64, suy ra x = 4 (thỏa x > 0). Khi đó h = 32/16 = 2.
+
+**Kết luận:** Bể có đáy vuông cạnh 4 m (chiều dài = chiều rộng = 4 m), chiều sâu 2 m; diện tích vật liệu nhỏ nhất là 48 m². **(0,075đ)**
+
+### b) (0,25 điểm)
+
+**Bước 1.** Với mỗi số dương t, áp dụng AM-GM cho ba số dương:
+
+t² + 2/t = t² + 1/t + 1/t ≥ 3·∛(t² · 1/t · 1/t) = 3·∛1 = 3. **(0,10đ)**
+
+Dấu "=" xảy ra khi t² = 1/t, tức t = 1.
+
+**Bước 2.** Áp dụng lần lượt cho x, y, z và cộng lại:
+
+P = (x² + 2/x) + (y² + 2/y) + (z² + 2/z) ≥ 3 + 3 + 3 = 9. **(0,075đ)**
+
+**Bước 3 (điều kiện dấu bằng).** Dấu "=" xảy ra khi x = y = z = 1. Khi đó x + y + z = 3 ≤ 3, thỏa điều kiện đề bài, và P = 3 + 6 = 9.
+
+**Kết luận:** min P = 9, đạt khi x = y = z = 1. **(0,075đ)**
+
+*Nhận xét thẩm định:* Cách làm trên không cần dùng giả thiết x + y + z ≤ 3, chỉ cần kiểm tra điểm đạt cực trị thuộc miền giả thiết. Việc kiểm tra này là bắt buộc và đã thực hiện ở Bước 3.
+
+---
+
+## TỔNG KẾT BAREM
+
+| Câu | Ý | Điểm |
+|---|---|---|
+| 20a | Tiếp tuyến ⊥ bán kính (0,25); trung tuyến ứng cạnh huyền, hai tam giác vuông (0,25); kết luận cùng đường tròn đường kính MO (0,25) | 0,75 |
+| 20b | MA² = MK·MB (0,25); CH ∥ MA, Thales (1), (2) (0,25); M là trung điểm AE và kết luận N là trung điểm CH (0,25) | 0,75 |
+| 21a | Lập S(x) (0,10); AM-GM (0,075); dấu bằng và kết luận (0,075) | 0,25 |
+| 21b | AM-GM từng biến (0,10); cộng lại P ≥ 9 (0,075); dấu bằng và kết luận (0,075) | 0,25 |
+| | **Tổng** | **2,0** |
+
+**Lưu ý chấm:** Câu 21 nếu thiếu kiểm tra điều kiện dấu bằng thì trừ 0,075đ ở bước kết luận. Học sinh dùng cách khác đúng (ví dụ đạo hàm, bất đẳng thức tiếp tuyến) vẫn cho điểm tối đa theo từng bước tương ứng.

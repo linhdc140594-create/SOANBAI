@@ -248,8 +248,81 @@ def render_tex(week_num: int, week_title: str, ma_de_list: list, grade: int = 5)
 \\newpage
 """
 
+        # BÀI 2: TÌM X
+        if len(b2) == 6:
+            b2_block = f"""% BÀI 2: TÌM X (6 Ý - 3 CỘT)
+\\khungBaiTap{{%
+  \\textbf{{Bài 2 (1,5 điểm). Tìm $x$:}}\\par\\vspace{{0.6mm}}
+  \\noindent
+  \\begin{{minipage}}[t]{{0.315\\linewidth}}
+    \\textbf{{a)}} ${b2[0][0]}$\\par
+    \\dongke{{3}}
+    \\vspace{{0.4mm}}
+    \\textbf{{d)}} ${b2[3][0]}$\\par
+    \\dongke{{3}}
+  \\end{{minipage}}\\hfill
+  \\begin{{minipage}}[t]{{0.315\\linewidth}}
+    \\textbf{{b)}} ${b2[1][0]}$\\par
+    \\dongke{{3}}
+    \\vspace{{0.4mm}}
+    \\textbf{{e)}} ${b2[4][0]}$\\par
+    \\dongke{{3}}
+  \\end{{minipage}}\\hfill
+  \\begin{{minipage}}[t]{{0.315\\linewidth}}
+    \\textbf{{c)}} ${b2[2][0]}$\\par
+    \\dongke{{3}}
+    \\vspace{{0.4mm}}
+    \\textbf{{f)}} ${b2[5][0]}$\\par
+    \\dongke{{3}}
+  \\end{{minipage}}
+}}"""
+        else:
+            b2_block = f"""% BÀI 2: TÌM X (4 Ý - 2 CỘT)
+\\khungBaiTap{{%
+  \\textbf{{Bài 2 (1,5 điểm). Tìm $x$:}}\\par\\vspace{{0.6mm}}
+  \\noindent
+  \\begin{{minipage}}[t]{{0.485\\linewidth}}
+    \\textbf{{a)}} ${b2[0][0]}$\\par
+    \\dongke{{3}}
+    \\vspace{{0.4mm}}
+    \\textbf{{c)}} ${b2[2][0]}$\\par
+    \\dongke{{3}}
+  \\end{{minipage}}\\hfill
+  \\begin{{minipage}}[t]{{0.485\\linewidth}}
+    \\textbf{{b)}} ${b2[1][0]}$\\par
+    \\dongke{{3}}
+    \\vspace{{0.4mm}}
+    \\textbf{{d)}} ${b2[3][0]}$\\par
+    \\dongke{{3}}
+  \\end{{minipage}}
+}}"""
+
         # BÀI 3: ĐỔI ĐƠN VỊ
-        if len(b3) == 8:
+        if len(b3) == 12:
+            b3_block = f"""% BÀI 3: ĐỔI ĐƠN VỊ ĐO DIỆN TÍCH (12 Ý - 3 CỘT)
+\\khungBaiTap{{%
+  \\textbf{{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}}\\par\\vspace{{0.6mm}}
+  \\noindent
+  \\begin{{minipage}}[t]{{0.315\\linewidth}}
+    \\textbf{{a)}} ${b3[0][0]} = \\dotfill\\,{b3[0][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{b)}} ${b3[1][0]} = \\dotfill\\,{b3[1][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{c)}} ${b3[2][0]} = \\dotfill\\,{b3[2][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{d)}} ${b3[3][0]} = \\dotfill\\,{b3[3][1]}$\\par
+  \\end{{minipage}}\\hfill
+  \\begin{{minipage}}[t]{{0.315\\linewidth}}
+    \\textbf{{e)}} ${b3[4][0]} = \\dotfill\\,{b3[4][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{f)}} ${b3[5][0]} = \\dotfill\\,{b3[5][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{g)}} ${b3[6][0]} = \\dotfill\\,{b3[6][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{h)}} ${b3[7][0]} = \\dotfill\\,{b3[7][1]}$\\par
+  \\end{{minipage}}\\hfill
+  \\begin{{minipage}}[t]{{0.315\\linewidth}}
+    \\textbf{{i)}} ${b3[8][0]} = \\dotfill\\,{b3[8][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{j)}} ${b3[9][0]} = \\dotfill\\,{b3[9][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{k)}} ${b3[10][0]} = \\dotfill\\,{b3[10][1]}$\\par\\vspace{{1.0mm}}
+    \\textbf{{l)}} ${b3[11][0]} = \\dotfill\\,{b3[11][1]}$\\par
+  \\end{{minipage}}
+}}"""
+        elif len(b3) == 8:
             b3_block = f"""% BÀI 3: ĐỔI ĐƠN VỊ (8 Ý - 2 CỘT)
 \\khungBaiTap{{%
   \\textbf{{Bài 3 (1,0 điểm). Viết số thích hợp vào chỗ chấm:}}\\par\\vspace{{0.6mm}}
@@ -292,25 +365,7 @@ def render_tex(week_num: int, week_title: str, ma_de_list: list, grade: int = 5)
 
 \\vspace{{0.8mm}}
 
-% BÀI 2: TÌM X (4 Ý)
-\\khungBaiTap{{%
-  \\textbf{{Bài 2 (1,5 điểm). Tìm $x$:}}\\par\\vspace{{0.6mm}}
-  \\noindent
-  \\begin{{minipage}}[t]{{0.485\\linewidth}}
-    \\textbf{{a)}} ${b2[0][0]}$\\par
-    \\dongke{{3}}
-    \\vspace{{0.4mm}}
-    \\textbf{{c)}} ${b2[2][0]}$\\par
-    \\dongke{{3}}
-  \\end{{minipage}}\\hfill
-  \\begin{{minipage}}[t]{{0.485\\linewidth}}
-    \\textbf{{b)}} ${b2[1][0]}$\\par
-    \\dongke{{3}}
-    \\vspace{{0.4mm}}
-    \\textbf{{d)}} ${b2[3][0]}$\\par
-    \\dongke{{3}}
-  \\end{{minipage}}
-}}
+{b2_block}
 
 \\vspace{{0.8mm}}
 
@@ -394,26 +449,38 @@ def render_markdown_answers(week_num: int, week_title: str, topics: list, ma_de_
         md += "\n"
 
         # Bài 2
-        md += "**Bài 2 (1,5 điểm): Tìm $x$**\n"
         b2 = item["bai2"]
-        md += f"- a) ${b2[0][0]} \\implies {b2[0][1]} \\implies \\mathbf{{{b2[0][2]}}}$ *(0,4đ)*\n"
-        md += f"- b) ${b2[1][0]} \\implies {b2[1][1]} \\implies \\mathbf{{{b2[1][2]}}}$ *(0,4đ)*\n"
-        md += f"- c) ${b2[2][0]} \\implies {b2[2][1]} \\implies \\mathbf{{{b2[2][2]}}}$ *(0,35đ)*\n"
-        md += f"- d) ${b2[3][0]} \\implies {b2[3][1]} \\implies \\mathbf{{{b2[3][2]}}}$ *(0,35đ)*\n\n"
+        if len(b2) == 6:
+            md += "**Bài 2 (1,5 điểm - 0,25 điểm/ý): Tìm $x$**\n"
+            letters_b2 = ['a', 'b', 'c', 'd', 'e', 'f']
+            for idx_l, letter in enumerate(letters_b2):
+                md += f"- {letter}) ${b2[idx_l][0]} \\implies {b2[idx_l][1]} \\implies \\mathbf{{{b2[idx_l][2]}}}$ *(0,25đ)*\n"
+            md += "\n"
+        else:
+            md += "**Bài 2 (1,5 điểm): Tìm $x$**\n"
+            md += f"- a) ${b2[0][0]} \\implies {b2[0][1]} \\implies \\mathbf{{{b2[0][2]}}}$ *(0,4đ)*\n"
+            md += f"- b) ${b2[1][0]} \\implies {b2[1][1]} \\implies \\mathbf{{{b2[1][2]}}}$ *(0,4đ)*\n"
+            md += f"- c) ${b2[2][0]} \\implies {b2[2][1]} \\implies \\mathbf{{{b2[2][2]}}}$ *(0,35đ)*\n"
+            md += f"- d) ${b2[3][0]} \\implies {b2[3][1]} \\implies \\mathbf{{{b2[3][2]}}}$ *(0,35đ)*\n\n"
 
         # Bài 3
         b3 = item["bai3"]
-        if len(b3) == 8:
+        if len(b3) == 12:
+            md += "**Bài 3 (1,0 điểm): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo diện tích)**\n"
+            letters_b3 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l']
+            pts_b3 = ""
+        elif len(b3) == 8:
             md += "**Bài 3 (1,0 điểm - 0,125 điểm/ý): Điền số thích hợp vào chỗ chấm (Đổi đơn vị đo)**\n"
             letters_b3 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
-            pts_b3 = "0,125đ"
+            pts_b3 = " *(0,125đ)*"
         else:
             md += "**Bài 3 (1,0 điểm - 0,25 điểm/ý): Điền số thích hợp vào chỗ chấm**\n"
             letters_b3 = ['a', 'b', 'c', 'd']
-            pts_b3 = "0,25đ"
+            pts_b3 = " *(0,25đ)*"
 
         for idx_l, letter in enumerate(letters_b3):
-            md += f"- {letter}) ${b3[idx_l][0]} = \\mathbf{{{b3[idx_l][2]}}}\\,{b3[idx_l][1]}$ *({pts_b3})*\n"
+            pts_str = f" *({pts_b3})*" if pts_b3 else ""
+            md += f"- {letter}) ${b3[idx_l][0]} = \\mathbf{{{b3[idx_l][2]}}}\\,{b3[idx_l][1]}${pts_str}\n"
         md += "\n"
 
         # Bài 4

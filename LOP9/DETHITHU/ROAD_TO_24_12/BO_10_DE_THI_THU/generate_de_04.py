@@ -1,0 +1,401 @@
+import os
+import subprocess
+import fitz
+
+BASE_DIR = r'd:/GitHub/SOANBAI-main/LOP9/DETHITHU/ROAD_TO_24_12/BO_10_DE_THI_THU'
+
+# ==============================================================================
+# ĐỀ 04
+# ==============================================================================
+folder_04 = os.path.join(BASE_DIR, 'DE_04')
+os.makedirs(folder_04, exist_ok=True)
+
+tex_exam_04 = r'''\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[top=1.8cm, bottom=2.0cm, left=1.8cm, right=1.8cm]{geometry}
+
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\lhead{\footnotesize \textbf{CHÙA HƯƠNG SƠN -- ÔN THI VÀO 10}}
+\rhead{\footnotesize \textbf{ĐỀ THI THỬ CUỐI HỌC KỲ I (ĐỀ SỐ 04)}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\noindent
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}cc@{}}
+\textbf{SỞ GIÁO DỤC VÀ ĐÀO TẠO} & \textbf{ĐỀ KIỂM TRA CUỐI HỌC KỲ I} \\
+\textbf{CHÙA HƯƠNG SƠN} & \textbf{NĂM HỌC 2026 -- 2027} \\
+\textbf{ĐỀ THI THỬ SỐ 04} & \textbf{MÔN: TOÁN -- LỚP 9} \\
+\textit{(Đề thi gồm 03 trang)} & \textit{Thời gian làm bài: 90 phút (không kể thời gian phát đề)} \\
+\end{tabular*}
+
+\vspace{2mm}
+\noindent
+\rule{\linewidth}{0.8pt}
+
+\vspace{1mm}
+\noindent
+Họ và tên thí sinh: \dotfill Số báo danh: \dotfill
+
+\vspace{2mm}
+\noindent
+\textbf{\large I. TRẮC NGHIỆM KHÁCH QUAN (7,0 điểm)}
+
+\vspace{1mm}
+\noindent
+\textbf{Phần 1. Trắc nghiệm nhiều lựa chọn (3,0 điểm).} \textit{Từ câu 1 đến câu 12, thí sinh chọn đáp án đúng nhất trong 4 đáp án A, B, C, D rồi ghi vào bài làm.}
+
+\vspace{1.5mm}
+\textbf{Câu 1.} Giá trị của biểu thức $4\sqrt{12} - \sqrt{48} + \sqrt{3}$ bằng\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $5\sqrt{3}$. & \textbf{B.} $3\sqrt{3}$. & \textbf{C.} $4\sqrt{3}$. & \textbf{D.} $-5\sqrt{3}$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 2.} Cho tam giác $ABC$ vuông tại $A$, có góc nhọn $\widehat{C} = \alpha$. Khẳng định nào sau đây là đúng?\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $\cos \alpha = \dfrac{AC}{BC}$. & \textbf{B.} $\sin \alpha = \dfrac{AC}{BC}$. & \textbf{C.} $\tan \alpha = \dfrac{AC}{AB}$. & \textbf{D.} $\cot \alpha = \dfrac{AB}{AC}$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 3.} Bất phương trình nào sau đây là bất phương trình bậc nhất một ẩn?\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $-2x + 10 > 0$. & \textbf{B.} $0x - 6 \le 0$. & \textbf{C.} $3x^2 - 1 \ge 0$. & \textbf{D.} $\dfrac{4}{x} - 5 < 0$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 4.} Cho $x < y$. Bất đẳng thức nào sau đây luôn đúng?\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $-3x > -3y$. & \textbf{B.} $-3x < -3y$. & \textbf{C.} $2x - 1 > 2y - 1$. & \textbf{D.} $x + 4 > y + 4$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 5.} Căn bậc hai số học của số 169 là\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $13$. & \textbf{B.} $13$ và $-13$. & \textbf{C.} $-13$. & \textbf{D.} $169$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 6.} Điều kiện xác định của căn thức $\sqrt{4x - 20}$ là\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $x \ge 5$. & \textbf{B.} $x \le 5$. & \textbf{C.} $x > 5$. & \textbf{D.} $x < 5$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 7.} Với mọi số thực $x \le 4$, giá trị của biểu thức $\sqrt{(x-4)^2}$ bằng\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $4 - x$. & \textbf{B.} $x - 4$. & \textbf{C.} $-(4-x)$. & \textbf{D.} $(x-4)^2$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 8.} Giá trị của biểu thức $\sqrt[3]{-512}$ bằng\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $-8$. & \textbf{B.} $8$. & \textbf{C.} $-64$. & \textbf{D.} $64$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 9.} Độ dài cung tròn $n^\circ$ của đường tròn bán kính $R$ được tính theo công thức\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $l = \dfrac{\pi R n}{180}$. & \textbf{B.} $l = \dfrac{\pi R n}{360}$. & \textbf{C.} $l = \dfrac{\pi R^2 n}{180}$. & \textbf{D.} $l = \dfrac{2\pi R n}{180}$.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 10.} Cho đường tròn $(O; 7\text{ cm})$ và đường thẳng $m$. Khoảng cách từ $O$ đến $m$ là $9\text{ cm}$. Vị trí tương đối của $m$ và $(O)$ là\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} Không giao nhau. & \textbf{B.} Cắt nhau. & \textbf{C.} Tiếp xúc nhau. & \textbf{D.} Trùng nhau.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 11.} Cho hai đường tròn $(O; 8\text{ cm})$ và $(O'; 3\text{ cm})$. Biết khoảng cách $OO' = 11\text{ cm}$. Vị trí tương đối của $(O)$ và $(O')$ là\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} Tiếp xúc ngoài. & \textbf{B.} Tiếp xúc trong. & \textbf{C.} Cắt nhau. & \textbf{D.} Không giao nhau.
+\end{tabularx}
+
+\vspace{1.5mm}
+\textbf{Câu 12.} Trên đường tròn $(O)$, số đo cung nhỏ $MN$ bằng $75^\circ$. Số đo của góc ở tâm $\widehat{MON}$ bằng\\
+\begin{tabularx}{\linewidth}{XXXX}
+\textbf{A.} $75^\circ$. & \textbf{B.} $150^\circ$. & \textbf{C.} $37{,}5^\circ$. & \textbf{D.} $105^\circ$.
+\end{tabularx}
+
+\vspace{3mm}
+\noindent
+\textbf{Phần 2. Trắc nghiệm Đúng -- Sai (2,0 điểm).} \textit{Trong mỗi ý a), b), c), d) ở câu 13 và câu 14, thí sinh chọn đúng hoặc sai và ghi chữ ``Đ'' hoặc ``S'' vào bài làm.}
+
+\vspace{1.5mm}
+\textbf{Câu 13.} Xét bài toán thực tế: ``Trong phòng thí nghiệm, một học sinh cần pha trộn hai loại dung dịch muối nồng độ $10\%$ và nồng độ $30\%$ để thu được $400\text{ gam}$ dung dịch muối có nồng độ $25\%$. Gọi khối lượng dung dịch muối $10\%$ và $30\%$ cần lấy lần lượt là $x$ và $y$ (gam, $0 < x, y < 400$).''\\
+Xét tính đúng sai của các khẳng định sau:
+\begin{center}
+\begin{tabularx}{\linewidth}{|X|c|c|}
+\hline
+\textbf{Khẳng định} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+a) Tổng khối lượng hai dung dịch cần pha là $400\text{ gam}$ nên $x + y = 400$. & & \\
+\hline
+b) Khối lượng muối nguyên chất trong $400\text{ gam}$ dung dịch $25\%$ là $100\text{ gam}$. & & \\
+\hline
+c) Phương trình biểu thị khối lượng muối nguyên chất là: $0{,}1x + 0{,}3y = 80$. & & \\
+\hline
+d) Cần dùng $100\text{ gam}$ dung dịch muối $10\%$ và $300\text{ gam}$ dung dịch muối $30\%$. & & \\
+\hline
+\end{tabularx}
+\end{center}
+
+\vspace{2mm}
+\textbf{Câu 14.} Cho nửa đường tròn $(O; R)$ đường kính $AB$. Trên cùng một nửa mặt phẳng bờ $AB$, vẽ hai tiếp tuyến $Ax, By$ với nửa đường tròn. Lấy điểm $M$ bất kì trên nửa đường tròn ($M \ne A, B$), tiếp tuyến tại $M$ cắt $Ax$ và $By$ lần lượt tại $C$ và $D$.\\
+Xét tính đúng sai của các khẳng định sau:
+\begin{center}
+\begin{tabularx}{\linewidth}{|X|c|c|}
+\hline
+\textbf{Khẳng định} & \textbf{Đúng} & \textbf{Sai} \\
+\hline
+a) Điểm $M$ thuộc nửa đường tròn nên tam giác $AMB$ vuông tại $M$. & & \\
+\hline
+b) Đoạn thẳng $CD = AC + BD$. & & \\
+\hline
+c) Góc $\widehat{COD} = 90^\circ$. & & \\
+\hline
+d) Tích $AC \cdot BD = 2R^2$. & & \\
+\hline
+\end{tabularx}
+\end{center}
+
+\vspace{3mm}
+\noindent
+\textbf{Phần 3. Trắc nghiệm trả lời ngắn (2,0 điểm).} \textit{Từ câu 15 đến câu 18, thí sinh chỉ ghi kết quả cuối cùng vào bài làm.}
+
+\vspace{1.5mm}
+\textbf{Câu 15.} Nghiệm của bất phương trình $5(x + 1) - 3 > 3(2x - 1) + 4$ là $\dots\dots\dots$
+
+\vspace{1.5mm}
+\textbf{Câu 16.} Giá trị của biểu thức $K = \sqrt{(\sqrt{8} - 3)^2} + \sqrt{8}$ bằng $\dots\dots\dots$
+
+\vspace{1.5mm}
+\noindent
+\begin{minipage}[c]{0.65\linewidth}
+\textbf{Câu 17.} Một chiếc thang dài $4\text{ m}$ được đặt dựa vào một bức tường thẳng đứng để sửa chữa mái nhà. Để đảm bảo an toàn lao động, thang cần tạo với mặt đất một góc nghiêng khoảng $65^\circ$ (xem hình vẽ bên). Hỏi đỉnh thang chạm tường ở độ cao bao nhiêu mét so với mặt đất? (làm tròn kết quả đến chữ số thập phân thứ hai của mét).
+\end{minipage}\hfill
+\begin{minipage}[c]{0.32\linewidth}
+\centering
+\begin{tikzpicture}[scale=0.7]
+  % Bức tường
+  \fill[gray!30] (0,0) rectangle (0.5,3.8);
+  \draw[thick] (0,0) -- (0,3.8) -- (0.5,3.8) -- (0.5,0);
+  % Mặt đất
+  \draw[thick] (0,0) -- (3.5,0);
+  \fill[pattern=north east lines, pattern color=gray!50] (0,-0.2) rectangle (3.5,0);
+  % Thang
+  \draw[thick, brown!80!black, line width=1.5pt] (0.5,3.4) -- (2.3,0);
+  % Các bậc thang
+  \foreach \t in {0.2, 0.4, 0.6, 0.8} {
+    \draw[thick, brown!80!black] ($(0.5,3.4)!\t!(2.3,0) + (-0.1, 0.05)$) -- ($(0.5,3.4)!\t!(2.3,0) + (0.1, -0.05)$);
+  }
+  \node[right] at (1.5, 2.0) {$4\text{ m}$};
+  \node[left] at (0, 1.7) {$h = ?$};
+  % Góc vuông
+  \draw (0.5,0) rectangle (0.8,0.3);
+  % Góc nghiêng 65 độ
+  \draw (2.3,0) ++(180:0.6) arc (180:115:0.6);
+  \node at (1.7, 0.35) {\footnotesize $65^\circ$};
+\end{tikzpicture}
+\end{minipage}
+
+\vspace{1.5mm}
+\textbf{Câu 18.} Một miếng kim loại trang trí có dạng hình quạt tròn với bán kính $R = 25\text{ cm}$ và góc ở tâm tương ứng là $72^\circ$. Tính diện tích bề mặt của miếng kim loại đó (lấy $\pi \approx 3{,}14$, đơn vị: $\text{cm}^2$).
+
+\vspace{4mm}
+\noindent
+\textbf{\large II. TỰ LUẬN (3,0 điểm).} \textit{Thí sinh trình bày lời giải chi tiết vào tờ giấy thi.}
+
+\vspace{2mm}
+\textbf{Câu 19 (1,0 điểm).}
+\begin{itemize}
+  \item[a)] \textit{(0,5 điểm)} Giải hệ phương trình: $\begin{cases} 5x + 2y = 9 \\ 2x - y = 0 \end{cases}$.
+  \item[b)] \textit{(0,5 điểm)} Cho biểu thức $M = \left( \dfrac{1}{\sqrt{x}-1} - \dfrac{1}{\sqrt{x}} \right) : \left( \dfrac{\sqrt{x}+1}{\sqrt{x}-2} - \dfrac{\sqrt{x}+2}{\sqrt{x}-1} \right)$ với $x > 0, x \ne 1, x \ne 4$. Rút gọn biểu thức $M$.
+\end{itemize}
+
+\vspace{2mm}
+\textbf{Câu 20 (1,5 điểm).} Cho nửa đường tròn $(O; R)$ đường kính $AB$. Trên cùng một nửa mặt phẳng bờ $AB$, vẽ hai tiếp tuyến $Ax, By$. Lấy điểm $M$ thuộc nửa đường tròn ($M \ne A, B$), tiếp tuyến tại $M$ cắt $Ax, By$ lần lượt tại $C$ và $D$. Gọi $K$ là giao điểm của $AD$ và $BC$.
+\begin{itemize}
+  \item[a)] \textit{(0,75 điểm)} Chứng minh rằng $\widehat{COD} = 90^\circ$ và $CD = AC + BD$.
+  \item[b)] \textit{(0,75 điểm)} Chứng minh rằng: $MK \parallel AC$ và $MK \cdot (AC + BD) = AC \cdot BD$.
+\end{itemize}
+
+\vspace{2mm}
+\textbf{Câu 21 (0,5 điểm).}
+\begin{itemize}
+  \item[a)] \textit{(0,25 điểm)} Từ một tấm bìa hình vuông cạnh $60\text{ cm}$, người ta cắt bỏ ở bốn góc bốn hình vuông nhỏ bằng nhau có cạnh bằng $x$ (cm) rồi gập các mép lại để tạo thành một chiếc hộp hình chữ nhật không có nắp. Tìm $x$ để thể tích của chiếc hộp là lớn nhất.
+  \item[b)] \textit{(0,25 điểm)} Cho hai số thực dương $x, y$ thỏa mãn điều kiện $x + y \le 2$. Tìm giá trị nhỏ nhất của biểu thức:
+  \[
+  S = \dfrac{1}{x^2 + y^2} + \dfrac{1}{xy}.
+  \]
+\end{itemize}
+
+\vspace{4mm}
+\begin{center}
+\textbf{---------- HẾT ----------}\\
+\textit{(Cán bộ coi thi không giải thích gì thêm)}
+\end{center}
+
+\end{document}
+'''
+
+tex_sol_04 = r'''\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tabularx}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage[top=1.8cm, bottom=2.0cm, left=1.8cm, right=1.8cm]{geometry}
+
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\lhead{\footnotesize \textbf{CHÙA HƯƠNG SƠN -- HƯỚNG DẪN CHẤM THI}}
+\rhead{\footnotesize \textbf{ĐÁP ÁN CHI TIẾT ĐỀ THI THỬ SỐ 04}}
+\cfoot{\thepage}
+
+\begin{document}
+
+\begin{center}
+{\large\bfseries ĐÁP ÁN \& HƯỚNG DẪN CHẤM ĐỀ THI THỬ CUỐI HỌC KỲ I (ĐỀ SỐ 04)}\\[1.5mm]
+{\bfseries ĐƠN VỊ: CHÙA HƯƠNG SƠN \quad|\quad MÔN: TOÁN -- LỚP 9 \quad|\quad NĂM HỌC 2026 -- 2027}\\[1mm]
+\textit{(Chuẩn cấu trúc định dạng mới của Sở Giáo dục và Đào tạo)}
+\end{center}
+
+\vspace{1mm}
+\hrule
+\vspace{3mm}
+
+\noindent
+\textbf{\large PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (7,0 ĐIỂM)}
+
+\vspace{2mm}
+\noindent
+\textbf{1. Bảng đáp án Phần 1: Trắc nghiệm nhiều lựa chọn (3,0 điểm)} \textit{(Mỗi câu đúng được 0,25 điểm)}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\textbf{Câu} & \textbf{1} & \textbf{2} & \textbf{3} & \textbf{4} & \textbf{5} & \textbf{6} & \textbf{7} & \textbf{8} & \textbf{9} & \textbf{10} & \textbf{11} & \textbf{12} \\
+\hline
+\textbf{Đáp án} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} & \textbf{A} \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2mm}
+\noindent
+\textbf{2. Bảng đáp án Phần 2: Trắc nghiệm Đúng -- Sai (2,0 điểm)}
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|l|}
+\hline
+\textbf{Câu} & \textbf{Ý a} & \textbf{Ý b} & \textbf{Ý c} & \textbf{Ý d} & \textbf{Ghi chú đáp án chuẩn} \\
+\hline
+\textbf{Câu 13} & \textbf{Đ} & \textbf{Đ} & \textbf{S} & \textbf{Đ} & Ý c) sai vì vế phải bằng $0{,}25 \times 400 = 100\text{ gam}$. \\
+\hline
+\textbf{Câu 14} & \textbf{Đ} & \textbf{Đ} & \textbf{Đ} & \textbf{S} & Ý d) sai vì tích $AC \cdot BD = R^2$ (chứ không phải $2R^2$). \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{2mm}
+\noindent
+\textbf{3. Bảng đáp án Phần 3: Trắc nghiệm trả lời ngắn (2,0 điểm)} \textit{(Mỗi câu đúng được 0,5 điểm)}
+\begin{center}
+\begin{tabular}{|c|l|c|c|}
+\hline
+\textbf{Câu} & \textbf{Nội dung câu hỏi} & \textbf{Kết quả bài làm} & \textbf{Điểm} \\
+\hline
+\textbf{Câu 15} & Nghiệm bất phương trình $5(x + 1) - 3 > 3(2x - 1) + 4$ & \textbf{$x < 1$} & 0,5đ \\
+\hline
+\textbf{Câu 16} & Giá trị biểu thức $K = \sqrt{(\sqrt{8}-3)^2} + \sqrt{8}$ & \textbf{$3$} & 0,5đ \\
+\hline
+\textbf{Câu 17} & Độ cao đỉnh thang chạm tường ($4 \cdot \sin 65^\circ$) & \textbf{$3{,}63\text{ m}$} & 0,5đ \\
+\hline
+\textbf{Câu 18} & Diện tích miếng kim loại ($\dfrac{3{,}14 \times 25^2 \times 72}{360}$) & \textbf{$392{,}5\text{ cm}^2$} & 0,5đ \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{3mm}
+\noindent
+\textbf{\large PHẦN II. TỰ LUẬN (3,0 ĐIỂM)}
+
+\vspace{2mm}
+\textbf{Câu 19 (1,0 điểm).}
+\begin{itemize}
+  \item[a)] \textit{(0,5 điểm)} $\begin{cases} 5x + 2y = 9 \\ 2x - y = 0 \end{cases} \Leftrightarrow \begin{cases} 5x + 2(2x) = 9 \\ y = 2x \end{cases} \Leftrightarrow \begin{cases} 9x = 9 \\ y = 2x \end{cases} \Leftrightarrow \begin{cases} x = 1 \\ y = 2 \end{cases}$. \hfill \textbf{(0,5đ)}
+  \item[b)] \textit{(0,5 điểm)} $M = \dfrac{1}{\sqrt{x}(\sqrt{x}-1)} : \dfrac{(\sqrt{x}+1)(\sqrt{x}-1) - (\sqrt{x}+2)(\sqrt{x}-2)}{(\sqrt{x}-2)(\sqrt{x}-1)} = \dfrac{1}{\sqrt{x}(\sqrt{x}-1)} : \dfrac{3}{(\sqrt{x}-2)(\sqrt{x}-1)} = \dfrac{\sqrt{x}-2}{3\sqrt{x}}$. \hfill \textbf{(0,5đ)}
+\end{itemize}
+
+\vspace{1mm}
+\textbf{Câu 20 (1,5 điểm).}
+\begin{itemize}
+  \item[a)] \textit{(0,75 điểm)} Theo tính chất hai tiếp tuyến cắt nhau: $OC$ là phân giác $\widehat{AOM}$, $OD$ là phân giác $\widehat{BOM} \Rightarrow \widehat{COD} = \dfrac{1}{2}(\widehat{AOM} + \widehat{BOM}) = 90^\circ$. Lại có $CA = CM, DB = DM \Rightarrow CD = CM + MD = AC + BD$. \hfill \textbf{(0,75đ)}
+  \item[b)] \textit{(0,75 điểm)} Ta có $AC \parallel BD \Rightarrow \dfrac{AK}{KD} = \dfrac{AC}{BD} = \dfrac{CM}{MD} \Rightarrow MK \parallel AC$. Theo định lí Thales: $\dfrac{MK}{AC} = \dfrac{MD}{CD} \Rightarrow MK = \dfrac{AC \cdot MD}{CD} = \dfrac{AC \cdot BD}{AC + BD} \Rightarrow MK \cdot (AC + BD) = AC \cdot BD$. \hfill \textbf{(0,75đ)}
+\end{itemize}
+
+\vspace{1mm}
+\textbf{Câu 21 (0,5 điểm).}
+\begin{itemize}
+  \item[a)] \textit{(0,25 điểm)} Cạnh đáy hộp là $60 - 2x$ (cm, $0 < x < 30$). Thể tích $V = x(60 - 2x)^2 = \dfrac{1}{4} \cdot 4x(60 - 2x)(60 - 2x)$. Áp dụng BĐT AM-GM cho ba số dương:
+  $4x(60 - 2x)(60 - 2x) \le \left(\dfrac{4x + 60 - 2x + 60 - 2x}{3}\right)^3 = 40^3 = 64000 \Rightarrow V \le 16000\text{ cm}^3$. Dấu ``='' khi $4x = 60 - 2x \Leftrightarrow x = 10\text{ cm}$. \hfill \textbf{(0,25đ)}
+  \item[b)] \textit{(0,25 điểm)} Ta có $S = \dfrac{1}{x^2 + y^2} + \dfrac{1}{2xy} + \dfrac{1}{2xy} \ge \dfrac{4}{(x+y)^2} + \dfrac{1}{2 \cdot \frac{(x+y)^2}{4}} = \dfrac{4}{(x+y)^2} + \dfrac{2}{(x+y)^2} = \dfrac{6}{(x+y)^2} \ge \dfrac{6}{2^2} = \dfrac{3}{2}$. Dấu ``='' khi $x = y = 1$. Vậy $\min S = \dfrac{3}{2}$. \hfill \textbf{(0,25đ)}
+\end{itemize}
+
+\end{document}
+'''
+
+md_sol_04 = r'''# ĐÁP ÁN & HƯỚNG DẪN CHẤM ĐỀ THI THỬ VÀO 10 (ĐỀ SỐ 04)
+### ĐƠN VỊ: CHÙA HƯƠNG SƠN | MÔN: TOÁN – LỚP 9 | NĂM HỌC 2026 – 2027
+
+## PHẦN I. TRẮC NGHIỆM KHÁCH QUAN (7,0 ĐIỂM)
+### 1. BẢNG ĐÁP ÁN PHẦN 1: TRẮC NGHIỆM NHIỀU LỰA CHỌN (3,0 điểm)
+| Câu | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Đáp án** | **A** | **A** | **A** | **A** | **A** | **A** | **A** | **A** | **A** | **A** | **A** | **A** |
+
+### 2. BẢNG ĐÁP ÁN PHẦN 2: TRẮC NGHIỆM ĐÚNG / SAI (2,0 điểm)
+| Câu | Ý a | Ý b | Ý c | Ý d | Ghi chú |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Câu 13** | **Đ** | **Đ** | **S** | **Đ** | Ý c) sai vì lượng muối nguyên chất là 100g. |
+| **Câu 14** | **Đ** | **Đ** | **Đ** | **S** | Ý d) sai vì $AC \cdot BD = R^2$. |
+
+### 3. BẢNG ĐÁP ÁN PHẦN 3: TRẮC NGHIỆM TRẢ LỜI NGẮN (2,0 điểm)
+* Câu 15: **$x < 1$**
+* Câu 16: **$3$**
+* Câu 17: **$3{,}63\text{ m}$**
+* Câu 18: **$392{,}5\text{ cm}^2$**
+
+## PHẦN II. TỰ LUẬN (3,0 ĐIỂM)
+* **Câu 19a (0,5đ):** $(x; y) = (1; 2)$.
+* **Câu 19b (0,5đ):** $M = \dfrac{\sqrt{x}-2}{3\sqrt{x}}$.
+* **Câu 20a (0,75đ):** $\widehat{COD} = 90^\circ$ và $CD = AC + BD$.
+* **Câu 20b (0,75đ):** $MK \parallel AC$ và $MK \cdot (AC + BD) = AC \cdot BD$.
+* **Câu 21a (0,25đ):** $x = 10\text{ cm}$, $V_{\max} = 16000\text{ cm}^3$.
+* **Câu 21b (0,25đ):** $\min S = \dfrac{3}{2}$ khi $x = y = 1$.
+'''
+
+with open(f'{folder_04}/De_Thi_Thu_Toan_9_De_04.tex', 'w', encoding='utf-8') as f:
+    f.write(tex_exam_04)
+
+with open(f'{folder_04}/DAP_AN_VA_LOI_GIAI_CHI_TIET_DE_04.tex', 'w', encoding='utf-8') as f:
+    f.write(tex_sol_04)
+
+with open(f'{folder_04}/DAP_AN_VA_LOI_GIAI_CHI_TIET_DE_04.md', 'w', encoding='utf-8') as f:
+    f.write(md_sol_04)
+
+print("Generated files for DE_04 successfully!")
